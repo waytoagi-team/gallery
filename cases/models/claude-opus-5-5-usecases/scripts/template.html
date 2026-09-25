@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Opus 5.5 Use Cases</title>
-<meta name="description" content="Claude Opus 5.5 公开使用案例合集：cheerselfai.com 整理的案例 + X / GitHub / Web 补充。">
+<meta name="description" content="Claude Opus 5.5 公开使用案例合集：来自 X、GitHub、Hacker News 与网页的案例。">
 <style>
 :root{
   --bg:#f6f4ef; --surface:#fffdf9; --surface-2:#efebe3; --ink:#1d1b18; --ink-2:#5a554c; --ink-3:#8b857a;
@@ -134,20 +134,20 @@ footer{border-top:1px solid var(--line);padding:24px 0 48px;color:var(--ink-3);f
   const CASES = DATA.cases, CATS = DATA.meta.categories;
   const EVS = ['演示','评测','集成','教程','限制'];
   const EV_EN = {'演示':'Demo','评测':'Evaluation','集成':'Integration','教程':'Tutorial','限制':'Limitation'};
-  const SRC = {cheerselfai:{zh:'cheerselfai 整理',en:'cheerselfai'}, x:{zh:'X 补充',en:'X (new)'}, github:{zh:'GitHub',en:'GitHub'}, hn:{zh:'Hacker News',en:'Hacker News'}, web:{zh:'Web / 博客 / 媒体',en:'Web / blogs / news'}};
+  const SRC = {x:{zh:'X',en:'X'}, github:{zh:'GitHub',en:'GitHub'}, hn:{zh:'Hacker News',en:'Hacker News'}, web:{zh:'Web / 博客 / 媒体',en:'Web / blogs / news'}};
   const T = {
     zh:{eyebrow:'Claude Opus 5.5 · Use Case Atlas', h1:'Opus 5.5 使用案例合集',
-      lede:`汇总 <a href="https://cheerselfai.com/usecase/claude-opus-5-5" target="_blank" rel="noopener">cheerselfai.com</a> 整理的全部公开案例，并补充 X、GitHub 与网页（官方、博客、媒体、社区）上检索到的更多案例。案例描述保留作者自述与推广属性，数量不等于独立成功项目数。`,
+      lede:`Claude Opus 5.5 发布后，X、GitHub、Hacker News 与网页（官方、博客、媒体、社区）上的公开使用案例。案例描述保留作者自述与推广属性，数量不等于独立成功项目数。`,
       byCat:'按任务类别（点击筛选）', top:'点赞最多', search:'搜索标题、描述、作者…', all:'全部',
       sort:{default:'默认顺序',likes:'点赞 ↓',bookmarks:'收藏 ↓',new:'时间：新→旧',old:'时间：旧→新'}, evAll:'全部证据类型',
-      stats:['案例总数','任务类别','cheerselfai 案例','新增补充','X 总点赞'], shown:n=>`${n} 个案例`, empty:'没有匹配的案例', open:'原帖 ↗',
-      footer:'数据来源：cheerselfai.com（林悦己）案例库 + X / GitHub / Web 检索补充。所有链接指向原始出处，请以原帖为准。'},
+      stats:['案例总数','任务类别','来自 X','其他渠道','X 总点赞'], shown:n=>`${n} 个案例`, empty:'没有匹配的案例', open:'原帖 ↗',
+      footer:'WaytoAGI Gallery · 所有链接指向原始出处，请以原帖为准。'},
     en:{eyebrow:'Claude Opus 5.5 · Use Case Atlas', h1:'Opus 5.5 Use Cases',
-      lede:`Every public case curated by <a href="https://cheerselfai.com/en/usecase/claude-opus-5-5" target="_blank" rel="noopener">cheerselfai.com</a>, plus additional cases found on X, GitHub and the open web (official posts, blogs, news, communities). Descriptions keep authors' own claims and promo disclosures; case count ≠ independent successes.`,
+      lede:`Public Claude Opus 5.5 use cases from X, GitHub, Hacker News and the open web (official posts, blogs, news, communities). Descriptions keep authors' own claims and promo disclosures; case count ≠ independent successes.`,
       byCat:'By task category (click to filter)', top:'Most liked', search:'Search titles, summaries, authors…', all:'All',
       sort:{default:'Default order',likes:'Likes ↓',bookmarks:'Bookmarks ↓',new:'Newest first',old:'Oldest first'}, evAll:'All evidence types',
-      stats:['Total cases','Categories','cheerselfai cases','Newly added','Total X likes'], shown:n=>`${n} cases`, empty:'No matching cases', open:'Source ↗',
-      footer:'Sources: the cheerselfai.com use-case library + additional search across X / GitHub / the web. All links point to the original sources.'}
+      stats:['Total cases','Categories','From X','Other sources','Total X likes'], shown:n=>`${n} cases`, empty:'No matching cases', open:'Source ↗',
+      footer:'WaytoAGI Gallery · All links point to the original sources.'}
   };
   const store = { get(k){try{return localStorage.getItem(k)}catch{return null}}, set(k,v){try{localStorage.setItem(k,v)}catch{}} };
   const st = {lang: store.get('lang') || 'zh', q:'', cat:null, src:null, ev:'', sort:'default', shown:0};
@@ -191,8 +191,8 @@ footer{border-top:1px solid var(--line);padding:24px 0 48px;color:var(--ink-3);f
     [...$('#sort').options].forEach(o => o.textContent = L().sort[o.value]);
     $('#ev').innerHTML = `<option value="">${L().evAll}</option>` + EVS.map(e => `<option value="${e}">${st.lang==='en'?EV_EN[e]:e} (${CASES.filter(c=>c.evidenceType===e).length})</option>`).join('');
     $('#ev').value = st.ev;
-    const base = CASES.filter(c => c.source === 'cheerselfai').length;
-    const likes = CASES.reduce((s,c) => s + (c.source==='cheerselfai' ? (c.likes||0) : 0), 0);
+    const base = CASES.filter(c => c.source === 'x').length;
+    const likes = CASES.reduce((s,c) => s + (c.likes||0), 0);
     const vals = [CASES.length, Object.keys(CATS).length, base, CASES.length - base, fmt(likes)];
     $('#stats').innerHTML = vals.map((v,i) => `<div class="stat"><b>${typeof v==='number'?v.toLocaleString():v}</b><span>${L().stats[i]}</span></div>`).join('');
     const hl = CASES.filter(c => c.likes).sort((a,b) => b.likes - a.likes).slice(0, 8);
@@ -215,7 +215,7 @@ footer{border-top:1px solid var(--line);padding:24px 0 48px;color:var(--ink-3);f
     const cat = CATS[c.category]?.[st.lang] || c.category;
     const thumb = c.poster
       ? `<div class="thumb"><img loading="lazy" referrerpolicy="no-referrer" src="${esc(c.poster)}" alt="" onerror="this.parentNode.remove()">${c.mediaKind==='video'?'<span class="play">▶ video</span>':''}</div>`
-      : (c.source !== 'cheerselfai' ? `<div class="thumb src">${esc(c.platform)}</div>` : '');
+      : `<div class="thumb src">${esc(c.platform)}</div>`;
     const nums = [c.likes!=null?`♥ ${fmt(c.likes)}`:'', c.bookmarks!=null?`⚑ ${fmt(c.bookmarks)}`:'', c.stars!=null?`★ ${fmt(c.stars)}`:''].filter(Boolean).join(' · ');
     return `<article class="card">${thumb}<div class="body">
       <div class="meta"><span class="ev" data-ev="${esc(c.evidenceType)}">${esc(st.lang==='en'?c.evidenceType_en:c.evidenceType)}</span><span>${esc(cat)}</span>${c.date?`<span>· ${esc(c.date)}</span>`:''}</div>

@@ -1,5 +1,5 @@
-"""Normalize cheerselfai.com Opus 5.5 use cases (zh + en) into data/cheerselfai_cases.json / .csv."""
-import csv, json, pathlib
+"""Normalize the base Opus 5.5 use cases (zh + en) into data/base_cases.json."""
+import json, pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -29,15 +29,15 @@ def clean(obj):
 
 
 def main():
-    raw = json.loads((DATA / "_raw_cheerselfai.json").read_text())
+    raw = json.loads((DATA / "_raw_base.json").read_text())
     zh, en = raw["zh"], raw["en"]
     cases = []
     for cid, z in sorted(zh.items(), key=lambda kv: kv[1]["caseNumber"]):
         z, e = clean(z), clean(en.get(cid, {}))
         cases.append({
-            "id": f"cs-{z['caseNumber']:04d}",
-            "source": "cheerselfai",
-            "platform": "X",
+            "id": f"uc-{z['caseNumber']:04d}",
+            "source": "hn" if "ycombinator.com" in z["sourceUrl"] else "x",
+            "platform": "Hacker News" if "ycombinator.com" in z["sourceUrl"] else "X",
             "category": z["category"],
             "evidenceType": z["evidenceType"],
             "evidenceType_en": EVIDENCE.get(z["evidenceType"], z["evidenceType"]),
@@ -54,12 +54,8 @@ def main():
             "poster": z.get("poster"),
             "video": z.get("video"),
         })
-    meta = {"categories": {k: {"zh": v[0], "en": v[1]} for k, v in CATEGORIES.items()},
-            "source": "https://cheerselfai.com/usecase/claude-opus-5-5", "count": len(cases)}
-    (DATA / "cheerselfai_cases.json").write_text(json.dumps({"meta": meta, "cases": cases}, ensure_ascii=False, indent=1))
-    with open(DATA / "cheerselfai_cases.csv", "w", newline="", encoding="utf-8-sig") as f:
-        w = csv.DictWriter(f, fieldnames=[k for k in cases[0] if k not in ("poster", "video")], extrasaction="ignore")
-        w.writeheader(); w.writerows(cases)
+    meta = {"categories": {k: {"zh": v[0], "en": v[1]} for k, v in CATEGORIES.items()}, "count": len(cases)}
+    (DATA / "base_cases.json").write_text(json.dumps({"meta": meta, "cases": cases}, ensure_ascii=False, indent=1))
     print(len(cases), "cases")
 
 

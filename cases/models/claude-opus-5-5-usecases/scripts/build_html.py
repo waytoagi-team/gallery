@@ -1,5 +1,5 @@
 """Merge all use-case sources into data/all_cases.json and render site/index.html."""
-import json, pathlib, re
+import csv, json, pathlib, re
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -15,7 +15,7 @@ def norm_url(u):
 
 
 def main():
-    base = json.loads((DATA / "cheerselfai_cases.json").read_text())
+    base = json.loads((DATA / "base_cases.json").read_text())
     meta, cases = base["meta"], base["cases"]
     seen = {norm_url(c["sourceUrl"]) for c in cases}
     added = {}
@@ -48,6 +48,10 @@ def main():
             added[cases[-1]["source"]] = added.get(cases[-1]["source"], 0) + 1
     meta = {**meta, "count": len(cases), "added": added}
     (DATA / "all_cases.json").write_text(json.dumps({"meta": meta, "cases": cases}, ensure_ascii=False, indent=1))
+    fields = [k for k in cases[0] if k not in ("poster", "video")] + ["stars"]
+    with open(DATA / "all_cases.csv", "w", newline="", encoding="utf-8-sig") as f:
+        w = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
+        w.writeheader(); w.writerows(cases)
 
     # compact payload for the page
     keep = ["id", "source", "platform", "category", "evidenceType", "evidenceType_en", "title", "title_en",
