@@ -11,7 +11,9 @@
 | 模型案例 | [`cases/models`](cases/models) | LLM、多模态、图像、视频、语音等模型的应用案例 |
 | 工具案例 | [`cases/tools`](cases/tools) | Agent、工作流、编程、研究、创作与自动化工具案例 |
 
-> 仓库刚刚创建，欢迎提交第一个 Case。
+### 最新收录
+
+- [Claude Opus 5.5 使用案例合集](cases/models/claude-opus-5-5-usecases)：1795 条公开案例，含结构化数据与可离线浏览的 HTML
 
 ## 提交一个 Case
 
