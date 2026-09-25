@@ -1,0 +1,48 @@
+name: Case submission
+description: 推荐一个值得收录的模型或工具案例
+title: "[Case]: "
+labels: ["case-submission"]
+body:
+  - type: dropdown
+    id: category
+    attributes:
+      label: 分类
+      options:
+        - Model
+        - Tool
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: 案例名称
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: 原始来源
+      description: 文章、视频、仓库、Demo 或社交媒体链接
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: 案例简介
+      description: 它解决了什么问题？为什么值得收录？
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现信息
+      description: 已知的环境、步骤、Prompt、代码或成本
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: 合规确认
+      options:
+        - label: 我已移除密钥和个人敏感信息
+          required: true
+        - label: 我已标注原作者和来源，并披露相关商业关系
+          required: true
