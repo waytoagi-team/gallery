@@ -1,4 +1,4 @@
-"""Fetch cheerselfai.com Opus 5.5 use cases (zh + en) into data/_raw_cheerselfai.json.
+"""Fetch the base Opus 5.5 use-case list (zh + en) into data/_raw_base.json.
 
 The page is a Next.js app; every case object is embedded in the RSC flight payload
 (self.__next_f.push chunks), even though only the first ~20 are rendered server-side.
@@ -27,7 +27,7 @@ def fetch_cases(url):
 
 def main():
     raw = {lang: fetch_cases(url) for lang, url in URLS.items()}
-    (ROOT / "data" / "_raw_cheerselfai.json").write_text(json.dumps(raw, ensure_ascii=False))
+    (ROOT / "data" / "_raw_base.json").write_text(json.dumps(raw, ensure_ascii=False))
     print({k: len(v) for k, v in raw.items()})
 
 
