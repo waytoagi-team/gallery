@@ -3,7 +3,9 @@ import csv, json, pathlib, re
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
-EXTRA_FILES = ["extra_x.json", "extra_github.json", "extra_hn.json", "extra_web.json"]
+EXTRA_FILES = ["extra_x.json", "extra_github.json", "extra_hn.json", "extra_web.json", "extra_lists.json",
+               "extra_reddit.json", "extra_video.json"]
+PLATFORM_SOURCE = {"X": "x", "GitHub": "github", "Hacker News": "hn", "Reddit": "reddit", "YouTube": "video", "Bilibili": "video"}
 EVIDENCE = {"演示": "Demo", "评测": "Evaluation", "集成": "Integration", "教程": "Tutorial", "限制": "Limitation"}
 
 
@@ -33,8 +35,8 @@ def main():
             src = fn[len("extra_"):-len(".json")]
             cases.append({
                 "id": f"{src}-{i + 1:03d}",
-                # HN items found by the web search are grouped with the dedicated HN pass
-                "source": "hn" if c.get("platform") == "Hacker News" else src,
+                # group by where the case lives, not by which search pass found it
+                "source": PLATFORM_SOURCE.get(c.get("platform"), "web" if src in ("lists", "reddit", "video") else src),
                 "platform": c.get("platform") or src,
                 "category": c["category"],
                 "evidenceType": c.get("evidenceType", "演示"),
@@ -42,11 +44,19 @@ def main():
                 "title": c.get("title") or c.get("title_en"), "title_en": c.get("title_en") or c.get("title"),
                 "summary": c.get("summary") or c.get("summary_en"), "summary_en": c.get("summary_en") or c.get("summary"),
                 "author": c.get("author"), "sourceUrl": c["sourceUrl"], "date": c.get("date"),
-                "likes": c.get("likes"), "bookmarks": c.get("bookmarks"), "stars": c.get("stars"),
-                "mediaKind": "none",
+                "likes": c.get("likes"), "bookmarks": c.get("bookmarks"), "stars": c.get("stars"), "views": c.get("views"),
+                "mediaKind": c.get("mediaKind") or "none", "poster": c.get("poster"),
             })
             added[cases[-1]["source"]] = added.get(cases[-1]["source"], 0) + 1
-    meta = {**meta, "count": len(cases), "added": added}
+    # snapshot date = newest dated case (sources lag a day or two behind the fetch)
+    for c in cases:
+        # video thumbnails: derive YouTube posters from the id, force https for Bilibili's CDN
+        m = re.search(r"(?:youtube\.com/watch\?v=|youtu\.be/)([\w-]{11})", c["sourceUrl"])
+        if m and not c.get("poster"):
+            c["poster"], c["mediaKind"] = f"https://i.ytimg.com/vi/{m.group(1)}/hqdefault.jpg", "video"
+        if (c.get("poster") or "").startswith(("http://", "//")) and "hdslb.com" in c["poster"]:
+            c["poster"] = "https://" + c["poster"].split("//", 1)[1]
+    meta = {**meta, "count": len(cases), "added": added, "asOf": max(c["date"] for c in cases if c.get("date"))}
     (DATA / "all_cases.json").write_text(json.dumps({"meta": meta, "cases": cases}, ensure_ascii=False, indent=1))
     fields = [k for k in cases[0] if k not in ("poster", "video")] + ["stars"]
     with open(DATA / "all_cases.csv", "w", newline="", encoding="utf-8-sig") as f:
@@ -55,7 +65,7 @@ def main():
 
     # compact payload for the page
     keep = ["id", "source", "platform", "category", "evidenceType", "evidenceType_en", "title", "title_en",
-            "summary", "summary_en", "author", "sourceUrl", "date", "likes", "bookmarks", "stars", "mediaKind", "poster"]
+            "summary", "summary_en", "author", "sourceUrl", "date", "likes", "bookmarks", "stars", "views", "mediaKind", "poster"]
     payload = {"meta": meta, "cases": [{k: c[k] for k in keep if c.get(k) not in (None, "")} for c in cases]}
     blob = json.dumps(payload, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     tpl = (ROOT / "scripts" / "template.html").read_text()
