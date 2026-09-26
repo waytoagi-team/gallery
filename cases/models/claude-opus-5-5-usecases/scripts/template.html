@@ -3,129 +3,322 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Opus 5.5 Use Cases</title>
+<title>Opus 5.5 Use Cases · WaytoAGI</title>
 <meta name="description" content="Claude Opus 5.5 公开使用案例合集：来自 X、GitHub、Hacker News 与网页的案例。">
 <style>
 :root{
-  --bg:#f6f4ef; --surface:#fffdf9; --surface-2:#efebe3; --ink:#1d1b18; --ink-2:#5a554c; --ink-3:#8b857a;
-  --line:#e2ddd2; --accent:#c2562f; --accent-soft:#f5e3d9; --focus:#2f6fc2;
-  --ev-demo:#3d7a52; --ev-eval:#2f6fc2; --ev-int:#7a4fb0; --ev-tut:#a07a12; --ev-lim:#b23b3b;
-  --shadow:0 1px 2px rgba(40,30,10,.06),0 4px 16px rgba(40,30,10,.05);
-}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --bg:#151412; --surface:#1e1c19; --surface-2:#282521; --ink:#eeeae2; --ink-2:#b4ada1; --ink-3:#847d71;
-  --line:#34302a; --accent:#e27b52; --accent-soft:#3a261c; --focus:#6fa4ea;
-  --ev-demo:#72b98a; --ev-eval:#6fa4ea; --ev-int:#b391e0; --ev-tut:#d8b24a; --ev-lim:#e57878;
-  --shadow:none;
-}}
-:root[data-theme="dark"]{
-  --bg:#151412; --surface:#1e1c19; --surface-2:#282521; --ink:#eeeae2; --ink-2:#b4ada1; --ink-3:#847d71;
-  --line:#34302a; --accent:#e27b52; --accent-soft:#3a261c; --focus:#6fa4ea;
-  --ev-demo:#72b98a; --ev-eval:#6fa4ea; --ev-int:#b391e0; --ev-tut:#d8b24a; --ev-lim:#e57878;
-  --shadow:none;
+  --ink:#241E1E; --green:#238653; --green-deep:#176A42; --lime:#C9DF8D; --lilac:#EAD8EB;
+  --purple:#AD85BA; --blue:#103CA0; --paper:#FFFFFF; --line:#DDD7DB;
+  --ink-2:#5d5656; --ink-3:#8a8384; --soft:#f6f4f5;
+  --font-cn:'Source Han Sans SC','Source Han Sans CN','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;
+  --font-display:'Avenir Next','Avenir','Helvetica Neue','Source Han Sans SC','PingFang SC',sans-serif;
+  --mono:'SFMono-Regular','SF Mono','Roboto Mono',Consolas,monospace;
+  --wrap:min(88vw,1280px);
 }
 *{box-sizing:border-box}
-html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 ui-sans-serif,system-ui,-apple-system,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif}
-a{color:inherit}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.8 var(--font-cn);
+  font-synthesis:none;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overflow-x:hidden}
+a{color:inherit;text-decoration:none;transition:color .15s}
+a:hover{color:var(--blue)}
 button,input,select{font:inherit;color:inherit}
-:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
-.wrap{max-width:1280px;margin:0 auto;padding:0 16px}
-header.top{padding:40px 0 24px;border-bottom:1px solid var(--line)}
-.eyebrow{font:600 12px/1 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
-h1{font:700 clamp(28px,5vw,48px)/1.1 ui-serif,Georgia,"Songti SC",serif;margin:10px 0 12px;letter-spacing:-.01em}
-.lede{color:var(--ink-2);max-width:760px;margin:0}
-.lede a{color:var(--accent)}
-.toolbar-top{display:flex;gap:8px;position:absolute;right:16px;top:16px}
-.pill-btn{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:4px 12px;cursor:pointer;font-size:13px}
-.pill-btn[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
-.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin-top:24px}
-.stat{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
-.stat b{display:block;font:700 26px/1.1 ui-serif,Georgia,serif;font-variant-numeric:tabular-nums}
-.stat span{color:var(--ink-3);font-size:12px}
-section.overview{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:24px;padding:28px 0;border-bottom:1px solid var(--line)}
-@media (max-width:820px){section.overview{grid-template-columns:1fr}}
-h2{font:600 13px/1 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);margin:0 0 14px}
-.bars{display:flex;flex-direction:column;gap:4px}
-.bar{display:grid;grid-template-columns:minmax(0,170px) minmax(0,1fr) 44px;align-items:center;gap:10px;background:none;border:0;padding:4px 6px;border-radius:6px;cursor:pointer;text-align:left}
-.bar:hover{background:var(--surface-2)}
-.bar[aria-pressed="true"]{background:var(--accent-soft)}
-.bar .lbl{font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.bar .track{height:10px;background:var(--surface-2);border-radius:5px;overflow:hidden}
-.bar .fill{display:block;height:100%;background:var(--accent);border-radius:5px}
-.bar .n{font:12px ui-monospace,Menlo,monospace;color:var(--ink-2);text-align:right;font-variant-numeric:tabular-nums}
-.highlights{display:flex;flex-direction:column;gap:8px}
-.hl{display:flex;gap:10px;align-items:baseline;padding:8px 10px;background:var(--surface);border:1px solid var(--line);border-radius:8px;text-decoration:none}
-.hl:hover{border-color:var(--accent)}
-.hl .rk{font:700 13px ui-monospace,Menlo,monospace;color:var(--accent);min-width:22px}
-.hl .t{font-size:14px;flex:1;min-width:0}
-.hl .m{font:12px ui-monospace,Menlo,monospace;color:var(--ink-3);white-space:nowrap}
-.controls{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);padding:12px 0}
+:focus-visible{outline:3px solid #D60085;outline-offset:5px}
+.wrap{width:var(--wrap);margin:0 auto}
+.mono{font-family:var(--mono)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* Header */
+.hdr{border-bottom:1px solid var(--line);background:var(--paper);position:relative;z-index:20}
+.hdr .wrap{display:flex;align-items:center;gap:24px;min-height:88px}
+.brand{display:flex;align-items:center;gap:16px;flex:none}
+.brand svg{width:216px;height:auto;display:block}
+.brand .cn{font:700 22px/1 var(--font-display);padding-left:16px;border-left:1px solid var(--ink);white-space:nowrap}
+.nav{margin-left:auto;display:flex;align-items:center;gap:30px}
+.nav a,.nav button.lang{font-size:14px;background:none;border:0;padding:0;cursor:pointer}
+.nav button.lang{font-family:var(--mono);font-size:12px;border:1px solid var(--ink);padding:3px 9px}
+.nav button.lang:hover{color:var(--blue);border-color:var(--blue)}
+.nav .cta{display:inline-flex;align-items:center;gap:10px;background:var(--ink);color:var(--paper)!important;padding:11px 18px;font-weight:600;font-size:14px;transition:background .15s}
+.nav .cta:hover{background:var(--blue)}
+.menu-btn{display:none;margin-left:auto;width:44px;height:44px;border:1px solid var(--ink);background:var(--paper);cursor:pointer;align-items:center;justify-content:center}
+.menu-btn span{display:block;width:18px;height:2px;background:var(--ink);box-shadow:0 -6px 0 var(--ink),0 6px 0 var(--ink)}
+
+/* Hero */
+.hero{padding:72px 0 56px}
+.hero-top{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:48px;align-items:start}
+.kicker{font:12px/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--ink-2)}
+.hero h1{font:800 clamp(30px,6.6vw,90px)/1.02 var(--font-display);letter-spacing:-.035em;margin:22px 0 0}
+.hero h1 .line{display:block}
+.chip-t{display:inline-block;position:relative;padding:.04em .22em .1em;margin:.12em .08em 0 0;border:1.5px solid var(--ink);line-height:1.05}
+.chip-t::before,.chip-t::after{content:"";position:absolute;width:9px;height:9px;border-radius:50%;background:var(--paper);border:1.5px solid var(--ink)}
+.chip-t::before{left:-6px;top:-6px}.chip-t::after{right:-6px;bottom:-6px}
+.chip-t.g{background:var(--green);color:var(--paper);transform:rotate(-2deg)}
+.chip-t.l{background:var(--lilac);transform:rotate(1.6deg)}
+.tagline{margin:36px 0 0;max-width:760px;font-size:16px;color:var(--ink)}
+.tagline b{font:700 1.15em var(--font-display);color:var(--green-deep);font-variant-numeric:tabular-nums}
+.info-card{border:1px solid var(--ink);padding:24px;background-color:var(--lilac);
+  background-image:linear-gradient(rgba(36,30,30,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(36,30,30,.08) 1px,transparent 1px);background-size:16px 16px}
+.info-card .mono{font-size:11px;letter-spacing:.12em;text-transform:uppercase}
+.info-card dl{margin:16px 0 0;display:grid;gap:12px}
+.info-card dt{font:11px var(--mono);color:var(--ink-2);text-transform:uppercase;letter-spacing:.08em}
+.info-card dd{margin:0;font:700 15px/1.4 var(--font-display)}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;margin-top:48px;border-top:1px solid var(--ink)}
+.stat{padding:20px 24px 4px 0}
+.stat b{display:block;font:800 clamp(27px,4vw,56px)/1 var(--font-display);letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.stat span{font:11px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2)}
+.stat.hl b{color:var(--green-deep)}
+
+/* Route bar */
+.route{padding:8px 0 16px}
+.route-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0 24px}
+.route-item{display:flex;flex-direction:column;justify-content:flex-start;align-items:flex-start;text-align:left;background:none;border:0;border-top:3px solid var(--line);padding:18px 0 8px;cursor:pointer;transition:border-color .15s}
+.route-item:hover{border-top-color:var(--ink)}
+.route-item[aria-pressed="true"]{border-top-color:var(--green)}
+.route-item .no{font:12px var(--mono);color:var(--ink-3)}
+.route-item .en{display:block;font:800 clamp(22px,2.2vw,30px)/1.1 var(--font-display);text-transform:uppercase;letter-spacing:-.02em;margin:6px 0 6px}
+.route-item .en small{font:500 13px var(--mono);letter-spacing:0;color:var(--green-deep);margin-left:8px;font-variant-numeric:tabular-nums}
+.route-item .zh{font-size:13.5px;color:var(--ink-2);line-height:1.7}
+.route-result{margin-top:16px;display:flex;flex-wrap:wrap;gap:8px 20px;align-items:center;padding:14px 18px;background:var(--soft);border-left:3px solid var(--green);font-size:14px}
+.route-result a{color:var(--blue);font-weight:600}
+.route-result a:hover{color:var(--green)}
+.route-result button{background:none;border:0;padding:0;color:var(--blue);font-weight:600;cursor:pointer}
+
+/* Section rule */
+section.sec{padding:80px 0 0}
+.rule{display:flex;align-items:center;gap:16px;border-bottom:2px solid var(--blue);padding-bottom:16px;margin-bottom:32px}
+.rule .no{flex:none;display:grid;place-items:center;width:52px;height:52px;background:var(--ink);color:var(--paper);font:700 16px var(--mono)}
+.rule h2{margin:0;font:800 clamp(20px,3.2vw,44px)/1.1 var(--font-display);letter-spacing:-.02em}
+.rule h2 span{padding:0 .2em;display:inline-block}
+.rule h2 .bg-lime{background:var(--lime)}.rule h2 .bg-lilac{background:var(--lilac);color:var(--ink)}.rule h2 .bg-green{background:var(--green);color:var(--paper)}
+.rule .desc{margin-left:auto;font:12px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);text-align:right}
+
+/* Overview */
+.overview{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:40px}
+.sub{font:12px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);margin:0 0 16px}
+.bars{display:flex;flex-direction:column}
+.bar{display:grid;grid-template-columns:minmax(0,180px) minmax(0,1fr) 48px;align-items:center;gap:12px;background:none;border:0;border-bottom:1px solid var(--line);padding:9px 8px;cursor:pointer;text-align:left}
+.bar:hover .lbl{color:var(--blue)}
+.bar[aria-pressed="true"]{background:var(--lime)}
+.bar .lbl{font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;transition:color .15s}
+.bar .track{height:8px;background:var(--soft)}
+.bar .fill{display:block;height:100%;background:var(--green)}
+.bar[aria-pressed="true"] .track{background:var(--paper)}
+.bar .n{font:12px var(--mono);text-align:right;font-variant-numeric:tabular-nums}
+.tops{list-style:none;margin:0;padding:0}
+.tops a{display:grid;grid-template-columns:32px minmax(0,1fr) auto;gap:12px;align-items:baseline;padding:11px 0;border-bottom:1px solid var(--line)}
+.tops .rk{font:700 12px var(--mono);color:var(--blue)}
+.tops .t{font-size:14.5px;line-height:1.5}
+.tops .m{font:12px var(--mono);color:var(--ink-2);font-variant-numeric:tabular-nums}
+
+/* Evidence – dark partner grid */
+.dark{background:var(--ink);color:var(--paper);margin-top:80px;padding:72px 0}
+.dark .rule{border-bottom-color:var(--lilac)}
+.dark .rule .no{background:var(--paper);color:var(--ink)}
+.dark .rule .desc{color:#b9b1b3}
+.ev-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px 40px}
+.ev-item{display:grid;align-content:start;grid-template-columns:44px minmax(0,1fr);gap:4px 16px;background:none;border:0;border-top:1px solid rgba(255,255,255,.18);padding:20px 0 4px;text-align:left;color:var(--paper);cursor:pointer}
+.ev-item .no{grid-row:span 2;width:44px;height:44px;display:grid;place-items:center;background:var(--paper);color:var(--ink);font:700 14px var(--mono)}
+.ev-item .t{font:800 22px/1.2 var(--font-display)}
+.ev-item .t small{font:500 12px var(--mono);color:var(--lime);margin-left:8px;font-variant-numeric:tabular-nums}
+.ev-item .d{font-size:13.5px;color:#cfc8ca;line-height:1.7}
+.ev-item:hover .t{color:var(--lime)}
+.ev-item[aria-pressed="true"]{border-top:3px solid var(--lime)}
+.ev-item[aria-pressed="true"] .no{background:var(--lime)}
+.dark .foot-rule{margin:40px 0 0;padding-top:20px;border-top:1px solid rgba(255,255,255,.18);font-size:13.5px;color:#cfc8ca}
+
+/* Controls + grid */
+.controls{position:sticky;top:0;z-index:10;background:var(--paper);border-bottom:1px solid var(--line);padding:14px 0}
 .controls .row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
-.controls .row+.row{margin-top:8px}
-.search{flex:1 1 260px;min-width:0;border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:8px 12px}
-select{border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:8px 10px}
-.chips{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;max-width:100%}
-.chips::-webkit-scrollbar{display:none}
-.chip{flex:none;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:4px 11px;font-size:13px;cursor:pointer;white-space:nowrap}
-.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
-.chip small{opacity:.6;margin-left:4px;font-variant-numeric:tabular-nums}
-.count{color:var(--ink-3);font-size:13px;margin-left:auto}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px;padding:18px 0 40px}
-.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column;box-shadow:var(--shadow)}
-.thumb{aspect-ratio:16/9;background:var(--surface-2);position:relative;overflow:hidden}
+.search{flex:1 1 280px;min-width:0;border:1px solid var(--ink);background:var(--paper);padding:10px 14px;border-radius:0}
+select{border:1px solid var(--ink);background:var(--paper);padding:10px 12px;border-radius:0}
+.active{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.active:empty{display:none}
+.pill{border:1px solid var(--ink);background:var(--lilac);padding:2px 10px;font-size:12.5px;cursor:pointer}
+.pill:hover{background:var(--lime)}
+.count{font:12px var(--mono);color:var(--ink-2);margin-left:auto;white-space:nowrap}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:24px;padding:32px 0 24px}
+.card{background:var(--paper);border:1px solid var(--line);display:flex;flex-direction:column;transition:border-color .15s}
+.card:hover{border-color:var(--ink)}
+.thumb{aspect-ratio:16/9;background:var(--soft);position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
 .thumb img{width:100%;height:100%;object-fit:cover;display:block}
-.thumb .play{position:absolute;right:8px;bottom:8px;background:rgba(0,0,0,.6);color:#fff;font-size:11px;padding:2px 7px;border-radius:4px}
-.thumb.src{display:flex;align-items:center;justify-content:center;font:700 22px ui-serif,Georgia,serif;color:var(--ink-3);aspect-ratio:auto;height:56px;border-bottom:1px solid var(--line);background:repeating-linear-gradient(135deg,var(--surface-2) 0 8px,var(--surface) 8px 16px)}
-.body{padding:12px 14px 14px;display:flex;flex-direction:column;gap:6px;flex:1}
-.meta{display:flex;gap:6px;flex-wrap:wrap;align-items:center;font-size:12px;color:var(--ink-3)}
-.ev{font-weight:600;padding:1px 7px;border-radius:4px;border:1px solid currentColor}
-.ev[data-ev="演示"]{color:var(--ev-demo)}.ev[data-ev="评测"]{color:var(--ev-eval)}.ev[data-ev="集成"]{color:var(--ev-int)}.ev[data-ev="教程"]{color:var(--ev-tut)}.ev[data-ev="限制"]{color:var(--ev-lim)}
-.plat{background:var(--accent-soft);color:var(--accent);padding:1px 7px;border-radius:4px;font-weight:600}
-.card h3{font-size:16px;line-height:1.35;margin:2px 0 0}
-.card p{margin:0;color:var(--ink-2);font-size:13.5px}
-.foot{margin-top:auto;padding-top:8px;display:flex;justify-content:space-between;gap:8px;font-size:12px;color:var(--ink-3);border-top:1px dashed var(--line)}
-.foot a{min-width:0;color:var(--accent);text-decoration:none;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.foot a:hover{text-decoration:underline}
-.nums{font-family:ui-monospace,Menlo,monospace;white-space:nowrap;font-variant-numeric:tabular-nums}
-.empty{grid-column:1/-1;text-align:center;color:var(--ink-3);padding:60px 0}
+.thumb .play{position:absolute;left:0;bottom:0;background:var(--ink);color:var(--paper);font:11px var(--mono);padding:3px 8px;letter-spacing:.06em}
+.thumb.src{aspect-ratio:auto;height:64px;display:flex;align-items:center;padding:0 20px;font:800 20px var(--font-display);text-transform:uppercase;letter-spacing:-.01em;
+  background-color:var(--lilac);background-image:linear-gradient(rgba(36,30,30,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(36,30,30,.07) 1px,transparent 1px);background-size:12px 12px}
+.thumb.src[data-s="github"]{background-color:var(--lime)}
+.thumb.src[data-s="hn"]{background-color:#f3e2c9}
+.thumb.src[data-s="web"]{background-color:#dfe6f4}
+.body{padding:20px 24px 22px;display:flex;flex-direction:column;gap:8px;flex:1}
+.meta{display:flex;gap:6px 10px;flex-wrap:wrap;align-items:center;font:11px/1.6 var(--mono);color:var(--ink-2);letter-spacing:.04em}
+.ev{font-weight:700;padding:0 6px;border:1px solid currentColor}
+.ev[data-evtag="演示"]{color:var(--green-deep)}.ev[data-evtag="评测"]{color:var(--blue)}.ev[data-evtag="集成"]{color:#7b4f8a}.ev[data-evtag="教程"]{color:#7a6512}.ev[data-evtag="限制"]{color:#b0203a}
+.card h3{font:700 17px/1.4 var(--font-display);margin:2px 0 0}
+.card p{margin:0;color:var(--ink-2);font-size:14px;line-height:1.75}
+.foot{margin-top:auto;padding-top:12px;display:flex;justify-content:space-between;gap:10px;align-items:center;border-top:1px solid var(--line);font:12px var(--mono);color:var(--ink-2)}
+.foot a{min-width:0;color:var(--blue);font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.foot a:hover{color:var(--green)}
+.nums{white-space:nowrap;font-variant-numeric:tabular-nums}
+.empty{grid-column:1/-1;text-align:center;color:var(--ink-3);padding:80px 0}
 #sentinel{height:1px}
-footer{border-top:1px solid var(--line);padding:24px 0 48px;color:var(--ink-3);font-size:13px}
-@media (max-width:600px){.bar{grid-template-columns:minmax(0,110px) minmax(0,1fr) 38px}.toolbar-top{position:static;margin-bottom:12px}header.top{padding-top:16px}}
+
+/* Join CTA */
+.join{background:var(--purple);color:var(--ink);padding:80px 0;margin-top:56px}
+.join .wrap{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:48px;align-items:center}
+.join h2{margin:0;font:800 clamp(27px,4vw,52px)/1.1 var(--font-display);letter-spacing:-.02em}
+.join p{margin:18px 0 0;max-width:560px;font-size:15px}
+.entries{display:flex;flex-direction:column;border-top:1px solid rgba(36,30,30,.28)}
+.entry{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:72px;padding:10px 20px;border-bottom:1px solid rgba(36,30,30,.28);font:700 16px/1.4 var(--font-display);transition:transform .18s ease,background .15s}
+.entry:first-child{background:var(--paper);border-bottom-color:transparent}
+.entry .arr{transition:transform .18s ease}
+.entry:hover{transform:translateX(8px);color:var(--ink)}
+.entry:hover .arr{transform:translateX(5px)}
+.entry:focus-visible{outline-color:var(--blue)}
+.entry small{display:block;font:12px var(--mono);font-weight:400;color:rgba(36,30,30,.72)}
+
+/* Footer */
+footer{background:var(--ink);color:#cfc8ca;padding:40px 0 48px;font-size:13px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:16px 32px;align-items:center;justify-content:space-between}
+footer svg{width:170px;height:auto;display:block}
+
+/* Breakpoints */
+@media (min-width:1400px){.hero h1{font-size:96px}.hero{padding-top:96px}}
+@media (min-width:1050px) and (max-width:1399px){.brand .cn{display:none}.nav{gap:22px}.overview{gap:32px}}
+@media (max-width:1049px){.hero-top{grid-template-columns:1fr}.info-card{max-width:480px}.ev-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:760px){
+  body{font-size:14px}
+  .hdr .wrap{min-height:72px}
+  .brand svg{width:170px}
+  .brand .cn{display:none}
+  .menu-btn{display:flex}
+  .nav{display:none;position:absolute;top:100%;left:0;right:0;background:var(--paper);border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch;gap:0;padding:8px 6vw 20px}
+  .nav.open{display:flex}
+  .nav a,.nav button.lang{padding:12px 0;border:0;border-bottom:1px solid var(--line);text-align:left;font-size:14px}
+  .nav .cta{justify-content:space-between;margin-top:12px;padding:14px 16px;border:0}
+  .hero{padding:48px 0 40px}
+  .stats{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .route-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .route-item .en{font-size:25px}
+  section.sec{padding-top:56px}
+  .rule .desc{display:none}
+  .rule .no{width:44px;height:44px}
+  .overview{grid-template-columns:1fr}
+  .bar{grid-template-columns:minmax(0,112px) minmax(0,1fr) 40px;padding:8px 4px}
+  .dark{padding:56px 0;margin-top:56px}
+  .ev-grid{grid-template-columns:1fr;gap:8px}
+  .join{padding:56px 0}
+  .join .wrap{grid-template-columns:1fr;gap:32px}
+  .body{padding:16px 18px 18px}
+}
+@media (max-width:360px){
+  .rule h2{font-size:20px}
+  .route-grid{grid-template-columns:1fr}
+  .meta{font-size:10px}
+  .stat b{font-size:27px}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition:none!important;animation:none!important}
+  .chip-t.g,.chip-t.l{transform:none}
+  .entry:hover,.entry:hover .arr{transform:none}
+}
 </style>
 </head>
 <body>
-<div class="wrap" style="position:relative">
-  <div class="toolbar-top">
-    <button class="pill-btn" id="langBtn" type="button">EN</button>
-    <button class="pill-btn" id="themeBtn" type="button" aria-label="Toggle theme">◐</button>
-  </div>
-  <header class="top">
-    <div class="eyebrow" data-i18n="eyebrow"></div>
-    <h1 data-i18n="h1"></h1>
-    <p class="lede" data-i18n-html="lede"></p>
-    <div class="stats" id="stats"></div>
-  </header>
-  <section class="overview">
-    <div><h2 data-i18n="byCat"></h2><div class="bars" id="bars"></div></div>
-    <div><h2 data-i18n="top"></h2><div class="highlights" id="highlights"></div></div>
-  </section>
-</div>
-<div class="controls">
+<header class="hdr">
   <div class="wrap">
-    <div class="row">
-      <input class="search" id="q" type="search" autocomplete="off">
-      <select id="sort">
-        <option value="default"></option><option value="likes"></option><option value="bookmarks"></option>
-        <option value="new"></option><option value="old"></option>
-      </select>
-      <select id="ev"></select>
-    </div>
-    <div class="row"><div class="chips" id="srcChips"></div><span class="count" id="count"></span></div>
+    <a class="brand" href="https://www.waytoagi.com/" aria-label="WaytoAGI">/*__LOGO_LIGHT__*/<span class="cn">通往AGI之路</span></a>
+    <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="nav"><span aria-hidden="true"></span><b class="sr" data-i18n="menu"></b></button>
+    <nav class="nav" id="nav">
+      <a href="#overview" data-i18n="navOverview"></a>
+      <a href="#evidence" data-i18n="navEvidence"></a>
+      <a href="#cases" data-i18n="navCases"></a>
+      <button class="lang" id="langBtn" type="button"></button>
+      <a class="cta" href="https://github.com/waytoagi-team/gallery" target="_blank" rel="noopener"><span data-i18n="navCta"></span><span aria-hidden="true">↗</span></a>
+    </nav>
   </div>
-</div>
-<main class="wrap"><div class="grid" id="grid"></div><div id="sentinel"></div></main>
-<footer class="wrap" data-i18n-html="footer"></footer>
+</header>
+
+<section class="hero">
+  <div class="wrap hero-top">
+    <div>
+      <div class="kicker" data-i18n="kicker"></div>
+      <h1><span class="line">Claude Opus 5.5</span><span class="line"><span class="chip-t g" data-i18n="chip1"></span> <span class="chip-t l" data-i18n="chip2"></span></span></h1>
+      <p class="tagline" id="tagline"></p>
+    </div>
+    <aside class="info-card">
+      <div class="mono" data-i18n="cardTitle"></div>
+      <dl id="infoCard"></dl>
+    </aside>
+  </div>
+  <div class="wrap"><div class="stats" id="stats"></div></div>
+</section>
+
+<section class="route" aria-labelledby="routeTitle">
+  <div class="wrap">
+    <h2 class="sr" id="routeTitle" data-i18n="routeTitle"></h2>
+    <div class="route-grid" id="route"></div>
+    <div class="route-result" id="routeResult"></div>
+  </div>
+</section>
+
+<section class="sec" id="overview">
+  <div class="wrap">
+    <div class="rule"><span class="no">01</span><h2><span class="bg-lime" data-i18n="s1"></span></h2><span class="desc">Task categories / Most liked</span></div>
+    <div class="overview">
+      <div><p class="sub" data-i18n="byCat"></p><div class="bars" id="bars"></div></div>
+      <div><p class="sub" data-i18n="top"></p><ol class="tops" id="tops"></ol></div>
+    </div>
+  </div>
+</section>
+
+<section class="dark" id="evidence">
+  <div class="wrap">
+    <div class="rule"><span class="no">02</span><h2><span class="bg-lilac" data-i18n="s2"></span></h2><span class="desc">Evidence types</span></div>
+    <div class="ev-grid" id="evGrid"></div>
+    <p class="foot-rule" data-i18n="evNote"></p>
+  </div>
+</section>
+
+<section class="sec" id="cases">
+  <div class="wrap">
+    <div class="rule"><span class="no">03</span><h2><span class="bg-green" data-i18n="s3"></span></h2><span class="desc">Case library</span></div>
+  </div>
+  <div class="controls">
+    <div class="wrap">
+      <div class="row">
+        <label class="sr" for="q" data-i18n="search"></label>
+        <input class="search" id="q" type="search" autocomplete="off">
+        <label class="sr" for="sort" data-i18n="sortLabel"></label>
+        <select id="sort">
+          <option value="default"></option><option value="likes"></option><option value="bookmarks"></option>
+          <option value="new"></option><option value="old"></option>
+        </select>
+        <span class="count" id="count"></span>
+      </div>
+      <div class="active" id="active"></div>
+    </div>
+  </div>
+  <div class="wrap"><div class="grid" id="grid"></div><div id="sentinel"></div></div>
+</section>
+
+<section class="join">
+  <div class="wrap">
+    <div>
+      <h2 data-i18n="joinTitle"></h2>
+      <p data-i18n="joinText"></p>
+    </div>
+    <div class="entries">
+      <a class="entry" href="https://github.com/waytoagi-team/gallery/issues/new/choose" target="_blank" rel="noopener"><span><span data-i18n="j1"></span><small data-i18n="j1s"></small></span><span class="arr" aria-hidden="true">→</span></a>
+      <a class="entry" href="https://github.com/waytoagi-team/gallery/tree/main/cases/models/claude-opus-5-5-usecases" target="_blank" rel="noopener"><span><span data-i18n="j2"></span><small data-i18n="j2s"></small></span><span class="arr" aria-hidden="true">→</span></a>
+      <a class="entry" href="https://www.waytoagi.com/" target="_blank" rel="noopener"><span><span data-i18n="j3"></span><small data-i18n="j3s"></small></span><span class="arr" aria-hidden="true">→</span></a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <a href="https://www.waytoagi.com/" aria-label="WaytoAGI">/*__LOGO_DARK__*/</a>
+    <span data-i18n="footer"></span>
+  </div>
+</footer>
 
 <script id="data" type="application/json">/*__DATA__*/null</script>
 <script>
@@ -134,19 +327,42 @@ footer{border-top:1px solid var(--line);padding:24px 0 48px;color:var(--ink-3);f
   const CASES = DATA.cases, CATS = DATA.meta.categories;
   const EVS = ['演示','评测','集成','教程','限制'];
   const EV_EN = {'演示':'Demo','评测':'Evaluation','集成':'Integration','教程':'Tutorial','限制':'Limitation'};
-  const SRC = {x:{zh:'X',en:'X'}, github:{zh:'GitHub',en:'GitHub'}, hn:{zh:'Hacker News',en:'Hacker News'}, web:{zh:'Web / 博客 / 媒体',en:'Web / blogs / news'}};
+  const EV_DESC = {
+    zh:{'演示':'作者展示用 Opus 5.5 做出的作品或完成的任务。','评测':'与其他模型或旧版本对比，或给出评测分数。','集成':'产品、平台或工具接入 Opus 5.5 的发布与实践。','教程':'提示词、工作流、配置与使用方法。','限制':'失败、误拒、成本过高等已知问题。'},
+    en:{'演示':'Something built or a task completed with Opus 5.5.','评测':'Comparisons with other models or scored evaluations.','集成':'Products, platforms and tools shipping Opus 5.5.','教程':'Prompts, workflows, configs and how-tos.','限制':'Failures, refusals, cost blowups and other known issues.'}
+  };
+  const SRC = {
+    x:{en:'X', zhN:'X', zh:'作品演示、模型对比与产品发布，附点赞与收藏数据。', enD:'Demos, model comparisons and launches, with like/bookmark counts.'},
+    github:{en:'GitHub', zhN:'GitHub', zh:'用 Opus 5.5 构建的项目、评测仓库与兼容性 Issue。', enD:'Projects built with Opus 5.5, eval repos and compatibility issues.'},
+    hn:{en:'Hacker News', zhN:'Hacker News', zh:'开发者第一手经验：具体任务、成本与失败记录。', enD:'First-hand developer reports: concrete tasks, costs and failures.'},
+    web:{en:'Web', zhN:'网页', zh:'官方发布、企业博客、媒体报道与日文 / 中文社区。', enD:'Official posts, company blogs, news and JP / CN communities.'}
+  };
   const T = {
-    zh:{eyebrow:'Claude Opus 5.5 · Use Case Atlas', h1:'Opus 5.5 使用案例合集',
-      lede:`Claude Opus 5.5 发布后，X、GitHub、Hacker News 与网页（官方、博客、媒体、社区）上的公开使用案例。案例描述保留作者自述与推广属性，数量不等于独立成功项目数。`,
-      byCat:'按任务类别（点击筛选）', top:'点赞最多', search:'搜索标题、描述、作者…', all:'全部',
-      sort:{default:'默认顺序',likes:'点赞 ↓',bookmarks:'收藏 ↓',new:'时间：新→旧',old:'时间：旧→新'}, evAll:'全部证据类型',
-      stats:['案例总数','任务类别','来自 X','其他渠道','X 总点赞'], shown:n=>`${n} 个案例`, empty:'没有匹配的案例', open:'原帖 ↗',
+    zh:{menu:'菜单', navOverview:'任务分布', navEvidence:'证据类型', navCases:'案例库', navCta:'提交案例',
+      kicker:'WaytoAGI Gallery · Use Case Atlas', chip1:'真实案例', chip2:'使用图谱',
+      tagline:(n,c,s)=>`Claude Opus 5.5 发布后，X、GitHub、Hacker News 与网页上的公开使用案例，共 <b>${n}</b> 条、<b>${c}</b> 类任务、<b>${s}</b> 个来源。案例描述保留作者自述与推广属性，数量不等于独立成功项目数。`,
+      cardTitle:'Data snapshot', info:[['发布日期','2026-09-22'],['数据截至','2026-09-25'],['字段','类别 · 证据类型 · 中英文摘要 · 原帖链接'],['格式','JSON / CSV · 离线单页']],
+      stats:['案例总数','任务类别','X 总点赞','限制类案例'], routeTitle:'按来源浏览',
+      routeNow:(s,n)=>`当前：${s} · ${n} 条案例`, routeAll:n=>`当前：全部来源 · ${n} 条案例`, clear:'清除来源', toCases:'查看案例 ↓',
+      s1:'任务分布', byCat:'按任务类别（点击筛选）', top:'点赞最多', s2:'证据类型',
+      evNote:'点击任一类型即可筛选案例库；「限制」类汇总了失败、误拒和成本相关的反馈，建议在采用前先看。',
+      s3:'案例库', search:'搜索标题、描述、作者…', sortLabel:'排序', sort:{default:'默认顺序',likes:'点赞从多到少',bookmarks:'收藏从多到少',new:'时间从新到旧',old:'时间从旧到新'},
+      shown:n=>`${n} 个案例`, empty:'没有匹配的案例', open:'原帖', clearAll:'清除全部 ✕',
+      joinTitle:'一起补全这张 Opus 5.5 图谱', joinText:'发现了新的真实案例、复现结果或踩坑记录？欢迎提交到 WaytoAGI Gallery，让更多人少走弯路。',
+      j1:'提交一个案例', j1s:'GitHub Issue · Case submission', j2:'下载数据与脚本', j2s:'JSON / CSV · 可复现', j3:'访问 WaytoAGI', j3s:'通往AGI之路 · 知识库与社区',
       footer:'WaytoAGI Gallery · 所有链接指向原始出处，请以原帖为准。'},
-    en:{eyebrow:'Claude Opus 5.5 · Use Case Atlas', h1:'Opus 5.5 Use Cases',
-      lede:`Public Claude Opus 5.5 use cases from X, GitHub, Hacker News and the open web (official posts, blogs, news, communities). Descriptions keep authors' own claims and promo disclosures; case count ≠ independent successes.`,
-      byCat:'By task category (click to filter)', top:'Most liked', search:'Search titles, summaries, authors…', all:'All',
-      sort:{default:'Default order',likes:'Likes ↓',bookmarks:'Bookmarks ↓',new:'Newest first',old:'Oldest first'}, evAll:'All evidence types',
-      stats:['Total cases','Categories','From X','Other sources','Total X likes'], shown:n=>`${n} cases`, empty:'No matching cases', open:'Source ↗',
+    en:{menu:'Menu', navOverview:'Categories', navEvidence:'Evidence', navCases:'Cases', navCta:'Submit a case',
+      kicker:'WaytoAGI Gallery · Use Case Atlas', chip1:'Real cases', chip2:'Atlas',
+      tagline:(n,c,s)=>`Public Claude Opus 5.5 use cases from X, GitHub, Hacker News and the web: <b>${n}</b> cases, <b>${c}</b> task categories, <b>${s}</b> sources. Descriptions keep authors' own claims and promo disclosures; case count ≠ independent successes.`,
+      cardTitle:'Data snapshot', info:[['Released','2026-09-22'],['Data as of','2026-09-25'],['Fields','Category · evidence type · zh/en summary · source link'],['Formats','JSON / CSV · offline single page']],
+      stats:['Total cases','Categories','Total X likes','Limitation cases'], routeTitle:'Browse by source',
+      routeNow:(s,n)=>`Showing: ${s} · ${n} cases`, routeAll:n=>`Showing: all sources · ${n} cases`, clear:'Clear source', toCases:'Go to cases ↓',
+      s1:'Task categories', byCat:'By task category (click to filter)', top:'Most liked', s2:'Evidence types',
+      evNote:'Click a type to filter the library. "Limitation" collects failures, refusals and cost reports — worth reading before you adopt.',
+      s3:'Case library', search:'Search titles, summaries, authors…', sortLabel:'Sort', sort:{default:'Default order',likes:'Most liked',bookmarks:'Most bookmarked',new:'Newest first',old:'Oldest first'},
+      shown:n=>`${n} cases`, empty:'No matching cases', open:'Source', clearAll:'Clear all ✕',
+      joinTitle:'Help complete the Opus 5.5 atlas', joinText:'Found a new real-world case, a reproduction or a failure worth sharing? Submit it to the WaytoAGI Gallery.',
+      j1:'Submit a case', j1s:'GitHub Issue · Case submission', j2:'Get the data & scripts', j2s:'JSON / CSV · reproducible', j3:'Visit WaytoAGI', j3s:'Knowledge base & community',
       footer:'WaytoAGI Gallery · All links point to the original sources.'}
   };
   const store = { get(k){try{return localStorage.getItem(k)}catch{return null}}, set(k,v){try{localStorage.setItem(k,v)}catch{}} };
@@ -157,20 +373,21 @@ footer{border-top:1px solid var(--line);padding:24px 0 48px;color:var(--ink-3);f
   const L = () => T[st.lang];
   const tt = c => st.lang === 'en' ? (c.title_en || c.title) : c.title;
   const ts = c => st.lang === 'en' ? (c.summary_en || c.summary) : c.summary;
+  const srcName = s => st.lang === 'en' ? SRC[s].en : SRC[s].zhN;
+  const evName = e => st.lang === 'en' ? EV_EN[e] : e;
+  const SRCS = Object.keys(SRC).filter(s => CASES.some(c => c.source === s));
   CASES.forEach((c, i) => { c._i = i; c._hay = [c.title,c.title_en,c.summary,c.summary_en,c.author,c.platform].join(' ').toLowerCase(); });
 
-  const theme = store.get('theme'); if (theme) document.documentElement.dataset.theme = theme;
-  $('#themeBtn').onclick = () => {
-    const dark = document.documentElement.dataset.theme ? document.documentElement.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
-    document.documentElement.dataset.theme = dark ? 'light' : 'dark'; store.set('theme', document.documentElement.dataset.theme);
-  };
   $('#langBtn').onclick = () => { st.lang = st.lang === 'zh' ? 'en' : 'zh'; store.set('lang', st.lang); renderStatic(); render(); };
+  const closeMenu = () => { $('#nav').classList.remove('open'); $('#menuBtn').setAttribute('aria-expanded', 'false'); };
+  $('#menuBtn').onclick = () => { const open = $('#nav').classList.toggle('open'); $('#menuBtn').setAttribute('aria-expanded', String(open)); };
+  $('#nav').addEventListener('click', e => { if (e.target.closest('a')) closeMenu(); });
 
   function filtered(ignore) {
     const q = st.q.trim().toLowerCase().split(/\s+/).filter(Boolean);
     return CASES.filter(c => (ignore === 'cat' || !st.cat || c.category === st.cat)
       && (ignore === 'src' || !st.src || c.source === st.src)
-      && (!st.ev || c.evidenceType === st.ev)
+      && (ignore === 'ev' || !st.ev || c.evidenceType === st.ev)
       && q.every(w => c._hay.includes(w)));
   }
   function sorted(list) {
@@ -186,41 +403,49 @@ footer{border-top:1px solid var(--line);padding:24px 0 48px;color:var(--ink-3);f
     document.documentElement.lang = st.lang === 'zh' ? 'zh-CN' : 'en';
     $('#langBtn').textContent = st.lang === 'zh' ? 'EN' : '中文';
     document.querySelectorAll('[data-i18n]').forEach(e => e.textContent = L()[e.dataset.i18n]);
-    document.querySelectorAll('[data-i18n-html]').forEach(e => e.innerHTML = L()[e.dataset.i18nHtml]);
     $('#q').placeholder = L().search;
     [...$('#sort').options].forEach(o => o.textContent = L().sort[o.value]);
-    $('#ev').innerHTML = `<option value="">${L().evAll}</option>` + EVS.map(e => `<option value="${e}">${st.lang==='en'?EV_EN[e]:e} (${CASES.filter(c=>c.evidenceType===e).length})</option>`).join('');
-    $('#ev').value = st.ev;
-    const base = CASES.filter(c => c.source === 'x').length;
     const likes = CASES.reduce((s,c) => s + (c.likes||0), 0);
-    const vals = [CASES.length, Object.keys(CATS).length, base, CASES.length - base, fmt(likes)];
-    $('#stats').innerHTML = vals.map((v,i) => `<div class="stat"><b>${typeof v==='number'?v.toLocaleString():v}</b><span>${L().stats[i]}</span></div>`).join('');
+    const lim = CASES.filter(c => c.evidenceType === '限制').length;
+    $('#tagline').innerHTML = L().tagline(CASES.length.toLocaleString(), Object.keys(CATS).length, SRCS.length);
+    $('#infoCard').innerHTML = L().info.map(([k,v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join('');
+    const vals = [CASES.length.toLocaleString(), Object.keys(CATS).length, fmt(likes), lim];
+    $('#stats').innerHTML = vals.map((v,i) => `<div class="stat${i===0?' hl':''}"><b>${v}</b><span>${L().stats[i]}</span></div>`).join('');
     const hl = CASES.filter(c => c.likes).sort((a,b) => b.likes - a.likes).slice(0, 8);
-    $('#highlights').innerHTML = hl.map((c,i) => `<a class="hl" href="${esc(c.sourceUrl)}" target="_blank" rel="noopener"><span class="rk">${String(i+1).padStart(2,'0')}</span><span class="t">${esc(tt(c))}</span><span class="m">♥ ${fmt(c.likes)}</span></a>`).join('');
+    $('#tops').innerHTML = hl.map((c,i) => `<li><a href="${esc(c.sourceUrl)}" target="_blank" rel="noopener"><span class="rk">${String(i+1).padStart(2,'0')}</span><span class="t">${esc(tt(c))}</span><span class="m">♥ ${fmt(c.likes)}</span></a></li>`).join('');
   }
 
   function renderFilters() {
-    const forCat = filtered('cat'), max = Math.max(1, ...Object.keys(CATS).map(k => forCat.filter(c => c.category===k).length));
-    const counts = Object.keys(CATS).map(k => [k, forCat.filter(c => c.category===k).length]).sort((a,b) => b[1]-a[1]);
-    $('#bars').innerHTML = counts.map(([k,n]) => `<button class="bar" type="button" data-cat="${k}" aria-pressed="${st.cat===k}"><span class="lbl">${esc(CATS[k][st.lang])}</span><span class="track"><span class="fill" style="width:${(n/max*100).toFixed(1)}%"></span></span><span class="n">${n}</span></button>`).join('');
     const forSrc = filtered('src');
-    const srcs = Object.keys(SRC).filter(s => CASES.some(c => c.source === s));
-    const catChip = st.cat ? `<button class="chip" type="button" data-clearcat aria-pressed="true">${esc(CATS[st.cat][st.lang])} ✕</button>` : '';
-    $('#srcChips').innerHTML = catChip + `<button class="chip" type="button" data-src="" aria-pressed="${!st.src}">${L().all}<small>${forSrc.length}</small></button>` +
-      srcs.map(s => `<button class="chip" type="button" data-src="${s}" aria-pressed="${st.src===s}">${SRC[s][st.lang]}<small>${forSrc.filter(c=>c.source===s).length}</small></button>`).join('');
+    $('#route').innerHTML = SRCS.map((s,i) => `<button class="route-item" type="button" data-src="${s}" aria-pressed="${st.src===s}"><span class="no">${String(i+1).padStart(2,'0')}</span><span class="en">${esc(SRC[s].en)}<small>${forSrc.filter(c=>c.source===s).length}</small></span><span class="zh">${esc(st.lang==='en'?SRC[s].enD:SRC[s].zh)}</span></button>`).join('');
+    const n = filtered().length;
+    $('#routeResult').innerHTML = `<span>${st.src ? L().routeNow(esc(srcName(st.src)), n) : L().routeAll(n)}</span>` +
+      (st.src ? `<button type="button" data-clear="src">${L().clear}</button>` : '') + `<a href="#cases">${L().toCases}</a>`;
+    const forCat = filtered('cat');
+    const counts = Object.keys(CATS).map(k => [k, forCat.filter(c => c.category===k).length]).sort((a,b) => b[1]-a[1]);
+    const max = Math.max(1, ...counts.map(x => x[1]));
+    $('#bars').innerHTML = counts.map(([k,n]) => `<button class="bar" type="button" data-cat="${k}" aria-pressed="${st.cat===k}"><span class="lbl">${esc(CATS[k][st.lang])}</span><span class="track" aria-hidden="true"><span class="fill" style="width:${(n/max*100).toFixed(1)}%"></span></span><span class="n">${n}</span></button>`).join('');
+    const forEv = filtered('ev');
+    $('#evGrid').innerHTML = EVS.map((e,i) => `<button class="ev-item" type="button" data-ev="${e}" aria-pressed="${st.ev===e}"><span class="no">${String(i+1).padStart(2,'0')}</span><span class="t">${esc(evName(e))}<small>${forEv.filter(c=>c.evidenceType===e).length}</small></span><span class="d">${esc(EV_DESC[st.lang][e])}</span></button>`).join('');
+    const pills = [];
+    if (st.src) pills.push(`<button class="pill" type="button" data-clear="src">${esc(srcName(st.src))} ✕</button>`);
+    if (st.cat) pills.push(`<button class="pill" type="button" data-clear="cat">${esc(CATS[st.cat][st.lang])} ✕</button>`);
+    if (st.ev) pills.push(`<button class="pill" type="button" data-clear="ev">${esc(evName(st.ev))} ✕</button>`);
+    if (pills.length > 1) pills.push(`<button class="pill" type="button" data-clear="all">${L().clearAll}</button>`);
+    $('#active').innerHTML = pills.join('');
   }
 
   let LIST = [];
   function card(c) {
     const cat = CATS[c.category]?.[st.lang] || c.category;
     const thumb = c.poster
-      ? `<div class="thumb"><img loading="lazy" referrerpolicy="no-referrer" src="${esc(c.poster)}" alt="" onerror="this.parentNode.remove()">${c.mediaKind==='video'?'<span class="play">▶ video</span>':''}</div>`
-      : `<div class="thumb src">${esc(c.platform)}</div>`;
+      ? `<div class="thumb"><img loading="lazy" referrerpolicy="no-referrer" src="${esc(c.poster)}" alt="${esc(tt(c))}" onerror="this.parentNode.remove()">${c.mediaKind==='video'?'<span class="play" aria-hidden="true">▶ VIDEO</span>':''}</div>`
+      : `<div class="thumb src" data-s="${esc(c.source)}" aria-hidden="true">${esc(c.platform)}</div>`;
     const nums = [c.likes!=null?`♥ ${fmt(c.likes)}`:'', c.bookmarks!=null?`⚑ ${fmt(c.bookmarks)}`:'', c.stars!=null?`★ ${fmt(c.stars)}`:''].filter(Boolean).join(' · ');
     return `<article class="card">${thumb}<div class="body">
-      <div class="meta"><span class="ev" data-ev="${esc(c.evidenceType)}">${esc(st.lang==='en'?c.evidenceType_en:c.evidenceType)}</span><span>${esc(cat)}</span>${c.date?`<span>· ${esc(c.date)}</span>`:''}</div>
+      <div class="meta"><span class="ev" data-evtag="${esc(c.evidenceType)}">${esc(st.lang==='en'?c.evidenceType_en:c.evidenceType)}</span><span>${esc(cat)}</span>${c.date?`<span>${esc(c.date)}</span>`:''}</div>
       <h3>${esc(tt(c))}</h3><p>${esc(ts(c))}</p>
-      <div class="foot"><a href="${esc(c.sourceUrl)}" target="_blank" rel="noopener" title="${L().open}">${esc(c.author || L().open)}</a><span class="nums">${nums}</span></div>
+      <div class="foot"><a href="${esc(c.sourceUrl)}" target="_blank" rel="noopener" aria-label="${L().open}: ${esc(c.author || c.platform)}">${esc(c.author || L().open)} ↗</a><span class="nums">${nums}</span></div>
     </div></article>`;
   }
   function more() {
@@ -237,14 +462,17 @@ footer{border-top:1px solid var(--line);padding:24px 0 48px;color:var(--ink-3);f
     st.shown = 0; more();
   }
 
-  $('#bars').onclick = e => { const b = e.target.closest('[data-cat]'); if (!b) return; st.cat = st.cat === b.dataset.cat ? null : b.dataset.cat; render(); };
-  $('#srcChips').onclick = e => {
-    if (e.target.closest('[data-clearcat]')) { st.cat = null; return render(); }
-    const b = e.target.closest('[data-src]'); if (!b) return; st.src = b.dataset.src || null; render();
-  };
+  document.addEventListener('click', e => {
+    const t = e.target.closest('button[data-src],button[data-cat],button[data-ev],button[data-clear]');
+    if (!t) return;
+    if (t.dataset.clear) { const k = t.dataset.clear; if (k === 'all') { st.src = st.cat = null; st.ev = ''; } else st[k] = k === 'ev' ? '' : null; }
+    else if (t.dataset.src !== undefined) st.src = st.src === t.dataset.src ? null : t.dataset.src;
+    else if (t.dataset.cat !== undefined) st.cat = st.cat === t.dataset.cat ? null : t.dataset.cat;
+    else if (t.dataset.ev !== undefined) st.ev = st.ev === t.dataset.ev ? '' : t.dataset.ev;
+    render();
+  });
   let tmr; $('#q').oninput = e => { clearTimeout(tmr); tmr = setTimeout(() => { st.q = e.target.value; render(); }, 150); };
   $('#sort').onchange = e => { st.sort = e.target.value; render(); };
-  $('#ev').onchange = e => { st.ev = e.target.value; render(); };
   new IntersectionObserver(es => es[0].isIntersecting && more(), {rootMargin: '800px'}).observe($('#sentinel'));
 
   renderStatic(); render();
