@@ -13,7 +13,7 @@
 
 ### 最新收录
 
-- [Claude Opus 5.5 使用案例合集](cases/models/claude-opus-5-5-usecases)：2218 条公开案例，含结构化数据与可离线浏览的 HTML
+- [Claude Opus 5.5 使用案例合集](cases/models/claude-opus-5-5-usecases)：2577 条公开案例，含结构化数据与可离线浏览的 HTML
 
 ## 提交一个 Case
 
