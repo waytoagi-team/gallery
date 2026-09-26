@@ -346,5 +346,77 @@
   "sourceUrl": "https://news.ycombinator.com/item?id=49804181",
   "platform": "Hacker News",
   "date": "2026-09-22"
+ },
+ {
+  "title": "搭建工作环境需反复纠正",
+  "title_en": "Spinning up a work environment took ~5 corrections",
+  "summary": "作者称让 Opus 5.5 根据一张写得较清楚的工单搭建新工作环境，在流水线、环境变量和配置上需纠正约 5 次；修正后还在 GitHub Action 里遗留了一个最终方案不需要的工作流变量，需要再提示清理。",
+  "summary_en": "The author gave Opus 5.5 a reasonably specified ticket to spin up a new work environment and had to correct it about 5 times on pipelines, env vars and configs; it also left an unneeded workflow variable in the GitHub Action that required another prompt to clean up.",
+  "category": "coding",
+  "evidenceType": "限制",
+  "author": "javier123454321",
+  "sourceUrl": "https://news.ycombinator.com/item?id=49852428",
+  "platform": "Hacker News",
+  "date": "2026-09-26"
+ },
+ {
+  "title": "长期词典项目中处理复杂任务",
+  "title_en": "Complex tasks on long-term dictionary projects",
+  "summary": "作者称在两个长期词典编纂项目中交给 Opus 5.5 多项复杂任务，完成效果令人印象深刻，接近 Fable 但 token 消耗低得多，沟通也比 Opus 5.1 更好。",
+  "summary_en": "The author says Opus 5.5 handled several complex tasks on two long-term dictionary-building projects impressively, similar to Fable but with much lower token use, and communicated better than Opus 5.1.",
+  "category": "writing",
+  "evidenceType": "评测",
+  "author": "tkgally",
+  "sourceUrl": "https://news.ycombinator.com/item?id=49852216",
+  "platform": "Hacker News",
+  "date": "2026-09-26"
+ },
+ {
+  "title": "技术调研中频繁出现事实错误",
+  "title_en": "Factual errors in infra research tasks",
+  "summary": "作者称在评估合并 AWS DMS 任务时，Opus 5.5 大约每隔一轮就出现事实错误需纠正；在为 Web 应用中的智能体寻找不可信代码沙箱时，它误述安全边界并推荐了官方文档明确不提供强隔离的 DuckDB，而 GPT 6 与 Fable 5.1 推荐了 Cloudflare Workers、AWS Lambda 等 FaaS 方案。",
+  "summary_en": "The author says that while evaluating consolidating AWS DMS tasks, Opus 5.5 was factually wrong roughly every other turn; on a sandbox-for-untrusted-agent-code research task it misrepresented security boundaries and recommended DuckDB, whose docs say it is not a strong security boundary, whereas GPT 6 and Fable 5.1 suggested FaaS like Cloudflare Workers and AWS Lambda.",
+  "category": "agents",
+  "evidenceType": "限制",
+  "author": "nijave",
+  "sourceUrl": "https://news.ycombinator.com/item?id=49851977",
+  "platform": "Hacker News",
+  "date": "2026-09-26"
+ },
+ {
+  "title": "双会话规划-执行结对流程",
+  "title_en": "Two-session plan/review pair-programming workflow",
+  "summary": "作者称用两个 Opus 5.5 实例结对：项目聊天会话写任务规格，Claude Code 在计划模式下产出计划，再由前者审核后执行；即使是同一模型，Code 端也经常发现并修正规格中的细节遗漏。",
+  "summary_en": "The author runs two Opus 5.5 instances as a pair: a project chat writes a formal spec, Claude Code in plan mode returns a plan, and the first session reviews it before execution; even with the same model, Code regularly finds and corrects oversights in the spec.",
+  "category": "agents",
+  "evidenceType": "教程",
+  "author": "aaroninsf",
+  "sourceUrl": "https://news.ycombinator.com/item?id=49852597",
+  "platform": "Hacker News",
+  "date": "2026-09-26"
+ },
+ {
+  "title": "半小时做出《Clippy的复仇》视频",
+  "title_en": "Clippy's Revenge video made in under 30 minutes",
+  "summary": "作者称在 Claude Code 中用 Opus 5.5 简单提示、不到半小时就做出了发布在 YouTube 上的视频《Clippy's Revenge》。",
+  "summary_en": "The author says the YouTube video 'Clippy's Revenge' was made in Claude Code with simple prompting of Opus 5.5 in under half an hour.",
+  "category": "video",
+  "evidenceType": "演示",
+  "author": "HaxleRose",
+  "sourceUrl": "https://news.ycombinator.com/item?id=49844535",
+  "platform": "Hacker News",
+  "date": "2026-09-25"
+ },
+ {
+  "title": "为副业生成趣味视频广告",
+  "title_en": "Whimsical video ad for a side hustle",
+  "summary": "作者分享了让 Opus 5.5 为自己的副业制作的一支趣味视频广告（原帖发布于 Reddit r/ClaudeAI）。",
+  "summary_en": "The author shares a whimsical video ad Opus 5.5 built for their side hustle (original post on Reddit r/ClaudeAI).",
+  "category": "video",
+  "evidenceType": "演示",
+  "author": "beatthatflight",
+  "sourceUrl": "https://news.ycombinator.com/item?id=49843290",
+  "platform": "Hacker News",
+  "date": "2026-09-25"
  }
 ]

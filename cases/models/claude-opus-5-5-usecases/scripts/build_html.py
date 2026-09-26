@@ -3,7 +3,8 @@ import csv, json, pathlib, re
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
-EXTRA_FILES = ["extra_x.json", "extra_github.json", "extra_hn.json", "extra_web.json"]
+EXTRA_FILES = ["extra_x.json", "extra_github.json", "extra_hn.json", "extra_web.json", "extra_lists.json"]
+PLATFORM_SOURCE = {"X": "x", "GitHub": "github", "Hacker News": "hn"}
 EVIDENCE = {"演示": "Demo", "评测": "Evaluation", "集成": "Integration", "教程": "Tutorial", "限制": "Limitation"}
 
 
@@ -33,8 +34,8 @@ def main():
             src = fn[len("extra_"):-len(".json")]
             cases.append({
                 "id": f"{src}-{i + 1:03d}",
-                # HN items found by the web search are grouped with the dedicated HN pass
-                "source": "hn" if c.get("platform") == "Hacker News" else src,
+                # group by where the case lives, not by which search pass found it
+                "source": PLATFORM_SOURCE.get(c.get("platform"), "web" if src == "lists" else src),
                 "platform": c.get("platform") or src,
                 "category": c["category"],
                 "evidenceType": c.get("evidenceType", "演示"),
@@ -43,10 +44,11 @@ def main():
                 "summary": c.get("summary") or c.get("summary_en"), "summary_en": c.get("summary_en") or c.get("summary"),
                 "author": c.get("author"), "sourceUrl": c["sourceUrl"], "date": c.get("date"),
                 "likes": c.get("likes"), "bookmarks": c.get("bookmarks"), "stars": c.get("stars"),
-                "mediaKind": "none",
+                "mediaKind": c.get("mediaKind") or "none", "poster": c.get("poster"),
             })
             added[cases[-1]["source"]] = added.get(cases[-1]["source"], 0) + 1
-    meta = {**meta, "count": len(cases), "added": added}
+    # snapshot date = newest dated case (sources lag a day or two behind the fetch)
+    meta = {**meta, "count": len(cases), "added": added, "asOf": max(c["date"] for c in cases if c.get("date"))}
     (DATA / "all_cases.json").write_text(json.dumps({"meta": meta, "cases": cases}, ensure_ascii=False, indent=1))
     fields = [k for k in cases[0] if k not in ("poster", "video")] + ["stars"]
     with open(DATA / "all_cases.csv", "w", newline="", encoding="utf-8-sig") as f:
