@@ -59,6 +59,10 @@ def main():
     payload = {"meta": meta, "cases": [{k: c[k] for k in keep if c.get(k) not in (None, "")} for c in cases]}
     blob = json.dumps(payload, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     tpl = (ROOT / "scripts" / "template.html").read_text()
+    # inline the brand logos so index.html stays a single self-contained file
+    for key, name in (("LOGO_LIGHT", "waytoagi-logo-light.svg"), ("LOGO_DARK", "waytoagi-logo-dark.svg")):
+        svg = (ROOT / "assets" / name).read_text().strip()
+        tpl = tpl.replace(f"/*__{key}__*/", svg.replace("<svg ", '<svg aria-hidden="true" focusable="false" ', 1))
     out = ROOT / "index.html"
     out.write_text(tpl.replace("/*__DATA__*/null", blob))
     print(f"{len(cases)} cases (added {added}) -> {out} ({out.stat().st_size // 1024} KB)")
