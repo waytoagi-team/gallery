@@ -1,5 +1,6 @@
 """Merge all use-case sources into data/all_cases.json and render site/index.html."""
 import csv, json, pathlib, re
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -10,16 +11,53 @@ EVIDENCE = {"演示": "Demo", "评测": "Evaluation", "集成": "Integration", "
 
 
 def norm_url(u):
-    u = re.sub(r"^https?://(www\.|mobile\.)?", "", u.strip().lower()).rstrip("/")
-    u = u.replace("twitter.com/", "x.com/")
-    # tweet URLs carry tracking params; elsewhere (e.g. HN ?id=) the query identifies the page
-    return u.split("?")[0] if u.startswith("x.com/") else u.split("#")[0]
+    parts = urlsplit(u.strip())
+    host = re.sub(r"^(www\.|mobile\.|m\.)", "", parts.netloc.lower())
+    path = parts.path.rstrip("/")
+    query = dict(parse_qsl(parts.query))
+    if host in ("x.com", "twitter.com"):
+        m = re.search(r"/status/(\d+)", path)
+        if m:
+            return "x.com/i/status/" + m.group(1)
+    if host in ("reddit.com", "old.reddit.com"):
+        m = re.search(r"/comments/([a-z0-9]+)", path, re.I)
+        if m:
+            return "reddit.com/comments/" + m.group(1).lower()
+    if host in ("youtube.com", "youtu.be"):
+        vid = query.get("v") if host == "youtube.com" else path.lstrip("/")
+        if not vid:
+            m = re.match(r"/(?:shorts|embed)/([\w-]{11})", path)
+            vid = m.group(1) if m else None
+        if vid:
+            return "youtube.com/watch?v=" + vid
+    if host == "bilibili.com" and path.startswith("/video/"):
+        return host + path
+    if host == "github.com":
+        path = re.sub(r"\.git$", "", path.lower())
+    query = {k: v for k, v in query.items() if not k.startswith("utm_") and k not in ("fbclid", "gclid", "si", "feature")}
+    return urlunsplit(("", host, path, urlencode(sorted(query.items())), "")).lstrip("/")
+
+
+def case_key(c):
+    u = norm_url(c.get("sourceUrl") or "")
+    # Posts, videos and repositories identify one case even if the title changes.
+    # Editorial pages can document multiple distinct experiments/customer results.
+    if u.startswith(("x.com/", "reddit.com/", "youtube.com/", "bilibili.com/", "news.ycombinator.com/", "github.com/")):
+        return (u,)
+    return (u, (c.get("title_en") or c.get("title") or "").strip().lower())
 
 
 def main():
     base = json.loads((DATA / "base_cases.json").read_text())
-    meta, cases = base["meta"], base["cases"]
-    seen = {norm_url(c["sourceUrl"]) for c in cases}
+    meta, cases = base["meta"], []
+    seen, duplicates = set(), 0
+    for c in base["cases"]:
+        key = case_key(c)
+        if key in seen:
+            duplicates += 1
+            continue
+        seen.add(key)
+        cases.append(c)
     added = {}
     for fn in EXTRA_FILES:
         p = DATA / fn
@@ -27,9 +65,11 @@ def main():
             continue
         for i, c in enumerate(json.loads(p.read_text())):
             u = norm_url(c.get("sourceUrl") or "")
-            # one page (e.g. a launch post) can hold several distinct cases, so key extras on url + title
-            key = (u, (c.get("title_en") or c.get("title") or "").strip().lower())
-            if not u or u in seen or key in seen or c.get("category") not in meta["categories"]:
+            key = case_key(c)
+            if key in seen:
+                duplicates += 1
+                continue
+            if not u or c.get("category") not in meta["categories"]:
                 continue
             seen.add(key)
             src = fn[len("extra_"):-len(".json")]
@@ -46,6 +86,7 @@ def main():
                 "author": c.get("author"), "sourceUrl": c["sourceUrl"], "date": c.get("date"),
                 "likes": c.get("likes"), "bookmarks": c.get("bookmarks"), "stars": c.get("stars"), "views": c.get("views"),
                 "mediaKind": c.get("mediaKind") or "none", "poster": c.get("poster"),
+                **{k: c[k] for k in ("discoveredVia", "checkedAt", "evidenceUrl", "evidenceBasis", "metricsCheckedAt", "resources") if c.get(k)},
             })
             added[cases[-1]["source"]] = added.get(cases[-1]["source"], 0) + 1
     # snapshot date = newest dated case (sources lag a day or two behind the fetch)
@@ -56,16 +97,21 @@ def main():
             c["poster"], c["mediaKind"] = f"https://i.ytimg.com/vi/{m.group(1)}/hqdefault.jpg", "video"
         if (c.get("poster") or "").startswith(("http://", "//")) and "hdslb.com" in c["poster"]:
             c["poster"] = "https://" + c["poster"].split("//", 1)[1]
-    meta = {**meta, "count": len(cases), "added": added, "asOf": max(c["date"] for c in cases if c.get("date"))}
+    meta = {**meta, "count": len(cases), "added": added, "asOf": max(c["date"] for c in cases if c.get("date")), "duplicatesSkipped": duplicates}
+    report_path = DATA / "refresh_report.json"
+    if report_path.exists():
+        meta["refreshedAt"] = json.loads(report_path.read_text())["refreshedAt"]
     (DATA / "all_cases.json").write_text(json.dumps({"meta": meta, "cases": cases}, ensure_ascii=False, indent=1))
-    fields = [k for k in cases[0] if k not in ("poster", "video")] + ["stars"]
+    fields = list(dict.fromkeys(k for c in cases for k in c if k not in ("poster", "video")))
     with open(DATA / "all_cases.csv", "w", newline="", encoding="utf-8-sig") as f:
-        w = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
-        w.writeheader(); w.writerows(cases)
+        w = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore", lineterminator="\n")
+        w.writeheader()
+        w.writerows({k: json.dumps(v, ensure_ascii=False) if isinstance(v, (list, dict)) else v
+                     for k, v in c.items()} for c in cases)
 
     # compact payload for the page
     keep = ["id", "source", "platform", "category", "evidenceType", "evidenceType_en", "title", "title_en",
-            "summary", "summary_en", "author", "sourceUrl", "date", "likes", "bookmarks", "stars", "views", "mediaKind", "poster"]
+            "summary", "summary_en", "author", "sourceUrl", "date", "likes", "bookmarks", "stars", "views", "mediaKind", "poster", "resources"]
     payload = {"meta": meta, "cases": [{k: c[k] for k in keep if c.get(k) not in (None, "")} for c in cases]}
     blob = json.dumps(payload, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     tpl = (ROOT / "scripts" / "template.html").read_text()

@@ -31,6 +31,8 @@ def clean(obj):
 def main():
     raw = json.loads((DATA / "_raw_base.json").read_text())
     zh, en = raw["zh"], raw["en"]
+    if not zh or set(zh) != set(en):
+        raise ValueError("Expected a nonempty, matching zh/en snapshot")
     cases = []
     for cid, z in sorted(zh.items(), key=lambda kv: kv[1]["caseNumber"]):
         z, e = clean(z), clean(en.get(cid, {}))
@@ -55,6 +57,8 @@ def main():
             "video": z.get("video"),
         })
     meta = {"categories": {k: {"zh": v[0], "en": v[1]} for k, v in CATEGORIES.items()}, "count": len(cases)}
+    if raw.get("fetchedAt"):
+        meta["baseFetchedAt"] = raw["fetchedAt"]
     (DATA / "base_cases.json").write_text(json.dumps({"meta": meta, "cases": cases}, ensure_ascii=False, indent=1))
     print(len(cases), "cases")
 

@@ -8,4 +8,4 @@
 
 | 案例 | 模型 | 简介 |
 | --- | --- | --- |
-| [Claude Opus 5.5 使用案例合集](claude-opus-5-5-usecases) | Claude Opus 5.5 | 2577 条公开案例的结构化数据集（X / Reddit / 视频 / GitHub / Hacker News / Web），附可离线浏览的单文件 HTML |
+| [Claude Opus 5.5 使用案例合集](claude-opus-5-5-usecases) | Claude Opus 5.5 | 3750 条公开案例的结构化数据集（X / Reddit / 视频 / GitHub / Hacker News / Web），附可离线浏览的单文件 HTML |

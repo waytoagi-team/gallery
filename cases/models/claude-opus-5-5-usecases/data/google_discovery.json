@@ -1,0 +1,283 @@
+{
+  "checkedAt": "2026-09-27T08:03:32+00:00",
+  "engine": "Google",
+  "access": "Orca browser; six queries after initial HTTP requests returned a JavaScript shell",
+  "queries": [
+    {
+      "query": "\"opus 5.5\" \"github\" \"gallery\"",
+      "searchUrl": "https://www.google.com/search?q=%22opus+5.5%22+%22github%22+%22gallery%22&udm=14",
+      "results": [
+        {
+          "title": "Incredible showcase of Claude Opus 5.5\n\nReddit · r/claude\n60+ comments · 4 days ago",
+          "url": "https://www.google.com/goto?url=CAESjwEB6zswFUaLnO4T9g62svKy2fBIVtbnpnUV-2VouWtdDRwUX6V5a-IzIp9T_pkyNEgXtPQS4lNKQpZJGLkkrdM2SUW59MlVunIU113CkO2jgRTh9N5K8btGFhtKDXsqPvgzGarnaVw_269gVu0XH8JHGgny_a-EP28CJJcASrQnnl5okcmQtK6hofAt8vGwww"
+        },
+        {
+          "title": "Claude Opus 5.5 + Higgsfield MCP = $20K Website\n\nYouTube · Code Bear\n220+ views · 2 days ago",
+          "url": "https://www.google.com/goto?url=CAESYwHrOzAVPNjQ5z7C1LlY_JVn0l0pVCojBAkEhrbraa_piYNFL1zY44tlUdVOvAZkL9by9Pp062n8eHYX4-dOvRWvqRDIiSCu_j5oI1vau0MqzAIVHbUjU2zNnsnodGYPK2eNsQ"
+        },
+        {
+          "title": "lumenastrum/clio-style-preview: 281 art- ...\n\nGitHub\nhttps://github.com › lumenastrum › clio-style-preview",
+          "url": "https://www.google.com/goto?url=CAESaQHrOzAV1qKgL0Oa_jvWNzgbX7UiVTmS8okuPCyqHGEqPM7hcOXlgKh58p0m0DqjB_jViXq0PWuLpTY1GYF6yLQZxiHeizctJsMyGivpcQ0hBBZPYwgIjJdQMN9Nq7cB2XI6Fk42qVCVMQ"
+        },
+        {
+          "title": "Anthropic Launches Claude Opus 5.5 With API Prices 20% ...\n\nTech Jacks Solutions\nhttps://techjacksolutions.com › AI News Briefs",
+          "url": "https://www.google.com/goto?url=CAESnAEB6zswFcinmvc97yGNygzAnJVmh_60R-5dn8yB3eoiW3IoU93PiQqHclaZpaZdda6JQkAZx3UXb_7QD35xFXZP0Zbik6IlO-qEGAe2sLmoNr6jWthGXCDB1ILTa-jsWm5xd9C1oLrjsHMRH8fi0cSFXWE2WmRCiB0jhwMERGGamD7C_10hnJn58VhBF9UA2SbEIaKs74AARrpIT58"
+        },
+        {
+          "title": "Claude Opus 5.5 on Google Cloud | Gemini Enterprise ...\n\nGoogle Cloud Documentation\nhttps://docs.cloud.google.com › claude › opus-5-5",
+          "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/partner-models/claude/opus-5-5"
+        },
+        {
+          "title": "Claude Opus 5.5 can create paintings by writing Python ...\n\nThreads · artificialintelligence.co\n3 likes · 16 hours ago",
+          "url": "https://www.google.com/goto?url=CAESyQEB6zswFVWe5PhH76zkgPEaRBVqq3KyGAGXgfiImnTZAjvvulkGK5LXwqaDFErTFdI0NCPKNYZ1C4sCR_NmACdeA-Y7I-sA8WdCu4yNd4ctmFNFlzDEP4HroeL0Wr9dXlfSzYA1yQkoWy-1bJDvm605NwBnQ4G0nay6hwrwxwvcLN68Klq8qtNDjowERgfK4AWL2cMiIDcUaETYDLgHkWnr1VMr8jafMg4ev48056r7rENKRA5RfXs9D0swpuYnZwc6zbZDY_v1jYY"
+        },
+        {
+          "title": "Anthropic Launches Claude Opus 5.5: Faster & Cheaper\n\nMagicShot\nhttps://magicshot.ai › News",
+          "url": "https://www.google.com/goto?url=CAESYQHrOzAV82EtmfO1POUlos86ep6PBGVM8YKuED5s6DmPzCmzCxvWkqqgvhmGy4ekqPMjunJh9zI50ttGo_qEoHn-6wJDNOoKdaLuCF-oKnej9WIFUMXIk4uZg__IAR0NJyY"
+        },
+        {
+          "title": "Reposts by Three.js (@threejs) / X\n\nX\nhttps://x.com › threejs › reposts",
+          "url": "https://www.google.com/goto?url=CAESVQHrOzAVpuL01kMeETKTrk7wjzH2UNqrgcLIUfLvcoUal-kR1ZQVohOl6S1zujTN3sgc-1RmWK9T-SBGOGLgML4wkd_FWWadOyCHnQegHUdcdoRQ4zY"
+        },
+        {
+          "title": "🚨 Claude Opus 5.5 just changed the AI coding game.\n\nFacebook · All About AI Tools & AI News\n1 comment · 4 days ago",
+          "url": "https://www.google.com/goto?url=CAESdgHrOzAVu6257tBNHjpPYG785Psl9xUI3E6T-0SXgwcnI7Jaokw1FZHPZGHUILVRnK8ta_e81S9ajbEz3VmD4DRMgap4M5g7mJzWOlAd-dFEeIgVGKzC7_ZtpafFFAvNfYU6IEN9yTkd_-Vg7QnFD8JlQ608Mqw"
+        },
+        {
+          "title": "Claude Opus 5.5 3D Prompts & Examples\n\nTripo AI\nhttps://www.tripo3d.ai › All 3D Prompts",
+          "url": "https://www.google.com/goto?url=CAEScAHrOzAV5KDjYA776bqGlKwQ0Ge_wrAqdeDf3Wx-kw91KNtkTkJEduHvCY85p11PR1rBjlDS2rLH3mX_1MSoeteVi65Oq10cwH2hO0-xW4MjjcA0ovevKeUvz8kf-KkHBP9TVtVl5ZbOy8VBkUqH7a4"
+        }
+      ]
+    },
+    {
+      "query": "\"opus 5.5\" benchmark prompts reproducible",
+      "searchUrl": "https://www.google.com/search?q=%22opus+5.5%22+benchmark+prompts+reproducible&udm=14",
+      "results": [
+        {
+          "title": "Claude Opus 5.5: Features, Pricing, Benchmarks, Review\n\nCoursiv\nhttps://coursiv.io › Blog",
+          "url": "https://www.google.com/goto?url=CAESXwHrOzAVfeRK0zoLglr223VfhUNxv59Qkk5kK9vjchU2EXRp9hHJ49fYuPZnhARha7D39jjqfatawDmDcYV-jKE2PUEZUdBvxEosedpGe4ekbj3xZWKa9O4BYUGoVSx8"
+        },
+        {
+          "title": "Opus 5.5 tops the index. why am i using GPT-6 Sol?\n\nYouTube · Lennox Saint\n60+ views · 2 days ago",
+          "url": "https://www.google.com/goto?url=CAESYwHrOzAVeV09jCJjSbdDl7w5WnecS-DZ_J-r0zAID49mlxxgTH-su2P5r8-4MkrReo0YHaF-S3X5fD_kxEeyEbZp3WOya0MZOqsDzz_81IXFR2ePHb7Ku7uOB_OYedaxF9hIOA"
+        },
+        {
+          "title": "GPT-6 Sol vs Claude Opus 5.5: 2026 API Reality Check\n\nCall Missed\nhttps://www.callmissed.com › Blog",
+          "url": "https://www.google.com/goto?url=CAESdwHrOzAVREZ7Yj23UVw-q2_lO7Fuaty9AQjjsMzRnKBNk5NYD8WHw_jJcrShdW2Svbs0XlMwT_kOO9Be7bAA_l56zHxlRFGZ5rVcczViDkzY8dWc7_y8IE5ietCyrYhYNYXrHBPGZ8ic88NxurxaK3IrMa3yNRRq"
+        },
+        {
+          "title": "Claude Opus 5.5 Prompting Guide: Best Practices and ...\n\nPrompTessor\nhttps://promptessor.com › Blog",
+          "url": "https://www.google.com/goto?url=CAESdAHrOzAVTDeUGAMWw8h8wYjRp5fQC1bq76q35mEr8qJtLDY-uEdRWecAitFl3ig_VH6BB4l091E8lAPT1bFbpB46K3QfyKIuazLrHF6k9hAUWNI8EqVaPLtN5nFJrZjzNxK3mMtzljbMgjcYbapoXauJGtPx"
+        },
+        {
+          "title": "Testing Claude Opus 5.5 on a Real Software Project\n\nC-Sharp Corner\nhttps://www.c-sharpcorner.com › Technologies › AI",
+          "url": "https://www.google.com/goto?url=CAESkQEB6zswFUf1NvDpPyLNcZhMi3hLgMQ0UeACxshKJlVo8B4HKNq3WbD1XC4jUmSbc_WVzzxHdElw8BmOFWSnM66N5UaU7UnC_BYJxvNPk-2sk9hPZe1XdN5mmUwddWz6GQahaHGU9eKOIpTFNHq3FZ9pOoHAdNQKc4TcQYnxoSzfPfz5wzSvFk7_xFaPN5K_2g5F"
+        },
+        {
+          "title": "Claude Opus 5.5 vs GPT-6 Sol: Which One Should You ...\n\nYouTube · Kyle Balmer | AI with Kyle\n8.9K+ views · 3 days ago",
+          "url": "https://www.google.com/goto?url=CAESYwHrOzAVQ8P1zndYB0Si7W43VHW62pvLeHp83IB1Rb0vYa6BU0gRXIWHSXlgP3h-CNV_UKEmPUR9k6kn8RPX-RVhmMKCm-tfCaNJQ-SXBHbcrkbqGJkvqZZpuO-2tXumlEm8hA"
+        },
+        {
+          "title": "Claude Opus 5.5 Release Guide: Fable 5.1-Level Coding at ...\n\ndevelopersdigest.tech\nhttps://www.developersdigest.tech › Blog",
+          "url": "https://www.google.com/goto?url=CAESgQEB6zswFR6UBzhgyNP2LwAfdhnAlscMpaEog3k7sW8OAoMnjFfIGS8ArLWFrXM0eNXI-h-XvuKTrLfWkMvj2mWFE8wXaG-NbnfTpbk_vmdbutJ8lZ1_Z8412bAtGYnHEyqKhkojS6ItXxx4KjqFZbcdcMebkV8aVLlQ1swx7EtPJS8"
+        },
+        {
+          "title": "GPT-6 Sol vs Claude Opus 5.5: How Should You ... - PandaNpc\n\npandanpc.com\nhttps://pandanpc.com › Blog",
+          "url": "https://www.google.com/goto?url=CAESeAHrOzAVcD1n7jvvgTXryZKMzUDNPaK27Cu2bKnnf1WDoFodj_txJHGvcTh50fjnh9aMoyaUXpQdMeVkdckjmmC3AgT4nrvIN17ETm2NXp6WatkBF2fCPjIsDJidmq-lsQ2c6g5te7gjbgT7a-SAlCoP6DKHIomwWA"
+        },
+        {
+          "title": "Claude Opus 5.5: pricing, benchmarks, migration\n\nGPTunneL\nhttps://www.gptunnel.ru › Home › Blog",
+          "url": "https://www.google.com/goto?url=CAESZwHrOzAVRJum4Z6pM7-fs2oOE0JKb87JbJaeQ9tTZTXanP3us-laFx4-Rqc0Wllhner8MOn16WJE-OKuY6KRIfZ8R4-JZDFu6s5OEvWBzhzMwfx4IpTyAy5j7my5q5W55yThzOCUFgY"
+        },
+        {
+          "title": "Claude Opus 5.5: Best Uses, Prompts and Effort Settings\n\nwavect.io\nhttps://wavect.io › ... › Models and infrastructure",
+          "url": "https://www.google.com/goto?url=CAESeAHrOzAVQZdo2FvZlmsgGNDHohXXL0zx2XT4HFXHwu0XrYEMnC018LJTKYy9Pot6NNC05NCdX2ZNi7jbk3nIjMbE7tcDErehDPuo00MEbPH9B1XfBuwsLo2Sn3fAW9Myrk0kW8c_BZVcYrQi886v0ye4R7XLUGFiTA"
+        }
+      ]
+    },
+    {
+      "query": "\"opus 5.5\" 案例 实测",
+      "searchUrl": "https://www.google.com/search?q=%22opus+5.5%22+%E6%A1%88%E4%BE%8B+%E5%AE%9E%E6%B5%8B&udm=14",
+      "results": [
+        {
+          "title": "最强模型实测！Opus 5.5 只用Medium，就能做到这个程度？\n\nYouTube · NiceKate AI\n8.6K+ views · 4 days ago",
+          "url": "https://www.google.com/goto?url=CAESYwHrOzAVETFw1kQcYid-_Dw74N1sHtw7xS7o1suUNSmAMRd8v6rrIoxjIDMADbtkyxjD5CrtNNZklTVcnKMtfccjrZNPYEI398XTJsForZ9xzQCuFNSJqBEXa8UTgm1oJ_yEbA"
+        },
+        {
+          "title": "Introducing Claude Opus 5.5\n\nAnthropic\nhttps://www.anthropic.com › claude-opus-5-5",
+          "url": "https://www.google.com/goto?url=CAESYQHrOzAVTzDhVJSC2e_sEMxh-HoAO8FX8eMcdjnKfTf85DyWwdN3esDuQWJnkNNDikpH2bv4O4uo4NtLEkYkKQeb46r6DidYuxljUO2xIbJhi6i9yvVupuxx9riWLYsW12Q"
+        },
+        {
+          "title": "迷上Opus 5.5 做视频：震惊，瘫坐，爆炸！10个案例\n\nBilibili\nhttps://www.bilibili.com › 人工智能",
+          "url": "https://www.google.com/goto?url=CAESZAHrOzAVQ1IhSm4C8CfQFX00P9wA2T74XmGnOMP8K1pG4Hw52V9FPuMaOt6N_v46gNRScnN0BwS_M4lSH6fwRzsi9qI6itkDzwm_YK48bX27dTgh72uH1_qfG39IB3MwwoYsajE"
+        },
+        {
+          "title": "GPT-6 Sol 与Claude Opus 5.5：基准测试、价格与实测\n\nDataCamp\nhttps://www.datacamp.com › blog",
+          "url": "https://www.google.com/goto?url=CAESdQHrOzAVp_X2sfHWTzV8DcuOJlmTOTgs1PzKiva73HM1W9APdRCq07Ma2LyF2JQiDmoJ7LyddlgFMOMrQ6aHUUWRbaQQVenlvgm6l_fWQRYzxdCmb3gOczuH8pkiu2geVLG_p9yDjYRkkdENWXQMxldzfg9CIw"
+        },
+        {
+          "title": "刚刚Opus 5.5 和GPT-6 Sol 同时发布，首发实测来啦！结果 ...\n\nX\nhttps://x.com › @yupi996",
+          "url": "https://www.google.com/goto?url=CAESaQHrOzAVvLyHwD8H95xgO9XJE9sotzeLKQ0r_Rdg6Kyn6b9_3HDqt6XpriT4LZtte6p7HfcVcI5USzdcPOQaelH1DYzk1d6VQMzpH1B59OchXu6WYuaA3ebTDNkUCJaL1Z2djkBsrCb3Nw"
+        },
+        {
+          "title": "Claude Opus 5.5 和GPT-6 Sol 首发实测，结果很意外 ...\n\nYouTube · Programmer Fish Skin\n7.2K+ views · 3 days ago",
+          "url": "https://www.google.com/goto?url=CAESYwHrOzAV4LE86aSk2c2Ue9vGOsrWdXOyc2U-5E2DuKZZ9N-zDRkBl9BYuwG9HE-s7EeZ0jfqzvvWkwVsC9xupcZcjM2BDjAfbSzNBGGGZPwOyJKW8_pEtSbsUUHenQtyqurBfA"
+        },
+        {
+          "title": "Claude Opus 5.5 现已在AWS 上推出\n\nAmazon Web Services (AWS)\nhttps://aws.amazon.com › 2026/09",
+          "url": "https://www.google.com/goto?url=CAESggEB6zswFUhSgXpxy9CLxhngUgj3TYH1WU_hSDHdmrzhDCA8IWdbIuO9C6uRID2gllQmMp76aWie6JvsmT54OOyG5ebecxwklShgqXI_cbOCtBuedFloMkcJiDV-rGV3IFMujGwEmbUueF9vKOHsC6VGR_syu0IKg7yewEQJt1BylqNL"
+        },
+        {
+          "title": "GPT-6 Sol 和Claude Opus 5.5 发布，直接杀死比赛！\n\n知乎专栏\nhttps://zhuanlan.zhihu.com › ...",
+          "url": "https://www.google.com/goto?url=CAESaAHrOzAVxQmpghCptUhAbl5oqdfs-9u6btwZksUVkreHUYL3-Nkcm0k4cXzr_wfeANOLBZYvDK8m4L0lbk_TLvyKhCxTSxnUtWIWnJMSx9voFDevX7qkzznuqK0qwdNlhbMcuASdM7Dt"
+        },
+        {
+          "title": "Claude Opus 5.5发布，降价四成“干掉”Fable 5.1？\n\n36Kr\nhttps://m.36kr.com › ...",
+          "url": "https://www.google.com/goto?url=CAESXQHrOzAVyg2ggHv1HDFJc6tZM-1uSPRBaCHpiZr544-R4MFxxyfflwMxvjTrANUNbpwkd5ud6Dfsw71t4mEDwbuDXaeIfpLiWOfmrT6KMoTQ3UAf7A-LC75kjryWHQ"
+        },
+        {
+          "title": "[中配]Claude Opus 5.5与GPT 6 Astra同题3D实测：霓虹城市 ...\n\nBilibili\nhttps://www.bilibili.com › 人工智能",
+          "url": "https://www.google.com/goto?url=CAESZAHrOzAVJE7hdtGy9F7ND0LlCbaYP3ks-8DpWBBnPNfpY3RuFPm2Oh7PscRggCIPmq9o7uJeg9Ercag2NbRftLUSoTPYBUGI1P2O_TDlJsR32dHesHsq063FitpsGEyG_D-rh9o"
+        }
+      ]
+    },
+    {
+      "query": "opus 5.5 video prompts github",
+      "searchUrl": "https://www.google.com/search?q=opus+5.5+video+prompts+github&udm=14",
+      "results": [
+        {
+          "title": "Awesome Claude Opus 5.5 Videos ...\n\nGitHub\nhttps://github.com › athemeroy › awesome-opus-5-5-vid...",
+          "url": "https://www.google.com/goto?url=CAESbAHrOzAV2w7TZvS2NtvbPOrETlfI3CLtJelZgxXKiEN1rrUifh7GrFc_PoUnrpRMGJD0clCMO0bBNk9em_EBmxvv0zTDmWYt2e5CU1-PQ-jFTAY5f-0PNb85ujkvX7VOp7wzo3mOeWJ9bQJJgw"
+        },
+        {
+          "title": "I built a tool that uses Claude Opus 5.5 to turn GitHub repos ...\n\nReddit · r/ClaudeAI\n5 comments · 1 day ago",
+          "url": "https://www.google.com/goto?url=CAESmwEB6zswFR-Fy1SeV9C_E8GFMfvw7M93NCbDpYs-Ao77BAdb1-kzXjMvD3jA6JIR63_OCcj54Utdk836mvv1Qn1vNvmIbe0xFGOzV-9RAme6LYzzAiTrO6nrTiPs3B9IGZysqTlhr2L8u_L1fnjLxYw0HlZKH2TRYU1EVT0A3AUOEt5rUT-6Z017f8NmWMJie48LlkDnHJqQskjTPQ"
+        },
+        {
+          "title": "system_prompts_leaks/Anthropic/claude-opus-5.5.md at ...\n\nGitHub\nhttps://github.com › system_prompts_leaks › blob › main",
+          "url": "https://www.google.com/goto?url=CAESjwEB6zswFS6gIFWuaFH1fhIc_bDvwJg2-3rJQsPnKJwqLdGKt2QnhgXd02C348r1IdMmAUm0FlKh7F9O2bUz_ElNCEK226RA8qdyYUw9QHI9OmticBHm6n58tU2QL4vy1iPkXsXmtbRdCnc9VRWsAD1q2hMnGxw8a-jh_SHB-PPzJgQ-YnbErcAJ61Ivg98teA"
+        },
+        {
+          "title": "Prompting Claude Opus 5.5 - Claude Platform Docs\n\nClaude Platform\nhttps://platform.claude.com › docs › prompt-engineering",
+          "url": "https://www.google.com/goto?url=CAESmgEB6zswFXcjbPfzyoG1Gx9Xvg75kfsPGdPMEyLm1Y9FUd5JFuqu6AstN75qo0cxf0EBS5DSa45jxi7WsmwFZhoZST5zqE5a9ghIqk4G8gv5SWeWmYF-N8DTUwGPzvBRn3V31bbcrI0jGLlG5rz5Qe786E_eH6J9mIN5_eL9aJmedlIg6YYlv_aWUji4tG9bn6u0ZP0hS2h7RpZb"
+        },
+        {
+          "title": "opus-5-5 · GitHub Topics\n\nGitHub\nhttps://github.com › topics › opus-5-5",
+          "url": "https://www.google.com/goto?url=CAESWgHrOzAVsyF6ZrgKfaAcmFXlulvNJpuLXxsUiVrgCg_LaxSvtP9KFfvjVHSD-797ISFyhb7YonU803FlIuO67ExdM3yxXjyDpUewM__8JhpLrWt2BGnuBVsKyw"
+        },
+        {
+          "title": "Opus 5.5 is an absolute BEAST at creating videos got ...\n\nX · marcthecreatorr\n30+ likes · 2 days ago",
+          "url": "https://www.google.com/goto?url=CAEScAHrOzAVoiv7wiswS_-flxFclbEQX7WOrTVpwaDUTH2Hd7L1rZ8Z_JI9xkwi4V73zNRzrjAX0AtlxuIYr1_TUlkiWiN3tyo6NKY3WnSIx8G1sodvAsxP5byedTKwjIFZntO34EXB6TqDrSo2rrhMWWc"
+        },
+        {
+          "title": "diggerhq/shipvideo: Paste a URL or a prompt ...\n\nGitHub\nhttps://github.com › diggerhq › shipvideo",
+          "url": "https://www.google.com/goto?url=CAESXQHrOzAVtD7A5o3ZvkIMY_jNco8kH0MHJVxh5TwWT484uE9h4SY2YQycr_gHdPrXq6bhuzxU46VRmUPjvQempKVCnkT4jbWtV6M3xiRy01szBYospc6orHYiqoHYFA"
+        },
+        {
+          "title": "GitHub Adds Claude Opus 5.5 to Copilot With Gradual ...\n\nSuperpower Daily\nhttps://superpowerdaily.com › Latest › Products",
+          "url": "https://www.google.com/goto?url=CAESlAEB6zswFWhtV2r4h5IK6gpPbXNityLplpPYwivlpleh_YXRqv8H27utNVSXivpEzXz7PnPA2serbEJPF9iYJbZuFLS27xkgZUnjmPagfijrt_5REspKVsHzHk5dik91xCkKxZiekrcdjbqx7GFAd2bb2r9jLUnaABu1eAuQ1cgyB8KWEQGfRxzqiSpUhZv32RY2Tbk0"
+        },
+        {
+          "title": "opus55 vs sol6\n\nGitHub\nhttps://gist.github.com › swyxio",
+          "url": "https://www.google.com/goto?url=CAESdwHrOzAVq5m81utLkgZeMkJKwZmVzEB_xC5Oyq7ItfBunRLCd4BCfS99P05B3J1pIN3P1Tu2mechhf-QhXpYzw0WMCCzBCT2AQjgynoo0qmpZNnW_10kti2_4JhGnThiCSN5Xwtw9VqXuQezYvu47ukRtRG1YDf0"
+        },
+        {
+          "title": "Claude Opus 5.5 Prompting Guide: Best Practices and ...\n\nPrompTessor\nhttps://promptessor.com › Blog",
+          "url": "https://www.google.com/goto?url=CAESdAHrOzAVh9dJRyDSoCpmlAWTpVyKPd8OpZ2zA7aP25MqVIrASpy-JfY-m_A5O9FeNrRzVB2JYOd_ix6yli9nYEqb9PCu1tsNePFggH_xgb9HSnlCkE-1H3lhOt89gGMSgK8p2eDLEEwnZl2r02P5QB40sxC8"
+        }
+      ]
+    },
+    {
+      "query": "\"opus 5.5\" \"benchmark\" \"github\"",
+      "searchUrl": "https://www.google.com/search?q=%22opus+5.5%22+%22benchmark%22+%22github%22&udm=14",
+      "results": [
+        {
+          "title": "Introducing Claude Opus 5.5\n\nAnthropic\nhttps://www.anthropic.com › claude-opus-5-5",
+          "url": "https://www.google.com/goto?url=CAESYQHrOzAV-kFZNUFrQTCDq1RYXXCkk3uDhT9uGKf9lPjiWqyfyuYxbB_pbCCPnjNmZulpN0Ovh-7mrSjOIU5XykGukQdZyxpCGHFSvG11Zc088hW3-ha96LBYkbCHgY7u_4U"
+        },
+        {
+          "title": "opus55 vs sol6\n\nGitHub\nhttps://gist.github.com › swyxio",
+          "url": "https://www.google.com/goto?url=CAESdwHrOzAVOx4VH22CNvIhNzusDhsMtmuO9wa3hG3079piFM5uOnPZSuXZDBW_HNrCsTVnGJZG848EJ8d5bsKjgMIHLU_IebUjJkVK4bjVhbJarfe5qF5D6w0RWBLK_LqNJdBvlBDES26e4dw33SOiEyeaA-jaYBAu"
+        },
+        {
+          "title": "Claude Opus 5.5 | Evaluation Review & Metrics Benchmarks\n\nSonar Source\nhttps://www.sonarsource.com › blog › claude-opus-5-5...",
+          "url": "https://www.google.com/goto?url=CAESdwHrOzAVoPj1oF1ITY_Xk5NrvH92sdCqeq5D_VqRu__My5gbm3-1YDAn2Yb7yPYBM8RcbbTyrMYJ1OrAYlNB7T-V7hQ-k2m6OKFrk-lGsm3yTsLdy4nXQeN5t7APl9mSQf5GQbDY-COl45pLm_gryRigfHtroic3"
+        },
+        {
+          "title": "Claude Opus 5.5 Benchmarks : r/singularity\n\nReddit · r/singularity\n220+ comments · 4 days ago",
+          "url": "https://www.google.com/goto?url=CAESiAEB6zswFbAJG-mq_k4TphnBr4LNLJwqtOiAVaeY8snH4Ybaerb8xrNCg89KcKfa87SoSY13YkFabTnxOb0mrWeW5BL_ajqDoy5hCFKIYMKg8C6djOaJC0NSvd29wWVFewQAh2-fQN7pJg8uAmaGRJNPi42WH-7reS7RvXfD2K_TzSQFcdjgO-co"
+        },
+        {
+          "title": "GitHub Adds Claude Opus 5.5 to Copilot With Gradual ...\n\nSuperpower Daily\nhttps://superpowerdaily.com › Latest › Products",
+          "url": "https://www.google.com/goto?url=CAESlAEB6zswFf0P7QUEsji7ZMDzsI2rtJS-EhNKAj7pJH-JH1IAbG_DHnFNF16okgEINkhv0WNW1ZpH2qkXnbevX1lbcM1Q91nZfMWZDLnAwlaWupSzLb1DqgQQQls9HW8Nky34uWOL9w6SDJzHiRB3_IcfTHlY0gSI9m-V7v2mnnRiR6zmLmP870fFD42rMcv2Dm7BO1Ji"
+        },
+        {
+          "title": "Claude Opus 5.5 Benchmarks Explained - Vellum\n\nvellum.ai\nhttps://www.vellum.ai › blog › claude-opus-5-5-benchm...",
+          "url": "https://www.google.com/goto?url=CAESdwHrOzAV-QQQZTi7CVly8i0blQNDTs8RuYYCrLLzQLuKwTMyNaUJjbNKuschHCFNO2OiDxLnKfSwGRAH-N73vpXWFmrARP7ib9rSQd_RV5nudA6TFTyOhNcQG5lHQ0bH8Xw8M7hsph5dszffvQ9w6HOs_i8SUV3S"
+        },
+        {
+          "title": "Anthic's Claude Opus 5.5 beats GPT-6 Astra at a fraction of ...\n\nFacebook · AI: Artificial Intelligence\n1 comment · 4 days ago",
+          "url": "https://www.google.com/goto?url=CAESfwHrOzAVLvcetgwPQeHreWl0z4fRsYSMMxdTKHsFQG55QMXEkk5P3flecCAZRzPo4EMy3t1ECw2VXBJuoxypugdclAX4gmTZHVaqEsaeKDoQY5-AGQHvJDbxmUEiHXfE79-BQawbw8hbrEZlX1EUkt75zLf5m-HrbxQU6ms7TVw"
+        },
+        {
+          "title": "Opus 5.5: 6x cheaper and 2x faster than Fable 5.1, but only ...\n\nEndor Labs\nhttps://www.endorlabs.com › learn",
+          "url": "https://www.google.com/goto?url=CAESswEB6zswFbT33-Psn9VFLf9WD6dGV6UtgjzZhylo8eK9_y1I5IsTF4WPFA2K5mt_B6b90cx40pnKwu548MQcl_jy8_OTAWNM79elRyX6WOrl-CUtPn96PPx1I_naPQWW569QRpx8hY8lkCNvs9wBlbONz-jWb3C_6iEK8Xqe39pc_ks5HQL4cvZk7HZN2XfSV_RHP409DnT9zqDBQzK4BNqB5DiqJbv75gASIcaQs5vR2L_7qQ"
+        },
+        {
+          "title": "GPT-6 Sol vs Claude Opus 5.5: Benchmarks, Price, and a ...\n\nDataCamp\nhttps://www.datacamp.com › Blog › Artificial Intelligence",
+          "url": "https://www.google.com/goto?url=CAEScgHrOzAVu6XNfxLRtkjExVerLwEtpq_eiuYCez8KiBsGluUU--cIukN9mu2uciWEqpGVx6Wi_BNzMx0VU7XeqQ0N93a_q9JAnHE9AWKTBD2gVIOww7JmLXK9EtWQ8l14xF69kTIIpV03MwECNcQbO7bQxA"
+        },
+        {
+          "title": "Claude Opus 5.5 Is RIDICULOUS… It Just Beat GPT-6 Sol\n\nYouTube · BitBiasedAI\n1.8K+ views · 2 days ago",
+          "url": "https://www.google.com/goto?url=CAESYwHrOzAV4_YK8CWK2ySHzI5giInr0KvrnFkw1lGPdmcvStlk8o2rjlVllasTclbef9dUvf3bxihyBSgRywgiLREiOROo_IwXuKojLjkFSiOVcVqCECwJ7luFY88Ms5NlDlfmiA"
+        }
+      ]
+    },
+    {
+      "query": "\"opus 5.5\" \"gallery\" -site:instagram.com -site:threads.com -site:facebook.com",
+      "searchUrl": "https://www.google.com/search?q=%22opus+5.5%22+%22gallery%22+-site%3Ainstagram.com+-site%3Athreads.com+-site%3Afacebook.com&udm=14",
+      "results": [
+        {
+          "title": "Claude Opus 5.5 + Higgsfield MCP = $20K Website\n\nYouTube · Code Bear\n220+ views · 2 days ago",
+          "url": "https://www.google.com/goto?url=CAESYwHrOzAVLu52FdaRKonP0EPu_cmeL3ZWE893ZB0IwJk41Z381enq1TQGwkUm5KYIX73D7U5PXGkHIZBkyKoqAJLijR-Cu6Qg4SPTAj_ZyleM6gagZVOyKjSPZZGOPlDoMN41Og"
+        },
+        {
+          "title": "Claude Fable 5.1: Claude's most advanced models for ...\n\nProduct Hunt\nhttps://www.producthunt.com › products › claude-fable...",
+          "url": "https://www.google.com/goto?url=CAESbQHrOzAVbzyEVOtK0kO85OBtcVdFX5I7uch4t4AhX0_BYsnvkqsKZ9zaF2K9FOoYDBsRftMv_gxfVQyGuNm63d3JQwyFf11NzZ2218z0eI_VO_VrGByE5O-2041Bz78E_x7Lr-q-qtSSJ3Xx27M"
+        },
+        {
+          "title": "Nicola\n\nX · NicolaManzini\n30+ likes · 2 days ago",
+          "url": "https://www.google.com/goto?url=CAESbgHrOzAVY3zRoU59a7gXADgKWb4180a68DsrTkftFeg9iq5BSFy0fAeZ-hoamomPc4_ogzrtaCGSXWDasV0iCHtfPes2VdXJIOIPhAcfLAU66tRhzUbXLOI1J8ikA4bp170qpx_wpcrBPAs6N3O8"
+        },
+        {
+          "title": "Incredible showcase of Claude Opus 5.5\n\nReddit · r/claude\n60+ comments · 4 days ago",
+          "url": "https://www.google.com/goto?url=CAESjwEB6zswFSN5g8LYu22CoCEfmCghiItRK8TN2WxSw3OE45qXNG-SsnCgzvDbTvOGch1SMGW0r1j0gLSrz911HlCDPMXXLq9bQl1X81TVAVcAGT9KzxZjUu4Vr_TPAbXG_D-cbuMttoqDpUbzvayibx4Fj0uIXZlqcNx53JBnM_5j49rwU891TesUqPf7MTTeZA"
+        },
+        {
+          "title": "6 Things I'd Try With Claude Opus 5.5 — Averi email example\n\nMigmaAI\nhttps://migma.ai › Email gallery › Averi",
+          "url": "https://www.google.com/goto?url=CAESoAEB6zswFWoTYgQrYEcNnPZ0NJzrh83cJ7u3XCpnznv5RqEBghmg1RWZdTN1lRQiIuFfbSyeXaT6ghtWYXulwrNsFmrCbQ4dkrd5X2mZM0HyGwaWTSnHsgKrfxHDk8cr-SNazkZ8i1q8Sg4_2_Gc9Yl346SVgD30Lx-eVbGsk0znw6Phom-2L_attP_8p7CvmdlqRWa_kskPPCkc0MJy_oV7"
+        },
+        {
+          "title": "Claude Opus 5.5 on Google Cloud | Gemini Enterprise ...\n\nGoogle Cloud Documentation\nhttps://docs.cloud.google.com › claude › opus-5-5",
+          "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/partner-models/claude/opus-5-5"
+        },
+        {
+          "title": "Claude Opus 5.5 - TryAI\n\ntryai.dev\nhttps://www.tryai.dev › Models",
+          "url": "https://www.google.com/goto?url=CAESZAHrOzAVtBbdfyeSRSUAZ57QEYyCgDho-4UHr-SobZAHPy0csTFvpDEGm2q0HKrdF6yqmRJP0eXv3YygztJRIv4F-ljXiFmm8tvFzVa4riH2kjKUwVw3y4FhGmZ1Fnp9GdmtMpA"
+        },
+        {
+          "title": "Anthropic Launches Claude Opus 5.5: Faster & Cheaper\n\nMagicShot\nhttps://magicshot.ai › News",
+          "url": "https://www.google.com/goto?url=CAESYQHrOzAVTLgG2s-1S34YLjgKn23S68qMISc4jQHyPPLEXhhqkQrDr_Fdo-4j_Qzpl-CtSCWg_1MEbJozX614I4oItIZDf68JlwE6HTHjri-z3QYJyI2v4S0fkaf6jo0J3U8"
+        },
+        {
+          "title": "Claude Opus 5.5 Projects\n\nAI Tinkerers\nhttps://aitinkerers.org › technologies › claude-opus-5-5",
+          "url": "https://www.google.com/goto?url=CAESbAHrOzAVc0ib99oxuSJGSf4YJM9nEFywp_WLORGSrNp5VlqwOmFHxKFoI8Bz0rKUFiJCFV4n2fW3A3ogSjOZkV7Pry6HM4WsqE0w1nPYyZfjglFI4gYZmUdQgVZHnj2UTrygagTxmwQoAKVpbQ"
+        },
+        {
+          "title": "Creating Pixel Art Scenes with Opus 5.5\n\nSprite Fusion\nhttps://www.spritefusion.com › blog › opus-5-5-for-pix...",
+          "url": "https://www.google.com/goto?url=CAESdwHrOzAV0X5R6P7FSiiFjWEp635Ycq_sPH0L0Zh_WlGIuNjmu8Zc9wabZlOKkdLbo2jz6NZxa2r7qrnuH4U5iyKP9B8VxwT9aUcz4jJR9vVZDzC0RIR6HvIfcOVj47tzNrdUjPolGZAc7CxiN7mSPMG1lsmf6q2h"
+        }
+      ]
+    }
+  ]
+}

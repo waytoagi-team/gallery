@@ -3,7 +3,7 @@
 The page is a Next.js app; every case object is embedded in the RSC flight payload
 (self.__next_f.push chunks), even though only the first ~20 are rendered server-side.
 """
-import json, pathlib, re, urllib.request
+import datetime, json, pathlib, re, urllib.request
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 URLS = {"zh": "https://cheerselfai.com/usecase/claude-opus-5-5",
@@ -27,8 +27,14 @@ def fetch_cases(url):
 
 def main():
     raw = {lang: fetch_cases(url) for lang, url in URLS.items()}
-    (ROOT / "data" / "_raw_base.json").write_text(json.dumps(raw, ensure_ascii=False))
+    if not raw["zh"] or set(raw["zh"]) != set(raw["en"]):
+        raise ValueError("Empty or mismatched bilingual snapshot; keeping the previous file")
     print({k: len(v) for k, v in raw.items()})
+    raw["fetchedAt"] = datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds")
+    target = ROOT / "data" / "_raw_base.json"
+    staging = target.with_suffix(".tmp")
+    staging.write_text(json.dumps(raw, ensure_ascii=False))
+    staging.replace(target)
 
 
 if __name__ == "__main__":

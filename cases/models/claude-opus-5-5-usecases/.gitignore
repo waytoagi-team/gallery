@@ -1,1 +1,3 @@
 data/_raw_base.json
+__pycache__/
+data/_refresh/

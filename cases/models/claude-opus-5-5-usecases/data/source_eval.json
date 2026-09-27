@@ -3,16 +3,22 @@
   "name": "coolbat/awesome-opus-5.5-usecase",
   "url": "https://github.com/coolbat/awesome-opus-5.5-usecase",
   "type": "awesome-list",
-  "opus55_items": 250,
+  "opus55_items": 319,
   "first_hand": "mixed",
   "freshness": "pushed 2026-09-26; 198 of 250 items added 2026-09-26",
   "machine_readable": "data/usecases.json (list of {id,title,url,demo_url,source,category,stars,notes,added})",
   "overlap_with_x": "medium",
   "terms_notes": "CC0-1.0 (the cleanest license of all candidates)",
   "verdict": "adopt",
-  "why": "Biggest structured list we found apart from our current base: 205 X, 35 GitHub, 8 web, 2 official items. 68 of its 206 X status IDs and 33 of its GitHub repos are not in our data.",
+  "why": "Structured list now has 319 items (previously 250). It contains 266 distinct X IDs; 10 were absent from the refreshed base plus previous extras, and all 10 original texts mention Opus 5.5. Continue as a supplementary discovery feed; the base remains larger.",
   "verified": true,
-  "evaluated": "2026-09-26 pass 1"
+  "evaluated": "2026-09-27 refresh",
+  "previousEvaluation": {
+   "evaluated": "2026-09-26 pass 1",
+   "opus55_items": 250,
+   "verdict": "adopt"
+  },
+  "lastCheckedAt": "2026-09-27T07:59:05+00:00"
  },
  {
   "name": "TripoGrowthLab/awesome-opus-5-5-prompts (+ tripo3d.ai prompt gallery)",
@@ -33,16 +39,22 @@
   "name": "opusvideo/awesome-claude-video",
   "url": "https://github.com/opusvideo/awesome-claude-video",
   "type": "awesome-list",
-  "opus55_items": 47,
+  "opus55_items": 53,
   "first_hand": "high",
   "freshness": "updated_on 2026-09-26",
   "machine_readable": "cases.json (schema_version 3; en/zh-CN; view snapshots, tools used, covers)",
   "overlap_with_x": "high",
   "terms_notes": "No repo license; media_policy says the original media stay under their creators' rights",
   "verdict": "supplement",
-  "why": "Well-documented, verified video cases (X videos with more than 10k views, checked via oEmbed). 19 of its 57 X IDs are new to us. It also carries view counts and tool fields we could merge.",
+  "why": "53 case objects and 72 distinct X IDs across primary and supporting fields. Of 22 unseen IDs, only 3 fetched texts explicitly mention Opus 5.5; supporting links and attribution context must not be blindly ingested.",
   "verified": true,
-  "evaluated": "2026-09-26 pass 1"
+  "evaluated": "2026-09-27 refresh",
+  "previousEvaluation": {
+   "evaluated": "2026-09-26 pass 1",
+   "opus55_items": 47,
+   "verdict": "supplement"
+  },
+  "lastCheckedAt": "2026-09-27T07:59:05+00:00"
  },
  {
   "name": "magiccreator.ai Opus 5.5 demos (+ GitHub repo)",
@@ -363,31 +375,43 @@
   "name": "Reddit r/ClaudeAI via Arctic Shift archive API",
   "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=ClaudeAI&after=2026-09-22&limit=100&sort=desc",
   "type": "community",
-  "opus55_items": 408,
+  "opus55_items": null,
   "first_hand": "high",
   "freshness": "live; 1,599 posts from 2026-09-22 to 2026-09-26 10:04 UTC",
   "machine_readable": "JSON API: page with before=<created_utc>, use curl because python-urllib gets 403. Fields: id,title,created_utc,score,num_comments,link_flair_text,url. Scores are snapshots taken at ingest (mostly 1), so refresh them later.",
   "overlap_with_x": "low",
   "terms_notes": "Reddit content is under the Reddit User Agreement. Arctic Shift is a third-party archive that rate-limits (422 'slow down'). Store links and short summaries, not media.",
-  "verdict": "adopt",
-  "why": "Direct reddit.com JSON/RSS returned 403/429 via curl with a custom UA, and the old.reddit and shreddit endpoints were blocked too. Arctic Shift worked: 1,599 posts since launch, 408 with Opus 5.5 in the title, and 249 'Built with Claude' flair posts overall (95 of them name Opus 5.5 in the title). 131 of the 249 are v.redd.it native videos, which is why X overlap is low. Largest untapped first-hand source.",
+  "verdict": "supplement",
+  "why": "Fetched the newest 100 posts from each of r/ClaudeAI, r/ClaudeCode and r/claude. 166 of 300 have removed/deleted bodies. Added 11 intact task-specific posts. Archive freshness and score hiding limit coverage; do not recover removed bodies.",
   "verified": true,
-  "evaluated": "2026-09-26 pass 2"
+  "evaluated": "2026-09-27 refresh",
+  "previousEvaluation": {
+   "evaluated": "2026-09-26 pass 2",
+   "opus55_items": 408,
+   "verdict": "adopt"
+  },
+  "lastCheckedAt": "2026-09-27T07:59:05+00:00"
  },
  {
   "name": "YouTube search (ytInitialData scrape)",
   "url": "https://www.youtube.com/results?search_query=claude+opus+5.5&sp=EgIIBA%253D%253D",
   "type": "video-platform",
-  "opus55_items": 115,
+  "opus55_items": null,
   "first_hand": "mixed",
   "freshness": "live; videos posted 10h to 3d ago",
   "machine_readable": "Embedded ytInitialData JSON in the search HTML, fetchable with plain curl (videoId, title, channel, views, publishedTime). No API key needed. YouTube Data API v3 search.list is an official alternative that needs a key.",
   "overlap_with_x": "low",
   "terms_notes": "YouTube ToS: link or embed only, do not download.",
-  "verdict": "adopt",
-  "why": "10 first-page queries with the 'this week' filter gave 115 unique videos with Opus 5.5 in the title. Channels include Two Minute Papers (289k views), AI Search (543k), Matt Wolfe, Matthew Berman, Nate Herk, Brendan Jowett (Opus vs GPT-6 Astra games), Peter Yang (5 use cases), and the official 'Introducing Claude Opus 5.5' (265k). Our dataset has only 6 YouTube URLs. About half are reaction or explainer videos; demo/build videos can be filtered by title keywords.",
+  "verdict": "supplement",
+  "why": "Search HTML remains readable; refreshed available view counts and added two specific tutorial/evaluation entries. Watch pages did not expose videoDetails, so new entries have unknown publication dates and title/description-only evidence.",
   "verified": true,
-  "evaluated": "2026-09-26 pass 2"
+  "evaluated": "2026-09-27 refresh",
+  "previousEvaluation": {
+   "evaluated": "2026-09-26 pass 2",
+   "opus55_items": 115,
+   "verdict": "adopt"
+  },
+  "lastCheckedAt": "2026-09-27T07:59:05+00:00"
  },
  {
   "name": "athemeroy/awesome-opus-5-5-videos",
@@ -408,31 +432,43 @@
   "name": "theolundqvist/frontier-games",
   "url": "https://github.com/theolundqvist/frontier-games",
   "type": "gallery",
-  "opus55_items": 112,
+  "opus55_items": 116,
   "first_hand": "high",
   "freshness": "created 2026-09-23, pushed 2026-09-26",
   "machine_readable": "data/games.yaml (id,title,model,creator_handle,post_url,post_likes,date,play_url,repo_url,engine,genre,build,model_evidence) + data/videos.yaml",
   "overlap_with_x": "medium",
   "terms_notes": "No license file (all rights reserved by default). Ingest links and metadata only.",
   "verdict": "adopt",
-  "why": "181 games, 112 of them tagged claude-opus-5.5, each with play_url, repo_url and a model_evidence quote. 132 X IDs (63 new) and 35 GitHub repos (15 new). Clean YAML with explicit model attribution.",
+  "why": "185 records in current YAML; filter exactly on model=claude-opus-5.5 before extracting cases. README contains other-model and supporting X links; a raw link scrape is insufficient.",
   "verified": true,
-  "evaluated": "2026-09-26 pass 2"
+  "evaluated": "2026-09-27 refresh",
+  "previousEvaluation": {
+   "evaluated": "2026-09-26 pass 2",
+   "opus55_items": 112,
+   "verdict": "adopt"
+  },
+  "lastCheckedAt": "2026-09-27T07:59:05+00:00"
  },
  {
   "name": "AgentsLoop/awesome-opus-5.5-games",
   "url": "https://github.com/AgentsLoop/awesome-opus-5.5-games",
   "type": "awesome-list",
-  "opus55_items": 29,
+  "opus55_items": 57,
   "first_hand": "high",
   "freshness": "repo created 2026-09-09 (pre-launch, renamed); pushed 2026-09-26",
   "machine_readable": "games.json (601 entries; model_family, github_url, live_demo_url, evidence_url, model_evidence, prompt, quality/screenshot ratings)",
   "overlap_with_x": "low",
   "terms_notes": "No license",
   "verdict": "supplement",
-  "why": "Despite the name, only 29 of 601 entries have model_family 'Claude Opus 5.5' (161 are Opus 5, 97 Fable 5, 67 GPT-6 Astra). Useful for GitHub-repo-backed games (595 repo URLs not in our data, mostly other models). Filter on model_family.",
+  "why": "631 games across several model families. Use exact model_family attribution, not the repository name. Original code and model_evidence are still preferable to topic tags.",
   "verified": true,
-  "evaluated": "2026-09-26 pass 2"
+  "evaluated": "2026-09-27 refresh",
+  "previousEvaluation": {
+   "evaluated": "2026-09-26 pass 2",
+   "opus55_items": 29,
+   "verdict": "supplement"
+  },
+  "lastCheckedAt": "2026-09-27T07:59:05+00:00"
  },
  {
   "name": "Yeadon8888/claude-video-atlas",
@@ -513,16 +549,22 @@
   "name": "Zvi Mowshowitz (Don't Worry About the Vase)",
   "url": "https://thezvi.substack.com/feed",
   "type": "newsletter",
-  "opus55_items": 4,
+  "opus55_items": 1,
   "first_hand": "low",
   "freshness": "'Claude Opus 5.5: The System Card' 2026-09-23; AI #187 2026-09-24",
   "machine_readable": "Substack RSS full text (also thezvi.wordpress.com/feed)",
   "overlap_with_x": "low",
   "terms_notes": "Substack; cite only",
-  "verdict": "skip",
-  "why": "The system card post has 0 tweet links (analysis only). AI #187 has 4 Opus-context tweets, all new. Zvi usually publishes a separate 'capabilities and reactions' post days after launch, and it had not appeared by 09-26, so re-check the RSS then: that post typically links dozens of first-hand reactions.",
+  "verdict": "supplement",
+  "why": "The anticipated first-week capabilities post is now available: Claude Opus 5.5 Should Raise Your Ambitions (Sep 26). Extracted its original-post links and checked candidates via fxtwitter. It is discovery/analysis, not first-hand evidence for each demo.",
   "verified": true,
-  "evaluated": "2026-09-26 pass 2"
+  "evaluated": "2026-09-27 refresh",
+  "previousEvaluation": {
+   "evaluated": "2026-09-26 pass 2",
+   "opus55_items": 4,
+   "verdict": "skip"
+  },
+  "lastCheckedAt": "2026-09-27T07:59:05+00:00"
  },
  {
   "name": "Ben's Bites",
@@ -588,16 +630,22 @@
   "name": "Bilibili search API",
   "url": "https://api.bilibili.com/x/web-interface/search/type?search_type=video&keyword=opus%205.5&order=pubdate",
   "type": "video-platform",
-  "opus55_items": 1000,
+  "opus55_items": null,
   "first_hand": "high",
   "freshness": "live; newest result minutes old",
   "machine_readable": "JSON API (needs buvid3 cookie from a homepage GET plus a Referer header): bvid,title,play,pubdate,author. numResults is capped at 1000, so paginate by page.",
   "overlap_with_x": "low",
   "terms_notes": "Bilibili ToS: link only. Some uploads are marked 转载 (re-uploads, often of X videos), so dedupe those.",
   "verdict": "adopt",
-  "why": "The best Chinese source reachable: the API returned 1000 hits for 'opus 5.5' (the cap). The newest are first-hand demos (MVs, games, video projects) plus comparison tests (Opus 5.5 vs GPT-6 Sol). Very low overlap with an X dataset apart from 转载 re-uploads.",
+  "why": "Retrieved 50 newest search results after a normal homepage cookie handshake. Page 2 returned HTTP 412; coverage is partial. Added 9 specific demos/tutorials after excluding translated reposts, other-model results and generic reactions. Descriptions only; videos not watched.",
   "verified": true,
-  "evaluated": "2026-09-26 pass 2"
+  "evaluated": "2026-09-27 refresh",
+  "previousEvaluation": {
+   "evaluated": "2026-09-26 pass 2",
+   "opus55_items": 1000,
+   "verdict": "adopt"
+  },
+  "lastCheckedAt": "2026-09-27T07:59:05+00:00"
  },
  {
   "name": "知乎 (Zhihu) question/columns",
@@ -805,9 +853,15 @@
   "overlap_with_x": "high",
   "terms_notes": "commercial site; link only",
   "verdict": "supplement",
-  "why": "Prompt+video gallery. 15 of its 18 X IDs are new to us. Worth scraping the IDs once.",
+  "why": "Current page has 18 X IDs; 9 are absent from the refreshed base plus old extras, and 6 original texts mention Opus 5.5. Retain as a narrow prompt-discovery source with original-post checks.",
   "verified": true,
-  "evaluated": "2026-09-26 pass 2"
+  "evaluated": "2026-09-27 refresh",
+  "previousEvaluation": {
+   "evaluated": "2026-09-26 pass 2",
+   "opus55_items": null,
+   "verdict": "supplement"
+  },
+  "lastCheckedAt": "2026-09-27T07:59:05+00:00"
  },
  {
   "name": "Happycapy Opus 5.5 page",
@@ -823,5 +877,297 @@
   "why": "Only 6 new X IDs. Mostly a product page.",
   "verified": true,
   "evaluated": "2026-09-26 pass 2"
+ },
+ {
+  "name": "Lemo-Opuscar — first-hand film styles",
+  "url": "https://github.com/lemomo-ai/lemo-opuscar",
+  "type": "first-party-gallery",
+  "opus55_items": 39,
+  "first_hand": "high",
+  "freshness": "Checked 2026-09-27",
+  "machine_readable": "README.md; styles/README.md; per-style STYLE.md; DIRECTOR.md; TECHNIQUE.md",
+  "overlap_with_x": "low",
+  "terms_notes": "Code MIT; guides, style files and films CC BY 4.0; third-party assets retain their licenses. LICENSE fetched.",
+  "verdict": "adopt",
+  "why": "39 films/styles personally produced by the maintainer with Opus 5.5. Stronger reproduction context than an X roundup: prompts, directing/technical guides, source and credits. Added as one collection-level case, not 39 independent successes.",
+  "verified": true,
+  "evaluated": "2026-09-27 refresh",
+  "lastCheckedAt": "2026-09-27T08:18:12+00:00",
+  "discoveredVia": "GitHub keyword search; web discovery; original README",
+  "resources": [
+   {
+    "label": "风格与提示词",
+    "label_en": "Styles & prompts",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/README.md"
+   },
+   {
+    "label": "导演指南",
+    "label_en": "Directing guide",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/DIRECTOR.md"
+   },
+   {
+    "label": "技术指南",
+    "label_en": "Technical guide",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/TECHNIQUE.md"
+   }
+  ]
+ },
+ {
+  "name": "Skillry / yihui-dev awesome-opus5-5-videos",
+  "url": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+  "type": "gallery",
+  "opus55_items": 282,
+  "first_hand": "mixed",
+  "freshness": "Checked 2026-09-27",
+  "machine_readable": "data/videos.json: post_url, author, category, prompt, prompt_partial, tech_tags, skillry_url",
+  "overlap_with_x": "medium",
+  "terms_notes": "No LICENSE at the checked path. Original posts and assets retain creator rights; link and summarize, do not mirror prompts/media.",
+  "verdict": "supplement",
+  "why": "282 original-post IDs; 175 not in the refreshed base plus existing extras, all 175 fetched texts explicitly mention Opus 5.5. Adds shared prompts and tool tags, but a model mention alone is insufficient: exclude prelaunch rumors, vague reactions and other-model comparisons without a concrete Opus task.",
+  "verified": true,
+  "evaluated": "2026-09-27 refresh",
+  "lastCheckedAt": "2026-09-27T07:59:05+00:00",
+  "discoveredVia": "GitHub keyword search"
+ },
+ {
+  "name": "Blender AI Arena — gallery and methodology",
+  "url": "https://blenderai.org/gallery",
+  "type": "eval-gallery",
+  "opus55_items": 12,
+  "first_hand": "high",
+  "freshness": "Checked 2026-09-27",
+  "machine_readable": "HTML with model-specific GLB artifacts; public methodology at /methodology",
+  "overlap_with_x": "low",
+  "terms_notes": "Link to artifacts; no media mirrored.",
+  "verdict": "supplement",
+  "why": "Twelve Opus 5.5 outputs on the same prompts as competitors. Failures remain visible and generation paths are disclosed. Better artifact-level comparison than a single score, but tools use different paths and this is not a pure model-only experiment. Added one evaluation case.",
+  "verified": true,
+  "evaluated": "2026-09-27 refresh",
+  "lastCheckedAt": "2026-09-27T08:18:12+00:00",
+  "discoveredVia": "Web search; gallery and methodology fetched",
+  "resources": [
+   {
+    "label": "基准提示词",
+    "label_en": "Benchmark prompts",
+    "url": "https://blenderai.org/prompts"
+   },
+   {
+    "label": "评测方法",
+    "label_en": "Methodology",
+    "url": "https://blenderai.org/methodology"
+   }
+  ]
+ },
+ {
+  "name": "MiaAI-Lab — 100 HTML experiments",
+  "url": "https://github.com/MiaAI-Lab/Claude-Opus-5.5-100-HTML-Files",
+  "type": "first-party-gallery",
+  "opus55_items": 100,
+  "first_hand": "high",
+  "freshness": "Checked 2026-09-27",
+  "machine_readable": "index.html, numbered HTML and per-page .txt prompts",
+  "overlap_with_x": "low",
+  "terms_notes": "Creator repository; link-only, no code/media copied.",
+  "verdict": "adopt",
+  "why": "Exact prompts and individual runnable files make this a useful source for reproducibility. Creator reports desktop/mobile checks. Already represented in our cases, so no extra 100-case expansion.",
+  "verified": true,
+  "evaluated": "2026-09-27 refresh",
+  "lastCheckedAt": "2026-09-27T07:59:05+00:00",
+  "discoveredVia": "Google gallery search surfaced the Reddit showcase; original repository checked"
+ },
+ {
+  "name": "Qiita API — original hands-on reports",
+  "url": "https://qiita.com/api/v2/items?query=%22Opus+5.5%22&per_page=100",
+  "type": "community",
+  "opus55_items": 71,
+  "first_hand": "mixed",
+  "freshness": "Checked 2026-09-27",
+  "machine_readable": "Public JSON API with full article body, created_at, updated_at and author",
+  "overlap_with_x": "low",
+  "terms_notes": "Per-author copyright; summaries and original links only.",
+  "verdict": "supplement",
+  "why": "71 search hits, including incidental mentions and news summaries. Added 3 original reports: deduplicated session-cost logs, anonymized Japanese-equity decision research, and exam preparation. Excluded a slide workflow actually run on DeepSeek. Particularly useful for methods/scripts rather than viral demos.",
+  "verified": true,
+  "evaluated": "2026-09-27 refresh",
+  "lastCheckedAt": "2026-09-27T08:18:12+00:00",
+  "discoveredVia": "API search; Zenn/Qiita-focused web search",
+  "resources": [
+   {
+    "label": "会话统计脚本",
+    "label_en": "Session analysis script",
+    "url": "https://qiita.com/mamagotolab/items/37d3bdd0bafdd81ba392#%E9%9B%86%E8%A8%88%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88"
+   }
+  ],
+  "evidenceUrl": "https://qiita.com/mamagotolab/items/37d3bdd0bafdd81ba392"
+ },
+ {
+  "name": "Opus 5.5 music video art styles — Miranda Dixon-Luinenburg",
+  "url": "https://github.com/cyborggirl963/opus-5.5-music-video-art-styles",
+  "type": "first-party-gallery",
+  "opus55_items": 18,
+  "first_hand": "high",
+  "freshness": "Checked 2026-09-27",
+  "machine_readable": "Per-style engines, README, rendering/lyric-alignment tools",
+  "overlap_with_x": "low",
+  "terms_notes": "No license claim made in this review; links and summary only.",
+  "verdict": "adopt",
+  "why": "18 engines share the same 37.5-second musical excerpt, making style comparison more controlled. Explicit human direction and Opus 5.5 attribution. Added once as a workflow collection.",
+  "verified": true,
+  "evaluated": "2026-09-27 refresh",
+  "lastCheckedAt": "2026-09-27T07:59:05+00:00",
+  "discoveredVia": "GitHub keyword search; original README"
+ },
+ {
+  "name": "VulcanBench Opus 5.5 redacted traces",
+  "url": "https://github.com/morganlinton/vulcanbench-opus55-traces",
+  "type": "eval-data",
+  "opus55_items": 115,
+  "first_hand": "high",
+  "freshness": "Checked 2026-09-27",
+  "machine_readable": "manifest.csv and structured JSONL session traces",
+  "overlap_with_x": "low",
+  "terms_notes": "Canary-marked benchmark corpus; no task content or traces republished.",
+  "verdict": "supplement",
+  "why": "115 runs cover 23 tasks and five efforts. Public traces show that some replies used Opus 4.8 fallback. Useful for auditing workflow/cost claims; solutions and task bodies are withheld, so it is not a fully reproducible pure-Opus benchmark. Added one evaluation case.",
+  "verified": true,
+  "evaluated": "2026-09-27 refresh",
+  "lastCheckedAt": "2026-09-27T07:59:05+00:00",
+  "discoveredVia": "GitHub keyword search; original README"
+ },
+ {
+  "name": "OVERKILL — simulation-checked machines",
+  "url": "https://github.com/ramenprotokol/overkill",
+  "type": "first-party-project",
+  "opus55_items": 1,
+  "first_hand": "high",
+  "freshness": "Checked 2026-09-27",
+  "machine_readable": "Machine JSON, simulation reports, revision history and live browser demo",
+  "overlap_with_x": "none",
+  "terms_notes": "Repository links only; license not assessed.",
+  "verdict": "adopt",
+  "why": "Has failure revisions and checks, not only a polished final animation. Live gallery runs offline-designed machines; live API generation is not enabled. Added one case.",
+  "verified": true,
+  "evaluated": "2026-09-27 refresh",
+  "lastCheckedAt": "2026-09-27T07:59:05+00:00",
+  "discoveredVia": "GitHub keyword search; original README"
+ },
+ {
+  "name": "Combos Claude Opus 5.5 prompt collection",
+  "url": "https://combos.converge.ai/prompt/claude-opus-5-5",
+  "type": "gallery",
+  "opus55_items": null,
+  "first_hand": "mixed",
+  "freshness": "Checked 2026-09-27",
+  "machine_readable": "HTML with original X URLs",
+  "overlap_with_x": "medium",
+  "terms_notes": "Commercial curator; link and summarize original posts only.",
+  "verdict": "supplement",
+  "why": "91 X IDs found; 63 absent from the refreshed dataset, but only 36 fetched original texts explicitly mention Opus 5.5. Some are other-model showcases or prelaunch material. Use strictly as discovery with attribution/date checks.",
+  "verified": true,
+  "evaluated": "2026-09-27 refresh",
+  "lastCheckedAt": "2026-09-27T07:59:05+00:00",
+  "discoveredVia": "Web search; original page"
+ },
+ {
+  "name": "Aveniqa creative gallery",
+  "url": "https://aveniqa.com/",
+  "type": "gallery",
+  "opus55_items": null,
+  "first_hand": "mixed",
+  "freshness": "Checked 2026-09-27",
+  "machine_readable": "HTML with original post links",
+  "overlap_with_x": "low",
+  "terms_notes": "Commercial curator; no media mirrored.",
+  "verdict": "skip",
+  "why": "13 X IDs on the fetched landing page, 12 unseen, but only 1 fetched text explicitly mentions Opus 5.5. Broad multi-model gallery offers low precision for this collection.",
+  "verified": true,
+  "evaluated": "2026-09-27 refresh",
+  "lastCheckedAt": "2026-09-27T07:59:05+00:00",
+  "discoveredVia": "Web search; original page"
+ },
+ {
+  "name": "Clio Style Library",
+  "url": "https://github.com/lumenastrum/clio-style-preview",
+  "type": "first-party-gallery",
+  "opus55_items": 0,
+  "first_hand": "high",
+  "freshness": "Checked 2026-09-27",
+  "machine_readable": "README, styles.json and gallery",
+  "overlap_with_x": "none",
+  "terms_notes": "Code MIT; community style text separately credited.",
+  "verdict": "skip",
+  "why": "Google surfaced this result, but the current README credits Kimi K3, Fable 5 and Opus 5 rather than Opus 5.5. The 398 styles are not 398 Opus 5.5 use cases; rejected after reading original credits.",
+  "verified": true,
+  "evaluated": "2026-09-27 refresh",
+  "lastCheckedAt": "2026-09-27T07:59:05+00:00",
+  "discoveredVia": "Google query: \"opus 5.5\" \"github\" \"gallery\""
+ },
+ {
+  "name": "ohmyopus",
+  "url": "https://ohmyopus.com/en",
+  "type": "gallery",
+  "opus55_items": 108,
+  "first_hand": "mixed",
+  "freshness": "Checked 2026-09-27",
+  "machine_readable": "HTML; original evidence links not extractable in this fetch",
+  "overlap_with_x": "unknown",
+  "terms_notes": "Curated summaries; no mirroring.",
+  "verdict": "skip",
+  "why": "Readable gallery has 108 cases dated Sep 24, but the fetched HTML exposed no original X status URLs. Lower freshness and weaker accessible provenance than the existing base.",
+  "verified": true,
+  "evaluated": "2026-09-27 refresh",
+  "lastCheckedAt": "2026-09-27T07:59:05+00:00",
+  "discoveredVia": "Web search; original page"
+ },
+ {
+  "name": "Endor Labs Agent Security League",
+  "url": "https://www.endorlabs.com/learn/opus-5-5-6x-cheaper-and-2x-faster-than-fable-5-1-but-memorization-keeps-it-off-the-top-spot",
+  "type": "eval-report",
+  "opus55_items": 1,
+  "first_hand": "high",
+  "freshness": "Checked 2026-09-27",
+  "machine_readable": "Article, benchmark definitions and task-linked results",
+  "overlap_with_x": "low",
+  "terms_notes": "Link and summarize only; no media copied.",
+  "verdict": "supplement",
+  "why": "Google rediscovered this first-hand benchmark, already represented in our cases. Security and functional outcomes, costs and recall exclusions are disclosed. Scores depend on anti-cheating adjudication; Claude Code versions differ between models. Useful counterweight to success-only demos; no duplicate case added.",
+  "verified": true,
+  "evaluated": "2026-09-27 refresh",
+  "lastCheckedAt": "2026-09-27T08:03:32+00:00",
+  "discoveredVia": "Google browser search"
+ },
+ {
+  "name": "Sprite Fusion hands-on pixel-art experiments",
+  "url": "https://www.spritefusion.com/blog/opus-5-5-for-pixel-art-scenes",
+  "type": "first-party-blog",
+  "opus55_items": 1,
+  "first_hand": "high",
+  "freshness": "Checked 2026-09-27",
+  "machine_readable": "HTML article with exact prompt, result image, model effort and runtime",
+  "overlap_with_x": "low",
+  "terms_notes": "Link and summarize only; no media copied.",
+  "verdict": "supplement",
+  "why": "Google discovery verified against the original article. Opus 5.5 Extra High experiment reports ten minutes and includes imperfections. Adds specific prompt-to-artifact evidence, but is a commercial creator blog, not a controlled benchmark. One new case added.",
+  "verified": true,
+  "evaluated": "2026-09-27 refresh",
+  "lastCheckedAt": "2026-09-27T08:03:32+00:00",
+  "discoveredVia": "Google browser search"
+ },
+ {
+  "name": "AI Tinkerers model-specific projects page",
+  "url": "https://aitinkerers.org/technologies/claude-opus-5-5",
+  "type": "community",
+  "opus55_items": null,
+  "first_hand": "unknown",
+  "freshness": "Checked 2026-09-27",
+  "machine_readable": "Google-indexed page; direct request and Google redirect both returned HTTP 404",
+  "overlap_with_x": "low",
+  "terms_notes": "Link and summarize only; no media copied.",
+  "verdict": "skip",
+  "why": "Potential first-hand meetup/demo source, but the indexed model-specific page is unavailable. No case ingested and no coverage count inferred.",
+  "verified": false,
+  "evaluated": "2026-09-27 refresh",
+  "lastCheckedAt": "2026-09-27T08:03:32+00:00",
+  "discoveredVia": "Google browser search"
  }
 ]
