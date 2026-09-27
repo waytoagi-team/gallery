@@ -1,0 +1,217 @@
+[
+  {
+    "key": "coolbat",
+    "url": "https://raw.githubusercontent.com/coolbat/awesome-opus-5.5-usecase/main/data/usecases.json",
+    "format": "json"
+  },
+  {
+    "key": "opusvideo",
+    "url": "https://raw.githubusercontent.com/opusvideo/awesome-claude-video/main/cases.json",
+    "format": "json"
+  },
+  {
+    "key": "games",
+    "url": "https://raw.githubusercontent.com/AgentsLoop/awesome-opus-5.5-games/main/games.json",
+    "format": "json"
+  },
+  {
+    "key": "frontend",
+    "url": "https://raw.githubusercontent.com/OpenVGLab/awesome-opus5.5-frontend-showcases/main/README.en.md",
+    "format": "text"
+  },
+  {
+    "key": "github-search",
+    "url": "https://api.github.com/search/repositories?q=%22opus+5.5%22&sort=updated&per_page=100",
+    "format": "json"
+  },
+  {
+    "key": "hn",
+    "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22opus%205.5%22&hitsPerPage=100",
+    "format": "json"
+  },
+  {
+    "key": "reddit-ai",
+    "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=ClaudeAI&after=2026-09-26&limit=100&sort=desc",
+    "format": "json"
+  },
+  {
+    "key": "reddit-code",
+    "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=ClaudeCode&after=2026-09-26&limit=100&sort=desc",
+    "format": "json"
+  },
+  {
+    "key": "reddit-claude",
+    "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=claude&after=2026-09-26&limit=100&sort=desc",
+    "format": "json"
+  },
+  {
+    "key": "youtube",
+    "url": "https://www.youtube.com/results?search_query=claude+opus+5.5&sp=CAI%253D",
+    "format": "text"
+  },
+  {
+    "key": "bilibili",
+    "url": "https://api.bilibili.com/x/web-interface/search/type?search_type=video&keyword=opus%205.5&order=pubdate&page=1&page_size=50",
+    "format": "json"
+  },
+  {
+    "key": "zenn",
+    "url": "https://zenn.dev/topics/claude/feed",
+    "format": "xml"
+  },
+  {
+    "key": "latent",
+    "url": "https://www.latent.space/feed",
+    "format": "xml"
+  },
+  {
+    "key": "zvi",
+    "url": "https://thezvi.substack.com/feed",
+    "format": "xml"
+  },
+  {
+    "key": "mollick",
+    "url": "https://www.oneusefulthing.org/feed",
+    "format": "xml"
+  },
+  {
+    "key": "youmind",
+    "url": "https://youmind.com/opus-5-5-prompts",
+    "format": "text"
+  },
+  {
+    "key": "ohmyopus",
+    "url": "https://ohmyopus.com/en",
+    "format": "text"
+  },
+  {
+    "key": "mia",
+    "url": "https://raw.githubusercontent.com/MiaAI-Lab/Claude-Opus-5.5-100-HTML-Files/main/index.html",
+    "format": "text"
+  },
+  {
+    "key": "blender",
+    "url": "https://blenderai.org/gallery",
+    "format": "text"
+  },
+  {
+    "key": "combos",
+    "url": "https://combos.converge.ai/prompt/claude-opus-5-5",
+    "format": "text"
+  },
+  {
+    "key": "aveniqa",
+    "url": "https://aveniqa.com/?lang=en",
+    "format": "text"
+  },
+  {
+    "key": "simon",
+    "url": "https://simonwillison.net/atom/everything/",
+    "format": "xml"
+  },
+  {
+    "key": "qiita",
+    "url": "https://qiita.com/api/v2/items?query=%22Opus+5.5%22&per_page=100",
+    "format": "json"
+  },
+  {
+    "key": "athemeroy-readme",
+    "url": "https://raw.githubusercontent.com/athemeroy/awesome-opus-5-5-videos/main/README.md",
+    "format": "text"
+  },
+  {
+    "key": "frontier-data",
+    "url": "https://raw.githubusercontent.com/theolundqvist/frontier-games/main/data/games.yaml",
+    "format": "text"
+  },
+  {
+    "key": "lemo",
+    "url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/main/README.md",
+    "format": "text"
+  },
+  {
+    "key": "yihui-data",
+    "url": "https://raw.githubusercontent.com/yihui-dev/awesome-opus5-5-videos/main/data/videos.json",
+    "format": "json"
+  },
+  {
+    "key": "video-prompts",
+    "url": "https://raw.githubusercontent.com/joeseesun/opus-video-prompts/main/README.md",
+    "format": "text"
+  },
+  {
+    "key": "magiccreator",
+    "url": "https://raw.githubusercontent.com/magiccreator-ai/awesome-claude-opus-5-5-demos/main/README.md",
+    "format": "text"
+  },
+  {
+    "key": "tripo",
+    "url": "https://raw.githubusercontent.com/TripoGrowthLab/awesome-opus-5-5-prompts/main/docs/catalog.en.1.md",
+    "format": "text"
+  },
+  {
+    "key": "official",
+    "url": "https://www.anthropic.com/claude-opus-5-5",
+    "format": "text"
+  },
+  {
+    "key": "vals",
+    "url": "https://www.vals.ai/models/anthropic_claude-opus-5-5",
+    "format": "text"
+  },
+  {
+    "key": "sonar",
+    "url": "https://www.sonarsource.com/blog/claude-opus-5-5-an-evaluation/",
+    "format": "text"
+  },
+  {
+    "key": "every",
+    "url": "https://every.to/vibe-check/vibe-check-opus-5-5-is-pulling-our-codex-converts-back-to-claude",
+    "format": "text"
+  },
+  {
+    "key": "aa",
+    "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
+    "format": "text"
+  },
+  {
+    "key": "endor",
+    "url": "https://www.endorlabs.com/learn/opus-5-5-6x-cheaper-and-2x-faster-than-fable-5-1-but-memorization-keeps-it-off-the-top-spot",
+    "format": "text"
+  },
+  {
+    "key": "sprite",
+    "url": "https://www.spritefusion.com/blog/opus-5-5-for-pixel-art-scenes",
+    "format": "text"
+  },
+  {
+    "key": "lemo-styles",
+    "url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/main/styles/README.md",
+    "format": "text"
+  },
+  {
+    "key": "lemo-director",
+    "url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/main/DIRECTOR.md",
+    "format": "text"
+  },
+  {
+    "key": "lemo-technique",
+    "url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/main/TECHNIQUE.md",
+    "format": "text"
+  },
+  {
+    "key": "blender-prompts",
+    "url": "https://blenderai.org/prompts",
+    "format": "text"
+  },
+  {
+    "key": "blender-methodology",
+    "url": "https://blenderai.org/methodology",
+    "format": "text"
+  },
+  {
+    "key": "qiita-session-logs",
+    "url": "https://qiita.com/api/v2/items/37d3bdd0bafdd81ba392",
+    "format": "json"
+  }
+]

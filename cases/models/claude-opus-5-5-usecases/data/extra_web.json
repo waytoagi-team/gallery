@@ -729,7 +729,9 @@
   "author": "Brendan Jowett",
   "sourceUrl": "https://www.youtube.com/watch?v=w4JMLjnY1xY",
   "platform": "YouTube",
-  "date": null
+  "date": null,
+  "views": 205126,
+  "metricsCheckedAt": "2026-09-27T07:56:26+00:00"
  },
  {
   "title": "YouTube：Claude Code 存量项目实测",
@@ -753,7 +755,9 @@
   "author": "Nate Herk",
   "sourceUrl": "https://www.youtube.com/watch?v=QCkHIyEPIYo",
   "platform": "YouTube",
-  "date": null
+  "date": null,
+  "views": 144877,
+  "metricsCheckedAt": "2026-09-27T07:56:26+00:00"
  },
  {
   "title": "广告创意全案对比：Opus 5.5 胜出",
@@ -3298,5 +3302,155 @@
   "sourceUrl": "https://www.v2ex.com/t/1244181#r_18120346",
   "platform": "V2EX",
   "date": "2026-09-23"
+ },
+ {
+  "category": "agents",
+  "evidenceType": "教程",
+  "title": "为 Opus 5.5 精简长期运行的 Agent 配置",
+  "title_en": "Reducing an Opus 5.5 agent harness",
+  "summary": "作者记录将 59 个全局 hook 筛减为 16 个、把条件知识移到按需技能的过程，同时保留事故防护和状态交接机制；结果属于个人环境经验。",
+  "summary_en": "The author documents reducing 59 global hooks to 16 and moving conditional knowledge into on-demand skills, retaining safety and state-handoff mechanisms. Results are specific to this environment.",
+  "sourceUrl": "https://zenn.dev/i_ichi/articles/opus55-harness-genchiku",
+  "author": "いち",
+  "platform": "Zenn",
+  "date": "2026-09-26",
+  "checkedAt": "2026-09-27T07:52:53+00:00",
+  "discoveredVia": "https://zenn.dev/i_ichi/articles/opus55-harness-genchiku",
+  "evidenceBasis": "full article or gallery and methodology; not independently reproduced",
+  "evidenceUrl": "https://zenn.dev/i_ichi/articles/opus55-harness-genchiku"
+ },
+ {
+  "category": "education",
+  "evidenceType": "演示",
+  "title": "浏览器中的规划器蒸馏游戏实验",
+  "title_en": "A browser game for planner distillation",
+  "summary": "作者称 Opus 5.5 medium 约一小时制作横版游戏、搜索规划器和 JavaScript 梯度提升树，公开演示及 MIT 源码。教师是自建规划器，不是 LLM。",
+  "summary_en": "The author reports an Opus 5.5 medium build of a platform game, search planner and JavaScript boosted trees in about an hour, with a live demo and MIT source. The teacher is a planner, not an LLM.",
+  "sourceUrl": "https://zenn.dev/kaazujp/articles/9752ec2a1623d9",
+  "author": "kaazujp",
+  "platform": "Zenn",
+  "date": "2026-09-27",
+  "checkedAt": "2026-09-27T07:52:53+00:00",
+  "discoveredVia": "https://zenn.dev/kaazujp/articles/9752ec2a1623d9",
+  "evidenceBasis": "full article or gallery and methodology; not independently reproduced",
+  "evidenceUrl": "https://zenn.dev/kaazujp/articles/9752ec2a1623d9"
+ },
+ {
+  "category": "coding",
+  "evidenceType": "评测",
+  "title": "13 项 React 规格的重复实现评测",
+  "title_en": "Repeated implementation of 13 React specs",
+  "summary": "uhyo 对 high 与 max 各做三轮、共 78 次实现，报告总分 90.79 和 94.46；两档均有 3/39 次未编译。评分使用固定 Sonnet 4.6，不能当作纯人工评测。",
+  "summary_en": "uhyo reports 78 implementations across 13 specs and three repetitions per effort level, scoring high at 90.79 and max at 94.46, each with 3/39 non-compiling runs. A fixed Sonnet 4.6 judge scores the work.",
+  "sourceUrl": "https://zenn.dev/uhyo/articles/react-profession-bench-17",
+  "author": "uhyo",
+  "platform": "Zenn",
+  "date": "2026-09-25",
+  "checkedAt": "2026-09-27T07:52:53+00:00",
+  "discoveredVia": "https://zenn.dev/uhyo/articles/react-profession-bench-17",
+  "evidenceBasis": "full article or gallery and methodology; not independently reproduced",
+  "evidenceUrl": "https://zenn.dev/uhyo/articles/react-profession-bench-17"
+ },
+ {
+  "category": "3d",
+  "evidenceType": "评测",
+  "title": "Blender AI Arena：12 个相同提示的 3D 作品对照",
+  "title_en": "Blender AI Arena: 3D outputs from twelve shared prompts",
+  "summary": "Blender AI Arena 公开 Opus 5.5 的 12 个 3D 输出，与其他工具按相同提示对照并保留失败结果；附提示词集与生成、评分方法。各工具生成路径不同，结果同时反映模型和工作流差异。",
+  "summary_en": "Blender AI Arena publishes twelve Opus 5.5 3D outputs on shared prompts, retaining failures alongside other tools. Prompt sets and generation/rating methods are public. Different generation paths mean results reflect both models and workflows.",
+  "sourceUrl": "https://blenderai.org/gallery",
+  "author": "Blender AI Arena",
+  "platform": "Blender AI Arena",
+  "date": null,
+  "checkedAt": "2026-09-27T08:18:12+00:00",
+  "discoveredVia": "https://blenderai.org/gallery",
+  "evidenceBasis": "Gallery, benchmark prompt set and methodology; not independently reproduced",
+  "evidenceUrl": "https://blenderai.org/gallery",
+  "resources": [
+   {
+    "label": "基准提示词",
+    "label_en": "Benchmark prompts",
+    "url": "https://blenderai.org/prompts"
+   },
+   {
+    "label": "评测方法",
+    "label_en": "Methodology",
+    "url": "https://blenderai.org/methodology"
+   }
+  ]
+ },
+ {
+  "category": "agents",
+  "evidenceType": "评测",
+  "title": "Qiita 实测：从去重会话日志拆解缓存成本",
+  "title_en": "Qiita hands-on: cache costs from deduplicated session logs",
+  "summary": "作者统计 Opus 5.5 的 4 次会话、579 条响应，报告 98.1% 的 token 为缓存读取。附按 message.id 与 requestId 去重的 Python 脚本，未包含子代理日志；费用为个人样本的 API 价格试算，非实际账单。",
+  "summary_en": "Across four Opus 5.5 sessions and 579 responses, the author reports 98.1% cache-read tokens. A Python script deduplicates by message.id and requestId and excludes subagent logs. Costs are API-price estimates for this personal sample, not actual bills.",
+  "sourceUrl": "https://qiita.com/mamagotolab/items/37d3bdd0bafdd81ba392",
+  "author": "mamagotolab",
+  "platform": "Qiita",
+  "date": "2026-09-27",
+  "likes": 1,
+  "checkedAt": "2026-09-27T08:18:12+00:00",
+  "discoveredVia": "https://qiita.com/api/v2/items?query=%22Opus+5.5%22&per_page=100",
+  "evidenceBasis": "Full original article and embedded script via Qiita API, including sample size and exclusions; script not independently executed",
+  "evidenceUrl": "https://qiita.com/api/v2/items/37d3bdd0bafdd81ba392",
+  "resources": [
+   {
+    "label": "会话统计脚本",
+    "label_en": "Session analysis script",
+    "url": "https://qiita.com/mamagotolab/items/37d3bdd0bafdd81ba392#%E9%9B%86%E8%A8%88%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88"
+   }
+  ]
+ },
+ {
+  "category": "business",
+  "evidenceType": "评测",
+  "title": "日本股票数据的匿名化决策实验",
+  "title_en": "Anonymized Japanese-equity decision experiment",
+  "summary": "作者用 Opus 5.5 对比带公司身份与匿名化财务输入，公开 J-Quants 数据适配及实验脚本；没有真实交易，也未验证投资收益。",
+  "summary_en": "The author compares Opus 5.5 decisions with identified and anonymized financial inputs, publishing J-Quants adaptation and experiment scripts. No actual trading or investment-return validation is reported.",
+  "sourceUrl": "https://qiita.com/TIshow/items/00fc1106fd2d27b1f395",
+  "author": "TIshow",
+  "platform": "Qiita",
+  "date": "2026-09-27",
+  "likes": 0,
+  "checkedAt": "2026-09-27T07:52:53+00:00",
+  "discoveredVia": "https://qiita.com/api/v2/items?query=%22Opus+5.5%22&per_page=100",
+  "evidenceBasis": "original article body from Qiita API; author-reported",
+  "evidenceUrl": "https://qiita.com/TIshow/items/00fc1106fd2d27b1f395"
+ },
+ {
+  "category": "education",
+  "evidenceType": "演示",
+  "title": "结合个人经验准备 IT 服务管理考试",
+  "title_en": "IT service-management exam preparation",
+  "summary": "作者在 Cowork 中用 Opus 5.5 制定学习计划，并结合自己的服务规格讨论运维缺陷和论述题写法；没有报告最终考试结果。",
+  "summary_en": "The author uses Opus 5.5 in Cowork to plan exam study and discuss operational gaps and essay structure using a personal service specification. No exam outcome is reported.",
+  "sourceUrl": "https://qiita.com/plantarum/items/1eaea41bbfb436c878aa",
+  "author": "plantarum",
+  "platform": "Qiita",
+  "date": "2026-09-25",
+  "likes": 0,
+  "checkedAt": "2026-09-27T07:52:53+00:00",
+  "discoveredVia": "https://qiita.com/api/v2/items?query=%22Opus+5.5%22&per_page=100",
+  "evidenceBasis": "original article body from Qiita API; author-reported",
+  "evidenceUrl": "https://qiita.com/plantarum/items/1eaea41bbfb436c878aa"
+ },
+ {
+  "title": "万圣节像素画循环场景",
+  "title_en": "A looping Halloween pixel-art scene",
+  "summary": "Sprite Fusion 作者 Hugo 用 Opus 5.5 Extra High 约十分钟制作雨夜万圣节像素场景，公开完整提示和结果，并承认仍有不完美之处；文章包含自身产品推广。",
+  "summary_en": "Sprite Fusion creator Hugo reports an approximately ten-minute Opus 5.5 Extra High experiment on a rainy Halloween pixel-art loop, publishing the prompt and result while noting imperfections. The article also promotes his product.",
+  "category": "graphics",
+  "evidenceType": "演示",
+  "author": "Hugo Duprez",
+  "platform": "Sprite Fusion",
+  "sourceUrl": "https://www.spritefusion.com/blog/opus-5-5-for-pixel-art-scenes",
+  "date": "2026-09-23",
+  "checkedAt": "2026-09-27T08:03:32+00:00",
+  "discoveredVia": "Google: \"opus 5.5\" \"gallery\" -site:instagram.com -site:threads.com -site:facebook.com",
+  "evidenceUrl": "https://www.spritefusion.com/blog/opus-5-5-for-pixel-art-scenes",
+  "evidenceBasis": "original hands-on article with prompt and output; not reproduced"
  }
 ]

@@ -154,6 +154,9 @@ select{border:1px solid var(--ink);background:var(--paper);padding:10px 12px;bor
 .ev[data-evtag="演示"]{color:var(--green-deep)}.ev[data-evtag="评测"]{color:var(--blue)}.ev[data-evtag="集成"]{color:#7b4f8a}.ev[data-evtag="教程"]{color:#7a6512}.ev[data-evtag="限制"]{color:#b0203a}
 .card h3{font:700 17px/1.4 var(--font-display);margin:2px 0 0}
 .card p{margin:0;color:var(--ink-2);font-size:14px;line-height:1.75}
+.resources{display:flex;flex-wrap:wrap;gap:6px 14px;padding:4px 0 8px;font-size:12.5px}
+.resources a{color:var(--blue);text-decoration:underline;text-underline-offset:3px}
+.resources a:hover{color:var(--green-deep)}
 .foot{margin-top:auto;padding-top:12px;display:flex;justify-content:space-between;gap:10px;align-items:center;border-top:1px solid var(--line);font:12px var(--mono);color:var(--ink-2)}
 .foot a{min-width:0;color:var(--blue);font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .foot a:hover{color:var(--green)}
@@ -345,26 +348,26 @@ footer svg{width:170px;height:auto;display:block}
     zh:{menu:'菜单', navOverview:'任务分布', navEvidence:'证据类型', navCases:'案例库', navCta:'提交案例',
       kicker:'WaytoAGI Gallery · Use Case Atlas', chip1:'真实案例', chip2:'使用图谱',
       tagline:(n,c,s)=>`Claude Opus 5.5 发布后，X、GitHub、Hacker News、Reddit、视频网站与网页上的公开使用案例，共 <b>${n}</b> 条、<b>${c}</b> 类任务、<b>${s}</b> 个来源。案例描述保留作者自述与推广属性，数量不等于独立成功项目数。`,
-      cardTitle:'Data snapshot', info:[['发布日期','2026-09-22'],['数据截至',DATA.meta.asOf],['字段','类别 · 证据类型 · 中英文摘要 · 原帖链接'],['格式','JSON / CSV · 离线单页']],
+      cardTitle:'Data snapshot', info:[['发布日期','2026-09-22'],['最新案例日期',DATA.meta.asOf],['本轮刷新',DATA.meta.refreshedAt ? new Date(DATA.meta.refreshedAt).toLocaleString('zh-CN',{timeZone:'Asia/Shanghai',hour12:false})+' 北京时间' : DATA.meta.asOf],['字段','类别 · 证据类型 · 中英文摘要 · 原帖链接'],['格式','JSON / CSV · 离线单页']],
       stats:['案例总数','任务类别','X 总点赞','限制类案例'], routeTitle:'按来源浏览',
       routeNow:(s,n)=>`当前：${s} · ${n} 条案例`, routeAll:n=>`当前：全部来源 · ${n} 条案例`, clear:'清除来源', toCases:'查看案例 ↓',
       s1:'任务分布', byCat:'按任务类别（点击筛选）', top:'点赞最多', s2:'证据类型',
       evNote:'点击任一类型即可筛选案例库；「限制」类汇总了失败、误拒和成本相关的反馈，建议在采用前先看。',
       s3:'案例库', search:'搜索标题、描述、作者…', sortLabel:'排序', sort:{default:'默认顺序',likes:'点赞从多到少',bookmarks:'收藏从多到少',new:'时间从新到旧',old:'时间从旧到新'},
-      shown:n=>`${n} 个案例`, empty:'没有匹配的案例', open:'原帖', clearAll:'清除全部 ✕',
+      shown:n=>`${n} 个案例`, empty:'没有匹配的案例', open:'原帖', resources:'相关资料', clearAll:'清除全部 ✕',
       joinTitle:'一起补全这张 Opus 5.5 图谱', joinText:'发现了新的真实案例、复现结果或踩坑记录？欢迎提交到 WaytoAGI Gallery，让更多人少走弯路。',
       j1:'提交一个案例', j1s:'GitHub Issue · Case submission', j2:'下载数据与脚本', j2s:'JSON / CSV · 可复现', j3:'访问 WaytoAGI', j3s:'通往AGI之路 · 知识库与社区',
       footer:'WaytoAGI Gallery · 所有链接指向原始出处，请以原帖为准。'},
     en:{menu:'Menu', navOverview:'Categories', navEvidence:'Evidence', navCases:'Cases', navCta:'Submit a case',
       kicker:'WaytoAGI Gallery · Use Case Atlas', chip1:'Real cases', chip2:'Atlas',
       tagline:(n,c,s)=>`Public Claude Opus 5.5 use cases from X, GitHub, Hacker News, Reddit, video sites and the web: <b>${n}</b> cases, <b>${c}</b> task categories, <b>${s}</b> sources. Descriptions keep authors' own claims and promo disclosures; case count ≠ independent successes.`,
-      cardTitle:'Data snapshot', info:[['Released','2026-09-22'],['Data as of',DATA.meta.asOf],['Fields','Category · evidence type · zh/en summary · source link'],['Formats','JSON / CSV · offline single page']],
+      cardTitle:'Data snapshot', info:[['Released','2026-09-22'],['Latest case date',DATA.meta.asOf],['Refreshed',DATA.meta.refreshedAt ? new Date(DATA.meta.refreshedAt).toLocaleString('en-GB',{timeZone:'Asia/Shanghai',hour12:false})+' UTC+8' : DATA.meta.asOf],['Fields','Category · evidence type · zh/en summary · source link'],['Formats','JSON / CSV · offline single page']],
       stats:['Total cases','Categories','Total X likes','Limitation cases'], routeTitle:'Browse by source',
       routeNow:(s,n)=>`Showing: ${s} · ${n} cases`, routeAll:n=>`Showing: all sources · ${n} cases`, clear:'Clear source', toCases:'Go to cases ↓',
       s1:'Task categories', byCat:'By task category (click to filter)', top:'Most liked', s2:'Evidence types',
       evNote:'Click a type to filter the library. "Limitation" collects failures, refusals and cost reports — worth reading before you adopt.',
       s3:'Case library', search:'Search titles, summaries, authors…', sortLabel:'Sort', sort:{default:'Default order',likes:'Most liked',bookmarks:'Most bookmarked',new:'Newest first',old:'Oldest first'},
-      shown:n=>`${n} cases`, empty:'No matching cases', open:'Source', clearAll:'Clear all ✕',
+      shown:n=>`${n} cases`, empty:'No matching cases', open:'Source', resources:'Related resources', clearAll:'Clear all ✕',
       joinTitle:'Help complete the Opus 5.5 atlas', joinText:'Found a new real-world case, a reproduction or a failure worth sharing? Submit it to the WaytoAGI Gallery.',
       j1:'Submit a case', j1s:'GitHub Issue · Case submission', j2:'Get the data & scripts', j2s:'JSON / CSV · reproducible', j3:'Visit WaytoAGI', j3s:'Knowledge base & community',
       footer:'WaytoAGI Gallery · All links point to the original sources.'}
@@ -449,6 +452,7 @@ footer svg{width:170px;height:auto;display:block}
     return `<article class="card">${thumb}<div class="body">
       <div class="meta"><span class="ev" data-evtag="${esc(c.evidenceType)}">${esc(st.lang==='en'?c.evidenceType_en:c.evidenceType)}</span><span>${esc(cat)}</span>${c.date?`<span>${esc(c.date)}</span>`:''}</div>
       <h3>${esc(tt(c))}</h3><p>${esc(ts(c))}</p>
+      ${c.resources?.length ? `<nav class="resources" aria-label="${L().resources}">${c.resources.map(r => `<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(st.lang==='en' ? (r.label_en || r.label) : r.label)} ↗</a>`).join('')}</nav>` : ''}
       <div class="foot"><a href="${esc(c.sourceUrl)}" target="_blank" rel="noopener" aria-label="${L().open}: ${esc(c.author || c.platform)}">${esc(c.author || L().open)} ↗</a><span class="nums">${nums}</span></div>
     </div></article>`;
   }
