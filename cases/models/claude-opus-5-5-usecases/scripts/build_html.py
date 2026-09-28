@@ -5,7 +5,7 @@ from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 EXTRA_FILES = ["extra_x.json", "extra_github.json", "extra_hn.json", "extra_web.json", "extra_lists.json",
-               "extra_reddit.json", "extra_video.json"]
+               "extra_reddit.json", "extra_video.json", "extra_gosail.json"]
 PLATFORM_SOURCE = {"X": "x", "GitHub": "github", "Hacker News": "hn", "Reddit": "reddit", "YouTube": "video", "Bilibili": "video"}
 EVIDENCE = {"演示": "Demo", "评测": "Evaluation", "集成": "Integration", "教程": "Tutorial", "限制": "Limitation"}
 
@@ -45,6 +45,43 @@ def case_key(c):
     if u.startswith(("x.com/", "reddit.com/", "youtube.com/", "bilibili.com/", "news.ycombinator.com/", "github.com/")):
         return (u,)
     return (u, (c.get("title_en") or c.get("title") or "").strip().lower())
+
+
+def apply_enrichments(cases, enrichments):
+    """Apply reviewed evidence after deduplication, without changing case identity.
+
+    Only immutable X post identities are supported. This avoids applying one
+    editorial-page patch to multiple independent experiments on the same URL.
+    """
+    by_url = {norm_url(c["sourceUrl"]): c for c in cases}
+    scalars = ("likes", "bookmarks", "views", "metricsCheckedAt")
+    lists = ("resources", "promptEvidence", "relatedSources", "sourceSnapshots")
+    for patch in enrichments:
+        key = norm_url(patch["sourceUrl"])
+        if not key.startswith("x.com/i/status/") or key not in by_url:
+            raise ValueError(f"Enrichment target missing or ambiguous: {key}")
+        unknown = set(patch) - set(scalars) - set(lists) - {"sourceUrl"}
+        if unknown:
+            raise ValueError(f"Unsupported enrichment fields: {sorted(unknown)}")
+        case = by_url[key]
+        if patch.get("metricsCheckedAt", "") >= case.get("metricsCheckedAt", ""):
+            for field in scalars:
+                if field in patch:
+                    case[field] = patch[field]
+        for field in lists:
+            if field not in patch:
+                continue
+            existing = list(case.get(field, []))
+            for item in patch[field]:
+                # Resource fragments can identify different sections of a guide.
+                if field == "resources":
+                    duplicate = any(x["url"] == item["url"] for x in existing)
+                else:
+                    duplicate = item in existing
+                if not duplicate:
+                    existing.append(item)
+            case[field] = existing
+    return cases
 
 
 def main():
@@ -89,6 +126,9 @@ def main():
                 **{k: c[k] for k in ("discoveredVia", "checkedAt", "evidenceUrl", "evidenceBasis", "metricsCheckedAt", "resources") if c.get(k)},
             })
             added[cases[-1]["source"]] = added.get(cases[-1]["source"], 0) + 1
+    enrichment_path = DATA / "case_enrichments.json"
+    if enrichment_path.exists():
+        apply_enrichments(cases, json.loads(enrichment_path.read_text())["cases"])
     # snapshot date = newest dated case (sources lag a day or two behind the fetch)
     for c in cases:
         # video thumbnails: derive YouTube posters from the id, force https for Bilibili's CDN
@@ -100,7 +140,10 @@ def main():
     meta = {**meta, "count": len(cases), "added": added, "asOf": max(c["date"] for c in cases if c.get("date")), "duplicatesSkipped": duplicates}
     report_path = DATA / "refresh_report.json"
     if report_path.exists():
-        meta["refreshedAt"] = json.loads(report_path.read_text())["refreshedAt"]
+        report = json.loads(report_path.read_text())
+        meta["refreshedAt"] = report["refreshedAt"]
+        meta["refreshScope"] = report.get("scope", "public-source refresh")
+        meta["lastFullRefreshAt"] = report.get("lastFullRefreshAt", report["refreshedAt"])
     (DATA / "all_cases.json").write_text(json.dumps({"meta": meta, "cases": cases}, ensure_ascii=False, indent=1))
     fields = list(dict.fromkeys(k for c in cases for k in c if k not in ("poster", "video")))
     with open(DATA / "all_cases.csv", "w", newline="", encoding="utf-8-sig") as f:
