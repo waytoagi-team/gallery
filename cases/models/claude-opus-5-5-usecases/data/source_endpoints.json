@@ -213,5 +213,10 @@
     "key": "qiita-session-logs",
     "url": "https://qiita.com/api/v2/items/37d3bdd0bafdd81ba392",
     "format": "json"
+  },
+  {
+    "key": "gosail-video",
+    "url": "https://raw.githubusercontent.com/zhuyansen/awesome-opus-5.5-video/main/cases.json",
+    "format": "json"
   }
 ]

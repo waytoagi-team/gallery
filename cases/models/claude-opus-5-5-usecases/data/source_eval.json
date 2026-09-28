@@ -1169,5 +1169,23 @@
   "evaluated": "2026-09-27 refresh",
   "lastCheckedAt": "2026-09-27T08:03:32+00:00",
   "discoveredVia": "Google browser search"
+ },
+ {
+  "name": "zhuyansen/awesome-opus-5.5-video / GoSailGlobal",
+  "url": "https://github.com/zhuyansen/awesome-opus-5.5-video",
+  "type": "structured-video-gallery",
+  "opus55_items": 962,
+  "first_hand": "mixed; original post links plus follow-ups and reposts",
+  "freshness": "Source updated 2026-09-28T09:27:18.818Z",
+  "machine_readable": "cases.json; pinned Git commit ffb3c5a22d27c0d9a5328ffbfb2df33e0887103c",
+  "overlap_with_x": "609 of 962 original post IDs already present; 353 candidates reviewed",
+  "terms_notes": "No source-repository license identified. Only links, factual metadata and independently written summaries are imported; no prompt bodies or videos are mirrored.",
+  "verdict": "supplement",
+  "why": "Full source audited: 203 additions, 55 related-post enrichments, 95 exclusions. 248 prompt evidence links retained, including 186 links for exact existing post matches. Upstream full/brief labels are retained as reported metadata, not guarantees of completeness.",
+  "verified": true,
+  "evaluated": "2026-09-28 complete-source review",
+  "lastCheckedAt": "2026-09-28T14:16:13+00:00",
+  "reviewFile": "data/gosail_review.json",
+  "scopeNotes": "Text/attachment metadata and source identities checked via FxTwitter; no independent execution or viewing of every video. Generic awesome-claude-video-skills entries are not automatically treated as Opus 5.5 cases."
  }
 ]

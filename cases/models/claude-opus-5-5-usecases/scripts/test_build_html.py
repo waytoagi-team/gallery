@@ -1,6 +1,6 @@
 import unittest
 
-from build_html import case_key, norm_url
+from build_html import apply_enrichments, case_key, norm_url
 
 
 class SourceIdentityTests(unittest.TestCase):
@@ -38,6 +38,34 @@ class SourceIdentityTests(unittest.TestCase):
     def test_bilibili_tracking_does_not_duplicate_video(self):
         self.assertEqual(norm_url("https://www.bilibili.com/video/BV123?spm_id_from=search"),
                          norm_url("https://www.bilibili.com/video/BV123/"))
+
+
+class EnrichmentTests(unittest.TestCase):
+    def test_survives_rebuild_and_unions_resources_without_duplicates(self):
+        import copy
+        original = [{"sourceUrl": "https://x.com/original/status/123", "title": "Original",
+                     "resources": [{"url": "https://example.com/guide", "label": "Guide"}]}]
+        patch = {"sourceUrl": "https://twitter.com/renamed/status/123/video/1", "resources": [
+            {"url": "https://example.com/guide", "label": "Guide again"},
+            {"url": "https://example.com/guide#prompt", "label": "Prompt"}]}
+        first = apply_enrichments(copy.deepcopy(original), [patch])
+        self.assertEqual(first, apply_enrichments(copy.deepcopy(original), [patch]))
+        self.assertEqual(first, apply_enrichments(copy.deepcopy(first), [patch]))
+        self.assertEqual(len(first[0]["resources"]), 2)
+        self.assertEqual(first[0]["title"], "Original")
+
+    def test_rejects_missing_targets_and_identity_changes(self):
+        cases = [{"sourceUrl": "https://x.com/a/status/123"}]
+        with self.assertRaises(ValueError):
+            apply_enrichments(cases, [{"sourceUrl": "https://x.com/a/status/124"}])
+        with self.assertRaises(ValueError):
+            apply_enrichments(cases, [{"sourceUrl": cases[0]["sourceUrl"], "author": "Someone else"}])
+
+    def test_older_metrics_cannot_replace_newer_values(self):
+        case = {"sourceUrl": "https://x.com/a/status/123", "likes": 15, "metricsCheckedAt": "2026-09-28T14:00:00+00:00"}
+        apply_enrichments([case], [{"sourceUrl": case["sourceUrl"], "likes": 10,
+                                   "metricsCheckedAt": "2026-09-27T14:00:00+00:00"}])
+        self.assertEqual(case["likes"], 15)
 
 
 if __name__ == "__main__":
