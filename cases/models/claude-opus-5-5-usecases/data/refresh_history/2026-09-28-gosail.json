@@ -1,0 +1,90 @@
+{
+  "refreshedAt": "2026-09-28T14:16:13+00:00",
+  "scope": {
+    "key": "gosail-full-source",
+    "zh": "GoSail 全量源（962 条）",
+    "en": "Complete GoSail source (962 entries)"
+  },
+  "lastFullRefreshAt": "2026-09-27T08:03:32+00:00",
+  "previousFullRefreshReport": "data/refresh_history/2026-09-27.json",
+  "previousCaseCount": 3750,
+  "caseCount": 3953,
+  "netIncrease": 203,
+  "countsBefore": {
+    "x": 2965,
+    "hn": 65,
+    "github": 148,
+    "web": 172,
+    "reddit": 214,
+    "video": 186
+  },
+  "countsAfter": {
+    "x": 3168,
+    "hn": 65,
+    "github": 148,
+    "web": 172,
+    "reddit": 214,
+    "video": 186
+  },
+  "source": "https://github.com/zhuyansen/awesome-opus-5.5-video",
+  "sourceRef": "ffb3c5a22d27c0d9a5328ffbfb2df33e0887103c",
+  "sourceUpdatedAt": "2026-09-28T09:27:18.818Z",
+  "sourceCount": 962,
+  "decisions": {
+    "add": 203,
+    "existing": 609,
+    "related": 55,
+    "exclude": 95
+  },
+  "newCandidateCount": 353,
+  "existingPrimaryPostMetricsRefreshed": 609,
+  "existingCasesWithEnrichment": 629,
+  "existingCasesWithPromptEvidence": 194,
+  "promptEvidenceLinks": 248,
+  "casesWithPromptEvidence": 244,
+  "promptEvidenceBySourceDecision": {
+    "existing": 186,
+    "add": 50,
+    "related": 12
+  },
+  "upstreamPromptCount": 252,
+  "upstreamFullPromptCount": 94,
+  "sourceEvaluations": {
+    "previous": 70,
+    "current": 71,
+    "new": 1
+  },
+  "fetches": {
+    "originalPosts": 962,
+    "distinctPostsAndPromptReplies": 1066,
+    "readable": 1066,
+    "externalPromptPages": 3,
+    "externalPromptPagesReadable": 3
+  },
+  "reviewFile": "data/gosail_review.json",
+  "fetchManifest": "data/gosail_fetch_manifest.json",
+  "limitations": [
+    "This update covers the entire pinned GoSail video source; other gallery sources were not rescanned. The prior multi-source refresh remains dated September 27.",
+    "353 unseen posts received individual editorial decisions. 609 exact existing post matches retain their summaries; their metric refresh and prompt linking are not a fresh full review of those summaries.",
+    "Public FxTwitter text and attachment metadata were checked; attached videos and projects were not independently watched or reproduced.",
+    "Full/brief prompt classifications are curator-reported. Completeness is not independently verified; three screenshot prompt sources are linked without transcription. Four prompt-bearing candidates remain excluded for uncertain model identity.",
+    "Mixed-model workflows retain separate tool attribution. Subscription allowances, requested agent counts and template requirements are not treated as measured API costs or execution logs.",
+    "Original prompts, media and code retain their authors’ rights. Only links, factual metadata and newly written bilingual summaries are included."
+  ],
+  "validation": {
+    "identityAndEnrichmentTests": "11 passed",
+    "uniqueCaseCount": 3953,
+    "all962DecisionsAccountedFor": true,
+    "previousIdentitiesSummariesResourcesRetained": true,
+    "jsonCsvHtmlAligned": true,
+    "importAndBuildByteIdenticalOnRepeat": true,
+    "browserChecks": [
+      "StandRig search and 2D description",
+      "Chinese and English prompt link labels",
+      "Category filter",
+      "Existing TypingMind related-post and primary prompt links",
+      "Update scope and total count",
+      "No horizontal page overflow at current viewport"
+    ]
+  }
+}
