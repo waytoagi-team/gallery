@@ -1,0 +1,35 @@
+name: notify-static-pages
+
+# After page sources change on main, run waytoagi-static-pages' `updates` workflow so the
+# bump PR for changed mounts opens right away instead of waiting for its hourly cron.
+# Deployment still happens only when that bump PR is merged.
+#
+# Secret STATIC_PAGES_DISPATCH_TOKEN: fine-grained PAT (or app token) scoped to
+# waytoagi-team/waytoagi-static-pages only, with "Actions: Read and write".
+
+on:
+  push:
+    branches: [main]
+    paths: ["cases/**"]
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: notify-static-pages
+  cancel-in-progress: true
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run waytoagi-static-pages updates
+        env:
+          GH_TOKEN: ${{ secrets.STATIC_PAGES_DISPATCH_TOKEN }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::error::STATIC_PAGES_DISPATCH_TOKEN is not set"
+            exit 1
+          fi
+          gh workflow run updates.yml -R waytoagi-team/waytoagi-static-pages --ref main
+          echo "Triggered updates for ${GITHUB_SHA::7}; merge the resulting bump PR to deploy."
