@@ -1,5 +1,6 @@
 """Merge all use-case sources into data/all_cases.json and render site/index.html."""
-import csv, json, pathlib, re
+import csv, datetime, html, json, pathlib, re
+from decimal import ROUND_HALF_UP, Decimal
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -84,6 +85,145 @@ def apply_enrichments(cases, enrichments):
     return cases
 
 
+PAGE_URL = "https://www.waytoagi.com/usecase-atlas/opus5-5/"
+SUBMIT_URL = "https://github.com/waytoagi-team/gallery/issues/new?template=case-submission.yml"
+REPO_URL = "https://github.com/waytoagi-team/gallery/tree/main/cases/models/claude-opus-5-5-usecases"
+MODEL_RELEASED = "2026-09-22"
+PAGE_FIELDS = ["id", "source", "platform", "category", "evidenceType", "title", "title_en", "summary", "summary_en",
+               "author", "sourceUrl", "date", "likes", "bookmarks", "stars", "views", "mediaKind", "poster", "resources"]
+TWIMG = re.compile(r"^(https://pbs\.twimg\.com/(?:media|amplify_video_thumb|ext_tw_video_thumb|tweet_video_thumb)/[^?]+?)"
+                   r"(?:\.(?:jpe?g|png|webp))?(?:\?.*)?$")
+
+
+def page_poster(url):
+    """Ask the image CDN for a card-sized WebP instead of the original upload (page payload only)."""
+    if not url:
+        return url
+    m = TWIMG.match(url)
+    if m:
+        return m.group(1) + "?format=webp&name=small"
+    if re.match(r"^https://i\d\.hdslb\.com/bfs/[^@?]+\.(?:jpe?g|png|webp)$", url):
+        return url + "@640w_360h_1c.webp"
+    return url
+
+
+def boot_summary(meta, cases):
+    """Everything the first screen needs, so it renders before the large case payload is parsed."""
+    counts = {dim: {} for dim in ("src", "cat", "ev")}
+    cube = {}  # src|cat|ev -> count, so facet combinations are exact before the case data is parsed
+    for c in cases:
+        for dim, key in (("src", "source"), ("cat", "category"), ("ev", "evidenceType")):
+            counts[dim][c[key]] = counts[dim].get(c[key], 0) + 1
+        cell = f"{c['source']}|{c['category']}|{c['evidenceType']}"
+        cube[cell] = cube.get(cell, 0) + 1
+    liked = sorted((c for c in cases if c.get("likes")), key=lambda c: -c["likes"])[:14]
+    refreshed = {"zh": meta.get("asOf", ""), "en": meta.get("asOf", "")}
+    if meta.get("refreshedAt"):
+        t = datetime.datetime.fromisoformat(meta["refreshedAt"]).astimezone(datetime.timezone(datetime.timedelta(hours=8)))
+        refreshed = {"zh": t.strftime("%Y-%m-%d %H:%M") + " 北京时间", "en": t.strftime("%Y-%m-%d %H:%M") + " UTC+8"}
+    scope = meta.get("refreshScope")
+    scope = scope if isinstance(scope, dict) else {"zh": "公开信源", "en": "Public sources"}
+    return {
+        "meta": {k: meta[k] for k in ("categories", "count", "asOf")},
+        "info": {"released": MODEL_RELEASED, "refreshed": refreshed, "scope": {"zh": scope["zh"], "en": scope["en"]}},
+        "counts": counts,
+        "cube": cube,
+        "xLikes": sum(c.get("likes") or 0 for c in cases if c["source"] == "x"),
+        "tops": [{k: c[k] for k in ("title", "title_en", "sourceUrl", "likes") if c.get(k) is not None} for c in liked],
+    }
+
+
+SOURCE_ORDER = ["x", "github", "hn", "reddit", "video", "web"]  # same order as SRC in template.html
+
+
+def js_esc(text):
+    """Mirror of the page's esc(): only & < > \" are escaped."""
+    return str(text).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;")
+
+
+def compact_zh(n):
+    """Intl.NumberFormat('zh-CN', {notation: 'compact', maximumFractionDigits: 1}) for the hero stat.
+
+    Rounds half up like Intl and picks the unit after rounding (99,999,999 -> 1亿).
+    """
+    if n < 10 ** 4:
+        return str(n)
+    for unit, size in (("万", 10 ** 4), ("亿", 10 ** 8)):
+        value = (Decimal(n) / size).quantize(Decimal("0.1"), ROUND_HALF_UP)
+        if unit == "亿" or value < 10 ** 4:
+            return f"{value.normalize():f}{unit}"
+
+
+def hero_blocks(zh, boot):
+    """zh HTML of the hero blocks the app script renders, pre-filled so phones never paint them empty.
+
+    Must stay identical to renderStatic() in template.html: after a template change, compare each block's raw
+    HTML with its innerHTML after load (see README).
+    """
+    total = f"{boot['meta']['count']:,}"
+    n_cat, n_src = len(boot["meta"]["categories"]), sum(1 for s in SOURCE_ORDER if boot["counts"]["src"].get(s))
+    fields = " · ".join(f'<span class="nw">{js_esc(f)}</span>' for f in zh["fields"])
+    rows = [js_esc(v) for v in (boot["info"]["released"], boot["meta"]["asOf"], boot["info"]["refreshed"]["zh"], boot["info"]["scope"]["zh"])]
+    rows += [fields, f'<a href="data/all_cases.json" download>JSON</a> / <a href="data/all_cases.csv" download>CSV</a> · {js_esc(zh["offline"])}']
+    vals = [total, n_cat, compact_zh(boot["xLikes"]), f"{boot['counts']['ev'].get('限制', 0):,}"]
+    stats = "".join(
+        f'<button class="stat" type="button" data-ev="限制" data-jump="1"><b>{v}</b><span>{zh["stats"][i]}</span></button>' if i == 3
+        else f'<div class="stat{" hl" if i == 0 else ""}"><b>{v}</b><span>{zh["stats"][i]}</span></div>' for i, v in enumerate(vals))
+    return {
+        '<p class="tagline" id="tagline"></p>': f'<p class="tagline" id="tagline">{zh["taglineT"].format(n=total, c=n_cat, s=n_src)}</p>',
+        '<a class="hero-cta" id="heroCta" href="#cases"></a>':
+            f'<a class="hero-cta" id="heroCta" href="#cases">{js_esc(zh["heroCtaT"].format(n=total))} <span aria-hidden="true">↓</span></a>',
+        '<dl id="infoCard"></dl>': '<dl id="infoCard">' + "".join(
+            f"<div><dt>{js_esc(k)}</dt><dd>{rows[i]}</dd></div>" for i, k in enumerate(zh["info"])) + "</dl>",
+        '<div class="stats" id="stats"></div>': f'<div class="stats" id="stats">{stats}</div>',
+    }
+
+
+def fill_i18n(markup, strings):
+    """Pre-fill empty data-i18n elements with the default (zh) text so the page never paints empty chips."""
+    def fill(m):
+        text = strings.get(m.group(2))
+        return m.group(1) + html.escape(text, quote=False) if isinstance(text, str) else m.group(0)
+    return re.sub(r'(<[a-z0-9]+\b[^>]*\bdata-i18n="(\w+)"[^>]*>)(?=</)', fill, markup)
+
+
+def to_script(obj):
+    """JSON for an inline <script>: "\\u003c" keeps "</script" and "<!--" out; JSON.parse reads it back as "<"."""
+    return json.dumps(obj, ensure_ascii=False, separators=(",", ":")).replace("<", "\\u003c")
+
+
+def render_page(meta, cases):
+    payload = {"cases": [{k: (page_poster(c[k]) if k == "poster" else c[k]) for k in PAGE_FIELDS if c.get(k) not in (None, "")}
+                         for c in cases]}
+    tpl = (ROOT / "scripts" / "template.html").read_text()
+    # inline the brand logos so index.html stays a single self-contained file
+    for key, name in (("LOGO_LIGHT", "waytoagi-logo-light.svg"), ("LOGO_DARK", "waytoagi-logo-dark.svg")):
+        svg = (ROOT / "assets" / name).read_text().strip()
+        tpl = tpl.replace(f"/*__{key}__*/", svg.replace("<svg ", '<svg aria-hidden="true" focusable="false" ', 1))
+    head, sep, rest = tpl.partition('<script id="i18n" type="application/json">')
+    strings = json.loads(rest[:rest.index("</script>")])
+    boot = boot_summary(meta, cases)
+    head = fill_i18n(head, strings["zh"])
+    for empty, filled in hero_blocks(strings["zh"], boot).items():
+        assert head.count(empty) == 1, empty
+        head = head.replace(empty, filled)
+    tpl = head + sep + rest
+    n = f"{len(cases):,}"
+    desc = {
+        "{{DESC_ZH}}": f"Claude Opus 5.5 发布后的 {n} 个公开使用案例，来自 X、Reddit、GitHub、Hacker News、YouTube / B 站与网页，"
+                       "含任务类别、证据类型、中英文摘要与原帖链接。",
+        "{{DESC_EN}}": f"{n} public Claude Opus 5.5 use cases from X, Reddit, GitHub, Hacker News, YouTube / Bilibili and the web, "
+                       "with task categories, evidence types, zh/en summaries and source links.",
+        "{{PAGE_URL}}": PAGE_URL, "{{SUBMIT_URL}}": SUBMIT_URL, "{{REPO_URL}}": REPO_URL,
+        # relative to index.html; placeholders keep the template's own relative-link check clean
+        "{{CSV_URL}}": "data/all_cases.csv", "{{JSON_URL}}": "data/all_cases.json",
+    }
+    for key, value in desc.items():
+        tpl = tpl.replace(key, html.escape(value))
+    return (tpl.replace("/*__BOOT__*/null", to_script(boot))
+               .replace("/*__DATA__*/null", to_script(payload)))
+
+
 def main():
     base = json.loads((DATA / "base_cases.json").read_text())
     meta, cases = base["meta"], []
@@ -155,20 +295,9 @@ def main():
         w.writerows({k: json.dumps(v, ensure_ascii=False) if isinstance(v, (list, dict)) else v
                      for k, v in c.items()} for c in cases)
 
-    # compact payload for the page
-    keep = ["id", "source", "platform", "category", "evidenceType", "evidenceType_en", "title", "title_en",
-            "summary", "summary_en", "author", "sourceUrl", "date", "likes", "bookmarks", "stars", "views", "mediaKind", "poster", "resources"]
-    payload = {"meta": meta, "cases": [{k: c[k] for k in keep if c.get(k) not in (None, "")} for c in cases]}
-    blob = json.dumps(payload, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
-    tpl = (ROOT / "scripts" / "template.html").read_text()
-    # inline the brand logos so index.html stays a single self-contained file
-    for key, name in (("LOGO_LIGHT", "waytoagi-logo-light.svg"), ("LOGO_DARK", "waytoagi-logo-dark.svg")):
-        svg = (ROOT / "assets" / name).read_text().strip()
-        tpl = tpl.replace(f"/*__{key}__*/", svg.replace("<svg ", '<svg aria-hidden="true" focusable="false" ', 1))
     out = ROOT / "index.html"
-    out.write_text(tpl.replace("/*__DATA__*/null", blob))
+    out.write_text(render_page(meta, cases))
     print(f"{len(cases)} cases (added {added}) -> {out} ({out.stat().st_size // 1024} KB)")
-
 
 if __name__ == "__main__":
     main()
