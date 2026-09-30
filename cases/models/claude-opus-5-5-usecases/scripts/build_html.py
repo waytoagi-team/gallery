@@ -126,9 +126,12 @@ def main():
                 **{k: c[k] for k in ("discoveredVia", "checkedAt", "evidenceUrl", "evidenceBasis", "metricsCheckedAt", "resources") if c.get(k)},
             })
             added[cases[-1]["source"]] = added.get(cases[-1]["source"], 0) + 1
-    enrichment_path = DATA / "case_enrichments.json"
-    if enrichment_path.exists():
-        apply_enrichments(cases, json.loads(enrichment_path.read_text())["cases"])
+    # metric_refreshes.json holds metrics-only patches from full refreshes, kept apart from
+    # case_enrichments.json so re-importing GoSail cannot drop them; newer metricsCheckedAt wins.
+    for name in ("case_enrichments.json", "metric_refreshes.json"):
+        enrichment_path = DATA / name
+        if enrichment_path.exists():
+            apply_enrichments(cases, json.loads(enrichment_path.read_text())["cases"])
     # snapshot date = newest dated case (sources lag a day or two behind the fetch)
     for c in cases:
         # video thumbnails: derive YouTube posters from the id, force https for Bilibili's CDN
