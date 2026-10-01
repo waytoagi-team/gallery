@@ -960,7 +960,7 @@ footer .links a{color:var(--lime)}
     CASES = data.cases;
     CASES.forEach((c, i) => {
       c._i = i;
-      c._hay = [c.title, c.title_en, c.summary, c.summary_en, c.author, c.platform, CATS[c.category]?.zh, CATS[c.category]?.en, c.evidenceType, EV_EN[c.evidenceType]].join(' ').toLowerCase();
+      c._hay = [c.id, c.title, c.title_en, c.summary, c.summary_en, c.author, c.platform, CATS[c.category]?.zh, CATS[c.category]?.en, c.evidenceType, EV_EN[c.evidenceType]].join(' ').toLowerCase();
     });
     // Trending = percentile of each case's own metric within its source (stars for GitHub, views for video).
     const metric = c => c.source === 'github' ? c.stars : c.source === 'video' ? (c.views ?? c.likes) : c.likes;
