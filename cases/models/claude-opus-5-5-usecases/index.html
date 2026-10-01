@@ -44,7 +44,7 @@ body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.8 var(--font-
   font-synthesis:weight;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overflow-x:hidden}
 html:lang(en) body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,var(--font-cn)}
 html:lang(en) [lang^="zh"]{font-family:var(--font-cn)}
-.pre-en [data-i18n],.pre-en .lang,.pre-en #tagline,.pre-en #heroCta,.pre-en #infoCard,.pre-en #stats{visibility:hidden}
+.pre-en [data-i18n],.pre-en .lang,.pre-en .hero-actions,.pre-en #tagline,.pre-en #heroCta,.pre-en #infoCard,.pre-en #stats{visibility:hidden}
 a{color:inherit;text-decoration:none;transition:color .15s}
 button,input,select{font:inherit;color:inherit}
 ::selection{background:var(--lime);color:var(--ink)}
@@ -95,7 +95,9 @@ button,input,select{font:inherit;color:inherit}
 .chip-t.l{background:var(--lilac);transform:rotate(1.6deg)}
 .tagline{margin:36px 0 0;max-width:760px;font-size:16px;color:var(--ink)}
 .tagline b{font:700 1.15em var(--font-display);color:var(--green-deep);font-variant-numeric:tabular-nums}
-.hero-cta{display:inline-flex;align-items:center;gap:12px;margin-top:28px;background:var(--ink);color:var(--paper);padding:13px 22px;font-weight:600;font-size:15px;transition:background .15s}
+.hero-actions{display:flex;flex-wrap:wrap;align-items:center;gap:14px 24px;margin-top:28px}
+.hero-guide{font-weight:600;color:var(--blue);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:5px}
+.hero-cta{display:inline-flex;align-items:center;gap:12px;background:var(--ink);color:var(--paper);padding:13px 22px;font-weight:600;font-size:15px;transition:background .15s}
 .info-card{border:1px solid var(--ink);padding:24px;background-color:var(--lilac);
   background-image:linear-gradient(rgba(36,30,30,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(36,30,30,.08) 1px,transparent 1px);background-size:16px 16px}
 .info-card .mono{font-size:11px;letter-spacing:.12em;text-transform:uppercase}
@@ -269,6 +271,7 @@ footer .links a{color:var(--lime)}
   a:hover{color:var(--blue)}
   .lang:hover{color:var(--blue);border-color:var(--blue)!important}
   .nav .cta:hover,.hero-cta:hover{background:var(--blue);color:var(--paper)}
+  .hero-guide:hover{color:var(--green-deep)}
   .route-item:not([aria-disabled="true"]):hover{border-top-color:var(--ink)}
   .route-item[aria-pressed="true"]:hover{border-top-color:var(--green)}
   .route-item:not([aria-disabled="true"]):hover .en{color:var(--blue)}
@@ -304,7 +307,8 @@ footer .links a{color:var(--lime)}
   .info-card dl{grid-template-columns:repeat(3,minmax(0,1fr));column-gap:24px}
   .ev-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
-@media (min-width:761px) and (max-width:1049px){.nav{gap:18px}.brand svg{width:180px}}
+@media (min-width:761px) and (max-width:1049px){.nav{gap:18px}.brand svg{width:180px}.nav .guide{display:none}}
+@media (min-width:1050px) and (max-width:1149px){html:lang(en) .nav .guide{display:none}}
 @media (min-width:761px) and (max-width:1099px){.route-grid{grid-template-columns:repeat(3,minmax(0,1fr));row-gap:20px}}
 @media (max-width:760px){
   body{font-size:14px}
@@ -407,6 +411,7 @@ footer .links a{color:var(--lime)}
       <a href="#overview" data-i18n="navOverview">任务分布</a>
       <a href="#evidence" data-i18n="navEvidence">证据类型</a>
       <a href="#cases" data-i18n="navCases">案例库</a>
+      <a class="guide" href="blog/opus55-beginner-guide/" hreflang="zh-CN" data-i18n="navGuide">新手指南</a>
       <button class="lang" id="langBtn" type="button" lang="en">EN</button>
       <a class="cta" href="https://github.com/waytoagi-team/gallery/issues/new?template=case-submission.yml" target="_blank" rel="noopener" aria-describedby="newtab"><span data-i18n="navCta">提交案例</span><span aria-hidden="true">↗</span></a>
     </nav>
@@ -420,7 +425,7 @@ footer .links a{color:var(--lime)}
       <div class="kicker-row"><div class="kicker" data-i18n="kicker">WaytoAGI Gallery · Use Case Atlas</div><button class="read-en" id="readEn" type="button" lang="en" hidden>Read in English →</button></div>
       <h1 tabindex="-1"><span class="line">Claude Opus 5.5</span><span class="line"><span class="chip-t g" data-i18n="chip1">真实案例</span> <span class="chip-t l" data-i18n="chip2">使用图谱</span></span></h1>
       <p class="tagline" id="tagline">Claude Opus 5.5 发布后，X、GitHub、Hacker News、Reddit、视频网站与网页上的公开使用案例，共 <b>5,181</b> 条、<b>14</b> 类任务、<b>6</b> 个来源。案例描述保留作者自述与推广属性，数量不等于独立成功项目数。</p>
-      <a class="hero-cta" id="heroCta" href="#cases">浏览 5,181 个案例 <span aria-hidden="true">↓</span></a>
+      <div class="hero-actions"><a class="hero-cta" id="heroCta" href="#cases">浏览 5,181 个案例 <span aria-hidden="true">↓</span></a><a class="hero-guide" href="blog/opus55-beginner-guide/" hreflang="zh-CN"><span data-i18n="heroGuide">新手？先看 5 步上手路线</span> <span aria-hidden="true">→</span></a></div>
     </div>
     <aside class="info-card">
       <div class="mono" data-i18n="cardTitle">Data snapshot</div>
@@ -530,7 +535,7 @@ footer .links a{color:var(--lime)}
 </footer>
 
 <script id="i18n" type="application/json">
-{"zh":{"menu":"菜单","navLabel":"页面导航","navOverview":"任务分布","navEvidence":"证据类型","navCases":"案例库","navCta":"提交案例",
+{"zh":{"menu":"菜单","navLabel":"页面导航","navOverview":"任务分布","navEvidence":"证据类型","navCases":"案例库","navGuide":"新手指南","heroGuide":"新手？先看 5 步上手路线","navCta":"提交案例",
 "skip":"跳到案例库","newtab":"（在新标签页打开）",
 "kicker":"WaytoAGI Gallery · Use Case Atlas","chip1":"真实案例","chip2":"使用图谱","cardTitle":"Data snapshot",
 "routeTitle":"按来源浏览","s1":"任务分布","byCat":"按任务类别（点击筛选）","top":"全站点赞最多","s2":"证据类型",
@@ -543,7 +548,7 @@ footer .links a{color:var(--lime)}
 "taglineT":"Claude Opus 5.5 发布后，X、GitHub、Hacker News、Reddit、视频网站与网页上的公开使用案例，共 <b>{n}</b> 条、<b>{c}</b> 类任务、<b>{s}</b> 个来源。案例描述保留作者自述与推广属性，数量不等于独立成功项目数。",
 "heroCtaT":"浏览 {n} 个案例","info":["模型发布","最新案例日期","最近更新","更新范围","字段","数据下载"],"fields":["类别","证据类型","中英文摘要","原帖链接"],"offline":"离线单页",
 "stats":["案例总数","任务类别","X 总点赞","限制类案例"]},
-"en":{"menu":"Menu","navLabel":"Page navigation","navOverview":"Categories","navEvidence":"Evidence","navCases":"Cases","navCta":"Submit a case",
+"en":{"menu":"Menu","navLabel":"Page navigation","navOverview":"Categories","navEvidence":"Evidence","navCases":"Cases","navGuide":"Beginner guide","heroGuide":"5-step beginner guide (in Chinese)","navCta":"Submit a case",
 "skip":"Skip to cases","newtab":"(opens in a new tab)",
 "kicker":"WaytoAGI Gallery · Use Case Atlas","chip1":"Real cases","chip2":"Atlas","cardTitle":"Data snapshot",
 "routeTitle":"Browse by source","s1":"Task categories","byCat":"By task category (click to filter)","top":"Most liked overall","s2":"Evidence types",
