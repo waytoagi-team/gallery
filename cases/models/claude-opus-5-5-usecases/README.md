@@ -58,6 +58,10 @@ verified_at: "2026-10-01"
 
 证据类型：演示 3062 · 评测 913 · 集成 638 · 教程 326 · 限制 242
 
+10 月 1 日检查全部 **1,420 条缺图案例**，从原帖附件、明确引用或链接的作品、仓库及文章上下文中补入 **533 张配图**：X 178、Reddit 143、GitHub 123、网页 74、Hacker News 15。有图案例增至 **4,294 / 5,181（82.9%）**；887 条仍未确认可用且匹配的图片，保留无图。通用平台卡片、空白视频首帧、头像、徽章及无关图片未采用。新增图片均通过来源匹配、实际图像读取及画面检查；原有配图、案例内容和互动指标不变。
+
+[配图覆盖文件](data/poster_enrichments.json) 保存来源页、关联方式、图片尺寸、核验时间和校验值，[检查决策](data/refresh_history/2026-10-01-poster-review.json) 覆盖全部缺图案例。只引用外部图片，不镜像图片或原文；图片权利归原作者，未独立核验再利用许可。
+
 ## 信源补充记录
 
 最近两轮多源刷新的来源、取舍与局限见 [2026-09-28 多源刷新](UPDATE-2026-09-28-multisource.md) 和 [2026-09-30 校验与刷新](UPDATE-2026-09-30.md)。9 月 28 日完整接入 [GoSail 视频案例源](https://github.com/zhuyansen/awesome-opus-5.5-video)，保留逐条审核结果、原帖指标快照和提示词出处。详见 [2026-09-28 更新说明](UPDATE-2026-09-28.md)。以下三项为上一轮补充，资料入口继续保留。
@@ -103,7 +107,8 @@ verified_at: "2026-10-01"
 | `title` / `title_en`, `summary` / `summary_en` | 中英文标题与摘要 |
 | `author`, `sourceUrl`, `date` | 原作者、原始链接、发布日期 |
 | `likes`, `bookmarks`, `stars`, `views` | 点赞、收藏、GitHub star 和视频播放量；缺失值保留为空 |
-| `mediaKind`, `poster`, `video` | 媒体类型与原始媒体链接（直接引用原站，不在本仓库存储） |
+| `mediaKind`, `poster`, `video` | 媒体类型与媒体链接（直接引用原站，不在本仓库存储）；`poster` 同步写入 CSV |
+| `posterEvidence` | 新增配图的来源页、关联方式、尺寸、核验时间及实际检查图片的 SHA-256；CSV 中编码为 JSON |
 | `checkedAt`, `discoveredVia`, `evidenceUrl`, `evidenceBasis` | 新审阅案例的核验时间、发现渠道、证据入口及摘要依据 |
 | `metricsCheckedAt` | 仅更新互动或播放指标的核验时间 |
 | `promptEvidence` | 提示来源、原始关联帖、核验时间和上游类型；`completenessVerified` 为 false，不代表完整复现 |
@@ -121,6 +126,7 @@ verified_at: "2026-10-01"
 - `extra_gosail.json`：203 条新审阅案例；`case_enrichments.json` 在去重后应用补充，重建基础库时仍保留提示链接。
 - `gosail_review.json` / `gosail_fetch_manifest.json`：全部 962 条决策、1066 条原帖/回复的读取凭据和 3 个站外提示页。
 - `refresh_report.json`：最近一次更新的数量、范围、刷新前校验和抓取记录；`refresh_history/` 保留此前各轮报告（9 月 27 日多源、9 月 28 日 GoSail、9 月 28 日多源）。
+- `poster_enrichments.json`：去重后填补缺图；同时匹配案例 ID 和来源身份，同篇文章中的不同案例还需匹配标题。已有上游配图优先，后续离线重建保留已审核的补图。
 - `metric_refreshes.json`：X 帖子的纯指标更新，构建时在 `case_enrichments.json` 之后应用，`metricsCheckedAt` 较新者生效。
 - `source_endpoints.json`：可重复的只读信源抓取入口。
 - `google_discovery.json`：六组实际 Google 浏览器检索及观察结果。
@@ -133,7 +139,7 @@ python3 scripts/fetch_base.py       # 抓取基础案例列表（中英文）-> 
 python3 scripts/normalize_base.py   # 规范化 -> data/base_cases.json
 python3 scripts/collect_sources.py  # 抓取候选信源快照，审阅后再加入 extra_*.json
 python3 scripts/build_html.py       # 合并 extra_*.json 并去重 -> data/all_cases.json / .csv + index.html
-python3 -m unittest discover -s scripts -p 'test_*.py'  # 22 项回归测试
+python3 -m unittest discover -s scripts -p 'test_*.py'  # 26 项回归测试
 ```
 
 GitHub API 采集通过 `gh api` 复用当前登录身份；先用 `gh auth status` 检查，未登录时运行 `gh auth login --hostname github.com`。凭据由 GitHub CLI 管理，不复制到项目文件或抓取回执。单独补刷仓库指标可运行 `python3 scripts/refresh_metrics.py --only github --output-dir data/_refresh/github-authenticated`，默认两路并发，保留 X 指标和失败仓库的旧值。
@@ -156,7 +162,7 @@ python3 scripts/build_html.py
 ## 成本与性能
 
 - 抓取耗时取决于网络、限流和来源数量；人工审阅不计入构建耗时。
-- `index.html` 约 3.8 MiB，数据内嵌。首屏文案在构建时预填，并在 4 MB 数据之前内嵌一份小的计数摘要，慢网下首屏与分享链接加载的布局位移（CLS）≤ 0.03。案例按每批 48 条渲染，自动加载两批后改为"加载更多"。海报请求卡片尺寸的 WebP 缩图。
+- `index.html` 约 4.0 MiB，数据内嵌。首屏文案在构建时预填，并在 4 MB 数据之前内嵌一份小的计数摘要，慢网下首屏与分享链接加载的布局位移（CLS）≤ 0.03。案例按每批 48 条渲染，自动加载两批后改为"加载更多"。海报请求卡片尺寸的 WebP 缩图。
 - 视觉与交互审查及实施情况见 [reviews/ux-review-2026-10-01.md](reviews/ux-review-2026-10-01.md)。
 
 ## 局限与风险

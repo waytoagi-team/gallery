@@ -1,5 +1,5 @@
 """Merge all use-case sources into data/all_cases.json and render site/index.html."""
-import csv, datetime, hashlib, html, json, pathlib, re
+import csv, datetime, hashlib, html, ipaddress, json, pathlib, re
 from decimal import ROUND_HALF_UP, Decimal
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
@@ -82,6 +82,51 @@ def apply_enrichments(cases, enrichments):
                 if not duplicate:
                     existing.append(item)
             case[field] = existing
+    return cases
+
+
+def apply_poster_enrichments(cases, enrichments):
+    """Fill missing posters from reviewed context, guarding both ID and source identity.
+
+    Editorial URLs can describe multiple experiments. Matching the editorial title
+    as well as the ID prevents a shared article cover from silently patching them all.
+    Upstream posters always win; a later import must not inherit evidence for a
+    different image from this overlay.
+    """
+    by_id = {c["id"]: c for c in cases}
+    if len(by_id) != len(cases):
+        raise ValueError("Duplicate case IDs in poster enrichment targets")
+    required = {"id", "sourceUrl", "title_en", "poster", "mediaKind", "posterEvidence"}
+    seen = set()
+    for patch in enrichments:
+        if set(patch) != required:
+            raise ValueError("Poster enrichment has missing or unsupported fields")
+        target = by_id.get(patch["id"])
+        if target is None or case_key(target) != case_key(patch) or patch["id"] in seen:
+            raise ValueError(f"Poster enrichment target missing, changed or duplicated: {patch['id']}")
+        seen.add(patch["id"])
+        if not isinstance(patch["posterEvidence"], dict):
+            raise ValueError(f"Poster evidence must be an object: {patch['id']}")
+        for url in (patch["poster"], patch["posterEvidence"].get("sourcePage", "")):
+            parsed = urlsplit(url)
+            host = parsed.hostname or ""
+            try:
+                public = ipaddress.ip_address(host).is_global
+            except ValueError:
+                public = "." in host and not host.endswith((".localhost", ".local", ".internal"))
+            if parsed.scheme != "https" or not public or parsed.username or parsed.password:
+                raise ValueError(f"Poster evidence requires a public HTTPS URL: {patch['id']}")
+        evidence = patch["posterEvidence"]
+        if (patch["mediaKind"] not in ("image", "video") or
+                evidence.get("reviewStatus") != "accepted" or
+                not evidence.get("checkedAt") or not evidence.get("method") or
+                not evidence.get("relation") or
+                not isinstance(evidence.get("width"), int) or evidence["width"] < 180 or
+                not isinstance(evidence.get("height"), int) or evidence["height"] < 100 or
+                not re.fullmatch(r"[0-9a-f]{64}", evidence.get("imageSha256", ""))):
+            raise ValueError(f"Poster enrichment lacks verified image evidence: {patch['id']}")
+        if not target.get("poster"):
+            target.update({k: patch[k] for k in ("poster", "mediaKind", "posterEvidence")})
     return cases
 
 
@@ -288,6 +333,9 @@ def main():
         enrichment_path = DATA / name
         if enrichment_path.exists():
             apply_enrichments(cases, json.loads(enrichment_path.read_text())["cases"])
+    poster_path = DATA / "poster_enrichments.json"
+    if poster_path.exists():
+        apply_poster_enrichments(cases, json.loads(poster_path.read_text())["cases"])
     # snapshot date = newest dated case (sources lag a day or two behind the fetch)
     for c in cases:
         # video thumbnails: derive YouTube posters from the id, force https for Bilibili's CDN
@@ -304,7 +352,8 @@ def main():
         meta["refreshScope"] = report.get("scope", "public-source refresh")
         meta["lastFullRefreshAt"] = report.get("lastFullRefreshAt", report["refreshedAt"])
     (DATA / "all_cases.json").write_text(json.dumps({"meta": meta, "cases": cases}, ensure_ascii=False, indent=1))
-    fields = list(dict.fromkeys(k for c in cases for k in c if k not in ("poster", "video")))
+    # Keep reviewed poster URLs and provenance in the downloadable CSV as in JSON.
+    fields = list(dict.fromkeys(k for c in cases for k in c if k != "video"))
     with open(DATA / "all_cases.csv", "w", newline="", encoding="utf-8-sig") as f:
         w = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore", lineterminator="\n")
         w.writeheader()
