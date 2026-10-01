@@ -141,7 +141,7 @@
   "platform": "GitHub",
   "stars": 20,
   "date": "2026-09-23",
-  "metricsCheckedAt": "2026-09-27T07:56:26+00:00"
+  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
  },
  {
   "title": "Awesome AI 游戏合集",
@@ -153,9 +153,9 @@
   "author": "AgentsLoop",
   "sourceUrl": "https://github.com/AgentsLoop/awesome-opus-5.5-games",
   "platform": "GitHub",
-  "stars": 61,
+  "stars": 97,
   "date": "2026-09-09",
-  "metricsCheckedAt": "2026-09-27T07:56:26+00:00"
+  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
  },
  {
   "title": "Awesome Opus 动画合集",
@@ -180,9 +180,9 @@
   "author": "athemeroy",
   "sourceUrl": "https://github.com/athemeroy/awesome-opus-5-5-videos",
   "platform": "GitHub",
-  "stars": 349,
+  "stars": 375,
   "date": "2026-09-25",
-  "metricsCheckedAt": "2026-09-27T07:56:26+00:00"
+  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
  },
  {
   "title": "Opus 5.5 3D/游戏提示词集",
@@ -194,9 +194,9 @@
   "author": "TripoGrowthLab",
   "sourceUrl": "https://github.com/TripoGrowthLab/awesome-opus-5-5-prompts",
   "platform": "GitHub",
-  "stars": 21,
+  "stars": 25,
   "date": "2026-09-23",
-  "metricsCheckedAt": "2026-09-27T07:56:26+00:00"
+  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
  },
  {
   "title": "Opus 5.5 前端作品精选",
@@ -287,7 +287,8 @@
   "sourceUrl": "https://github.com/aibengineering/sprout-quest",
   "platform": "GitHub",
   "stars": 2,
-  "date": "2026-09-23"
+  "date": "2026-09-23",
+  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
  },
  {
   "title": "NOVA LANCER 轨道射击",
@@ -339,7 +340,8 @@
   "sourceUrl": "https://github.com/peterheb/reefglass",
   "platform": "GitHub",
   "stars": 1,
-  "date": "2026-09-23"
+  "date": "2026-09-23",
+  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
  },
  {
   "title": "恐龙陨石动画短片",
@@ -391,7 +393,8 @@
   "sourceUrl": "https://github.com/iart-ai/javascript-animation-skills",
   "platform": "GitHub",
   "stars": 11,
-  "date": "2026-09-23"
+  "date": "2026-09-23",
+  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
  },
  {
   "title": "Claude 发布片风格动画技能",
@@ -795,7 +798,8 @@
   "sourceUrl": "https://github.com/coolbat/awesome-opus-5.5-usecase",
   "platform": "GitHub",
   "stars": 0,
-  "date": "2026-09-24"
+  "date": "2026-09-24",
+  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
  },
  {
   "title": "Claude视频图集（53例）",
@@ -1459,7 +1463,8 @@
   "sourceUrl": "https://github.com/mitotkp/ZOMBIES-LAN",
   "platform": "GitHub",
   "stars": 0,
-  "date": "2026-09-25"
+  "date": "2026-09-25",
+  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
  },
  {
   "title": "Opus 5.5 一条提示做的说唱与MV",
@@ -1485,7 +1490,8 @@
   "sourceUrl": "https://github.com/mrcarforearth/LOL-claude-opus-5.5",
   "platform": "GitHub",
   "stars": 3,
-  "date": "2026-09-24"
+  "date": "2026-09-24",
+  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
  },
  {
   "title": "3D错视美术馆",
@@ -1705,11 +1711,12 @@
   "author": "levy-street",
   "platform": "GitHub",
   "date": "2026-09-26",
-  "stars": 46,
+  "stars": 56,
   "checkedAt": "2026-09-27T07:52:53+00:00",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22&sort=updated&per_page=100",
   "evidenceBasis": "repository README; author-reported, not independently executed",
-  "evidenceUrl": "https://raw.githubusercontent.com/levy-street/pokemon-claude-red/main/README.md"
+  "evidenceUrl": "https://raw.githubusercontent.com/levy-street/pokemon-claude-red/main/README.md",
+  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
  },
  {
   "category": "games",
@@ -1926,7 +1933,7 @@
   "author": "lemomo-ai",
   "platform": "GitHub",
   "date": "2026-09-26",
-  "stars": 636,
+  "stars": 687,
   "checkedAt": "2026-09-27T08:18:12+00:00",
   "discoveredVia": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/main/README.md",
   "evidenceBasis": "Repository README, style index, DIRECTOR.md and TECHNIQUE.md; collection counted once; not independently reproduced",
@@ -1947,7 +1954,8 @@
     "label_en": "Technical guide",
     "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/TECHNIQUE.md"
    }
-  ]
+  ],
+  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
  },
  {
   "title": "读取网站生成产品动效片的技能",
@@ -2049,7 +2057,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/antondziuin/Solar/main/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
  },
  {
   "title": "PDF一键生成配音竖屏短片",
@@ -2066,7 +2075,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/ww-w-ai/super-video-agent/main/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
  },
  {
   "title": "用Skarn语言写的Redis克隆",
@@ -2168,7 +2178,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/Madheshvivekanandan/perfect-yorker-3d/main/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
  },
  {
   "title": "纯代码夏日海边小镇短片",
@@ -2215,11 +2226,12 @@
   "sourceUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos",
   "platform": "GitHub",
   "date": "2026-09-27",
-  "stars": 969,
+  "stars": 1108,
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/yihui-dev/awesome-opus5-5-videos/main/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
  },
  {
   "title": "面向Opus 5.5的资深工程师输出风格",
@@ -2355,7 +2367,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/V9011N/pygame-piano-animator/main/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
  },
  {
   "title": "终端字符风三维歌词视频",
@@ -2389,7 +2402,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/katsuhiro-hayasaka-orico/3D-kousai-opus5.5/claude/zen-allen-vvryyw/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
  },
  {
   "title": "音乐转动效MV插件",
@@ -2402,11 +2416,12 @@
   "sourceUrl": "https://github.com/makevoid/motion-graphics-music-video-skill",
   "platform": "GitHub",
   "date": "2026-09-26",
-  "stars": 69,
+  "stars": 79,
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/makevoid/motion-graphics-music-video-skill/main/README.md",
-  "evidenceBasis": "README; not independently run"
+  "evidenceBasis": "README; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
  },
  {
   "title": "临床诊断校准预注册评测",
@@ -2457,7 +2472,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/bwoliveira/prompt-studio/main/README.md",
-  "evidenceBasis": "README; not independently run"
+  "evidenceBasis": "README; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
  },
  {
   "title": "等距丧尸生存沙盒",
@@ -2627,7 +2643,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/piiiico/no-abstraction/main/README.md",
-  "evidenceBasis": "README; not independently run"
+  "evidenceBasis": "README; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
  },
  {
   "title": "自主运行的城市模拟",
@@ -3693,7 +3710,8 @@
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/JTMC-G3/HelloNeighbor",
-  "evidenceBasis": "README and repo description; not independently run"
+  "evidenceBasis": "README and repo description; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
  },
  {
   "title": "先出三方案再渲染的视频技能",
@@ -4111,7 +4129,8 @@
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/LJAguil/Npc-Village",
-  "evidenceBasis": "README and repo description; not independently run"
+  "evidenceBasis": "README and repo description; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
  },
  {
   "title": "韩文像素破坏列车游戏",
@@ -4396,7 +4415,8 @@
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/primaryatias-oss/Port-of-OceanDrive-from-Three.js-to-SDL3",
-  "evidenceBasis": "README and repo description; not independently run"
+  "evidenceBasis": "README and repo description; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
  },
  {
   "title": "指令文件按模型代际迁移",
@@ -4491,7 +4511,8 @@
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/clarity-m/shelter-mv",
-  "evidenceBasis": "README and repo description; not independently run"
+  "evidenceBasis": "README and repo description; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
  },
  {
   "title": "45 分钟做出打字跑酷游戏",
@@ -4505,12 +4526,13 @@
   "platform": "GitHub",
   "date": "2026-09-30",
   "likes": null,
-  "stars": 0,
+  "stars": 1,
   "mediaKind": "none",
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/ethanplusai/outpace",
-  "evidenceBasis": "README and repo description; not independently run"
+  "evidenceBasis": "README and repo description; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
  },
  {
   "title": "视频帧评测中把模糊内容说成有据",
@@ -4549,5 +4571,381 @@
   "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/wordplaydev/wordplay/pull/1438",
   "evidenceBasis": "PR description; not independently run"
+ },
+ {
+  "title": "代码动画导演课程",
+  "title_en": "A code-animation directing course",
+  "summary": "仓库为 Opus 5.5 提供中文自学网站与练习工程，覆盖代码绘帧、导演、编剧和逐帧渲染，并引用社区项目。",
+  "summary_en": "The repository offers a Chinese course and practice project for Opus 5.5 code-generated animation, combining rendering, directing and writing with credited community references.",
+  "category": "video",
+  "evidenceType": "教程",
+  "sourceUrl": "https://github.com/dylantlwu/opus-animation-course",
+  "date": "2026-10-01",
+  "checkedAt": "2026-10-01T03:25:55+00:00",
+  "evidenceUrl": "https://raw.githubusercontent.com/dylantlwu/opus-animation-course/main/README.md",
+  "mediaKind": "none",
+  "platform": "GitHub",
+  "author": "dylantlwu",
+  "stars": 0,
+  "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-30",
+  "evidenceBasis": "repository README; author-reported; not executed",
+  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+ },
+ {
+  "title": "控制理论的几何短片",
+  "title_en": "The Geometry of Control",
+  "summary": "作者在人的导演指导下用 Opus 5.5 制作控制理论浏览器短片，以代码生成画面和音乐，涵盖状态空间、反馈、火箭着陆与群体协作。",
+  "summary_en": "Under human direction, Opus 5.5 implements a browser film on control theory, generating visuals and music in code for state space, feedback, rocket landings and collective behavior.",
+  "category": "education",
+  "evidenceType": "演示",
+  "sourceUrl": "https://github.com/ThorHe-Hub/opus-geometry-of-control",
+  "date": "2026-09-30",
+  "checkedAt": "2026-10-01T03:25:55+00:00",
+  "evidenceUrl": "https://raw.githubusercontent.com/ThorHe-Hub/opus-geometry-of-control/main/README.md",
+  "mediaKind": "none",
+  "platform": "GitHub",
+  "author": "ThorHe-Hub",
+  "stars": 0,
+  "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-30",
+  "evidenceBasis": "repository README; author-reported; not executed",
+  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+ },
+ {
+  "title": "多模型开发分工技能",
+  "title_en": "A multi-model development skill",
+  "summary": "仓库以 Opus 5.5 主会话分解任务，安排不同模型处理后端、前端和架构，并要求检查差异与验证结果；本库未运行。",
+  "summary_en": "The skill uses an Opus 5.5 driver to delegate backend, frontend and architecture work across models, with diff review and verification gates. It was not executed here.",
+  "category": "agents",
+  "evidenceType": "集成",
+  "sourceUrl": "https://github.com/better-futures-studio/opus-use-subagents",
+  "date": "2026-10-01",
+  "checkedAt": "2026-10-01T03:25:55+00:00",
+  "evidenceUrl": "https://raw.githubusercontent.com/better-futures-studio/opus-use-subagents/main/README.md",
+  "mediaKind": "none",
+  "platform": "GitHub",
+  "author": "better-futures-studio",
+  "stars": 0,
+  "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-30",
+  "evidenceBasis": "repository README; author-reported; not executed",
+  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+ },
+ {
+  "title": "GalaxyQuest 游戏改作工具",
+  "title_en": "GalaxyQuest game-modification tooling",
+  "summary": "README 将项目代码、工具和文档归于 Opus 5.5 Max，并明确所依赖的 Super Mario Galaxy 反编译成果来自 Petari 团队；没有将基础工程归给模型。",
+  "summary_en": "The README credits Opus 5.5 Max for project code, tools and documentation while explicitly attributing the underlying Super Mario Galaxy decompilation to the Petari team.",
+  "category": "games",
+  "evidenceType": "演示",
+  "sourceUrl": "https://github.com/bigmak94/GalaxyQuest",
+  "date": "2026-10-01",
+  "checkedAt": "2026-10-01T03:25:55+00:00",
+  "evidenceUrl": "https://raw.githubusercontent.com/bigmak94/GalaxyQuest/main/README.md",
+  "mediaKind": "none",
+  "platform": "GitHub",
+  "author": "bigmak94",
+  "stars": 0,
+  "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-30",
+  "evidenceBasis": "repository README; author-reported; not executed",
+  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+ },
+ {
+  "title": "从创意到旁白短片",
+  "title_en": "An idea-to-film skill",
+  "summary": "技能将创意、剧本确认、代码动画、音乐音效和字幕串成 MP4 制作流程，建议使用 Opus 5.5，并调用 Gemini TTS 生成语音。",
+  "summary_en": "The skill guides an idea through script approval, coded animation, music, effects and captions into an MP4, recommending Opus 5.5 and using Gemini TTS for narration.",
+  "category": "video",
+  "evidenceType": "集成",
+  "sourceUrl": "https://github.com/hoangduong92/idea-to-film-skill",
+  "date": "2026-09-30",
+  "checkedAt": "2026-10-01T03:25:56+00:00",
+  "evidenceUrl": "https://raw.githubusercontent.com/hoangduong92/idea-to-film-skill/main/README.md",
+  "mediaKind": "none",
+  "platform": "GitHub",
+  "author": "hoangduong92",
+  "stars": 0,
+  "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-30",
+  "evidenceBasis": "repository README; author-reported; not executed",
+  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+ },
+ {
+  "title": "Cosmic Breach 维度模组",
+  "title_en": "The Cosmic Breach dimension mod",
+  "summary": "作者称 Opus 5.5 制作 NeoForge 动作 RPG 模组的设计、Java 代码与素材生成工具，并进行自动客户端测试；音乐、美术许可与代码许可分开。",
+  "summary_en": "The author credits Opus 5.5 with a NeoForge action-RPG mod's design, Java code, asset generators and scripted client tests. Asset and code licenses are distinguished in the repository.",
+  "category": "games",
+  "evidenceType": "演示",
+  "sourceUrl": "https://github.com/CalmDownNova/cosmic-breach",
+  "date": "2026-09-30",
+  "checkedAt": "2026-10-01T03:25:56+00:00",
+  "evidenceUrl": "https://raw.githubusercontent.com/CalmDownNova/cosmic-breach/main/README.md",
+  "mediaKind": "none",
+  "platform": "GitHub",
+  "author": "CalmDownNova",
+  "stars": 1,
+  "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-30",
+  "evidenceBasis": "repository README; author-reported; not executed",
+  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+ },
+ {
+  "title": "六版网页音乐视频",
+  "title_en": "Six browser music-video iterations",
+  "summary": "作者公开 Opus 5.5 制作的 One Last Kiss 网页 MV 六个迭代版本，支持浏览器运行，并链接 2K60 视频录制版。",
+  "summary_en": "The creator publishes six iterations of an Opus 5.5 One Last Kiss browser music video and links a 2K60 recording.",
+  "category": "video",
+  "evidenceType": "演示",
+  "sourceUrl": "https://github.com/Fenglin-Maple/One-last-kiss-opus5.5-web-mv",
+  "date": "2026-09-30",
+  "checkedAt": "2026-10-01T03:25:56+00:00",
+  "evidenceUrl": "https://raw.githubusercontent.com/Fenglin-Maple/One-last-kiss-opus5.5-web-mv/main/README.md",
+  "mediaKind": "none",
+  "platform": "GitHub",
+  "author": "Fenglin-Maple",
+  "stars": 1,
+  "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-30",
+  "evidenceBasis": "repository README; author-reported; not executed",
+  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+ },
+ {
+  "title": "从游戏视频重做格斗玩法",
+  "title_en": "Recreating a fighter from gameplay video",
+  "summary": "作者给 Opus 5.5 high 一段原作者的游戏视频，制作 Three.js 讽刺格斗游戏，并保留一轮生成版与后续版的试玩入口；注明原作归属。",
+  "summary_en": "The author gives Opus 5.5 high an original creator's gameplay reel to recreate a satirical Three.js fighter, publishing both the initial and later versions with attribution.",
+  "category": "games",
+  "evidenceType": "演示",
+  "sourceUrl": "https://github.com/yarinbnyamin/knesset-kombat-26",
+  "date": "2026-09-30",
+  "checkedAt": "2026-10-01T03:25:56+00:00",
+  "evidenceUrl": "https://raw.githubusercontent.com/yarinbnyamin/knesset-kombat-26/main/README.md",
+  "mediaKind": "none",
+  "platform": "GitHub",
+  "author": "yarinbnyamin",
+  "stars": 0,
+  "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-30",
+  "evidenceBasis": "repository README; author-reported; not executed",
+  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+ },
+ {
+  "title": "Flash 挖矿游戏的三维改作",
+  "title_en": "A 3D reinterpretation of a Flash mining game",
+  "summary": "作者称用 Opus 5.5 实现 Motherload 规则的 Three.js 技术演示，包括程序化素材与测试，音乐音效由 ElevenLabs 制作；仓库定位为非商业实验。",
+  "summary_en": "The author credits Opus 5.5 for a Three.js technical demo based on Motherload mechanics, including generated assets and tests, with ElevenLabs audio. It is presented as a noncommercial experiment.",
+  "category": "games",
+  "evidenceType": "演示",
+  "sourceUrl": "https://github.com/Leichtbier/core-business",
+  "date": "2026-09-30",
+  "checkedAt": "2026-10-01T03:25:56+00:00",
+  "evidenceUrl": "https://raw.githubusercontent.com/Leichtbier/core-business/main/README.md",
+  "mediaKind": "none",
+  "platform": "GitHub",
+  "author": "Leichtbier",
+  "stars": 1,
+  "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-30",
+  "evidenceBasis": "repository README; author-reported; not executed",
+  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+ },
+ {
+  "title": "六轮迭代国际象棋发布片",
+  "title_en": "Six iterations of a chess launch film",
+  "summary": "仓库公开 Opus 5.5 制作的 Elvyn Chess 三十秒代码宣传片、六版演进和前后对照，记录发布片的制作过程。",
+  "summary_en": "The repository shares an Opus 5.5 thirty-second Elvyn Chess launch film, six iterations and before-and-after comparisons documenting the production process.",
+  "category": "video",
+  "evidenceType": "演示",
+  "sourceUrl": "https://github.com/milliondreamsblog/MotionDesignOpus5.5",
+  "date": "2026-09-30",
+  "checkedAt": "2026-10-01T03:25:56+00:00",
+  "evidenceUrl": "https://raw.githubusercontent.com/milliondreamsblog/MotionDesignOpus5.5/main/README.md",
+  "mediaKind": "none",
+  "platform": "GitHub",
+  "author": "milliondreamsblog",
+  "stars": 1,
+  "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-30",
+  "evidenceBasis": "repository README; author-reported; not executed",
+  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+ },
+ {
+  "title": "GenMotion 音乐视频工程",
+  "title_en": "A GenMotion music-video project",
+  "summary": "作者用 Opus 5.5 与 GenMotion 制作约两分半的 AI 风险主题动效音乐视频，公开代码与成片截图。",
+  "summary_en": "The creator publishes an approximately two-and-a-half-minute motion-graphics music video about AI risk, made with Opus 5.5 and GenMotion.",
+  "category": "video",
+  "evidenceType": "演示",
+  "sourceUrl": "https://github.com/haxzie/p-doom-ft-genmotion",
+  "date": "2026-09-30",
+  "checkedAt": "2026-10-01T03:25:56+00:00",
+  "evidenceUrl": "https://raw.githubusercontent.com/haxzie/p-doom-ft-genmotion/main/README.md",
+  "mediaKind": "none",
+  "platform": "GitHub",
+  "author": "haxzie",
+  "stars": 0,
+  "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-30",
+  "evidenceBasis": "repository README; author-reported; not executed",
+  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+ },
+ {
+  "title": "相同参考图的三维角色对照",
+  "title_en": "3D characters from the same reference",
+  "summary": "作者用同一提示和参考图比较 Opus 5.5 与 GPT-6.1 Sol 的 Three.js 角色，公布未经手工修改的结果，并让两个角色接收同一鼠标轨迹。",
+  "summary_en": "The author compares Opus 5.5 and GPT-6.1 Sol Three.js characters from the same prompt and image, preserving unedited outputs and feeding both the same pointer path.",
+  "category": "3d",
+  "evidenceType": "评测",
+  "sourceUrl": "https://github.com/okonio/felt-dot-gpt-vs-opus",
+  "date": "2026-09-30",
+  "checkedAt": "2026-10-01T03:25:56+00:00",
+  "evidenceUrl": "https://raw.githubusercontent.com/okonio/felt-dot-gpt-vs-opus/main/README.md",
+  "mediaKind": "none",
+  "platform": "GitHub",
+  "author": "okonio",
+  "stars": 0,
+  "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-30",
+  "evidenceBasis": "repository README; author-reported; not executed",
+  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+ },
+ {
+  "title": "含提示与成片的视频配方",
+  "title_en": "Video recipes with prompts and outputs",
+  "summary": "仓库公开 Opus 5.5 制作 App Store 预览、动态排版和竖屏字幕视频的配方，附提示、渲染记录与可获得的成本数据。",
+  "summary_en": "The repository publishes Opus 5.5 recipes for App Store previews, kinetic typography and captioned vertical video, including prompts, render notes and costs where measured.",
+  "category": "video",
+  "evidenceType": "教程",
+  "sourceUrl": "https://github.com/bilaldemirerr/opus-video-recipes",
+  "date": "2026-09-30",
+  "checkedAt": "2026-10-01T03:25:56+00:00",
+  "evidenceUrl": "https://raw.githubusercontent.com/bilaldemirerr/opus-video-recipes/main/README.md",
+  "mediaKind": "none",
+  "platform": "GitHub",
+  "author": "bilaldemirerr",
+  "stars": 0,
+  "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-30",
+  "evidenceBasis": "repository README; author-reported; not executed",
+  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+ },
+ {
+  "title": "同任务 Sonnet 与 Opus 工程",
+  "title_en": "Matched Sonnet and Opus projects",
+  "summary": "作者公开 Sonnet 5.5 与 Opus 5.5 在恐怖游戏、网站和预告片任务上的原始文件，统一 high effort 与任务说明，记录多次用时及成本。",
+  "summary_en": "The author publishes Sonnet 5.5 and Opus 5.5 outputs for horror-game, website and trailer briefs at high effort, with matching instructions and run-level times and costs.",
+  "category": "coding",
+  "evidenceType": "评测",
+  "sourceUrl": "https://github.com/jeaxindr-dotcom/sonnet-55-vs-opus-55",
+  "date": "2026-09-30",
+  "checkedAt": "2026-10-01T03:25:56+00:00",
+  "evidenceUrl": "https://raw.githubusercontent.com/jeaxindr-dotcom/sonnet-55-vs-opus-55/main/README.md",
+  "mediaKind": "none",
+  "platform": "GitHub",
+  "author": "jeaxindr-dotcom",
+  "stars": 0,
+  "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-30",
+  "evidenceBasis": "repository README; author-reported; not executed",
+  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+ },
+ {
+  "title": "Remotion 导演流程技能",
+  "title_en": "A Remotion directing workflow",
+  "summary": "作者在 Opus 5.5 协助下制作 code-film 技能，以分镜文件组织故事、节奏、镜头、音画同步和脚本自检，主观视听质量留给用户判断。",
+  "summary_en": "Built with Opus 5.5 assistance, code-film organizes story, timing, camera work, audiovisual synchronization and scripted checks around a storyboard, leaving subjective quality to the user.",
+  "category": "video",
+  "evidenceType": "集成",
+  "sourceUrl": "https://github.com/Everett406/code-film",
+  "date": "2026-09-30",
+  "checkedAt": "2026-10-01T03:25:56+00:00",
+  "evidenceUrl": "https://raw.githubusercontent.com/Everett406/code-film/main/README.md",
+  "mediaKind": "none",
+  "platform": "GitHub",
+  "author": "Everett406",
+  "stars": 0,
+  "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-30",
+  "evidenceBasis": "repository README; author-reported; not executed",
+  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+ },
+ {
+  "title": "四档 effort 动画盲测",
+  "title_en": "An animation comparison across four effort levels",
+  "summary": "作者公开同题四档 Opus 5.5 动画实验，称 max 用时约为 medium 的七倍但盲看难分；修改旁白结构带来的视觉变化更明显。",
+  "summary_en": "The author documents four Opus 5.5 effort settings on one animation prompt, reporting roughly seven times the duration at max versus medium but little blind-test distinction; narration changes mattered more.",
+  "category": "video",
+  "evidenceType": "评测",
+  "sourceUrl": "https://github.com/chenyuxiaojin/cyxj-videos",
+  "date": "2026-09-30",
+  "checkedAt": "2026-10-01T03:25:57+00:00",
+  "evidenceUrl": "https://raw.githubusercontent.com/chenyuxiaojin/cyxj-videos/main/README.md",
+  "mediaKind": "none",
+  "platform": "GitHub",
+  "author": "chenyuxiaojin",
+  "stars": 0,
+  "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-30",
+  "evidenceBasis": "repository README; author-reported; not executed",
+  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+ },
+ {
+  "title": "ViBench 使用 Opus 作评测器",
+  "title_en": "Opus as a ViBench evaluator",
+  "summary": "PR 将 ViBench 的初始化和评测模型设为 Opus 5.5 medium，每个计划评三次取中位数，并报告应用级指标及跨运行误差；仅核验 PR 描述。",
+  "summary_en": "The PR configures Opus 5.5 medium for ViBench seeding and evaluation, grading each plan three times and taking the median with app-level metrics and run variability. Only the PR description was checked.",
+  "category": "coding",
+  "evidenceType": "集成",
+  "sourceUrl": "https://github.com/ViBench/vibench-public/pull/8",
+  "date": "2026-09-30",
+  "checkedAt": "2026-10-01T03:36:40+00:00",
+  "evidenceUrl": "https://github.com/ViBench/vibench-public/pull/8",
+  "mediaKind": "none",
+  "platform": "GitHub",
+  "author": "daniel-furman",
+  "stars": null,
+  "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-30",
+  "evidenceBasis": "public issue/PR description; implementation and reported failures not independently reproduced"
+ },
+ {
+  "title": "长任务的分步上下文与验证",
+  "title_en": "Stepwise context and checks for long jobs",
+  "summary": "noctis PR 为长任务引入每步独立上下文、完成前检查和 effort 继承，编码默认 Opus 5.5 xhigh；这是项目实现说明，未复测。",
+  "summary_en": "A noctis PR introduces fresh context per step, completion checks and effort inheritance for long jobs, defaulting coding work to Opus 5.5 xhigh. The implementation was not retested.",
+  "category": "agents",
+  "evidenceType": "集成",
+  "sourceUrl": "https://github.com/synex1437/noctis/pull/9",
+  "date": "2026-10-01",
+  "checkedAt": "2026-10-01T03:36:40+00:00",
+  "evidenceUrl": "https://github.com/synex1437/noctis/pull/9",
+  "mediaKind": "none",
+  "platform": "GitHub",
+  "author": "synex1437",
+  "stars": null,
+  "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-30",
+  "evidenceBasis": "public issue/PR description; implementation and reported failures not independently reproduced"
+ },
+ {
+  "title": "安全回退后模型版本不明显",
+  "title_en": "A model fallback hidden by a family label",
+  "summary": "Issue 附会话时间线，报告 Opus 5.5 安全停止后回退至 Opus 4.8，但界面只显示 opus，导致后续工作误判所用模型；作者提出版本显示与告警。",
+  "summary_en": "An issue documents an Opus 5.5 safety stop followed by fallback to Opus 4.8 while the footer still showed only opus, motivating exact-version display and alerts.",
+  "category": "agents",
+  "evidenceType": "限制",
+  "sourceUrl": "https://github.com/zbynekdrlik/airuleset/issues/1203",
+  "date": "2026-09-30",
+  "checkedAt": "2026-10-01T03:36:40+00:00",
+  "evidenceUrl": "https://github.com/zbynekdrlik/airuleset/issues/1203",
+  "mediaKind": "none",
+  "platform": "GitHub",
+  "author": "zbynekdrlik",
+  "stars": null,
+  "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-30",
+  "evidenceBasis": "public issue/PR description; implementation and reported failures not independently reproduced"
+ },
+ {
+  "title": "终端子会话未继承模型",
+  "title_en": "A terminal sub-session losing its model",
+  "summary": "Issue 记录主会话选择 Opus 5.5 后，终端子会话仍默认 Ollama 的复现步骤；手动切换可用，作者将其定位为应用默认选择错误。",
+  "summary_en": "The issue reproduces a terminal sub-session defaulting to Ollama despite an Opus 5.5 parent session. Manual switching works, pointing to an application model-selection bug.",
+  "category": "agents",
+  "evidenceType": "限制",
+  "sourceUrl": "https://github.com/jwp2987/phosphor/issues/797",
+  "date": "2026-09-30",
+  "checkedAt": "2026-10-01T03:36:40+00:00",
+  "evidenceUrl": "https://github.com/jwp2987/phosphor/issues/797",
+  "mediaKind": "none",
+  "platform": "GitHub",
+  "author": "jwp2987",
+  "stars": null,
+  "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-30",
+  "evidenceBasis": "public issue/PR description; implementation and reported failures not independently reproduced"
  }
 ]
