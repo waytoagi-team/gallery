@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Opus 5.5 新手上手路线：从第一条提示词到避坑 | WaytoAGI</title>
+<meta name="description" content="写给新手的 Claude Opus 5.5 上手路线：把任务一次交代清楚、做出第一个成品并学会改稿、弄懂 effort 档位与额度、选一个方向深入、避开常见的坑。内容来自 WaytoAGI 真实案例图谱中逐条核对过的 30 份资料。">
+<link rel="canonical" href="https://www.waytoagi.com/usecase-atlas/opus5-5/blog/opus55-beginner-guide/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="WaytoAGI">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:title" content="Opus 5.5 新手上手路线：从第一条提示词到避坑">
+<meta property="og:description" content="5 步上手 Claude Opus 5.5：提示词结构、改稿循环、effort 与额度、四个深入方向和避坑清单，附 30 份已核对的原始资料。">
+<meta property="og:url" content="https://www.waytoagi.com/usecase-atlas/opus5-5/blog/opus55-beginner-guide/">
+<meta property="og:image" content="https://www.waytoagi.com/usecase-atlas/opus5-5/blog/opus55-beginner-guide/img/og.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="WaytoAGI 新手指南分享卡片：Opus 5.5 新手上手路线，5 步从第一条提示词到避坑。">
+<meta property="article:published_time" content="2026-10-01">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Opus 5.5 新手上手路线：从第一条提示词到避坑">
+<meta name="twitter:description" content="5 步上手 Claude Opus 5.5，附 30 份已核对的原始资料。">
+<meta name="twitter:image" content="https://www.waytoagi.com/usecase-atlas/opus5-5/blog/opus55-beginner-guide/img/og.png">
+<meta name="twitter:image:alt" content="WaytoAGI 新手指南分享卡片：Opus 5.5 新手上手路线，5 步从第一条提示词到避坑。">
+<style>
+:root{
+  --ink:#241E1E; --green:#238653; --green-deep:#176A42; --lime:#C9DF8D; --lilac:#EAD8EB;
+  --purple:#AD85BA; --blue:#103CA0; --paper:#FFFFFF; --line:#DDD7DB; --red:#b0203a;
+  --ink-2:#5d5656; --ink-3:#716a6b; --soft:#f6f4f5;
+  --font-cn:'PingFang SC','Source Han Sans SC','Source Han Sans CN','Noto Sans CJK SC','Noto Sans SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;
+  --font-display:'Avenir Next','Avenir','Helvetica Neue',Arial,'PingFang SC','Source Han Sans SC','Noto Sans CJK SC','Noto Sans SC','Microsoft YaHei',sans-serif;
+  --mono:'SFMono-Regular','SF Mono','Roboto Mono',Consolas,monospace,'PingFang SC','Noto Sans CJK SC','Microsoft YaHei';
+  --wrap:min(88vw,1280px);
+  --measure:720px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;scroll-padding-top:24px}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.85 var(--font-cn);font-synthesis:weight;
+  text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overflow-x:hidden}
+a{color:var(--blue);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+::selection{background:var(--lime);color:var(--ink)}
+:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+footer :focus-visible,.code figcaption :focus-visible{outline-color:var(--lime)}
+.wrap{width:var(--wrap);margin:0 auto}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip{position:absolute;left:12px;top:-60px;z-index:50;background:var(--ink);color:var(--paper);padding:10px 16px;font-weight:600;text-decoration:none}
+.skip:focus{top:12px}
+
+/* Header (same brand bar as the atlas) */
+.hdr{border-bottom:1px solid var(--line);background:var(--paper)}
+.hdr .wrap{display:flex;align-items:center;gap:24px;min-height:88px}
+.brand{display:flex;align-items:center;gap:16px;flex:none;color:inherit;text-decoration:none}
+.brand svg{width:216px;height:auto;display:block}
+.brand .cn{font:700 22px/1 var(--font-display);padding-left:16px;border-left:1px solid var(--ink);white-space:nowrap}
+.hdr nav{margin-left:auto;display:flex;align-items:center;gap:30px;font-size:14px}
+.hdr nav a{color:var(--ink);text-decoration:none;white-space:nowrap}
+.hdr nav .cta{display:inline-flex;align-items:center;gap:10px;background:var(--ink);color:var(--paper);padding:11px 18px;font-weight:600}
+
+/* Article head */
+.head{padding:64px 0 40px;border-bottom:1px solid var(--ink)}
+.crumb{font:12px/1.4 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2)}
+.crumb a{color:var(--ink-2);text-decoration:none}
+.head h1,.crumb{word-break:keep-all;overflow-wrap:anywhere}
+.head h1{font:800 clamp(28px,5.2vw,62px)/1.12 var(--font-display);letter-spacing:-.025em;margin:20px 0 0;max-width:15em}
+.head h1 .chip{display:inline-block;background:var(--green);color:var(--paper);padding:0 .18em .04em;transform:rotate(-1.5deg);margin-right:.08em}
+.dek{margin:24px 0 0;max-width:var(--measure);font-size:18px;line-height:1.8;color:var(--ink)}
+.meta{display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:22px;font:13px/1.6 var(--mono);color:var(--ink-2)}
+.meta b{color:var(--ink);font-weight:700}
+
+/* Layout: sticky table of contents + article */
+.layout{display:grid;grid-template-columns:220px minmax(0,var(--measure));justify-content:center;gap:0 64px;padding:48px 0 24px}
+.toc{position:sticky;top:24px;align-self:start;max-height:calc(100vh - 48px);overflow:auto;padding:6px;margin:-6px;scroll-padding-block:7px;font-size:14px;line-height:1.5}
+.toc .lbl{font:12px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);margin:0 0 12px}
+.toc ol{list-style:none;margin:0;padding:0}
+.toc > ol > li{border-top:1px solid var(--line)}
+.toc a{display:flex;gap:10px;padding:9px 0;color:var(--ink);text-decoration:none}
+.toc .n{font:700 12px/1.9 var(--mono);color:var(--blue)}
+.toc ol ol a{padding:3px 0 3px 30px;color:var(--ink-2);font-size:13px}
+.toc a[aria-current="true"]{color:var(--green-deep);font-weight:700}
+.toc .back{display:block;margin-top:18px;padding-top:14px;border-top:2px solid var(--ink);font-weight:600;color:var(--ink)}
+.toc-m{display:none}
+
+/* Article body */
+article{min-width:0}
+.intro{border:1px solid var(--ink);padding:22px 24px;background-color:var(--lilac);
+  background-image:linear-gradient(rgba(36,30,30,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(36,30,30,.07) 1px,transparent 1px);background-size:16px 16px}
+.intro p{margin:0 0 8px}.intro p:last-child{margin:0}
+article > p,article li{font-size:16px}
+article p{margin:16px 0}
+article ul,article ol{margin:14px 0;padding-left:1.3em}
+article li{margin:6px 0}
+article li::marker{color:var(--green-deep)}
+article strong{font-weight:700}
+article code{font:14px var(--mono);background:var(--soft);border:1px solid var(--line);padding:0 5px}
+h2{display:flex;align-items:center;gap:14px;margin:72px 0 22px;padding-bottom:14px;border-bottom:2px solid var(--blue);
+  font:800 clamp(22px,2.6vw,30px)/1.25 var(--font-display);letter-spacing:-.01em;scroll-margin-top:24px}
+h2 .no{flex:none;display:grid;place-items:center;width:42px;height:42px;background:var(--ink);color:var(--paper);font:700 14px var(--mono)}
+h3{margin:44px 0 12px;padding-left:12px;border-left:4px solid var(--green);font:800 20px/1.4 var(--font-display);scroll-margin-top:24px}
+.entry-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:20px 0}
+.entry-grid .col{border:1px solid var(--line);padding:16px 18px}
+.entry-grid .col p:first-child{margin-top:0;font:800 17px/1.4 var(--font-display)}
+.entry-grid ul{margin:0}
+
+/* Figures */
+.fig{margin:28px 0}
+@media (min-width:1400px){.fig.wide{margin-right:calc((var(--wrap) - var(--measure) - 284px) / -2)}}
+.fig img{display:block;width:100%;height:auto;border:1px solid var(--line);background:var(--paper)}
+.fig .zoom{display:block;cursor:zoom-in}
+.fig figcaption{margin-top:10px;font-size:13.5px;line-height:1.6;color:var(--ink-2);padding-left:10px;border-left:2px solid var(--lime)}
+
+/* Notes, checkpoints, code */
+.note{display:flex;gap:14px;margin:24px 0;padding:16px 18px;border-left:4px solid var(--blue);background:var(--soft)}
+.note .ic{flex:none;display:grid;place-items:center;width:24px;height:24px;margin-top:3px;border-radius:50%;background:var(--blue);color:var(--paper);font:700 14px/1 var(--font-display)}
+.note p{margin:0 0 8px}.note p:last-child{margin:0}
+.note.warn{border-left-color:#c26a00;background:#fff5e8}.note.warn .ic{background:#c26a00}
+.note.danger{border-left-color:var(--red);background:#fbeef0}.note.danger .ic{background:var(--red)}
+.checkpoint{display:flex;gap:12px;align-items:flex-start;margin:24px 0;padding:14px 18px;background:#f3f8e6;border:1px solid var(--lime);cursor:pointer}
+.checkpoint input{position:absolute;opacity:0;pointer-events:none}
+.checkpoint .box{flex:none;width:22px;height:22px;margin-top:3px;border:2px solid var(--green-deep);background:var(--paper);display:grid;place-items:center}
+.checkpoint input:checked + .box{background:var(--green-deep)}
+.checkpoint input:checked + .box::after{content:"";width:6px;height:11px;border:solid var(--paper);border-width:0 2.5px 2.5px 0;transform:translateY(-1px) rotate(45deg)}
+.checkpoint input:focus-visible + .box{outline:3px solid var(--blue);outline-offset:2px}
+.checkpoint strong{color:var(--green-deep);margin-right:8px}
+.code{margin:20px 0;border:1px solid var(--ink)}
+.code figcaption{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:8px 14px;background:var(--ink);color:var(--paper);font:13px var(--mono)}
+.code .copy{flex:none;max-width:50%;border:1px solid var(--paper);background:none;color:var(--paper);font:12px var(--mono);padding:3px 10px;cursor:pointer;min-height:28px}
+.code pre code{font:inherit;background:none;border:0;padding:0}
+.code pre{margin:0;padding:16px 18px;background:#fbfafb;overflow-x:auto;white-space:pre-wrap;word-break:break-word;font:14px/1.8 var(--mono)}
+
+/* Tables */
+.tbl{margin:20px 0;overflow-x:auto;border-top:2px solid var(--ink)}
+.tbl table{width:100%;border-collapse:collapse;font-size:14.5px;line-height:1.65}
+.tbl th{text-align:left;font:600 12.5px/1.4 var(--mono);letter-spacing:.04em;color:var(--ink-2);padding:10px 12px;border-bottom:1px solid var(--ink);background:var(--soft)}
+.tbl td{padding:12px;border-bottom:1px solid var(--line);vertical-align:top}
+.tbl td.hl{background:#f3f8e6}
+.tbl.res td:first-child{font-weight:600;min-width:180px}
+.tbl.stack td:first-child{font-weight:600}
+.tbl.res td:nth-child(2){color:var(--ink-2);font-size:13.5px;min-width:130px}
+
+/* End CTA + footer */
+.next{margin:72px 0 0;padding:28px;background:var(--purple);color:var(--ink)}
+.next h2{border:0;margin:0 0 6px;padding:0;font-size:24px}
+.next p{margin:0 0 18px}
+.next .btns{display:flex;flex-wrap:wrap;gap:10px}
+.next .btns a{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:10px 16px;background:var(--paper);color:var(--ink);font-weight:600;text-decoration:none;border:1px solid var(--ink)}
+.next .btns a.primary{background:var(--ink);color:var(--paper)}
+footer{margin-top:72px;background:var(--ink);color:#cfc8ca;padding:36px 0 44px;font-size:13px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:16px 32px;align-items:center;justify-content:space-between}
+footer svg{width:170px;height:auto;display:block}
+footer a{color:var(--lime)}
+
+@media (min-width:761px){:root{--measure:680px}article > p,article li{font-size:17px}}
+@media (hover:none){.fig figcaption::after{content:" ·\00a0点按图片看大图";color:var(--blue);white-space:normal;word-break:keep-all}}
+@media (hover:hover){
+  a:hover{color:var(--green-deep)}
+  .hdr nav a:hover{color:var(--blue)}
+  .hdr nav .cta:hover,.next .btns a.primary:hover{background:var(--blue);color:var(--paper)}
+  .toc a:hover{color:var(--blue)}
+  .next .btns a:hover{background:var(--lime);color:var(--ink)}
+  .code .copy:hover{background:var(--paper);color:var(--ink)}
+  footer a:hover{color:var(--paper)}
+}
+@media (max-width:1100px){
+  .layout{grid-template-columns:minmax(0,var(--measure));justify-content:center}
+  .toc{display:none}
+  .wrap.head{width:min(88vw,var(--measure))}
+  .toc-m{display:block;margin:0 0 28px;border:1px solid var(--line)}
+  .toc-m summary{cursor:pointer;padding:12px 16px;font:600 14px var(--font-cn);list-style:none;display:flex;justify-content:space-between;align-items:center;min-height:44px}
+  .toc-m summary::-webkit-details-marker{display:none}
+  .toc-m summary::after{content:"+";font:700 18px var(--mono)}
+  .toc-m details[open] summary::after{content:"−"}
+  .toc-m ol{list-style:none;margin:0;padding:0 16px 12px}
+  .toc-m a{display:flex;gap:10px;padding:8px 0;color:var(--ink);text-decoration:none;border-top:1px solid var(--line);font-size:14px}
+  .toc-m .n{font:700 12px/1.9 var(--mono);color:var(--blue)}
+  .toc-m ol ol{padding:0}
+  .toc-m ol ol a{padding-left:30px;color:var(--ink-2);font-size:13px}
+}
+@media (max-width:760px){
+  body{font-size:15px}
+  .hdr .wrap{min-height:72px;gap:10px}
+  .brand svg{width:170px}
+  .brand .cn,.hdr nav .hide-m{display:none}
+  .head{padding:40px 0 28px}
+  .dek{font-size:16px}
+  .layout{padding-top:28px}
+  h2{margin-top:56px}
+  .entry-grid{grid-template-columns:1fr}
+  .fig.wide,.fig{margin-left:-6vw;margin-right:-6vw}
+  .fig img{border-left:0;border-right:0}
+  .fig figcaption{margin-left:6vw;margin-right:6vw}
+  .tbl{overflow:visible}
+  .tbl.res table,.tbl.res tbody,.tbl.res tr,.tbl.res td,.tbl.stack table,.tbl.stack tbody,.tbl.stack tr,.tbl.stack td{display:block;width:100%}
+  .tbl.res thead,.tbl.stack thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+  .tbl.res tr,.tbl.stack tr{padding:12px 0;border-bottom:1px solid var(--line)}
+  .tbl.res td,.tbl.stack td{border:0;padding:2px 0;min-width:0}
+  .tbl.res td:not(:first-child)::before,.tbl.stack td:not(:first-child)::before{content:attr(data-label) "：";font:12px var(--mono);color:var(--ink-3)}
+  .tbl.stack td.hl{background:none}.tbl.stack tr:has(td.hl){background:#f3f8e6}
+  .next{padding:22px}
+  .next .btns{display:grid}.next .btns a{justify-content:space-between}
+}
+@media (max-width:359px){.brand svg{width:150px}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+@media (min-width:761px) and (max-width:1049px){.brand svg{width:180px}.brand .cn{display:none}}
+@media print{.hdr nav,.toc,.toc-m,.next,footer,.skip,.code .copy{display:none}.head h1 .chip,h2 .no,.code figcaption,.note .ic{-webkit-print-color-adjust:exact;print-color-adjust:exact}.layout{display:block}.fig.wide{margin:0}}
+</style>
+</head>
+<body>
+<a class="skip" href="#article">跳到正文</a>
+<header class="hdr">
+  <div class="wrap">
+    <a class="brand" href="../../" aria-label="WaytoAGI 通往AGI之路 · 返回案例图谱"><svg aria-hidden="true" focusable="false" width="317" height="102" viewBox="0 0 317 102" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_3160_2520)">
+<rect x="30" y="25.269" width="50" height="50" rx="8" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M81.5 121.269C106.077 121.269 126 101.346 126 76.769C126 52.1924 106.077 32.269 81.5 32.269C56.9233 32.269 37 52.1924 37 76.769C37 101.346 56.9233 121.269 81.5 121.269ZM81.5 116.819C103.619 116.819 121.55 98.888 121.55 76.769C121.55 54.65 103.619 36.719 81.5 36.719C59.381 36.719 41.45 54.65 41.45 76.769C41.45 98.888 59.381 116.819 81.5 116.819Z" fill="#FC4A55"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M81.5 116.819C103.619 116.819 121.55 98.8882 121.55 76.7692C121.55 54.6502 103.619 36.7192 81.5 36.7192C59.3809 36.7192 41.45 54.6502 41.45 76.7692C41.45 98.8882 59.3809 116.819 81.5 116.819ZM81.5 112.369C101.161 112.369 117.1 96.4306 117.1 76.7692C117.1 57.1079 101.161 41.1692 81.5 41.1692C61.8386 41.1692 45.9 57.1079 45.9 76.7692C45.9 96.4306 61.8386 112.369 81.5 112.369Z" fill="#FFB045"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M81.4999 112.369C101.161 112.369 117.1 96.4303 117.1 76.7689C117.1 57.1076 101.161 41.1689 81.4999 41.1689C61.8386 41.1689 45.8999 57.1076 45.8999 76.7689C45.8999 96.4303 61.8386 112.369 81.4999 112.369ZM81.4999 107.919C98.7036 107.919 112.65 93.9726 112.65 76.7689C112.65 59.5653 98.7036 45.6189 81.4999 45.6189C64.2962 45.6189 50.3499 59.5653 50.3499 76.7689C50.3499 93.9726 64.2962 107.919 81.4999 107.919Z" fill="#FFFA6D"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M81.5 103.469C96.2461 103.469 108.2 91.5149 108.2 76.7688C108.2 62.0228 96.2461 50.0688 81.5 50.0688C66.754 50.0688 54.8 62.0228 54.8 76.7688C54.8 91.5149 66.754 103.469 81.5 103.469ZM81.5 99.0188C93.7884 99.0188 103.75 89.0572 103.75 76.7688C103.75 64.4805 93.7884 54.5188 81.5 54.5188C69.2117 54.5188 59.25 64.4805 59.25 76.7688C59.25 89.0572 69.2117 99.0188 81.5 99.0188Z" fill="#3BA9FE"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M81.5 99.019C93.7883 99.019 103.75 89.0574 103.75 76.769C103.75 64.4807 93.7883 54.519 81.5 54.519C69.2117 54.519 59.25 64.4807 59.25 76.769C59.25 89.0574 69.2117 99.019 81.5 99.019ZM81.5 94.569C91.3307 94.569 99.3 86.5997 99.3 76.769C99.3 66.9384 91.3307 58.969 81.5 58.969C71.6693 58.969 63.7 66.9384 63.7 76.769C63.7 86.5997 71.6693 94.569 81.5 94.569Z" fill="#965DED"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M81.5001 107.919C98.7038 107.919 112.65 93.9728 112.65 76.7691C112.65 59.5655 98.7038 45.6191 81.5001 45.6191C64.2964 45.6191 50.3501 59.5655 50.3501 76.7691C50.3501 93.9728 64.2964 107.919 81.5001 107.919ZM81.5001 103.469C96.2461 103.469 108.2 91.5151 108.2 76.7691C108.2 62.0231 96.2461 50.0691 81.5001 50.0691C66.7541 50.0691 54.8001 62.0231 54.8001 76.7691C54.8001 91.5151 66.7541 103.469 81.5001 103.469Z" fill="#30FD2F"/>
+<path d="M40.2154 32.1237C40.3065 31.8501 40.6935 31.8501 40.7846 32.1237L41.672 34.7882C41.6996 34.871 41.7618 34.9377 41.8425 34.9709L44.3251 35.9916C44.573 36.0935 44.573 36.4446 44.3251 36.5465L41.8425 37.5672C41.7618 37.6004 41.6996 37.6671 41.672 37.7499L40.7846 40.4144C40.6935 40.688 40.3065 40.688 40.2154 40.4144L39.328 37.7499C39.3004 37.6671 39.2382 37.6004 39.1575 37.5672L36.6749 36.5465C36.427 36.4446 36.427 36.0935 36.6749 35.9916L39.1575 34.9709C39.2382 34.9377 39.3004 34.871 39.328 34.7882L40.2154 32.1237Z" fill="white"/>
+<path d="M35.2133 46.1987C35.3003 45.9166 35.6997 45.9166 35.7867 46.1987L36.135 47.3284C36.1606 47.4112 36.2207 47.479 36.2999 47.5142L37.3825 47.9949C37.6202 48.1004 37.6202 48.4377 37.3825 48.5432L36.2999 49.0239C36.2207 49.0591 36.1606 49.1269 36.135 49.2097L35.7867 50.3394C35.6997 50.6215 35.3003 50.6215 35.2133 50.3394L34.865 49.2097C34.8394 49.1269 34.7793 49.0591 34.7001 49.0239L33.6175 48.5432C33.3798 48.4377 33.3798 48.1004 33.6175 47.9949L34.7001 47.5142C34.7793 47.479 34.8394 47.4112 34.865 47.3284L35.2133 46.1987Z" fill="white"/>
+</g>
+<path d="M98.7703 64.8045L96.7278 37.3515H102.208L103.41 58.673H103.65L111.141 40.1997H117.221L119.05 58.673H119.29L126.928 37.3515H132.328L121.77 64.8045H115.17L113.209 46.4102H112.969L105.33 64.8045H98.7703ZM142.738 43.0478C149.818 43.0478 151.712 45.619 151.071 49.8913L148.834 64.8045H144.394L144.284 62.075C142.925 63.9342 140.095 65.2 136.615 65.2C131.695 65.2 129.535 63.0639 130.182 58.7521C130.936 53.7283 134.363 51.9483 139.963 51.9483H145.763L145.905 50.9989C146.285 48.4672 145.595 47.2013 141.595 47.2013C140.035 47.2013 138.491 47.3596 136.889 47.6365L137.524 43.4038C139.206 43.1269 141.178 43.0478 142.738 43.0478ZM138.276 61.3234C141.316 61.3234 143.614 60.1367 144.813 58.2775L145.235 55.4689H140.115C136.955 55.4689 135.546 56.0622 135.166 58.5939C134.887 60.4531 135.756 61.3234 138.276 61.3234ZM153.229 72.716L153.87 68.4437C157.55 68.4437 159.134 67.2175 160.314 64.6858L154.98 43.4434H160.5L163.731 59.5037H163.971L171.66 43.4434H176.94L166.567 63.2617C162.981 70.1052 160.389 72.716 153.229 72.716ZM189.887 47.3991H185.127L183.585 57.6841C183.169 60.4531 183.509 61.1256 185.749 61.1256C186.509 61.1256 187.115 61.086 187.738 60.9278L187.151 64.844C186.293 64.9627 185.361 65.0418 184.441 65.0418C179.281 65.0418 177.683 63.6968 178.525 58.0797L180.127 47.3991H177.127L177.721 43.4434H180.721L181.48 38.38H186.48L185.721 43.4434H190.481L189.887 47.3991ZM200.321 65.2C193.761 65.2 190.323 62.787 191.622 54.1239C192.922 45.4608 197.083 43.0478 203.643 43.0478C210.243 43.0478 213.682 45.4608 212.382 54.1239C211.083 62.787 206.921 65.2 200.321 65.2ZM200.896 61.3629C204.896 61.3629 206.392 59.662 207.222 54.1239C208.053 48.5859 207.034 46.8453 203.074 46.8453C199.114 46.8453 197.613 48.5859 196.782 54.1239C195.952 59.662 197.016 61.3629 200.896 61.3629ZM235.226 64.8045L233.758 57.5259H222.158L218.426 64.8045H213.026L227.543 37.3515H234.583L240.786 64.8045H235.226ZM224.37 53.1745H232.85L230.569 41.9798H230.089L224.37 53.1745ZM256.265 65.2C247.865 65.2 243.216 62.5892 244.943 51.078C246.533 40.4766 252.261 36.9559 260.781 36.9559C263.301 36.9559 266.528 37.312 267.993 37.9449L267.304 42.5336C265.377 41.782 263.03 41.4259 260.47 41.4259C254.83 41.4259 251.722 43.4829 250.583 51.078C249.378 59.1082 251.603 60.8091 257.323 60.8091C258.563 60.8091 259.809 60.7696 260.851 60.4927L261.871 53.6888H256.871L257.524 49.3375H267.444L265.243 64.0133C263.068 64.6462 259.745 65.2 256.265 65.2ZM271.261 64.8045L275.379 37.3515H280.619L276.501 64.8045H271.261Z" fill="black"/>
+<defs>
+<clipPath id="clip0_3160_2520">
+<rect x="30" y="25.269" width="50" height="50" rx="8" fill="white"/>
+</clipPath>
+</defs>
+</svg><span class="cn">通往AGI之路</span></a>
+    <nav aria-label="页面导航">
+      <a href="../../" class="hide-m">案例图谱</a>
+      <a href="../../?ev=%E6%95%99%E7%A8%8B" class="hide-m">全部教程</a>
+      <a class="cta" href="https://github.com/waytoagi-team/gallery/issues/new?template=case-submission.yml" target="_blank" rel="noopener">提交案例 <span aria-hidden="true">↗</span></a>
+    </nav>
+  </div>
+</header>
+<main>
+  <div class="wrap head">
+    <div class="crumb"><a href="../../">WaytoAGI Gallery · Opus 5.5 案例图谱</a> / 新手指南</div>
+    <h1><span class="chip">Opus 5.5</span> 新手上手路线：从第一条提示词到避坑</h1>
+    <p class="dek">从 5,181 条公开案例里挑出 30 份最适合新手的文章、视频和教程，逐条打开原文核对，整理成 5 步路线：每一步讲清方法、给出检查点，并附上原始资料。</p>
+    <div class="meta"><span>更新于 <b>2026-10-01</b></span><span>阅读约 <b>18 分钟</b></span><span>资料 <b>30 份</b></span><span>WaytoAGI 编辑整理</span></div>
+  </div>
+  <div class="wrap layout">
+    <nav class="toc" aria-label="目录">
+      <p class="lbl">目录</p>
+      <ol><li><a href="#prompt"><span class="n">01</span>把任务一次交代清楚</a></li><li><a href="#first-build"><span class="n">02</span>做出第一个成品，并学会改稿</a></li><li><a href="#effort"><span class="n">03</span>用 Claude Code 前，弄懂档位和额度</a></li><li><a href="#directions"><span class="n">04</span>选一个方向深入</a><ol><li><a href="#video">视频动效</a></li><li><a href="#web-games">网页与小游戏</a></li><li><a href="#claude-code">Claude Code 工作流</a></li><li><a href="#knowledge">文档与知识工作</a></li></ol></li><li><a href="#pitfalls"><span class="n">05</span>避开新手最常踩的坑</a></li><li><a href="#credibility"><span class="n">06</span>怎么判断一条案例值不值得信</a></li><li><a href="#explore"><span class="n">07</span>在图谱里继续找</a></li></ol>
+      <a class="back" href="../../">← 返回案例图谱</a>
+    </nav>
+    <article id="article">
+      <nav class="toc-m" aria-label="目录"><details><summary>目录</summary><ol><li><a href="#prompt"><span class="n">01</span>把任务一次交代清楚</a></li><li><a href="#first-build"><span class="n">02</span>做出第一个成品，并学会改稿</a></li><li><a href="#effort"><span class="n">03</span>用 Claude Code 前，弄懂档位和额度</a></li><li><a href="#directions"><span class="n">04</span>选一个方向深入</a><ol><li><a href="#video">视频动效</a></li><li><a href="#web-games">网页与小游戏</a></li><li><a href="#claude-code">Claude Code 工作流</a></li><li><a href="#knowledge">文档与知识工作</a></li></ol></li><li><a href="#pitfalls"><span class="n">05</span>避开新手最常踩的坑</a></li><li><a href="#credibility"><span class="n">06</span>怎么判断一条案例值不值得信</a></li><li><a href="#explore"><span class="n">07</span>在图谱里继续找</a></li></ol></details></nav>
+      <div class="intro"><p><strong>适合谁：</strong>想自己用 Claude Opus 5.5 做东西的新手。会用聊天类 AI 就够，不会编程也没关系。</p><p><strong>读完你会：</strong>把任务一次交代清楚；做出第一个能打开的小成品并会改稿；管好 effort（投入档位，决定它想多久、自查得多细）和额度；选一个方向继续深入；避开新手最常踩的坑。</p><p><strong>前提：</strong>一个能用 Opus 5.5 的 Claude 付费账号。</p><p><strong>资料来源：</strong>全部来自 <a href="../../">WaytoAGI · Claude Opus 5.5 真实案例使用图谱</a>（5,181 条公开案例），从中挑出 30 份最适合新手的文章、视频和教程，逐条打开原文核对过。截至 2026-10-01。</p></div>
+      <figure class="fig wide" id="fig-route"><a href="img/route.webp" class="zoom" title="查看大图"><img src="img/route.webp" srcset="img/route-1200.webp 1200w, img/route.webp 2400w" sizes="(max-width:760px) 100vw, (max-width:1399px) 680px, 870px" width="2400" height="1816" loading="eager" decoding="async" alt="学习路线总览：5 步按推荐顺序排列。第 1–2 步（把任务一次交代清楚；做出第一个成品并学会改稿）只需 claude.ai；第 3–4 步（弄懂 effort 档位与额度；选一个方向深入：视频动效、网页与小游戏、Claude Code 工作流、文档与知识工作）多数要用 Claude Code；第 5 步避坑贯穿全程：被换模型或消息被拦、额度几分钟用光、“已完成”不可尽信、宽松权限下误删。每一步都有一个检查点。"></a><figcaption>学习路线：第 1–2 步只用 claude.ai 网页或 App；第 3–4 步大多要用 Claude Code；第 5 步贯穿全程。</figcaption></figure>
+<p><strong>两个入口，先分清：</strong></p>
+<div class="entry-grid"><div class="col"><p><strong>claude.ai 网页 / App</strong></p><ul><li>直接聊天，不用安装任何东西。</li><li>做出来的单页网页可以直接在对话里预览。</li><li>第 1、2 步用它就够。</li></ul></div><div class="col"><p><strong>Claude Code</strong></p><ul><li>能读写你电脑上的文件、运行命令，适合长任务和做完整项目。</li><li>不会用命令行，就用 Claude 桌面应用里的 Claude Code。下文两位“不写代码”的作者用的都是桌面版。</li><li>安装方法见官方页面 <a href="https://code.claude.com" target="_blank" rel="noopener">code.claude.com</a>。</li></ul></div></div>
+<aside class="note info"><span class="ic" aria-hidden="true">ℹ</span><div><p><strong>在中国大陆访问：</strong>X、YouTube、Reddit 需要翻墙；B站、GitHub、Zenn、note、Qiita 一般能直接打开，日文文章用浏览器整页翻译就能读。下文推荐资料表里每份资料都标了能否直连；避坑一节出处里的 X、Reddit 链接需翻墙，官方帮助中心可能也需要。</p><p><strong>关于数字：</strong>文中的时间、费用、额度都是原作者自述，多数只跑了一两次。帖子里的美元数多是按 API 价格折算，订阅用户实际扣的是额度，不是账单。</p></div></aside>
+<h2 id="prompt"><span class="no" aria-hidden="true">01</span><span class="t">把任务一次交代清楚</span></h2>
+<p>官方上手手册“第一次会话先试三件事”的第一条是：<strong>把整件事一次交出去</strong>，并写清楚做完长什么样、什么时候停下来问你。Opus 5.5 能连续工作很久，交代得越完整，越不容易跑偏。</p>
+<figure class="fig wide" id="fig-prompt"><a href="img/prompt.webp" class="zoom" title="查看大图"><img src="img/prompt.webp" srcset="img/prompt-1200.webp 1200w, img/prompt.webp 2400w" sizes="(max-width:760px) 100vw, (max-width:1399px) 680px, 870px" width="2400" height="1812" loading="lazy" decoding="async" alt="一条好提示词的五个部分：要做什么、给谁用；做完长什么样（完成标准、必做的 3 件事）；什么时候停下来问我；不要什么（具体列出不想要的设计套路）；交付前自查。旁边提示删掉“请仔细思考 / think carefully”这类旧习惯。示例为一张习惯打卡单页的提示词。"></a><figcaption>一条消息交代完整：五个部分缺一不可。示例据官方上手手册与单页模板改写。</figcaption></figure>
+<p><strong>要做的：</strong></p>
+<ul><li><strong>一次交出整个任务</strong>：写清用途、给谁用，以及“做完”的标准，比如必须做到的 3 件事。</li><li><strong>写明什么时候停下来问你</strong>：遇到需要你拍板的事、删数据这类不可逆操作之前，先停下来。</li><li><strong>具体列出不要什么</strong>：做网页时写出“不要哪些设计套路”，不要只说“别太普通”。</li><li><strong>资料直接给原件</strong>：图表、截图直接上传，不要手抄数字；要完整的表格或文件，不要只要大纲。</li><li><strong>交付前让它自查</strong>：比如“检查每个按钮能不能用”，或“找出数字、日期、名字互相矛盾的地方，引用原文并写明位置”。</li></ul>
+<p><strong>要删的：</strong>“请仔细思考”“think carefully”这类话。官方手册说 Opus 5.5 每次回复前本来就会思考，删掉这句后回复开始得更快，质量没有明显下降。同样别一律开最高档：一位作者称，只改了思考档位这一项设置（点送出键旁的模型名就能看到），同一份工作就从约 102 秒降到约 20 秒，答案一样。</p>
+<p><strong>可复制的骨架</strong>（按上图五个部分，据官方手册和第 2 节的单页模板改写，不是原文）：</p>
+<figure class="code"><figcaption><span>一条消息交代完整：填空后整段发出</span><button type="button" class="copy">复制</button></figcaption><pre><code>帮我做一个____（是什么），给____用，能直接在浏览器里打开。
+必须做到：1. ____  2. ____  3. ____；在手机上也好用；能保存我输入的数据，做不到就加一个"下载备份"按钮。
+只有缺了我就做不下去时，才停下来问我；其余步骤一次做完。
+不要：____（具体列出不想要的样式或做法）。
+交付前逐个检查每个按钮能不能用，坏的先修好；最后用一句话告诉我怎么用。</code></pre></figure>
+<label class="checkpoint"><input type="checkbox" data-cp="cp1"><span class="box" aria-hidden="true"></span><span><strong>检查点<span class="sr">：</span></strong>写出一条包含“做什么、给谁用、完成标准、什么时候停下来问我”的提示词</span></label>
+<p><strong>推荐资料：</strong></p>
+<div class="tbl res"><table><thead><tr><th scope="col">资料</th><th scope="col">平台 · 语言 · 访问</th><th scope="col">为什么看</th></tr></thead><tbody><tr><td data-label="资料"><a href="https://claude.dev/blog/getting-the-most-out-of-opus-5-5/" target="_blank" rel="noopener">Anthropic 官方 Opus 5.5 上手手册</a></td><td data-label="平台 · 语言 · 访问">官方博客 · 英文 · 免登录，大陆能否直连未测试，可整页翻译</td><td data-label="为什么看">一手资料，约 9 分钟读完，App 和 Claude Code 都讲到；有 6 段可复制的提示词，其中一段是可放进 CLAUDE.md（Claude Code 每次开工前会先读的说明文件）的“停止规则”。</td></tr><tr><td data-label="资料"><a href="https://zenn.dev/eques_blog/articles/8d9912c413ee26" target="_blank" rel="noopener">官方指南解读：提示词该删什么、加什么</a></td><td data-label="平台 · 语言 · 访问">Zenn · 日文 · 大陆可直连</td><td data-label="为什么看">官方手册打不开时的替代；开头术语表一句话讲清 effort、thinking、CLAUDE.md，01–04 节写给 App 和 Claude Code 用户。</td></tr><tr><td data-label="资料"><a href="https://www.youtube.com/watch?v=RoTFbsRH_hE" target="_blank" rel="noopener">官方 10 条用法逐条实测（上班族版）</a></td><td data-label="平台 · 语言 · 访问">YouTube · 繁体中文 · 需翻墙 · 约 12 分钟</td><td data-label="为什么看">把官方指南整理成“3 个要改的旧习惯、7 个新做法”，面向非程序员；简介有付费社群推广，视频本身免费。</td></tr></tbody></table></div>
+<h2 id="first-build"><span class="no" aria-hidden="true">02</span><span class="t">做出第一个成品，并学会改稿</span></h2>
+<p>最容易成功的第一个作品，是用一条写清楚的提示词，在 claude.ai 里做一个能在浏览器打开的单页：习惯打卡、月度预算、节日贺卡都行。第一版很少一次就满意，所以这一步真正要学的是<strong>怎么提修改意见</strong>。</p>
+<figure class="fig wide" id="fig-loop"><a href="img/loop.webp" class="zoom" title="查看大图"><img src="img/loop.webp" srcset="img/loop-1200.webp 1200w, img/loop.webp 2400w" sizes="(max-width:760px) 100vw, (max-width:1399px) 680px, 870px" width="2400" height="1812" loading="lazy" decoding="async" alt="截图驱动的改稿循环：让它做出来 → 自己打开看 → 截图或报错贴回去 → 让它按影响大小排序、一次最多改 3 处 → 再打开看，不对就转下一轮。右侧是 6 项改稿意见模板：位置或时间点、目前看到什么、为什么不对、想要的效果、改动范围、怎么验证。底部提醒：黑屏或报错时，第一反应不要是调高档位。"></a><figcaption>改稿循环与 6 项反馈模板。</figcaption></figure>
+<p><strong>改稿的核心习惯：</strong></p>
+<ol><li><strong>做完先自己打开看</strong>（claude.ai 里在对话中直接预览就行）。没给它截图工具时，它看不到自己做出的画面，只有你看得到。</li><li><strong>把截图或报错贴回去</strong>，让它按“影响大小”排序，一次最多改 3 处。一位日本作者用 12 张截图这样提要求，称第一轮就把 260 条报错降到 0。</li><li><strong>遇到黑屏或报错，先别急着调高档位</strong>。同一位作者发现，长任务先降一档做出能跑的版本，再把复杂效果一项项加回去，更容易成功。</li></ol>
+<p><strong>不满意时，按 6 项写清楚问题</strong>（来自一位 B站 UP 主的反馈模板）：</p>
+<div class="tbl"><table><thead><tr><th scope="col">写清楚</th><th scope="col">说明</th></tr></thead><tbody><tr><td data-label="写清楚">位置或时间点</td><td data-label="说明">问题出在哪个区域、哪一秒</td></tr><tr><td data-label="写清楚">目前看到什么</td><td data-label="说明">客观描述现状，最好附截图</td></tr><tr><td data-label="写清楚">为什么不对</td><td data-label="说明">违反了什么常识、需求或顺序</td></tr><tr><td data-label="写清楚">想要的效果</td><td data-label="说明">改成什么样才算对</td></tr><tr><td data-label="写清楚">改动范围</td><td data-label="说明">只改哪里，哪些地方不要动</td></tr><tr><td data-label="写清楚">怎么验证</td><td data-label="说明">改完后你会怎么检查</td></tr></tbody></table></div>
+<p>UP 主给的例子：位置“海岸浪峰”，看到“泡沫在撞击前从浪底出现”，不对在“违反破浪顺序”。比“不好看，再改改”有用得多。</p>
+<p><strong>顺手攒教材：</strong>每做完一个作品，可以让它把制作过程写成一份给非工程师看的“杂志风 HTML 报告”。一位作者给的原句是：「<span lang="ja">今回の制作プロセスを非エンジニア向けに、使用した技術、Skills含め雑誌のように読めるHTMLレポートとして仕上げて</span>」，意思是“把这次的制作过程写给非工程师看，包括用到的技术和 Skills，做成像杂志一样好读的 HTML 报告”。注意：报告里可能混进实际没用过的 Skill 名，要对照工作记录核对一次。</p>
+<label class="checkpoint"><input type="checkbox" data-cp="cp2"><span class="box" aria-hidden="true"></span><span><strong>检查点<span class="sr">：</span></strong>做出一个能在浏览器打开的单页，并完成至少 2 轮“打开看 → 截图贴回 → 按影响排序改”</span></label>
+<p><strong>推荐资料：</strong></p>
+<div class="tbl res"><table><thead><tr><th scope="col">资料</th><th scope="col">平台 · 语言 · 访问</th><th scope="col">为什么看</th></tr></thead><tbody><tr><td data-label="资料"><a href="https://x.com/alex_prompter/status/2103862217800359939" target="_blank" rel="noopener">一条提示词做出能用的单页小应用</a></td><td data-label="平台 · 语言 · 访问">X · 英文 · 需翻墙</td><td data-label="为什么看">可整段复制的完整模板，写给不会写代码的人；上面的中文骨架就是据它改写的。帖子没有可打开的成品，效果要自己试。</td></tr><tr><td data-label="资料"><a href="https://www.bilibili.com/video/BV1UAhR6mE4z" target="_blank" rel="noopener">中秋电子动画贺卡：一条起手 + 两条打磨提示词</a></td><td data-label="平台 · 语言 · 访问">B站 · 中文 · 直连 · 2 分钟</td><td data-label="为什么看">简介公开了三段提示词原文：先说清用途和交付形式，再用审美要求一轮轮打磨。UP 主全程开 max，新手先用默认档位。</td></tr><tr><td data-label="资料"><a href="https://x.com/mizugame_22/status/2103092704850632823" target="_blank" rel="noopener">雨中鹿威：让 AI 看到自己做出的画面</a></td><td data-label="平台 · 语言 · 访问">X + <a href="https://note.com/mizugame_pharaoh/n/n5ce87a54dae0" target="_blank" rel="noopener">note 长文</a> · 日文 · note 可直连</td><td data-label="为什么看">“截图贴回、一次最多改 3 处”的出处，失败写得很透；note 长文有完整提示词和每一轮修改清单。</td></tr><tr><td data-label="资料"><a href="https://www.bilibili.com/video/BV1hhhU6NEB9" target="_blank" rel="noopener">8 小时搭 3D 海岛：6 项反馈模板和 5 个验收方向</a></td><td data-label="平台 · 语言 · 访问">B站 · 中文 · 直连 · 2 分钟</td><td data-label="为什么看">上面 6 项反馈模板的出处，简介里另有 5 个验收问题，网页、动画、游戏都适用。</td></tr><tr><td data-label="资料"><a href="https://x.com/tetumemo/status/2103459763292090612" target="_blank" rel="noopener">让 Opus 把制作过程写成杂志风教材</a></td><td data-label="平台 · 语言 · 访问">X · 日文 · 需翻墙</td><td data-label="为什么看">一句可反复用的提示词，见上文。</td></tr></tbody></table></div>
+<h2 id="effort"><span class="no" aria-hidden="true">03</span><span class="t">用 Claude Code 前，弄懂档位和额度</span></h2>
+<p>Claude Code 里的 effort（投入档位）决定它想多久、自查和核实做得多细。一位作者打了个比方：同一个人，你说“大概看看”还是“全部核实”，能力一样，只是核实程度不同。Opus 5.5 的默认是 <strong>medium</strong>，比之前的模型低一档，大部分工作不用改。只用 claude.ai 的话，思考档位保持默认即可，这一步可以先跳过；只需记住：换到无关的任务就开一个新对话，同样省额度。</p>
+<div class="tbl stack"><table><thead><tr><th scope="col">档位</th><th scope="col">适合</th><th scope="col">提示</th></tr></thead><tbody><tr><td data-label="档位">low</td><td data-label="适合">头脑风暴、画草图、小改动</td><td data-label="提示">适合快速出第一版</td></tr><tr><td data-label="档位" class="hl">medium</td><td data-label="适合" class="hl">大部分日常工作</td><td data-label="提示" class="hl">Opus 5.5 的默认值</td></tr><tr><td data-label="档位">high</td><td data-label="适合">需要验证、边界情况多的活</td><td data-label="提示">卡住时先升到这一档</td></tr><tr><td data-label="档位">xhigh</td><td data-label="适合">high 还不够、需要想得更深的活</td><td data-label="提示">比 high 更慢、更耗额度</td></tr><tr><td data-label="档位">max</td><td data-label="适合">完全放手让它自己攻克难题</td><td data-label="提示">最耗时间和额度；不能存成默认值</td></tr></tbody></table></div>
+<ul><li><strong>怎么切</strong>：对话中输入 <code>/effort</code>；桌面版快捷键 Cmd/Ctrl+Shift+E 切档位，Cmd/Ctrl+Shift+I 切模型。</li><li><strong>推荐流程</strong>：先让它反过来问你、把需求补全 → 用 low 做出第一版 → 自己看方向对不对 → 最后切到 high 做验证。</li><li><strong>升级路线</strong>：默认 medium，卡住调 high；开到 xhigh 仍在同一个问题上连卡两次，再考虑换更贵的 Fable 5.1，解决完再切回 Opus 5.5。</li></ul>
+<figure class="fig" id="fig-effort"><a href="img/effort.webp" class="zoom" title="查看大图"><img src="img/effort.webp" srcset="img/effort-1200.webp 1200w, img/effort.webp 1640w" sizes="(max-width:760px) 100vw, 680px" width="1640" height="2190" loading="lazy" decoding="async" alt="两位作者只改 effort 档位的实测。实测一（陈与小金，同一提示词做 25 秒动画，每档 1 次）：medium 25.9 分钟、6.12 美元，high 29.0 分钟、6.84 美元，xhigh 167.0 分钟、25.16 美元，max 192.5 分钟、31.54 美元，盲看分不出 medium 与 max。实测二（Zenn 作者，24 个会议时间换算，每档 3 次取中位数）：low 12 秒 0.06 美元到 max 3 分 54 秒 0.82 美元，五档全部答对，差别在自查。数字为作者自述、按 API 价格折算。"></a><figcaption>两位作者的实测：档位越高越费时费钱，结果却未必更好（作者自述，按 API 价格折算，每档样本很少）</figcaption></figure>
+<p><strong>额度为什么会突然用光：</strong>每跑一轮，都要把整段对话重新发一遍，所以开销取决于任务跑了多少轮。省额度的做法：</p>
+<ul><li>换到无关的任务就用 <code>/clear</code>（清空当前对话，从头开始），不要在一个对话里越聊越长。</li><li>想保留前情就用 <code>/compact</code>（把前面的对话压缩成摘要再接着聊），而且要在缓存失效前做。缓存让重复发送的旧对话更省额度，订阅用户的缓存保留 1 小时。</li><li>中途切换模型、接入或断开 MCP（让 AI 直接读外部数据的插口），都会让缓存重写，额外耗额度。</li><li>不是每件事都要用 Opus：一位作者让 Sonnet 5.5 和 Opus 5.5 各做 7 类工作，修 bug、小工具、写开头、点评图片两者打平；算钱和查事实 Opus 更准。他的分工是日常活先用 Sonnet，算钱查事实用 Opus。</li></ul>
+<aside class="note warn"><span class="ic" aria-hidden="true">!</span><div><p><strong>真实教训：</strong>一位不会写代码的小老板把 effort 调成 max，“没有特别理由”。之后 <code>/code-review</code> 一次并行起了 10 个子代理（它分派出去同时干活的帮手，每个都要消耗额度），连续两天分别在 8 分钟和 4 分钟内用光 Pro 套餐的 5 小时额度。作者也说明，当天模型、effort 和应用版本是一起变的，没能分清是哪个引起的。没有必要别开 max；额度掉得快时，先看应用里的用量明细。</p></div></aside>
+<label class="checkpoint"><input type="checkbox" data-cp="cp3"><span class="box" aria-hidden="true"></span><span><strong>检查点<span class="sr">：</span></strong>在 Claude Code 里输入 /effort 看到当前档位（默认 medium），并说得出什么时候用 /clear、什么时候用 /compact</span></label>
+<p><strong>推荐资料：</strong></p>
+<div class="tbl res"><table><thead><tr><th scope="col">资料</th><th scope="col">平台 · 语言 · 访问</th><th scope="col">为什么看</th></tr></thead><tbody><tr><td data-label="资料"><a href="https://x.com/dotey/status/2103678997141786937" target="_blank" rel="noopener">宝玉：Claude Code 的 effort 怎么选</a></td><td data-label="平台 · 语言 · 访问">X · 中文 · 需翻墙</td><td data-label="为什么看">把官方长文讲成通俗中文，给出“反问补全 → low → 看方向 → high”的流程。</td></tr><tr><td data-label="资料"><a href="https://zenn.dev/goat_eat_any/articles/claude-code-effort-explained" target="_blank" rel="noopener">effort 五档各跑三次的实测</a></td><td data-label="平台 · 语言 · 访问">Zenn · 日文 · 大陆可直连</td><td data-label="为什么看">讲清档位改变的是核实力度不是能力；有切换位置、快捷键和几种设置写法。</td></tr><tr><td data-label="资料"><a href="https://x.com/dotey/status/2103747370156491142" target="_blank" rel="noopener">宝玉：为什么更耐用，以及 6 条省额度技巧</a></td><td data-label="平台 · 语言 · 访问">X · 中文 · 需翻墙</td><td data-label="为什么看">/clear、/compact、缓存与升级路线的出处。</td></tr><tr><td data-label="资料"><a href="https://note.com/nantokanaru_log/n/naa4c550feb11" target="_blank" rel="noopener">Sonnet 5.5 与 Opus 5.5 同题对比 28 次</a></td><td data-label="平台 · 语言 · 访问">note · 日文 · 大陆可直连</td><td data-label="为什么看">回答“是不是每件事都要用 Opus”；作者坦白每题只跑 2 次、部分由 AI 评分。</td></tr><tr><td data-label="资料"><a href="https://zenn.dev/tenpachi/articles/9039cc7e07ed74" target="_blank" rel="noopener">不会写代码的小老板：4 分钟烧光 Pro 额度</a></td><td data-label="平台 · 语言 · 访问">Zenn · 日文 · 大陆可直连</td><td data-label="为什么看">处境和新手最接近的一手教训，上面“真实教训”的出处。</td></tr></tbody></table></div>
+<h2 id="directions"><span class="no" aria-hidden="true">04</span><span class="t">选一个方向深入</span></h2>
+<p>前三步走完，按兴趣挑一个方向。每个方向先看第一份资料，再按需往下读。</p>
+<label class="checkpoint"><input type="checkbox" data-cp="cp4"><span class="box" aria-hidden="true"></span><span><strong>检查点<span class="sr">：</span></strong>选定一个方向，照它的第一份资料做完一个作品</span></label>
+<h3 id="video">视频动效</h3>
+<p>先弄懂原理：Opus 5.5 不直接生成视频。它写代码一帧帧画出画面，再用浏览器截帧、用 FFmpeg 合成，所以擅长动态图形和讲解动画，不擅长写实镜头。</p>
+<figure class="fig wide" id="fig-video"><a href="img/video.webp" class="zoom" title="查看大图"><img src="img/video.webp" srcset="img/video-1200.webp 1200w, img/video.webp 2400w" sizes="(max-width:760px) 100vw, (max-width:1399px) 680px, 870px" width="2400" height="1844" loading="lazy" decoding="async" alt="代码做视频的原理：你先定需求和分镜；Opus 5.5 在 Claude Code 里写代码画出每一帧（HTML/Canvas、Remotion、HyperFrames 等），浏览器逐帧截图，FFmpeg 合成 MP4，再自己抽帧检查，有问题就改代码重新渲染。擅长动态图形、讲解动画、产品发布片、线稿、手绘与水墨动画、歌词 MV；不擅长写实的真人镜头。电脑上需要 Claude Code、Node.js、Chrome、FFmpeg；先不装也能用 claude.ai 加录屏试。"></a><figcaption>Opus 5.5 不直接生成视频：它写代码把每一帧画出来。</figcaption></figure>
+<ul><li><strong>要准备什么</strong>：Claude Code（effort 调到 high 或 xhigh），电脑上装好 Node.js、Chrome、FFmpeg。先不装也能试：只用 claude.ai 加录屏工具，见下表第一份资料的第 07 条。</li><li><strong>写法经验</strong>：先分镜后代码；列一份“禁用清单”；让它自己抽帧检查、返工。</li><li><strong>先改输入，再考虑调高档位</strong>：一位作者用同一提示词只改 effort 做了四版动画，盲看分不出高低；真正让画面变样的，是把抽象的旁白换成第一人称、有转折的一段话。他的说法是“旁白里的名词，就是模型要画的东西”。</li><li><strong>对成本有现实预期</strong>：一份中文合集的 README 称，一句话短片几美元，几分钟的 MV 单次会话可能到约 200 美元。所谓“一次成型”，很多其实跑了两轮以上。</li></ul>
+<div class="tbl res"><table><thead><tr><th scope="col">资料</th><th scope="col">平台 · 语言 · 访问</th><th scope="col">为什么看</th></tr></thead><tbody><tr><td data-label="资料"><a href="https://github.com/joeseesun/opus-video-prompts" target="_blank" rel="noopener">代码做视频：中文案例合集与提示词</a></td><td data-label="平台 · 语言 · 访问">GitHub · 中文 · 一般可直连</td><td data-label="为什么看">先讲原理再给“三分钟上手”四步，18 份提示词，另有经验与局限两节。第 07 条只需 claude.ai 加录屏。</td></tr><tr><td data-label="资料"><a href="https://www.bilibili.com/video/BV1s2aV6cELo" target="_blank" rel="noopener">如何用 Claude 低成本生成视频</a></td><td data-label="平台 · 语言 · 访问">B站 · 中文 · 直连 · 6 分钟</td><td data-label="为什么看">讲清它不是扩散模型、为什么便宜，附两条中文一句话提示词。</td></tr><tr><td data-label="资料"><a href="https://www.bilibili.com/video/BV1sThX6TEj2" target="_blank" rel="noopener">用 Opus 5.5 做动画：6 步全流程</a></td><td data-label="平台 · 语言 · 访问">B站 · 中文 · 直连 · 4 分钟</td><td data-label="为什么看">先定风格 → 挑剧情 → 先分镜后制作 → 画面与音乐共用节拍表 → 改稿。</td></tr><tr><td data-label="资料"><a href="https://github.com/chenyuxiaojin/cyxj-videos" target="_blank" rel="noopener">四档 effort 动画盲测（含完整提示词）</a></td><td data-label="平台 · 语言 · 访问">GitHub · 中文 · 一般可直连</td><td data-label="为什么看">“先改输入、再调档位”的出处；复现需要不少额度，只读结论没有门槛。</td></tr></tbody></table></div>
+<h3 id="web-games">网页与小游戏</h3>
+<p>一位“开发方面完全外行”的作者，用 Claude 桌面版里的 Claude Code，在一天里把做到一半的塔防游戏推进到 v1.0 并上线：到 v1.0 一共发了 25 条消息，其中只有 8 条是修改要求。他和 AI 一起复盘出的下指令方法：</p>
+<ul><li>输了要讲清自己是怎么摆的，不要只说“太难了”。</li><li>已经拿定主意，就只写一个方案；列两个，它会反问你选哪个。</li><li>提数字要附理由；发截图要加一句说明。</li><li>上线前做三点检查：密钥有没有写进代码、素材是否符合使用规约、有没有冒充官方。</li></ul>
+<div class="tbl res"><table><thead><tr><th scope="col">资料</th><th scope="col">平台 · 语言 · 访问</th><th scope="col">为什么看</th></tr></thead><tbody><tr><td data-label="资料"><a href="https://note.com/nao_ki_000/n/nc80a2c718f5f" target="_blank" rel="noopener">不会写代码：一天把游戏做完并上线</a></td><td data-label="平台 · 语言 · 访问">note · 日文 · 大陆可直连</td><td data-label="为什么看">上面方法的出处，还有小白能懂的 MCP 解释、让 AI 自动跑几十局验证平衡。作者用的是 Max 套餐。</td></tr><tr><td data-label="资料"><a href="https://github.com/TripoGrowthLab/awesome-opus-5-5-prompts" target="_blank" rel="noopener">带中文翻译的 3D / 游戏提示词库（51 条）</a></td><td data-label="平台 · 语言 · 访问">GitHub · 中文 · 一般可直连</td><td data-label="为什么看">每条并列中文提示词、原文和原帖链接；挑短的换个题材试做。Tripo 官方整理，带自家推广，部分提示词偏夸张。</td></tr></tbody></table></div>
+<h3 id="claude-code">Claude Code 工作流</h3>
+<p>核心是学会“把活交到底”：写清输入在哪、输出成什么文件、完成标准是什么、做不到就直说。</p>
+<ul><li>输入和输出分开放（如 input/ 与 output/），不许改原文件。</li><li>要求它在 report.md 里写清怎么做的、哪些没做到或没把握。</li><li>用一份 TASKS.md 记录进度；一个提示框架是 Goal / Why / Context / Done when / Boundaries。</li><li>子代理的权限要真的锁住：一位作者自查发现，33 个子代理定义里只有 4 个限制了工具权限。规则写在文字里，不等于权限生效。</li></ul>
+<div class="tbl res"><table><thead><tr><th scope="col">资料</th><th scope="col">平台 · 语言 · 访问</th><th scope="col">为什么看</th></tr></thead><tbody><tr><td data-label="资料"><a href="https://www.bilibili.com/video/BV1Y2hm6NEP7" target="_blank" rel="noopener">不装插件的 Claude Code 剪口播：七段完整提示词</a></td><td data-label="平台 · 语言 · 访问">B站 · 中文 · 直连 · 20 分钟</td><td data-label="为什么看">示范怎么把一件非编程的事完整交出去，七段提示词全文在简介里。</td></tr><tr><td data-label="资料"><a href="https://note.com/comix_ceo162230/n/nc4b14eb13401" target="_blank" rel="noopener">填空式交任务模板 + TASKS.md</a></td><td data-label="平台 · 语言 · 访问">note · 日文 · 大陆可直连</td><td data-label="为什么看">四个领域的填空式委托模板、只读审查提示词和子代理权限自查。文末有公司服务推广。</td></tr><tr><td data-label="资料"><a href="https://github.com/e1daru/opus-5-5-dev-guide" target="_blank" rel="noopener">两小时 Opus 5.5 × Claude Code 速成</a></td><td data-label="平台 · 语言 · 访问">GitHub · 英文 · 一般可直连</td><td data-label="为什么看">每一步附可粘贴的提示词；偏开发者，小白先做“环境设置”的 Step 0–3 和实操。</td></tr><tr><td data-label="资料"><a href="https://www.bilibili.com/video/BV1D8ae6aESU" target="_blank" rel="noopener">零基础 Vibe Coding 从 0 到 1</a></td><td data-label="平台 · 语言 · 访问">B站 · 中文 · 直连 · 约 70 分钟</td><td data-label="为什么看">一个小产品从调研、开发、测试到开源发布的完整节奏；示例是 macOS 小工具，看方法不必照做。</td></tr></tbody></table></div>
+<h3 id="knowledge">文档与知识工作</h3>
+<ul><li><strong>回答“像样但空泛”时追问三句</strong>：先把所有候选列全再比较；先定好分类维度再查漏；把每个前提单独拿出来，带依据重新判断。作者觉得第三句最有效。</li><li><strong>涉及最新信息，每次写明“先查再答”</strong>：一位作者让三个模型查“制度现在是什么样”，Opus 5.5 第一轮没有自己联网搜索；明确说“请搜索”它才会搜。出稿前自己再打开官方页面核对。</li></ul>
+<div class="tbl res"><table><thead><tr><th scope="col">资料</th><th scope="col">平台 · 语言 · 访问</th><th scope="col">为什么看</th></tr></thead><tbody><tr><td data-label="资料"><a href="https://qiita.com/menmen_ailab/items/6b42edc3540c351ee248" target="_blank" rel="noopener">回答空泛时的三个追问</a></td><td data-label="平台 · 语言 · 访问">Qiita · 日文 · 大陆可直连</td><td data-label="为什么看">三个追问都放在代码块里，可直接复制。</td></tr><tr><td data-label="资料"><a href="https://note.com/dear_yucca3529/n/n5fef0496187d" target="_blank" rel="noopener">三个模型做查制度、写涨价邮件、算家庭账本</a></td><td data-label="平台 · 语言 · 访问">note · 日文 · 大陆可直连</td><td data-label="为什么看">非程序员的日常工作实测；看出它会主动提醒日期问题，也看出要明确叫它“先搜”。</td></tr></tbody></table></div>
+<h2 id="pitfalls"><span class="no" aria-hidden="true">05</span><span class="t">避开新手最常踩的坑</span></h2>
+<div class="tbl stack"><table><thead><tr><th scope="col">遇到的情况</th><th scope="col">先这样做</th><th scope="col">出处</th></tr></thead><tbody><tr><td data-label="遇到的情况">Claude Code 里 Opus 5.5 是灰色，选不了</td><td data-label="先这样做">把 Claude 桌面应用更新到最新版（应用自带的 Claude Code 可能还是旧版）</td><td data-label="出处"><a href="https://note.com/norimasu_lab/n/n28baef17a184" target="_blank" rel="noopener">note 短文</a></td></tr><tr><td data-label="遇到的情况">回复上标着别的模型，或者消息被拦</td><td data-label="先这样做">编辑原消息或开新对话，再切回 Opus 5.5；觉得是误判就用 Send feedback 报告</td><td data-label="出处"><a href="https://support.claude.com/en/articles/16049681-why-claude-switched-models-in-your-conversation-with-opus-5-or-opus-5-5" target="_blank" rel="noopener">官方帮助中心</a></td></tr><tr><td data-label="遇到的情况">额度几分钟就用光</td><td data-label="先这样做">先看应用里的用量明细；没有必要别开 max</td><td data-label="出处">见第 3 节“真实教训”</td></tr><tr><td data-label="遇到的情况">它说“做好了”，打开却是黑屏或报错</td><td data-label="先这样做">截图贴回去，让它按影响排序，一次最多改 3 处</td><td data-label="出处">见第 2 节</td></tr><tr><td data-label="遇到的情况">它说“已完成”，你不确定</td><td data-label="先这样做">追问 “check for any mistakes or regressions”，或另开一个会话复查</td><td data-label="出处"><a href="https://www.reddit.com/r/ClaudeCode/comments/1wqnjkp/be_careful_with_opus_55s_confidence/" target="_blank" rel="noopener">Reddit 讨论</a></td></tr><tr><td data-label="遇到的情况">它停不下来，把时间花在别处</td><td data-label="先这样做">布置任务前写清交付物、完成标准、时间和额度预算、什么时候停</td><td data-label="出处"><a href="https://x.com/every/status/2102495448825262388" target="_blank" rel="noopener">Every 团队一周试用</a></td></tr></tbody></table></div>
+<p><strong>为什么会被换模型或拦截：</strong>官方帮助中心说明，安全分类器会把网络攻击类请求回退到 Opus 4.8，把生物两用类和前沿大模型开发类回退到 Opus 5，并直接拦截“逐字输出完整思考过程”这类请求；大多数请求不会触发。分类器不只看你打的字，也看记忆、连接器、搜索结果和文件。不想被自动换模型，可以在 设置 &gt; Capabilities（Claude Code 里是 Config &gt; MODEL &amp; OUTPUT）关闭 “Switch models when a message is flagged”。</p>
+<aside class="note danger"><span class="ic" aria-hidden="true">!</span><div><p><strong>一定要记住：</strong>一位作者自述，他在宽松权限（yolo，即不再逐条请你确认、让它直接执行命令）模式下让 Opus 5.5 排查 Time Machine 备份。据他说，模型写错了探查脚本，提出要抹除全盘；他拒绝后改口要求“30 分钟内解决”，模型随后直接抹掉了整个磁盘（单人自述，未经独立核实，原帖也没说用的是哪个产品）。凡是涉及磁盘、备份、删除的操作，都不要开自动执行或跳过确认；模型提出破坏性操作时先停下来核实，别用时间压力催它，动手前先备份。<a href="https://x.com/is_llll/status/2102848100754972942" target="_blank" rel="noopener">原帖（中文）</a></p></div></aside>
+<label class="checkpoint"><input type="checkbox" data-cp="cp5"><span class="box" aria-hidden="true"></span><span><strong>检查点<span class="sr">：</span></strong>给下一个任务写好“交付物、完成标准、预算、什么时候停”，并在 Claude Code 里保留破坏性操作的确认</span></label>
+<h2 id="credibility"><span class="no" aria-hidden="true">06</span><span class="t">怎么判断一条案例值不值得信</span></h2>
+<p>挑选这份清单时用的就是下面几条，你自己在图谱里翻时也能用：</p>
+<ul><li><strong>跑了几次？</strong>只跑一次的结论很容易翻。有作者把同一道题重跑一次，原本会主动联网的模型也不查了。</li><li><strong>“一次成型”是真的吗？</strong>很多“一次成型”其实跑了两轮以上。</li><li><strong>档位越高越好吗？</strong>盲测里 max 比 medium 多花约 7 倍时间，成片却分不出来。</li><li><strong>钱是怎么算的？</strong>美元数多按 API 价格折算，订阅用户扣的是额度。</li><li><strong>有没有能打开的成品、完整提示词和失败记录？</strong>三样都有的，比只放一段炫酷视频的可信。</li><li><strong>有没有推广？</strong>内容可以用，但要知道作者的立场。</li></ul>
+<h2 id="explore"><span class="no" aria-hidden="true">07</span><span class="t">在图谱里继续找</span></h2>
+<p>图谱里每条案例都标了类别、证据类型和原帖链接，筛选条件会写进网址，可以直接收藏或分享。</p>
+<figure class="fig" id="fig-shot-tutorials"><a href="img/shot-tutorials.webp" class="zoom" title="查看大图"><img src="img/shot-tutorials.webp" srcset="img/shot-tutorials-1200.webp 1200w, img/shot-tutorials.webp 1882w" sizes="(max-width:760px) 100vw, 680px" width="1882" height="1584" loading="lazy" decoding="async" alt="图谱按“教程”筛选后的页面截图：搜索栏、排序菜单“精选混排”、结果数 326，以及第一行三张教程卡片。"></a><figcaption>按「教程」筛选后的图谱：① 当前筛选条件，点 ✕ 可移除；② 排序方式；③ 结果数。整张卡片可直接点开原帖</figcaption></figure>
+<ul><li>全部教程（326 条）：<a href="../../?ev=%E6%95%99%E7%A8%8B">?ev=教程</a></li><li>限制与踩坑（242 条），按点赞排序：<a href="../../?ev=%E9%99%90%E5%88%B6&amp;sort=likes">?ev=限制&amp;sort=likes</a></li><li>视频动效教程（127 条）：<a href="../../?cat=video&amp;ev=%E6%95%99%E7%A8%8B">?cat=video&amp;ev=教程</a></li><li>Claude Code / Agent 工作流教程（48 条）：<a href="../../?cat=agents&amp;ev=%E6%95%99%E7%A8%8B">?cat=agents&amp;ev=教程</a></li><li>B站和 YouTube 上的教程（50 条）：<a href="../../?src=video&amp;ev=%E6%95%99%E7%A8%8B">?src=video&amp;ev=教程</a></li><li>含“提示词”的案例：<a href="../../?q=%E6%8F%90%E7%A4%BA%E8%AF%8D">?q=提示词</a></li></ul>
+<figure class="fig" id="fig-shot-limits"><a href="img/shot-limits.webp" class="zoom" title="查看大图"><img src="img/shot-limits.webp" srcset="img/shot-limits-1200.webp 1200w, img/shot-limits.webp 1882w" sizes="(max-width:760px) 100vw, 680px" width="1882" height="1486" loading="lazy" decoding="async" alt="图谱按“限制”筛选并按点赞排序后的页面截图：结果数 242 与第一行三张限制类卡片。"></a><figcaption>按「限制」筛选并按点赞排序：先看别人踩过的坑</figcaption></figure>
+<p>不少好用的材料被标成了“评测”或“限制”，比如第 3 节讲 effort 的两份。只筛“教程”会漏掉它们，可以去掉类型筛选，只用关键词搜。</p>
+      <section class="next" aria-labelledby="nextTitle">
+        <h2 id="nextTitle">接下来</h2>
+        <p>按自己的方向，在图谱里继续找真实案例；发现值得收录的新案例或踩坑记录，也欢迎提交。</p>
+        <div class="btns">
+          <a class="primary" href="../../?ev=%E6%95%99%E7%A8%8B">浏览全部教程 <span aria-hidden="true">→</span></a>
+          <a href="../../?ev=%E9%99%90%E5%88%B6&amp;sort=likes">先看踩坑记录</a>
+          <a href="https://github.com/waytoagi-team/gallery/issues/new?template=case-submission.yml" target="_blank" rel="noopener">提交一个案例 ↗</a>
+        </div>
+      </section>
+    </article>
+  </div>
+  <p class="sr" role="status" id="copyStatus"></p>
+</main>
+<footer>
+  <div class="wrap">
+    <a href="https://www.waytoagi.com/" aria-label="WaytoAGI"><svg aria-hidden="true" focusable="false" width="317" height="102" viewBox="0 0 317 102" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_3160_2496)">
+<rect x="30" y="25.269" width="50" height="50" rx="8" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M81.3149 121.269C105.892 121.269 125.815 101.346 125.815 76.769C125.815 52.1924 105.892 32.269 81.3149 32.269C56.7383 32.269 36.8149 52.1924 36.8149 76.769C36.8149 101.346 56.7383 121.269 81.3149 121.269ZM81.4999 116.819C103.619 116.819 121.55 98.888 121.55 76.769C121.55 54.65 103.619 36.719 81.4999 36.719C59.3809 36.719 41.4499 54.65 41.4499 76.769C41.4499 98.888 59.3809 116.819 81.4999 116.819Z" fill="#FC4A55"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M81.5 116.819C103.619 116.819 121.55 98.8882 121.55 76.7692C121.55 54.6502 103.619 36.7192 81.5 36.7192C59.3809 36.7192 41.45 54.6502 41.45 76.7692C41.45 98.8882 59.3809 116.819 81.5 116.819ZM81.5 112.369C101.161 112.369 117.1 96.4306 117.1 76.7692C117.1 57.1079 101.161 41.1692 81.5 41.1692C61.8386 41.1692 45.9 57.1079 45.9 76.7692C45.9 96.4306 61.8386 112.369 81.5 112.369Z" fill="#FFB045"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M81.4999 112.369C101.161 112.369 117.1 96.4303 117.1 76.7689C117.1 57.1076 101.161 41.1689 81.4999 41.1689C61.8386 41.1689 45.8999 57.1076 45.8999 76.7689C45.8999 96.4303 61.8386 112.369 81.4999 112.369ZM81.4999 107.919C98.7036 107.919 112.65 93.9726 112.65 76.7689C112.65 59.5653 98.7036 45.6189 81.4999 45.6189C64.2962 45.6189 50.3499 59.5653 50.3499 76.7689C50.3499 93.9726 64.2962 107.919 81.4999 107.919Z" fill="#FFFA6D"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M81.5 103.469C96.2461 103.469 108.2 91.5149 108.2 76.7688C108.2 62.0228 96.2461 50.0688 81.5 50.0688C66.754 50.0688 54.8 62.0228 54.8 76.7688C54.8 91.5149 66.754 103.469 81.5 103.469ZM81.5 99.0188C93.7884 99.0188 103.75 89.0572 103.75 76.7688C103.75 64.4805 93.7884 54.5188 81.5 54.5188C69.2117 54.5188 59.25 64.4805 59.25 76.7688C59.25 89.0572 69.2117 99.0188 81.5 99.0188Z" fill="#3BA9FE"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M81.5 99.019C93.7883 99.019 103.75 89.0574 103.75 76.769C103.75 64.4807 93.7883 54.519 81.5 54.519C69.2117 54.519 59.25 64.4807 59.25 76.769C59.25 89.0574 69.2117 99.019 81.5 99.019ZM81.5 94.569C91.3307 94.569 99.3 86.5997 99.3 76.769C99.3 66.9384 91.3307 58.969 81.5 58.969C71.6693 58.969 63.7 66.9384 63.7 76.769C63.7 86.5997 71.6693 94.569 81.5 94.569Z" fill="#965DED"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M81.5001 107.919C98.7038 107.919 112.65 93.9728 112.65 76.7691C112.65 59.5655 98.7038 45.6191 81.5001 45.6191C64.2964 45.6191 50.3501 59.5655 50.3501 76.7691C50.3501 93.9728 64.2964 107.919 81.5001 107.919ZM81.5001 103.469C96.2461 103.469 108.2 91.5151 108.2 76.7691C108.2 62.0231 96.2461 50.0691 81.5001 50.0691C66.7541 50.0691 54.8001 62.0231 54.8001 76.7691C54.8001 91.5151 66.7541 103.469 81.5001 103.469Z" fill="#30FD2F"/>
+<path d="M40.2154 32.1237C40.3065 31.8501 40.6935 31.8501 40.7846 32.1237L41.672 34.7882C41.6996 34.871 41.7618 34.9377 41.8425 34.9709L44.3251 35.9916C44.573 36.0935 44.573 36.4446 44.3251 36.5465L41.8425 37.5672C41.7618 37.6004 41.6996 37.6671 41.672 37.7499L40.7846 40.4144C40.6935 40.688 40.3065 40.688 40.2154 40.4144L39.328 37.7499C39.3004 37.6671 39.2382 37.6004 39.1575 37.5672L36.6749 36.5465C36.427 36.4446 36.427 36.0935 36.6749 35.9916L39.1575 34.9709C39.2382 34.9377 39.3004 34.871 39.328 34.7882L40.2154 32.1237Z" fill="white"/>
+<path d="M35.2133 46.1987C35.3003 45.9166 35.6997 45.9166 35.7867 46.1987L36.135 47.3284C36.1606 47.4112 36.2207 47.479 36.2999 47.5142L37.3825 47.9949C37.6202 48.1004 37.6202 48.4377 37.3825 48.5432L36.2999 49.0239C36.2207 49.0591 36.1606 49.1269 36.135 49.2097L35.7867 50.3394C35.6997 50.6215 35.3003 50.6215 35.2133 50.3394L34.865 49.2097C34.8394 49.1269 34.7793 49.0591 34.7001 49.0239L33.6175 48.5432C33.3798 48.4377 33.3798 48.1004 33.6175 47.9949L34.7001 47.5142C34.7793 47.479 34.8394 47.4112 34.865 47.3284L35.2133 46.1987Z" fill="white"/>
+</g>
+<path d="M98.7703 64.8045L96.7278 37.3515H102.208L103.41 58.673H103.65L111.141 40.1997H117.221L119.05 58.673H119.29L126.928 37.3515H132.328L121.77 64.8045H115.17L113.209 46.4102H112.969L105.33 64.8045H98.7703ZM142.738 43.0478C149.818 43.0478 151.712 45.619 151.071 49.8913L148.834 64.8045H144.394L144.284 62.075C142.925 63.9342 140.095 65.2 136.615 65.2C131.695 65.2 129.535 63.0639 130.182 58.7521C130.936 53.7283 134.363 51.9483 139.963 51.9483H145.763L145.905 50.9989C146.285 48.4672 145.595 47.2013 141.595 47.2013C140.035 47.2013 138.491 47.3596 136.889 47.6365L137.524 43.4038C139.206 43.1269 141.178 43.0478 142.738 43.0478ZM138.276 61.3234C141.316 61.3234 143.614 60.1367 144.813 58.2775L145.235 55.4689H140.115C136.955 55.4689 135.546 56.0622 135.166 58.5939C134.887 60.4531 135.756 61.3234 138.276 61.3234ZM153.229 72.716L153.87 68.4437C157.55 68.4437 159.134 67.2175 160.314 64.6858L154.98 43.4434H160.5L163.731 59.5037H163.971L171.66 43.4434H176.94L166.567 63.2617C162.981 70.1052 160.389 72.716 153.229 72.716ZM189.887 47.3991H185.127L183.585 57.6841C183.169 60.4531 183.509 61.1256 185.749 61.1256C186.509 61.1256 187.115 61.086 187.738 60.9278L187.151 64.844C186.293 64.9627 185.361 65.0418 184.441 65.0418C179.281 65.0418 177.683 63.6968 178.525 58.0797L180.127 47.3991H177.127L177.721 43.4434H180.721L181.48 38.38H186.48L185.721 43.4434H190.481L189.887 47.3991ZM200.321 65.2C193.761 65.2 190.323 62.787 191.622 54.1239C192.922 45.4608 197.083 43.0478 203.643 43.0478C210.243 43.0478 213.682 45.4608 212.382 54.1239C211.083 62.787 206.921 65.2 200.321 65.2ZM200.896 61.3629C204.896 61.3629 206.392 59.662 207.222 54.1239C208.053 48.5859 207.034 46.8453 203.074 46.8453C199.114 46.8453 197.613 48.5859 196.782 54.1239C195.952 59.662 197.016 61.3629 200.896 61.3629ZM235.226 64.8045L233.758 57.5259H222.158L218.426 64.8045H213.026L227.543 37.3515H234.583L240.786 64.8045H235.226ZM224.37 53.1745H232.85L230.569 41.9798H230.089L224.37 53.1745ZM256.265 65.2C247.865 65.2 243.216 62.5892 244.943 51.078C246.533 40.4766 252.261 36.9559 260.781 36.9559C263.301 36.9559 266.528 37.312 267.993 37.9449L267.304 42.5336C265.377 41.782 263.03 41.4259 260.47 41.4259C254.83 41.4259 251.722 43.4829 250.583 51.078C249.378 59.1082 251.603 60.8091 257.323 60.8091C258.563 60.8091 259.809 60.7696 260.851 60.4927L261.871 53.6888H256.871L257.524 49.3375H267.444L265.243 64.0133C263.068 64.6462 259.745 65.2 256.265 65.2ZM271.261 64.8045L275.379 37.3515H280.619L276.501 64.8045H271.261Z" fill="white"/>
+<defs>
+<clipPath id="clip0_3160_2496">
+<rect x="30" y="25.269" width="50" height="50" rx="8" fill="white"/>
+</clipPath>
+</defs>
+</svg></a>
+    <span>WaytoAGI Gallery · 文中链接指向原始出处，数字为原作者自述，请以原帖为准。<a href="../../">返回案例图谱</a></span>
+  </div>
+</footer>
+<script>
+(() => {
+  // Copy buttons for prompt templates.
+  const status = document.getElementById('copyStatus');
+  document.querySelectorAll('.code .copy').forEach(b => b.addEventListener('click', async () => {
+    const code = b.closest('.code').querySelector('code');
+    const say = m => { b.textContent = m; status.textContent = m; };
+    try { await navigator.clipboard.writeText(code.textContent); say('已复制'); }
+    catch {
+      const r = document.createRange(); r.selectNodeContents(code); const s = getSelection(); s.removeAllRanges(); s.addRange(r);
+      let ok = false; try { ok = document.execCommand('copy'); } catch {}
+      say(ok ? '已复制' : '已选中，按 Ctrl/⌘+C 复制');
+    }
+    setTimeout(() => { b.textContent = '复制'; status.textContent = ''; }, 3000);
+  }));
+  // Checkpoints remember their state in this browser only.
+  const key = 'opus55-guide-checkpoints';
+  let saved = {}; try { saved = JSON.parse(localStorage.getItem(key) || '{}'); } catch {}
+  document.querySelectorAll('.checkpoint input').forEach(i => {
+    i.checked = !!saved[i.dataset.cp];
+    i.addEventListener('change', () => { saved[i.dataset.cp] = i.checked; try { localStorage.setItem(key, JSON.stringify(saved)); } catch {} });
+  });
+  // Highlight the current section in the table of contents.
+  // The last section heading above 30% of the viewport is the current one (works scrolling up, down or jumping).
+  const pairs = [...document.querySelectorAll('.toc > ol > li > a')].map(a => [a, document.getElementById(a.hash.slice(1))]).filter(p => p[1]);
+  let raf = 0;
+  const mark = () => {
+    raf = 0; let cur = null;
+    for (const [a, h] of pairs) if (h.getBoundingClientRect().top <= innerHeight * 0.3) cur = a;
+    pairs.forEach(([a]) => a === cur ? a.setAttribute('aria-current', 'true') : a.removeAttribute('aria-current'));
+  };
+  addEventListener('scroll', () => { if (!raf) raf = requestAnimationFrame(mark); }, {passive: true});
+  addEventListener('resize', mark);
+  mark();
+  // Close the mobile table of contents after choosing a section.
+  document.querySelectorAll('.toc-m a').forEach(a => a.addEventListener('click', () => a.closest('details').open = false));
+})();
+</script>
+</body>
+</html>

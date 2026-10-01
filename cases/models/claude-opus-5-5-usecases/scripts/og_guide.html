@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>Opus 5.5 Guide Share Card</title>
+<!--
+  Link-preview card (og:image / twitter:image, 1200x630) for blog/opus55-beginner-guide/.
+  Sibling of the atlas card (scripts/og_image.html -> assets/og-image.png): same ink grid bands, lime frame,
+  white centre column, green chip with round nodes, tilted lilac strip, mini cards with hard shadows.
+  Guide-specific: the ink wraps under the centre (U shape) and carries the 5 steps as a left-to-right route.
+  Static content (no placeholders); step labels follow the guide's section headings.
+  Layout rules: title stays inside the centre square (x 285-915) for square crops; nothing essential in the
+  bottom-left ~320x60 (X draws the domain label there). Fonts are local: Noto Sans CJK SC, Figtree, Roboto Mono.
+  Render (Playwright + Chromium), screenshot exactly 1200x630 at device_scale_factor 1:
+    page = browser.new_page(viewport={"width": 1200, "height": 630}, device_scale_factor=1)
+    page.goto(pathlib.Path("scripts/og_guide.html").resolve().as_uri()); page.wait_for_timeout(300)
+    page.screenshot(path="blog/opus55-beginner-guide/img/og.png", clip={"x": 0, "y": 0, "width": 1200, "height": 630})
+-->
+<style>
+:root{
+  --ink:#241E1E; --green:#238653; --green-deep:#176A42; --lime:#C9DF8D; --lilac:#EAD8EB;
+  --purple:#AD85BA; --blue:#103CA0; --paper:#FFFFFF; --ink-2:#5d5656; --lim:#b0203a;
+  --cn:'Noto Sans CJK SC',sans-serif;
+  --disp:'Figtree','Noto Sans CJK SC',sans-serif;
+  --mono:'Roboto Mono','Noto Sans CJK SC',monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1200px;height:630px;overflow:hidden;background:var(--ink)}
+body{position:relative;color:var(--ink);font-family:var(--cn);font-synthesis:none;-webkit-font-smoothing:antialiased}
+
+.grid{position:absolute;inset:0;background-image:linear-gradient(rgba(234,216,235,.09) 1px,transparent 1px),linear-gradient(90deg,rgba(234,216,235,.09) 1px,transparent 1px);background-size:16px 16px}
+.panel{position:absolute;left:285px;top:0;width:630px;height:390px;background:var(--paper)}
+.frame{position:absolute;inset:12px;border:3px solid var(--lime)}
+
+.mid{position:absolute;left:285px;top:0;width:630px;height:390px;text-align:center}
+.mid>*{position:absolute;left:0;right:0}
+.logo{top:32px;height:34px;display:flex;justify-content:center}
+.logo svg{height:34px;width:auto;display:block}
+.t1{top:100px;white-space:nowrap}
+.chip{display:inline-block;position:relative;padding:.02em .22em .07em;border:2.5px solid var(--ink);background:var(--green);color:var(--paper);
+  font:800 74px/1.04 var(--disp);letter-spacing:-.03em;transform:rotate(-2deg)}
+.chip::before,.chip::after{content:"";position:absolute;width:15px;height:15px;border-radius:50%;background:var(--paper);border:2.5px solid var(--ink)}
+.chip::before{left:-9px;top:-9px}.chip::after{right:-9px;bottom:-9px}
+h1{top:200px;font:700 98px/1 var(--cn);letter-spacing:-.01em;white-space:nowrap}
+.sub{top:320px;display:flex;justify-content:center}
+.sub p{position:relative;display:inline-block;white-space:nowrap;background:var(--lilac);border:2.5px solid var(--ink);padding:5px 18px 7px;font:700 30px/1.2 var(--cn);transform:rotate(-1.2deg)}
+.sub p::before,.sub p::after{content:"";position:absolute;width:13px;height:13px;border-radius:50%;background:var(--paper);border:2.5px solid var(--ink)}
+.sub p::before{left:-8px;top:-8px}.sub p::after{right:-8px;bottom:-8px}
+.sub b{font:800 32px/1 var(--disp);color:var(--green-deep)}
+
+/* side stickers: guide tag (left), sources count (right) */
+.sk{position:absolute;background:var(--paper);border:2px solid var(--ink);box-shadow:6px 6px 0 rgba(0,0,0,.4)}
+.sk .kk{display:block;font:500 15px/1 var(--mono);letter-spacing:.14em;color:var(--ink-2);margin-bottom:12px}
+.src{left:938px;top:56px;width:236px;padding:18px 18px 22px;background:var(--lime);transform:rotate(2deg)}
+.src .n{display:flex;align-items:baseline;gap:6px}
+.src .n b{font:800 104px/.86 var(--disp);letter-spacing:-.04em}
+.src .n span{font:700 34px/1 var(--cn)}
+.src p{font:700 30px/1.25 var(--cn);margin-top:12px;white-space:nowrap}
+.tag{left:28px;top:56px;width:236px;transform:rotate(-2deg)}
+.tag .th{height:42px;display:flex;align-items:center;padding:0 16px;border-bottom:2px solid var(--ink);font:500 15px/1 var(--mono);letter-spacing:.14em;color:var(--ink-2);white-space:nowrap;
+  background-color:var(--lilac);background-image:linear-gradient(rgba(36,30,30,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(36,30,30,.08) 1px,transparent 1px);background-size:12px 12px}
+.tag p{margin:14px 18px 0;font:700 74px/1.06 var(--cn);letter-spacing:.02em;white-space:nowrap;padding-bottom:12px;border-bottom:3px solid var(--blue)}
+.tag .dt{display:block;margin:12px 18px 15px;font:500 16px/1 var(--mono);letter-spacing:.14em;color:var(--ink-2);white-space:nowrap}
+
+/* route + step chips (01-02 green: claude.ai; 03-04 blue: Claude Code; 05 red: pitfalls, as in the guide's route figure) */
+.route{position:absolute;left:12px;right:12px;top:470px;height:0;border-top:4px dashed var(--lime)}
+.steps{position:absolute;left:24px;right:24px;top:422px;display:flex;justify-content:space-between;align-items:flex-start}
+.st{display:flex;align-items:stretch;background:var(--paper);border:2px solid var(--ink);box-shadow:6px 6px 0 rgba(0,0,0,.4)}
+.st .no{flex:none;width:46px;display:flex;justify-content:center;padding-top:14px;color:var(--paper);background:var(--green);border-right:2px solid var(--ink);font:700 22px/1 var(--mono)}
+.st h3{font:700 26px/1.3 var(--cn);padding:12px 14px 14px 12px;white-space:nowrap;min-height:92px}
+.ar{flex:none;width:0;height:0;margin-top:43px;border-left:11px solid var(--lime);border-top:8px solid transparent;border-bottom:8px solid transparent;position:relative;left:2px}
+.st.b .no{background:var(--blue)}.st.r .no{background:var(--lim)}
+.st:nth-of-type(1){transform:rotate(-1.6deg)}
+.st:nth-of-type(2){transform:rotate(1.2deg)}
+.st:nth-of-type(3){transform:rotate(-1deg)}
+.st:nth-of-type(4){transform:rotate(1.4deg)}
+.st:nth-of-type(5){transform:rotate(-1.4deg)}
+
+.en{position:absolute;left:285px;width:630px;top:566px;text-align:center;font:600 26px/1 var(--disp);color:var(--paper);white-space:nowrap}
+</style>
+</head>
+<body>
+<div class="grid" aria-hidden="true"></div>
+<div class="panel" aria-hidden="true"></div>
+<div class="frame" aria-hidden="true"></div>
+<main class="mid">
+  <div class="logo"><svg viewBox="30 25.269 251 50" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="WaytoAGI">
+<g clip-path="url(#wlogo_clip)">
+<rect x="30" y="25.269" width="50" height="50" rx="8" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M81.5 121.269C106.077 121.269 126 101.346 126 76.769C126 52.1924 106.077 32.269 81.5 32.269C56.9233 32.269 37 52.1924 37 76.769C37 101.346 56.9233 121.269 81.5 121.269ZM81.5 116.819C103.619 116.819 121.55 98.888 121.55 76.769C121.55 54.65 103.619 36.719 81.5 36.719C59.381 36.719 41.45 54.65 41.45 76.769C41.45 98.888 59.381 116.819 81.5 116.819Z" fill="#FC4A55"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M81.5 116.819C103.619 116.819 121.55 98.8882 121.55 76.7692C121.55 54.6502 103.619 36.7192 81.5 36.7192C59.3809 36.7192 41.45 54.6502 41.45 76.7692C41.45 98.8882 59.3809 116.819 81.5 116.819ZM81.5 112.369C101.161 112.369 117.1 96.4306 117.1 76.7692C117.1 57.1079 101.161 41.1692 81.5 41.1692C61.8386 41.1692 45.9 57.1079 45.9 76.7692C45.9 96.4306 61.8386 112.369 81.5 112.369Z" fill="#FFB045"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M81.4999 112.369C101.161 112.369 117.1 96.4303 117.1 76.7689C117.1 57.1076 101.161 41.1689 81.4999 41.1689C61.8386 41.1689 45.8999 57.1076 45.8999 76.7689C45.8999 96.4303 61.8386 112.369 81.4999 112.369ZM81.4999 107.919C98.7036 107.919 112.65 93.9726 112.65 76.7689C112.65 59.5653 98.7036 45.6189 81.4999 45.6189C64.2962 45.6189 50.3499 59.5653 50.3499 76.7689C50.3499 93.9726 64.2962 107.919 81.4999 107.919Z" fill="#FFFA6D"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M81.5 103.469C96.2461 103.469 108.2 91.5149 108.2 76.7688C108.2 62.0228 96.2461 50.0688 81.5 50.0688C66.754 50.0688 54.8 62.0228 54.8 76.7688C54.8 91.5149 66.754 103.469 81.5 103.469ZM81.5 99.0188C93.7884 99.0188 103.75 89.0572 103.75 76.7688C103.75 64.4805 93.7884 54.5188 81.5 54.5188C69.2117 54.5188 59.25 64.4805 59.25 76.7688C59.25 89.0572 69.2117 99.0188 81.5 99.0188Z" fill="#3BA9FE"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M81.5 99.019C93.7883 99.019 103.75 89.0574 103.75 76.769C103.75 64.4807 93.7883 54.519 81.5 54.519C69.2117 54.519 59.25 64.4807 59.25 76.769C59.25 89.0574 69.2117 99.019 81.5 99.019ZM81.5 94.569C91.3307 94.569 99.3 86.5997 99.3 76.769C99.3 66.9384 91.3307 58.969 81.5 58.969C71.6693 58.969 63.7 66.9384 63.7 76.769C63.7 86.5997 71.6693 94.569 81.5 94.569Z" fill="#965DED"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M81.5001 107.919C98.7038 107.919 112.65 93.9728 112.65 76.7691C112.65 59.5655 98.7038 45.6191 81.5001 45.6191C64.2964 45.6191 50.3501 59.5655 50.3501 76.7691C50.3501 93.9728 64.2964 107.919 81.5001 107.919ZM81.5001 103.469C96.2461 103.469 108.2 91.5151 108.2 76.7691C108.2 62.0231 96.2461 50.0691 81.5001 50.0691C66.7541 50.0691 54.8001 62.0231 54.8001 76.7691C54.8001 91.5151 66.7541 103.469 81.5001 103.469Z" fill="#30FD2F"/>
+<path d="M40.2154 32.1237C40.3065 31.8501 40.6935 31.8501 40.7846 32.1237L41.672 34.7882C41.6996 34.871 41.7618 34.9377 41.8425 34.9709L44.3251 35.9916C44.573 36.0935 44.573 36.4446 44.3251 36.5465L41.8425 37.5672C41.7618 37.6004 41.6996 37.6671 41.672 37.7499L40.7846 40.4144C40.6935 40.688 40.3065 40.688 40.2154 40.4144L39.328 37.7499C39.3004 37.6671 39.2382 37.6004 39.1575 37.5672L36.6749 36.5465C36.427 36.4446 36.427 36.0935 36.6749 35.9916L39.1575 34.9709C39.2382 34.9377 39.3004 34.871 39.328 34.7882L40.2154 32.1237Z" fill="white"/>
+<path d="M35.2133 46.1987C35.3003 45.9166 35.6997 45.9166 35.7867 46.1987L36.135 47.3284C36.1606 47.4112 36.2207 47.479 36.2999 47.5142L37.3825 47.9949C37.6202 48.1004 37.6202 48.4377 37.3825 48.5432L36.2999 49.0239C36.2207 49.0591 36.1606 49.1269 36.135 49.2097L35.7867 50.3394C35.6997 50.6215 35.3003 50.6215 35.2133 50.3394L34.865 49.2097C34.8394 49.1269 34.7793 49.0591 34.7001 49.0239L33.6175 48.5432C33.3798 48.4377 33.3798 48.1004 33.6175 47.9949L34.7001 47.5142C34.7793 47.479 34.8394 47.4112 34.865 47.3284L35.2133 46.1987Z" fill="white"/>
+</g>
+<path d="M98.7703 64.8045L96.7278 37.3515H102.208L103.41 58.673H103.65L111.141 40.1997H117.221L119.05 58.673H119.29L126.928 37.3515H132.328L121.77 64.8045H115.17L113.209 46.4102H112.969L105.33 64.8045H98.7703ZM142.738 43.0478C149.818 43.0478 151.712 45.619 151.071 49.8913L148.834 64.8045H144.394L144.284 62.075C142.925 63.9342 140.095 65.2 136.615 65.2C131.695 65.2 129.535 63.0639 130.182 58.7521C130.936 53.7283 134.363 51.9483 139.963 51.9483H145.763L145.905 50.9989C146.285 48.4672 145.595 47.2013 141.595 47.2013C140.035 47.2013 138.491 47.3596 136.889 47.6365L137.524 43.4038C139.206 43.1269 141.178 43.0478 142.738 43.0478ZM138.276 61.3234C141.316 61.3234 143.614 60.1367 144.813 58.2775L145.235 55.4689H140.115C136.955 55.4689 135.546 56.0622 135.166 58.5939C134.887 60.4531 135.756 61.3234 138.276 61.3234ZM153.229 72.716L153.87 68.4437C157.55 68.4437 159.134 67.2175 160.314 64.6858L154.98 43.4434H160.5L163.731 59.5037H163.971L171.66 43.4434H176.94L166.567 63.2617C162.981 70.1052 160.389 72.716 153.229 72.716ZM189.887 47.3991H185.127L183.585 57.6841C183.169 60.4531 183.509 61.1256 185.749 61.1256C186.509 61.1256 187.115 61.086 187.738 60.9278L187.151 64.844C186.293 64.9627 185.361 65.0418 184.441 65.0418C179.281 65.0418 177.683 63.6968 178.525 58.0797L180.127 47.3991H177.127L177.721 43.4434H180.721L181.48 38.38H186.48L185.721 43.4434H190.481L189.887 47.3991ZM200.321 65.2C193.761 65.2 190.323 62.787 191.622 54.1239C192.922 45.4608 197.083 43.0478 203.643 43.0478C210.243 43.0478 213.682 45.4608 212.382 54.1239C211.083 62.787 206.921 65.2 200.321 65.2ZM200.896 61.3629C204.896 61.3629 206.392 59.662 207.222 54.1239C208.053 48.5859 207.034 46.8453 203.074 46.8453C199.114 46.8453 197.613 48.5859 196.782 54.1239C195.952 59.662 197.016 61.3629 200.896 61.3629ZM235.226 64.8045L233.758 57.5259H222.158L218.426 64.8045H213.026L227.543 37.3515H234.583L240.786 64.8045H235.226ZM224.37 53.1745H232.85L230.569 41.9798H230.089L224.37 53.1745ZM256.265 65.2C247.865 65.2 243.216 62.5892 244.943 51.078C246.533 40.4766 252.261 36.9559 260.781 36.9559C263.301 36.9559 266.528 37.312 267.993 37.9449L267.304 42.5336C265.377 41.782 263.03 41.4259 260.47 41.4259C254.83 41.4259 251.722 43.4829 250.583 51.078C249.378 59.1082 251.603 60.8091 257.323 60.8091C258.563 60.8091 259.809 60.7696 260.851 60.4927L261.871 53.6888H256.871L257.524 49.3375H267.444L265.243 64.0133C263.068 64.6462 259.745 65.2 256.265 65.2ZM271.261 64.8045L275.379 37.3515H280.619L276.501 64.8045H271.261Z" fill="black"/>
+<defs>
+<clipPath id="wlogo_clip">
+<rect x="30" y="25.269" width="50" height="50" rx="8" fill="white"/>
+</clipPath>
+</defs>
+</svg></div>
+  <div class="t1"><span class="chip">Opus 5.5</span></div>
+  <h1>新手上手路线</h1>
+  <div class="sub"><p><b>5</b> 步：从第一条提示词到避坑</p></div>
+</main>
+<div class="sk tag"><div class="th">WAYTOAGI GALLERY</div><p>新手<br>指南</p><span class="dt">BEGINNER GUIDE</span></div>
+<div class="sk src"><span class="kk">SOURCES</span><div class="n"><b>30</b><span>份</span></div><p>已核对的<br>原始资料</p></div>
+<div class="route" aria-hidden="true"></div>
+<div class="steps">
+  <article class="st"><span class="no">01</span><h3>把任务一次<br>交代清楚</h3></article><i class="ar" aria-hidden="true"></i>
+  <article class="st"><span class="no">02</span><h3>做出第一个成品<br>并学会改稿</h3></article><i class="ar" aria-hidden="true"></i>
+  <article class="st b"><span class="no">03</span><h3>弄懂 effort<br>档位和额度</h3></article><i class="ar" aria-hidden="true"></i>
+  <article class="st b"><span class="no">04</span><h3>选一个方向<br>深入</h3></article><i class="ar" aria-hidden="true"></i>
+  <article class="st r"><span class="no">05</span><h3>避开<br>常见的坑</h3></article>
+</div>
+<p class="en">A beginner’s route to Claude Opus 5.5</p>
+</body>
+</html>

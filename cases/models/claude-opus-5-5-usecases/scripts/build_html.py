@@ -278,6 +278,7 @@ def render_page(meta, cases):
         "{{OG_ALT_ZH}}": fill(OG_ALT["zh"], card), "{{OG_ALT_EN}}": fill(OG_ALT["en"], card),
         # relative to index.html; placeholders keep the template's own relative-link check clean
         "{{CSV_URL}}": "data/all_cases.csv", "{{JSON_URL}}": "data/all_cases.json",
+        "{{GUIDE_URL}}": "blog/opus55-beginner-guide/",
     }
     for key, value in desc.items():
         tpl = tpl.replace(key, html.escape(value))
