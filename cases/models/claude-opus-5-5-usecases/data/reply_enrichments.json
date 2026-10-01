@@ -1,68 +1,347 @@
 {
-  "meta": {
-    "reviewReport": "data/refresh_history/2026-10-01-x-reply-pilot.json",
-    "note": "Reviewed resources from bounded reply pilots; kept separate so GoSail re-imports cannot overwrite them."
-  },
-  "cases": [
-    {
-      "sourceUrl": "https://x.com/anabology/status/2103534482930491441",
-      "resources": [
-        {
-          "label": "作者补充的 Suno 音乐",
-          "label_en": "Suno music linked by the creator",
-          "url": "https://suno.com/s/d1oGqZucN3h7GsI1"
-        },
-        {
-          "label": "作者补充的 YouTube 版本",
-          "label_en": "YouTube version linked by the creator",
-          "url": "https://www.youtube.com/watch?v=C3fxudvU-UU"
-        }
-      ]
-    },
-    {
-      "sourceUrl": "https://x.com/donaldjewkes/status/2102801274173587569",
-      "resources": [
-        {
-          "label": "作者说明素材与工具",
-          "label_en": "Creator’s note on assets and tools",
-          "url": "https://x.com/donaldjewkes/status/2102801906573935057"
-        }
-      ]
-    },
-    {
-      "sourceUrl": "https://x.com/Parsats_eth/status/2102486820810285201",
-      "resources": [
-        {
-          "label": "官方 Earthrise 演示",
-          "label_en": "Official Earthrise demo",
-          "url": "https://x.com/claudeai/status/2102471870692180179"
-        },
-        {
-          "label": "官方纸笔界面演示",
-          "label_en": "Official pen-and-paper interface demo",
-          "url": "https://x.com/claudeai/status/2102471874110533750"
-        }
-      ]
-    },
-    {
-      "sourceUrl": "https://x.com/brainextends/status/2102464008112755026",
-      "resources": [
-        {
-          "label": "官方投石机演示",
-          "label_en": "Official trebuchet demo",
-          "url": "https://x.com/claudeai/status/2102471877184627062"
-        }
-      ]
-    },
-    {
-      "sourceUrl": "https://x.com/thedesignely/status/2102510028204965967",
-      "resources": [
-        {
-          "label": "官方视觉效果展示",
-          "label_en": "Official visual-effects showcase",
-          "url": "https://x.com/claudeai/status/2102471882381418989"
-        }
-      ]
-    }
+ "meta": {
+  "reviewReport": "data/refresh_history/2026-10-01-x-reply-pilot.json",
+  "note": "Reviewed resources from bounded reply pilots; kept separate so GoSail re-imports cannot overwrite them.",
+  "reviewReports": [
+   "data/refresh_history/2026-10-01-x-reply-pilot.json",
+   "data/refresh_history/2026-10-01-x-replies-expanded.json"
   ]
+ },
+ "cases": [
+  {
+   "sourceUrl": "https://x.com/anabology/status/2103534482930491441",
+   "resources": [
+    {
+     "label": "作者补充的 Suno 音乐",
+     "label_en": "Suno music linked by the creator",
+     "url": "https://suno.com/s/d1oGqZucN3h7GsI1"
+    },
+    {
+     "label": "作者补充的 YouTube 版本",
+     "label_en": "YouTube version linked by the creator",
+     "url": "https://www.youtube.com/watch?v=C3fxudvU-UU"
+    }
+   ]
+  },
+  {
+   "sourceUrl": "https://x.com/donaldjewkes/status/2102801274173587569",
+   "resources": [
+    {
+     "label": "作者说明素材与工具",
+     "label_en": "Creator’s note on assets and tools",
+     "url": "https://x.com/donaldjewkes/status/2102801906573935057"
+    }
+   ]
+  },
+  {
+   "sourceUrl": "https://x.com/Parsats_eth/status/2102486820810285201",
+   "resources": [
+    {
+     "label": "官方 Earthrise 演示",
+     "label_en": "Official Earthrise demo",
+     "url": "https://x.com/claudeai/status/2102471870692180179"
+    },
+    {
+     "label": "官方纸笔界面演示",
+     "label_en": "Official pen-and-paper interface demo",
+     "url": "https://x.com/claudeai/status/2102471874110533750"
+    }
+   ]
+  },
+  {
+   "sourceUrl": "https://x.com/brainextends/status/2102464008112755026",
+   "resources": [
+    {
+     "label": "官方投石机演示",
+     "label_en": "Official trebuchet demo",
+     "url": "https://x.com/claudeai/status/2102471877184627062"
+    }
+   ]
+  },
+  {
+   "sourceUrl": "https://x.com/thedesignely/status/2102510028204965967",
+   "resources": [
+    {
+     "label": "官方视觉效果展示",
+     "label_en": "Official visual-effects showcase",
+     "url": "https://x.com/claudeai/status/2102471882381418989"
+    }
+   ]
+  },
+  {
+   "sourceUrl": "https://x.com/stephanlivera/status/2103315922098470926",
+   "resources": [
+    {
+     "label": "作者说明：仅用标准 Claude Code",
+     "label_en": "Creator: standard Claude Code setup",
+     "url": "https://x.com/stephanlivera/status/2103325241514881176"
+    }
+   ]
+  },
+  {
+   "sourceUrl": "https://x.com/RyanSael/status/2102591147927654847",
+   "resources": [
+    {
+     "label": "交互镜头实验室",
+     "label_en": "Interactive lens laboratory",
+     "url": "https://lens.lab.sael.net"
+    },
+    {
+     "label": "作者说明提示词依赖本地项目",
+     "label_en": "Creator’s note on local-project context",
+     "url": "https://x.com/RyanSael/status/2102643043988123745"
+    }
+   ]
+  },
+  {
+   "sourceUrl": "https://x.com/twoclipping/status/2103273003555402193",
+   "resources": [
+    {
+     "label": "作者说明提示词也由 Claude 拟定",
+     "label_en": "Creator’s note on the Claude-written prompt",
+     "url": "https://x.com/twoclipping/status/2103340753976177084"
+    }
+   ]
+  },
+  {
+   "sourceUrl": "https://x.com/devteamdrew/status/2102436464323661880",
+   "resources": [
+    {
+     "label": "作者说明素材准备与多轮调整",
+     "label_en": "Creator’s asset preparation and iteration notes",
+     "url": "https://x.com/devteamdrew/status/2103533748780458070"
+    },
+    {
+     "label": "作者发布的第二段动画",
+     "label_en": "Creator’s second animation installment",
+     "url": "https://x.com/devteamdrew/status/2102865596480409849"
+    }
+   ]
+  },
+  {
+   "sourceUrl": "https://x.com/DotCSV/status/2102737776219168939",
+   "resources": [
+    {
+     "label": "作者补充 MNIST 训练过程",
+     "label_en": "Creator’s note on MNIST training",
+     "url": "https://x.com/DotCSV/status/2102738655504634146"
+    }
+   ]
+  },
+  {
+   "sourceUrl": "https://x.com/victormustar/status/2103110908444631120",
+   "resources": [
+    {
+     "label": "LEGO Microduck 拼装说明 PDF",
+     "label_en": "LEGO Microduck assembly PDF",
+     "url": "https://huggingface.co/buckets/victor/microduck-lego-booklet/tree/microduck_booklet.pdf"
+    },
+    {
+     "label": "作者订购零件的后续记录",
+     "label_en": "Creator’s follow-up on ordering the parts",
+     "url": "https://x.com/victormustar/status/2103215714085601653"
+    }
+   ]
+  },
+  {
+   "sourceUrl": "https://twitter.com/rpnickson/status/2104234974350111108",
+   "resources": [
+    {
+     "label": "作者披露合作背景与模型版本差异",
+     "label_en": "Creator’s disclosures and model-version caveats",
+     "url": "https://x.com/rpnickson/status/2104246736432595289"
+    }
+   ]
+  },
+  {
+   "sourceUrl": "https://x.com/konstantinsaifo/status/2104094723887501736",
+   "resources": [
+    {
+     "label": "实验室开源仓库",
+     "label_en": "Open-source lab repository",
+     "url": "https://github.com/AirsupHQ/airsup-lab"
+    },
+    {
+     "label": "开源实验室在线演示",
+     "label_en": "Open-source lab demo",
+     "url": "https://airsuphq.github.io/airsup-lab/"
+    },
+    {
+     "label": "作者补充的涡轮泵演示",
+     "label_en": "Creator’s turbopump demo",
+     "url": "https://airsup.ai/rocket-engine/turbopump"
+    }
+   ]
+  },
+  {
+   "sourceUrl": "https://x.com/konstantinsaifo/status/2104216976801587629",
+   "resources": [
+    {
+     "label": "实验室开源仓库",
+     "label_en": "Open-source lab repository",
+     "url": "https://github.com/AirsupHQ/airsup-lab"
+    },
+    {
+     "label": "开源实验室在线演示",
+     "label_en": "Open-source lab demo",
+     "url": "https://airsuphq.github.io/airsup-lab/"
+    }
+   ]
+  },
+  {
+   "sourceUrl": "https://x.com/other__reality/status/2102514581684052169",
+   "resources": [
+    {
+     "label": "原音乐视频源码",
+     "label_en": "Original music-video source",
+     "url": "https://github.com/JohnHeibel/PDoomVideo"
+    },
+    {
+     "label": "手绘动画起步项目",
+     "label_en": "Hand-painted animation starter kit",
+     "url": "https://github.com/JohnHeibel/ClaudeAnimationBase"
+    },
+    {
+     "label": "作者说明提示词与笔触迭代",
+     "label_en": "Creator’s prompt and brushstroke iteration notes",
+     "url": "https://x.com/other__reality/status/2102522958216606162"
+    }
+   ]
+  },
+  {
+   "sourceUrl": "https://x.com/shneural/status/2103151003272962130",
+   "resources": [
+    {
+     "label": "完整工具环境、素材与用时说明",
+     "label_en": "Full tool, asset and timing disclosure",
+     "url": "https://x.com/shneural/status/2103441806532706655"
+    },
+    {
+     "label": "作者发布的完整制作过程",
+     "label_en": "Full making-of shared by the creator",
+     "url": "https://x.com/shneural/status/2103472385563459833"
+    }
+   ]
+  },
+  {
+   "sourceUrl": "https://x.com/kevin_t_ngo/status/2102437977435893771",
+   "resources": [
+    {
+     "label": "作者说明 Canvas 与 Web Audio 实现",
+     "label_en": "Creator’s Canvas and Web Audio explanation",
+     "url": "https://x.com/kevin_t_ngo/status/2102452698369134984"
+    }
+   ]
+  },
+  {
+   "sourceUrl": "https://x.com/trq212/status/2103576349499855160",
+   "resources": [
+    {
+     "label": "含交互演示的 effort 原文",
+     "label_en": "Effort article with interactive explainers",
+     "url": "https://claude.dev/blog/spending-your-effort/"
+    }
+   ]
+  },
+  {
+   "sourceUrl": "https://x.com/lydiahallie/status/2102513987699212344",
+   "resources": [
+    {
+     "label": "作者补充缓存时长与配置条件",
+     "label_en": "Creator’s cache-duration and configuration clarification",
+     "url": "https://x.com/lydiahallie/status/2102521573676916770"
+    }
+   ]
+  },
+  {
+   "sourceUrl": "https://x.com/VictorTaelin/status/2104568082169749982",
+   "resources": [
+    {
+     "label": "作者公开的迭代提示与修改记录",
+     "label_en": "Creator-shared iterative prompts and revision history",
+     "url": "https://gist.github.com/VictorTaelin/b788de1da66ddfc270a35e94293cae19"
+    }
+   ]
+  },
+  {
+   "sourceUrl": "https://x.com/dangreenheck/status/2102878170089169235",
+   "resources": [
+    {
+     "label": "Tidewater 游戏源码",
+     "label_en": "Tidewater game source",
+     "url": "https://github.com/dgreenheck/tidewater"
+    },
+    {
+     "label": "Tidewater 在线试玩",
+     "label_en": "Play Tidewater",
+     "url": "https://dgreenheck.github.io/tidewater/"
+    },
+    {
+     "label": "作者区分订阅支出与 API 估算",
+     "label_en": "Creator’s subscription-versus-API cost explanation",
+     "url": "https://x.com/dangreenheck/status/2103110754266382825"
+    }
+   ]
+  },
+  {
+   "sourceUrl": "https://x.com/bcherny/status/2102543349102338309",
+   "resources": [
+    {
+     "label": "作者澄清形式化验证的实际范围",
+     "label_en": "Creator’s clarification of the verification scope",
+     "url": "https://x.com/bcherny/status/2102898067133595992"
+    }
+   ]
+  },
+  {
+   "sourceUrl": "https://x.com/ann_nnng/status/2104159923886244176",
+   "resources": [
+    {
+     "label": "作者发布的 Opus 贴纸演示",
+     "label_en": "Creator’s Opus sticker demo",
+     "url": "https://www.bubbbly.com/sticker-pack"
+    }
+   ]
+  },
+  {
+   "sourceUrl": "https://x.com/deedydas/status/2103141339651350646",
+   "resources": [
+    {
+     "label": "原始论文",
+     "label_en": "Original paper",
+     "url": "https://www.alphaxiv.org/abs/2609.24972"
+    },
+    {
+     "label": "作者说明 Manim、Kokoro 与 ffmpeg",
+     "label_en": "Creator’s Manim, Kokoro and ffmpeg notes",
+     "url": "https://x.com/deedydas/status/2103142971646652607"
+    }
+   ]
+  },
+  {
+   "sourceUrl": "https://x.com/karankendre/status/2103821040174698674",
+   "resources": [
+    {
+     "label": "Meridian Flight 072 在线试玩",
+     "label_en": "Play Meridian Flight 072",
+     "url": "https://meridian-flight-072.pages.dev"
+    }
+   ]
+  },
+  {
+   "sourceUrl": "https://x.com/Av1dlive/status/2103190313624039620",
+   "resources": [
+    {
+     "label": "作者提供的 Keel 仓库",
+     "label_en": "Keel repository supplied by the creator",
+     "url": "https://github.com/codejunkie99/keel"
+    },
+    {
+     "label": "作者区分理想示意与已实现原型",
+     "label_en": "Creator’s distinction between illustration and prototype",
+     "url": "https://x.com/Av1dlive/status/2103310713032962555"
+    }
+   ]
+  }
+ ]
 }
