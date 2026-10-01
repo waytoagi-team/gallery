@@ -72,7 +72,7 @@
   "duplicatesSkipped": 37,
   "refreshedAt": "2026-10-01T14:22:48+00:00",
   "refreshScope": {
-   "key": "x-reply-pilot-2026-10-01",
+   "key": "x-replies",
    "zh": "X 热门回帖小范围验证（评论区覆盖有限）",
    "en": "Small popular-X-reply pilot (limited reply coverage)"
   },
