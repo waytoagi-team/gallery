@@ -1,7 +1,8 @@
 """Fetch discovery snapshots for review; never auto-add search hits to the gallery.
 
-Standard library only. Successful bodies and an HTTP/error manifest go into the
-ignored cache. Google discovery is a separate browser step (see the update log).
+Python standard library plus authenticated gh for GitHub API requests. Successful
+bodies and an HTTP/error manifest go into the ignored cache. Google discovery is
+a separate browser step (see the update log).
 """
 import argparse
 import concurrent.futures
@@ -14,6 +15,8 @@ import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
+
+from github_api import read_github, response_metadata
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 
@@ -33,9 +36,13 @@ def collect(source, directory, since):
             headers["Referer"] = "https://www.bilibili.com/"
             with opener.open(urllib.request.Request(headers["Referer"], headers=headers), timeout=25) as response:
                 response.read()
-        with opener.open(urllib.request.Request(url, headers=headers), timeout=30) as response:
-            body = response.read()
-            entry.update(status=response.status, finalUrl=response.url, bytes=len(body))
+        if urllib.parse.urlsplit(url).netloc == "api.github.com":
+            body, metadata = read_github(url)
+            entry.update(metadata, finalUrl=url, bytes=len(body))
+        else:
+            with opener.open(urllib.request.Request(url, headers=headers), timeout=30) as response:
+                body = response.read()
+                entry.update(status=response.status, finalUrl=response.url, bytes=len(body))
         if source["format"] == "json":
             parsed = json.loads(body)
             if source["key"] == "bilibili" and parsed.get("code") != 0:
@@ -53,6 +60,8 @@ def collect(source, directory, since):
         entry.update(ok=False, error=str(error))
         if isinstance(error, urllib.error.HTTPError):
             entry["status"] = error.code
+            if urllib.parse.urlsplit(url).netloc == "api.github.com":
+                entry.update(response_metadata(error.code, error.headers))
     return entry
 
 

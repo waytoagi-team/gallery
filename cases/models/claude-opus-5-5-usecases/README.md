@@ -133,8 +133,10 @@ python3 scripts/fetch_base.py       # 抓取基础案例列表（中英文）-> 
 python3 scripts/normalize_base.py   # 规范化 -> data/base_cases.json
 python3 scripts/collect_sources.py  # 抓取候选信源快照，审阅后再加入 extra_*.json
 python3 scripts/build_html.py       # 合并 extra_*.json 并去重 -> data/all_cases.json / .csv + index.html
-python3 scripts/test_build_html.py  # 来源身份与补充层的 11 项回归测试
+python3 -m unittest discover -s scripts -p 'test_*.py'  # 22 项回归测试
 ```
+
+GitHub API 采集通过 `gh api` 复用当前登录身份；先用 `gh auth status` 检查，未登录时运行 `gh auth login --hostname github.com`。凭据由 GitHub CLI 管理，不复制到项目文件或抓取回执。单独补刷仓库指标可运行 `python3 scripts/refresh_metrics.py --only github --output-dir data/_refresh/github-authenticated`，默认两路并发，保留 X 指标和失败仓库的旧值。
 
 完整重建不需要联网。重新采集本轮固定版本并应用既有审核决定：
 
@@ -144,7 +146,7 @@ python3 scripts/import_gosail.py --cache data/_refresh/gosail
 python3 scripts/build_html.py
 ```
 
-重新读取会更新指标与核验时间。上游若变更版本，需要先更新逐条审核决定，不能直接自动导入。只依赖 Python 3 标准库。几点实现说明：
+重新读取会更新指标与核验时间。上游若变更版本，需要先更新逐条审核决定，不能直接自动导入。离线数据构建只依赖 Python 3 标准库；GitHub API 采集另需已登录的 GitHub CLI。几点实现说明：
 
 - 基础案例列表页面服务端只渲染前约 20 条，但全部案例都内嵌在 Next.js 的 RSC payload（`self.__next_f.push`）里，脚本直接从中解析。
 - `extra_*.json` 保存审阅后的公开补充案例。9 月 27 日结合 Google、网页搜索、GitHub 搜索、公开 API 和 RSS 发现候选，再核对原始出处。`collect_sources.py --only <key,...>` 可按信源定向抓取，快照写入忽略的 `data/_refresh/`，不会自动收录未经审阅的搜索结果。
@@ -165,7 +167,7 @@ python3 scripts/build_html.py
 - **Reddit 分数不全**：存档接口只记录归档时的分数，约三分之一的 Reddit 条目有点赞数。
 - **视频未逐一观看或复现**：YouTube / B 站摘要依据标题和简介；本轮 X 案例读取原帖正文及附件元数据。上游 full/brief 提示分类保留为来源自述，截图提示未转录。
 - **时效**：最新案例日期为 2026-10-01，最近一次更新于 2026-10-01（部分接口受限），最近一次完整多源刷新于 2026-09-30。可重新抓取候选，但仍需审阅后才能更新案例。
-- **10 月 1 日更新的限制**：GitHub 仓库详情接口返回 403，star 数只按搜索快照核对；部分 Reddit 子版与 B 站关键词未完整翻页；FxTwitter 对发现请求返回 403，改用 VxTwitter 读取原文。详见更新说明。
+- **10 月 1 日更新的限制**：GitHub 认证补刷成功读取 306 个仓库中的 303 个，62 个 star 数变化；另 3 个返回 404，保留旧值。部分 Reddit 子版与 B 站关键词未完整翻页；FxTwitter 对发现请求返回 403，改用 VxTwitter 读取原文。详见更新说明。
 - **9 月 30 日刷新的限制**：YouTube 播放页限流（HTTP 429），其日期按相对时间推算、摘要依据搜索片段；许多 B 站案例只依据标题和简介；约 55 个低 star 新仓库、掘金和 note 第 3 页以后未审阅；44 条早期案例仍缺日期。
 - **媒体链接可能失效**：封面图与视频直接引用 twimg 等原站地址，原帖删除后会失效。
 

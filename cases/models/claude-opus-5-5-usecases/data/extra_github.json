@@ -9,8 +9,9 @@
   "author": "JohnHeibel",
   "sourceUrl": "https://github.com/JohnHeibel/PDoomVideo",
   "platform": "GitHub",
-  "stars": 1535,
-  "date": "2026-09-22"
+  "stars": 1600,
+  "date": "2026-09-22",
+  "metricsCheckedAt": "2026-10-01T03:57:28+00:00"
  },
  {
   "title": "Claude 动画入门套件",
@@ -22,8 +23,9 @@
   "author": "JohnHeibel",
   "sourceUrl": "https://github.com/JohnHeibel/ClaudeAnimationBase",
   "platform": "GitHub",
-  "stars": 596,
-  "date": "2026-09-23"
+  "stars": 643,
+  "date": "2026-09-23",
+  "metricsCheckedAt": "2026-10-01T03:57:28+00:00"
  },
  {
   "title": "一句话生成三款 3D 网页游戏",
@@ -35,8 +37,9 @@
   "author": "riba2534",
   "sourceUrl": "https://github.com/riba2534/claude-opus-5-5-demo",
   "platform": "GitHub",
-  "stars": 931,
-  "date": "2026-09-23"
+  "stars": 948,
+  "date": "2026-09-23",
+  "metricsCheckedAt": "2026-10-01T03:57:46+00:00"
  },
  {
   "title": "Tidewater 海岛钓鱼游戏",
@@ -48,8 +51,9 @@
   "author": "dgreenheck",
   "sourceUrl": "https://github.com/dgreenheck/tidewater",
   "platform": "GitHub",
-  "stars": 981,
-  "date": "2026-09-23"
+  "stars": 1015,
+  "date": "2026-09-23",
+  "metricsCheckedAt": "2026-10-01T03:57:17+00:00"
  },
  {
   "title": "ShipVideo 发布视频生成器",
@@ -61,8 +65,9 @@
   "author": "diggerhq",
   "sourceUrl": "https://github.com/diggerhq/shipvideo",
   "platform": "GitHub",
-  "stars": 221,
-  "date": "2026-09-24"
+  "stars": 234,
+  "date": "2026-09-24",
+  "metricsCheckedAt": "2026-10-01T03:57:17+00:00"
  },
  {
   "title": "100 个 Opus 5.5 单文件网页",
@@ -74,8 +79,9 @@
   "author": "MiaAI-Lab",
   "sourceUrl": "https://github.com/MiaAI-Lab/Claude-Opus-5.5-100-HTML-Files",
   "platform": "GitHub",
-  "stars": 78,
-  "date": "2026-09-22"
+  "stars": 80,
+  "date": "2026-09-22",
+  "metricsCheckedAt": "2026-10-01T03:57:37+00:00"
  },
  {
   "title": "OpusSkate C++ 滑板游戏",
@@ -87,8 +93,9 @@
   "author": "OminousIndustries",
   "sourceUrl": "https://github.com/OminousIndustries/OpusSkate",
   "platform": "GitHub",
-  "stars": 44,
-  "date": "2026-09-22"
+  "stars": 45,
+  "date": "2026-09-22",
+  "metricsCheckedAt": "2026-10-01T03:57:42+00:00"
  },
  {
   "title": "《Functional Emotions》绘画风 MV",
@@ -101,7 +108,8 @@
   "sourceUrl": "https://github.com/ledbetterljoshua/functional-emotions-video",
   "platform": "GitHub",
   "stars": 58,
-  "date": "2026-09-23"
+  "date": "2026-09-23",
+  "metricsCheckedAt": "2026-10-01T03:57:32+00:00"
  },
  {
   "title": "Turbo Kart Rally 卡丁车",
@@ -113,8 +121,9 @@
   "author": "bridge-mind",
   "sourceUrl": "https://github.com/bridge-mind/turbo-kart-rally",
   "platform": "GitHub",
-  "stars": 19,
-  "date": "2026-09-22"
+  "stars": 20,
+  "date": "2026-09-22",
+  "metricsCheckedAt": "2026-10-01T03:57:11+00:00"
  },
  {
   "title": "Dead Signal 丧尸射击",
@@ -127,7 +136,8 @@
   "sourceUrl": "https://github.com/bridge-mind/claude-opus-5.5-zombies-game",
   "platform": "GitHub",
   "stars": 3,
-  "date": "2026-09-22"
+  "date": "2026-09-22",
+  "metricsCheckedAt": "2026-10-01T03:57:10+00:00"
  },
  {
   "title": "Frontier Games 精选榜",
@@ -141,7 +151,7 @@
   "platform": "GitHub",
   "stars": 20,
   "date": "2026-09-23",
-  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+  "metricsCheckedAt": "2026-10-01T03:57:56+00:00"
  },
  {
   "title": "Awesome AI 游戏合集",
@@ -155,7 +165,7 @@
   "platform": "GitHub",
   "stars": 97,
   "date": "2026-09-09",
-  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+  "metricsCheckedAt": "2026-10-01T03:57:03+00:00"
  },
  {
   "title": "Awesome Opus 动画合集",
@@ -168,7 +178,8 @@
   "sourceUrl": "https://github.com/krillinai/awesome-opus-animation",
   "platform": "GitHub",
   "stars": 19,
-  "date": "2026-09-24"
+  "date": "2026-09-24",
+  "metricsCheckedAt": "2026-10-01T03:57:31+00:00"
  },
  {
   "title": "Awesome Opus 5.5 视频指南",
@@ -180,9 +191,9 @@
   "author": "athemeroy",
   "sourceUrl": "https://github.com/athemeroy/awesome-opus-5-5-videos",
   "platform": "GitHub",
-  "stars": 375,
+  "stars": 379,
   "date": "2026-09-25",
-  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+  "metricsCheckedAt": "2026-10-01T03:57:06+00:00"
  },
  {
   "title": "Opus 5.5 3D/游戏提示词集",
@@ -196,7 +207,7 @@
   "platform": "GitHub",
   "stars": 25,
   "date": "2026-09-23",
-  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+  "metricsCheckedAt": "2026-10-01T03:57:57+00:00"
  },
  {
   "title": "Opus 5.5 前端作品精选",
@@ -208,8 +219,9 @@
   "author": "OpenVGLab",
   "sourceUrl": "https://github.com/OpenVGLab/awesome-opus5.5-frontend-showcases",
   "platform": "GitHub",
-  "stars": 4,
-  "date": "2026-09-24"
+  "stars": 5,
+  "date": "2026-09-24",
+  "metricsCheckedAt": "2026-10-01T03:57:43+00:00"
  },
  {
   "title": "清明上河图 3D 汴京对比",
@@ -222,7 +234,8 @@
   "sourceUrl": "https://github.com/SilentFleetKK/qingming-bianjing",
   "platform": "GitHub",
   "stars": 12,
-  "date": "2026-09-23"
+  "date": "2026-09-23",
+  "metricsCheckedAt": "2026-10-01T03:57:49+00:00"
  },
  {
   "title": "Opus 5.5 发布日 12 项测试",
@@ -235,7 +248,8 @@
   "sourceUrl": "https://github.com/avenoxai/opus-5.5-benchmarks",
   "platform": "GitHub",
   "stars": 7,
-  "date": "2026-09-23"
+  "date": "2026-09-23",
+  "metricsCheckedAt": "2026-10-01T03:57:06+00:00"
  },
  {
   "title": "蒙古战争地图 A/B 对比",
@@ -248,7 +262,8 @@
   "sourceUrl": "https://github.com/yanqingcheng/war-atlas-a-b",
   "platform": "GitHub",
   "stars": 5,
-  "date": "2026-09-23"
+  "date": "2026-09-23",
+  "metricsCheckedAt": "2026-10-01T03:58:04+00:00"
  },
  {
   "title": "24 小时国际象棋引擎",
@@ -260,8 +275,9 @@
   "author": "stevemaughan",
   "sourceUrl": "https://github.com/stevemaughan/opus-5.5-chess-24hrs",
   "platform": "GitHub",
-  "stars": 2,
-  "date": "2026-09-24"
+  "stars": 3,
+  "date": "2026-09-24",
+  "metricsCheckedAt": "2026-10-01T03:57:51+00:00"
  },
  {
   "title": "chemrs Rust 化学信息学库",
@@ -274,7 +290,8 @@
   "sourceUrl": "https://github.com/bddap-bot/chemrs",
   "platform": "GitHub",
   "stars": 1,
-  "date": "2026-09-23"
+  "date": "2026-09-23",
+  "metricsCheckedAt": "2026-10-01T03:57:07+00:00"
  },
  {
   "title": "Sprout Quest 手机冒险游戏",
@@ -288,7 +305,7 @@
   "platform": "GitHub",
   "stars": 2,
   "date": "2026-09-23",
-  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+  "metricsCheckedAt": "2026-10-01T03:57:03+00:00"
  },
  {
   "title": "NOVA LANCER 轨道射击",
@@ -301,7 +318,8 @@
   "sourceUrl": "https://github.com/tanuu5/nova-lancer",
   "platform": "GitHub",
   "stars": 3,
-  "date": "2026-09-23"
+  "date": "2026-09-23",
+  "metricsCheckedAt": "2026-10-01T03:57:54+00:00"
  },
  {
   "title": "四个通宵自主构建",
@@ -314,7 +332,8 @@
   "sourceUrl": "https://github.com/Nipale-ai/opus-5-5-overnight-builds",
   "platform": "GitHub",
   "stars": 1,
-  "date": "2026-09-23"
+  "date": "2026-09-23",
+  "metricsCheckedAt": "2026-10-01T03:57:41+00:00"
  },
  {
   "title": "19400 块多米诺物理秀",
@@ -327,7 +346,8 @@
   "sourceUrl": "https://github.com/Sam1983Aing/domino-show",
   "platform": "GitHub",
   "stars": 2,
-  "date": "2026-09-23"
+  "date": "2026-09-23",
+  "metricsCheckedAt": "2026-10-01T03:57:47+00:00"
  },
  {
   "title": "Reefglass 珊瑚礁水族箱",
@@ -341,7 +361,7 @@
   "platform": "GitHub",
   "stars": 1,
   "date": "2026-09-23",
-  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+  "metricsCheckedAt": "2026-10-01T03:57:44+00:00"
  },
  {
   "title": "恐龙陨石动画短片",
@@ -354,7 +374,8 @@
   "sourceUrl": "https://github.com/bobby-oster/dinosaur-meteor-story",
   "platform": "GitHub",
   "stars": 1,
-  "date": "2026-09-23"
+  "date": "2026-09-23",
+  "metricsCheckedAt": "2026-10-01T03:57:10+00:00"
  },
  {
   "title": "北交东方摊位 4K 短片",
@@ -367,7 +388,8 @@
   "sourceUrl": "https://github.com/fish2lab/bjtu-touhou-booth",
   "platform": "GitHub",
   "stars": 4,
-  "date": "2026-09-24"
+  "date": "2026-09-24",
+  "metricsCheckedAt": "2026-10-01T03:57:22+00:00"
  },
  {
   "title": "opus-js-animations 导演插件",
@@ -380,7 +402,8 @@
   "sourceUrl": "https://github.com/klsoen/opus-js-animations",
   "platform": "GitHub",
   "stars": 15,
-  "date": "2026-09-24"
+  "date": "2026-09-24",
+  "metricsCheckedAt": "2026-10-01T03:57:31+00:00"
  },
  {
   "title": "JS 动画智能体技能包",
@@ -394,7 +417,7 @@
   "platform": "GitHub",
   "stars": 11,
   "date": "2026-09-23",
-  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+  "metricsCheckedAt": "2026-10-01T03:57:24+00:00"
  },
  {
   "title": "Claude 发布片风格动画技能",
@@ -407,7 +430,8 @@
   "sourceUrl": "https://github.com/misbahsy/claude-horizon-animation",
   "platform": "GitHub",
   "stars": 4,
-  "date": "2026-09-22"
+  "date": "2026-09-22",
+  "metricsCheckedAt": "2026-10-01T03:57:38+00:00"
  },
  {
   "title": "无人机穿越品牌网站提示词",
@@ -419,8 +443,9 @@
   "author": "Barty-Bart",
   "sourceUrl": "https://github.com/Barty-Bart/opus-55-10k-websites",
   "platform": "GitHub",
-  "stars": 20,
-  "date": "2026-09-23"
+  "stars": 22,
+  "date": "2026-09-23",
+  "metricsCheckedAt": "2026-10-01T03:57:07+00:00"
  },
  {
   "title": "prompt-fossils 提示词审计",
@@ -433,7 +458,8 @@
   "sourceUrl": "https://github.com/stas4000/prompt-fossils",
   "platform": "GitHub",
   "stars": 2,
-  "date": "2026-09-23"
+  "date": "2026-09-23",
+  "metricsCheckedAt": "2026-10-01T03:57:51+00:00"
  },
  {
   "title": "opus55-longrun 长时运行插件",
@@ -446,7 +472,8 @@
   "sourceUrl": "https://github.com/smvlx/opus55-longrun",
   "platform": "GitHub",
   "stars": 0,
-  "date": "2026-09-23"
+  "date": "2026-09-23",
+  "metricsCheckedAt": "2026-10-01T03:57:50+00:00"
  },
  {
   "title": "Opus 5.5 UIUX 对比",
@@ -459,7 +486,8 @@
   "sourceUrl": "https://github.com/DongzhuoranZhou/opus55-uiux-comparison-20260925",
   "platform": "GitHub",
   "stars": 0,
-  "date": "2026-09-25"
+  "date": "2026-09-25",
+  "metricsCheckedAt": "2026-10-01T03:57:18+00:00"
  },
  {
   "title": "Project Zomboid 模组葡语翻译",
@@ -472,7 +500,8 @@
   "sourceUrl": "https://github.com/hugoromao/project-alife-ptbr",
   "platform": "GitHub",
   "stars": 1,
-  "date": "2026-09-23"
+  "date": "2026-09-23",
+  "metricsCheckedAt": "2026-10-01T03:57:24+00:00"
  },
  {
   "title": "Jazz Jackrabbit 复刻版",
@@ -485,7 +514,8 @@
   "sourceUrl": "https://github.com/JuliusBrussee/jazz-jackrabbit-remastered",
   "platform": "GitHub",
   "stars": 3,
-  "date": "2026-09-23"
+  "date": "2026-09-23",
+  "metricsCheckedAt": "2026-10-01T03:57:29+00:00"
  },
  {
   "title": "Noita 风格游戏基准",
@@ -498,7 +528,8 @@
   "sourceUrl": "https://github.com/JerryLiu369/noita-benchmark",
   "platform": "GitHub",
   "stars": 0,
-  "date": "2026-09-21"
+  "date": "2026-09-21",
+  "metricsCheckedAt": "2026-10-01T03:57:27+00:00"
  },
  {
   "title": "浏览器游戏基准门户",
@@ -511,7 +542,8 @@
   "sourceUrl": "https://github.com/alesha-pro/bench-portal",
   "platform": "GitHub",
   "stars": 27,
-  "date": "2026-09-23"
+  "date": "2026-09-23",
+  "metricsCheckedAt": "2026-10-01T03:57:04+00:00"
  },
  {
   "title": "AMAR.IO 3D 多人游戏",
@@ -524,7 +556,8 @@
   "sourceUrl": "https://github.com/brianm3050/amar.io",
   "platform": "GitHub",
   "stars": 0,
-  "date": "2026-09-24"
+  "date": "2026-09-24",
+  "metricsCheckedAt": "2026-10-01T03:57:10+00:00"
  },
  {
   "title": "安全防护误报问候语",
@@ -536,8 +569,9 @@
   "author": "sroyad",
   "sourceUrl": "https://github.com/anthropics/claude-code/issues/96141",
   "platform": "GitHub",
-  "stars": null,
-  "date": "2026-09-22"
+  "stars": 148746,
+  "date": "2026-09-22",
+  "metricsCheckedAt": "2026-10-01T03:57:04+00:00"
  },
  {
   "title": "网安验证用户遭拒",
@@ -549,8 +583,9 @@
   "author": "John-Lussier",
   "sourceUrl": "https://github.com/anthropics/claude-code/issues/96167",
   "platform": "GitHub",
-  "stars": null,
-  "date": "2026-09-22"
+  "stars": 148746,
+  "date": "2026-09-22",
+  "metricsCheckedAt": "2026-10-01T03:57:04+00:00"
  },
  {
   "title": "长会话回复语言漂移",
@@ -562,8 +597,9 @@
   "author": "noboru007",
   "sourceUrl": "https://github.com/anthropics/claude-code/issues/96326",
   "platform": "GitHub",
-  "stars": null,
-  "date": "2026-09-23"
+  "stars": 148746,
+  "date": "2026-09-23",
+  "metricsCheckedAt": "2026-10-01T03:57:04+00:00"
  },
  {
   "title": "第三方客户端版本门槛",
@@ -575,8 +611,9 @@
   "author": "dderg",
   "sourceUrl": "https://github.com/can1357/oh-my-pi/issues/12870",
   "platform": "GitHub",
-  "stars": null,
-  "date": "2026-09-22"
+  "stars": 33892,
+  "date": "2026-09-22",
+  "metricsCheckedAt": "2026-10-01T03:57:12+00:00"
  },
  {
   "title": "Pydantic AI 适配 Opus 5.5",
@@ -588,8 +625,9 @@
   "author": "DouweM",
   "sourceUrl": "https://github.com/pydantic/pydantic-ai/pull/8637",
   "platform": "GitHub",
-  "stars": 20279,
-  "date": "2026-09-22"
+  "stars": 20300,
+  "date": "2026-09-22",
+  "metricsCheckedAt": "2026-10-01T03:57:45+00:00"
  },
  {
   "title": "PR-Agent 支持 Opus 5.5",
@@ -601,8 +639,9 @@
   "author": "PeterDaveHello",
   "sourceUrl": "https://github.com/The-PR-Agent/pr-agent/pull/3629",
   "platform": "GitHub",
-  "stars": 13194,
-  "date": "2026-09-22"
+  "stars": 13209,
+  "date": "2026-09-22",
+  "metricsCheckedAt": "2026-10-01T03:57:55+00:00"
  },
  {
   "title": "Vercel AI SDK 示例",
@@ -614,8 +653,9 @@
   "author": "vercel",
   "sourceUrl": "https://github.com/vercel/ai/blob/main/examples/ai-functions/src/generate-text/anthropic/claude-opus-5-5.ts",
   "platform": "GitHub",
-  "stars": 27047,
-  "date": null
+  "stars": 27061,
+  "date": null,
+  "metricsCheckedAt": "2026-10-01T03:58:00+00:00"
  },
  {
   "title": "VT Code 迁移指南",
@@ -627,8 +667,9 @@
   "author": "vinhnx",
   "sourceUrl": "https://github.com/vinhnx/VTCode/blob/main/docs/build-with-claude/migrating-to-claude-opus-5-5.md",
   "platform": "GitHub",
-  "stars": 859,
-  "date": null
+  "stars": 858,
+  "date": null,
+  "metricsCheckedAt": "2026-10-01T03:58:01+00:00"
  },
  {
   "title": "Feynman 文献研究评测",
@@ -640,8 +681,9 @@
   "author": "Companion-Inc",
   "sourceUrl": "https://github.com/Companion-Inc/feynman/blob/main/evals/results/2026-09-24-lit-0.5.3-ferrylane_claude-opus-5-5.md",
   "platform": "GitHub",
-  "stars": 9841,
-  "date": "2026-09-24"
+  "stars": 9853,
+  "date": "2026-09-24",
+  "metricsCheckedAt": "2026-10-01T03:57:14+00:00"
  },
  {
   "title": "Tinybird SQL 生成基准",
@@ -654,7 +696,8 @@
   "sourceUrl": "https://github.com/tinybirdco/llm-benchmark/pull/795",
   "platform": "GitHub",
   "stars": 87,
-  "date": "2026-09-23"
+  "date": "2026-09-23",
+  "metricsCheckedAt": "2026-10-01T03:57:56+00:00"
  },
  {
   "title": "FeatherBench 发布结果",
@@ -667,7 +710,8 @@
   "sourceUrl": "https://github.com/ed-is-ai/featherbench/pull/84",
   "platform": "GitHub",
   "stars": 4,
-  "date": "2026-09-22"
+  "date": "2026-09-22",
+  "metricsCheckedAt": "2026-10-01T03:57:19+00:00"
  },
  {
   "title": "七项挑战基准运行",
@@ -680,7 +724,8 @@
   "sourceUrl": "https://github.com/webbertakken/llm-challenges/pull/22",
   "platform": "GitHub",
   "stars": 0,
-  "date": "2026-09-22"
+  "date": "2026-09-22",
+  "metricsCheckedAt": "2026-10-01T03:58:02+00:00"
  },
  {
   "title": "努力级别对比实验设计",
@@ -693,7 +738,8 @@
   "sourceUrl": "https://github.com/kaybenleroll/random_llm_projects/issues/120",
   "platform": "GitHub",
   "stars": 0,
-  "date": "2026-09-24"
+  "date": "2026-09-24",
+  "metricsCheckedAt": "2026-10-01T03:57:30+00:00"
  },
  {
   "title": "DeepSWE 评测请求",
@@ -705,8 +751,9 @@
   "author": "coygeek",
   "sourceUrl": "https://github.com/datacurve-ai/deep-swe/issues/98",
   "platform": "GitHub",
-  "stars": null,
-  "date": "2026-09-22"
+  "stars": 1780,
+  "date": "2026-09-22",
+  "metricsCheckedAt": "2026-10-01T03:57:16+00:00"
  },
  {
   "title": "发布舆情摘要 Gist",
@@ -731,8 +778,9 @@
   "author": "Seramicx",
   "sourceUrl": "https://github.com/diegosouzapw/OmniRoute/issues/14612",
   "platform": "GitHub",
-  "stars": null,
-  "date": "2026-09-23"
+  "stars": 71809,
+  "date": "2026-09-23",
+  "metricsCheckedAt": "2026-10-01T03:57:17+00:00"
  },
  {
   "title": "单文件WebGL2写实浅水",
@@ -745,7 +793,8 @@
   "sourceUrl": "https://github.com/Aureliengmz/clearwater",
   "platform": "GitHub",
   "stars": 490,
-  "date": "2026-09-23"
+  "date": "2026-09-23",
+  "metricsCheckedAt": "2026-10-01T03:57:06+00:00"
  },
  {
   "title": "LiveNerf：发布后能力漂移基准",
@@ -757,8 +806,9 @@
   "author": "ninjahawk",
   "sourceUrl": "https://github.com/ninjahawk/livenerf",
   "platform": "GitHub",
-  "stars": 476,
-  "date": "2026-09-22"
+  "stars": 860,
+  "date": "2026-09-22",
+  "metricsCheckedAt": "2026-10-01T03:57:41+00:00"
  },
  {
   "title": "Fable 5 + Opus 5.5 多智能体编排插件",
@@ -770,8 +820,9 @@
   "author": "Rylaa",
   "sourceUrl": "https://github.com/Rylaa/fable5-opus5.5-orchestrator",
   "platform": "GitHub",
-  "stars": 79,
-  "date": null
+  "stars": 78,
+  "date": null,
+  "metricsCheckedAt": "2026-10-01T03:57:47+00:00"
  },
  {
   "title": "Claude视频与动画精选列表",
@@ -783,9 +834,9 @@
   "author": "opusvideo",
   "sourceUrl": "https://github.com/opusvideo/awesome-claude-video",
   "platform": "GitHub",
-  "stars": 164,
+  "stars": 167,
   "date": "2026-09-25",
-  "metricsCheckedAt": "2026-09-27T07:56:26+00:00"
+  "metricsCheckedAt": "2026-10-01T03:57:43+00:00"
  },
  {
   "title": "Opus 5.5 用例精选列表",
@@ -799,7 +850,7 @@
   "platform": "GitHub",
   "stars": 0,
   "date": "2026-09-24",
-  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+  "metricsCheckedAt": "2026-10-01T03:57:15+00:00"
  },
  {
   "title": "Claude视频图集（53例）",
@@ -812,7 +863,8 @@
   "sourceUrl": "https://github.com/Yeadon8888/claude-video-atlas",
   "platform": "GitHub",
   "stars": 0,
-  "date": "2026-09-26"
+  "date": "2026-09-26",
+  "metricsCheckedAt": "2026-10-01T03:58:05+00:00"
  },
  {
   "title": "《CodeRabbit, Pause》程序化MV",
@@ -825,7 +877,8 @@
   "sourceUrl": "https://github.com/arimanyus/hophopnopenope",
   "platform": "GitHub",
   "stars": 15,
-  "date": "2026-09-24"
+  "date": "2026-09-24",
+  "metricsCheckedAt": "2026-10-01T03:57:05+00:00"
  },
  {
   "title": "Kaigen引擎上的Minecraft风格沙盒",
@@ -838,7 +891,8 @@
   "sourceUrl": "https://github.com/Kaigen-Technologies/kaigen-minecraft-opus-5-5",
   "platform": "GitHub",
   "stars": 6,
-  "date": "2026-09-24"
+  "date": "2026-09-24",
+  "metricsCheckedAt": "2026-10-01T03:57:29+00:00"
  },
  {
   "title": "pxpipe：Opus 5.5 读图文本上下文评测",
@@ -850,8 +904,9 @@
   "author": "teamchong",
   "sourceUrl": "https://github.com/teamchong/pxpipe/pull/293",
   "platform": "GitHub",
-  "stars": 7454,
-  "date": "2026-09-25"
+  "stars": 7457,
+  "date": "2026-09-25",
+  "metricsCheckedAt": "2026-10-01T03:57:55+00:00"
  },
  {
   "title": "学术研究技能插件的Opus 5.5评测记录",
@@ -863,8 +918,9 @@
   "author": "Imbad0202",
   "sourceUrl": "https://github.com/Imbad0202/academic-research-skills/blob/main/plugin-evals/README.md",
   "platform": "GitHub",
-  "stars": 49930,
-  "date": null
+  "stars": 50010,
+  "date": null,
+  "metricsCheckedAt": "2026-10-01T03:57:25+00:00"
  },
  {
   "title": "OpenClaw 支持 Claude Opus 5.5",
@@ -876,8 +932,9 @@
   "author": "openclaw",
   "sourceUrl": "https://github.com/openclaw/openclaw/pull/155966",
   "platform": "GitHub",
-  "stars": 390818,
-  "date": "2026-09-22"
+  "stars": 391023,
+  "date": "2026-09-22",
+  "metricsCheckedAt": "2026-10-01T03:57:43+00:00"
  },
  {
   "title": "Hermes Agent 接入 claude-opus-5-5",
@@ -889,8 +946,9 @@
   "author": "NousResearch",
   "sourceUrl": "https://github.com/NousResearch/hermes-agent/pull/119919",
   "platform": "GitHub",
-  "stars": 250157,
-  "date": "2026-09-23"
+  "stars": 250384,
+  "date": "2026-09-23",
+  "metricsCheckedAt": "2026-10-01T03:57:42+00:00"
  },
  {
   "title": "Opus 5.5 请求格式破坏性变更防护",
@@ -902,8 +960,9 @@
   "author": "NousResearch",
   "sourceUrl": "https://github.com/NousResearch/hermes-agent/pull/123690",
   "platform": "GitHub",
-  "stars": 250157,
-  "date": "2026-09-26"
+  "stars": 250384,
+  "date": "2026-09-26",
+  "metricsCheckedAt": "2026-10-01T03:57:42+00:00"
  },
  {
   "title": "Gajae Code 预设迁移到 Opus 5.5",
@@ -915,8 +974,9 @@
   "author": "Yeachan-Heo",
   "sourceUrl": "https://github.com/Yeachan-Heo/gajae-code/pull/5995",
   "platform": "GitHub",
-  "stars": 2887,
-  "date": "2026-09-26"
+  "stars": 2893,
+  "date": "2026-09-26",
+  "metricsCheckedAt": "2026-10-01T03:58:05+00:00"
  },
  {
   "title": "数学古籍转录在Opus 5.5上的成本重估",
@@ -929,7 +989,8 @@
   "sourceUrl": "https://github.com/Davidwiskundige/readthemasters/pull/88",
   "platform": "GitHub",
   "stars": 1,
-  "date": "2026-09-26"
+  "date": "2026-09-26",
+  "metricsCheckedAt": "2026-10-01T03:57:16+00:00"
  },
  {
   "title": "按Opus 5.5下调技能effort",
@@ -942,7 +1003,8 @@
   "sourceUrl": "https://github.com/masanami/claude-harness/issues/264",
   "platform": "GitHub",
   "stars": 5,
-  "date": "2026-09-26"
+  "date": "2026-09-26",
+  "metricsCheckedAt": "2026-10-01T03:57:36+00:00"
  },
  {
   "title": "Opus 5.5 误将物理复习材料判为网络安全风险",
@@ -954,8 +1016,9 @@
   "author": "FaicalG59",
   "sourceUrl": "https://github.com/anthropics/claude-code/issues/97395",
   "platform": "GitHub",
-  "stars": null,
-  "date": "2026-09-26"
+  "stars": 148746,
+  "date": "2026-09-26",
+  "metricsCheckedAt": "2026-10-01T03:57:04+00:00"
  },
  {
   "title": "Max套餐下Opus 5.5上下文仅150k",
@@ -967,8 +1030,9 @@
   "author": "himo777777",
   "sourceUrl": "https://github.com/anthropics/claude-code/issues/97387",
   "platform": "GitHub",
-  "stars": null,
-  "date": "2026-09-26"
+  "stars": 148746,
+  "date": "2026-09-26",
+  "metricsCheckedAt": "2026-10-01T03:57:04+00:00"
  },
  {
   "title": "OpenCode子智能体创建：Opus 5.5成功而Astra失败",
@@ -980,8 +1044,9 @@
   "author": "pedropombeiro",
   "sourceUrl": "https://github.com/anomalyco/opencode/issues/51464",
   "platform": "GitHub",
-  "stars": null,
-  "date": "2026-09-26"
+  "stars": 211195,
+  "date": "2026-09-26",
+  "metricsCheckedAt": "2026-10-01T03:57:04+00:00"
  },
  {
   "title": "Opus 5.5 智能体循环为MTG引擎实现卡牌",
@@ -994,7 +1059,8 @@
   "sourceUrl": "https://github.com/wingedsheep/argentum-engine/pull/2385",
   "platform": "GitHub",
   "stars": 69,
-  "date": "2026-09-26"
+  "date": "2026-09-26",
+  "metricsCheckedAt": "2026-10-01T03:58:03+00:00"
  },
  {
   "title": "Premiere Pro MCP 的 Opus 5.5 工作流",
@@ -1006,8 +1072,9 @@
   "author": "leancoderkavy",
   "sourceUrl": "https://github.com/leancoderkavy/premiere-pro-mcp/blob/main/docs/claude-opus-5-5.md",
   "platform": "GitHub",
-  "stars": 306,
-  "date": null
+  "stars": 308,
+  "date": null,
+  "metricsCheckedAt": "2026-10-01T03:57:32+00:00"
  },
  {
   "title": "Opus 5.5 的 CLAUDE.md 工作配置",
@@ -1019,8 +1086,9 @@
   "author": "TechNomadCode",
   "sourceUrl": "https://github.com/TechNomadCode/AI-Product-Development-Toolkit/blob/main/agent-configs/claude-code-desktop/claude-opus-5-5/README.md",
   "platform": "GitHub",
-  "stars": 993,
-  "date": null
+  "stars": 994,
+  "date": null,
+  "metricsCheckedAt": "2026-10-01T03:57:55+00:00"
  },
  {
   "title": "LLM Gateway 上线 Claude Opus 5.5",
@@ -1032,8 +1100,9 @@
   "author": "theopenco",
   "sourceUrl": "https://github.com/theopenco/llmgateway/blob/main/apps/ui/src/content/changelog/2026-09-22-claude-opus-5-5.md",
   "platform": "GitHub",
-  "stars": 1666,
-  "date": "2026-09-22"
+  "stars": 1668,
+  "date": "2026-09-22",
+  "metricsCheckedAt": "2026-10-01T03:57:56+00:00"
  },
  {
   "title": "Opus 5.5 写作风格对比 Opus 5",
@@ -1046,7 +1115,8 @@
   "sourceUrl": "https://github.com/jimbobbennett/claude-compare",
   "platform": "GitHub",
   "stars": 1,
-  "date": "2026-09-23"
+  "date": "2026-09-23",
+  "metricsCheckedAt": "2026-10-01T03:57:27+00:00"
  },
  {
   "title": "Grok 4.7 对比 Opus 5.5：3D猫娘奔跑循环",
@@ -1059,7 +1129,8 @@
   "sourceUrl": "https://github.com/negevtvx/grok-vs-opus-catgirl-run",
   "platform": "GitHub",
   "stars": 0,
-  "date": "2026-09-26"
+  "date": "2026-09-26",
+  "metricsCheckedAt": "2026-10-01T03:57:40+00:00"
  },
  {
   "title": "1819年博斯普鲁斯地图全标注翻译",
@@ -1072,7 +1143,8 @@
   "sourceUrl": "https://github.com/CahidArda/bosphore-1819",
   "platform": "GitHub",
   "stars": 2,
-  "date": "2026-09-24"
+  "date": "2026-09-24",
+  "metricsCheckedAt": "2026-10-01T03:57:11+00:00"
  },
  {
   "title": "浏览器飞行模拟器",
@@ -1085,7 +1157,8 @@
   "sourceUrl": "https://github.com/JaredTate/tatertotsflightsim",
   "platform": "GitHub",
   "stars": 3,
-  "date": "2026-09-23"
+  "date": "2026-09-23",
+  "metricsCheckedAt": "2026-10-01T03:57:25+00:00"
  },
  {
   "title": "Slide Rush 水滑梯竞速",
@@ -1098,7 +1171,8 @@
   "sourceUrl": "https://github.com/KJLKurt/waterslide-game-opus-5.5",
   "platform": "GitHub",
   "stars": 1,
-  "date": "2026-09-23"
+  "date": "2026-09-23",
+  "metricsCheckedAt": "2026-10-01T03:57:31+00:00"
  },
  {
   "title": "奥斯特里茨战役代码影片",
@@ -1111,7 +1185,8 @@
   "sourceUrl": "https://github.com/WinterArc21/Battle-of-Austerlitz-Film",
   "platform": "GitHub",
   "stars": 15,
-  "date": "2026-09-24"
+  "date": "2026-09-24",
+  "metricsCheckedAt": "2026-10-01T03:58:03+00:00"
  },
  {
   "title": "papermotion 剪纸动画引擎",
@@ -1123,8 +1198,9 @@
   "author": "francozanardi",
   "sourceUrl": "https://github.com/francozanardi/papermotion",
   "platform": "GitHub",
-  "stars": 2,
-  "date": "2026-09-26"
+  "stars": 3,
+  "date": "2026-09-26",
+  "metricsCheckedAt": "2026-10-01T03:57:22+00:00"
  },
  {
   "title": "Opus 5.5 单次运行121个项目",
@@ -1137,7 +1213,8 @@
   "sourceUrl": "https://github.com/swan4er/opus-100-projects",
   "platform": "GitHub",
   "stars": 2,
-  "date": "2026-09-23"
+  "date": "2026-09-23",
+  "metricsCheckedAt": "2026-10-01T03:57:52+00:00"
  },
  {
   "title": "小螃蟹之家模拟",
@@ -1150,7 +1227,8 @@
   "sourceUrl": "https://github.com/tanuu5/nagi-home",
   "platform": "GitHub",
   "stars": 3,
-  "date": "2026-09-23"
+  "date": "2026-09-23",
+  "metricsCheckedAt": "2026-10-01T03:57:54+00:00"
  },
  {
   "title": "Fishslop 水下养鱼游戏",
@@ -1163,7 +1241,8 @@
   "sourceUrl": "https://github.com/vasu-devs/FishSlop_Opus5.5",
   "platform": "GitHub",
   "stars": 1,
-  "date": "2026-09-22"
+  "date": "2026-09-22",
+  "metricsCheckedAt": "2026-10-01T03:57:59+00:00"
  },
  {
   "title": "DOOM风格射线投射FPS",
@@ -1176,7 +1255,8 @@
   "sourceUrl": "https://github.com/vasu-devs/DOOM_Opus5.5",
   "platform": "GitHub",
   "stars": 1,
-  "date": "2026-09-22"
+  "date": "2026-09-22",
+  "metricsCheckedAt": "2026-10-01T03:57:59+00:00"
  },
  {
   "title": "14个Opus 5.5视觉演示",
@@ -1189,7 +1269,8 @@
   "sourceUrl": "https://github.com/fornhere/opus55-demolar",
   "platform": "GitHub",
   "stars": 2,
-  "date": "2026-09-23"
+  "date": "2026-09-23",
+  "metricsCheckedAt": "2026-10-01T03:57:22+00:00"
  },
  {
   "title": "手绘水彩动画与歌词MV技能",
@@ -1201,8 +1282,9 @@
   "author": "tuzhechen2005",
   "sourceUrl": "https://github.com/tuzhechen2005/painted-animation",
   "platform": "GitHub",
-  "stars": 35,
-  "date": "2026-09-26"
+  "stars": 50,
+  "date": "2026-09-26",
+  "metricsCheckedAt": "2026-10-01T03:57:58+00:00"
  },
  {
   "title": "一句话生成三个3D网页游戏",
@@ -1215,7 +1297,8 @@
   "sourceUrl": "https://github.com/xiiyioozzz/opus55-3d-games",
   "platform": "GitHub",
   "stars": 1,
-  "date": "2026-09-25"
+  "date": "2026-09-25",
+  "metricsCheckedAt": "2026-10-01T03:58:04+00:00"
  },
  {
   "title": "Wire Forge：从URL自动生成Wire动作",
@@ -1228,7 +1311,8 @@
   "sourceUrl": "https://github.com/thegoodengineers/wire-forge",
   "platform": "GitHub",
   "stars": 0,
-  "date": "2026-09-26"
+  "date": "2026-09-26",
+  "metricsCheckedAt": "2026-10-01T03:57:56+00:00"
  },
  {
   "title": "越战2分钟动画解说",
@@ -1241,7 +1325,8 @@
   "sourceUrl": "https://github.com/sanjuhs/opus-5.5-film-experiment-with-animation",
   "platform": "GitHub",
   "stars": 0,
-  "date": "2026-09-26"
+  "date": "2026-09-26",
+  "metricsCheckedAt": "2026-10-01T03:57:48+00:00"
  },
  {
   "title": "15秒动态设计展示片",
@@ -1254,7 +1339,8 @@
   "sourceUrl": "https://github.com/tanuu5/opus-5.5-motion-reel",
   "platform": "GitHub",
   "stars": 1,
-  "date": "2026-09-26"
+  "date": "2026-09-26",
+  "metricsCheckedAt": "2026-10-01T03:57:54+00:00"
  },
  {
   "title": "Emberwake 像素生存肉鸽",
@@ -1266,8 +1352,9 @@
   "author": "mogita",
   "sourceUrl": "https://github.com/mogita/emberwake",
   "platform": "GitHub",
-  "stars": 2,
-  "date": "2026-09-25"
+  "stars": 4,
+  "date": "2026-09-25",
+  "metricsCheckedAt": "2026-10-01T03:57:39+00:00"
  },
  {
   "title": "网页版《缺氧》复刻",
@@ -1293,7 +1380,8 @@
   "sourceUrl": "https://github.com/statecs/Bubble-Catch",
   "platform": "GitHub",
   "stars": 1,
-  "date": "2026-09-25"
+  "date": "2026-09-25",
+  "metricsCheckedAt": "2026-10-01T03:57:51+00:00"
  },
  {
   "title": "PitchRoast 创业路演吐槽委员会",
@@ -1305,8 +1393,9 @@
   "author": "akkireddy-challa",
   "sourceUrl": "https://github.com/akkireddy-challa/pitchroast",
   "platform": "GitHub",
-  "stars": 0,
-  "date": "2026-09-25"
+  "stars": 1,
+  "date": "2026-09-25",
+  "metricsCheckedAt": "2026-10-01T03:57:03+00:00"
  },
  {
   "title": "复刻Opus 5.5展示视频中的7个网站",
@@ -1319,7 +1408,8 @@
   "sourceUrl": "https://github.com/az9713/opus-5.5-websites-rebuild",
   "platform": "GitHub",
   "stars": 0,
-  "date": "2026-09-25"
+  "date": "2026-09-25",
+  "metricsCheckedAt": "2026-10-01T03:57:07+00:00"
  },
  {
   "title": "蜡笔夜曲：模型生成动画与音乐",
@@ -1332,7 +1422,8 @@
   "sourceUrl": "https://github.com/nanlong/crayon-nocturne",
   "platform": "GitHub",
   "stars": 0,
-  "date": "2026-09-26"
+  "date": "2026-09-26",
+  "metricsCheckedAt": "2026-10-01T03:57:40+00:00"
  },
  {
   "title": "长风：浏览器武侠动作游戏",
@@ -1344,9 +1435,9 @@
   "author": "jbang2004",
   "sourceUrl": "https://github.com/jbang2004/long-wind",
   "platform": "GitHub",
-  "stars": 29,
+  "stars": 35,
   "date": "2026-09-26",
-  "metricsCheckedAt": "2026-09-27T07:56:26+00:00"
+  "metricsCheckedAt": "2026-10-01T03:57:26+00:00"
  },
  {
   "title": "一句提示生成的C++26游戏服务器",
@@ -1359,7 +1450,8 @@
   "sourceUrl": "https://github.com/Deluze/hovorun",
   "platform": "GitHub",
   "stars": 0,
-  "date": "2026-09-25"
+  "date": "2026-09-25",
+  "metricsCheckedAt": "2026-10-01T03:57:17+00:00"
  },
  {
   "title": "Opus 5.5 60秒宣传片《举重若轻》",
@@ -1372,7 +1464,8 @@
   "sourceUrl": "https://github.com/juyi404/opus55-promo",
   "platform": "GitHub",
   "stars": 0,
-  "date": "2026-09-24"
+  "date": "2026-09-24",
+  "metricsCheckedAt": "2026-10-01T03:57:29+00:00"
  },
  {
   "title": "罗斯威尔Ramey备忘录图像重分析",
@@ -1385,7 +1478,8 @@
   "sourceUrl": "https://github.com/bobhuff0/ramey-memo-opus55-jev",
   "platform": "GitHub",
   "stars": 0,
-  "date": "2026-09-25"
+  "date": "2026-09-25",
+  "metricsCheckedAt": "2026-10-01T03:57:10+00:00"
  },
  {
   "title": "ClaudeOS 64位操作系统",
@@ -1398,7 +1492,8 @@
   "sourceUrl": "https://github.com/Melvin2611/claudeos",
   "platform": "GitHub",
   "stars": 0,
-  "date": "2026-09-25"
+  "date": "2026-09-25",
+  "metricsCheckedAt": "2026-10-01T03:57:37+00:00"
  },
  {
   "title": "旧金山本地商户数字化调研",
@@ -1411,7 +1506,8 @@
   "sourceUrl": "https://github.com/JPHutchins/proj-digitizing-local-biz-research",
   "platform": "GitHub",
   "stars": 0,
-  "date": "2026-09-26"
+  "date": "2026-09-26",
+  "metricsCheckedAt": "2026-10-01T03:57:28+00:00"
  },
  {
   "title": "Opus 5.5 制作30秒品牌宣传片",
@@ -1424,7 +1520,8 @@
   "sourceUrl": "https://github.com/MeiJynX/Claude-Opus5.5-MakeBrandFilm",
   "platform": "GitHub",
   "stars": 0,
-  "date": "2026-09-25"
+  "date": "2026-09-25",
+  "metricsCheckedAt": "2026-10-01T03:57:37+00:00"
  },
  {
   "title": "《塞拉菲尼抄本》致敬视听作品",
@@ -1437,7 +1534,8 @@
   "sourceUrl": "https://github.com/amberxplorer/opus5.5-seraphinianus",
   "platform": "GitHub",
   "stars": 0,
-  "date": "2026-09-25"
+  "date": "2026-09-25",
+  "metricsCheckedAt": "2026-10-01T03:57:04+00:00"
  },
  {
   "title": "Motion Reel ’26 代码生成展示片",
@@ -1450,7 +1548,8 @@
   "sourceUrl": "https://github.com/SuhaasNv/claude-opus5.5-video",
   "platform": "GitHub",
   "stars": 3,
-  "date": "2026-09-25"
+  "date": "2026-09-25",
+  "metricsCheckedAt": "2026-10-01T03:57:52+00:00"
  },
  {
   "title": "局域网合作僵尸射击",
@@ -1464,7 +1563,7 @@
   "platform": "GitHub",
   "stars": 0,
   "date": "2026-09-25",
-  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+  "metricsCheckedAt": "2026-10-01T03:57:38+00:00"
  },
  {
   "title": "Opus 5.5 一条提示做的说唱与MV",
@@ -1477,7 +1576,8 @@
   "sourceUrl": "https://github.com/eszn/claude-absolutely-right",
   "platform": "GitHub",
   "stars": 3,
-  "date": "2026-09-25"
+  "date": "2026-09-25",
+  "metricsCheckedAt": "2026-10-01T03:57:20+00:00"
  },
  {
   "title": "一句话生成的5v5 MOBA",
@@ -1491,7 +1591,7 @@
   "platform": "GitHub",
   "stars": 3,
   "date": "2026-09-24",
-  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+  "metricsCheckedAt": "2026-10-01T03:57:39+00:00"
  },
  {
   "title": "3D错视美术馆",
@@ -1504,7 +1604,8 @@
   "sourceUrl": "https://github.com/Maoku/Opus55OpticalIllusion",
   "platform": "GitHub",
   "stars": 1,
-  "date": "2026-09-23"
+  "date": "2026-09-23",
+  "metricsCheckedAt": "2026-10-01T03:57:36+00:00"
  },
  {
   "title": "GPT-6 与 Opus 5.5 五项实测作品集",
@@ -1517,7 +1618,8 @@
   "sourceUrl": "https://github.com/Zp-Peter/gpt6-opus55-benchmark-showcase",
   "platform": "GitHub",
   "stars": 1,
-  "date": "2026-09-24"
+  "date": "2026-09-24",
+  "metricsCheckedAt": "2026-10-01T03:58:07+00:00"
  },
  {
   "title": "CORTEX：Opus 5.5 × Obsidian 第二大脑",
@@ -1530,7 +1632,8 @@
   "sourceUrl": "https://github.com/Shelpid/CORTEX",
   "platform": "GitHub",
   "stars": 4,
-  "date": "2026-09-24"
+  "date": "2026-09-24",
+  "metricsCheckedAt": "2026-10-01T03:57:49+00:00"
  },
  {
   "title": "Palmera Bay 氛围编码游戏",
@@ -1543,7 +1646,8 @@
   "sourceUrl": "https://github.com/vcahlik/palmera-bay",
   "platform": "GitHub",
   "stars": 0,
-  "date": "2026-09-23"
+  "date": "2026-09-23",
+  "metricsCheckedAt": "2026-10-01T03:57:59+00:00"
  },
  {
   "title": "Opus 5.5 生成的F1网页游戏",
@@ -1556,7 +1660,8 @@
   "sourceUrl": "https://github.com/GatoArtStudio/f1-opus-5.5",
   "platform": "GitHub",
   "stars": 0,
-  "date": "2026-09-23"
+  "date": "2026-09-23",
+  "metricsCheckedAt": "2026-10-01T03:57:23+00:00"
  },
  {
   "title": "Opus 5.5 提示词生成器",
@@ -1569,7 +1674,8 @@
   "sourceUrl": "https://github.com/Eddienews/opus-5-5-prompt-studio",
   "platform": "GitHub",
   "stars": 0,
-  "date": "2026-09-26"
+  "date": "2026-09-26",
+  "metricsCheckedAt": "2026-10-01T03:57:20+00:00"
  },
  {
   "title": "从图片生成可玩的柏青哥台",
@@ -1582,7 +1688,8 @@
   "sourceUrl": "https://github.com/Maoku/Opus55CatgirlPachi",
   "platform": "GitHub",
   "stars": 0,
-  "date": "2026-09-23"
+  "date": "2026-09-23",
+  "metricsCheckedAt": "2026-10-01T03:57:36+00:00"
  },
  {
   "title": "风险曲线MV回应之作",
@@ -1595,7 +1702,8 @@
   "sourceUrl": "https://github.com/nickmontag/why-wont-you-let-me-help",
   "platform": "GitHub",
   "stars": 0,
-  "date": "2026-09-26"
+  "date": "2026-09-26",
+  "metricsCheckedAt": "2026-10-01T03:57:41+00:00"
  },
  {
   "title": "像素幸存者：夜曲",
@@ -1608,7 +1716,8 @@
   "sourceUrl": "https://github.com/Black2856/pixel_survivors_opus5.5test",
   "platform": "GitHub",
   "stars": 0,
-  "date": "2026-09-25"
+  "date": "2026-09-25",
+  "metricsCheckedAt": "2026-10-01T03:57:09+00:00"
  },
  {
   "title": "亚得里亚海飞行艇3D短片",
@@ -1621,7 +1730,8 @@
   "sourceUrl": "https://github.com/t-shiratori/azzurro-plane-3d-opus5.5",
   "platform": "GitHub",
   "stars": 1,
-  "date": "2026-09-23"
+  "date": "2026-09-23",
+  "metricsCheckedAt": "2026-10-01T03:57:53+00:00"
  },
  {
   "title": "剪辑史互动地图",
@@ -1634,7 +1744,8 @@
   "sourceUrl": "https://github.com/SeentheDigital/history-of-the-edit",
   "platform": "GitHub",
   "stars": 0,
-  "date": "2026-09-26"
+  "date": "2026-09-26",
+  "metricsCheckedAt": "2026-10-01T03:57:48+00:00"
  },
  {
   "title": "Minecraft反作弊模型解说视频",
@@ -1647,7 +1758,8 @@
   "sourceUrl": "https://github.com/vladimirkulikdev/opus-5.5-video-test",
   "platform": "GitHub",
   "stars": 0,
-  "date": "2026-09-26"
+  "date": "2026-09-26",
+  "metricsCheckedAt": "2026-10-01T03:58:01+00:00"
  },
  {
   "category": "science",
@@ -1664,7 +1776,8 @@
   "checkedAt": "2026-09-27T07:52:53+00:00",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22&sort=updated&per_page=100",
   "evidenceBasis": "repository README; author-reported, not independently executed",
-  "evidenceUrl": "https://raw.githubusercontent.com/ramenprotokol/overkill/main/README.md"
+  "evidenceUrl": "https://raw.githubusercontent.com/ramenprotokol/overkill/main/README.md",
+  "metricsCheckedAt": "2026-10-01T03:57:45+00:00"
  },
  {
   "category": "games",
@@ -1681,7 +1794,8 @@
   "checkedAt": "2026-09-27T07:52:53+00:00",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22&sort=updated&per_page=100",
   "evidenceBasis": "repository README; author-reported, not independently executed",
-  "evidenceUrl": "https://raw.githubusercontent.com/AlexGalhardo/CLI-Turn-Based-RPG-Game/main/README.md"
+  "evidenceUrl": "https://raw.githubusercontent.com/AlexGalhardo/CLI-Turn-Based-RPG-Game/main/README.md",
+  "metricsCheckedAt": "2026-10-01T03:57:04+00:00"
  },
  {
   "category": "games",
@@ -1698,7 +1812,8 @@
   "checkedAt": "2026-09-27T07:52:53+00:00",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22&sort=updated&per_page=100",
   "evidenceBasis": "repository README; author-reported, not independently executed",
-  "evidenceUrl": "https://raw.githubusercontent.com/az9713/opus-5.5-open-world-game/main/README.md"
+  "evidenceUrl": "https://raw.githubusercontent.com/az9713/opus-5.5-open-world-game/main/README.md",
+  "metricsCheckedAt": "2026-10-01T03:57:07+00:00"
  },
  {
   "category": "games",
@@ -1716,7 +1831,7 @@
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22&sort=updated&per_page=100",
   "evidenceBasis": "repository README; author-reported, not independently executed",
   "evidenceUrl": "https://raw.githubusercontent.com/levy-street/pokemon-claude-red/main/README.md",
-  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+  "metricsCheckedAt": "2026-10-01T03:57:34+00:00"
  },
  {
   "category": "games",
@@ -1733,7 +1848,8 @@
   "checkedAt": "2026-09-27T07:52:53+00:00",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22&sort=updated&per_page=100",
   "evidenceBasis": "repository README; author-reported, not independently executed",
-  "evidenceUrl": "https://raw.githubusercontent.com/SummerEngine/sakura-rally/main/README.md"
+  "evidenceUrl": "https://raw.githubusercontent.com/SummerEngine/sakura-rally/main/README.md",
+  "metricsCheckedAt": "2026-10-01T03:57:52+00:00"
  },
  {
   "category": "video",
@@ -1750,7 +1866,8 @@
   "checkedAt": "2026-09-27T07:52:53+00:00",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22&sort=updated&per_page=100",
   "evidenceBasis": "repository README; author-reported, not independently executed",
-  "evidenceUrl": "https://raw.githubusercontent.com/cyborggirl963/opus-5.5-music-video-art-styles/main/README.md"
+  "evidenceUrl": "https://raw.githubusercontent.com/cyborggirl963/opus-5.5-music-video-art-styles/main/README.md",
+  "metricsCheckedAt": "2026-10-01T03:57:15+00:00"
  },
  {
   "category": "video",
@@ -1763,11 +1880,12 @@
   "author": "tuzhechen2005",
   "platform": "GitHub",
   "date": "2026-09-26",
-  "stars": 35,
+  "stars": 50,
   "checkedAt": "2026-09-27T07:52:53+00:00",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22&sort=updated&per_page=100",
   "evidenceBasis": "repository README; author-reported, not independently executed",
-  "evidenceUrl": "https://raw.githubusercontent.com/tuzhechen2005/opus-video-skills/main/README.md"
+  "evidenceUrl": "https://raw.githubusercontent.com/tuzhechen2005/opus-video-skills/main/README.md",
+  "metricsCheckedAt": "2026-10-01T03:57:58+00:00"
  },
  {
   "category": "games",
@@ -1784,7 +1902,8 @@
   "checkedAt": "2026-09-27T07:52:53+00:00",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22&sort=updated&per_page=100",
   "evidenceBasis": "repository README; author-reported, not independently executed",
-  "evidenceUrl": "https://raw.githubusercontent.com/nexost/sts2-pres-mod/master/README.md"
+  "evidenceUrl": "https://raw.githubusercontent.com/nexost/sts2-pres-mod/master/README.md",
+  "metricsCheckedAt": "2026-10-01T03:57:41+00:00"
  },
  {
   "category": "science",
@@ -1801,7 +1920,8 @@
   "checkedAt": "2026-09-27T07:52:53+00:00",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22&sort=updated&per_page=100",
   "evidenceBasis": "repository README; author-reported, not independently executed",
-  "evidenceUrl": "https://raw.githubusercontent.com/Petyok/life3d/main/README.md"
+  "evidenceUrl": "https://raw.githubusercontent.com/Petyok/life3d/main/README.md",
+  "metricsCheckedAt": "2026-10-01T03:57:44+00:00"
  },
  {
   "category": "games",
@@ -1818,7 +1938,8 @@
   "checkedAt": "2026-09-27T07:52:53+00:00",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22&sort=updated&per_page=100",
   "evidenceBasis": "repository README; author-reported, not independently executed",
-  "evidenceUrl": "https://raw.githubusercontent.com/KyleBuildsAI/driftwing/main/README.md"
+  "evidenceUrl": "https://raw.githubusercontent.com/KyleBuildsAI/driftwing/main/README.md",
+  "metricsCheckedAt": "2026-10-01T03:57:32+00:00"
  },
  {
   "category": "video",
@@ -1835,7 +1956,8 @@
   "checkedAt": "2026-09-27T07:52:53+00:00",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22&sort=updated&per_page=100",
   "evidenceBasis": "repository README; author-reported, not independently executed",
-  "evidenceUrl": "https://raw.githubusercontent.com/codegobrrrr9/repo-trailer/main/README.md"
+  "evidenceUrl": "https://raw.githubusercontent.com/codegobrrrr9/repo-trailer/main/README.md",
+  "metricsCheckedAt": "2026-10-01T03:57:14+00:00"
  },
  {
   "category": "games",
@@ -1852,7 +1974,8 @@
   "checkedAt": "2026-09-27T07:52:53+00:00",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22&sort=updated&per_page=100",
   "evidenceBasis": "repository README; author-reported, not independently executed",
-  "evidenceUrl": "https://raw.githubusercontent.com/mattezell/open-to-work/main/README.md"
+  "evidenceUrl": "https://raw.githubusercontent.com/mattezell/open-to-work/main/README.md",
+  "metricsCheckedAt": "2026-10-01T03:57:36+00:00"
  },
  {
   "category": "coding",
@@ -1869,7 +1992,8 @@
   "checkedAt": "2026-09-27T07:52:53+00:00",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22&sort=updated&per_page=100",
   "evidenceBasis": "repository README; author-reported, not independently executed",
-  "evidenceUrl": "https://raw.githubusercontent.com/morganlinton/vulcanbench-opus55-traces/main/README.md"
+  "evidenceUrl": "https://raw.githubusercontent.com/morganlinton/vulcanbench-opus55-traces/main/README.md",
+  "metricsCheckedAt": "2026-10-01T03:57:39+00:00"
  },
  {
   "category": "business",
@@ -1886,7 +2010,8 @@
   "checkedAt": "2026-09-27T07:52:53+00:00",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22&sort=updated&per_page=100",
   "evidenceBasis": "repository README; author-reported, not independently executed",
-  "evidenceUrl": "https://raw.githubusercontent.com/ChrisMcKee1/tidewater-lng/main/README.md"
+  "evidenceUrl": "https://raw.githubusercontent.com/ChrisMcKee1/tidewater-lng/main/README.md",
+  "metricsCheckedAt": "2026-10-01T03:57:13+00:00"
  },
  {
   "category": "science",
@@ -1903,7 +2028,8 @@
   "checkedAt": "2026-09-27T07:52:53+00:00",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22&sort=updated&per_page=100",
   "evidenceBasis": "repository README; author-reported, not independently executed",
-  "evidenceUrl": "https://raw.githubusercontent.com/RBarish-UTokyo/FourColorTheorem-Lean4/main/README.md"
+  "evidenceUrl": "https://raw.githubusercontent.com/RBarish-UTokyo/FourColorTheorem-Lean4/main/README.md",
+  "metricsCheckedAt": "2026-10-01T03:57:46+00:00"
  },
  {
   "category": "coding",
@@ -1920,7 +2046,8 @@
   "checkedAt": "2026-09-27T07:52:53+00:00",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22&sort=updated&per_page=100",
   "evidenceBasis": "repository README; author-reported, not independently executed",
-  "evidenceUrl": "https://raw.githubusercontent.com/stas4000/datalens/main/README.md"
+  "evidenceUrl": "https://raw.githubusercontent.com/stas4000/datalens/main/README.md",
+  "metricsCheckedAt": "2026-10-01T03:57:51+00:00"
  },
  {
   "title": "Lemo-Opuscar：39 种影片风格",
@@ -1933,7 +2060,7 @@
   "author": "lemomo-ai",
   "platform": "GitHub",
   "date": "2026-09-26",
-  "stars": 687,
+  "stars": 693,
   "checkedAt": "2026-09-27T08:18:12+00:00",
   "discoveredVia": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/main/README.md",
   "evidenceBasis": "Repository README, style index, DIRECTOR.md and TECHNIQUE.md; collection counted once; not independently reproduced",
@@ -1955,7 +2082,7 @@
     "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/TECHNIQUE.md"
    }
   ],
-  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+  "metricsCheckedAt": "2026-10-01T03:57:34+00:00"
  },
  {
   "title": "读取网站生成产品动效片的技能",
@@ -1972,7 +2099,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/japsnap/motionreels/main/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:25+00:00"
  },
  {
   "title": "浏览器翼装飞行游戏",
@@ -1989,7 +2117,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/dliedke/emilius_wingsuit/main/README.md",
-  "evidenceBasis": "README; not independently run"
+  "evidenceBasis": "README; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:18+00:00"
  },
  {
   "title": "五千年历史三维地球",
@@ -2006,7 +2135,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/DanielaRosenn/anno-mundi/main/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:16+00:00"
  },
  {
   "title": "2050年视角的保加利亚史",
@@ -2023,7 +2153,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/dobrinov/history-book-2050/main/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:18+00:00"
  },
  {
   "title": "韩语像素放置游戏与GPT对照",
@@ -2040,7 +2171,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/Legerdo/metric-bloom-opus-5-5/main/README.md",
-  "evidenceBasis": "README; not independently run"
+  "evidenceBasis": "README; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:32+00:00"
  },
  {
   "title": "真实比例太阳系浏览器",
@@ -2058,7 +2190,7 @@
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/antondziuin/Solar/main/README.md",
   "evidenceBasis": "README and commit trailers; not independently run",
-  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+  "metricsCheckedAt": "2026-10-01T03:57:04+00:00"
  },
  {
   "title": "PDF一键生成配音竖屏短片",
@@ -2076,7 +2208,7 @@
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/ww-w-ai/super-video-agent/main/README.md",
   "evidenceBasis": "README and commit trailers; not independently run",
-  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+  "metricsCheckedAt": "2026-10-01T03:58:04+00:00"
  },
  {
   "title": "用Skarn语言写的Redis克隆",
@@ -2093,7 +2225,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/stefan-zobel/Sedis/master/README.md",
-  "evidenceBasis": "README; not independently run"
+  "evidenceBasis": "README; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:51+00:00"
  },
  {
   "title": "三种尺寸像素角色动作测评",
@@ -2110,7 +2243,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/Legerdo/opus55-pixel-character-action-benchmark/main/README.md",
-  "evidenceBasis": "README; not independently run"
+  "evidenceBasis": "README; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:33+00:00"
  },
  {
   "title": "像素场景四种提示条件对比",
@@ -2127,7 +2261,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/Legerdo/opus55-pixel-diorama-benchmark/main/README.md",
-  "evidenceBasis": "README; not independently run"
+  "evidenceBasis": "README; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:33+00:00"
  },
  {
   "title": "可视化神经“苍蝇”基准",
@@ -2144,7 +2279,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/anttiluode/FlyBench/main/README.md",
-  "evidenceBasis": "README; not independently run"
+  "evidenceBasis": "README; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:05+00:00"
  },
  {
   "title": "用Nim重写P-ROBOTS",
@@ -2161,7 +2297,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/id2359/nimbots/main/README.md",
-  "evidenceBasis": "README; not independently run"
+  "evidenceBasis": "README; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:24+00:00"
  },
  {
   "title": "Blender板球三维短片",
@@ -2179,7 +2316,7 @@
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/Madheshvivekanandan/perfect-yorker-3d/main/README.md",
   "evidenceBasis": "README and commit trailers; not independently run",
-  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+  "metricsCheckedAt": "2026-10-01T03:57:35+00:00"
  },
  {
   "title": "纯代码夏日海边小镇短片",
@@ -2196,7 +2333,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/tanuu5/natsu-no-yume/main/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:54+00:00"
  },
  {
   "title": "用代码逐镜重建短片",
@@ -2213,7 +2351,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/RPD123-byte/apprentice-film/main/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:47+00:00"
  },
  {
   "title": "Opus 5.5视频与提示词合集",
@@ -2226,12 +2365,12 @@
   "sourceUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos",
   "platform": "GitHub",
   "date": "2026-09-27",
-  "stars": 1108,
+  "stars": 1118,
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/yihui-dev/awesome-opus5-5-videos/main/README.md",
   "evidenceBasis": "README and commit trailers; not independently run",
-  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+  "metricsCheckedAt": "2026-10-01T03:58:06+00:00"
  },
  {
   "title": "面向Opus 5.5的资深工程师输出风格",
@@ -2248,7 +2387,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/zqkra/opus-prime/main/README.md",
-  "evidenceBasis": "README; not independently run"
+  "evidenceBasis": "README; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:58:07+00:00"
  },
  {
   "title": "我的世界“往昔回响”模组",
@@ -2265,7 +2405,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/adpulsipher/mc-mod-opus5.5/claude/adoring-brown-7r3q71/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:02+00:00"
  },
  {
   "title": "《Call in Opus》代码MV",
@@ -2282,7 +2423,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/meaterick/opusvideo/main/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:36+00:00"
  },
  {
   "title": "黑洞科幻预告片测试",
@@ -2299,7 +2441,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/Artemiy12A/the-last-signal/main/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:05+00:00"
  },
  {
   "title": "霍格沃茨三维考据地图",
@@ -2316,7 +2459,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/Cool2bwichu/Hogwarts_project/claude/hogwarts-map-k6acla/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:14+00:00"
  },
  {
   "title": "水彩寻宝小游戏礼物",
@@ -2329,11 +2473,12 @@
   "sourceUrl": "https://github.com/deepujain/casadegema",
   "platform": "GitHub",
   "date": "2026-09-28",
-  "stars": 1,
+  "stars": 2,
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/deepujain/casadegema/main/README.md",
-  "evidenceBasis": "README; not independently run"
+  "evidenceBasis": "README; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:17+00:00"
  },
  {
   "title": "知识库驱动的AI业务面板",
@@ -2350,7 +2495,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/shabbirun/opus-5-5-os/main/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:49+00:00"
  },
  {
   "title": "带手部动画的钢琴演奏器",
@@ -2368,7 +2514,7 @@
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/V9011N/pygame-piano-animator/main/README.md",
   "evidenceBasis": "README and commit trailers; not independently run",
-  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+  "metricsCheckedAt": "2026-10-01T03:57:59+00:00"
  },
  {
   "title": "终端字符风三维歌词视频",
@@ -2385,7 +2531,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/Dakota1-1/nuts-lyric-video/main/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:15+00:00"
  },
  {
   "title": "办公楼层三维平面还原",
@@ -2403,7 +2550,7 @@
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/katsuhiro-hayasaka-orico/3D-kousai-opus5.5/claude/zen-allen-vvryyw/README.md",
   "evidenceBasis": "README and commit trailers; not independently run",
-  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+  "metricsCheckedAt": "2026-10-01T03:57:30+00:00"
  },
  {
   "title": "音乐转动效MV插件",
@@ -2416,12 +2563,12 @@
   "sourceUrl": "https://github.com/makevoid/motion-graphics-music-video-skill",
   "platform": "GitHub",
   "date": "2026-09-26",
-  "stars": 79,
+  "stars": 81,
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/makevoid/motion-graphics-music-video-skill/main/README.md",
   "evidenceBasis": "README; not independently run",
-  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+  "metricsCheckedAt": "2026-10-01T03:57:36+00:00"
  },
  {
   "title": "临床诊断校准预注册评测",
@@ -2438,7 +2585,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/avnish-deobhakta/jev-clinical-calibration/main/README.md",
-  "evidenceBasis": "README; not independently run"
+  "evidenceBasis": "README; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:07+00:00"
  },
  {
   "title": "宇宙年历与太阳系双项目",
@@ -2455,7 +2603,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/claude-skills-kit/cosmic-opus/main/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:14+00:00"
  },
  {
   "title": "Opus/Astra分步提示词生成插件",
@@ -2473,7 +2622,7 @@
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/bwoliveira/prompt-studio/main/README.md",
   "evidenceBasis": "README; not independently run",
-  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+  "metricsCheckedAt": "2026-10-01T03:57:11+00:00"
  },
  {
   "title": "等距丧尸生存沙盒",
@@ -2490,7 +2639,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/wellscurrence-a11y/Zombie-game-opus5.5/claude/zombie-survival-game-s8xea5/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:58:02+00:00"
  },
  {
   "title": "复刻热门Opus作品的15个变体",
@@ -2507,7 +2657,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/az9713/opus-5.5-builds/main/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:07+00:00"
  },
  {
   "title": "拉各斯背景浏览器FPS",
@@ -2541,7 +2692,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/Vedmeena21/Opus-5.5-Motion-Graphics/main/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:59+00:00"
  },
  {
   "title": "海岛村落建造小游戏",
@@ -2558,7 +2710,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/razgovor-glitch/island_opus5_5/main/README.md",
-  "evidenceBasis": "README; not independently run"
+  "evidenceBasis": "README; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:46+00:00"
  },
  {
   "title": "Godot三维动作RPG",
@@ -2575,7 +2728,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/ggdover/mashuprpg/master/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:23+00:00"
  },
  {
   "title": "虚幻5挖矿幸存者游戏",
@@ -2592,7 +2746,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/ggdover/deepdelve/main/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:23+00:00"
  },
  {
   "title": "手机当手柄的影子派对游戏",
@@ -2609,7 +2764,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/briossant/ombres/master/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:11+00:00"
  },
  {
   "title": "Opus 5.5 的小作品集",
@@ -2626,7 +2782,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/groundstation1/small-works/main/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:23+00:00"
  },
  {
   "title": "绕过高级语言写程序实验",
@@ -2644,7 +2801,7 @@
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/piiiico/no-abstraction/main/README.md",
   "evidenceBasis": "README; not independently run",
-  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+  "metricsCheckedAt": "2026-10-01T03:57:44+00:00"
  },
  {
   "title": "自主运行的城市模拟",
@@ -2661,7 +2818,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/SaiCharan007-max/Opus-5.5Hails/claude/fervent-edison-xw4lo7/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:47+00:00"
  },
  {
   "title": "在Claude Code复测三项官方宣称",
@@ -2678,7 +2836,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/code-with-sam-dev/claude-code-opus-test/master/README.md",
-  "evidenceBasis": "README; not independently run"
+  "evidenceBasis": "README; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:14+00:00"
  },
  {
   "title": "Godot卡丁车赛车游戏",
@@ -2695,7 +2854,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/fants/Gale-kart/main/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:21+00:00"
  },
  {
   "title": "Opus代码视频案例与提示词",
@@ -2708,11 +2868,12 @@
   "sourceUrl": "https://github.com/joeseesun/opus-video-prompts",
   "platform": "GitHub",
   "date": "2026-09-27",
-  "stars": 99,
+  "stars": 110,
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/joeseesun/opus-video-prompts/main/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:28+00:00"
  },
  {
   "title": "中本聪线索调查实验",
@@ -2729,7 +2890,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/lextoumbourou/opus-satoshi-research/main/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:34+00:00"
  },
  {
   "title": "一句话霓虹打砖块",
@@ -2742,11 +2904,12 @@
   "sourceUrl": "https://github.com/Jack-c3l2w/arkanoid-neon",
   "platform": "GitHub",
   "date": "2026-09-26",
-  "stars": 0,
+  "stars": 1,
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/Jack-c3l2w/arkanoid-neon/main/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:25+00:00"
  },
  {
   "title": "电子科大70周年网页贺卡",
@@ -2763,7 +2926,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/tly43520-create/uestc70-greeting-card/main/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:56+00:00"
  },
  {
   "title": "Opus 5.5开发速成指南",
@@ -2780,7 +2944,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/e1daru/opus-5-5-dev-guide/main/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:19+00:00"
  },
  {
   "title": "三关浏览器射鸡游戏",
@@ -2797,7 +2962,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/oliverhees/huehnerjagd/main/README.md",
-  "evidenceBasis": "README; not independently run"
+  "evidenceBasis": "README; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:42+00:00"
  },
  {
   "title": "川端桥百年三维滚动故事",
@@ -2814,7 +2980,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/clarencechien/opus55poc/main/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:13+00:00"
  },
  {
   "title": "P(doom)网格版MV",
@@ -2831,7 +2998,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/dark-faze/opus5.5-video-test/claude/tron-legacy-ares-video-jb0irm/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:16+00:00"
  },
  {
   "title": "首都高C1三维模型生成器",
@@ -2848,7 +3016,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/monzblog/claude_3Dmodel_Opus5p5/claude/project-thread-eeqfxo/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:39+00:00"
  },
  {
   "title": "高中化学互动讲解",
@@ -2865,7 +3034,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/Athullvr/Chemistry-Study-Material-Using-Opus5.5/main/README.md",
-  "evidenceBasis": "README; not independently run"
+  "evidenceBasis": "README; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:06+00:00"
  },
  {
   "title": "程序生成后室漫步游戏",
@@ -2882,7 +3052,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/AidenAllredOfficial/backrooms-oneshot-opus5-5/master/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:03+00:00"
  },
  {
   "title": "致命公司式联机恐怖游戏",
@@ -2899,7 +3070,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/TESTYEE-09/opus5.5Lethal/claude/busy-cray-rbpj04/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:55+00:00"
  },
  {
   "title": "院区开放日三维地图",
@@ -2916,7 +3088,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/YunruDU/openhouse-3d/main/README.md",
-  "evidenceBasis": "README; not independently run"
+  "evidenceBasis": "README; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:58:06+00:00"
  },
  {
   "title": "30行规则让任务成本减半",
@@ -2929,11 +3102,12 @@
   "sourceUrl": "https://github.com/quisbaum-prog/occam",
   "platform": "GitHub",
   "date": "2026-09-27",
-  "stars": 9,
+  "stars": 12,
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/quisbaum-prog/occam/main/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:45+00:00"
  },
  {
   "title": "Opus 5.5 的自传实验",
@@ -2950,7 +3124,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/edd426/claude_opus_5_5_autobiographical/main/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:19+00:00"
  },
  {
   "title": "分类Opus 5.5视频案例库",
@@ -2963,11 +3138,12 @@
   "sourceUrl": "https://github.com/chuspeeism/awesome-opus-5-5-videos",
   "platform": "GitHub",
   "date": "2026-09-26",
-  "stars": 86,
+  "stars": 87,
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/chuspeeism/awesome-opus-5-5-videos/main/README.md",
-  "evidenceBasis": "README; not independently run"
+  "evidenceBasis": "README; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:13+00:00"
  },
  {
   "title": "托尼霍克式滑板游戏",
@@ -2980,11 +3156,12 @@
   "sourceUrl": "https://github.com/3D-Stories/skate-game-opus-5-5",
   "platform": "GitHub",
   "date": "2026-09-27",
-  "stars": 0,
+  "stars": 1,
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/3D-Stories/skate-game-opus-5-5/character-builder/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:02+00:00"
  },
  {
   "title": "保险累积风险三维监测",
@@ -3001,7 +3178,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/rohitranjan1812/opus-5-5-global-accumulation-monitoring-/claude/global-accumulation-monitoring-m15q1o/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:46+00:00"
  },
  {
   "title": "气候影响三维模拟器",
@@ -3018,7 +3196,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/rohitranjan1812/opus-5-5-test-climate-change/claude/3d-climate-impact-sim-rcxgxz/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:46+00:00"
  },
  {
   "title": "2046主题动效短片",
@@ -3035,7 +3214,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/nathankochera/opus-5.5-motion-graphics-2046/main/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:40+00:00"
  },
  {
   "title": "科技树电子流行歌与MV",
@@ -3052,7 +3232,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/bilixuesheng/a-music-by-opus-5.5/claude/human-tech-evolution-song-hyebgh/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:09+00:00"
  },
  {
   "title": "Unity版我的世界复刻",
@@ -3069,7 +3250,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/irgegh2/Unity-Opus-5.5-Minecraft/main/README.md",
-  "evidenceBasis": "README; not independently run"
+  "evidenceBasis": "README; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:25+00:00"
  },
  {
   "title": "黄昏灯塔程序化场景",
@@ -3086,7 +3268,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/SiCraft11/3d-Test-Opus-5.5/claude/gifted-hopper-rwjqdt/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:49+00:00"
  },
  {
   "title": "Shorts短片与封面源码",
@@ -3103,7 +3286,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/jas2k/Opus-5.5-/main/README.md",
-  "evidenceBasis": "README; not independently run"
+  "evidenceBasis": "README; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:26+00:00"
  },
  {
   "title": "Game & Watch 网页复刻",
@@ -3120,7 +3304,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/jas2k/Gameboy-game-watch-opus-5.5-/main/README.md",
-  "evidenceBasis": "README; not independently run"
+  "evidenceBasis": "README; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:26+00:00"
  },
  {
   "title": "本地模型体素霍格沃茨测试",
@@ -3137,7 +3322,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/asp67/local-llm-voxel-hogwarts/main/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:05+00:00"
  },
  {
   "title": "AI自述作品集页面",
@@ -3154,7 +3340,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/repositories",
   "evidenceUrl": "https://raw.githubusercontent.com/vladimirkulikdev/Opus-5.5-test/main/README.md",
-  "evidenceBasis": "README; not independently run"
+  "evidenceBasis": "README; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:58:01+00:00"
  },
  {
   "title": "工单驱动的像素平台游戏",
@@ -3171,7 +3358,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://github.com/ (curated Opus 5.5 list links)",
   "evidenceUrl": "https://raw.githubusercontent.com/PrabhjotSodhi/ClaudeJump/main/README.md",
-  "evidenceBasis": "README; not independently run"
+  "evidenceBasis": "README; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:44+00:00"
  },
  {
   "title": "黑客松语音平台游戏",
@@ -3188,7 +3376,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://github.com/ (curated Opus 5.5 list links)",
   "evidenceUrl": "https://raw.githubusercontent.com/travisstephenfraser/survive-coders/master/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:57+00:00"
  },
  {
   "title": "宠物照片变岛屿伙伴",
@@ -3205,7 +3394,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://github.com/ (curated Opus 5.5 list links)",
   "evidenceUrl": "https://raw.githubusercontent.com/tahcin/pet-island/main/README.md",
-  "evidenceBasis": "README; not independently run"
+  "evidenceBasis": "README; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:53+00:00"
  },
  {
   "title": "讲解聊天机器人原理的儿童游戏",
@@ -3222,7 +3412,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://github.com/ (curated Opus 5.5 list links)",
   "evidenceUrl": "https://raw.githubusercontent.com/chichiroxursox-droid/deep-dive/main/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:12+00:00"
  },
  {
   "title": "斯拉夫神话即时战略游戏",
@@ -3239,7 +3430,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://github.com/ (curated Opus 5.5 list links)",
   "evidenceUrl": "https://raw.githubusercontent.com/michalbe/viatr-and-deshch/main/README.md",
-  "evidenceBasis": "README; not independently run"
+  "evidenceBasis": "README; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:37+00:00"
  },
  {
   "title": "对话生成的游戏合集",
@@ -3256,7 +3448,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://github.com/ (curated Opus 5.5 list links)",
   "evidenceUrl": "https://raw.githubusercontent.com/tuniveza/Generative-Games/main/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:58+00:00"
  },
  {
   "title": "手机上做的送披萨摩托游戏",
@@ -3273,7 +3466,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://github.com/ (curated Opus 5.5 list links)",
   "evidenceUrl": "https://raw.githubusercontent.com/javichur/radikal-bikers/main/README.md",
-  "evidenceBasis": "README; not independently run"
+  "evidenceBasis": "README; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:26+00:00"
  },
  {
   "title": "印度送报骑行手游",
@@ -3290,7 +3484,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://github.com/ (curated Opus 5.5 list links)",
   "evidenceUrl": "https://raw.githubusercontent.com/Shiva78388789/Akhbar-Rush/main/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:49+00:00"
  },
  {
   "title": "怪兽破坏城市游戏",
@@ -3307,7 +3502,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://github.com/ (curated Opus 5.5 list links)",
   "evidenceUrl": "https://raw.githubusercontent.com/tanuu5/kaiju-dokan/main/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:54+00:00"
  },
  {
   "title": "流放之路式Godot ARPG",
@@ -3324,7 +3520,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://github.com/ (curated Opus 5.5 list links)",
   "evidenceUrl": "https://raw.githubusercontent.com/Werdna1976/PathOfWerdna/main/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:58:02+00:00"
  },
  {
   "title": "跨越一万两千年的人生模拟",
@@ -3341,7 +3538,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://github.com/ (curated Opus 5.5 list links)",
   "evidenceUrl": "https://raw.githubusercontent.com/Mofferato/tempora/main/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:38+00:00"
  },
  {
   "title": "反向地牢守卫游戏",
@@ -3358,7 +3556,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://github.com/ (curated Opus 5.5 list links)",
   "evidenceUrl": "https://raw.githubusercontent.com/Efkrdnz/opus-game-test-2/claude/epic-ptolemy-shs2yq/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:20+00:00"
  },
  {
   "title": "操控潮汐的月亮小游戏",
@@ -3375,7 +3574,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://github.com/ (curated Opus 5.5 list links)",
   "evidenceUrl": "https://raw.githubusercontent.com/Efkrdnz/opus-game-test-3/claude/funny-albattani-p9iq8n/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:20+00:00"
  },
  {
   "title": "炼金人造人实验室沙盒",
@@ -3392,7 +3592,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://github.com/ (curated Opus 5.5 list links)",
   "evidenceUrl": "https://raw.githubusercontent.com/Efkrdnz/opus-test-game/claude/affectionate-fermat-tluz0w/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:20+00:00"
  },
  {
   "title": "螃蟹养成点击游戏",
@@ -3409,7 +3610,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://github.com/ (curated Opus 5.5 list links)",
   "evidenceUrl": "https://raw.githubusercontent.com/kamibukuro18/opuscrabhouse/main/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:30+00:00"
  },
  {
   "title": "单提示塔防游戏",
@@ -3426,7 +3628,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://github.com/ (curated Opus 5.5 list links)",
   "evidenceUrl": "https://raw.githubusercontent.com/WhiteBlackGoose/Lumenrift/main/README.md",
-  "evidenceBasis": "README and commit trailers; not independently run"
+  "evidenceBasis": "README and commit trailers; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:58:02+00:00"
  },
  {
   "title": "Copilot CLI调用间无进度文字",
@@ -3439,11 +3642,12 @@
   "sourceUrl": "https://github.com/github/copilot-cli/issues/4980",
   "platform": "GitHub",
   "date": "2026-09-28",
-  "stars": 11228,
+  "stars": 11231,
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/issues",
   "evidenceUrl": "https://github.com/github/copilot-cli/issues/4980",
-  "evidenceBasis": "issue/PR body; not independently reproduced"
+  "evidenceBasis": "issue/PR body; not independently reproduced",
+  "metricsCheckedAt": "2026-10-01T03:57:23+00:00"
  },
  {
   "title": "/ship技能被推理提取过滤拦截",
@@ -3460,7 +3664,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/issues",
   "evidenceUrl": "https://github.com/stevepolitodesign/skills/issues/44",
-  "evidenceBasis": "issue/PR body; not independently reproduced"
+  "evidenceBasis": "issue/PR body; not independently reproduced",
+  "metricsCheckedAt": "2026-10-01T03:57:51+00:00"
  },
  {
   "title": "结构化输出字段触发拒答",
@@ -3477,7 +3682,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/issues",
   "evidenceUrl": "https://github.com/FaultMaven/faultmaven/issues/1751",
-  "evidenceBasis": "issue/PR body; not independently reproduced"
+  "evidenceBasis": "issue/PR body; not independently reproduced",
+  "metricsCheckedAt": "2026-10-01T03:57:21+00:00"
  },
  {
   "title": "意图校验下子智能体反复被拦",
@@ -3494,7 +3700,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/issues",
   "evidenceUrl": "https://github.com/LightspeedDMS/claude-pace-maker/issues/150",
-  "evidenceBasis": "issue/PR body; not independently reproduced"
+  "evidenceBasis": "issue/PR body; not independently reproduced",
+  "metricsCheckedAt": "2026-10-01T03:57:34+00:00"
  },
  {
   "title": "子智能体完成通知格式变化",
@@ -3511,7 +3718,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/issues",
   "evidenceUrl": "https://github.com/wheninspace/whendone/issues/1",
-  "evidenceBasis": "issue/PR body; not independently reproduced"
+  "evidenceBasis": "issue/PR body; not independently reproduced",
+  "metricsCheckedAt": "2026-10-01T03:58:02+00:00"
  },
  {
   "title": "LiveKit改用auto工具选择",
@@ -3524,11 +3732,12 @@
   "sourceUrl": "https://github.com/livekit/agents/pull/7511",
   "platform": "GitHub",
   "date": "2026-09-28",
-  "stars": 14430,
+  "stars": 14435,
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/issues",
   "evidenceUrl": "https://github.com/livekit/agents/pull/7511",
-  "evidenceBasis": "issue/PR body; not independently reproduced"
+  "evidenceBasis": "issue/PR body; not independently reproduced",
+  "metricsCheckedAt": "2026-10-01T03:57:34+00:00"
  },
  {
   "title": "Opus 5.5无法关闭思考",
@@ -3541,11 +3750,12 @@
   "sourceUrl": "https://github.com/NousResearch/hermes-plugin-claude-subscription-directsdk/pull/56",
   "platform": "GitHub",
   "date": "2026-09-27",
-  "stars": 63,
+  "stars": 71,
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/issues",
   "evidenceUrl": "https://github.com/NousResearch/hermes-plugin-claude-subscription-directsdk/pull/56",
-  "evidenceBasis": "issue/PR body; not independently reproduced"
+  "evidenceBasis": "issue/PR body; not independently reproduced",
+  "metricsCheckedAt": "2026-10-01T03:57:42+00:00"
  },
  {
   "title": "DataAgentBench榜单提交",
@@ -3558,11 +3768,12 @@
   "sourceUrl": "https://github.com/ucbepic/DataAgentBench/pull/114",
   "platform": "GitHub",
   "date": "2026-09-27",
-  "stars": 178,
+  "stars": 179,
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/issues",
   "evidenceUrl": "https://github.com/ucbepic/DataAgentBench/pull/114",
-  "evidenceBasis": "issue/PR body; not independently reproduced"
+  "evidenceBasis": "issue/PR body; not independently reproduced",
+  "metricsCheckedAt": "2026-10-01T03:57:58+00:00"
  },
  {
   "title": "effort档位小实验",
@@ -3579,7 +3790,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/issues",
   "evidenceUrl": "https://github.com/samuellawrentz/profile/pull/130",
-  "evidenceBasis": "issue/PR body; not independently reproduced"
+  "evidenceBasis": "issue/PR body; not independently reproduced",
+  "metricsCheckedAt": "2026-10-01T03:57:48+00:00"
  },
  {
   "title": "研究框架接入Opus 5.5",
@@ -3596,7 +3808,8 @@
   "checkedAt": "2026-09-28T14:44:57+00:00",
   "discoveredVia": "https://api.github.com/search/issues",
   "evidenceUrl": "https://github.com/tomsilver/robocode/pull/236",
-  "evidenceBasis": "issue/PR body; not independently reproduced"
+  "evidenceBasis": "issue/PR body; not independently reproduced",
+  "metricsCheckedAt": "2026-10-01T03:57:57+00:00"
  },
  {
   "title": "考研 408 动画 MV",
@@ -3615,7 +3828,8 @@
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/Bemly/408",
-  "evidenceBasis": "README and repo description; not independently run"
+  "evidenceBasis": "README and repo description; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:08+00:00"
  },
  {
   "title": "自适应思考被误丢弃",
@@ -3629,12 +3843,13 @@
   "platform": "GitHub",
   "date": "2026-09-28",
   "likes": null,
-  "stars": 59899,
+  "stars": 59949,
   "mediaKind": "none",
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/BerriAI/litellm/issues/43531",
-  "evidenceBasis": "issue body; author-reported"
+  "evidenceBasis": "issue body; author-reported",
+  "metricsCheckedAt": "2026-10-01T03:57:08+00:00"
  },
  {
   "title": "流水线中 Opus 5.5 的审计",
@@ -3653,7 +3868,8 @@
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/Crazz-Org/SPO-Pipeline/pull/311",
-  "evidenceBasis": "PR description; not independently run"
+  "evidenceBasis": "PR description; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:15+00:00"
  },
  {
   "title": "JEV 与 Opus 对照教学",
@@ -3672,7 +3888,8 @@
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/DavidSilvaProg/laboratorio-jev-fatec",
-  "evidenceBasis": "README and repo description; not independently run"
+  "evidenceBasis": "README and repo description; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:16+00:00"
  },
  {
   "title": "从零写的地牢动作游戏",
@@ -3691,7 +3908,8 @@
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/DrDecki/Deepforge-Dungeons-The-Hollow-Crown",
-  "evidenceBasis": "README and repo description; not independently run"
+  "evidenceBasis": "README and repo description; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:18+00:00"
  },
  {
   "title": "Hello Neighbor 早期版复刻",
@@ -3711,7 +3929,7 @@
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/JTMC-G3/HelloNeighbor",
   "evidenceBasis": "README and repo description; not independently run",
-  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+  "metricsCheckedAt": "2026-10-01T03:57:29+00:00"
  },
  {
   "title": "先出三方案再渲染的视频技能",
@@ -3725,12 +3943,13 @@
   "platform": "GitHub",
   "date": "2026-09-28",
   "likes": null,
-  "stars": 2,
+  "stars": 11,
   "mediaKind": "none",
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/Kianzzz/xilo-opus-video",
-  "evidenceBasis": "README and repo description; not independently run"
+  "evidenceBasis": "README and repo description; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:30+00:00"
  },
  {
   "title": "像素角色尺寸对比",
@@ -3749,7 +3968,8 @@
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/Legerdo/opus55-anime-pixel-character-action-benchmark-20260929-032231",
-  "evidenceBasis": "README and repo description; not independently run"
+  "evidenceBasis": "README and repo description; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:33+00:00"
  },
  {
   "title": "同提示的飞行模拟器对比",
@@ -3768,7 +3988,8 @@
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/Para-FR/claude-sonnet-vs-opus-flight-sim",
-  "evidenceBasis": "README and repo description; not independently run"
+  "evidenceBasis": "README and repo description; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:43+00:00"
  },
  {
   "title": "嵌入式调试被误判为网络安全",
@@ -3782,12 +4003,13 @@
   "platform": "GitHub",
   "date": "2026-09-28",
   "likes": null,
-  "stars": 148628,
+  "stars": 148746,
   "mediaKind": "none",
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/anthropics/claude-code/issues/97891",
-  "evidenceBasis": "issue body; author-reported"
+  "evidenceBasis": "issue body; author-reported",
+  "metricsCheckedAt": "2026-10-01T03:57:04+00:00"
  },
  {
   "title": "安卓原生动效短片",
@@ -3806,7 +4028,8 @@
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/c5inco/motion-showreel",
-  "evidenceBasis": "README and repo description; not independently run"
+  "evidenceBasis": "README and repo description; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:11+00:00"
  },
  {
   "title": "客户端适配 Opus 5.5",
@@ -3825,7 +4048,8 @@
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/canvas-medical/canvas-plugins/pull/1905",
-  "evidenceBasis": "PR description; not independently run"
+  "evidenceBasis": "PR description; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:12+00:00"
  },
  {
   "title": "一句话生成记账 PWA",
@@ -3844,7 +4068,8 @@
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/franpiaggio/gastos",
-  "evidenceBasis": "README and repo description; not independently run"
+  "evidenceBasis": "README and repo description; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:22+00:00"
  },
  {
   "title": "Opus 5.5 不能关闭思考",
@@ -3863,7 +4088,8 @@
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/jmcentire/advocate/pull/4",
-  "evidenceBasis": "PR description; not independently run"
+  "evidenceBasis": "PR description; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:27+00:00"
  },
  {
   "title": "手绘风 Opus 5.5 发布片",
@@ -3882,7 +4108,8 @@
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/koliebe25/GenerativeAI/pull/2",
-  "evidenceBasis": "PR description; not independently run"
+  "evidenceBasis": "PR description; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:31+00:00"
  },
  {
   "title": "固定 Opus 与 Jev 路由对比",
@@ -3901,7 +4128,8 @@
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/lucadidomenico/jev-router-esperimento",
-  "evidenceBasis": "README and repo description; not independently run"
+  "evidenceBasis": "README and repo description; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:35+00:00"
  },
  {
   "title": "3D 猫娘奔跑循环对比",
@@ -3920,7 +4148,8 @@
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/negevtvx/opus-vs-sonnet-catgirl-run",
-  "evidenceBasis": "README and repo description; not independently run"
+  "evidenceBasis": "README and repo description; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:40+00:00"
  },
  {
   "title": "高中 Java 小程序游戏移植",
@@ -3939,7 +4168,8 @@
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/sameid/boxhead-online-html",
-  "evidenceBasis": "README and repo description; not independently run"
+  "evidenceBasis": "README and repo description; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:48+00:00"
  },
  {
   "title": "一句话生成 MV 与动态壁纸",
@@ -3958,7 +4188,8 @@
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/seasnakes/world.execute-me-wallpaper",
-  "evidenceBasis": "README and repo description; not independently run"
+  "evidenceBasis": "README and repo description; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:48+00:00"
  },
  {
   "title": "Opus 高强度对比超高强度",
@@ -3977,7 +4208,8 @@
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/sv-tmueller/orchestrai/pull/408",
-  "evidenceBasis": "PR description; not independently run"
+  "evidenceBasis": "PR description; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:52+00:00"
  },
  {
   "title": "像素小镇式服务器监控",
@@ -3996,7 +4228,8 @@
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/totimo96/serverhub",
-  "evidenceBasis": "README and repo description; not independently run"
+  "evidenceBasis": "README and repo description; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:57+00:00"
  },
  {
   "title": "AI 竞速做三国战争模拟",
@@ -4015,7 +4248,8 @@
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/veloxe-ai/triad-world-war-iii-simulator-claude",
-  "evidenceBasis": "README and repo description; not independently run"
+  "evidenceBasis": "README and repo description; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:59+00:00"
  },
  {
   "title": "Remotion 发布动效片",
@@ -4034,7 +4268,8 @@
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/vikasbanjare/motion-graphic/pull/1",
-  "evidenceBasis": "PR description; not independently run"
+  "evidenceBasis": "PR description; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:58:00+00:00"
  },
  {
   "title": "不接受强制工具调用",
@@ -4053,7 +4288,8 @@
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/wandercom/pact/pull/20",
-  "evidenceBasis": "PR description; not independently run"
+  "evidenceBasis": "PR description; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:58:01+00:00"
  },
  {
   "title": "四维几何粒子与声音",
@@ -4072,7 +4308,8 @@
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/wovjip/4d-sound-explorer",
-  "evidenceBasis": "README and repo description; not independently run"
+  "evidenceBasis": "README and repo description; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:58:04+00:00"
  },
  {
   "title": "剪纸风中秋动画",
@@ -4091,7 +4328,8 @@
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/DSC-Martin/a25-mid-autumn",
-  "evidenceBasis": "README and repo description; not independently run"
+  "evidenceBasis": "README and repo description; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:18+00:00"
  },
  {
   "title": "无人值守 12 分钟做出体素游戏",
@@ -4110,7 +4348,8 @@
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/L1vsun/BLOCKWORLD",
-  "evidenceBasis": "README and repo description; not independently run"
+  "evidenceBasis": "README and repo description; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:32+00:00"
  },
  {
   "title": "温馨村庄 Godot 游戏",
@@ -4130,7 +4369,7 @@
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/LJAguil/Npc-Village",
   "evidenceBasis": "README and repo description; not independently run",
-  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+  "metricsCheckedAt": "2026-10-01T03:57:35+00:00"
  },
  {
   "title": "韩文像素破坏列车游戏",
@@ -4149,7 +4388,8 @@
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/Legerdo/WRECKLINE",
-  "evidenceBasis": "README and repo description; not independently run"
+  "evidenceBasis": "README and repo description; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:33+00:00"
  },
  {
   "title": "41 秒 Three.js 星际之旅",
@@ -4168,7 +4408,8 @@
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/LungHungDev/Starry-Universe-Animation-By-Opus-5.5",
-  "evidenceBasis": "README and repo description; not independently run"
+  "evidenceBasis": "README and repo description; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:35+00:00"
  },
  {
   "title": "Fable 与 Opus 的 PR 对比",
@@ -4187,7 +4428,8 @@
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/WhiteLotus1998/IronWake/issues/484",
-  "evidenceBasis": "issue body; not independently run"
+  "evidenceBasis": "issue body; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:58:03+00:00"
  },
  {
   "title": "输出预算默认过小致空回合",
@@ -4201,12 +4443,13 @@
   "platform": "GitHub",
   "date": "2026-09-29",
   "likes": null,
-  "stars": 1931,
+  "stars": 1934,
   "mediaKind": "none",
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/Zoo-Code-Org/Zoo-Code/issues/1853",
-  "evidenceBasis": "issue body; author-reported"
+  "evidenceBasis": "issue body; author-reported",
+  "metricsCheckedAt": "2026-10-01T03:58:06+00:00"
  },
  {
   "title": "加载项目技能被误拦",
@@ -4220,12 +4463,13 @@
   "platform": "GitHub",
   "date": "2026-09-29",
   "likes": null,
-  "stars": 148628,
+  "stars": 148746,
   "mediaKind": "none",
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/anthropics/claude-code/issues/98174",
-  "evidenceBasis": "issue body; author-reported"
+  "evidenceBasis": "issue body; author-reported",
+  "metricsCheckedAt": "2026-10-01T03:57:04+00:00"
  },
  {
   "title": "顶层 effortLevel 被忽略",
@@ -4239,12 +4483,13 @@
   "platform": "GitHub",
   "date": "2026-09-29",
   "likes": null,
-  "stars": 148628,
+  "stars": 148746,
   "mediaKind": "none",
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/anthropics/claude-code/issues/98267",
-  "evidenceBasis": "issue body; author-reported"
+  "evidenceBasis": "issue body; author-reported",
+  "metricsCheckedAt": "2026-10-01T03:57:04+00:00"
  },
  {
   "title": "纯代码武器史短片",
@@ -4258,12 +4503,13 @@
   "platform": "GitHub",
   "date": "2026-09-29",
   "likes": null,
-  "stars": 15,
+  "stars": 16,
   "mediaKind": "none",
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/jasontzeng123/the-arc",
-  "evidenceBasis": "README and repo description; not independently run"
+  "evidenceBasis": "README and repo description; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:26+00:00"
  },
  {
   "title": "结构化输出因强制工具失败",
@@ -4282,7 +4528,8 @@
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/jezweb/vite-flare-starter/issues/156",
-  "evidenceBasis": "issue body; author-reported"
+  "evidenceBasis": "issue body; author-reported",
+  "metricsCheckedAt": "2026-10-01T03:57:27+00:00"
  },
  {
   "title": "音乐驱动产品发布片方法",
@@ -4301,7 +4548,8 @@
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/joefedna/Claude-Opus-5.5-Motion-Video-Skill",
-  "evidenceBasis": "README and repo description; not independently run"
+  "evidenceBasis": "README and repo description; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:28+00:00"
  },
  {
   "title": "多轮对话丢失上一轮思考",
@@ -4320,7 +4568,8 @@
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/kirodotdev/Kiro/issues/11668",
-  "evidenceBasis": "issue body; author-reported"
+  "evidenceBasis": "issue body; author-reported",
+  "metricsCheckedAt": "2026-10-01T03:57:30+00:00"
  },
  {
   "title": "thinking disabled 报 400",
@@ -4334,12 +4583,13 @@
   "platform": "GitHub",
   "date": "2026-09-29",
   "likes": null,
-  "stars": 347,
+  "stars": 348,
   "mediaKind": "none",
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/micz/ThunderAI/issues/936",
-  "evidenceBasis": "issue body; author-reported"
+  "evidenceBasis": "issue body; author-reported",
+  "metricsCheckedAt": "2026-10-01T03:57:38+00:00"
  },
  {
   "title": "用 Opus 重做 YouTube Short",
@@ -4358,7 +4608,8 @@
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/mikelix/gstack-tutorial-5-agi-race-v2",
-  "evidenceBasis": "README and repo description; not independently run"
+  "evidenceBasis": "README and repo description; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:38+00:00"
  },
  {
   "title": "由 Opus 写整支视频的流水线",
@@ -4377,7 +4628,8 @@
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/nadav2150/motion-/pull/2",
-  "evidenceBasis": "PR description; not independently run"
+  "evidenceBasis": "PR description; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:40+00:00"
  },
  {
   "title": "基于购买信号的外呼助手",
@@ -4396,7 +4648,8 @@
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/nifinet/gtm-autopilot",
-  "evidenceBasis": "README and repo description; not independently run"
+  "evidenceBasis": "README and repo description; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:41+00:00"
  },
  {
   "title": "Three.js 场景移植到 C/SDL3",
@@ -4416,7 +4669,7 @@
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/primaryatias-oss/Port-of-OceanDrive-from-Three.js-to-SDL3",
   "evidenceBasis": "README and repo description; not independently run",
-  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+  "metricsCheckedAt": "2026-10-01T03:57:44+00:00"
  },
  {
   "title": "指令文件按模型代际迁移",
@@ -4435,7 +4688,8 @@
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/rajatslakhina/instruction-file-model-migration-article-demo",
-  "evidenceBasis": "README and repo description; not independently run"
+  "evidenceBasis": "README and repo description; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:45+00:00"
  },
  {
   "title": "Opus 主导、Sonnet 分包的路由",
@@ -4449,12 +4703,13 @@
   "platform": "GitHub",
   "date": "2026-09-29",
   "likes": null,
-  "stars": 7,
+  "stars": 8,
   "mediaKind": "none",
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/stas4000/claude-subagent-router",
-  "evidenceBasis": "README and repo description; not independently run"
+  "evidenceBasis": "README and repo description; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:50+00:00"
  },
  {
   "title": "Opus 用 Rust 零依赖实现工具",
@@ -4473,7 +4728,8 @@
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/ventrion/beskar/pull/5",
-  "evidenceBasis": "PR description; not independently run"
+  "evidenceBasis": "PR description; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:58:00+00:00"
  },
  {
   "title": "数据工程基准提交",
@@ -4492,7 +4748,8 @@
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/Snowflake-Labs/data-eng-bench/pull/10",
-  "evidenceBasis": "PR description; not independently run"
+  "evidenceBasis": "PR description; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:50+00:00"
  },
  {
   "title": "代码渲染的《Shelter》MV",
@@ -4512,7 +4769,7 @@
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/clarity-m/shelter-mv",
   "evidenceBasis": "README and repo description; not independently run",
-  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+  "metricsCheckedAt": "2026-10-01T03:57:13+00:00"
  },
  {
   "title": "45 分钟做出打字跑酷游戏",
@@ -4532,7 +4789,7 @@
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/ethanplusai/outpace",
   "evidenceBasis": "README and repo description; not independently run",
-  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+  "metricsCheckedAt": "2026-10-01T03:57:20+00:00"
  },
  {
   "title": "视频帧评测中把模糊内容说成有据",
@@ -4551,7 +4808,8 @@
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/smormah/vsift/issues/224",
-  "evidenceBasis": "issue body; not independently run"
+  "evidenceBasis": "issue body; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:57:50+00:00"
  },
  {
   "title": "翻译器升级到 5.5",
@@ -4570,7 +4828,8 @@
   "checkedAt": "2026-09-30T07:28:03Z",
   "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-28",
   "evidenceUrl": "https://github.com/wordplaydev/wordplay/pull/1438",
-  "evidenceBasis": "PR description; not independently run"
+  "evidenceBasis": "PR description; not independently run",
+  "metricsCheckedAt": "2026-10-01T03:58:04+00:00"
  },
  {
   "title": "代码动画导演课程",
@@ -4589,7 +4848,7 @@
   "stars": 0,
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-30",
   "evidenceBasis": "repository README; author-reported; not executed",
-  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+  "metricsCheckedAt": "2026-10-01T03:57:19+00:00"
  },
  {
   "title": "控制理论的几何短片",
@@ -4608,7 +4867,7 @@
   "stars": 0,
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-30",
   "evidenceBasis": "repository README; author-reported; not executed",
-  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+  "metricsCheckedAt": "2026-10-01T03:57:56+00:00"
  },
  {
   "title": "多模型开发分工技能",
@@ -4627,7 +4886,7 @@
   "stars": 0,
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-30",
   "evidenceBasis": "repository README; author-reported; not executed",
-  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+  "metricsCheckedAt": "2026-10-01T03:57:08+00:00"
  },
  {
   "title": "GalaxyQuest 游戏改作工具",
@@ -4646,7 +4905,7 @@
   "stars": 0,
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-30",
   "evidenceBasis": "repository README; author-reported; not executed",
-  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+  "metricsCheckedAt": "2026-10-01T03:57:09+00:00"
  },
  {
   "title": "从创意到旁白短片",
@@ -4665,7 +4924,7 @@
   "stars": 0,
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-30",
   "evidenceBasis": "repository README; author-reported; not executed",
-  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+  "metricsCheckedAt": "2026-10-01T03:57:24+00:00"
  },
  {
   "title": "Cosmic Breach 维度模组",
@@ -4684,7 +4943,7 @@
   "stars": 1,
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-30",
   "evidenceBasis": "repository README; author-reported; not executed",
-  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+  "metricsCheckedAt": "2026-10-01T03:57:11+00:00"
  },
  {
   "title": "六版网页音乐视频",
@@ -4703,7 +4962,7 @@
   "stars": 1,
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-30",
   "evidenceBasis": "repository README; author-reported; not executed",
-  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+  "metricsCheckedAt": "2026-10-01T03:57:21+00:00"
  },
  {
   "title": "从游戏视频重做格斗玩法",
@@ -4722,7 +4981,7 @@
   "stars": 0,
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-30",
   "evidenceBasis": "repository README; author-reported; not executed",
-  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+  "metricsCheckedAt": "2026-10-01T03:58:05+00:00"
  },
  {
   "title": "Flash 挖矿游戏的三维改作",
@@ -4741,7 +5000,7 @@
   "stars": 1,
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-30",
   "evidenceBasis": "repository README; author-reported; not executed",
-  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+  "metricsCheckedAt": "2026-10-01T03:57:33+00:00"
  },
  {
   "title": "六轮迭代国际象棋发布片",
@@ -4760,7 +5019,7 @@
   "stars": 1,
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-30",
   "evidenceBasis": "repository README; author-reported; not executed",
-  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+  "metricsCheckedAt": "2026-10-01T03:57:38+00:00"
  },
  {
   "title": "GenMotion 音乐视频工程",
@@ -4779,7 +5038,7 @@
   "stars": 0,
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-30",
   "evidenceBasis": "repository README; author-reported; not executed",
-  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+  "metricsCheckedAt": "2026-10-01T03:57:24+00:00"
  },
  {
   "title": "相同参考图的三维角色对照",
@@ -4798,7 +5057,7 @@
   "stars": 0,
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-30",
   "evidenceBasis": "repository README; author-reported; not executed",
-  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+  "metricsCheckedAt": "2026-10-01T03:57:42+00:00"
  },
  {
   "title": "含提示与成片的视频配方",
@@ -4817,7 +5076,7 @@
   "stars": 0,
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-30",
   "evidenceBasis": "repository README; author-reported; not executed",
-  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+  "metricsCheckedAt": "2026-10-01T03:57:09+00:00"
  },
  {
   "title": "同任务 Sonnet 与 Opus 工程",
@@ -4836,7 +5095,7 @@
   "stars": 0,
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-30",
   "evidenceBasis": "repository README; author-reported; not executed",
-  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+  "metricsCheckedAt": "2026-10-01T03:57:27+00:00"
  },
  {
   "title": "Remotion 导演流程技能",
@@ -4855,7 +5114,7 @@
   "stars": 0,
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-30",
   "evidenceBasis": "repository README; author-reported; not executed",
-  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+  "metricsCheckedAt": "2026-10-01T03:57:21+00:00"
  },
  {
   "title": "四档 effort 动画盲测",
@@ -4874,7 +5133,7 @@
   "stars": 0,
   "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-30",
   "evidenceBasis": "repository README; author-reported; not executed",
-  "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+  "metricsCheckedAt": "2026-10-01T03:57:12+00:00"
  },
  {
   "title": "ViBench 使用 Opus 作评测器",
@@ -4890,9 +5149,10 @@
   "mediaKind": "none",
   "platform": "GitHub",
   "author": "daniel-furman",
-  "stars": null,
+  "stars": 41,
   "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-30",
-  "evidenceBasis": "public issue/PR description; implementation and reported failures not independently reproduced"
+  "evidenceBasis": "public issue/PR description; implementation and reported failures not independently reproduced",
+  "metricsCheckedAt": "2026-10-01T03:58:00+00:00"
  },
  {
   "title": "长任务的分步上下文与验证",
@@ -4908,9 +5168,10 @@
   "mediaKind": "none",
   "platform": "GitHub",
   "author": "synex1437",
-  "stars": null,
+  "stars": 1,
   "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-30",
-  "evidenceBasis": "public issue/PR description; implementation and reported failures not independently reproduced"
+  "evidenceBasis": "public issue/PR description; implementation and reported failures not independently reproduced",
+  "metricsCheckedAt": "2026-10-01T03:57:53+00:00"
  },
  {
   "title": "安全回退后模型版本不明显",
@@ -4926,9 +5187,10 @@
   "mediaKind": "none",
   "platform": "GitHub",
   "author": "zbynekdrlik",
-  "stars": null,
+  "stars": 1,
   "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-30",
-  "evidenceBasis": "public issue/PR description; implementation and reported failures not independently reproduced"
+  "evidenceBasis": "public issue/PR description; implementation and reported failures not independently reproduced",
+  "metricsCheckedAt": "2026-10-01T03:58:06+00:00"
  },
  {
   "title": "终端子会话未继承模型",
@@ -4944,8 +5206,9 @@
   "mediaKind": "none",
   "platform": "GitHub",
   "author": "jwp2987",
-  "stars": null,
+  "stars": 2,
   "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-30",
-  "evidenceBasis": "public issue/PR description; implementation and reported failures not independently reproduced"
+  "evidenceBasis": "public issue/PR description; implementation and reported failures not independently reproduced",
+  "metricsCheckedAt": "2026-10-01T03:57:29+00:00"
  }
 ]
