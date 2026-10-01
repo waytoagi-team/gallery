@@ -411,7 +411,7 @@ footer .links a{color:var(--lime)}
       <a href="#overview" data-i18n="navOverview">任务分布</a>
       <a href="#evidence" data-i18n="navEvidence">证据类型</a>
       <a href="#cases" data-i18n="navCases">案例库</a>
-      <a class="guide" href="blog/opus55-beginner-guide/" hreflang="zh-CN" data-i18n="navGuide">新手指南</a>
+      <a class="guide" href="blog/opus55-beginner-guide/" hreflang="zh-CN" data-guide-en="blog/opus55-beginner-guide/en/" data-i18n="navGuide">新手指南</a>
       <button class="lang" id="langBtn" type="button" lang="en">EN</button>
       <a class="cta" href="https://github.com/waytoagi-team/gallery/issues/new?template=case-submission.yml" target="_blank" rel="noopener" aria-describedby="newtab"><span data-i18n="navCta">提交案例</span><span aria-hidden="true">↗</span></a>
     </nav>
@@ -425,7 +425,7 @@ footer .links a{color:var(--lime)}
       <div class="kicker-row"><div class="kicker" data-i18n="kicker">WaytoAGI Gallery · Use Case Atlas</div><button class="read-en" id="readEn" type="button" lang="en" hidden>Read in English →</button></div>
       <h1 tabindex="-1"><span class="line">Claude Opus 5.5</span><span class="line"><span class="chip-t g" data-i18n="chip1">真实案例</span> <span class="chip-t l" data-i18n="chip2">使用图谱</span></span></h1>
       <p class="tagline" id="tagline">Claude Opus 5.5 发布后，X、GitHub、Hacker News、Reddit、视频网站与网页上的公开使用案例，共 <b>5,181</b> 条、<b>14</b> 类任务、<b>6</b> 个来源。案例描述保留作者自述与推广属性，数量不等于独立成功项目数。</p>
-      <div class="hero-actions"><a class="hero-cta" id="heroCta" href="#cases">浏览 5,181 个案例 <span aria-hidden="true">↓</span></a><a class="hero-guide" href="blog/opus55-beginner-guide/" hreflang="zh-CN"><span data-i18n="heroGuide">新手？先看 5 步上手路线</span> <span aria-hidden="true">→</span></a></div>
+      <div class="hero-actions"><a class="hero-cta" id="heroCta" href="#cases">浏览 5,181 个案例 <span aria-hidden="true">↓</span></a><a class="hero-guide" href="blog/opus55-beginner-guide/" hreflang="zh-CN" data-guide-en="blog/opus55-beginner-guide/en/"><span data-i18n="heroGuide">新手？先看 5 步上手路线</span> <span aria-hidden="true">→</span></a></div>
     </div>
     <aside class="info-card">
       <div class="mono" data-i18n="cardTitle">Data snapshot</div>
@@ -548,7 +548,7 @@ footer .links a{color:var(--lime)}
 "taglineT":"Claude Opus 5.5 发布后，X、GitHub、Hacker News、Reddit、视频网站与网页上的公开使用案例，共 <b>{n}</b> 条、<b>{c}</b> 类任务、<b>{s}</b> 个来源。案例描述保留作者自述与推广属性，数量不等于独立成功项目数。",
 "heroCtaT":"浏览 {n} 个案例","info":["模型发布","最新案例日期","最近更新","更新范围","字段","数据下载"],"fields":["类别","证据类型","中英文摘要","原帖链接"],"offline":"离线单页",
 "stats":["案例总数","任务类别","X 总点赞","限制类案例"]},
-"en":{"menu":"Menu","navLabel":"Page navigation","navOverview":"Categories","navEvidence":"Evidence","navCases":"Cases","navGuide":"Beginner guide","heroGuide":"5-step beginner guide (in Chinese)","navCta":"Submit a case",
+"en":{"menu":"Menu","navLabel":"Page navigation","navOverview":"Categories","navEvidence":"Evidence","navCases":"Cases","navGuide":"Beginner guide","heroGuide":"5-step beginner guide","navCta":"Submit a case",
 "skip":"Skip to cases","newtab":"(opens in a new tab)",
 "kicker":"WaytoAGI Gallery · Use Case Atlas","chip1":"Real cases","chip2":"Atlas","cardTitle":"Data snapshot",
 "routeTitle":"Browse by source","s1":"Task categories","byCat":"By task category (click to filter)","top":"Most liked overall","s2":"Evidence types",
@@ -690,6 +690,12 @@ footer .links a{color:var(--lime)}
     for (const b of [$('#langBtn'), $('#langBtnM')]) { b.textContent = st.lang === 'zh' ? 'EN' : '中文'; b.lang = st.lang === 'zh' ? 'en' : 'zh-CN'; }
     document.querySelectorAll('[data-i18n]').forEach(e => e.textContent = L()[e.dataset.i18n]);
     document.querySelectorAll('[data-i18n-label]').forEach(e => e.setAttribute('aria-label', L()[e.dataset.i18nLabel]));
+    // Beginner-guide links open the edition in the current language (the Chinese link is the markup default).
+    document.querySelectorAll('a[data-guide-en]').forEach(a => {
+      if (!a.dataset.guideZh) a.dataset.guideZh = a.getAttribute('href');
+      a.setAttribute('href', st.lang === 'en' ? a.dataset.guideEn : a.dataset.guideZh);
+      a.hreflang = st.lang === 'en' ? 'en' : 'zh-CN';
+    });
     document.querySelectorAll('.rule .desc').forEach(e => e.lang = st.lang === 'zh' ? 'en' : 'zh-CN');
     sortLabels();
     $('#readEn').hidden = !(st.lang === 'zh' && !urlLang && !store.get('lang') && !/^zh/i.test(navigator.language || ''));

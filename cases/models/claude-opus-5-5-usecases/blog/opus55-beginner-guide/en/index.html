@@ -1,0 +1,933 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script>(function(l){var p=l.pathname;if(p.slice(-1)!=='/'&&!/\.html?$/i.test(p))l.replace(p+'/'+l.search+l.hash)})(location)</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="only light">
+<meta name="theme-color" content="#241E1E">
+<title>Claude Opus 5.5 beginner guide: a 5-step route (with 30 checked resources)</title>
+<meta name="description" content="A 5-step route for Claude Opus 5.5 beginners, with 30 original resources checked one by one: brief the whole task at once, make a first build and learn to revise, understand effort and usage limits, pick one direction to go deeper, and avoid the common pitfalls.">
+<link rel="canonical" href="https://www.waytoagi.com/usecase-atlas/opus5-5/blog/opus55-beginner-guide/en/">
+<link rel="alternate" hreflang="zh-CN" href="https://www.waytoagi.com/usecase-atlas/opus5-5/blog/opus55-beginner-guide/">
+<link rel="alternate" hreflang="en" href="https://www.waytoagi.com/usecase-atlas/opus5-5/blog/opus55-beginner-guide/en/">
+<link rel="alternate" hreflang="x-default" href="https://www.waytoagi.com/usecase-atlas/opus5-5/blog/opus55-beginner-guide/">
+<link rel="icon" href="../img/icon-32.png?v=a13acc2c" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="../img/apple-touch-icon.png?v=1a2169cc">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="WaytoAGI">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:title" content="Claude Opus 5.5 beginner guide: a 5-step route (with 30 checked resources)">
+<meta property="og:description" content="Get started with Claude Opus 5.5 in 5 steps: prompt structure, the revision loop, effort and usage limits, four directions to go deeper and a pitfall checklist, with 30 checked original resources.">
+<meta property="og:url" content="https://www.waytoagi.com/usecase-atlas/opus5-5/blog/opus55-beginner-guide/en/">
+<meta property="og:image" content="https://www.waytoagi.com/usecase-atlas/opus5-5/blog/opus55-beginner-guide/img/og.png?v=e8589354">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="WaytoAGI beginner-guide share card (in Chinese): the Opus 5.5 beginner route, 5 steps from the first prompt to the pitfalls.">
+<meta property="article:published_time" content="2026-10-01">
+<meta property="article:modified_time" content="2026-10-01">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Claude Opus 5.5 beginner guide: a 5-step route (with 30 checked resources)">
+<meta name="twitter:description" content="Get started with Claude Opus 5.5 in 5 steps, with 30 checked original resources.">
+<meta name="twitter:image" content="https://www.waytoagi.com/usecase-atlas/opus5-5/blog/opus55-beginner-guide/img/og.png?v=e8589354">
+<meta name="twitter:image:alt" content="WaytoAGI beginner-guide share card (in Chinese): the Opus 5.5 beginner route, 5 steps from the first prompt to the pitfalls.">
+<script type="application/ld+json">[{"@context": "https://schema.org", "@type": "Article", "headline": "Opus 5.5 beginner route: from your first prompt to the pitfalls", "description": "A 5-step route for Claude Opus 5.5 beginners, with 30 original resources checked one by one: brief the whole task at once, make a first build and learn to revise, understand effort and usage limits, pick one direction to go deeper, and avoid the common pitfalls.", "inLanguage": "en", "datePublished": "2026-10-01", "dateModified": "2026-10-01", "image": "https://www.waytoagi.com/usecase-atlas/opus5-5/blog/opus55-beginner-guide/img/og.png?v=e8589354", "mainEntityOfPage": "https://www.waytoagi.com/usecase-atlas/opus5-5/blog/opus55-beginner-guide/en/", "author": {"@type": "Organization", "name": "WaytoAGI", "url": "https://www.waytoagi.com/"}, "publisher": {"@type": "Organization", "name": "WaytoAGI", "url": "https://www.waytoagi.com/"}}, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Claude Opus 5.5 Real-World Use Case Atlas", "item": "https://www.waytoagi.com/usecase-atlas/opus5-5/"}, {"@type": "ListItem", "position": 2, "name": "Opus 5.5 beginner route: from your first prompt to the pitfalls", "item": "https://www.waytoagi.com/usecase-atlas/opus5-5/blog/opus55-beginner-guide/en/"}]}]</script>
+<style>
+:root{
+  --ink:#241E1E; --green:#238653; --green-deep:#176A42; --lime:#C9DF8D; --lilac:#EAD8EB;
+  --purple:#AD85BA; --blue:#103CA0; --paper:#FFFFFF; --line:#DDD7DB; --red:#b0203a;
+  --ink-2:#5d5656; --ink-3:#716a6b; --soft:#f6f4f5; --done:#f3f8e6;
+  --font-cn:'PingFang SC','Source Han Sans SC','Source Han Sans CN','Noto Sans CJK SC','Noto Sans SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;
+  --font-display:'Avenir Next','Avenir','Helvetica Neue',Arial,'PingFang SC','Source Han Sans SC','Noto Sans CJK SC','Noto Sans SC','Microsoft YaHei',sans-serif;
+  --mono:'SFMono-Regular','SF Mono','Roboto Mono',Consolas,monospace,'PingFang SC','Noto Sans CJK SC','Microsoft YaHei';
+  --wrap:min(88vw,1280px);
+  --measure:720px;
+  --fs:16px; --fs-s:14px; --fs-xs:12px;
+}
+html:lang(en){--font-cn:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif}
+html:lang(en) body{line-height:1.7}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+@media (prefers-reduced-motion:no-preference){html.ready{scroll-behavior:smooth}}
+body{margin:0;background:var(--paper);color:var(--ink);font:var(--fs)/1.85 var(--font-cn);font-synthesis:weight;
+  text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overflow-x:hidden}
+a{color:var(--blue);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+::selection{background:var(--lime);color:var(--ink)}
+:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+footer :focus-visible,.code figcaption :focus-visible{outline-color:var(--lime)}
+.wrap{width:var(--wrap);margin:0 auto}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip{position:absolute;left:12px;top:-60px;z-index:50;background:var(--ink);color:var(--paper);padding:10px 16px;font-weight:600;text-decoration:none}
+.skip:focus{top:12px}
+.ext{font-size:.85em;margin-left:2px;text-decoration:none;display:inline-block}
+/* Zone colours: 01-02 claude.ai, 03-04 Claude Code, 05 pitfalls, A/B appendices */
+.z-ai{--z:var(--green-deep)}.z-cc{--z:var(--blue)}.z-pit{--z:var(--red)}.alt{--z:var(--lilac)}
+
+/* Header (same brand bar as the atlas) */
+.hdr{border-bottom:1px solid var(--line);background:var(--paper)}
+.hdr .wrap{display:flex;align-items:center;gap:24px;min-height:88px}
+.brand{display:flex;align-items:center;gap:16px;flex:none;color:inherit;text-decoration:none}
+.brand svg{width:216px;height:auto;display:block}
+.brand .cn{font:700 22px/1 var(--font-display);padding-left:16px;border-left:1px solid var(--ink);white-space:nowrap}
+.hdr nav{margin-left:auto;display:flex;align-items:center;gap:30px;font-size:14px}
+.hdr nav a{color:var(--ink);text-decoration:none;white-space:nowrap}
+.hdr nav .lang{font:12px/1.4 var(--mono);border:1px solid var(--ink);padding:5px 9px;min-height:32px;display:inline-flex;align-items:center}
+.hdr nav .lang .ls{display:none}
+.hdr nav .cta{display:inline-flex;align-items:center;gap:10px;background:var(--ink);color:var(--paper);padding:11px 18px;font-weight:600}
+
+/* Article head */
+.head{padding:64px 0 40px;border-bottom:1px solid var(--ink)}
+.crumb{font:var(--fs-xs)/1.4 var(--font-cn);letter-spacing:.04em;color:var(--ink-2)}
+.crumb a{color:var(--ink-2);text-decoration:none}
+.crumb .short{display:none}
+.head h1,.crumb{word-break:keep-all;overflow-wrap:anywhere}
+.head h1{font:800 clamp(28px,5.2vw,62px)/1.12 var(--font-display);letter-spacing:-.025em;margin:20px 0 0;max-width:15em}
+.head h1 .chip{display:inline-block;position:relative;background:var(--green);color:var(--paper);padding:0 .18em .04em;transform:rotate(-1.5deg);margin:0 .14em 0 6px;border:1.5px solid var(--ink)}
+.head h1 .chip::before,.head h1 .chip::after{content:"";position:absolute;width:9px;height:9px;border-radius:50%;background:var(--paper);border:1.5px solid var(--ink)}
+.head h1 .chip::before{left:-6px;top:-6px}.head h1 .chip::after{right:-6px;bottom:-6px}
+.dek{margin:24px 0 0;max-width:var(--measure);font-size:18px;line-height:1.8;color:var(--ink)}
+.dek a{color:inherit}
+.meta{display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:22px;font:var(--fs-s)/1.6 var(--font-cn);letter-spacing:.04em;font-variant-numeric:tabular-nums;color:var(--ink-2)}
+.meta b{color:var(--ink);font-weight:700}
+
+/* "Only 5 rules" summary */
+.tldr{margin-top:32px;border:1px solid var(--ink)}
+.tldr .bar{margin:0;padding:8px 14px;background:var(--ink);color:var(--paper);font:700 13px/1.6 var(--font-cn);letter-spacing:.04em}
+.tldr .bar span{font-weight:400;color:#cfc8ca}
+.tldr ol{list-style:none;margin:0;padding:0}
+.tldr li + li{border-top:1px solid var(--line)}
+.tldr a{display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:center;padding:10px 14px;color:var(--ink);text-decoration:none;font-size:var(--fs-s);line-height:1.6}
+.tldr .t b{font-size:inherit;margin-right:12px}
+.n{display:inline-grid;place-items:center;flex:none;min-width:28px;height:28px;padding:0 4px;background:var(--z,var(--ink));color:var(--paper);font:700 12px/1 var(--mono)}
+.n.alt{color:var(--ink)}
+.st{width:18px}
+.done > a .st::after,a.done .st::after{content:"✓";color:var(--green-deep);font-weight:700}
+.tldr li.done a{background:var(--done)}
+.tldr .tools{margin:0;padding:10px 14px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:8px}
+.tag{font-size:var(--fs-xs);line-height:1.5;padding:2px 10px;border:1px solid var(--z);color:var(--z);font-weight:600}
+
+/* Layout: sticky table of contents + article */
+.layout{display:grid;grid-template-columns:220px minmax(0,var(--measure));justify-content:center;gap:0 64px;padding:48px 0 24px}
+.toc{position:sticky;top:24px;align-self:start;max-height:calc(100vh - 48px);overflow:auto;padding:6px;margin:-6px;scroll-padding-block:7px;font-size:14px;line-height:1.5}
+.toc .lbl,.join .lbl{font:var(--fs-xs) var(--font-cn);letter-spacing:.04em;color:var(--ink-2);margin:0 0 12px}
+.join .lbl{color:var(--ink);font-weight:600}
+.toc ol,.toc-m ol,.sheet ol{list-style:none;margin:0;padding:0}
+.toc > ol > li{border-top:1px solid var(--line)}
+.toc a{display:flex;gap:10px;padding:9px 0;color:var(--ink);text-decoration:none}
+.toc .n,.toc-m .n,.sheet .n{min-width:24px;height:22px;margin-top:1px;font-size:var(--fs-xs)}
+.toc ol ol a{padding:3px 0 3px 34px;color:var(--ink-2);font-size:13px}
+.toc a[aria-current="true"]{color:var(--green-deep);font-weight:700}
+.toc a.is-parent{color:var(--green-deep)}
+a.done .n{font-size:0}
+a.done .n::after{content:"✓";font-size:13px;margin:0;line-height:1}
+li.sep{padding:14px 0 6px;font:var(--fs-xs) var(--font-cn);letter-spacing:.04em;color:var(--ink-3);border-top:2px solid var(--ink)!important}
+.toc .back{display:block;margin-top:18px;padding-top:14px;border-top:2px solid var(--ink);font-weight:600;color:var(--ink)}
+.toc-m{display:none}
+
+/* Article body */
+article{min-width:0;font-size:var(--fs)}
+.intro{border:1px solid var(--ink);padding:18px 22px;background-color:var(--lilac);
+  background-image:linear-gradient(rgba(36,30,30,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(36,30,30,.07) 1px,transparent 1px);background-size:16px 16px}
+.intro p{margin:0 0 6px}.intro p:last-child{margin:0}
+article,.dek{text-spacing-trim:trim-start}
+article p{margin:16px 0}
+article ul,article ol{margin:14px 0;padding-left:1.3em}
+article li{margin:6px 0}
+article li::marker{color:var(--green-deep)}
+article strong{font-weight:700}
+article code{font:var(--fs-s) var(--mono);background:var(--soft);border:1px solid var(--line);padding:0 5px}
+h2{display:flex;align-items:flex-start;gap:14px;margin:72px 0 22px;padding-bottom:14px;border-bottom:2px solid var(--blue);
+  font:800 clamp(22px,2.6vw,30px)/1.25 var(--font-display);letter-spacing:-.01em;scroll-margin-top:24px}
+h2 .no{flex:none;display:grid;place-items:center;width:44px;height:44px;margin-top:2px;background:var(--z);color:var(--paper);font:700 14px var(--mono);text-decoration:none;border:1.5px solid var(--ink)}
+h2 .no.alt{color:var(--ink)}
+h2 .k,h3 .k,.nextstep .k,.join h2 .k{display:block;font:600 var(--fs-xs)/1.5 var(--font-cn);letter-spacing:.04em;color:var(--ink-2);margin-bottom:4px}
+h3{margin:44px 0 12px;padding-left:12px;border-left:4px solid var(--z,var(--green));font:800 20px/1.4 var(--font-display);scroll-margin-top:24px}
+h3 .k{color:var(--z,var(--blue))}
+h2{border-bottom-color:var(--z,var(--blue))}
+h2.alt{border-bottom-color:var(--ink)}
+.note[id]{scroll-margin-top:24px}
+.entry-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:20px 0}
+.entry-grid .col{border:1px solid var(--line);padding:16px 18px;font-size:15px}
+.entry-grid .col p:first-child{margin-top:0;font:800 17px/1.4 var(--font-display)}
+.entry-grid ul{margin:0}
+.entry{margin:20px 0;border:1px solid var(--line)}
+.entry summary{cursor:pointer;display:flex;align-items:center;gap:12px;padding:12px 16px;min-height:44px;font-weight:700;list-style:none}
+.entry summary::-webkit-details-marker{display:none}
+.entry summary::after{content:"+";margin-left:auto;font:700 18px var(--mono)}
+.entry[open] summary::after{content:"−"}
+.entry .entry-grid{margin:0;padding:0 16px 16px}
+.skip-chip{padding:10px 14px;background:var(--done);border-left:4px solid var(--lime);font-size:15px}
+.skip-chip .k{font-weight:700;margin-right:6px}
+.ui{font:13px var(--mono);border:1px solid var(--line);background:var(--soft);padding:1px 6px;white-space:nowrap}
+.sep{color:var(--ink-3)}
+.nextstep{margin:28px 0 0}
+.nextstep a{display:inline-block;padding:10px 16px;border:1px solid var(--ink);color:var(--ink);text-decoration:none;font-weight:600}
+.nextstep .k{margin:0}
+
+/* Direction picker */
+.dir-pick{list-style:none;padding:0!important;margin:20px 0!important;display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.dir-pick li{margin:0}
+.dir-pick a{display:grid;gap:4px;height:100%;padding:14px;border:1px solid var(--ink);color:var(--ink);text-decoration:none;font-size:var(--fs-s);line-height:1.5}
+.dir-pick b{font-size:var(--fs);word-break:keep-all;overflow-wrap:anywhere}
+.dir-pick .n{all:unset;font:var(--fs-xs)/1.5 var(--font-cn);font-variant-numeric:tabular-nums;color:var(--ink-3)}
+.dir-more{display:flex;flex-direction:column;gap:6px;margin:14px 0 0;font-size:var(--fs-s)}
+.dir-more .up{color:var(--ink-2)}
+.first{display:inline-block;margin:0 8px 4px 0;padding:1px 6px;background:var(--ink);color:var(--paper);font:600 var(--fs-xs)/1.6 var(--font-cn);letter-spacing:.04em;vertical-align:2px}
+
+/* Figures */
+.fig{margin:28px 0}
+@media (min-width:1400px){.fig.wide{margin-right:calc((var(--wrap) - var(--measure) - 284px) / -2)}}
+.fig picture{display:block}
+.fig img{display:block;width:100%;height:auto;border:1px solid var(--line);background:var(--soft)}
+.fig .zoom{display:block;cursor:zoom-in}
+.fig figcaption{margin-top:10px;font-size:var(--fs-s);line-height:1.6;color:var(--ink-2);padding-left:10px;border-left:2px solid var(--lime)}
+
+/* Notes, checkpoints, code */
+.note{margin:24px 0;padding:14px 18px;font-size:inherit}
+.note p{margin:0 0 8px}.note p:last-child{margin:0}
+.note .kick{display:inline-block;margin:0 0 8px;padding:1px 8px;font:700 var(--fs-xs)/1.7 var(--font-cn);letter-spacing:.06em;background:var(--ink);color:var(--paper)}
+.note .rule{margin-bottom:8px}
+.note .story{color:var(--ink-2);font-size:var(--fs-s)}
+.note.info{border-left:4px solid var(--blue);background:var(--soft);padding:0}
+.note.info summary{cursor:pointer;display:flex;flex-wrap:wrap;align-items:center;gap:4px 12px;padding:12px 18px;min-height:44px;list-style:none}
+.note.info summary::-webkit-details-marker{display:none}
+.note.info summary::after{content:"+";margin-left:auto;font:700 18px var(--mono)}
+.note.info[open] summary::after{content:"−"}
+.note.info .kick{margin:0;background:var(--blue)}
+.note.info .hint{font-size:var(--fs-s);color:var(--ink-2)}
+.note.info > p{padding:0 18px}.note.info > p:last-child{padding-bottom:14px}
+.note.warn{border-left:4px solid var(--red);background:#fbeef0}
+.note.warn .kick{background:var(--red)}
+.note.danger{border:2px solid var(--red);background:var(--paper)}
+.checkpoint{display:flex;gap:14px;align-items:flex-start;margin:32px 0 0;padding:16px 18px;background:var(--paper);border:1px solid var(--ink);border-left:6px solid var(--z,var(--green-deep));cursor:pointer;font-size:inherit}
+.checkpoint input{position:absolute;opacity:0;pointer-events:none}
+.checkpoint .box{flex:none;width:26px;height:26px;margin-top:2px;border:2px solid var(--ink);background:var(--paper);display:grid;place-items:center}
+.checkpoint input:checked + .box{background:var(--green-deep);border-color:var(--green-deep)}
+.checkpoint input:checked + .box::after{content:"";width:7px;height:13px;border:solid var(--paper);border-width:0 2.5px 2.5px 0;transform:translateY(-1px) rotate(45deg)}
+.checkpoint input:focus-visible + .box{outline:3px solid var(--blue);outline-offset:2px}
+.checkpoint .kick{display:block;font:700 var(--fs-xs)/1.6 var(--font-cn);letter-spacing:.04em;font-variant-numeric:tabular-nums;color:var(--z,var(--green-deep))}
+.checkpoint.done{background:var(--done)}
+.code{margin:20px 0;border:1px solid var(--ink)}
+.code figcaption{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:6px 8px 6px 14px;background:var(--ink);color:var(--paper);font:13px var(--font-cn)}
+.code .copy{flex:none;max-width:50%;border:1px solid var(--paper);background:none;color:var(--paper);font:13px var(--font-cn);padding:6px 14px;cursor:pointer;min-height:40px}
+.code pre code{font:inherit;background:none;border:0;padding:0}
+.code pre{margin:0;padding:16px 18px;background:#fbfafb;overflow-x:auto;white-space:pre-wrap;word-break:break-word;font:var(--fs-s)/1.8 var(--mono)}
+.code .blank{background:var(--lime)}
+
+/* Tables */
+.tbl{margin:20px 0;overflow-x:auto;border-top:2px solid var(--ink)}
+.tbl table{width:100%;border-collapse:collapse;font-size:var(--fs-s);line-height:1.65}
+.tbl th{text-align:left;font:600 var(--fs-xs)/1.4 var(--font-cn);letter-spacing:.04em;color:var(--ink-2);padding:10px 12px;border-bottom:1px solid var(--ink);background:var(--soft)}
+.tbl td{padding:12px;border-bottom:1px solid var(--line);vertical-align:top}
+.tbl td.hl{box-shadow:inset 0 -1px 0 var(--line)}
+.tbl td.hl:first-child{box-shadow:inset 3px 0 0 var(--lime),inset 0 -1px 0 var(--line);font-weight:700}
+.tbl.res td:first-child{font-weight:600;min-width:180px}
+.tbl.stack td:first-child{font-weight:600}
+.tbl.res td:nth-child(2){min-width:150px}
+.res-chips{display:flex;flex-wrap:wrap;gap:4px 6px;align-items:center}
+.res-chips .ch{font-size:var(--fs-xs);color:var(--ink-2);white-space:nowrap}
+.res-chips .ch:not(:last-child)::after{content:"·";margin-left:6px;color:var(--ink-3)}
+.acc{display:inline-block;font:600 12px/1.6 var(--font-cn);padding:0 6px;white-space:nowrap;vertical-align:1px}
+.acc.ok{background:var(--done);border:1px solid var(--lime);color:var(--green-deep);font-weight:700}
+.acc.vpn{background:var(--lilac);border:1px solid var(--ink);color:var(--ink)}
+.acc.unt{border:1px dashed var(--ink-3);color:var(--ink-2)}
+.acc.lg{border:1px solid var(--ink-3);color:var(--ink-2);font-weight:600}
+.scope{display:block;font:600 var(--fs-xs)/1.6 var(--font-cn);letter-spacing:.04em;color:var(--ink-3)}
+.tbl tr.sev td:first-child{box-shadow:inset 4px 0 0 var(--red),inset 0 -1px 0 var(--line);padding-left:14px}
+.tbl tr.sev td{background:#fbeef0}
+
+/* Route overview (native, replaces the route bitmap): 3 zones, each step links to its section and shows ✓ */
+.route{display:grid;grid-template-columns:2fr 2fr 1.25fr;margin:28px 0 0;border:1.5px solid var(--ink);background:var(--paper)}
+.route .zone{min-width:0;background:var(--zbg,var(--soft))}
+.route .zone + .zone{border-left:1.5px solid var(--ink)}
+.route .zone.z-ai{--zbg:var(--done)}
+.route .zone.z-cc{--zbg:#eef1f8;--zbg:color-mix(in srgb,var(--blue) 7%,var(--paper))}
+.route .zone.z-pit{--zbg:#fbeef0}
+.route .zh{display:flex;flex-wrap:wrap;justify-content:space-between;gap:0 8px;margin:0;padding:8px 12px;border-bottom:1.5px solid var(--ink);background:var(--paper);font:var(--fs-xs)/1.5 var(--font-cn);letter-spacing:.04em;color:var(--ink-2)}
+.route .zh b{color:var(--z);font-weight:700}
+.route ol{list-style:none;margin:0;padding:0}
+.route li{margin:0}
+.route li + li{border-top:1px solid var(--line)}
+.route .step{display:grid;grid-template-columns:auto 1fr auto;gap:10px;align-items:start;padding:12px;color:var(--ink);text-decoration:none;font-size:var(--fs-s);line-height:1.55}
+.route .step .n{margin-top:1px}
+.route .t b{display:block;font-size:15px;line-height:1.45}
+.route .t span{display:block;margin-top:2px;color:var(--ink-2)}
+.route li.done > .step{background:rgba(255,255,255,.55)}
+.route li.done .t b{color:var(--green-deep)}
+.route .subs{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:4px 12px;margin:-4px 0 0;padding:0 12px 12px 50px;font-size:13px;line-height:1.5}
+.route .subs li{margin:0;border:0}
+.route .subs a{color:var(--ink);text-decoration-color:var(--z)}
+.route-cap{margin:10px 0 28px;font-size:var(--fs-s);line-height:1.6;color:var(--ink-2);padding-left:10px;border-left:2px solid var(--lime)}
+@media (min-width:1400px){.route{margin-right:calc((var(--wrap) - var(--measure) - 284px) / -2)}}
+@media (min-width:761px) and (max-width:1399px){.route{grid-template-columns:1fr 1fr}.route .zone.z-pit{grid-column:1/-1;border-left:0;border-top:1.5px solid var(--ink)}}
+
+/* Effort tests as two small native tables (one scale per table; never compare across them) */
+.effchart{margin:28px 0;display:grid;gap:16px}
+.eff{border:1px solid var(--ink);padding:14px 16px;min-width:0}
+.eff .eh{margin:0;font-weight:700;line-height:1.5}
+.tag2{display:inline-block;margin-right:8px;padding:0 6px;background:var(--ink);color:var(--paper);font:700 var(--fs-xs)/1.7 var(--font-cn);vertical-align:1px}
+.eff .es{margin:4px 0 10px;font-size:13px;line-height:1.6;color:var(--ink-2)}
+.eff .es b{color:var(--ink);font-weight:600}
+.eff table{width:100%;border-collapse:collapse;font-size:13px;line-height:1.4;font-variant-numeric:tabular-nums;table-layout:fixed}
+.eff th,.eff td{padding:7px 8px 7px 0;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+.eff thead th{font:600 var(--fs-xs)/1.4 var(--font-cn);color:var(--ink-2);border-bottom:1px solid var(--ink)}
+.eff thead th:first-child{width:5.6em}
+.eff tbody th{font:700 13px/1.4 var(--mono)}
+.eff .d{display:block;font:600 11px/1.4 var(--font-cn);color:var(--green-deep)}
+.eff .v{display:block;white-space:nowrap}
+.eff .bar{display:block;height:6px;margin-top:4px;width:calc(var(--f) * 100%);background:var(--green-deep)}
+.eff td + td .bar{background:var(--blue)}
+.eff tr.def{background:var(--done)}
+.eff tr.na td{color:var(--ink-3)}
+.eff .ef{margin:10px 0 0;padding-left:10px;border-left:3px solid var(--green);font-size:var(--fs-s);line-height:1.6}
+.eff .en{margin:8px 0 0;font-size:var(--fs-xs);line-height:1.6;color:var(--ink-2)}
+.effchart figcaption{font-size:var(--fs-s);line-height:1.6;color:var(--ink-2);padding-left:10px;border-left:2px solid var(--lime)}
+
+/* Resource extras: atlas case link, copy-link for links that need a VPN, "only direct" filter */
+.res-sub{display:flex;flex-wrap:wrap;align-items:center;gap:4px 10px;margin-top:4px;font-weight:400}
+.atl{font:var(--fs-xs)/1.6 var(--font-cn);color:var(--ink-2);text-decoration:none}
+.atl .id{font-family:var(--mono)}
+.atl .nw{white-space:nowrap}
+.note .res-sub{margin-top:4px}
+.cplink{border:1px solid var(--ink);background:var(--paper);color:var(--ink);font:12px/1.4 var(--font-cn);padding:3px 8px;min-height:28px;cursor:pointer}
+.res-chips .ch.alt{white-space:normal}
+.res-chips .ch.flag{color:var(--red)}
+.onlyok{margin:16px 0 0;padding:12px 0 0;border-top:2px solid var(--ink);font-size:14px;line-height:1.5}
+.onlyok label{display:flex;gap:10px;align-items:center;cursor:pointer;font-weight:600}
+.onlyok input{position:absolute;opacity:0;pointer-events:none}
+.onlyok .box{flex:none;width:20px;height:20px;border:2px solid var(--ink);background:var(--paper);display:grid;place-items:center}
+.onlyok input:checked + .box{background:var(--green-deep);border-color:var(--green-deep)}
+.onlyok input:checked + .box::after{content:"";width:5px;height:10px;border:solid var(--paper);border-width:0 2px 2px 0;transform:translateY(-1px) rotate(45deg)}
+.onlyok input:focus-visible + .box{outline:3px solid var(--blue);outline-offset:2px}
+.onlyok p{margin:2px 0 0 30px;font-size:var(--fs-xs);color:var(--ink-2)}
+.onlyok[hidden]{display:none}
+.toc-m .onlyok{margin:0 16px 12px}
+.sheet .onlyok{margin:0 16px 20px}
+@media screen{.only-direct .res-wrap:not(.reveal) tr[data-acc="vpn"],.only-direct .res-wrap:not(.reveal) tr[data-acc="untested"]{display:none}}
+.res-hidden{display:flex;flex-wrap:wrap;align-items:center;gap:4px 10px;margin:-12px 0 20px;padding:8px 12px;background:var(--soft);font-size:13px;color:var(--ink-2)}
+.res-hidden[hidden]{display:none}
+.res-hidden button{border:1px solid var(--ink);background:var(--paper);color:var(--ink);font:12px/1.4 var(--font-cn);padding:3px 10px;min-height:28px;cursor:pointer}
+
+/* Fill-in prompt builder (step 1); JS only */
+.builder{margin:20px 0;border:1px solid var(--ink)}
+.code + .builder{margin-top:-21px;border-top:0}
+.builder[hidden]{display:none}
+.builder summary{cursor:pointer;display:flex;flex-wrap:wrap;align-items:center;gap:4px 12px;padding:10px 14px;min-height:44px;list-style:none;font-size:15px;font-weight:600}
+.builder summary::-webkit-details-marker{display:none}
+.builder summary::after{content:"+";margin-left:auto;font:700 18px var(--mono)}
+.builder[open] summary::after{content:"−"}
+.builder .kick{padding:1px 8px;font:700 var(--fs-xs)/1.7 var(--font-cn);letter-spacing:.06em;background:var(--lilac);border:1px solid var(--ink)}
+.builder .bd{padding:4px 14px 16px;border-top:1px solid var(--line)}
+.bf fieldset{margin:12px 0 0;padding:0;border:0;min-width:0}
+.bf legend{padding:0;margin-bottom:6px;font:700 var(--fs-xs)/1.6 var(--font-cn);letter-spacing:.04em;color:var(--green-deep)}
+.bf .bfld{margin:0 0 8px}
+.bf label{display:block;font-size:13px;line-height:1.5;color:var(--ink-2);margin-bottom:2px}
+.bf input,.bf textarea{display:block;width:100%;padding:8px 10px;border:1px solid var(--ink);border-radius:0;background:var(--paper);color:var(--ink);font:15px/1.6 var(--font-cn)}
+.bf textarea{resize:vertical;min-height:4.2em}
+.bf input:focus-visible,.bf textarea:focus-visible{outline:3px solid var(--blue);outline-offset:0}
+.bp{margin-top:14px}
+.bp .lbl{margin:0 0 6px;font:var(--fs-xs)/1.5 var(--font-cn);letter-spacing:.04em;color:var(--ink-2)}
+#bOut{margin:0;padding:14px 16px;border:1px solid var(--ink);background:#fbfafb;white-space:pre-wrap;word-break:break-word;font:var(--fs-s)/1.8 var(--font-cn)}
+#bOut .gap{background:var(--lilac);outline:1px dashed var(--purple)}
+.ba{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.ba button{border:1px solid var(--ink);background:var(--paper);color:var(--ink);font:14px var(--font-cn);padding:8px 14px;min-height:44px;cursor:pointer}
+.ba .pri{background:var(--ink);color:var(--paper)}
+.bn{margin:10px 0 0;font-size:var(--fs-xs);color:var(--ink-2)}
+.lnk{border:0;background:none;padding:0 0 0 6px;color:var(--blue);font:inherit;text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+.lnk[hidden]{display:none}
+
+/* Closing band (appendix B) */
+.join{background:var(--purple);color:var(--ink);padding:72px 0;margin-top:72px}
+.join .wrap{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:48px;align-items:start}
+.join h2{display:block;border:0;margin:0 0 18px;padding:0;font:800 clamp(27px,4vw,44px)/1.1 var(--font-display);letter-spacing:-.02em;scroll-margin-top:24px}
+.join h2 .k{color:var(--ink)}
+.join p{max-width:620px}
+.join a{color:var(--ink)}
+.recap{margin:24px 0;padding:16px 18px;background:var(--paper);border:1px solid var(--ink)}
+.recap .sum{margin:0 0 8px;font-weight:700}
+.steps{list-style:none;margin:0;padding:0}
+.steps a{display:grid;grid-template-columns:auto 1fr auto;gap:10px;align-items:center;padding:7px 0;border-top:1px solid var(--line);text-decoration:none;font-size:15px}
+.steps li.done .t{color:var(--ink-3)}
+.recap .local{margin:10px 0 0;font-size:var(--fs-xs);color:var(--ink-2)}
+.reset{margin-left:8px;border:1px solid var(--ink);background:var(--paper);color:var(--ink);font:13px var(--font-cn);padding:4px 10px;min-height:32px;cursor:pointer}
+.filters{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.filt{display:flex;justify-content:space-between;gap:12px;align-items:baseline;padding:12px 14px;background:var(--paper);border:1px solid var(--ink);text-decoration:none}
+.filt span{font:var(--fs-xs) var(--font-cn);font-variant-numeric:tabular-nums;color:var(--ink-2);white-space:nowrap}
+.submit{display:flex;justify-content:space-between;margin-top:12px;padding:12px 14px;background:var(--ink);color:var(--paper)!important;font-weight:600;text-decoration:none}
+.join .fig{margin:24px 0 0}
+.join .fig figcaption{color:var(--ink);border-left-color:var(--ink)}
+
+footer{background:var(--ink);color:#cfc8ca;padding:36px 0 44px;font-size:13px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:16px 32px;align-items:center;justify-content:space-between}
+footer svg{width:170px;height:auto;display:block}
+footer a{color:var(--lime)}
+
+/* Mobile section bar, TOC sheet, lightbox, toast (JS only) */
+.secbar{position:fixed;top:0;left:0;right:0;z-index:40;display:flex;align-items:center;height:48px;background:var(--paper);border-bottom:1px solid var(--line);transform:translateY(-110%);transition:transform .2s}
+.secbar.on{transform:none}
+.secbar[hidden]{display:none}
+.secbar button{flex:1;min-width:0;height:100%;display:flex;align-items:center;gap:10px;padding:0 16px;border:0;background:none;color:var(--ink);font:600 14px var(--font-cn);text-align:left;cursor:pointer}
+.secbar button .t{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.secbar button .c{margin-left:auto;font:12px var(--mono);color:var(--ink-2);white-space:nowrap}
+.secbar .top{flex:none;display:grid;place-items:center;width:48px;height:100%;border-left:1px solid var(--line);color:var(--ink);text-decoration:none;font-size:18px}
+.secbar .prog{position:absolute;left:0;right:0;bottom:-1px;height:2px;background:var(--green);transform:scaleX(var(--p,0));transform-origin:0 0}
+dialog{color:var(--ink)}
+.sheet{position:fixed;inset:auto 0 0 0;margin:0;width:100%;max-width:none;max-height:78vh;padding:0;border:0;border-top:2px solid var(--ink);background:var(--paper);overflow:auto}
+.sheet::backdrop,.lb::backdrop{background:rgba(36,30,30,.55)}
+.sheet .hd{position:sticky;top:0;display:flex;justify-content:space-between;align-items:center;padding:4px 4px 4px 16px;background:var(--paper);border-bottom:1px solid var(--line);font-weight:700}
+.x{width:44px;height:44px;border:0;background:none;color:inherit;font:400 26px/1 var(--font-cn);cursor:pointer}
+.sheet ol{padding:0 16px 16px}
+.sheet a{display:flex;gap:10px;padding:10px 0;color:var(--ink);text-decoration:none;border-top:1px solid var(--line);font-size:15px}
+.sheet ol ol a{padding-left:34px;color:var(--ink-2);font-size:14px}
+.sheet a[aria-current="true"]{color:var(--green-deep);font-weight:700}
+.lb{width:100vw;height:100%;max-width:none;max-height:none;margin:0;padding:0;border:0;background:var(--ink)}
+.lb[open]{display:flex;flex-direction:column}
+.lb .hd{flex:none;display:flex;align-items:center;gap:4px;padding:0 4px 0 14px;height:52px;color:var(--paper);font:13px var(--mono)}
+.lb .hd .c{margin-right:auto}
+.lb .hd button{width:44px;height:44px;border:1px solid #5d5656;background:none;color:var(--paper);font:20px/1 var(--font-cn);cursor:pointer}
+.lb .pane{flex:1;overflow:auto;touch-action:pan-x pan-y pinch-zoom;background:var(--paper)}
+.lb .pane img{display:block;width:max(100%,1000px);height:auto}
+.lb .pane img.m{width:100%}
+.lb .hd .c{font-size:14px}
+.lb .tip{flex:none;margin:0;padding:8px 14px;color:#cfc8ca;font-size:var(--fs-s)}
+@media (hover:hover) and (pointer:fine){.t-touch{display:none}}
+@media not ((hover:hover) and (pointer:fine)){.t-mouse{display:none}}
+.toast{position:fixed;left:50%;bottom:24px;z-index:60;transform:translateX(-50%);padding:10px 16px;background:var(--ink);color:var(--paper);font-size:14px}
+.toast[hidden]{display:none}
+
+h1,h2 .t,h3,.join h2,.nextstep b,.dir-pick b{text-wrap:balance}
+.tldr .t,.recap li,article li,article p,.join p{text-wrap:pretty}
+@media (min-width:761px){:root{--measure:680px;--fs:17px}}
+@media (min-width:1101px){.wrap.head{width:min(88vw,964px)}}
+@media (hover:none){.fig figcaption::after{content:" ·\00a0Tap to enlarge · pinch to zoom";color:var(--blue);white-space:normal;word-break:keep-all}}
+@media (hover:hover){
+  a:hover{color:var(--green-deep)}
+  .hdr nav a:hover{color:var(--blue)}
+  .hdr nav .cta:hover,.submit:hover{background:var(--blue);color:var(--paper)}
+  .toc a:hover{color:var(--blue)}
+  .dir-pick a:hover,.filt:hover,.nextstep a:hover,.tldr a:hover,.route .step:hover{background:var(--lime);color:var(--ink)}
+  .atl:hover{color:var(--blue);text-decoration:underline}
+  .cplink:hover,.res-hidden button:hover,.ba button:hover{background:var(--lime);color:var(--ink)}
+  .code .copy:hover{background:var(--paper);color:var(--ink)}
+  footer a:hover{color:var(--paper)}
+}
+@media (max-width:1100px){
+  h2,h3,.join h2,.note[id]{scroll-margin-top:60px}
+  .layout{grid-template-columns:minmax(0,var(--measure));justify-content:center}
+  .toc{display:none}
+  .wrap.head{width:min(88vw,var(--measure))}
+  .toc-m{display:block;margin:0 0 28px;border:1px solid var(--line)}
+  .toc-m summary{cursor:pointer;padding:12px 16px;font:600 14px var(--font-cn);list-style:none;display:flex;justify-content:space-between;align-items:center;min-height:44px}
+  .toc-m summary::-webkit-details-marker{display:none}
+  .toc-m summary::after{content:"+";font:700 18px var(--mono)}
+  .toc-m details[open] summary::after{content:"−"}
+  .toc-m ol{padding:0 16px 12px}
+  .toc-m a{display:flex;gap:10px;padding:8px 0;color:var(--ink);text-decoration:none;border-top:1px solid var(--line);font-size:14px}
+  .toc-m ol ol{padding:0}
+  .toc-m ol ol a{padding-left:34px;color:var(--ink-2);font-size:13px}
+  .join .wrap{grid-template-columns:minmax(0,1fr);width:min(88vw,var(--measure));gap:32px}
+}
+@media (max-width:760px){
+  .hdr .wrap{min-height:72px;gap:10px}
+  .brand svg{width:170px}
+  .brand .cn,.hdr nav .hide-m{display:none}
+  .hdr nav .atlas{border:1px solid var(--ink);padding:8px 14px;font-weight:600}
+  .crumb .full{display:none}.crumb .short{display:inline}
+  .head{padding:32px 0 28px}
+  .dek{font-size:16px}
+  .layout{padding-top:28px}
+  h2{margin-top:56px;font-size:24px}
+  h3{font-size:18px}
+  .entry-grid{grid-template-columns:1fr}
+  .tldr a{align-items:start;padding:12px 14px}
+  .tldr .t b{display:block;margin:0 0 2px;line-height:1.45}
+  .dir-pick{grid-template-columns:1fr 1fr}
+  .route{grid-template-columns:1fr}
+  .route .zone + .zone{border-left:0;border-top:1.5px solid var(--ink)}
+  .route .subs{padding-left:50px}
+  .eff{padding:12px}
+  .eff thead th:first-child{width:4.8em}
+  .bf input,.bf textarea{font-size:16px}
+  .fig.wide,article .fig{margin-left:-6vw;margin-right:-6vw}
+  .fig img{border-left:0;border-right:0}
+  article .fig figcaption{margin-left:6vw;margin-right:6vw}
+  .note{padding:12px 14px}
+  .tbl{overflow:visible}
+  .tbl.res table,.tbl.res tbody,.tbl.res tr,.tbl.res td,.tbl.stack table,.tbl.stack tbody,.tbl.stack tr,.tbl.stack td{display:block;width:100%}
+  .tbl.res thead,.tbl.stack thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+  .tbl.res tr,.tbl.stack tr{padding:12px 0;border-bottom:1px solid var(--line)}
+  .tbl.res td,.tbl.stack td{border:0;padding:2px 0;min-width:0;font-size:15px;line-height:1.7}
+  .tbl.stack td:not(:first-child)::before,.tbl.res td:nth-child(n+3)::before{content:attr(data-label) ": ";font:var(--fs-xs) var(--font-cn);letter-spacing:.04em;color:var(--ink-3)}
+  .tbl.res td:nth-child(2){padding:4px 0}
+  .tbl.stack td.hl{box-shadow:none}
+  .tbl tr.sev{background:#fbeef0;box-shadow:inset 4px 0 0 var(--red);padding-left:12px!important}
+  .tbl tr.sev td{background:none;box-shadow:none!important;padding-left:0}
+  .join{padding:48px 0}
+  .join .wrap{width:88vw}
+}
+@media (max-width:760px),(pointer:coarse){
+  /* phone tap targets: at least 40px tall without changing the look */
+  .cplink,.lnk,.hdr nav .lang{min-height:40px}
+  .onlyok label{min-height:40px}
+  .res-sub a.atl{padding:10px 0;line-height:20px}
+  .route .subs a{display:inline-block;padding:10px 0;line-height:20px}
+  .route .subs{row-gap:0}
+}
+@media (max-width:420px){.hdr nav{gap:10px}.hdr nav .atlas{padding:8px 10px}.hdr nav .lang{padding:5px 7px}}
+@media (max-width:359px){.brand svg{width:150px}.hdr nav .lang .lf{display:none}.hdr nav .lang .ls{display:inline}.dir-pick{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+@media (min-width:761px) and (max-width:1049px){.brand svg{width:180px}.brand .cn{display:none}}
+@media print{
+  @page{margin:15mm}
+  .hdr nav,.toc,.toc-m,footer,.skip,.code .copy,.secbar,.sheet,.lb,.toast,.nextstep,.dir-more,.reset,.join .r,.recap .local,.builder,.onlyok,.cplink,.res-hidden,.route .subs{display:none!important}
+  .head h1 .chip,h2 .no,.n,.code figcaption,.note .kick,.acc,.first,.route .zone,.eff .bar,.eff tr.def,.tag2{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .layout{display:block}.fig.wide{margin:0}.join{background:none;padding:0}.join .wrap{display:block;width:auto}
+  .note.info > p{display:block}
+  .tbl.res td:first-child a[href^="http"]::after{content:" " attr(href);font:10px var(--mono);word-break:break-all;font-weight:400}
+  .fig,.code,.note,.checkpoint,.tbl tr,.tldr li,.route,.eff{break-inside:avoid}
+  h2,h3{break-after:avoid}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#article">Skip to the article</a>
+<header class="hdr">
+  <div class="wrap">
+    <a class="brand" href="../../../?lang=en" aria-label="WaytoAGI · back to the case atlas"><svg aria-hidden="true" focusable="false" width="317" height="102" viewBox="0 0 317 102" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_3160_2520)">
+<rect x="30" y="25.269" width="50" height="50" rx="8" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M81.5 121.269C106.077 121.269 126 101.346 126 76.769C126 52.1924 106.077 32.269 81.5 32.269C56.9233 32.269 37 52.1924 37 76.769C37 101.346 56.9233 121.269 81.5 121.269ZM81.5 116.819C103.619 116.819 121.55 98.888 121.55 76.769C121.55 54.65 103.619 36.719 81.5 36.719C59.381 36.719 41.45 54.65 41.45 76.769C41.45 98.888 59.381 116.819 81.5 116.819Z" fill="#FC4A55"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M81.5 116.819C103.619 116.819 121.55 98.8882 121.55 76.7692C121.55 54.6502 103.619 36.7192 81.5 36.7192C59.3809 36.7192 41.45 54.6502 41.45 76.7692C41.45 98.8882 59.3809 116.819 81.5 116.819ZM81.5 112.369C101.161 112.369 117.1 96.4306 117.1 76.7692C117.1 57.1079 101.161 41.1692 81.5 41.1692C61.8386 41.1692 45.9 57.1079 45.9 76.7692C45.9 96.4306 61.8386 112.369 81.5 112.369Z" fill="#FFB045"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M81.4999 112.369C101.161 112.369 117.1 96.4303 117.1 76.7689C117.1 57.1076 101.161 41.1689 81.4999 41.1689C61.8386 41.1689 45.8999 57.1076 45.8999 76.7689C45.8999 96.4303 61.8386 112.369 81.4999 112.369ZM81.4999 107.919C98.7036 107.919 112.65 93.9726 112.65 76.7689C112.65 59.5653 98.7036 45.6189 81.4999 45.6189C64.2962 45.6189 50.3499 59.5653 50.3499 76.7689C50.3499 93.9726 64.2962 107.919 81.4999 107.919Z" fill="#FFFA6D"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M81.5 103.469C96.2461 103.469 108.2 91.5149 108.2 76.7688C108.2 62.0228 96.2461 50.0688 81.5 50.0688C66.754 50.0688 54.8 62.0228 54.8 76.7688C54.8 91.5149 66.754 103.469 81.5 103.469ZM81.5 99.0188C93.7884 99.0188 103.75 89.0572 103.75 76.7688C103.75 64.4805 93.7884 54.5188 81.5 54.5188C69.2117 54.5188 59.25 64.4805 59.25 76.7688C59.25 89.0572 69.2117 99.0188 81.5 99.0188Z" fill="#3BA9FE"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M81.5 99.019C93.7883 99.019 103.75 89.0574 103.75 76.769C103.75 64.4807 93.7883 54.519 81.5 54.519C69.2117 54.519 59.25 64.4807 59.25 76.769C59.25 89.0574 69.2117 99.019 81.5 99.019ZM81.5 94.569C91.3307 94.569 99.3 86.5997 99.3 76.769C99.3 66.9384 91.3307 58.969 81.5 58.969C71.6693 58.969 63.7 66.9384 63.7 76.769C63.7 86.5997 71.6693 94.569 81.5 94.569Z" fill="#965DED"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M81.5001 107.919C98.7038 107.919 112.65 93.9728 112.65 76.7691C112.65 59.5655 98.7038 45.6191 81.5001 45.6191C64.2964 45.6191 50.3501 59.5655 50.3501 76.7691C50.3501 93.9728 64.2964 107.919 81.5001 107.919ZM81.5001 103.469C96.2461 103.469 108.2 91.5151 108.2 76.7691C108.2 62.0231 96.2461 50.0691 81.5001 50.0691C66.7541 50.0691 54.8001 62.0231 54.8001 76.7691C54.8001 91.5151 66.7541 103.469 81.5001 103.469Z" fill="#30FD2F"/>
+<path d="M40.2154 32.1237C40.3065 31.8501 40.6935 31.8501 40.7846 32.1237L41.672 34.7882C41.6996 34.871 41.7618 34.9377 41.8425 34.9709L44.3251 35.9916C44.573 36.0935 44.573 36.4446 44.3251 36.5465L41.8425 37.5672C41.7618 37.6004 41.6996 37.6671 41.672 37.7499L40.7846 40.4144C40.6935 40.688 40.3065 40.688 40.2154 40.4144L39.328 37.7499C39.3004 37.6671 39.2382 37.6004 39.1575 37.5672L36.6749 36.5465C36.427 36.4446 36.427 36.0935 36.6749 35.9916L39.1575 34.9709C39.2382 34.9377 39.3004 34.871 39.328 34.7882L40.2154 32.1237Z" fill="white"/>
+<path d="M35.2133 46.1987C35.3003 45.9166 35.6997 45.9166 35.7867 46.1987L36.135 47.3284C36.1606 47.4112 36.2207 47.479 36.2999 47.5142L37.3825 47.9949C37.6202 48.1004 37.6202 48.4377 37.3825 48.5432L36.2999 49.0239C36.2207 49.0591 36.1606 49.1269 36.135 49.2097L35.7867 50.3394C35.6997 50.6215 35.3003 50.6215 35.2133 50.3394L34.865 49.2097C34.8394 49.1269 34.7793 49.0591 34.7001 49.0239L33.6175 48.5432C33.3798 48.4377 33.3798 48.1004 33.6175 47.9949L34.7001 47.5142C34.7793 47.479 34.8394 47.4112 34.865 47.3284L35.2133 46.1987Z" fill="white"/>
+</g>
+<path d="M98.7703 64.8045L96.7278 37.3515H102.208L103.41 58.673H103.65L111.141 40.1997H117.221L119.05 58.673H119.29L126.928 37.3515H132.328L121.77 64.8045H115.17L113.209 46.4102H112.969L105.33 64.8045H98.7703ZM142.738 43.0478C149.818 43.0478 151.712 45.619 151.071 49.8913L148.834 64.8045H144.394L144.284 62.075C142.925 63.9342 140.095 65.2 136.615 65.2C131.695 65.2 129.535 63.0639 130.182 58.7521C130.936 53.7283 134.363 51.9483 139.963 51.9483H145.763L145.905 50.9989C146.285 48.4672 145.595 47.2013 141.595 47.2013C140.035 47.2013 138.491 47.3596 136.889 47.6365L137.524 43.4038C139.206 43.1269 141.178 43.0478 142.738 43.0478ZM138.276 61.3234C141.316 61.3234 143.614 60.1367 144.813 58.2775L145.235 55.4689H140.115C136.955 55.4689 135.546 56.0622 135.166 58.5939C134.887 60.4531 135.756 61.3234 138.276 61.3234ZM153.229 72.716L153.87 68.4437C157.55 68.4437 159.134 67.2175 160.314 64.6858L154.98 43.4434H160.5L163.731 59.5037H163.971L171.66 43.4434H176.94L166.567 63.2617C162.981 70.1052 160.389 72.716 153.229 72.716ZM189.887 47.3991H185.127L183.585 57.6841C183.169 60.4531 183.509 61.1256 185.749 61.1256C186.509 61.1256 187.115 61.086 187.738 60.9278L187.151 64.844C186.293 64.9627 185.361 65.0418 184.441 65.0418C179.281 65.0418 177.683 63.6968 178.525 58.0797L180.127 47.3991H177.127L177.721 43.4434H180.721L181.48 38.38H186.48L185.721 43.4434H190.481L189.887 47.3991ZM200.321 65.2C193.761 65.2 190.323 62.787 191.622 54.1239C192.922 45.4608 197.083 43.0478 203.643 43.0478C210.243 43.0478 213.682 45.4608 212.382 54.1239C211.083 62.787 206.921 65.2 200.321 65.2ZM200.896 61.3629C204.896 61.3629 206.392 59.662 207.222 54.1239C208.053 48.5859 207.034 46.8453 203.074 46.8453C199.114 46.8453 197.613 48.5859 196.782 54.1239C195.952 59.662 197.016 61.3629 200.896 61.3629ZM235.226 64.8045L233.758 57.5259H222.158L218.426 64.8045H213.026L227.543 37.3515H234.583L240.786 64.8045H235.226ZM224.37 53.1745H232.85L230.569 41.9798H230.089L224.37 53.1745ZM256.265 65.2C247.865 65.2 243.216 62.5892 244.943 51.078C246.533 40.4766 252.261 36.9559 260.781 36.9559C263.301 36.9559 266.528 37.312 267.993 37.9449L267.304 42.5336C265.377 41.782 263.03 41.4259 260.47 41.4259C254.83 41.4259 251.722 43.4829 250.583 51.078C249.378 59.1082 251.603 60.8091 257.323 60.8091C258.563 60.8091 259.809 60.7696 260.851 60.4927L261.871 53.6888H256.871L257.524 49.3375H267.444L265.243 64.0133C263.068 64.6462 259.745 65.2 256.265 65.2ZM271.261 64.8045L275.379 37.3515H280.619L276.501 64.8045H271.261Z" fill="black"/>
+<defs>
+<clipPath id="clip0_3160_2520">
+<rect x="30" y="25.269" width="50" height="50" rx="8" fill="white"/>
+</clipPath>
+</defs>
+</svg><span class="cn" lang="zh-CN">通往AGI之路</span></a>
+    <nav aria-label="Page navigation">
+      <a href="../../../?lang=en" class="atlas">Case atlas</a>
+      <a href="../../../?ev=%E6%95%99%E7%A8%8B&amp;lang=en" class="hide-m">All tutorials</a>
+      <a class="lang" href="../" hreflang="zh-CN" lang="zh-CN">中文</a>
+      <a class="cta hide-m" href="https://github.com/waytoagi-team/gallery/issues/new?template=case-submission.yml" target="_blank" rel="noopener">Submit a case<span class="sr"> (new window)</span> <span aria-hidden="true">↗</span></a>
+    </nav>
+  </div>
+</header>
+<nav class="secbar" id="secbar" aria-label="Reading progress" hidden>
+  <button type="button" aria-haspopup="dialog" aria-controls="tocSheet"><span class="n" id="sbN">01</span><span class="t" id="sbT">Contents</span><span class="c" id="sbC"></span></button>
+  <a class="top" href="#top" aria-label="Back to top">↑</a><i class="prog" aria-hidden="true"></i>
+</nav>
+<main id="top">
+  <div class="wrap head">
+    <div class="crumb"><a href="../../../?lang=en"><span class="full">WaytoAGI Gallery · Opus 5.5 Case Atlas</span><span class="short">← Opus 5.5 Case Atlas</span></a><span class="full"> / Beginner guide</span></div>
+    <h1><span class="chip">Opus 5.5</span> beginner route: from your first prompt to the pitfalls</h1>
+    <p class="dek">From <a href="../../../?lang=en">5,181 public cases</a> we picked the 30 articles, videos and tutorials best suited to beginners, opened and checked each original, and arranged them into a 5-step route: each step explains the method, gives a checkpoint and links the original sources.</p>
+    <div class="meta"><span>Updated <b>2026-10-01</b></span><span>About <b>19 min</b> read</span><span><b>30</b> resources</span><span id="metaProg" hidden>Checkpoints <b>0/5</b></span><span>Compiled by WaytoAGI editors</span></div>
+    <section class="tldr" aria-labelledby="tldrTitle"><p class="bar" id="tldrTitle">Just the 5 rules <span>· about 1 minute</span></p><ol><li data-step="prompt"><a href="#prompt"><span class="n z-ai">01</span><span class="t"><b>Say it all in one message</b>Purpose and audience, definition of done, when to stop and ask, what to avoid, self-check before delivery.</span><span class="st" aria-hidden="true"></span></a></li><li data-step="first-build"><a href="#first-build"><span class="n z-ai">02</span><span class="t"><b>Open it yourself, then paste screenshots back</b>Have it rank by impact and fix at most 3 things a round.</span><span class="st" aria-hidden="true"></span></a></li><li data-step="effort"><a href="#effort"><span class="n z-cc">03</span><span class="t"><b>Default medium; high when stuck</b>Don’t use max without a reason; /clear when you switch to an unrelated task.</span><span class="st" aria-hidden="true"></span></a></li><li data-step="directions"><a href="#directions"><span class="n z-cc">04</span><span class="t"><b>Pick just one direction</b>Finish one piece by following its first resource.</span><span class="st" aria-hidden="true"></span></a></li><li data-step="pitfalls"><a href="#pitfalls"><span class="n z-pit">05</span><span class="t"><b>Keep confirmations for disk, backup and delete actions</b>No auto-run; back up before it acts.</span><span class="st" aria-hidden="true"></span></a></li></ol><p class="tools"><span class="tag z-ai">Steps 1–2: claude.ai only</span><span class="tag z-cc">Steps 3–4: mostly Claude Code</span></p></section>
+  </div>
+  <div class="wrap layout">
+    <nav class="toc" aria-label="Contents">
+      <p class="lbl">Contents</p>
+      <ol><li><a href="#prompt" data-sec="prompt"><span class="n z-ai">01</span><span class="t">Brief the whole task at once</span></a></li><li><a href="#first-build" data-sec="first-build"><span class="n z-ai">02</span><span class="t">Make a first build and learn to revise</span></a></li><li><a href="#effort" data-sec="effort"><span class="n z-cc">03</span><span class="t">Before Claude Code, understand effort and usage limits</span></a></li><li><a href="#directions" data-sec="directions"><span class="n z-cc">04</span><span class="t">Pick one direction to go deeper</span></a><ol><li><a href="#video">Video and motion</a></li><li><a href="#web-games">Web pages and small games</a></li><li><a href="#claude-code">Claude Code workflows</a></li><li><a href="#knowledge">Documents and knowledge work</a></li></ol></li><li><a href="#pitfalls" data-sec="pitfalls"><span class="n z-pit">05</span><span class="t">Avoid the most common beginner pitfalls</span></a></li><li class="sep" aria-hidden="true">Beyond the route</li><li><a href="#credibility" data-sec="credibility"><span class="n alt">A</span><span class="t">How to judge whether a case is trustworthy</span></a></li><li><a href="#explore" data-sec="explore"><span class="n alt">B</span><span class="t">Keep looking in the atlas</span></a></li></ol>
+      
+      <a class="back" href="../../../?lang=en">← Back to the case atlas</a>
+    </nav>
+    <article id="article">
+      <nav class="toc-m" aria-label="Contents"><details><summary><span id="tocmLbl">Contents</span></summary><ol><li><a href="#prompt" data-sec="prompt"><span class="n z-ai">01</span><span class="t">Brief the whole task at once</span></a></li><li><a href="#first-build" data-sec="first-build"><span class="n z-ai">02</span><span class="t">Make a first build and learn to revise</span></a></li><li><a href="#effort" data-sec="effort"><span class="n z-cc">03</span><span class="t">Before Claude Code, understand effort and usage limits</span></a></li><li><a href="#directions" data-sec="directions"><span class="n z-cc">04</span><span class="t">Pick one direction to go deeper</span></a><ol><li><a href="#video">Video and motion</a></li><li><a href="#web-games">Web pages and small games</a></li><li><a href="#claude-code">Claude Code workflows</a></li><li><a href="#knowledge">Documents and knowledge work</a></li></ol></li><li><a href="#pitfalls" data-sec="pitfalls"><span class="n z-pit">05</span><span class="t">Avoid the most common beginner pitfalls</span></a></li><li class="sep" aria-hidden="true">Beyond the route</li><li><a href="#credibility" data-sec="credibility"><span class="n alt">A</span><span class="t">How to judge whether a case is trustworthy</span></a></li><li><a href="#explore" data-sec="explore"><span class="n alt">B</span><span class="t">Keep looking in the atlas</span></a></li></ol></details></nav>
+      <div class="intro"><p><strong>Who it’s for:</strong> beginners who want to make things with Claude Opus 5.5 themselves. If you can use a chat AI, that’s enough; no coding needed.</p><p><strong>You need:</strong> a paid Claude account with access to Opus 5.5.</p></div>
+      <nav class="route" aria-label="The 5-step route"><div class="zone z-ai"><p class="zh"><b>claude.ai only</b><span>Steps 1–2</span></p><ol><li data-step="prompt"><a class="step" href="#prompt"><span class="n z-ai">01</span><span class="t"><b>Brief the whole task at once</b><span>Five parts in one message; drop “think carefully”</span></span><span class="st" aria-hidden="true"></span></a></li><li data-step="first-build"><a class="step" href="#first-build"><span class="n z-ai">02</span><span class="t"><b>Make a first build and learn to revise</b><span>Build one page; paste screenshots back, at most 3 fixes a round</span></span><span class="st" aria-hidden="true"></span></a></li></ol></div><div class="zone z-cc"><p class="zh"><b>Mostly Claude Code</b><span>Steps 3–4</span></p><ol><li data-step="effort"><a class="step" href="#effort"><span class="n z-cc">03</span><span class="t"><b>Before Claude Code, understand effort and usage limits</b><span>Default medium, high when stuck; /clear and /compact save usage</span></span><span class="st" aria-hidden="true"></span></a></li><li data-step="directions"><a class="step" href="#directions"><span class="n z-cc">04</span><span class="t"><b>Pick one direction to go deeper</b><span>Pick one of four and finish one piece from its first resource</span></span><span class="st" aria-hidden="true"></span></a><ul class="subs" aria-label="The four directions of step 4"><li><a href="#video">Video and motion</a></li><li><a href="#web-games">Web pages and small games</a></li><li><a href="#claude-code">Claude Code workflows</a></li><li><a href="#knowledge">Documents and knowledge work</a></li></ul></li></ol></div><div class="zone z-pit"><p class="zh"><b>Throughout</b><span>Step 5</span></p><ol><li data-step="pitfalls"><a class="step" href="#pitfalls"><span class="n z-pit">05</span><span class="t"><b>Avoid the most common beginner pitfalls</b><span>Model switches, usage running out, “done” that isn’t, wiped disks</span></span><span class="st" aria-hidden="true"></span></a></li></ol></div></nav><p class="route-cap">The route: steps 1–2 use only the claude.ai website or app; steps 3–4 mostly need Claude Code; step 5 applies throughout.</p>
+<details class="entry"><summary>Two ways in: the claude.ai website / app vs Claude Code</summary><div class="entry-grid"><div class="col"><p><strong>claude.ai website / app</strong></p><ul><li>Just chat; nothing to install.</li><li>Single-page web apps it builds can be previewed right in the conversation.</li><li>Enough for steps 1 and 2.</li></ul></div><div class="col"><p><strong>Claude Code</strong></p><ul><li>Reads and writes files on your computer and runs commands; suited to long tasks and whole projects.</li><li>If you don’t use the command line, use Claude Code inside the Claude desktop app. The two “non-coder” authors cited below both used the desktop app.</li><li>Installation: see the official page <a href="https://code.claude.com" target="_blank" rel="noopener">code.claude.com<span class="sr"> (new window)</span><span class="ext" aria-hidden="true">↗</span></a>.</li></ul></div></div></details>
+<details class="note info" id="access"><summary><span class="kick">Languages &amp; numbers</span><span class="hint">30 resources: 6 in English, 13 in Chinese, 11 in Japanese</span></summary><p><strong>Languages:</strong> this guide was written for Chinese readers, so most of the recommended resources are in Chinese or Japanese; each one is labelled with its language. Articles (Zenn, note, Qiita, GitHub) read well with your browser’s full-page translation; Bilibili and YouTube videos are in the original language, and some have auto-generated subtitles.</p><p><strong>About the numbers:</strong> times, costs and usage figures are as reported by the original authors, and most ran things only once or twice. Dollar amounts in posts are mostly converted at API prices; subscribers actually spend usage allowance, not money on a bill.</p></details>
+<h2 id="prompt" class="z-ai"><a class="no z-ai" href="#prompt" aria-label="Link to step 1">01</a><span class="t"><span class="k">Step 1 of 5 · claude.ai only</span>Brief the whole task at once</span></h2>
+<p>The first of the “three things to try in your first session” in the official guide is: <strong>hand over the whole job in one go</strong>, and say what finished looks like and when it should stop and ask you. Opus 5.5 can work for a long time on its own; the more complete your brief, the less it drifts.</p>
+<figure class="fig wide" id="fig-prompt"><a href="../img/prompt-en.webp?v=b3040931" data-m="../img/prompt-m-en.webp?v=cccf115c" class="zoom" aria-label="View full size: Anatomy of a good prompt, in five parts:…"><picture><source media="(max-width:760px)" srcset="../img/prompt-m-en.webp?v=cccf115c 1080w" sizes="100vw" width="1080" height="4458"><img src="../img/prompt-en-1200.webp?v=e5c17caa" srcset="../img/prompt-en-800.webp?v=0f6626f0 800w, ../img/prompt-en-1200.webp?v=e5c17caa 1200w, ../img/prompt-en-1800.webp?v=ae0c0f69 1800w, ../img/prompt-en.webp?v=b3040931 2400w" sizes="(max-width:760px) 100vw, (max-width:1399px) 680px, 832px" width="2400" height="2474" loading="lazy" decoding="async" alt="Anatomy of a good prompt, in five parts: purpose and audience; definition of done (what finished looks like, including 3 must-haves); when to stop and ask; what to avoid (name the specific design clichés you don’t want); self-check before delivery. A side note says to drop old habits like “Think carefully.”, because Opus 5.5 already thinks before every reply. The example is a prompt for a habit-tracker page. At the bottom: the WaytoAGI logo and a QR code back to this section."></picture></a><figcaption>Say it all in one message: none of the five parts can be left out. The example is adapted from the official guide and the single-page template.</figcaption></figure>
+<p><strong>Do:</strong></p>
+<ul><li><strong>Purpose and audience</strong>: hand over the entire task at once; say what it is and who it’s for.</li><li><strong>Definition of done</strong>: say what “done” looks like, for example 3 things it must do.</li><li><strong>When to stop and ask</strong>: stop before anything that needs your decision, and before irreversible actions such as deleting data.</li><li><strong>What to avoid</strong>: be specific. For a web page, name the “design clichés you don’t want” instead of just saying “not too generic”.</li><li><strong>Self-check before delivery</strong>: for example “check that every button works”, or “find numbers, dates and names that contradict each other, quote the text and say where it is”.</li><li><strong>Also, give it the originals</strong>: upload charts and screenshots instead of copying numbers by hand; ask for the full table or file, not just an outline.</li></ul>
+<p><strong>Drop:</strong> phrases like “please think carefully” or “think carefully”. The official guide says Opus 5.5 already thinks before every reply; without that phrase replies start sooner, with no clear drop in quality. Likewise, don’t always use the highest setting: one author says that changing just the thinking level (click the model name next to the send button to see it) took the same job from about 102 seconds to about 20, with the same answer.</p>
+<p><strong>A skeleton to copy</strong> (following the five parts in the figure above; adapted from the official guide and the single-page template in <a href="#first-build">step 2</a>, not a quotation):</p>
+<figure class="code"><figcaption><span>Say it all in one message: fill in the blanks, then send it whole</span><button type="button" class="copy">Copy</button></figcaption><pre><code>Build me a <span class="blank">____</span> (what it is). It's for <span class="blank">____</span> (who will use it) and should open straight in a browser.
+Must do: 1. <span class="blank">____</span>  2. <span class="blank">____</span>  3. <span class="blank">____</span>; works well on a phone too; keeps what I enter, and if it can't, add a "Download backup" button.
+Only stop and ask me when you can't go on without me; do every other step in one go.
+Don't: <span class="blank">____</span> (list the specific styles or approaches you don't want).
+Before handing over, test every button one by one and fix any that are broken; finally, tell me in one sentence how to use it.</code></pre></figure><details class="builder" id="builder" hidden><summary><span class="kick">Fill-in tool</span><span class="s">Fill in the skeleton here and copy the complete prompt</span></summary><div class="bd"><form class="bf" novalidate><fieldset><legend>1 · Purpose and audience</legend><div class="bfld"><label for="b-what">What to build</label><input id="b-what" name="what" type="text" placeholder="e.g. habit-tracker page" autocomplete="off"></div><div class="bfld"><label for="b-who">Who it’s for</label><input id="b-who" name="who" type="text" placeholder="e.g. me, for daily check-ins" autocomplete="off"></div></fieldset><fieldset><legend>2 · Definition of done: 3 must-haves</legend><div class="bfld"><label for="b-m1">Must-have 1</label><input id="b-m1" name="m1" type="text" placeholder="" autocomplete="off"></div><div class="bfld"><label for="b-m2">Must-have 2</label><input id="b-m2" name="m2" type="text" placeholder="" autocomplete="off"></div><div class="bfld"><label for="b-m3">Must-have 3</label><input id="b-m3" name="m3" type="text" placeholder="" autocomplete="off"></div></fieldset><fieldset><legend>3 · When to stop and ask</legend><div class="bfld"><label for="b-stop">When it should stop and ask you (pre-filled from the skeleton; edit freely)</label><textarea id="b-stop" name="stop" rows="2" placeholder="">Only stop and ask me when you can't go on without me; do every other step in one go.</textarea></div></fieldset><fieldset><legend>4 · What to avoid</legend><div class="bfld"><label for="b-dont">List the specific styles or approaches you don’t want</label><textarea id="b-dont" name="dont" rows="2" placeholder="e.g. placeholder content and fake data"></textarea></div></fieldset><fieldset><legend>5 · Self-check before delivery</legend><div class="bfld"><label for="b-check">What it should check before handing over (pre-filled from the skeleton; edit freely)</label><textarea id="b-check" name="check" rows="2" placeholder="">Before handing over, test every button one by one and fix any that are broken; finally, tell me in one sentence how to use it.</textarea></div></fieldset><fieldset><legend>Also · give it the originals (optional)</legend><div class="bfld"><label for="b-mat">Which screenshots, tables or files you’ll upload with the message</label><textarea id="b-mat" name="mat" rows="2" placeholder=""></textarea></div></fieldset></form><div class="bp"><p class="lbl" id="bOutLbl">Preview · empty blanks are marked in purple</p><pre id="bOut" aria-labelledby="bOutLbl"></pre><div class="ba"><button type="button" class="pri" data-b="copy">Copy the full prompt</button><button type="button" data-b="example">Fill in the example</button><button type="button" data-b="clear">Clear</button></div><p class="bn">The draft is saved only in this browser.<button type="button" class="lnk" data-b="cp">Also mark checkpoint 1 as done</button></p></div></div><script type="application/json" id="bData">{"lines": ["Build me a ____ (what it is). It's for ____ (who will use it) and should open straight in a browser.", "Must do: 1. ____  2. ____  3. ____; works well on a phone too; keeps what I enter, and if it can't, add a \"Download backup\" button.", "Only stop and ask me when you can't go on without me; do every other step in one go.", "Don't: ____ (list the specific styles or approaches you don't want).", "Before handing over, test every button one by one and fix any that are broken; finally, tell me in one sentence how to use it."], "example": {"what": "habit-tracker page", "who": "me, for daily check-ins", "m1": "track up to 5 daily habits", "m2": "tick them off each day", "m3": "show each habit’s current streak", "dont": "placeholder content or fake data, cream or off-white backgrounds, italic accent words in headings, pill-shaped buttons, purple-blue gradient backgrounds, an emoji on every section"}}</script></details>
+<p><strong>Recommended resources:</strong></p>
+<div class="tbl res"><table><thead><tr><th scope="col">Resource</th><th scope="col">Platform · language</th><th scope="col">Why read it</th></tr></thead><tbody><tr data-acc="untested"><td data-label="Resource"><a href="https://claude.dev/blog/getting-the-most-out-of-opus-5-5/" target="_blank" rel="noopener">Anthropic’s official Opus 5.5 guide<span class="sr"> (new window)</span><span class="ext" aria-hidden="true">↗</span></a><span class="res-sub"><a class="atl" href="../../../?q=web-041&amp;lang=en"><span class="sr">View in the case atlas: </span>Atlas · Code Maintenance &amp; Testing <span class="nw"><span class="id">web-041</span> <span aria-hidden="true">→</span></span></a></span></td><td data-label="Platform · language"><div class="res-chips"><span class="acc ok"><span class="sr">Language: </span>English</span><span class="ch">Official blog</span><span class="ch">~9 min</span><span class="ch">No login</span></div></td><td data-label="Why read it">The primary source, about 9 minutes to read, covering both the app and Claude Code; it has 6 copyable prompts, one of them a “stopping rule” you can put in CLAUDE.md (the instructions file Claude Code reads before every job).</td></tr><tr data-acc="ok"><td data-label="Resource"><a href="https://zenn.dev/eques_blog/articles/8d9912c413ee26" target="_blank" rel="noopener">The official guide explained: what to cut from prompts, what to add<span class="sr"> (new window)</span><span class="ext" aria-hidden="true">↗</span></a><span class="res-sub"><a class="atl" href="../../../?q=web-226&amp;lang=en"><span class="sr">View in the case atlas: </span>Atlas · Writing &amp; Explanations <span class="nw"><span class="id">web-226</span> <span aria-hidden="true">→</span></span></a></span></td><td data-label="Platform · language"><div class="res-chips"><span class="acc lg"><span class="sr">Language: </span>Japanese</span><span class="ch">Zenn</span></div></td><td data-label="Why read it">A stand-in if the official guide won’t open; the glossary at the top explains effort, thinking and CLAUDE.md in one line each, and sections 01–04 are written for app and Claude Code users.</td></tr><tr data-acc="vpn"><td data-label="Resource"><a href="https://www.youtube.com/watch?v=RoTFbsRH_hE" target="_blank" rel="noopener">The 10 official tips, each tested (office-worker edition)<span class="sr"> (new window)</span><span class="ext" aria-hidden="true">↗</span></a><span class="res-sub"><a class="atl" href="../../../?q=video-172&amp;lang=en"><span class="sr">View in the case atlas: </span>Atlas · Code Maintenance &amp; Testing <span class="nw"><span class="id">video-172</span> <span aria-hidden="true">→</span></span></a></span></td><td data-label="Platform · language"><div class="res-chips"><span class="acc lg"><span class="sr">Language: </span>Chinese (Traditional)</span><span class="ch">YouTube</span><span class="ch">~12 min</span><span class="ch flag">Includes promotion</span></div></td><td data-label="Why read it">Turns the official guide into “3 old habits to change, 7 new practices”, aimed at non-programmers; the description promotes a paid community, the video itself is free.</td></tr></tbody></table></div>
+<label class="checkpoint z-ai"><input type="checkbox" data-cp="prompt"><span class="box" aria-hidden="true"></span><span class="txt"><strong class="kick">Checkpoint 1 / 5<span class="sr">: </span></strong>write one prompt that covers all 5 parts: purpose and audience, definition of done, when to stop and ask, what to avoid, self-check before delivery</span></label>
+<p class="nextstep"><a href="#first-build"><span class="k">Next: step 2</span>Make a first build and learn to revise <span aria-hidden="true">→</span></a></p>
+<h2 id="first-build" class="z-ai"><a class="no z-ai" href="#first-build" aria-label="Link to step 2">02</a><span class="t"><span class="k">Step 2 of 5 · claude.ai only</span>Make a first build and learn to revise</span></h2>
+<p>The easiest first success is a single page that opens in a browser, built in claude.ai from one clear prompt: a habit tracker, a monthly budget or a holiday card all work. The first version is rarely right in one go, so what this step really teaches is <strong>how to give revision feedback</strong>.</p>
+<figure class="fig wide" id="fig-loop"><a href="../img/loop-en.webp?v=3e24d3ad" data-m="../img/loop-m-en.webp?v=fc92ac82" class="zoom" aria-label="View full size: The screenshot-driven revision loop: hav…"><picture><source media="(max-width:760px)" srcset="../img/loop-m-en.webp?v=fc92ac82 1080w" sizes="100vw" width="1080" height="5104"><img src="../img/loop-en-1200.webp?v=f8b8577b" srcset="../img/loop-en-800.webp?v=3f9f3fb8 800w, ../img/loop-en-1200.webp?v=f8b8577b 1200w, ../img/loop-en-1800.webp?v=c6c9c324 1800w, ../img/loop-en.webp?v=3e24d3ad 2400w" sizes="(max-width:760px) 100vw, (max-width:1399px) 680px, 832px" width="2400" height="2532" loading="lazy" decoding="async" alt="The screenshot-driven revision loop: have it build → open it yourself → paste screenshots or errors back → have it rank by impact, at most 3 changes a round → open it again, and if it’s still wrong, go round again. On the right, the 6-part revision note: where or when, what you see now, why it’s wrong, what you want, scope of the change, how to verify. At the bottom, a warning: on a black screen or errors, don’t reach for a higher effort level first. At the bottom: the WaytoAGI logo and a QR code back to this section."></picture></a><figcaption>The revision loop and the 6-part feedback template.</figcaption></figure>
+<p><strong>The core revision habits:</strong></p>
+<ol><li><strong>When it’s done, open it yourself first</strong> (in claude.ai, the preview in the conversation is enough). Unless you give it a screenshot tool, it can’t see what it made; only you can.</li><li><strong>Paste screenshots or error messages back</strong> and have it rank the problems by impact, fixing at most 3 per round. A Japanese author who gave feedback this way with 12 screenshots says the first round took the errors from 260 to 0.</li><li><strong>On a black screen or errors, don’t rush to raise the effort level</strong>. The same author found that on long tasks it works better to drop one level, get a version that runs, then add the complex effects back one at a time.</li></ol>
+<p><strong>When you’re not happy, describe the problem in 6 parts</strong> (a feedback template from a Bilibili creator):</p>
+<div class="tbl stack"><table><thead><tr><th scope="col">Say</th><th scope="col">Meaning</th><th scope="col">The creator’s example</th></tr></thead><tbody><tr><td data-label="Say">Where / when</td><td data-label="Meaning">Which area, which second the problem is in</td><td data-label="The creator’s example">The wave crest at the shore</td></tr><tr><td data-label="Say">What you see now</td><td data-label="Meaning">Describe the current state objectively, ideally with a screenshot</td><td data-label="The creator’s example">Foam rises from the base of the wave before impact</td></tr><tr><td data-label="Say">Why it’s wrong</td><td data-label="Meaning">Which common sense, requirement or order it breaks</td><td data-label="The creator’s example">Wrong order for a breaking wave</td></tr><tr><td data-label="Say">What you want</td><td data-label="Meaning">What it should look like to count as right</td><td data-label="The creator’s example">The crest falls first, then foam and spray</td></tr><tr><td data-label="Say">Scope of the change</td><td data-label="Meaning">What to change, and what not to touch</td><td data-label="The creator’s example">Only the wave-breaking part</td></tr><tr><td data-label="Say">How to verify</td><td data-label="Meaning">How you’ll check it afterwards</td><td data-label="The creator’s example">Watch a short clip from three different angles and keep an eye on performance</td></tr></tbody></table></div>
+<p>Written like this, it’s far more useful than “doesn’t look good, try again”. Copy the fill-in below:</p>
+<figure class="code"><figcaption><span>6-line revision note</span><button type="button" class="copy">Copy</button></figcaption><pre><code>Where / when: <span class="blank">____</span>
+What I see now: <span class="blank">____</span>
+Why it's wrong: <span class="blank">____</span>
+What I want: <span class="blank">____</span>
+Scope of the change: <span class="blank">____</span>
+How I'll check it: <span class="blank">____</span></code></pre></figure>
+<p><strong>Build up teaching material as you go:</strong> after each piece, you can have it write up how it was made as a “magazine-style HTML report” for non-engineers. One author’s original prompt is below; it means “write up this build process for non-engineers, including the techniques and Skills used, as an HTML report that reads like a magazine”. Note: the report may mention Skills that weren’t actually used, so check it once against the work log.</p>
+<figure class="code"><figcaption><span>Magazine-style making-of report (original Japanese prompt)</span><button type="button" class="copy">Copy</button></figcaption><pre lang="ja"><code>今回の制作プロセスを非エンジニア向けに、使用した技術、Skills含め雑誌のように読めるHTMLレポートとして仕上げて</code></pre></figure>
+<p><strong>Recommended resources:</strong></p>
+<div class="tbl res"><table><thead><tr><th scope="col">Resource</th><th scope="col">Platform · language</th><th scope="col">Why read it</th></tr></thead><tbody><tr data-acc="vpn"><td data-label="Resource"><a href="https://x.com/alex_prompter/status/2103862217800359939" target="_blank" rel="noopener">One prompt for a working single-page app<span class="sr"> (new window)</span><span class="ext" aria-hidden="true">↗</span></a><span class="res-sub"><a class="atl" href="../../../?q=uc-2536&amp;lang=en"><span class="sr">View in the case atlas: </span>Atlas · Websites &amp; Interfaces <span class="nw"><span class="id">uc-2536</span> <span aria-hidden="true">→</span></span></a></span></td><td data-label="Platform · language"><div class="res-chips"><span class="acc ok"><span class="sr">Language: </span>English</span><span class="ch">X</span></div></td><td data-label="Why read it">A complete template you can copy whole, written for people who don’t code; the skeleton above is adapted from it. The post has no finished app to open, so try it yourself to see the result.</td></tr><tr data-acc="ok"><td data-label="Resource"><a href="https://www.bilibili.com/video/BV1UAhR6mE4z" target="_blank" rel="noopener">Animated Mid-Autumn e-card: one starting prompt + two polishing prompts<span class="sr"> (new window)</span><span class="ext" aria-hidden="true">↗</span></a><span class="res-sub"><a class="atl" href="../../../?q=video-265&amp;lang=en"><span class="sr">View in the case atlas: </span>Atlas · Websites &amp; Interfaces <span class="nw"><span class="id">video-265</span> <span aria-hidden="true">→</span></span></a></span></td><td data-label="Platform · language"><div class="res-chips"><span class="acc lg"><span class="sr">Language: </span>Chinese</span><span class="ch">Bilibili</span><span class="ch">2 min</span></div></td><td data-label="Why read it">The description gives all three prompts in full: first state the purpose and delivery format, then polish round by round with aesthetic requirements. The creator used max throughout; beginners should start with the default level.</td></tr><tr data-acc="ok"><td data-label="Resource"><a href="https://note.com/mizugame_pharaoh/n/n5ce87a54dae0" target="_blank" rel="noopener">Shishi-odoshi in the rain: letting AI see what it made<span class="sr"> (new window)</span><span class="ext" aria-hidden="true">↗</span></a><span class="res-sub"><a class="atl" href="../../../?q=uc-1332&amp;lang=en"><span class="sr">View in the case atlas: </span>Atlas · 3D Modeling &amp; Scenes <span class="nw"><span class="id">uc-1332</span> <span aria-hidden="true">→</span></span></a></span></td><td data-label="Platform · language"><div class="res-chips"><span class="acc lg"><span class="sr">Language: </span>Japanese</span><span class="ch">note long read</span><span class="ch alt">+ <a href="https://x.com/mizugame_22/status/2103092704850632823" target="_blank" rel="noopener">original X post<span class="sr"> (new window)</span><span class="ext" aria-hidden="true">↗</span></a></span></div></td><td data-label="Why read it">The source of “paste screenshots back, at most 3 fixes per round”, with the failures written up in detail; the note article has the full prompt and every round’s list of changes.</td></tr><tr data-acc="ok"><td data-label="Resource"><a href="https://www.bilibili.com/video/BV1hhhU6NEB9" target="_blank" rel="noopener">A 3D island in 8 hours: the 6-part feedback template and 5 review questions<span class="sr"> (new window)</span><span class="ext" aria-hidden="true">↗</span></a><span class="res-sub"><a class="atl" href="../../../?q=video-129&amp;lang=en"><span class="sr">View in the case atlas: </span>Atlas · 3D Modeling &amp; Scenes <span class="nw"><span class="id">video-129</span> <span aria-hidden="true">→</span></span></a></span></td><td data-label="Platform · language"><div class="res-chips"><span class="acc lg"><span class="sr">Language: </span>Chinese</span><span class="ch">Bilibili</span><span class="ch">2 min</span></div></td><td data-label="Why read it">The source of the 6-part feedback template above; the description also has 5 review questions that apply to web pages, animations and games.</td></tr><tr data-acc="vpn"><td data-label="Resource"><a href="https://x.com/tetumemo/status/2103459763292090612" target="_blank" rel="noopener">Having Opus write the making-of as a magazine-style tutorial<span class="sr"> (new window)</span><span class="ext" aria-hidden="true">↗</span></a><span class="res-sub"><a class="atl" href="../../../?q=uc-1790&amp;lang=en"><span class="sr">View in the case atlas: </span>Atlas · Interactive Learning &amp; Visualization <span class="nw"><span class="id">uc-1790</span> <span aria-hidden="true">→</span></span></a></span></td><td data-label="Platform · language"><div class="res-chips"><span class="acc lg"><span class="sr">Language: </span>Japanese</span><span class="ch">X</span></div></td><td data-label="Why read it">One reusable prompt, quoted above.</td></tr></tbody></table></div>
+<label class="checkpoint z-ai"><input type="checkbox" data-cp="first-build"><span class="box" aria-hidden="true"></span><span class="txt"><strong class="kick">Checkpoint 2 / 5<span class="sr">: </span></strong>make a single page that opens in a browser and go through at least 2 rounds of “open it → paste screenshots back → fix by impact”</span></label>
+<p class="nextstep"><a href="#effort"><span class="k">Next: step 3</span>Before Claude Code, understand effort and usage limits <span aria-hidden="true">→</span></a></p>
+<h2 id="effort" class="z-cc"><a class="no z-cc" href="#effort" aria-label="Link to step 3">03</a><span class="t"><span class="k">Step 3 of 5 · Mostly Claude Code</span>Before Claude Code, understand effort and usage limits</span></h2>
+<p class="skip-chip"><span class="k">Only using claude.ai?</span>Keep the thinking level at its default and skip this step for now; just remember: when you switch to an unrelated task, start a new conversation, which also saves usage. <a href="#directions">Skip to step 4 →</a></p>
+<p>In Claude Code, effort decides how long it thinks and how thoroughly it checks and verifies. One author’s analogy: the same person told “have a quick look” or “verify everything” has the same ability, just a different level of checking. Opus 5.5 defaults to <strong>medium</strong>, one level lower than earlier models, and most work doesn’t need a change.</p>
+<div class="tbl stack"><table><thead><tr><th scope="col">Level</th><th scope="col">Good for</th><th scope="col">Note</th></tr></thead><tbody><tr><td data-label="Level">low</td><td data-label="Good for">Brainstorming, sketches, small changes</td><td data-label="Note">Good for a fast first version</td></tr><tr><td data-label="Level" class="hl">medium</td><td data-label="Good for" class="hl">Most everyday work</td><td data-label="Note" class="hl">The Opus 5.5 default</td></tr><tr><td data-label="Level">high</td><td data-label="Good for">Work that needs verifying, with many edge cases</td><td data-label="Note">Go up to this first when you’re stuck</td></tr><tr><td data-label="Level">xhigh</td><td data-label="Good for">When high isn’t enough and it needs to think deeper</td><td data-label="Note">Slower and uses more allowance than high</td></tr><tr><td data-label="Level">max</td><td data-label="Good for">Letting it take on a hard problem fully on its own</td><td data-label="Note">Uses the most time and allowance; can’t be saved as the default</td></tr></tbody></table></div>
+<ul><li><strong>How to switch</strong>: type <code>/effort</code> in the conversation; in the desktop app, Cmd/Ctrl+Shift+E switches the level and Cmd/Ctrl+Shift+I switches the model.</li><li><strong>Suggested flow</strong>: first have it ask you questions to complete the requirements → make a first version on low → check yourself that the direction is right → finally switch to high to verify.</li><li><strong>When to go up</strong>: default medium, high when stuck; if it still gets stuck twice on the same problem at xhigh, consider the more expensive Fable 5.1, then switch back to Opus 5.5 once it’s solved.</li></ul>
+<figure class="effchart" id="fig-effort"><div class="eff"><p class="eh"><span class="tag2">Test 1</span>Video: the same prompt, one 25-second animation at each of four levels</p><p class="es">chenyuxiaojin · <b>1 run per level</b> · <a class="atl" href="../../../?q=github-306&amp;lang=en"><span class="sr">View in the case atlas: </span>Atlas · Video Editing &amp; Production <span class="nw"><span class="id">github-306</span> <span aria-hidden="true">→</span></span></a></p><table><caption class="sr">Test 1: Video: the same prompt, one 25-second animation at each of four levels</caption><thead><tr><th scope="col">Level</th><th scope="col">Time</th><th scope="col">Cost (USD)</th><th scope="col">Blind viewing</th></tr></thead><tbody><tr class="na"><th scope="row">low</th><td colspan="3">Not tested (this test compared four levels)</td></tr><tr class="def"><th scope="row">medium<span class="d">default</span></th><td><span class="v">25.9 min</span><i class="bar" style="--f:0.135" aria-hidden="true"></i></td><td><span class="v">$6.12</span><i class="bar" style="--f:0.194" aria-hidden="true"></i></td><td>Indistinguishable from max</td></tr><tr><th scope="row">high</th><td><span class="v">29.0 min</span><i class="bar" style="--f:0.151" aria-hidden="true"></i></td><td><span class="v">$6.84</span><i class="bar" style="--f:0.217" aria-hidden="true"></i></td><td>Guessed one level lower</td></tr><tr><th scope="row">xhigh</th><td><span class="v">167.0 min</span><i class="bar" style="--f:0.868" aria-hidden="true"></i></td><td><span class="v">$25.16</span><i class="bar" style="--f:0.798" aria-hidden="true"></i></td><td>Guessed one level lower</td></tr><tr><th scope="row">max</th><td><span class="v">192.5 min</span><i class="bar" style="--f:1.000" aria-hidden="true"></i></td><td><span class="v">$31.54</span><i class="bar" style="--f:1.000" aria-hidden="true"></i></td><td>Indistinguishable from medium</td></tr></tbody></table><p class="ef">Couldn’t tell them apart blind: max took about 7 times as long as medium, yet with the labels shuffled, the two couldn’t be told apart.</p><p class="en">The author made 19 runs in all; only the four official levels that made it into the final video are listed here. Another set of four that didn’t, and the trial runs with changed prompts or narration, are left out.</p></div><div class="eff"><p class="eh"><span class="tag2">Test 2</span>Quiz: convert 24 meeting times to Japan time (with a daylight-saving trap)</p><p class="es">A Zenn author · <b>3 runs per level, median</b> · <a class="atl" href="../../../?q=web-286&amp;lang=en"><span class="sr">View in the case atlas: </span>Atlas · Code Maintenance &amp; Testing <span class="nw"><span class="id">web-286</span> <span aria-hidden="true">→</span></span></a></p><table><caption class="sr">Test 2: Quiz: convert 24 meeting times to Japan time (with a daylight-saving trap)</caption><thead><tr><th scope="col">Level</th><th scope="col">Time (median)</th><th scope="col">Cost (USD)</th></tr></thead><tbody><tr><th scope="row">low</th><td><span class="v">12 s</span><i class="bar" style="--f:0.051" aria-hidden="true"></i></td><td><span class="v">$0.06</span><i class="bar" style="--f:0.073" aria-hidden="true"></i></td></tr><tr class="def"><th scope="row">medium<span class="d">default</span></th><td><span class="v">19 s</span><i class="bar" style="--f:0.081" aria-hidden="true"></i></td><td><span class="v">$0.09</span><i class="bar" style="--f:0.110" aria-hidden="true"></i></td></tr><tr><th scope="row">high</th><td><span class="v">30 s</span><i class="bar" style="--f:0.128" aria-hidden="true"></i></td><td><span class="v">$0.12</span><i class="bar" style="--f:0.146" aria-hidden="true"></i></td></tr><tr><th scope="row">xhigh</th><td><span class="v">35 s</span><i class="bar" style="--f:0.150" aria-hidden="true"></i></td><td><span class="v">$0.14</span><i class="bar" style="--f:0.171" aria-hidden="true"></i></td></tr><tr><th scope="row">max</th><td><span class="v">3 min 54 s</span><i class="bar" style="--f:1.000" aria-hidden="true"></i></td><td><span class="v">$0.82</span><i class="bar" style="--f:1.000" aria-hidden="true"></i></td></tr></tbody></table><p class="ef">All correct; the difference is self-checking: 3 runs at each of five levels, all 24 right every time; low to high converted once with Python and handed it in, while max redid the calculation a different way each run and looked up the daylight-saving rules online.</p></div><figcaption>Two authors’ tests: higher levels cost more time and money, but the result isn’t necessarily better (self-reported, converted at API prices, very few runs per level). The two tasks are completely different and each table has its own scale: don’t compare across them.</figcaption></figure>
+<p><strong>Why your allowance can suddenly run out:</strong> every turn resends the whole conversation, so the cost depends on how many turns a task runs. Ways to save:</p>
+<ul><li>When you move to an unrelated task, use <code>/clear</code> (empties the current conversation and starts fresh) instead of letting one conversation grow longer and longer.</li><li>To keep the context, use <code>/compact</code> (compresses the earlier conversation into a summary and carries on), and do it before the cache expires. The cache makes resending the old conversation cheaper; for subscribers it lasts 1 hour.</li><li>Switching models mid-conversation, or connecting or disconnecting an MCP server (a plug that lets the AI read outside data directly), rewrites the cache and costs extra.</li><li>Not everything needs Opus: one author had Sonnet 5.5 and Opus 5.5 each do 7 kinds of work. Fixing bugs, small tools, writing openings and critiquing images were a tie; Opus was more accurate at money calculations and fact-checking. His split: Sonnet first for everyday work, Opus for money and facts.</li></ul>
+<div class="note warn" role="note" id="lesson-max"><p class="kick">A real lesson</p><p class="rule"><strong>Don’t use max without a reason; when your allowance drops fast, check the usage breakdown in the app first.</strong></p><p class="story">A small-business owner who doesn’t code set effort to max “for no particular reason”. After that, <code>/code-review</code> started 10 subagents in parallel at once (helpers it sends off to work at the same time, each using allowance), and on two days running the Pro plan’s 5-hour allowance was gone in 8 and 4 minutes. The author also notes that the model, the effort setting and the app version all changed that day, so he couldn’t tell which caused it.</p></div>
+<p><strong>Recommended resources:</strong></p>
+<div class="tbl res"><table><thead><tr><th scope="col">Resource</th><th scope="col">Platform · language</th><th scope="col">Why read it</th></tr></thead><tbody><tr data-acc="vpn"><td data-label="Resource"><a href="https://x.com/dotey/status/2103678997141786937" target="_blank" rel="noopener">Baoyu: how to choose effort in Claude Code<span class="sr"> (new window)</span><span class="ext" aria-hidden="true">↗</span></a><span class="res-sub"><a class="atl" href="../../../?q=uc-2251&amp;lang=en"><span class="sr">View in the case atlas: </span>Atlas · Code Maintenance &amp; Testing <span class="nw"><span class="id">uc-2251</span> <span aria-hidden="true">→</span></span></a></span></td><td data-label="Platform · language"><div class="res-chips"><span class="acc lg"><span class="sr">Language: </span>Chinese</span><span class="ch">X</span></div></td><td data-label="Why read it">Explains the long official article in plain Chinese and gives the flow “ask back to complete → low → check direction → high”.</td></tr><tr data-acc="ok"><td data-label="Resource"><a href="https://zenn.dev/goat_eat_any/articles/claude-code-effort-explained" target="_blank" rel="noopener">All five effort levels, three runs each<span class="sr"> (new window)</span><span class="ext" aria-hidden="true">↗</span></a><span class="res-sub"><a class="atl" href="../../../?q=web-286&amp;lang=en"><span class="sr">View in the case atlas: </span>Atlas · Code Maintenance &amp; Testing <span class="nw"><span class="id">web-286</span> <span aria-hidden="true">→</span></span></a></span></td><td data-label="Platform · language"><div class="res-chips"><span class="acc lg"><span class="sr">Language: </span>Japanese</span><span class="ch">Zenn</span></div></td><td data-label="Why read it">Makes clear that the level changes how hard it verifies, not its ability; shows where to switch, the shortcuts and several ways to set it.</td></tr><tr data-acc="vpn"><td data-label="Resource"><a href="https://x.com/dotey/status/2103747370156491142" target="_blank" rel="noopener">Baoyu: why it lasts longer, and 6 tips to save usage<span class="sr"> (new window)</span><span class="ext" aria-hidden="true">↗</span></a><span class="res-sub"><a class="atl" href="../../../?q=uc-2335&amp;lang=en"><span class="sr">View in the case atlas: </span>Atlas · Business Analysis &amp; Documents <span class="nw"><span class="id">uc-2335</span> <span aria-hidden="true">→</span></span></a></span></td><td data-label="Platform · language"><div class="res-chips"><span class="acc lg"><span class="sr">Language: </span>Chinese</span><span class="ch">X</span></div></td><td data-label="Why read it">The source for /clear, /compact, caching and the step-up route.</td></tr><tr data-acc="ok"><td data-label="Resource"><a href="https://note.com/nantokanaru_log/n/naa4c550feb11" target="_blank" rel="noopener">Sonnet 5.5 vs Opus 5.5 on the same tasks, 28 runs<span class="sr"> (new window)</span><span class="ext" aria-hidden="true">↗</span></a><span class="res-sub"><a class="atl" href="../../../?q=web-346&amp;lang=en"><span class="sr">View in the case atlas: </span>Atlas · Code Maintenance &amp; Testing <span class="nw"><span class="id">web-346</span> <span aria-hidden="true">→</span></span></a></span></td><td data-label="Platform · language"><div class="res-chips"><span class="acc lg"><span class="sr">Language: </span>Japanese</span><span class="ch">note</span></div></td><td data-label="Why read it">Answers “does everything need Opus?”; the author admits each task ran only twice and some were scored by AI.</td></tr><tr data-acc="ok"><td data-label="Resource"><a href="https://zenn.dev/tenpachi/articles/9039cc7e07ed74" target="_blank" rel="noopener">A non-coding business owner burns through Pro usage in 4 minutes<span class="sr"> (new window)</span><span class="ext" aria-hidden="true">↗</span></a><span class="res-sub"><a class="atl" href="../../../?q=web-284&amp;lang=en"><span class="sr">View in the case atlas: </span>Atlas · Code Maintenance &amp; Testing <span class="nw"><span class="id">web-284</span> <span aria-hidden="true">→</span></span></a></span></td><td data-label="Platform · language"><div class="res-chips"><span class="acc lg"><span class="sr">Language: </span>Japanese</span><span class="ch">Zenn</span></div></td><td data-label="Why read it">The first-hand lesson closest to a beginner’s situation; the source of the “real lesson” above.</td></tr></tbody></table></div>
+<label class="checkpoint z-cc"><input type="checkbox" data-cp="effort"><span class="box" aria-hidden="true"></span><span class="txt"><strong class="kick">Checkpoint 3 / 5<span class="sr">: </span></strong>type /effort in Claude Code and see the current level (medium by default), and be able to say when to use /clear and when to use /compact</span></label>
+<p class="nextstep"><a href="#directions"><span class="k">Next: step 4</span>Pick one direction to go deeper <span aria-hidden="true">→</span></a></p>
+<h2 id="directions" class="z-cc"><a class="no z-cc" href="#directions" aria-label="Link to step 4">04</a><span class="t"><span class="k">Step 4 of 5 · Mostly Claude Code</span>Pick one direction to go deeper</span></h2>
+<p>Once the first three steps are done, pick one direction that interests you. In each, start with the first resource, then read further as needed.</p>
+<ul class="dir-pick" aria-label="Four directions"><li><a href="#video"><b>Video and motion</b><span>Needs Claude Code + Node.js, Chrome, FFmpeg</span><span class="n">4 resources</span></a></li><li><a href="#web-games"><b>Web pages and small games</b><span>The example author used Claude Code in the desktop app</span><span class="n">2 resources</span></a></li><li><a href="#claude-code"><b>Claude&nbsp;Code workflows</b><span>Needs Claude Code</span><span class="n">4 resources</span></a></li><li><a href="#knowledge"><b>Documents and knowledge work</b><span>Works in claude.ai too</span><span class="n">2 resources</span></a></li></ul>
+<h3 id="video" class="z-cc"><span class="k">Direction 1 / 4</span>Video and motion</h3>
+<p>Understand the principle first: Opus 5.5 doesn’t generate video directly. It writes code that draws each frame, then a browser captures the frames and FFmpeg joins them, so it’s good at motion graphics and explainer animation, and not at realistic footage.</p>
+<figure class="fig wide" id="fig-video"><a href="../img/video-en.webp?v=08fd38f3" class="zoom" aria-label="View full size: How video from code works: you set the b…"><img src="../img/video-en-1200.webp?v=43145bf7" srcset="../img/video-en-800.webp?v=3facf1de 800w, ../img/video-en-1200.webp?v=43145bf7 1200w, ../img/video-en-1800.webp?v=ca70c0a6 1800w, ../img/video-en.webp?v=08fd38f3 2400w" sizes="(max-width:760px) 100vw, (max-width:1399px) 680px, 832px" width="2400" height="2060" loading="lazy" decoding="async" alt="How video from code works: you set the brief and approve a storyboard; Opus 5.5 in Claude Code writes code that draws every frame (HTML/Canvas, Remotion, HyperFrames, etc.), a browser captures the frames one by one, FFmpeg joins them into an MP4, and it spot-checks frames itself, fixing the code and re-rendering when something is wrong. Good at motion graphics, explainers, product launches, line art, hand-drawn and ink-wash animation, lyric videos; weak at realistic live-action footage. On your computer you need Claude Code, Node.js, Chrome and FFmpeg; without installing anything you can try claude.ai plus a screen recorder. At the bottom: the WaytoAGI logo and a QR code back to this section."></a><figcaption>Opus 5.5 doesn’t generate video directly: it writes code that draws every frame.</figcaption></figure>
+<ul><li><strong>What you need</strong>: Claude Code (effort at high or xhigh), with Node.js, Chrome and FFmpeg installed on your computer. You can try without installing anything: just claude.ai plus a screen recorder, see item 07 in the first resource below.</li><li><strong>Lessons on writing the prompt</strong>: storyboard first, code second; keep a “don’t use” list; have it pull frames and check and redo them itself.</li><li><strong>Change the input before raising the level</strong>: one author made four versions of an animation from the same prompt, changing only effort, and couldn’t tell them apart in a blind viewing; what actually changed the picture was replacing an abstract voice-over with a first-person passage that has a twist. As he put it, “the nouns in the voice-over are what the model will draw”.</li><li><strong>Have realistic cost expectations</strong>: the README of a Chinese collection says a one-line short costs a few dollars, while a music video a few minutes long can reach about 200 dollars in a single session. Many “one-shot” results actually took two or more rounds.</li></ul>
+<div class="tbl res"><table><thead><tr><th scope="col">Resource</th><th scope="col">Platform · language</th><th scope="col">Why read it</th></tr></thead><tbody><tr data-acc="partial"><td data-label="Resource"><span class="first">Start here</span><a href="https://github.com/joeseesun/opus-video-prompts" target="_blank" rel="noopener">Video from code: a Chinese collection of cases and prompts<span class="sr"> (new window)</span><span class="ext" aria-hidden="true">↗</span></a><span class="res-sub"><a class="atl" href="../../../?q=github-187&amp;lang=en"><span class="sr">View in the case atlas: </span>Atlas · Video Editing &amp; Production <span class="nw"><span class="id">github-187</span> <span aria-hidden="true">→</span></span></a></span></td><td data-label="Platform · language"><div class="res-chips"><span class="acc lg"><span class="sr">Language: </span>Chinese</span><span class="ch">GitHub</span></div></td><td data-label="Why read it">Explains the principle, then gives a four-step “three-minute start”, 18 prompts, and sections on lessons and limitations. Item 07 needs only claude.ai plus screen recording.</td></tr><tr data-acc="ok"><td data-label="Resource"><a href="https://www.bilibili.com/video/BV1s2aV6cELo" target="_blank" rel="noopener">Making video cheaply with Claude<span class="sr"> (new window)</span><span class="ext" aria-hidden="true">↗</span></a><span class="res-sub"><a class="atl" href="../../../?q=video-207&amp;lang=en"><span class="sr">View in the case atlas: </span>Atlas · Video Editing &amp; Production <span class="nw"><span class="id">video-207</span> <span aria-hidden="true">→</span></span></a></span></td><td data-label="Platform · language"><div class="res-chips"><span class="acc lg"><span class="sr">Language: </span>Chinese</span><span class="ch">Bilibili</span><span class="ch">6 min</span></div></td><td data-label="Why read it">Explains that it isn’t a diffusion model and why it’s cheap, with two one-line prompts in Chinese.</td></tr><tr data-acc="ok"><td data-label="Resource"><a href="https://www.bilibili.com/video/BV1sThX6TEj2" target="_blank" rel="noopener">Animation with Opus 5.5: the full process in 6 steps<span class="sr"> (new window)</span><span class="ext" aria-hidden="true">↗</span></a><span class="res-sub"><a class="atl" href="../../../?q=video-084&amp;lang=en"><span class="sr">View in the case atlas: </span>Atlas · Video Editing &amp; Production <span class="nw"><span class="id">video-084</span> <span aria-hidden="true">→</span></span></a></span></td><td data-label="Platform · language"><div class="res-chips"><span class="acc lg"><span class="sr">Language: </span>Chinese</span><span class="ch">Bilibili</span><span class="ch">4 min</span></div></td><td data-label="Why read it">Set the style → pick the story → storyboard before production → picture and music share one beat sheet → revise.</td></tr><tr data-acc="partial"><td data-label="Resource"><a href="https://github.com/chenyuxiaojin/cyxj-videos" target="_blank" rel="noopener">Blind test of an animation at four effort levels (full prompts included)<span class="sr"> (new window)</span><span class="ext" aria-hidden="true">↗</span></a><span class="res-sub"><a class="atl" href="../../../?q=github-306&amp;lang=en"><span class="sr">View in the case atlas: </span>Atlas · Video Editing &amp; Production <span class="nw"><span class="id">github-306</span> <span aria-hidden="true">→</span></span></a></span></td><td data-label="Platform · language"><div class="res-chips"><span class="acc lg"><span class="sr">Language: </span>Chinese</span><span class="ch">GitHub</span></div></td><td data-label="Why read it">The source of “change the input before raising the level”; reproducing it takes a lot of usage, but reading the conclusions costs nothing.</td></tr></tbody></table></div>
+<p class="dir-more"><a href="../../../?cat=video&amp;ev=%E6%95%99%E7%A8%8B&amp;lang=en">More “Video Editing &amp; Production” tutorials in the atlas · 127 →</a><a class="up" href="#directions">↑ Pick another direction</a></p>
+<h3 id="web-games" class="z-cc"><span class="k">Direction 2 / 4</span>Web pages and small games</h3>
+<p>An author who is “a complete amateur at development” used Claude Code in the Claude desktop app to take a half-finished tower-defence game to v1.0 and launch it in a single day: 25 messages in total to reach v1.0, only 8 of them change requests. The way of giving instructions that he and the AI worked out in their retrospective:</p>
+<ul><li>When you lose, explain how you placed things, not just “too hard”.</li><li>If you’ve already decided, write only one option; list two and it will ask you which one.</li><li>Give a reason with any number; add a line of explanation to any screenshot.</li><li>Before launch, check three things: no keys written into the code, assets comply with their terms of use, nothing pretends to be official.</li></ul>
+<div class="tbl res"><table><thead><tr><th scope="col">Resource</th><th scope="col">Platform · language</th><th scope="col">Why read it</th></tr></thead><tbody><tr data-acc="ok"><td data-label="Resource"><span class="first">Start here</span><a href="https://note.com/nao_ki_000/n/nc80a2c718f5f" target="_blank" rel="noopener">Can’t code: finishing and launching a game in one day<span class="sr"> (new window)</span><span class="ext" aria-hidden="true">↗</span></a><span class="res-sub"><a class="atl" href="../../../?q=web-360&amp;lang=en"><span class="sr">View in the case atlas: </span>Atlas · Game Development <span class="nw"><span class="id">web-360</span> <span aria-hidden="true">→</span></span></a></span></td><td data-label="Platform · language"><div class="res-chips"><span class="acc lg"><span class="sr">Language: </span>Japanese</span><span class="ch">note</span></div></td><td data-label="Why read it">The source of the method above, plus an explanation of MCP a beginner can follow and having the AI play dozens of rounds automatically to check the balance. The author is on the Max plan.</td></tr><tr data-acc="partial"><td data-label="Resource"><a href="https://github.com/TripoGrowthLab/awesome-opus-5-5-prompts" target="_blank" rel="noopener">3D / game prompt library with Chinese translations (51 prompts)<span class="sr"> (new window)</span><span class="ext" aria-hidden="true">↗</span></a><span class="res-sub"><a class="atl" href="../../../?q=github-015&amp;lang=en"><span class="sr">View in the case atlas: </span>Atlas · 3D Modeling &amp; Scenes <span class="nw"><span class="id">github-015</span> <span aria-hidden="true">→</span></span></a></span></td><td data-label="Platform · language"><div class="res-chips"><span class="acc lg"><span class="sr">Language: </span>Chinese</span><span class="ch">GitHub</span><span class="ch flag">Includes promotion</span></div></td><td data-label="Why read it">Each entry has the Chinese prompt, the original and a link to the original post; pick a short one and try it on a different theme. Compiled by Tripo with promotion of its own product, and some prompts are over the top.</td></tr></tbody></table></div>
+<p class="dir-more"><a href="../../../?cat=games&amp;ev=%E6%95%99%E7%A8%8B&amp;lang=en">More “Game Development” tutorials in the atlas · 20 →</a><a href="../../../?cat=web&amp;ev=%E6%95%99%E7%A8%8B&amp;lang=en">More “Websites &amp; Interfaces” tutorials in the atlas · 13 →</a><a class="up" href="#directions">↑ Pick another direction</a></p>
+<h3 id="claude-code" class="z-cc"><span class="k">Direction 3 / 4</span>Claude Code workflows</h3>
+<p>The core is learning to “hand the job over completely”: say where the input is, what file the output should be, what done means, and to say so plainly if it can’t do something.</p>
+<ul><li>Keep input and output apart (e.g. input/ and output/), and don’t allow changes to the original files.</li><li>Have it write in report.md how it did the work and what it didn’t do or isn’t sure about.</li><li>Track progress in a TASKS.md; one prompt framework is Goal / Why / Context / Done when / Boundaries.</li><li>Actually lock down subagent permissions: one author audited his setup and found that only 4 of 33 subagent definitions restricted tool permissions. A rule written in text is not a permission that takes effect.</li></ul>
+<div class="tbl res"><table><thead><tr><th scope="col">Resource</th><th scope="col">Platform · language</th><th scope="col">Why read it</th></tr></thead><tbody><tr data-acc="ok"><td data-label="Resource"><span class="first">Start here</span><a href="https://www.bilibili.com/video/BV1Y2hm6NEP7" target="_blank" rel="noopener">Editing talking-head videos in Claude Code without plugins: seven complete prompts<span class="sr"> (new window)</span><span class="ext" aria-hidden="true">↗</span></a><span class="res-sub"><a class="atl" href="../../../?q=video-070&amp;lang=en"><span class="sr">View in the case atlas: </span>Atlas · Video Editing &amp; Production <span class="nw"><span class="id">video-070</span> <span aria-hidden="true">→</span></span></a></span></td><td data-label="Platform · language"><div class="res-chips"><span class="acc lg"><span class="sr">Language: </span>Chinese</span><span class="ch">Bilibili</span><span class="ch">20 min</span></div></td><td data-label="Why read it">Shows how to hand over a non-programming job completely; all seven prompts are in the description.</td></tr><tr data-acc="ok"><td data-label="Resource"><a href="https://note.com/comix_ceo162230/n/nc4b14eb13401" target="_blank" rel="noopener">Fill-in task-handover templates + TASKS.md<span class="sr"> (new window)</span><span class="ext" aria-hidden="true">↗</span></a><span class="res-sub"><a class="atl" href="../../../?q=web-342&amp;lang=en"><span class="sr">View in the case atlas: </span>Atlas · Agents &amp; Developer Workflows <span class="nw"><span class="id">web-342</span> <span aria-hidden="true">→</span></span></a></span></td><td data-label="Platform · language"><div class="res-chips"><span class="acc lg"><span class="sr">Language: </span>Japanese</span><span class="ch">note</span><span class="ch flag">Includes promotion</span></div></td><td data-label="Why read it">Fill-in delegation templates for four domains, a read-only review prompt and a subagent permission audit. Ends with a promotion for the author’s company services.</td></tr><tr data-acc="partial"><td data-label="Resource"><a href="https://github.com/e1daru/opus-5-5-dev-guide" target="_blank" rel="noopener">A two-hour Opus 5.5 × Claude Code crash course<span class="sr"> (new window)</span><span class="ext" aria-hidden="true">↗</span></a><span class="res-sub"><a class="atl" href="../../../?q=github-191&amp;lang=en"><span class="sr">View in the case atlas: </span>Atlas · Code Maintenance &amp; Testing <span class="nw"><span class="id">github-191</span> <span aria-hidden="true">→</span></span></a></span></td><td data-label="Platform · language"><div class="res-chips"><span class="acc ok"><span class="sr">Language: </span>English</span><span class="ch">GitHub</span></div></td><td data-label="Why read it">Every step comes with a prompt to paste; aimed at developers, so beginners should do Step 0–3 of “Environment setup” and the hands-on part first.</td></tr><tr data-acc="ok"><td data-label="Resource"><a href="https://www.bilibili.com/video/BV1D8ae6aESU" target="_blank" rel="noopener">Vibe coding from zero to one, no background needed<span class="sr"> (new window)</span><span class="ext" aria-hidden="true">↗</span></a><span class="res-sub"><a class="atl" href="../../../?q=video-231&amp;lang=en"><span class="sr">View in the case atlas: </span>Atlas · Code Maintenance &amp; Testing <span class="nw"><span class="id">video-231</span> <span aria-hidden="true">→</span></span></a></span></td><td data-label="Platform · language"><div class="res-chips"><span class="acc lg"><span class="sr">Language: </span>Chinese</span><span class="ch">Bilibili</span><span class="ch">~70 min</span></div></td><td data-label="Why read it">The full rhythm of a small product from research, development and testing to an open-source release; the example is a macOS utility, so watch for the method, no need to copy it.</td></tr></tbody></table></div>
+<p class="dir-more"><a href="../../../?cat=agents&amp;ev=%E6%95%99%E7%A8%8B&amp;lang=en">More “Agents &amp; Developer Workflows” tutorials in the atlas · 48 →</a><a class="up" href="#directions">↑ Pick another direction</a></p>
+<h3 id="knowledge" class="z-cc"><span class="k">Direction 4 / 4</span>Documents and knowledge work</h3>
+<ul><li><strong>When an answer “looks fine but is vague”, ask three follow-ups</strong>: first list all the candidates, then compare; first fix the categories, then look for gaps; take each premise out on its own and re-judge it with evidence. The author found the third the most effective.</li><li><strong>For anything current, say “search first, then answer” every time</strong>: one author asked three models “what do the rules look like now”, and in the first round Opus 5.5 didn’t search the web on its own; it searched only when told “please search”. Before publishing, open the official page and check it yourself.</li></ul>
+<div class="tbl res"><table><thead><tr><th scope="col">Resource</th><th scope="col">Platform · language</th><th scope="col">Why read it</th></tr></thead><tbody><tr data-acc="ok"><td data-label="Resource"><span class="first">Start here</span><a href="https://qiita.com/menmen_ailab/items/6b42edc3540c351ee248" target="_blank" rel="noopener">Three follow-ups for vague answers<span class="sr"> (new window)</span><span class="ext" aria-hidden="true">↗</span></a><span class="res-sub"><a class="atl" href="../../../?q=web-350&amp;lang=en"><span class="sr">View in the case atlas: </span>Atlas · Writing &amp; Explanations <span class="nw"><span class="id">web-350</span> <span aria-hidden="true">→</span></span></a></span></td><td data-label="Platform · language"><div class="res-chips"><span class="acc lg"><span class="sr">Language: </span>Japanese</span><span class="ch">Qiita</span></div></td><td data-label="Why read it">All three follow-ups are in code blocks, ready to copy.</td></tr><tr data-acc="ok"><td data-label="Resource"><a href="https://note.com/dear_yucca3529/n/n5fef0496187d" target="_blank" rel="noopener">Three models check regulations, write a price-increase email and do household accounts<span class="sr"> (new window)</span><span class="ext" aria-hidden="true">↗</span></a><span class="res-sub"><a class="atl" href="../../../?q=web-301&amp;lang=en"><span class="sr">View in the case atlas: </span>Atlas · Business Analysis &amp; Documents <span class="nw"><span class="id">web-301</span> <span aria-hidden="true">→</span></span></a></span></td><td data-label="Platform · language"><div class="res-chips"><span class="acc lg"><span class="sr">Language: </span>Japanese</span><span class="ch">note</span></div></td><td data-label="Why read it">Everyday work by a non-programmer, tested; shows that it flags date problems on its own, and that you need to tell it explicitly to “search first”.</td></tr></tbody></table></div>
+<p class="dir-more"><a href="../../../?cat=business&amp;ev=%E6%95%99%E7%A8%8B&amp;lang=en">More “Business Analysis &amp; Documents” tutorials in the atlas · 24 →</a><a href="../../../?cat=writing&amp;ev=%E6%95%99%E7%A8%8B&amp;lang=en">More “Writing &amp; Explanations” tutorials in the atlas · 6 →</a><a class="up" href="#directions">↑ Pick another direction</a></p>
+<label class="checkpoint z-cc"><input type="checkbox" data-cp="directions"><span class="box" aria-hidden="true"></span><span class="txt"><strong class="kick">Checkpoint 4 / 5<span class="sr">: </span></strong>pick one direction and finish one piece of work by following its first resource</span></label>
+<p class="nextstep"><a href="#pitfalls"><span class="k">Next: step 5</span>Avoid the most common beginner pitfalls <span aria-hidden="true">→</span></a></p>
+<h2 id="pitfalls" class="z-pit"><a class="no z-pit" href="#pitfalls" aria-label="Link to step 5">05</a><span class="t"><span class="k">Step 5 of 5 · Throughout</span>Avoid the most common beginner pitfalls</span></h2>
+<div class="tbl stack"><table><thead><tr><th scope="col">What happens</th><th scope="col">Do this first</th><th scope="col">Source</th></tr></thead><tbody><tr class="sev"><td data-label="What happens"><span class="scope">Both</span>It proposes wiping a disk or deleting backups, or touches disks in auto-run mode</td><td data-label="Do this first">Refuse; turn off auto-run; back up before continuing</td><td data-label="Source"><a href="#yolo">This step · Never forget</a></td></tr><tr><td data-label="What happens"><span class="scope">Claude Code</span>Opus 5.5 is greyed out in Claude Code and can’t be selected</td><td data-label="Do this first">Update the Claude desktop app to the latest version (the Claude Code bundled with the app may still be old)</td><td data-label="Source"><a href="https://note.com/norimasu_lab/n/n28baef17a184" target="_blank" rel="noopener">note short post<span class="sr"> (new window)</span><span class="ext" aria-hidden="true">↗</span></a> <span class="acc lg"><span class="sr">Language: </span>Japanese</span><span class="res-sub"><a class="atl" href="../../../?q=web-239&amp;lang=en"><span class="sr">View in the case atlas: </span>Atlas · Code Maintenance &amp; Testing <span class="nw"><span class="id">web-239</span> <span aria-hidden="true">→</span></span></a></span></td></tr><tr><td data-label="What happens"><span class="scope">Both</span>A reply is labelled with a different model, or a message is blocked</td><td data-label="Do this first">Edit the original message or start a new conversation, then switch back to Opus 5.5; if you think it’s a false positive, report it with Send feedback</td><td data-label="Source"><a href="https://support.claude.com/en/articles/16049681-why-claude-switched-models-in-your-conversation-with-opus-5-or-opus-5-5" target="_blank" rel="noopener">Official help center<span class="sr"> (new window)</span><span class="ext" aria-hidden="true">↗</span></a><span class="res-sub"><a class="atl" href="../../../?q=web-323&amp;lang=en"><span class="sr">View in the case atlas: </span>Atlas · Agents &amp; Developer Workflows <span class="nw"><span class="id">web-323</span> <span aria-hidden="true">→</span></span></a></span></td></tr><tr><td data-label="What happens"><span class="scope">Claude Code</span>The usage allowance runs out in minutes</td><td data-label="Do this first">Check the usage breakdown in the app first; don’t use max without a reason</td><td data-label="Source"><a href="#lesson-max">Step 3 · A real lesson</a></td></tr><tr><td data-label="What happens"><span class="scope">Both</span>It says “it’s ready”, but you open a black screen or errors</td><td data-label="Do this first">Paste screenshots back, have it rank by impact, at most 3 fixes per round</td><td data-label="Source"><a href="#first-build">Step 2 · The revision loop</a></td></tr><tr><td data-label="What happens"><span class="scope">Both</span>It says “done” and you’re not sure</td><td data-label="Do this first">Follow up with “check for any mistakes or regressions”, or review it in a separate session</td><td data-label="Source"><a href="https://www.reddit.com/r/ClaudeCode/comments/1wqnjkp/be_careful_with_opus_55s_confidence/" target="_blank" rel="noopener">Reddit discussion<span class="sr"> (new window)</span><span class="ext" aria-hidden="true">↗</span></a><span class="res-sub"><a class="atl" href="../../../?q=reddit-068&amp;lang=en"><span class="sr">View in the case atlas: </span>Atlas · Code Maintenance &amp; Testing <span class="nw"><span class="id">reddit-068</span> <span aria-hidden="true">→</span></span></a></span></td></tr><tr><td data-label="What happens"><span class="scope">Both</span>It won’t stop and spends its time elsewhere</td><td data-label="Do this first">Before assigning a task, state the deliverable, the definition of done, the time and usage budget, and when to stop</td><td data-label="Source"><a href="https://x.com/every/status/2102495448825262388" target="_blank" rel="noopener">The Every team’s week of testing<span class="sr"> (new window)</span><span class="ext" aria-hidden="true">↗</span></a><span class="res-sub"><a class="atl" href="../../../?q=uc-0143&amp;lang=en"><span class="sr">View in the case atlas: </span>Atlas · Business Analysis &amp; Documents <span class="nw"><span class="id">uc-0143</span> <span aria-hidden="true">→</span></span></a></span></td></tr></tbody></table></div>
+<figure class="code"><figcaption><span>Follow-up when it says “done”</span><button type="button" class="copy">Copy</button></figcaption><pre><code>check for any mistakes or regressions</code></pre></figure>
+<p><strong>Why models get switched or messages blocked:</strong> the official help center explains that safety classifiers fall back to Opus 4.8 for cyberattack-type requests and to Opus 5 for biological dual-use and frontier-model-development requests, and block requests such as “output the complete thinking process verbatim”; most requests never trigger them. The classifiers look not only at what you type but also at memory, connectors, search results and files.</p>
+<p><strong>If you don’t want automatic model switching:</strong> in <span class="ui">Settings</span> <span class="sep" aria-hidden="true">›</span> <span class="ui">Capabilities</span> (in Claude Code: <span class="ui">Config</span> <span class="sep" aria-hidden="true">›</span> <span class="ui">MODEL &amp; OUTPUT</span>), turn off “Switch models when a message is flagged”.</p>
+<div class="note danger" role="note" id="yolo"><p class="kick">Never forget</p><p class="rule"><strong>For anything involving disks, backups or deletion, don’t turn on auto-run or skip confirmations; when the model proposes a destructive action, stop and verify first, don’t pressure it with deadlines, and back up before you act.</strong></p><p class="story">One author reports that he had Opus 5.5 troubleshoot a Time Machine backup in a permissive mode (yolo: it no longer asks you to confirm each step and runs commands directly). By his account, the model wrote a faulty probe script and proposed erasing the whole disk; he refused and then demanded it be “fixed within 30 minutes”, after which the model erased the entire disk anyway (a single first-hand account, not independently verified; the post doesn’t say which product was used). <a href="https://x.com/is_llll/status/2102848100754972942" target="_blank" rel="noopener">Original post (Chinese)<span class="sr"> (new window)</span><span class="ext" aria-hidden="true">↗</span></a></p><p class="res-sub"><a class="atl" href="../../../?q=uc-0970&amp;lang=en"><span class="sr">View in the case atlas: </span>Atlas · Computer Use <span class="nw"><span class="id">uc-0970</span> <span aria-hidden="true">→</span></span></a></p></div>
+<label class="checkpoint z-pit"><input type="checkbox" data-cp="pitfalls"><span class="box" aria-hidden="true"></span><span class="txt"><strong class="kick">Checkpoint 5 / 5<span class="sr">: </span></strong>for your next task, write down “deliverable, definition of done, budget, when to stop”, and keep confirmations on for destructive actions in Claude Code</span></label>
+<p class="nextstep"><a href="#credibility"><span class="k">Route done. Appendix A</span>How to judge whether a case is trustworthy <span aria-hidden="true">→</span></a></p>
+<h2 id="credibility" class="alt"><a class="no alt" href="#credibility" aria-label="Link to appendix A">A</a><span class="t"><span class="k">Appendix A · Beyond the route</span>How to judge whether a case is trustworthy</span></h2>
+<p>These are the checks used to pick this list, and you can use them yourself when browsing the atlas:</p>
+<ul><li><strong>How many runs?</strong> A conclusion from a single run flips easily. One author reran the same question and a model that had searched the web on its own didn’t search the second time.</li><li><strong>Was it really “one-shot”?</strong> Many “one-shot” results actually took two or more rounds.</li><li><strong>Is a higher level always better?</strong> In a blind test, max took about 7 times as long as medium, yet the videos couldn’t be told apart.</li><li><strong>How was the money counted?</strong> Dollar amounts are mostly converted at API prices; subscribers spend allowance.</li><li><strong>Is there a finished piece you can open, the full prompt and a record of failures?</strong> One with all three is more credible than one that just shows a flashy video.</li><li><strong>Is there promotion?</strong> The content can still be useful, but know where the author stands.</li></ul>
+    </article>
+  </div>
+  <section class="join" aria-labelledby="explore">
+  <div class="wrap">
+    <div class="l">
+      <h2 id="explore"><span class="k">Appendix B · Beyond the route</span>Keep looking in the atlas</h2>
+      <p>Every case in the atlas is tagged with a category, an evidence type and a link to the original post, and filters are written into the URL, so you can bookmark or share them directly.</p>
+      <div class="recap">
+        <p class="sum" id="recapSum">The 5 steps:</p>
+        <ol class="steps"><li data-step="prompt"><a href="#prompt"><span class="n z-ai">01</span><span class="t">Brief the whole task at once</span><span class="st" aria-hidden="true"></span></a></li><li data-step="first-build"><a href="#first-build"><span class="n z-ai">02</span><span class="t">Make a first build and learn to revise</span><span class="st" aria-hidden="true"></span></a></li><li data-step="effort"><a href="#effort"><span class="n z-cc">03</span><span class="t">Before Claude Code, understand effort and usage limits</span><span class="st" aria-hidden="true"></span></a></li><li data-step="directions"><a href="#directions"><span class="n z-cc">04</span><span class="t">Pick one direction to go deeper</span><span class="st" aria-hidden="true"></span></a></li><li data-step="pitfalls"><a href="#pitfalls"><span class="n z-pit">05</span><span class="t">Avoid the most common beginner pitfalls</span><span class="st" aria-hidden="true"></span></a></li></ol>
+        <p class="local">Checkpoint progress is saved only in this browser.<button type="button" class="reset" hidden>Reset checkpoints</button></p>
+      </div>
+      <p>Plenty of useful material is tagged “Evaluation” or “Limitation”, such as the two effort resources in <a href="#effort">step 3</a>. Filtering only by “Tutorial” misses them; remove the type filter and search by keyword instead.</p>
+    </div>
+    <div class="r">
+      <p class="lbl">Open these filters directly</p>
+      <ul class="filters"><li><a class="filt" href="../../../?ev=%E6%95%99%E7%A8%8B&amp;lang=en"><b>All tutorials</b><span>326 cases</span></a></li><li><a class="filt" href="../../../?ev=%E9%99%90%E5%88%B6&amp;sort=likes&amp;lang=en"><b>Limitations and pitfalls</b><span>242 cases · by likes</span></a></li><li><a class="filt" href="../../../?cat=video&amp;ev=%E6%95%99%E7%A8%8B&amp;lang=en"><b>Video and motion tutorials</b><span>127 cases</span></a></li><li><a class="filt" href="../../../?cat=agents&amp;ev=%E6%95%99%E7%A8%8B&amp;lang=en"><b>Claude Code / agent workflow tutorials</b><span>48 cases</span></a></li><li><a class="filt" href="../../../?src=video&amp;ev=%E6%95%99%E7%A8%8B&amp;lang=en"><b>Tutorials on Bilibili and YouTube</b><span>50 cases</span></a></li><li><a class="filt" href="../../../?q=prompt&amp;lang=en"><b>Cases mentioning “prompt”</b><span>1,074 cases</span></a></li></ul>
+      <a class="submit" href="https://github.com/waytoagi-team/gallery/issues/new?template=case-submission.yml" target="_blank" rel="noopener">Submit a case<span class="sr"> (new window)</span><span class="ext" aria-hidden="true">↗</span></a>
+      <figure class="fig" id="fig-shot-tutorials"><a href="../img/shot-tutorials-en.webp?v=d550a02f" class="zoom" aria-label="View full size: Screenshot of the atlas in English, filt…"><img src="../img/shot-tutorials-en-1200.webp?v=88832bc1" srcset="../img/shot-tutorials-en-800.webp?v=97067152 800w, ../img/shot-tutorials-en-1200.webp?v=88832bc1 1200w, ../img/shot-tutorials-en-1800.webp?v=76639ee3 1800w, ../img/shot-tutorials-en.webp?v=d550a02f 1882w" sizes="(max-width:1100px) 88vw, 507px" width="1882" height="1362" loading="lazy" decoding="async" alt="Screenshot of the atlas in English, filtered to “Tutorial”: the search bar, the sort menu “Curated mix”, the result count “326 cases”, and the first row of three tutorial cards."></a><figcaption>The atlas filtered to “Tutorial”: ① the current filter, click ✕ to remove it; ② sort order; ③ number of results. Click anywhere on a card to open the original post</figcaption></figure>
+    </div>
+  </div>
+</section>
+  <p class="sr" role="status" id="copyStatus"></p>
+</main>
+<footer>
+  <div class="wrap">
+    <a href="https://www.waytoagi.com/" aria-label="WaytoAGI"><svg aria-hidden="true" focusable="false" width="317" height="102" viewBox="0 0 317 102" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_3160_2496)">
+<rect x="30" y="25.269" width="50" height="50" rx="8" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M81.3149 121.269C105.892 121.269 125.815 101.346 125.815 76.769C125.815 52.1924 105.892 32.269 81.3149 32.269C56.7383 32.269 36.8149 52.1924 36.8149 76.769C36.8149 101.346 56.7383 121.269 81.3149 121.269ZM81.4999 116.819C103.619 116.819 121.55 98.888 121.55 76.769C121.55 54.65 103.619 36.719 81.4999 36.719C59.3809 36.719 41.4499 54.65 41.4499 76.769C41.4499 98.888 59.3809 116.819 81.4999 116.819Z" fill="#FC4A55"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M81.5 116.819C103.619 116.819 121.55 98.8882 121.55 76.7692C121.55 54.6502 103.619 36.7192 81.5 36.7192C59.3809 36.7192 41.45 54.6502 41.45 76.7692C41.45 98.8882 59.3809 116.819 81.5 116.819ZM81.5 112.369C101.161 112.369 117.1 96.4306 117.1 76.7692C117.1 57.1079 101.161 41.1692 81.5 41.1692C61.8386 41.1692 45.9 57.1079 45.9 76.7692C45.9 96.4306 61.8386 112.369 81.5 112.369Z" fill="#FFB045"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M81.4999 112.369C101.161 112.369 117.1 96.4303 117.1 76.7689C117.1 57.1076 101.161 41.1689 81.4999 41.1689C61.8386 41.1689 45.8999 57.1076 45.8999 76.7689C45.8999 96.4303 61.8386 112.369 81.4999 112.369ZM81.4999 107.919C98.7036 107.919 112.65 93.9726 112.65 76.7689C112.65 59.5653 98.7036 45.6189 81.4999 45.6189C64.2962 45.6189 50.3499 59.5653 50.3499 76.7689C50.3499 93.9726 64.2962 107.919 81.4999 107.919Z" fill="#FFFA6D"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M81.5 103.469C96.2461 103.469 108.2 91.5149 108.2 76.7688C108.2 62.0228 96.2461 50.0688 81.5 50.0688C66.754 50.0688 54.8 62.0228 54.8 76.7688C54.8 91.5149 66.754 103.469 81.5 103.469ZM81.5 99.0188C93.7884 99.0188 103.75 89.0572 103.75 76.7688C103.75 64.4805 93.7884 54.5188 81.5 54.5188C69.2117 54.5188 59.25 64.4805 59.25 76.7688C59.25 89.0572 69.2117 99.0188 81.5 99.0188Z" fill="#3BA9FE"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M81.5 99.019C93.7883 99.019 103.75 89.0574 103.75 76.769C103.75 64.4807 93.7883 54.519 81.5 54.519C69.2117 54.519 59.25 64.4807 59.25 76.769C59.25 89.0574 69.2117 99.019 81.5 99.019ZM81.5 94.569C91.3307 94.569 99.3 86.5997 99.3 76.769C99.3 66.9384 91.3307 58.969 81.5 58.969C71.6693 58.969 63.7 66.9384 63.7 76.769C63.7 86.5997 71.6693 94.569 81.5 94.569Z" fill="#965DED"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M81.5001 107.919C98.7038 107.919 112.65 93.9728 112.65 76.7691C112.65 59.5655 98.7038 45.6191 81.5001 45.6191C64.2964 45.6191 50.3501 59.5655 50.3501 76.7691C50.3501 93.9728 64.2964 107.919 81.5001 107.919ZM81.5001 103.469C96.2461 103.469 108.2 91.5151 108.2 76.7691C108.2 62.0231 96.2461 50.0691 81.5001 50.0691C66.7541 50.0691 54.8001 62.0231 54.8001 76.7691C54.8001 91.5151 66.7541 103.469 81.5001 103.469Z" fill="#30FD2F"/>
+<path d="M40.2154 32.1237C40.3065 31.8501 40.6935 31.8501 40.7846 32.1237L41.672 34.7882C41.6996 34.871 41.7618 34.9377 41.8425 34.9709L44.3251 35.9916C44.573 36.0935 44.573 36.4446 44.3251 36.5465L41.8425 37.5672C41.7618 37.6004 41.6996 37.6671 41.672 37.7499L40.7846 40.4144C40.6935 40.688 40.3065 40.688 40.2154 40.4144L39.328 37.7499C39.3004 37.6671 39.2382 37.6004 39.1575 37.5672L36.6749 36.5465C36.427 36.4446 36.427 36.0935 36.6749 35.9916L39.1575 34.9709C39.2382 34.9377 39.3004 34.871 39.328 34.7882L40.2154 32.1237Z" fill="white"/>
+<path d="M35.2133 46.1987C35.3003 45.9166 35.6997 45.9166 35.7867 46.1987L36.135 47.3284C36.1606 47.4112 36.2207 47.479 36.2999 47.5142L37.3825 47.9949C37.6202 48.1004 37.6202 48.4377 37.3825 48.5432L36.2999 49.0239C36.2207 49.0591 36.1606 49.1269 36.135 49.2097L35.7867 50.3394C35.6997 50.6215 35.3003 50.6215 35.2133 50.3394L34.865 49.2097C34.8394 49.1269 34.7793 49.0591 34.7001 49.0239L33.6175 48.5432C33.3798 48.4377 33.3798 48.1004 33.6175 47.9949L34.7001 47.5142C34.7793 47.479 34.8394 47.4112 34.865 47.3284L35.2133 46.1987Z" fill="white"/>
+</g>
+<path d="M98.7703 64.8045L96.7278 37.3515H102.208L103.41 58.673H103.65L111.141 40.1997H117.221L119.05 58.673H119.29L126.928 37.3515H132.328L121.77 64.8045H115.17L113.209 46.4102H112.969L105.33 64.8045H98.7703ZM142.738 43.0478C149.818 43.0478 151.712 45.619 151.071 49.8913L148.834 64.8045H144.394L144.284 62.075C142.925 63.9342 140.095 65.2 136.615 65.2C131.695 65.2 129.535 63.0639 130.182 58.7521C130.936 53.7283 134.363 51.9483 139.963 51.9483H145.763L145.905 50.9989C146.285 48.4672 145.595 47.2013 141.595 47.2013C140.035 47.2013 138.491 47.3596 136.889 47.6365L137.524 43.4038C139.206 43.1269 141.178 43.0478 142.738 43.0478ZM138.276 61.3234C141.316 61.3234 143.614 60.1367 144.813 58.2775L145.235 55.4689H140.115C136.955 55.4689 135.546 56.0622 135.166 58.5939C134.887 60.4531 135.756 61.3234 138.276 61.3234ZM153.229 72.716L153.87 68.4437C157.55 68.4437 159.134 67.2175 160.314 64.6858L154.98 43.4434H160.5L163.731 59.5037H163.971L171.66 43.4434H176.94L166.567 63.2617C162.981 70.1052 160.389 72.716 153.229 72.716ZM189.887 47.3991H185.127L183.585 57.6841C183.169 60.4531 183.509 61.1256 185.749 61.1256C186.509 61.1256 187.115 61.086 187.738 60.9278L187.151 64.844C186.293 64.9627 185.361 65.0418 184.441 65.0418C179.281 65.0418 177.683 63.6968 178.525 58.0797L180.127 47.3991H177.127L177.721 43.4434H180.721L181.48 38.38H186.48L185.721 43.4434H190.481L189.887 47.3991ZM200.321 65.2C193.761 65.2 190.323 62.787 191.622 54.1239C192.922 45.4608 197.083 43.0478 203.643 43.0478C210.243 43.0478 213.682 45.4608 212.382 54.1239C211.083 62.787 206.921 65.2 200.321 65.2ZM200.896 61.3629C204.896 61.3629 206.392 59.662 207.222 54.1239C208.053 48.5859 207.034 46.8453 203.074 46.8453C199.114 46.8453 197.613 48.5859 196.782 54.1239C195.952 59.662 197.016 61.3629 200.896 61.3629ZM235.226 64.8045L233.758 57.5259H222.158L218.426 64.8045H213.026L227.543 37.3515H234.583L240.786 64.8045H235.226ZM224.37 53.1745H232.85L230.569 41.9798H230.089L224.37 53.1745ZM256.265 65.2C247.865 65.2 243.216 62.5892 244.943 51.078C246.533 40.4766 252.261 36.9559 260.781 36.9559C263.301 36.9559 266.528 37.312 267.993 37.9449L267.304 42.5336C265.377 41.782 263.03 41.4259 260.47 41.4259C254.83 41.4259 251.722 43.4829 250.583 51.078C249.378 59.1082 251.603 60.8091 257.323 60.8091C258.563 60.8091 259.809 60.7696 260.851 60.4927L261.871 53.6888H256.871L257.524 49.3375H267.444L265.243 64.0133C263.068 64.6462 259.745 65.2 256.265 65.2ZM271.261 64.8045L275.379 37.3515H280.619L276.501 64.8045H271.261Z" fill="white"/>
+<defs>
+<clipPath id="clip0_3160_2496">
+<rect x="30" y="25.269" width="50" height="50" rx="8" fill="white"/>
+</clipPath>
+</defs>
+</svg></a>
+    <span>WaytoAGI Gallery · Links go to the original sources; numbers are as reported by their authors, so check the original post. <a href="../../../?lang=en">Back to the case atlas</a></span>
+  </div>
+</footer>
+<dialog class="sheet" id="tocSheet" aria-label="Contents"><div class="hd">Contents<button type="button" class="x" data-close aria-label="Close contents">×</button></div><ol><li><a href="#prompt" data-sec="prompt"><span class="n z-ai">01</span><span class="t">Brief the whole task at once</span></a></li><li><a href="#first-build" data-sec="first-build"><span class="n z-ai">02</span><span class="t">Make a first build and learn to revise</span></a></li><li><a href="#effort" data-sec="effort"><span class="n z-cc">03</span><span class="t">Before Claude Code, understand effort and usage limits</span></a></li><li><a href="#directions" data-sec="directions"><span class="n z-cc">04</span><span class="t">Pick one direction to go deeper</span></a><ol><li><a href="#video">Video and motion</a></li><li><a href="#web-games">Web pages and small games</a></li><li><a href="#claude-code">Claude Code workflows</a></li><li><a href="#knowledge">Documents and knowledge work</a></li></ol></li><li><a href="#pitfalls" data-sec="pitfalls"><span class="n z-pit">05</span><span class="t">Avoid the most common beginner pitfalls</span></a></li><li class="sep" aria-hidden="true">Beyond the route</li><li><a href="#credibility" data-sec="credibility"><span class="n alt">A</span><span class="t">How to judge whether a case is trustworthy</span></a></li><li><a href="#explore" data-sec="explore"><span class="n alt">B</span><span class="t">Keep looking in the atlas</span></a></li></ol></dialog>
+<dialog class="lb" id="lb" aria-label="Full-size image"><div class="hd"><span class="c" id="lbC"></span><button type="button" id="lbPrev" aria-label="Previous image">‹</button><button type="button" id="lbNext" aria-label="Next image">›</button><button type="button" id="lbX" aria-label="Close image">×</button></div><div class="pane" id="lbPane"><img id="lbImg" alt=""></div><p class="tip"><span class="t-touch">Drag to look around, pinch to zoom; press back to close.</span><span class="t-mouse">Drag to look around; ← → to switch, Esc to close.</span></p></dialog>
+<p class="toast" id="toast" hidden></p>
+<script>
+(() => {
+  const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
+  const status = $('#copyStatus'), toastEl = $('#toast');
+  const NAMES = {"prompt": ["01", "Brief the whole task at once"], "first-build": ["02", "Make a first build and learn to revise"], "effort": ["03", "Before Claude Code, understand effort and usage limits"], "directions": ["04", "Pick one direction to go deeper"], "pitfalls": ["05", "Avoid the most common beginner pitfalls"], "credibility": ["A", "How to judge whether a case is trustworthy"], "explore": ["B", "Keep looking in the atlas"], "video": ["04", "Video and motion"], "web-games": ["04", "Web pages and small games"], "claude-code": ["04", "Claude Code workflows"], "knowledge": ["04", "Documents and knowledge work"]}, L = {"copied": "Copied", "selected": "Selected: press Ctrl/⌘+C to copy", "copy": "Copy", "linkCopied": "Link copied", "linkFail": "Couldn’t copy: long-press the title link to copy it", "rehide": "Hide again", "show": "Show", "ooOn": "", "ooOff": "", "recapAll": "All 5 checkpoints done.", "recapN": "You’ve done {n}/5 checkpoints", "recapLeft": ". Steps not ticked yet:", "recapNone": ". The 5 steps:", "reset": "Checkpoints reset", "matPre": "\nThe attachments are the originals; go by them: ", "matPost": ".", "copiedGaps": "Copied; {n} blank(s) still empty", "example": "Example filled in; edit away", "cleared": "Cleared", "cp1": "Checkpoint 1 marked as done", "toc": "Contents", "tocStep": "Contents · step {n} / 5", "tocApp": "Contents · appendix {n}", "secLink": "Section link updated: share the address bar"};
+  const STEP_IDS = ['prompt', 'first-build', 'effort', 'directions', 'pitfalls'];
+  let toastT = 0;
+  const toast = m => { toastEl.textContent = m; status.textContent = m; toastEl.hidden = false; clearTimeout(toastT); toastT = setTimeout(() => { toastEl.hidden = true; status.textContent = ''; }, 2200); };
+
+  // Copying: clipboard API, then a hidden textarea, then select the text so the reader can copy it by hand.
+  const copyText = async (text, node) => {
+    try { await navigator.clipboard.writeText(text); return L.copied; } catch {}
+    const ta = document.createElement('textarea');
+    ta.value = text; ta.setAttribute('readonly', ''); ta.style.cssText = 'position:fixed;top:0;left:0;opacity:0;font-size:16px';
+    document.body.appendChild(ta); ta.select();
+    let ok = false; try { ok = document.execCommand('copy'); } catch {}
+    ta.remove();
+    if (ok) return L.copied;
+    if (node) { const r = document.createRange(); r.selectNodeContents(node); const s = getSelection(); s.removeAllRanges(); s.addRange(r); }
+    return L.selected;
+  };
+  // Copy buttons for prompt templates.
+  $$('.code .copy').forEach(b => b.addEventListener('click', async () => {
+    const code = b.closest('.code').querySelector('code');
+    const m = await copyText(code.textContent, code);
+    b.textContent = m; status.textContent = m;
+    setTimeout(() => { b.textContent = L.copy; status.textContent = ''; }, 3000);
+  }));
+  // Links that need a VPN: copy the address to open it elsewhere.
+  $$('.cplink').forEach(b => {
+    b.hidden = false;
+    b.addEventListener('click', async () => {
+      const m = await copyText(b.dataset.url);
+      toast(m === L.copied ? L.linkCopied : L.linkFail);
+    });
+  });
+
+  // "Only resources reachable from mainland China": hides vpn/untested rows in the resource tables.
+  const ooKey = 'opus55-guide-only-direct';
+  let onlyDirect = false; try { onlyDirect = localStorage.getItem(ooKey) === '1'; } catch {}
+  const applyOO = () => {
+    document.documentElement.classList.toggle('only-direct', onlyDirect);
+    $$('.onlyok input').forEach(i => { i.checked = onlyDirect; });
+    $$('.res-wrap').forEach(w => {
+      if (!onlyDirect) w.classList.remove('reveal');
+      const p = w.querySelector('.res-hidden'); p.hidden = !onlyDirect;
+      const rv = w.classList.contains('reveal'), t = p.querySelector('span');
+      t.textContent = rv ? t.dataset.s : t.dataset.h; p.querySelector('button').textContent = rv ? L.rehide : L.show;
+    });
+  };
+  $$('.onlyok').forEach(d => { d.hidden = false; });
+  $$('.onlyok input').forEach(i => i.addEventListener('change', () => {
+    onlyDirect = i.checked; try { localStorage.setItem(ooKey, onlyDirect ? '1' : '0'); } catch {}
+    applyOO(); toast(onlyDirect ? L.ooOn : L.ooOff);
+  }));
+  $$('.res-hidden button').forEach(b => b.addEventListener('click', () => { b.closest('.res-wrap').classList.toggle('reveal'); applyOO(); }));
+  applyOO();
+
+  // Checkpoints: stored by section id in this browser only; one sync() updates every progress view.
+  const key = 'opus55-guide-checkpoints';
+  let saved = {}; try { saved = JSON.parse(localStorage.getItem(key) || '{}') || {}; } catch {}
+  STEP_IDS.forEach((id, i) => { if (('cp' + (i + 1)) in saved) { if (!(id in saved)) saved[id] = saved['cp' + (i + 1)]; delete saved['cp' + (i + 1)]; } });
+  const store = () => { try { localStorage.setItem(key, JSON.stringify(saved)); } catch {} };
+  store();
+  const doneN = () => STEP_IDS.filter(id => saved[id]).length;
+  let curSec = null, urlSync = false;
+  // Only follow the reader into the address bar after the initial (possibly #hash) scroll has settled.
+  addEventListener('load', () => setTimeout(() => { urlSync = true; document.documentElement.classList.add('ready'); }, 800));
+  const sync = () => {
+    const n = doneN();
+    $$('.checkpoint input').forEach(i => { i.checked = !!saved[i.dataset.cp]; i.closest('.checkpoint').classList.toggle('done', i.checked); });
+    $$('li[data-step]').forEach(li => li.classList.toggle('done', !!saved[li.dataset.step]));
+    $$('a[data-sec]').forEach(a => a.classList.toggle('done', !!saved[a.dataset.sec]));
+    const mp = $('#metaProg'); mp.hidden = false; mp.querySelector('b').textContent = n + '/5';
+    $('#recapSum').textContent = n === 5 ? L.recapAll : L.recapN.replace('{n}', n) + (n ? L.recapLeft : L.recapNone);
+    $$('.steps li').forEach(li => li.hidden = n > 0 && n < 5 && !!saved[li.dataset.step]);
+    $('.reset').hidden = n === 0;
+    $('#sbC').textContent = '✓ ' + n + '/5';
+  };
+  $$('.checkpoint input').forEach(i => i.addEventListener('change', () => { saved[i.dataset.cp] = i.checked; store(); sync(); }));
+  $('.reset').addEventListener('click', () => { STEP_IDS.forEach(id => delete saved[id]); store(); sync(); toast(L.reset); });
+
+  // Fill-in prompt builder: the skeleton's blanks become fields; unfilled blanks stay marked in the preview.
+  const bld = $('#builder');
+  if (bld) {
+    bld.hidden = false;
+    const D = JSON.parse($('#bData').textContent), form = bld.querySelector('form'), out = $('#bOut');
+    const bKey = 'opus55-guide-builder', F = n => form.elements[n];
+    const BLANK = /____(?:（[^）]*）| \([^)]*\))?/g, ORDER = ['what', 'who', 'm1', 'm2', 'm3', 'dont'];
+    const defaults = {stop: D.lines[2], check: D.lines[4]};
+    const val = n => F(n).value.trim();
+    const parts = () => {  // [[text, isGap], ...]
+      const res = []; let k = 0;
+      D.lines.forEach((line, li) => {
+        if (li) res.push(['\n', false]);
+        if (li === 2 || li === 4) { const v = val(li === 2 ? 'stop' : 'check'); res.push(v ? [v, false] : ['____', true]); return; }
+        let last = 0;
+        line.replace(BLANK, (m, at) => {
+          res.push([line.slice(last, at), false]);
+          const v = val(ORDER[k++]); res.push(v ? [v, false] : [m, true]);
+          last = at + m.length; return m;
+        });
+        res.push([line.slice(last), false]);
+      });
+      const mat = val('mat');
+      if (mat) res.push([L.matPre + mat.replace(/[。.]$/, '') + L.matPost, false]);
+      return res;
+    };
+    const render = () => {
+      out.textContent = '';
+      parts().forEach(([t, gap]) => {
+        if (!gap) { out.append(t); return; }
+        const m = document.createElement('mark'); m.className = 'gap'; m.textContent = t; out.append(m);
+      });
+    };
+    const fields = () => Object.fromEntries([...ORDER, 'stop', 'check', 'mat'].map(n => [n, F(n).value]));
+    const fill = o => { [...ORDER, 'stop', 'check', 'mat'].forEach(n => { F(n).value = o && n in o ? o[n] : (defaults[n] || ''); }); render(); };
+    const saveDraft = () => { try { localStorage.setItem(bKey, JSON.stringify(fields())); } catch {} };
+    let draft = null; try { draft = JSON.parse(localStorage.getItem(bKey) || 'null'); } catch {}
+    fill(draft);
+    form.addEventListener('input', () => { render(); saveDraft(); });
+    form.addEventListener('submit', e => e.preventDefault());
+    const cpBtn = bld.querySelector('[data-b="cp"]'), cp1 = $('.checkpoint input[data-cp="prompt"]');
+    const cpSync = () => { cpBtn.hidden = !!saved.prompt; };
+    cp1.addEventListener('change', cpSync); cpSync();
+    bld.querySelector('.ba').addEventListener('click', async e => {
+      const b = e.target.closest('button'); if (!b) return;
+      if (b.dataset.b === 'copy') {
+        const gaps = parts().filter(p => p[1]).length;
+        const m = await copyText(out.textContent, out);
+        toast(m === L.copied && gaps ? L.copiedGaps.replace('{n}', gaps) : m);
+      } else if (b.dataset.b === 'example') { fill(Object.assign({}, D.example, {mat: val('mat') ? F('mat').value : ''})); saveDraft(); toast(L.example); }
+      else if (b.dataset.b === 'clear') { fill(null); try { localStorage.removeItem(bKey); } catch {} toast(L.cleared); F('what').focus(); }
+    });
+    cpBtn.addEventListener('click', () => { cp1.checked = true; cp1.dispatchEvent(new Event('change')); toast(L.cp1); });
+  }
+  sync();
+
+  // Current section: table of contents highlight, mobile bar, address bar (so a shared link lands here).
+  const heads = $$('article h2[id], article h3[id], .join h2[id]');
+  const tocLinks = $$('.toc a, .sheet a');
+  const lb = $('#lb');
+  const mark = () => {
+    let cur = null;
+    for (const h of heads) if (h.getBoundingClientRect().top <= innerHeight * 0.3) cur = h.id;
+    if (cur === curSec) return;
+    curSec = cur;
+    const parent = cur && NAMES[cur] ? STEP_IDS.concat(['credibility', 'explore']).find(id => NAMES[id][0] === NAMES[cur][0]) : null;
+    tocLinks.forEach(a => {
+      const id = a.hash.slice(1);
+      id === cur ? a.setAttribute('aria-current', 'true') : a.removeAttribute('aria-current');
+      a.classList.toggle('is-parent', id === parent && id !== cur);
+    });
+    if (cur && NAMES[cur]) {
+      const [no, t] = NAMES[cur];
+      $('#sbN').textContent = no; $('#sbN').className = 'n ' + (no <= '02' ? 'z-ai' : no <= '04' ? 'z-cc' : no === '05' ? 'z-pit' : 'alt');
+      $('#sbT').textContent = t;
+      $('#tocmLbl').textContent = (/^\d/.test(no) ? L.tocStep : L.tocApp).replace('{n}', /^\d/.test(no) ? +no : no);
+    } else { $('#sbT').textContent = L.toc; $('#tocmLbl').textContent = L.toc; }
+    if (urlSync && !lb.open) try { history.replaceState(history.state, '', cur ? '#' + cur : location.pathname + location.search); } catch {}
+  };
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver(mark, {rootMargin: '0px 0px -70% 0px'});
+    heads.forEach(h => io.observe(h));
+  }
+  // Section self-links: update the address instead of jumping.
+  $$('h2 .no').forEach(a => a.addEventListener('click', e => {
+    e.preventDefault(); try { history.replaceState(history.state, '', a.hash); } catch {}
+    a.closest('h2').scrollIntoView({behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'});
+    toast(L.secLink);
+  }));
+
+  // Mobile: sticky section bar after the in-article TOC scrolls away; hides while scrolling down.
+  const bar = $('#secbar'), tocM = $('.toc-m'), art = $('#article');
+  const narrow = matchMedia('(max-width:1100px)');
+  let pastToc = false, lastY = scrollY, raf = 0;
+  const onScroll = () => {
+    raf = 0; mark(); pastToc = tocM.getBoundingClientRect().bottom < 0;
+    const y = scrollY, up = y < lastY - 2, down = y > lastY + 2;
+    const r = art.getBoundingClientRect(), p = Math.min(1, Math.max(0, -r.top / Math.max(1, r.height - innerHeight)));
+    bar.style.setProperty('--p', p.toFixed(3));
+    const want = narrow.matches && pastToc, jump = Math.abs(y - lastY) > innerHeight;
+    bar.hidden = !want;
+    if (want && (up || jump || !bar.classList.contains('on') && !down)) bar.classList.add('on');
+    else if (down && !jump) bar.classList.remove('on');
+    if (up || down) lastY = y;
+  };
+  addEventListener('scroll', () => { if (!raf) raf = requestAnimationFrame(onScroll); }, {passive: true});
+  addEventListener('resize', onScroll);
+  const sheet = $('#tocSheet');
+  // Overlays (TOC sheet, lightbox) get their own history entry so the back gesture closes them.
+  // Manual scroll restoration only for that entry, so going back does not jump to the section #hash.
+  const pushOverlay = st => { try { history.scrollRestoration = 'manual'; history.pushState(st, ''); } catch {} };
+  addEventListener('popstate', () => {
+    if (sheet.open) sheet.close();
+    if (lb.open) lb.close();
+    setTimeout(() => { try { history.scrollRestoration = 'auto'; } catch {} }, 0);
+  });
+  const closeSheet = () => history.state && history.state.sheet ? history.back() : sheet.close();
+  bar.querySelector('button').addEventListener('click', () => {
+    if (sheet.showModal) { sheet.showModal(); pushOverlay({sheet: 1}); const c = sheet.querySelector('[aria-current="true"]'); if (c) c.scrollIntoView({block: 'center'}); }
+    else { tocM.scrollIntoView(); tocM.querySelector('details').open = true; }
+  });
+  sheet.addEventListener('cancel', e => { e.preventDefault(); closeSheet(); });
+  sheet.addEventListener('click', e => {
+    const a = e.target.closest('a');
+    if (a) {
+      e.preventDefault();
+      const h = a.hash, go = () => { const t = document.getElementById(h.slice(1)); if (t) t.scrollIntoView(); };
+      if (history.state && history.state.sheet) {
+        addEventListener('popstate', () => { try { history.replaceState(history.state, '', h); } catch {} go(); }, {once: true});
+        history.back();
+      } else { sheet.close(); try { history.replaceState(history.state, '', h); } catch {} go(); }
+    } else if (e.target === sheet || e.target.closest('[data-close]')) closeSheet();
+  });
+  // Close the mobile table of contents after choosing a section.
+  $$('.toc-m a').forEach(a => a.addEventListener('click', () => a.closest('details').open = false));
+
+  // Lightbox: figures open full size inside the page; the back gesture closes it.
+  const figs = $$('.fig .zoom');
+  let idx = 0;
+  const lbShow = i => {
+    idx = (i + figs.length) % figs.length;
+    const a = figs[idx], img = a.querySelector('img');
+    const m = a.dataset.m && matchMedia('(max-width:760px)').matches;  // portrait phone version
+    $('#lbImg').className = m ? 'm' : ''; $('#lbImg').src = m ? a.dataset.m : a.getAttribute('href'); $('#lbImg').alt = img.alt;
+    $('#lbC').textContent = (idx + 1) + ' / ' + figs.length; $('#lbPane').scrollTo(0, 0);
+  };
+  if (lb.showModal) {
+    figs.forEach((a, i) => a.addEventListener('click', e => {
+      e.preventDefault(); lbShow(i); lb.showModal(); pushOverlay({lb: 1});
+    }));
+    const close = () => { if (history.state && history.state.lb) history.back(); else lb.close(); };
+    $('#lbX').addEventListener('click', close);
+    $('#lbPrev').addEventListener('click', () => lbShow(idx - 1));
+    $('#lbNext').addEventListener('click', () => lbShow(idx + 1));
+    lb.addEventListener('cancel', e => { e.preventDefault(); close(); });
+    lb.addEventListener('keydown', e => { if (e.key === 'ArrowLeft') lbShow(idx - 1); if (e.key === 'ArrowRight') lbShow(idx + 1); });
+    lb.addEventListener('close', () => figs[idx].focus());
+  }
+  // Two-entry comparison: open on wide screens, a one-line summary on phones.
+  if (matchMedia('(min-width:761px)').matches) $$('details.entry').forEach(d => { d.open = true; });
+  addEventListener('beforeprint', () => $$('details').forEach(d => { d.open = true; }));
+  mark(); onScroll();
+})();
+</script>
+</body>
+</html>
