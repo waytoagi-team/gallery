@@ -1,0 +1,511 @@
+{
+ "refreshedAt": "2026-09-30T07:38:18+00:00",
+ "scope": {
+  "key": "multi-source-2026-09-30",
+  "zh": "多源全量刷新（9 月 28 日以来）",
+  "en": "Multi-source refresh (since September 28)"
+ },
+ "lastFullRefreshAt": "2026-09-30T07:38:18+00:00",
+ "previousFullRefreshReport": "data/refresh_history/2026-09-28-multisource.json",
+ "previousReport": "data/refresh_history/2026-09-28-multisource.json",
+ "window": {
+  "since": "2026-09-28",
+  "note": "X candidates were not limited by date: any post linked from the 44 source snapshots that explicitly mentions Opus 5.5 and was not yet in the gallery was reviewed (dates 2026-09-22 to 2026-09-29)."
+ },
+ "previousCaseCount": 4546,
+ "caseCount": 5053,
+ "base": {
+  "previous": 2717,
+  "current": 2717,
+  "scope": "Curated bilingual base list re-fetched 2026-09-30; unchanged"
+ },
+ "validationBeforeRefresh": {
+  "cases": 4546,
+  "duplicateIds": 0,
+  "duplicateSourceIdentities": 0,
+  "missingRequiredFields": 0,
+  "invalidCategoryOrEvidenceType": 0,
+  "csvJsonHtmlConsistent": true,
+  "missingDates": 44,
+  "note": "44 undated records (20 YouTube, 10 Vals AI, 6 GitHub, others) left as-is; YouTube watch pages returned HTTP 429 when trying to fill dates. The 5 English summaries with CJK contain only proper names; the 11 non-status X/web URLs are X articles or domain false positives."
+ },
+ "reviewedNewExtras": 507,
+ "reviewedNewExtrasByPlatform": {
+  "GitHub": 51,
+  "Hacker News": 28,
+  "note": 25,
+  "Qiita": 7,
+  "Zenn": 4,
+  "DEV": 1,
+  "X": 114,
+  "Reddit": 60,
+  "Bilibili": 191,
+  "YouTube": 26
+ },
+ "candidateTweets": {
+  "linksInSnapshots": 3605,
+  "notInGalleryOrPriorReview": 1809,
+  "readable": 1791,
+  "notFound": 16,
+  "explicitModelMentions": 199,
+  "kept": 114,
+  "discoveredFrom": "links in 44 source snapshots (curated lists and newsletters); gallery, GoSail-reviewed and 2026-09-27 read IDs excluded"
+ },
+ "dropsAfterReview": [
+  {
+   "case": "reddit.com/comments/1wsrv1y",
+   "reason": "post does not state the show was made with Opus 5.5"
+  },
+  {
+   "case": "reddit.com/comments/1wsghsc, 1wshjud, 1ws3rms",
+   "reason": "body removed; title-only evidence"
+  }
+ ],
+ "metricsUpdated": {
+  "xPrimaryPosts": 3420,
+  "attempted": 3436,
+  "notFoundOrFailed": 16,
+  "file": "data/metric_refreshes.json",
+  "githubStars": {
+   "reposChecked": 233,
+   "changed": 78,
+   "notFound": [
+    "siwo55/dragon-sail-opus"
+   ]
+  }
+ },
+ "coverage": {
+  "x": {
+   "reviewed": 199,
+   "kept": 114,
+   "basis": "original post text via FxTwitter"
+  },
+  "reddit": {
+   "scanned": 2181,
+   "candidates": 390,
+   "complete": true,
+   "kept": 60,
+   "subreddits": [
+    "ClaudeAI",
+    "ClaudeCode",
+    "claude",
+    "singularity",
+    "LocalLLaMA",
+    "ChatGPTCoding"
+   ],
+   "api": "Arctic Shift"
+  },
+  "hn": {
+   "kept": 28,
+   "api": "Algolia",
+   "queries": [
+    "\"opus 5.5\"",
+    "opus 5.5",
+    "opus-5.5"
+   ],
+   "complete": true
+  },
+  "github": {
+   "kept": 51,
+   "complete": false,
+   "note": "Only repos created >=2026-09-28 kept; about 45 unknown repos created 09-23..09-27 and updated later were not reviewed (not in window). GitHub search returns hundreds of low-effort repos, so only ~50 shortlisted for README reading; long tail unreviewed. HN comments: text read from Algolia, no external verification. Repo/issue records rely on README/issue body only; not independently run. Issue star counts are the parent repo's stars."
+  },
+  "bilibili": {
+   "kept": 191,
+   "uniqueVideosInWindow": 416,
+   "keywords": [
+    "opus 5.5",
+    "opus5.5",
+    "Claude Opus 5.5"
+   ],
+   "complete": true
+  },
+  "youtube": {
+   "kept": 26,
+   "uniqueVideos": 119,
+   "searchQueries": 9,
+   "complete": false,
+   "note": "watch pages returned HTTP 429; dates estimated from relative upload times; search snippets only"
+  },
+  "web": {
+   "kept": 37,
+   "candidates": 161,
+   "complete": false,
+   "sources": [
+    "Zenn",
+    "Qiita",
+    "note hashtag feeds",
+    "dev.to",
+    "Simon Willison",
+    "Zvi",
+    "Latent Space",
+    "Mollick",
+    "Every",
+    "Anthropic",
+    "10 web searches"
+   ]
+  }
+ },
+ "limitations": [
+  "This is a refresh across reachable public sources, not an exhaustive census.",
+  "YouTube watch pages were rate-limited (HTTP 429): YouTube dates are estimated from relative times and summaries rely on search snippets.",
+  "Many Bilibili records rest on the title and a short description; summaries are hedged ('据标题/据简介').",
+  "About 55 low-star new GitHub repos and GitHub repos created 09-23..09-27 were not reviewed; Juejin was not queried; note hashtag feeds beyond page 3 were not scanned; the Qiita 'opus5.5' query and note 'Opus5.5' hashtag feed failed.",
+  "Many kept X posts are Remotion/HyperFrames motion-video demos following the same viral prompt; each is kept as a separate demo.",
+  "Demos and quantitative claims were not independently reproduced. Rights remain with original authors; no videos, prompts or code were mirrored."
+ ],
+ "fetches": [
+  {
+   "key": "coolbat",
+   "url": "https://raw.githubusercontent.com/coolbat/awesome-opus-5.5-usecase/main/data/usecases.json",
+   "status": 200,
+   "bytes": 199745,
+   "sha256": "0d1819c86e6a0e135d2ed3c2c31fa1f09802b309bbf6fe4ff107e8f0d5949e1c",
+   "checkedAt": "2026-09-30T07:16:13+00:00"
+  },
+  {
+   "key": "opusvideo",
+   "url": "https://raw.githubusercontent.com/opusvideo/awesome-claude-video/main/cases.json",
+   "status": 200,
+   "bytes": 198101,
+   "sha256": "a603e8d7992d2ab6dff35ddad4f46c9c4365a533ed81296e7cae95cbf158cc5d",
+   "checkedAt": "2026-09-30T07:16:13+00:00"
+  },
+  {
+   "key": "games",
+   "url": "https://raw.githubusercontent.com/AgentsLoop/awesome-opus-5.5-games/main/games.json",
+   "status": 200,
+   "bytes": 2363920,
+   "sha256": "8cb055324be983c5e6795e6d54342547404dd56568877b7fd80ce9ce49d767ba",
+   "checkedAt": "2026-09-30T07:16:13+00:00"
+  },
+  {
+   "key": "frontend",
+   "url": "https://raw.githubusercontent.com/OpenVGLab/awesome-opus5.5-frontend-showcases/main/README.en.md",
+   "status": 200,
+   "bytes": 76472,
+   "sha256": "2b1f37dab1aa6e36778d1601cf36dfc43bd339d10a940ad3d46a78600c59e85d",
+   "checkedAt": "2026-09-30T07:16:13+00:00"
+  },
+  {
+   "key": "github-search",
+   "url": "https://api.github.com/search/repositories?q=%22opus+5.5%22&sort=updated&per_page=100",
+   "status": 200,
+   "bytes": 564983,
+   "sha256": "d4623c08a7014d6fb18fb2a2f28fc36ca4c42a9c652078b31f48e2c60247a00d",
+   "checkedAt": "2026-09-30T07:16:13+00:00"
+  },
+  {
+   "key": "hn",
+   "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22opus%205.5%22&hitsPerPage=100",
+   "status": 200,
+   "bytes": 171545,
+   "sha256": "6c0f912e1a7aaea144771524864cc68442df904b248e11d569fb267e637a8960",
+   "checkedAt": "2026-09-30T07:16:13+00:00"
+  },
+  {
+   "key": "reddit-ai",
+   "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=ClaudeAI&after=2026-09-28&limit=100&sort=desc",
+   "status": 200,
+   "bytes": 370634,
+   "sha256": "7566fc613bc02c3bca09754abe23c98837cfe4eae64bf47b8086e2c778682e95",
+   "checkedAt": "2026-09-30T07:16:13+00:00"
+  },
+  {
+   "key": "reddit-code",
+   "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=ClaudeCode&after=2026-09-28&limit=100&sort=desc",
+   "status": 200,
+   "bytes": 554059,
+   "sha256": "cb697f84768b91680edab77106a0db40065e27f25701da6d148c1303676aa22d",
+   "checkedAt": "2026-09-30T07:16:13+00:00"
+  },
+  {
+   "key": "reddit-claude",
+   "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=claude&after=2026-09-28&limit=100&sort=desc",
+   "status": 200,
+   "bytes": 326453,
+   "sha256": "68b5f31568388bed76eaa0a609a3299753a0fb8ed0e1d72c9ac680f10ea2b13b",
+   "checkedAt": "2026-09-30T07:16:13+00:00"
+  },
+  {
+   "key": "youtube",
+   "url": "https://www.youtube.com/results?search_query=claude+opus+5.5&sp=CAI%253D",
+   "status": 200,
+   "bytes": 1334980,
+   "sha256": "e462dcc323342e35cf86ba2d9cb63a8545f097b50ebd9d6e74cb2ab71255e52f",
+   "checkedAt": "2026-09-30T07:16:13+00:00"
+  },
+  {
+   "key": "bilibili",
+   "url": "https://api.bilibili.com/x/web-interface/search/type?search_type=video&keyword=opus%205.5&order=pubdate&page=1&page_size=50",
+   "status": 200,
+   "bytes": 84878,
+   "sha256": "cb77185d283e6ea1819f5154c0eb9787a092ae72d9e92288ac2d3fef9b220464",
+   "checkedAt": "2026-09-30T07:16:14+00:00"
+  },
+  {
+   "key": "zenn",
+   "url": "https://zenn.dev/topics/claude/feed",
+   "status": 200,
+   "bytes": 45667,
+   "sha256": "12744a7ea78bc9e57753d751bc81e5316f7f02f5f68ba20f7a3dc44c4a7a2b39",
+   "checkedAt": "2026-09-30T07:16:14+00:00"
+  },
+  {
+   "key": "latent",
+   "url": "https://www.latent.space/feed",
+   "status": 200,
+   "bytes": 1369493,
+   "sha256": "fe15033fac5f0f6db021edba0eb912cb17334d28ce5f741ca0fccfd91b5e7917",
+   "checkedAt": "2026-09-30T07:16:14+00:00"
+  },
+  {
+   "key": "zvi",
+   "url": "https://thezvi.substack.com/feed",
+   "status": 200,
+   "bytes": 2187828,
+   "sha256": "6a8fb2cda66b831b0b23f807d34a4e9ef32e9de1ef016007eb0ca3cd2d198faf",
+   "checkedAt": "2026-09-30T07:16:14+00:00"
+  },
+  {
+   "key": "mollick",
+   "url": "https://www.oneusefulthing.org/feed",
+   "status": 200,
+   "bytes": 926908,
+   "sha256": "be302f86a05501fd885bf62162d880b0099049fa1b18c04a879cf47736c63851",
+   "checkedAt": "2026-09-30T07:16:14+00:00"
+  },
+  {
+   "key": "youmind",
+   "url": "https://youmind.com/opus-5-5-prompts",
+   "status": 200,
+   "bytes": 363568,
+   "sha256": "1dd7c2299c57dbaf647fe179221dd626602b859877769f8d11de151ab475cac2",
+   "checkedAt": "2026-09-30T07:16:14+00:00"
+  },
+  {
+   "key": "ohmyopus",
+   "url": "https://ohmyopus.com/en",
+   "status": 200,
+   "bytes": 286244,
+   "sha256": "ffb783e53f9e8c19225676d0a18a509ac75c98e955fc1f104c571877297b53e5",
+   "checkedAt": "2026-09-30T07:16:14+00:00"
+  },
+  {
+   "key": "mia",
+   "url": "https://raw.githubusercontent.com/MiaAI-Lab/Claude-Opus-5.5-100-HTML-Files/main/index.html",
+   "status": 200,
+   "bytes": 389105,
+   "sha256": "a444a3e4961f16f8e204c11374d1fa6fef91547c6c84e15d460bca5af656054b",
+   "checkedAt": "2026-09-30T07:16:14+00:00"
+  },
+  {
+   "key": "blender",
+   "url": "https://blenderai.org/gallery",
+   "status": 200,
+   "bytes": 432205,
+   "sha256": "056ee48cb3859cc1354ba6470d6454fc10d22f72e998a33b629bb79a434c57bf",
+   "checkedAt": "2026-09-30T07:16:14+00:00"
+  },
+  {
+   "key": "combos",
+   "url": "https://combos.converge.ai/prompt/claude-opus-5-5",
+   "status": 200,
+   "bytes": 754593,
+   "sha256": "5fa938e8a16e7d9c57232461cb5031a6f02ab06c9c7a8fbcd1ad02b9bb6d39a5",
+   "checkedAt": "2026-09-30T07:16:14+00:00"
+  },
+  {
+   "key": "aveniqa",
+   "url": "https://aveniqa.com/?lang=en",
+   "status": 200,
+   "bytes": 179888,
+   "sha256": "587cf26b64170b20331ec4164d4a35eae18af40d60bfc9ecdb954955239f53f8",
+   "checkedAt": "2026-09-30T07:16:15+00:00"
+  },
+  {
+   "key": "simon",
+   "url": "https://simonwillison.net/atom/everything/",
+   "status": 200,
+   "bytes": 167176,
+   "sha256": "59f2733d21caa27473d9dcc5eccd2236b955e5f58f58f17f397675eecba2d78e",
+   "checkedAt": "2026-09-30T07:16:15+00:00"
+  },
+  {
+   "key": "qiita",
+   "url": "https://qiita.com/api/v2/items?query=%22Opus+5.5%22&per_page=100",
+   "status": 200,
+   "bytes": 7763831,
+   "sha256": "6a288973e090340c2cb1108266949686cc278605e7db599e1856d2403eff12c3",
+   "checkedAt": "2026-09-30T07:16:15+00:00"
+  },
+  {
+   "key": "athemeroy-readme",
+   "url": "https://raw.githubusercontent.com/athemeroy/awesome-opus-5-5-videos/main/README.md",
+   "status": 200,
+   "bytes": 20729,
+   "sha256": "b938c8da67e3e400b108c0a515bcb13cece442394ac4916bd6120ba2b09e3cef",
+   "checkedAt": "2026-09-30T07:16:15+00:00"
+  },
+  {
+   "key": "frontier-data",
+   "url": "https://raw.githubusercontent.com/theolundqvist/frontier-games/main/data/games.yaml",
+   "status": 200,
+   "bytes": 137093,
+   "sha256": "e5dfe701c719cff678ffe820516387e3710e21629b66f0b7fff10b9fb5cd21e3",
+   "checkedAt": "2026-09-30T07:16:15+00:00"
+  },
+  {
+   "key": "lemo",
+   "url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/main/README.md",
+   "status": 200,
+   "bytes": 26328,
+   "sha256": "6f1f1103ecda2f0bfea808a983989f3ac974b138cc4eccae5a0399bc7aaaecc1",
+   "checkedAt": "2026-09-30T07:16:15+00:00"
+  },
+  {
+   "key": "yihui-data",
+   "url": "https://raw.githubusercontent.com/yihui-dev/awesome-opus5-5-videos/main/data/videos.json",
+   "status": 200,
+   "bytes": 555970,
+   "sha256": "b6b78d8e79354899023f050a72323eb14272151427bf0ff17f86b3370b5447d7",
+   "checkedAt": "2026-09-30T07:16:15+00:00"
+  },
+  {
+   "key": "video-prompts",
+   "url": "https://raw.githubusercontent.com/joeseesun/opus-video-prompts/main/README.md",
+   "status": 200,
+   "bytes": 41358,
+   "sha256": "173d9891809c39bee086b41023837020d72e32f0a11d64f25ede026c9f412e7a",
+   "checkedAt": "2026-09-30T07:16:15+00:00"
+  },
+  {
+   "key": "magiccreator",
+   "url": "https://raw.githubusercontent.com/magiccreator-ai/awesome-claude-opus-5-5-demos/main/README.md",
+   "status": 200,
+   "bytes": 25178,
+   "sha256": "be32e3aae09c7ac3b4ab4cb51c839254cc5c4fa6261cb34b01a0b309dd272371",
+   "checkedAt": "2026-09-30T07:16:15+00:00"
+  },
+  {
+   "key": "tripo",
+   "url": "https://raw.githubusercontent.com/TripoGrowthLab/awesome-opus-5-5-prompts/main/docs/catalog.en.1.md",
+   "status": 200,
+   "bytes": 131254,
+   "sha256": "5f0b97eb12f2af2b74531e99b7237fae6a08463a325e10d9687073e734f313e3",
+   "checkedAt": "2026-09-30T07:16:15+00:00"
+  },
+  {
+   "key": "official",
+   "url": "https://www.anthropic.com/claude-opus-5-5",
+   "status": 200,
+   "bytes": 664021,
+   "sha256": "908701192cb4f173c0626744d5efb4a062735c80dd39968b8a6a81f6bf49934e",
+   "checkedAt": "2026-09-30T07:16:15+00:00"
+  },
+  {
+   "key": "vals",
+   "url": "https://www.vals.ai/models/anthropic_claude-opus-5-5",
+   "status": 200,
+   "bytes": 327545,
+   "sha256": "5e3213009308e9c8cd0c11bc22c202d18d5fca276f8f75d17aca6f81764e852f",
+   "checkedAt": "2026-09-30T07:16:15+00:00"
+  },
+  {
+   "key": "sonar",
+   "url": "https://www.sonarsource.com/blog/claude-opus-5-5-an-evaluation/",
+   "status": 200,
+   "bytes": 680274,
+   "sha256": "5369f57c0ce58cef5d1eb91d3cd59f0b74abe3d4a8800f71849e1a865f6dbf68",
+   "checkedAt": "2026-09-30T07:16:15+00:00"
+  },
+  {
+   "key": "every",
+   "url": "https://every.to/vibe-check/vibe-check-opus-5-5-is-pulling-our-codex-converts-back-to-claude",
+   "status": 200,
+   "bytes": 171046,
+   "sha256": "4b2477b2dabc5796655a4133b7c5c9325742c787a22475b732fa9c2dcdf0470b",
+   "checkedAt": "2026-09-30T07:16:16+00:00"
+  },
+  {
+   "key": "aa",
+   "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
+   "status": 200,
+   "bytes": 3958731,
+   "sha256": "56e554666d4d878577dee55d03ca262a1b7c00cdbcf28773c648b33cc4801ad6",
+   "checkedAt": "2026-09-30T07:16:16+00:00"
+  },
+  {
+   "key": "endor",
+   "url": "https://www.endorlabs.com/learn/opus-5-5-6x-cheaper-and-2x-faster-than-fable-5-1-but-memorization-keeps-it-off-the-top-spot",
+   "status": 200,
+   "bytes": 214301,
+   "sha256": "6b0921f2b1b5e1305decfb0bbe460386390e4c3a858e102481d056221f638810",
+   "checkedAt": "2026-09-30T07:16:16+00:00"
+  },
+  {
+   "key": "sprite",
+   "url": "https://www.spritefusion.com/blog/opus-5-5-for-pixel-art-scenes",
+   "status": 200,
+   "bytes": 26768,
+   "sha256": "815cd6ae9b035ef7c167940436276a59c3db320394a23b0421d5c0366b474cfc",
+   "checkedAt": "2026-09-30T07:16:16+00:00"
+  },
+  {
+   "key": "lemo-styles",
+   "url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/main/styles/README.md",
+   "status": 200,
+   "bytes": 5767,
+   "sha256": "3c9b28977f3434a7c8f718eb55d32db19af97f49d28ca6df2d92b994b8f1bdec",
+   "checkedAt": "2026-09-30T07:16:16+00:00"
+  },
+  {
+   "key": "lemo-director",
+   "url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/main/DIRECTOR.md",
+   "status": 200,
+   "bytes": 10403,
+   "sha256": "317495c3dac573f2e8b0dadfd56511a1b35a7c385e9f75beca1034af05960678",
+   "checkedAt": "2026-09-30T07:16:16+00:00"
+  },
+  {
+   "key": "lemo-technique",
+   "url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/main/TECHNIQUE.md",
+   "status": 200,
+   "bytes": 12364,
+   "sha256": "cd456c1d936e9b44cc4e05fa5d3b062cc4d2dc079620e36902cd74cbb0a43fd6",
+   "checkedAt": "2026-09-30T07:16:16+00:00"
+  },
+  {
+   "key": "blender-prompts",
+   "url": "https://blenderai.org/prompts",
+   "status": 200,
+   "bytes": 354915,
+   "sha256": "cecc0ed0d50f7897ce39f02eda60a73822afbdc9ebf615a291ce913c147a4a0f",
+   "checkedAt": "2026-09-30T07:16:16+00:00"
+  },
+  {
+   "key": "blender-methodology",
+   "url": "https://blenderai.org/methodology",
+   "status": 200,
+   "bytes": 100943,
+   "sha256": "294ffce952796c2ffb52043ee8a62714c254ba5c08371b03268d2931aa2cb398",
+   "checkedAt": "2026-09-30T07:16:16+00:00"
+  },
+  {
+   "key": "qiita-session-logs",
+   "url": "https://qiita.com/api/v2/items/37d3bdd0bafdd81ba392",
+   "status": 200,
+   "bytes": 48821,
+   "sha256": "c79e21a77c1521f6f57cefe6c9d2441faa1018adc5b54424d8dbe44c7e721f4b",
+   "checkedAt": "2026-09-30T07:16:16+00:00"
+  },
+  {
+   "key": "gosail-video",
+   "url": "https://raw.githubusercontent.com/zhuyansen/awesome-opus-5.5-video/main/cases.json",
+   "status": 200,
+   "bytes": 807587,
+   "sha256": "b2c89ae0ab579ddc3173d69ee500fc05584b23ce31914d028e066eaef850457b",
+   "checkedAt": "2026-09-30T07:16:16+00:00"
+  }
+ ]
+}

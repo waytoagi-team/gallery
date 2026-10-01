@@ -1,22 +1,105 @@
-<!doctype html><html><head><meta charset="utf-8"><style>
-*{box-sizing:border-box}body{margin:0;width:1200px;height:630px;background:#fff;color:#241E1E;font-family:'Avenir Next','Helvetica Neue',Arial,'PingFang SC','Noto Sans CJK SC',sans-serif;font-synthesis:weight;overflow:hidden;position:relative}
-.frame{position:absolute;inset:0;padding:64px 72px;display:flex;flex-direction:column}
-.top{display:flex;justify-content:space-between;align-items:center}
-.top svg{width:250px;height:auto}
-.k{font:15px/1 'Roboto Mono','SFMono-Regular',monospace;letter-spacing:.16em;text-transform:uppercase;color:#5d5656}
-h1{font-weight:800;font-size:92px;line-height:1;letter-spacing:-.035em;margin:58px 0 0}
-.chips{margin-top:22px;font-weight:800;font-size:76px;line-height:1.05;letter-spacing:-.03em}
-.c{display:inline-block;position:relative;padding:.02em .22em .08em;border:2px solid #241E1E;margin-right:.16em}
-.c::before,.c::after{content:"";position:absolute;width:12px;height:12px;border-radius:50%;background:#fff;border:2px solid #241E1E}
-.c::before{left:-8px;top:-8px}.c::after{right:-8px;bottom:-8px}
-.g{background:#238653;color:#fff;transform:rotate(-2deg)}.l{background:#EAD8EB;transform:rotate(1.6deg)}
-.foot{margin-top:auto;display:flex;justify-content:space-between;align-items:flex-end;border-top:2px solid #103CA0;padding-top:18px}
-.src{font:600 22px/1.3 'Avenir Next','Helvetica Neue',Arial,'PingFang SC',sans-serif}
-.card{position:absolute;right:72px;top:190px;width:228px;height:236px;border:1.5px solid #241E1E;background:#EAD8EB;background-image:linear-gradient(rgba(36,30,30,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(36,30,30,.08) 1px,transparent 1px);background-size:16px 16px;padding:22px}
-.card .k{font-size:12px}.card b{display:block;font-size:23px;margin-top:22px;line-height:1.25}
-</style></head><body><div class="frame">
-<div class="top"><svg width="317" height="102" viewBox="0 0 317 102" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_3160_2520)">
+<!doctype html>
+<html lang="zh-CN" class="t-ink">
+<head>
+<meta charset="utf-8">
+<title>Opus 5.5 Share Card</title>
+<!--
+  WaytoAGI share card, 1200x630 (og:image / twitter:image).
+  Refresh-dependent numbers are double-brace placeholders, filled by scripts/render_og.py (card_values):
+    COUNT total cases (5,053) / LIMITS 限制 cases (236) / CATEGORIES task categories (14) /
+    SOURCES active sources (6) / AS_OF latest data date, YYYY-MM-DD (2026-09-30).
+  The five mini case cards are curated editorial content (case ids in data-case); their footers use
+  facts from each case summary, not live likes/views, so they do not go stale on a metrics refresh.
+-->
+<style>
+:root{
+  --ink:#241E1E; --green:#238653; --green-deep:#176A42; --lime:#C9DF8D; --lilac:#EAD8EB;
+  --purple:#AD85BA; --blue:#103CA0; --paper:#FFFFFF; --ink-2:#5d5656; --lim:#b0203a;
+  --cn:'Noto Sans CJK SC',sans-serif;
+  --disp:'Figtree','Noto Sans CJK SC',sans-serif;
+  --mono:'Roboto Mono','Noto Sans CJK SC',monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1200px;height:630px;overflow:hidden;background:var(--paper)}
+body{position:relative;color:var(--ink);font-family:var(--cn);font-synthesis:none;-webkit-font-smoothing:antialiased}
+
+/* ---------- side bands ---------- */
+.band{position:absolute;top:0;width:285px;height:630px;background-color:var(--ink)}
+.band.l{left:0}.band.r{right:0}
+.band::before{content:"";position:absolute;inset:0;
+  background-image:linear-gradient(rgba(234,216,235,.09) 1px,transparent 1px),linear-gradient(90deg,rgba(234,216,235,.09) 1px,transparent 1px);background-size:16px 16px}
+/* lime frame on the outer edges so the card outline holds on X's black dark mode */
+.band::after{content:"";position:absolute;top:12px;bottom:12px;border:3px solid var(--lime)}
+.band.l::after{left:12px;right:-1px;border-right:0}
+.band.r::after{right:12px;left:-1px;border-left:0}
+.mid-frame{position:absolute;left:285px;width:630px;top:12px;height:606px;border-top:3px solid var(--lime);border-bottom:3px solid var(--lime)}
+.t-lilac .band{background-color:var(--lilac)}
+.t-lilac .band::before{background-image:linear-gradient(rgba(36,30,30,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(36,30,30,.07) 1px,transparent 1px)}
+.t-lilac .band::after,.t-lilac .mid-frame{display:none}
+.t-lilac .band.l{border-right:2px solid var(--ink)}.t-lilac .band.r{border-left:2px solid var(--ink)}
+
+/* ---------- center column (x 285-915 = the square crop) ---------- */
+.mid{position:absolute;left:285px;top:0;width:630px;height:630px;text-align:center}
+.mid>*{position:absolute;left:0;right:0}
+.logo{top:30px;height:38px;display:flex;justify-content:center}
+.logo svg{height:38px;width:auto;display:block}
+h1{top:86px;font:800 86px/1 var(--disp);letter-spacing:-.035em;white-space:nowrap}
+.chips{top:192px;white-space:nowrap;font:700 64px/1.04 var(--cn)}
+.chip{display:inline-block;position:relative;padding:.03em .2em .08em;border:2.5px solid var(--ink)}
+.chip::before,.chip::after{content:"";position:absolute;width:15px;height:15px;border-radius:50%;background:var(--paper);border:2.5px solid var(--ink)}
+.chip::before{left:-9px;top:-9px}.chip::after{right:-9px;bottom:-9px}
+.chip.g{background:var(--green);color:var(--paper);transform:rotate(-2deg)}
+.chip.l{background:var(--lilac);transform:rotate(1.6deg);margin-left:16px}
+.stat{top:298px;display:flex;justify-content:center;align-items:baseline;gap:14px;white-space:nowrap}
+.stat b{position:relative;font:800 92px/1 var(--disp);letter-spacing:-.03em;color:var(--ink);font-variant-numeric:tabular-nums;padding:0 .08em;z-index:0}
+.stat b::before{content:"";position:absolute;left:-.02em;right:-.02em;top:3px;bottom:-3px;background:var(--lime);z-index:-1}
+.stat span{font:700 34px/1 var(--cn)}
+.proof{top:412px;display:flex;justify-content:center}
+.proof p{position:relative;display:inline-block;white-space:nowrap;background:var(--lilac);border:2.5px solid var(--ink);padding:7px 18px 9px;font:700 30px/1.2 var(--cn);transform:rotate(-1.2deg)}
+.proof p::before,.proof p::after{content:"";position:absolute;width:13px;height:13px;border-radius:50%;background:var(--paper);border:2.5px solid var(--ink)}
+.proof p::before{left:-8px;top:-8px}.proof p::after{right:-8px;bottom:-8px}
+.proof em{font-style:normal;color:var(--lim)}
+.proof .dot{margin:0 .3em;color:var(--ink-2)}
+.rule{top:494px;left:105px;right:105px;height:3px;background:var(--blue)}
+.en{top:512px;font:600 27px/1 var(--disp);letter-spacing:-.005em;color:var(--ink)}
+.facts{top:560px;font:400 24px/1 var(--cn);color:var(--ink-2);white-space:nowrap}
+.facts b{font:700 25px/1 var(--disp);color:var(--ink);margin:0 5px;font-variant-numeric:tabular-nums}
+.facts i{font-style:normal;margin:0 .45em;color:var(--purple)}
+
+/* ---------- mini case cards (built like the page's own cards) ---------- */
+.cd{position:absolute;width:258px;background:var(--paper);border:2px solid var(--ink);box-shadow:6px 6px 0 rgba(0,0,0,.4)}
+.t-lilac .cd{box-shadow:6px 6px 0 var(--ink)}
+.th{height:44px;white-space:nowrap;display:flex;align-items:center;justify-content:space-between;padding:0 14px;border-bottom:2px solid var(--ink);
+  background-color:var(--lilac);background-image:linear-gradient(rgba(36,30,30,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(36,30,30,.08) 1px,transparent 1px);background-size:12px 12px}
+.th[data-s="github"],.th[data-s="hn"]{background-color:var(--lime)}
+.th b{font:800 21px/1 var(--disp);text-transform:uppercase;letter-spacing:-.01em}
+.th em{font:500 16px/1 var(--cn);font-style:normal;color:var(--ink-2);margin-left:8px}
+.th i{font:500 16px/1 var(--mono);font-style:normal;color:var(--ink-2);letter-spacing:.04em}
+.th .p{display:flex;align-items:baseline}
+.bd{padding:13px 15px 13px;display:flex;flex-direction:column;gap:9px}
+.meta{display:flex;gap:10px;align-items:center;white-space:nowrap;min-width:0}
+.meta .cat{font:400 18px/1 var(--cn);color:var(--ink-2);min-width:0;overflow:hidden;text-overflow:ellipsis}
+.ev{flex:none;font:700 20px/1 var(--cn);padding:4px 7px 5px;border:2px solid currentColor}
+.ev.demo{color:var(--green-deep)}.ev.eval{color:var(--blue)}.ev.lim{color:var(--lim)}.ev.int{color:#7b4f8a}.ev.tut{color:#7a6512}
+.cd h3{font:700 26px/1.3 var(--cn);letter-spacing:-.01em;white-space:nowrap}
+.ft{display:flex;justify-content:space-between;align-items:center;border-top:1.5px solid #DDD7DB;padding-top:9px;font:500 18px/1.2 var(--mono);white-space:nowrap;font-variant-numeric:tabular-nums}
+.ft u{text-decoration:none;font:700 18px/1.2 var(--cn);margin:0 .15em}
+.ft s{text-decoration:none;color:var(--ink-2);margin:0 .2em}
+.ft .go{font:700 20px/1 var(--disp);color:var(--blue)}
+
+.c1{left:16px;top:34px;transform:rotate(-2deg)}
+.c2{left:14px;top:296px;transform:rotate(1.6deg)}
+.c3{left:929px;top:46px;transform:rotate(2deg)}
+.c4{left:925px;top:310px;transform:rotate(-1.6deg)}
+.c5{left:931px;top:574px;transform:rotate(1.6deg)}
+</style>
+</head>
+<body>
+<div class="band l"></div><div class="band r"></div><div class="mid-frame"></div>
+
+<main class="mid">
+  <div class="logo"><svg viewBox="30 25.269 251 50" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="WaytoAGI">
+<g clip-path="url(#wlogo_clip)">
 <rect x="30" y="25.269" width="50" height="50" rx="8" fill="black"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M81.5 121.269C106.077 121.269 126 101.346 126 76.769C126 52.1924 106.077 32.269 81.5 32.269C56.9233 32.269 37 52.1924 37 76.769C37 101.346 56.9233 121.269 81.5 121.269ZM81.5 116.819C103.619 116.819 121.55 98.888 121.55 76.769C121.55 54.65 103.619 36.719 81.5 36.719C59.381 36.719 41.45 54.65 41.45 76.769C41.45 98.888 59.381 116.819 81.5 116.819Z" fill="#FC4A55"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M81.5 116.819C103.619 116.819 121.55 98.8882 121.55 76.7692C121.55 54.6502 103.619 36.7192 81.5 36.7192C59.3809 36.7192 41.45 54.6502 41.45 76.7692C41.45 98.8882 59.3809 116.819 81.5 116.819ZM81.5 112.369C101.161 112.369 117.1 96.4306 117.1 76.7692C117.1 57.1079 101.161 41.1692 81.5 41.1692C61.8386 41.1692 45.9 57.1079 45.9 76.7692C45.9 96.4306 61.8386 112.369 81.5 112.369Z" fill="#FFB045"/>
@@ -29,15 +112,69 @@ h1{font-weight:800;font-size:92px;line-height:1;letter-spacing:-.035em;margin:58
 </g>
 <path d="M98.7703 64.8045L96.7278 37.3515H102.208L103.41 58.673H103.65L111.141 40.1997H117.221L119.05 58.673H119.29L126.928 37.3515H132.328L121.77 64.8045H115.17L113.209 46.4102H112.969L105.33 64.8045H98.7703ZM142.738 43.0478C149.818 43.0478 151.712 45.619 151.071 49.8913L148.834 64.8045H144.394L144.284 62.075C142.925 63.9342 140.095 65.2 136.615 65.2C131.695 65.2 129.535 63.0639 130.182 58.7521C130.936 53.7283 134.363 51.9483 139.963 51.9483H145.763L145.905 50.9989C146.285 48.4672 145.595 47.2013 141.595 47.2013C140.035 47.2013 138.491 47.3596 136.889 47.6365L137.524 43.4038C139.206 43.1269 141.178 43.0478 142.738 43.0478ZM138.276 61.3234C141.316 61.3234 143.614 60.1367 144.813 58.2775L145.235 55.4689H140.115C136.955 55.4689 135.546 56.0622 135.166 58.5939C134.887 60.4531 135.756 61.3234 138.276 61.3234ZM153.229 72.716L153.87 68.4437C157.55 68.4437 159.134 67.2175 160.314 64.6858L154.98 43.4434H160.5L163.731 59.5037H163.971L171.66 43.4434H176.94L166.567 63.2617C162.981 70.1052 160.389 72.716 153.229 72.716ZM189.887 47.3991H185.127L183.585 57.6841C183.169 60.4531 183.509 61.1256 185.749 61.1256C186.509 61.1256 187.115 61.086 187.738 60.9278L187.151 64.844C186.293 64.9627 185.361 65.0418 184.441 65.0418C179.281 65.0418 177.683 63.6968 178.525 58.0797L180.127 47.3991H177.127L177.721 43.4434H180.721L181.48 38.38H186.48L185.721 43.4434H190.481L189.887 47.3991ZM200.321 65.2C193.761 65.2 190.323 62.787 191.622 54.1239C192.922 45.4608 197.083 43.0478 203.643 43.0478C210.243 43.0478 213.682 45.4608 212.382 54.1239C211.083 62.787 206.921 65.2 200.321 65.2ZM200.896 61.3629C204.896 61.3629 206.392 59.662 207.222 54.1239C208.053 48.5859 207.034 46.8453 203.074 46.8453C199.114 46.8453 197.613 48.5859 196.782 54.1239C195.952 59.662 197.016 61.3629 200.896 61.3629ZM235.226 64.8045L233.758 57.5259H222.158L218.426 64.8045H213.026L227.543 37.3515H234.583L240.786 64.8045H235.226ZM224.37 53.1745H232.85L230.569 41.9798H230.089L224.37 53.1745ZM256.265 65.2C247.865 65.2 243.216 62.5892 244.943 51.078C246.533 40.4766 252.261 36.9559 260.781 36.9559C263.301 36.9559 266.528 37.312 267.993 37.9449L267.304 42.5336C265.377 41.782 263.03 41.4259 260.47 41.4259C254.83 41.4259 251.722 43.4829 250.583 51.078C249.378 59.1082 251.603 60.8091 257.323 60.8091C258.563 60.8091 259.809 60.7696 260.851 60.4927L261.871 53.6888H256.871L257.524 49.3375H267.444L265.243 64.0133C263.068 64.6462 259.745 65.2 256.265 65.2ZM271.261 64.8045L275.379 37.3515H280.619L276.501 64.8045H271.261Z" fill="black"/>
 <defs>
-<clipPath id="clip0_3160_2520">
+<clipPath id="wlogo_clip">
 <rect x="30" y="25.269" width="50" height="50" rx="8" fill="white"/>
 </clipPath>
 </defs>
-</svg>
-<span class="k">WaytoAGI Gallery · Use Case Atlas</span></div>
-<h1>Claude Opus 5.5</h1>
-<div class="chips"><span class="c g">真实案例</span><span class="c l">使用图谱</span></div>
-<div class="foot"><span class="src">X · Reddit · GitHub · Hacker News · YouTube / B 站 · Web</span><span class="k">Real-world use case atlas</span></div>
+</svg></div>
+  <h1>Claude Opus 5.5</h1>
+  <div class="chips"><span class="chip g">真实案例</span><span class="chip l">使用图谱</span></div>
+  <div class="stat" data-fit><b>{{COUNT}}</b><span>条公开案例</span></div>
+  <div class="proof" data-fit><p>每条附原帖链接<span class="dot">·</span><em>含 {{LIMITS}} 条失败与限制</em></p></div>
+  <div class="rule"></div>
+  <p class="en">A sourced atlas of real-world use cases</p>
+  <p class="facts" data-fit><b>{{CATEGORIES}}</b>类任务<i>/</i><b>{{SOURCES}}</b>个来源<i>/</i>更新至<b>{{AS_OF}}</b></p>
+</main>
+
+<div class="cards" aria-hidden="true">
+  <article class="cd c1" data-case="uc-0231">
+    <div class="th" data-s="x"><span class="p"><b>X</b></span><i>09-22</i></div>
+    <div class="bd">
+      <div class="meta"><span class="ev eval">评测</span><span class="cat">代码维护与测试</span></div>
+      <h3>把 HAProxy 从 C<br>迁移到 Rust</h3>
+      <div class="ft"><span>9.5<u>小时</u><s>·</s><u>成本</u>−51%</span><span class="go">↗</span></div>
+    </div>
+  </article>
+  <article class="cd c2" data-case="hn-049">
+    <div class="th" data-s="hn"><span class="p"><b>Hacker News</b></span><i>09-27</i></div>
+    <div class="bd">
+      <div class="meta"><span class="ev demo">演示</span><span class="cat">音乐与声音</span></div>
+      <h3>一小时用 Rust<br>写出编曲软件 DAW</h3>
+      <div class="ft"><span><u>约</u>1<u>小时</u><s>·</s><u>已开源</u></span><span class="go">↗</span></div>
+    </div>
+  </article>
+  <article class="cd c3" data-case="lists-010">
+    <div class="th" data-s="x"><span class="p"><b>X</b><em>视频</em></span><i>09-23</i></div>
+    <div class="bd">
+      <div class="meta"><span class="ev demo">演示</span><span class="cat">视频编辑与制作</span></div>
+      <h3>口述 5 分钟需求<br>通宵 12 小时出 MV</h3>
+      <div class="ft"><span><u>公开完整提示词</u></span><span class="go">↗</span></div>
+    </div>
+  </article>
+  <article class="cd c4" data-case="github-249">
+    <div class="th" data-s="github"><span class="p"><b>GitHub</b><em>issue</em></span><i>09-28</i></div>
+    <div class="bd">
+      <div class="meta"><span class="ev lim">限制</span><span class="cat">电脑操作</span></div>
+      <h3>嵌入式调试被<br>误判为网络安全</h3>
+      <div class="ft"><span><u>回退到 Opus 4.8</u></span><span class="go">↗</span></div>
+    </div>
+  </article>
+  <article class="cd c5" data-case="reddit-052">
+    <div class="th" data-s="reddit"><span class="p"><b>Reddit</b><em>r/ClaudeAI</em></span><i>09-22</i></div>
+    <div class="bd">
+      <div class="meta"><span class="ev demo">演示</span><span class="cat">创意图形与动画</span></div>
+      <h3>一个 JS 文件画出<br>火车窗景动画</h3>
+    </div>
+  </article>
 </div>
-<div class="card"><span class="k">Data snapshot</span><b>类别 · 证据类型<br>中英文摘要<br>原帖链接</b></div>
-</body></html>
+
+<script>
+// If a refreshed number gets longer (e.g. a 5-digit count), shrink that line to fit the 630px centre column.
+document.querySelectorAll('[data-fit]').forEach(function (el) {
+  var r = document.createRange(); r.selectNodeContents(el);
+  var w = r.getBoundingClientRect().width;
+  if (w > 600) { el.style.transformOrigin = '50% 0'; el.style.transform = 'scale(' + (600 / w).toFixed(3) + ')'; }
+});
+</script>
+</body>
+</html>

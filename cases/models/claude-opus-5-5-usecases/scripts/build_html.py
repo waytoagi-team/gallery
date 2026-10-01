@@ -1,5 +1,5 @@
 """Merge all use-case sources into data/all_cases.json and render site/index.html."""
-import csv, datetime, html, json, pathlib, re
+import csv, datetime, hashlib, html, json, pathlib, re
 from decimal import ROUND_HALF_UP, Decimal
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
@@ -88,6 +88,15 @@ def apply_enrichments(cases, enrichments):
 PAGE_URL = "https://www.waytoagi.com/usecase-atlas/opus5-5/"
 SUBMIT_URL = "https://github.com/waytoagi-team/gallery/issues/new?template=case-submission.yml"
 REPO_URL = "https://github.com/waytoagi-team/gallery/tree/main/cases/models/claude-opus-5-5-usecases"
+# Share-card alt text; {{NAME}} values come from render_og.card_values (same numbers as the card image).
+OG_ALT = {
+    "zh": "WaytoAGI 分享卡片：Claude Opus 5.5 真实案例使用图谱，收录 {{COUNT}} 条公开案例，每条附原帖链接，其中含 {{LIMITS}} 条失败与限制，"
+          "覆盖 {{CATEGORIES}} 类任务、{{SOURCES}} 个来源，更新至 {{AS_OF}}。两侧是几张真实案例卡片，例如把 HAProxy 从 C 迁移到 Rust（评测）、"
+          "口述 5 分钟需求后通宵 12 小时做出 MV（演示）、嵌入式调试被误判为网络安全问题（限制）。",
+    "en": "WaytoAGI share card for the Claude Opus 5.5 Real-World Use Case Atlas: {{COUNT}} public cases, each linked to its source, "
+          "including {{LIMITS}} failures and limitations, across {{CATEGORIES}} categories from {{SOURCES}} sources, updated {{AS_OF}}. "
+          "Sample case cards include porting HAProxy from C to Rust and embedded debugging flagged as a cyber risk.",
+}
 MODEL_RELEASED = "2026-09-22"
 PAGE_FIELDS = ["id", "source", "platform", "category", "evidenceType", "title", "title_en", "summary", "summary_en",
                "author", "sourceUrl", "date", "likes", "bookmarks", "stars", "views", "mediaKind", "poster", "resources"]
@@ -209,12 +218,19 @@ def render_page(meta, cases):
         head = head.replace(empty, filled)
     tpl = head + sep + rest
     n = f"{len(cases):,}"
+    from render_og import card_values, fill  # stdlib-only; Playwright is imported only when rendering the card
+    card = card_values({"meta": meta, "cases": cases})
+    png = ROOT / "assets" / "og-image.png"
+    version = hashlib.sha256(png.read_bytes()).hexdigest()[:10] if png.exists() else "0"
     desc = {
         "{{DESC_ZH}}": f"Claude Opus 5.5 发布后的 {n} 个公开使用案例，来自 X、Reddit、GitHub、Hacker News、YouTube / B 站与网页，"
                        "含任务类别、证据类型、中英文摘要与原帖链接。",
         "{{DESC_EN}}": f"{n} public Claude Opus 5.5 use cases from X, Reddit, GitHub, Hacker News, YouTube / Bilibili and the web, "
                        "with task categories, evidence types, zh/en summaries and source links.",
         "{{PAGE_URL}}": PAGE_URL, "{{SUBMIT_URL}}": SUBMIT_URL, "{{REPO_URL}}": REPO_URL,
+        # versioned so X/WeChat/Slack caches pick up a re-rendered card
+        "{{OG_IMAGE}}": f"{PAGE_URL}assets/og-image.png?v={version}",
+        "{{OG_ALT_ZH}}": fill(OG_ALT["zh"], card), "{{OG_ALT_EN}}": fill(OG_ALT["en"], card),
         # relative to index.html; placeholders keep the template's own relative-link check clean
         "{{CSV_URL}}": "data/all_cases.csv", "{{JSON_URL}}": "data/all_cases.json",
     }

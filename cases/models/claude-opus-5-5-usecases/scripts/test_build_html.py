@@ -119,6 +119,8 @@ class PageBuildTests(unittest.TestCase):
         for marker in ("{{", "/*__", "<p class=\"tagline\" id=\"tagline\"></p>", "<div class=\"stats\" id=\"stats\"></div>"):
             self.assertNotIn(marker, page)
         self.assertIn('href="data/all_cases.csv"', page)
+        self.assertRegex(page, r'og:image" content="https://www\.waytoagi\.com/usecase-atlas/opus5-5/assets/og-image\.png\?v=[0-9a-f]{10}"')
+        self.assertIn('收录 1 条公开案例', page)  # og:image:alt filled from the same numbers as the card
 
     def test_compact_zh_matches_intl_output(self):
         self.assertEqual(compact_zh(1142600), "114.3万")
