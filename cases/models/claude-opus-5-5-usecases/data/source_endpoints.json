@@ -218,5 +218,17 @@
     "key": "gosail-video",
     "url": "https://raw.githubusercontent.com/zhuyansen/awesome-opus-5.5-video/main/cases.json",
     "format": "json"
+  },
+  {
+    "key": "x-seed-2104401613968527400",
+    "url": "https://api.fxtwitter.com/yucheng/status/2104401613968527400",
+    "format": "json",
+    "note": "User-provided historical source; refresh independently of search date. Review quoted/reply context and do not infer an unstated model version."
+  },
+  {
+    "key": "x-seed-2104250271891099672",
+    "url": "https://api.fxtwitter.com/arni0x9053/status/2104250271891099672",
+    "format": "json",
+    "note": "User-provided historical source; refresh independently of search date. Review quoted/reply context and do not infer an unstated model version."
   }
 ]
