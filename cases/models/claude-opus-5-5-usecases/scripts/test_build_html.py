@@ -2,7 +2,7 @@ import unittest
 
 import json
 
-from build_html import apply_enrichments, boot_summary, case_key, compact_zh, fill_i18n, norm_url, page_poster, render_page, to_script
+from build_html import apply_enrichments, apply_poster_enrichments, boot_summary, case_key, compact_zh, fill_i18n, norm_url, page_poster, render_page, to_script
 
 
 class SourceIdentityTests(unittest.TestCase):
@@ -68,6 +68,51 @@ class EnrichmentTests(unittest.TestCase):
         apply_enrichments([case], [{"sourceUrl": case["sourceUrl"], "likes": 10,
                                    "metricsCheckedAt": "2026-09-27T14:00:00+00:00"}])
         self.assertEqual(case["likes"], 15)
+
+
+class PosterEnrichmentTests(unittest.TestCase):
+    def setUp(self):
+        self.case = {"id": "web-001", "sourceUrl": "https://example.com/launch",
+                     "title_en": "Experiment A", "poster": None, "mediaKind": "none", "likes": 42}
+        self.patch = {"id": self.case["id"], "sourceUrl": self.case["sourceUrl"],
+                      "title_en": self.case["title_en"], "poster": "https://example.com/result.png",
+                      "mediaKind": "image", "posterEvidence": {
+                          "reviewStatus": "accepted", "sourcePage": self.case["sourceUrl"],
+                          "checkedAt": "2026-10-01T08:00:00+00:00", "method": "page-body-image",
+                          "relation": "primary-page", "width": 800, "height": 600,
+                          "imageSha256": "a" * 64}}
+
+    def test_only_selected_experiment_on_shared_page_is_patched_and_rebuild_is_stable(self):
+        import copy
+        other = {**self.case, "id": "web-002", "title_en": "Experiment B"}
+        cases = [copy.deepcopy(self.case), other]
+        first = copy.deepcopy(apply_poster_enrichments(cases, [self.patch]))
+        self.assertEqual(first, apply_poster_enrichments(cases, [self.patch]))
+        self.assertEqual(first, apply_poster_enrichments([copy.deepcopy(self.case), other], [self.patch]))
+        self.assertEqual(first[0]["likes"], 42)
+        self.assertEqual(first[0]["poster"], self.patch["poster"])
+        self.assertIsNone(first[1]["poster"])
+
+    def test_existing_upstream_poster_and_its_evidence_win(self):
+        self.case.update(poster="https://example.com/new.png", mediaKind="video", posterEvidence={"original": True})
+        apply_poster_enrichments([self.case], [self.patch])
+        self.assertEqual(self.case["poster"], "https://example.com/new.png")
+        self.assertEqual(self.case["mediaKind"], "video")
+        self.assertEqual(self.case["posterEvidence"], {"original": True})
+
+    def test_rejects_reused_id_changed_editorial_title_missing_and_duplicate_targets(self):
+        for change in ({"sourceUrl": "https://example.com/other"}, {"title_en": "Experiment B"}, {"id": "absent"}):
+            with self.subTest(change=change), self.assertRaises(ValueError):
+                apply_poster_enrichments([self.case], [{**self.patch, **change}])
+        with self.assertRaises(ValueError):
+            apply_poster_enrichments([self.case], [self.patch, self.patch])
+
+    def test_rejects_unreviewed_media_and_unrelated_field_changes(self):
+        for change in ({"poster": "javascript:alert(1)"}, {"mediaKind": "none"}, {"likes": 99},
+                       {"posterEvidence": {**self.patch["posterEvidence"], "reviewStatus": "candidate"}},
+                       {"posterEvidence": {**self.patch["posterEvidence"], "imageSha256": ""}}):
+            with self.subTest(change=change), self.assertRaises(ValueError):
+                apply_poster_enrichments([self.case], [{**self.patch, **change}])
 
 
 class PageBuildTests(unittest.TestCase):
