@@ -13337,5 +13337,534 @@
     "url": "https://x.com/claudeai/status/2102471866635919731"
    }
   ]
+ },
+ {
+  "platform": "X",
+  "category": "agents",
+  "evidenceType": "集成",
+  "title": "用状态 DAG 协调游戏开发",
+  "title_en": "State-DAG orchestration for game development",
+  "summary": "作者将 Opus 5.5 接入已有的游戏开发状态 DAG，并分享 AItelier 项目看板；他观察到相较 Opus 5，会发起更多并行任务。看板涉及多模型协作，这一比较是作者自述。",
+  "summary_en": "The author tested Opus 5.5 in an existing state-DAG game-development workflow and shared the AItelier dashboard, reporting more parallel tasks than with Opus 5. The project uses multiple models; the comparison is the author’s observation.",
+  "author": "@xhlink",
+  "sourceUrl": "https://x.com/xhlink/status/2102494491592601678",
+  "date": "2026-09-22",
+  "likes": 7,
+  "bookmarks": 5,
+  "views": 15814,
+  "mediaKind": "none",
+  "poster": null,
+  "checkedAt": "2026-10-01T15:44:44+00:00",
+  "metricsCheckedAt": "2026-10-01T15:44:44+00:00",
+  "discoveredVia": "https://x.com/xhlink/status/2102494491592601678",
+  "evidenceUrl": "https://x.com/xhlink/status/2102494491592601678",
+  "evidenceBasis": "Original X GraphQL data preserves the post, author, full note text, reply parent, conversation and quoted identity separately. Explicit model attribution is in this work or its creator’s linked reply. Original media was inspected where available; no independent reproduction is claimed.",
+  "resources": [
+   {
+    "label": "作者提供的项目入口",
+    "label_en": "Project link from the author",
+    "url": "https://aitelier.linxuhao.app/#/"
+   }
+  ]
+ },
+ {
+  "platform": "X",
+  "category": "games",
+  "evidenceType": "演示",
+  "title": "Spark Garden：Godot 与复古主机版本",
+  "title_en": "Spark Garden in Godot and retro-console formats",
+  "summary": "作者给 Opus 5.5 三十分钟用 Godot 自由创作，得到 Spark Garden，再要求改成 GBC、GBA 与 N64 版本；后续提供网页入口及 GBC/GBA ROM 链接。未独立验证各主机兼容性。",
+  "summary_en": "The author gave Opus 5.5 thirty minutes to create freely in Godot, then requested GBC, GBA and N64 versions of Spark Garden. A follow-up supplies web entries and GBC/GBA ROM links; console compatibility was not independently tested.",
+  "author": "@davidpwalter",
+  "sourceUrl": "https://x.com/davidpwalter/status/2102497154300522553",
+  "date": "2026-09-22",
+  "likes": 9,
+  "bookmarks": 3,
+  "views": 1410,
+  "mediaKind": "video",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2102495146512158720/img/18rvCHqgTIPtLlzK.jpg",
+  "checkedAt": "2026-10-01T15:44:44+00:00",
+  "metricsCheckedAt": "2026-10-01T15:44:44+00:00",
+  "discoveredVia": "https://x.com/davidpwalter/status/2102498400927158684",
+  "evidenceUrl": "https://x.com/davidpwalter/status/2102497154300522553",
+  "evidenceBasis": "Original X GraphQL data preserves the post, author, full note text, reply parent, conversation and quoted identity separately. Explicit model attribution is in this work or its creator’s linked reply. Original media was inspected where available; no independent reproduction is claimed.",
+  "resources": [
+   {
+    "label": "作者提供的网页与 ROM 链接",
+    "label_en": "Web and ROM links from the creator",
+    "url": "https://x.com/davidpwalter/status/2102497157257552030"
+   },
+   {
+    "label": "Spark Garden 网页版本",
+    "label_en": "Spark Garden web version",
+    "url": "https://shinygen.ai/gen/Spark_Garden"
+   },
+   {
+    "label": "发现该作品的回帖",
+    "label_en": "Reply linking this work",
+    "url": "https://x.com/davidpwalter/status/2102498400927158684"
+   }
+  ]
+ },
+ {
+  "platform": "X",
+  "category": "education",
+  "evidenceType": "演示",
+  "title": "太阳系的图形解说短片",
+  "title_en": "A graphical explainer of the Solar System",
+  "summary": "作者发布注明由 Claude Opus 5.5 制作的太阳系短片，画面展示轨道与太阳系结构等图解。视频约三分钟，未提供完整代码，科学准确性未独立核验。",
+  "summary_en": "The author credits Claude Opus 5.5 for a roughly three-minute Solar System explainer with orbital and structural diagrams. Full code was not supplied, and the scientific content was not independently checked.",
+  "author": "@twocels",
+  "sourceUrl": "https://x.com/twocels/status/2102534635356148221",
+  "date": "2026-09-22",
+  "likes": 3,
+  "bookmarks": 1,
+  "views": 2734,
+  "mediaKind": "video",
+  "poster": "assets/reply-posters/2102534635356148221.jpg",
+  "checkedAt": "2026-10-01T15:44:44+00:00",
+  "metricsCheckedAt": "2026-10-01T15:44:44+00:00",
+  "discoveredVia": "https://x.com/twocels/status/2102535647596888281",
+  "evidenceUrl": "https://x.com/twocels/status/2102534635356148221",
+  "evidenceBasis": "Original X GraphQL data preserves the post, author, full note text, reply parent, conversation and quoted identity separately. Explicit model attribution is in this work or its creator’s linked reply. Original media was inspected where available; no independent reproduction is claimed.",
+  "resources": [
+   {
+    "label": "发现该作品的回帖",
+    "label_en": "Reply linking this work",
+    "url": "https://x.com/twocels/status/2102535647596888281"
+   }
+  ]
+ },
+ {
+  "platform": "X",
+  "category": "science",
+  "evidenceType": "演示",
+  "title": "Microduck 沿儿童画作训练行走",
+  "title_en": "Training Microduck to trace a child’s drawing",
+  "summary": "作者展示机器人鸭在模拟环境中沿女儿画的蝴蝶轮廓行走，称 Opus 5.5 设计奖励、运行 24 轮训练并用 Blender 录制；所引用的旧实验为更简单图形的 96 轮训练，两者不作为受控性能比较。",
+  "summary_en": "The author shows a simulated robot duck tracing a child’s butterfly drawing, reporting reward design and 24 training iterations with Opus 5.5 plus a Blender recording. The linked older experiment used 96 iterations on a simpler shape, so this is not a controlled performance comparison.",
+  "author": "@singhal009",
+  "sourceUrl": "https://x.com/singhal009/status/2102772921446064612",
+  "date": "2026-09-23",
+  "likes": 5,
+  "bookmarks": 3,
+  "views": 1921,
+  "mediaKind": "video",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2102772857545859072/img/5lSmkEqFIf_KIlDm.jpg",
+  "checkedAt": "2026-10-01T15:44:44+00:00",
+  "metricsCheckedAt": "2026-10-01T15:44:44+00:00",
+  "discoveredVia": "https://x.com/singhal009/status/2102772921446064612",
+  "evidenceUrl": "https://x.com/singhal009/status/2102772921446064612",
+  "evidenceBasis": "Original X GraphQL data preserves the post, author, full note text, reply parent, conversation and quoted identity separately. Explicit model attribution is in this work or its creator’s linked reply. Original media was inspected where available; no independent reproduction is claimed.",
+  "resources": [
+   {
+    "label": "作者引用的早期实验",
+    "label_en": "Earlier experiment linked by the creator",
+    "url": "https://x.com/singhal009/status/2102553532020727937"
+   }
+  ]
+ },
+ {
+  "platform": "X",
+  "category": "video",
+  "evidenceType": "演示",
+  "title": "WPVibe 四万安装量庆祝短片",
+  "title_en": "WPVibe’s 40,000-install celebration video",
+  "summary": "WPVibe 作者在回帖中明确说明，四万安装量庆祝视频由 Opus 5.5 完成，创意方向也主要交给 Claude。案例指该宣传片，不代表 WordPress 产品本身由该模型开发。",
+  "summary_en": "The WPVibe creator explicitly attributes its 40,000-install celebration video and much of the creative direction to Opus 5.5 in a linked reply. This case concerns the promotional video, not the development of the WordPress product.",
+  "author": "@syedbalkhi",
+  "sourceUrl": "https://x.com/syedbalkhi/status/2102767648480092491",
+  "date": "2026-09-23",
+  "likes": 44,
+  "bookmarks": 4,
+  "views": 8413,
+  "mediaKind": "video",
+  "poster": "assets/reply-posters/2102767648480092491.jpg",
+  "checkedAt": "2026-10-01T15:44:44+00:00",
+  "metricsCheckedAt": "2026-10-01T15:44:44+00:00",
+  "discoveredVia": "https://x.com/syedbalkhi/status/2102828843233079506",
+  "evidenceUrl": "https://x.com/syedbalkhi/status/2102828843233079506",
+  "evidenceBasis": "Original X GraphQL data preserves the post, author, full note text, reply parent, conversation and quoted identity separately. Explicit model attribution is in this work or its creator’s linked reply. Original media was inspected where available; no independent reproduction is claimed.",
+  "resources": [
+   {
+    "label": "发现该作品的回帖",
+    "label_en": "Reply linking this work",
+    "url": "https://x.com/syedbalkhi/status/2102828843233079506"
+   },
+   {
+    "label": "作者提供的项目入口",
+    "label_en": "Project link from the author",
+    "url": "https://WPVibe.ai"
+   }
+  ]
+ },
+ {
+  "platform": "X",
+  "category": "education",
+  "evidenceType": "演示",
+  "title": "可拆解的 Cybertruck 浏览器模型",
+  "title_en": "An explorable Cybertruck browser model",
+  "summary": "作者用 Opus 5.5 制作 Cybertruck 教学演示，可透视车体、追踪电池到电机的能量路径并展示启动；附在线入口与所属实验室源码。几何与工程参数未独立验证。",
+  "summary_en": "The author used Opus 5.5 to create a Cybertruck teaching demo with cutaways, battery-to-motor energy paths and a launch sequence. The live page and shared lab source are linked; geometry and engineering values were not independently validated.",
+  "author": "@konstantinsaifo",
+  "sourceUrl": "https://x.com/konstantinsaifo/status/2104246310589096417",
+  "date": "2026-09-27",
+  "likes": 26,
+  "bookmarks": 32,
+  "views": 12774,
+  "mediaKind": "video",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2104246205668544513/img/FXs5TMwjipf1TYJ2.jpg",
+  "checkedAt": "2026-10-01T15:44:44+00:00",
+  "metricsCheckedAt": "2026-10-01T15:44:44+00:00",
+  "discoveredVia": "https://x.com/konstantinsaifo/status/2104246556924993688",
+  "evidenceUrl": "https://x.com/konstantinsaifo/status/2104246310589096417",
+  "evidenceBasis": "Original X GraphQL data preserves the post, author, full note text, reply parent, conversation and quoted identity separately. Explicit model attribution is in this work or its creator’s linked reply. Original media was inspected where available; no independent reproduction is claimed.",
+  "resources": [
+   {
+    "label": "发现该作品的回帖",
+    "label_en": "Reply linking this work",
+    "url": "https://x.com/konstantinsaifo/status/2104246556924993688"
+   },
+   {
+    "label": "作者提供的项目入口",
+    "label_en": "Project link from the author",
+    "url": "https://airsup.ai/lab/cybertruck"
+   },
+   {
+    "label": "所属实验室开源仓库",
+    "label_en": "Shared laboratory source repository",
+    "url": "https://github.com/AirsupHQ/airsup-lab"
+   }
+  ]
+ },
+ {
+  "platform": "X",
+  "category": "education",
+  "evidenceType": "演示",
+  "title": "F135 级发动机剖面演示",
+  "title_en": "An F135-class engine cutaway demo",
+  "summary": "作者让 Opus 5.5 制作可在浏览器拆解的喷气发动机，展示风扇、压气机、燃烧室与加力段的气流和视效；属于基于公开信息的教学模型，未复核工程精度。",
+  "summary_en": "The author asked Opus 5.5 for a browser-based jet-engine cutaway showing flow through the fan, compressor, combustor and afterburner. It is a teaching model based on public information; engineering accuracy was not independently checked.",
+  "author": "@konstantinsaifo",
+  "sourceUrl": "https://x.com/konstantinsaifo/status/2104516868182598079",
+  "date": "2026-09-28",
+  "likes": 73,
+  "bookmarks": 42,
+  "views": 7302,
+  "mediaKind": "video",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2104515835666526208/img/ZYudYigjAv8XWh0L.jpg",
+  "checkedAt": "2026-10-01T15:44:44+00:00",
+  "metricsCheckedAt": "2026-10-01T15:44:44+00:00",
+  "discoveredVia": "https://x.com/konstantinsaifo/status/2104516900499693906",
+  "evidenceUrl": "https://x.com/konstantinsaifo/status/2104516868182598079",
+  "evidenceBasis": "Original X GraphQL data preserves the post, author, full note text, reply parent, conversation and quoted identity separately. Explicit model attribution is in this work or its creator’s linked reply. Original media was inspected where available; no independent reproduction is claimed.",
+  "resources": [
+   {
+    "label": "发现该作品的回帖",
+    "label_en": "Reply linking this work",
+    "url": "https://x.com/konstantinsaifo/status/2104516900499693906"
+   },
+   {
+    "label": "作者提供的项目入口",
+    "label_en": "Project link from the author",
+    "url": "http://airsup.ai/lab/jet-engine"
+   },
+   {
+    "label": "所属实验室开源仓库",
+    "label_en": "Shared laboratory source repository",
+    "url": "https://github.com/AirsupHQ/airsup-lab"
+   }
+  ]
+ },
+ {
+  "platform": "X",
+  "category": "education",
+  "evidenceType": "演示",
+  "title": "五轴 CNC 切削叶轮的交互演示",
+  "title_en": "An interactive five-axis CNC machining demo",
+  "summary": "作者用 Opus 5.5 制作浏览器中的五轴 CNC 教学模型，展示工作台转动、从坯料切削叶轮、切屑与冷却液。此处收录原帖演示，未验证加工程序或实际制造能力。",
+  "summary_en": "The author credits Opus 5.5 for a browser teaching model of five-axis CNC machining, including a moving table, impeller cutting, chips and coolant. This records the demonstrated simulation, not a verified manufacturing program.",
+  "author": "@konstantinsaifo",
+  "sourceUrl": "https://x.com/konstantinsaifo/status/2104963500988916032",
+  "date": "2026-09-29",
+  "likes": 422,
+  "bookmarks": 207,
+  "views": 31779,
+  "mediaKind": "video",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2104962674337472512/img/2ajsAEH5ZtsrZq2s.jpg",
+  "checkedAt": "2026-10-01T15:44:44+00:00",
+  "metricsCheckedAt": "2026-10-01T15:44:44+00:00",
+  "discoveredVia": "https://x.com/konstantinsaifo/status/2105269547263832505",
+  "evidenceUrl": "https://x.com/konstantinsaifo/status/2104963500988916032",
+  "evidenceBasis": "Original X GraphQL data preserves the post, author, full note text, reply parent, conversation and quoted identity separately. Explicit model attribution is in this work or its creator’s linked reply. Original media was inspected where available; no independent reproduction is claimed.",
+  "resources": [
+   {
+    "label": "发现该作品的回帖",
+    "label_en": "Reply linking this work",
+    "url": "https://x.com/konstantinsaifo/status/2105269547263832505"
+   },
+   {
+    "label": "所属实验室开源仓库",
+    "label_en": "Shared laboratory source repository",
+    "url": "https://github.com/AirsupHQ/airsup-lab"
+   }
+  ]
+ },
+ {
+  "platform": "X",
+  "category": "education",
+  "evidenceType": "演示",
+  "title": "可调海温的飓风教学模型",
+  "title_en": "A hurricane teaching model with adjustable ocean temperature",
+  "summary": "作者让 Opus 5.5 制作可调海温、查看剖面并观察城市受风影响的飓风演示，附浏览器入口。画面与交互已展示，气象和建筑损伤数值未独立验证。",
+  "summary_en": "The author used Opus 5.5 for a browser hurricane demo with ocean-temperature controls, cutaways and illustrated effects on a city. The post demonstrates the visuals; meteorological and damage values were not independently validated.",
+  "author": "@konstantinsaifo",
+  "sourceUrl": "https://x.com/konstantinsaifo/status/2105384301193789486",
+  "date": "2026-09-30",
+  "likes": 38,
+  "bookmarks": 28,
+  "views": 3605,
+  "mediaKind": "video",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2105383708937134081/img/SLWiHrAqHAD7wVYE.jpg",
+  "checkedAt": "2026-10-01T15:44:44+00:00",
+  "metricsCheckedAt": "2026-10-01T15:44:44+00:00",
+  "discoveredVia": "https://x.com/konstantinsaifo/status/2105385087630180524",
+  "evidenceUrl": "https://x.com/konstantinsaifo/status/2105384301193789486",
+  "evidenceBasis": "Original X GraphQL data preserves the post, author, full note text, reply parent, conversation and quoted identity separately. Explicit model attribution is in this work or its creator’s linked reply. Original media was inspected where available; no independent reproduction is claimed.",
+  "resources": [
+   {
+    "label": "发现该作品的回帖",
+    "label_en": "Reply linking this work",
+    "url": "https://x.com/konstantinsaifo/status/2105385087630180524"
+   },
+   {
+    "label": "作者提供的项目入口",
+    "label_en": "Project link from the author",
+    "url": "http://airsup.ai/lab/hurricane"
+   },
+   {
+    "label": "所属实验室开源仓库",
+    "label_en": "Shared laboratory source repository",
+    "url": "https://github.com/AirsupHQ/airsup-lab"
+   }
+  ]
+ },
+ {
+  "platform": "X",
+  "category": "video",
+  "evidenceType": "演示",
+  "title": "Opus 5.5 与 Suno 的音乐视频",
+  "title_en": "A music video credited to Opus 5.5 and Suno",
+  "summary": "作者在热门音乐视频下分享自己的成片，并注明 Opus 5.5 与 Suno，附完整 YouTube 版本。视频包含人物与电脑场景；具体工具分工和其他素材来源未说明。",
+  "summary_en": "The author shares a music video featuring people and computer scenes, credits Opus 5.5 and Suno, and links the full YouTube version. The exact division of work and sources of other visual assets are unspecified.",
+  "author": "@MarkZofMarkZ",
+  "sourceUrl": "https://x.com/MarkZofMarkZ/status/2104344583521853466",
+  "date": "2026-09-27",
+  "likes": 16,
+  "bookmarks": 10,
+  "views": 2290,
+  "mediaKind": "video",
+  "poster": "assets/reply-posters/2104344583521853466.jpg",
+  "checkedAt": "2026-10-01T15:44:44+00:00",
+  "metricsCheckedAt": "2026-10-01T15:44:44+00:00",
+  "discoveredVia": "https://x.com/MarkZofMarkZ/status/2104344583521853466",
+  "evidenceUrl": "https://x.com/MarkZofMarkZ/status/2104344583521853466",
+  "evidenceBasis": "Original X GraphQL data preserves the post, author, full note text, reply parent, conversation and quoted identity separately. Explicit model attribution is in this work or its creator’s linked reply. Original media was inspected where available; no independent reproduction is claimed.",
+  "resources": [
+   {
+    "label": "作者提供的项目入口",
+    "label_en": "Project link from the author",
+    "url": "https://youtu.be/QtU346nuaYA"
+   }
+  ]
+ },
+ {
+  "platform": "X",
+  "category": "video",
+  "evidenceType": "演示",
+  "title": "手绘风 Opus 5.5 介绍动画",
+  "title_en": "An illustrated Opus 5.5 introduction",
+  "summary": "作者在官方案例串下展示由 Opus 5.5 制作的介绍动画，约三十秒，包含手绘风角色、标题与图表。帖子未公开制作流程或素材来源，片中性能数字未作独立核验。",
+  "summary_en": "The author credits Opus 5.5 for a roughly thirty-second introduction with illustrated characters, titles and charts. The production workflow and asset sources are not documented; performance figures shown in the film were not independently verified.",
+  "author": "@Aswin_Aji_Raj",
+  "sourceUrl": "https://x.com/Aswin_Aji_Raj/status/2102751228040212974",
+  "date": "2026-09-23",
+  "likes": 18,
+  "bookmarks": 5,
+  "views": 2551,
+  "mediaKind": "video",
+  "poster": "assets/reply-posters/2102751228040212974.jpg",
+  "checkedAt": "2026-10-01T15:44:44+00:00",
+  "metricsCheckedAt": "2026-10-01T15:44:44+00:00",
+  "discoveredVia": "https://x.com/Aswin_Aji_Raj/status/2102751228040212974",
+  "evidenceUrl": "https://x.com/Aswin_Aji_Raj/status/2102751228040212974",
+  "evidenceBasis": "Original X GraphQL data preserves the post, author, full note text, reply parent, conversation and quoted identity separately. Explicit model attribution is in this work or its creator’s linked reply. Original media was inspected where available; no independent reproduction is claimed.",
+  "resources": []
+ },
+ {
+  "platform": "X",
+  "category": "3d",
+  "evidenceType": "演示",
+  "title": "农田与河流的三维场景动画",
+  "title_en": "A three-dimensional farmland and river scene",
+  "summary": "作者在官方案例串下发布标注 Opus 5.5 的场景视频，展示农田、树林和弯曲河流。此记录基于原始演示画面，未提供可运行项目或代码。",
+  "summary_en": "The author posts a scene video credited to Opus 5.5, showing farmland, trees and a winding river. This entry documents the original visual demo; no runnable project or code was supplied.",
+  "author": "@lunai408",
+  "sourceUrl": "https://x.com/lunai408/status/2102540840425910703",
+  "date": "2026-09-22",
+  "likes": 9,
+  "bookmarks": 1,
+  "views": 1333,
+  "mediaKind": "video",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2102540759643598848/img/FGYp3j4E4jxZCipO.jpg",
+  "checkedAt": "2026-10-01T15:44:44+00:00",
+  "metricsCheckedAt": "2026-10-01T15:44:44+00:00",
+  "discoveredVia": "https://x.com/lunai408/status/2102540840425910703",
+  "evidenceUrl": "https://x.com/lunai408/status/2102540840425910703",
+  "evidenceBasis": "Original X GraphQL data preserves the post, author, full note text, reply parent, conversation and quoted identity separately. Explicit model attribution is in this work or its creator’s linked reply. Original media was inspected where available; no independent reproduction is claimed.",
+  "resources": []
+ },
+ {
+  "platform": "X",
+  "category": "games",
+  "evidenceType": "演示",
+  "title": "Canyon Kit 日落峡谷像素演示",
+  "title_en": "Canyon Kit sunset-canyon pixel demo",
+  "summary": "作者展示标注由 Opus 5.5 制作的 Canyon Kit 像素风峡谷演示，画面含横版地形与日落场景。帖子没有提供试玩或源码，未据此推断完整游戏功能。",
+  "summary_en": "The author credits Opus 5.5 for a Canyon Kit pixel-art canyon demo with side-view terrain and sunset scenery. No playable link or source was supplied, so complete game functionality is not inferred.",
+  "author": "@moecoko",
+  "sourceUrl": "https://x.com/moecoko/status/2102494385418219878",
+  "date": "2026-09-22",
+  "likes": 8,
+  "bookmarks": 2,
+  "views": 6996,
+  "mediaKind": "video",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2102494224016932864/img/mV8rb7iKQgBgXTmo.jpg",
+  "checkedAt": "2026-10-01T15:44:44+00:00",
+  "metricsCheckedAt": "2026-10-01T15:44:44+00:00",
+  "discoveredVia": "https://x.com/moecoko/status/2102494385418219878",
+  "evidenceUrl": "https://x.com/moecoko/status/2102494385418219878",
+  "evidenceBasis": "Original X GraphQL data preserves the post, author, full note text, reply parent, conversation and quoted identity separately. Explicit model attribution is in this work or its creator’s linked reply. Original media was inspected where available; no independent reproduction is claimed.",
+  "resources": []
+ },
+ {
+  "platform": "X",
+  "category": "video",
+  "evidenceType": "演示",
+  "title": "先改提示词再提供素材的游戏宣传片",
+  "title_en": "A game promo made from an edited prompt and supplied assets",
+  "summary": "作者先让 Opus 5.5 生成提示词，再修改提示并提供数字素材，得到约四十五秒的游戏宣传片。演示包含霓虹风游戏与机器人对手画面，属于带外部素材的工作流。",
+  "summary_en": "The author first asked Opus 5.5 for a prompt, edited it and supplied digital assets to produce a roughly forty-five-second game promo. The film includes neon game scenes and robot opponents as part of an asset-assisted workflow.",
+  "author": "@IntuitionTom",
+  "sourceUrl": "https://x.com/IntuitionTom/status/2105461366740152398",
+  "date": "2026-10-01",
+  "likes": 0,
+  "bookmarks": 0,
+  "views": 14,
+  "mediaKind": "video",
+  "poster": "assets/reply-posters/2105461366740152398.jpg",
+  "checkedAt": "2026-10-01T15:44:44+00:00",
+  "metricsCheckedAt": "2026-10-01T15:44:44+00:00",
+  "discoveredVia": "https://x.com/IntuitionTom/status/2105461366740152398",
+  "evidenceUrl": "https://x.com/IntuitionTom/status/2105461366740152398",
+  "evidenceBasis": "Original X GraphQL data preserves the post, author, full note text, reply parent, conversation and quoted identity separately. Explicit model attribution is in this work or its creator’s linked reply. Original media was inspected where available; no independent reproduction is claimed.",
+  "resources": []
+ },
+ {
+  "platform": "X",
+  "category": "graphics",
+  "evidenceType": "演示",
+  "title": "公开提示词的十五秒动效作品集",
+  "title_en": "A fifteen-second motion reel with its prompt",
+  "summary": "作者发布 Opus 5.5 的十五秒动态图形作品，并在首条回帖公开作品集式提示词。成片含字体、粒子与节奏化图形；这是该作者的独立输出，不将相同提示词视为同一作品。",
+  "summary_en": "The author shares a fifteen-second Opus 5.5 motion reel and publishes the showreel prompt in the first reply. It contains typography, particles and rhythmic graphics; using a common prompt does not make it the same work as another creator’s reel.",
+  "author": "@Alisina_ai",
+  "sourceUrl": "https://x.com/Alisina_ai/status/2103955882383962120",
+  "date": "2026-09-26",
+  "likes": 61,
+  "bookmarks": 27,
+  "views": 4738,
+  "mediaKind": "video",
+  "poster": "assets/reply-posters/2103955882383962120.jpg",
+  "checkedAt": "2026-10-01T15:44:44+00:00",
+  "metricsCheckedAt": "2026-10-01T15:44:44+00:00",
+  "discoveredVia": "https://x.com/Alisina_ai/status/2103971502576025859",
+  "evidenceUrl": "https://x.com/Alisina_ai/status/2103955882383962120",
+  "evidenceBasis": "Original X GraphQL data preserves the post, author, full note text, reply parent, conversation and quoted identity separately. Explicit model attribution is in this work or its creator’s linked reply. Original media was inspected where available; no independent reproduction is claimed.",
+  "resources": [
+   {
+    "label": "发现该作品的回帖",
+    "label_en": "Reply linking this work",
+    "url": "https://x.com/Alisina_ai/status/2103971502576025859"
+   },
+   {
+    "label": "作者公开的原始提示词",
+    "label_en": "Original prompt shared by the creator",
+    "url": "https://x.com/Alisina_ai/status/2103955887517798772"
+   }
+  ]
+ },
+ {
+  "platform": "X",
+  "category": "education",
+  "evidenceType": "评测",
+  "title": "Remotion 神经网络课程的双模型对照",
+  "title_en": "A two-model comparison of Remotion neural-network lessons",
+  "summary": "作者用同一课程生成流程比较 Sol 6 与 Opus 5.5，借助 Remotion 生成神经网络教学视频。画面并列展示两版讲解；未独立检查教学准确性或判定优胜模型。",
+  "summary_en": "The author compares Sol 6 and Opus 5.5 in a lesson-generation workflow using Remotion, with side-by-side neural-network explainers. Educational accuracy and an overall model ranking were not independently established.",
+  "author": "@tommyotsai",
+  "sourceUrl": "https://x.com/tommyotsai/status/2102912850880819612",
+  "date": "2026-09-24",
+  "likes": 10,
+  "bookmarks": 8,
+  "views": 1336,
+  "mediaKind": "video",
+  "poster": "assets/reply-posters/2102912850880819612.jpg",
+  "checkedAt": "2026-10-01T15:44:44+00:00",
+  "metricsCheckedAt": "2026-10-01T15:44:44+00:00",
+  "discoveredVia": "https://x.com/tommyotsai/status/2103234355875209250",
+  "evidenceUrl": "https://x.com/tommyotsai/status/2102912850880819612",
+  "evidenceBasis": "Original X GraphQL data preserves the post, author, full note text, reply parent, conversation and quoted identity separately. Explicit model attribution is in this work or its creator’s linked reply. Original media was inspected where available; no independent reproduction is claimed.",
+  "resources": [
+   {
+    "label": "发现该作品的回帖",
+    "label_en": "Reply linking this work",
+    "url": "https://x.com/tommyotsai/status/2103234355875209250"
+   }
+  ]
+ },
+ {
+  "platform": "X",
+  "category": "video",
+  "evidenceType": "演示",
+  "title": "Zuzu 匿名交流产品介绍片",
+  "title_en": "An introduction video for Zuzu",
+  "summary": "Zuzu 作者明确将新的产品介绍片归因于 Claude Opus 5.5，并在官方指南回帖中展示。此处记录介绍片的制作案例，不推断匿名交流产品的疗效或模型承担了产品开发。",
+  "summary_en": "The Zuzu creator credits Claude Opus 5.5 for a new product-introduction film and shares it under the official guide. This documents the film, without inferring therapeutic benefits or attributing development of the underlying product to the model.",
+  "author": "@zuzu_club",
+  "sourceUrl": "https://x.com/zuzu_club/status/2102866948145168741",
+  "date": "2026-09-23",
+  "likes": 3,
+  "bookmarks": 1,
+  "views": 941,
+  "mediaKind": "video",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2102865991437037568/img/OyblG6zncptJgdzW.jpg",
+  "checkedAt": "2026-10-01T15:44:44+00:00",
+  "metricsCheckedAt": "2026-10-01T15:44:44+00:00",
+  "discoveredVia": "https://x.com/zuzu_club/status/2102872121508835554",
+  "evidenceUrl": "https://x.com/zuzu_club/status/2102866948145168741",
+  "evidenceBasis": "Original X GraphQL data preserves the post, author, full note text, reply parent, conversation and quoted identity separately. Explicit model attribution is in this work or its creator’s linked reply. Original media was inspected where available; no independent reproduction is claimed.",
+  "resources": [
+   {
+    "label": "发现该作品的回帖",
+    "label_en": "Reply linking this work",
+    "url": "https://x.com/zuzu_club/status/2102872121508835554"
+   },
+   {
+    "label": "作者提供的项目入口",
+    "label_en": "Project link from the author",
+    "url": "https://www.zuzu.club"
+   }
+  ]
  }
 ]
