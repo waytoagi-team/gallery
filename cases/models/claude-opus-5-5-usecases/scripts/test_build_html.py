@@ -167,6 +167,15 @@ class PageBuildTests(unittest.TestCase):
         self.assertRegex(page, r'og:image" content="https://www\.waytoagi\.com/usecase-atlas/opus5-5/assets/og-image\.png\?v=[0-9a-f]{10}"')
         self.assertIn('收录 1 条公开案例', page)  # og:image:alt filled from the same numbers as the card
 
+    def test_guide_links_carry_both_editions(self):
+        meta = {"categories": {"games": {"zh": "游戏开发", "en": "Game Development"}}, "count": 1, "asOf": "2026-09-30"}
+        cases = [{"id": "x-001", "source": "x", "platform": "X", "category": "games", "evidenceType": "演示", "title": "t",
+                  "sourceUrl": "https://x.com/a/status/1", "likes": 3}]
+        page = render_page(meta, cases)
+        # Chinese edition in the markup; the script swaps in the English edition in English mode
+        self.assertEqual(page.count('href="blog/opus55-beginner-guide/" hreflang="zh-CN" data-guide-en="blog/opus55-beginner-guide/en/"'), 2)
+        self.assertNotIn("(in Chinese)", page)
+
     def test_compact_zh_matches_intl_output(self):
         self.assertEqual(compact_zh(1142600), "114.3万")
         self.assertEqual(compact_zh(1000000), "100万")
