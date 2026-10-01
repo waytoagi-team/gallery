@@ -1,0 +1,66 @@
+{
+ "checkedAt": "2026-10-01T13:51:38+00:00",
+ "snapshotBeforeCount": 5181,
+ "searchScope": "Before-refresh merged data, tracked source datasets and historical refresh records, plus available discovery caches. Absence establishes no local record; it cannot establish the coverage of all external indexes.",
+ "cases": [
+  {
+   "id": "lists-665",
+   "sourceUrl": "https://x.com/yucheng/status/2104401613968527400",
+   "postedAt": "2026-09-28T02:43:37+00:00",
+   "presentBeforeRefresh": false,
+   "priorDiscoveryOrReviewRecordFound": false,
+   "finding": "Discovery omission; no evidence of editorial rejection. Earlier than the 2026-09-30 rolling search window, so this pass did not automatically backfill it.",
+   "modelAttribution": "Contextual related workflow; remix model unspecified",
+   "keywordLimitation": "Original post names Claude Code but does not contain Opus 5.5; keyword-only discovery is weaker. This is not evidence it was previously filtered out.",
+   "evidenceBasis": "User-supplied historical source; original post and quoted/replied-to ancestry retrieved. Contextual related workflow: this post names Claude Code but does not state the remix model version. Do not infer direct Opus 5.5 attribution from the ancestor.",
+   "resources": [
+    {
+     "label": "所引用的改编作品",
+     "label_en": "Referenced remix",
+     "url": "https://x.com/_mexicat/status/2103108369569726802"
+    },
+    {
+     "label": "明确使用 Opus 5.5 的上游流程",
+     "label_en": "Upstream workflow explicitly using Opus 5.5",
+     "url": "https://x.com/pleometric/status/2103082510607610023"
+    }
+   ],
+   "poster": "https://pbs.twimg.com/amplify_video_thumb/2104401392857436161/img/0PpDp_WT-P3ZcoH8.jpg",
+   "remedy": "Added bilingual case and original attachment thumbnail; pinned explicit source endpoint is fetched independently of search dates."
+  },
+  {
+   "id": "lists-666",
+   "sourceUrl": "https://x.com/arni0x9053/status/2104250271891099672",
+   "postedAt": "2026-09-27T16:42:14+00:00",
+   "presentBeforeRefresh": false,
+   "priorDiscoveryOrReviewRecordFound": false,
+   "finding": "Discovery omission; no evidence of editorial rejection. Earlier than the 2026-09-30 rolling search window, so this pass did not automatically backfill it.",
+   "modelAttribution": "Explicit Opus 5.5 attribution in original post",
+   "keywordLimitation": null,
+   "evidenceBasis": "User-supplied historical source; original post explicitly names Opus 5.5. Main post, thread, metrics and attachment metadata retrieved; not watched or independently reproduced.",
+   "resources": [
+    {
+     "label": "交互作品",
+     "label_en": "Interactive work",
+     "url": "https://arnilabs.ai/clanker-im-fine/?v=1"
+    },
+    {
+     "label": "制作流程原帖",
+     "label_en": "Original workflow thread",
+     "url": "https://x.com/arni0x9053/status/2104250280900472875"
+    },
+    {
+     "label": "Katagami MCP",
+     "label_en": "Katagami MCP",
+     "url": "https://katagami.ai/connect"
+    }
+   ],
+   "poster": "https://pbs.twimg.com/amplify_video_thumb/2104247373291458560/img/NtW_GG0UlTPAKcq5.jpg",
+   "remedy": "Added bilingual case and original attachment thumbnail; pinned explicit source endpoint is fetched independently of search dates."
+  }
+ ],
+ "upstreamAlreadyListed": {
+  "id": "lists-099",
+  "sourceUrl": "https://x.com/pleometric/status/2103082510607610023"
+ }
+}
