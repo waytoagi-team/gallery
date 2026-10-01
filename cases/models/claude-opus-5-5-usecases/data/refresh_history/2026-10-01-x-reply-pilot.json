@@ -1,0 +1,1603 @@
+{
+ "schemaVersion": 1,
+ "startedAt": "2026-10-01T14:14:51.039165+00:00",
+ "completedAt": "2026-10-01T14:24:59+00:00",
+ "task": "Pilot discovery of popular Opus 5.5 work in replies under popular X posts.",
+ "initialPlan": {
+  "startedAt": "2026-10-01T14:14:51.039165+00:00",
+  "scope": "Three popular creative/demo X posts initially; expand to at most five if reply retrieval works and further variety is useful. At most 100 exposed replies per seed; no exhaustive claim.",
+  "seedSelection": "Among high-like X cases already in the atlas; choose motion graphics, interactive optics and a mixed-media scene.",
+  "replyPopularityRule": {
+   "likesAtLeast": 100,
+   "orViewsAtLeast": 10000,
+   "note": "Prioritize by observed likes, then views; source order is not necessarily popularity order. Lower-popularity replies may be recorded as controls but are not promoted as hot."
+  },
+  "inclusionRule": "Verified original reply relationship, concrete work and explicit Opus 5.5 attribution in reply or unambiguous same-author explanation of that work. Parent model mention alone is insufficient. Deduplicate against 5270 cases.",
+  "records": "Save seed metrics, fetch paths and receipts, discovered replies with engagement and parent chain, and every candidate decision. Never infer a missing model version.",
+  "seeds": [
+   {
+    "id": "uc-1626",
+    "sourceUrl": "https://x.com/stephanlivera/status/2103315922098470926",
+    "title": "Max effort 的15秒动效作品集",
+    "likes": 16987,
+    "views": 2218809
+   },
+   {
+    "id": "uc-0504",
+    "sourceUrl": "https://x.com/RyanSael/status/2102591147927654847",
+    "title": "交互镜头实验室解释对焦",
+    "likes": 16187,
+    "views": 3460555
+   },
+   {
+    "id": "gosail-001",
+    "sourceUrl": "https://x.com/anabology/status/2103534482930491441",
+    "title": "用共享提示词一夜生成的精致场景",
+    "likes": 14371,
+    "views": 19231838
+   }
+  ]
+ },
+ "expansion": {
+  "additionalSeeds": [
+   "2102801274173587569",
+   "2102471866635919731"
+  ],
+  "reason": "Three initial seeds exposed limited comments; add a popular prompt-sharing post and an official showcase thread within the preset five-seed maximum."
+ },
+ "method": [
+  "Choose high-like existing work posts across varied tasks.",
+  "Read exposed reply/thread links with Firecrawl; record that output is partial.",
+  "Select popularity using >=100 likes OR >=10000 views from exact post metadata.",
+  "Verify every reply ID, actual author and parent chain with FxTwitter.",
+  "Read linked original work and same-author model evidence; do not inherit attribution across users.",
+  "Deduplicate by source identity and by work; enrich existing records when a hot reply adds evidence or resources.",
+  "Append accepted cases with bilingual summaries and original media; preserve all other case fields."
+ ],
+ "seeds": [
+  {
+   "postId": "2103315922098470926",
+   "sourceUrl": "https://x.com/stephanlivera/status/2103315922098470926",
+   "author": "@stephanlivera",
+   "likes": 16987,
+   "views": 2219413,
+   "reportedReplyCount": 363,
+   "reviewedReplies": 2,
+   "hotReplies": 2,
+   "sameAuthorReplies": 1,
+   "thirdPartyReplies": 1,
+   "newCases": 0,
+   "coverageComplete": false
+  },
+  {
+   "postId": "2102591147927654847",
+   "sourceUrl": "https://x.com/RyanSael/status/2102591147927654847",
+   "author": "@RyanSael",
+   "likes": 16188,
+   "views": 3461029,
+   "reportedReplyCount": 384,
+   "reviewedReplies": 9,
+   "hotReplies": 8,
+   "sameAuthorReplies": 8,
+   "thirdPartyReplies": 1,
+   "newCases": 0,
+   "coverageComplete": false
+  },
+  {
+   "postId": "2103534482930491441",
+   "sourceUrl": "https://x.com/anabology/status/2103534482930491441",
+   "author": "@anabology",
+   "likes": 14374,
+   "views": 19241813,
+   "reportedReplyCount": 972,
+   "reviewedReplies": 4,
+   "hotReplies": 4,
+   "sameAuthorReplies": 3,
+   "thirdPartyReplies": 1,
+   "newCases": 0,
+   "coverageComplete": false
+  },
+  {
+   "postId": "2102801274173587569",
+   "sourceUrl": "https://x.com/donaldjewkes/status/2102801274173587569",
+   "author": "@donaldjewkes",
+   "likes": 10528,
+   "views": 3781127,
+   "reportedReplyCount": 459,
+   "reviewedReplies": 3,
+   "hotReplies": 3,
+   "sameAuthorReplies": 2,
+   "thirdPartyReplies": 1,
+   "newCases": 0,
+   "coverageComplete": false
+  },
+  {
+   "postId": "2102471866635919731",
+   "sourceUrl": "https://x.com/claudeai/status/2102471866635919731",
+   "author": "@claudeai",
+   "likes": 11334,
+   "views": 1341120,
+   "reportedReplyCount": 316,
+   "reviewedReplies": 9,
+   "hotReplies": 8,
+   "sameAuthorReplies": 8,
+   "thirdPartyReplies": 1,
+   "newCases": 2,
+   "coverageComplete": false
+  }
+ ],
+ "summary": {
+  "seedCount": 5,
+  "initialVisibleReplies": 26,
+  "extraParentBridgeReplies": 1,
+  "reviewedReplyCandidates": 27,
+  "hotReplies": 25,
+  "sameAuthorReplies": 22,
+  "thirdPartyReplies": 5,
+  "hotThirdPartyReplies": 4,
+  "newCases": 2,
+  "newOfficialThreadCases": 2,
+  "newThirdPartyHotReplyCases": 0,
+  "existingCasesEnriched": 5,
+  "resourceLinksAdded": 7,
+  "decisionCounts": {
+   "discussion_only": 5,
+   "enrich_existing": 7,
+   "model_unconfirmed": 3,
+   "same_work_update": 2,
+   "already_collected_work": 3,
+   "below_popularity_threshold": 2,
+   "include_new": 2,
+   "thread_closing": 1,
+   "other_model": 1,
+   "already_collected_prompt": 1
+  }
+ },
+ "candidates": [
+  {
+   "postId": "2104154239115419939",
+   "sourceUrl": "https://x.com/elonmusk/status/2104154239115419939",
+   "author": "@elonmusk",
+   "parentId": "2103534482930491441",
+   "replyChainIds": [
+    "2104154239115419939",
+    "2103534482930491441"
+   ],
+   "seedId": "2103534482930491441",
+   "relationship": "third-party-reply",
+   "likes": 1898,
+   "views": 143332,
+   "bookmarks": 63,
+   "meetsPopularityThreshold": true,
+   "mediaTypes": [],
+   "decision": "discussion_only",
+   "reason": "赞叹、观点或问题，没有独立作品。"
+  },
+  {
+   "postId": "2103534658763768070",
+   "sourceUrl": "https://x.com/anabology/status/2103534658763768070",
+   "author": "@anabology",
+   "parentId": "2103534482930491441",
+   "replyChainIds": [
+    "2103534658763768070",
+    "2103534482930491441"
+   ],
+   "seedId": "2103534482930491441",
+   "relationship": "same-author-thread",
+   "likes": 1075,
+   "views": 127238,
+   "bookmarks": 57,
+   "meetsPopularityThreshold": true,
+   "mediaTypes": [],
+   "decision": "discussion_only",
+   "reason": "赞叹、观点或问题，没有独立作品。"
+  },
+  {
+   "postId": "2104596455969144979",
+   "sourceUrl": "https://x.com/anabology/status/2104596455969144979",
+   "author": "@anabology",
+   "parentId": "2103534658763768070",
+   "replyChainIds": [
+    "2104596455969144979",
+    "2103534658763768070",
+    "2103534482930491441"
+   ],
+   "seedId": "2103534482930491441",
+   "relationship": "same-author-thread",
+   "likes": 69,
+   "views": 16830,
+   "bookmarks": 19,
+   "meetsPopularityThreshold": true,
+   "mediaTypes": [],
+   "decision": "enrich_existing",
+   "reason": "同一作品的作者补充音乐及发布链接，补资源，不增加案例。",
+   "relatedExistingCases": [
+    "gosail-001"
+   ]
+  },
+  {
+   "postId": "2104617203198775567",
+   "sourceUrl": "https://x.com/anabology/status/2104617203198775567",
+   "author": "@anabology",
+   "parentId": "2104596455969144979",
+   "replyChainIds": [
+    "2104617203198775567",
+    "2104596455969144979",
+    "2103534658763768070",
+    "2103534482930491441"
+   ],
+   "seedId": "2103534482930491441",
+   "relationship": "same-author-thread",
+   "likes": 92,
+   "views": 16988,
+   "bookmarks": 25,
+   "meetsPopularityThreshold": true,
+   "mediaTypes": [],
+   "decision": "enrich_existing",
+   "reason": "同一作品的作者补充音乐及发布链接，补资源，不增加案例。",
+   "relatedExistingCases": [
+    "gosail-001"
+   ]
+  },
+  {
+   "postId": "2102801906573935057",
+   "sourceUrl": "https://x.com/donaldjewkes/status/2102801906573935057",
+   "author": "@donaldjewkes",
+   "parentId": "2102801469976248500",
+   "replyChainIds": [
+    "2102801906573935057",
+    "2102801469976248500",
+    "2102801274173587569"
+   ],
+   "seedId": "2102801274173587569",
+   "relationship": "same-author-thread",
+   "likes": 397,
+   "views": 97788,
+   "bookmarks": 347,
+   "meetsPopularityThreshold": true,
+   "mediaTypes": [],
+   "decision": "enrich_existing",
+   "reason": "同一作品的素材与工具说明，经提示词回帖桥接到主帖，补充原案例资源。",
+   "relatedExistingCases": [
+    "lists-010"
+   ]
+  },
+  {
+   "postId": "2102995969126359301",
+   "sourceUrl": "https://x.com/linguinelabs/status/2102995969126359301",
+   "author": "@linguinelabs",
+   "parentId": "2102801274173587569",
+   "replyChainIds": [
+    "2102995969126359301",
+    "2102801274173587569"
+   ],
+   "seedId": "2102801274173587569",
+   "relationship": "third-party-reply",
+   "likes": 152,
+   "views": 49877,
+   "bookmarks": 2,
+   "meetsPopularityThreshold": true,
+   "mediaTypes": [],
+   "decision": "discussion_only",
+   "reason": "赞叹、观点或问题，没有独立作品。"
+  },
+  {
+   "postId": "2102650980882092543",
+   "sourceUrl": "https://x.com/RyanSael/status/2102650980882092543",
+   "author": "@RyanSael",
+   "parentId": "2102591147927654847",
+   "replyChainIds": [
+    "2102650980882092543",
+    "2102591147927654847"
+   ],
+   "seedId": "2102591147927654847",
+   "relationship": "same-author-thread",
+   "likes": 227,
+   "views": 67820,
+   "bookmarks": 123,
+   "meetsPopularityThreshold": true,
+   "mediaTypes": [],
+   "decision": "model_unconfirmed",
+   "reason": "回帖链接到作者其他作品或合集；读取目标原帖后未确认其 Opus 5.5 归属，不能继承主帖模型版本。"
+  },
+  {
+   "postId": "2102646805259514101",
+   "sourceUrl": "https://x.com/RyanSael/status/2102646805259514101",
+   "author": "@RyanSael",
+   "parentId": "2102591147927654847",
+   "replyChainIds": [
+    "2102646805259514101",
+    "2102591147927654847"
+   ],
+   "seedId": "2102591147927654847",
+   "relationship": "same-author-thread",
+   "likes": 199,
+   "views": 100093,
+   "bookmarks": 93,
+   "meetsPopularityThreshold": true,
+   "mediaTypes": [
+    "photo",
+    "photo",
+    "photo"
+   ],
+   "decision": "same_work_update",
+   "reason": "原作品访问量反馈或重复试玩链接，没有新的作品。",
+   "relatedExistingCases": [
+    "uc-0504"
+   ]
+  },
+  {
+   "postId": "2102675204879344116",
+   "sourceUrl": "https://x.com/RyanSael/status/2102675204879344116",
+   "author": "@RyanSael",
+   "parentId": "2102591147927654847",
+   "replyChainIds": [
+    "2102675204879344116",
+    "2102591147927654847"
+   ],
+   "seedId": "2102591147927654847",
+   "relationship": "same-author-thread",
+   "likes": 57,
+   "views": 21269,
+   "bookmarks": 51,
+   "meetsPopularityThreshold": true,
+   "mediaTypes": [],
+   "decision": "same_work_update",
+   "reason": "原作品访问量反馈或重复试玩链接，没有新的作品。",
+   "relatedExistingCases": [
+    "uc-0504"
+   ]
+  },
+  {
+   "postId": "2102671033769791740",
+   "sourceUrl": "https://x.com/RyanSael/status/2102671033769791740",
+   "author": "@RyanSael",
+   "parentId": "2102591147927654847",
+   "replyChainIds": [
+    "2102671033769791740",
+    "2102591147927654847"
+   ],
+   "seedId": "2102591147927654847",
+   "relationship": "same-author-thread",
+   "likes": 43,
+   "views": 25861,
+   "bookmarks": 55,
+   "meetsPopularityThreshold": true,
+   "mediaTypes": [
+    "video",
+    "video",
+    "video"
+   ],
+   "decision": "model_unconfirmed",
+   "reason": "回帖链接到作者其他作品或合集；读取目标原帖后未确认其 Opus 5.5 归属，不能继承主帖模型版本。"
+  },
+  {
+   "postId": "2103024565236699371",
+   "sourceUrl": "https://x.com/RyanSael/status/2103024565236699371",
+   "author": "@RyanSael",
+   "parentId": "2102591147927654847",
+   "replyChainIds": [
+    "2103024565236699371",
+    "2102591147927654847"
+   ],
+   "seedId": "2102591147927654847",
+   "relationship": "same-author-thread",
+   "likes": 33,
+   "views": 16675,
+   "bookmarks": 23,
+   "meetsPopularityThreshold": true,
+   "mediaTypes": [],
+   "decision": "already_collected_work",
+   "reason": "链接到已经收录的 AI 历史博物馆。",
+   "relatedExistingCases": [
+    "uc-1246"
+   ]
+  },
+  {
+   "postId": "2103142717551501660",
+   "sourceUrl": "https://x.com/RyanSael/status/2103142717551501660",
+   "author": "@RyanSael",
+   "parentId": "2102591147927654847",
+   "replyChainIds": [
+    "2103142717551501660",
+    "2102591147927654847"
+   ],
+   "seedId": "2102591147927654847",
+   "relationship": "same-author-thread",
+   "likes": 21,
+   "views": 12661,
+   "bookmarks": 15,
+   "meetsPopularityThreshold": true,
+   "mediaTypes": [],
+   "decision": "model_unconfirmed",
+   "reason": "回帖链接到作者其他作品或合集；读取目标原帖后未确认其 Opus 5.5 归属，不能继承主帖模型版本。"
+  },
+  {
+   "postId": "2104796861320311237",
+   "sourceUrl": "https://x.com/RyanSael/status/2104796861320311237",
+   "author": "@RyanSael",
+   "parentId": "2102591147927654847",
+   "replyChainIds": [
+    "2104796861320311237",
+    "2102591147927654847"
+   ],
+   "seedId": "2102591147927654847",
+   "relationship": "same-author-thread",
+   "likes": 4,
+   "views": 512,
+   "bookmarks": 3,
+   "meetsPopularityThreshold": false,
+   "mediaTypes": [],
+   "decision": "below_popularity_threshold",
+   "reason": "4 赞、512 浏览，低于试验阈值；未沿链接继续扩展。"
+  },
+  {
+   "postId": "2102787082813145276",
+   "sourceUrl": "https://x.com/bcherny/status/2102787082813145276",
+   "author": "@bcherny",
+   "parentId": "2102591147927654847",
+   "replyChainIds": [
+    "2102787082813145276",
+    "2102591147927654847"
+   ],
+   "seedId": "2102591147927654847",
+   "relationship": "third-party-reply",
+   "likes": 224,
+   "views": 16242,
+   "bookmarks": 32,
+   "meetsPopularityThreshold": true,
+   "mediaTypes": [],
+   "decision": "discussion_only",
+   "reason": "赞叹、观点或问题，没有独立作品。"
+  },
+  {
+   "postId": "2102745644750544922",
+   "sourceUrl": "https://x.com/RyanSael/status/2102745644750544922",
+   "author": "@RyanSael",
+   "parentId": "2102591147927654847",
+   "replyChainIds": [
+    "2102745644750544922",
+    "2102591147927654847"
+   ],
+   "seedId": "2102591147927654847",
+   "relationship": "same-author-thread",
+   "likes": 60,
+   "views": 26492,
+   "bookmarks": 52,
+   "meetsPopularityThreshold": true,
+   "mediaTypes": [],
+   "decision": "already_collected_work",
+   "reason": "链接到已经收录的交互数据中心。",
+   "relatedExistingCases": [
+    "uc-0728"
+   ]
+  },
+  {
+   "postId": "2102471870692180179",
+   "sourceUrl": "https://x.com/claudeai/status/2102471870692180179",
+   "author": "@claudeai",
+   "parentId": "2102471866635919731",
+   "replyChainIds": [
+    "2102471870692180179",
+    "2102471866635919731"
+   ],
+   "seedId": "2102471866635919731",
+   "relationship": "same-author-thread",
+   "likes": 1066,
+   "views": 143815,
+   "bookmarks": 162,
+   "meetsPopularityThreshold": true,
+   "mediaTypes": [
+    "video"
+   ],
+   "decision": "enrich_existing",
+   "reason": "官方 Earthrise 与纸笔界面作品已有二手讨论案例，补官方原始演示入口。",
+   "relatedExistingCases": [
+    "uc-0212"
+   ]
+  },
+  {
+   "postId": "2102471874110533750",
+   "sourceUrl": "https://x.com/claudeai/status/2102471874110533750",
+   "author": "@claudeai",
+   "parentId": "2102471870692180179",
+   "replyChainIds": [
+    "2102471874110533750",
+    "2102471870692180179",
+    "2102471866635919731"
+   ],
+   "seedId": "2102471866635919731",
+   "relationship": "same-author-thread",
+   "likes": 849,
+   "views": 73525,
+   "bookmarks": 287,
+   "meetsPopularityThreshold": true,
+   "mediaTypes": [
+    "photo"
+   ],
+   "decision": "enrich_existing",
+   "reason": "官方 Earthrise 与纸笔界面作品已有二手讨论案例，补官方原始演示入口。",
+   "relatedExistingCases": [
+    "uc-0212"
+   ]
+  },
+  {
+   "postId": "2102471877184627062",
+   "sourceUrl": "https://x.com/claudeai/status/2102471877184627062",
+   "author": "@claudeai",
+   "parentId": "2102471874110533750",
+   "replyChainIds": [
+    "2102471877184627062",
+    "2102471874110533750",
+    "2102471870692180179",
+    "2102471866635919731"
+   ],
+   "seedId": "2102471866635919731",
+   "relationship": "same-author-thread",
+   "likes": 446,
+   "views": 43135,
+   "bookmarks": 101,
+   "meetsPopularityThreshold": true,
+   "mediaTypes": [
+    "video"
+   ],
+   "decision": "enrich_existing",
+   "reason": "投石机作品已有案例，补官方演示入口。",
+   "relatedExistingCases": [
+    "uc-0040"
+   ]
+  },
+  {
+   "postId": "2102471879969956310",
+   "sourceUrl": "https://x.com/claudeai/status/2102471879969956310",
+   "author": "@claudeai",
+   "parentId": "2102471877184627062",
+   "replyChainIds": [
+    "2102471879969956310",
+    "2102471877184627062",
+    "2102471874110533750",
+    "2102471870692180179",
+    "2102471866635919731"
+   ],
+   "seedId": "2102471866635919731",
+   "relationship": "same-author-thread",
+   "likes": 361,
+   "views": 38241,
+   "bookmarks": 119,
+   "meetsPopularityThreshold": true,
+   "mediaTypes": [
+    "video"
+   ],
+   "decision": "include_new",
+   "reason": "官方自回帖串明确归于 Opus 5.5；随机界面组合器是具体任务。作者另一个 Figma/patch 交互工具 uc-0135 的描述与本任务不同，保留为独立功能案例。",
+   "newCaseId": "lists-667",
+   "modelEvidenceUrl": "https://x.com/claudeai/status/2102471866635919731",
+   "modelEvidenceBasis": "Same official account introduces this contiguous reply chain as Opus 5.5 early explorations; every parent edge verified by post ID."
+  },
+  {
+   "postId": "2102471882381418989",
+   "sourceUrl": "https://x.com/claudeai/status/2102471882381418989",
+   "author": "@claudeai",
+   "parentId": "2102471879969956310",
+   "replyChainIds": [
+    "2102471882381418989",
+    "2102471879969956310",
+    "2102471877184627062",
+    "2102471874110533750",
+    "2102471870692180179",
+    "2102471866635919731"
+   ],
+   "seedId": "2102471866635919731",
+   "relationship": "same-author-thread",
+   "likes": 242,
+   "views": 34687,
+   "bookmarks": 64,
+   "meetsPopularityThreshold": true,
+   "mediaTypes": [
+    "video"
+   ],
+   "decision": "enrich_existing",
+   "reason": "相同作者的视觉效果工具已有案例，补官方展示入口。",
+   "relatedExistingCases": [
+    "uc-0346"
+   ]
+  },
+  {
+   "postId": "2102471885061812714",
+   "sourceUrl": "https://x.com/claudeai/status/2102471885061812714",
+   "author": "@claudeai",
+   "parentId": "2102471882381418989",
+   "replyChainIds": [
+    "2102471885061812714",
+    "2102471882381418989",
+    "2102471879969956310",
+    "2102471877184627062",
+    "2102471874110533750",
+    "2102471870692180179",
+    "2102471866635919731"
+   ],
+   "seedId": "2102471866635919731",
+   "relationship": "same-author-thread",
+   "likes": 421,
+   "views": 35823,
+   "bookmarks": 164,
+   "meetsPopularityThreshold": true,
+   "mediaTypes": [
+    "video"
+   ],
+   "decision": "already_collected_work",
+   "reason": "可搭积木与说明书的官方视频已有记录，未增加同作品的跨平台条目。",
+   "relatedExistingCases": [
+    "video-050"
+   ]
+  },
+  {
+   "postId": "2102471889092276516",
+   "sourceUrl": "https://x.com/claudeai/status/2102471889092276516",
+   "author": "@claudeai",
+   "parentId": "2102471885061812714",
+   "replyChainIds": [
+    "2102471889092276516",
+    "2102471885061812714",
+    "2102471882381418989",
+    "2102471879969956310",
+    "2102471877184627062",
+    "2102471874110533750",
+    "2102471870692180179",
+    "2102471866635919731"
+   ],
+   "seedId": "2102471866635919731",
+   "relationship": "same-author-thread",
+   "likes": 378,
+   "views": 73313,
+   "bookmarks": 128,
+   "meetsPopularityThreshold": true,
+   "mediaTypes": [
+    "photo"
+   ],
+   "decision": "include_new",
+   "reason": "官方自回帖串明确归于 Opus 5.5；不同种子生成海景线稿，附实际作品图，未发现已收录的同项作品。",
+   "newCaseId": "lists-668",
+   "modelEvidenceUrl": "https://x.com/claudeai/status/2102471866635919731",
+   "modelEvidenceBasis": "Same official account introduces this contiguous reply chain as Opus 5.5 early explorations; every parent edge verified by post ID."
+  },
+  {
+   "postId": "2102471892099866883",
+   "sourceUrl": "https://x.com/claudeai/status/2102471892099866883",
+   "author": "@claudeai",
+   "parentId": "2102471889092276516",
+   "replyChainIds": [
+    "2102471892099866883",
+    "2102471889092276516",
+    "2102471885061812714",
+    "2102471882381418989",
+    "2102471879969956310",
+    "2102471877184627062",
+    "2102471874110533750",
+    "2102471870692180179",
+    "2102471866635919731"
+   ],
+   "seedId": "2102471866635919731",
+   "relationship": "same-author-thread",
+   "likes": 302,
+   "views": 66403,
+   "bookmarks": 21,
+   "meetsPopularityThreshold": true,
+   "mediaTypes": [],
+   "decision": "thread_closing",
+   "reason": "官方发布提示与征集句，不是新作品。"
+  },
+  {
+   "postId": "2102484469555069053",
+   "sourceUrl": "https://x.com/boneGPT/status/2102484469555069053",
+   "author": "@boneGPT",
+   "parentId": "2102471866635919731",
+   "replyChainIds": [
+    "2102484469555069053",
+    "2102471866635919731"
+   ],
+   "seedId": "2102471866635919731",
+   "relationship": "third-party-reply",
+   "likes": 72,
+   "views": 6552,
+   "bookmarks": 8,
+   "meetsPopularityThreshold": false,
+   "mediaTypes": [
+    "video"
+   ],
+   "decision": "below_popularity_threshold",
+   "reason": "明确声称使用 Opus 5.5，但 72 赞、6,552 浏览低于试验阈值。相同作者的 slop cannon 视频已有案例，未将本帖作为热门新作导入。",
+   "relatedExistingCases": [
+    "gosail-035"
+   ]
+  },
+  {
+   "postId": "2103345115398111674",
+   "sourceUrl": "https://x.com/stephanlivera/status/2103345115398111674",
+   "author": "@stephanlivera",
+   "parentId": "2103315922098470926",
+   "replyChainIds": [
+    "2103345115398111674",
+    "2103315922098470926"
+   ],
+   "seedId": "2103315922098470926",
+   "relationship": "same-author-thread",
+   "likes": 510,
+   "views": 84829,
+   "bookmarks": 103,
+   "meetsPopularityThreshold": true,
+   "mediaTypes": [
+    "video"
+   ],
+   "decision": "other_model",
+   "reason": "同一提示的 Grok 4.7 Fast 作品，不能归为 Opus 5.5。"
+  },
+  {
+   "postId": "2103405301030629561",
+   "sourceUrl": "https://x.com/mad0rco/status/2103405301030629561",
+   "author": "@mad0rco",
+   "parentId": "2103315922098470926",
+   "replyChainIds": [
+    "2103405301030629561",
+    "2103315922098470926"
+   ],
+   "seedId": "2103315922098470926",
+   "relationship": "third-party-reply",
+   "likes": 209,
+   "views": 39321,
+   "bookmarks": 2,
+   "meetsPopularityThreshold": true,
+   "mediaTypes": [],
+   "decision": "discussion_only",
+   "reason": "赞叹、观点或问题，没有独立作品。"
+  },
+  {
+   "postId": "2102801469976248500",
+   "sourceUrl": "https://x.com/donaldjewkes/status/2102801469976248500",
+   "author": "@donaldjewkes",
+   "parentId": "2102801274173587569",
+   "replyChainIds": [
+    "2102801469976248500",
+    "2102801274173587569"
+   ],
+   "seedId": "2102801274173587569",
+   "relationship": "same-author-thread",
+   "likes": 2137,
+   "views": 571124,
+   "bookmarks": 4955,
+   "meetsPopularityThreshold": true,
+   "mediaTypes": [],
+   "decision": "already_collected_prompt",
+   "reason": "既有案例已经包含这条完整提示词来源，不重复添加。",
+   "relatedExistingCases": [
+    "lists-010"
+   ]
+  }
+ ],
+ "linkedWorkAndSearchHitChecks": [
+  {
+   "postId": "2100632011572727818",
+   "sourceUrl": "https://x.com/RyanSael/status/2100632011572727818",
+   "parentId": null,
+   "quotedId": null,
+   "likes": 1904,
+   "views": 222489,
+   "decision": "model_unconfirmed",
+   "existingCaseId": null,
+   "note": "Search excerpts can surface quote posts; a quote is not a reply edge. Linked work needs its own model evidence."
+  },
+  {
+   "postId": "2102407948920410416",
+   "sourceUrl": "https://x.com/RyanSael/status/2102407948920410416",
+   "parentId": null,
+   "quotedId": null,
+   "likes": 14,
+   "views": 18439,
+   "decision": "model_unconfirmed",
+   "existingCaseId": null,
+   "note": "Search excerpts can surface quote posts; a quote is not a reply edge. Linked work needs its own model evidence."
+  },
+  {
+   "postId": "2102023644952383495",
+   "sourceUrl": "https://x.com/RyanSael/status/2102023644952383495",
+   "parentId": null,
+   "quotedId": null,
+   "likes": 123,
+   "views": 13965,
+   "decision": "model_unconfirmed",
+   "existingCaseId": null,
+   "note": "Search excerpts can surface quote posts; a quote is not a reply edge. Linked work needs its own model evidence."
+  },
+  {
+   "postId": "2103021886045348073",
+   "sourceUrl": "https://x.com/RyanSael/status/2103021886045348073",
+   "parentId": null,
+   "quotedId": null,
+   "likes": 269,
+   "views": 33301,
+   "decision": "existing_work",
+   "existingCaseId": "uc-1246",
+   "note": "Search excerpts can surface quote posts; a quote is not a reply edge. Linked work needs its own model evidence."
+  },
+  {
+   "postId": "2103141938065281327",
+   "sourceUrl": "https://x.com/RyanSael/status/2103141938065281327",
+   "parentId": null,
+   "quotedId": null,
+   "likes": 1302,
+   "views": 79369,
+   "decision": "model_unconfirmed",
+   "existingCaseId": null,
+   "note": "Search excerpts can surface quote posts; a quote is not a reply edge. Linked work needs its own model evidence."
+  },
+  {
+   "postId": "2102740041621762166",
+   "sourceUrl": "https://x.com/RyanSael/status/2102740041621762166",
+   "parentId": null,
+   "quotedId": null,
+   "likes": 553,
+   "views": 78424,
+   "decision": "existing_work",
+   "existingCaseId": "uc-0728",
+   "note": "Search excerpts can surface quote posts; a quote is not a reply edge. Linked work needs its own model evidence."
+  },
+  {
+   "postId": "2102870353781641416",
+   "sourceUrl": "https://x.com/trq212/status/2102870353781641416",
+   "parentId": null,
+   "quotedId": "2102801469976248500",
+   "likes": 2226,
+   "views": 261937,
+   "decision": "not_a_reply_to_seed",
+   "existingCaseId": null,
+   "note": "Search excerpts can surface quote posts; a quote is not a reply edge. Linked work needs its own model evidence."
+  },
+  {
+   "postId": "2102898978849448301",
+   "sourceUrl": "https://x.com/NickADobos/status/2102898978849448301",
+   "parentId": null,
+   "quotedId": "2102801469976248500",
+   "likes": 197,
+   "views": 24727,
+   "decision": "existing_work",
+   "existingCaseId": "uc-1055",
+   "note": "Search excerpts can surface quote posts; a quote is not a reply edge. Linked work needs its own model evidence."
+  }
+ ],
+ "dataQualityFindings": [
+  {
+   "kind": "author-and-text-mismatch",
+   "postId": "2102787082813145276",
+   "finding": "Ryan seed page listed the same ID as both a Ryan thread item and a bcherny comment, with different text. Exact post metadata identifies bcherny; canonical author/text and parent were used."
+  },
+  {
+   "kind": "thread-text-off-by-one",
+   "sourceUrl": "https://x.com/claudeai/status/2102471866635919731",
+   "finding": "Extracted thread descriptions were shifted by one post; e.g. ID 2102471870692180179 is Earthrise, not the watermelon story. Eight official reply IDs were individually checked. Decisions use exact post metadata."
+  },
+  {
+   "kind": "quote-vs-reply",
+   "postIds": [
+    "2102870353781641416",
+    "2102898978849448301"
+   ],
+   "finding": "Targeted search returned posts quoting Donald’s prompt. Neither has a reply parent; they are not counted as replies."
+  }
+ ],
+ "browserProbe": {
+  "sourceUrl": "https://x.com/stephanlivera/status/2103315922098470926",
+  "mode": "logged-out, read-only",
+  "visibleReplyIds": [
+   "2103345115398111674",
+   "2103405301030629561"
+  ],
+  "visibleReplyCount": 2,
+  "blocker": "Log in or sign up for X; scrolling did not load more replies.",
+  "limit": "One native page probed; no claim that all five pages expose identical limits.",
+  "sessionCleanup": "Stop requested; endpoint returned HTTP 404. No session credentials are stored in this report."
+ },
+ "limits": [
+  "Purposive five-seed sample, not representative of X.",
+  "Only exposed replies and parent bridges reviewed; aggregate reply counts are not a reliable coverage denominator for nested, hidden or deleted posts.",
+  "No complete reply pagination or global popularity ordering was available.",
+  "Search results often mix profiles, quotes and neighboring posts; excerpt co-occurrence is not relationship evidence.",
+  "Two accepted cases come from the official author’s own thread; community-reply yield remains unproven.",
+  "Reported popularity is a point-in-time snapshot, not a quality score."
+ ],
+ "imageChecks": [
+  {
+   "postId": "2102471879969956310",
+   "sourceUrl": "https://x.com/claudeai/status/2102471879969956310",
+   "imageUrl": "https://pbs.twimg.com/amplify_video_thumb/2102468017695178752/img/64LM8BMjl9CJg1Ob.jpg",
+   "sha256": "e7c90dbf810b13d71ce878d13e8511f7510f1e2a6471c7f8d9ceaeae7822d7b9",
+   "visuallyReviewed": true,
+   "matchesPostSubject": true,
+   "width": 1200,
+   "height": 675,
+   "format": "JPEG"
+  },
+  {
+   "postId": "2102471889092276516",
+   "sourceUrl": "https://x.com/claudeai/status/2102471889092276516",
+   "imageUrl": "https://pbs.twimg.com/media/HS14BnTWEAAjp97.jpg?name=orig",
+   "sha256": "b903b86e535383a494b1cbbb80593aba24427dd1b98817e9323ec1c2dd423310",
+   "visuallyReviewed": true,
+   "matchesPostSubject": true,
+   "width": 2704,
+   "height": 1684,
+   "format": "JPEG"
+  }
+ ],
+ "fetchReceipts": [
+  {
+   "kind": "post-json",
+   "postId": "2103534482930491441",
+   "url": "https://api.fxtwitter.com/anabology/status/2103534482930491441",
+   "checkedAt": "2026-10-01T14:15:46.450026+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "7cea36441798a000bb389e8c9fde72bb5428febf6e35b527531c031142dc21e9",
+   "purpose": [
+    "https://x.com/anabology/status/2103534482930491441"
+   ]
+  },
+  {
+   "kind": "post-json",
+   "postId": "2102801274173587569",
+   "url": "https://api.fxtwitter.com/donaldjewkes/status/2102801274173587569",
+   "checkedAt": "2026-10-01T14:15:46.626026+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "79d562bc3e9da1d0e1c37962f56768adc17e2547bc93c7aa90bdb4f8343bfd2a",
+   "purpose": [
+    "https://x.com/anabology/status/2103534482930491441",
+    "https://x.com/donaldjewkes/status/2102801274173587569"
+   ]
+  },
+  {
+   "kind": "post-json",
+   "postId": "2104154239115419939",
+   "url": "https://api.fxtwitter.com/elonmusk/status/2104154239115419939",
+   "checkedAt": "2026-10-01T14:15:46.386026+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "3e8e907bc2a9ce0a6d7d69c1cc240fdbaac32c0c75e3000918d20c34531fbb07",
+   "purpose": [
+    "https://x.com/anabology/status/2103534482930491441"
+   ]
+  },
+  {
+   "kind": "post-json",
+   "postId": "2103534658763768070",
+   "url": "https://api.fxtwitter.com/anabology/status/2103534658763768070",
+   "checkedAt": "2026-10-01T14:15:46.602026+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "f8dd213583530e488b2b568a532e9bd3ea74093210a222abbaeeea25727e2d27",
+   "purpose": [
+    "https://x.com/anabology/status/2103534482930491441"
+   ]
+  },
+  {
+   "kind": "post-json",
+   "postId": "2104596455969144979",
+   "url": "https://api.fxtwitter.com/anabology/status/2104596455969144979",
+   "checkedAt": "2026-10-01T14:15:46.602026+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "cba638d9518073ca56581f6a18a1346723c91c561368da5ea0a5b114768c1daf",
+   "purpose": [
+    "https://x.com/anabology/status/2103534482930491441"
+   ]
+  },
+  {
+   "kind": "post-json",
+   "postId": "2104617203198775567",
+   "url": "https://api.fxtwitter.com/anabology/status/2104617203198775567",
+   "checkedAt": "2026-10-01T14:15:46.610026+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "1eeda4df134d95ea3e789e54fc10b09a245765ac61172fc1a8fd442ef1e436cf",
+   "purpose": [
+    "https://x.com/anabology/status/2103534482930491441"
+   ]
+  },
+  {
+   "kind": "post-json",
+   "postId": "2102801906573935057",
+   "url": "https://api.fxtwitter.com/donaldjewkes/status/2102801906573935057",
+   "checkedAt": "2026-10-01T14:18:06.850188+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "b4c80081b9d11c5bdb833ab4e18750cebaebbe132f9e4d7025178a6776cc8f39",
+   "purpose": [
+    "https://x.com/donaldjewkes/status/2102801274173587569"
+   ]
+  },
+  {
+   "kind": "post-json",
+   "postId": "2102995969126359301",
+   "url": "https://api.fxtwitter.com/linguinelabs/status/2102995969126359301",
+   "checkedAt": "2026-10-01T14:18:06.866188+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "b6dbadce221644d2e279f7dba33af33552c455af45b7fdd72f6ee3361cf391a6",
+   "purpose": [
+    "https://x.com/donaldjewkes/status/2102801274173587569"
+   ]
+  },
+  {
+   "kind": "post-json",
+   "postId": "2102591147927654847",
+   "url": "https://api.fxtwitter.com/RyanSael/status/2102591147927654847",
+   "checkedAt": "2026-10-01T14:15:46.750026+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "62e35cc31cf5858c18f5434437547f7098765301b543901b6453df9cd20b730f",
+   "purpose": [
+    "https://x.com/RyanSael/status/2102591147927654847"
+   ]
+  },
+  {
+   "kind": "post-json",
+   "postId": "2102650980882092543",
+   "url": "https://api.fxtwitter.com/RyanSael/status/2102650980882092543",
+   "checkedAt": "2026-10-01T14:15:46.758026+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "1b542fa0b0e4846739023ff32ebbaac05ae9151ed3937bdf9ad35d4f5faa935e",
+   "purpose": [
+    "https://x.com/RyanSael/status/2102591147927654847"
+   ]
+  },
+  {
+   "kind": "post-json",
+   "postId": "2102646805259514101",
+   "url": "https://api.fxtwitter.com/RyanSael/status/2102646805259514101",
+   "checkedAt": "2026-10-01T14:15:46.746026+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "2cbf50fa5fae26e181cdaff3c36f964fcd72af32ba7fa16168117cf4f2ca06af",
+   "purpose": [
+    "https://x.com/RyanSael/status/2102591147927654847"
+   ]
+  },
+  {
+   "kind": "post-json",
+   "postId": "2102675204879344116",
+   "url": "https://api.fxtwitter.com/RyanSael/status/2102675204879344116",
+   "checkedAt": "2026-10-01T14:15:46.754026+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "4d15dd829e225a7ab79f22410953b940f801386e5c92ec387baa3ed2fefe5bce",
+   "purpose": [
+    "https://x.com/RyanSael/status/2102591147927654847"
+   ]
+  },
+  {
+   "kind": "post-json",
+   "postId": "2102671033769791740",
+   "url": "https://api.fxtwitter.com/RyanSael/status/2102671033769791740",
+   "checkedAt": "2026-10-01T14:15:46.878026+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "b33bb98a71893a4f8cce7298d4d96a818b8150fef16380fccd43c7f3329f1417",
+   "purpose": [
+    "https://x.com/RyanSael/status/2102591147927654847"
+   ]
+  },
+  {
+   "kind": "post-json",
+   "postId": "2103024565236699371",
+   "url": "https://api.fxtwitter.com/RyanSael/status/2103024565236699371",
+   "checkedAt": "2026-10-01T14:15:46.886026+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "756005343178af98ca34abcdbe913881f0117df92d88e16e66a0a7b5b2b1b3e9",
+   "purpose": [
+    "https://x.com/RyanSael/status/2102591147927654847"
+   ]
+  },
+  {
+   "kind": "post-json",
+   "postId": "2103142717551501660",
+   "url": "https://api.fxtwitter.com/RyanSael/status/2103142717551501660",
+   "checkedAt": "2026-10-01T14:15:46.878026+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "9468152de78a4759e924b0c8dc72dc77a1bbba93580198bc35def813a73920e7",
+   "purpose": [
+    "https://x.com/RyanSael/status/2102591147927654847"
+   ]
+  },
+  {
+   "kind": "post-json",
+   "postId": "2104796861320311237",
+   "url": "https://api.fxtwitter.com/RyanSael/status/2104796861320311237",
+   "checkedAt": "2026-10-01T14:15:46.890026+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "b1478dfccec2c6be8eaa2654c21fccbce9729b79b05aacb122790ece3e245193",
+   "purpose": [
+    "https://x.com/RyanSael/status/2102591147927654847"
+   ]
+  },
+  {
+   "kind": "post-json",
+   "postId": "2102787082813145276",
+   "url": "https://api.fxtwitter.com/RyanSael/status/2102787082813145276",
+   "checkedAt": "2026-10-01T14:15:47.006026+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "68532b431fb109998cd8b9c2af6a0045920aa8c93f76e6736507a337b2929b3e",
+   "purpose": [
+    "https://x.com/RyanSael/status/2102591147927654847",
+    "https://x.com/RyanSael/status/2102591147927654847"
+   ]
+  },
+  {
+   "kind": "post-json",
+   "postId": "2102745644750544922",
+   "url": "https://api.fxtwitter.com/RyanSael/status/2102745644750544922",
+   "checkedAt": "2026-10-01T14:15:47.014026+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "8f064b33d93527c4accbcde64508203731914136c69cea68b33bed28b41c40aa",
+   "purpose": [
+    "https://x.com/RyanSael/status/2102591147927654847"
+   ]
+  },
+  {
+   "kind": "post-json",
+   "postId": "2102471866635919731",
+   "url": "https://api.fxtwitter.com/claudeai/status/2102471866635919731",
+   "checkedAt": "2026-10-01T14:18:06.858187+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "4da091884ae57cafc0ddc9a28045f10c11082ced2a899d0a1611bc8144ad3800",
+   "purpose": [
+    "https://x.com/claudeai/status/2102471866635919731"
+   ]
+  },
+  {
+   "kind": "post-json",
+   "postId": "2102471870692180179",
+   "url": "https://api.fxtwitter.com/claudeai/status/2102471870692180179",
+   "checkedAt": "2026-10-01T14:18:06.862188+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "1b9bab48b36dad33b74250aa16091b8ecf6e972d2f142bde9bb3aa90e9beddd7",
+   "purpose": [
+    "https://x.com/claudeai/status/2102471866635919731"
+   ]
+  },
+  {
+   "kind": "post-json",
+   "postId": "2102471874110533750",
+   "url": "https://api.fxtwitter.com/claudeai/status/2102471874110533750",
+   "checkedAt": "2026-10-01T14:18:06.978188+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "7c80be0614829ad9fdce19d670ce4e38a16d13a63a23d460b90de6dd5f5c23ae",
+   "purpose": [
+    "https://x.com/claudeai/status/2102471866635919731"
+   ]
+  },
+  {
+   "kind": "post-json",
+   "postId": "2102471877184627062",
+   "url": "https://api.fxtwitter.com/claudeai/status/2102471877184627062",
+   "checkedAt": "2026-10-01T14:18:06.966188+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "383ce4b217935a218d019cfd672c2b515549afce15e870e17167cfa3978486c5",
+   "purpose": [
+    "https://x.com/claudeai/status/2102471866635919731"
+   ]
+  },
+  {
+   "kind": "post-json",
+   "postId": "2102471879969956310",
+   "url": "https://api.fxtwitter.com/claudeai/status/2102471879969956310",
+   "checkedAt": "2026-10-01T14:18:06.978188+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "2cca001714501d60c4ba4634ab59666caad4737a52d3e5d77cb20d0b934a08d9",
+   "purpose": [
+    "https://x.com/claudeai/status/2102471866635919731"
+   ]
+  },
+  {
+   "kind": "post-json",
+   "postId": "2102471882381418989",
+   "url": "https://api.fxtwitter.com/claudeai/status/2102471882381418989",
+   "checkedAt": "2026-10-01T14:18:07.042188+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "7d5ef3613b980e2a5b0583f6efdc843addb48a71b4e85895aa50de540aac7e8a",
+   "purpose": [
+    "https://x.com/claudeai/status/2102471866635919731"
+   ]
+  },
+  {
+   "kind": "post-json",
+   "postId": "2102471885061812714",
+   "url": "https://api.fxtwitter.com/claudeai/status/2102471885061812714",
+   "checkedAt": "2026-10-01T14:18:07.110188+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "3326745da2b3c93d4a470856a4811220a00a010f7efc31c64af4e2e0dfece6ec",
+   "purpose": [
+    "https://x.com/claudeai/status/2102471866635919731"
+   ]
+  },
+  {
+   "kind": "post-json",
+   "postId": "2102471889092276516",
+   "url": "https://api.fxtwitter.com/claudeai/status/2102471889092276516",
+   "checkedAt": "2026-10-01T14:18:07.094188+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "d43e82b05a3d1abcafd9d112fe3cdc8757bd483b79012784a1d0819fd1e9ac05",
+   "purpose": [
+    "https://x.com/claudeai/status/2102471866635919731"
+   ]
+  },
+  {
+   "kind": "post-json",
+   "postId": "2102471892099866883",
+   "url": "https://api.fxtwitter.com/claudeai/status/2102471892099866883",
+   "checkedAt": "2026-10-01T14:18:07.090188+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "0de7ae791aed81abc20f10676a01b8a36310aa18648fbd234e98c6158102fa7e",
+   "purpose": [
+    "https://x.com/claudeai/status/2102471866635919731"
+   ]
+  },
+  {
+   "kind": "post-json",
+   "postId": "2102484469555069053",
+   "url": "https://api.fxtwitter.com/boneGPT/status/2102484469555069053",
+   "checkedAt": "2026-10-01T14:18:07.162188+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "e9325c9d0c80f72deb2745f7860e0555c79d344885fd9dd650f65284112a6cd2",
+   "purpose": [
+    "https://x.com/claudeai/status/2102471866635919731"
+   ]
+  },
+  {
+   "kind": "post-json",
+   "postId": "2103315922098470926",
+   "url": "https://api.fxtwitter.com/stephanlivera/status/2103315922098470926",
+   "checkedAt": "2026-10-01T14:15:47.006026+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "6dba98bba116335c4ffcea42b25ad03e2a0f07f60aee0873eab4a91b6dad92e4",
+   "purpose": [
+    "https://x.com/stephanlivera/status/2103315922098470926"
+   ]
+  },
+  {
+   "kind": "post-json",
+   "postId": "2103345115398111674",
+   "url": "https://api.fxtwitter.com/stephanlivera/status/2103345115398111674",
+   "checkedAt": "2026-10-01T14:15:47.022026+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "f2a0a319ae83a306bd3f76af20e4dea29fb153c79e14bbc1b80be9abe264e653",
+   "purpose": [
+    "https://x.com/stephanlivera/status/2103315922098470926"
+   ]
+  },
+  {
+   "kind": "post-json",
+   "postId": "2103405301030629561",
+   "url": "https://api.fxtwitter.com/mad0rco/status/2103405301030629561",
+   "checkedAt": "2026-10-01T14:15:47.134027+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "deea1bd5cc22903fae20f4457935bee0286118f2fe9348b878337f44b767e33e",
+   "purpose": [
+    "https://x.com/stephanlivera/status/2103315922098470926"
+   ]
+  },
+  {
+   "kind": "post-json",
+   "postId": "2100632011572727818",
+   "url": "https://api.fxtwitter.com/RyanSael/status/2100632011572727818",
+   "checkedAt": "2026-10-01T14:18:39.038224+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "819e50ae4118c5ff1b9d375d0dac887bc7ca1186c3e33a57d1aa4ffa89ed79ec",
+   "purpose": [
+    "https://x.com/RyanSael/status/2102650980882092543"
+   ]
+  },
+  {
+   "kind": "post-json",
+   "postId": "2102407948920410416",
+   "url": "https://api.fxtwitter.com/RyanSael/status/2102407948920410416",
+   "checkedAt": "2026-10-01T14:18:39.034224+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "aa1d893cc2966b9fc78065c1d25141a39fe80772bc47342ceb6b00e6b618ef5c",
+   "purpose": [
+    "https://x.com/RyanSael/status/2102671033769791740"
+   ]
+  },
+  {
+   "kind": "post-json",
+   "postId": "2102023644952383495",
+   "url": "https://api.fxtwitter.com/RyanSael/status/2102023644952383495",
+   "checkedAt": "2026-10-01T14:18:39.054224+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "973faadce98504285f566934ae1755735380952509c5a6a0665602b0ad0ee2d0",
+   "purpose": [
+    "https://x.com/RyanSael/status/2102671033769791740"
+   ]
+  },
+  {
+   "kind": "post-json",
+   "postId": "2103021886045348073",
+   "url": "https://api.fxtwitter.com/RyanSael/status/2103021886045348073",
+   "checkedAt": "2026-10-01T14:18:39.098223+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "1ca523598e99f1688cf30a5321d7228cea6233df0c4219b4733a7864c5fff907",
+   "purpose": [
+    "https://x.com/RyanSael/status/2103024565236699371"
+   ]
+  },
+  {
+   "kind": "post-json",
+   "postId": "2103141938065281327",
+   "url": "https://api.fxtwitter.com/RyanSael/status/2103141938065281327",
+   "checkedAt": "2026-10-01T14:18:39.182224+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "167cf7e806e904e898561f31c73d11031b9adf9e419678a5f3ac0b44b4b89d62",
+   "purpose": [
+    "https://x.com/RyanSael/status/2103142717551501660"
+   ]
+  },
+  {
+   "kind": "post-json",
+   "postId": "2102740041621762166",
+   "url": "https://api.fxtwitter.com/RyanSael/status/2102740041621762166",
+   "checkedAt": "2026-10-01T14:18:39.166224+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "848b2a73feb89fca08f418b81fa75eda02225b7ab23db4a6340151c707b9ba7b",
+   "purpose": [
+    "https://x.com/RyanSael/status/2102745644750544922"
+   ]
+  },
+  {
+   "kind": "post-json",
+   "postId": "2102801469976248500",
+   "url": "https://api.fxtwitter.com/donaldjewkes/status/2102801469976248500",
+   "checkedAt": "2026-10-01T14:18:39.238224+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "463006b0a649a91e6b56df478922cc013ef319b32ef389b9211066f20d48622a",
+   "purpose": [
+    "parent-chain"
+   ]
+  },
+  {
+   "kind": "post-json",
+   "postId": "2102870353781641416",
+   "url": "https://api.fxtwitter.com/trq212/status/2102870353781641416",
+   "checkedAt": "2026-10-01T14:18:39.254224+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "7c74701b675c1d459e4868be6b9c506469032aa012ab574999b1291fd349e29a",
+   "purpose": [
+    "targeted-search"
+   ]
+  },
+  {
+   "kind": "post-json",
+   "postId": "2102898978849448301",
+   "url": "https://api.fxtwitter.com/NickADobos/status/2102898978849448301",
+   "checkedAt": "2026-10-01T14:18:39.422224+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "ed2f5653b7b9b35c6880b6f7121d081f5284565d8203e277b103799dfa6b4f0f",
+   "purpose": [
+    "targeted-search"
+   ]
+  },
+  {
+   "kind": "post-json",
+   "postId": "2102482498404204734",
+   "url": "https://api.fxtwitter.com/TylerNishida/status/2102482498404204734",
+   "checkedAt": "2026-10-01T14:20:50.210367+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "e3325f9c3c37912f742c4fab5b4651d0f0c782d2ef8917c0d8eef89352267424",
+   "purpose": [
+    "semantic-dedup-review"
+   ]
+  },
+  {
+   "kind": "post-json",
+   "postId": "2102510028204965967",
+   "url": "https://api.fxtwitter.com/thedesignely/status/2102510028204965967",
+   "checkedAt": "2026-10-01T14:20:50.194367+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "ced2c0b46de06eb172dfe1e5379a3a11dbee4ca973b048c597d50dcee84ae7bf",
+   "purpose": [
+    "semantic-dedup-review"
+   ]
+  },
+  {
+   "kind": "post-json",
+   "postId": "2102484877941911734",
+   "url": "https://api.fxtwitter.com/boneGPT/status/2102484877941911734",
+   "checkedAt": "2026-10-01T14:20:50.762367+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "26a20f698d9731004f134ab820fbe6c42683d27d9523754ef87ad7a148dbea5a",
+   "purpose": [
+    "semantic-dedup-review"
+   ]
+  },
+  {
+   "kind": "post-json",
+   "postId": "2102486820810285201",
+   "url": "https://api.fxtwitter.com/Parsats_eth/status/2102486820810285201",
+   "checkedAt": "2026-10-01T14:21:35.518415+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "a325510f5b12969580985f1fe84aad6a669c63a3f5a13b7e250b746a4290dfb1",
+   "purpose": [
+    "semantic-dedup-review"
+   ]
+  },
+  {
+   "kind": "post-json",
+   "postId": "2102464008112755026",
+   "url": "https://api.fxtwitter.com/brainextends/status/2102464008112755026",
+   "checkedAt": "2026-10-01T14:21:35.514415+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "4005c38540f26c78ba3c0f34c4cd0e4b3d3b44b74e952792f092d592bb4c0e59",
+   "purpose": [
+    "semantic-dedup-review"
+   ]
+  },
+  {
+   "kind": "page-extraction",
+   "cacheFile": "seed-firecrawl-0.json",
+   "sourceUrl": "https://x.com/stephanlivera/status/2103315922098470926",
+   "status": 200,
+   "success": true,
+   "scrapeId": "01a0f7d1-b5dd-7310-a0e5-f4d1c10d6a7c",
+   "searchId": null,
+   "sha256": "2652025eccf9e352f9fbc50fee5ad2c8fd3f4afdcc5e718ed0824f33ccd2a218"
+  },
+  {
+   "kind": "page-extraction",
+   "cacheFile": "seed-firecrawl-1.json",
+   "sourceUrl": "https://x.com/RyanSael/status/2102591147927654847",
+   "status": 200,
+   "success": true,
+   "scrapeId": "01a0f7d1-6a17-7276-a6b0-89ff1e324fe1",
+   "searchId": null,
+   "sha256": "9f921dc69416302ebaea4472efb208e698ebbf7103a5d6b3a4d0a7f40cb75759"
+  },
+  {
+   "kind": "page-extraction",
+   "cacheFile": "seed-firecrawl-2.json",
+   "sourceUrl": "https://x.com/anabology/status/2103534482930491441",
+   "status": 200,
+   "success": true,
+   "scrapeId": "01a0f7d1-8e8d-72fd-b48a-5ee9a33e2315",
+   "searchId": null,
+   "sha256": "e7a643de103cd17363aed8160cdf78d29aed6fb64e85b08ce89e997ee769e879"
+  },
+  {
+   "kind": "page-extraction",
+   "cacheFile": "seed-firecrawl-3.json",
+   "sourceUrl": "https://x.com/donaldjewkes/status/2102801274173587569",
+   "status": 200,
+   "success": true,
+   "scrapeId": "01a0f7d2-a87e-70bd-b3b7-2bad5f9aa948",
+   "searchId": null,
+   "sha256": "2b3675cf8677c12ce8ae3eae7081cbf7af628a1fbd52b09bfea9ad0302ae54cb"
+  },
+  {
+   "kind": "page-extraction",
+   "cacheFile": "seed-firecrawl-4.json",
+   "sourceUrl": "https://x.com/claudeai/status/2102471866635919731",
+   "status": 200,
+   "success": true,
+   "scrapeId": "01a0f7d2-eb01-710c-85c2-3fa748d3fb1f",
+   "searchId": null,
+   "sha256": "d4ae4ed595248af1b7a6d58676e2e52fc80b8bce4ad0fed699c43c1469f58725"
+  },
+  {
+   "kind": "page-extraction",
+   "cacheFile": "followup-ryan.json",
+   "sourceUrl": "https://x.com/RyanSael/status/2103141938065281327",
+   "status": 200,
+   "success": true,
+   "scrapeId": "01a0f7d5-4476-76cc-8a16-dbf70e1cd1a2",
+   "searchId": null,
+   "sha256": "6d4b72c0832e7438938ee4611fd0b04098dabd9c59ab1b70cf8d96f23c292b4b"
+  },
+  {
+   "kind": "search",
+   "cacheFile": "search-2.json",
+   "sourceUrl": null,
+   "status": null,
+   "success": true,
+   "scrapeId": null,
+   "searchId": "01a0f7d4-69f6-75ae-8467-c670050420c9",
+   "sha256": "edafb9103d5388a6e10eb455b06d28dd88415f476978e74d7f32809a61e44418"
+  },
+  {
+   "kind": "search",
+   "cacheFile": "search-0.json",
+   "sourceUrl": null,
+   "status": null,
+   "success": true,
+   "scrapeId": null,
+   "searchId": "01a0f7d2-4969-7158-8cc7-749ce79aa140",
+   "sha256": "21aa0b1be1a8dc1cb8a705367e68ec78347d3d2fbb6e13f6953d6943ebfe2d31"
+  },
+  {
+   "kind": "search",
+   "cacheFile": "search-1.json",
+   "sourceUrl": null,
+   "status": null,
+   "success": true,
+   "scrapeId": null,
+   "searchId": "01a0f7d4-68fa-723c-860a-289ca00a0f91",
+   "sha256": "8080a576d910235edf3ece6a43c52d081b8c36c866db3c4a5085c2bc24be3e27"
+  },
+  {
+   "kind": "search",
+   "cacheFile": "search-5.json",
+   "sourceUrl": null,
+   "status": null,
+   "success": true,
+   "scrapeId": null,
+   "searchId": "01a0f7d4-6aa6-7538-97c8-6030d5544a05",
+   "sha256": "4d3593d69395fc6935afeca4537046952bbaf7fcbc1a9d51d798af09e41e1c76"
+  },
+  {
+   "kind": "search",
+   "cacheFile": "search-4.json",
+   "sourceUrl": null,
+   "status": null,
+   "success": true,
+   "scrapeId": null,
+   "searchId": "01a0f7d4-6c53-77bd-a0f2-c7100e47fd67",
+   "sha256": "90eda0e71135a00d87b506e4eafe9e2a2300331012d76d1766ff40995e2b35d5"
+  },
+  {
+   "kind": "search",
+   "cacheFile": "search-3.json",
+   "sourceUrl": null,
+   "status": null,
+   "success": true,
+   "scrapeId": null,
+   "searchId": "01a0f7d4-6b9b-7688-b6bc-f0acc49adb1c",
+   "sha256": "3255a3920dd632796eb2af9aaefb4548ff2743ed5030ed9c3bd948f81ab6e6c9"
+  }
+ ],
+ "artifacts": {
+  "beforeCount": 5270,
+  "afterCount": 5272,
+  "reviewedExtras": "data/extra_lists.json",
+  "existingResourceOverlay": "data/reply_enrichments.json",
+  "processLog": "UPDATE-2026-10-01-x-reply-pilot.md"
+ },
+ "rawBodiesPublished": false
+}

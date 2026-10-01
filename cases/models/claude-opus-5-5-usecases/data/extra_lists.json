@@ -13279,5 +13279,63 @@
   "evidenceBasis": "User-supplied historical source; original post explicitly names Opus 5.5. Main post, thread, metrics and attachment metadata retrieved; not watched or independently reproduced.",
   "mediaKind": "video",
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2104247373291458560/img/NtW_GG0UlTPAKcq5.jpg"
+ },
+ {
+  "platform": "X",
+  "category": "web",
+  "evidenceType": "演示",
+  "title": "官方案例：随机组合界面组件",
+  "title_en": "Official showcase: randomly combining interface components",
+  "summary": "Claude 官方在 Opus 5.5 早期探索串帖中展示 Tyler Nishida 的界面组合器：随机组合 UI 元素，形成新应用的设计起点。原帖附演示；未独立运行或核验可导出性。",
+  "summary_en": "Claude’s Opus 5.5 early-explorations thread showcases Tyler Nishida’s interface slot machine, which combines random UI elements into a starting point for a new app. The post includes a demo; execution and export capabilities were not independently tested.",
+  "author": "@claudeai",
+  "sourceUrl": "https://x.com/claudeai/status/2102471879969956310",
+  "date": "2026-09-22",
+  "likes": 361,
+  "bookmarks": 119,
+  "views": 38241,
+  "mediaKind": "video",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2102468017695178752/img/64LM8BMjl9CJg1Ob.jpg",
+  "checkedAt": "2026-10-01T14:22:48+00:00",
+  "metricsCheckedAt": "2026-10-01T14:22:48+00:00",
+  "discoveredVia": "https://x.com/claudeai/status/2102471866635919731 (bounded popular-reply pilot; same-author thread continuation)",
+  "evidenceUrl": "https://x.com/claudeai/status/2102471879969956310",
+  "evidenceBasis": "Exact original post ID, text, reply chain, author and attachment verified through FxTwitter; same official author explicitly introduces the chain as Opus 5.5 early explorations. Generic page extraction shifted thread text by one post and was not used as authoritative attribution. This is an official self-thread showcase, not a newly discovered third-party community reply.",
+  "resources": [
+   {
+    "label": "Opus 5.5 官方案例串",
+    "label_en": "Official Opus 5.5 showcase thread",
+    "url": "https://x.com/claudeai/status/2102471866635919731"
+   }
+  ]
+ },
+ {
+  "platform": "X",
+  "category": "graphics",
+  "evidenceType": "演示",
+  "title": "官方案例：随机种子驱动的算法绘画",
+  "title_en": "Official showcase: seed-driven algorithmic drawings",
+  "summary": "Claude 官方在 Opus 5.5 早期探索串帖中展示 Kevin Ngo 的算法绘画程序，每幅画由不同种子生成，并附多幅海景线稿。属于官方作品展示，原帖未附完整代码，亦未独立复现。",
+  "summary_en": "Claude’s Opus 5.5 early-explorations thread showcases Kevin Ngo’s algorithmic drawing program, with each drawing based on a different seed and an attached collection of seascape sketches. This is an official showcase; the post does not include full code, and results have not been independently reproduced.",
+  "author": "@claudeai",
+  "sourceUrl": "https://x.com/claudeai/status/2102471889092276516",
+  "date": "2026-09-22",
+  "likes": 378,
+  "bookmarks": 128,
+  "views": 73313,
+  "mediaKind": "image",
+  "poster": "https://pbs.twimg.com/media/HS14BnTWEAAjp97.jpg?name=orig",
+  "checkedAt": "2026-10-01T14:22:48+00:00",
+  "metricsCheckedAt": "2026-10-01T14:22:48+00:00",
+  "discoveredVia": "https://x.com/claudeai/status/2102471866635919731 (bounded popular-reply pilot; same-author thread continuation)",
+  "evidenceUrl": "https://x.com/claudeai/status/2102471889092276516",
+  "evidenceBasis": "Exact original post ID, text, reply chain, author and attachment verified through FxTwitter; same official author explicitly introduces the chain as Opus 5.5 early explorations. Generic page extraction shifted thread text by one post and was not used as authoritative attribution. This is an official self-thread showcase, not a newly discovered third-party community reply.",
+  "resources": [
+   {
+    "label": "Opus 5.5 官方案例串",
+    "label_en": "Official Opus 5.5 showcase thread",
+    "url": "https://x.com/claudeai/status/2102471866635919731"
+   }
+  ]
  }
 ]

@@ -1,286 +1,97 @@
 {
- "refreshedAt": "2026-10-01T13:51:38+00:00",
+ "refreshedAt": "2026-10-01T14:22:48+00:00",
  "scope": {
-  "key": "multi-source-2026-10-01-evening-partial",
-  "zh": "多源更新及历史漏收补录（部分接口受限）",
-  "en": "Multi-source update and historical backfill (some endpoints limited)"
+  "key": "x-reply-pilot-2026-10-01",
+  "zh": "X 热门回帖小范围验证（评论区覆盖有限）",
+  "en": "Small popular-X-reply pilot (limited reply coverage)"
  },
  "status": "partial-coverage",
  "lastFullRefreshAt": "2026-09-30T07:38:18+00:00",
- "previousReport": "data/refresh_history/2026-10-01-before-evening.json",
+ "lastMultiSourceRefreshAt": "2026-10-01T13:51:38+00:00",
+ "previousReport": "data/refresh_history/2026-10-01-before-x-reply-pilot.json",
  "previousFullRefreshReport": "data/refresh_history/2026-09-30-multisource.json",
- "window": {
-  "since": "2026-09-30",
-  "note": "Overlapping recent search window; unseen older repository/list links and two user-supplied historical X posts were also reviewed. YouTube dates are estimated from upload text; two research pages without verified dates keep null."
- },
- "previousCaseCount": 5181,
- "caseCount": 5270,
- "base": {
-  "previous": 2717,
-  "current": 2717,
-  "scope": "Bilingual base fetched again; normalized case content unchanged"
- },
- "reviewedNewExtras": 89,
+ "previousCaseCount": 5270,
+ "caseCount": 5272,
+ "reviewedNewExtras": 2,
  "reviewedNewExtrasByPlatform": {
-  "Hacker News": 4,
-  "Reddit": 3,
-  "GitHub": 18,
-  "Qiita": 3,
-  "YouTube": 4,
-  "Bilibili": 40,
-  "X": 14,
-  "note": 1,
-  "Web": 2
+  "X": 2
  },
+ "existingCasesEnriched": 5,
+ "resourceLinksAdded": 7,
  "metricsUpdated": {
-  "xPrimaryPosts": 3552,
-  "attempted": 3568,
-  "notRefreshed": 16,
-  "notRefreshedIds": [
-   "2102527003845075348",
-   "2102877370332127732",
-   "2102900455068381289",
-   "2103058727918293099",
-   "2103092802444042441",
-   "2103121606570807790",
-   "2103185144291172860",
-   "2103325360398143681",
-   "2103349129472790649",
-   "2103394286532280787",
-   "2103399841871306963",
-   "2103489794143613142",
-   "2103590461210583530",
-   "2103753663269507374",
-   "2103169675928764486",
-   "2103869704955900023"
-  ],
-  "file": "data/metric_refreshes.json",
-  "recoveredOnRetry": 4,
-  "githubStars": {
-   "attempted": 306,
-   "succeeded": 303,
-   "changed": 54,
-   "notRefreshed": [
-    {
-     "repo": "bigbadbillion/game",
-     "status": 404
-    },
-    {
-     "repo": "siwo55/dragon-sail-opus",
-     "status": 404
-    },
-    {
-     "repo": "yhyang201/oni-web",
-     "status": 404
-    }
-   ],
-   "basis": "Authenticated gh repository GET endpoints; changed compares with preceding snapshot"
-  },
-  "bilibili": {
-   "videosChecked": 74,
-   "changed": 42,
-   "note": "Includes both already-listed and newly imported videos; changes compare with stored importer rows."
-  }
+  "existingCases": 0,
+  "newCaseMetrics": 2,
+  "note": "Seed/reply engagement collected for pilot selection; existing stored metrics were preserved."
  },
  "coverage": {
-  "configuredSources": {
-   "attempted": 46,
-   "fetched": 43,
-   "newHistoricalSeeds": 2
-  },
-  "x": {
-   "newLinksFromListsAndSearch": 117,
-   "originalPostsRetrieved": 117,
-   "modelMentionCandidatesIncludingQuotes": 35,
-   "keptFromListsAndSearch": 12,
-   "userSuppliedHistoricalCases": 2,
-   "keptTotal": 14,
-   "note": "Initial supplementary proxy errors recovered after correcting request headers. Original bodies and attachments read; model attribution checked separately."
-  },
-  "reddit": {
-   "subreddits": {
-    "ClaudeAI": {
-     "scanned": 200,
-     "complete": false
-    },
-    "ClaudeCode": {
-     "scanned": 0,
-     "complete": false
-    },
-    "claude": {
-     "scanned": 0,
-     "complete": false
-    },
-    "singularity": {
-     "scanned": 0,
-     "complete": false
-    },
-    "LocalLLaMA": {
-     "scanned": 0,
-     "complete": false
-    },
-    "ChatGPTCoding": {
-     "scanned": 0,
-     "complete": false
-    }
-   },
-   "uniquePostsFetched": 199,
-   "candidates": 24,
-   "kept": 3,
-   "complete": false
-  },
-  "hn": {
-   "uniqueSearchHits": 323,
-   "newCandidates": 66,
-   "kept": 4
-  },
-  "github": {
-   "newRepositoryCandidates": 62,
-   "newIssueOrPRCandidates": 952,
-   "keptRepositories": 15,
-   "keptPRs": 3,
-   "authenticated": true
-  },
-  "bilibili": {
-   "searches": {
-    "opus 5.5": {
-     "pages": 3,
-     "complete": false
-    },
-    "opus5.5": {
-     "pages": 1,
-     "complete": false
-    },
-    "Claude Opus 5.5": {
-     "pages": 3,
-     "complete": false
-    }
-   },
-   "recentRows": 161,
-   "newCandidates": 127,
-   "kept": 40,
-   "complete": false
-  },
-  "youtube": {
-   "uniqueSearchResults": 94,
-   "newCandidates": 53,
-   "kept": 4,
-   "evidence": "Title, description and public search/page metadata; videos not watched"
-  },
-  "qiita": {
-   "newCandidates": 27,
-   "kept": 3
-  },
-  "webAndNote": {
-   "keptWeb": 2,
-   "keptNote": 1,
-   "note": "Search discovery followed by original page reads; note tag endpoints returned 404."
-  }
+  "seedPosts": 5,
+  "primaryReplyCandidates": 27,
+  "initialVisibleReplies": 26,
+  "parentBridgeReplies": 1,
+  "hotReplies": 25,
+  "newThirdPartyHotReplyCases": 0,
+  "newOfficialSelfThreadCases": 2,
+  "complete": false
  },
  "limitations": [
-  "Reddit configured endpoints and supplemental pagination returned HTTP 429; six-subreddit window is incomplete.",
-  "Bilibili supplemental search pagination returned HTTP 412; collected pages are partial.",
-  "Nine note hashtag requests returned HTTP 404; one case was found by search and verified on its original page.",
-  "16 existing X posts and three GitHub repositories returned HTTP 404; previous metrics were retained. Four transient X network failures recovered on retry.",
-  "Discovery is bounded by configured sources, search indexing and available pagination; absence from the atlas does not imply editorial rejection.",
-  "Case claims are attributed to their authors; code, models, videos and benchmark results were not independently reproduced.",
-  "Yucheng is a related-workflow entry: its model version is unspecified even though the quoted ancestry reaches an explicit Opus 5.5 case.",
-  "Two new research pages have no verified publication date; their date fields are null."
+  "This is a small purposive sample, not a new internet-wide refresh.",
+  "Logged-out X showed only two replies for the browser-tested seed and did not expose full reply pagination.",
+  "Firecrawl thread extraction contained author/text/URL mismatches; exact post IDs and reply chains were checked with FxTwitter before decisions.",
+  "A 100-like or 10,000-view threshold ranks exposed candidates only; it does not establish the global top replies.",
+  "Both new cases are official same-author thread continuations; this sample has not demonstrated yield from popular third-party community replies.",
+  "Videos and code were not independently reproduced; two original poster images were visually checked."
  ],
- "fetches": {
-  "configured": {
-   "attempted": 46,
-   "ok": 43
-  },
-  "supplementAttempts": {
-   "attempted": 593,
-   "ok": 222
-  }
- },
- "fetchReceiptFile": "data/refresh_history/2026-10-01-evening-fetches.json",
- "reviewDecisionFile": "data/refresh_history/2026-10-01-evening-review.json",
- "sourceGapReport": "data/refresh_history/2026-10-01-evening-source-gaps.json",
+ "fetchReceiptFile": "data/refresh_history/2026-10-01-x-reply-pilot.json",
+ "reviewDecisionFile": "data/refresh_history/2026-10-01-x-reply-pilot.json",
+ "processLog": "UPDATE-2026-10-01-x-reply-pilot.md",
  "posters": {
-  "total": 4354,
+  "total": 4356,
   "missing": 916,
-  "newCasesWithPosters": 60,
+  "newCasesWithPosters": 2,
   "previous533ReviewedOverlaysPreserved": true,
   "previousReviewReport": "data/refresh_history/2026-10-01-poster-review.json"
  },
  "validation": {
   "status": "passed",
-  "cases": 5270,
-  "newCases": 89,
+  "cases": 5272,
+  "newCases": 2,
+  "enrichedExistingCases": 5,
+  "newResourceLinks": 7,
+  "existingNonresourceFieldsUnchanged": true,
+  "existingMetricsAndPostersPreserved": true,
   "duplicateIds": 0,
   "duplicateSourceIdentities": 0,
-  "missingRequiredFields": 0,
-  "invalidMetrics": 0,
-  "existingNonmetricRecordsUnchanged": true,
-  "existingPostersAndProvenancePreserved": true,
-  "existingRowsWithMetricChanges": 3897,
-  "changedMetricFields": {
-   "likes": 581,
-   "bookmarks": 484,
-   "views": 3275,
-   "metricsCheckedAt": 3897,
-   "stars": 62
-  },
   "csvJsonHtmlConsistent": true,
+  "auditReplyCandidates": 27,
+  "auditHotReplies": 25,
   "regressionTests": 27,
-  "missingDates": 46,
-  "newMissingDates": [
-   "web-379",
-   "web-380"
-  ],
-  "newCasesByPlatform": {
-   "GitHub": 18,
-   "Hacker News": 4,
-   "Qiita": 3,
-   "note": 1,
-   "Web": 2,
-   "X": 14,
-   "Reddit": 3,
-   "YouTube": 4,
-   "Bilibili": 40
-  },
   "offlineRebuildStable": true,
   "gitDiffCheck": "passed",
   "browser": {
    "status": "passed",
-   "desktop": true,
-   "mobile": true,
-   "images": [
+   "newCaseImages": [
     {
-     "id": "lists-665",
+     "id": "lists-667",
      "imageLoaded": true,
-     "width": 680
+     "resourceLink": true
     },
     {
-     "id": "lists-666",
+     "id": "lists-668",
      "imageLoaded": true,
-     "width": 680
-    },
-    {
-     "id": "video-552",
-     "imageLoaded": true,
-     "width": 640
-    },
-    {
-     "id": "github-009",
-     "imageLoaded": true,
-     "width": 1280
-    },
-    {
-     "id": "web-113",
-     "imageLoaded": true,
-     "width": 1920
+     "resourceLink": true
     }
    ],
-   "modelAttributionVisible": true,
-   "resourceLinksPresent": true,
+   "existingResourceLinksChecked": [
+    "uc-0212",
+    "gosail-001"
+   ],
+   "desktop": true,
+   "mobile": true,
    "englishAndCombinedFilters": true,
    "mobileOverflow": false,
    "pageErrors": []
-  }
+  },
+  "goSailGeneratedOverlayUnchanged": true,
+  "replyResourcesInSeparateDurableOverlay": true
  }
 }
