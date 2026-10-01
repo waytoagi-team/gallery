@@ -70,7 +70,7 @@
   },
   "asOf": "2026-10-01",
   "duplicatesSkipped": 37,
-  "refreshedAt": "2026-10-01T03:38:48+00:00",
+  "refreshedAt": "2026-10-01T03:58:07+00:00",
   "refreshScope": {
    "key": "multi-source-2026-10-01-partial",
    "zh": "多源更新（9 月 30 日以来；部分接口受限）",
@@ -72075,10 +72075,11 @@
    "date": "2026-09-22",
    "likes": null,
    "bookmarks": null,
-   "stars": 1535,
+   "stars": 1600,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:28+00:00"
   },
   {
    "id": "github-002",
@@ -72096,10 +72097,11 @@
    "date": "2026-09-23",
    "likes": null,
    "bookmarks": null,
-   "stars": 596,
+   "stars": 643,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:28+00:00"
   },
   {
    "id": "github-003",
@@ -72117,10 +72119,11 @@
    "date": "2026-09-23",
    "likes": null,
    "bookmarks": null,
-   "stars": 931,
+   "stars": 948,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:46+00:00"
   },
   {
    "id": "github-004",
@@ -72138,10 +72141,11 @@
    "date": "2026-09-23",
    "likes": null,
    "bookmarks": null,
-   "stars": 981,
+   "stars": 1015,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:17+00:00"
   },
   {
    "id": "github-005",
@@ -72159,10 +72163,11 @@
    "date": "2026-09-24",
    "likes": null,
    "bookmarks": null,
-   "stars": 221,
+   "stars": 234,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:17+00:00"
   },
   {
    "id": "github-006",
@@ -72180,10 +72185,11 @@
    "date": "2026-09-22",
    "likes": null,
    "bookmarks": null,
-   "stars": 78,
+   "stars": 80,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:37+00:00"
   },
   {
    "id": "github-007",
@@ -72201,10 +72207,11 @@
    "date": "2026-09-22",
    "likes": null,
    "bookmarks": null,
-   "stars": 44,
+   "stars": 45,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:42+00:00"
   },
   {
    "id": "github-008",
@@ -72225,7 +72232,8 @@
    "stars": 58,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:32+00:00"
   },
   {
    "id": "github-009",
@@ -72243,10 +72251,11 @@
    "date": "2026-09-22",
    "likes": null,
    "bookmarks": null,
-   "stars": 19,
+   "stars": 20,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:11+00:00"
   },
   {
    "id": "github-010",
@@ -72267,7 +72276,8 @@
    "stars": 3,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:10+00:00"
   },
   {
    "id": "github-011",
@@ -72289,7 +72299,7 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+   "metricsCheckedAt": "2026-10-01T03:57:56+00:00"
   },
   {
    "id": "github-012",
@@ -72311,7 +72321,7 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+   "metricsCheckedAt": "2026-10-01T03:57:03+00:00"
   },
   {
    "id": "github-013",
@@ -72332,7 +72342,8 @@
    "stars": 19,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:31+00:00"
   },
   {
    "id": "github-014",
@@ -72350,11 +72361,11 @@
    "date": "2026-09-25",
    "likes": null,
    "bookmarks": null,
-   "stars": 375,
+   "stars": 379,
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+   "metricsCheckedAt": "2026-10-01T03:57:06+00:00"
   },
   {
    "id": "github-015",
@@ -72376,7 +72387,7 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+   "metricsCheckedAt": "2026-10-01T03:57:57+00:00"
   },
   {
    "id": "github-016",
@@ -72394,10 +72405,11 @@
    "date": "2026-09-24",
    "likes": null,
    "bookmarks": null,
-   "stars": 4,
+   "stars": 5,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:43+00:00"
   },
   {
    "id": "github-017",
@@ -72418,7 +72430,8 @@
    "stars": 12,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:49+00:00"
   },
   {
    "id": "github-018",
@@ -72439,7 +72452,8 @@
    "stars": 7,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:06+00:00"
   },
   {
    "id": "github-019",
@@ -72460,7 +72474,8 @@
    "stars": 5,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:58:04+00:00"
   },
   {
    "id": "github-020",
@@ -72478,10 +72493,11 @@
    "date": "2026-09-24",
    "likes": null,
    "bookmarks": null,
-   "stars": 2,
+   "stars": 3,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:51+00:00"
   },
   {
    "id": "github-021",
@@ -72502,7 +72518,8 @@
    "stars": 1,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:07+00:00"
   },
   {
    "id": "github-022",
@@ -72524,7 +72541,7 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+   "metricsCheckedAt": "2026-10-01T03:57:03+00:00"
   },
   {
    "id": "github-023",
@@ -72545,7 +72562,8 @@
    "stars": 3,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:54+00:00"
   },
   {
    "id": "github-024",
@@ -72566,7 +72584,8 @@
    "stars": 1,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:41+00:00"
   },
   {
    "id": "github-025",
@@ -72587,7 +72606,8 @@
    "stars": 2,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:47+00:00"
   },
   {
    "id": "github-026",
@@ -72609,7 +72629,7 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+   "metricsCheckedAt": "2026-10-01T03:57:44+00:00"
   },
   {
    "id": "github-027",
@@ -72630,7 +72650,8 @@
    "stars": 1,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:10+00:00"
   },
   {
    "id": "github-028",
@@ -72651,7 +72672,8 @@
    "stars": 4,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:22+00:00"
   },
   {
    "id": "github-029",
@@ -72672,7 +72694,8 @@
    "stars": 15,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:31+00:00"
   },
   {
    "id": "github-030",
@@ -72694,7 +72717,7 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+   "metricsCheckedAt": "2026-10-01T03:57:24+00:00"
   },
   {
    "id": "github-031",
@@ -72715,7 +72738,8 @@
    "stars": 4,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:38+00:00"
   },
   {
    "id": "github-032",
@@ -72733,10 +72757,11 @@
    "date": "2026-09-23",
    "likes": null,
    "bookmarks": null,
-   "stars": 20,
+   "stars": 22,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:07+00:00"
   },
   {
    "id": "github-033",
@@ -72757,7 +72782,8 @@
    "stars": 2,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:51+00:00"
   },
   {
    "id": "github-034",
@@ -72778,7 +72804,8 @@
    "stars": 0,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:50+00:00"
   },
   {
    "id": "github-035",
@@ -72799,7 +72826,8 @@
    "stars": 0,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:18+00:00"
   },
   {
    "id": "github-036",
@@ -72820,7 +72848,8 @@
    "stars": 1,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:24+00:00"
   },
   {
    "id": "github-037",
@@ -72841,7 +72870,8 @@
    "stars": 3,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:29+00:00"
   },
   {
    "id": "github-038",
@@ -72862,7 +72892,8 @@
    "stars": 0,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:27+00:00"
   },
   {
    "id": "github-039",
@@ -72883,7 +72914,8 @@
    "stars": 27,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:04+00:00"
   },
   {
    "id": "github-040",
@@ -72904,7 +72936,8 @@
    "stars": 0,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:10+00:00"
   },
   {
    "id": "github-041",
@@ -72922,10 +72955,11 @@
    "date": "2026-09-22",
    "likes": null,
    "bookmarks": null,
-   "stars": null,
+   "stars": 148746,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:04+00:00"
   },
   {
    "id": "github-042",
@@ -72943,10 +72977,11 @@
    "date": "2026-09-22",
    "likes": null,
    "bookmarks": null,
-   "stars": null,
+   "stars": 148746,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:04+00:00"
   },
   {
    "id": "github-043",
@@ -72964,10 +72999,11 @@
    "date": "2026-09-23",
    "likes": null,
    "bookmarks": null,
-   "stars": null,
+   "stars": 148746,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:04+00:00"
   },
   {
    "id": "github-044",
@@ -72985,10 +73021,11 @@
    "date": "2026-09-22",
    "likes": null,
    "bookmarks": null,
-   "stars": null,
+   "stars": 33892,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:12+00:00"
   },
   {
    "id": "github-045",
@@ -73006,10 +73043,11 @@
    "date": "2026-09-22",
    "likes": null,
    "bookmarks": null,
-   "stars": 20279,
+   "stars": 20300,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:45+00:00"
   },
   {
    "id": "github-046",
@@ -73027,10 +73065,11 @@
    "date": "2026-09-22",
    "likes": null,
    "bookmarks": null,
-   "stars": 13194,
+   "stars": 13209,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:55+00:00"
   },
   {
    "id": "github-047",
@@ -73048,10 +73087,11 @@
    "date": null,
    "likes": null,
    "bookmarks": null,
-   "stars": 27047,
+   "stars": 27061,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:58:00+00:00"
   },
   {
    "id": "github-048",
@@ -73069,10 +73109,11 @@
    "date": null,
    "likes": null,
    "bookmarks": null,
-   "stars": 859,
+   "stars": 858,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:58:01+00:00"
   },
   {
    "id": "github-049",
@@ -73090,10 +73131,11 @@
    "date": "2026-09-24",
    "likes": null,
    "bookmarks": null,
-   "stars": 9841,
+   "stars": 9853,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:14+00:00"
   },
   {
    "id": "github-050",
@@ -73114,7 +73156,8 @@
    "stars": 87,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:56+00:00"
   },
   {
    "id": "github-051",
@@ -73135,7 +73178,8 @@
    "stars": 4,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:19+00:00"
   },
   {
    "id": "github-052",
@@ -73156,7 +73200,8 @@
    "stars": 0,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:58:02+00:00"
   },
   {
    "id": "github-053",
@@ -73177,7 +73222,8 @@
    "stars": 0,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:30+00:00"
   },
   {
    "id": "github-054",
@@ -73195,10 +73241,11 @@
    "date": "2026-09-22",
    "likes": null,
    "bookmarks": null,
-   "stars": null,
+   "stars": 1780,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:16+00:00"
   },
   {
    "id": "github-055",
@@ -73237,10 +73284,11 @@
    "date": "2026-09-23",
    "likes": null,
    "bookmarks": null,
-   "stars": null,
+   "stars": 71809,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:17+00:00"
   },
   {
    "id": "github-057",
@@ -73261,7 +73309,8 @@
    "stars": 490,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:06+00:00"
   },
   {
    "id": "github-058",
@@ -73279,10 +73328,11 @@
    "date": "2026-09-22",
    "likes": null,
    "bookmarks": null,
-   "stars": 476,
+   "stars": 860,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:41+00:00"
   },
   {
    "id": "github-059",
@@ -73300,10 +73350,11 @@
    "date": null,
    "likes": null,
    "bookmarks": null,
-   "stars": 79,
+   "stars": 78,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:47+00:00"
   },
   {
    "id": "github-060",
@@ -73321,11 +73372,11 @@
    "date": "2026-09-25",
    "likes": null,
    "bookmarks": null,
-   "stars": 164,
+   "stars": 167,
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-09-27T07:56:26+00:00"
+   "metricsCheckedAt": "2026-10-01T03:57:43+00:00"
   },
   {
    "id": "github-061",
@@ -73347,7 +73398,7 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+   "metricsCheckedAt": "2026-10-01T03:57:15+00:00"
   },
   {
    "id": "github-062",
@@ -73368,7 +73419,8 @@
    "stars": 0,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:58:05+00:00"
   },
   {
    "id": "github-063",
@@ -73389,7 +73441,8 @@
    "stars": 15,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:05+00:00"
   },
   {
    "id": "github-064",
@@ -73410,7 +73463,8 @@
    "stars": 6,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:29+00:00"
   },
   {
    "id": "github-065",
@@ -73428,10 +73482,11 @@
    "date": "2026-09-25",
    "likes": null,
    "bookmarks": null,
-   "stars": 7454,
+   "stars": 7457,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:55+00:00"
   },
   {
    "id": "github-066",
@@ -73449,10 +73504,11 @@
    "date": null,
    "likes": null,
    "bookmarks": null,
-   "stars": 49930,
+   "stars": 50010,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:25+00:00"
   },
   {
    "id": "github-067",
@@ -73470,10 +73526,11 @@
    "date": "2026-09-22",
    "likes": null,
    "bookmarks": null,
-   "stars": 390818,
+   "stars": 391023,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:43+00:00"
   },
   {
    "id": "github-068",
@@ -73491,10 +73548,11 @@
    "date": "2026-09-23",
    "likes": null,
    "bookmarks": null,
-   "stars": 250157,
+   "stars": 250384,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:42+00:00"
   },
   {
    "id": "github-069",
@@ -73512,10 +73570,11 @@
    "date": "2026-09-26",
    "likes": null,
    "bookmarks": null,
-   "stars": 250157,
+   "stars": 250384,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:42+00:00"
   },
   {
    "id": "github-070",
@@ -73533,10 +73592,11 @@
    "date": "2026-09-26",
    "likes": null,
    "bookmarks": null,
-   "stars": 2887,
+   "stars": 2893,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:58:05+00:00"
   },
   {
    "id": "github-071",
@@ -73557,7 +73617,8 @@
    "stars": 1,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:16+00:00"
   },
   {
    "id": "github-072",
@@ -73578,7 +73639,8 @@
    "stars": 5,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:36+00:00"
   },
   {
    "id": "github-073",
@@ -73596,10 +73658,11 @@
    "date": "2026-09-26",
    "likes": null,
    "bookmarks": null,
-   "stars": null,
+   "stars": 148746,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:04+00:00"
   },
   {
    "id": "github-074",
@@ -73617,10 +73680,11 @@
    "date": "2026-09-26",
    "likes": null,
    "bookmarks": null,
-   "stars": null,
+   "stars": 148746,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:04+00:00"
   },
   {
    "id": "github-075",
@@ -73638,10 +73702,11 @@
    "date": "2026-09-26",
    "likes": null,
    "bookmarks": null,
-   "stars": null,
+   "stars": 211195,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:04+00:00"
   },
   {
    "id": "github-076",
@@ -73662,7 +73727,8 @@
    "stars": 69,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:58:03+00:00"
   },
   {
    "id": "github-077",
@@ -73680,10 +73746,11 @@
    "date": null,
    "likes": null,
    "bookmarks": null,
-   "stars": 306,
+   "stars": 308,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:32+00:00"
   },
   {
    "id": "github-078",
@@ -73701,10 +73768,11 @@
    "date": null,
    "likes": null,
    "bookmarks": null,
-   "stars": 993,
+   "stars": 994,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:55+00:00"
   },
   {
    "id": "github-079",
@@ -73722,10 +73790,11 @@
    "date": "2026-09-22",
    "likes": null,
    "bookmarks": null,
-   "stars": 1666,
+   "stars": 1668,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:56+00:00"
   },
   {
    "id": "github-080",
@@ -73746,7 +73815,8 @@
    "stars": 1,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:27+00:00"
   },
   {
    "id": "github-081",
@@ -73767,7 +73837,8 @@
    "stars": 0,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:40+00:00"
   },
   {
    "id": "github-082",
@@ -73788,7 +73859,8 @@
    "stars": 2,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:11+00:00"
   },
   {
    "id": "github-083",
@@ -73809,7 +73881,8 @@
    "stars": 3,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:25+00:00"
   },
   {
    "id": "github-084",
@@ -73830,7 +73903,8 @@
    "stars": 1,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:31+00:00"
   },
   {
    "id": "github-085",
@@ -73851,7 +73925,8 @@
    "stars": 15,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:58:03+00:00"
   },
   {
    "id": "github-086",
@@ -73869,10 +73944,11 @@
    "date": "2026-09-26",
    "likes": null,
    "bookmarks": null,
-   "stars": 2,
+   "stars": 3,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:22+00:00"
   },
   {
    "id": "github-087",
@@ -73893,7 +73969,8 @@
    "stars": 2,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:52+00:00"
   },
   {
    "id": "github-088",
@@ -73914,7 +73991,8 @@
    "stars": 3,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:54+00:00"
   },
   {
    "id": "github-089",
@@ -73935,7 +74013,8 @@
    "stars": 1,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:59+00:00"
   },
   {
    "id": "github-090",
@@ -73956,7 +74035,8 @@
    "stars": 1,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:59+00:00"
   },
   {
    "id": "github-091",
@@ -73977,7 +74057,8 @@
    "stars": 2,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:22+00:00"
   },
   {
    "id": "github-092",
@@ -73995,10 +74076,11 @@
    "date": "2026-09-26",
    "likes": null,
    "bookmarks": null,
-   "stars": 35,
+   "stars": 50,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:58+00:00"
   },
   {
    "id": "github-093",
@@ -74019,7 +74101,8 @@
    "stars": 1,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:58:04+00:00"
   },
   {
    "id": "github-094",
@@ -74040,7 +74123,8 @@
    "stars": 0,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:56+00:00"
   },
   {
    "id": "github-095",
@@ -74061,7 +74145,8 @@
    "stars": 0,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:48+00:00"
   },
   {
    "id": "github-096",
@@ -74082,7 +74167,8 @@
    "stars": 1,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:54+00:00"
   },
   {
    "id": "github-097",
@@ -74100,10 +74186,11 @@
    "date": "2026-09-25",
    "likes": null,
    "bookmarks": null,
-   "stars": 2,
+   "stars": 4,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:39+00:00"
   },
   {
    "id": "github-098",
@@ -74145,7 +74232,8 @@
    "stars": 1,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:51+00:00"
   },
   {
    "id": "github-100",
@@ -74163,10 +74251,11 @@
    "date": "2026-09-25",
    "likes": null,
    "bookmarks": null,
-   "stars": 0,
+   "stars": 1,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:03+00:00"
   },
   {
    "id": "github-101",
@@ -74187,7 +74276,8 @@
    "stars": 0,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:07+00:00"
   },
   {
    "id": "github-102",
@@ -74208,7 +74298,8 @@
    "stars": 0,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:40+00:00"
   },
   {
    "id": "github-103",
@@ -74226,11 +74317,11 @@
    "date": "2026-09-26",
    "likes": null,
    "bookmarks": null,
-   "stars": 29,
+   "stars": 35,
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-09-27T07:56:26+00:00"
+   "metricsCheckedAt": "2026-10-01T03:57:26+00:00"
   },
   {
    "id": "github-104",
@@ -74251,7 +74342,8 @@
    "stars": 0,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:17+00:00"
   },
   {
    "id": "github-105",
@@ -74272,7 +74364,8 @@
    "stars": 0,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:29+00:00"
   },
   {
    "id": "github-106",
@@ -74293,7 +74386,8 @@
    "stars": 0,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:10+00:00"
   },
   {
    "id": "github-107",
@@ -74314,7 +74408,8 @@
    "stars": 0,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:37+00:00"
   },
   {
    "id": "github-108",
@@ -74335,7 +74430,8 @@
    "stars": 0,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:28+00:00"
   },
   {
    "id": "github-109",
@@ -74356,7 +74452,8 @@
    "stars": 0,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:37+00:00"
   },
   {
    "id": "github-110",
@@ -74377,7 +74474,8 @@
    "stars": 0,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:04+00:00"
   },
   {
    "id": "github-111",
@@ -74398,7 +74496,8 @@
    "stars": 3,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:52+00:00"
   },
   {
    "id": "github-112",
@@ -74420,7 +74519,7 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+   "metricsCheckedAt": "2026-10-01T03:57:38+00:00"
   },
   {
    "id": "github-113",
@@ -74441,7 +74540,8 @@
    "stars": 3,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:20+00:00"
   },
   {
    "id": "github-114",
@@ -74463,7 +74563,7 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+   "metricsCheckedAt": "2026-10-01T03:57:39+00:00"
   },
   {
    "id": "github-115",
@@ -74484,7 +74584,8 @@
    "stars": 1,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:36+00:00"
   },
   {
    "id": "github-116",
@@ -74505,7 +74606,8 @@
    "stars": 1,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:58:07+00:00"
   },
   {
    "id": "github-117",
@@ -74526,7 +74628,8 @@
    "stars": 4,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:49+00:00"
   },
   {
    "id": "github-118",
@@ -74547,7 +74650,8 @@
    "stars": 0,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:59+00:00"
   },
   {
    "id": "github-119",
@@ -74568,7 +74672,8 @@
    "stars": 0,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:23+00:00"
   },
   {
    "id": "github-120",
@@ -74589,7 +74694,8 @@
    "stars": 0,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:20+00:00"
   },
   {
    "id": "github-121",
@@ -74610,7 +74716,8 @@
    "stars": 0,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:36+00:00"
   },
   {
    "id": "github-122",
@@ -74631,7 +74738,8 @@
    "stars": 0,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:41+00:00"
   },
   {
    "id": "github-123",
@@ -74652,7 +74760,8 @@
    "stars": 0,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:09+00:00"
   },
   {
    "id": "github-124",
@@ -74673,7 +74782,8 @@
    "stars": 1,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:53+00:00"
   },
   {
    "id": "github-125",
@@ -74694,7 +74804,8 @@
    "stars": 0,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:48+00:00"
   },
   {
    "id": "github-126",
@@ -74715,7 +74826,8 @@
    "stars": 0,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:58:01+00:00"
   },
   {
    "id": "github-127",
@@ -74740,7 +74852,8 @@
    "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22&sort=updated&per_page=100",
    "checkedAt": "2026-09-27T07:52:53+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/ramenprotokol/overkill/main/README.md",
-   "evidenceBasis": "repository README; author-reported, not independently executed"
+   "evidenceBasis": "repository README; author-reported, not independently executed",
+   "metricsCheckedAt": "2026-10-01T03:57:45+00:00"
   },
   {
    "id": "github-128",
@@ -74765,7 +74878,8 @@
    "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22&sort=updated&per_page=100",
    "checkedAt": "2026-09-27T07:52:53+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/AlexGalhardo/CLI-Turn-Based-RPG-Game/main/README.md",
-   "evidenceBasis": "repository README; author-reported, not independently executed"
+   "evidenceBasis": "repository README; author-reported, not independently executed",
+   "metricsCheckedAt": "2026-10-01T03:57:04+00:00"
   },
   {
    "id": "github-129",
@@ -74790,7 +74904,8 @@
    "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22&sort=updated&per_page=100",
    "checkedAt": "2026-09-27T07:52:53+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/az9713/opus-5.5-open-world-game/main/README.md",
-   "evidenceBasis": "repository README; author-reported, not independently executed"
+   "evidenceBasis": "repository README; author-reported, not independently executed",
+   "metricsCheckedAt": "2026-10-01T03:57:07+00:00"
   },
   {
    "id": "github-130",
@@ -74816,7 +74931,7 @@
    "checkedAt": "2026-09-27T07:52:53+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/levy-street/pokemon-claude-red/main/README.md",
    "evidenceBasis": "repository README; author-reported, not independently executed",
-   "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+   "metricsCheckedAt": "2026-10-01T03:57:34+00:00"
   },
   {
    "id": "github-131",
@@ -74841,7 +74956,8 @@
    "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22&sort=updated&per_page=100",
    "checkedAt": "2026-09-27T07:52:53+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/SummerEngine/sakura-rally/main/README.md",
-   "evidenceBasis": "repository README; author-reported, not independently executed"
+   "evidenceBasis": "repository README; author-reported, not independently executed",
+   "metricsCheckedAt": "2026-10-01T03:57:52+00:00"
   },
   {
    "id": "github-132",
@@ -74866,7 +74982,8 @@
    "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22&sort=updated&per_page=100",
    "checkedAt": "2026-09-27T07:52:53+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/cyborggirl963/opus-5.5-music-video-art-styles/main/README.md",
-   "evidenceBasis": "repository README; author-reported, not independently executed"
+   "evidenceBasis": "repository README; author-reported, not independently executed",
+   "metricsCheckedAt": "2026-10-01T03:57:15+00:00"
   },
   {
    "id": "github-133",
@@ -74884,14 +75001,15 @@
    "date": "2026-09-26",
    "likes": null,
    "bookmarks": null,
-   "stars": 35,
+   "stars": 50,
    "views": null,
    "mediaKind": "none",
    "poster": null,
    "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22&sort=updated&per_page=100",
    "checkedAt": "2026-09-27T07:52:53+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/tuzhechen2005/opus-video-skills/main/README.md",
-   "evidenceBasis": "repository README; author-reported, not independently executed"
+   "evidenceBasis": "repository README; author-reported, not independently executed",
+   "metricsCheckedAt": "2026-10-01T03:57:58+00:00"
   },
   {
    "id": "github-134",
@@ -74916,7 +75034,8 @@
    "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22&sort=updated&per_page=100",
    "checkedAt": "2026-09-27T07:52:53+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/nexost/sts2-pres-mod/master/README.md",
-   "evidenceBasis": "repository README; author-reported, not independently executed"
+   "evidenceBasis": "repository README; author-reported, not independently executed",
+   "metricsCheckedAt": "2026-10-01T03:57:41+00:00"
   },
   {
    "id": "github-135",
@@ -74941,7 +75060,8 @@
    "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22&sort=updated&per_page=100",
    "checkedAt": "2026-09-27T07:52:53+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/Petyok/life3d/main/README.md",
-   "evidenceBasis": "repository README; author-reported, not independently executed"
+   "evidenceBasis": "repository README; author-reported, not independently executed",
+   "metricsCheckedAt": "2026-10-01T03:57:44+00:00"
   },
   {
    "id": "github-136",
@@ -74966,7 +75086,8 @@
    "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22&sort=updated&per_page=100",
    "checkedAt": "2026-09-27T07:52:53+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/KyleBuildsAI/driftwing/main/README.md",
-   "evidenceBasis": "repository README; author-reported, not independently executed"
+   "evidenceBasis": "repository README; author-reported, not independently executed",
+   "metricsCheckedAt": "2026-10-01T03:57:32+00:00"
   },
   {
    "id": "github-137",
@@ -74991,7 +75112,8 @@
    "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22&sort=updated&per_page=100",
    "checkedAt": "2026-09-27T07:52:53+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/codegobrrrr9/repo-trailer/main/README.md",
-   "evidenceBasis": "repository README; author-reported, not independently executed"
+   "evidenceBasis": "repository README; author-reported, not independently executed",
+   "metricsCheckedAt": "2026-10-01T03:57:14+00:00"
   },
   {
    "id": "github-138",
@@ -75016,7 +75138,8 @@
    "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22&sort=updated&per_page=100",
    "checkedAt": "2026-09-27T07:52:53+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/mattezell/open-to-work/main/README.md",
-   "evidenceBasis": "repository README; author-reported, not independently executed"
+   "evidenceBasis": "repository README; author-reported, not independently executed",
+   "metricsCheckedAt": "2026-10-01T03:57:36+00:00"
   },
   {
    "id": "github-139",
@@ -75041,7 +75164,8 @@
    "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22&sort=updated&per_page=100",
    "checkedAt": "2026-09-27T07:52:53+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/morganlinton/vulcanbench-opus55-traces/main/README.md",
-   "evidenceBasis": "repository README; author-reported, not independently executed"
+   "evidenceBasis": "repository README; author-reported, not independently executed",
+   "metricsCheckedAt": "2026-10-01T03:57:39+00:00"
   },
   {
    "id": "github-140",
@@ -75066,7 +75190,8 @@
    "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22&sort=updated&per_page=100",
    "checkedAt": "2026-09-27T07:52:53+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/ChrisMcKee1/tidewater-lng/main/README.md",
-   "evidenceBasis": "repository README; author-reported, not independently executed"
+   "evidenceBasis": "repository README; author-reported, not independently executed",
+   "metricsCheckedAt": "2026-10-01T03:57:13+00:00"
   },
   {
    "id": "github-141",
@@ -75091,7 +75216,8 @@
    "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22&sort=updated&per_page=100",
    "checkedAt": "2026-09-27T07:52:53+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/RBarish-UTokyo/FourColorTheorem-Lean4/main/README.md",
-   "evidenceBasis": "repository README; author-reported, not independently executed"
+   "evidenceBasis": "repository README; author-reported, not independently executed",
+   "metricsCheckedAt": "2026-10-01T03:57:46+00:00"
   },
   {
    "id": "github-142",
@@ -75116,7 +75242,8 @@
    "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22&sort=updated&per_page=100",
    "checkedAt": "2026-09-27T07:52:53+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/stas4000/datalens/main/README.md",
-   "evidenceBasis": "repository README; author-reported, not independently executed"
+   "evidenceBasis": "repository README; author-reported, not independently executed",
+   "metricsCheckedAt": "2026-10-01T03:57:51+00:00"
   },
   {
    "id": "github-143",
@@ -75134,7 +75261,7 @@
    "date": "2026-09-26",
    "likes": null,
    "bookmarks": null,
-   "stars": 687,
+   "stars": 693,
    "views": null,
    "mediaKind": "none",
    "poster": null,
@@ -75142,7 +75269,7 @@
    "checkedAt": "2026-09-27T08:18:12+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/main/README.md",
    "evidenceBasis": "Repository README, style index, DIRECTOR.md and TECHNIQUE.md; collection counted once; not independently reproduced",
-   "metricsCheckedAt": "2026-10-01T03:37:21+00:00",
+   "metricsCheckedAt": "2026-10-01T03:57:34+00:00",
    "resources": [
     {
      "label": "风格与提示词",
@@ -75184,7 +75311,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/japsnap/motionreels/main/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:25+00:00"
   },
   {
    "id": "github-145",
@@ -75209,7 +75337,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/dliedke/emilius_wingsuit/main/README.md",
-   "evidenceBasis": "README; not independently run"
+   "evidenceBasis": "README; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:18+00:00"
   },
   {
    "id": "github-146",
@@ -75234,7 +75363,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/DanielaRosenn/anno-mundi/main/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:16+00:00"
   },
   {
    "id": "github-147",
@@ -75259,7 +75389,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/dobrinov/history-book-2050/main/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:18+00:00"
   },
   {
    "id": "github-148",
@@ -75284,7 +75415,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/Legerdo/metric-bloom-opus-5-5/main/README.md",
-   "evidenceBasis": "README; not independently run"
+   "evidenceBasis": "README; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:32+00:00"
   },
   {
    "id": "github-149",
@@ -75310,7 +75442,7 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/antondziuin/Solar/main/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
-   "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+   "metricsCheckedAt": "2026-10-01T03:57:04+00:00"
   },
   {
    "id": "github-150",
@@ -75336,7 +75468,7 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/ww-w-ai/super-video-agent/main/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
-   "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+   "metricsCheckedAt": "2026-10-01T03:58:04+00:00"
   },
   {
    "id": "github-151",
@@ -75361,7 +75493,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/stefan-zobel/Sedis/master/README.md",
-   "evidenceBasis": "README; not independently run"
+   "evidenceBasis": "README; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:51+00:00"
   },
   {
    "id": "github-152",
@@ -75386,7 +75519,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/Legerdo/opus55-pixel-character-action-benchmark/main/README.md",
-   "evidenceBasis": "README; not independently run"
+   "evidenceBasis": "README; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:33+00:00"
   },
   {
    "id": "github-153",
@@ -75411,7 +75545,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/Legerdo/opus55-pixel-diorama-benchmark/main/README.md",
-   "evidenceBasis": "README; not independently run"
+   "evidenceBasis": "README; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:33+00:00"
   },
   {
    "id": "github-154",
@@ -75436,7 +75571,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/anttiluode/FlyBench/main/README.md",
-   "evidenceBasis": "README; not independently run"
+   "evidenceBasis": "README; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:05+00:00"
   },
   {
    "id": "github-155",
@@ -75461,7 +75597,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/id2359/nimbots/main/README.md",
-   "evidenceBasis": "README; not independently run"
+   "evidenceBasis": "README; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:24+00:00"
   },
   {
    "id": "github-156",
@@ -75487,7 +75624,7 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/Madheshvivekanandan/perfect-yorker-3d/main/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
-   "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+   "metricsCheckedAt": "2026-10-01T03:57:35+00:00"
   },
   {
    "id": "github-157",
@@ -75512,7 +75649,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/tanuu5/natsu-no-yume/main/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:54+00:00"
   },
   {
    "id": "github-158",
@@ -75537,7 +75675,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/RPD123-byte/apprentice-film/main/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:47+00:00"
   },
   {
    "id": "github-159",
@@ -75555,7 +75694,7 @@
    "date": "2026-09-27",
    "likes": null,
    "bookmarks": null,
-   "stars": 1108,
+   "stars": 1118,
    "views": null,
    "mediaKind": "none",
    "poster": null,
@@ -75563,7 +75702,7 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/yihui-dev/awesome-opus5-5-videos/main/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
-   "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+   "metricsCheckedAt": "2026-10-01T03:58:06+00:00"
   },
   {
    "id": "github-160",
@@ -75588,7 +75727,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/zqkra/opus-prime/main/README.md",
-   "evidenceBasis": "README; not independently run"
+   "evidenceBasis": "README; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:58:07+00:00"
   },
   {
    "id": "github-161",
@@ -75613,7 +75753,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/adpulsipher/mc-mod-opus5.5/claude/adoring-brown-7r3q71/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:02+00:00"
   },
   {
    "id": "github-162",
@@ -75638,7 +75779,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/meaterick/opusvideo/main/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:36+00:00"
   },
   {
    "id": "github-163",
@@ -75663,7 +75805,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/Artemiy12A/the-last-signal/main/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:05+00:00"
   },
   {
    "id": "github-164",
@@ -75688,7 +75831,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/Cool2bwichu/Hogwarts_project/claude/hogwarts-map-k6acla/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:14+00:00"
   },
   {
    "id": "github-165",
@@ -75706,14 +75850,15 @@
    "date": "2026-09-28",
    "likes": null,
    "bookmarks": null,
-   "stars": 1,
+   "stars": 2,
    "views": null,
    "mediaKind": "none",
    "poster": null,
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/deepujain/casadegema/main/README.md",
-   "evidenceBasis": "README; not independently run"
+   "evidenceBasis": "README; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:17+00:00"
   },
   {
    "id": "github-166",
@@ -75738,7 +75883,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/shabbirun/opus-5-5-os/main/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:49+00:00"
   },
   {
    "id": "github-167",
@@ -75764,7 +75910,7 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/V9011N/pygame-piano-animator/main/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
-   "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+   "metricsCheckedAt": "2026-10-01T03:57:59+00:00"
   },
   {
    "id": "github-168",
@@ -75789,7 +75935,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/Dakota1-1/nuts-lyric-video/main/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:15+00:00"
   },
   {
    "id": "github-169",
@@ -75815,7 +75962,7 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/katsuhiro-hayasaka-orico/3D-kousai-opus5.5/claude/zen-allen-vvryyw/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
-   "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+   "metricsCheckedAt": "2026-10-01T03:57:30+00:00"
   },
   {
    "id": "github-170",
@@ -75833,7 +75980,7 @@
    "date": "2026-09-26",
    "likes": null,
    "bookmarks": null,
-   "stars": 79,
+   "stars": 81,
    "views": null,
    "mediaKind": "none",
    "poster": null,
@@ -75841,7 +75988,7 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/makevoid/motion-graphics-music-video-skill/main/README.md",
    "evidenceBasis": "README; not independently run",
-   "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+   "metricsCheckedAt": "2026-10-01T03:57:36+00:00"
   },
   {
    "id": "github-171",
@@ -75866,7 +76013,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/avnish-deobhakta/jev-clinical-calibration/main/README.md",
-   "evidenceBasis": "README; not independently run"
+   "evidenceBasis": "README; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:07+00:00"
   },
   {
    "id": "github-172",
@@ -75891,7 +76039,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/claude-skills-kit/cosmic-opus/main/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:14+00:00"
   },
   {
    "id": "github-173",
@@ -75917,7 +76066,7 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/bwoliveira/prompt-studio/main/README.md",
    "evidenceBasis": "README; not independently run",
-   "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+   "metricsCheckedAt": "2026-10-01T03:57:11+00:00"
   },
   {
    "id": "github-174",
@@ -75942,7 +76091,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/wellscurrence-a11y/Zombie-game-opus5.5/claude/zombie-survival-game-s8xea5/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:58:02+00:00"
   },
   {
    "id": "github-175",
@@ -75967,7 +76117,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/az9713/opus-5.5-builds/main/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:07+00:00"
   },
   {
    "id": "github-176",
@@ -76017,7 +76168,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/Vedmeena21/Opus-5.5-Motion-Graphics/main/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:59+00:00"
   },
   {
    "id": "github-178",
@@ -76042,7 +76194,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/razgovor-glitch/island_opus5_5/main/README.md",
-   "evidenceBasis": "README; not independently run"
+   "evidenceBasis": "README; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:46+00:00"
   },
   {
    "id": "github-179",
@@ -76067,7 +76220,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/ggdover/mashuprpg/master/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:23+00:00"
   },
   {
    "id": "github-180",
@@ -76092,7 +76246,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/ggdover/deepdelve/main/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:23+00:00"
   },
   {
    "id": "github-181",
@@ -76117,7 +76272,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/briossant/ombres/master/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:11+00:00"
   },
   {
    "id": "github-182",
@@ -76142,7 +76298,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/groundstation1/small-works/main/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:23+00:00"
   },
   {
    "id": "github-183",
@@ -76168,7 +76325,7 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/piiiico/no-abstraction/main/README.md",
    "evidenceBasis": "README; not independently run",
-   "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+   "metricsCheckedAt": "2026-10-01T03:57:44+00:00"
   },
   {
    "id": "github-184",
@@ -76193,7 +76350,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/SaiCharan007-max/Opus-5.5Hails/claude/fervent-edison-xw4lo7/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:47+00:00"
   },
   {
    "id": "github-185",
@@ -76218,7 +76376,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/code-with-sam-dev/claude-code-opus-test/master/README.md",
-   "evidenceBasis": "README; not independently run"
+   "evidenceBasis": "README; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:14+00:00"
   },
   {
    "id": "github-186",
@@ -76243,7 +76402,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/fants/Gale-kart/main/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:21+00:00"
   },
   {
    "id": "github-187",
@@ -76261,14 +76421,15 @@
    "date": "2026-09-27",
    "likes": null,
    "bookmarks": null,
-   "stars": 99,
+   "stars": 110,
    "views": null,
    "mediaKind": "none",
    "poster": null,
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/joeseesun/opus-video-prompts/main/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:28+00:00"
   },
   {
    "id": "github-188",
@@ -76293,7 +76454,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/lextoumbourou/opus-satoshi-research/main/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:34+00:00"
   },
   {
    "id": "github-189",
@@ -76311,14 +76473,15 @@
    "date": "2026-09-26",
    "likes": null,
    "bookmarks": null,
-   "stars": 0,
+   "stars": 1,
    "views": null,
    "mediaKind": "none",
    "poster": null,
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/Jack-c3l2w/arkanoid-neon/main/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:25+00:00"
   },
   {
    "id": "github-190",
@@ -76343,7 +76506,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/tly43520-create/uestc70-greeting-card/main/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:56+00:00"
   },
   {
    "id": "github-191",
@@ -76368,7 +76532,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/e1daru/opus-5-5-dev-guide/main/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:19+00:00"
   },
   {
    "id": "github-192",
@@ -76393,7 +76558,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/oliverhees/huehnerjagd/main/README.md",
-   "evidenceBasis": "README; not independently run"
+   "evidenceBasis": "README; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:42+00:00"
   },
   {
    "id": "github-193",
@@ -76418,7 +76584,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/clarencechien/opus55poc/main/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:13+00:00"
   },
   {
    "id": "github-194",
@@ -76443,7 +76610,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/dark-faze/opus5.5-video-test/claude/tron-legacy-ares-video-jb0irm/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:16+00:00"
   },
   {
    "id": "github-195",
@@ -76468,7 +76636,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/monzblog/claude_3Dmodel_Opus5p5/claude/project-thread-eeqfxo/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:39+00:00"
   },
   {
    "id": "github-196",
@@ -76493,7 +76662,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/Athullvr/Chemistry-Study-Material-Using-Opus5.5/main/README.md",
-   "evidenceBasis": "README; not independently run"
+   "evidenceBasis": "README; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:06+00:00"
   },
   {
    "id": "github-197",
@@ -76518,7 +76688,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/AidenAllredOfficial/backrooms-oneshot-opus5-5/master/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:03+00:00"
   },
   {
    "id": "github-198",
@@ -76543,7 +76714,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/TESTYEE-09/opus5.5Lethal/claude/busy-cray-rbpj04/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:55+00:00"
   },
   {
    "id": "github-199",
@@ -76568,7 +76740,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/YunruDU/openhouse-3d/main/README.md",
-   "evidenceBasis": "README; not independently run"
+   "evidenceBasis": "README; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:58:06+00:00"
   },
   {
    "id": "github-200",
@@ -76586,14 +76759,15 @@
    "date": "2026-09-27",
    "likes": null,
    "bookmarks": null,
-   "stars": 9,
+   "stars": 12,
    "views": null,
    "mediaKind": "none",
    "poster": null,
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/quisbaum-prog/occam/main/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:45+00:00"
   },
   {
    "id": "github-201",
@@ -76618,7 +76792,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/edd426/claude_opus_5_5_autobiographical/main/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:19+00:00"
   },
   {
    "id": "github-202",
@@ -76636,14 +76811,15 @@
    "date": "2026-09-26",
    "likes": null,
    "bookmarks": null,
-   "stars": 86,
+   "stars": 87,
    "views": null,
    "mediaKind": "none",
    "poster": null,
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/chuspeeism/awesome-opus-5-5-videos/main/README.md",
-   "evidenceBasis": "README; not independently run"
+   "evidenceBasis": "README; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:13+00:00"
   },
   {
    "id": "github-203",
@@ -76661,14 +76837,15 @@
    "date": "2026-09-27",
    "likes": null,
    "bookmarks": null,
-   "stars": 0,
+   "stars": 1,
    "views": null,
    "mediaKind": "none",
    "poster": null,
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/3D-Stories/skate-game-opus-5-5/character-builder/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:02+00:00"
   },
   {
    "id": "github-204",
@@ -76693,7 +76870,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/rohitranjan1812/opus-5-5-global-accumulation-monitoring-/claude/global-accumulation-monitoring-m15q1o/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:46+00:00"
   },
   {
    "id": "github-205",
@@ -76718,7 +76896,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/rohitranjan1812/opus-5-5-test-climate-change/claude/3d-climate-impact-sim-rcxgxz/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:46+00:00"
   },
   {
    "id": "github-206",
@@ -76743,7 +76922,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/nathankochera/opus-5.5-motion-graphics-2046/main/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:40+00:00"
   },
   {
    "id": "github-207",
@@ -76768,7 +76948,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/bilixuesheng/a-music-by-opus-5.5/claude/human-tech-evolution-song-hyebgh/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:09+00:00"
   },
   {
    "id": "github-208",
@@ -76793,7 +76974,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/irgegh2/Unity-Opus-5.5-Minecraft/main/README.md",
-   "evidenceBasis": "README; not independently run"
+   "evidenceBasis": "README; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:25+00:00"
   },
   {
    "id": "github-209",
@@ -76818,7 +77000,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/SiCraft11/3d-Test-Opus-5.5/claude/gifted-hopper-rwjqdt/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:49+00:00"
   },
   {
    "id": "github-210",
@@ -76843,7 +77026,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/jas2k/Opus-5.5-/main/README.md",
-   "evidenceBasis": "README; not independently run"
+   "evidenceBasis": "README; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:26+00:00"
   },
   {
    "id": "github-211",
@@ -76868,7 +77052,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/jas2k/Gameboy-game-watch-opus-5.5-/main/README.md",
-   "evidenceBasis": "README; not independently run"
+   "evidenceBasis": "README; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:26+00:00"
   },
   {
    "id": "github-212",
@@ -76893,7 +77078,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/asp67/local-llm-voxel-hogwarts/main/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:05+00:00"
   },
   {
    "id": "github-213",
@@ -76918,7 +77104,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/vladimirkulikdev/Opus-5.5-test/main/README.md",
-   "evidenceBasis": "README; not independently run"
+   "evidenceBasis": "README; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:58:01+00:00"
   },
   {
    "id": "github-214",
@@ -76943,7 +77130,8 @@
    "discoveredVia": "https://github.com/ (curated Opus 5.5 list links)",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/PrabhjotSodhi/ClaudeJump/main/README.md",
-   "evidenceBasis": "README; not independently run"
+   "evidenceBasis": "README; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:44+00:00"
   },
   {
    "id": "github-215",
@@ -76968,7 +77156,8 @@
    "discoveredVia": "https://github.com/ (curated Opus 5.5 list links)",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/travisstephenfraser/survive-coders/master/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:57+00:00"
   },
   {
    "id": "github-216",
@@ -76993,7 +77182,8 @@
    "discoveredVia": "https://github.com/ (curated Opus 5.5 list links)",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/tahcin/pet-island/main/README.md",
-   "evidenceBasis": "README; not independently run"
+   "evidenceBasis": "README; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:53+00:00"
   },
   {
    "id": "github-217",
@@ -77018,7 +77208,8 @@
    "discoveredVia": "https://github.com/ (curated Opus 5.5 list links)",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/chichiroxursox-droid/deep-dive/main/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:12+00:00"
   },
   {
    "id": "github-218",
@@ -77043,7 +77234,8 @@
    "discoveredVia": "https://github.com/ (curated Opus 5.5 list links)",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/michalbe/viatr-and-deshch/main/README.md",
-   "evidenceBasis": "README; not independently run"
+   "evidenceBasis": "README; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:37+00:00"
   },
   {
    "id": "github-219",
@@ -77068,7 +77260,8 @@
    "discoveredVia": "https://github.com/ (curated Opus 5.5 list links)",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/tuniveza/Generative-Games/main/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:58+00:00"
   },
   {
    "id": "github-220",
@@ -77093,7 +77286,8 @@
    "discoveredVia": "https://github.com/ (curated Opus 5.5 list links)",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/javichur/radikal-bikers/main/README.md",
-   "evidenceBasis": "README; not independently run"
+   "evidenceBasis": "README; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:26+00:00"
   },
   {
    "id": "github-221",
@@ -77118,7 +77312,8 @@
    "discoveredVia": "https://github.com/ (curated Opus 5.5 list links)",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/Shiva78388789/Akhbar-Rush/main/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:49+00:00"
   },
   {
    "id": "github-222",
@@ -77143,7 +77338,8 @@
    "discoveredVia": "https://github.com/ (curated Opus 5.5 list links)",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/tanuu5/kaiju-dokan/main/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:54+00:00"
   },
   {
    "id": "github-223",
@@ -77168,7 +77364,8 @@
    "discoveredVia": "https://github.com/ (curated Opus 5.5 list links)",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/Werdna1976/PathOfWerdna/main/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:58:02+00:00"
   },
   {
    "id": "github-224",
@@ -77193,7 +77390,8 @@
    "discoveredVia": "https://github.com/ (curated Opus 5.5 list links)",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/Mofferato/tempora/main/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:38+00:00"
   },
   {
    "id": "github-225",
@@ -77218,7 +77416,8 @@
    "discoveredVia": "https://github.com/ (curated Opus 5.5 list links)",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/Efkrdnz/opus-game-test-2/claude/epic-ptolemy-shs2yq/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:20+00:00"
   },
   {
    "id": "github-226",
@@ -77243,7 +77442,8 @@
    "discoveredVia": "https://github.com/ (curated Opus 5.5 list links)",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/Efkrdnz/opus-game-test-3/claude/funny-albattani-p9iq8n/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:20+00:00"
   },
   {
    "id": "github-227",
@@ -77268,7 +77468,8 @@
    "discoveredVia": "https://github.com/ (curated Opus 5.5 list links)",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/Efkrdnz/opus-test-game/claude/affectionate-fermat-tluz0w/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:20+00:00"
   },
   {
    "id": "github-228",
@@ -77293,7 +77494,8 @@
    "discoveredVia": "https://github.com/ (curated Opus 5.5 list links)",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/kamibukuro18/opuscrabhouse/main/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:30+00:00"
   },
   {
    "id": "github-229",
@@ -77318,7 +77520,8 @@
    "discoveredVia": "https://github.com/ (curated Opus 5.5 list links)",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/WhiteBlackGoose/Lumenrift/main/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:58:02+00:00"
   },
   {
    "id": "github-230",
@@ -77336,14 +77539,15 @@
    "date": "2026-09-28",
    "likes": null,
    "bookmarks": null,
-   "stars": 11228,
+   "stars": 11231,
    "views": null,
    "mediaKind": "none",
    "poster": null,
    "discoveredVia": "https://api.github.com/search/issues",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://github.com/github/copilot-cli/issues/4980",
-   "evidenceBasis": "issue/PR body; not independently reproduced"
+   "evidenceBasis": "issue/PR body; not independently reproduced",
+   "metricsCheckedAt": "2026-10-01T03:57:23+00:00"
   },
   {
    "id": "github-231",
@@ -77368,7 +77572,8 @@
    "discoveredVia": "https://api.github.com/search/issues",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://github.com/stevepolitodesign/skills/issues/44",
-   "evidenceBasis": "issue/PR body; not independently reproduced"
+   "evidenceBasis": "issue/PR body; not independently reproduced",
+   "metricsCheckedAt": "2026-10-01T03:57:51+00:00"
   },
   {
    "id": "github-232",
@@ -77393,7 +77598,8 @@
    "discoveredVia": "https://api.github.com/search/issues",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://github.com/FaultMaven/faultmaven/issues/1751",
-   "evidenceBasis": "issue/PR body; not independently reproduced"
+   "evidenceBasis": "issue/PR body; not independently reproduced",
+   "metricsCheckedAt": "2026-10-01T03:57:21+00:00"
   },
   {
    "id": "github-233",
@@ -77418,7 +77624,8 @@
    "discoveredVia": "https://api.github.com/search/issues",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://github.com/LightspeedDMS/claude-pace-maker/issues/150",
-   "evidenceBasis": "issue/PR body; not independently reproduced"
+   "evidenceBasis": "issue/PR body; not independently reproduced",
+   "metricsCheckedAt": "2026-10-01T03:57:34+00:00"
   },
   {
    "id": "github-234",
@@ -77443,7 +77650,8 @@
    "discoveredVia": "https://api.github.com/search/issues",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://github.com/wheninspace/whendone/issues/1",
-   "evidenceBasis": "issue/PR body; not independently reproduced"
+   "evidenceBasis": "issue/PR body; not independently reproduced",
+   "metricsCheckedAt": "2026-10-01T03:58:02+00:00"
   },
   {
    "id": "github-235",
@@ -77461,14 +77669,15 @@
    "date": "2026-09-28",
    "likes": null,
    "bookmarks": null,
-   "stars": 14430,
+   "stars": 14435,
    "views": null,
    "mediaKind": "none",
    "poster": null,
    "discoveredVia": "https://api.github.com/search/issues",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://github.com/livekit/agents/pull/7511",
-   "evidenceBasis": "issue/PR body; not independently reproduced"
+   "evidenceBasis": "issue/PR body; not independently reproduced",
+   "metricsCheckedAt": "2026-10-01T03:57:34+00:00"
   },
   {
    "id": "github-236",
@@ -77486,14 +77695,15 @@
    "date": "2026-09-27",
    "likes": null,
    "bookmarks": null,
-   "stars": 63,
+   "stars": 71,
    "views": null,
    "mediaKind": "none",
    "poster": null,
    "discoveredVia": "https://api.github.com/search/issues",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://github.com/NousResearch/hermes-plugin-claude-subscription-directsdk/pull/56",
-   "evidenceBasis": "issue/PR body; not independently reproduced"
+   "evidenceBasis": "issue/PR body; not independently reproduced",
+   "metricsCheckedAt": "2026-10-01T03:57:42+00:00"
   },
   {
    "id": "github-237",
@@ -77511,14 +77721,15 @@
    "date": "2026-09-27",
    "likes": null,
    "bookmarks": null,
-   "stars": 178,
+   "stars": 179,
    "views": null,
    "mediaKind": "none",
    "poster": null,
    "discoveredVia": "https://api.github.com/search/issues",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://github.com/ucbepic/DataAgentBench/pull/114",
-   "evidenceBasis": "issue/PR body; not independently reproduced"
+   "evidenceBasis": "issue/PR body; not independently reproduced",
+   "metricsCheckedAt": "2026-10-01T03:57:58+00:00"
   },
   {
    "id": "github-238",
@@ -77543,7 +77754,8 @@
    "discoveredVia": "https://api.github.com/search/issues",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://github.com/samuellawrentz/profile/pull/130",
-   "evidenceBasis": "issue/PR body; not independently reproduced"
+   "evidenceBasis": "issue/PR body; not independently reproduced",
+   "metricsCheckedAt": "2026-10-01T03:57:48+00:00"
   },
   {
    "id": "github-239",
@@ -77568,7 +77780,8 @@
    "discoveredVia": "https://api.github.com/search/issues",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://github.com/tomsilver/robocode/pull/236",
-   "evidenceBasis": "issue/PR body; not independently reproduced"
+   "evidenceBasis": "issue/PR body; not independently reproduced",
+   "metricsCheckedAt": "2026-10-01T03:57:57+00:00"
   },
   {
    "id": "github-240",
@@ -77593,7 +77806,8 @@
    "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/Bemly/408",
-   "evidenceBasis": "README and repo description; not independently run"
+   "evidenceBasis": "README and repo description; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:08+00:00"
   },
   {
    "id": "github-241",
@@ -77611,14 +77825,15 @@
    "date": "2026-09-28",
    "likes": null,
    "bookmarks": null,
-   "stars": 59899,
+   "stars": 59949,
    "views": null,
    "mediaKind": "none",
    "poster": null,
    "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/BerriAI/litellm/issues/43531",
-   "evidenceBasis": "issue body; author-reported"
+   "evidenceBasis": "issue body; author-reported",
+   "metricsCheckedAt": "2026-10-01T03:57:08+00:00"
   },
   {
    "id": "github-242",
@@ -77643,7 +77858,8 @@
    "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/Crazz-Org/SPO-Pipeline/pull/311",
-   "evidenceBasis": "PR description; not independently run"
+   "evidenceBasis": "PR description; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:15+00:00"
   },
   {
    "id": "github-243",
@@ -77668,7 +77884,8 @@
    "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/DavidSilvaProg/laboratorio-jev-fatec",
-   "evidenceBasis": "README and repo description; not independently run"
+   "evidenceBasis": "README and repo description; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:16+00:00"
   },
   {
    "id": "github-244",
@@ -77693,7 +77910,8 @@
    "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/DrDecki/Deepforge-Dungeons-The-Hollow-Crown",
-   "evidenceBasis": "README and repo description; not independently run"
+   "evidenceBasis": "README and repo description; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:18+00:00"
   },
   {
    "id": "github-245",
@@ -77719,7 +77937,7 @@
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/JTMC-G3/HelloNeighbor",
    "evidenceBasis": "README and repo description; not independently run",
-   "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+   "metricsCheckedAt": "2026-10-01T03:57:29+00:00"
   },
   {
    "id": "github-246",
@@ -77737,14 +77955,15 @@
    "date": "2026-09-28",
    "likes": null,
    "bookmarks": null,
-   "stars": 2,
+   "stars": 11,
    "views": null,
    "mediaKind": "none",
    "poster": null,
    "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/Kianzzz/xilo-opus-video",
-   "evidenceBasis": "README and repo description; not independently run"
+   "evidenceBasis": "README and repo description; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:30+00:00"
   },
   {
    "id": "github-247",
@@ -77769,7 +77988,8 @@
    "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/Legerdo/opus55-anime-pixel-character-action-benchmark-20260929-032231",
-   "evidenceBasis": "README and repo description; not independently run"
+   "evidenceBasis": "README and repo description; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:33+00:00"
   },
   {
    "id": "github-248",
@@ -77794,7 +78014,8 @@
    "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/Para-FR/claude-sonnet-vs-opus-flight-sim",
-   "evidenceBasis": "README and repo description; not independently run"
+   "evidenceBasis": "README and repo description; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:43+00:00"
   },
   {
    "id": "github-249",
@@ -77812,14 +78033,15 @@
    "date": "2026-09-28",
    "likes": null,
    "bookmarks": null,
-   "stars": 148628,
+   "stars": 148746,
    "views": null,
    "mediaKind": "none",
    "poster": null,
    "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/anthropics/claude-code/issues/97891",
-   "evidenceBasis": "issue body; author-reported"
+   "evidenceBasis": "issue body; author-reported",
+   "metricsCheckedAt": "2026-10-01T03:57:04+00:00"
   },
   {
    "id": "github-250",
@@ -77844,7 +78066,8 @@
    "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/c5inco/motion-showreel",
-   "evidenceBasis": "README and repo description; not independently run"
+   "evidenceBasis": "README and repo description; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:11+00:00"
   },
   {
    "id": "github-251",
@@ -77869,7 +78092,8 @@
    "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/canvas-medical/canvas-plugins/pull/1905",
-   "evidenceBasis": "PR description; not independently run"
+   "evidenceBasis": "PR description; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:12+00:00"
   },
   {
    "id": "github-252",
@@ -77894,7 +78118,8 @@
    "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/franpiaggio/gastos",
-   "evidenceBasis": "README and repo description; not independently run"
+   "evidenceBasis": "README and repo description; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:22+00:00"
   },
   {
    "id": "github-253",
@@ -77919,7 +78144,8 @@
    "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/jmcentire/advocate/pull/4",
-   "evidenceBasis": "PR description; not independently run"
+   "evidenceBasis": "PR description; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:27+00:00"
   },
   {
    "id": "github-254",
@@ -77944,7 +78170,8 @@
    "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/koliebe25/GenerativeAI/pull/2",
-   "evidenceBasis": "PR description; not independently run"
+   "evidenceBasis": "PR description; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:31+00:00"
   },
   {
    "id": "github-255",
@@ -77969,7 +78196,8 @@
    "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/lucadidomenico/jev-router-esperimento",
-   "evidenceBasis": "README and repo description; not independently run"
+   "evidenceBasis": "README and repo description; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:35+00:00"
   },
   {
    "id": "github-256",
@@ -77994,7 +78222,8 @@
    "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/negevtvx/opus-vs-sonnet-catgirl-run",
-   "evidenceBasis": "README and repo description; not independently run"
+   "evidenceBasis": "README and repo description; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:40+00:00"
   },
   {
    "id": "github-257",
@@ -78019,7 +78248,8 @@
    "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/sameid/boxhead-online-html",
-   "evidenceBasis": "README and repo description; not independently run"
+   "evidenceBasis": "README and repo description; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:48+00:00"
   },
   {
    "id": "github-258",
@@ -78044,7 +78274,8 @@
    "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/seasnakes/world.execute-me-wallpaper",
-   "evidenceBasis": "README and repo description; not independently run"
+   "evidenceBasis": "README and repo description; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:48+00:00"
   },
   {
    "id": "github-259",
@@ -78069,7 +78300,8 @@
    "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/sv-tmueller/orchestrai/pull/408",
-   "evidenceBasis": "PR description; not independently run"
+   "evidenceBasis": "PR description; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:52+00:00"
   },
   {
    "id": "github-260",
@@ -78094,7 +78326,8 @@
    "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/totimo96/serverhub",
-   "evidenceBasis": "README and repo description; not independently run"
+   "evidenceBasis": "README and repo description; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:57+00:00"
   },
   {
    "id": "github-261",
@@ -78119,7 +78352,8 @@
    "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/veloxe-ai/triad-world-war-iii-simulator-claude",
-   "evidenceBasis": "README and repo description; not independently run"
+   "evidenceBasis": "README and repo description; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:59+00:00"
   },
   {
    "id": "github-262",
@@ -78144,7 +78378,8 @@
    "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/vikasbanjare/motion-graphic/pull/1",
-   "evidenceBasis": "PR description; not independently run"
+   "evidenceBasis": "PR description; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:58:00+00:00"
   },
   {
    "id": "github-263",
@@ -78169,7 +78404,8 @@
    "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/wandercom/pact/pull/20",
-   "evidenceBasis": "PR description; not independently run"
+   "evidenceBasis": "PR description; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:58:01+00:00"
   },
   {
    "id": "github-264",
@@ -78194,7 +78430,8 @@
    "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/wovjip/4d-sound-explorer",
-   "evidenceBasis": "README and repo description; not independently run"
+   "evidenceBasis": "README and repo description; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:58:04+00:00"
   },
   {
    "id": "github-265",
@@ -78219,7 +78456,8 @@
    "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/DSC-Martin/a25-mid-autumn",
-   "evidenceBasis": "README and repo description; not independently run"
+   "evidenceBasis": "README and repo description; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:18+00:00"
   },
   {
    "id": "github-266",
@@ -78244,7 +78482,8 @@
    "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/L1vsun/BLOCKWORLD",
-   "evidenceBasis": "README and repo description; not independently run"
+   "evidenceBasis": "README and repo description; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:32+00:00"
   },
   {
    "id": "github-267",
@@ -78270,7 +78509,7 @@
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/LJAguil/Npc-Village",
    "evidenceBasis": "README and repo description; not independently run",
-   "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+   "metricsCheckedAt": "2026-10-01T03:57:35+00:00"
   },
   {
    "id": "github-268",
@@ -78295,7 +78534,8 @@
    "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/Legerdo/WRECKLINE",
-   "evidenceBasis": "README and repo description; not independently run"
+   "evidenceBasis": "README and repo description; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:33+00:00"
   },
   {
    "id": "github-269",
@@ -78320,7 +78560,8 @@
    "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/LungHungDev/Starry-Universe-Animation-By-Opus-5.5",
-   "evidenceBasis": "README and repo description; not independently run"
+   "evidenceBasis": "README and repo description; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:35+00:00"
   },
   {
    "id": "github-270",
@@ -78345,7 +78586,8 @@
    "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/WhiteLotus1998/IronWake/issues/484",
-   "evidenceBasis": "issue body; not independently run"
+   "evidenceBasis": "issue body; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:58:03+00:00"
   },
   {
    "id": "github-271",
@@ -78363,14 +78605,15 @@
    "date": "2026-09-29",
    "likes": null,
    "bookmarks": null,
-   "stars": 1931,
+   "stars": 1934,
    "views": null,
    "mediaKind": "none",
    "poster": null,
    "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/Zoo-Code-Org/Zoo-Code/issues/1853",
-   "evidenceBasis": "issue body; author-reported"
+   "evidenceBasis": "issue body; author-reported",
+   "metricsCheckedAt": "2026-10-01T03:58:06+00:00"
   },
   {
    "id": "github-272",
@@ -78388,14 +78631,15 @@
    "date": "2026-09-29",
    "likes": null,
    "bookmarks": null,
-   "stars": 148628,
+   "stars": 148746,
    "views": null,
    "mediaKind": "none",
    "poster": null,
    "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/anthropics/claude-code/issues/98174",
-   "evidenceBasis": "issue body; author-reported"
+   "evidenceBasis": "issue body; author-reported",
+   "metricsCheckedAt": "2026-10-01T03:57:04+00:00"
   },
   {
    "id": "github-273",
@@ -78413,14 +78657,15 @@
    "date": "2026-09-29",
    "likes": null,
    "bookmarks": null,
-   "stars": 148628,
+   "stars": 148746,
    "views": null,
    "mediaKind": "none",
    "poster": null,
    "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/anthropics/claude-code/issues/98267",
-   "evidenceBasis": "issue body; author-reported"
+   "evidenceBasis": "issue body; author-reported",
+   "metricsCheckedAt": "2026-10-01T03:57:04+00:00"
   },
   {
    "id": "github-274",
@@ -78438,14 +78683,15 @@
    "date": "2026-09-29",
    "likes": null,
    "bookmarks": null,
-   "stars": 15,
+   "stars": 16,
    "views": null,
    "mediaKind": "none",
    "poster": null,
    "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/jasontzeng123/the-arc",
-   "evidenceBasis": "README and repo description; not independently run"
+   "evidenceBasis": "README and repo description; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:26+00:00"
   },
   {
    "id": "github-275",
@@ -78470,7 +78716,8 @@
    "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/jezweb/vite-flare-starter/issues/156",
-   "evidenceBasis": "issue body; author-reported"
+   "evidenceBasis": "issue body; author-reported",
+   "metricsCheckedAt": "2026-10-01T03:57:27+00:00"
   },
   {
    "id": "github-276",
@@ -78495,7 +78742,8 @@
    "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/joefedna/Claude-Opus-5.5-Motion-Video-Skill",
-   "evidenceBasis": "README and repo description; not independently run"
+   "evidenceBasis": "README and repo description; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:28+00:00"
   },
   {
    "id": "github-277",
@@ -78520,7 +78768,8 @@
    "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/kirodotdev/Kiro/issues/11668",
-   "evidenceBasis": "issue body; author-reported"
+   "evidenceBasis": "issue body; author-reported",
+   "metricsCheckedAt": "2026-10-01T03:57:30+00:00"
   },
   {
    "id": "github-278",
@@ -78538,14 +78787,15 @@
    "date": "2026-09-29",
    "likes": null,
    "bookmarks": null,
-   "stars": 347,
+   "stars": 348,
    "views": null,
    "mediaKind": "none",
    "poster": null,
    "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/micz/ThunderAI/issues/936",
-   "evidenceBasis": "issue body; author-reported"
+   "evidenceBasis": "issue body; author-reported",
+   "metricsCheckedAt": "2026-10-01T03:57:38+00:00"
   },
   {
    "id": "github-279",
@@ -78570,7 +78820,8 @@
    "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/mikelix/gstack-tutorial-5-agi-race-v2",
-   "evidenceBasis": "README and repo description; not independently run"
+   "evidenceBasis": "README and repo description; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:38+00:00"
   },
   {
    "id": "github-280",
@@ -78595,7 +78846,8 @@
    "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/nadav2150/motion-/pull/2",
-   "evidenceBasis": "PR description; not independently run"
+   "evidenceBasis": "PR description; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:40+00:00"
   },
   {
    "id": "github-281",
@@ -78620,7 +78872,8 @@
    "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/nifinet/gtm-autopilot",
-   "evidenceBasis": "README and repo description; not independently run"
+   "evidenceBasis": "README and repo description; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:41+00:00"
   },
   {
    "id": "github-282",
@@ -78646,7 +78899,7 @@
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/primaryatias-oss/Port-of-OceanDrive-from-Three.js-to-SDL3",
    "evidenceBasis": "README and repo description; not independently run",
-   "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+   "metricsCheckedAt": "2026-10-01T03:57:44+00:00"
   },
   {
    "id": "github-283",
@@ -78671,7 +78924,8 @@
    "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/rajatslakhina/instruction-file-model-migration-article-demo",
-   "evidenceBasis": "README and repo description; not independently run"
+   "evidenceBasis": "README and repo description; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:45+00:00"
   },
   {
    "id": "github-284",
@@ -78689,14 +78943,15 @@
    "date": "2026-09-29",
    "likes": null,
    "bookmarks": null,
-   "stars": 7,
+   "stars": 8,
    "views": null,
    "mediaKind": "none",
    "poster": null,
    "discoveredVia": "https://api.github.com/search/repositories?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/stas4000/claude-subagent-router",
-   "evidenceBasis": "README and repo description; not independently run"
+   "evidenceBasis": "README and repo description; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:50+00:00"
   },
   {
    "id": "github-285",
@@ -78721,7 +78976,8 @@
    "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/ventrion/beskar/pull/5",
-   "evidenceBasis": "PR description; not independently run"
+   "evidenceBasis": "PR description; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:58:00+00:00"
   },
   {
    "id": "github-286",
@@ -78746,7 +79002,8 @@
    "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/Snowflake-Labs/data-eng-bench/pull/10",
-   "evidenceBasis": "PR description; not independently run"
+   "evidenceBasis": "PR description; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:50+00:00"
   },
   {
    "id": "github-287",
@@ -78772,7 +79029,7 @@
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/clarity-m/shelter-mv",
    "evidenceBasis": "README and repo description; not independently run",
-   "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+   "metricsCheckedAt": "2026-10-01T03:57:13+00:00"
   },
   {
    "id": "github-288",
@@ -78798,7 +79055,7 @@
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/ethanplusai/outpace",
    "evidenceBasis": "README and repo description; not independently run",
-   "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+   "metricsCheckedAt": "2026-10-01T03:57:20+00:00"
   },
   {
    "id": "github-289",
@@ -78823,7 +79080,8 @@
    "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/smormah/vsift/issues/224",
-   "evidenceBasis": "issue body; not independently run"
+   "evidenceBasis": "issue body; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:57:50+00:00"
   },
   {
    "id": "github-290",
@@ -78848,7 +79106,8 @@
    "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-28",
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/wordplaydev/wordplay/pull/1438",
-   "evidenceBasis": "PR description; not independently run"
+   "evidenceBasis": "PR description; not independently run",
+   "metricsCheckedAt": "2026-10-01T03:58:04+00:00"
   },
   {
    "id": "github-291",
@@ -78874,7 +79133,7 @@
    "checkedAt": "2026-10-01T03:25:55+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/dylantlwu/opus-animation-course/main/README.md",
    "evidenceBasis": "repository README; author-reported; not executed",
-   "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+   "metricsCheckedAt": "2026-10-01T03:57:19+00:00"
   },
   {
    "id": "github-292",
@@ -78900,7 +79159,7 @@
    "checkedAt": "2026-10-01T03:25:55+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/ThorHe-Hub/opus-geometry-of-control/main/README.md",
    "evidenceBasis": "repository README; author-reported; not executed",
-   "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+   "metricsCheckedAt": "2026-10-01T03:57:56+00:00"
   },
   {
    "id": "github-293",
@@ -78926,7 +79185,7 @@
    "checkedAt": "2026-10-01T03:25:55+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/better-futures-studio/opus-use-subagents/main/README.md",
    "evidenceBasis": "repository README; author-reported; not executed",
-   "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+   "metricsCheckedAt": "2026-10-01T03:57:08+00:00"
   },
   {
    "id": "github-294",
@@ -78952,7 +79211,7 @@
    "checkedAt": "2026-10-01T03:25:55+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/bigmak94/GalaxyQuest/main/README.md",
    "evidenceBasis": "repository README; author-reported; not executed",
-   "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+   "metricsCheckedAt": "2026-10-01T03:57:09+00:00"
   },
   {
    "id": "github-295",
@@ -78978,7 +79237,7 @@
    "checkedAt": "2026-10-01T03:25:56+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/hoangduong92/idea-to-film-skill/main/README.md",
    "evidenceBasis": "repository README; author-reported; not executed",
-   "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+   "metricsCheckedAt": "2026-10-01T03:57:24+00:00"
   },
   {
    "id": "github-296",
@@ -79004,7 +79263,7 @@
    "checkedAt": "2026-10-01T03:25:56+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/CalmDownNova/cosmic-breach/main/README.md",
    "evidenceBasis": "repository README; author-reported; not executed",
-   "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+   "metricsCheckedAt": "2026-10-01T03:57:11+00:00"
   },
   {
    "id": "github-297",
@@ -79030,7 +79289,7 @@
    "checkedAt": "2026-10-01T03:25:56+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/Fenglin-Maple/One-last-kiss-opus5.5-web-mv/main/README.md",
    "evidenceBasis": "repository README; author-reported; not executed",
-   "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+   "metricsCheckedAt": "2026-10-01T03:57:21+00:00"
   },
   {
    "id": "github-298",
@@ -79056,7 +79315,7 @@
    "checkedAt": "2026-10-01T03:25:56+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/yarinbnyamin/knesset-kombat-26/main/README.md",
    "evidenceBasis": "repository README; author-reported; not executed",
-   "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+   "metricsCheckedAt": "2026-10-01T03:58:05+00:00"
   },
   {
    "id": "github-299",
@@ -79082,7 +79341,7 @@
    "checkedAt": "2026-10-01T03:25:56+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/Leichtbier/core-business/main/README.md",
    "evidenceBasis": "repository README; author-reported; not executed",
-   "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+   "metricsCheckedAt": "2026-10-01T03:57:33+00:00"
   },
   {
    "id": "github-300",
@@ -79108,7 +79367,7 @@
    "checkedAt": "2026-10-01T03:25:56+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/milliondreamsblog/MotionDesignOpus5.5/main/README.md",
    "evidenceBasis": "repository README; author-reported; not executed",
-   "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+   "metricsCheckedAt": "2026-10-01T03:57:38+00:00"
   },
   {
    "id": "github-301",
@@ -79134,7 +79393,7 @@
    "checkedAt": "2026-10-01T03:25:56+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/haxzie/p-doom-ft-genmotion/main/README.md",
    "evidenceBasis": "repository README; author-reported; not executed",
-   "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+   "metricsCheckedAt": "2026-10-01T03:57:24+00:00"
   },
   {
    "id": "github-302",
@@ -79160,7 +79419,7 @@
    "checkedAt": "2026-10-01T03:25:56+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/okonio/felt-dot-gpt-vs-opus/main/README.md",
    "evidenceBasis": "repository README; author-reported; not executed",
-   "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+   "metricsCheckedAt": "2026-10-01T03:57:42+00:00"
   },
   {
    "id": "github-303",
@@ -79186,7 +79445,7 @@
    "checkedAt": "2026-10-01T03:25:56+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/bilaldemirerr/opus-video-recipes/main/README.md",
    "evidenceBasis": "repository README; author-reported; not executed",
-   "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+   "metricsCheckedAt": "2026-10-01T03:57:09+00:00"
   },
   {
    "id": "github-304",
@@ -79212,7 +79471,7 @@
    "checkedAt": "2026-10-01T03:25:56+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/jeaxindr-dotcom/sonnet-55-vs-opus-55/main/README.md",
    "evidenceBasis": "repository README; author-reported; not executed",
-   "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+   "metricsCheckedAt": "2026-10-01T03:57:27+00:00"
   },
   {
    "id": "github-305",
@@ -79238,7 +79497,7 @@
    "checkedAt": "2026-10-01T03:25:56+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/Everett406/code-film/main/README.md",
    "evidenceBasis": "repository README; author-reported; not executed",
-   "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+   "metricsCheckedAt": "2026-10-01T03:57:21+00:00"
   },
   {
    "id": "github-306",
@@ -79264,7 +79523,7 @@
    "checkedAt": "2026-10-01T03:25:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/chenyuxiaojin/cyxj-videos/main/README.md",
    "evidenceBasis": "repository README; author-reported; not executed",
-   "metricsCheckedAt": "2026-10-01T03:37:21+00:00"
+   "metricsCheckedAt": "2026-10-01T03:57:12+00:00"
   },
   {
    "id": "github-307",
@@ -79282,14 +79541,15 @@
    "date": "2026-09-30",
    "likes": null,
    "bookmarks": null,
-   "stars": null,
+   "stars": 41,
    "views": null,
    "mediaKind": "none",
    "poster": null,
    "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-30",
    "checkedAt": "2026-10-01T03:36:40+00:00",
    "evidenceUrl": "https://github.com/ViBench/vibench-public/pull/8",
-   "evidenceBasis": "public issue/PR description; implementation and reported failures not independently reproduced"
+   "evidenceBasis": "public issue/PR description; implementation and reported failures not independently reproduced",
+   "metricsCheckedAt": "2026-10-01T03:58:00+00:00"
   },
   {
    "id": "github-308",
@@ -79307,14 +79567,15 @@
    "date": "2026-10-01",
    "likes": null,
    "bookmarks": null,
-   "stars": null,
+   "stars": 1,
    "views": null,
    "mediaKind": "none",
    "poster": null,
    "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-30",
    "checkedAt": "2026-10-01T03:36:40+00:00",
    "evidenceUrl": "https://github.com/synex1437/noctis/pull/9",
-   "evidenceBasis": "public issue/PR description; implementation and reported failures not independently reproduced"
+   "evidenceBasis": "public issue/PR description; implementation and reported failures not independently reproduced",
+   "metricsCheckedAt": "2026-10-01T03:57:53+00:00"
   },
   {
    "id": "github-309",
@@ -79332,14 +79593,15 @@
    "date": "2026-09-30",
    "likes": null,
    "bookmarks": null,
-   "stars": null,
+   "stars": 1,
    "views": null,
    "mediaKind": "none",
    "poster": null,
    "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-30",
    "checkedAt": "2026-10-01T03:36:40+00:00",
    "evidenceUrl": "https://github.com/zbynekdrlik/airuleset/issues/1203",
-   "evidenceBasis": "public issue/PR description; implementation and reported failures not independently reproduced"
+   "evidenceBasis": "public issue/PR description; implementation and reported failures not independently reproduced",
+   "metricsCheckedAt": "2026-10-01T03:58:06+00:00"
   },
   {
    "id": "github-310",
@@ -79357,14 +79619,15 @@
    "date": "2026-09-30",
    "likes": null,
    "bookmarks": null,
-   "stars": null,
+   "stars": 2,
    "views": null,
    "mediaKind": "none",
    "poster": null,
    "discoveredVia": "https://api.github.com/search/issues?q=%22opus+5.5%22+created:%3E=2026-09-30",
    "checkedAt": "2026-10-01T03:36:40+00:00",
    "evidenceUrl": "https://github.com/jwp2987/phosphor/issues/797",
-   "evidenceBasis": "public issue/PR description; implementation and reported failures not independently reproduced"
+   "evidenceBasis": "public issue/PR description; implementation and reported failures not independently reproduced",
+   "metricsCheckedAt": "2026-10-01T03:57:29+00:00"
   },
   {
    "id": "hn-001",
@@ -94114,7 +94377,8 @@
    "stars": 0,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:58:03+00:00"
   },
   {
    "id": "lists-190",
@@ -94135,7 +94399,8 @@
    "stars": 1,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:45+00:00"
   },
   {
    "id": "lists-191",
@@ -94156,7 +94421,8 @@
    "stars": 0,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:53+00:00"
   },
   {
    "id": "lists-192",
@@ -94177,7 +94443,8 @@
    "stars": 1,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "metricsCheckedAt": "2026-10-01T03:57:54+00:00"
   },
   {
    "id": "lists-193",

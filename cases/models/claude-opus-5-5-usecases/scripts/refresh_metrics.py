@@ -12,6 +12,8 @@ import re
 import urllib.error
 import urllib.request
 
+from github_api import read_github, response_metadata
+
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 
@@ -21,10 +23,15 @@ def fetch(job):
     receipt = {"key": key, "url": url,
                "checkedAt": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds")}
     try:
-        request = urllib.request.Request(url, headers={"User-Agent": "Opus55-public-source-review"})
-        with urllib.request.urlopen(request, timeout=25) as response:
-            body = response.read()
-            receipt.update(status=response.status, sha256=hashlib.sha256(body).hexdigest())
+        if key.startswith("github:"):
+            body, metadata = read_github(url)
+            receipt.update(metadata)
+        else:
+            request = urllib.request.Request(url, headers={"User-Agent": "Opus55-public-source-review"})
+            with urllib.request.urlopen(request, timeout=25) as response:
+                body = response.read()
+                receipt.update(status=response.status)
+        receipt["sha256"] = hashlib.sha256(body).hexdigest()
         value = json.loads(body)
         if key.startswith("x:"):
             tweet = value.get("tweet") or {}
@@ -44,13 +51,19 @@ def fetch(job):
         receipt.update(ok=False, error=str(error))
         if isinstance(error, urllib.error.HTTPError):
             receipt["status"] = error.code
+            if key.startswith("github:"):
+                receipt.update(response_metadata(error.code, error.headers))
     return receipt
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output-dir", type=pathlib.Path, default=DATA / "_refresh" / "latest")
+    parser.add_argument("--only", choices=("github", "x"), help="Refresh only this platform")
+    parser.add_argument("--workers", type=int, default=2, help="Concurrent requests (default: 2)")
     args = parser.parse_args()
+    if args.workers < 1:
+        parser.error("--workers must be positive")
     args.output_dir.mkdir(parents=True, exist_ok=True)
     cases = json.loads((DATA / "all_cases.json").read_text())["cases"]
     posts, repos = {}, set()
@@ -62,11 +75,15 @@ def main():
         match = re.match(r"https?://github\.com/([^/]+/[^/?#]+)", url)
         if match:
             repos.add(match[1].lower().removesuffix(".git"))
+    if args.only == "github":
+        posts = {}
+    elif args.only == "x":
+        repos = set()
     jobs = [("x:" + tid, "https://api.fxtwitter.com/" +
              re.search(r"(?:x|twitter)\.com/([^/]+)/status/", url)[1] + "/status/" + tid)
             for tid, url in posts.items()]
     jobs += [("github:" + repo, "https://api.github.com/repos/" + repo) for repo in sorted(repos)]
-    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as pool:
         receipts = list(pool.map(fetch, jobs))
     (args.output_dir / "metric-receipts.json").write_text(json.dumps(receipts, ensure_ascii=False, indent=1) + "\n")
     patch_path = DATA / "metric_refreshes.json"
@@ -84,9 +101,10 @@ def main():
         else:
             stars[key[7:]] = receipt
     now = datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds")
-    patch_path.write_text(json.dumps({"meta": {"source": "https://api.fxtwitter.com/", "refreshedAt": now,
-        "note": "Primary X metrics only. Failed posts retain their previous values and timestamps."},
-        "cases": list(patches.values())}, ensure_ascii=False, indent=1) + "\n")
+    if posts:
+        patch_path.write_text(json.dumps({"meta": {"source": "https://api.fxtwitter.com/", "refreshedAt": now,
+            "note": "Primary X metrics only. Failed posts retain their previous values and timestamps."},
+            "cases": list(patches.values())}, ensure_ascii=False, indent=1) + "\n")
     changed_repos = set()
     for path in sorted(DATA.glob("extra_*.json")):
         rows = json.loads(path.read_text())

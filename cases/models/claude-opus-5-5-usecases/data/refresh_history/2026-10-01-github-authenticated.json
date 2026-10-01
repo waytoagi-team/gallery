@@ -1,0 +1,5223 @@
+{
+ "refreshedAt": "2026-10-01T03:58:07+00:00",
+ "scope": "Authenticated GitHub metrics follow-up; public GET requests through active gh login",
+ "summary": {
+  "attempted": 306,
+  "succeeded": 303,
+  "changed": 62
+ },
+ "receipts": [
+  {
+   "key": "github:3d-stories/skate-game-opus-5-5",
+   "url": "https://api.github.com/repos/3d-stories/skate-game-opus-5-5",
+   "checkedAt": "2026-10-01T03:57:02+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4925",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "0fc31787b06735d3571d1f420b779d507535d7bb88ffecf651523b00c9adea25",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:adpulsipher/mc-mod-opus5.5",
+   "url": "https://api.github.com/repos/adpulsipher/mc-mod-opus5.5",
+   "checkedAt": "2026-10-01T03:57:02+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4926",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "cf67693fc8e4a53eba362ea7a9aeff7202c2d7e48afcf9a0b2b395a3e63f9fc3",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:agentsloop/awesome-opus-5.5-games",
+   "url": "https://api.github.com/repos/agentsloop/awesome-opus-5.5-games",
+   "checkedAt": "2026-10-01T03:57:03+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4924",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "22e5f20fba82a1f2712431d7aba70c41697c470b1a88497c8e1f8c7e93d64c37",
+   "ok": true,
+   "metrics": {
+    "stars": 97
+   }
+  },
+  {
+   "key": "github:aibengineering/sprout-quest",
+   "url": "https://api.github.com/repos/aibengineering/sprout-quest",
+   "checkedAt": "2026-10-01T03:57:03+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4923",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "97b6c2516c4129f0c4f961e468206c016d051608dc97b524cd5699e47cb41604",
+   "ok": true,
+   "metrics": {
+    "stars": 2
+   }
+  },
+  {
+   "key": "github:aidenallredofficial/backrooms-oneshot-opus5-5",
+   "url": "https://api.github.com/repos/aidenallredofficial/backrooms-oneshot-opus5-5",
+   "checkedAt": "2026-10-01T03:57:03+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4922",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "2f7394539d011d7564f90ef5e4a78d13b759a87f9d4c0d303777ae04d839f4ba",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:akkireddy-challa/pitchroast",
+   "url": "https://api.github.com/repos/akkireddy-challa/pitchroast",
+   "checkedAt": "2026-10-01T03:57:03+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4921",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "e0af027c49ec068897f92ebbdbc3b0831dfb00e7b74a149ce0961bf0262a7666",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:alesha-pro/bench-portal",
+   "url": "https://api.github.com/repos/alesha-pro/bench-portal",
+   "checkedAt": "2026-10-01T03:57:04+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4920",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "45d6c8e747ae0e8d5960681fda63fc1956e88fd97e8d737a850546fa93f71043",
+   "ok": true,
+   "metrics": {
+    "stars": 27
+   }
+  },
+  {
+   "key": "github:alexgalhardo/cli-turn-based-rpg-game",
+   "url": "https://api.github.com/repos/alexgalhardo/cli-turn-based-rpg-game",
+   "checkedAt": "2026-10-01T03:57:04+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4919",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "d4809f5970936e03e6dafe9d71fa23e8e96fe45740d0895dc0a0fc6fa6151dc6",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:amberxplorer/opus5.5-seraphinianus",
+   "url": "https://api.github.com/repos/amberxplorer/opus5.5-seraphinianus",
+   "checkedAt": "2026-10-01T03:57:04+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4918",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "c610ff170e1ca8153b6290f41bab520b968463dd1158853953965ec725b27d4a",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:anomalyco/opencode",
+   "url": "https://api.github.com/repos/anomalyco/opencode",
+   "checkedAt": "2026-10-01T03:57:04+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4917",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "de4432f1f75eb8a0791c281d807e6c2b1c533ca6fa08bbe73098a9485322b685",
+   "ok": true,
+   "metrics": {
+    "stars": 211195
+   }
+  },
+  {
+   "key": "github:anthropics/claude-code",
+   "url": "https://api.github.com/repos/anthropics/claude-code",
+   "checkedAt": "2026-10-01T03:57:04+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4916",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "793487a5c045137d872a43a3170194b4e698c1fbd498e07e79ac5456966469f1",
+   "ok": true,
+   "metrics": {
+    "stars": 148746
+   }
+  },
+  {
+   "key": "github:antondziuin/solar",
+   "url": "https://api.github.com/repos/antondziuin/solar",
+   "checkedAt": "2026-10-01T03:57:04+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4915",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "8f270b4c7eea87d219b34ba32fa371dd5f89b1fea44181163f291e3ae5dce62f",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:anttiluode/flybench",
+   "url": "https://api.github.com/repos/anttiluode/flybench",
+   "checkedAt": "2026-10-01T03:57:05+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4914",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "fa87fcd170fd8c17d51fc9b1eab08471d001e86d0d297057e379ed6520963065",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:arimanyus/hophopnopenope",
+   "url": "https://api.github.com/repos/arimanyus/hophopnopenope",
+   "checkedAt": "2026-10-01T03:57:05+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4913",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "1a7fccf6308a538614a0936ec74d4deccbdf98212fd83dc01b5d926784ae08c2",
+   "ok": true,
+   "metrics": {
+    "stars": 15
+   }
+  },
+  {
+   "key": "github:artemiy12a/the-last-signal",
+   "url": "https://api.github.com/repos/artemiy12a/the-last-signal",
+   "checkedAt": "2026-10-01T03:57:05+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4912",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "013f3de09bbb5bc9d15ad679950045a6f8f3a040f35c7d622f9e48312b545ade",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:asp67/local-llm-voxel-hogwarts",
+   "url": "https://api.github.com/repos/asp67/local-llm-voxel-hogwarts",
+   "checkedAt": "2026-10-01T03:57:05+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4911",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "237bcde609324ff27fdec169db7ff99b604ebdc81798795d2c41e91165e8c877",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:athemeroy/awesome-opus-5-5-videos",
+   "url": "https://api.github.com/repos/athemeroy/awesome-opus-5-5-videos",
+   "checkedAt": "2026-10-01T03:57:06+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4910",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "1f0911c65cefb8a93b0981ed3aca60a70a0f49258fc3e771eebdb4ce0c6c64fa",
+   "ok": true,
+   "metrics": {
+    "stars": 379
+   }
+  },
+  {
+   "key": "github:athullvr/chemistry-study-material-using-opus5.5",
+   "url": "https://api.github.com/repos/athullvr/chemistry-study-material-using-opus5.5",
+   "checkedAt": "2026-10-01T03:57:06+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4909",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "ca42a81ee63fd902a68549d966f91a096fcf9a36de3505b6123dc7b67f28893e",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:aureliengmz/clearwater",
+   "url": "https://api.github.com/repos/aureliengmz/clearwater",
+   "checkedAt": "2026-10-01T03:57:06+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4908",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "f4f16ec0a7240d509165e362c1266740ef2843b89d8a4c584e71437eedebcbda",
+   "ok": true,
+   "metrics": {
+    "stars": 490
+   }
+  },
+  {
+   "key": "github:avenoxai/opus-5.5-benchmarks",
+   "url": "https://api.github.com/repos/avenoxai/opus-5.5-benchmarks",
+   "checkedAt": "2026-10-01T03:57:06+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4907",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "121e14760369a1477b4daadee744ffea47e35c843201285079fd1b4580aa7e7a",
+   "ok": true,
+   "metrics": {
+    "stars": 7
+   }
+  },
+  {
+   "key": "github:avnish-deobhakta/jev-clinical-calibration",
+   "url": "https://api.github.com/repos/avnish-deobhakta/jev-clinical-calibration",
+   "checkedAt": "2026-10-01T03:57:07+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4906",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "8ae8a4b66037bdcb5c587987fcfa53fda9a8f163d95a00ead669d8521940a0d5",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:az9713/opus-5.5-builds",
+   "url": "https://api.github.com/repos/az9713/opus-5.5-builds",
+   "checkedAt": "2026-10-01T03:57:07+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4905",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "ff0caa4e2273c2d72c41a212ff3c9ed60ae00ba5bfa7a984206f54ae939143b5",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:az9713/opus-5.5-open-world-game",
+   "url": "https://api.github.com/repos/az9713/opus-5.5-open-world-game",
+   "checkedAt": "2026-10-01T03:57:07+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4904",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "e0bf88c03d2c237069978b1387bd3ac729b1b4ac7744de25d32e055709e9db4a",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:az9713/opus-5.5-websites-rebuild",
+   "url": "https://api.github.com/repos/az9713/opus-5.5-websites-rebuild",
+   "checkedAt": "2026-10-01T03:57:07+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4903",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "74fb74d3d690044e31e0b9fabea0b0bac92abd2adbaff9551fb7a4f61b7d2e83",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:barty-bart/opus-55-10k-websites",
+   "url": "https://api.github.com/repos/barty-bart/opus-55-10k-websites",
+   "checkedAt": "2026-10-01T03:57:07+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4902",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "2f4ae7fe8d24e768eccbaabc89ea7032d83a063a5713f695046151958c376d87",
+   "ok": true,
+   "metrics": {
+    "stars": 22
+   }
+  },
+  {
+   "key": "github:bddap-bot/chemrs",
+   "url": "https://api.github.com/repos/bddap-bot/chemrs",
+   "checkedAt": "2026-10-01T03:57:07+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4901",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "7d617feba4eb237e282fe7e16615d0c51c1edddc9a0391a18c130fc08747b18e",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:bemly/408",
+   "url": "https://api.github.com/repos/bemly/408",
+   "checkedAt": "2026-10-01T03:57:08+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4900",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "d572c25a8a6a68c924d3bde405f13a4c71f1734013330a379c27b995f4d97f39",
+   "ok": true,
+   "metrics": {
+    "stars": 6
+   }
+  },
+  {
+   "key": "github:berriai/litellm",
+   "url": "https://api.github.com/repos/berriai/litellm",
+   "checkedAt": "2026-10-01T03:57:08+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4899",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "57e710a692312a11cd9d9ade507e67f5b305908b7d42f67ac1189f1567a38aa5",
+   "ok": true,
+   "metrics": {
+    "stars": 59949
+   }
+  },
+  {
+   "key": "github:better-futures-studio/opus-use-subagents",
+   "url": "https://api.github.com/repos/better-futures-studio/opus-use-subagents",
+   "checkedAt": "2026-10-01T03:57:08+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4898",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "d08c217843bac87a935e47de7979243dcf1140682c36d5b70827f88fe1e5780f",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:bigbadbillion/game",
+   "url": "https://api.github.com/repos/bigbadbillion/game",
+   "checkedAt": "2026-10-01T03:57:08+00:00",
+   "ok": false,
+   "error": "HTTP Error 404: GitHub API request failed",
+   "status": 404,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4897",
+    "x-ratelimit-reset": "1790828821"
+   }
+  },
+  {
+   "key": "github:bigmak94/galaxyquest",
+   "url": "https://api.github.com/repos/bigmak94/galaxyquest",
+   "checkedAt": "2026-10-01T03:57:09+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4896",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "3be0559eec33aaeddd82c1264807b36bd6d252104dbbecc4bf2b5a337f4904c6",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:bilaldemirerr/opus-video-recipes",
+   "url": "https://api.github.com/repos/bilaldemirerr/opus-video-recipes",
+   "checkedAt": "2026-10-01T03:57:09+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4895",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "6856ffcb6dca0925c851b1b1dcf2d747a6a6fe1825b5a229c344c6c242e271d4",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:bilixuesheng/a-music-by-opus-5.5",
+   "url": "https://api.github.com/repos/bilixuesheng/a-music-by-opus-5.5",
+   "checkedAt": "2026-10-01T03:57:09+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4894",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "bc63b30162477b33d87beefde6215eec017e99b61b158e8ddef0073d1a340ff5",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:black2856/pixel_survivors_opus5.5test",
+   "url": "https://api.github.com/repos/black2856/pixel_survivors_opus5.5test",
+   "checkedAt": "2026-10-01T03:57:09+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4893",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "99dc0c3dc99e72b4475f4d98bee814cb18374553a77c51beb5d6092e87eee31c",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:bobby-oster/dinosaur-meteor-story",
+   "url": "https://api.github.com/repos/bobby-oster/dinosaur-meteor-story",
+   "checkedAt": "2026-10-01T03:57:10+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4892",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "d63e588d712e89706c04efdceec888d479d8bda3f60bfd8f6587cf445210bc47",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:bobhuff0/ramey-memo-opus55-jev",
+   "url": "https://api.github.com/repos/bobhuff0/ramey-memo-opus55-jev",
+   "checkedAt": "2026-10-01T03:57:10+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4891",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "4142a6dc708c5b839a2855efaff13cca9734d17c0f0d9e2e834f880c0bd46ca5",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:brianm3050/amar.io",
+   "url": "https://api.github.com/repos/brianm3050/amar.io",
+   "checkedAt": "2026-10-01T03:57:10+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4888",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "3041464d09fd0ce2d3a6a6cf47db384d333d02b045ba00d07c56b2699ffa2eaf",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:bridge-mind/claude-opus-5.5-zombies-game",
+   "url": "https://api.github.com/repos/bridge-mind/claude-opus-5.5-zombies-game",
+   "checkedAt": "2026-10-01T03:57:10+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4889",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "82662d89c0904c7a45b6be39670727dfade61094de15c5e8ffda01566245050c",
+   "ok": true,
+   "metrics": {
+    "stars": 3
+   }
+  },
+  {
+   "key": "github:bridge-mind/turbo-kart-rally",
+   "url": "https://api.github.com/repos/bridge-mind/turbo-kart-rally",
+   "checkedAt": "2026-10-01T03:57:11+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4887",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "7d7d26ccd18e11e27546e1642606aea97a014f9c4ea5b02dd1b6628f13e2294b",
+   "ok": true,
+   "metrics": {
+    "stars": 20
+   }
+  },
+  {
+   "key": "github:briossant/ombres",
+   "url": "https://api.github.com/repos/briossant/ombres",
+   "checkedAt": "2026-10-01T03:57:11+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4886",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "73dc52f3ea89d8864a24c8227bf6d9d66c09ccef20a48b482917ec712b6933c7",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:bwoliveira/prompt-studio",
+   "url": "https://api.github.com/repos/bwoliveira/prompt-studio",
+   "checkedAt": "2026-10-01T03:57:11+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4884",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "62b1822e5b27a25d92ff4688b53efea7c97f94861ef28835548de5782c6d6560",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:c5inco/motion-showreel",
+   "url": "https://api.github.com/repos/c5inco/motion-showreel",
+   "checkedAt": "2026-10-01T03:57:11+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4885",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "4521ca5dd42159892ae3989903b06843bb4e631a1415b7e89ca1ac50a7668a7d",
+   "ok": true,
+   "metrics": {
+    "stars": 16
+   }
+  },
+  {
+   "key": "github:cahidarda/bosphore-1819",
+   "url": "https://api.github.com/repos/cahidarda/bosphore-1819",
+   "checkedAt": "2026-10-01T03:57:11+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4883",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "83baeba90d025029f7cee46e3d3ab0648fd7ca01c0064133ae8162cffc2b25a0",
+   "ok": true,
+   "metrics": {
+    "stars": 2
+   }
+  },
+  {
+   "key": "github:calmdownnova/cosmic-breach",
+   "url": "https://api.github.com/repos/calmdownnova/cosmic-breach",
+   "checkedAt": "2026-10-01T03:57:11+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4882",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "cb941a67e9d87c338932f4b1c6ee94617ae11f3fe5506399744416eeaa44048b",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:can1357/oh-my-pi",
+   "url": "https://api.github.com/repos/can1357/oh-my-pi",
+   "checkedAt": "2026-10-01T03:57:12+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4880",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "f1cea28d2b41869189ea492233913a89aef79e98d9be050147f82169dd02ed99",
+   "ok": true,
+   "metrics": {
+    "stars": 33892
+   }
+  },
+  {
+   "key": "github:canvas-medical/canvas-plugins",
+   "url": "https://api.github.com/repos/canvas-medical/canvas-plugins",
+   "checkedAt": "2026-10-01T03:57:12+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4881",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "bf2e47aff7725f10ffee5607c2bfd458449cbdbb21d2dcb5e96d23feb75cafa1",
+   "ok": true,
+   "metrics": {
+    "stars": 14
+   }
+  },
+  {
+   "key": "github:chenyuxiaojin/cyxj-videos",
+   "url": "https://api.github.com/repos/chenyuxiaojin/cyxj-videos",
+   "checkedAt": "2026-10-01T03:57:12+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4879",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "602aef909069b3e93bb12312e7f0644b487f107571a9671b15eb71aef3856af4",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:chichiroxursox-droid/deep-dive",
+   "url": "https://api.github.com/repos/chichiroxursox-droid/deep-dive",
+   "checkedAt": "2026-10-01T03:57:12+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4878",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "6911cf8ba3267c4dc678372e9113cd1a12804cfff88a5bae51c143e0d02d054d",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:chrismckee1/tidewater-lng",
+   "url": "https://api.github.com/repos/chrismckee1/tidewater-lng",
+   "checkedAt": "2026-10-01T03:57:13+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4877",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "5d574bff44b1d08f78090c9cac6dddcc14cd1ed7f1d1184e57c3675a841f564f",
+   "ok": true,
+   "metrics": {
+    "stars": 2
+   }
+  },
+  {
+   "key": "github:chuspeeism/awesome-opus-5-5-videos",
+   "url": "https://api.github.com/repos/chuspeeism/awesome-opus-5-5-videos",
+   "checkedAt": "2026-10-01T03:57:13+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4876",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "61441d068ea4e5b44d243fef55d787b4e40f284174409384d0b456d79975473f",
+   "ok": true,
+   "metrics": {
+    "stars": 87
+   }
+  },
+  {
+   "key": "github:clarencechien/opus55poc",
+   "url": "https://api.github.com/repos/clarencechien/opus55poc",
+   "checkedAt": "2026-10-01T03:57:13+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4875",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "45cb34bb98945bd0858563cc85cccf52e30b479db2bcd733923861fa3469042d",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:clarity-m/shelter-mv",
+   "url": "https://api.github.com/repos/clarity-m/shelter-mv",
+   "checkedAt": "2026-10-01T03:57:13+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4874",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "b17776e15f830488e8ea3ed4f6fb8d77e9a3acaf09277f370511a8bb276d8cf7",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:claude-skills-kit/cosmic-opus",
+   "url": "https://api.github.com/repos/claude-skills-kit/cosmic-opus",
+   "checkedAt": "2026-10-01T03:57:14+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4873",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "56ec5da4d0fecbff3001d77f0773f4dbca756f72286d66ba343c8916c74b3068",
+   "ok": true,
+   "metrics": {
+    "stars": 8
+   }
+  },
+  {
+   "key": "github:code-with-sam-dev/claude-code-opus-test",
+   "url": "https://api.github.com/repos/code-with-sam-dev/claude-code-opus-test",
+   "checkedAt": "2026-10-01T03:57:14+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4872",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "03369de8be8ebfd50d84e68f910f6d488b567e0718d5bbfe7b7d37127d055447",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:codegobrrrr9/repo-trailer",
+   "url": "https://api.github.com/repos/codegobrrrr9/repo-trailer",
+   "checkedAt": "2026-10-01T03:57:14+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4871",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "d8c96c0dd2102caa49c8038aadb2e9f4a9cc0ae0bd66e821e6dd2ca012090e3c",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:companion-inc/feynman",
+   "url": "https://api.github.com/repos/companion-inc/feynman",
+   "checkedAt": "2026-10-01T03:57:14+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4870",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "1c7f43f6a85bda65f5f81a13531c168232ec9a5ef6dac5f0ff0977d24871ac98",
+   "ok": true,
+   "metrics": {
+    "stars": 9853
+   }
+  },
+  {
+   "key": "github:cool2bwichu/hogwarts_project",
+   "url": "https://api.github.com/repos/cool2bwichu/hogwarts_project",
+   "checkedAt": "2026-10-01T03:57:14+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4869",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "771f21c2943a925ec53eef97ed66ec6c9f7c6e817e892106cce2093d9fc0fc02",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:coolbat/awesome-opus-5.5-usecase",
+   "url": "https://api.github.com/repos/coolbat/awesome-opus-5.5-usecase",
+   "checkedAt": "2026-10-01T03:57:15+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4868",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "5efbee667343ffbace35da549b7fd5118c882dcf0a56d70c7156b996889b3baa",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:crazz-org/spo-pipeline",
+   "url": "https://api.github.com/repos/crazz-org/spo-pipeline",
+   "checkedAt": "2026-10-01T03:57:15+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4867",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "d9e1cd07593aa1bf3b4787ed7c978d41180f049ed29a13cfe93fffc537a2e40f",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:cyborggirl963/opus-5.5-music-video-art-styles",
+   "url": "https://api.github.com/repos/cyborggirl963/opus-5.5-music-video-art-styles",
+   "checkedAt": "2026-10-01T03:57:15+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4866",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "98425cd1d4d2df9a14abe33c0bcf5ab6fc9aeebae14a62ff429ae9c9188931c9",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:dakota1-1/nuts-lyric-video",
+   "url": "https://api.github.com/repos/dakota1-1/nuts-lyric-video",
+   "checkedAt": "2026-10-01T03:57:15+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4865",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "497bd68b920a89a2c56ff30bdb5648d0d5e3b84b1b1bcec12517c0971258528e",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:danielarosenn/anno-mundi",
+   "url": "https://api.github.com/repos/danielarosenn/anno-mundi",
+   "checkedAt": "2026-10-01T03:57:16+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4864",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "b863bf74c578328cd047b8486f3d25e06a575c258f188bacac7f1c5bdbb0ce8f",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:dark-faze/opus5.5-video-test",
+   "url": "https://api.github.com/repos/dark-faze/opus5.5-video-test",
+   "checkedAt": "2026-10-01T03:57:16+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4863",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "b34dade1bba1777b3981d2e105caf61d452fac67bb909220dd8fec7c2c1f88dc",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:datacurve-ai/deep-swe",
+   "url": "https://api.github.com/repos/datacurve-ai/deep-swe",
+   "checkedAt": "2026-10-01T03:57:16+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4862",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "ddee12c30bbccef24c6216482d62c6f6154f87f4fb23755254cb13b13f7a48a3",
+   "ok": true,
+   "metrics": {
+    "stars": 1780
+   }
+  },
+  {
+   "key": "github:davidsilvaprog/laboratorio-jev-fatec",
+   "url": "https://api.github.com/repos/davidsilvaprog/laboratorio-jev-fatec",
+   "checkedAt": "2026-10-01T03:57:16+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4861",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "221e087458b5aeff4192aaebc64faac6716294c4106232dab41b54b696180bb9",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:davidwiskundige/readthemasters",
+   "url": "https://api.github.com/repos/davidwiskundige/readthemasters",
+   "checkedAt": "2026-10-01T03:57:16+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4860",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "e0503a7e09dbfd12a806eccab587395b1b23de49eb2494ab3da50576de8f6660",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:deepujain/casadegema",
+   "url": "https://api.github.com/repos/deepujain/casadegema",
+   "checkedAt": "2026-10-01T03:57:17+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4859",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "4f4f0ae26132632ab2fc4049b832dcf5ba3aceaeb3c64f5c8d4ee73b112ddf5f",
+   "ok": true,
+   "metrics": {
+    "stars": 2
+   }
+  },
+  {
+   "key": "github:deluze/hovorun",
+   "url": "https://api.github.com/repos/deluze/hovorun",
+   "checkedAt": "2026-10-01T03:57:17+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4858",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "9559ebe02496cf1f54bd9dde298a23487cca56097fd71f38d01bab58e5e0f9f4",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:dgreenheck/tidewater",
+   "url": "https://api.github.com/repos/dgreenheck/tidewater",
+   "checkedAt": "2026-10-01T03:57:17+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4857",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "e0749b215039185fbbf0eb46c4de8e1ae238d10c2001cdb349aa9d2920417372",
+   "ok": true,
+   "metrics": {
+    "stars": 1015
+   }
+  },
+  {
+   "key": "github:diegosouzapw/omniroute",
+   "url": "https://api.github.com/repos/diegosouzapw/omniroute",
+   "checkedAt": "2026-10-01T03:57:17+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4855",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "b9117ffb189a71cf413ed66dd174908eb3b0daa34104571f246c5e6425147e02",
+   "ok": true,
+   "metrics": {
+    "stars": 71809
+   }
+  },
+  {
+   "key": "github:diggerhq/shipvideo",
+   "url": "https://api.github.com/repos/diggerhq/shipvideo",
+   "checkedAt": "2026-10-01T03:57:17+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4854",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "fa0d87e5481dfd2bf8a2f354676fa25d9ddb36fa4dbece49f6e5329ae9f48cf9",
+   "ok": true,
+   "metrics": {
+    "stars": 234
+   }
+  },
+  {
+   "key": "github:dliedke/emilius_wingsuit",
+   "url": "https://api.github.com/repos/dliedke/emilius_wingsuit",
+   "checkedAt": "2026-10-01T03:57:18+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4853",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "1af3d133ede6bc78b7e935458ae3085b49717847c6aa150b56091365bc4308a4",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:dobrinov/history-book-2050",
+   "url": "https://api.github.com/repos/dobrinov/history-book-2050",
+   "checkedAt": "2026-10-01T03:57:18+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4852",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "7bb335f3b62e661ee846cea7889365cd0bfcb645d70a109d686564bce540b0a9",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:dongzhuoranzhou/opus55-uiux-comparison-20260925",
+   "url": "https://api.github.com/repos/dongzhuoranzhou/opus55-uiux-comparison-20260925",
+   "checkedAt": "2026-10-01T03:57:18+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4851",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "a458dcb2da545e7f3bdc18ce612822a835f682fa7839290e8e9f9ccc45907e9c",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:drdecki/deepforge-dungeons-the-hollow-crown",
+   "url": "https://api.github.com/repos/drdecki/deepforge-dungeons-the-hollow-crown",
+   "checkedAt": "2026-10-01T03:57:18+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4850",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "0acbb397cf7a0ac8ef65661e29fd0a8e5ff1d9bafad62fcaca9096bc042c60c2",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:dsc-martin/a25-mid-autumn",
+   "url": "https://api.github.com/repos/dsc-martin/a25-mid-autumn",
+   "checkedAt": "2026-10-01T03:57:18+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4849",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "15f20cf4b533cfa0e9770e125118d75d2374845619b78b66e7f35ea4c23d35c1",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:dylantlwu/opus-animation-course",
+   "url": "https://api.github.com/repos/dylantlwu/opus-animation-course",
+   "checkedAt": "2026-10-01T03:57:19+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4848",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "daa356ea1f4f3749800419745bb755b34d774d2f89f30ba917b32230d18c8172",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:e1daru/opus-5-5-dev-guide",
+   "url": "https://api.github.com/repos/e1daru/opus-5-5-dev-guide",
+   "checkedAt": "2026-10-01T03:57:19+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4847",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "5fcb7dc1f601f321bf211fdd3ee049692c44dc3acc5619d19de2b26f9bcc0a74",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:ed-is-ai/featherbench",
+   "url": "https://api.github.com/repos/ed-is-ai/featherbench",
+   "checkedAt": "2026-10-01T03:57:19+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4846",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "d5387788a0393c53edede158c21179ba7cbd107ff2ae99802fbfc0950da882b7",
+   "ok": true,
+   "metrics": {
+    "stars": 4
+   }
+  },
+  {
+   "key": "github:edd426/claude_opus_5_5_autobiographical",
+   "url": "https://api.github.com/repos/edd426/claude_opus_5_5_autobiographical",
+   "checkedAt": "2026-10-01T03:57:19+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4845",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "2c775650cf96d7e329b56810047f1ee51289f60749c171872d495d20ae970936",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:eddienews/opus-5-5-prompt-studio",
+   "url": "https://api.github.com/repos/eddienews/opus-5-5-prompt-studio",
+   "checkedAt": "2026-10-01T03:57:20+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4844",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "c5f9fdb4ede56b5deef28239a01af253003dedb43102d943fe3ea8d7e93da7ae",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:efkrdnz/opus-game-test-2",
+   "url": "https://api.github.com/repos/efkrdnz/opus-game-test-2",
+   "checkedAt": "2026-10-01T03:57:20+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4843",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "ff87025cf70f07db61636bd25626f4a30817b50fa6085e5f03bbf73f66acacbd",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:efkrdnz/opus-game-test-3",
+   "url": "https://api.github.com/repos/efkrdnz/opus-game-test-3",
+   "checkedAt": "2026-10-01T03:57:20+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4842",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "11d2707a23995d76356ad75d9573cd9f7a952b7f819fab3ec1e3e817fd4869d7",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:efkrdnz/opus-test-game",
+   "url": "https://api.github.com/repos/efkrdnz/opus-test-game",
+   "checkedAt": "2026-10-01T03:57:20+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4841",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "870d0f0967d75ed5d877f7665ac9ae575d226e9af281af2d89a20ca0e39e745f",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:eszn/claude-absolutely-right",
+   "url": "https://api.github.com/repos/eszn/claude-absolutely-right",
+   "checkedAt": "2026-10-01T03:57:20+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4840",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "8346ccf40f213fa307344dc62667b6f275c3661d3ee391f44fcdb4c51cd2e551",
+   "ok": true,
+   "metrics": {
+    "stars": 3
+   }
+  },
+  {
+   "key": "github:ethanplusai/outpace",
+   "url": "https://api.github.com/repos/ethanplusai/outpace",
+   "checkedAt": "2026-10-01T03:57:20+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4839",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "b28348d9c6618f26638540ee5454bb490c981a8f20cb54b8f0aeb38610daad72",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:everett406/code-film",
+   "url": "https://api.github.com/repos/everett406/code-film",
+   "checkedAt": "2026-10-01T03:57:21+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4838",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "651cb09981ad32f44d2a6ae000bc72c9f6f7a5b2b3276087f6748420128e6f59",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:fants/gale-kart",
+   "url": "https://api.github.com/repos/fants/gale-kart",
+   "checkedAt": "2026-10-01T03:57:21+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4837",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "c38718a6277e8de9a74403f07749739887c177d59d554718e6d735b517a24449",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:faultmaven/faultmaven",
+   "url": "https://api.github.com/repos/faultmaven/faultmaven",
+   "checkedAt": "2026-10-01T03:57:21+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4836",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "8549f4741cd03fb63bf19f68f64c866f41178b2a8912216dd493e23c03be5afe",
+   "ok": true,
+   "metrics": {
+    "stars": 3
+   }
+  },
+  {
+   "key": "github:fenglin-maple/one-last-kiss-opus5.5-web-mv",
+   "url": "https://api.github.com/repos/fenglin-maple/one-last-kiss-opus5.5-web-mv",
+   "checkedAt": "2026-10-01T03:57:21+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4835",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "9d6493988bd754fcd9755845aad36e0017c529d09535526d913e7bae460f75e6",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:fish2lab/bjtu-touhou-booth",
+   "url": "https://api.github.com/repos/fish2lab/bjtu-touhou-booth",
+   "checkedAt": "2026-10-01T03:57:22+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4834",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "30fdacb9f506bb3b4c59d83785ab5c471d2fa528b8f061634e62090af7e10315",
+   "ok": true,
+   "metrics": {
+    "stars": 4
+   }
+  },
+  {
+   "key": "github:fornhere/opus55-demolar",
+   "url": "https://api.github.com/repos/fornhere/opus55-demolar",
+   "checkedAt": "2026-10-01T03:57:22+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4833",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "be36dea293c66d821596b0e7d2a468b8ec54db0590375ff08a2d8c11e2709571",
+   "ok": true,
+   "metrics": {
+    "stars": 2
+   }
+  },
+  {
+   "key": "github:francozanardi/papermotion",
+   "url": "https://api.github.com/repos/francozanardi/papermotion",
+   "checkedAt": "2026-10-01T03:57:22+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4832",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "edc052202b5ae1c25d105c4e0fa6aaf431bd6b3821ba6f73e925878702b78d65",
+   "ok": true,
+   "metrics": {
+    "stars": 3
+   }
+  },
+  {
+   "key": "github:franpiaggio/gastos",
+   "url": "https://api.github.com/repos/franpiaggio/gastos",
+   "checkedAt": "2026-10-01T03:57:22+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4831",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "a2618ffbc168ed075068b3dbf874665249f36acd73db45d09b32ea2cbfd207b1",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:gatoartstudio/f1-opus-5.5",
+   "url": "https://api.github.com/repos/gatoartstudio/f1-opus-5.5",
+   "checkedAt": "2026-10-01T03:57:23+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4830",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "2977a09aaf1c1393dd601125d0d4e5ac22435cecbad1f62ec53ea0f24255783d",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:ggdover/deepdelve",
+   "url": "https://api.github.com/repos/ggdover/deepdelve",
+   "checkedAt": "2026-10-01T03:57:23+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4829",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "03f7be63202bba862cee26138e11dc305b01655adff0d8e1c6d02b6c687a1fd1",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:ggdover/mashuprpg",
+   "url": "https://api.github.com/repos/ggdover/mashuprpg",
+   "checkedAt": "2026-10-01T03:57:23+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4828",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "8da91b031aa5c4ca7e72574f393031d0e8aff93bf6184772f04b79c9f7c43594",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:github/copilot-cli",
+   "url": "https://api.github.com/repos/github/copilot-cli",
+   "checkedAt": "2026-10-01T03:57:23+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4827",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "fe98834cab6f25683d714378c8869433f06d9dc6785c4dafb785e9e503441f93",
+   "ok": true,
+   "metrics": {
+    "stars": 11231
+   }
+  },
+  {
+   "key": "github:groundstation1/small-works",
+   "url": "https://api.github.com/repos/groundstation1/small-works",
+   "checkedAt": "2026-10-01T03:57:23+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4826",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "aa81bfbef2b88f5235c043b3bcccc1f323b8de1901edf5c4964f38d3bdd61f5b",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:haxzie/p-doom-ft-genmotion",
+   "url": "https://api.github.com/repos/haxzie/p-doom-ft-genmotion",
+   "checkedAt": "2026-10-01T03:57:24+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4825",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "54aa97a0581222833bbe128c5188f17796091d6946796a405ca343448f557789",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:hoangduong92/idea-to-film-skill",
+   "url": "https://api.github.com/repos/hoangduong92/idea-to-film-skill",
+   "checkedAt": "2026-10-01T03:57:24+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4824",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "5847a08eeda56791003a6783d090eae17953de83a94720a79f71dfbfdc7aee7e",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:hugoromao/project-alife-ptbr",
+   "url": "https://api.github.com/repos/hugoromao/project-alife-ptbr",
+   "checkedAt": "2026-10-01T03:57:24+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4823",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "a669852ccfd8bbf2758a0870fc4f01ffa0166489d51a9cb02e39b61ddee0b9ae",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:iart-ai/javascript-animation-skills",
+   "url": "https://api.github.com/repos/iart-ai/javascript-animation-skills",
+   "checkedAt": "2026-10-01T03:57:24+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4822",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "a92effa16bf939cce68d12efc64174c4db682d0127a193b7acc5bf9f4e1e29e2",
+   "ok": true,
+   "metrics": {
+    "stars": 11
+   }
+  },
+  {
+   "key": "github:id2359/nimbots",
+   "url": "https://api.github.com/repos/id2359/nimbots",
+   "checkedAt": "2026-10-01T03:57:24+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4821",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "87355719dd8c49bb9ec016ffd41543532236d96f223774c8b42d4d9126d9e30f",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:imbad0202/academic-research-skills",
+   "url": "https://api.github.com/repos/imbad0202/academic-research-skills",
+   "checkedAt": "2026-10-01T03:57:25+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4820",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "7ba5018363cb3f66c154dbb27cd2f200280858e2738c67567af0931d00320747",
+   "ok": true,
+   "metrics": {
+    "stars": 50010
+   }
+  },
+  {
+   "key": "github:irgegh2/unity-opus-5.5-minecraft",
+   "url": "https://api.github.com/repos/irgegh2/unity-opus-5.5-minecraft",
+   "checkedAt": "2026-10-01T03:57:25+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4819",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "64eb7a0384cb668bf03805a4f4089375247cf319fafd597a13df7e7c95e380fa",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:jack-c3l2w/arkanoid-neon",
+   "url": "https://api.github.com/repos/jack-c3l2w/arkanoid-neon",
+   "checkedAt": "2026-10-01T03:57:25+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4818",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "ca00e7b68f49439e1e53996e700ba43700f0ff29aa84d0fa967dde51aea6763a",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:japsnap/motionreels",
+   "url": "https://api.github.com/repos/japsnap/motionreels",
+   "checkedAt": "2026-10-01T03:57:25+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4817",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "0f93586cbeb47e42b18f95917713883646c7a43f2f090eb21af5bc236f573cb1",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:jaredtate/tatertotsflightsim",
+   "url": "https://api.github.com/repos/jaredtate/tatertotsflightsim",
+   "checkedAt": "2026-10-01T03:57:25+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4816",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "363c6ba65e6114c97a3d6640c3fdced7ab2ca37f1f1b4b94e61db0a3dda68061",
+   "ok": true,
+   "metrics": {
+    "stars": 3
+   }
+  },
+  {
+   "key": "github:jas2k/gameboy-game-watch-opus-5.5-",
+   "url": "https://api.github.com/repos/jas2k/gameboy-game-watch-opus-5.5-",
+   "checkedAt": "2026-10-01T03:57:26+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4815",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "aaaa1dcecd79f1e45e4ba49e640ec99b57e74ca163de66d57b923ed6daf0574e",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:jas2k/opus-5.5-",
+   "url": "https://api.github.com/repos/jas2k/opus-5.5-",
+   "checkedAt": "2026-10-01T03:57:26+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4814",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "e66abf40a3ef7afd99e76da7def350658dc4663bc094cd7625c40cf44432985b",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:jasontzeng123/the-arc",
+   "url": "https://api.github.com/repos/jasontzeng123/the-arc",
+   "checkedAt": "2026-10-01T03:57:26+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4813",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "61464e348533639fea0d72cd273f20b60a0f382d102cf98ae90c96bda8a7a18c",
+   "ok": true,
+   "metrics": {
+    "stars": 16
+   }
+  },
+  {
+   "key": "github:javichur/radikal-bikers",
+   "url": "https://api.github.com/repos/javichur/radikal-bikers",
+   "checkedAt": "2026-10-01T03:57:26+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4812",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "bc81b19b2b60b0b1b418499f77d2bb80a6d729045edbe91312734f6d871c71af",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:jbang2004/long-wind",
+   "url": "https://api.github.com/repos/jbang2004/long-wind",
+   "checkedAt": "2026-10-01T03:57:26+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4811",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "255872920898765db793d4e822afcaa947fea2111e9b8c945b637911b909a6f2",
+   "ok": true,
+   "metrics": {
+    "stars": 35
+   }
+  },
+  {
+   "key": "github:jeaxindr-dotcom/sonnet-55-vs-opus-55",
+   "url": "https://api.github.com/repos/jeaxindr-dotcom/sonnet-55-vs-opus-55",
+   "checkedAt": "2026-10-01T03:57:27+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4810",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "9cc9aab3bd2dd7892ff7ac4479d8ac1387d58bcacfb46666f2156fe00b0b3eff",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:jerryliu369/noita-benchmark",
+   "url": "https://api.github.com/repos/jerryliu369/noita-benchmark",
+   "checkedAt": "2026-10-01T03:57:27+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4809",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "0f09bc71393df48662244eb82f55554b9608a0bc12334ef3b9a6ada7da5c1bae",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:jezweb/vite-flare-starter",
+   "url": "https://api.github.com/repos/jezweb/vite-flare-starter",
+   "checkedAt": "2026-10-01T03:57:27+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4808",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "455944540ccac31818e31bef5cc2de6f75219192b711308a8fe6226719f44c6e",
+   "ok": true,
+   "metrics": {
+    "stars": 49
+   }
+  },
+  {
+   "key": "github:jimbobbennett/claude-compare",
+   "url": "https://api.github.com/repos/jimbobbennett/claude-compare",
+   "checkedAt": "2026-10-01T03:57:27+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4807",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "de73b4cf28e27705bee1166ddc82bf032ea1980802555bd346b285f539aa70c2",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:jmcentire/advocate",
+   "url": "https://api.github.com/repos/jmcentire/advocate",
+   "checkedAt": "2026-10-01T03:57:27+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4806",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "c32259f63c0f2bb56217325e712b7a35e987287757d5513e5bdb94fbaf847382",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:joefedna/claude-opus-5.5-motion-video-skill",
+   "url": "https://api.github.com/repos/joefedna/claude-opus-5.5-motion-video-skill",
+   "checkedAt": "2026-10-01T03:57:28+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4805",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "bf599bf1304af4ec559eb138fa8bbae53f77eb3f0e14c75ea137f7c3fd603e76",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:joeseesun/opus-video-prompts",
+   "url": "https://api.github.com/repos/joeseesun/opus-video-prompts",
+   "checkedAt": "2026-10-01T03:57:28+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4804",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "fc9e432edff50c6ea358c069c35cc6ab9e8a88b3a68bb0116761713e2094f5c3",
+   "ok": true,
+   "metrics": {
+    "stars": 110
+   }
+  },
+  {
+   "key": "github:johnheibel/claudeanimationbase",
+   "url": "https://api.github.com/repos/johnheibel/claudeanimationbase",
+   "checkedAt": "2026-10-01T03:57:28+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4803",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "bce57682e970d95feb90980b5647b9a129249cbcbfcce54bcd89b20c3ddc7a3e",
+   "ok": true,
+   "metrics": {
+    "stars": 643
+   }
+  },
+  {
+   "key": "github:johnheibel/pdoomvideo",
+   "url": "https://api.github.com/repos/johnheibel/pdoomvideo",
+   "checkedAt": "2026-10-01T03:57:28+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4802",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "d44d69b93d3137962f3d0a3e1e0906caa67c2b80d8e12059b2ab56fe3b781c2c",
+   "ok": true,
+   "metrics": {
+    "stars": 1600
+   }
+  },
+  {
+   "key": "github:jphutchins/proj-digitizing-local-biz-research",
+   "url": "https://api.github.com/repos/jphutchins/proj-digitizing-local-biz-research",
+   "checkedAt": "2026-10-01T03:57:28+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4801",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "bee6bedbd99c494eb3e9221490640d7894bf92efe599e36ab299a6a65964cd58",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:jtmc-g3/helloneighbor",
+   "url": "https://api.github.com/repos/jtmc-g3/helloneighbor",
+   "checkedAt": "2026-10-01T03:57:29+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4800",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "ff86437ba84c46c1f269a5f71e28c29c80337bb2e840869d5dd8dd1d082ed95e",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:juliusbrussee/jazz-jackrabbit-remastered",
+   "url": "https://api.github.com/repos/juliusbrussee/jazz-jackrabbit-remastered",
+   "checkedAt": "2026-10-01T03:57:29+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4799",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "40aa1e8efe35782398e8a8b4d28b735c7e6c623297e35d84b85bcbd3fa66cf05",
+   "ok": true,
+   "metrics": {
+    "stars": 3
+   }
+  },
+  {
+   "key": "github:juyi404/opus55-promo",
+   "url": "https://api.github.com/repos/juyi404/opus55-promo",
+   "checkedAt": "2026-10-01T03:57:29+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4798",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "08172142265b337be187f64a27fab11bf52b43f306403bbd9efa981604245a20",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:jwp2987/phosphor",
+   "url": "https://api.github.com/repos/jwp2987/phosphor",
+   "checkedAt": "2026-10-01T03:57:29+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4797",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "e08a1e472967e4084feba9581279013c4fd6eccdf3c2d0b9ee7e3dff3597f4e2",
+   "ok": true,
+   "metrics": {
+    "stars": 2
+   }
+  },
+  {
+   "key": "github:kaigen-technologies/kaigen-minecraft-opus-5-5",
+   "url": "https://api.github.com/repos/kaigen-technologies/kaigen-minecraft-opus-5-5",
+   "checkedAt": "2026-10-01T03:57:29+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4796",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "d5a48e1575ecbf0a69c9107af488de5492860d25ccc2e0f16901b46fa7c4581c",
+   "ok": true,
+   "metrics": {
+    "stars": 6
+   }
+  },
+  {
+   "key": "github:kamibukuro18/opuscrabhouse",
+   "url": "https://api.github.com/repos/kamibukuro18/opuscrabhouse",
+   "checkedAt": "2026-10-01T03:57:30+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4795",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "8f67f07ecc9652b55df7fe531757aed4d2397121bde819c0a63b44b48db94fa3",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:katsuhiro-hayasaka-orico/3d-kousai-opus5.5",
+   "url": "https://api.github.com/repos/katsuhiro-hayasaka-orico/3d-kousai-opus5.5",
+   "checkedAt": "2026-10-01T03:57:30+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4794",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "0f741f5ff5fb8e387ce0366b022f05196e0cfe68e94910f12b9df382b0fab94a",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:kaybenleroll/random_llm_projects",
+   "url": "https://api.github.com/repos/kaybenleroll/random_llm_projects",
+   "checkedAt": "2026-10-01T03:57:30+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4793",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "6a27b17c4d740903af8352970beb238fa82ffa5b839cc12e8d84c1dd8aec894d",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:kianzzz/xilo-opus-video",
+   "url": "https://api.github.com/repos/kianzzz/xilo-opus-video",
+   "checkedAt": "2026-10-01T03:57:30+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4792",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "3576313a1c3a87354236d30db8e57ddb97d3d1efb582ced52a5e8e8183ee76f6",
+   "ok": true,
+   "metrics": {
+    "stars": 11
+   }
+  },
+  {
+   "key": "github:kirodotdev/kiro",
+   "url": "https://api.github.com/repos/kirodotdev/kiro",
+   "checkedAt": "2026-10-01T03:57:30+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4791",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "6da31f7f7a620f6bad18bdddb947ad79b5d3a065f6fdaab45189bc6198fbf279",
+   "ok": true,
+   "metrics": {
+    "stars": 4341
+   }
+  },
+  {
+   "key": "github:kjlkurt/waterslide-game-opus-5.5",
+   "url": "https://api.github.com/repos/kjlkurt/waterslide-game-opus-5.5",
+   "checkedAt": "2026-10-01T03:57:31+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4790",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "68f6fd1b003b88bba66789acfac8029187cadae12b66647744741aa5cba5a8f8",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:klsoen/opus-js-animations",
+   "url": "https://api.github.com/repos/klsoen/opus-js-animations",
+   "checkedAt": "2026-10-01T03:57:31+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4789",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "f339c3fd4561114ce8ddb0c36a07c30001fe33f62c940b4883a6ecbfc26fdb9d",
+   "ok": true,
+   "metrics": {
+    "stars": 15
+   }
+  },
+  {
+   "key": "github:koliebe25/generativeai",
+   "url": "https://api.github.com/repos/koliebe25/generativeai",
+   "checkedAt": "2026-10-01T03:57:31+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4788",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "1492536a5503aee6b122a736bf9ba007a711d2ae2ebdea115002010bc0f7401e",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:krillinai/awesome-opus-animation",
+   "url": "https://api.github.com/repos/krillinai/awesome-opus-animation",
+   "checkedAt": "2026-10-01T03:57:31+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4787",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "e1547265e807ea7176eb9357c0ad28262bf18c252d46c4c321fe6f69df04440c",
+   "ok": true,
+   "metrics": {
+    "stars": 19
+   }
+  },
+  {
+   "key": "github:kylebuildsai/driftwing",
+   "url": "https://api.github.com/repos/kylebuildsai/driftwing",
+   "checkedAt": "2026-10-01T03:57:32+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4786",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "c37bcac07fe10ced2e53311c0480e9682d24c92d30ebd32ff8dd6221d1e52e73",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:l1vsun/blockworld",
+   "url": "https://api.github.com/repos/l1vsun/blockworld",
+   "checkedAt": "2026-10-01T03:57:32+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4785",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "7f7b96ad6db8f31fb1e82115a1d6492b8b69ad3e8412d97936e2b1458ce0a107",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:leancoderkavy/premiere-pro-mcp",
+   "url": "https://api.github.com/repos/leancoderkavy/premiere-pro-mcp",
+   "checkedAt": "2026-10-01T03:57:32+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4784",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "b2806f2a4180a92dcb790f88fd05055845f2b6832a1c5ce457582fb0404cd772",
+   "ok": true,
+   "metrics": {
+    "stars": 308
+   }
+  },
+  {
+   "key": "github:ledbetterljoshua/functional-emotions-video",
+   "url": "https://api.github.com/repos/ledbetterljoshua/functional-emotions-video",
+   "checkedAt": "2026-10-01T03:57:32+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4783",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "22bc59650b5e732343bd28f3308936c1ddbec2be41b4d3c2141b6b9c2b6d92d7",
+   "ok": true,
+   "metrics": {
+    "stars": 58
+   }
+  },
+  {
+   "key": "github:legerdo/metric-bloom-opus-5-5",
+   "url": "https://api.github.com/repos/legerdo/metric-bloom-opus-5-5",
+   "checkedAt": "2026-10-01T03:57:32+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4782",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "bd4eaeb17b51f813b69a47d9a178bb10bc4b795add38910771293e4bf5806181",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:legerdo/opus55-anime-pixel-character-action-benchmark-20260929-032231",
+   "url": "https://api.github.com/repos/legerdo/opus55-anime-pixel-character-action-benchmark-20260929-032231",
+   "checkedAt": "2026-10-01T03:57:33+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4781",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "a55f8e629e821790cbb2c22ec1f9f2318519914516c355d753af82b8356c9de6",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:legerdo/opus55-pixel-character-action-benchmark",
+   "url": "https://api.github.com/repos/legerdo/opus55-pixel-character-action-benchmark",
+   "checkedAt": "2026-10-01T03:57:33+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4780",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "bf45369c24d1452204089bf2ab3e3f283be5de7598348d26919119287adef125",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:legerdo/opus55-pixel-diorama-benchmark",
+   "url": "https://api.github.com/repos/legerdo/opus55-pixel-diorama-benchmark",
+   "checkedAt": "2026-10-01T03:57:33+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4779",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "8245ddf30e187a2b8d369e79fbc67c9e7b7dc22f8c074103e79aeff1c364ce5a",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:legerdo/wreckline",
+   "url": "https://api.github.com/repos/legerdo/wreckline",
+   "checkedAt": "2026-10-01T03:57:33+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4778",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "1c0ce5a50336fe3a2577165005415c12dfb61c9b47e4ef0476d4cea4c8f2e251",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:leichtbier/core-business",
+   "url": "https://api.github.com/repos/leichtbier/core-business",
+   "checkedAt": "2026-10-01T03:57:33+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4777",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "12a89b40d447bbe53c239a9aa98198a012def6108245a9a4617d36ca75c523c9",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:lemomo-ai/lemo-opuscar",
+   "url": "https://api.github.com/repos/lemomo-ai/lemo-opuscar",
+   "checkedAt": "2026-10-01T03:57:34+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4776",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "7b2b1b6047c22fdb1e4a36df4cf811996ca6e5be764fda18bee9e78d088012d5",
+   "ok": true,
+   "metrics": {
+    "stars": 693
+   }
+  },
+  {
+   "key": "github:levy-street/pokemon-claude-red",
+   "url": "https://api.github.com/repos/levy-street/pokemon-claude-red",
+   "checkedAt": "2026-10-01T03:57:34+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4775",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "a66170f9e92fdad26055e28b18fd87a5d279878b6b36f59325e633029038a98c",
+   "ok": true,
+   "metrics": {
+    "stars": 56
+   }
+  },
+  {
+   "key": "github:lextoumbourou/opus-satoshi-research",
+   "url": "https://api.github.com/repos/lextoumbourou/opus-satoshi-research",
+   "checkedAt": "2026-10-01T03:57:34+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4774",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "e078583beae0a71fb46422ff156f761d6915b0bd79514abf4d5cde6872c9057d",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:lightspeeddms/claude-pace-maker",
+   "url": "https://api.github.com/repos/lightspeeddms/claude-pace-maker",
+   "checkedAt": "2026-10-01T03:57:34+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4773",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "17dcd70c2ffc10f8d58b8ede6efeb83e0368d96217c7ffa05ab7ffbc8e8f4256",
+   "ok": true,
+   "metrics": {
+    "stars": 5
+   }
+  },
+  {
+   "key": "github:livekit/agents",
+   "url": "https://api.github.com/repos/livekit/agents",
+   "checkedAt": "2026-10-01T03:57:34+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4772",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "9a009434bab6882f72e1b05c7d03da1cfa4d9c7e42ab401569755c3e8f25befc",
+   "ok": true,
+   "metrics": {
+    "stars": 14435
+   }
+  },
+  {
+   "key": "github:ljaguil/npc-village",
+   "url": "https://api.github.com/repos/ljaguil/npc-village",
+   "checkedAt": "2026-10-01T03:57:35+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4771",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "52990f881f4cec562f005de1882258e7077c0e70f6bca63e9b4b889907cefd25",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:lucadidomenico/jev-router-esperimento",
+   "url": "https://api.github.com/repos/lucadidomenico/jev-router-esperimento",
+   "checkedAt": "2026-10-01T03:57:35+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4770",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "d2f683d81a574994625f5593754b81dfc2f8b72af1979da308aedd8fbcb1953b",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:lunghungdev/starry-universe-animation-by-opus-5.5",
+   "url": "https://api.github.com/repos/lunghungdev/starry-universe-animation-by-opus-5.5",
+   "checkedAt": "2026-10-01T03:57:35+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4769",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "4fd080ed6e00a92a3d316aefe099ab05a14d172a02a6cf3db71d4bf9b3dd0e29",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:madheshvivekanandan/perfect-yorker-3d",
+   "url": "https://api.github.com/repos/madheshvivekanandan/perfect-yorker-3d",
+   "checkedAt": "2026-10-01T03:57:35+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4768",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "bf9c053604db2d9e951baeb4beaeb0ab875c0f486b95d11834a71bd4aa9f5dd6",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:makevoid/motion-graphics-music-video-skill",
+   "url": "https://api.github.com/repos/makevoid/motion-graphics-music-video-skill",
+   "checkedAt": "2026-10-01T03:57:36+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4767",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "395633591dc067f6ff9a95bcb96b0ba218517bea6619d551e708689fcf53a247",
+   "ok": true,
+   "metrics": {
+    "stars": 81
+   }
+  },
+  {
+   "key": "github:maoku/opus55catgirlpachi",
+   "url": "https://api.github.com/repos/maoku/opus55catgirlpachi",
+   "checkedAt": "2026-10-01T03:57:36+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4766",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "64abfd8349c0e9143d3395df3677faa2e8e0a21e08edc078693a940f6809e6aa",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:maoku/opus55opticalillusion",
+   "url": "https://api.github.com/repos/maoku/opus55opticalillusion",
+   "checkedAt": "2026-10-01T03:57:36+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4765",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "b981fc5707c75c748ed88ef1af8bb5d786dd6f1971c2285da9b74393f18d7ae0",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:masanami/claude-harness",
+   "url": "https://api.github.com/repos/masanami/claude-harness",
+   "checkedAt": "2026-10-01T03:57:36+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4764",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "b66187e4e2ea6871ad81007c1a072fc8fb21af1998d6e7d80adaeb1e76c81883",
+   "ok": true,
+   "metrics": {
+    "stars": 5
+   }
+  },
+  {
+   "key": "github:mattezell/open-to-work",
+   "url": "https://api.github.com/repos/mattezell/open-to-work",
+   "checkedAt": "2026-10-01T03:57:36+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4763",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "48a251798bc9d167b84acee2a60efd011f2c6e750aaeb7addf514baa770c774a",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:meaterick/opusvideo",
+   "url": "https://api.github.com/repos/meaterick/opusvideo",
+   "checkedAt": "2026-10-01T03:57:36+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4762",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "18c375a44c56e4497f008f00aa85e8f4b5c26bd770dd7c2e8b7102d9b506fda3",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:meijynx/claude-opus5.5-makebrandfilm",
+   "url": "https://api.github.com/repos/meijynx/claude-opus5.5-makebrandfilm",
+   "checkedAt": "2026-10-01T03:57:37+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4761",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "139fda50767697b6545b044fcf0d0edef4a34fd01f601eba0d0f65566cc03b33",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:melvin2611/claudeos",
+   "url": "https://api.github.com/repos/melvin2611/claudeos",
+   "checkedAt": "2026-10-01T03:57:37+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4760",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "4a7b6bd64edb6f0bf59fb5c5d87e7add1a8f8c16867819e7f5e1765ed78b5ace",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:miaai-lab/claude-opus-5.5-100-html-files",
+   "url": "https://api.github.com/repos/miaai-lab/claude-opus-5.5-100-html-files",
+   "checkedAt": "2026-10-01T03:57:37+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4759",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "242148bd8b3c9b64bc682f33d3a427d5c9b9ccd79824d3e84318a172a7a2ec9e",
+   "ok": true,
+   "metrics": {
+    "stars": 80
+   }
+  },
+  {
+   "key": "github:michalbe/viatr-and-deshch",
+   "url": "https://api.github.com/repos/michalbe/viatr-and-deshch",
+   "checkedAt": "2026-10-01T03:57:37+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4758",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "7875ae2eac957782f15f69739c71a3cd1aacc0cbaf06544c7c2c323ef85f1db3",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:micz/thunderai",
+   "url": "https://api.github.com/repos/micz/thunderai",
+   "checkedAt": "2026-10-01T03:57:38+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4757",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "e4d9a4ea5841637606f8b004462b32332d75d6068e3ef25b17faab0b81c1c339",
+   "ok": true,
+   "metrics": {
+    "stars": 348
+   }
+  },
+  {
+   "key": "github:mikelix/gstack-tutorial-5-agi-race-v2",
+   "url": "https://api.github.com/repos/mikelix/gstack-tutorial-5-agi-race-v2",
+   "checkedAt": "2026-10-01T03:57:38+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4756",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "73e86ac78705114f275585e134568d81c0f8f36f59bee1b961a92ecc9ccf9631",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:milliondreamsblog/motiondesignopus5.5",
+   "url": "https://api.github.com/repos/milliondreamsblog/motiondesignopus5.5",
+   "checkedAt": "2026-10-01T03:57:38+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4755",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "959d99a65f6dc7d243d1a87c4fdf07c9ab0c13d8976d2a9fbe8340b93694bb5c",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:misbahsy/claude-horizon-animation",
+   "url": "https://api.github.com/repos/misbahsy/claude-horizon-animation",
+   "checkedAt": "2026-10-01T03:57:38+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4754",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "9f8159f1c13ef4d1f53d75fac0db090fe6920b8620e0fb951475f4c6412aa6ab",
+   "ok": true,
+   "metrics": {
+    "stars": 4
+   }
+  },
+  {
+   "key": "github:mitotkp/zombies-lan",
+   "url": "https://api.github.com/repos/mitotkp/zombies-lan",
+   "checkedAt": "2026-10-01T03:57:38+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4753",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "d2140bda97d82935673b6fc263607c677425fe7e5db6268f9efe58b9bb19d7dc",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:mofferato/tempora",
+   "url": "https://api.github.com/repos/mofferato/tempora",
+   "checkedAt": "2026-10-01T03:57:38+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4752",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "cc3476dd71f7ef11d992c1be82eb1cbbf4e37beeabf0a18ad6969530ea9a6e38",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:mogita/emberwake",
+   "url": "https://api.github.com/repos/mogita/emberwake",
+   "checkedAt": "2026-10-01T03:57:39+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4751",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "17b612bd691d226e36ca30c5ebec0aa00976f185ed8882e64c89fdcd14dcc236",
+   "ok": true,
+   "metrics": {
+    "stars": 4
+   }
+  },
+  {
+   "key": "github:monzblog/claude_3dmodel_opus5p5",
+   "url": "https://api.github.com/repos/monzblog/claude_3dmodel_opus5p5",
+   "checkedAt": "2026-10-01T03:57:39+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4750",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "a777b5beb01096dac6be5c30a2825dbac01c6af9075490500b2d880ffde3b4dd",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:morganlinton/vulcanbench-opus55-traces",
+   "url": "https://api.github.com/repos/morganlinton/vulcanbench-opus55-traces",
+   "checkedAt": "2026-10-01T03:57:39+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4749",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "21e318b96fbaf374188e089fa9e45567beb74d60a13f9bef55944446ee810f8c",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:mrcarforearth/lol-claude-opus-5.5",
+   "url": "https://api.github.com/repos/mrcarforearth/lol-claude-opus-5.5",
+   "checkedAt": "2026-10-01T03:57:39+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4748",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "012e730c2c4f88d93840e4ac36298b6e1f167a46f50608b59a22a43bbb52271f",
+   "ok": true,
+   "metrics": {
+    "stars": 3
+   }
+  },
+  {
+   "key": "github:nadav2150/motion-",
+   "url": "https://api.github.com/repos/nadav2150/motion-",
+   "checkedAt": "2026-10-01T03:57:40+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4747",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "95cb9b2cfbaade5ed76c57ddf9166009468d4ccaf5d6ec4a46b51ffa87d8f689",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:nanlong/crayon-nocturne",
+   "url": "https://api.github.com/repos/nanlong/crayon-nocturne",
+   "checkedAt": "2026-10-01T03:57:40+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4746",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "ab1ba0a24f8297e0214e99d7a7a95c6a8716a6c06d559d454bf44464545971c6",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:nathankochera/opus-5.5-motion-graphics-2046",
+   "url": "https://api.github.com/repos/nathankochera/opus-5.5-motion-graphics-2046",
+   "checkedAt": "2026-10-01T03:57:40+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4745",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "656599368d7e13bd5148521eb81b4bacc11ceeab9e7d973d5bced0330e4a97d1",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:negevtvx/grok-vs-opus-catgirl-run",
+   "url": "https://api.github.com/repos/negevtvx/grok-vs-opus-catgirl-run",
+   "checkedAt": "2026-10-01T03:57:40+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4744",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "d5c4dd08a193e229003921233e7d347f7541f0d5566393219eabbe907f498be5",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:negevtvx/opus-vs-sonnet-catgirl-run",
+   "url": "https://api.github.com/repos/negevtvx/opus-vs-sonnet-catgirl-run",
+   "checkedAt": "2026-10-01T03:57:40+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4743",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "5bcb689e782631679704182f9c6df97a95fa45c5d71387446e0d7cf028fd07c4",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:nexost/sts2-pres-mod",
+   "url": "https://api.github.com/repos/nexost/sts2-pres-mod",
+   "checkedAt": "2026-10-01T03:57:41+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4742",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "48c8aa83206d018481046e94e5cded55efdc9182f689ff8d68379fc6295916e3",
+   "ok": true,
+   "metrics": {
+    "stars": 3
+   }
+  },
+  {
+   "key": "github:nickmontag/why-wont-you-let-me-help",
+   "url": "https://api.github.com/repos/nickmontag/why-wont-you-let-me-help",
+   "checkedAt": "2026-10-01T03:57:41+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4741",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "9c82981521bb089510a370ae1ae5e9a2027aac1585275c639e18dfa6c80df7cb",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:nifinet/gtm-autopilot",
+   "url": "https://api.github.com/repos/nifinet/gtm-autopilot",
+   "checkedAt": "2026-10-01T03:57:41+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4740",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "de12d783e32a6c31e9a66c015092ce8a63588663962d0266c41f261570d2afce",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:ninjahawk/livenerf",
+   "url": "https://api.github.com/repos/ninjahawk/livenerf",
+   "checkedAt": "2026-10-01T03:57:41+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4739",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "180e12aab2a148c7be69d8a83b99938e5eaed5a636be65ae6d7270dddd43fa41",
+   "ok": true,
+   "metrics": {
+    "stars": 860
+   }
+  },
+  {
+   "key": "github:nipale-ai/opus-5-5-overnight-builds",
+   "url": "https://api.github.com/repos/nipale-ai/opus-5-5-overnight-builds",
+   "checkedAt": "2026-10-01T03:57:41+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4738",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "b17e68c49da1251b15e358618fb9cfa9e7bed0f7a48f3ad7c8de1b66311b372f",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:nousresearch/hermes-agent",
+   "url": "https://api.github.com/repos/nousresearch/hermes-agent",
+   "checkedAt": "2026-10-01T03:57:42+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4737",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "412f48ac3c3d14968e2d4b85eb75aef19762a60225c1f6e877b57a6a440651f5",
+   "ok": true,
+   "metrics": {
+    "stars": 250384
+   }
+  },
+  {
+   "key": "github:nousresearch/hermes-plugin-claude-subscription-directsdk",
+   "url": "https://api.github.com/repos/nousresearch/hermes-plugin-claude-subscription-directsdk",
+   "checkedAt": "2026-10-01T03:57:42+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4736",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "780833f2baca7ffc0cfb11a73b7345ca2f90e58bc299ffd2e256f78d29c58387",
+   "ok": true,
+   "metrics": {
+    "stars": 71
+   }
+  },
+  {
+   "key": "github:okonio/felt-dot-gpt-vs-opus",
+   "url": "https://api.github.com/repos/okonio/felt-dot-gpt-vs-opus",
+   "checkedAt": "2026-10-01T03:57:42+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4735",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "4277e19676a630d0c04592f3578dfa25fb6114233c81e21929acd3c93e3b664a",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:oliverhees/huehnerjagd",
+   "url": "https://api.github.com/repos/oliverhees/huehnerjagd",
+   "checkedAt": "2026-10-01T03:57:42+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4734",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "10a3d9cdfd017fa397b521e5970e09540fd24a8bd2a07c01f68c689225b530aa",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:ominousindustries/opusskate",
+   "url": "https://api.github.com/repos/ominousindustries/opusskate",
+   "checkedAt": "2026-10-01T03:57:42+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4733",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "b9aadf812c79987bc83a6683051b19ec7d127f7a3bb28d8d964e480c41200052",
+   "ok": true,
+   "metrics": {
+    "stars": 45
+   }
+  },
+  {
+   "key": "github:openclaw/openclaw",
+   "url": "https://api.github.com/repos/openclaw/openclaw",
+   "checkedAt": "2026-10-01T03:57:43+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4732",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "d282da50dbcb4e2f97b0e5e4ab2a103b5971088b6f8d874588f4b3093684dc23",
+   "ok": true,
+   "metrics": {
+    "stars": 391023
+   }
+  },
+  {
+   "key": "github:openvglab/awesome-opus5.5-frontend-showcases",
+   "url": "https://api.github.com/repos/openvglab/awesome-opus5.5-frontend-showcases",
+   "checkedAt": "2026-10-01T03:57:43+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4731",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "e4c93149fa6d4c9b9b93c7bdfd60256a569d710d39c52c00a45e8c3cf4083fac",
+   "ok": true,
+   "metrics": {
+    "stars": 5
+   }
+  },
+  {
+   "key": "github:opusvideo/awesome-claude-video",
+   "url": "https://api.github.com/repos/opusvideo/awesome-claude-video",
+   "checkedAt": "2026-10-01T03:57:43+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4730",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "dc433db189accb6234d753cb472ed4079f0020d4ee214c59fa1d0b347d66190e",
+   "ok": true,
+   "metrics": {
+    "stars": 167
+   }
+  },
+  {
+   "key": "github:para-fr/claude-sonnet-vs-opus-flight-sim",
+   "url": "https://api.github.com/repos/para-fr/claude-sonnet-vs-opus-flight-sim",
+   "checkedAt": "2026-10-01T03:57:43+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4729",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "9550126faef73a550e480351441f49744f92a4cd5bbd75b2a58e70cba22af93e",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:peterheb/reefglass",
+   "url": "https://api.github.com/repos/peterheb/reefglass",
+   "checkedAt": "2026-10-01T03:57:44+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4728",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "b6f02d82fc575b28578d18a666f09b76ad70eaa6f51cd319014146598a2e99c6",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:petyok/life3d",
+   "url": "https://api.github.com/repos/petyok/life3d",
+   "checkedAt": "2026-10-01T03:57:44+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4727",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "aa32f9a65ebcadc2b75a10e7d1187c49b8f224825d4fe9afeb0c705a3948e5b6",
+   "ok": true,
+   "metrics": {
+    "stars": 2
+   }
+  },
+  {
+   "key": "github:piiiico/no-abstraction",
+   "url": "https://api.github.com/repos/piiiico/no-abstraction",
+   "checkedAt": "2026-10-01T03:57:44+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4726",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "e5a240118e8c3ae20771f48128dbe0d8bdf4d1d6b7b1a9b82b4229a7de03629c",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:prabhjotsodhi/claudejump",
+   "url": "https://api.github.com/repos/prabhjotsodhi/claudejump",
+   "checkedAt": "2026-10-01T03:57:44+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4725",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "90c20b8e6910e6b3cdc57ef970710a872632560a72318eedff7052d85fa479dc",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:primaryatias-oss/port-of-oceandrive-from-three.js-to-sdl3",
+   "url": "https://api.github.com/repos/primaryatias-oss/port-of-oceandrive-from-three.js-to-sdl3",
+   "checkedAt": "2026-10-01T03:57:44+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4724",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "7f8d5f9e4481c11538058e3efb556555089f0a5b786542920bead3ffc9fcf0d8",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:promptengineer48/claude-opus-5.5-games",
+   "url": "https://api.github.com/repos/promptengineer48/claude-opus-5.5-games",
+   "checkedAt": "2026-10-01T03:57:45+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4723",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "c71223b0b44ffe2a64fab8c2fae1cbd67ee3a4ae04b39f0edac881328978d48c",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:pydantic/pydantic-ai",
+   "url": "https://api.github.com/repos/pydantic/pydantic-ai",
+   "checkedAt": "2026-10-01T03:57:45+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4722",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "3ddde362aa058d5be78fdb26a71e68f634a4e776fba1e5eaf78fa7428d38f040",
+   "ok": true,
+   "metrics": {
+    "stars": 20300
+   }
+  },
+  {
+   "key": "github:quisbaum-prog/occam",
+   "url": "https://api.github.com/repos/quisbaum-prog/occam",
+   "checkedAt": "2026-10-01T03:57:45+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4721",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "06e8a775f164cc54e9d5a6362bc2a8458118aa45e905bc1407f67c4712aa0313",
+   "ok": true,
+   "metrics": {
+    "stars": 12
+   }
+  },
+  {
+   "key": "github:rajatslakhina/instruction-file-model-migration-article-demo",
+   "url": "https://api.github.com/repos/rajatslakhina/instruction-file-model-migration-article-demo",
+   "checkedAt": "2026-10-01T03:57:45+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4720",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "9cfa1df725d575ccbe879fcbd603caee127fd8ef97a8bc1af13f6d8d24536fb6",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:ramenprotokol/overkill",
+   "url": "https://api.github.com/repos/ramenprotokol/overkill",
+   "checkedAt": "2026-10-01T03:57:45+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4719",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "1ba6c79b4c0d0ff3f10040d9d47966469d77f9e5944e067cc42722c3aa0f560f",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:razgovor-glitch/island_opus5_5",
+   "url": "https://api.github.com/repos/razgovor-glitch/island_opus5_5",
+   "checkedAt": "2026-10-01T03:57:46+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4718",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "a3b572d5fb00329a5c5ac3851ee51b74833edb1a780f4de22c2b363b540cd212",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:rbarish-utokyo/fourcolortheorem-lean4",
+   "url": "https://api.github.com/repos/rbarish-utokyo/fourcolortheorem-lean4",
+   "checkedAt": "2026-10-01T03:57:46+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4717",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "72b6cd3e38e8899c420007138f7bc42818b7aef008dd9764e97d6d53aa740049",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:riba2534/claude-opus-5-5-demo",
+   "url": "https://api.github.com/repos/riba2534/claude-opus-5-5-demo",
+   "checkedAt": "2026-10-01T03:57:46+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4716",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "c6e15bbf2fdf20c110fa0b47d968896f93a5709a3e96489aee2c860badaba700",
+   "ok": true,
+   "metrics": {
+    "stars": 948
+   }
+  },
+  {
+   "key": "github:rohitranjan1812/opus-5-5-global-accumulation-monitoring-",
+   "url": "https://api.github.com/repos/rohitranjan1812/opus-5-5-global-accumulation-monitoring-",
+   "checkedAt": "2026-10-01T03:57:46+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4715",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "98c8587f9689516a87a43d66be3e35e62cd084f8c03c3df3b45efd5e4bd5c88f",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:rohitranjan1812/opus-5-5-test-climate-change",
+   "url": "https://api.github.com/repos/rohitranjan1812/opus-5-5-test-climate-change",
+   "checkedAt": "2026-10-01T03:57:46+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4714",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "de6011f82ecf6d964a27256d35e7517339f6ceafc6e6f68792ca8b3846a3aa69",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:rpd123-byte/apprentice-film",
+   "url": "https://api.github.com/repos/rpd123-byte/apprentice-film",
+   "checkedAt": "2026-10-01T03:57:47+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4713",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "ee35e22a101b58c2aefe31dbc4bd8c3c374fa4f202ba583f6631fcbde1fa167f",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:rylaa/fable5-opus5.5-orchestrator",
+   "url": "https://api.github.com/repos/rylaa/fable5-opus5.5-orchestrator",
+   "checkedAt": "2026-10-01T03:57:47+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4712",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "2047c262d6b47268a8ae863ddfe7c1399f16931680ae38525a00d8b6e51da8e2",
+   "ok": true,
+   "metrics": {
+    "stars": 78
+   }
+  },
+  {
+   "key": "github:saicharan007-max/opus-5.5hails",
+   "url": "https://api.github.com/repos/saicharan007-max/opus-5.5hails",
+   "checkedAt": "2026-10-01T03:57:47+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4711",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "c3a4dcbf8b7e0e90b68799615e748bb8c9eb8e161f0915338839d6b981549a29",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:sam1983aing/domino-show",
+   "url": "https://api.github.com/repos/sam1983aing/domino-show",
+   "checkedAt": "2026-10-01T03:57:47+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4710",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "ffc9623baf7f3b4da85b3e01fac8d9b880d966bb8895fd57f507f955241823d4",
+   "ok": true,
+   "metrics": {
+    "stars": 2
+   }
+  },
+  {
+   "key": "github:sameid/boxhead-online-html",
+   "url": "https://api.github.com/repos/sameid/boxhead-online-html",
+   "checkedAt": "2026-10-01T03:57:48+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4709",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "61758b9d9bcaa1df5f7bddaa05dcdb3132593a3f490292c970c2843ac22f5c4d",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:samuellawrentz/profile",
+   "url": "https://api.github.com/repos/samuellawrentz/profile",
+   "checkedAt": "2026-10-01T03:57:48+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4708",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "1ca6519b1455f6af29df59b664156eaba2f6665b94b5457ee2349e4617839b2f",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:sanjuhs/opus-5.5-film-experiment-with-animation",
+   "url": "https://api.github.com/repos/sanjuhs/opus-5.5-film-experiment-with-animation",
+   "checkedAt": "2026-10-01T03:57:48+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4707",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "3af4826d34354df3bde2f30be4b2e410abc0222b5ec4a3efa41ccfadc5e60cf3",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:seasnakes/world.execute-me-wallpaper",
+   "url": "https://api.github.com/repos/seasnakes/world.execute-me-wallpaper",
+   "checkedAt": "2026-10-01T03:57:48+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4706",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "3d5ff099ac5aef67225af6d160f27c70b22e668c02656289771b04a59637a72a",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:seenthedigital/history-of-the-edit",
+   "url": "https://api.github.com/repos/seenthedigital/history-of-the-edit",
+   "checkedAt": "2026-10-01T03:57:48+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4705",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "285d06650d83f60371a0ebdd9a59417356107d615eebb637151a1e6c9029e9fa",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:shabbirun/opus-5-5-os",
+   "url": "https://api.github.com/repos/shabbirun/opus-5-5-os",
+   "checkedAt": "2026-10-01T03:57:49+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4704",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "4198419d07a099967b32c706d2bf174d65b1a3d8a90377f224db279cda648bb0",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:shelpid/cortex",
+   "url": "https://api.github.com/repos/shelpid/cortex",
+   "checkedAt": "2026-10-01T03:57:49+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4703",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "cffb5d706a518a921a6b731a2980fd6bd099199ed79a57a0b0a276f75ed5d001",
+   "ok": true,
+   "metrics": {
+    "stars": 4
+   }
+  },
+  {
+   "key": "github:shiva78388789/akhbar-rush",
+   "url": "https://api.github.com/repos/shiva78388789/akhbar-rush",
+   "checkedAt": "2026-10-01T03:57:49+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4702",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "8ae5113b51cc62ef6fad7e315f56afb44a1f88bb2134a10c2079665d68edb984",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:sicraft11/3d-test-opus-5.5",
+   "url": "https://api.github.com/repos/sicraft11/3d-test-opus-5.5",
+   "checkedAt": "2026-10-01T03:57:49+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4701",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "ea175f78bb002eb0d468a1ad29d7ffd20ba411e3b47de6e37c1c3830d0d44afa",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:silentfleetkk/qingming-bianjing",
+   "url": "https://api.github.com/repos/silentfleetkk/qingming-bianjing",
+   "checkedAt": "2026-10-01T03:57:49+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4700",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "8bb016a663276ad1f4ae1b1432b28e8a6dff927a70efdc6434804af8ed1a11da",
+   "ok": true,
+   "metrics": {
+    "stars": 12
+   }
+  },
+  {
+   "key": "github:siwo55/dragon-sail-opus",
+   "url": "https://api.github.com/repos/siwo55/dragon-sail-opus",
+   "checkedAt": "2026-10-01T03:57:50+00:00",
+   "ok": false,
+   "error": "HTTP Error 404: GitHub API request failed",
+   "status": 404,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4699",
+    "x-ratelimit-reset": "1790828821"
+   }
+  },
+  {
+   "key": "github:smormah/vsift",
+   "url": "https://api.github.com/repos/smormah/vsift",
+   "checkedAt": "2026-10-01T03:57:50+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4698",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "027b9533a80a2566cd1a0a7e67a12d2285392b1a2c9d9b5c3d669b58ebc9b195",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:smvlx/opus55-longrun",
+   "url": "https://api.github.com/repos/smvlx/opus55-longrun",
+   "checkedAt": "2026-10-01T03:57:50+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4697",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "f0f5711a1a4f50bfaaa639736c15167b99c25fc8f35fe828a23b91d9a5be1814",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:snowflake-labs/data-eng-bench",
+   "url": "https://api.github.com/repos/snowflake-labs/data-eng-bench",
+   "checkedAt": "2026-10-01T03:57:50+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4696",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "b1547dac73464c9e812b06fc8ca5be17f8ad9c3bc3ac21629b6e207f79d7f91a",
+   "ok": true,
+   "metrics": {
+    "stars": 79
+   }
+  },
+  {
+   "key": "github:stas4000/claude-subagent-router",
+   "url": "https://api.github.com/repos/stas4000/claude-subagent-router",
+   "checkedAt": "2026-10-01T03:57:50+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4695",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "abf27d6d76bc9280c0c01d66750079a37300c9812442594bb75963bd0f544637",
+   "ok": true,
+   "metrics": {
+    "stars": 8
+   }
+  },
+  {
+   "key": "github:stas4000/datalens",
+   "url": "https://api.github.com/repos/stas4000/datalens",
+   "checkedAt": "2026-10-01T03:57:51+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4693",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "b32c73bc1cc7e4d9b04905f8834d771819200912b29491bf696df3445e48c74c",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:stas4000/prompt-fossils",
+   "url": "https://api.github.com/repos/stas4000/prompt-fossils",
+   "checkedAt": "2026-10-01T03:57:51+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4694",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "cbdd40ceabcefe4ea6bc946b544580e35983237f5914875ab3082524f7c8b558",
+   "ok": true,
+   "metrics": {
+    "stars": 2
+   }
+  },
+  {
+   "key": "github:statecs/bubble-catch",
+   "url": "https://api.github.com/repos/statecs/bubble-catch",
+   "checkedAt": "2026-10-01T03:57:51+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4692",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "4b9d89b9922b8dfbced49c136dcb5d2236e1ccdba30bf89dc010e5734ba4c5d1",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:stefan-zobel/sedis",
+   "url": "https://api.github.com/repos/stefan-zobel/sedis",
+   "checkedAt": "2026-10-01T03:57:51+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4691",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "0ac57abc327196061e010317f7bc4bdefef32c1086532093fac3345245d95db6",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:stevemaughan/opus-5.5-chess-24hrs",
+   "url": "https://api.github.com/repos/stevemaughan/opus-5.5-chess-24hrs",
+   "checkedAt": "2026-10-01T03:57:51+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4690",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "7f6e277289cc14784e4eac614743ddc40d6b8232f0e1144af4b998e763521966",
+   "ok": true,
+   "metrics": {
+    "stars": 3
+   }
+  },
+  {
+   "key": "github:stevepolitodesign/skills",
+   "url": "https://api.github.com/repos/stevepolitodesign/skills",
+   "checkedAt": "2026-10-01T03:57:51+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4689",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "6ceae0ed4ed1367158fe627472f8b892f27af60168fa478abacf2811d7223d98",
+   "ok": true,
+   "metrics": {
+    "stars": 3
+   }
+  },
+  {
+   "key": "github:suhaasnv/claude-opus5.5-video",
+   "url": "https://api.github.com/repos/suhaasnv/claude-opus5.5-video",
+   "checkedAt": "2026-10-01T03:57:52+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4688",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "e4bd274ec685e747384ab46dea618dae4ce95f92a26a050924084fccd90c5231",
+   "ok": true,
+   "metrics": {
+    "stars": 3
+   }
+  },
+  {
+   "key": "github:summerengine/sakura-rally",
+   "url": "https://api.github.com/repos/summerengine/sakura-rally",
+   "checkedAt": "2026-10-01T03:57:52+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4687",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "91c8413fd3394b56d14f3e8ecfaf881bf6bb8910ca075bf0aec1bd1488b62605",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:sv-tmueller/orchestrai",
+   "url": "https://api.github.com/repos/sv-tmueller/orchestrai",
+   "checkedAt": "2026-10-01T03:57:52+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4686",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "15e692e46bfd3bbe3b9f941e654c1ac6dc7531866ab1e5432073354d43fd9fac",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:swan4er/opus-100-projects",
+   "url": "https://api.github.com/repos/swan4er/opus-100-projects",
+   "checkedAt": "2026-10-01T03:57:52+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4685",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "9e5fb3e930ccff3b275eee1dd5d3ee6c46765a6babd006bf45f35cf455d22b78",
+   "ok": true,
+   "metrics": {
+    "stars": 2
+   }
+  },
+  {
+   "key": "github:synex1437/noctis",
+   "url": "https://api.github.com/repos/synex1437/noctis",
+   "checkedAt": "2026-10-01T03:57:53+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4684",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "6e0713ab781403b455ffd9d13c6e839e32bcff94b3c85db745fd1a46a57f252a",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:t-shiratori/azzurro-plane-3d-opus5.5",
+   "url": "https://api.github.com/repos/t-shiratori/azzurro-plane-3d-opus5.5",
+   "checkedAt": "2026-10-01T03:57:53+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4683",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "a44d41bd33d095f33d3446affc475f432aea81f33c016281756150419dc724d9",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:tahcin/pet-island",
+   "url": "https://api.github.com/repos/tahcin/pet-island",
+   "checkedAt": "2026-10-01T03:57:53+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4682",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "161aeb79ff31508990245d11e614a4981bc0fd8f063471a856a6cdba7892a1e6",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:tanuu5/clawd-7-8",
+   "url": "https://api.github.com/repos/tanuu5/clawd-7-8",
+   "checkedAt": "2026-10-01T03:57:53+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4681",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "0970983e371cb04f95f44ec9a2eb0fff45099db60bb8fa7a7b457bf1bec3e90f",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:tanuu5/ink-arcade",
+   "url": "https://api.github.com/repos/tanuu5/ink-arcade",
+   "checkedAt": "2026-10-01T03:57:54+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4679",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "f32732e1c6bbdfcdb32f15530aa3555590fbf10cb656377864071ca4700dad61",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:tanuu5/kaiju-dokan",
+   "url": "https://api.github.com/repos/tanuu5/kaiju-dokan",
+   "checkedAt": "2026-10-01T03:57:54+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4680",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "a31dfcfd19aa47a8e9982e694c8ac09b4e6b848037d4637a85882b83b612987b",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:tanuu5/nagi-home",
+   "url": "https://api.github.com/repos/tanuu5/nagi-home",
+   "checkedAt": "2026-10-01T03:57:54+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4678",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "1496dc6eb34969adee400c268319cc4d2508b1ab45d178dfc623309eac76ab67",
+   "ok": true,
+   "metrics": {
+    "stars": 3
+   }
+  },
+  {
+   "key": "github:tanuu5/natsu-no-yume",
+   "url": "https://api.github.com/repos/tanuu5/natsu-no-yume",
+   "checkedAt": "2026-10-01T03:57:54+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4677",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "42957742605d6c5662f69d25e4c8910c21418566e75df2eb80be73a559eb4f00",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:tanuu5/nova-lancer",
+   "url": "https://api.github.com/repos/tanuu5/nova-lancer",
+   "checkedAt": "2026-10-01T03:57:54+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4676",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "cd60abbef37868bb699a1f6ace7fc8cf6f81650caa4fff1d5ef9fe3e43e0a40c",
+   "ok": true,
+   "metrics": {
+    "stars": 3
+   }
+  },
+  {
+   "key": "github:tanuu5/opus-5.5-motion-reel",
+   "url": "https://api.github.com/repos/tanuu5/opus-5.5-motion-reel",
+   "checkedAt": "2026-10-01T03:57:54+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4675",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "5d6ea60e836840f372f72847ecbbe25840d6fe9492ff5ed8ccd15c63a807c1cf",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:teamchong/pxpipe",
+   "url": "https://api.github.com/repos/teamchong/pxpipe",
+   "checkedAt": "2026-10-01T03:57:55+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4674",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "43f9f0f52f358ef37be31ac39b67e1219084a3bb2bf0f53b2a412a79b2ef491a",
+   "ok": true,
+   "metrics": {
+    "stars": 7457
+   }
+  },
+  {
+   "key": "github:technomadcode/ai-product-development-toolkit",
+   "url": "https://api.github.com/repos/technomadcode/ai-product-development-toolkit",
+   "checkedAt": "2026-10-01T03:57:55+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4673",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "affdb220b03b71ec99e8015632be135206648c13a961867bd62795889dcc9b4e",
+   "ok": true,
+   "metrics": {
+    "stars": 994
+   }
+  },
+  {
+   "key": "github:testyee-09/opus5.5lethal",
+   "url": "https://api.github.com/repos/testyee-09/opus5.5lethal",
+   "checkedAt": "2026-10-01T03:57:55+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4672",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "b9cf463c1d5d36e59def232287ab3b154d4ccc64680357b0667e5fdb99019fd9",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:the-pr-agent/pr-agent",
+   "url": "https://api.github.com/repos/the-pr-agent/pr-agent",
+   "checkedAt": "2026-10-01T03:57:55+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4671",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "678ea29dd7a59eb856d7e605e5a45025fc5a51ce021fbbb8b412f97798a5959f",
+   "ok": true,
+   "metrics": {
+    "stars": 13209
+   }
+  },
+  {
+   "key": "github:thegoodengineers/wire-forge",
+   "url": "https://api.github.com/repos/thegoodengineers/wire-forge",
+   "checkedAt": "2026-10-01T03:57:56+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4670",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "98cafb1a56cadb56a8b23ad94057275a1a951384aa007173f0aa5b95b576ced8",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:theolundqvist/frontier-games",
+   "url": "https://api.github.com/repos/theolundqvist/frontier-games",
+   "checkedAt": "2026-10-01T03:57:56+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4669",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "700dc27d07b4eb2e0bb858df583c3f5d2558f81b96a282000cd81b4240c02ac0",
+   "ok": true,
+   "metrics": {
+    "stars": 20
+   }
+  },
+  {
+   "key": "github:theopenco/llmgateway",
+   "url": "https://api.github.com/repos/theopenco/llmgateway",
+   "checkedAt": "2026-10-01T03:57:56+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4667",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "4e745a56df093218a15c3f67024b02438d9e3837529fb6c9d086081dc6ece745",
+   "ok": true,
+   "metrics": {
+    "stars": 1668
+   }
+  },
+  {
+   "key": "github:thorhe-hub/opus-geometry-of-control",
+   "url": "https://api.github.com/repos/thorhe-hub/opus-geometry-of-control",
+   "checkedAt": "2026-10-01T03:57:56+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4668",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "c62b4aa30cf802a39261ec1b109c515396a41033d25cdfc0d9fd884e3cbf2735",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:tinybirdco/llm-benchmark",
+   "url": "https://api.github.com/repos/tinybirdco/llm-benchmark",
+   "checkedAt": "2026-10-01T03:57:56+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4666",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "feaaca20997bf4d890a2c0cba72621561bbc7c13d75e092118d38c866a0889db",
+   "ok": true,
+   "metrics": {
+    "stars": 87
+   }
+  },
+  {
+   "key": "github:tly43520-create/uestc70-greeting-card",
+   "url": "https://api.github.com/repos/tly43520-create/uestc70-greeting-card",
+   "checkedAt": "2026-10-01T03:57:56+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4665",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "30af1fe6b9887038d0913e8254c54963a0e7741088328cf118af723e7c724242",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:tomsilver/robocode",
+   "url": "https://api.github.com/repos/tomsilver/robocode",
+   "checkedAt": "2026-10-01T03:57:57+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4663",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "1a7c3b1b3ed08af0966f44eeb4a606d49531e562f7ccb3a9e405132dd7a218f7",
+   "ok": true,
+   "metrics": {
+    "stars": 16
+   }
+  },
+  {
+   "key": "github:totimo96/serverhub",
+   "url": "https://api.github.com/repos/totimo96/serverhub",
+   "checkedAt": "2026-10-01T03:57:57+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4664",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "aba36411ab6641fad25d5216581846c2b42e81ac17eed1fdf48790b426961a33",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:travisstephenfraser/survive-coders",
+   "url": "https://api.github.com/repos/travisstephenfraser/survive-coders",
+   "checkedAt": "2026-10-01T03:57:57+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4662",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "94bea9466bdc727b20594be994ebb64d05a4947b47c55ef78766b5fb3eeb3b35",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:tripogrowthlab/awesome-opus-5-5-prompts",
+   "url": "https://api.github.com/repos/tripogrowthlab/awesome-opus-5-5-prompts",
+   "checkedAt": "2026-10-01T03:57:57+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4661",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "175aed576f719c96466e9e811a58476d760539fdd1dff33d137d161f0a3ddf54",
+   "ok": true,
+   "metrics": {
+    "stars": 25
+   }
+  },
+  {
+   "key": "github:tuniveza/generative-games",
+   "url": "https://api.github.com/repos/tuniveza/generative-games",
+   "checkedAt": "2026-10-01T03:57:58+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4660",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "e93443d835f3ef0a867edeecd865d0f6aa2d9e54341009cac3351d6b3fd1cc89",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:tuzhechen2005/opus-video-skills",
+   "url": "https://api.github.com/repos/tuzhechen2005/opus-video-skills",
+   "checkedAt": "2026-10-01T03:57:58+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4659",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "cdd2b6c8ea8a31febd426647e019417618615741561e3df900619d852fe0dd46",
+   "ok": true,
+   "metrics": {
+    "stars": 50
+   }
+  },
+  {
+   "key": "github:tuzhechen2005/painted-animation",
+   "url": "https://api.github.com/repos/tuzhechen2005/painted-animation",
+   "checkedAt": "2026-10-01T03:57:58+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4656",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "cdd2b6c8ea8a31febd426647e019417618615741561e3df900619d852fe0dd46",
+   "ok": true,
+   "metrics": {
+    "stars": 50
+   }
+  },
+  {
+   "key": "github:ucbepic/dataagentbench",
+   "url": "https://api.github.com/repos/ucbepic/dataagentbench",
+   "checkedAt": "2026-10-01T03:57:58+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4657",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "ea79e584e0f4544d03fe334b12bbc6cb030a20f5f58958f711905195229a57eb",
+   "ok": true,
+   "metrics": {
+    "stars": 179
+   }
+  },
+  {
+   "key": "github:v9011n/pygame-piano-animator",
+   "url": "https://api.github.com/repos/v9011n/pygame-piano-animator",
+   "checkedAt": "2026-10-01T03:57:59+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4655",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "7bee9626eb8e0fd0ac0b96d37942f1d6084771e99c1857f581170d7a5362a5d6",
+   "ok": true,
+   "metrics": {
+    "stars": 8
+   }
+  },
+  {
+   "key": "github:vasu-devs/doom_opus5.5",
+   "url": "https://api.github.com/repos/vasu-devs/doom_opus5.5",
+   "checkedAt": "2026-10-01T03:57:59+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4654",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "5c44981e3e857e2599942030926b8a723e032e5e5a0b8f6e36af572371210371",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:vasu-devs/fishslop_opus5.5",
+   "url": "https://api.github.com/repos/vasu-devs/fishslop_opus5.5",
+   "checkedAt": "2026-10-01T03:57:59+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4653",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "a846ca634fb1b67370e243cf4dde4e9788b17f0d1a4a84cb7aa17cebfff4e325",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:vcahlik/palmera-bay",
+   "url": "https://api.github.com/repos/vcahlik/palmera-bay",
+   "checkedAt": "2026-10-01T03:57:59+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4652",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "498b82c6538b6b4652ebc5d511945512eda9daa8b75f310de78bc0a84766ea9c",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:vedmeena21/opus-5.5-motion-graphics",
+   "url": "https://api.github.com/repos/vedmeena21/opus-5.5-motion-graphics",
+   "checkedAt": "2026-10-01T03:57:59+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4651",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "477565f4146a381ba7068dbfc4b476703b1539ddd0004743ac11226eaaa586b4",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:veloxe-ai/triad-world-war-iii-simulator-claude",
+   "url": "https://api.github.com/repos/veloxe-ai/triad-world-war-iii-simulator-claude",
+   "checkedAt": "2026-10-01T03:57:59+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4650",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "e1fc1aea3b9cdf5786392b97f2dcf85314077bfd23febbddbb9402a46e9a5d13",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:ventrion/beskar",
+   "url": "https://api.github.com/repos/ventrion/beskar",
+   "checkedAt": "2026-10-01T03:58:00+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4649",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "1abc1073883fc37b150df6ae66d4c87357f403e0a9634496eecb4ad252bb9dde",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:vercel/ai",
+   "url": "https://api.github.com/repos/vercel/ai",
+   "checkedAt": "2026-10-01T03:58:00+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4648",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "b598bb75bb3a514814ed83753b35d19ffc756e08168e4fd2699dc4c4056845c0",
+   "ok": true,
+   "metrics": {
+    "stars": 27061
+   }
+  },
+  {
+   "key": "github:vibench/vibench-public",
+   "url": "https://api.github.com/repos/vibench/vibench-public",
+   "checkedAt": "2026-10-01T03:58:00+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4647",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "64f5a68df10cc0a094f1a4e3bba63608a3cc023d38effb487a82bb7d98e9f2d5",
+   "ok": true,
+   "metrics": {
+    "stars": 41
+   }
+  },
+  {
+   "key": "github:vikasbanjare/motion-graphic",
+   "url": "https://api.github.com/repos/vikasbanjare/motion-graphic",
+   "checkedAt": "2026-10-01T03:58:00+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4646",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "4e2b1136dd7a5e5a47b13ffb58164d39c26f60be346e3b3d9c6cd89f10dd89e0",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:vinhnx/vtcode",
+   "url": "https://api.github.com/repos/vinhnx/vtcode",
+   "checkedAt": "2026-10-01T03:58:01+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4645",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "9439433344e25f65ecea8edd032556fae55372dd6b702598b2915152c9151129",
+   "ok": true,
+   "metrics": {
+    "stars": 858
+   }
+  },
+  {
+   "key": "github:vladimirkulikdev/opus-5.5-test",
+   "url": "https://api.github.com/repos/vladimirkulikdev/opus-5.5-test",
+   "checkedAt": "2026-10-01T03:58:01+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4644",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "a2eb0da2b703d32e94e77427aa496335c9fdc54b612241b3cde602fde6731436",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:vladimirkulikdev/opus-5.5-video-test",
+   "url": "https://api.github.com/repos/vladimirkulikdev/opus-5.5-video-test",
+   "checkedAt": "2026-10-01T03:58:01+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4643",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "9d3330ae39a93822daed7522ed9accf93646da3a4b8dc2c9462c7d5b750bfb4c",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:wandercom/pact",
+   "url": "https://api.github.com/repos/wandercom/pact",
+   "checkedAt": "2026-10-01T03:58:01+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4642",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "eae951c2b2ec4987c153c36386feab6412adafb4c048bf02a084ffd7e71c2cf5",
+   "ok": true,
+   "metrics": {
+    "stars": 165
+   }
+  },
+  {
+   "key": "github:webbertakken/llm-challenges",
+   "url": "https://api.github.com/repos/webbertakken/llm-challenges",
+   "checkedAt": "2026-10-01T03:58:02+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4641",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "ca23719b6fc86e74811a3f00723737fd560da240d5f36171567b96ecc68e5bb7",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:wellscurrence-a11y/zombie-game-opus5.5",
+   "url": "https://api.github.com/repos/wellscurrence-a11y/zombie-game-opus5.5",
+   "checkedAt": "2026-10-01T03:58:02+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4640",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "bbb11615cf882640f0a090553653d5d8aba48562242757c761eec1c22e107875",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:werdna1976/pathofwerdna",
+   "url": "https://api.github.com/repos/werdna1976/pathofwerdna",
+   "checkedAt": "2026-10-01T03:58:02+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4639",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "5dc92a5c4720ffcac5cabf23cf00c93703621ec8ce46453c2b960e207bf0cd2e",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:wheninspace/whendone",
+   "url": "https://api.github.com/repos/wheninspace/whendone",
+   "checkedAt": "2026-10-01T03:58:02+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4638",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "d19b8107746e6670cf73ef5f734b5e96e6dde53ee762ea483cd1df2ae9096840",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:whiteblackgoose/lumenrift",
+   "url": "https://api.github.com/repos/whiteblackgoose/lumenrift",
+   "checkedAt": "2026-10-01T03:58:02+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4637",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "72da2ae4cb63196d53a3ee99b42e54257cb183bb8b6b8c84ce8bc28a5445471b",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:whitelotus1998/ironwake",
+   "url": "https://api.github.com/repos/whitelotus1998/ironwake",
+   "checkedAt": "2026-10-01T03:58:03+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4636",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "88b73daa9b13ca48b86c31047bb6b38eb751b64f13af7215306cdbf2f69a5afc",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:wimmboo2/terrabrowser",
+   "url": "https://api.github.com/repos/wimmboo2/terrabrowser",
+   "checkedAt": "2026-10-01T03:58:03+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4635",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "a5d09cdf6ba1d2d75f480e264782592976a49947d8949eed48f82a17b374bbac",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:wingedsheep/argentum-engine",
+   "url": "https://api.github.com/repos/wingedsheep/argentum-engine",
+   "checkedAt": "2026-10-01T03:58:03+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4633",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "b1336896ae00780d7f7986b8795e87d50ad642e7234db03ed3f3aec615242535",
+   "ok": true,
+   "metrics": {
+    "stars": 69
+   }
+  },
+  {
+   "key": "github:winterarc21/battle-of-austerlitz-film",
+   "url": "https://api.github.com/repos/winterarc21/battle-of-austerlitz-film",
+   "checkedAt": "2026-10-01T03:58:03+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4634",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "8e1a9d293e47c1356317459fcd9ff358f7f851afecfa802a75a29da66ae4d2d8",
+   "ok": true,
+   "metrics": {
+    "stars": 15
+   }
+  },
+  {
+   "key": "github:wordplaydev/wordplay",
+   "url": "https://api.github.com/repos/wordplaydev/wordplay",
+   "checkedAt": "2026-10-01T03:58:04+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4632",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "735683e95c7909d515330f7a573270e714b80b821a152028e99d5dd99e8c95ae",
+   "ok": true,
+   "metrics": {
+    "stars": 90
+   }
+  },
+  {
+   "key": "github:wovjip/4d-sound-explorer",
+   "url": "https://api.github.com/repos/wovjip/4d-sound-explorer",
+   "checkedAt": "2026-10-01T03:58:04+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4631",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "cd76a988d585239bca062e51b29272de52a3dd85d1ef06908b37ef4bd33fb21a",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:ww-w-ai/super-video-agent",
+   "url": "https://api.github.com/repos/ww-w-ai/super-video-agent",
+   "checkedAt": "2026-10-01T03:58:04+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4629",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "5335ea87a20b7defdd014f12abb1d1c1f863ff40ea2d481b0ddb6ce2c6a9e740",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:xiiyioozzz/opus55-3d-games",
+   "url": "https://api.github.com/repos/xiiyioozzz/opus55-3d-games",
+   "checkedAt": "2026-10-01T03:58:04+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4630",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "74c5043a94c9aa93fcd7be2c85193f490b41d64f935041f76535876e43b7fdfc",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:yanqingcheng/war-atlas-a-b",
+   "url": "https://api.github.com/repos/yanqingcheng/war-atlas-a-b",
+   "checkedAt": "2026-10-01T03:58:04+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4628",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "f322fcc204ac82e401856aa3130accf79906d407cc00cfad13082fa666c1f993",
+   "ok": true,
+   "metrics": {
+    "stars": 5
+   }
+  },
+  {
+   "key": "github:yarinbnyamin/knesset-kombat-26",
+   "url": "https://api.github.com/repos/yarinbnyamin/knesset-kombat-26",
+   "checkedAt": "2026-10-01T03:58:05+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4627",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "69e218d4526a1fb80714cd8d402225551ecd0e5afdc146351440a1752acdc275",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:yeachan-heo/gajae-code",
+   "url": "https://api.github.com/repos/yeachan-heo/gajae-code",
+   "checkedAt": "2026-10-01T03:58:05+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4626",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "8a2dcda1013442a91f95864009a484538c41bad4935a14f8c48604eace88e8c1",
+   "ok": true,
+   "metrics": {
+    "stars": 2893
+   }
+  },
+  {
+   "key": "github:yeadon8888/claude-video-atlas",
+   "url": "https://api.github.com/repos/yeadon8888/claude-video-atlas",
+   "checkedAt": "2026-10-01T03:58:05+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4625",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "3254e0ff8885c2af18499cb292ab436cf8b4bd89d81eae9c7706c9352e7a9fbb",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:yhyang201/oni-web",
+   "url": "https://api.github.com/repos/yhyang201/oni-web",
+   "checkedAt": "2026-10-01T03:58:05+00:00",
+   "ok": false,
+   "error": "HTTP Error 404: GitHub API request failed",
+   "status": 404,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4624",
+    "x-ratelimit-reset": "1790828821"
+   }
+  },
+  {
+   "key": "github:yihui-dev/awesome-opus5-5-videos",
+   "url": "https://api.github.com/repos/yihui-dev/awesome-opus5-5-videos",
+   "checkedAt": "2026-10-01T03:58:06+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4623",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "870f504e8c648073d4d451fb7154bd8db490d8bc7629f5a6ba684fc1d8f0cdc2",
+   "ok": true,
+   "metrics": {
+    "stars": 1118
+   }
+  },
+  {
+   "key": "github:yunrudu/openhouse-3d",
+   "url": "https://api.github.com/repos/yunrudu/openhouse-3d",
+   "checkedAt": "2026-10-01T03:58:06+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4622",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "b2fad58500daed12a72c4a1f2cece1c4a3e436c2ade64c044fd0a18f303eba61",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:zbynekdrlik/airuleset",
+   "url": "https://api.github.com/repos/zbynekdrlik/airuleset",
+   "checkedAt": "2026-10-01T03:58:06+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4621",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "b6147540e07af6ca4c6721de0ebb836691cd8721f0c50834e31eef222522e9a1",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:zoo-code-org/zoo-code",
+   "url": "https://api.github.com/repos/zoo-code-org/zoo-code",
+   "checkedAt": "2026-10-01T03:58:06+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4620",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "c6ccecb0693e7b3863919f831d03355956731125428114b42240c9ed89d0d5a5",
+   "ok": true,
+   "metrics": {
+    "stars": 1934
+   }
+  },
+  {
+   "key": "github:zp-peter/gpt6-opus55-benchmark-showcase",
+   "url": "https://api.github.com/repos/zp-peter/gpt6-opus55-benchmark-showcase",
+   "checkedAt": "2026-10-01T03:58:07+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4619",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "d112eda97e2758bd1ab92c51d893c05af5aa0eb0f6949b4acde44e34400d5114",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:zqkra/opus-prime",
+   "url": "https://api.github.com/repos/zqkra/opus-prime",
+   "checkedAt": "2026-10-01T03:58:07+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4618",
+    "x-ratelimit-reset": "1790828821"
+   },
+   "sha256": "781e29125cbbad08564b32c11cca5a2ec711bba97c9eb613e76f1bc72268207f",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  }
+ ],
+ "searchValidation": [
+  {
+   "key": "github-search",
+   "url": "https://api.github.com/search/repositories?q=%22opus+5.5%22&sort=updated&per_page=100",
+   "checkedAt": "2026-10-01T03:57:02+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "30",
+    "x-ratelimit-remaining": "29",
+    "x-ratelimit-reset": "1790827082"
+   },
+   "finalUrl": "https://api.github.com/search/repositories?q=%22opus+5.5%22&sort=updated&per_page=100",
+   "bytes": 574929,
+   "file": "github-search.txt",
+   "sha256": "7efb23e448e68338f669ab4d601c97a92503fc552486ab2532d4c3a76a55d34b",
+   "ok": true
+  }
+ ]
+}
