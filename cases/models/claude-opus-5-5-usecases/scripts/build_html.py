@@ -330,7 +330,7 @@ def main():
             added[cases[-1]["source"]] = added.get(cases[-1]["source"], 0) + 1
     # metric_refreshes.json holds metrics-only patches from full refreshes, kept apart from
     # case_enrichments.json so re-importing GoSail cannot drop them; newer metricsCheckedAt wins.
-    for name in ("case_enrichments.json", "metric_refreshes.json"):
+    for name in ("case_enrichments.json", "reply_enrichments.json", "metric_refreshes.json"):
         enrichment_path = DATA / name
         if enrichment_path.exists():
             apply_enrichments(cases, json.loads(enrichment_path.read_text())["cases"])

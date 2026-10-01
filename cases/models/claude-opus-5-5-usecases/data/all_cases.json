@@ -58,10 +58,10 @@
     "en": "Computer Use"
    }
   },
-  "count": 5270,
+  "count": 5272,
   "baseFetchedAt": "2026-10-01T13:26:51+00:00",
   "added": {
-   "x": 883,
+   "x": 885,
    "github": 333,
    "hn": 116,
    "web": 269,
@@ -70,11 +70,11 @@
   },
   "asOf": "2026-10-01",
   "duplicatesSkipped": 37,
-  "refreshedAt": "2026-10-01T13:51:38+00:00",
+  "refreshedAt": "2026-10-01T14:22:48+00:00",
   "refreshScope": {
-   "key": "multi-source-2026-10-01-evening-partial",
-   "zh": "多源更新及历史漏收补录（部分接口受限）",
-   "en": "Multi-source update and historical backfill (some endpoints limited)"
+   "key": "x-reply-pilot-2026-10-01",
+   "zh": "X 热门回帖小范围验证（评论区覆盖有限）",
+   "en": "Small popular-X-reply pilot (limited reply coverage)"
   },
   "lastFullRefreshAt": "2026-09-30T07:38:18+00:00"
  },
@@ -1272,6 +1272,13 @@
    "mediaKind": "video",
    "poster": "https://pbs.twimg.com/amplify_video_thumb/2102461645201268736/img/x7ruGA-Q0Fx18ZwG.jpg",
    "video": "https://video.twimg.com/amplify_video/2102461645201268736/vid/avc1/1280x720/1fcWGpC_YJR7sQeW.mp4?tag=29",
+   "resources": [
+    {
+     "label": "官方投石机演示",
+     "label_en": "Official trebuchet demo",
+     "url": "https://x.com/claudeai/status/2102471877184627062"
+    }
+   ],
    "views": 6782,
    "metricsCheckedAt": "2026-10-01T13:26:52+00:00"
   },
@@ -5822,6 +5829,18 @@
    "mediaKind": "image",
    "poster": "https://pbs.twimg.com/media/HS13XR6XwAATKo6?format=webp&name=small",
    "video": null,
+   "resources": [
+    {
+     "label": "官方 Earthrise 演示",
+     "label_en": "Official Earthrise demo",
+     "url": "https://x.com/claudeai/status/2102471870692180179"
+    },
+    {
+     "label": "官方纸笔界面演示",
+     "label_en": "Official pen-and-paper interface demo",
+     "url": "https://x.com/claudeai/status/2102471874110533750"
+    }
+   ],
    "views": 13825,
    "metricsCheckedAt": "2026-10-01T13:27:05+00:00",
    "posterEvidence": {
@@ -8984,6 +9003,13 @@
    "mediaKind": "video",
    "poster": "https://pbs.twimg.com/amplify_video_thumb/2102510003961597952/img/v1Xk3dlYruRbY9_P.jpg",
    "video": "https://video.twimg.com/amplify_video/2102510003961597952/vid/avc1/720x1280/gdKTvPmp1XA_J7zN.mp4?tag=29",
+   "resources": [
+    {
+     "label": "官方视觉效果展示",
+     "label_en": "Official visual-effects showcase",
+     "url": "https://x.com/claudeai/status/2102471882381418989"
+    }
+   ],
    "views": 1809,
    "metricsCheckedAt": "2026-10-01T13:27:15+00:00"
   },
@@ -97805,6 +97831,11 @@
      "label": "提示词来源",
      "label_en": "Prompt source",
      "url": "https://x.com/donaldjewkes/status/2102801469976248500"
+    },
+    {
+     "label": "作者说明素材与工具",
+     "label_en": "Creator’s note on assets and tools",
+     "url": "https://x.com/donaldjewkes/status/2102801906573935057"
     }
    ],
    "promptEvidence": [
@@ -114719,6 +114750,72 @@
      "label": "Katagami MCP",
      "label_en": "Katagami MCP",
      "url": "https://katagami.ai/connect"
+    }
+   ]
+  },
+  {
+   "id": "lists-667",
+   "source": "x",
+   "platform": "X",
+   "category": "web",
+   "evidenceType": "演示",
+   "evidenceType_en": "Demo",
+   "title": "官方案例：随机组合界面组件",
+   "title_en": "Official showcase: randomly combining interface components",
+   "summary": "Claude 官方在 Opus 5.5 早期探索串帖中展示 Tyler Nishida 的界面组合器：随机组合 UI 元素，形成新应用的设计起点。原帖附演示；未独立运行或核验可导出性。",
+   "summary_en": "Claude’s Opus 5.5 early-explorations thread showcases Tyler Nishida’s interface slot machine, which combines random UI elements into a starting point for a new app. The post includes a demo; execution and export capabilities were not independently tested.",
+   "author": "@claudeai",
+   "sourceUrl": "https://x.com/claudeai/status/2102471879969956310",
+   "date": "2026-09-22",
+   "likes": 361,
+   "bookmarks": 119,
+   "stars": null,
+   "views": 38241,
+   "mediaKind": "video",
+   "poster": "https://pbs.twimg.com/amplify_video_thumb/2102468017695178752/img/64LM8BMjl9CJg1Ob.jpg",
+   "discoveredVia": "https://x.com/claudeai/status/2102471866635919731 (bounded popular-reply pilot; same-author thread continuation)",
+   "checkedAt": "2026-10-01T14:22:48+00:00",
+   "evidenceUrl": "https://x.com/claudeai/status/2102471879969956310",
+   "evidenceBasis": "Exact original post ID, text, reply chain, author and attachment verified through FxTwitter; same official author explicitly introduces the chain as Opus 5.5 early explorations. Generic page extraction shifted thread text by one post and was not used as authoritative attribution. This is an official self-thread showcase, not a newly discovered third-party community reply.",
+   "metricsCheckedAt": "2026-10-01T14:22:48+00:00",
+   "resources": [
+    {
+     "label": "Opus 5.5 官方案例串",
+     "label_en": "Official Opus 5.5 showcase thread",
+     "url": "https://x.com/claudeai/status/2102471866635919731"
+    }
+   ]
+  },
+  {
+   "id": "lists-668",
+   "source": "x",
+   "platform": "X",
+   "category": "graphics",
+   "evidenceType": "演示",
+   "evidenceType_en": "Demo",
+   "title": "官方案例：随机种子驱动的算法绘画",
+   "title_en": "Official showcase: seed-driven algorithmic drawings",
+   "summary": "Claude 官方在 Opus 5.5 早期探索串帖中展示 Kevin Ngo 的算法绘画程序，每幅画由不同种子生成，并附多幅海景线稿。属于官方作品展示，原帖未附完整代码，亦未独立复现。",
+   "summary_en": "Claude’s Opus 5.5 early-explorations thread showcases Kevin Ngo’s algorithmic drawing program, with each drawing based on a different seed and an attached collection of seascape sketches. This is an official showcase; the post does not include full code, and results have not been independently reproduced.",
+   "author": "@claudeai",
+   "sourceUrl": "https://x.com/claudeai/status/2102471889092276516",
+   "date": "2026-09-22",
+   "likes": 378,
+   "bookmarks": 128,
+   "stars": null,
+   "views": 73313,
+   "mediaKind": "image",
+   "poster": "https://pbs.twimg.com/media/HS14BnTWEAAjp97.jpg?name=orig",
+   "discoveredVia": "https://x.com/claudeai/status/2102471866635919731 (bounded popular-reply pilot; same-author thread continuation)",
+   "checkedAt": "2026-10-01T14:22:48+00:00",
+   "evidenceUrl": "https://x.com/claudeai/status/2102471889092276516",
+   "evidenceBasis": "Exact original post ID, text, reply chain, author and attachment verified through FxTwitter; same official author explicitly introduces the chain as Opus 5.5 early explorations. Generic page extraction shifted thread text by one post and was not used as authoritative attribution. This is an official self-thread showcase, not a newly discovered third-party community reply.",
+   "metricsCheckedAt": "2026-10-01T14:22:48+00:00",
+   "resources": [
+    {
+     "label": "Opus 5.5 官方案例串",
+     "label_en": "Official Opus 5.5 showcase thread",
+     "url": "https://x.com/claudeai/status/2102471866635919731"
     }
    ]
   },
@@ -136835,7 +136932,18 @@
    "evidenceUrl": "https://x.com/anabology/status/2103534482930491441",
    "evidenceBasis": "Original post text and attached-media metadata read through FxTwitter. Author-reported workflow; video not independently watched or reproduced.",
    "metricsCheckedAt": "2026-10-01T13:31:45+00:00",
-   "resources": [],
+   "resources": [
+    {
+     "label": "作者补充的 Suno 音乐",
+     "label_en": "Suno music linked by the creator",
+     "url": "https://suno.com/s/d1oGqZucN3h7GsI1"
+    },
+    {
+     "label": "作者补充的 YouTube 版本",
+     "label_en": "YouTube version linked by the creator",
+     "url": "https://www.youtube.com/watch?v=C3fxudvU-UU"
+    }
+   ],
    "sourceSnapshots": [
     {
      "source": "https://github.com/zhuyansen/awesome-opus-5.5-video",

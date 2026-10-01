@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "reviewReport": "data/refresh_history/2026-10-01-x-reply-pilot.json",
+    "note": "Reviewed resources from bounded reply pilots; kept separate so GoSail re-imports cannot overwrite them."
+  },
+  "cases": [
+    {
+      "sourceUrl": "https://x.com/anabology/status/2103534482930491441",
+      "resources": [
+        {
+          "label": "作者补充的 Suno 音乐",
+          "label_en": "Suno music linked by the creator",
+          "url": "https://suno.com/s/d1oGqZucN3h7GsI1"
+        },
+        {
+          "label": "作者补充的 YouTube 版本",
+          "label_en": "YouTube version linked by the creator",
+          "url": "https://www.youtube.com/watch?v=C3fxudvU-UU"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://x.com/donaldjewkes/status/2102801274173587569",
+      "resources": [
+        {
+          "label": "作者说明素材与工具",
+          "label_en": "Creator’s note on assets and tools",
+          "url": "https://x.com/donaldjewkes/status/2102801906573935057"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://x.com/Parsats_eth/status/2102486820810285201",
+      "resources": [
+        {
+          "label": "官方 Earthrise 演示",
+          "label_en": "Official Earthrise demo",
+          "url": "https://x.com/claudeai/status/2102471870692180179"
+        },
+        {
+          "label": "官方纸笔界面演示",
+          "label_en": "Official pen-and-paper interface demo",
+          "url": "https://x.com/claudeai/status/2102471874110533750"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://x.com/brainextends/status/2102464008112755026",
+      "resources": [
+        {
+          "label": "官方投石机演示",
+          "label_en": "Official trebuchet demo",
+          "url": "https://x.com/claudeai/status/2102471877184627062"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://x.com/thedesignely/status/2102510028204965967",
+      "resources": [
+        {
+          "label": "官方视觉效果展示",
+          "label_en": "Official visual-effects showcase",
+          "url": "https://x.com/claudeai/status/2102471882381418989"
+        }
+      ]
+    }
+  ]
+}
