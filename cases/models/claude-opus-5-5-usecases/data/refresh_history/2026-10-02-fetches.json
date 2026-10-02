@@ -54331,1118 +54331,1118 @@
   ],
   "listPostRetry": [
     {
-      "key": "fx-2104937328342925508",
       "url": "https://api.fxtwitter.com/EricLDaugh/status/2104937328342925508",
       "checkedAt": "2026-10-02T04:17:59.720507+00:00",
       "status": 200,
       "ok": true,
       "sha256": "3a68bdfb292cfdfda66fa0f829eeec48db17703202c608704fd8b254ce5bc0d6",
-      "file": "fx-2104937328342925508.json"
+      "file": "fx-2104937328342925508.json",
+      "postId": "2104937328342925508"
     },
     {
-      "key": "fx-2105116820147781725",
       "url": "https://api.fxtwitter.com/KelseyTuoc/status/2105116820147781725",
       "checkedAt": "2026-10-02T04:17:59.721283+00:00",
       "status": 200,
       "ok": true,
       "sha256": "a7c7efc3f51f905470a598c8fbf578c4505ad819590a0d8987603bbb2d7ea2ae",
-      "file": "fx-2105116820147781725.json"
+      "file": "fx-2105116820147781725.json",
+      "postId": "2105116820147781725"
     },
     {
-      "key": "fx-2104629353363509429",
       "url": "https://api.fxtwitter.com/nntaleb/status/2104629353363509429",
       "checkedAt": "2026-10-02T04:17:59.721726+00:00",
       "status": 200,
       "ok": true,
       "sha256": "86220f857ca047f2e8245c36645446b02b8796e4a9acfca498a8c4aba400cee6",
-      "file": "fx-2104629353363509429.json"
+      "file": "fx-2104629353363509429.json",
+      "postId": "2104629353363509429"
     },
     {
-      "key": "fx-2105167567706816690",
       "url": "https://api.fxtwitter.com/CarterWChurch/status/2105167567706816690",
       "checkedAt": "2026-10-02T04:17:59.722116+00:00",
       "status": 200,
       "ok": true,
       "sha256": "13cb142f8ad50e9cfdefbe61cf364c4b93769969c95cb49758d0cc9bee1d0a3d",
-      "file": "fx-2105167567706816690.json"
+      "file": "fx-2105167567706816690.json",
+      "postId": "2105167567706816690"
     },
     {
-      "key": "fx-2103642870549037331",
       "url": "https://api.fxtwitter.com/patio11/status/2103642870549037331",
       "checkedAt": "2026-10-02T04:17:59.838329+00:00",
       "status": 200,
       "ok": true,
       "sha256": "779fb5484d6fceb93182176fa666db3a47da99660508d69407b94f81c3c520c2",
-      "file": "fx-2103642870549037331.json"
+      "file": "fx-2103642870549037331.json",
+      "postId": "2103642870549037331"
     },
     {
-      "key": "fx-2104588581469667390",
       "url": "https://api.fxtwitter.com/patio11/status/2104588581469667390",
       "checkedAt": "2026-10-02T04:17:59.845638+00:00",
       "status": 200,
       "ok": true,
       "sha256": "fe3fbcbffb88de8d806c054582398711c1d12f389bb0ec01f8fc772f22ede4c0",
-      "file": "fx-2104588581469667390.json"
+      "file": "fx-2104588581469667390.json",
+      "postId": "2104588581469667390"
     },
     {
-      "key": "fx-2104633138731434424",
       "url": "https://api.fxtwitter.com/claudeai/status/2104633138731434424",
       "checkedAt": "2026-10-02T04:17:59.846537+00:00",
       "status": 200,
       "ok": true,
       "sha256": "0af6fc9b90c33275010e8b4fa5b6b106a5ff98e3b92f1568135247c14bfb0022",
-      "file": "fx-2104633138731434424.json"
+      "file": "fx-2104633138731434424.json",
+      "postId": "2104633138731434424"
     },
     {
-      "key": "fx-2105001988245336381",
       "url": "https://api.fxtwitter.com/theo/status/2105001988245336381",
       "checkedAt": "2026-10-02T04:17:59.859933+00:00",
       "status": 200,
       "ok": true,
       "sha256": "45597193883a8d8cc8a22d4a0d2f5544f6d50b5dc64580340b6dd923fb664a14",
-      "file": "fx-2105001988245336381.json"
+      "file": "fx-2105001988245336381.json",
+      "postId": "2105001988245336381"
     },
     {
-      "key": "fx-2105086983521575250",
       "url": "https://api.fxtwitter.com/tenobrus/status/2105086983521575250",
       "checkedAt": "2026-10-02T04:17:59.940241+00:00",
       "status": 200,
       "ok": true,
       "sha256": "132d116a9b688ed20dea671e80156221afe9a93cab7fd53350bc3b948b3559cd",
-      "file": "fx-2105086983521575250.json"
+      "file": "fx-2105086983521575250.json",
+      "postId": "2105086983521575250"
     },
     {
-      "key": "fx-2103393155030876662",
       "url": "https://api.fxtwitter.com/_rockt/status/2103393155030876662",
       "checkedAt": "2026-10-02T04:17:59.945111+00:00",
       "status": 200,
       "ok": true,
       "sha256": "ea9c95271ce1ec9654f1c235c8bb3b800df8beea2758256af4f429cdba87eb69",
-      "file": "fx-2103393155030876662.json"
+      "file": "fx-2103393155030876662.json",
+      "postId": "2103393155030876662"
     },
     {
-      "key": "fx-2104630616721666289",
       "url": "https://api.fxtwitter.com/andonlabs/status/2104630616721666289",
       "checkedAt": "2026-10-02T04:18:00.013567+00:00",
       "status": 200,
       "ok": true,
       "sha256": "71d5f6944be9da2e556cc43523e1aa53028cea01b8940a2a1719a09e27a33efd",
-      "file": "fx-2104630616721666289.json"
+      "file": "fx-2104630616721666289.json",
+      "postId": "2104630616721666289"
     },
     {
-      "key": "fx-2104672665072283713",
       "url": "https://api.fxtwitter.com/aidanhchau/status/2104672665072283713",
       "checkedAt": "2026-10-02T04:18:00.070932+00:00",
       "status": 200,
       "ok": true,
       "sha256": "6955b96d07d3ffdb046a460870a12ae79d04403b3ce5da15f49c8b255334a787",
-      "file": "fx-2104672665072283713.json"
+      "file": "fx-2104672665072283713.json",
+      "postId": "2104672665072283713"
     },
     {
-      "key": "fx-2104672997412081916",
       "url": "https://api.fxtwitter.com/andonlabs/status/2104672997412081916",
       "checkedAt": "2026-10-02T04:18:00.072162+00:00",
       "status": 200,
       "ok": true,
       "sha256": "2f50bd5d4088f747e1bc8836adcfdebe8cc41a3ff0bb2a3d1f9cc52803d6854b",
-      "file": "fx-2104672997412081916.json"
+      "file": "fx-2104672997412081916.json",
+      "postId": "2104672997412081916"
     },
     {
-      "key": "fx-2104752015226106044",
       "url": "https://api.fxtwitter.com/jeremiecharris/status/2104752015226106044",
       "checkedAt": "2026-10-02T04:18:00.123307+00:00",
       "status": 200,
       "ok": true,
       "sha256": "7819bddf1d02fb6b4980d7a556de7d27c2c2cbe183bdd2129558c48f75213fbb",
-      "file": "fx-2104752015226106044.json"
+      "file": "fx-2104752015226106044.json",
+      "postId": "2104752015226106044"
     },
     {
-      "key": "fx-2104109109549367435",
       "url": "https://api.fxtwitter.com/SullyOmarr/status/2104109109549367435",
       "checkedAt": "2026-10-02T04:18:00.175880+00:00",
       "status": 200,
       "ok": true,
       "sha256": "f5caf857986a5940d7d73e55e9337def94c9c637e79a032ef9065f2294ed32c2",
-      "file": "fx-2104109109549367435.json"
+      "file": "fx-2104109109549367435.json",
+      "postId": "2104109109549367435"
     },
     {
-      "key": "fx-2103601104412107239",
       "url": "https://api.fxtwitter.com/kevinroose/status/2103601104412107239",
       "checkedAt": "2026-10-02T04:18:00.181765+00:00",
       "status": 200,
       "ok": true,
       "sha256": "3439b8f2c059cb418680d3df17524a32e32e9811aefd31ad126ecfe0a9d58fda",
-      "file": "fx-2103601104412107239.json"
+      "file": "fx-2103601104412107239.json",
+      "postId": "2103601104412107239"
     },
     {
-      "key": "fx-2103368436697174457",
       "url": "https://api.fxtwitter.com/dedene/status/2103368436697174457",
       "checkedAt": "2026-10-02T04:18:00.271700+00:00",
       "status": 200,
       "ok": true,
       "sha256": "bfc34b2d52914d58ab2c43bf601a6e89098f9292498c269a69a6aa248838070d",
-      "file": "fx-2103368436697174457.json"
+      "file": "fx-2103368436697174457.json",
+      "postId": "2103368436697174457"
     },
     {
-      "key": "fx-2104309096534978595",
       "url": "https://api.fxtwitter.com/raywongy/status/2104309096534978595",
       "checkedAt": "2026-10-02T04:18:00.280671+00:00",
       "status": 200,
       "ok": true,
       "sha256": "c513f6edb0d0003559742f989b7426c1c2a87d6f87cf4e9ad07872edc19b8001",
-      "file": "fx-2104309096534978595.json"
+      "file": "fx-2104309096534978595.json",
+      "postId": "2104309096534978595"
     },
     {
-      "key": "fx-2105344496036638780",
       "url": "https://api.fxtwitter.com/suchenzang/status/2105344496036638780",
       "checkedAt": "2026-10-02T04:18:00.361249+00:00",
       "status": 200,
       "ok": true,
       "sha256": "3aca9a5f378f99fc5db06f0be95211039450422d89459e7908705a687329dbf8",
-      "file": "fx-2105344496036638780.json"
+      "file": "fx-2105344496036638780.json",
+      "postId": "2105344496036638780"
     },
     {
-      "key": "fx-2103551714536439951",
       "url": "https://api.fxtwitter.com/alexandr_wang/status/2103551714536439951",
       "checkedAt": "2026-10-02T04:18:00.380869+00:00",
       "status": 200,
       "ok": true,
       "sha256": "36675d05b67f2759d81b1999949fe32e2eba8a24eea56e13d39c4fc3ad67b4fa",
-      "file": "fx-2103551714536439951.json"
+      "file": "fx-2103551714536439951.json",
+      "postId": "2103551714536439951"
     },
     {
-      "key": "fx-2104982928040272205",
       "url": "https://api.fxtwitter.com/shawnlkiser/status/2104982928040272205",
       "checkedAt": "2026-10-02T04:18:00.421920+00:00",
       "status": 200,
       "ok": true,
       "sha256": "5585aa073f3a38b57088a3a82c8d411c4e5aff5f916274972abaf5f6d13e12e1",
-      "file": "fx-2104982928040272205.json"
+      "file": "fx-2104982928040272205.json",
+      "postId": "2104982928040272205"
     },
     {
-      "key": "fx-2105103447012130940",
       "url": "https://api.fxtwitter.com/TheZvi/status/2105103447012130940",
       "checkedAt": "2026-10-02T04:18:00.476565+00:00",
       "status": 200,
       "ok": true,
       "sha256": "141255d4e1dd85579986217668c1e9cf52de7be42614971249dd10236b793e6b",
-      "file": "fx-2105103447012130940.json"
+      "file": "fx-2105103447012130940.json",
+      "postId": "2105103447012130940"
     },
     {
-      "key": "fx-2104981170685616361",
       "url": "https://api.fxtwitter.com/thsottiaux/status/2104981170685616361",
       "checkedAt": "2026-10-02T04:18:00.492139+00:00",
       "status": 200,
       "ok": true,
       "sha256": "b0a9cd69886ff32e1b104263c875b265a8028964083f617ebb54ef9dfd4e6d8f",
-      "file": "fx-2104981170685616361.json"
+      "file": "fx-2104981170685616361.json",
+      "postId": "2104981170685616361"
     },
     {
-      "key": "fx-2103331416922529907",
       "url": "https://api.fxtwitter.com/sethlazar/status/2103331416922529907",
       "checkedAt": "2026-10-02T04:18:00.553487+00:00",
       "status": 200,
       "ok": true,
       "sha256": "519905def732bde1236aef48200ec5e4c35d8f87bcd70e47b77555c3e0ae6bd6",
-      "file": "fx-2103331416922529907.json"
+      "file": "fx-2103331416922529907.json",
+      "postId": "2103331416922529907"
     },
     {
-      "key": "fx-2104546194282455545",
       "url": "https://api.fxtwitter.com/random_walker/status/2104546194282455545",
       "checkedAt": "2026-10-02T04:18:00.603331+00:00",
       "status": 200,
       "ok": true,
       "sha256": "d467694948f8a17b691490d16c5f52bacb325a7ac2b3db7cb9d92102a4687592",
-      "file": "fx-2104546194282455545.json"
+      "file": "fx-2104546194282455545.json",
+      "postId": "2104546194282455545"
     },
     {
-      "key": "fx-2105397524450476394",
       "url": "https://api.fxtwitter.com/1thousandfaces_/status/2105397524450476394",
       "checkedAt": "2026-10-02T04:18:00.607977+00:00",
       "status": 200,
       "ok": true,
       "sha256": "e7b3324df29f8c39a883c15cb2a08d61f7f3f05e3b2894b85b8af0096b6d384c",
-      "file": "fx-2105397524450476394.json"
+      "file": "fx-2105397524450476394.json",
+      "postId": "2105397524450476394"
     },
     {
-      "key": "fx-2105361749428035806",
       "url": "https://api.fxtwitter.com/allTheYud/status/2105361749428035806",
       "checkedAt": "2026-10-02T04:18:00.705014+00:00",
       "status": 200,
       "ok": true,
       "sha256": "99adabc637be445cf9f848f22db6b668f69687b344d4cda9bc2b3729ad68b702",
-      "file": "fx-2105361749428035806.json"
+      "file": "fx-2105361749428035806.json",
+      "postId": "2105361749428035806"
     },
     {
-      "key": "fx-2105361751705633063",
       "url": "https://api.fxtwitter.com/allTheYud/status/2105361751705633063",
       "checkedAt": "2026-10-02T04:18:00.718948+00:00",
       "status": 200,
       "ok": true,
       "sha256": "585dbbf0bfb9ba7df5b32acd8f18cd3de3eb40a5c607d607aec33248ec87df38",
-      "file": "fx-2105361751705633063.json"
+      "file": "fx-2105361751705633063.json",
+      "postId": "2105361751705633063"
     },
     {
-      "key": "fx-2104031816084513087",
       "url": "https://api.fxtwitter.com/deanwball/status/2104031816084513087",
       "checkedAt": "2026-10-02T04:18:00.727794+00:00",
       "status": 200,
       "ok": true,
       "sha256": "e43f3a06c1ac1cf711dbc3de0037271da037068f62a90d98b75a1c24ebc43a1f",
-      "file": "fx-2104031816084513087.json"
+      "file": "fx-2104031816084513087.json",
+      "postId": "2104031816084513087"
     },
     {
-      "key": "fx-2104103292829946310",
       "url": "https://api.fxtwitter.com/ArmandDoma/status/2104103292829946310",
       "checkedAt": "2026-10-02T04:18:00.822434+00:00",
       "status": 200,
       "ok": true,
       "sha256": "d92378deb413c08448a8d6cba805871f4fef1d694cb838630316f6a73e316f16",
-      "file": "fx-2104103292829946310.json"
+      "file": "fx-2104103292829946310.json",
+      "postId": "2104103292829946310"
     },
     {
-      "key": "fx-2104653943867629717",
       "url": "https://api.fxtwitter.com/KelseyTuoc/status/2104653943867629717",
       "checkedAt": "2026-10-02T04:18:00.825395+00:00",
       "status": 200,
       "ok": true,
       "sha256": "4fc28e63396e6c655b294b09969c9795050e1e465016448d180a75487421e1f0",
-      "file": "fx-2104653943867629717.json"
+      "file": "fx-2104653943867629717.json",
+      "postId": "2104653943867629717"
     },
     {
-      "key": "fx-2104634979666014533",
       "url": "https://api.fxtwitter.com/KelseyTuoc/status/2104634979666014533",
       "checkedAt": "2026-10-02T04:18:00.854437+00:00",
       "status": 200,
       "ok": true,
       "sha256": "697aaab88da2657e7a71135435a443a3a8d4b9a3672c8ba66b77ae305560f3e6",
-      "file": "fx-2104634979666014533.json"
+      "file": "fx-2104634979666014533.json",
+      "postId": "2104634979666014533"
     },
     {
-      "key": "fx-2104613299887251740",
       "url": "https://api.fxtwitter.com/DavidSacks/status/2104613299887251740",
       "checkedAt": "2026-10-02T04:18:00.940142+00:00",
       "status": 200,
       "ok": true,
       "sha256": "8ccab511246dafa3eb0a2fdb08ecd1a305ad56dbc49b26c2cff39360deed411d",
-      "file": "fx-2104613299887251740.json"
+      "file": "fx-2104613299887251740.json",
+      "postId": "2104613299887251740"
     },
     {
-      "key": "fx-2104635202534527216",
       "url": "https://api.fxtwitter.com/KelseyTuoc/status/2104635202534527216",
       "checkedAt": "2026-10-02T04:18:00.960686+00:00",
       "status": 200,
       "ok": true,
       "sha256": "1b2565985069d0ca5451a3f9334a03817fc59b1718ac31a2100944ef6c2ebff5",
-      "file": "fx-2104635202534527216.json"
+      "file": "fx-2104635202534527216.json",
+      "postId": "2104635202534527216"
     },
     {
-      "key": "fx-2105321182560194647",
       "url": "https://api.fxtwitter.com/tracewoodgrains/status/2105321182560194647",
       "checkedAt": "2026-10-02T04:18:00.995720+00:00",
       "status": 200,
       "ok": true,
       "sha256": "ddfcfc5798c64f23842de5d5a2f095867f5ae770dd519b3df74146d6624d169e",
-      "file": "fx-2105321182560194647.json"
+      "file": "fx-2105321182560194647.json",
+      "postId": "2105321182560194647"
     },
     {
-      "key": "fx-2104265339584528547",
       "url": "https://api.fxtwitter.com/cullenroche/status/2104265339584528547",
       "checkedAt": "2026-10-02T04:18:01.072424+00:00",
       "status": 200,
       "ok": true,
       "sha256": "25093975502ac347c42232d63da3f1a368d4e234fb8d5c6f45ab4068a99300d2",
-      "file": "fx-2104265339584528547.json"
+      "file": "fx-2104265339584528547.json",
+      "postId": "2104265339584528547"
     },
     {
-      "key": "fx-2103883672197939571",
       "url": "https://api.fxtwitter.com/ohabryka/status/2103883672197939571",
       "checkedAt": "2026-10-02T04:18:01.087186+00:00",
       "status": 200,
       "ok": true,
       "sha256": "6b12cf4f37549b3f090289b7ee16d58bae2ede931d2b390cd00e024d2df8deea",
-      "file": "fx-2103883672197939571.json"
+      "file": "fx-2103883672197939571.json",
+      "postId": "2103883672197939571"
     },
     {
-      "key": "fx-2103947322346652053",
       "url": "https://api.fxtwitter.com/allTheYud/status/2103947322346652053",
       "checkedAt": "2026-10-02T04:18:01.121869+00:00",
       "status": 200,
       "ok": true,
       "sha256": "433d6077db71269b7baa34b76229d2fb53753b1798ec4705581179a650dd624e",
-      "file": "fx-2103947322346652053.json"
+      "file": "fx-2103947322346652053.json",
+      "postId": "2103947322346652053"
     },
     {
-      "key": "fx-2105018785560469901",
       "url": "https://api.fxtwitter.com/GarrisonLovely/status/2105018785560469901",
       "checkedAt": "2026-10-02T04:18:01.197434+00:00",
       "status": 200,
       "ok": true,
       "sha256": "ca18216c8bd4b2f2b97285c7d4cb18cf762be759e9ef3c21f76133d556b9d7a3",
-      "file": "fx-2105018785560469901.json"
+      "file": "fx-2105018785560469901.json",
+      "postId": "2105018785560469901"
     },
     {
-      "key": "fx-2104499465055023424",
       "url": "https://api.fxtwitter.com/JensenHuang/status/2104499465055023424",
       "checkedAt": "2026-10-02T04:18:01.215518+00:00",
       "status": 200,
       "ok": true,
       "sha256": "794d6fdd22b015ce9488adebc338d81c2fe12954329fdce6317a24de8f4a3bc3",
-      "file": "fx-2104499465055023424.json"
+      "file": "fx-2104499465055023424.json",
+      "postId": "2104499465055023424"
     },
     {
-      "key": "fx-2103184624440811605",
       "url": "https://api.fxtwitter.com/AndrewCurran_/status/2103184624440811605",
       "checkedAt": "2026-10-02T04:18:01.234200+00:00",
       "status": 200,
       "ok": true,
       "sha256": "67ed294706b2ce92a179c4c71a13a9a08d9a0152ea4952b4044bf27eda15c20a",
-      "file": "fx-2103184624440811605.json"
+      "file": "fx-2103184624440811605.json",
+      "postId": "2103184624440811605"
     },
     {
-      "key": "fx-2103481947322458118",
       "url": "https://api.fxtwitter.com/peterwildeford/status/2103481947322458118",
       "checkedAt": "2026-10-02T04:18:01.310302+00:00",
       "status": 200,
       "ok": true,
       "sha256": "6e2771c6687b82d3c81d48f35aead7554576cc4574323f74b7b0f6ab366520f5",
-      "file": "fx-2103481947322458118.json"
+      "file": "fx-2103481947322458118.json",
+      "postId": "2103481947322458118"
     },
     {
-      "key": "fx-2104268596553957477",
       "url": "https://api.fxtwitter.com/RyanGreenblatt/status/2104268596553957477",
       "checkedAt": "2026-10-02T04:18:01.326847+00:00",
       "status": 200,
       "ok": true,
       "sha256": "e4af5f1c89bc02038647e9abbf8a96a3af6bb780daafed6251d872e2e0eba302",
-      "file": "fx-2104268596553957477.json"
+      "file": "fx-2104268596553957477.json",
+      "postId": "2104268596553957477"
     },
     {
-      "key": "fx-2105074896271257857",
       "url": "https://api.fxtwitter.com/HedgieMarkets/status/2105074896271257857",
       "checkedAt": "2026-10-02T04:18:01.375608+00:00",
       "status": 200,
       "ok": true,
       "sha256": "6c2c152e82fff4c018eaebd9146a293d9189b96a79d377e9a911e8ee4fbee3a4",
-      "file": "fx-2105074896271257857.json"
+      "file": "fx-2105074896271257857.json",
+      "postId": "2105074896271257857"
     },
     {
-      "key": "fx-2103544684320596381",
       "url": "https://api.fxtwitter.com/matthew_sigel/status/2103544684320596381",
       "checkedAt": "2026-10-02T04:18:01.434613+00:00",
       "status": 200,
       "ok": true,
       "sha256": "5115ffd3084e2e4150716fe208f72accacc7ffbae8b01d462e73dd231e8feb14",
-      "file": "fx-2103544684320596381.json"
+      "file": "fx-2103544684320596381.json",
+      "postId": "2103544684320596381"
     },
     {
-      "key": "fx-2103158559521534033",
       "url": "https://api.fxtwitter.com/jstein_sun/status/2103158559521534033",
       "checkedAt": "2026-10-02T04:18:01.441807+00:00",
       "status": 200,
       "ok": true,
       "sha256": "f3447a2ed1de37c1be17de051c83ee98619692f55ee4b4a1adf184844f297e41",
-      "file": "fx-2103158559521534033.json"
+      "file": "fx-2103158559521534033.json",
+      "postId": "2103158559521534033"
     },
     {
-      "key": "fx-2103689441563009212",
       "url": "https://api.fxtwitter.com/robbensinger/status/2103689441563009212",
       "checkedAt": "2026-10-02T04:18:01.485226+00:00",
       "status": 200,
       "ok": true,
       "sha256": "a856cf8350ba32976ea2e234b82f188162bc1da949099ba1d06f6d2240d274db",
-      "file": "fx-2103689441563009212.json"
+      "file": "fx-2103689441563009212.json",
+      "postId": "2103689441563009212"
     },
     {
-      "key": "fx-2103570565785391293",
       "url": "https://api.fxtwitter.com/MTSlive/status/2103570565785391293",
       "checkedAt": "2026-10-02T04:18:01.541550+00:00",
       "status": 200,
       "ok": true,
       "sha256": "1356f69df3ff81658e40ac2861505f1f9f1956fa44009ddce545f05ef11ef959",
-      "file": "fx-2103570565785391293.json"
+      "file": "fx-2103570565785391293.json",
+      "postId": "2103570565785391293"
     },
     {
-      "key": "fx-2104018813855429023",
       "url": "https://api.fxtwitter.com/_NathanCalvin/status/2104018813855429023",
       "checkedAt": "2026-10-02T04:18:01.550132+00:00",
       "status": 200,
       "ok": true,
       "sha256": "c9ab175f6bccea5f39d2b89706d886486bae30f380f72d2528af36c4c6fc43f7",
-      "file": "fx-2104018813855429023.json"
+      "file": "fx-2104018813855429023.json",
+      "postId": "2104018813855429023"
     },
     {
-      "key": "fx-2105621642991030285",
       "url": "https://api.fxtwitter.com/deanwball/status/2105621642991030285",
       "checkedAt": "2026-10-02T04:18:01.592867+00:00",
       "status": 200,
       "ok": true,
       "sha256": "d24fdb0f35009681ae7b3aee8ecdd26980baed4c299022158ed5b2c94e565cd2",
-      "file": "fx-2105621642991030285.json"
+      "file": "fx-2105621642991030285.json",
+      "postId": "2105621642991030285"
     },
     {
-      "key": "fx-2103239433809961276",
       "url": "https://api.fxtwitter.com/Google/status/2103239433809961276",
       "checkedAt": "2026-10-02T04:18:01.673327+00:00",
       "status": 200,
       "ok": true,
       "sha256": "13b02460966025b5c8da65cb43fc547f7fee379faf66f9f305522c848e8b2cfc",
-      "file": "fx-2103239433809961276.json"
+      "file": "fx-2103239433809961276.json",
+      "postId": "2103239433809961276"
     },
     {
-      "key": "fx-2104123059825516617",
       "url": "https://api.fxtwitter.com/TheChiefNerd/status/2104123059825516617",
       "checkedAt": "2026-10-02T04:18:01.711317+00:00",
       "status": 200,
       "ok": true,
       "sha256": "ac33e7ffb16525f65601a81d21ccd908481e14947a499a8f712c80f94600f27b",
-      "file": "fx-2104123059825516617.json"
+      "file": "fx-2104123059825516617.json",
+      "postId": "2104123059825516617"
     },
     {
-      "key": "fx-2102922241008902356",
       "url": "https://api.fxtwitter.com/HillaryClinton/status/2102922241008902356",
       "checkedAt": "2026-10-02T04:18:01.723594+00:00",
       "status": 200,
       "ok": true,
       "sha256": "a398b0b181d288159c3e8390df0a2b428b5dece8fa3022cbec5f594e1b198667",
-      "file": "fx-2102922241008902356.json"
+      "file": "fx-2102922241008902356.json",
+      "postId": "2102922241008902356"
     },
     {
-      "key": "fx-2103956774206513218",
       "url": "https://api.fxtwitter.com/tszzl/status/2103956774206513218",
       "checkedAt": "2026-10-02T04:18:01.797587+00:00",
       "status": 200,
       "ok": true,
       "sha256": "1d1904035219bf4d78f25695059b75d1e7780994843730c04a2c69a1f86bda6a",
-      "file": "fx-2103956774206513218.json"
+      "file": "fx-2103956774206513218.json",
+      "postId": "2103956774206513218"
     },
     {
-      "key": "fx-2103624790791852349",
       "url": "https://api.fxtwitter.com/JeffLadish/status/2103624790791852349",
       "checkedAt": "2026-10-02T04:18:01.837694+00:00",
       "status": 200,
       "ok": true,
       "sha256": "37a36f8352ae3c7f5782fba2b33a7180f6bcbee44b49df60760c89642f7e6de2",
-      "file": "fx-2103624790791852349.json"
+      "file": "fx-2103624790791852349.json",
+      "postId": "2103624790791852349"
     },
     {
-      "key": "fx-2103362997104295940",
       "url": "https://api.fxtwitter.com/Plinz/status/2103362997104295940",
       "checkedAt": "2026-10-02T04:18:01.854903+00:00",
       "status": 200,
       "ok": true,
       "sha256": "8cb645a835f9eeda7dafd163ef70e77bd1fc8741b08f971f24b92874ab8f09be",
-      "file": "fx-2103362997104295940.json"
+      "file": "fx-2103362997104295940.json",
+      "postId": "2103362997104295940"
     },
     {
-      "key": "fx-2103297840563032341",
       "url": "https://api.fxtwitter.com/Plinz/status/2103297840563032341",
       "checkedAt": "2026-10-02T04:18:01.902070+00:00",
       "status": 200,
       "ok": true,
       "sha256": "f8661f477fcaba43b3a556ab203b28199f786ada64546be17e4df5b3f11d15e8",
-      "file": "fx-2103297840563032341.json"
+      "file": "fx-2103297840563032341.json",
+      "postId": "2103297840563032341"
     },
     {
-      "key": "fx-2103491314616811570",
       "url": "https://api.fxtwitter.com/micsolana/status/2103491314616811570",
       "checkedAt": "2026-10-02T04:18:01.954073+00:00",
       "status": 200,
       "ok": true,
       "sha256": "ea81f574207c4c58b00f040259d9915c90b7e7cd1d10ddf27784f3f31383a098",
-      "file": "fx-2103491314616811570.json"
+      "file": "fx-2103491314616811570.json",
+      "postId": "2103491314616811570"
     },
     {
-      "key": "fx-2103133400345309313",
       "url": "https://api.fxtwitter.com/deanwball/status/2103133400345309313",
       "checkedAt": "2026-10-02T04:18:01.961151+00:00",
       "status": 200,
       "ok": true,
       "sha256": "1875cc98ce4f230927969f8958ac2d0e7fcbb93340488d815f64bcbdbad3716c",
-      "file": "fx-2103133400345309313.json"
+      "file": "fx-2103133400345309313.json",
+      "postId": "2103133400345309313"
     },
     {
-      "key": "fx-2103442885387383116",
       "url": "https://api.fxtwitter.com/mattyglesias/status/2103442885387383116",
       "checkedAt": "2026-10-02T04:18:02.006944+00:00",
       "status": 200,
       "ok": true,
       "sha256": "46b3f9a8ff98673f8f7529864591528ff576c8f373405b6aebec7a5f7e4ae309",
-      "file": "fx-2103442885387383116.json"
+      "file": "fx-2103442885387383116.json",
+      "postId": "2103442885387383116"
     },
     {
-      "key": "fx-2103613774444089660",
       "url": "https://api.fxtwitter.com/So8res/status/2103613774444089660",
       "checkedAt": "2026-10-02T04:18:02.095146+00:00",
       "status": 200,
       "ok": true,
       "sha256": "8921c635115045de619bebe9c383503a5ac0c648a377bf8d8a5ebe54709dfcdc",
-      "file": "fx-2103613774444089660.json"
+      "file": "fx-2103613774444089660.json",
+      "postId": "2103613774444089660"
     },
     {
-      "key": "fx-2103461624262570167",
       "url": "https://api.fxtwitter.com/zdch/status/2103461624262570167",
       "checkedAt": "2026-10-02T04:18:02.109554+00:00",
       "status": 200,
       "ok": true,
       "sha256": "1358c5f1e35d4be7248ecf2357e343fc5eb2e2e1cb7784bc2f7a7746efc54377",
-      "file": "fx-2103461624262570167.json"
+      "file": "fx-2103461624262570167.json",
+      "postId": "2103461624262570167"
     },
     {
-      "key": "fx-2103983671883464798",
       "url": "https://api.fxtwitter.com/jon_stokes/status/2103983671883464798",
       "checkedAt": "2026-10-02T04:18:02.228294+00:00",
       "status": 200,
       "ok": true,
       "sha256": "1ac524eff60f23f7c78a9836272451034e735b573618fbbffc16b40e1fecae0d",
-      "file": "fx-2103983671883464798.json"
+      "file": "fx-2103983671883464798.json",
+      "postId": "2103983671883464798"
     },
     {
-      "key": "fx-2097863067690475727",
       "url": "https://api.fxtwitter.com/v_maini/status/2097863067690475727",
       "checkedAt": "2026-10-02T04:18:02.239458+00:00",
       "status": 200,
       "ok": true,
       "sha256": "62cf8e84a9490eaa1eaeebc20591bef4683743ebbe3632bb5000cbf45801618e",
-      "file": "fx-2097863067690475727.json"
+      "file": "fx-2097863067690475727.json",
+      "postId": "2097863067690475727"
     },
     {
-      "key": "fx-2105410230234603765",
       "url": "https://api.fxtwitter.com/AndrewCurran_/status/2105410230234603765",
       "checkedAt": "2026-10-02T04:18:02.356723+00:00",
       "status": 200,
       "ok": true,
       "sha256": "b5b1027efe91b9ca43af39163af15f1984cea68ff76da68f16680f78b2ee1927",
-      "file": "fx-2105410230234603765.json"
+      "file": "fx-2105410230234603765.json",
+      "postId": "2105410230234603765"
     },
     {
-      "key": "fx-2104287112006885592",
       "url": "https://api.fxtwitter.com/tszzl/status/2104287112006885592",
       "checkedAt": "2026-10-02T04:18:02.365856+00:00",
       "status": 200,
       "ok": true,
       "sha256": "89c48c4046f5c991529a5f46b83fef5d2ca9dba7f33f600dc5b4a002bf34d120",
-      "file": "fx-2104287112006885592.json"
+      "file": "fx-2104287112006885592.json",
+      "postId": "2104287112006885592"
     },
     {
-      "key": "fx-2104429948437922027",
       "url": "https://api.fxtwitter.com/jankulveit/status/2104429948437922027",
       "checkedAt": "2026-10-02T04:18:02.386927+00:00",
       "status": 200,
       "ok": true,
       "sha256": "32f4c648b321b8599d026c2cbd8fd08415ad7fa5b4d7bf6c6b423c838bfa5846",
-      "file": "fx-2104429948437922027.json"
+      "file": "fx-2104429948437922027.json",
+      "postId": "2104429948437922027"
     },
     {
-      "key": "fx-2104930453413155047",
       "url": "https://api.fxtwitter.com/oscredwin/status/2104930453413155047",
       "checkedAt": "2026-10-02T04:18:02.469552+00:00",
       "status": 200,
       "ok": true,
       "sha256": "05be06f81ec45eca7b5de5d31ecbce18acd5f60f19d561ad19b138206e800f5d",
-      "file": "fx-2104930453413155047.json"
+      "file": "fx-2104930453413155047.json",
+      "postId": "2104930453413155047"
     },
     {
-      "key": "fx-2104023338615963793",
       "url": "https://api.fxtwitter.com/hamandcheese/status/2104023338615963793",
       "checkedAt": "2026-10-02T04:18:02.478148+00:00",
       "status": 200,
       "ok": true,
       "sha256": "1797134e6cec1dce696e03629458c4316b37f7675b0b124b62b1c52651cf5d92",
-      "file": "fx-2104023338615963793.json"
+      "file": "fx-2104023338615963793.json",
+      "postId": "2104023338615963793"
     },
     {
-      "key": "fx-2104256047493902622",
       "url": "https://api.fxtwitter.com/micsolana/status/2104256047493902622",
       "checkedAt": "2026-10-02T04:18:02.492963+00:00",
       "status": 200,
       "ok": true,
       "sha256": "5c64856f6b3d8632467b1616bf1df5380713d89cdc27836b6fee696a0cfa4142",
-      "file": "fx-2104256047493902622.json"
+      "file": "fx-2104256047493902622.json",
+      "postId": "2104256047493902622"
     },
     {
-      "key": "fx-2104901976165159018",
       "url": "https://api.fxtwitter.com/shamilch/status/2104901976165159018",
       "checkedAt": "2026-10-02T04:18:02.584272+00:00",
       "status": 200,
       "ok": true,
       "sha256": "87841c289704639ee2aa00bb38035e4f0dfb28df50177a594854a1dfb632a008",
-      "file": "fx-2104901976165159018.json"
+      "file": "fx-2104901976165159018.json",
+      "postId": "2104901976165159018"
     },
     {
-      "key": "fx-2103867166554497087",
       "url": "https://api.fxtwitter.com/TheStalwart/status/2103867166554497087",
       "checkedAt": "2026-10-02T04:18:02.599422+00:00",
       "status": 200,
       "ok": true,
       "sha256": "80a0874c844fd5a88573c73c4d797ab993868a5034df20f19c93bc2dc77cb22a",
-      "file": "fx-2103867166554497087.json"
+      "file": "fx-2103867166554497087.json",
+      "postId": "2103867166554497087"
     },
     {
-      "key": "fx-2103870467815677973",
       "url": "https://api.fxtwitter.com/TheStalwart/status/2103870467815677973",
       "checkedAt": "2026-10-02T04:18:02.607713+00:00",
       "status": 200,
       "ok": true,
       "sha256": "582a8b494517f438db717a37e8e7384fb294886a00bf96d5297c1727789cfe8d",
-      "file": "fx-2103870467815677973.json"
+      "file": "fx-2103870467815677973.json",
+      "postId": "2103870467815677973"
     },
     {
-      "key": "fx-2104295739111420411",
       "url": "https://api.fxtwitter.com/sirbayes/status/2104295739111420411",
       "checkedAt": "2026-10-02T04:18:02.709380+00:00",
       "status": 200,
       "ok": true,
       "sha256": "815c2ae4e616be1842d5b3e62b16f494da72e8d602a1e45d866bd8d3add2b6a5",
-      "file": "fx-2104295739111420411.json"
+      "file": "fx-2104295739111420411.json",
+      "postId": "2104295739111420411"
     },
     {
-      "key": "fx-2104496576026612148",
       "url": "https://api.fxtwitter.com/rowlsmanthorpe/status/2104496576026612148",
       "checkedAt": "2026-10-02T04:18:02.712355+00:00",
       "status": 200,
       "ok": true,
       "sha256": "e755129dd29b81cd1e358501b2524fa23bbaa50e406d7d00dcc316bf1d476090",
-      "file": "fx-2104496576026612148.json"
+      "file": "fx-2104496576026612148.json",
+      "postId": "2104496576026612148"
     },
     {
-      "key": "fx-2104559777225302340",
       "url": "https://api.fxtwitter.com/dioscuri/status/2104559777225302340",
       "checkedAt": "2026-10-02T04:18:02.735552+00:00",
       "status": 200,
       "ok": true,
       "sha256": "bfb3deaebad1bf9338a49174e6d474e20d96f9f37ab41eca8c7a24139b3660bd",
-      "file": "fx-2104559777225302340.json"
+      "file": "fx-2104559777225302340.json",
+      "postId": "2104559777225302340"
     },
     {
-      "key": "fx-2104572041114575020",
       "url": "https://api.fxtwitter.com/SkyeSharkie/status/2104572041114575020",
       "checkedAt": "2026-10-02T04:18:02.835055+00:00",
       "status": 200,
       "ok": true,
       "sha256": "95cfa61b22e6217075e5f48573ad6248ecde689b8a1fe8dab016955e89768386",
-      "file": "fx-2104572041114575020.json"
+      "file": "fx-2104572041114575020.json",
+      "postId": "2104572041114575020"
     },
     {
-      "key": "fx-2103901323280396659",
       "url": "https://api.fxtwitter.com/Tyler_A_Harper/status/2103901323280396659",
       "checkedAt": "2026-10-02T04:18:02.845926+00:00",
       "status": 200,
       "ok": true,
       "sha256": "7398011608e5f6cc4b90d7f873d3c8025a6dd79c2f072a470a533f8c3c711211",
-      "file": "fx-2103901323280396659.json"
+      "file": "fx-2103901323280396659.json",
+      "postId": "2103901323280396659"
     },
     {
-      "key": "fx-2104899515870486986",
       "url": "https://api.fxtwitter.com/jankulveit/status/2104899515870486986",
       "checkedAt": "2026-10-02T04:18:02.850214+00:00",
       "status": 200,
       "ok": true,
       "sha256": "310c5067de33b439d59f4b2a0ef1732780ff1d7b74296d4163959d1608c51e09",
-      "file": "fx-2104899515870486986.json"
+      "file": "fx-2104899515870486986.json",
+      "postId": "2104899515870486986"
     },
     {
-      "key": "fx-2104958307995693201",
       "url": "https://api.fxtwitter.com/a_cuniculturist/status/2104958307995693201",
       "checkedAt": "2026-10-02T04:18:02.966260+00:00",
       "status": 200,
       "ok": true,
       "sha256": "5e5ce23b42afcb68739a94d5264561cef83e9a410520e846cab914b3561e9238",
-      "file": "fx-2104958307995693201.json"
+      "file": "fx-2104958307995693201.json",
+      "postId": "2104958307995693201"
     },
     {
-      "key": "fx-2104485485666291850",
       "url": "https://api.fxtwitter.com/nickcammarata/status/2104485485666291850",
       "checkedAt": "2026-10-02T04:18:02.970338+00:00",
       "status": 200,
       "ok": true,
       "sha256": "acdc75337a7f530d690fe0ddb82af81110f70295b27eaf98dc740023d6455a8d",
-      "file": "fx-2104485485666291850.json"
+      "file": "fx-2104485485666291850.json",
+      "postId": "2104485485666291850"
     },
     {
-      "key": "fx-2104488846603764135",
       "url": "https://api.fxtwitter.com/billyhumblebrag/status/2104488846603764135",
       "checkedAt": "2026-10-02T04:18:02.970554+00:00",
       "status": 200,
       "ok": true,
       "sha256": "8ce5f5b66d65bd8842af90c3d827e5760fded64ae6234cc86317ae87a4274ff1",
-      "file": "fx-2104488846603764135.json"
+      "file": "fx-2104488846603764135.json",
+      "postId": "2104488846603764135"
     },
     {
-      "key": "fx-1727704333582504129",
       "url": "https://api.fxtwitter.com/billyhumblebrag/status/1727704333582504129",
       "checkedAt": "2026-10-02T04:18:03.080034+00:00",
       "status": 200,
       "ok": true,
       "sha256": "8df55e9a977f25a95b646657105d1aaf9db589ea4031fbd89387219e65b4a09d",
-      "file": "fx-1727704333582504129.json"
+      "file": "fx-1727704333582504129.json",
+      "postId": "1727704333582504129"
     },
     {
-      "key": "fx-2104789659851354185",
       "url": "https://api.fxtwitter.com/tracewoodgrains/status/2104789659851354185",
       "checkedAt": "2026-10-02T04:18:03.096812+00:00",
       "status": 200,
       "ok": true,
       "sha256": "7f2b6ce73a1c1eaef4a4e905992c317a99e14c873049b971e8e8a45ffe3261a3",
-      "file": "fx-2104789659851354185.json"
+      "file": "fx-2104789659851354185.json",
+      "postId": "2104789659851354185"
     },
     {
-      "key": "fx-2104873773182726541",
       "url": "https://api.fxtwitter.com/tobyordoxford/status/2104873773182726541",
       "checkedAt": "2026-10-02T04:18:03.103819+00:00",
       "status": 200,
       "ok": true,
       "sha256": "b03792ea303eebc49611d21e68ff9b395f6116085d41524dc2bb1f5e6f5a784a",
-      "file": "fx-2104873773182726541.json"
+      "file": "fx-2104873773182726541.json",
+      "postId": "2104873773182726541"
     },
     {
-      "key": "fx-2105054298451185865",
       "url": "https://api.fxtwitter.com/deanwball/status/2105054298451185865",
       "checkedAt": "2026-10-02T04:18:03.203247+00:00",
       "status": 200,
       "ok": true,
       "sha256": "2d87695fc0111843300139d193d1aa5d3651e1b5160b6e1279b7d65d724af5c5",
-      "file": "fx-2105054298451185865.json"
+      "file": "fx-2105054298451185865.json",
+      "postId": "2105054298451185865"
     },
     {
-      "key": "fx-2104115580228022388",
       "url": "https://api.fxtwitter.com/EpistemicHope/status/2104115580228022388",
       "checkedAt": "2026-10-02T04:18:03.245751+00:00",
       "status": 200,
       "ok": true,
       "sha256": "3437227d03a0123709b78f7be9c1074c076fbe0cb8d5bf78ba4f812480f11a4b",
-      "file": "fx-2104115580228022388.json"
+      "file": "fx-2104115580228022388.json",
+      "postId": "2104115580228022388"
     },
     {
-      "key": "fx-2098075144086253977",
       "url": "https://api.fxtwitter.com/davidmanheim/status/2098075144086253977",
       "checkedAt": "2026-10-02T04:18:03.252297+00:00",
       "status": 200,
       "ok": true,
       "sha256": "0741796105c123064f8fcd28e6c32b57d989ea6a26b02028c7321e5e217675f9",
-      "file": "fx-2098075144086253977.json"
+      "file": "fx-2098075144086253977.json",
+      "postId": "2098075144086253977"
     },
     {
-      "key": "fx-2103837667154669837",
       "url": "https://api.fxtwitter.com/FedorovMykhailo/status/2103837667154669837",
       "checkedAt": "2026-10-02T04:18:03.317067+00:00",
       "status": 200,
       "ok": true,
       "sha256": "4c37843f8cf78151a116c7cbe88b04106b95faadb5ea714c88fdab3d8f36aefe",
-      "file": "fx-2103837667154669837.json"
+      "file": "fx-2103837667154669837.json",
+      "postId": "2103837667154669837"
     },
     {
-      "key": "fx-2105163289432928612",
       "url": "https://api.fxtwitter.com/ChrisPainterYup/status/2105163289432928612",
       "checkedAt": "2026-10-02T04:18:03.361702+00:00",
       "status": 200,
       "ok": true,
       "sha256": "6f424efabff477d2b7edda4b8cf298edd6c11ca7b897b72c5641e8ba4f87f746",
-      "file": "fx-2105163289432928612.json"
+      "file": "fx-2105163289432928612.json",
+      "postId": "2105163289432928612"
     },
     {
-      "key": "fx-2103498331926475044",
       "url": "https://api.fxtwitter.com/AndrewCurran_/status/2103498331926475044",
       "checkedAt": "2026-10-02T04:18:03.378884+00:00",
       "status": 200,
       "ok": true,
       "sha256": "056fd5526aa85c6b9db92483d61d971ed4969df1d82b2738c11917aaf8c3d14d",
-      "file": "fx-2103498331926475044.json"
+      "file": "fx-2103498331926475044.json",
+      "postId": "2103498331926475044"
     },
     {
-      "key": "fx-2103903199354921266",
       "url": "https://api.fxtwitter.com/GroundhogStrat/status/2103903199354921266",
       "checkedAt": "2026-10-02T04:18:03.432539+00:00",
       "status": 200,
       "ok": true,
       "sha256": "9fdd2528ba92b24694e49abc6099fbca301dfb490898b928351b9c8041a2d202",
-      "file": "fx-2103903199354921266.json"
+      "file": "fx-2103903199354921266.json",
+      "postId": "2103903199354921266"
     },
     {
-      "key": "fx-2103664590609617227",
       "url": "https://api.fxtwitter.com/beffjezos/status/2103664590609617227",
       "checkedAt": "2026-10-02T04:18:03.471172+00:00",
       "status": 200,
       "ok": true,
       "sha256": "29a41aa92d8dddc228881996ca8996ec4a5dd34064c1fd48936a31952645f19c",
-      "file": "fx-2103664590609617227.json"
+      "file": "fx-2103664590609617227.json",
+      "postId": "2103664590609617227"
     },
     {
-      "key": "fx-2104326784150036927",
       "url": "https://api.fxtwitter.com/codezilla_/status/2104326784150036927",
       "checkedAt": "2026-10-02T04:18:03.494690+00:00",
       "status": 200,
       "ok": true,
       "sha256": "b4de41f4fe92b497780d3b568811e96734213688284ffa1cc0ed88f8601a62a5",
-      "file": "fx-2104326784150036927.json"
+      "file": "fx-2104326784150036927.json",
+      "postId": "2104326784150036927"
     },
     {
-      "key": "fx-2105606322310054044",
       "url": "https://api.fxtwitter.com/ann_nnng/status/2105606322310054044",
       "checkedAt": "2026-10-02T04:18:03.573902+00:00",
       "ok": false,
-      "error": "HTTP Error 404: Not Found"
+      "error": "HTTP Error 404: Not Found",
+      "postId": "2105606322310054044"
     },
     {
-      "key": "fx-2105645121782079554",
       "url": "https://api.fxtwitter.com/nusretuzman/status/2105645121782079554",
       "checkedAt": "2026-10-02T04:18:03.607709+00:00",
       "status": 200,
       "ok": true,
       "sha256": "d2ac9ca6f1926df5530e69a03b4a866e49599a0040e54e5dad243ffaf35f7c36",
-      "file": "fx-2105645121782079554.json"
+      "file": "fx-2105645121782079554.json",
+      "postId": "2105645121782079554"
     },
     {
-      "key": "fx-2105414902282387661",
       "url": "https://api.fxtwitter.com/marouane53/status/2105414902282387661",
       "checkedAt": "2026-10-02T04:18:03.675791+00:00",
       "status": 200,
       "ok": true,
       "sha256": "9dd92d03b25bfdfb2354c4d205663b6f79cc7f3d0b7cb77bf456466d9c75ffba",
-      "file": "fx-2105414902282387661.json"
+      "file": "fx-2105414902282387661.json",
+      "postId": "2105414902282387661"
     },
     {
-      "key": "fx-2105414480910069765",
       "url": "https://api.fxtwitter.com/allodev/status/2105414480910069765",
       "checkedAt": "2026-10-02T04:18:03.746538+00:00",
       "status": 200,
       "ok": true,
       "sha256": "f6a4fabbee2dc8c7572aece21f7c4cffa35ad729af973d63602a4b79ab006730",
-      "file": "fx-2105414480910069765.json"
+      "file": "fx-2105414480910069765.json",
+      "postId": "2105414480910069765"
     },
     {
-      "key": "fx-2105724315329053085",
       "url": "https://api.fxtwitter.com/MadMax_Series/status/2105724315329053085",
       "checkedAt": "2026-10-02T04:18:03.810434+00:00",
       "status": 200,
       "ok": true,
       "sha256": "bae0c496199842416cb6771cb1eb0f96c8387173eeac51e236958809d9f28495",
-      "file": "fx-2105724315329053085.json"
+      "file": "fx-2105724315329053085.json",
+      "postId": "2105724315329053085"
     },
     {
-      "key": "fx-2007198916073136152",
       "url": "https://api.fxtwitter.com/a1zhang/status/2007198916073136152",
       "checkedAt": "2026-10-02T04:18:03.888850+00:00",
       "status": 200,
       "ok": true,
       "sha256": "a42c0cc8805204776fe3d3d91e3c11c72c1c5453ac39e49793ea5a0a13a17dd9",
-      "file": "fx-2007198916073136152.json"
+      "file": "fx-2007198916073136152.json",
+      "postId": "2007198916073136152"
     },
     {
-      "key": "fx-2085086999267144083",
       "url": "https://api.fxtwitter.com/PrimeIntellect/status/2085086999267144083",
       "checkedAt": "2026-10-02T04:18:03.944033+00:00",
       "status": 200,
       "ok": true,
       "sha256": "d11e217be9a12a6282e85b22a3e6a9c8d656307fdd50d05a5b6a9096f1a263a1",
-      "file": "fx-2085086999267144083.json"
+      "file": "fx-2085086999267144083.json",
+      "postId": "2085086999267144083"
     },
     {
-      "key": "fx-2105409935936782708",
       "url": "https://api.fxtwitter.com/a1zhang/status/2105409935936782708",
       "checkedAt": "2026-10-02T04:18:03.958856+00:00",
       "status": 200,
       "ok": true,
       "sha256": "08468dd58ef2fc1ec07e94a228147f265a0a304c1883debd3d23b86ccf6c9543",
-      "file": "fx-2105409935936782708.json"
+      "file": "fx-2105409935936782708.json",
+      "postId": "2105409935936782708"
     },
     {
-      "key": "fx-2103108369569726802",
       "url": "https://api.fxtwitter.com/_mexicat/status/2103108369569726802",
       "checkedAt": "2026-10-02T04:18:04.005197+00:00",
       "status": 200,
       "ok": true,
       "sha256": "3508fda126e348f4053c1543eb9a27d1d4263c83d75f3d34e2dbd2a31a116c1b",
-      "file": "fx-2103108369569726802.json"
+      "file": "fx-2103108369569726802.json",
+      "postId": "2103108369569726802"
     },
     {
-      "key": "fx-2103470305197080902",
       "url": "https://api.fxtwitter.com/alexandr_wang/status/2103470305197080902",
       "checkedAt": "2026-10-02T04:18:04.065720+00:00",
       "status": 200,
       "ok": true,
       "sha256": "58dd11998f1cbfc1f3eb4c9154b058f8ed2fa1918c443f505ca9f772730fad6f",
-      "file": "fx-2103470305197080902.json"
+      "file": "fx-2103470305197080902.json",
+      "postId": "2103470305197080902"
     },
     {
-      "key": "fx-2105345162771648883",
       "url": "https://api.fxtwitter.com/Deltaroo3D/status/2105345162771648883",
       "checkedAt": "2026-10-02T04:18:04.107158+00:00",
       "status": 200,
       "ok": true,
       "sha256": "976ac031c02b90fa8b4e32b511a8cc441991c7c629f11e8ab5d031dd7f40923c",
-      "file": "fx-2105345162771648883.json"
+      "file": "fx-2105345162771648883.json",
+      "postId": "2105345162771648883"
     },
     {
-      "key": "fx-2105771088374288692",
       "url": "https://api.fxtwitter.com/mesmerlord/status/2105771088374288692",
       "checkedAt": "2026-10-02T04:18:04.134699+00:00",
       "status": 200,
       "ok": true,
       "sha256": "8c5ec04f422569a4698fa8ccabb607123f9e22083d4bc60dcb0b49cf411aa500",
-      "file": "fx-2105771088374288692.json"
+      "file": "fx-2105771088374288692.json",
+      "postId": "2105771088374288692"
     },
     {
-      "key": "fx-2105757136219504862",
       "url": "https://api.fxtwitter.com/chetaslua/status/2105757136219504862",
       "checkedAt": "2026-10-02T04:18:04.228576+00:00",
       "status": 200,
       "ok": true,
       "sha256": "5807745292d0d9ce66444b164c0300bd0235cacf1d5345b4e6dbb0945739863d",
-      "file": "fx-2105757136219504862.json"
+      "file": "fx-2105757136219504862.json",
+      "postId": "2105757136219504862"
     },
     {
-      "key": "fx-2105721434807083061",
       "url": "https://api.fxtwitter.com/ClaudeDevs/status/2105721434807083061",
       "checkedAt": "2026-10-02T04:18:04.269267+00:00",
       "status": 200,
       "ok": true,
       "sha256": "52debc3e925224c967ece5c70aeb2c71341532caae6cfff2761c46f28d55778b",
-      "file": "fx-2105721434807083061.json"
+      "file": "fx-2105721434807083061.json",
+      "postId": "2105721434807083061"
     },
     {
-      "key": "fx-2105413188632109537",
       "url": "https://api.fxtwitter.com/o_b_z_d_n/status/2105413188632109537",
       "checkedAt": "2026-10-02T04:18:04.279825+00:00",
       "status": 200,
       "ok": true,
       "sha256": "f7119981ece4c4bb9ce5d18e1f042ad02d12da3c141501b52cc04f5dbe8a7cf2",
-      "file": "fx-2105413188632109537.json"
+      "file": "fx-2105413188632109537.json",
+      "postId": "2105413188632109537"
     },
     {
-      "key": "fx-2105295629941350454",
       "url": "https://api.fxtwitter.com/GayaniFigma/status/2105295629941350454",
       "checkedAt": "2026-10-02T04:18:04.366262+00:00",
       "status": 200,
       "ok": true,
       "sha256": "383bbc1afaff61ecc6bc7f8259a4220e2c791c79f92173e01366b806b2fd5d30",
-      "file": "fx-2105295629941350454.json"
+      "file": "fx-2105295629941350454.json",
+      "postId": "2105295629941350454"
     },
     {
-      "key": "fx-2105808684680945905",
       "url": "https://api.fxtwitter.com/i/status/2105808684680945905",
       "checkedAt": "2026-10-02T04:18:04.392583+00:00",
       "status": 200,
       "ok": true,
       "sha256": "0a9b67b941bdea79829a29eaff8469a5c7495c48f60b181b59e865d5a6939b43",
-      "file": "fx-2105808684680945905.json"
+      "file": "fx-2105808684680945905.json",
+      "postId": "2105808684680945905"
     },
     {
-      "key": "fx-2105680979935527192",
       "url": "https://api.fxtwitter.com/i/status/2105680979935527192",
       "checkedAt": "2026-10-02T04:18:04.402529+00:00",
       "status": 200,
       "ok": true,
       "sha256": "5f077a47e43980c83bea8ceeeda375d9ed67a17487099df5d684f40fd2054dc5",
-      "file": "fx-2105680979935527192.json"
+      "file": "fx-2105680979935527192.json",
+      "postId": "2105680979935527192"
     },
     {
-      "key": "fx-2105792187200147541",
       "url": "https://api.fxtwitter.com/i/status/2105792187200147541",
       "checkedAt": "2026-10-02T04:18:04.421868+00:00",
       "status": 200,
       "ok": true,
       "sha256": "a5d928af13fac3c3cd1fb2ba9dbe33ddbd85dbc1accb52e16a3ec5fdfc3b6b7d",
-      "file": "fx-2105792187200147541.json"
+      "file": "fx-2105792187200147541.json",
+      "postId": "2105792187200147541"
     },
     {
-      "key": "fx-2105775463624810788",
       "url": "https://api.fxtwitter.com/dotey/status/2105775463624810788",
       "checkedAt": "2026-10-02T04:18:04.530130+00:00",
       "status": 200,
       "ok": true,
       "sha256": "68070ebf2521dc0313867cf4d0d182b7a8eef3e63d5e329fdc1f72efdc5efdc6",
-      "file": "fx-2105775463624810788.json"
+      "file": "fx-2105775463624810788.json",
+      "postId": "2105775463624810788"
     },
     {
-      "key": "fx-2096221988763173186",
       "url": "https://api.fxtwitter.com/i/status/2096221988763173186",
       "checkedAt": "2026-10-02T04:18:04.530455+00:00",
       "status": 200,
       "ok": true,
       "sha256": "5b191d1eb1783975e31fbc29658d5c1cd6efbc95504c1b228defc79e6a0fdb44",
-      "file": "fx-2096221988763173186.json"
+      "file": "fx-2096221988763173186.json",
+      "postId": "2096221988763173186"
     },
     {
-      "key": "fx-2105652774780420607",
       "url": "https://api.fxtwitter.com/i/status/2105652774780420607",
       "checkedAt": "2026-10-02T04:18:04.551232+00:00",
       "status": 200,
       "ok": true,
       "sha256": "8a21fe1d24176b114437bfdd0769c7ecffbc6f94a8fa9bb5fa56c9d9eac0a8a1",
-      "file": "fx-2105652774780420607.json"
+      "file": "fx-2105652774780420607.json",
+      "postId": "2105652774780420607"
     },
     {
-      "key": "fx-2105679463690428689",
       "url": "https://api.fxtwitter.com/i/status/2105679463690428689",
       "checkedAt": "2026-10-02T04:18:04.575620+00:00",
       "status": 200,
       "ok": true,
       "sha256": "9952331257855eaad4de7af7a38cc4d01940f7f5012bc9f365dd8ab575ac391b",
-      "file": "fx-2105679463690428689.json"
+      "file": "fx-2105679463690428689.json",
+      "postId": "2105679463690428689"
     },
     {
-      "key": "fx-2101020172589117808",
       "url": "https://api.fxtwitter.com/0xInk_/status/2101020172589117808",
       "checkedAt": "2026-10-02T04:18:04.673125+00:00",
       "status": 200,
       "ok": true,
       "sha256": "b3db2dae8b221da8731f4498e6652522c71884c56ae5191057444b07c68d106f",
-      "file": "fx-2101020172589117808.json"
+      "file": "fx-2101020172589117808.json",
+      "postId": "2101020172589117808"
     },
     {
-      "key": "fx-2105645639703183753",
       "url": "https://api.fxtwitter.com/i/status/2105645639703183753",
       "checkedAt": "2026-10-02T04:18:04.683178+00:00",
       "status": 200,
       "ok": true,
       "sha256": "7c3ab9956053cd15437f7d66f820c5d21ebb34315f928d74bf526ccac2b79594",
-      "file": "fx-2105645639703183753.json"
+      "file": "fx-2105645639703183753.json",
+      "postId": "2105645639703183753"
     },
     {
-      "key": "fx-2105634377048682577",
       "url": "https://api.fxtwitter.com/i/status/2105634377048682577",
       "checkedAt": "2026-10-02T04:18:04.683451+00:00",
       "status": 200,
       "ok": true,
       "sha256": "a744b0a8a7a8c72be9c88a6d2974f261d39c551258dd7702c17bf4f8da735553",
-      "file": "fx-2105634377048682577.json"
+      "file": "fx-2105634377048682577.json",
+      "postId": "2105634377048682577"
     },
     {
-      "key": "fx-2105814552562872686",
       "url": "https://api.fxtwitter.com/FinanceYF5/status/2105814552562872686",
       "checkedAt": "2026-10-02T04:18:04.766754+00:00",
       "status": 200,
       "ok": true,
       "sha256": "b67f4f23c24acbba3005c60b37c4e30f1df3e79ed027f3469ba79974c174e3ac",
-      "file": "fx-2105814552562872686.json"
+      "file": "fx-2105814552562872686.json",
+      "postId": "2105814552562872686"
     },
     {
-      "key": "fx-2105281196846702657",
       "url": "https://api.fxtwitter.com/satromi/status/2105281196846702657",
       "checkedAt": "2026-10-02T04:18:04.799900+00:00",
       "status": 200,
       "ok": true,
       "sha256": "290df9a7b3e17e263e298fd5d0e24fe68cec586ffd64945dfdd45d45a81d0c6a",
-      "file": "fx-2105281196846702657.json"
+      "file": "fx-2105281196846702657.json",
+      "postId": "2105281196846702657"
     },
     {
-      "key": "fx-2105685231298630009",
       "url": "https://api.fxtwitter.com/minchoi/status/2105685231298630009",
       "checkedAt": "2026-10-02T04:18:04.867057+00:00",
       "status": 200,
       "ok": true,
       "sha256": "fd07916617a93a6ad6f088aeea0131689c5fb62c875be8ed748ccc4d42265dda",
-      "file": "fx-2105685231298630009.json"
+      "file": "fx-2105685231298630009.json",
+      "postId": "2105685231298630009"
     },
     {
-      "key": "fx-2105593362405589252",
       "url": "https://api.fxtwitter.com/eng_khairallah1/status/2105593362405589252",
       "checkedAt": "2026-10-02T04:18:04.885103+00:00",
       "status": 200,
       "ok": true,
       "sha256": "ab3834099d157921e8a884e5e96cd2fa98ca5f04923991efbbfd1f977f8a7437",
-      "file": "fx-2105593362405589252.json"
+      "file": "fx-2105593362405589252.json",
+      "postId": "2105593362405589252"
     }
   ],
   "xapiSearch": [
