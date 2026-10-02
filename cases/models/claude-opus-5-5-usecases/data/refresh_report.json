@@ -1,185 +1,149 @@
 {
- "refreshedAt": "2026-10-01T15:44:44+00:00",
- "scope": {
-  "key": "x-replies",
-  "zh": "X 热门帖回帖扩展核验（30 条主帖，非全量）",
-  "en": "Expanded X reply review (30 seed posts, partial coverage)"
- },
- "status": "partial-coverage",
- "lastFullRefreshAt": "2026-09-30T07:38:18+00:00",
- "lastMultiSourceRefreshAt": "2026-10-01T13:51:38+00:00",
- "previousReport": "data/refresh_history/2026-10-01-before-x-replies-expanded.json",
- "previousCaseCount": 5272,
- "caseCount": 5289,
- "reviewedNewExtras": 17,
- "reviewedNewExtrasByPlatform": {
-  "X": 17
- },
- "existingCasesEnriched": 21,
- "resourceLinksAdded": 34,
- "coverage": {
-  "seedPosts": 30,
-  "seedSelectionMinimumLikes": 5235,
-  "seedCategories": 8,
-  "simplifiedReplyCandidates": 966,
-  "rawVerifiedReplyCandidates": 1019,
-  "uniqueReplyCandidates": 1078,
-  "hotReplyCandidates": 187,
-  "selectedValuableReplies": 46,
-  "newCases": 17,
-  "existingCasesEnriched": 21,
-  "resourceLinksAdded": 34,
-  "newCasesFromHotReplies": 1,
-  "newCasesFromOtherValuableReplies": 16,
-  "newCasesFromThirdPartyReplies": 13,
-  "newCasesFromSeedAuthorsReplies": 4,
-  "originalPostersAdded": 9,
-  "videoFramePostersAdded": 7,
-  "newCasesWithoutPoster": 1,
-  "caseCount": 5289,
-  "uniqueApiResponseReceipts": 70,
-  "coverageComplete": false
- },
- "metricsUpdated": {
-  "existingCases": 0,
-  "newCaseMetrics": 17
- },
- "posters": {
-  "total": 4372,
-  "missing": 917,
-  "newCasesWithPosters": 16,
-  "originalThumbnails": 9,
-  "originalVideoFrames": 7,
-  "previous533ReviewedOverlaysPreserved": true
- },
- "limitations": [
-  "Top-30-by-likes sample is purposive and dominated by popular creative posts; not representative of all X.",
-  "1,078 candidates were screened, not all fully audited or independently reproduced. The 46 retained valuable replies were checked against original relation fields and content.",
-  "Hot means >=100 likes OR >=10000 views at collection time. Low-popularity valuable replies are counted separately.",
-  "Parent model mentions never establish another creator’s model; the Microduck older baseline is kept distinct.",
-  "Existing metrics, posters and unrelated fields remain unchanged. No new internet-wide refresh is claimed.",
-  "Full prompt bodies, API credentials, raw response bodies and original videos are not published. Seven reviewed still frames are published as case thumbnails."
- ],
- "fetchReceiptFile": "data/refresh_history/2026-10-01-x-replies-expanded.json",
- "reviewDecisionFile": "data/refresh_history/2026-10-01-x-replies-expanded.json",
- "processLog": "UPDATE-2026-10-01-x-replies-expanded.md",
- "validation": {
-  "status": "passed",
-  "cases": 5289,
-  "newCases": 17,
-  "enrichedExistingCases": 21,
-  "newResourceLinks": 34,
-  "existingNonresourceFieldsUnchanged": true,
-  "existingMetricsAndPostersPreserved": true,
-  "priorPosterOverlayUnchanged": true,
-  "duplicateIds": 0,
-  "duplicateSourceIdentities": 0,
-  "csvJsonHtmlConsistent": true,
-  "candidateIdsAudited": 1078,
-  "acceptedReplyRelationsVerified": 46,
-  "regressionTests": 27,
-  "offlineRebuildStable": true,
-  "gitDiffCheck": "passed",
-  "browser": {
-   "status": "passed",
-   "newCases": [
-    {
-     "id": "lists-669",
-     "imageLoaded": false,
-     "resourceLinks": 1
+  "refreshedAt": "2026-10-02T04:39:30+00:00",
+  "scope": {
+    "key": "multi-source",
+    "zh": "多平台公开信源更新（部分覆盖）",
+    "en": "Multi-source public refresh (partial coverage)"
+  },
+  "status": "partial-coverage",
+  "lastFullRefreshAt": "2026-09-30T07:38:18+00:00",
+  "lastMultiSourceRefreshAt": "2026-10-02T04:39:30+00:00",
+  "previousReport": "data/refresh_history/2026-10-02-before-refresh.json",
+  "previousCaseCount": 5289,
+  "caseCount": 5411,
+  "reviewedNewExtras": 122,
+  "reviewedNewExtrasByPlatform": {
+    "X": 41,
+    "GitHub": 19,
+    "Reddit": 24,
+    "Bilibili": 30,
+    "YouTube": 2,
+    "Web": 6
+  },
+  "baseCases": 2717,
+  "coverage": {
+    "configuredEndpoints": 46,
+    "configuredSucceeded": 46,
+    "supplementalRequests": 64,
+    "supplementalSucceeded": 58,
+    "xapiSearchPages": 10,
+    "githubRepositories": 143,
+    "githubIssues": 686,
+    "redditPosts": 1614,
+    "bilibiliVideos": 103,
+    "youtubeVideos": 131,
+    "hnHits": 93,
+    "coverageComplete": false
+  },
+  "metricsUpdated": {
+    "xSucceeded": 3585,
+    "xAttempted": 3601,
+    "githubSucceeded": 320,
+    "githubAttempted": 324,
+    "githubStarsChanged": 59,
+    "xapiUnavailableFallbacks": 16,
+    "xapiRecovered": 0
+  },
+  "posters": {
+    "total": 4467,
+    "missing": 944,
+    "newCasesWithPosters": 95,
+    "previous533ReviewedOverlaysPreserved": true
+  },
+  "limitations": [
+    "Configured endpoints succeeded, but this is not exhaustive coverage of each platform or the web.",
+    "Reddit pagination encountered HTTP 429; Bilibili pagination encountered HTTP 412; GitHub issues were capped at four pages for large queries.",
+    "YouTube uses nine search-result first pages; two selected video descriptions/transcripts were read in full.",
+    "XAPI SearchTimeline includes nested quotes, and Latest returned an empty continuation; Top results are not a global popularity ranking.",
+    "Sixteen X posts and four GitHub repositories remained unavailable; previous metrics are preserved. HTTP 404 does not prove deletion.",
+    "Note search API returned HTTP 404. No new note article was verified in this pass.",
+    "Most works and metrics are creator/platform reports, not independent reproductions. Raw bodies and API credentials are not published."
+  ],
+  "fetchReceiptFile": "data/refresh_history/2026-10-02-fetches.json",
+  "reviewDecisionFile": "data/refresh_history/2026-10-02-review.json",
+  "processLog": "UPDATE-2026-10-02.md",
+  "validation": {
+    "status": "passed",
+    "cases": 5411,
+    "newCases": 122,
+    "existingNonmetricFieldsUnchanged": true,
+    "previousEnrichmentFilesByteIdentical": true,
+    "duplicateIds": 0,
+    "duplicateSourceIdentities": 0,
+    "csvJsonConsistent": true,
+    "regressionTests": 27,
+    "gitDiffCheck": "passed",
+    "browser": {
+      "status": "passed",
+      "desktop": [
+        1440,
+        1000
+      ],
+      "mobile": [
+        390,
+        844
+      ],
+      "runtimeErrors": [],
+      "representativeCases": [
+        {
+          "sourceUrl": "https://x.com/grmchn4ai/status/2105487518087159929",
+          "imageLoaded": true,
+          "resources": 0
+        },
+        {
+          "sourceUrl": "https://x.com/getBack_1969_/status/2105200070446751750",
+          "imageLoaded": true,
+          "resources": 1
+        },
+        {
+          "sourceUrl": "https://github.com/shopville-limited/gosau-live-wallpaper",
+          "imageLoaded": true,
+          "resources": 0
+        },
+        {
+          "sourceUrl": "https://github.com/taswar/ClaudeOpus5.5-Csharp-Demo",
+          "imageLoaded": false,
+          "resources": 0
+        },
+        {
+          "sourceUrl": "https://www.reddit.com/r/claude/comments/1wvb2fa/claude_code_opus_55_ran_rm_r_eusers_to_clean_up/",
+          "imageLoaded": false,
+          "resources": 0
+        },
+        {
+          "sourceUrl": "https://www.reddit.com/r/singularity/comments/1wvfukw/think_well_get_a_model_as_good_at_visuals_as_opus/",
+          "imageLoaded": true,
+          "resources": 0
+        },
+        {
+          "sourceUrl": "https://www.bilibili.com/video/BV1Crar6MEhx",
+          "imageLoaded": true,
+          "resources": 0
+        },
+        {
+          "sourceUrl": "https://www.bilibili.com/video/BV1VvaB61EKc",
+          "imageLoaded": true,
+          "resources": 0
+        },
+        {
+          "sourceUrl": "https://www.youtube.com/watch?v=udOjw1-7Tuk",
+          "imageLoaded": true,
+          "resources": 0
+        },
+        {
+          "sourceUrl": "https://resobscura.substack.com/p/using-opus-55-to-discover-a-new-eyewitness",
+          "imageLoaded": true,
+          "resources": 2
+        },
+        {
+          "sourceUrl": "https://stillwet.art/",
+          "imageLoaded": true,
+          "resources": 1,
+          "note": "Loaded after waiting for remote image response."
+        }
+      ],
+      "mobileOverflow": false
     },
-    {
-     "id": "lists-670",
-     "imageLoaded": true,
-     "resourceLinks": 3
-    },
-    {
-     "id": "lists-671",
-     "imageLoaded": true,
-     "resourceLinks": 1
-    },
-    {
-     "id": "lists-672",
-     "imageLoaded": true,
-     "resourceLinks": 1
-    },
-    {
-     "id": "lists-673",
-     "imageLoaded": true,
-     "resourceLinks": 2
-    },
-    {
-     "id": "lists-674",
-     "imageLoaded": true,
-     "resourceLinks": 3
-    },
-    {
-     "id": "lists-675",
-     "imageLoaded": true,
-     "resourceLinks": 3
-    },
-    {
-     "id": "lists-676",
-     "imageLoaded": true,
-     "resourceLinks": 2
-    },
-    {
-     "id": "lists-677",
-     "imageLoaded": true,
-     "resourceLinks": 3
-    },
-    {
-     "id": "lists-678",
-     "imageLoaded": true,
-     "resourceLinks": 1
-    },
-    {
-     "id": "lists-679",
-     "imageLoaded": true,
-     "resourceLinks": 0
-    },
-    {
-     "id": "lists-680",
-     "imageLoaded": true,
-     "resourceLinks": 0
-    },
-    {
-     "id": "lists-681",
-     "imageLoaded": true,
-     "resourceLinks": 0
-    },
-    {
-     "id": "lists-682",
-     "imageLoaded": true,
-     "resourceLinks": 0
-    },
-    {
-     "id": "lists-683",
-     "imageLoaded": true,
-     "resourceLinks": 2
-    },
-    {
-     "id": "lists-684",
-     "imageLoaded": true,
-     "resourceLinks": 1
-    },
-    {
-     "id": "lists-685",
-     "imageLoaded": true,
-     "resourceLinks": 2
-    }
-   ],
-   "existingResourcesChecked": [
-    "uc-1024",
-    "lists-607",
-    "uc-0402",
-    "uc-1361"
-   ],
-   "desktop": true,
-   "mobile": true,
-   "englishCombinedFilters": true,
-   "mobileOverflow": false,
-   "pageErrors": []
+    "offlineRebuildStable": true
   }
- }
 }
