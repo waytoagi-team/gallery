@@ -5113,5 +5113,149 @@
   "evidenceBasis": "original page/post or video description retrieved with Firecrawl; author-reported, not independently reproduced; publication date not available",
   "discoveredVia": "Firecrawl web search for Opus 5.5 after 2026-09-30",
   "mediaKind": "none"
+ },
+ {
+  "platform": "Web",
+  "author": "Daria Cupareanu",
+  "sourceUrl": "https://aiblewmymind.substack.com/p/claude-opus-5-5-video-animations",
+  "evidenceUrl": "https://aiblewmymind.substack.com/p/claude-opus-5-5-video-animations",
+  "date": null,
+  "category": "video",
+  "evidenceType": "教程",
+  "title": "代码视频与外部音画工具的导演流程",
+  "title_en": "Directing coded video with external media tools",
+  "summary": "作者以个人介绍片等实例，讲解 Opus 5.5 High 如何编排代码动画与 Amplifiers 工具；配音、音乐和部分视频使用 Gemini、ElevenLabs、Lyria、Seedance 或 Veo，展示多工具工作流。",
+  "summary_en": "Using an introduction film and other examples, the author explains how Opus 5.5 High orchestrates coded animation and Amplifiers. Voice, music and some footage use Gemini, ElevenLabs, Lyria, Seedance or Veo in a multi-tool workflow.",
+  "checkedAt": "2026-10-02T04:35:55+00:00",
+  "discoveredVia": "Public source feeds and Firecrawl multilingual web search",
+  "evidenceBasis": "Original article or project page retrieved and read with Firecrawl; author-reported methods and results, not independently reproduced.",
+  "mediaKind": "none"
+ },
+ {
+  "platform": "Web",
+  "author": "凤凰网科技",
+  "sourceUrl": "https://tech.ifeng.com/c/8wsTicQXZyr",
+  "evidenceUrl": "https://tech.ifeng.com/c/8wsTicQXZyr",
+  "date": "2026-10-01",
+  "category": "graphics",
+  "evidenceType": "评测",
+  "title": "界面动效、像素游戏与 MV 的模型对照",
+  "title_en": "Comparing UI motion, a pixel game and an MV",
+  "summary": "文章对照 Opus 5.5 与 MiniMax 的界面动效、160×90 像素游戏和既有歌曲 MV 三项输出，展示截图与作者评价。后文的其他作品仅使用 MiniMax，不计入 Opus 案例。",
+  "summary_en": "The article compares Opus 5.5 and MiniMax on UI motion, a 160×90 pixel game and an MV for an existing song, with screenshots and author judgments. Later MiniMax-only works are excluded from this Opus entry.",
+  "checkedAt": "2026-10-02T04:35:55+00:00",
+  "discoveredVia": "Public source feeds and Firecrawl multilingual web search",
+  "evidenceBasis": "Original article or project page retrieved and read with Firecrawl; author-reported methods and results, not independently reproduced.",
+  "mediaKind": "image",
+  "poster": "https://x0.ifengimg.com/res/2026/1EEA559E0B9F9572CA60D84AC6C7F12852B0216D_size19_w640_h383.jpg"
+ },
+ {
+  "platform": "Web",
+  "author": "Benjamin Breen",
+  "sourceUrl": "https://resobscura.substack.com/p/using-opus-55-to-discover-a-new-eyewitness",
+  "evidenceUrl": "https://resobscura.substack.com/p/using-opus-55-to-discover-a-new-eyewitness",
+  "date": null,
+  "category": "science",
+  "evidenceType": "演示",
+  "title": "在荷兰航海档案中筛选渡渡鸟目击记录",
+  "title_en": "Finding a dodo sighting in Dutch voyage archives",
+  "summary": "研究者结合 GLOBALISE 档案、向量检索与并行 Opus 5.5 阅读，定位 1615 年航海日志中的渡渡鸟记载，再人工检索文献核对其意义。是否为未被注意的史料及更远的历史关联仍依赖研究判断。",
+  "summary_en": "The researcher combines GLOBALISE archives, embeddings and parallel Opus 5.5 reading to locate a dodo reference in a 1615 ship log, then checks the literature manually. Novelty and broader historical connections remain research judgments.",
+  "checkedAt": "2026-10-02T04:35:55+00:00",
+  "discoveredVia": "Public source feeds and Firecrawl multilingual web search",
+  "evidenceBasis": "Original article or project page retrieved and read with Firecrawl; author-reported methods and results, not independently reproduced. Publication date not available; modification time not substituted.",
+  "mediaKind": "image",
+  "poster": "https://substack-post-media.s3.amazonaws.com/public/images/a9af7e67-052f-4411-a625-e290bd9655a6_1494x632.png",
+  "resources": [
+   {
+    "label": "原始档案",
+    "label_en": "Original archive",
+    "url": "https://www.nationaalarchief.nl/onderzoeken/archief/1.04.02/invnr/1059/file/NL-HaNA_1.04.02_1059_0277"
+   },
+   {
+    "label": "模型研究记录",
+    "label_en": "Model research dossier",
+    "url": "https://claude.ai/artifact/4nLg6iQE1154NEz1thp2MU"
+   }
+  ]
+ },
+ {
+  "platform": "Web",
+  "author": "Still Wet",
+  "sourceUrl": "https://stillwet.art/",
+  "evidenceUrl": "https://stillwet.art/",
+  "date": null,
+  "category": "graphics",
+  "evidenceType": "演示",
+  "title": "模拟湿油画的程序笔触画室",
+  "title_en": "A studio of programmed strokes in simulated wet oil",
+  "summary": "Still Wet 让模型在模拟湿颜料、画笔和亚麻布的环境中写笔触，依据文字研究创作，公开多模型绘画与过程。此案例包含明确标注 Opus 5.5 的画作，不把全部画廊归于它。",
+  "summary_en": "Still Wet has models write brushstrokes in simulated wet paint, brushes and linen, guided by written research, publishing works and processes from several models. This entry covers explicitly labeled Opus 5.5 works, not the entire gallery.",
+  "checkedAt": "2026-10-02T04:35:55+00:00",
+  "discoveredVia": "Public source feeds and Firecrawl multilingual web search",
+  "evidenceBasis": "Original article or project page retrieved and read with Firecrawl; author-reported methods and results, not independently reproduced.",
+  "mediaKind": "image",
+  "poster": "https://stillwet.art/img/r02-winter-thumb.jpg",
+  "resources": [
+   {
+    "label": "Opus 绘画过程",
+    "label_en": "Opus painting process",
+    "url": "https://stillwet.art/p/r02-winter.html"
+   }
+  ]
+ },
+ {
+  "platform": "Web",
+  "author": "MetAIra",
+  "sourceUrl": "https://zenn.dev/metaira/articles/python-only-motion-graphics-mv",
+  "evidenceUrl": "https://zenn.dev/metaira/articles/python-only-motion-graphics-mv",
+  "date": "2026-09-28",
+  "category": "video",
+  "evidenceType": "教程",
+  "title": "用 Python 的同一节拍生成画面与音乐",
+  "title_en": "Generating visuals and music on one Python beat",
+  "summary": "作者用 Opus 5.5 制作十五秒 MV，以 NumPy、OpenCV、Pillow 绘制画面并合成音乐，通过共同节拍同步，FFmpeg 输出视频；文章给出实现讲解与示例代码。",
+  "summary_en": "The author uses Opus 5.5 for a fifteen-second MV, drawing frames and synthesizing music with NumPy, OpenCV and Pillow on a shared beat before FFmpeg export, with an implementation walkthrough and sample code.",
+  "checkedAt": "2026-10-02T04:35:55+00:00",
+  "discoveredVia": "Public source feeds and Firecrawl multilingual web search",
+  "evidenceBasis": "Original article or project page retrieved and read with Firecrawl; author-reported methods and results, not independently reproduced.",
+  "mediaKind": "image",
+  "poster": "https://i.ytimg.com/vi/93sxRcTJui0/hqdefault.jpg",
+  "resources": [
+   {
+    "label": "示例代码",
+    "label_en": "Sample code",
+    "url": "https://github.com/MetAIra/tech-samples/tree/main/python-motion-graphics"
+   },
+   {
+    "label": "成片",
+    "label_en": "Finished video",
+    "url": "https://www.youtube.com/watch?v=93sxRcTJui0"
+   }
+  ]
+ },
+ {
+  "platform": "Web",
+  "author": "はちがつうまれ / tett23",
+  "sourceUrl": "https://zenn.dev/tett23/articles/a7c523a3016784",
+  "evidenceUrl": "https://zenn.dev/tett23/articles/a7c523a3016784",
+  "date": "2026-09-27",
+  "category": "science",
+  "evidenceType": "演示",
+  "title": "把针尖天使问题形式化为 Lean 模型",
+  "title_en": "Formalizing angels on a pin as Lean models",
+  "summary": "作者用 Opus 5.5 将趣味问题转换为有限集合、网格占位和面积约束模型，给出 Lean 证明代码。结论取决于人为选择的数学假设，不是神学或物理事实的证明。",
+  "summary_en": "The author uses Opus 5.5 to turn a playful question into finite-set, grid-occupancy and area-constrained models with Lean proof code. Conclusions depend on chosen mathematical assumptions, not proof of theological or physical facts.",
+  "checkedAt": "2026-10-02T04:35:55+00:00",
+  "discoveredVia": "Public source feeds and Firecrawl multilingual web search",
+  "evidenceBasis": "Original article or project page retrieved and read with Firecrawl; author-reported methods and results, not independently reproduced.",
+  "mediaKind": "none",
+  "resources": [
+   {
+    "label": "Lean 证明代码",
+    "label_en": "Lean proof code",
+    "url": "https://github.com/tett23/point-of-needle"
+   }
+  ]
  }
 ]
