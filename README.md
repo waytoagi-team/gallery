@@ -4,6 +4,36 @@
 
 这里不是简单的链接列表。每个 Case 都应尽量说明：它解决了什么问题、如何实现、效果如何，以及其他人怎样复现。
 
+## 模型案例监控
+
+Opus 5.5 与 Fable 5.5 使用同一套 `atlas/` 采集、校验和页面代码，各自维护配置、已审核数据、发现候选及发布产物。
+
+| 专题 | 配置与数据 | 页面路径 |
+| --- | --- | --- |
+| Claude Opus 5.5 | [专题目录](cases/models/claude-opus-5-5-usecases/) | `/usecase-atlas/opus5-5/` |
+| Fable 5.5 | [专题目录](cases/models/fable-5-5-usecases/) | `/usecase-atlas/fable5-5/`（发布接入待合并） |
+
+```bash
+python3 -m venv .venv
+.venv/bin/pip install -r requirements-dev.txt
+.venv/bin/python -m playwright install chromium
+
+python3 -m atlas list
+python3 -m atlas collect --topic fable-5-5 --dry-run
+python3 -m atlas collect --topic fable-5-5 --since 2026-09-01
+.venv/bin/python -m atlas build --all
+python3 -m atlas build --all --check
+python3 -m unittest discover -s tests -p 'test_*.py'
+node --test tests/test_ranking.cjs
+.venv/bin/python -m atlas.smoke --all
+```
+
+常规采集、JSON 合并和离线核对只需要 Python 3.10+ 标准库；GitHub 采集使用 `gh` 登录或 CI 的 `GH_TOKEN`。首次构建或分享卡片输入变化时需要 Playwright；已有卡片按 HTML 输入与图片校验值复用，离线核对不重新栅格化图片。浏览器回归测试也使用 Playwright。
+
+采集只产生候选与回执，不自动修改已审核案例或线上页面。`monitor.yml` 计划每天北京时间 08:17 运行，合并到 GitHub 默认分支后才生效，执行可能延迟；仅上传最小候选元数据与回执，原始响应留在被忽略的缓存中。
+
+[改造方案](docs/multi-topic-plan.md) · [操作与发布手册](docs/atlas-operations.md) · [执行记录](docs/multi-topic-execution.md)
+
 ## 浏览 Cases
 
 | 分类 | 目录 | 内容 |
@@ -13,7 +43,8 @@
 
 ### 最新收录
 
-- [Claude Opus 5.5 使用案例合集](cases/models/claude-opus-5-5-usecases)：5181 条公开案例，含结构化数据与可离线浏览的 HTML
+- [Claude Opus 5.5 使用案例合集](cases/models/claude-opus-5-5-usecases)：含已审核数据与可离线浏览的 HTML
+- [Fable 5.5 使用案例合集](cases/models/fable-5-5-usecases)：监控已接入，候选待审核
 
 ## 提交一个 Case
 

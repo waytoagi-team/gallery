@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "sourceRef": "b9ae67008b8ce4a825fbd98b542bace12bee773e",
+  "sourceFetch": "Actual git fetch and archive at the pinned remote SHA",
+  "mounts": [
+    {
+      "path": "/usecase-atlas/opus5-5/",
+      "sourceDirectory": "cases/models/claude-opus-5-5-usecases/public",
+      "files": 53
+    },
+    {
+      "path": "/usecase-atlas/fable5-5/",
+      "sourceDirectory": "cases/models/fable-5-5-usecases/public",
+      "files": 5
+    }
+  ],
+  "unchangedOtherMounts": [
+    "/community-growth-deck/",
+    "/kemengopc/",
+    "/d20/"
+  ],
+  "staticChecks": "passed",
+  "browserSmoke": "passed",
+  "deployed": false
+}

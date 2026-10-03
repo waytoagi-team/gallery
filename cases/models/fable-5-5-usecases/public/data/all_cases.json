@@ -1,0 +1,73 @@
+{
+ "meta": {
+  "categories": {
+   "games": {
+    "zh": "游戏开发",
+    "en": "Game Development"
+   },
+   "education": {
+    "zh": "交互教育与可视化",
+    "en": "Interactive Learning & Visualization"
+   },
+   "3d": {
+    "zh": "3D 建模与场景",
+    "en": "3D Modeling & Scenes"
+   },
+   "audio": {
+    "zh": "音乐与声音",
+    "en": "Music & Sound"
+   },
+   "graphics": {
+    "zh": "创意图形与动画",
+    "en": "Creative Graphics & Animation"
+   },
+   "web": {
+    "zh": "网站与界面",
+    "en": "Websites & Interfaces"
+   },
+   "business": {
+    "zh": "业务分析与文档",
+    "en": "Business Analysis & Documents"
+   },
+   "agents": {
+    "zh": "Agent 与开发工作流",
+    "en": "Agents & Developer Workflows"
+   },
+   "vision": {
+    "zh": "视觉理解与数据标注",
+    "en": "Visual Understanding & Annotation"
+   },
+   "video": {
+    "zh": "视频编辑与制作",
+    "en": "Video Editing & Production"
+   },
+   "coding": {
+    "zh": "代码维护与测试",
+    "en": "Code Maintenance & Testing"
+   },
+   "writing": {
+    "zh": "写作与知识解释",
+    "en": "Writing & Explanations"
+   },
+   "science": {
+    "zh": "科学研究与电路",
+    "en": "Scientific Research & Circuits"
+   },
+   "computer-use": {
+    "zh": "电脑操作",
+    "en": "Computer Use"
+   }
+  },
+  "count": 0,
+  "added": {},
+  "asOf": "",
+  "duplicatesSkipped": 0,
+  "refreshedAt": null,
+  "refreshScope": {
+   "zh": "尚无已审核案例",
+   "en": "No reviewed cases yet"
+  },
+  "lastFullRefreshAt": null
+ },
+ "cases": []
+}
