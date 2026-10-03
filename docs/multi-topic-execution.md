@@ -45,7 +45,17 @@
 
 ### 发布接入状态
 
-源码和部署清单将分别以草稿 PR 交付。当前还未修改线上挂载或执行部署，定时任务也要在源码合并至默认分支后才生效。发布仓库继续按完整 SHA 锁定版本，Opus 原公开 URL 保持不变。
+- [源码草稿 PR 24](https://github.com/waytoagi-team/gallery/pull/24)：共享工具、专题目录、Fable 有限发现、CI 与文档。
+- [发布清单草稿 PR 41](https://github.com/waytoagi-team/waytoagi-static-pages/pull/41)：将 Opus 改为 public 挂载，新增 Fable public 挂载。
+- 源码首轮 [GitHub CI](https://github.com/waytoagi-team/gallery/actions/runs/37119026915) 已通过。
+- 发布清单的 [GitHub 完整预检](https://github.com/waytoagi-team/waytoagi-static-pages/actions/runs/37119203854) 已通过，包含发布仓库既有回归、组装、冒烟、线上差异计划和凭证扫描。
+- 发布器已实际从远端拉取 `b9ae67008b8ce4a825fbd98b542bace12bee773e`：Opus 53 个发布文件、Fable 5 个发布文件，静态检查与两个挂载的浏览器冒烟通过。见 [发布器验证记录](deployment-validation.json)。
+- 其他三个挂载（community-growth-deck、kemengopc、d20）逐字段不变。[清单变更副本](deployment/static-pages.patch) 可在本仓库审阅。
+- 已使用 gitleaks 8.21.2 扫描完整待提交来源目录，未发现泄露；原始缓存、环境文件和凭证未提交。
+- 远端仓库额外保留的旧 `preview.png` 已归档到 Opus 的 reports/migration，避免本地目录同步时丢失历史素材。
+- PR 使用隔离的远端 checkout 创建；当前工作目录保留原单专题 Git 历史及迁移后的文件，未把本地历史强行覆盖到远端。
+
+当前未合并两个 PR、未修改线上挂载或执行部署，定时任务要在源码合并至默认分支后才生效。发布草稿中的来源 SHA 用于预检；源码合并后应换成 main 上的实际合并 SHA 并重跑发布 CI，避免 squash/rebase 造成更新器祖先关系不连续。Opus 原公开 URL 保持不变。
 
 ### 当前边界
 
