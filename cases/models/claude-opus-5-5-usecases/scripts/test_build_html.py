@@ -116,6 +116,21 @@ class PosterEnrichmentTests(unittest.TestCase):
 
 
 class PageBuildTests(unittest.TestCase):
+    def test_github_payload_strips_legacy_stars_but_keeps_zero_thread_counts(self):
+        import re
+        meta = {"categories": {"coding": {"zh": "代码", "en": "Code"}}, "count": 1, "asOf": "2026-10-03"}
+        c = {"id": "github-001", "source": "github", "platform": "GitHub", "category": "coding",
+             "evidenceType": "集成", "title": "PR", "sourceUrl": "https://github.com/a/b/pull/1",
+             "stars": 900000, "reactions": 0, "comments": 0,
+             "metricsSourceUrl": "https://api.github.com/repos/a/b/issues/1"}
+        page = render_page(meta, [c])
+        payloads = re.findall(r'<script[^>]+type="application/json"[^>]*>(.*?)</script>', page, re.S)
+        data = next(json.loads(p) for p in payloads if '"cases":' in p)
+        row = data['cases'][0]
+        self.assertNotIn('stars', row)
+        self.assertEqual((row['githubKind'], row['reactions'], row['comments']), ('pull_request', 0, 0))
+        self.assertNotIn('/*__RANKING__*/', page)
+
     def test_posters_request_card_sized_webp(self):
         self.assertEqual(page_poster("https://pbs.twimg.com/amplify_video_thumb/1/img/Ab-C.jpg"),
                          "https://pbs.twimg.com/amplify_video_thumb/1/img/Ab-C?format=webp&name=small")

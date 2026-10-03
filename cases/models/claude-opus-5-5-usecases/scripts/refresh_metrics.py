@@ -1,4 +1,4 @@
-"""Refresh existing X metrics and GitHub stars, retaining old values on failure.
+"""Refresh X metrics and object-specific GitHub metrics, retaining valid old values on failure.
 
 HTTP receipts are saved in the ignored refresh cache. This does not add cases.
 """
@@ -13,6 +13,7 @@ import urllib.error
 import urllib.request
 
 from github_api import read_github, response_metadata
+from github_metrics import github_target, github_response_metrics, sanitize_github_metrics
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -40,10 +41,7 @@ def fetch(job):
             metrics = {field: tweet[field] for field in ("likes", "bookmarks", "views")
                        if isinstance(tweet.get(field), int) and not isinstance(tweet[field], bool) and tweet[field] >= 0}
         else:
-            stars = value["stargazers_count"]
-            if not isinstance(stars, int) or isinstance(stars, bool) or stars < 0:
-                raise ValueError("Invalid repository star count")
-            metrics = {"stars": stars}
+            metrics = github_response_metrics(value, key)
         if not metrics:
             raise ValueError("Response contained no metrics")
         receipt.update(ok=True, metrics=metrics)
@@ -60,36 +58,42 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output-dir", type=pathlib.Path, default=DATA / "_refresh" / "latest")
     parser.add_argument("--only", choices=("github", "x"), help="Refresh only this platform")
+    parser.add_argument("--github-kind", choices=("repository", "thread"),
+                        help="With --only github, restrict API requests to repositories or PRs/issues")
     parser.add_argument("--workers", type=int, default=2, help="Concurrent requests (default: 2)")
     args = parser.parse_args()
     if args.workers < 1:
         parser.error("--workers must be positive")
+    if args.github_kind and args.only != "github":
+        parser.error("--github-kind requires --only github")
     args.output_dir.mkdir(parents=True, exist_ok=True)
     cases = json.loads((DATA / "all_cases.json").read_text())["cases"]
-    posts, repos = {}, set()
+    posts, targets = {}, {}
     for case in cases:
         url = case["sourceUrl"]
         match = re.match(r"https?://(?:www\.)?(?:x|twitter)\.com/[^/]+/status/(\d+)", url)
         if match:
             posts[match[1]] = url
-        match = re.match(r"https?://github\.com/([^/]+/[^/?#]+)", url)
-        if match:
-            repos.add(match[1].lower().removesuffix(".git"))
+        target = github_target(url)
+        if target and target.get("api"):
+            group = "repository" if target["kind"] == "repository" else "thread"
+            if not args.github_kind or group == args.github_kind:
+                targets[target["key"]] = target
     if args.only == "github":
         posts = {}
     elif args.only == "x":
-        repos = set()
+        targets = {}
     jobs = [("x:" + tid, "https://api.fxtwitter.com/" +
              re.search(r"(?:x|twitter)\.com/([^/]+)/status/", url)[1] + "/status/" + tid)
             for tid, url in posts.items()]
-    jobs += [("github:" + repo, "https://api.github.com/repos/" + repo) for repo in sorted(repos)]
+    jobs += [(key, target["api"]) for key, target in sorted(targets.items())]
     with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as pool:
         receipts = list(pool.map(fetch, jobs))
     (args.output_dir / "metric-receipts.json").write_text(json.dumps(receipts, ensure_ascii=False, indent=1) + "\n")
     patch_path = DATA / "metric_refreshes.json"
     prior = json.loads(patch_path.read_text()) if patch_path.exists() else {"cases": []}
     patches = {re.search(r"/status/(\d+)", row["sourceUrl"])[1]: row for row in prior["cases"]}
-    stars = {}
+    github = {}
     for receipt in receipts:
         if not receipt["ok"]:
             continue
@@ -99,31 +103,39 @@ def main():
             patches[tid] = {**patches.get(tid, {}), "sourceUrl": posts[tid],
                             **receipt["metrics"], "metricsCheckedAt": receipt["checkedAt"]}
         else:
-            stars[key[7:]] = receipt
+            github[key] = receipt
     now = datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds")
     if posts:
         patch_path.write_text(json.dumps({"meta": {"source": "https://api.fxtwitter.com/", "refreshedAt": now,
             "note": "Primary X metrics only. Failed posts retain their previous values and timestamps."},
             "cases": list(patches.values())}, ensure_ascii=False, indent=1) + "\n")
-    changed_repos = set()
-    for path in sorted(DATA.glob("extra_*.json")):
-        rows = json.loads(path.read_text())
+    changed_targets = set()
+    paths = sorted(DATA.glob("extra_*.json"))
+    if (DATA / "base_cases.json").exists():
+        paths.append(DATA / "base_cases.json")
+    for path in paths if args.only != "x" else []:
+        document = json.loads(path.read_text())
+        rows = document["cases"] if isinstance(document, dict) else document
         touched = False
         for row in rows:
-            match = re.match(r"https?://github\.com/([^/]+/[^/?#]+)", row.get("sourceUrl", ""))
-            repo = match[1].lower().removesuffix(".git") if match else None
-            if repo not in stars:
-                continue
-            receipt = stars[repo]
-            if row.get("stars") != receipt["metrics"]["stars"]:
-                changed_repos.add(repo)
-            row.update(receipt["metrics"], metricsCheckedAt=receipt["checkedAt"])
-            touched = True
+            before = dict(row)
+            sanitize_github_metrics(row)
+            target = github_target(row.get("sourceUrl", "")) or {}
+            receipt = github.get(target.get("key"))
+            if receipt:
+                if any(row.get(k) != v for k, v in receipt["metrics"].items()):
+                    changed_targets.add(receipt["key"])
+                row.update(receipt["metrics"], metricsCheckedAt=receipt["checkedAt"],
+                           metricsSourceUrl=receipt["url"])
+            touched |= row != before
         if touched:
-            path.write_text(json.dumps(rows, ensure_ascii=False, indent=1) + "\n")
+            path.write_text(json.dumps(document, ensure_ascii=False, indent=1) + "\n")
     summary = {"refreshedAt": now, "x": {"attempted": len(posts),
         "succeeded": sum(r["ok"] for r in receipts if r["key"].startswith("x:"))},
-        "github": {"attempted": len(repos), "succeeded": len(stars), "changed": len(changed_repos)},
+        "github": {"attempted": len(targets), "succeeded": len(github), "changed": len(changed_targets),
+                   "byKind": {kind: {"attempted": sum(t["kind"] == kind for t in targets.values()),
+                       "succeeded": sum(targets[k]["kind"] == kind for k in github)}
+                       for kind in ("repository", "pull_request", "issue")}},
         "failed": [r for r in receipts if not r["ok"]]}
     (args.output_dir / "metric-summary.json").write_text(json.dumps(summary, ensure_ascii=False, indent=1) + "\n")
     print(json.dumps({k: v for k, v in summary.items() if k != "failed"}))

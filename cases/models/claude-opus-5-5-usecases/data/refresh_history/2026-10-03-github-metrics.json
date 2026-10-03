@@ -1,0 +1,1800 @@
+{
+  "checkedAt": "2026-10-03T09:02:43+00:00",
+  "scope": "GitHub metric attribution correction; no new case discovery or repository-star refresh",
+  "auditedCases": 369,
+  "byKind": {
+    "repository": 300,
+    "issue": 28,
+    "pull_request": 33,
+    "file": 7,
+    "gist": 1
+  },
+  "incorrectInheritedStarsRemoved": 68,
+  "threadRefresh": {
+    "attempted": 61,
+    "succeeded": 61,
+    "changed": 61,
+    "byKind": {
+      "repository": {
+        "attempted": 0,
+        "succeeded": 0
+      },
+      "pull_request": {
+        "attempted": 33,
+        "succeeded": 33
+      },
+      "issue": {
+        "attempted": 28,
+        "succeeded": 28
+      }
+    }
+  },
+  "policy": {
+    "repository": "Own stargazers_count only",
+    "pull_request": "Own issue-body reactions.total_count; compared with PRs only",
+    "issue": "Own issue-body reactions.total_count; compared with issues only",
+    "comments": "Own discussion comments count displayed, excludes inline review comments; never used for ranking",
+    "fileGistOther": "No independent supported metric; unranked; never inherit parent stars",
+    "ranking": "Midrank percentile in each source/metric/object-kind cohort; equal values tie; zero = 0; missing = -1; positive singleton = 0.5",
+    "reactionsMeaning": "Includes all reaction types, including negative or eyes reactions; not a measure of approvals or quality",
+    "failure": "Retain own-object metrics only when metricsSourceUrl matches the exact API object; legacy parent stars are removed even on failure"
+  },
+  "documentation": [
+    "https://docs.github.com/en/rest/issues/issues#get-an-issue",
+    "https://docs.github.com/en/rest/repos/repos#get-a-repository"
+  ],
+  "correctedCases": [
+    {
+      "id": "github-041",
+      "sourceUrl": "https://github.com/anthropics/claude-code/issues/96141",
+      "githubKind": "issue",
+      "removedRepositoryStars": 149011,
+      "reactions": 4,
+      "comments": 3,
+      "metricsSourceUrl": "https://api.github.com/repos/anthropics/claude-code/issues/96141",
+      "metricsCheckedAt": "2026-10-03T09:02:36+00:00"
+    },
+    {
+      "id": "github-042",
+      "sourceUrl": "https://github.com/anthropics/claude-code/issues/96167",
+      "githubKind": "issue",
+      "removedRepositoryStars": 149011,
+      "reactions": 4,
+      "comments": 0,
+      "metricsSourceUrl": "https://api.github.com/repos/anthropics/claude-code/issues/96167",
+      "metricsCheckedAt": "2026-10-03T09:02:36+00:00"
+    },
+    {
+      "id": "github-043",
+      "sourceUrl": "https://github.com/anthropics/claude-code/issues/96326",
+      "githubKind": "issue",
+      "removedRepositoryStars": 149011,
+      "reactions": 16,
+      "comments": 9,
+      "metricsSourceUrl": "https://api.github.com/repos/anthropics/claude-code/issues/96326",
+      "metricsCheckedAt": "2026-10-03T09:02:36+00:00"
+    },
+    {
+      "id": "github-044",
+      "sourceUrl": "https://github.com/can1357/oh-my-pi/issues/12870",
+      "githubKind": "issue",
+      "removedRepositoryStars": 34142,
+      "reactions": 9,
+      "comments": 15,
+      "metricsSourceUrl": "https://api.github.com/repos/can1357/oh-my-pi/issues/12870",
+      "metricsCheckedAt": "2026-10-03T09:02:37+00:00"
+    },
+    {
+      "id": "github-045",
+      "sourceUrl": "https://github.com/pydantic/pydantic-ai/pull/8637",
+      "githubKind": "pull_request",
+      "removedRepositoryStars": 20375,
+      "reactions": 0,
+      "comments": 1,
+      "metricsSourceUrl": "https://api.github.com/repos/pydantic/pydantic-ai/issues/8637",
+      "metricsCheckedAt": "2026-10-03T09:02:40+00:00"
+    },
+    {
+      "id": "github-046",
+      "sourceUrl": "https://github.com/The-PR-Agent/pr-agent/pull/3629",
+      "githubKind": "pull_request",
+      "removedRepositoryStars": 13246,
+      "reactions": 0,
+      "comments": 2,
+      "metricsSourceUrl": "https://api.github.com/repos/the-pr-agent/pr-agent/issues/3629",
+      "metricsCheckedAt": "2026-10-03T09:02:41+00:00"
+    },
+    {
+      "id": "github-047",
+      "sourceUrl": "https://github.com/vercel/ai/blob/main/examples/ai-functions/src/generate-text/anthropic/claude-opus-5-5.ts",
+      "githubKind": "file",
+      "removedRepositoryStars": 27092
+    },
+    {
+      "id": "github-048",
+      "sourceUrl": "https://github.com/vinhnx/VTCode/blob/main/docs/build-with-claude/migrating-to-claude-opus-5-5.md",
+      "githubKind": "file",
+      "removedRepositoryStars": 862
+    },
+    {
+      "id": "github-049",
+      "sourceUrl": "https://github.com/Companion-Inc/feynman/blob/main/evals/results/2026-09-24-lit-0.5.3-ferrylane_claude-opus-5-5.md",
+      "githubKind": "file",
+      "removedRepositoryStars": 9863
+    },
+    {
+      "id": "github-050",
+      "sourceUrl": "https://github.com/tinybirdco/llm-benchmark/pull/795",
+      "githubKind": "pull_request",
+      "removedRepositoryStars": 87,
+      "reactions": 0,
+      "comments": 2,
+      "metricsSourceUrl": "https://api.github.com/repos/tinybirdco/llm-benchmark/issues/795",
+      "metricsCheckedAt": "2026-10-03T09:02:41+00:00"
+    },
+    {
+      "id": "github-051",
+      "sourceUrl": "https://github.com/ed-is-ai/featherbench/pull/84",
+      "githubKind": "pull_request",
+      "removedRepositoryStars": 4,
+      "reactions": 0,
+      "comments": 0,
+      "metricsSourceUrl": "https://api.github.com/repos/ed-is-ai/featherbench/issues/84",
+      "metricsCheckedAt": "2026-10-03T09:02:38+00:00"
+    },
+    {
+      "id": "github-052",
+      "sourceUrl": "https://github.com/webbertakken/llm-challenges/pull/22",
+      "githubKind": "pull_request",
+      "removedRepositoryStars": 0,
+      "reactions": 0,
+      "comments": 0,
+      "metricsSourceUrl": "https://api.github.com/repos/webbertakken/llm-challenges/issues/22",
+      "metricsCheckedAt": "2026-10-03T09:02:42+00:00"
+    },
+    {
+      "id": "github-053",
+      "sourceUrl": "https://github.com/kaybenleroll/random_llm_projects/issues/120",
+      "githubKind": "issue",
+      "removedRepositoryStars": 0,
+      "reactions": 0,
+      "comments": 3,
+      "metricsSourceUrl": "https://api.github.com/repos/kaybenleroll/random_llm_projects/issues/120",
+      "metricsCheckedAt": "2026-10-03T09:02:39+00:00"
+    },
+    {
+      "id": "github-054",
+      "sourceUrl": "https://github.com/datacurve-ai/deep-swe/issues/98",
+      "githubKind": "issue",
+      "removedRepositoryStars": 1789,
+      "reactions": 16,
+      "comments": 7,
+      "metricsSourceUrl": "https://api.github.com/repos/datacurve-ai/deep-swe/issues/98",
+      "metricsCheckedAt": "2026-10-03T09:02:37+00:00"
+    },
+    {
+      "id": "github-056",
+      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute/issues/14612",
+      "githubKind": "issue",
+      "removedRepositoryStars": 72454,
+      "reactions": 5,
+      "comments": 5,
+      "metricsSourceUrl": "https://api.github.com/repos/diegosouzapw/omniroute/issues/14612",
+      "metricsCheckedAt": "2026-10-03T09:02:37+00:00"
+    },
+    {
+      "id": "github-065",
+      "sourceUrl": "https://github.com/teamchong/pxpipe/pull/293",
+      "githubKind": "pull_request",
+      "removedRepositoryStars": 7494,
+      "reactions": 1,
+      "comments": 0,
+      "metricsSourceUrl": "https://api.github.com/repos/teamchong/pxpipe/issues/293",
+      "metricsCheckedAt": "2026-10-03T09:02:41+00:00"
+    },
+    {
+      "id": "github-066",
+      "sourceUrl": "https://github.com/Imbad0202/academic-research-skills/blob/main/plugin-evals/README.md",
+      "githubKind": "file",
+      "removedRepositoryStars": 50221
+    },
+    {
+      "id": "github-067",
+      "sourceUrl": "https://github.com/openclaw/openclaw/pull/155966",
+      "githubKind": "pull_request",
+      "removedRepositoryStars": 391203,
+      "reactions": 1,
+      "comments": 5,
+      "metricsSourceUrl": "https://api.github.com/repos/openclaw/openclaw/issues/155966",
+      "metricsCheckedAt": "2026-10-03T09:02:40+00:00"
+    },
+    {
+      "id": "github-068",
+      "sourceUrl": "https://github.com/NousResearch/hermes-agent/pull/119919",
+      "githubKind": "pull_request",
+      "removedRepositoryStars": 250835,
+      "reactions": 0,
+      "comments": 2,
+      "metricsSourceUrl": "https://api.github.com/repos/nousresearch/hermes-agent/issues/119919",
+      "metricsCheckedAt": "2026-10-03T09:02:39+00:00"
+    },
+    {
+      "id": "github-069",
+      "sourceUrl": "https://github.com/NousResearch/hermes-agent/pull/123690",
+      "githubKind": "pull_request",
+      "removedRepositoryStars": 250835,
+      "reactions": 0,
+      "comments": 2,
+      "metricsSourceUrl": "https://api.github.com/repos/nousresearch/hermes-agent/issues/123690",
+      "metricsCheckedAt": "2026-10-03T09:02:39+00:00"
+    },
+    {
+      "id": "github-070",
+      "sourceUrl": "https://github.com/Yeachan-Heo/gajae-code/pull/5995",
+      "githubKind": "pull_request",
+      "removedRepositoryStars": 2902,
+      "reactions": 0,
+      "comments": 2,
+      "metricsSourceUrl": "https://api.github.com/repos/yeachan-heo/gajae-code/issues/5995",
+      "metricsCheckedAt": "2026-10-03T09:02:42+00:00"
+    },
+    {
+      "id": "github-071",
+      "sourceUrl": "https://github.com/Davidwiskundige/readthemasters/pull/88",
+      "githubKind": "pull_request",
+      "removedRepositoryStars": 1,
+      "reactions": 0,
+      "comments": 0,
+      "metricsSourceUrl": "https://api.github.com/repos/davidwiskundige/readthemasters/issues/88",
+      "metricsCheckedAt": "2026-10-03T09:02:37+00:00"
+    },
+    {
+      "id": "github-072",
+      "sourceUrl": "https://github.com/masanami/claude-harness/issues/264",
+      "githubKind": "issue",
+      "removedRepositoryStars": 5,
+      "reactions": 0,
+      "comments": 0,
+      "metricsSourceUrl": "https://api.github.com/repos/masanami/claude-harness/issues/264",
+      "metricsCheckedAt": "2026-10-03T09:02:39+00:00"
+    },
+    {
+      "id": "github-073",
+      "sourceUrl": "https://github.com/anthropics/claude-code/issues/97395",
+      "githubKind": "issue",
+      "removedRepositoryStars": 149011,
+      "reactions": 0,
+      "comments": 0,
+      "metricsSourceUrl": "https://api.github.com/repos/anthropics/claude-code/issues/97395",
+      "metricsCheckedAt": "2026-10-03T09:02:36+00:00"
+    },
+    {
+      "id": "github-074",
+      "sourceUrl": "https://github.com/anthropics/claude-code/issues/97387",
+      "githubKind": "issue",
+      "removedRepositoryStars": 149011,
+      "reactions": 0,
+      "comments": 0,
+      "metricsSourceUrl": "https://api.github.com/repos/anthropics/claude-code/issues/97387",
+      "metricsCheckedAt": "2026-10-03T09:02:36+00:00"
+    },
+    {
+      "id": "github-075",
+      "sourceUrl": "https://github.com/anomalyco/opencode/issues/51464",
+      "githubKind": "issue",
+      "removedRepositoryStars": 211545,
+      "reactions": 0,
+      "comments": 8,
+      "metricsSourceUrl": "https://api.github.com/repos/anomalyco/opencode/issues/51464",
+      "metricsCheckedAt": "2026-10-03T09:02:36+00:00"
+    },
+    {
+      "id": "github-076",
+      "sourceUrl": "https://github.com/wingedsheep/argentum-engine/pull/2385",
+      "githubKind": "pull_request",
+      "removedRepositoryStars": 69,
+      "reactions": 0,
+      "comments": 1,
+      "metricsSourceUrl": "https://api.github.com/repos/wingedsheep/argentum-engine/issues/2385",
+      "metricsCheckedAt": "2026-10-03T09:02:42+00:00"
+    },
+    {
+      "id": "github-077",
+      "sourceUrl": "https://github.com/leancoderkavy/premiere-pro-mcp/blob/main/docs/claude-opus-5-5.md",
+      "githubKind": "file",
+      "removedRepositoryStars": 314
+    },
+    {
+      "id": "github-078",
+      "sourceUrl": "https://github.com/TechNomadCode/AI-Product-Development-Toolkit/blob/main/agent-configs/claude-code-desktop/claude-opus-5-5/README.md",
+      "githubKind": "file",
+      "removedRepositoryStars": 994
+    },
+    {
+      "id": "github-079",
+      "sourceUrl": "https://github.com/theopenco/llmgateway/blob/main/apps/ui/src/content/changelog/2026-09-22-claude-opus-5-5.md",
+      "githubKind": "file",
+      "removedRepositoryStars": 1670
+    },
+    {
+      "id": "github-230",
+      "sourceUrl": "https://github.com/github/copilot-cli/issues/4980",
+      "githubKind": "issue",
+      "removedRepositoryStars": 11236,
+      "reactions": 0,
+      "comments": 1,
+      "metricsSourceUrl": "https://api.github.com/repos/github/copilot-cli/issues/4980",
+      "metricsCheckedAt": "2026-10-03T09:02:38+00:00"
+    },
+    {
+      "id": "github-231",
+      "sourceUrl": "https://github.com/stevepolitodesign/skills/issues/44",
+      "githubKind": "issue",
+      "removedRepositoryStars": 3,
+      "reactions": 0,
+      "comments": 2,
+      "metricsSourceUrl": "https://api.github.com/repos/stevepolitodesign/skills/issues/44",
+      "metricsCheckedAt": "2026-10-03T09:02:40+00:00"
+    },
+    {
+      "id": "github-232",
+      "sourceUrl": "https://github.com/FaultMaven/faultmaven/issues/1751",
+      "githubKind": "issue",
+      "removedRepositoryStars": 3,
+      "reactions": 0,
+      "comments": 5,
+      "metricsSourceUrl": "https://api.github.com/repos/faultmaven/faultmaven/issues/1751",
+      "metricsCheckedAt": "2026-10-03T09:02:38+00:00"
+    },
+    {
+      "id": "github-233",
+      "sourceUrl": "https://github.com/LightspeedDMS/claude-pace-maker/issues/150",
+      "githubKind": "issue",
+      "removedRepositoryStars": 5,
+      "reactions": 0,
+      "comments": 0,
+      "metricsSourceUrl": "https://api.github.com/repos/lightspeeddms/claude-pace-maker/issues/150",
+      "metricsCheckedAt": "2026-10-03T09:02:39+00:00"
+    },
+    {
+      "id": "github-234",
+      "sourceUrl": "https://github.com/wheninspace/whendone/issues/1",
+      "githubKind": "issue",
+      "removedRepositoryStars": 0,
+      "reactions": 0,
+      "comments": 1,
+      "metricsSourceUrl": "https://api.github.com/repos/wheninspace/whendone/issues/1",
+      "metricsCheckedAt": "2026-10-03T09:02:42+00:00"
+    },
+    {
+      "id": "github-235",
+      "sourceUrl": "https://github.com/livekit/agents/pull/7511",
+      "githubKind": "pull_request",
+      "removedRepositoryStars": 14454,
+      "reactions": 0,
+      "comments": 0,
+      "metricsSourceUrl": "https://api.github.com/repos/livekit/agents/issues/7511",
+      "metricsCheckedAt": "2026-10-03T09:02:39+00:00"
+    },
+    {
+      "id": "github-236",
+      "sourceUrl": "https://github.com/NousResearch/hermes-plugin-claude-subscription-directsdk/pull/56",
+      "githubKind": "pull_request",
+      "removedRepositoryStars": 77,
+      "reactions": 0,
+      "comments": 2,
+      "metricsSourceUrl": "https://api.github.com/repos/nousresearch/hermes-plugin-claude-subscription-directsdk/issues/56",
+      "metricsCheckedAt": "2026-10-03T09:02:39+00:00"
+    },
+    {
+      "id": "github-237",
+      "sourceUrl": "https://github.com/ucbepic/DataAgentBench/pull/114",
+      "githubKind": "pull_request",
+      "removedRepositoryStars": 179,
+      "reactions": 0,
+      "comments": 1,
+      "metricsSourceUrl": "https://api.github.com/repos/ucbepic/dataagentbench/issues/114",
+      "metricsCheckedAt": "2026-10-03T09:02:41+00:00"
+    },
+    {
+      "id": "github-238",
+      "sourceUrl": "https://github.com/samuellawrentz/profile/pull/130",
+      "githubKind": "pull_request",
+      "removedRepositoryStars": 1,
+      "reactions": 0,
+      "comments": 0,
+      "metricsSourceUrl": "https://api.github.com/repos/samuellawrentz/profile/issues/130",
+      "metricsCheckedAt": "2026-10-03T09:02:40+00:00"
+    },
+    {
+      "id": "github-239",
+      "sourceUrl": "https://github.com/tomsilver/robocode/pull/236",
+      "githubKind": "pull_request",
+      "removedRepositoryStars": 17,
+      "reactions": 0,
+      "comments": 0,
+      "metricsSourceUrl": "https://api.github.com/repos/tomsilver/robocode/issues/236",
+      "metricsCheckedAt": "2026-10-03T09:02:41+00:00"
+    },
+    {
+      "id": "github-241",
+      "sourceUrl": "https://github.com/BerriAI/litellm/issues/43531",
+      "githubKind": "issue",
+      "removedRepositoryStars": 60070,
+      "reactions": 0,
+      "comments": 0,
+      "metricsSourceUrl": "https://api.github.com/repos/berriai/litellm/issues/43531",
+      "metricsCheckedAt": "2026-10-03T09:02:37+00:00"
+    },
+    {
+      "id": "github-242",
+      "sourceUrl": "https://github.com/Crazz-Org/SPO-Pipeline/pull/311",
+      "githubKind": "pull_request",
+      "removedRepositoryStars": 0,
+      "reactions": 0,
+      "comments": 0,
+      "metricsSourceUrl": "https://api.github.com/repos/crazz-org/spo-pipeline/issues/311",
+      "metricsCheckedAt": "2026-10-03T09:02:37+00:00"
+    },
+    {
+      "id": "github-249",
+      "sourceUrl": "https://github.com/anthropics/claude-code/issues/97891",
+      "githubKind": "issue",
+      "removedRepositoryStars": 149011,
+      "reactions": 0,
+      "comments": 0,
+      "metricsSourceUrl": "https://api.github.com/repos/anthropics/claude-code/issues/97891",
+      "metricsCheckedAt": "2026-10-03T09:02:36+00:00"
+    },
+    {
+      "id": "github-251",
+      "sourceUrl": "https://github.com/canvas-medical/canvas-plugins/pull/1905",
+      "githubKind": "pull_request",
+      "removedRepositoryStars": 14,
+      "reactions": 0,
+      "comments": 3,
+      "metricsSourceUrl": "https://api.github.com/repos/canvas-medical/canvas-plugins/issues/1905",
+      "metricsCheckedAt": "2026-10-03T09:02:37+00:00"
+    },
+    {
+      "id": "github-253",
+      "sourceUrl": "https://github.com/jmcentire/advocate/pull/4",
+      "githubKind": "pull_request",
+      "removedRepositoryStars": 0,
+      "reactions": 0,
+      "comments": 0,
+      "metricsSourceUrl": "https://api.github.com/repos/jmcentire/advocate/issues/4",
+      "metricsCheckedAt": "2026-10-03T09:02:38+00:00"
+    },
+    {
+      "id": "github-254",
+      "sourceUrl": "https://github.com/koliebe25/GenerativeAI/pull/2",
+      "githubKind": "pull_request",
+      "removedRepositoryStars": 0,
+      "reactions": 0,
+      "comments": 0,
+      "metricsSourceUrl": "https://api.github.com/repos/koliebe25/generativeai/issues/2",
+      "metricsCheckedAt": "2026-10-03T09:02:39+00:00"
+    },
+    {
+      "id": "github-259",
+      "sourceUrl": "https://github.com/sv-tmueller/orchestrai/pull/408",
+      "githubKind": "pull_request",
+      "removedRepositoryStars": 1,
+      "reactions": 0,
+      "comments": 12,
+      "metricsSourceUrl": "https://api.github.com/repos/sv-tmueller/orchestrai/issues/408",
+      "metricsCheckedAt": "2026-10-03T09:02:40+00:00"
+    },
+    {
+      "id": "github-262",
+      "sourceUrl": "https://github.com/vikasbanjare/motion-graphic/pull/1",
+      "githubKind": "pull_request",
+      "removedRepositoryStars": 0,
+      "reactions": 0,
+      "comments": 0,
+      "metricsSourceUrl": "https://api.github.com/repos/vikasbanjare/motion-graphic/issues/1",
+      "metricsCheckedAt": "2026-10-03T09:02:41+00:00"
+    },
+    {
+      "id": "github-263",
+      "sourceUrl": "https://github.com/wandercom/pact/pull/20",
+      "githubKind": "pull_request",
+      "removedRepositoryStars": 165,
+      "reactions": 1,
+      "comments": 4,
+      "metricsSourceUrl": "https://api.github.com/repos/wandercom/pact/issues/20",
+      "metricsCheckedAt": "2026-10-03T09:02:41+00:00"
+    },
+    {
+      "id": "github-270",
+      "sourceUrl": "https://github.com/WhiteLotus1998/IronWake/issues/484",
+      "githubKind": "issue",
+      "removedRepositoryStars": 0,
+      "reactions": 0,
+      "comments": 0,
+      "metricsSourceUrl": "https://api.github.com/repos/whitelotus1998/ironwake/issues/484",
+      "metricsCheckedAt": "2026-10-03T09:02:42+00:00"
+    },
+    {
+      "id": "github-271",
+      "sourceUrl": "https://github.com/Zoo-Code-Org/Zoo-Code/issues/1853",
+      "githubKind": "issue",
+      "removedRepositoryStars": 1939,
+      "reactions": 0,
+      "comments": 0,
+      "metricsSourceUrl": "https://api.github.com/repos/zoo-code-org/zoo-code/issues/1853",
+      "metricsCheckedAt": "2026-10-03T09:02:42+00:00"
+    },
+    {
+      "id": "github-272",
+      "sourceUrl": "https://github.com/anthropics/claude-code/issues/98174",
+      "githubKind": "issue",
+      "removedRepositoryStars": 149011,
+      "reactions": 0,
+      "comments": 1,
+      "metricsSourceUrl": "https://api.github.com/repos/anthropics/claude-code/issues/98174",
+      "metricsCheckedAt": "2026-10-03T09:02:36+00:00"
+    },
+    {
+      "id": "github-273",
+      "sourceUrl": "https://github.com/anthropics/claude-code/issues/98267",
+      "githubKind": "issue",
+      "removedRepositoryStars": 149011,
+      "reactions": 0,
+      "comments": 0,
+      "metricsSourceUrl": "https://api.github.com/repos/anthropics/claude-code/issues/98267",
+      "metricsCheckedAt": "2026-10-03T09:02:37+00:00"
+    },
+    {
+      "id": "github-275",
+      "sourceUrl": "https://github.com/jezweb/vite-flare-starter/issues/156",
+      "githubKind": "issue",
+      "removedRepositoryStars": 49,
+      "reactions": 0,
+      "comments": 0,
+      "metricsSourceUrl": "https://api.github.com/repos/jezweb/vite-flare-starter/issues/156",
+      "metricsCheckedAt": "2026-10-03T09:02:38+00:00"
+    },
+    {
+      "id": "github-277",
+      "sourceUrl": "https://github.com/kirodotdev/Kiro/issues/11668",
+      "githubKind": "issue",
+      "removedRepositoryStars": 4346,
+      "reactions": 0,
+      "comments": 3,
+      "metricsSourceUrl": "https://api.github.com/repos/kirodotdev/kiro/issues/11668",
+      "metricsCheckedAt": "2026-10-03T09:02:39+00:00"
+    },
+    {
+      "id": "github-278",
+      "sourceUrl": "https://github.com/micz/ThunderAI/issues/936",
+      "githubKind": "issue",
+      "removedRepositoryStars": 350,
+      "reactions": 0,
+      "comments": 4,
+      "metricsSourceUrl": "https://api.github.com/repos/micz/thunderai/issues/936",
+      "metricsCheckedAt": "2026-10-03T09:02:39+00:00"
+    },
+    {
+      "id": "github-280",
+      "sourceUrl": "https://github.com/nadav2150/motion-/pull/2",
+      "githubKind": "pull_request",
+      "removedRepositoryStars": 0,
+      "reactions": 0,
+      "comments": 0,
+      "metricsSourceUrl": "https://api.github.com/repos/nadav2150/motion-/issues/2",
+      "metricsCheckedAt": "2026-10-03T09:02:39+00:00"
+    },
+    {
+      "id": "github-285",
+      "sourceUrl": "https://github.com/ventrion/beskar/pull/5",
+      "githubKind": "pull_request",
+      "removedRepositoryStars": 0,
+      "reactions": 1,
+      "comments": 0,
+      "metricsSourceUrl": "https://api.github.com/repos/ventrion/beskar/issues/5",
+      "metricsCheckedAt": "2026-10-03T09:02:41+00:00"
+    },
+    {
+      "id": "github-286",
+      "sourceUrl": "https://github.com/Snowflake-Labs/data-eng-bench/pull/10",
+      "githubKind": "pull_request",
+      "removedRepositoryStars": 79,
+      "reactions": 0,
+      "comments": 1,
+      "metricsSourceUrl": "https://api.github.com/repos/snowflake-labs/data-eng-bench/issues/10",
+      "metricsCheckedAt": "2026-10-03T09:02:40+00:00"
+    },
+    {
+      "id": "github-289",
+      "sourceUrl": "https://github.com/smormah/vsift/issues/224",
+      "githubKind": "issue",
+      "removedRepositoryStars": 0,
+      "reactions": 0,
+      "comments": 0,
+      "metricsSourceUrl": "https://api.github.com/repos/smormah/vsift/issues/224",
+      "metricsCheckedAt": "2026-10-03T09:02:40+00:00"
+    },
+    {
+      "id": "github-290",
+      "sourceUrl": "https://github.com/wordplaydev/wordplay/pull/1438",
+      "githubKind": "pull_request",
+      "removedRepositoryStars": 89,
+      "reactions": 0,
+      "comments": 0,
+      "metricsSourceUrl": "https://api.github.com/repos/wordplaydev/wordplay/issues/1438",
+      "metricsCheckedAt": "2026-10-03T09:02:42+00:00"
+    },
+    {
+      "id": "github-307",
+      "sourceUrl": "https://github.com/ViBench/vibench-public/pull/8",
+      "githubKind": "pull_request",
+      "removedRepositoryStars": 41,
+      "reactions": 0,
+      "comments": 0,
+      "metricsSourceUrl": "https://api.github.com/repos/vibench/vibench-public/issues/8",
+      "metricsCheckedAt": "2026-10-03T09:02:41+00:00"
+    },
+    {
+      "id": "github-308",
+      "sourceUrl": "https://github.com/synex1437/noctis/pull/9",
+      "githubKind": "pull_request",
+      "removedRepositoryStars": 1,
+      "reactions": 0,
+      "comments": 0,
+      "metricsSourceUrl": "https://api.github.com/repos/synex1437/noctis/issues/9",
+      "metricsCheckedAt": "2026-10-03T09:02:40+00:00"
+    },
+    {
+      "id": "github-309",
+      "sourceUrl": "https://github.com/zbynekdrlik/airuleset/issues/1203",
+      "githubKind": "issue",
+      "removedRepositoryStars": 1,
+      "reactions": 0,
+      "comments": 9,
+      "metricsSourceUrl": "https://api.github.com/repos/zbynekdrlik/airuleset/issues/1203",
+      "metricsCheckedAt": "2026-10-03T09:02:42+00:00"
+    },
+    {
+      "id": "github-310",
+      "sourceUrl": "https://github.com/jwp2987/phosphor/issues/797",
+      "githubKind": "issue",
+      "removedRepositoryStars": 2,
+      "reactions": 0,
+      "comments": 0,
+      "metricsSourceUrl": "https://api.github.com/repos/jwp2987/phosphor/issues/797",
+      "metricsCheckedAt": "2026-10-03T09:02:38+00:00"
+    },
+    {
+      "id": "github-326",
+      "sourceUrl": "https://github.com/integry/propr/pull/2666",
+      "githubKind": "pull_request",
+      "removedRepositoryStars": 13,
+      "reactions": 0,
+      "comments": 15,
+      "metricsSourceUrl": "https://api.github.com/repos/integry/propr/issues/2666",
+      "metricsCheckedAt": "2026-10-03T09:02:38+00:00"
+    },
+    {
+      "id": "github-327",
+      "sourceUrl": "https://github.com/jhlee0409/claude-code-history-viewer/pull/625",
+      "githubKind": "pull_request",
+      "removedRepositoryStars": 2219,
+      "reactions": 0,
+      "comments": 1,
+      "metricsSourceUrl": "https://api.github.com/repos/jhlee0409/claude-code-history-viewer/issues/625",
+      "metricsCheckedAt": "2026-10-03T09:02:38+00:00"
+    },
+    {
+      "id": "github-328",
+      "sourceUrl": "https://github.com/Kilment/qna-atlas/pull/1",
+      "githubKind": "pull_request",
+      "removedRepositoryStars": 0,
+      "reactions": 0,
+      "comments": 0,
+      "metricsSourceUrl": "https://api.github.com/repos/kilment/qna-atlas/issues/1",
+      "metricsCheckedAt": "2026-10-03T09:02:39+00:00"
+    }
+  ],
+  "receipts": [
+    {
+      "key": "github:anomalyco/opencode/issues/51464",
+      "url": "https://api.github.com/repos/anomalyco/opencode/issues/51464",
+      "checkedAt": "2026-10-03T09:02:36+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4358",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "18c9747bb97f9ce23dde4df755353ab1fa2e199743206729b3b2db7bca805559",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 8
+      }
+    },
+    {
+      "key": "github:anthropics/claude-code/issues/96141",
+      "url": "https://api.github.com/repos/anthropics/claude-code/issues/96141",
+      "checkedAt": "2026-10-03T09:02:36+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4356",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "2b2357845b51200b918ca49fe56704af93b62e7d25f8d335b85c1e7ffed16eeb",
+      "ok": true,
+      "metrics": {
+        "reactions": 4,
+        "comments": 3
+      }
+    },
+    {
+      "key": "github:anthropics/claude-code/issues/96167",
+      "url": "https://api.github.com/repos/anthropics/claude-code/issues/96167",
+      "checkedAt": "2026-10-03T09:02:36+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4357",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "f79c4981da09654bf1886c26d31799fb0254aaf211820c929b2041cf2d8e1e5d",
+      "ok": true,
+      "metrics": {
+        "reactions": 4,
+        "comments": 0
+      }
+    },
+    {
+      "key": "github:anthropics/claude-code/issues/96326",
+      "url": "https://api.github.com/repos/anthropics/claude-code/issues/96326",
+      "checkedAt": "2026-10-03T09:02:36+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4355",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "979ed587f180220491c2657f08fe085f272cbbb160b87f91410fa734214cc045",
+      "ok": true,
+      "metrics": {
+        "reactions": 16,
+        "comments": 9
+      }
+    },
+    {
+      "key": "github:anthropics/claude-code/issues/97387",
+      "url": "https://api.github.com/repos/anthropics/claude-code/issues/97387",
+      "checkedAt": "2026-10-03T09:02:36+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4352",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "68d4d8abe7b8ef21596f56eb5b84b80af565b0b74963630376f10c8bc7c30a93",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 0
+      }
+    },
+    {
+      "key": "github:anthropics/claude-code/issues/97395",
+      "url": "https://api.github.com/repos/anthropics/claude-code/issues/97395",
+      "checkedAt": "2026-10-03T09:02:36+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4354",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "b62b6b5f4bcba1abc496ee183f1759081ee99257fcd51c66d549570096828275",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 0
+      }
+    },
+    {
+      "key": "github:anthropics/claude-code/issues/97891",
+      "url": "https://api.github.com/repos/anthropics/claude-code/issues/97891",
+      "checkedAt": "2026-10-03T09:02:36+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4353",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "00af6e4f47a73c9b03cfc850c95bcd886f8678932760f91be6730ebb6f0c13af",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 0
+      }
+    },
+    {
+      "key": "github:anthropics/claude-code/issues/98174",
+      "url": "https://api.github.com/repos/anthropics/claude-code/issues/98174",
+      "checkedAt": "2026-10-03T09:02:36+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4351",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "2f5a05287c645bb024324bcca13caedd62a1fc53d0af1d65afea6d28e9c396b3",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 1
+      }
+    },
+    {
+      "key": "github:anthropics/claude-code/issues/98267",
+      "url": "https://api.github.com/repos/anthropics/claude-code/issues/98267",
+      "checkedAt": "2026-10-03T09:02:37+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4348",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "a16a40b025b21bd01e34d9005c83fbb963dcc12e9d696dd46d41372b50c03398",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 0
+      }
+    },
+    {
+      "key": "github:berriai/litellm/issues/43531",
+      "url": "https://api.github.com/repos/berriai/litellm/issues/43531",
+      "checkedAt": "2026-10-03T09:02:37+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4349",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "71876e6ed09e520608430a7936a908e331bd9200abb34a4482b7e05ba638917f",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 0
+      }
+    },
+    {
+      "key": "github:can1357/oh-my-pi/issues/12870",
+      "url": "https://api.github.com/repos/can1357/oh-my-pi/issues/12870",
+      "checkedAt": "2026-10-03T09:02:37+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4347",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "ddb93d4f179c006546451b561a0db1ac9ca612c53de227ff918490bec983a1fd",
+      "ok": true,
+      "metrics": {
+        "reactions": 9,
+        "comments": 15
+      }
+    },
+    {
+      "key": "github:canvas-medical/canvas-plugins/pull/1905",
+      "url": "https://api.github.com/repos/canvas-medical/canvas-plugins/issues/1905",
+      "checkedAt": "2026-10-03T09:02:37+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4350",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "eeaa304f77ecd3f40e0a6689bdeb2cd699dcde3903006dc36bd42417e65f5755",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 3
+      }
+    },
+    {
+      "key": "github:crazz-org/spo-pipeline/pull/311",
+      "url": "https://api.github.com/repos/crazz-org/spo-pipeline/issues/311",
+      "checkedAt": "2026-10-03T09:02:37+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4346",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "716a2fb69462c7d961a0f2aad01af9195e1e64a5f1c9e181de0fd098ee7da0ed",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 0
+      }
+    },
+    {
+      "key": "github:datacurve-ai/deep-swe/issues/98",
+      "url": "https://api.github.com/repos/datacurve-ai/deep-swe/issues/98",
+      "checkedAt": "2026-10-03T09:02:37+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4344",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "c5e304c65762d375bde89262d1936f83bb5a8c931933816d3ca50a433c748b8a",
+      "ok": true,
+      "metrics": {
+        "reactions": 16,
+        "comments": 7
+      }
+    },
+    {
+      "key": "github:davidwiskundige/readthemasters/pull/88",
+      "url": "https://api.github.com/repos/davidwiskundige/readthemasters/issues/88",
+      "checkedAt": "2026-10-03T09:02:37+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4345",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "f95fd2e9eaf9ee8959f12f654c8e807f0f9f3cbb95e5abf01e2d0e66c02563e6",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 0
+      }
+    },
+    {
+      "key": "github:diegosouzapw/omniroute/issues/14612",
+      "url": "https://api.github.com/repos/diegosouzapw/omniroute/issues/14612",
+      "checkedAt": "2026-10-03T09:02:37+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4343",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "7d5c047eca43a9179c75dedcaa430e216f941bec7b81e570936b397e54c3a656",
+      "ok": true,
+      "metrics": {
+        "reactions": 5,
+        "comments": 5
+      }
+    },
+    {
+      "key": "github:ed-is-ai/featherbench/pull/84",
+      "url": "https://api.github.com/repos/ed-is-ai/featherbench/issues/84",
+      "checkedAt": "2026-10-03T09:02:38+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4342",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "d70bcc4581ab8dcdb9768b11ffabef8ade86d36f3f6ff55ad72258ad0af5a2c3",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 0
+      }
+    },
+    {
+      "key": "github:faultmaven/faultmaven/issues/1751",
+      "url": "https://api.github.com/repos/faultmaven/faultmaven/issues/1751",
+      "checkedAt": "2026-10-03T09:02:38+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4341",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "2a75839660a9631e49822cfe35985a0bed4409147f35948ed62379ece0bd42ba",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 5
+      }
+    },
+    {
+      "key": "github:github/copilot-cli/issues/4980",
+      "url": "https://api.github.com/repos/github/copilot-cli/issues/4980",
+      "checkedAt": "2026-10-03T09:02:38+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4340",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "f2e536153ebbfef1dc71178d84c661fdbc33c481a97e3e6f25735faa7732c1e4",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 1
+      }
+    },
+    {
+      "key": "github:integry/propr/pull/2666",
+      "url": "https://api.github.com/repos/integry/propr/issues/2666",
+      "checkedAt": "2026-10-03T09:02:38+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4339",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "7f030a7ea7754b85639aa5d9a4f51573b05dc636e8f851b583b70f5a475c3312",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 15
+      }
+    },
+    {
+      "key": "github:jezweb/vite-flare-starter/issues/156",
+      "url": "https://api.github.com/repos/jezweb/vite-flare-starter/issues/156",
+      "checkedAt": "2026-10-03T09:02:38+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4338",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "bdc24543b15e02ded831bea725ed195b215357f38edc31f5b67d175b434840c1",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 0
+      }
+    },
+    {
+      "key": "github:jhlee0409/claude-code-history-viewer/pull/625",
+      "url": "https://api.github.com/repos/jhlee0409/claude-code-history-viewer/issues/625",
+      "checkedAt": "2026-10-03T09:02:38+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4336",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "9faa4c40c36cb668605429c15ef2a3dc10931da42bdc71a4a0c360e4de75d799",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 1
+      }
+    },
+    {
+      "key": "github:jmcentire/advocate/pull/4",
+      "url": "https://api.github.com/repos/jmcentire/advocate/issues/4",
+      "checkedAt": "2026-10-03T09:02:38+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4337",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "e853ea5b55e14475ddf97583c6116de59bb1897e2460f07e83c52b55f7953200",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 0
+      }
+    },
+    {
+      "key": "github:jwp2987/phosphor/issues/797",
+      "url": "https://api.github.com/repos/jwp2987/phosphor/issues/797",
+      "checkedAt": "2026-10-03T09:02:38+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4335",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "0d75f17dfc6f3f1907fd773b1e84b37ec1332d696c26050c4417edc6d84efacf",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 0
+      }
+    },
+    {
+      "key": "github:kaybenleroll/random_llm_projects/issues/120",
+      "url": "https://api.github.com/repos/kaybenleroll/random_llm_projects/issues/120",
+      "checkedAt": "2026-10-03T09:02:39+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4334",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "cd82ac7aa063ac732dad94b254557b0bb76f1e5fb3782adaf8dc35d533b534db",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 3
+      }
+    },
+    {
+      "key": "github:kilment/qna-atlas/pull/1",
+      "url": "https://api.github.com/repos/kilment/qna-atlas/issues/1",
+      "checkedAt": "2026-10-03T09:02:39+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4331",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "4d732d9a0c8221e20062f5f96439b10e87627ad0189827de119e768e84f533e3",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 0
+      }
+    },
+    {
+      "key": "github:kirodotdev/kiro/issues/11668",
+      "url": "https://api.github.com/repos/kirodotdev/kiro/issues/11668",
+      "checkedAt": "2026-10-03T09:02:39+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4332",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "840dad09eac31f683c35cdf958a62773db62fa86018005faa8b89e17a00f44bd",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 3
+      }
+    },
+    {
+      "key": "github:koliebe25/generativeai/pull/2",
+      "url": "https://api.github.com/repos/koliebe25/generativeai/issues/2",
+      "checkedAt": "2026-10-03T09:02:39+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4333",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "6b98dd45dc3b14947b6e20ad2e818f72c3b6183459051afa7ad6120111a9d58f",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 0
+      }
+    },
+    {
+      "key": "github:lightspeeddms/claude-pace-maker/issues/150",
+      "url": "https://api.github.com/repos/lightspeeddms/claude-pace-maker/issues/150",
+      "checkedAt": "2026-10-03T09:02:39+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4330",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "92cbe299eab1eb38148b59cb6382377fd7d0d22d48acb11d14464edd619bec44",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 0
+      }
+    },
+    {
+      "key": "github:livekit/agents/pull/7511",
+      "url": "https://api.github.com/repos/livekit/agents/issues/7511",
+      "checkedAt": "2026-10-03T09:02:39+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4328",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "24d8f84fd31cb52613ae4cdc8c93a415ee277e8cdcc4adc1da27c3bc3c5c0bd2",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 0
+      }
+    },
+    {
+      "key": "github:masanami/claude-harness/issues/264",
+      "url": "https://api.github.com/repos/masanami/claude-harness/issues/264",
+      "checkedAt": "2026-10-03T09:02:39+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4327",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "8811e2b5c6d2df4eb9fe463d5a251eb74009f56048ecbdbe0b16e26fdef5e7ab",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 0
+      }
+    },
+    {
+      "key": "github:micz/thunderai/issues/936",
+      "url": "https://api.github.com/repos/micz/thunderai/issues/936",
+      "checkedAt": "2026-10-03T09:02:39+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4329",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "fe885ebf0968ee41a089f86be5dbfae056771a0a168eb7fdc38b6b06a1bd4afc",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 4
+      }
+    },
+    {
+      "key": "github:nadav2150/motion-/pull/2",
+      "url": "https://api.github.com/repos/nadav2150/motion-/issues/2",
+      "checkedAt": "2026-10-03T09:02:39+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4326",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "dffea48181b6c50b9dc98c36882320b9fd4d674bfa0f7e1f8aba19f04d848e72",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 0
+      }
+    },
+    {
+      "key": "github:nousresearch/hermes-agent/pull/119919",
+      "url": "https://api.github.com/repos/nousresearch/hermes-agent/issues/119919",
+      "checkedAt": "2026-10-03T09:02:39+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4325",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "2444512d83e6cd1f0c930629f10f4cddd2912034a838e63f1b895441ea613b58",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 2
+      }
+    },
+    {
+      "key": "github:nousresearch/hermes-agent/pull/123690",
+      "url": "https://api.github.com/repos/nousresearch/hermes-agent/issues/123690",
+      "checkedAt": "2026-10-03T09:02:39+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4324",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "3db6bfac1dc14c3d14dcf93514d5eb2a6d6c66ae216ee3415da9e579ec346587",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 2
+      }
+    },
+    {
+      "key": "github:nousresearch/hermes-plugin-claude-subscription-directsdk/pull/56",
+      "url": "https://api.github.com/repos/nousresearch/hermes-plugin-claude-subscription-directsdk/issues/56",
+      "checkedAt": "2026-10-03T09:02:39+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4323",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "f02403e27392e6e4f39fd93f2bd30fbe1f22aa1509d8811c0edbfe7634df1080",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 2
+      }
+    },
+    {
+      "key": "github:openclaw/openclaw/pull/155966",
+      "url": "https://api.github.com/repos/openclaw/openclaw/issues/155966",
+      "checkedAt": "2026-10-03T09:02:40+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4322",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "53286d3c2b6fca1d338373db4699d528f84dd38e422d23f65149f5b43c29231b",
+      "ok": true,
+      "metrics": {
+        "reactions": 1,
+        "comments": 5
+      }
+    },
+    {
+      "key": "github:pydantic/pydantic-ai/pull/8637",
+      "url": "https://api.github.com/repos/pydantic/pydantic-ai/issues/8637",
+      "checkedAt": "2026-10-03T09:02:40+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4320",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "d281e0a0f155d8cea39567e3f28421f2e6b1877daddc492c4217f4b630b52668",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 1
+      }
+    },
+    {
+      "key": "github:samuellawrentz/profile/pull/130",
+      "url": "https://api.github.com/repos/samuellawrentz/profile/issues/130",
+      "checkedAt": "2026-10-03T09:02:40+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4321",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "dfbb2c848b10e48544f8f66441b021c3e18f83bce0e272912736d39b3cf3d2a8",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 0
+      }
+    },
+    {
+      "key": "github:smormah/vsift/issues/224",
+      "url": "https://api.github.com/repos/smormah/vsift/issues/224",
+      "checkedAt": "2026-10-03T09:02:40+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4319",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "8a7b76dffb6d13025bcea63eb31e67a00a4bbd36beaa82bf558ae1ab4b1c75ae",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 0
+      }
+    },
+    {
+      "key": "github:snowflake-labs/data-eng-bench/pull/10",
+      "url": "https://api.github.com/repos/snowflake-labs/data-eng-bench/issues/10",
+      "checkedAt": "2026-10-03T09:02:40+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4318",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "6fbbc07b593b473e44674434928ae505991dbdc68638639d290771060969c149",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 1
+      }
+    },
+    {
+      "key": "github:stevepolitodesign/skills/issues/44",
+      "url": "https://api.github.com/repos/stevepolitodesign/skills/issues/44",
+      "checkedAt": "2026-10-03T09:02:40+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4317",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "92bc1f6c98696b70222dc4b4ae14fd466087747865079def890fa96ce5f8442e",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 2
+      }
+    },
+    {
+      "key": "github:sv-tmueller/orchestrai/pull/408",
+      "url": "https://api.github.com/repos/sv-tmueller/orchestrai/issues/408",
+      "checkedAt": "2026-10-03T09:02:40+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4316",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "db526c237b31760ecf18ce30df4d84bb65b92c77fbfa249a0a675163458cbd56",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 12
+      }
+    },
+    {
+      "key": "github:synex1437/noctis/pull/9",
+      "url": "https://api.github.com/repos/synex1437/noctis/issues/9",
+      "checkedAt": "2026-10-03T09:02:40+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4315",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "019b08855b6299e37bf87b21615e8d2d6632ef8d7410d86df9a11748e0800c7d",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 0
+      }
+    },
+    {
+      "key": "github:teamchong/pxpipe/pull/293",
+      "url": "https://api.github.com/repos/teamchong/pxpipe/issues/293",
+      "checkedAt": "2026-10-03T09:02:41+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4314",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "6a4fd587bb6326f54feadd05825a98a72a4306083f3f7fe39fe3b4070220dff6",
+      "ok": true,
+      "metrics": {
+        "reactions": 1,
+        "comments": 0
+      }
+    },
+    {
+      "key": "github:the-pr-agent/pr-agent/pull/3629",
+      "url": "https://api.github.com/repos/the-pr-agent/pr-agent/issues/3629",
+      "checkedAt": "2026-10-03T09:02:41+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4313",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "da3566d610378a16e816a635f07daeb0cee61886d3ce35b8b5f8eb4ee25cb1b6",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 2
+      }
+    },
+    {
+      "key": "github:tinybirdco/llm-benchmark/pull/795",
+      "url": "https://api.github.com/repos/tinybirdco/llm-benchmark/issues/795",
+      "checkedAt": "2026-10-03T09:02:41+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4312",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "9b730c936a707f6fdaa24ce784cd1277fb4419ed7ac03d3da608f429af624520",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 2
+      }
+    },
+    {
+      "key": "github:tomsilver/robocode/pull/236",
+      "url": "https://api.github.com/repos/tomsilver/robocode/issues/236",
+      "checkedAt": "2026-10-03T09:02:41+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4311",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "507167c6d65254f37703a12d9d48fb82e642701827ae70b88c3670069f54898a",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 0
+      }
+    },
+    {
+      "key": "github:ucbepic/dataagentbench/pull/114",
+      "url": "https://api.github.com/repos/ucbepic/dataagentbench/issues/114",
+      "checkedAt": "2026-10-03T09:02:41+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4310",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "cb0eeee79e3f1fe0914cd82e0d363aef07777d5d14770c6d74750db12ccca5ff",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 1
+      }
+    },
+    {
+      "key": "github:ventrion/beskar/pull/5",
+      "url": "https://api.github.com/repos/ventrion/beskar/issues/5",
+      "checkedAt": "2026-10-03T09:02:41+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4309",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "5a7ec41c64bc652ec51022d2cd5901b22acbe24a77f2a511eb20d39b147f2706",
+      "ok": true,
+      "metrics": {
+        "reactions": 1,
+        "comments": 0
+      }
+    },
+    {
+      "key": "github:vibench/vibench-public/pull/8",
+      "url": "https://api.github.com/repos/vibench/vibench-public/issues/8",
+      "checkedAt": "2026-10-03T09:02:41+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4308",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "0fd3bd242131b5f448b244c4a0f22584d2f1e7fddc7700c7cbbea9c529283025",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 0
+      }
+    },
+    {
+      "key": "github:vikasbanjare/motion-graphic/pull/1",
+      "url": "https://api.github.com/repos/vikasbanjare/motion-graphic/issues/1",
+      "checkedAt": "2026-10-03T09:02:41+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4307",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "b7453036b8e11351fc188927e07b98ea78188409965a45af299224d3d8c281bf",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 0
+      }
+    },
+    {
+      "key": "github:wandercom/pact/pull/20",
+      "url": "https://api.github.com/repos/wandercom/pact/issues/20",
+      "checkedAt": "2026-10-03T09:02:41+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4306",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "b61a8c2a9fa0a59e280629eb6f6f2d5c2a92090bc7a167bc0741e8cfdd8aae27",
+      "ok": true,
+      "metrics": {
+        "reactions": 1,
+        "comments": 4
+      }
+    },
+    {
+      "key": "github:webbertakken/llm-challenges/pull/22",
+      "url": "https://api.github.com/repos/webbertakken/llm-challenges/issues/22",
+      "checkedAt": "2026-10-03T09:02:42+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4305",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "028377ef6c7f44cadfaebdc20b3ec08036c5c343c3d5638aab7915bfe8928ad7",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 0
+      }
+    },
+    {
+      "key": "github:wheninspace/whendone/issues/1",
+      "url": "https://api.github.com/repos/wheninspace/whendone/issues/1",
+      "checkedAt": "2026-10-03T09:02:42+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4304",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "c9c897c8e31ea133e0273f13aa2d0379c8dc6bd8c9ea047e67f4052b7278a404",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 1
+      }
+    },
+    {
+      "key": "github:whitelotus1998/ironwake/issues/484",
+      "url": "https://api.github.com/repos/whitelotus1998/ironwake/issues/484",
+      "checkedAt": "2026-10-03T09:02:42+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4303",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "0e2c23ff7ce352dd186dbb103b372d6de9c345ca7c95b13b996ec9cab99b3e9c",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 0
+      }
+    },
+    {
+      "key": "github:wingedsheep/argentum-engine/pull/2385",
+      "url": "https://api.github.com/repos/wingedsheep/argentum-engine/issues/2385",
+      "checkedAt": "2026-10-03T09:02:42+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4302",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "96f89d261efde39117675001ac4094017e09146baf550626f11f392451b20285",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 1
+      }
+    },
+    {
+      "key": "github:wordplaydev/wordplay/pull/1438",
+      "url": "https://api.github.com/repos/wordplaydev/wordplay/issues/1438",
+      "checkedAt": "2026-10-03T09:02:42+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4301",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "1bb13a6b504f97f3d8c4e32c43cf1273319d7f2ac3ab1a10374c49b20647e0b1",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 0
+      }
+    },
+    {
+      "key": "github:yeachan-heo/gajae-code/pull/5995",
+      "url": "https://api.github.com/repos/yeachan-heo/gajae-code/issues/5995",
+      "checkedAt": "2026-10-03T09:02:42+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4300",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "e7dbd86c3b2c8892556cc6db25cf44843c9c6feabf7f642830ddba3d9f0e813a",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 2
+      }
+    },
+    {
+      "key": "github:zbynekdrlik/airuleset/issues/1203",
+      "url": "https://api.github.com/repos/zbynekdrlik/airuleset/issues/1203",
+      "checkedAt": "2026-10-03T09:02:42+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4299",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "531b96593e195b920d291249d5edd3293bec9ee41608f7866563c3b167767477",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 9
+      }
+    },
+    {
+      "key": "github:zoo-code-org/zoo-code/issues/1853",
+      "url": "https://api.github.com/repos/zoo-code-org/zoo-code/issues/1853",
+      "checkedAt": "2026-10-03T09:02:42+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4298",
+        "x-ratelimit-reset": "1791018342"
+      },
+      "sha256": "d35fd0cc8e65d93350071db7e79023643066d9d36194e5ada2a86985d62764a0",
+      "ok": true,
+      "metrics": {
+        "reactions": 0,
+        "comments": 0
+      }
+    }
+  ]
+}

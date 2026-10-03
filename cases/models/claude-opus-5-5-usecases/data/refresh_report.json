@@ -1,89 +1,58 @@
 {
-  "refreshedAt": "2026-10-03T08:33:29+00:00",
+  "refreshedAt": "2026-10-03T09:02:43+00:00",
   "scope": {
-    "key": "multi-source",
-    "zh": "多平台公开信源更新（部分覆盖）",
-    "en": "Multi-source public refresh (partial coverage)"
+    "key": "github-metric-attribution",
+    "zh": "GitHub 指标归属与排序纠正",
+    "en": "GitHub metric attribution and ranking correction"
   },
-  "status": "partial-coverage",
+  "status": "completed",
   "lastFullRefreshAt": "2026-09-30T07:38:18+00:00",
   "lastMultiSourceRefreshAt": "2026-10-03T08:33:29+00:00",
-  "previousReport": "data/refresh_history/2026-10-03-before-refresh.json",
-  "previousCaseCount": 5411,
+  "previousReport": "data/refresh_history/2026-10-03-before-github-metrics.json",
+  "previousCaseCount": 5527,
   "caseCount": 5527,
-  "reviewedNewExtras": 116,
-  "reviewedNewExtrasByPlatform": {
-    "GitHub": 17,
-    "Reddit": 10,
-    "X": 68,
-    "Bilibili": 14,
-    "Hacker News": 3,
-    "YouTube": 4
-  },
-  "baseCases": 2717,
-  "baseReconciliation": {
-    "checkedAt": "2026-10-03T08:33:29+00:00",
-    "retainedCases": 2717,
-    "fetchedCases": 2342,
-    "absentFromFresh": 375,
-    "newSourceIdentities": 0,
-    "action": "Retained historical base byte-for-byte; upstream contraction is not deletion evidence",
-    "incomingSha256": "60ffeeebf0ce749eebc5ca0474375115a13506550e5d8bb703c839865945c9db"
-  },
+  "reviewedNewExtras": 0,
   "coverage": {
-    "configuredEndpoints": 46,
-    "configuredSucceeded": 46,
-    "supplementalRequests": 56,
-    "supplementalSucceeded": 52,
-    "xapiSearchRequests": 14,
-    "xapiSearchSucceeded": 9,
-    "xapiSearchObjects": 205,
-    "listOriginalXPosts": 285,
-    "githubRepositories": 82,
-    "githubIssues": 617,
-    "redditPosts": 1291,
-    "bilibiliVideos": 79,
-    "youtubeVideos": 122,
-    "hnHits": 31,
-    "coverageComplete": false
-  },
-  "metricsUpdated": {
-    "xSucceeded": 3626,
-    "xAttempted": 3642,
-    "githubSucceeded": 339,
-    "githubAttempted": 343,
-    "githubStarsChanged": 73,
-    "xapiUnavailableFallbacks": 16,
-    "xapiRecovered": 0
+    "githubCasesAudited": 369,
+    "byKind": {
+      "repository": 300,
+      "issue": 28,
+      "pull_request": 33,
+      "file": 7,
+      "gist": 1
+    },
+    "incorrectInheritedStarsRemoved": 68,
+    "threadsAttempted": 61,
+    "threadsSucceeded": 61,
+    "repositoryStarsRefreshed": false,
+    "newDiscoveryPerformed": false
   },
   "posters": {
     "total": 4544,
     "missing": 983,
-    "newCasesWithPosters": 77,
-    "previous533ReviewedOverlaysPreserved": true
+    "unchanged": true
   },
   "limitations": [
-    "All configured endpoints were read, but this is bounded multi-platform coverage, not the entire web.",
-    "Fresh upstream base contracted from 2717 to 2342; historical cases and IDs retained.",
-    "XAPI made 14 search requests, nine succeeded and five returned HTTP 404, including both initial continuation chains; this is not a successful empty final page. Split queries remain partial.",
-    "Bilibili had three HTTP 412 requests; note search HTTP 404; large GitHub Issue/PR searches capped at four pages; YouTube limited to nine search first pages.",
-    "Reddit archive queries reached the end of seven selected subreddit windows, not all live Reddit content.",
-    "Sixteen old X posts and four GitHub repositories remain unavailable; prior metrics retained, HTTP 404 does not prove deletion.",
-    "Most output and performance claims are creator reports, not independent reproductions. No raw response bodies, API keys or authentication headers are published."
+    "This update corrects existing GitHub metrics and ranking, not a new multi-source crawl. The previous multi-source refresh still has partial coverage.",
+    "Reactions include all reaction types and do not imply approval, quality or model attribution. Discussion comment counts exclude inline code-review comments and are displayed only.",
+    "File pages and Gists have no independently collected popularity metric; they remain searchable and unranked.",
+    "Repository stars remain from the previous snapshot. Counts are point-in-time observations, not real-time activity."
   ],
-  "fetchReceiptFile": "data/refresh_history/2026-10-03-fetches.json",
-  "reviewDecisionFile": "data/refresh_history/2026-10-03-review.json",
-  "processLog": "UPDATE-2026-10-03.md",
+  "fetchReceiptFile": "data/refresh_history/2026-10-03-github-metrics.json",
+  "processLog": "UPDATE-2026-10-03-github-metrics.md",
   "validation": {
     "status": "passed",
     "cases": 5527,
-    "newCases": 116,
     "existingNonmetricFieldsUnchanged": true,
+    "nonGithubCasesByteEquivalent": true,
+    "repositoryStarsUnchanged": true,
     "previousEnrichmentFilesByteIdentical": true,
     "duplicateIds": 0,
     "duplicateSourceIdentities": 0,
     "csvJsonConsistent": true,
-    "regressionTests": 27,
+    "githubThreadReceiptsMatched": 61,
+    "pythonRegressionTests": 32,
+    "javascriptRankingTests": 3,
     "gitDiffCheck": "passed",
     "offlineBuildDeterministic": true,
     "browser": {
@@ -96,11 +65,12 @@
         390,
         844
       ],
-      "representativeCases": 9,
+      "checkedViews": 24,
       "runtimeErrors": 0,
-      "mobileOverflow": false
-    },
-    "originalImageCandidates": 100,
-    "acceptedOriginalImages": 77
+      "mobileOverflow": false,
+      "offlineFileMode": true,
+      "renderedRankingVerified": true,
+      "sortAndLanguagePreserved": true
+    }
   }
 }
