@@ -10,7 +10,7 @@ name: notify-static-pages
 on:
   push:
     branches: [main]
-    paths: ["cases/**"]
+    paths: ["cases/**/public/**"]
   workflow_dispatch:
 
 permissions: {}

@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "topicId": "fable-5-5",
+  "publicPath": "/usecase-atlas/fable5-5/",
+  "caseCount": 0,
+  "files": {
+    "assets/og-image.png": "4f38d1ea8a39cd238bd8e2312d43d9d72da223fd6a0ab6fef33827942003f3f6",
+    "data/all_cases.csv": "f24f009c3a16eab450cd927706c63d51a23afe497ec6f76a9d02b864aec76fc6",
+    "data/all_cases.json": "2c697da6f4a8d7ae2517b92e081a1e533abad3c1900e07d3fda4bc7ad433eb9e",
+    "index.html": "10308d2d43096944dd9ba32fadf99696ab7c0b53c601f1c24a6b84049f2cd765"
+  }
+}

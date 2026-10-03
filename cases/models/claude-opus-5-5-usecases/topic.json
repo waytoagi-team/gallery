@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "monitor": {
+    "enabled": true,
+    "lookbackDays": 2
+  },
+  "attribution": {
+    "keywordMatchIsEvidence": false,
+    "requireOriginalSource": true,
+    "requireExplicitVersion": true
+  },
+  "id": "opus-5-5",
+  "name": "Claude Opus 5.5",
+  "shortName": "Opus 5.5",
+  "aliases": [
+    "Opus 5.5",
+    "opus5.5",
+    "opus-5-5"
+  ],
+  "publicPath": "/usecase-atlas/opus5-5/",
+  "releasedAt": "2026-09-22",
+  "baseSource": {
+    "zh": "https://cheerselfai.com/usecase/claude-opus-5-5",
+    "en": "https://cheerselfai.com/en/usecase/claude-opus-5-5"
+  },
+  "guide": {
+    "zh": "blog/opus55-beginner-guide/",
+    "en": "blog/opus55-beginner-guide/en/"
+  },
+  "ogTemplate": "og_image.html",
+  "ogAlt": {
+    "zh": "WaytoAGI 分享卡片：Claude Opus 5.5 真实案例使用图谱，收录 {{COUNT}} 条公开案例，每条附原帖链接，其中含 {{LIMITS}} 条失败与限制，覆盖 {{CATEGORIES}} 类任务、{{SOURCES}} 个来源，更新至 {{AS_OF}}。两侧是几张真实案例卡片，例如把 HAProxy 从 C 迁移到 Rust（评测）、口述 5 分钟需求后通宵 12 小时做出 MV（演示）、嵌入式调试被误判为网络安全问题（限制）。",
+    "en": "WaytoAGI share card for the Claude Opus 5.5 Real-World Use Case Atlas: {{COUNT}} public cases, each linked to its source, including {{LIMITS}} failures and limitations, across {{CATEGORIES}} categories from {{SOURCES}} sources, updated {{AS_OF}}. Sample case cards include porting HAProxy from C to Rust and embedded debugging flagged as a cyber risk."
+  }
+}
