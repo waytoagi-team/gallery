@@ -1,5 +1,5 @@
 {
-  "refreshedAt": "2026-10-02T04:39:30+00:00",
+  "refreshedAt": "2026-10-03T08:33:29+00:00",
   "scope": {
     "key": "multi-source",
     "zh": "多平台公开信源更新（部分覆盖）",
@@ -7,65 +7,77 @@
   },
   "status": "partial-coverage",
   "lastFullRefreshAt": "2026-09-30T07:38:18+00:00",
-  "lastMultiSourceRefreshAt": "2026-10-02T04:39:30+00:00",
-  "previousReport": "data/refresh_history/2026-10-02-before-refresh.json",
-  "previousCaseCount": 5289,
-  "caseCount": 5411,
-  "reviewedNewExtras": 122,
+  "lastMultiSourceRefreshAt": "2026-10-03T08:33:29+00:00",
+  "previousReport": "data/refresh_history/2026-10-03-before-refresh.json",
+  "previousCaseCount": 5411,
+  "caseCount": 5527,
+  "reviewedNewExtras": 116,
   "reviewedNewExtrasByPlatform": {
-    "X": 41,
-    "GitHub": 19,
-    "Reddit": 24,
-    "Bilibili": 30,
-    "YouTube": 2,
-    "Web": 6
+    "GitHub": 17,
+    "Reddit": 10,
+    "X": 68,
+    "Bilibili": 14,
+    "Hacker News": 3,
+    "YouTube": 4
   },
   "baseCases": 2717,
+  "baseReconciliation": {
+    "checkedAt": "2026-10-03T08:33:29+00:00",
+    "retainedCases": 2717,
+    "fetchedCases": 2342,
+    "absentFromFresh": 375,
+    "newSourceIdentities": 0,
+    "action": "Retained historical base byte-for-byte; upstream contraction is not deletion evidence",
+    "incomingSha256": "60ffeeebf0ce749eebc5ca0474375115a13506550e5d8bb703c839865945c9db"
+  },
   "coverage": {
     "configuredEndpoints": 46,
     "configuredSucceeded": 46,
-    "supplementalRequests": 64,
-    "supplementalSucceeded": 58,
-    "xapiSearchPages": 10,
-    "githubRepositories": 143,
-    "githubIssues": 686,
-    "redditPosts": 1614,
-    "bilibiliVideos": 103,
-    "youtubeVideos": 131,
-    "hnHits": 93,
+    "supplementalRequests": 56,
+    "supplementalSucceeded": 52,
+    "xapiSearchRequests": 14,
+    "xapiSearchSucceeded": 9,
+    "xapiSearchObjects": 205,
+    "listOriginalXPosts": 285,
+    "githubRepositories": 82,
+    "githubIssues": 617,
+    "redditPosts": 1291,
+    "bilibiliVideos": 79,
+    "youtubeVideos": 122,
+    "hnHits": 31,
     "coverageComplete": false
   },
   "metricsUpdated": {
-    "xSucceeded": 3585,
-    "xAttempted": 3601,
-    "githubSucceeded": 320,
-    "githubAttempted": 324,
-    "githubStarsChanged": 59,
+    "xSucceeded": 3626,
+    "xAttempted": 3642,
+    "githubSucceeded": 339,
+    "githubAttempted": 343,
+    "githubStarsChanged": 73,
     "xapiUnavailableFallbacks": 16,
     "xapiRecovered": 0
   },
   "posters": {
-    "total": 4467,
-    "missing": 944,
-    "newCasesWithPosters": 95,
+    "total": 4544,
+    "missing": 983,
+    "newCasesWithPosters": 77,
     "previous533ReviewedOverlaysPreserved": true
   },
   "limitations": [
-    "Configured endpoints succeeded, but this is not exhaustive coverage of each platform or the web.",
-    "Reddit pagination encountered HTTP 429; Bilibili pagination encountered HTTP 412; GitHub issues were capped at four pages for large queries.",
-    "YouTube uses nine search-result first pages; two selected video descriptions/transcripts were read in full.",
-    "XAPI SearchTimeline includes nested quotes, and Latest returned an empty continuation; Top results are not a global popularity ranking.",
-    "Sixteen X posts and four GitHub repositories remained unavailable; previous metrics are preserved. HTTP 404 does not prove deletion.",
-    "Note search API returned HTTP 404. No new note article was verified in this pass.",
-    "Most works and metrics are creator/platform reports, not independent reproductions. Raw bodies and API credentials are not published."
+    "All configured endpoints were read, but this is bounded multi-platform coverage, not the entire web.",
+    "Fresh upstream base contracted from 2717 to 2342; historical cases and IDs retained.",
+    "XAPI made 14 search requests, nine succeeded and five returned HTTP 404, including both initial continuation chains; this is not a successful empty final page. Split queries remain partial.",
+    "Bilibili had three HTTP 412 requests; note search HTTP 404; large GitHub Issue/PR searches capped at four pages; YouTube limited to nine search first pages.",
+    "Reddit archive queries reached the end of seven selected subreddit windows, not all live Reddit content.",
+    "Sixteen old X posts and four GitHub repositories remain unavailable; prior metrics retained, HTTP 404 does not prove deletion.",
+    "Most output and performance claims are creator reports, not independent reproductions. No raw response bodies, API keys or authentication headers are published."
   ],
-  "fetchReceiptFile": "data/refresh_history/2026-10-02-fetches.json",
-  "reviewDecisionFile": "data/refresh_history/2026-10-02-review.json",
-  "processLog": "UPDATE-2026-10-02.md",
+  "fetchReceiptFile": "data/refresh_history/2026-10-03-fetches.json",
+  "reviewDecisionFile": "data/refresh_history/2026-10-03-review.json",
+  "processLog": "UPDATE-2026-10-03.md",
   "validation": {
     "status": "passed",
-    "cases": 5411,
-    "newCases": 122,
+    "cases": 5527,
+    "newCases": 116,
     "existingNonmetricFieldsUnchanged": true,
     "previousEnrichmentFilesByteIdentical": true,
     "duplicateIds": 0,
@@ -73,6 +85,7 @@
     "csvJsonConsistent": true,
     "regressionTests": 27,
     "gitDiffCheck": "passed",
+    "offlineBuildDeterministic": true,
     "browser": {
       "status": "passed",
       "desktop": [
@@ -83,68 +96,11 @@
         390,
         844
       ],
-      "runtimeErrors": [],
-      "representativeCases": [
-        {
-          "sourceUrl": "https://x.com/grmchn4ai/status/2105487518087159929",
-          "imageLoaded": true,
-          "resources": 0
-        },
-        {
-          "sourceUrl": "https://x.com/getBack_1969_/status/2105200070446751750",
-          "imageLoaded": true,
-          "resources": 1
-        },
-        {
-          "sourceUrl": "https://github.com/shopville-limited/gosau-live-wallpaper",
-          "imageLoaded": true,
-          "resources": 0
-        },
-        {
-          "sourceUrl": "https://github.com/taswar/ClaudeOpus5.5-Csharp-Demo",
-          "imageLoaded": false,
-          "resources": 0
-        },
-        {
-          "sourceUrl": "https://www.reddit.com/r/claude/comments/1wvb2fa/claude_code_opus_55_ran_rm_r_eusers_to_clean_up/",
-          "imageLoaded": false,
-          "resources": 0
-        },
-        {
-          "sourceUrl": "https://www.reddit.com/r/singularity/comments/1wvfukw/think_well_get_a_model_as_good_at_visuals_as_opus/",
-          "imageLoaded": true,
-          "resources": 0
-        },
-        {
-          "sourceUrl": "https://www.bilibili.com/video/BV1Crar6MEhx",
-          "imageLoaded": true,
-          "resources": 0
-        },
-        {
-          "sourceUrl": "https://www.bilibili.com/video/BV1VvaB61EKc",
-          "imageLoaded": true,
-          "resources": 0
-        },
-        {
-          "sourceUrl": "https://www.youtube.com/watch?v=udOjw1-7Tuk",
-          "imageLoaded": true,
-          "resources": 0
-        },
-        {
-          "sourceUrl": "https://resobscura.substack.com/p/using-opus-55-to-discover-a-new-eyewitness",
-          "imageLoaded": true,
-          "resources": 2
-        },
-        {
-          "sourceUrl": "https://stillwet.art/",
-          "imageLoaded": true,
-          "resources": 1,
-          "note": "Loaded after waiting for remote image response."
-        }
-      ],
+      "representativeCases": 9,
+      "runtimeErrors": 0,
       "mobileOverflow": false
     },
-    "offlineRebuildStable": true,
-    "gitleaks": "passed"
+    "originalImageCandidates": 100,
+    "acceptedOriginalImages": 77
   }
 }
