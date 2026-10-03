@@ -70,11 +70,11 @@
   },
   "asOf": "2026-10-03",
   "duplicatesSkipped": 37,
-  "refreshedAt": "2026-10-03T08:33:29+00:00",
+  "refreshedAt": "2026-10-03T09:02:43+00:00",
   "refreshScope": {
-   "key": "multi-source",
-   "zh": "多平台公开信源更新（部分覆盖）",
-   "en": "Multi-source public refresh (partial coverage)"
+   "key": "github-metric-attribution",
+   "zh": "GitHub 指标归属与排序纠正",
+   "en": "GitHub metric attribution and ranking correction"
   },
   "lastFullRefreshAt": "2026-09-30T07:38:18+00:00"
  },
@@ -75004,7 +75004,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:42+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:42+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-002",
@@ -75026,7 +75027,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:42+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:42+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-003",
@@ -75048,7 +75050,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:52+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:52+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-004",
@@ -75071,6 +75074,7 @@
    "mediaKind": "image",
    "poster": "https://raw.githubusercontent.com/dgreenheck/tidewater/main/docs/screenshot.jpg",
    "metricsCheckedAt": "2026-10-03T08:09:35+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/dgreenheck/tidewater",
@@ -75108,7 +75112,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:36+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:36+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-006",
@@ -75131,6 +75136,7 @@
    "mediaKind": "image",
    "poster": "https://miaai-lab.github.io/Claude-Opus-5.5-100-HTML-Files/thumbs/001-aurora-glass.jpg",
    "metricsCheckedAt": "2026-10-03T08:09:47+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://miaai-lab.github.io/Claude-Opus-5.5-100-HTML-Files/",
@@ -75168,7 +75174,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:51+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:51+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-008",
@@ -75191,6 +75198,7 @@
    "mediaKind": "image",
    "poster": "https://raw.githubusercontent.com/ledbetterljoshua/functional-emotions-video/main/docs/lake-face.jpg",
    "metricsCheckedAt": "2026-10-03T08:09:45+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/ledbetterljoshua/functional-emotions-video",
@@ -75229,6 +75237,7 @@
    "mediaKind": "image",
    "poster": "https://raw.githubusercontent.com/bridge-mind/turbo-kart-rally/main/docs/screenshots/race.jpg",
    "metricsCheckedAt": "2026-10-03T08:09:32+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/bridge-mind/turbo-kart-rally",
@@ -75266,7 +75275,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:32+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:32+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-011",
@@ -75289,6 +75299,7 @@
    "mediaKind": "image",
    "poster": "https://raw.githubusercontent.com/theolundqvist/frontier-games/main/media/the-dukes-lawn/preview.webp",
    "metricsCheckedAt": "2026-10-03T08:09:58+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/theolundqvist/frontier-games",
@@ -75327,6 +75338,7 @@
    "mediaKind": "image",
    "poster": "https://raw.githubusercontent.com/AgentsLoop/awesome-opus-5.5-games/main/assets/screenshot-gallery/af622dcb092094e3714d.webp",
    "metricsCheckedAt": "2026-10-03T08:09:27+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/AgentsLoop/awesome-opus-5.5-games",
@@ -75365,6 +75377,7 @@
    "mediaKind": "image",
    "poster": "https://raw.githubusercontent.com/krillinai/awesome-opus-animation/main/assets/awesome-opus-animation-banner.png",
    "metricsCheckedAt": "2026-10-03T08:09:44+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/krillinai/awesome-opus-animation",
@@ -75403,6 +75416,7 @@
    "mediaKind": "image",
    "poster": "https://raw.githubusercontent.com/athemeroy/awesome-opus-5-5-videos/main/assets/case-thumbnails/2102742924148830211.webp",
    "metricsCheckedAt": "2026-10-03T08:09:29+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/athemeroy/awesome-opus-5-5-videos",
@@ -75441,6 +75455,7 @@
    "mediaKind": "image",
    "poster": "https://raw.githubusercontent.com/TripoGrowthLab/awesome-opus-5-5-prompts/main/assets/hero.webp",
    "metricsCheckedAt": "2026-10-03T08:09:59+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/TripoGrowthLab/awesome-opus-5-5-prompts",
@@ -75479,6 +75494,7 @@
    "mediaKind": "image",
    "poster": "https://raw.githubusercontent.com/OpenVGLab/awesome-opus5.5-frontend-showcases/main/svg/thumbs/kitchen-rush-title.jpg",
    "metricsCheckedAt": "2026-10-03T08:09:51+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/OpenVGLab/awesome-opus5.5-frontend-showcases",
@@ -75517,6 +75533,7 @@
    "mediaKind": "image",
    "poster": "https://raw.githubusercontent.com/SilentFleetKK/qingming-bianjing/main/assets/compare.jpg",
    "metricsCheckedAt": "2026-10-03T08:09:54+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/SilentFleetKK/qingming-bianjing",
@@ -75554,7 +75571,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:30+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:30+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-019",
@@ -75576,7 +75594,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:10:02+00:00"
+   "metricsCheckedAt": "2026-10-03T08:10:02+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-020",
@@ -75598,7 +75617,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:55+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:55+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-021",
@@ -75620,7 +75640,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:31+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:31+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-022",
@@ -75643,6 +75664,7 @@
    "mediaKind": "image",
    "poster": "https://raw.githubusercontent.com/aibengineering/sprout-quest/main/docs/teaser.webp",
    "metricsCheckedAt": "2026-10-03T08:09:28+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/aibengineering/sprout-quest",
@@ -75681,6 +75703,7 @@
    "mediaKind": "image",
    "poster": "https://raw.githubusercontent.com/tanuu5/nova-lancer/main/docs/screenshots/hero.jpg",
    "metricsCheckedAt": "2026-10-03T08:09:57+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/tanuu5/nova-lancer",
@@ -75718,7 +75741,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:50+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:50+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-025",
@@ -75741,6 +75765,7 @@
    "mediaKind": "image",
    "poster": "https://sam1983aing.github.io/domino-show/og.jpg",
    "metricsCheckedAt": "2026-10-03T08:09:53+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://sam1983aing.github.io/domino-show/",
@@ -75779,6 +75804,7 @@
    "mediaKind": "image",
    "poster": "https://raw.githubusercontent.com/peterheb/reefglass/main/dist/og.jpg",
    "metricsCheckedAt": "2026-10-03T08:09:51+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/peterheb/reefglass",
@@ -75816,7 +75842,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:31+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:31+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-028",
@@ -75839,6 +75866,7 @@
    "mediaKind": "image",
    "poster": "https://raw.githubusercontent.com/fish2lab/bjtu-touhou-booth/main/docs/preview.jpg",
    "metricsCheckedAt": "2026-10-03T08:09:38+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/fish2lab/bjtu-touhou-booth",
@@ -75877,6 +75905,7 @@
    "mediaKind": "image",
    "poster": "https://raw.githubusercontent.com/klsoen/opus-js-animations/main/docs/shaml-opening-2.8s.gif",
    "metricsCheckedAt": "2026-10-03T08:09:44+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/klsoen/opus-js-animations",
@@ -75915,6 +75944,7 @@
    "mediaKind": "image",
    "poster": "https://raw.githubusercontent.com/iart-ai/javascript-animation-skills/main/showcase.gif",
    "metricsCheckedAt": "2026-10-03T08:09:40+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/iart-ai/javascript-animation-skills",
@@ -75952,7 +75982,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:48+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:48+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-032",
@@ -75975,6 +76006,7 @@
    "mediaKind": "image",
    "poster": "https://i.ytimg.com/vi/_PtVROzu3_w/maxresdefault.jpg",
    "metricsCheckedAt": "2026-10-03T08:09:30+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/Barty-Bart/opus-55-10k-websites",
@@ -76013,6 +76045,7 @@
    "mediaKind": "image",
    "poster": "https://raw.githubusercontent.com/stas4000/prompt-fossils/master/docs/preview.png",
    "metricsCheckedAt": "2026-10-03T08:09:55+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/stas4000/prompt-fossils",
@@ -76050,7 +76083,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:55+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:55+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-035",
@@ -76072,7 +76106,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:36+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:36+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-036",
@@ -76095,6 +76130,7 @@
    "mediaKind": "image",
    "poster": "https://raw.githubusercontent.com/hugoromao/project-alife-ptbr/main/art/preview.png",
    "metricsCheckedAt": "2026-10-03T08:09:40+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/hugoromao/project-alife-ptbr/blob/main/art/preview.png",
@@ -76133,6 +76169,7 @@
    "mediaKind": "image",
    "poster": "https://raw.githubusercontent.com/JuliusBrussee/jazz-jackrabbit-remastered/main/screenshots/title.png",
    "metricsCheckedAt": "2026-10-03T08:09:43+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/JuliusBrussee/jazz-jackrabbit-remastered",
@@ -76170,7 +76207,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:41+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:41+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-039",
@@ -76192,7 +76230,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:28+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:28+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-040",
@@ -76214,7 +76253,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:32+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:32+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-041",
@@ -76232,11 +76272,14 @@
    "date": "2026-09-22",
    "likes": null,
    "bookmarks": null,
-   "stars": 149011,
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:28+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:36+00:00",
+   "githubKind": "issue",
+   "reactions": 4,
+   "comments": 3,
+   "metricsSourceUrl": "https://api.github.com/repos/anthropics/claude-code/issues/96141"
   },
   {
    "id": "github-042",
@@ -76254,11 +76297,14 @@
    "date": "2026-09-22",
    "likes": null,
    "bookmarks": null,
-   "stars": 149011,
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:28+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:36+00:00",
+   "githubKind": "issue",
+   "reactions": 4,
+   "comments": 0,
+   "metricsSourceUrl": "https://api.github.com/repos/anthropics/claude-code/issues/96167"
   },
   {
    "id": "github-043",
@@ -76276,11 +76322,14 @@
    "date": "2026-09-23",
    "likes": null,
    "bookmarks": null,
-   "stars": 149011,
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:28+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:36+00:00",
+   "githubKind": "issue",
+   "reactions": 16,
+   "comments": 9,
+   "metricsSourceUrl": "https://api.github.com/repos/anthropics/claude-code/issues/96326"
   },
   {
    "id": "github-044",
@@ -76298,11 +76347,14 @@
    "date": "2026-09-22",
    "likes": null,
    "bookmarks": null,
-   "stars": 34142,
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:33+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:37+00:00",
+   "githubKind": "issue",
+   "reactions": 9,
+   "comments": 15,
+   "metricsSourceUrl": "https://api.github.com/repos/can1357/oh-my-pi/issues/12870"
   },
   {
    "id": "github-045",
@@ -76320,11 +76372,14 @@
    "date": "2026-09-22",
    "likes": null,
    "bookmarks": null,
-   "stars": 20375,
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:52+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:40+00:00",
+   "githubKind": "pull_request",
+   "reactions": 0,
+   "comments": 1,
+   "metricsSourceUrl": "https://api.github.com/repos/pydantic/pydantic-ai/issues/8637"
   },
   {
    "id": "github-046",
@@ -76342,11 +76397,14 @@
    "date": "2026-09-22",
    "likes": null,
    "bookmarks": null,
-   "stars": 13246,
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:58+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:41+00:00",
+   "githubKind": "pull_request",
+   "reactions": 0,
+   "comments": 2,
+   "metricsSourceUrl": "https://api.github.com/repos/the-pr-agent/pr-agent/issues/3629"
   },
   {
    "id": "github-047",
@@ -76364,11 +76422,10 @@
    "date": null,
    "likes": null,
    "bookmarks": null,
-   "stars": 27092,
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:10:00+00:00"
+   "githubKind": "file"
   },
   {
    "id": "github-048",
@@ -76386,11 +76443,10 @@
    "date": null,
    "likes": null,
    "bookmarks": null,
-   "stars": 862,
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:10:00+00:00"
+   "githubKind": "file"
   },
   {
    "id": "github-049",
@@ -76408,11 +76464,10 @@
    "date": "2026-09-24",
    "likes": null,
    "bookmarks": null,
-   "stars": 9863,
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:34+00:00"
+   "githubKind": "file"
   },
   {
    "id": "github-050",
@@ -76430,11 +76485,14 @@
    "date": "2026-09-23",
    "likes": null,
    "bookmarks": null,
-   "stars": 87,
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:58+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:41+00:00",
+   "githubKind": "pull_request",
+   "reactions": 0,
+   "comments": 2,
+   "metricsSourceUrl": "https://api.github.com/repos/tinybirdco/llm-benchmark/issues/795"
   },
   {
    "id": "github-051",
@@ -76452,11 +76510,14 @@
    "date": "2026-09-22",
    "likes": null,
    "bookmarks": null,
-   "stars": 4,
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:37+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:38+00:00",
+   "githubKind": "pull_request",
+   "reactions": 0,
+   "comments": 0,
+   "metricsSourceUrl": "https://api.github.com/repos/ed-is-ai/featherbench/issues/84"
   },
   {
    "id": "github-052",
@@ -76474,11 +76535,14 @@
    "date": "2026-09-22",
    "likes": null,
    "bookmarks": null,
-   "stars": 0,
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:10:01+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:42+00:00",
+   "githubKind": "pull_request",
+   "reactions": 0,
+   "comments": 0,
+   "metricsSourceUrl": "https://api.github.com/repos/webbertakken/llm-challenges/issues/22"
   },
   {
    "id": "github-053",
@@ -76496,11 +76560,14 @@
    "date": "2026-09-24",
    "likes": null,
    "bookmarks": null,
-   "stars": 0,
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:43+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:39+00:00",
+   "githubKind": "issue",
+   "reactions": 0,
+   "comments": 3,
+   "metricsSourceUrl": "https://api.github.com/repos/kaybenleroll/random_llm_projects/issues/120"
   },
   {
    "id": "github-054",
@@ -76518,11 +76585,14 @@
    "date": "2026-09-22",
    "likes": null,
    "bookmarks": null,
-   "stars": 1789,
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:35+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:37+00:00",
+   "githubKind": "issue",
+   "reactions": 16,
+   "comments": 7,
+   "metricsSourceUrl": "https://api.github.com/repos/datacurve-ai/deep-swe/issues/98"
   },
   {
    "id": "github-055",
@@ -76540,10 +76610,10 @@
    "date": "2026-09-23",
    "likes": null,
    "bookmarks": null,
-   "stars": null,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "githubKind": "gist"
   },
   {
    "id": "github-056",
@@ -76561,11 +76631,14 @@
    "date": "2026-09-23",
    "likes": null,
    "bookmarks": null,
-   "stars": 72454,
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:36+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:37+00:00",
+   "githubKind": "issue",
+   "reactions": 5,
+   "comments": 5,
+   "metricsSourceUrl": "https://api.github.com/repos/diegosouzapw/omniroute/issues/14612"
   },
   {
    "id": "github-057",
@@ -76588,6 +76661,7 @@
    "mediaKind": "image",
    "poster": "https://raw.githubusercontent.com/Aureliengmz/clearwater/main/media/landscape.png",
    "metricsCheckedAt": "2026-10-03T08:09:29+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/Aureliengmz/clearwater",
@@ -76625,7 +76699,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:50+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:50+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-059",
@@ -76647,7 +76722,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:53+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:53+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-060",
@@ -76670,6 +76746,7 @@
    "mediaKind": "image",
    "poster": "https://raw.githubusercontent.com/opusvideo/awesome-claude-video/main/assets/covers/2102512879258009818.jpg",
    "metricsCheckedAt": "2026-10-03T08:09:51+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/opusvideo/awesome-claude-video",
@@ -76707,7 +76784,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:34+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:34+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-062",
@@ -76730,6 +76808,7 @@
    "mediaKind": "image",
    "poster": "https://raw.githubusercontent.com/Yeadon8888/claude-video-atlas/main/docs/assets/social.png",
    "metricsCheckedAt": "2026-10-03T08:10:03+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/Yeadon8888/claude-video-atlas",
@@ -76768,6 +76847,7 @@
    "mediaKind": "image",
    "poster": "https://img.youtube.com/vi/EnmpDgFD3OI/maxresdefault.jpg",
    "metricsCheckedAt": "2026-10-03T08:09:29+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/arimanyus/hophopnopenope",
@@ -76805,7 +76885,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:43+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:43+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-065",
@@ -76823,11 +76904,14 @@
    "date": "2026-09-25",
    "likes": null,
    "bookmarks": null,
-   "stars": 7494,
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:57+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:41+00:00",
+   "githubKind": "pull_request",
+   "reactions": 1,
+   "comments": 0,
+   "metricsSourceUrl": "https://api.github.com/repos/teamchong/pxpipe/issues/293"
   },
   {
    "id": "github-066",
@@ -76845,11 +76929,10 @@
    "date": null,
    "likes": null,
    "bookmarks": null,
-   "stars": 50221,
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:40+00:00"
+   "githubKind": "file"
   },
   {
    "id": "github-067",
@@ -76867,11 +76950,14 @@
    "date": "2026-09-22",
    "likes": null,
    "bookmarks": null,
-   "stars": 391203,
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:51+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:40+00:00",
+   "githubKind": "pull_request",
+   "reactions": 1,
+   "comments": 5,
+   "metricsSourceUrl": "https://api.github.com/repos/openclaw/openclaw/issues/155966"
   },
   {
    "id": "github-068",
@@ -76889,11 +76975,14 @@
    "date": "2026-09-23",
    "likes": null,
    "bookmarks": null,
-   "stars": 250835,
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:50+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:39+00:00",
+   "githubKind": "pull_request",
+   "reactions": 0,
+   "comments": 2,
+   "metricsSourceUrl": "https://api.github.com/repos/nousresearch/hermes-agent/issues/119919"
   },
   {
    "id": "github-069",
@@ -76911,11 +77000,14 @@
    "date": "2026-09-26",
    "likes": null,
    "bookmarks": null,
-   "stars": 250835,
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:50+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:39+00:00",
+   "githubKind": "pull_request",
+   "reactions": 0,
+   "comments": 2,
+   "metricsSourceUrl": "https://api.github.com/repos/nousresearch/hermes-agent/issues/123690"
   },
   {
    "id": "github-070",
@@ -76933,11 +77025,14 @@
    "date": "2026-09-26",
    "likes": null,
    "bookmarks": null,
-   "stars": 2902,
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:10:03+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:42+00:00",
+   "githubKind": "pull_request",
+   "reactions": 0,
+   "comments": 2,
+   "metricsSourceUrl": "https://api.github.com/repos/yeachan-heo/gajae-code/issues/5995"
   },
   {
    "id": "github-071",
@@ -76955,11 +77050,14 @@
    "date": "2026-09-26",
    "likes": null,
    "bookmarks": null,
-   "stars": 1,
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:35+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:37+00:00",
+   "githubKind": "pull_request",
+   "reactions": 0,
+   "comments": 0,
+   "metricsSourceUrl": "https://api.github.com/repos/davidwiskundige/readthemasters/issues/88"
   },
   {
    "id": "github-072",
@@ -76977,11 +77075,14 @@
    "date": "2026-09-26",
    "likes": null,
    "bookmarks": null,
-   "stars": 5,
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:47+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:39+00:00",
+   "githubKind": "issue",
+   "reactions": 0,
+   "comments": 0,
+   "metricsSourceUrl": "https://api.github.com/repos/masanami/claude-harness/issues/264"
   },
   {
    "id": "github-073",
@@ -76999,11 +77100,14 @@
    "date": "2026-09-26",
    "likes": null,
    "bookmarks": null,
-   "stars": 149011,
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:28+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:36+00:00",
+   "githubKind": "issue",
+   "reactions": 0,
+   "comments": 0,
+   "metricsSourceUrl": "https://api.github.com/repos/anthropics/claude-code/issues/97395"
   },
   {
    "id": "github-074",
@@ -77021,11 +77125,14 @@
    "date": "2026-09-26",
    "likes": null,
    "bookmarks": null,
-   "stars": 149011,
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:28+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:36+00:00",
+   "githubKind": "issue",
+   "reactions": 0,
+   "comments": 0,
+   "metricsSourceUrl": "https://api.github.com/repos/anthropics/claude-code/issues/97387"
   },
   {
    "id": "github-075",
@@ -77043,11 +77150,14 @@
    "date": "2026-09-26",
    "likes": null,
    "bookmarks": null,
-   "stars": 211545,
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:28+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:36+00:00",
+   "githubKind": "issue",
+   "reactions": 0,
+   "comments": 8,
+   "metricsSourceUrl": "https://api.github.com/repos/anomalyco/opencode/issues/51464"
   },
   {
    "id": "github-076",
@@ -77065,11 +77175,14 @@
    "date": "2026-09-26",
    "likes": null,
    "bookmarks": null,
-   "stars": 69,
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:10:02+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:42+00:00",
+   "githubKind": "pull_request",
+   "reactions": 0,
+   "comments": 1,
+   "metricsSourceUrl": "https://api.github.com/repos/wingedsheep/argentum-engine/issues/2385"
   },
   {
    "id": "github-077",
@@ -77087,11 +77200,10 @@
    "date": null,
    "likes": null,
    "bookmarks": null,
-   "stars": 314,
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:44+00:00"
+   "githubKind": "file"
   },
   {
    "id": "github-078",
@@ -77109,11 +77221,10 @@
    "date": null,
    "likes": null,
    "bookmarks": null,
-   "stars": 994,
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:57+00:00"
+   "githubKind": "file"
   },
   {
    "id": "github-079",
@@ -77131,11 +77242,10 @@
    "date": "2026-09-22",
    "likes": null,
    "bookmarks": null,
-   "stars": 1670,
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:58+00:00"
+   "githubKind": "file"
   },
   {
    "id": "github-080",
@@ -77157,7 +77267,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:42+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:42+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-081",
@@ -77180,6 +77291,7 @@
    "mediaKind": "image",
    "poster": "https://raw.githubusercontent.com/negevtvx/grok-vs-opus-catgirl-run/main/media/phases.png",
    "metricsCheckedAt": "2026-10-03T08:09:49+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/negevtvx/grok-vs-opus-catgirl-run",
@@ -77218,6 +77330,7 @@
    "mediaKind": "image",
    "poster": "https://raw.githubusercontent.com/CahidArda/bosphore-1819/main/docs/screenshot.png",
    "metricsCheckedAt": "2026-10-03T08:09:32+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/CahidArda/bosphore-1819",
@@ -77256,6 +77369,7 @@
    "mediaKind": "image",
    "poster": "https://raw.githubusercontent.com/JaredTate/tatertotsflightsim/main/docs/screenshots/a10-burning-convoy.jpg",
    "metricsCheckedAt": "2026-10-03T08:09:41+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/JaredTate/tatertotsflightsim",
@@ -77293,7 +77407,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:44+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:44+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-085",
@@ -77315,7 +77430,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:10:02+00:00"
+   "metricsCheckedAt": "2026-10-03T08:10:02+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-086",
@@ -77337,7 +77453,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:38+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:38+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-087",
@@ -77360,6 +77477,7 @@
    "mediaKind": "image",
    "poster": "https://raw.githubusercontent.com/swan4er/opus-100-projects/main/001-split-flap/preview.jpg",
    "metricsCheckedAt": "2026-10-03T08:09:56+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/swan4er/opus-100-projects/blob/main/001-split-flap/preview.jpg",
@@ -77397,7 +77515,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:57+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:57+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-089",
@@ -77420,6 +77539,7 @@
    "mediaKind": "image",
    "poster": "https://raw.githubusercontent.com/vasu-devs/FishSlop_Opus5.5/main/docs/screens/07-residents.png",
    "metricsCheckedAt": "2026-10-03T08:09:59+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/vasu-devs/FishSlop_Opus5.5",
@@ -77457,7 +77577,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:59+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:59+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-091",
@@ -77480,6 +77601,7 @@
    "mediaKind": "image",
    "poster": "https://raw.githubusercontent.com/fornhere/opus55-demolar/main/01/ekran/03-doruk.png",
    "metricsCheckedAt": "2026-10-03T08:09:38+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/fornhere/opus55-demolar",
@@ -77518,6 +77640,7 @@
    "mediaKind": "image",
    "poster": "https://raw.githubusercontent.com/tuzhechen2005/opus-video-skills/main/skills/painted-animation/docs/xiaozhen-sheet.jpg",
    "metricsCheckedAt": "2026-10-03T08:09:59+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/tuzhechen2005/painted-animation",
@@ -77555,7 +77678,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:10:02+00:00"
+   "metricsCheckedAt": "2026-10-03T08:10:02+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-094",
@@ -77577,7 +77701,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:58+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:58+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-095",
@@ -77599,7 +77724,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:53+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:53+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-096",
@@ -77622,6 +77748,7 @@
    "mediaKind": "image",
    "poster": "https://raw.githubusercontent.com/tanuu5/opus-5.5-motion-reel/main/docs/poster.jpg",
    "metricsCheckedAt": "2026-10-03T08:09:57+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/tanuu5/opus-5.5-motion-reel",
@@ -77660,6 +77787,7 @@
    "mediaKind": "image",
    "poster": "https://raw.githubusercontent.com/mogita/emberwake/main/docs/gameplay.jpg",
    "metricsCheckedAt": "2026-10-03T08:09:48+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/mogita/emberwake",
@@ -77696,7 +77824,8 @@
    "stars": 0,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "githubKind": "repository"
   },
   {
    "id": "github-099",
@@ -77719,6 +77848,7 @@
    "mediaKind": "image",
    "poster": "https://raw.githubusercontent.com/statecs/Bubble-Catch/main/docs/screenshots/tag.jpg",
    "metricsCheckedAt": "2026-10-03T08:09:55+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/statecs/Bubble-Catch",
@@ -77757,6 +77887,7 @@
    "mediaKind": "image",
    "poster": "https://raw.githubusercontent.com/akkireddy-challa/pitchroast/main/preview.png",
    "metricsCheckedAt": "2026-10-03T08:09:28+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/akkireddy-challa/pitchroast",
@@ -77795,6 +77926,7 @@
    "mediaKind": "image",
    "poster": "https://raw.githubusercontent.com/az9713/opus-5.5-websites-rebuild/main/journey-img/1-hotel.jpg",
    "metricsCheckedAt": "2026-10-03T08:09:30+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/az9713/opus-5.5-websites-rebuild",
@@ -77832,7 +77964,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:49+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:49+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-103",
@@ -77855,6 +77988,7 @@
    "mediaKind": "image",
    "poster": "https://raw.githubusercontent.com/jbang2004/long-wind/main/docs/media/steppe.jpg",
    "metricsCheckedAt": "2026-10-03T08:09:41+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/jbang2004/long-wind",
@@ -77892,7 +78026,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:35+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:35+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-105",
@@ -77915,6 +78050,7 @@
    "mediaKind": "image",
    "poster": "https://raw.githubusercontent.com/juyi404/opus55-promo/main/out/opus55_contact_sheet.png",
    "metricsCheckedAt": "2026-10-03T08:09:43+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/juyi404/opus55-promo",
@@ -77952,7 +78088,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:32+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:32+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-107",
@@ -77974,7 +78111,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:47+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:47+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-108",
@@ -77996,7 +78134,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:42+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:42+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-109",
@@ -78019,6 +78158,7 @@
    "mediaKind": "image",
    "poster": "https://raw.githubusercontent.com/MeiJynX/Claude-Opus5.5-MakeBrandFilm/main/stills/v2-trailer-contact-sheet.jpg",
    "metricsCheckedAt": "2026-10-03T08:09:47+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/MeiJynX/Claude-Opus5.5-MakeBrandFilm",
@@ -78056,7 +78196,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:28+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:28+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-111",
@@ -78078,7 +78219,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:56+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:56+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-112",
@@ -78100,7 +78242,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:48+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:48+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-113",
@@ -78122,7 +78265,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:37+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:37+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-114",
@@ -78144,7 +78288,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:49+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:49+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-115",
@@ -78166,7 +78311,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:46+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:46+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-116",
@@ -78188,7 +78334,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:10:03+00:00"
+   "metricsCheckedAt": "2026-10-03T08:10:03+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-117",
@@ -78211,6 +78358,7 @@
    "mediaKind": "image",
    "poster": "https://raw.githubusercontent.com/Shelpid/CORTEX/main/docs/images/dashboard.png",
    "metricsCheckedAt": "2026-10-03T08:09:54+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/Shelpid/CORTEX",
@@ -78248,7 +78396,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:59+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:59+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-119",
@@ -78270,7 +78419,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:39+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:39+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-120",
@@ -78293,6 +78443,7 @@
    "mediaKind": "image",
    "poster": "https://raw.githubusercontent.com/Eddienews/opus-5-5-prompt-studio/main/docs/screenshot-form.png",
    "metricsCheckedAt": "2026-10-03T08:09:37+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/Eddienews/opus-5-5-prompt-studio",
@@ -78331,6 +78482,7 @@
    "mediaKind": "image",
    "poster": "https://raw.githubusercontent.com/Maoku/Opus55CatgirlPachi/main/Opus55CatgirlPachi.jpg",
    "metricsCheckedAt": "2026-10-03T08:09:46+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/Maoku/Opus55CatgirlPachi",
@@ -78368,7 +78520,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:50+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:50+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-123",
@@ -78390,7 +78543,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:31+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:31+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-124",
@@ -78412,7 +78566,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:56+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:56+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-125",
@@ -78435,6 +78590,7 @@
    "mediaKind": "image",
    "poster": "https://raw.githubusercontent.com/SeentheDigital/history-of-the-edit/main/media/preview.png",
    "metricsCheckedAt": "2026-10-03T08:09:54+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/SeentheDigital/history-of-the-edit/blob/main/media/preview.png",
@@ -78472,7 +78628,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:10:00+00:00"
+   "metricsCheckedAt": "2026-10-03T08:10:00+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-127",
@@ -78499,6 +78656,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/ramenprotokol/overkill/main/README.md",
    "evidenceBasis": "repository README; author-reported, not independently executed",
    "metricsCheckedAt": "2026-10-03T08:09:52+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/ramenprotokol/overkill",
@@ -78540,7 +78698,8 @@
    "checkedAt": "2026-09-27T07:52:53+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/AlexGalhardo/CLI-Turn-Based-RPG-Game/main/README.md",
    "evidenceBasis": "repository README; author-reported, not independently executed",
-   "metricsCheckedAt": "2026-10-03T08:09:28+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:28+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-129",
@@ -78567,6 +78726,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/az9713/opus-5.5-open-world-game/main/README.md",
    "evidenceBasis": "repository README; author-reported, not independently executed",
    "metricsCheckedAt": "2026-10-03T08:09:30+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/az9713/opus-5.5-open-world-game",
@@ -78609,6 +78769,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/levy-street/pokemon-claude-red/main/README.md",
    "evidenceBasis": "repository README; author-reported, not independently executed",
    "metricsCheckedAt": "2026-10-03T08:09:45+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/levy-street/pokemon-claude-red",
@@ -78651,6 +78812,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/SummerEngine/sakura-rally/main/README.md",
    "evidenceBasis": "repository README; author-reported, not independently executed",
    "metricsCheckedAt": "2026-10-03T08:09:56+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/SummerEngine/sakura-rally",
@@ -78693,6 +78855,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/cyborggirl963/opus-5.5-music-video-art-styles/main/README.md",
    "evidenceBasis": "repository README; author-reported, not independently executed",
    "metricsCheckedAt": "2026-10-03T08:09:34+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/cyborggirl963/opus-5.5-music-video-art-styles",
@@ -78735,6 +78898,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/tuzhechen2005/opus-video-skills/main/README.md",
    "evidenceBasis": "repository README; author-reported, not independently executed",
    "metricsCheckedAt": "2026-10-03T08:09:59+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/tuzhechen2005/opus-video-skills",
@@ -78777,6 +78941,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/nexost/sts2-pres-mod/master/README.md",
    "evidenceBasis": "repository README; author-reported, not independently executed",
    "metricsCheckedAt": "2026-10-03T08:09:49+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/nexost/sts2-pres-mod",
@@ -78819,6 +78984,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/Petyok/life3d/main/README.md",
    "evidenceBasis": "repository README; author-reported, not independently executed",
    "metricsCheckedAt": "2026-10-03T08:09:51+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/Petyok/life3d",
@@ -78861,6 +79027,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/KyleBuildsAI/driftwing/main/README.md",
    "evidenceBasis": "repository README; author-reported, not independently executed",
    "metricsCheckedAt": "2026-10-03T08:09:44+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/KyleBuildsAI/driftwing",
@@ -78903,6 +79070,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/codegobrrrr9/repo-trailer/main/README.md",
    "evidenceBasis": "repository README; author-reported, not independently executed",
    "metricsCheckedAt": "2026-10-03T08:09:34+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/codegobrrrr9/repo-trailer",
@@ -78945,6 +79113,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/mattezell/open-to-work/main/README.md",
    "evidenceBasis": "repository README; author-reported, not independently executed",
    "metricsCheckedAt": "2026-10-03T08:09:47+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://opentowork.immatt.com",
@@ -78986,7 +79155,8 @@
    "checkedAt": "2026-09-27T07:52:53+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/morganlinton/vulcanbench-opus55-traces/main/README.md",
    "evidenceBasis": "repository README; author-reported, not independently executed",
-   "metricsCheckedAt": "2026-10-03T08:09:48+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:48+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-140",
@@ -79013,6 +79183,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/ChrisMcKee1/tidewater-lng/main/README.md",
    "evidenceBasis": "repository README; author-reported, not independently executed",
    "metricsCheckedAt": "2026-10-03T08:09:33+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/ChrisMcKee1/tidewater-lng",
@@ -79054,7 +79225,8 @@
    "checkedAt": "2026-09-27T07:52:53+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/RBarish-UTokyo/FourColorTheorem-Lean4/main/README.md",
    "evidenceBasis": "repository README; author-reported, not independently executed",
-   "metricsCheckedAt": "2026-10-03T08:09:52+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:52+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-142",
@@ -79081,6 +79253,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/stas4000/datalens/main/README.md",
    "evidenceBasis": "repository README; author-reported, not independently executed",
    "metricsCheckedAt": "2026-10-03T08:09:55+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/stas4000/datalens",
@@ -79140,6 +79313,7 @@
      "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/TECHNIQUE.md"
     }
    ],
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/lemomo-ai/lemo-opuscar",
@@ -79181,7 +79355,8 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/japsnap/motionreels/main/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:41+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:41+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-145",
@@ -79208,6 +79383,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/dliedke/emilius_wingsuit/main/README.md",
    "evidenceBasis": "README; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:36+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/dliedke/emilius_wingsuit",
@@ -79250,6 +79426,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/DanielaRosenn/anno-mundi/main/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:35+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://danielarosenn.github.io/anno-mundi/",
@@ -79291,7 +79468,8 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/dobrinov/history-book-2050/main/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:36+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:36+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-148",
@@ -79317,7 +79495,8 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/Legerdo/metric-bloom-opus-5-5/main/README.md",
    "evidenceBasis": "README; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:45+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:45+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-149",
@@ -79343,7 +79522,8 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/antondziuin/Solar/main/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:28+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:28+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-150",
@@ -79370,6 +79550,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/ww-w-ai/super-video-agent/main/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
    "metricsCheckedAt": "2026-10-03T08:10:02+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/ww-w-ai/super-video-agent",
@@ -79411,7 +79592,8 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/stefan-zobel/Sedis/master/README.md",
    "evidenceBasis": "README; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:55+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:55+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-152",
@@ -79437,7 +79619,8 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/Legerdo/opus55-pixel-character-action-benchmark/main/README.md",
    "evidenceBasis": "README; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:45+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:45+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-153",
@@ -79463,7 +79646,8 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/Legerdo/opus55-pixel-diorama-benchmark/main/README.md",
    "evidenceBasis": "README; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:45+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:45+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-154",
@@ -79490,6 +79674,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/anttiluode/FlyBench/main/README.md",
    "evidenceBasis": "README; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:28+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/anttiluode/FlyBench",
@@ -79532,6 +79717,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/id2359/nimbots/main/README.md",
    "evidenceBasis": "README; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:40+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/id2359/nimbots/blob/main/screenshot.png",
@@ -79574,6 +79760,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/Madheshvivekanandan/perfect-yorker-3d/main/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:46+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/Madheshvivekanandan/perfect-yorker-3d",
@@ -79616,6 +79803,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/tanuu5/natsu-no-yume/main/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:57+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/tanuu5/natsu-no-yume",
@@ -79657,7 +79845,8 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/RPD123-byte/apprentice-film/main/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:53+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:53+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-159",
@@ -79684,6 +79873,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/yihui-dev/awesome-opus5-5-videos/main/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
    "metricsCheckedAt": "2026-10-03T08:10:03+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/yihui-dev/awesome-opus5-5-videos",
@@ -79725,7 +79915,8 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/zqkra/opus-prime/main/README.md",
    "evidenceBasis": "README; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:10:03+00:00"
+   "metricsCheckedAt": "2026-10-03T08:10:03+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-161",
@@ -79752,6 +79943,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/adpulsipher/mc-mod-opus5.5/claude/adoring-brown-7r3q71/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:27+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/adpulsipher/mc-mod-opus5.5",
@@ -79793,7 +79985,8 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/meaterick/opusvideo/main/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:47+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:47+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-163",
@@ -79819,7 +80012,8 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/Artemiy12A/the-last-signal/main/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:29+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:29+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-164",
@@ -79845,7 +80039,8 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/Cool2bwichu/Hogwarts_project/claude/hogwarts-map-k6acla/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:34+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:34+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-165",
@@ -79872,6 +80067,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/deepujain/casadegema/main/README.md",
    "evidenceBasis": "README; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:35+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/deepujain/casadegema",
@@ -79913,7 +80109,8 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/shabbirun/opus-5-5-os/main/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:54+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:54+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-167",
@@ -79940,6 +80137,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/V9011N/pygame-piano-animator/main/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:59+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/V9011N/pygame-piano-animator",
@@ -79982,6 +80180,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/Dakota1-1/nuts-lyric-video/main/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:34+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/Dakota1-1/nuts-lyric-video",
@@ -80024,6 +80223,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/katsuhiro-hayasaka-orico/3D-kousai-opus5.5/claude/zen-allen-vvryyw/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:43+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/katsuhiro-hayasaka-orico/3D-kousai-opus5.5",
@@ -80066,6 +80266,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/makevoid/motion-graphics-music-video-skill/main/README.md",
    "evidenceBasis": "README; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:46+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/makevoid/motion-graphics-music-video-skill",
@@ -80107,7 +80308,8 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/avnish-deobhakta/jev-clinical-calibration/main/README.md",
    "evidenceBasis": "README; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:30+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:30+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-172",
@@ -80134,6 +80336,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/claude-skills-kit/cosmic-opus/main/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:34+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/claude-skills-kit/cosmic-opus",
@@ -80176,6 +80379,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/bwoliveira/prompt-studio/main/README.md",
    "evidenceBasis": "README; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:32+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/bwoliveira/prompt-studio",
@@ -80217,7 +80421,8 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/wellscurrence-a11y/Zombie-game-opus5.5/claude/zombie-survival-game-s8xea5/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:10:01+00:00"
+   "metricsCheckedAt": "2026-10-03T08:10:01+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-175",
@@ -80244,6 +80449,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/az9713/opus-5.5-builds/main/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:30+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/az9713/opus-5.5-builds",
@@ -80284,7 +80490,8 @@
    "discoveredVia": "https://api.github.com/search/repositories",
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/bigbadbillion/game/main/README.md",
-   "evidenceBasis": "README and commit trailers; not independently run"
+   "evidenceBasis": "README and commit trailers; not independently run",
+   "githubKind": "repository"
   },
   {
    "id": "github-177",
@@ -80310,7 +80517,8 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/Vedmeena21/Opus-5.5-Motion-Graphics/main/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:10:00+00:00"
+   "metricsCheckedAt": "2026-10-03T08:10:00+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-178",
@@ -80336,7 +80544,8 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/razgovor-glitch/island_opus5_5/main/README.md",
    "evidenceBasis": "README; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:52+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:52+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-179",
@@ -80363,6 +80572,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/ggdover/mashuprpg/master/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:39+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/ggdover/mashuprpg/blob/master/docs/screenshots/acts/desert/desert_courtyard_arrival.png",
@@ -80404,7 +80614,8 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/ggdover/deepdelve/main/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:39+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:39+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-181",
@@ -80431,6 +80642,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/briossant/ombres/master/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:32+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/briossant/ombres",
@@ -80472,7 +80684,8 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/groundstation1/small-works/main/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:39+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:39+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-183",
@@ -80498,7 +80711,8 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/piiiico/no-abstraction/main/README.md",
    "evidenceBasis": "README; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:51+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:51+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-184",
@@ -80524,7 +80738,8 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/SaiCharan007-max/Opus-5.5Hails/claude/fervent-edison-xw4lo7/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:53+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:53+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-185",
@@ -80550,7 +80765,8 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/code-with-sam-dev/claude-code-opus-test/master/README.md",
    "evidenceBasis": "README; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:34+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:34+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-186",
@@ -80577,6 +80793,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/fants/Gale-kart/main/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:38+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/fants/Gale-kart",
@@ -80618,7 +80835,8 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/joeseesun/opus-video-prompts/main/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:42+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:42+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-188",
@@ -80644,7 +80862,8 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/lextoumbourou/opus-satoshi-research/main/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:45+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:45+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-189",
@@ -80671,6 +80890,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/Jack-c3l2w/arkanoid-neon/main/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:40+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/Jack-c3l2w/arkanoid-neon",
@@ -80712,7 +80932,8 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/tly43520-create/uestc70-greeting-card/main/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:58+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:58+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-191",
@@ -80738,7 +80959,8 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/e1daru/opus-5-5-dev-guide/main/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:36+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:36+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-192",
@@ -80765,6 +80987,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/oliverhees/huehnerjagd/main/README.md",
    "evidenceBasis": "README; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:50+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/oliverhees/huehnerjagd",
@@ -80807,6 +81030,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/clarencechien/opus55poc/main/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:33+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/clarencechien/opus55poc/blob/main/render/samples/open_compare.jpg",
@@ -80849,6 +81073,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/dark-faze/opus5.5-video-test/claude/tron-legacy-ares-video-jb0irm/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:35+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/dark-faze/opus5.5-video-test",
@@ -80890,7 +81115,8 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/monzblog/claude_3Dmodel_Opus5p5/claude/project-thread-eeqfxo/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:48+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:48+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-196",
@@ -80916,7 +81142,8 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/Athullvr/Chemistry-Study-Material-Using-Opus5.5/main/README.md",
    "evidenceBasis": "README; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:29+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:29+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-197",
@@ -80942,7 +81169,8 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/AidenAllredOfficial/backrooms-oneshot-opus5-5/master/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:28+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:28+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-198",
@@ -80968,7 +81196,8 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/TESTYEE-09/opus5.5Lethal/claude/busy-cray-rbpj04/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:57+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:57+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-199",
@@ -80994,7 +81223,8 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/YunruDU/openhouse-3d/main/README.md",
    "evidenceBasis": "README; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:10:03+00:00"
+   "metricsCheckedAt": "2026-10-03T08:10:03+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-200",
@@ -81020,7 +81250,8 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/quisbaum-prog/occam/main/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:52+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:52+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-201",
@@ -81046,7 +81277,8 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/edd426/claude_opus_5_5_autobiographical/main/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:37+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:37+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-202",
@@ -81072,7 +81304,8 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/chuspeeism/awesome-opus-5-5-videos/main/README.md",
    "evidenceBasis": "README; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:33+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:33+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-203",
@@ -81099,6 +81332,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/3D-Stories/skate-game-opus-5-5/character-builder/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:27+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/3D-Stories/skate-game-opus-5-5",
@@ -81141,6 +81375,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/rohitranjan1812/opus-5-5-global-accumulation-monitoring-/claude/global-accumulation-monitoring-m15q1o/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:52+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/rohitranjan1812/opus-5-5-global-accumulation-monitoring-",
@@ -81183,6 +81418,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/rohitranjan1812/opus-5-5-test-climate-change/claude/3d-climate-impact-sim-rcxgxz/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:53+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/rohitranjan1812/opus-5-5-test-climate-change",
@@ -81225,6 +81461,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/nathankochera/opus-5.5-motion-graphics-2046/main/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:49+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/nathankochera/opus-5.5-motion-graphics-2046",
@@ -81267,6 +81504,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/bilixuesheng/a-music-by-opus-5.5/claude/human-tech-evolution-song-hyebgh/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
    "metricsCheckedAt": "2026-10-01T13:32:10+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/bilixuesheng/a-music-by-opus-5.5",
@@ -81308,7 +81546,8 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/irgegh2/Unity-Opus-5.5-Minecraft/main/README.md",
    "evidenceBasis": "README; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:40+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:40+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-209",
@@ -81334,7 +81573,8 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/SiCraft11/3d-Test-Opus-5.5/claude/gifted-hopper-rwjqdt/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:54+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:54+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-210",
@@ -81360,7 +81600,8 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/jas2k/Opus-5.5-/main/README.md",
    "evidenceBasis": "README; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:41+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:41+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-211",
@@ -81387,6 +81628,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/jas2k/Gameboy-game-watch-opus-5.5-/main/README.md",
    "evidenceBasis": "README; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:41+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/jas2k/Gameboy-game-watch-opus-5.5-",
@@ -81429,6 +81671,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/asp67/local-llm-voxel-hogwarts/main/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:29+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/asp67/local-llm-voxel-hogwarts",
@@ -81470,7 +81713,8 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/vladimirkulikdev/Opus-5.5-test/main/README.md",
    "evidenceBasis": "README; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:10:00+00:00"
+   "metricsCheckedAt": "2026-10-03T08:10:00+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-214",
@@ -81496,7 +81740,8 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/PrabhjotSodhi/ClaudeJump/main/README.md",
    "evidenceBasis": "README; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:51+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:51+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-215",
@@ -81523,6 +81768,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/travisstephenfraser/survive-coders/master/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:59+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/travisstephenfraser/survive-coders",
@@ -81564,7 +81810,8 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/tahcin/pet-island/main/README.md",
    "evidenceBasis": "README; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:56+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:56+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-217",
@@ -81591,6 +81838,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/chichiroxursox-droid/deep-dive/main/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:33+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/chichiroxursox-droid/deep-dive",
@@ -81632,7 +81880,8 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/michalbe/viatr-and-deshch/main/README.md",
    "evidenceBasis": "README; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:47+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:47+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-219",
@@ -81659,6 +81908,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/tuniveza/Generative-Games/main/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:59+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/tuniveza/Generative-Games",
@@ -81701,6 +81951,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/javichur/radikal-bikers/main/README.md",
    "evidenceBasis": "README; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:41+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/javichur/radikal-bikers",
@@ -81743,6 +81994,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/Shiva78388789/Akhbar-Rush/main/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:54+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/Shiva78388789/Akhbar-Rush",
@@ -81785,6 +82037,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/tanuu5/kaiju-dokan/main/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:57+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/tanuu5/kaiju-dokan",
@@ -81827,6 +82080,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/Werdna1976/PathOfWerdna/main/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
    "metricsCheckedAt": "2026-10-03T08:10:01+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/Werdna1976/PathOfWerdna/blob/main/tests/screenshot_m1.png",
@@ -81869,6 +82123,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/Mofferato/tempora/main/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:48+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/Mofferato/tempora",
@@ -81910,7 +82165,8 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/Efkrdnz/opus-game-test-2/claude/epic-ptolemy-shs2yq/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:37+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:37+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-226",
@@ -81936,7 +82192,8 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/Efkrdnz/opus-game-test-3/claude/funny-albattani-p9iq8n/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:37+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:37+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-227",
@@ -81963,6 +82220,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/Efkrdnz/opus-test-game/claude/affectionate-fermat-tluz0w/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:37+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/Efkrdnz/opus-test-game",
@@ -82004,7 +82262,8 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/kamibukuro18/opuscrabhouse/main/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:43+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:43+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-229",
@@ -82031,6 +82290,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/WhiteBlackGoose/Lumenrift/main/README.md",
    "evidenceBasis": "README and commit trailers; not independently run",
    "metricsCheckedAt": "2026-10-03T08:10:01+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/WhiteBlackGoose/Lumenrift",
@@ -82064,7 +82324,6 @@
    "date": "2026-09-28",
    "likes": null,
    "bookmarks": null,
-   "stars": 11236,
    "views": null,
    "mediaKind": "none",
    "poster": null,
@@ -82072,7 +82331,11 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://github.com/github/copilot-cli/issues/4980",
    "evidenceBasis": "issue/PR body; not independently reproduced",
-   "metricsCheckedAt": "2026-10-03T08:09:39+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:38+00:00",
+   "githubKind": "issue",
+   "reactions": 0,
+   "comments": 1,
+   "metricsSourceUrl": "https://api.github.com/repos/github/copilot-cli/issues/4980"
   },
   {
    "id": "github-231",
@@ -82090,7 +82353,6 @@
    "date": "2026-09-27",
    "likes": null,
    "bookmarks": null,
-   "stars": 3,
    "views": null,
    "mediaKind": "none",
    "poster": null,
@@ -82098,7 +82360,11 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://github.com/stevepolitodesign/skills/issues/44",
    "evidenceBasis": "issue/PR body; not independently reproduced",
-   "metricsCheckedAt": "2026-10-03T08:09:56+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:40+00:00",
+   "githubKind": "issue",
+   "reactions": 0,
+   "comments": 2,
+   "metricsSourceUrl": "https://api.github.com/repos/stevepolitodesign/skills/issues/44"
   },
   {
    "id": "github-232",
@@ -82116,7 +82382,6 @@
    "date": "2026-09-28",
    "likes": null,
    "bookmarks": null,
-   "stars": 3,
    "views": null,
    "mediaKind": "none",
    "poster": null,
@@ -82124,7 +82389,11 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://github.com/FaultMaven/faultmaven/issues/1751",
    "evidenceBasis": "issue/PR body; not independently reproduced",
-   "metricsCheckedAt": "2026-10-03T08:09:38+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:38+00:00",
+   "githubKind": "issue",
+   "reactions": 0,
+   "comments": 5,
+   "metricsSourceUrl": "https://api.github.com/repos/faultmaven/faultmaven/issues/1751"
   },
   {
    "id": "github-233",
@@ -82142,7 +82411,6 @@
    "date": "2026-09-27",
    "likes": null,
    "bookmarks": null,
-   "stars": 5,
    "views": null,
    "mediaKind": "none",
    "poster": null,
@@ -82150,7 +82418,11 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://github.com/LightspeedDMS/claude-pace-maker/issues/150",
    "evidenceBasis": "issue/PR body; not independently reproduced",
-   "metricsCheckedAt": "2026-10-03T08:09:45+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:39+00:00",
+   "githubKind": "issue",
+   "reactions": 0,
+   "comments": 0,
+   "metricsSourceUrl": "https://api.github.com/repos/lightspeeddms/claude-pace-maker/issues/150"
   },
   {
    "id": "github-234",
@@ -82168,7 +82440,6 @@
    "date": "2026-09-28",
    "likes": null,
    "bookmarks": null,
-   "stars": 0,
    "views": null,
    "mediaKind": "none",
    "poster": null,
@@ -82176,7 +82447,11 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://github.com/wheninspace/whendone/issues/1",
    "evidenceBasis": "issue/PR body; not independently reproduced",
-   "metricsCheckedAt": "2026-10-03T08:10:01+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:42+00:00",
+   "githubKind": "issue",
+   "reactions": 0,
+   "comments": 1,
+   "metricsSourceUrl": "https://api.github.com/repos/wheninspace/whendone/issues/1"
   },
   {
    "id": "github-235",
@@ -82194,7 +82469,6 @@
    "date": "2026-09-28",
    "likes": null,
    "bookmarks": null,
-   "stars": 14454,
    "views": null,
    "mediaKind": "none",
    "poster": null,
@@ -82202,7 +82476,11 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://github.com/livekit/agents/pull/7511",
    "evidenceBasis": "issue/PR body; not independently reproduced",
-   "metricsCheckedAt": "2026-10-03T08:09:46+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:39+00:00",
+   "githubKind": "pull_request",
+   "reactions": 0,
+   "comments": 0,
+   "metricsSourceUrl": "https://api.github.com/repos/livekit/agents/issues/7511"
   },
   {
    "id": "github-236",
@@ -82220,7 +82498,6 @@
    "date": "2026-09-27",
    "likes": null,
    "bookmarks": null,
-   "stars": 77,
    "views": null,
    "mediaKind": "none",
    "poster": null,
@@ -82228,7 +82505,11 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://github.com/NousResearch/hermes-plugin-claude-subscription-directsdk/pull/56",
    "evidenceBasis": "issue/PR body; not independently reproduced",
-   "metricsCheckedAt": "2026-10-03T08:09:50+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:39+00:00",
+   "githubKind": "pull_request",
+   "reactions": 0,
+   "comments": 2,
+   "metricsSourceUrl": "https://api.github.com/repos/nousresearch/hermes-plugin-claude-subscription-directsdk/issues/56"
   },
   {
    "id": "github-237",
@@ -82246,7 +82527,6 @@
    "date": "2026-09-27",
    "likes": null,
    "bookmarks": null,
-   "stars": 179,
    "views": null,
    "mediaKind": "none",
    "poster": null,
@@ -82254,7 +82534,11 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://github.com/ucbepic/DataAgentBench/pull/114",
    "evidenceBasis": "issue/PR body; not independently reproduced",
-   "metricsCheckedAt": "2026-10-03T08:09:59+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:41+00:00",
+   "githubKind": "pull_request",
+   "reactions": 0,
+   "comments": 1,
+   "metricsSourceUrl": "https://api.github.com/repos/ucbepic/dataagentbench/issues/114"
   },
   {
    "id": "github-238",
@@ -82272,7 +82556,6 @@
    "date": "2026-09-27",
    "likes": null,
    "bookmarks": null,
-   "stars": 1,
    "views": null,
    "mediaKind": "none",
    "poster": null,
@@ -82280,7 +82563,11 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://github.com/samuellawrentz/profile/pull/130",
    "evidenceBasis": "issue/PR body; not independently reproduced",
-   "metricsCheckedAt": "2026-10-03T08:09:53+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:40+00:00",
+   "githubKind": "pull_request",
+   "reactions": 0,
+   "comments": 0,
+   "metricsSourceUrl": "https://api.github.com/repos/samuellawrentz/profile/issues/130"
   },
   {
    "id": "github-239",
@@ -82298,7 +82585,6 @@
    "date": "2026-09-28",
    "likes": null,
    "bookmarks": null,
-   "stars": 17,
    "views": null,
    "mediaKind": "none",
    "poster": null,
@@ -82306,7 +82592,11 @@
    "checkedAt": "2026-09-28T14:44:57+00:00",
    "evidenceUrl": "https://github.com/tomsilver/robocode/pull/236",
    "evidenceBasis": "issue/PR body; not independently reproduced",
-   "metricsCheckedAt": "2026-10-03T08:09:58+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:41+00:00",
+   "githubKind": "pull_request",
+   "reactions": 0,
+   "comments": 0,
+   "metricsSourceUrl": "https://api.github.com/repos/tomsilver/robocode/issues/236"
   },
   {
    "id": "github-240",
@@ -82333,6 +82623,7 @@
    "evidenceUrl": "https://github.com/Bemly/408",
    "evidenceBasis": "README and repo description; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:31+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/Bemly/408",
@@ -82366,7 +82657,6 @@
    "date": "2026-09-28",
    "likes": null,
    "bookmarks": null,
-   "stars": 60070,
    "views": null,
    "mediaKind": "none",
    "poster": null,
@@ -82374,7 +82664,11 @@
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/BerriAI/litellm/issues/43531",
    "evidenceBasis": "issue body; author-reported",
-   "metricsCheckedAt": "2026-10-03T08:09:31+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:37+00:00",
+   "githubKind": "issue",
+   "reactions": 0,
+   "comments": 0,
+   "metricsSourceUrl": "https://api.github.com/repos/berriai/litellm/issues/43531"
   },
   {
    "id": "github-242",
@@ -82392,7 +82686,6 @@
    "date": "2026-09-28",
    "likes": null,
    "bookmarks": null,
-   "stars": 0,
    "views": null,
    "mediaKind": "none",
    "poster": null,
@@ -82400,7 +82693,11 @@
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/Crazz-Org/SPO-Pipeline/pull/311",
    "evidenceBasis": "PR description; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:34+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:37+00:00",
+   "githubKind": "pull_request",
+   "reactions": 0,
+   "comments": 0,
+   "metricsSourceUrl": "https://api.github.com/repos/crazz-org/spo-pipeline/issues/311"
   },
   {
    "id": "github-243",
@@ -82426,7 +82723,8 @@
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/DavidSilvaProg/laboratorio-jev-fatec",
    "evidenceBasis": "README and repo description; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:35+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:35+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-244",
@@ -82452,7 +82750,8 @@
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/DrDecki/Deepforge-Dungeons-The-Hollow-Crown",
    "evidenceBasis": "README and repo description; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:36+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:36+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-245",
@@ -82478,7 +82777,8 @@
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/JTMC-G3/HelloNeighbor",
    "evidenceBasis": "README and repo description; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:42+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:42+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-246",
@@ -82505,6 +82805,7 @@
    "evidenceUrl": "https://github.com/Kianzzz/xilo-opus-video",
    "evidenceBasis": "README and repo description; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:43+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/Kianzzz/xilo-opus-video",
@@ -82546,7 +82847,8 @@
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/Legerdo/opus55-anime-pixel-character-action-benchmark-20260929-032231",
    "evidenceBasis": "README and repo description; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:45+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:45+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-248",
@@ -82572,7 +82874,8 @@
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/Para-FR/claude-sonnet-vs-opus-flight-sim",
    "evidenceBasis": "README and repo description; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:51+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:51+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-249",
@@ -82590,7 +82893,6 @@
    "date": "2026-09-28",
    "likes": null,
    "bookmarks": null,
-   "stars": 149011,
    "views": null,
    "mediaKind": "none",
    "poster": null,
@@ -82598,7 +82900,11 @@
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/anthropics/claude-code/issues/97891",
    "evidenceBasis": "issue body; author-reported",
-   "metricsCheckedAt": "2026-10-03T08:09:28+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:36+00:00",
+   "githubKind": "issue",
+   "reactions": 0,
+   "comments": 0,
+   "metricsSourceUrl": "https://api.github.com/repos/anthropics/claude-code/issues/97891"
   },
   {
    "id": "github-250",
@@ -82625,6 +82931,7 @@
    "evidenceUrl": "https://github.com/c5inco/motion-showreel",
    "evidenceBasis": "README and repo description; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:32+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/c5inco/motion-showreel",
@@ -82658,7 +82965,6 @@
    "date": "2026-09-28",
    "likes": null,
    "bookmarks": null,
-   "stars": 14,
    "views": null,
    "mediaKind": "none",
    "poster": null,
@@ -82666,7 +82972,11 @@
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/canvas-medical/canvas-plugins/pull/1905",
    "evidenceBasis": "PR description; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:33+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:37+00:00",
+   "githubKind": "pull_request",
+   "reactions": 0,
+   "comments": 3,
+   "metricsSourceUrl": "https://api.github.com/repos/canvas-medical/canvas-plugins/issues/1905"
   },
   {
    "id": "github-252",
@@ -82693,6 +83003,7 @@
    "evidenceUrl": "https://github.com/franpiaggio/gastos",
    "evidenceBasis": "README and repo description; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:38+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/franpiaggio/gastos",
@@ -82726,7 +83037,6 @@
    "date": "2026-09-28",
    "likes": null,
    "bookmarks": null,
-   "stars": 0,
    "views": null,
    "mediaKind": "none",
    "poster": null,
@@ -82734,7 +83044,11 @@
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/jmcentire/advocate/pull/4",
    "evidenceBasis": "PR description; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:42+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:38+00:00",
+   "githubKind": "pull_request",
+   "reactions": 0,
+   "comments": 0,
+   "metricsSourceUrl": "https://api.github.com/repos/jmcentire/advocate/issues/4"
   },
   {
    "id": "github-254",
@@ -82752,7 +83066,6 @@
    "date": "2026-09-28",
    "likes": null,
    "bookmarks": null,
-   "stars": 0,
    "views": null,
    "mediaKind": "none",
    "poster": null,
@@ -82760,7 +83073,11 @@
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/koliebe25/GenerativeAI/pull/2",
    "evidenceBasis": "PR description; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:44+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:39+00:00",
+   "githubKind": "pull_request",
+   "reactions": 0,
+   "comments": 0,
+   "metricsSourceUrl": "https://api.github.com/repos/koliebe25/generativeai/issues/2"
   },
   {
    "id": "github-255",
@@ -82786,7 +83103,8 @@
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/lucadidomenico/jev-router-esperimento",
    "evidenceBasis": "README and repo description; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:46+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:46+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-256",
@@ -82813,6 +83131,7 @@
    "evidenceUrl": "https://github.com/negevtvx/opus-vs-sonnet-catgirl-run",
    "evidenceBasis": "README and repo description; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:49+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/negevtvx/opus-vs-sonnet-catgirl-run",
@@ -82854,7 +83173,8 @@
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/sameid/boxhead-online-html",
    "evidenceBasis": "README and repo description; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:53+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:53+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-258",
@@ -82881,6 +83201,7 @@
    "evidenceUrl": "https://github.com/seasnakes/world.execute-me-wallpaper",
    "evidenceBasis": "README and repo description; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:54+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/seasnakes/world.execute-me-wallpaper",
@@ -82914,7 +83235,6 @@
    "date": "2026-09-28",
    "likes": null,
    "bookmarks": null,
-   "stars": 1,
    "views": null,
    "mediaKind": "none",
    "poster": null,
@@ -82922,7 +83242,11 @@
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/sv-tmueller/orchestrai/pull/408",
    "evidenceBasis": "PR description; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:56+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:40+00:00",
+   "githubKind": "pull_request",
+   "reactions": 0,
+   "comments": 12,
+   "metricsSourceUrl": "https://api.github.com/repos/sv-tmueller/orchestrai/issues/408"
   },
   {
    "id": "github-260",
@@ -82949,6 +83273,7 @@
    "evidenceUrl": "https://github.com/totimo96/serverhub",
    "evidenceBasis": "README and repo description; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:58+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/totimo96/serverhub",
@@ -82990,7 +83315,8 @@
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/veloxe-ai/triad-world-war-iii-simulator-claude",
    "evidenceBasis": "README and repo description; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:10:00+00:00"
+   "metricsCheckedAt": "2026-10-03T08:10:00+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-262",
@@ -83008,7 +83334,6 @@
    "date": "2026-09-28",
    "likes": null,
    "bookmarks": null,
-   "stars": 0,
    "views": null,
    "mediaKind": "none",
    "poster": null,
@@ -83016,7 +83341,11 @@
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/vikasbanjare/motion-graphic/pull/1",
    "evidenceBasis": "PR description; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:10:00+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:41+00:00",
+   "githubKind": "pull_request",
+   "reactions": 0,
+   "comments": 0,
+   "metricsSourceUrl": "https://api.github.com/repos/vikasbanjare/motion-graphic/issues/1"
   },
   {
    "id": "github-263",
@@ -83034,7 +83363,6 @@
    "date": "2026-09-28",
    "likes": null,
    "bookmarks": null,
-   "stars": 165,
    "views": null,
    "mediaKind": "none",
    "poster": null,
@@ -83042,7 +83370,11 @@
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/wandercom/pact/pull/20",
    "evidenceBasis": "PR description; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:10:01+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:41+00:00",
+   "githubKind": "pull_request",
+   "reactions": 1,
+   "comments": 4,
+   "metricsSourceUrl": "https://api.github.com/repos/wandercom/pact/issues/20"
   },
   {
    "id": "github-264",
@@ -83068,7 +83400,8 @@
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/wovjip/4d-sound-explorer",
    "evidenceBasis": "README and repo description; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:10:02+00:00"
+   "metricsCheckedAt": "2026-10-03T08:10:02+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-265",
@@ -83094,7 +83427,8 @@
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/DSC-Martin/a25-mid-autumn",
    "evidenceBasis": "README and repo description; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:36+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:36+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-266",
@@ -83121,6 +83455,7 @@
    "evidenceUrl": "https://github.com/L1vsun/BLOCKWORLD",
    "evidenceBasis": "README and repo description; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:44+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/L1vsun/BLOCKWORLD",
@@ -83162,7 +83497,8 @@
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/LJAguil/Npc-Village",
    "evidenceBasis": "README and repo description; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:46+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:46+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-268",
@@ -83189,6 +83525,7 @@
    "evidenceUrl": "https://github.com/Legerdo/WRECKLINE",
    "evidenceBasis": "README and repo description; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:45+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/Legerdo/WRECKLINE",
@@ -83230,7 +83567,8 @@
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/LungHungDev/Starry-Universe-Animation-By-Opus-5.5",
    "evidenceBasis": "README and repo description; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:46+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:46+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-270",
@@ -83248,7 +83586,6 @@
    "date": "2026-09-29",
    "likes": null,
    "bookmarks": null,
-   "stars": 0,
    "views": null,
    "mediaKind": "none",
    "poster": null,
@@ -83256,7 +83593,11 @@
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/WhiteLotus1998/IronWake/issues/484",
    "evidenceBasis": "issue body; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:10:01+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:42+00:00",
+   "githubKind": "issue",
+   "reactions": 0,
+   "comments": 0,
+   "metricsSourceUrl": "https://api.github.com/repos/whitelotus1998/ironwake/issues/484"
   },
   {
    "id": "github-271",
@@ -83274,7 +83615,6 @@
    "date": "2026-09-29",
    "likes": null,
    "bookmarks": null,
-   "stars": 1939,
    "views": null,
    "mediaKind": "none",
    "poster": null,
@@ -83282,7 +83622,11 @@
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/Zoo-Code-Org/Zoo-Code/issues/1853",
    "evidenceBasis": "issue body; author-reported",
-   "metricsCheckedAt": "2026-10-03T08:10:03+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:42+00:00",
+   "githubKind": "issue",
+   "reactions": 0,
+   "comments": 0,
+   "metricsSourceUrl": "https://api.github.com/repos/zoo-code-org/zoo-code/issues/1853"
   },
   {
    "id": "github-272",
@@ -83300,7 +83644,6 @@
    "date": "2026-09-29",
    "likes": null,
    "bookmarks": null,
-   "stars": 149011,
    "views": null,
    "mediaKind": "none",
    "poster": null,
@@ -83308,7 +83651,11 @@
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/anthropics/claude-code/issues/98174",
    "evidenceBasis": "issue body; author-reported",
-   "metricsCheckedAt": "2026-10-03T08:09:28+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:36+00:00",
+   "githubKind": "issue",
+   "reactions": 0,
+   "comments": 1,
+   "metricsSourceUrl": "https://api.github.com/repos/anthropics/claude-code/issues/98174"
   },
   {
    "id": "github-273",
@@ -83326,7 +83673,6 @@
    "date": "2026-09-29",
    "likes": null,
    "bookmarks": null,
-   "stars": 149011,
    "views": null,
    "mediaKind": "none",
    "poster": null,
@@ -83334,7 +83680,11 @@
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/anthropics/claude-code/issues/98267",
    "evidenceBasis": "issue body; author-reported",
-   "metricsCheckedAt": "2026-10-03T08:09:28+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:37+00:00",
+   "githubKind": "issue",
+   "reactions": 0,
+   "comments": 0,
+   "metricsSourceUrl": "https://api.github.com/repos/anthropics/claude-code/issues/98267"
   },
   {
    "id": "github-274",
@@ -83360,7 +83710,8 @@
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/jasontzeng123/the-arc",
    "evidenceBasis": "README and repo description; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:41+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:41+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-275",
@@ -83378,7 +83729,6 @@
    "date": "2026-09-29",
    "likes": null,
    "bookmarks": null,
-   "stars": 49,
    "views": null,
    "mediaKind": "none",
    "poster": null,
@@ -83386,7 +83736,11 @@
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/jezweb/vite-flare-starter/issues/156",
    "evidenceBasis": "issue body; author-reported",
-   "metricsCheckedAt": "2026-10-03T08:09:42+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:38+00:00",
+   "githubKind": "issue",
+   "reactions": 0,
+   "comments": 0,
+   "metricsSourceUrl": "https://api.github.com/repos/jezweb/vite-flare-starter/issues/156"
   },
   {
    "id": "github-276",
@@ -83412,7 +83766,8 @@
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/joefedna/Claude-Opus-5.5-Motion-Video-Skill",
    "evidenceBasis": "README and repo description; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:42+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:42+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-277",
@@ -83430,7 +83785,6 @@
    "date": "2026-09-29",
    "likes": null,
    "bookmarks": null,
-   "stars": 4346,
    "views": null,
    "mediaKind": "none",
    "poster": null,
@@ -83438,7 +83792,11 @@
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/kirodotdev/Kiro/issues/11668",
    "evidenceBasis": "issue body; author-reported",
-   "metricsCheckedAt": "2026-10-03T08:09:44+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:39+00:00",
+   "githubKind": "issue",
+   "reactions": 0,
+   "comments": 3,
+   "metricsSourceUrl": "https://api.github.com/repos/kirodotdev/kiro/issues/11668"
   },
   {
    "id": "github-278",
@@ -83456,7 +83814,6 @@
    "date": "2026-09-29",
    "likes": null,
    "bookmarks": null,
-   "stars": 350,
    "views": null,
    "mediaKind": "none",
    "poster": null,
@@ -83464,7 +83821,11 @@
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/micz/ThunderAI/issues/936",
    "evidenceBasis": "issue body; author-reported",
-   "metricsCheckedAt": "2026-10-03T08:09:47+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:39+00:00",
+   "githubKind": "issue",
+   "reactions": 0,
+   "comments": 4,
+   "metricsSourceUrl": "https://api.github.com/repos/micz/thunderai/issues/936"
   },
   {
    "id": "github-279",
@@ -83491,6 +83852,7 @@
    "evidenceUrl": "https://github.com/mikelix/gstack-tutorial-5-agi-race-v2",
    "evidenceBasis": "README and repo description; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:48+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/mikelix/gstack-tutorial-5-agi-race-v2",
@@ -83524,7 +83886,6 @@
    "date": "2026-09-29",
    "likes": null,
    "bookmarks": null,
-   "stars": 0,
    "views": null,
    "mediaKind": "none",
    "poster": null,
@@ -83532,7 +83893,11 @@
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/nadav2150/motion-/pull/2",
    "evidenceBasis": "PR description; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:49+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:39+00:00",
+   "githubKind": "pull_request",
+   "reactions": 0,
+   "comments": 0,
+   "metricsSourceUrl": "https://api.github.com/repos/nadav2150/motion-/issues/2"
   },
   {
    "id": "github-281",
@@ -83558,7 +83923,8 @@
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/nifinet/gtm-autopilot",
    "evidenceBasis": "README and repo description; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:50+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:50+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-282",
@@ -83584,7 +83950,8 @@
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/primaryatias-oss/Port-of-OceanDrive-from-Three.js-to-SDL3",
    "evidenceBasis": "README and repo description; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:52+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:52+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-283",
@@ -83610,7 +83977,8 @@
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/rajatslakhina/instruction-file-model-migration-article-demo",
    "evidenceBasis": "README and repo description; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:52+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:52+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-284",
@@ -83636,7 +84004,8 @@
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/stas4000/claude-subagent-router",
    "evidenceBasis": "README and repo description; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:55+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:55+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-285",
@@ -83654,7 +84023,6 @@
    "date": "2026-09-29",
    "likes": null,
    "bookmarks": null,
-   "stars": 0,
    "views": null,
    "mediaKind": "none",
    "poster": null,
@@ -83662,7 +84030,11 @@
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/ventrion/beskar/pull/5",
    "evidenceBasis": "PR description; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:10:00+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:41+00:00",
+   "githubKind": "pull_request",
+   "reactions": 1,
+   "comments": 0,
+   "metricsSourceUrl": "https://api.github.com/repos/ventrion/beskar/issues/5"
   },
   {
    "id": "github-286",
@@ -83680,7 +84052,6 @@
    "date": "2026-09-30",
    "likes": null,
    "bookmarks": null,
-   "stars": 79,
    "views": null,
    "mediaKind": "none",
    "poster": null,
@@ -83688,7 +84059,11 @@
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/Snowflake-Labs/data-eng-bench/pull/10",
    "evidenceBasis": "PR description; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:55+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:40+00:00",
+   "githubKind": "pull_request",
+   "reactions": 0,
+   "comments": 1,
+   "metricsSourceUrl": "https://api.github.com/repos/snowflake-labs/data-eng-bench/issues/10"
   },
   {
    "id": "github-287",
@@ -83715,6 +84090,7 @@
    "evidenceUrl": "https://github.com/clarity-m/shelter-mv",
    "evidenceBasis": "README and repo description; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:33+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/clarity-m/shelter-mv",
@@ -83757,6 +84133,7 @@
    "evidenceUrl": "https://github.com/ethanplusai/outpace",
    "evidenceBasis": "README and repo description; not independently run",
    "metricsCheckedAt": "2026-10-03T08:09:37+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/ethanplusai/outpace",
@@ -83790,7 +84167,6 @@
    "date": "2026-09-30",
    "likes": null,
    "bookmarks": null,
-   "stars": 0,
    "views": null,
    "mediaKind": "none",
    "poster": null,
@@ -83798,7 +84174,11 @@
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/smormah/vsift/issues/224",
    "evidenceBasis": "issue body; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:09:55+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:40+00:00",
+   "githubKind": "issue",
+   "reactions": 0,
+   "comments": 0,
+   "metricsSourceUrl": "https://api.github.com/repos/smormah/vsift/issues/224"
   },
   {
    "id": "github-290",
@@ -83816,7 +84196,6 @@
    "date": "2026-09-30",
    "likes": null,
    "bookmarks": null,
-   "stars": 89,
    "views": null,
    "mediaKind": "none",
    "poster": null,
@@ -83824,7 +84203,11 @@
    "checkedAt": "2026-09-30T07:28:03Z",
    "evidenceUrl": "https://github.com/wordplaydev/wordplay/pull/1438",
    "evidenceBasis": "PR description; not independently run",
-   "metricsCheckedAt": "2026-10-03T08:10:02+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:42+00:00",
+   "githubKind": "pull_request",
+   "reactions": 0,
+   "comments": 0,
+   "metricsSourceUrl": "https://api.github.com/repos/wordplaydev/wordplay/issues/1438"
   },
   {
    "id": "github-291",
@@ -83850,7 +84233,8 @@
    "checkedAt": "2026-10-01T03:25:55+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/dylantlwu/opus-animation-course/main/README.md",
    "evidenceBasis": "repository README; author-reported; not executed",
-   "metricsCheckedAt": "2026-10-03T08:09:36+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:36+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-292",
@@ -83877,6 +84261,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/ThorHe-Hub/opus-geometry-of-control/main/README.md",
    "evidenceBasis": "repository README; author-reported; not executed",
    "metricsCheckedAt": "2026-10-03T08:09:58+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/ThorHe-Hub/opus-geometry-of-control",
@@ -83918,7 +84303,8 @@
    "checkedAt": "2026-10-01T03:25:55+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/better-futures-studio/opus-use-subagents/main/README.md",
    "evidenceBasis": "repository README; author-reported; not executed",
-   "metricsCheckedAt": "2026-10-03T08:09:31+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:31+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-294",
@@ -83945,6 +84331,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/bigmak94/GalaxyQuest/main/README.md",
    "evidenceBasis": "repository README; author-reported; not executed",
    "metricsCheckedAt": "2026-10-03T08:09:31+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/bigmak94/GalaxyQuest",
@@ -83987,6 +84374,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/hoangduong92/idea-to-film-skill/main/README.md",
    "evidenceBasis": "repository README; author-reported; not executed",
    "metricsCheckedAt": "2026-10-03T08:09:39+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/hoangduong92/idea-to-film-skill",
@@ -84028,7 +84416,8 @@
    "checkedAt": "2026-10-01T03:25:56+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/CalmDownNova/cosmic-breach/main/README.md",
    "evidenceBasis": "repository README; author-reported; not executed",
-   "metricsCheckedAt": "2026-10-03T08:09:32+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:32+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-297",
@@ -84055,6 +84444,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/Fenglin-Maple/One-last-kiss-opus5.5-web-mv/main/README.md",
    "evidenceBasis": "repository README; author-reported; not executed",
    "metricsCheckedAt": "2026-10-03T08:09:38+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/Fenglin-Maple/One-last-kiss-opus5.5-web-mv/blob/main/OneLastKiss_MV_v6/bilibili/cover_source/keyart_16x9.png",
@@ -84097,6 +84487,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/yarinbnyamin/knesset-kombat-26/main/README.md",
    "evidenceBasis": "repository README; author-reported; not executed",
    "metricsCheckedAt": "2026-10-03T08:10:02+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/yarinbnyamin/knesset-kombat-26",
@@ -84139,6 +84530,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/Leichtbier/core-business/main/README.md",
    "evidenceBasis": "repository README; author-reported; not executed",
    "metricsCheckedAt": "2026-10-03T08:09:45+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/Leichtbier/core-business",
@@ -84181,6 +84573,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/milliondreamsblog/MotionDesignOpus5.5/main/README.md",
    "evidenceBasis": "repository README; author-reported; not executed",
    "metricsCheckedAt": "2026-10-03T08:09:48+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/milliondreamsblog/MotionDesignOpus5.5",
@@ -84223,6 +84616,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/haxzie/p-doom-ft-genmotion/main/README.md",
    "evidenceBasis": "repository README; author-reported; not executed",
    "metricsCheckedAt": "2026-10-03T08:09:39+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/haxzie/p-doom-ft-genmotion",
@@ -84265,6 +84659,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/okonio/felt-dot-gpt-vs-opus/main/README.md",
    "evidenceBasis": "repository README; author-reported; not executed",
    "metricsCheckedAt": "2026-10-03T08:09:50+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/okonio/felt-dot-gpt-vs-opus",
@@ -84307,6 +84702,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/bilaldemirerr/opus-video-recipes/main/README.md",
    "evidenceBasis": "repository README; author-reported; not executed",
    "metricsCheckedAt": "2026-10-03T08:09:31+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/bilaldemirerr/opus-video-recipes",
@@ -84348,7 +84744,8 @@
    "checkedAt": "2026-10-01T03:25:56+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/jeaxindr-dotcom/sonnet-55-vs-opus-55/main/README.md",
    "evidenceBasis": "repository README; author-reported; not executed",
-   "metricsCheckedAt": "2026-10-03T08:09:41+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:41+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-305",
@@ -84374,7 +84771,8 @@
    "checkedAt": "2026-10-01T03:25:56+00:00",
    "evidenceUrl": "https://raw.githubusercontent.com/Everett406/code-film/main/README.md",
    "evidenceBasis": "repository README; author-reported; not executed",
-   "metricsCheckedAt": "2026-10-03T08:09:38+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:38+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-306",
@@ -84401,6 +84799,7 @@
    "evidenceUrl": "https://raw.githubusercontent.com/chenyuxiaojin/cyxj-videos/main/README.md",
    "evidenceBasis": "repository README; author-reported; not executed",
    "metricsCheckedAt": "2026-10-03T08:09:33+00:00",
+   "githubKind": "repository",
    "posterEvidence": {
     "reviewStatus": "accepted",
     "sourcePage": "https://github.com/chenyuxiaojin/cyxj-videos",
@@ -84434,7 +84833,6 @@
    "date": "2026-09-30",
    "likes": null,
    "bookmarks": null,
-   "stars": 41,
    "views": null,
    "mediaKind": "none",
    "poster": null,
@@ -84442,7 +84840,11 @@
    "checkedAt": "2026-10-01T03:36:40+00:00",
    "evidenceUrl": "https://github.com/ViBench/vibench-public/pull/8",
    "evidenceBasis": "public issue/PR description; implementation and reported failures not independently reproduced",
-   "metricsCheckedAt": "2026-10-03T08:10:00+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:41+00:00",
+   "githubKind": "pull_request",
+   "reactions": 0,
+   "comments": 0,
+   "metricsSourceUrl": "https://api.github.com/repos/vibench/vibench-public/issues/8"
   },
   {
    "id": "github-308",
@@ -84460,7 +84862,6 @@
    "date": "2026-10-01",
    "likes": null,
    "bookmarks": null,
-   "stars": 1,
    "views": null,
    "mediaKind": "none",
    "poster": null,
@@ -84468,7 +84869,11 @@
    "checkedAt": "2026-10-01T03:36:40+00:00",
    "evidenceUrl": "https://github.com/synex1437/noctis/pull/9",
    "evidenceBasis": "public issue/PR description; implementation and reported failures not independently reproduced",
-   "metricsCheckedAt": "2026-10-03T08:09:56+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:40+00:00",
+   "githubKind": "pull_request",
+   "reactions": 0,
+   "comments": 0,
+   "metricsSourceUrl": "https://api.github.com/repos/synex1437/noctis/issues/9"
   },
   {
    "id": "github-309",
@@ -84486,7 +84891,6 @@
    "date": "2026-09-30",
    "likes": null,
    "bookmarks": null,
-   "stars": 1,
    "views": null,
    "mediaKind": "none",
    "poster": null,
@@ -84494,7 +84898,11 @@
    "checkedAt": "2026-10-01T03:36:40+00:00",
    "evidenceUrl": "https://github.com/zbynekdrlik/airuleset/issues/1203",
    "evidenceBasis": "public issue/PR description; implementation and reported failures not independently reproduced",
-   "metricsCheckedAt": "2026-10-03T08:10:03+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:42+00:00",
+   "githubKind": "issue",
+   "reactions": 0,
+   "comments": 9,
+   "metricsSourceUrl": "https://api.github.com/repos/zbynekdrlik/airuleset/issues/1203"
   },
   {
    "id": "github-310",
@@ -84512,7 +84920,6 @@
    "date": "2026-09-30",
    "likes": null,
    "bookmarks": null,
-   "stars": 2,
    "views": null,
    "mediaKind": "none",
    "poster": null,
@@ -84520,7 +84927,11 @@
    "checkedAt": "2026-10-01T03:36:40+00:00",
    "evidenceUrl": "https://github.com/jwp2987/phosphor/issues/797",
    "evidenceBasis": "public issue/PR description; implementation and reported failures not independently reproduced",
-   "metricsCheckedAt": "2026-10-03T08:09:43+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:38+00:00",
+   "githubKind": "issue",
+   "reactions": 0,
+   "comments": 0,
+   "metricsSourceUrl": "https://api.github.com/repos/jwp2987/phosphor/issues/797"
   },
   {
    "id": "github-311",
@@ -84546,7 +84957,8 @@
    "checkedAt": "2026-10-01T13:40:46+00:00",
    "evidenceUrl": "https://api.github.com/repos/sc8z35a-collab/India-Travel-spot-Opus5.5/readme",
    "evidenceBasis": "repository README and owner description retrieved with authenticated gh; author-reported; not executed",
-   "metricsCheckedAt": "2026-10-03T08:09:53+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:53+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-312",
@@ -84572,7 +84984,8 @@
    "checkedAt": "2026-10-01T13:40:46+00:00",
    "evidenceUrl": "https://api.github.com/repos/beyondworks/lean-forge-55/readme",
    "evidenceBasis": "repository README and owner description retrieved with authenticated gh; author-reported; not executed",
-   "metricsCheckedAt": "2026-10-03T08:09:31+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:31+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-313",
@@ -84598,7 +85011,8 @@
    "checkedAt": "2026-10-01T13:40:46+00:00",
    "evidenceUrl": "https://api.github.com/repos/miguelsolorio/the-tithe/readme",
    "evidenceBasis": "repository README and owner description retrieved with authenticated gh; author-reported; not executed",
-   "metricsCheckedAt": "2026-10-03T08:09:48+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:48+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-314",
@@ -84624,7 +85038,8 @@
    "checkedAt": "2026-10-01T13:40:46+00:00",
    "evidenceUrl": "https://api.github.com/repos/gummipunkt/NoteIt/readme",
    "evidenceBasis": "repository README and owner description retrieved with authenticated gh; author-reported; not executed",
-   "metricsCheckedAt": "2026-10-03T08:09:39+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:39+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-315",
@@ -84650,7 +85065,8 @@
    "checkedAt": "2026-10-01T13:40:46+00:00",
    "evidenceUrl": "https://api.github.com/repos/davidramsay95/claude-chess_opus_5-5_20260929/readme",
    "evidenceBasis": "repository README and owner description retrieved with authenticated gh; author-reported; not executed",
-   "metricsCheckedAt": "2026-10-03T08:09:35+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:35+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-316",
@@ -84676,7 +85092,8 @@
    "checkedAt": "2026-10-01T13:40:46+00:00",
    "evidenceUrl": "https://api.github.com/repos/hpkotak/rag-docs-assistant/readme",
    "evidenceBasis": "repository README and owner description retrieved with authenticated gh; author-reported; not executed",
-   "metricsCheckedAt": "2026-10-03T08:09:40+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:40+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-317",
@@ -84702,7 +85119,8 @@
    "checkedAt": "2026-10-01T13:40:46+00:00",
    "evidenceUrl": "https://api.github.com/repos/athemeroy/glory/readme",
    "evidenceBasis": "repository README and owner description retrieved with authenticated gh; author-reported; not executed",
-   "metricsCheckedAt": "2026-10-03T08:09:29+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:29+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-318",
@@ -84728,7 +85146,8 @@
    "checkedAt": "2026-10-01T13:40:46+00:00",
    "evidenceUrl": "https://api.github.com/repos/onehundredapps/amar.io/readme",
    "evidenceBasis": "repository README and owner description retrieved with authenticated gh; author-reported; not executed",
-   "metricsCheckedAt": "2026-10-03T08:09:51+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:51+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-319",
@@ -84754,7 +85173,8 @@
    "checkedAt": "2026-10-01T13:40:46+00:00",
    "evidenceUrl": "https://api.github.com/repos/AlexGalhardo/agent-money-boilerplate/readme",
    "evidenceBasis": "repository README and owner description retrieved with authenticated gh; author-reported; not executed",
-   "metricsCheckedAt": "2026-10-03T08:09:28+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:28+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-320",
@@ -84780,7 +85200,8 @@
    "checkedAt": "2026-10-01T13:40:46+00:00",
    "evidenceUrl": "https://api.github.com/repos/I-794/iOS27Simulator/readme",
    "evidenceBasis": "repository README and owner description retrieved with authenticated gh; author-reported; not executed",
-   "metricsCheckedAt": "2026-10-03T08:09:40+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:40+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-321",
@@ -84806,7 +85227,8 @@
    "checkedAt": "2026-10-01T13:40:46+00:00",
    "evidenceUrl": "https://api.github.com/repos/awn3x/Open-Backrooms/readme",
    "evidenceBasis": "repository README and owner description retrieved with authenticated gh; author-reported; not executed",
-   "metricsCheckedAt": "2026-10-03T08:09:30+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:30+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-322",
@@ -84832,7 +85254,8 @@
    "checkedAt": "2026-10-01T13:40:46+00:00",
    "evidenceUrl": "https://api.github.com/repos/silentbugs/claudezone/readme",
    "evidenceBasis": "repository README and owner description retrieved with authenticated gh; author-reported; not executed",
-   "metricsCheckedAt": "2026-10-03T08:09:54+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:54+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-323",
@@ -84858,7 +85281,8 @@
    "checkedAt": "2026-10-01T13:40:46+00:00",
    "evidenceUrl": "https://api.github.com/repos/nevslie/easyPDF/readme",
    "evidenceBasis": "repository README and owner description retrieved with authenticated gh; author-reported; not executed",
-   "metricsCheckedAt": "2026-10-03T08:09:49+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:49+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-324",
@@ -84884,7 +85308,8 @@
    "checkedAt": "2026-10-01T13:40:46+00:00",
    "evidenceUrl": "https://api.github.com/repos/ganson-labs/tank-arena/readme",
    "evidenceBasis": "repository README and owner description retrieved with authenticated gh; author-reported; not executed",
-   "metricsCheckedAt": "2026-10-03T08:09:38+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:38+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-325",
@@ -84910,7 +85335,8 @@
    "checkedAt": "2026-10-01T13:40:46+00:00",
    "evidenceUrl": "https://api.github.com/repos/miguelsolorio/outermost/readme",
    "evidenceBasis": "repository README and owner description retrieved with authenticated gh; author-reported; not executed",
-   "metricsCheckedAt": "2026-10-03T08:09:48+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:48+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-326",
@@ -84928,7 +85354,6 @@
    "date": "2026-10-01",
    "likes": null,
    "bookmarks": null,
-   "stars": 13,
    "views": null,
    "mediaKind": "none",
    "poster": null,
@@ -84936,7 +85361,11 @@
    "checkedAt": "2026-10-01T13:40:46+00:00",
    "evidenceUrl": "https://github.com/integry/propr/pull/2666",
    "evidenceBasis": "public issue/PR description via authenticated gh; reported implementation and checks not independently reproduced",
-   "metricsCheckedAt": "2026-10-03T08:09:40+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:38+00:00",
+   "githubKind": "pull_request",
+   "reactions": 0,
+   "comments": 15,
+   "metricsSourceUrl": "https://api.github.com/repos/integry/propr/issues/2666"
   },
   {
    "id": "github-327",
@@ -84954,7 +85383,6 @@
    "date": "2026-10-01",
    "likes": null,
    "bookmarks": null,
-   "stars": 2219,
    "views": null,
    "mediaKind": "none",
    "poster": null,
@@ -84962,7 +85390,11 @@
    "checkedAt": "2026-10-01T13:40:46+00:00",
    "evidenceUrl": "https://github.com/jhlee0409/claude-code-history-viewer/pull/625",
    "evidenceBasis": "public issue/PR description via authenticated gh; reported implementation and checks not independently reproduced",
-   "metricsCheckedAt": "2026-10-03T08:09:42+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:38+00:00",
+   "githubKind": "pull_request",
+   "reactions": 0,
+   "comments": 1,
+   "metricsSourceUrl": "https://api.github.com/repos/jhlee0409/claude-code-history-viewer/issues/625"
   },
   {
    "id": "github-328",
@@ -84980,7 +85412,6 @@
    "date": "2026-09-30",
    "likes": null,
    "bookmarks": null,
-   "stars": 0,
    "views": null,
    "mediaKind": "none",
    "poster": null,
@@ -84988,7 +85419,11 @@
    "checkedAt": "2026-10-01T13:40:46+00:00",
    "evidenceUrl": "https://github.com/Kilment/qna-atlas/pull/1",
    "evidenceBasis": "public issue/PR description via authenticated gh; reported implementation and checks not independently reproduced",
-   "metricsCheckedAt": "2026-10-03T08:09:43+00:00"
+   "metricsCheckedAt": "2026-10-03T09:02:39+00:00",
+   "githubKind": "pull_request",
+   "reactions": 0,
+   "comments": 0,
+   "metricsSourceUrl": "https://api.github.com/repos/kilment/qna-atlas/issues/1"
   },
   {
    "id": "github-329",
@@ -85014,7 +85449,8 @@
    "checkedAt": "2026-10-02T04:35:55+00:00",
    "evidenceUrl": "https://github.com/IsaacMarSaf/vlm-cac-ldct-confirmatory",
    "evidenceBasis": "Original repository description and README reviewed; implementation claims not independently executed.",
-   "metricsCheckedAt": "2026-10-03T08:09:40+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:40+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-330",
@@ -85040,7 +85476,8 @@
    "checkedAt": "2026-10-02T04:35:55+00:00",
    "evidenceUrl": "https://github.com/emergent-wisdom/story",
    "evidenceBasis": "Original repository description and README reviewed; implementation claims not independently executed.",
-   "metricsCheckedAt": "2026-10-03T08:09:37+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:37+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-331",
@@ -85066,7 +85503,8 @@
    "checkedAt": "2026-10-02T04:35:55+00:00",
    "evidenceUrl": "https://github.com/sakshamchitkara-dotcom/agent-fleet",
    "evidenceBasis": "Original repository description and README reviewed; implementation claims not independently executed.",
-   "metricsCheckedAt": "2026-10-03T08:09:53+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:53+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-332",
@@ -85099,7 +85537,8 @@
      "label_en": "App demo",
      "url": "https://nestorguerra.github.io/msd-ph-evolution-2026-app/"
     }
-   ]
+   ],
+   "githubKind": "repository"
   },
   {
    "id": "github-333",
@@ -85125,7 +85564,8 @@
    "checkedAt": "2026-10-02T04:35:55+00:00",
    "evidenceUrl": "https://github.com/Chaveex/veex-fighting",
    "evidenceBasis": "Original repository description and README reviewed; implementation claims not independently executed.",
-   "metricsCheckedAt": "2026-10-03T08:09:33+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:33+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-334",
@@ -85151,7 +85591,8 @@
    "checkedAt": "2026-10-02T04:35:55+00:00",
    "evidenceUrl": "https://github.com/MiddleSugar7000/premium-saas-web-skill",
    "evidenceBasis": "Original repository description and README reviewed; implementation claims not independently executed.",
-   "metricsCheckedAt": "2026-10-03T08:09:48+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:48+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-335",
@@ -85177,7 +85618,8 @@
    "checkedAt": "2026-10-02T04:35:55+00:00",
    "evidenceUrl": "https://github.com/shopville-limited/gosau-live-wallpaper",
    "evidenceBasis": "Original repository description and README reviewed; implementation claims not independently executed.",
-   "metricsCheckedAt": "2026-10-03T08:09:54+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:54+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-336",
@@ -85203,7 +85645,8 @@
    "checkedAt": "2026-10-02T04:35:55+00:00",
    "evidenceUrl": "https://github.com/awenonian/models-and-things",
    "evidenceBasis": "Original repository description and README reviewed; implementation claims not independently executed.",
-   "metricsCheckedAt": "2026-10-03T08:09:30+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:30+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-337",
@@ -85229,7 +85672,8 @@
    "checkedAt": "2026-10-02T04:35:55+00:00",
    "evidenceUrl": "https://github.com/makevoid/motion-graphics-animated-lesson-plugin",
    "evidenceBasis": "Original repository description and README reviewed; implementation claims not independently executed.",
-   "metricsCheckedAt": "2026-10-03T08:09:46+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:46+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-338",
@@ -85255,7 +85699,8 @@
    "checkedAt": "2026-10-02T04:35:55+00:00",
    "evidenceUrl": "https://github.com/adunext/adu-motion-video",
    "evidenceBasis": "Original repository description and README reviewed; implementation claims not independently executed.",
-   "metricsCheckedAt": "2026-10-03T08:09:27+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:27+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-339",
@@ -85281,7 +85726,8 @@
    "checkedAt": "2026-10-02T04:35:55+00:00",
    "evidenceUrl": "https://github.com/DarioFontanel/sonnet-opus-sol-prompts",
    "evidenceBasis": "Original repository description and README reviewed; implementation claims not independently executed.",
-   "metricsCheckedAt": "2026-10-03T08:09:35+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:35+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-340",
@@ -85307,7 +85753,8 @@
    "checkedAt": "2026-10-02T04:35:55+00:00",
    "evidenceUrl": "https://github.com/taswar/ClaudeOpus5.5-Csharp-Demo",
    "evidenceBasis": "Original repository description and README reviewed; implementation claims not independently executed.",
-   "metricsCheckedAt": "2026-10-03T08:09:57+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:57+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-341",
@@ -85333,7 +85780,8 @@
    "checkedAt": "2026-10-02T04:35:55+00:00",
    "evidenceUrl": "https://github.com/gautham-v/code-bench",
    "evidenceBasis": "Original repository description and README reviewed; implementation claims not independently executed.",
-   "metricsCheckedAt": "2026-10-03T08:09:39+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:39+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-342",
@@ -85359,7 +85807,8 @@
    "checkedAt": "2026-10-02T04:35:55+00:00",
    "evidenceUrl": "https://github.com/JohnnyWang8802/songbie",
    "evidenceBasis": "Original repository description and README reviewed; implementation claims not independently executed.",
-   "metricsCheckedAt": "2026-10-03T08:09:42+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:42+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-343",
@@ -85392,7 +85841,8 @@
      "label_en": "Play the game",
      "url": "https://agenthot.erom.cloud/"
     }
-   ]
+   ],
+   "githubKind": "repository"
   },
   {
    "id": "github-344",
@@ -85425,7 +85875,8 @@
      "label_en": "Play the game",
      "url": "https://arnicas.github.io/bee-garden-game/"
     }
-   ]
+   ],
+   "githubKind": "repository"
   },
   {
    "id": "github-345",
@@ -85451,7 +85902,8 @@
    "checkedAt": "2026-10-02T04:35:55+00:00",
    "evidenceUrl": "https://github.com/WXK-AI/jev-opus",
    "evidenceBasis": "Original repository description and README reviewed; implementation claims not independently executed.",
-   "metricsCheckedAt": "2026-10-03T08:10:02+00:00"
+   "metricsCheckedAt": "2026-10-03T08:10:02+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-346",
@@ -85477,7 +85929,8 @@
    "checkedAt": "2026-10-02T04:35:55+00:00",
    "evidenceUrl": "https://github.com/Wayan123/AI-Rubik-Solver",
    "evidenceBasis": "Original repository description and README reviewed; implementation claims not independently executed.",
-   "metricsCheckedAt": "2026-10-03T08:10:01+00:00"
+   "metricsCheckedAt": "2026-10-03T08:10:01+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-347",
@@ -85503,7 +85956,8 @@
    "checkedAt": "2026-10-02T04:35:55+00:00",
    "evidenceUrl": "https://github.com/WINDGAND/wiND-Brand-Matches",
    "evidenceBasis": "Original repository description and README reviewed; implementation claims not independently executed.",
-   "metricsCheckedAt": "2026-10-03T08:10:02+00:00"
+   "metricsCheckedAt": "2026-10-03T08:10:02+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-348",
@@ -85529,7 +85983,8 @@
    "checkedAt": "2026-10-03T08:29:57+00:00",
    "evidenceUrl": "https://github.com/CircusPigeon/cow_game",
    "evidenceBasis": "Original repository description and README reviewed; implementation claims not independently executed.",
-   "metricsCheckedAt": "2026-10-03T08:29:57+00:00"
+   "metricsCheckedAt": "2026-10-03T08:29:57+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-349",
@@ -85555,7 +86010,8 @@
    "checkedAt": "2026-10-03T08:29:57+00:00",
    "evidenceUrl": "https://github.com/ghywel/ai-storyboard",
    "evidenceBasis": "Original repository description and README reviewed; implementation claims not independently executed.",
-   "metricsCheckedAt": "2026-10-03T08:29:57+00:00"
+   "metricsCheckedAt": "2026-10-03T08:29:57+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-350",
@@ -85581,7 +86037,8 @@
    "checkedAt": "2026-10-03T08:29:57+00:00",
    "evidenceUrl": "https://github.com/RedCat888/perch",
    "evidenceBasis": "Original repository description and README reviewed; implementation claims not independently executed.",
-   "metricsCheckedAt": "2026-10-03T08:29:57+00:00"
+   "metricsCheckedAt": "2026-10-03T08:29:57+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-351",
@@ -85614,7 +86071,8 @@
      "label_en": "Creator project",
      "url": "https://opuscraft.pages.dev"
     }
-   ]
+   ],
+   "githubKind": "repository"
   },
   {
    "id": "github-352",
@@ -85640,7 +86098,8 @@
    "checkedAt": "2026-10-03T08:29:57+00:00",
    "evidenceUrl": "https://github.com/samuelstroschein/opus-video-generator",
    "evidenceBasis": "Original repository description and README reviewed; implementation claims not independently executed.",
-   "metricsCheckedAt": "2026-10-03T08:29:57+00:00"
+   "metricsCheckedAt": "2026-10-03T08:29:57+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-353",
@@ -85666,7 +86125,8 @@
    "checkedAt": "2026-10-03T08:29:57+00:00",
    "evidenceUrl": "https://github.com/adekoyadapo/tech-writer",
    "evidenceBasis": "Original repository description and README reviewed; implementation claims not independently executed.",
-   "metricsCheckedAt": "2026-10-03T08:29:57+00:00"
+   "metricsCheckedAt": "2026-10-03T08:29:57+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-354",
@@ -85692,7 +86152,8 @@
    "checkedAt": "2026-10-03T08:29:57+00:00",
    "evidenceUrl": "https://github.com/anteloc/ldraw-nova",
    "evidenceBasis": "Original repository description and README reviewed; implementation claims not independently executed.",
-   "metricsCheckedAt": "2026-10-03T08:29:57+00:00"
+   "metricsCheckedAt": "2026-10-03T08:29:57+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-355",
@@ -85718,7 +86179,8 @@
    "checkedAt": "2026-10-03T08:29:57+00:00",
    "evidenceUrl": "https://github.com/RohanRatwani/explainer-video-opus-5.5",
    "evidenceBasis": "Original repository description and README reviewed; implementation claims not independently executed.",
-   "metricsCheckedAt": "2026-10-03T08:29:57+00:00"
+   "metricsCheckedAt": "2026-10-03T08:29:57+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-356",
@@ -85744,7 +86206,8 @@
    "checkedAt": "2026-10-03T08:29:57+00:00",
    "evidenceUrl": "https://github.com/thinwindow/thinwindow",
    "evidenceBasis": "Original repository description and README reviewed; implementation claims not independently executed.",
-   "metricsCheckedAt": "2026-10-03T08:29:57+00:00"
+   "metricsCheckedAt": "2026-10-03T08:29:57+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-357",
@@ -85770,7 +86233,8 @@
    "checkedAt": "2026-10-03T08:29:57+00:00",
    "evidenceUrl": "https://github.com/umutseve4/lunapark-3d-sim",
    "evidenceBasis": "Original repository description and README reviewed; implementation claims not independently executed.",
-   "metricsCheckedAt": "2026-10-03T08:29:57+00:00"
+   "metricsCheckedAt": "2026-10-03T08:29:57+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-358",
@@ -85796,7 +86260,8 @@
    "checkedAt": "2026-10-03T08:29:57+00:00",
    "evidenceUrl": "https://github.com/viviantest1004/linux-LPOS",
    "evidenceBasis": "Original repository description and README reviewed; implementation claims not independently executed.",
-   "metricsCheckedAt": "2026-10-03T08:29:57+00:00"
+   "metricsCheckedAt": "2026-10-03T08:29:57+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-359",
@@ -85822,7 +86287,8 @@
    "checkedAt": "2026-10-03T08:29:57+00:00",
    "evidenceUrl": "https://github.com/bobzhang/minisql-moonbit-vs-rust",
    "evidenceBasis": "Original repository description and README reviewed; implementation claims not independently executed.",
-   "metricsCheckedAt": "2026-10-03T08:29:57+00:00"
+   "metricsCheckedAt": "2026-10-03T08:29:57+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-360",
@@ -85848,7 +86314,8 @@
    "checkedAt": "2026-10-03T08:29:57+00:00",
    "evidenceUrl": "https://github.com/pangoleen/desportes-1593",
    "evidenceBasis": "Original repository description and README reviewed; implementation claims not independently executed.",
-   "metricsCheckedAt": "2026-10-03T08:29:57+00:00"
+   "metricsCheckedAt": "2026-10-03T08:29:57+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-361",
@@ -85874,7 +86341,8 @@
    "checkedAt": "2026-10-03T08:29:57+00:00",
    "evidenceUrl": "https://github.com/Salmisaari/eudoom-video",
    "evidenceBasis": "Original repository description and README reviewed; implementation claims not independently executed.",
-   "metricsCheckedAt": "2026-10-03T08:29:57+00:00"
+   "metricsCheckedAt": "2026-10-03T08:29:57+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-362",
@@ -85900,7 +86368,8 @@
    "checkedAt": "2026-10-03T08:29:57+00:00",
    "evidenceUrl": "https://github.com/ilien-dev/themis",
    "evidenceBasis": "Original repository description and README reviewed; implementation claims not independently executed.",
-   "metricsCheckedAt": "2026-10-03T08:29:57+00:00"
+   "metricsCheckedAt": "2026-10-03T08:29:57+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-363",
@@ -85926,7 +86395,8 @@
    "checkedAt": "2026-10-03T08:29:57+00:00",
    "evidenceUrl": "https://github.com/dested/flipside",
    "evidenceBasis": "Original repository description and README reviewed; implementation claims not independently executed.",
-   "metricsCheckedAt": "2026-10-03T08:29:57+00:00"
+   "metricsCheckedAt": "2026-10-03T08:29:57+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "github-364",
@@ -85959,7 +86429,8 @@
      "label_en": "Creator project",
      "url": "https://khanmjk.github.io/HourGlass_Opus55/"
     }
-   ]
+   ],
+   "githubKind": "repository"
   },
   {
    "id": "hn-001",
@@ -103296,7 +103767,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:10:01+00:00"
+   "metricsCheckedAt": "2026-10-03T08:10:01+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "lists-190",
@@ -103318,7 +103790,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:52+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:52+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "lists-191",
@@ -103340,7 +103813,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:56+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:56+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "lists-192",
@@ -103362,7 +103836,8 @@
    "views": null,
    "mediaKind": "none",
    "poster": null,
-   "metricsCheckedAt": "2026-10-03T08:09:57+00:00"
+   "metricsCheckedAt": "2026-10-03T08:09:57+00:00",
+   "githubKind": "repository"
   },
   {
    "id": "lists-193",
@@ -103383,7 +103858,8 @@
    "stars": 0,
    "views": null,
    "mediaKind": "none",
-   "poster": null
+   "poster": null,
+   "githubKind": "repository"
   },
   {
    "id": "lists-194",

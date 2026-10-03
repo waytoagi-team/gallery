@@ -3208,7 +3208,8 @@
   "poster": null,
   "mediaKind": "none",
   "via": "frontier-games",
-  "metricsCheckedAt": "2026-10-03T08:10:01+00:00"
+  "metricsCheckedAt": "2026-10-03T08:10:01+00:00",
+  "githubKind": "repository"
  },
  {
   "title": "三款Three.js浏览器游戏",
@@ -3227,7 +3228,8 @@
   "poster": null,
   "mediaKind": "none",
   "via": "frontier-games",
-  "metricsCheckedAt": "2026-10-03T08:09:52+00:00"
+  "metricsCheckedAt": "2026-10-03T08:09:52+00:00",
+  "githubKind": "repository"
  },
  {
   "title": "变拍子节奏游戏",
@@ -3246,7 +3248,8 @@
   "poster": null,
   "mediaKind": "none",
   "via": "frontier-games",
-  "metricsCheckedAt": "2026-10-03T08:09:56+00:00"
+  "metricsCheckedAt": "2026-10-03T08:09:56+00:00",
+  "githubKind": "repository"
  },
  {
   "title": "墨水射击游戏两连发",
@@ -3265,7 +3268,8 @@
   "poster": null,
   "mediaKind": "none",
   "via": "frontier-games",
-  "metricsCheckedAt": "2026-10-03T08:09:57+00:00"
+  "metricsCheckedAt": "2026-10-03T08:09:57+00:00",
+  "githubKind": "repository"
  },
  {
   "title": "骑龙峡谷竞速游戏",
@@ -3283,7 +3287,8 @@
   "stars": 0,
   "poster": null,
   "mediaKind": "none",
-  "via": "frontier-games"
+  "via": "frontier-games",
+  "githubKind": "repository"
  },
  {
   "title": "7小时构建的湖畔树屋村",

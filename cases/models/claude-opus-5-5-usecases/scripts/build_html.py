@@ -2,6 +2,7 @@
 import csv, datetime, hashlib, html, ipaddress, json, pathlib, re
 from decimal import ROUND_HALF_UP, Decimal
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
+from github_metrics import sanitize_github_metrics
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -144,7 +145,8 @@ OG_ALT = {
 }
 MODEL_RELEASED = "2026-09-22"
 PAGE_FIELDS = ["id", "source", "platform", "category", "evidenceType", "title", "title_en", "summary", "summary_en",
-               "author", "sourceUrl", "date", "likes", "bookmarks", "stars", "views", "mediaKind", "poster", "resources"]
+               "author", "sourceUrl", "date", "likes", "bookmarks", "stars", "views", "mediaKind", "poster", "resources",
+               "githubKind", "reactions", "comments"]
 TWIMG = re.compile(r"^(https://pbs\.twimg\.com/(?:media|amplify_video_thumb|ext_tw_video_thumb|tweet_video_thumb)/[^?]+?)"
                    r"(?:\.(?:jpe?g|png|webp))?(?:\?.*)?$")
 
@@ -247,9 +249,11 @@ def to_script(obj):
 
 
 def render_page(meta, cases):
+    cases = [sanitize_github_metrics(dict(c)) for c in cases]
     payload = {"cases": [{k: (page_poster(c[k]) if k == "poster" else c[k]) for k in PAGE_FIELDS if c.get(k) not in (None, "")}
                          for c in cases]}
     tpl = (ROOT / "scripts" / "template.html").read_text()
+    tpl = tpl.replace("/*__RANKING__*/", (ROOT / "scripts" / "ranking.js").read_text())
     # inline the brand logos so index.html stays a single self-contained file
     for key, name in (("LOGO_LIGHT", "waytoagi-logo-light.svg"), ("LOGO_DARK", "waytoagi-logo-dark.svg")):
         svg = (ROOT / "assets" / name).read_text().strip()
@@ -326,6 +330,7 @@ def main():
                 "likes": c.get("likes"), "bookmarks": c.get("bookmarks"), "stars": c.get("stars"), "views": c.get("views"),
                 "mediaKind": c.get("mediaKind") or "none", "poster": c.get("poster"),
                 **{k: c[k] for k in ("discoveredVia", "checkedAt", "evidenceUrl", "evidenceBasis", "metricsCheckedAt", "resources") if c.get(k)},
+                **{k: c[k] for k in ("githubKind", "reactions", "comments", "metricsSourceUrl") if c.get(k) is not None},
             })
             added[cases[-1]["source"]] = added.get(cases[-1]["source"], 0) + 1
     # metric_refreshes.json holds metrics-only patches from full refreshes, kept apart from
@@ -339,6 +344,7 @@ def main():
         apply_poster_enrichments(cases, json.loads(poster_path.read_text())["cases"])
     # snapshot date = newest dated case (sources lag a day or two behind the fetch)
     for c in cases:
+        sanitize_github_metrics(c)
         # video thumbnails: derive YouTube posters from the id, force https for Bilibili's CDN
         m = re.search(r"(?:youtube\.com/watch\?v=|youtu\.be/)([\w-]{11})", c["sourceUrl"])
         if m and not c.get("poster"):

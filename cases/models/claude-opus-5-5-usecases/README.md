@@ -24,7 +24,7 @@ verified_at: "2026-10-03"
 
 - 按标题、摘要、作者、分类全文搜索，命中词高亮；输入分类名时提示直接筛选
 - 按 14 个任务类别、5 种证据类型、6 个来源筛选，每组筛选下方显示当前条件与结果数
-- 排序：精选混排（默认，按来源比例轮排）、热度（来源内排名）、点赞、收藏（仅 X）、时间
+- 排序：精选混排（默认，按来源比例轮排）、热度（同类指标排名）、点赞、收藏（仅 X）、时间
 - 整张卡片可点开原帖；缩略图加载失败时显示品牌来源色块，不跳动
 - 筛选、搜索、排序和语言写进网址（`?src=&cat=&ev=&q=&sort=&lang=`），可直接分享某个视图
 - 中英文切换；手机端搜索栏、菜单与筛选反馈单独适配
@@ -36,6 +36,8 @@ verified_at: "2026-10-03"
 页面按 WaytoAGI 品牌视觉规范设计：官方 Logo、品牌色 token、编辑部式章节编号、按来源浏览的 Route Bar、深色证据区与紫色行动区。Logo 放在 `assets/`，构建时内联进 `index.html`，页面仍是离线可用的单文件。
 
 ## 数据概览
+
+本次[GitHub 指标归属纠正](UPDATE-2026-10-03-github-metrics.md)检查全部 369 条 GitHub 案例，移除 33 条 PR、28 条 Issue、7 个文件页误用的仓库 Stars，并成功读取 61 条 PR／Issue 的独立指标。仓库按自身 Stars，PR／Issue 分别按正文表情回应数排名；评论只展示，文件与 Gist 不借用仓库热度。相同数值并列，零值与缺失分开处理，视频点赞与播放分组。OpenClaw 的支持 PR 现为 1 次表情回应、5 条评论，不再显示仓库的 391,203 Stars。总数仍为 5,527 条，配图与正文保留。35 项自动测试及 24 个中英文桌面／手机页面检查通过。
 
 本轮[10 月 3 日多源更新](UPDATE-2026-10-03.md)新增 **116 条**，当前 **5,527 条**：X 68、GitHub 17、Reddit 10、B 站 14、YouTube 4、Hacker News 3。46 个配置入口全部读取成功；XAPI 续页 404、B 站 412 与检索分页上限使本轮仍为部分覆盖。上游基础列表收缩到 2,342 条，保留全部 2,717 条历史基础案例。刷新 3,626 条 X 帖子和 339 个 GitHub 仓库指标，失效项保留旧值。新增 77 张经检查的原始配图，全库有图 **4,544 / 5,527（82.2%）**。已有非指标字段及全部补图和回复资料文件保持不变。
 
@@ -115,7 +117,9 @@ verified_at: "2026-10-03"
 | `evidenceType` / `evidenceType_en` | 演示 / 评测 / 集成 / 教程 / 限制 |
 | `title` / `title_en`, `summary` / `summary_en` | 中英文标题与摘要 |
 | `author`, `sourceUrl`, `date` | 原作者、原始链接、发布日期 |
-| `likes`, `bookmarks`, `stars`, `views` | 点赞、收藏、GitHub star 和视频播放量；缺失值保留为空 |
+| `likes`, `bookmarks`, `stars`, `views` | 点赞、收藏、GitHub 仓库自身 Stars 和视频播放量；缺失值保留为空 |
+| `githubKind` | GitHub 链接类型：repository、pull_request、issue、file、gist 等 |
+| `reactions`, `comments`, `metricsSourceUrl` | PR／Issue 正文表情回应总数、讨论评论数（不含代码行评审评论）及对应 API 出处；回应包含全部类型，不等于赞同或质量，评论不计入排序 |
 | `mediaKind`, `poster`, `video` | 媒体类型与媒体链接（多数直接引用原站；本轮 7 张经审核的原视频静帧保存在 `assets/reply-posters/`）；`poster` 同步写入 CSV |
 | `posterEvidence` | 新增配图的来源页、关联方式、尺寸、核验时间及实际检查图片的 SHA-256；CSV 中编码为 JSON |
 | `checkedAt`, `discoveredVia`, `evidenceUrl`, `evidenceBasis` | 新审阅案例的核验时间、发现渠道、证据入口及摘要依据 |
@@ -149,10 +153,11 @@ python3 scripts/fetch_base.py       # 抓取基础案例列表（中英文）-> 
 python3 scripts/normalize_base.py   # 规范化 -> data/base_cases.json
 python3 scripts/collect_sources.py  # 抓取候选信源快照，审阅后再加入 extra_*.json
 python3 scripts/build_html.py       # 合并 extra_*.json 并去重 -> data/all_cases.json / .csv + index.html
-python3 -m unittest discover -s scripts -p 'test_*.py'  # 27 项回归测试
+python3 -m unittest discover -s scripts -p 'test_*.py'  # 32 项回归测试
+node --test scripts/test_ranking.cjs  # 3 项排名测试
 ```
 
-GitHub API 采集通过 `gh api` 复用当前登录身份；先用 `gh auth status` 检查，未登录时运行 `gh auth login --hostname github.com`。凭据由 GitHub CLI 管理，不复制到项目文件或抓取回执。单独补刷仓库指标可运行 `python3 scripts/refresh_metrics.py --only github --output-dir data/_refresh/github-authenticated`，默认两路并发，保留 X 指标和失败仓库的旧值。
+GitHub API 采集通过 `gh api` 复用当前登录身份；先用 `gh auth status` 检查，未登录时运行 `gh auth login --hostname github.com`。凭据由 GitHub CLI 管理，不复制到项目文件或抓取回执。单独补刷 GitHub 对象指标可运行 `python3 scripts/refresh_metrics.py --only github --output-dir data/_refresh/github-authenticated`，默认两路并发；加 `--github-kind repository` 仅读取仓库，加 `--github-kind thread` 仅读取 PR／Issue。保留 X 指标。PR／Issue 失败时仅保留 API 出处匹配的旧指标；无论读取是否成功，都移除错误的父仓库 Stars。刷新和离线构建均校验对象归属。
 
 完整重建不需要联网。重新采集本轮固定版本并应用既有审核决定：
 

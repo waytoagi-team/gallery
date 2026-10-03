@@ -82,6 +82,39 @@ class GitHubRefreshTests(unittest.TestCase):
             self.assertEqual([row["stars"] for row in refreshed], [12, 9])
             self.assertEqual((data / "metric_refreshes.json").read_text(), x_patch)
 
+    def test_pr_issue_and_file_never_fetch_parent_stars_or_retain_bad_fallbacks(self):
+        with tempfile.TemporaryDirectory() as directory:
+            data = pathlib.Path(directory)
+            cases = [{"sourceUrl": "https://github.com/a/b/pull/1", "stars": 900000},
+                     {"sourceUrl": "https://github.com/a/b/issues/2", "stars": 900000,
+                      "reactions": 3, "comments": 4, "metricsCheckedAt": "old",
+                      "metricsSourceUrl": "https://api.github.com/repos/a/b/issues/2"},
+                     {"sourceUrl": "https://github.com/a/b/issues/3", "stars": 900000,
+                      "metricsCheckedAt": "incorrect-repo-time"},
+                     {"sourceUrl": "https://github.com/a/b/blob/main/file.md", "stars": 900000}]
+            (data / "all_cases.json").write_text(json.dumps({"cases": cases}))
+            (data / "extra_github.json").write_text(json.dumps(cases))
+            jobs = []
+
+            def fetch(job):
+                jobs.append(job)
+                return {"key": job[0], "url": job[1], "ok": job[0].endswith('/pull/1'),
+                        "metrics": {"reactions": 0, "comments": 5}, "checkedAt": "new"}
+
+            with patch.object(refresh_metrics, "DATA", data), patch.object(refresh_metrics, "fetch", side_effect=fetch), \
+                    patch("sys.argv", ["refresh_metrics", "--only", "github", "--output-dir", str(data / "receipts")]), \
+                    contextlib.redirect_stdout(io.StringIO()):
+                self.assertEqual(refresh_metrics.main(), 1)
+            self.assertEqual(set(jobs), {("github:a/b/pull/1", "https://api.github.com/repos/a/b/issues/1"),
+                                        ("github:a/b/issues/2", "https://api.github.com/repos/a/b/issues/2"),
+                                        ("github:a/b/issues/3", "https://api.github.com/repos/a/b/issues/3")})
+            rows = json.loads((data / "extra_github.json").read_text())
+            self.assertTrue(all('stars' not in r for r in rows))
+            self.assertEqual((rows[0]['reactions'], rows[0]['comments']), (0, 5))
+            self.assertEqual((rows[1]['reactions'], rows[1]['metricsCheckedAt']), (3, 'old'))
+            self.assertNotIn('reactions', rows[2])
+            self.assertNotIn('metricsCheckedAt', rows[2])
+
 
 if __name__ == "__main__":
     unittest.main()

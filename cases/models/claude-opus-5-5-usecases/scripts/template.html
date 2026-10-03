@@ -197,6 +197,8 @@ section.sec{padding:80px 0 0}
 .empty strong,.empty span,.empty button{overflow-wrap:anywhere}
 .suggest{margin-top:24px;display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;font-size:14px}
 .suggest:empty{display:none}
+.ranking-note{font-size:12px;line-height:1.6;color:var(--ink-2);margin:20px 0 0}
+.github-kind{font:11px var(--mono);border:1px solid var(--line);padding:1px 5px;white-space:nowrap}
 .suggest button{border:1px solid var(--ink);background:var(--lime);padding:4px 12px;cursor:pointer;font-weight:600}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:24px;padding:32px 0 24px}
 #grid:empty{display:block;min-height:calc(100vh + 200px)}
@@ -465,6 +467,7 @@ footer .links a{color:var(--lime)}
   </div>
   <div class="wrap">
     <div class="suggest" id="suggest"></div>
+    <p class="ranking-note" data-i18n="rankingNote"></p>
     <div class="grid" id="grid"></div>
     <div id="sentinel"></div>
     <div class="more-row"><button class="more" id="more" type="button" hidden></button></div>
@@ -506,6 +509,7 @@ footer .links a{color:var(--lime)}
 "desc1":"Task categories / Most liked","desc2":"Evidence types","desc3":"Case library",
 "evNote":"点击任一类型即可筛选案例库；「限制」类汇总了失败、误拒和成本相关的反馈，建议在采用前先看。",
 "s3":"案例库","search":"搜索标题、描述、作者、分类…","sortLabel":"排序",
+"rankingNote":"热度按同类指标分别排名：仓库看 Stars；PR / Issue 各看自身表情回应，评论数仅作展示；文件页不借用仓库热度。相同数值并列，暂无数据的条目不计分。热度不代表作品质量。",
 "joinTitle":"一起补全这张 Opus 5.5 图谱","joinText":"发现了新的真实案例、复现结果或踩坑记录？欢迎提交到 WaytoAGI Gallery，让更多人少走弯路。",
 "j1":"提交一个案例","j1s":"GitHub Issue · 案例提交表单","j2":"下载 CSV","j2s":"全部案例 · Excel 可直接打开","j4":"下载 JSON","j4s":"全部字段 · 含来源与核验信息","j3":"访问 WaytoAGI","j3s":"通往AGI之路 · 知识库与社区",
 "footer":"WaytoAGI Gallery · 所有链接指向原始出处，请以原帖为准。","footRepo":"GitHub 仓库与脚本 ↗",
@@ -519,6 +523,7 @@ footer .links a{color:var(--lime)}
 "desc1":"任务分布 / 全站点赞最多","desc2":"证据类型","desc3":"案例库",
 "evNote":"Click a type to filter the library. \"Limitation\" collects failures, refusals and cost reports — worth reading before you adopt.",
 "s3":"Case library","search":"Search titles, summaries, authors, categories…","sortLabel":"Sort",
+"rankingNote":"Trending ranks comparable metrics separately: repository stars, PR reactions and issue reactions. Comments are shown only; file pages never inherit repo popularity. Ties share a rank; missing metrics are unranked. Popularity is not quality.",
 "joinTitle":"Help complete the Opus 5.5 atlas","joinText":"Found a new real-world case, a reproduction or a failure worth sharing? Submit it to the WaytoAGI Gallery.",
 "j1":"Submit a case","j1s":"GitHub Issue · case submission form","j2":"Download CSV","j2s":"All cases · opens in Excel","j4":"Download JSON","j4s":"All fields · with source and review metadata","j3":"Visit WaytoAGI","j3s":"Knowledge base & community",
 "footer":"WaytoAGI Gallery · All links point to the original sources.","footRepo":"GitHub repo & scripts ↗",
@@ -528,6 +533,7 @@ footer .links a{color:var(--lime)}
 </script>
 <script id="boot" type="application/json">/*__BOOT__*/null</script>
 <script>
+/*__RANKING__*/
 (() => {
   const $ = s => document.querySelector(s);
   const BOOT = JSON.parse($('#boot').textContent);
@@ -565,21 +571,25 @@ footer .links a{color:var(--lime)}
     zh:{...I18N.zh, docTitle:'Claude Opus 5.5 真实案例使用图谱 · Real-World Use Case Atlas | WaytoAGI',
       now:'当前：', allN:n=>`全部 ${n} 条案例`, toCases:'查看案例 ↓', clearAll:'清除全部 ✕', remove:v=>`移除筛选：${v}`,
       shown:n=>`${n} 个案例`, liveNow:(c,n)=>c ? `已筛选：${c}，${n} 个案例` : `全部 ${n} 个案例`,
-      sort:{default:'精选混排',hot:'热度（来源内排名）',likes:'最多点赞',bookmarks:'最多收藏（仅 X）',new:'最新',old:'最早'},
+      sort:{default:'精选混排',hot:'热度（同类指标排名）',likes:'最多点赞',bookmarks:'最多收藏（仅 X）',new:'最新',old:'最早'},
       sortShort:{default:'精选',hot:'热度',likes:'最多赞',bookmarks:'最多收藏',new:'最新',old:'最早'}, searchShort:'搜索案例…', pending:'…',
       more:(a,b)=>`加载更多 <span class="mono">已显示 ${a} / ${b}</span>`,
       empty:q=>q ? `没有匹配「${q}」的案例` : '没有匹配的案例', emptyWith:c=>`当前条件：${c}`, clearQ:'清除搜索', dropFacet:(v,n)=>`去掉「${v}」→ ${n} 条`,
       suggestCat:(v,n)=>`按分类「${v}」筛选（${n}）→`, suggestEv:(v,n)=>`按证据类型「${v}」筛选（${n}）→`, suggestSrc:(v,n)=>`只看来源「${v}」（${n}）→`, suggestLead:'这是一个筛选项：',
-      video:'视频', resources:'相关资料', u:{likes:'点赞',saves:'收藏',stars:'星标',views:'播放'}},
+      githubKinds:{repository:'仓库',pull_request:'PR',issue:'Issue',file:'文件',gist:'Gist',comment:'评论',other:'页面'},
+      noMetric:'暂无独立热度', reactions:'表情回应', comments:'评论', reactionTitle:'此 PR / Issue 正文的表情回应总数，包含各类回应，不等于赞同数', commentTitle:'此 PR / Issue 的讨论区评论数，不含代码评审评论，不参与热度排序',
+      video:'视频', resources:'相关资料', u:{likes:'点赞',saves:'收藏',stars:'仓库 Stars',views:'播放'}},
     en:{...I18N.en, docTitle:'Claude Opus 5.5 Real-World Use Case Atlas | WaytoAGI',
       now:'Showing:', allN:n=>`All ${n} cases`, toCases:'Go to cases ↓', clearAll:'Clear all ✕', remove:v=>`Remove filter: ${v}`,
       shown:n=>`${n} ${n === '1' ? 'case' : 'cases'}`, liveNow:(c,n)=>c ? `Filtered: ${c}, ${n} ${n === '1' ? 'case' : 'cases'}` : `All ${n} cases`,
-      sort:{default:'Curated mix',hot:'Trending (within source)',likes:'Most likes',bookmarks:'Most saves (X only)',new:'Newest',old:'Oldest'},
+      sort:{default:'Curated mix',hot:'Trending (comparable metrics)',likes:'Most likes',bookmarks:'Most saves (X only)',new:'Newest',old:'Oldest'},
       sortShort:{default:'Curated',hot:'Trending',likes:'Likes',bookmarks:'Saves',new:'Newest',old:'Oldest'}, searchShort:'Search cases…', pending:'…',
       more:(a,b)=>`Load more <span class="mono">${a} / ${b} shown</span>`,
       empty:q=>q ? `No cases match “${q}”` : 'No matching cases', emptyWith:c=>`Current filters: ${c}`, clearQ:'Clear search', dropFacet:(v,n)=>`Drop “${v}” → ${n}`,
       suggestCat:(v,n)=>`Filter by category “${v}” (${n}) →`, suggestEv:(v,n)=>`Filter by evidence “${v}” (${n}) →`, suggestSrc:(v,n)=>`Show only “${v}” (${n}) →`, suggestLead:'That is a filter:',
-      video:'video', resources:'Related resources', u:{likes:'likes',saves:'saves',stars:'stars',views:'views'}}
+      githubKinds:{repository:'Repo',pull_request:'PR',issue:'Issue',file:'File',gist:'Gist',comment:'Comment',other:'Page'},
+      noMetric:'No item metrics', reactions:'reactions', comments:'comments', reactionTitle:'All reactions to this PR / issue body, not a count of approvals', commentTitle:'Discussion comments on this PR / issue, excluding inline review comments; not used for ranking',
+      video:'video', resources:'Related resources', u:{likes:'likes',saves:'saves',stars:'repository stars',views:'views'}}
   };
   const store = { get(k){try{return localStorage.getItem(k)}catch{return null}}, set(k,v){try{localStorage.setItem(k,v)}catch{}} };
 
@@ -740,10 +750,18 @@ footer .links a{color:var(--lime)}
       ? `<div class="thumb" data-s="${esc(c.source)}"><span class="ph" aria-hidden="true">${plat}</span><img loading="lazy" decoding="async" referrerpolicy="no-referrer" src="${esc(c.poster)}" alt="" onload="this.classList.add('ok');if(this.naturalHeight>this.naturalWidth*1.1)this.classList.add('tall')" onerror="this.remove()"><span class="badge" aria-hidden="true">${plat}${video ? ' · ' + Lx.video : ''}</span></div>`
       : `<div class="thumb src" data-s="${esc(c.source)}" aria-hidden="true"><b>${plat}</b>${sub ? `<small>${esc(sub)}</small>` : ''}</div>`;
     const num = (v, icon, unit) => `<span title="${unit}"><span aria-hidden="true">${icon}</span> ${cf(v)}<span class="sr"> ${unit}</span></span>`;
-    const nums = [c.likes != null ? num(c.likes, '♥', Lx.u.likes) : '', c.bookmarks != null ? num(c.bookmarks, '⚑', Lx.u.saves) : '',
-      c.stars ? num(c.stars, '★', Lx.u.stars) : '', c.views != null ? num(c.views, '▶', Lx.u.views) : ''].filter(Boolean).join('<span aria-hidden="true"> · </span>');
+    const github = c.source === 'github';
+    const thread = github && ['pull_request', 'issue'].includes(c.githubKind);
+    const items = github ? [
+      c.githubKind === 'repository' && c.stars != null ? num(c.stars, '★', Lx.u.stars) : '',
+      thread && c.reactions != null ? `<span title="${esc(Lx.reactionTitle)}">${nf(c.reactions)} ${Lx.reactions}</span>` : '',
+      thread && c.comments != null ? `<span title="${esc(Lx.commentTitle)}">${nf(c.comments)} ${Lx.comments}</span>` : ''
+    ] : [c.likes != null ? num(c.likes, '♥', Lx.u.likes) : '', c.bookmarks != null ? num(c.bookmarks, '⚑', Lx.u.saves) : '',
+      c.views != null ? num(c.views, '▶', Lx.u.views) : ''];
+    const nums = items.filter(Boolean).join('<span aria-hidden="true"> · </span>') || (github ? `<span>${Lx.noMetric}</span>` : '');
+    const kind = github ? `<span class="github-kind">${esc(Lx.githubKinds[c.githubKind] || Lx.githubKinds.other)}</span>` : '';
     return `<article class="card">${thumb}<div class="body">
-      <div class="meta"><span class="ev" data-evtag="${esc(c.evidenceType)}">${esc(evName(c.evidenceType))}</span>${c.poster ? '' : `<span class="plat">${plat}</span>`}<span class="cat" title="${esc(catName(c.category))}">${esc(catShort(c.category))}</span>${c.date ? `<time datetime="${esc(c.date)}" title="${esc(c.date)}">${shortDate(c.date)}</time>` : ''}</div>
+      <div class="meta"><span class="ev" data-evtag="${esc(c.evidenceType)}">${esc(evName(c.evidenceType))}</span>${c.poster ? '' : `<span class="plat">${plat}</span>`}${kind}<span class="cat" title="${esc(catName(c.category))}">${esc(catShort(c.category))}</span>${c.date ? `<time datetime="${esc(c.date)}" title="${esc(c.date)}">${shortDate(c.date)}</time>` : ''}</div>
       <h3><a class="card-link" href="${esc(c.sourceUrl)}" target="_blank" rel="noopener" aria-describedby="newtab">${hl(tt(c))}<span class="sr">（${plat}${video ? ' · ' + Lx.video : ''}）</span></a></h3><p>${hl(ts(c))}</p>
       ${c.resources?.length ? `<div class="resources" role="group" aria-label="${Lx.resources}">${c.resources.map(r => `<a href="${esc(r.url)}" target="_blank" rel="noopener" aria-describedby="newtab">${esc(st.lang === 'en' ? (r.label_en || r.label) : r.label)} ↗</a>`).join('')}</div>` : ''}
       <div class="foot"><span class="by">${hl(c.author || c.platform)}</span><span class="nums">${nums}</span></div>
@@ -968,15 +986,9 @@ footer .links a{color:var(--lime)}
       c._i = i;
       c._hay = [c.id, c.title, c.title_en, c.summary, c.summary_en, c.author, c.platform, CATS[c.category]?.zh, CATS[c.category]?.en, c.evidenceType, EV_EN[c.evidenceType]].join(' ').toLowerCase();
     });
-    // Trending = percentile of each case's own metric within its source (stars for GitHub, views for video).
-    const metric = c => c.source === 'github' ? c.stars : c.source === 'video' ? (c.views ?? c.likes) : c.likes;
+    OpusRanking.assign(CASES);
     const bySrc = {};
     CASES.forEach(c => (bySrc[c.source] = bySrc[c.source] || []).push(c));
-    for (const list of Object.values(bySrc)) {
-      const ranked = list.filter(c => metric(c) != null).sort((a, b) => metric(a) - metric(b));
-      list.forEach(c => c._hot = -1);
-      ranked.forEach((c, i) => c._hot = ranked.length > 1 ? i / (ranked.length - 1) : 1);
-    }
     // Curated mix: sources interleaved in proportion to their size (smooth weighted round-robin),
     // each source ordered by trending, at most two cases per author in any window of 48.
     const queues = Object.fromEntries(Object.entries(bySrc).map(([s, l]) => [s, l.slice().sort((a, b) => b._hot - a._hot || a._i - b._i)]));
