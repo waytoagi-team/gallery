@@ -153,7 +153,8 @@ python3 scripts/fetch_base.py       # 抓取基础案例列表（中英文）-> 
 python3 scripts/normalize_base.py   # 规范化 -> data/base_cases.json
 python3 scripts/collect_sources.py  # 抓取候选信源快照，审阅后再加入 extra_*.json
 python3 scripts/build_html.py       # 合并 extra_*.json 并去重 -> data/all_cases.json / .csv + index.html
-python3 -m unittest discover -s scripts -p 'test_*.py'  # 27 项回归测试
+python3 -m unittest discover -s scripts -p 'test_*.py'  # 32 项回归测试
+node --test scripts/test_ranking.cjs  # 3 项排名测试
 ```
 
 GitHub API 采集通过 `gh api` 复用当前登录身份；先用 `gh auth status` 检查，未登录时运行 `gh auth login --hostname github.com`。凭据由 GitHub CLI 管理，不复制到项目文件或抓取回执。单独补刷 GitHub 对象指标可运行 `python3 scripts/refresh_metrics.py --only github --output-dir data/_refresh/github-authenticated`，默认两路并发；加 `--github-kind repository` 仅读取仓库，加 `--github-kind thread` 仅读取 PR／Issue。保留 X 指标。PR／Issue 失败时仅保留 API 出处匹配的旧指标；无论读取是否成功，都移除错误的父仓库 Stars。刷新和离线构建均校验对象归属。
