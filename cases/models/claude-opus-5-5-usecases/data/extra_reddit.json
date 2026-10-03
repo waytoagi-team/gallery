@@ -4672,5 +4672,245 @@
     "url": "https://brickster.trustybits.com"
    }
   ]
+ },
+ {
+  "category": "video",
+  "evidenceType": "演示",
+  "title": "向奶奶解释 AI 的音乐视频",
+  "title_en": "Explaining AI to Grandma music video",
+  "summary": "作者让 Opus 5.5 决定分镜，参考 PDoomVideo 项目和音节时间戳，再由人调整节奏与有问题的效果，明确说明经过多轮修改。",
+  "summary_en": "The creator lets Opus 5.5 direct storyboards using PDoomVideo references and syllable timings, then adjusts pacing and faulty effects over multiple iterations.",
+  "checkedAt": "2026-10-03T08:29:57+00:00",
+  "platform": "Reddit",
+  "author": "u/sandywaterside",
+  "date": "2026-10-02",
+  "likes": 1,
+  "mediaKind": "video",
+  "metricsCheckedAt": "2026-10-03T08:29:57+00:00",
+  "discoveredVia": "Arctic Shift archive of seven public subreddits; not direct Reddit API",
+  "evidenceBasis": "Original Reddit post title, available selftext and attachment metadata; author-reported work or incident, not independently reproduced.",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1ww5yy9/opus_55_music_video_explaining_ai_to_your_grandma/",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1ww5yy9/opus_55_music_video_explaining_ai_to_your_grandma/"
+ },
+ {
+  "category": "coding",
+  "evidenceType": "演示",
+  "title": "GBC 大富翁英译补丁",
+  "title_en": "English translation patch for a GBC board game",
+  "summary": "作者在既有模拟器和部分前期成果上使用 Opus 5.5 完成翻译、可变宽字体与货币格式修改，并报告在原机测试。模型贡献承接了此前工作。",
+  "summary_en": "The author reports Opus 5.5 building on an existing emulator and prior work to translate a GBC game, add variable-width fonts and change currency formatting, with original-hardware testing.",
+  "checkedAt": "2026-10-03T08:29:57+00:00",
+  "platform": "Reddit",
+  "author": "u/porkyminch",
+  "date": "2026-10-03",
+  "likes": 1,
+  "mediaKind": "image",
+  "metricsCheckedAt": "2026-10-03T08:29:57+00:00",
+  "discoveredVia": "Arctic Shift archive of seven public subreddits; not direct Reddit API",
+  "evidenceBasis": "Original Reddit post title, available selftext and attachment metadata; author-reported work or incident, not independently reproduced.",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1wwh4ql/gopherbonefengkuangdafuweng_en_ai_translation_of/",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1wwh4ql/gopherbonefengkuangdafuweng_en_ai_translation_of/",
+  "resources": [
+   {
+    "label": "作者提供的项目",
+    "label_en": "Creator project",
+    "url": "https://github.com/gopherbone/fengkuangdafuweng_en"
+   }
+  ]
+ },
+ {
+  "category": "education",
+  "evidenceType": "演示",
+  "title": "128 节算法的逐步调试课堂",
+  "title_en": "Step-through debugger for 128 algorithm lessons",
+  "summary": "Algoviz 将代码、变量与双面板动画同步，支持倒放、断点及 JS/Python。早期由 Fable 开发，后期调试器和新课程由 Opus 5.5 参与，作者负责选题和核对。",
+  "summary_en": "Algoviz synchronizes code, variables and two animated panels with reverse stepping, breakpoints and JS/Python. Fable built earlier work; Opus 5.5 contributed later debugger features and lessons under human review.",
+  "checkedAt": "2026-10-03T08:29:57+00:00",
+  "platform": "Reddit",
+  "author": "u/dataviz1000",
+  "date": "2026-10-03",
+  "likes": 1,
+  "poster": "https://external-preview.redd.it/El5rL2NcFqqkdxf05COi-Q-GfxdaezmamQH6KWj-tnI.png?auto=webp&s=836367aade950b37a6230b9b0ae599959b3d3f87",
+  "mediaKind": "image",
+  "metricsCheckedAt": "2026-10-03T08:29:57+00:00",
+  "discoveredVia": "Arctic Shift archive of seven public subreddits; not direct Reddit API",
+  "evidenceBasis": "Original Reddit post title, available selftext and attachment metadata; author-reported work or incident, not independently reproduced.",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1wwdcdf/i_built_a_stepthrough_debugger_for_128_algorithm/",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1wwdcdf/i_built_a_stepthrough_debugger_for_128_algorithm/",
+  "resources": [
+   {
+    "label": "作者提供的项目",
+    "label_en": "Creator project",
+    "url": "https://adamsohn.com/algoviz/"
+   },
+   {
+    "label": "作者提供的项目",
+    "label_en": "Creator project",
+    "url": "https://github.com/adam-s/algoviz"
+   }
+  ]
+ },
+ {
+  "category": "coding",
+  "evidenceType": "演示",
+  "title": "从 iPhone 远程开发生活记录应用",
+  "title_en": "Building a life logger remotely from an iPhone",
+  "summary": "作者通过手机指挥 Mac mini 上的 Opus 5.5 写 Swift、运行测试并回传模拟器截图，制作本地生活记录应用；发帖时仍在商店审核与 TestFlight 阶段。",
+  "summary_en": "The creator directs Opus 5.5 on a Mac mini from an iPhone to write Swift, test and return simulator screenshots for a local life logger, still in TestFlight/App Store review at posting.",
+  "checkedAt": "2026-10-03T08:29:57+00:00",
+  "platform": "Reddit",
+  "author": "u/Jixers",
+  "date": "2026-10-02",
+  "likes": 1,
+  "mediaKind": "video",
+  "metricsCheckedAt": "2026-10-03T08:29:57+00:00",
+  "discoveredVia": "Arctic Shift archive of seven public subreddits; not direct Reddit API",
+  "evidenceBasis": "Original Reddit post title, available selftext and attachment metadata; author-reported work or incident, not independently reproduced.",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1wvypbl/the_app_i_dreamed_of_thank_opus_55/",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1wvypbl/the_app_i_dreamed_of_thank_opus_55/"
+ },
+ {
+  "category": "audio",
+  "evidenceType": "演示",
+  "title": "LOAD-BEARING 代码音乐视频",
+  "title_en": "LOAD-BEARING coded music video",
+  "summary": "作者用 Opus 5.5 将口头禅做成歌曲，称节拍、声音合成器和每帧画面均由代码产生，未使用音乐、语音或图像生成模型。",
+  "summary_en": "The creator turns a recurring phrase into a song with Opus 5.5 and reports coded beats, a custom voice synthesizer and coded frames without music, voice or image models.",
+  "checkedAt": "2026-10-03T08:29:57+00:00",
+  "platform": "Reddit",
+  "author": "u/No-Cheetah-6338",
+  "date": "2026-10-02",
+  "likes": 1,
+  "mediaKind": "video",
+  "metricsCheckedAt": "2026-10-03T08:29:57+00:00",
+  "discoveredVia": "Arctic Shift archive of seven public subreddits; not direct Reddit API",
+  "evidenceBasis": "Original Reddit post title, available selftext and attachment metadata; author-reported work or incident, not independently reproduced.",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1wvylt8/had_claude_make_a_song_about_how_it_wont_stop/",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1wvylt8/had_claude_make_a_song_about_how_it_wont_stop/"
+ },
+ {
+  "category": "education",
+  "evidenceType": "演示",
+  "title": "交互式 3D Enigma 密码机",
+  "title_en": "Interactive 3D Enigma machine",
+  "summary": "作者展示由 Opus 5.5 制作的可交互 Enigma 机器并提供浏览器页面；制作时长来自作者自述，密码学行为未独立复验。",
+  "summary_en": "The creator shares an interactive browser Enigma machine attributed to Opus 5.5. Timing is self-reported and cryptographic behavior was not independently tested.",
+  "checkedAt": "2026-10-03T08:29:57+00:00",
+  "platform": "Reddit",
+  "author": "u/Cheesejaguar",
+  "date": "2026-10-03",
+  "likes": 1,
+  "mediaKind": "none",
+  "metricsCheckedAt": "2026-10-03T08:29:57+00:00",
+  "discoveredVia": "Arctic Shift archive of seven public subreddits; not direct Reddit API",
+  "evidenceBasis": "Original Reddit post title, available selftext and attachment metadata; author-reported work or incident, not independently reproduced.",
+  "sourceUrl": "https://www.reddit.com/r/claude/comments/1wwc83i/i_asked_opus_55_to_build_a_3d_interactive_enigma/",
+  "evidenceUrl": "https://www.reddit.com/r/claude/comments/1wwc83i/i_asked_opus_55_to_build_a_3d_interactive_enigma/",
+  "resources": [
+   {
+    "label": "作者提供的项目",
+    "label_en": "Creator project",
+    "url": "https://cheesejaguar.github.io/enigma/"
+   }
+  ]
+ },
+ {
+  "category": "agents",
+  "evidenceType": "集成",
+  "title": "Claude Fables 工具活动动画",
+  "title_en": "Claude Fables activity cartoons",
+  "summary": "Opus 5.5 编写工具调用钩子、场景验证器、SVG 渲染与测试，将工作过程变成动画。运行时由 Sonnet/Haiku 生成场景；作者说明需本地运行。",
+  "summary_en": "Opus 5.5 wrote hooks, scene validation, SVG rendering and tests for animated tool activity. Sonnet/Haiku generate scenes at runtime; the author notes it runs locally.",
+  "checkedAt": "2026-10-03T08:29:57+00:00",
+  "platform": "Reddit",
+  "author": "u/dagerika",
+  "date": "2026-10-02",
+  "likes": 1,
+  "mediaKind": "video",
+  "metricsCheckedAt": "2026-10-03T08:29:57+00:00",
+  "discoveredVia": "Arctic Shift archive of seven public subreddits; not direct Reddit API",
+  "evidenceBasis": "Original Reddit post title, available selftext and attachment metadata; author-reported work or incident, not independently reproduced.",
+  "sourceUrl": "https://www.reddit.com/r/claude/comments/1ww2baf/i_built_claude_fables_a_claude_code_mod_that/",
+  "evidenceUrl": "https://www.reddit.com/r/claude/comments/1ww2baf/i_built_claude_fables_a_claude_code_mod_that/",
+  "resources": [
+   {
+    "label": "作者提供的项目",
+    "label_en": "Creator project",
+    "url": "https://github.com/henrik-thevibe/Claude-Fables"
+   }
+  ]
+ },
+ {
+  "category": "coding",
+  "evidenceType": "演示",
+  "title": "让 iPhone 分担 Mac 的本地推理",
+  "title_en": "Sharing local inference between Mac and iPhone",
+  "summary": "作者用 Opus 5.5 开发分层预填充与长上下文缓存分担，公开代码和测量脚本。报告的加速取决于上下文与阶段，并不意味着所有生成请求都更快。",
+  "summary_en": "The author uses Opus 5.5 to develop split prefill and long-context cache offloading, sharing code and benchmarks. Reported gains depend on context and phase, not every generation request.",
+  "checkedAt": "2026-10-03T08:29:57+00:00",
+  "platform": "Reddit",
+  "author": "u/StayLameBro",
+  "date": "2026-10-02",
+  "likes": 1,
+  "poster": "https://external-preview.redd.it/dDVtbHdrd24zM3RoMVp30zpmYT17R8E7kjj3Guqcxx5HP1U9vnCW8-YhOLM_.png?format=pjpg&auto=webp&s=dcb5e4650631aeda4baa79bfd27c0ccfa71b58a1",
+  "mediaKind": "video",
+  "metricsCheckedAt": "2026-10-03T08:29:57+00:00",
+  "discoveredVia": "Arctic Shift archive of seven public subreddits; not direct Reddit API",
+  "evidenceBasis": "Original Reddit post title, available selftext and attachment metadata; author-reported work or incident, not independently reproduced.",
+  "sourceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wvz1ex/i_made_my_iphone_a_second_gpu_for_my_24_gb/",
+  "evidenceUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wvz1ex/i_made_my_iphone_a_second_gpu_for_my_24_gb/",
+  "resources": [
+   {
+    "label": "作者提供的项目",
+    "label_en": "Creator project",
+    "url": "https://github.com/StayLameBro/backburner"
+   }
+  ]
+ },
+ {
+  "category": "games",
+  "evidenceType": "演示",
+  "title": "Unihilation 星系生成原型",
+  "title_en": "Unihilation galaxy generation prototype",
+  "summary": "作者展示 Python、SQLite 和 Godot 的 4X 星系原型，当前开发使用 Opus 5.5。设计文档由人长期编写，项目仍处很早阶段，不能视为已完成游戏。",
+  "summary_en": "The creator shows a Python, SQLite and Godot 4X galaxy prototype currently developed with Opus 5.5, based on extensive human design work. It remains far from release.",
+  "checkedAt": "2026-10-03T08:29:57+00:00",
+  "platform": "Reddit",
+  "author": "u/war4peace79",
+  "date": "2026-10-02",
+  "likes": 1,
+  "poster": "https://external-preview.redd.it/etYjMilDUUjVKh7IjEdcre25kw8AhrjP19v3sQdmIYs.jpeg?auto=webp&s=633d078682ecca09bf088eea25821a6140a8fc17",
+  "mediaKind": "image",
+  "metricsCheckedAt": "2026-10-03T08:29:57+00:00",
+  "discoveredVia": "Arctic Shift archive of seven public subreddits; not direct Reddit API",
+  "evidenceBasis": "Original Reddit post title, available selftext and attachment metadata; author-reported work or incident, not independently reproduced.",
+  "sourceUrl": "https://www.reddit.com/r/vibecoding/comments/1ww2t83/unihilation_prototype_001_the_galaxy/",
+  "evidenceUrl": "https://www.reddit.com/r/vibecoding/comments/1ww2t83/unihilation_prototype_001_the_galaxy/"
+ },
+ {
+  "category": "coding",
+  "evidenceType": "演示",
+  "title": "QuickCMD 菜单栏命令启动器",
+  "title_en": "QuickCMD menu bar command launcher",
+  "summary": "作者主要用 Opus 5.5 与 Sonnet 5.5 制作 macOS 命令快捷入口，支持分组和输出查看，另由 Opus 制作演示视频；原帖同时推广付费产品。",
+  "summary_en": "The author mainly uses Opus 5.5 and Sonnet 5.5 for a macOS command launcher with grouping and output views, plus an Opus-made demo video. The post promotes a paid product.",
+  "checkedAt": "2026-10-03T08:29:57+00:00",
+  "platform": "Reddit",
+  "author": "u/pelmenibenni01",
+  "date": "2026-10-02",
+  "likes": 1,
+  "mediaKind": "video",
+  "metricsCheckedAt": "2026-10-03T08:29:57+00:00",
+  "discoveredVia": "Arctic Shift archive of seven public subreddits; not direct Reddit API",
+  "evidenceBasis": "Original Reddit post title, available selftext and attachment metadata; author-reported work or incident, not independently reproduced.",
+  "sourceUrl": "https://www.reddit.com/r/vibecoding/comments/1wvqnwz/quickcmd_your_most_used_commands_one_click_away/",
+  "evidenceUrl": "https://www.reddit.com/r/vibecoding/comments/1wvqnwz/quickcmd_your_most_used_commands_one_click_away/",
+  "resources": [
+   {
+    "label": "作者提供的项目",
+    "label_en": "Creator project",
+    "url": "https://www.quickcmd.app/"
+   }
+  ]
  }
 ]
