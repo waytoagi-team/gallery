@@ -56,6 +56,19 @@ class TopicTests(unittest.TestCase):
             second = {c["sourceUrl"]: c["id"] for c in merge_cases(topic)["cases"]}
             self.assertEqual(first, second)
 
+    def test_withdrawn_records_keep_later_positional_ids(self):
+        with tempfile.TemporaryDirectory() as directory:
+            topic = Topic(Path(directory), load_topic("opus-5-5").spec)
+            topic.data.mkdir()
+            records = [{"title": t, "category": "video", "platform": "Bilibili", "sourceUrl": f"https://www.bilibili.com/video/BV{t}"} for t in "ABC"]
+            path = topic.data / "extra_video.json"
+            path.write_text(json.dumps(records))
+            before = {c["title"]: c["id"] for c in merge_cases(topic)["cases"]}
+            records[1]["withdrawn"] = {"reason": "attribution"}
+            path.write_text(json.dumps(records))
+            after = {c["title"]: c["id"] for c in merge_cases(topic)["cases"]}
+            self.assertEqual(after, {"A": before["A"], "C": before["C"]})
+
     def test_keyword_only_records_cannot_be_published_as_fable_cases(self):
         topic = load_topic("fable-5-5")
         payload = merge_cases(topic)

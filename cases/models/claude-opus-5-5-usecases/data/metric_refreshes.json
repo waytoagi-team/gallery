@@ -2,7 +2,7 @@
  "meta": {
   "source": "https://api.fxtwitter.com/",
   "refreshedAt": "2026-10-05T18:47:58+00:00",
-  "note": "Primary X metrics only. Failed posts retain their previous values and timestamps."
+  "note": "Primary X metrics via FxTwitter with XAPI single-post fallback. Failures retain prior values and timestamps."
  },
  "cases": [
   {
