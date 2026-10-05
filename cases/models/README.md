@@ -8,4 +8,5 @@
 
 | 案例 | 模型 | 简介 |
 | --- | --- | --- |
-| [Claude Opus 5.5 使用案例合集](claude-opus-5-5-usecases) | Claude Opus 5.5 | 3953 条公开案例的结构化数据集（X / Reddit / 视频 / GitHub / Hacker News / Web），附可离线浏览的单文件 HTML |
+| [Claude Opus 5.5 使用案例合集](claude-opus-5-5-usecases) | Claude Opus 5.5 | 多来源结构化案例与独立静态页面，由共享 atlas 工具构建 |
+| [Fable 5.5 案例监控](fable-5-5-usecases) | Fable 5.5 | 已接入关键词发现，候选审核后进入案例库 |

@@ -1,0 +1,64 @@
+name: atlas-monitor
+on:
+  schedule:
+    - cron: "17 0 * * *" # 08:17 Asia/Shanghai; GitHub schedules can be delayed.
+  workflow_dispatch:
+    inputs:
+      topic:
+        description: Topic ID, or all enabled topics
+        type: choice
+        options: [all, opus-5-5, fable-5-5]
+        default: all
+permissions:
+  contents: read
+concurrency:
+  group: atlas-monitor
+  cancel-in-progress: false
+jobs:
+  topics:
+    runs-on: ubuntu-latest
+    outputs:
+      ids: ${{ steps.select.outputs.ids }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - id: select
+        env:
+          REQUESTED_TOPIC: ${{ inputs.topic || 'all' }}
+        run: |
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import json, os
+          from atlas.config import topics, load_topic
+          requested = os.environ["REQUESTED_TOPIC"]
+          selected = topics() if requested == "all" else [load_topic(requested)]
+          print("ids=" + json.dumps([t.id for t in selected if t.spec["monitor"]["enabled"]]))
+          PY
+  collect:
+    needs: topics
+    if: needs.topics.outputs.ids != '[]'
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      max-parallel: 1 # Share platform rate limits while isolating topic failures.
+      matrix:
+        topic: ${{ fromJSON(needs.topics.outputs.ids) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Discover candidates
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ATLAS_TOPIC: ${{ matrix.topic }}
+        run: python -m atlas collect --topic "$ATLAS_TOPIC" --report .cache/discovery/report.json
+      # Only minimal candidate metadata and sanitized receipts leave the runner.
+      # Raw bodies stay in .cache/atlas and are not uploaded or published.
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: discovery-${{ matrix.topic }}
+          path: .cache/discovery/report.json
+          retention-days: 30

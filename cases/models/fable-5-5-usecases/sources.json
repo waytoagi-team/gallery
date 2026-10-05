@@ -1,0 +1,50 @@
+[
+  {
+    "key": "github-repositories-1",
+    "url": "https://api.github.com/search/repositories?q=%22Fable+5.5%22&sort=updated&per_page=30",
+    "format": "json",
+    "platform": "GitHub",
+    "query": "Fable 5.5",
+    "coverage": "First page only; a keyword match is a candidate, not verified attribution."
+  },
+  {
+    "key": "hn-1",
+    "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Fable+5.5%22&hitsPerPage=30",
+    "format": "json",
+    "platform": "Hacker News",
+    "query": "Fable 5.5",
+    "coverage": "First page only; a keyword match is a candidate, not verified attribution."
+  },
+  {
+    "key": "github-repositories-2",
+    "url": "https://api.github.com/search/repositories?q=%22fable5.5%22&sort=updated&per_page=30",
+    "format": "json",
+    "platform": "GitHub",
+    "query": "fable5.5",
+    "coverage": "First page only; a keyword match is a candidate, not verified attribution."
+  },
+  {
+    "key": "hn-2",
+    "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22fable5.5%22&hitsPerPage=30",
+    "format": "json",
+    "platform": "Hacker News",
+    "query": "fable5.5",
+    "coverage": "First page only; a keyword match is a candidate, not verified attribution."
+  },
+  {
+    "key": "github-repositories-3",
+    "url": "https://api.github.com/search/repositories?q=%22fable-5-5%22&sort=updated&per_page=30",
+    "format": "json",
+    "platform": "GitHub",
+    "query": "fable-5-5",
+    "coverage": "First page only; a keyword match is a candidate, not verified attribution."
+  },
+  {
+    "key": "hn-3",
+    "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22fable-5-5%22&hitsPerPage=30",
+    "format": "json",
+    "platform": "Hacker News",
+    "query": "fable-5-5",
+    "coverage": "First page only; a keyword match is a candidate, not verified attribution."
+  }
+]
