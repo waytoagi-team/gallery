@@ -1,0 +1,76 @@
+{
+  "refreshedAt": "2026-10-03T09:02:43+00:00",
+  "scope": {
+    "key": "github-metric-attribution",
+    "zh": "GitHub 指标归属与排序纠正",
+    "en": "GitHub metric attribution and ranking correction"
+  },
+  "status": "completed",
+  "lastFullRefreshAt": "2026-09-30T07:38:18+00:00",
+  "lastMultiSourceRefreshAt": "2026-10-03T08:33:29+00:00",
+  "previousReport": "data/refresh_history/2026-10-03-before-github-metrics.json",
+  "previousCaseCount": 5527,
+  "caseCount": 5527,
+  "reviewedNewExtras": 0,
+  "coverage": {
+    "githubCasesAudited": 369,
+    "byKind": {
+      "repository": 300,
+      "issue": 28,
+      "pull_request": 33,
+      "file": 7,
+      "gist": 1
+    },
+    "incorrectInheritedStarsRemoved": 68,
+    "threadsAttempted": 61,
+    "threadsSucceeded": 61,
+    "repositoryStarsRefreshed": false,
+    "newDiscoveryPerformed": false
+  },
+  "posters": {
+    "total": 4544,
+    "missing": 983,
+    "unchanged": true
+  },
+  "limitations": [
+    "This update corrects existing GitHub metrics and ranking, not a new multi-source crawl. The previous multi-source refresh still has partial coverage.",
+    "Reactions include all reaction types and do not imply approval, quality or model attribution. Discussion comment counts exclude inline code-review comments and are displayed only.",
+    "File pages and Gists have no independently collected popularity metric; they remain searchable and unranked.",
+    "Repository stars remain from the previous snapshot. Counts are point-in-time observations, not real-time activity."
+  ],
+  "fetchReceiptFile": "data/refresh_history/2026-10-03-github-metrics.json",
+  "processLog": "UPDATE-2026-10-03-github-metrics.md",
+  "validation": {
+    "status": "passed",
+    "cases": 5527,
+    "existingNonmetricFieldsUnchanged": true,
+    "nonGithubCasesByteEquivalent": true,
+    "repositoryStarsUnchanged": true,
+    "previousEnrichmentFilesByteIdentical": true,
+    "duplicateIds": 0,
+    "duplicateSourceIdentities": 0,
+    "csvJsonConsistent": true,
+    "githubThreadReceiptsMatched": 61,
+    "pythonRegressionTests": 32,
+    "javascriptRankingTests": 3,
+    "gitDiffCheck": "passed",
+    "offlineBuildDeterministic": true,
+    "browser": {
+      "status": "passed",
+      "desktop": [
+        1440,
+        1000
+      ],
+      "mobile": [
+        390,
+        844
+      ],
+      "checkedViews": 24,
+      "runtimeErrors": 0,
+      "mobileOverflow": false,
+      "offlineFileMode": true,
+      "renderedRankingVerified": true,
+      "sortAndLanguagePreserved": true
+    }
+  }
+}

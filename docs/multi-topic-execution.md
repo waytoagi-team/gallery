@@ -63,3 +63,13 @@
 - 自动发现目前只配置 GitHub 与 HN。X、Reddit、视频等来源可按相同入口继续配置，未声称已有全平台覆盖。
 - 候选报告保留 30 天，长期审核记录需要归档到专题 reports。
 - 浏览器测试屏蔽外部海报请求，只验证页面行为与本地资源，未复测全部第三方图床可用性。
+
+## 2026 年 10 月 6 日（北京时间）合并与上线
+
+- 合并前复核：两个 PR 均无冲突，CI 通过；gallery main 自 10 月 3 日 `4d172e7` 后无新提交；`/usecase-atlas/` 前缀已有生效路由，Fable 无需新增规则。
+- [源码 PR 24](https://github.com/waytoagi-team/gallery/pull/24) 以 squash 方式合并，main 上的合并提交为 `0655508a10de6ceae28d3284bcccadf8a7c30d86`。合并后 atlas-validate 与 notify-static-pages 均成功。
+- [发布清单 PR 41](https://github.com/waytoagi-team/waytoagi-static-pages/pull/41) 合并前，将两处 ref 从分支提交 `b9ae670…` 改为上述合并提交，重新运行预检：Opus 53 个、Fable 5 个发布文件，冒烟通过。随后以 squash 方式合并，合并提交为 `71c4cf2`。
+- [部署](https://github.com/waytoagi-team/waytoagi-static-pages/actions/runs/37356506547) 成功：组装、冒烟、Pages 部署、清理 www 缓存与正式地址回归检查通过。
+- 正式地址核对：两个专题的 `index.html`、`data/all_cases.json`、`assets/og-image.png`、`build.json` 与 gallery `0655508` 中 public 文件的 MD5 全部一致。
+- 合并源码后自动生成的 [bump PR 42](https://github.com/waytoagi-team/waytoagi-static-pages/pull/42) 仍使用旧 source.dir，已关闭且未合并。之后 Opus 的 bump PR 以 public 目录为准。
+- 迁移后线上只提供 public 中的文件；原目录中的 `data/extra_*.json`、`UPDATE-*.md` 与脚本仍在仓库中，不再由网站直接提供。
