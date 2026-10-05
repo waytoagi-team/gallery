@@ -1668,5 +1668,351 @@
   "checkedAt": "2026-10-03T08:29:57+00:00",
   "discoveredVia": "HN Algolia comment search since 2026-10-02",
   "evidenceBasis": "Original firsthand HN comment reviewed; author claims not independently reproduced."
+ },
+ {
+  "category": "coding",
+  "evidenceType": "评测",
+  "title": "PR 衍生代理评测 Self-bench",
+  "title_en": "Self-bench PR-derived agent evals",
+  "summary": "Self-bench 团队用代理从 PR 生成评测，在 PostHog、Next.js、Sentry 等代码库运行，报告 Kimi K3 与 GLM 5.3 因 token 效率低，通常比 GPT-6.1 Sol 与 Opus 5.5 更贵更弱。",
+  "summary_en": "The Self-bench team generates evals from PRs and ran them on codebases such as PostHog, Next.js and Sentry, reporting Kimi K3 and GLM 5.3 usually costlier yet weaker than GPT-6.1 Sol and Opus 5.5 due to token efficiency.",
+  "checkedAt": "2026-10-05T19:11:17+00:00",
+  "platform": "Hacker News",
+  "author": "avyayv",
+  "date": "2026-10-05",
+  "likes": 2,
+  "mediaKind": "none",
+  "discoveredVia": "HN Algolia search_by_date since 2026-10-03",
+  "evidenceBasis": "Original HN comment or post text; first-hand report, not independently reproduced.",
+  "sourceUrl": "https://news.ycombinator.com/item?id=49967408",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=49967408",
+  "resources": [
+   {
+    "label": "代码仓库",
+    "label_en": "Code repo",
+    "url": "https://github.com/mupt-ai/self-bench"
+   },
+   {
+    "label": "评测结果网站",
+    "label_en": "Eval results site",
+    "url": "https://selfbench.dev"
+   }
+  ]
+ },
+ {
+  "category": "web",
+  "evidenceType": "演示",
+  "title": "170 个网站的 2019 版设计扩展",
+  "title_en": "Chrome extension restoring 2019 site designs",
+  "summary": "作者用 Opus 5.5 检索历史截图，在一个月内为约 170 个高流量网站逐个实现 2019 年版界面，作者对照截图测试迭代，做成开源 Chrome 扩展 net19。",
+  "summary_en": "The author used Opus 5.5 to find archived screenshots and implement 2019-era styles for about 170 popular sites over a month, testing each against captures, as the open-source net19 Chrome extension.",
+  "checkedAt": "2026-10-05T19:11:17+00:00",
+  "platform": "Hacker News",
+  "author": "henry-xli",
+  "date": "2026-10-05",
+  "likes": null,
+  "mediaKind": "none",
+  "discoveredVia": "HN Algolia search_by_date since 2026-10-03",
+  "evidenceBasis": "Original HN comment or post text; first-hand report, not independently reproduced.",
+  "sourceUrl": "https://news.ycombinator.com/item?id=49966734",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=49966734",
+  "resources": [
+   {
+    "label": "Chrome 应用商店页面",
+    "label_en": "Chrome Web Store listing",
+    "url": "https://chromewebstore.google.com/detail/net19/aomcmjccojigoiehgcomlpbiabllpeif"
+   },
+   {
+    "label": "代码仓库",
+    "label_en": "Code repo",
+    "url": "https://github.com/PigeonFlare/net19"
+   }
+  ]
+ },
+ {
+  "category": "video",
+  "evidenceType": "演示",
+  "title": "DNTLS 信息说明短视频",
+  "title_en": "DNTLS informational video",
+  "summary": "作者用 Opus 5.5 制作 DNTLS 信息说明视频，报告耗时约 45 分钟，经 OpenRouter 生成配音与音效的费用不到 1 美元。",
+  "summary_en": "The author made a DNTLS explainer video with Opus 5.5, reporting about 45 minutes and under $1 of OpenRouter voice-over and sound costs.",
+  "checkedAt": "2026-10-05T19:11:17+00:00",
+  "platform": "Hacker News",
+  "author": "aliasxneo",
+  "date": "2026-10-05",
+  "likes": null,
+  "mediaKind": "none",
+  "discoveredVia": "HN Algolia search_by_date since 2026-10-03",
+  "evidenceBasis": "Original HN comment or post text; first-hand report, not independently reproduced.",
+  "sourceUrl": "https://news.ycombinator.com/item?id=49965147",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=49965147",
+  "resources": [
+   {
+    "label": "YouTube 视频",
+    "label_en": "Video on YouTube",
+    "url": "https://www.youtube.com/watch?v=ijFFpMpS8W0"
+   }
+  ]
+ },
+ {
+  "category": "video",
+  "evidenceType": "集成",
+  "title": "代码优先视频库 gitframes",
+  "title_en": "gitframes code-first video library",
+  "summary": "gitframes 作者在 HN 评论中称，这个基于 WebGPU、供编码代理用 TypeScript 驱动的视频合成库，其示例影片由 Opus 5.5 以 medium 思考强度制作，约耗时 25 分钟。",
+  "summary_en": "The gitframes author says the example films for this WebGPU-based, agent-driven TypeScript video library were made by Opus 5.5 at medium thinking in about 25 minutes.",
+  "checkedAt": "2026-10-05T19:11:17+00:00",
+  "platform": "Hacker News",
+  "author": "oknaslnkn",
+  "date": "2026-10-05",
+  "likes": null,
+  "mediaKind": "none",
+  "discoveredVia": "HN Algolia search_by_date since 2026-10-03",
+  "evidenceBasis": "Original HN comment or post text; first-hand report, not independently reproduced.",
+  "sourceUrl": "https://news.ycombinator.com/item?id=49964640",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=49964640",
+  "resources": [
+   {
+    "label": "代码仓库",
+    "label_en": "Code repo",
+    "url": "https://github.com/gatewai-dev/gitframes"
+   }
+  ]
+ },
+ {
+  "category": "3d",
+  "evidenceType": "演示",
+  "title": "珠宝主题 3D 小镇 Livistone",
+  "title_en": "Livistone jewelry-themed 3D town",
+  "summary": "建筑师兼珠宝设计师与伴侣将其作品做成可漫游的 Three.js 3D 小镇，先用 Astra 建出原型，报告 Opus 5.5 在光照与贴图改进上优于 Fable 与 Astra，3D 模型生成则由 Sol 承担。",
+  "summary_en": "An architect and jewelry designer turned her pieces into a walkable Three.js town, starting with Astra and reporting Opus 5.5 did better than Fable and Astra on lighting and texture improvements, while Sol generated 3D models.",
+  "checkedAt": "2026-10-05T19:11:17+00:00",
+  "platform": "Hacker News",
+  "author": "Livia_Zaharia",
+  "date": "2026-10-05",
+  "likes": null,
+  "mediaKind": "none",
+  "discoveredVia": "HN Algolia search_by_date since 2026-10-03",
+  "evidenceBasis": "Original HN comment or post text; first-hand report, not independently reproduced.",
+  "sourceUrl": "https://news.ycombinator.com/item?id=49964234",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=49964234",
+  "resources": [
+   {
+    "label": "代码仓库",
+    "label_en": "Code repo",
+    "url": "https://github.com/GlucoseDAO/livistone"
+   },
+   {
+    "label": "在线漫游",
+    "label_en": "Explore online",
+    "url": "https://livistone.liviazaharia.com/"
+   }
+  ]
+ },
+ {
+  "category": "computer-use",
+  "evidenceType": "限制",
+  "title": "拒绝登录非本地测试站点",
+  "title_en": "Refuses to log into non-localhost sites",
+  "summary": "作者用 Claude Code 在测试环境验证工单时，Opus 5.5 与 Opus 4.8 均拒绝登录非 localhost 网站，作者称此前该流程可以正常运行。",
+  "summary_en": "The author reports Opus 5.5 and Opus 4.8 in Claude Code refusing to log into a non-localhost test environment to verify work items, a flow that previously worked.",
+  "checkedAt": "2026-10-05T19:11:17+00:00",
+  "platform": "Hacker News",
+  "author": "xeonax",
+  "date": "2026-10-05",
+  "likes": 1,
+  "mediaKind": "none",
+  "discoveredVia": "HN Algolia search_by_date since 2026-10-03",
+  "evidenceBasis": "Original HN comment or post text; first-hand report, not independently reproduced.",
+  "sourceUrl": "https://news.ycombinator.com/item?id=49964064",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=49964064"
+ },
+ {
+  "category": "games",
+  "evidenceType": "演示",
+  "title": "旧金山讽刺版 Runescape",
+  "title_en": "Fogscape, a San Francisco Runescape parody",
+  "summary": "作者称这款讽刺旧金山的 Runescape 风格网页游戏完全由 Opus 5.5 编写，使用 Convex 后端与原生 TypeScript，用于测试实时功能。",
+  "summary_en": "The author says this San Francisco parody of Runescape was written entirely by Opus 5.5 with a Convex backend and vanilla TypeScript to test realtime features.",
+  "checkedAt": "2026-10-05T19:11:17+00:00",
+  "platform": "Hacker News",
+  "author": "pbmango",
+  "date": "2026-10-04",
+  "likes": 1,
+  "mediaKind": "none",
+  "discoveredVia": "HN Algolia search_by_date since 2026-10-03",
+  "evidenceBasis": "Original HN comment or post text; first-hand report, not independently reproduced.",
+  "sourceUrl": "https://news.ycombinator.com/item?id=49958239",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=49958239",
+  "resources": [
+   {
+    "label": "在线试玩",
+    "label_en": "Play online",
+    "url": "https://fogscape.vercel.app/"
+   }
+  ]
+ },
+ {
+  "category": "coding",
+  "evidenceType": "限制",
+  "title": "逆向旧软件时会话被分类器封锁",
+  "title_en": "Classifier poisons a reverse-engineering session",
+  "summary": "作者用 Opus 5.5 逆向一款 2000 年代初的光盘克隆工具时，内置分类器介入后会话持续拒绝，连撰写交接文档或转做其他任务也被禁止，换用较弱模型无效，最终所有回复在开始前即被终止。",
+  "summary_en": "While reverse-engineering an early-2000s disc cloning tool with Opus 5.5, the author's session was poisoned by the classifier: handoff notes and other tasks were refused, switching models did not help, and eventually every response was cut off.",
+  "checkedAt": "2026-10-05T19:11:17+00:00",
+  "platform": "Hacker News",
+  "author": "GaryBluto",
+  "date": "2026-10-04",
+  "likes": null,
+  "mediaKind": "none",
+  "discoveredVia": "HN Algolia search_by_date since 2026-10-03",
+  "evidenceBasis": "Original HN comment or post text; first-hand report, not independently reproduced.",
+  "sourceUrl": "https://news.ycombinator.com/item?id=49950642",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=49950642"
+ },
+ {
+  "category": "3d",
+  "evidenceType": "演示",
+  "title": "房屋施工图转 Blender 模型",
+  "title_en": "House blueprint to a Blender model",
+  "summary": "作者让 Opus 5.5（xhigh）根据含矢量图的房屋施工图 PDF 在 Blender 中建模，报告 45 分钟一次完成、超过自己 50 多小时的手工成果并指出图纸问题，/usage 显示 API 等价成本 45 美元。",
+  "summary_en": "The author had Opus 5.5 (xhigh) model a house in Blender from a vector blueprint PDF, reporting a 45-minute one-shot that beat 50+ hours of manual work, flagged drawing issues and merged interior renders; /usage showed $45 API-equivalent.",
+  "checkedAt": "2026-10-05T19:11:17+00:00",
+  "platform": "Hacker News",
+  "author": "pawelduda",
+  "date": "2026-10-03",
+  "likes": null,
+  "mediaKind": "none",
+  "discoveredVia": "HN Algolia search_by_date since 2026-10-03",
+  "evidenceBasis": "Original HN comment or post text; first-hand report, not independently reproduced.",
+  "sourceUrl": "https://news.ycombinator.com/item?id=49948983",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=49948983"
+ },
+ {
+  "category": "agents",
+  "evidenceType": "限制",
+  "title": "API 不再接受旧式 thinking 参数",
+  "title_en": "API rejects the legacy thinking parameter",
+  "summary": "作者报告通过 API 调用 Opus 5.5 时，旧的 thinking: {type: enabled} 参数被直接拒绝，只接受自适应思考，导致其代理框架出错。",
+  "summary_en": "The author reports the Opus 5.5 API rejecting the legacy thinking: {type: enabled} setting outright, accepting only adaptive thinking, which broke their agent harness.",
+  "checkedAt": "2026-10-05T19:11:17+00:00",
+  "platform": "Hacker News",
+  "author": "yait",
+  "date": "2026-10-03",
+  "likes": null,
+  "mediaKind": "none",
+  "discoveredVia": "HN Algolia search_by_date since 2026-10-03",
+  "evidenceBasis": "Original HN comment or post text; first-hand report, not independently reproduced.",
+  "sourceUrl": "https://news.ycombinator.com/item?id=49948655",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=49948655"
+ },
+ {
+  "category": "coding",
+  "evidenceType": "演示",
+  "title": "让童年老游戏重新运行",
+  "title_en": "Restoring a childhood game on modern Windows",
+  "summary": "作者报告 Opus 5.5 让一款在现代 Windows 上难以启动的童年游戏恢复运行，并修补二进制中的多个缺陷，数小时内把整个战役梳理为状态机图，正进行图形放大；未提供项目链接。",
+  "summary_en": "The author reports Opus 5.5 got a childhood game running on modern Windows while patching several binary bugs, mapped the campaign as a state-machine graph within hours and is now upscaling graphics; no link is given.",
+  "checkedAt": "2026-10-05T19:11:17+00:00",
+  "platform": "Hacker News",
+  "author": "TeMPOraL",
+  "date": "2026-10-03",
+  "likes": null,
+  "mediaKind": "none",
+  "discoveredVia": "HN Algolia search_by_date since 2026-10-03",
+  "evidenceBasis": "Original HN comment or post text; first-hand report, not independently reproduced.",
+  "sourceUrl": "https://news.ycombinator.com/item?id=49948442",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=49948442"
+ },
+ {
+  "category": "web",
+  "evidenceType": "演示",
+  "title": "星际迷航风格 LCARS 页面",
+  "title_en": "Star Trek LCARS-inspired layout",
+  "summary": "作者向 Opus 5.5 提供设计参考图并要求侧重流动 SVG，生成星际迷航电脑风格的 LCARS 页面，并公开了演示链接。",
+  "summary_en": "The author gave Opus 5.5 design reference images and asked it to focus on flowing SVGs, producing a Star Trek LCARS-inspired page with a public demo.",
+  "checkedAt": "2026-10-05T19:11:17+00:00",
+  "platform": "Hacker News",
+  "author": "jjcm",
+  "date": "2026-10-03",
+  "likes": null,
+  "mediaKind": "none",
+  "discoveredVia": "HN Algolia search_by_date since 2026-10-03",
+  "evidenceBasis": "Original HN comment or post text; first-hand report, not independently reproduced.",
+  "sourceUrl": "https://news.ycombinator.com/item?id=49948268",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=49948268",
+  "resources": [
+   {
+    "label": "演示页面",
+    "label_en": "Demo page",
+    "url": "https://html.non.io/lcars-opus-5.5"
+   }
+  ]
+ },
+ {
+  "category": "education",
+  "evidenceType": "教程",
+  "title": "用 SVG 动画解释 CNC 算法",
+  "title_en": "SVG animations to explain CNC algorithms",
+  "summary": "作者在用 Opus 5.5 优化 CNC 算法时让它绘制 SVG 动画解释思路，并用基础提示要求通过脚本与真实数学生成而非凭推断绘制；作者称多数动画准确，偶有幻觉。",
+  "summary_en": "While Opus 5.5 optimizes the author's CNC algorithms, the author has it sketch SVG animations generated via scripts and real math to explain its reasoning, reporting most are on point with occasional hallucinations.",
+  "checkedAt": "2026-10-05T19:11:17+00:00",
+  "platform": "Hacker News",
+  "author": "injidup",
+  "date": "2026-10-03",
+  "likes": null,
+  "mediaKind": "none",
+  "discoveredVia": "HN Algolia search_by_date since 2026-10-03",
+  "evidenceBasis": "Original HN comment or post text; first-hand report, not independently reproduced.",
+  "sourceUrl": "https://news.ycombinator.com/item?id=49945076",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=49945076"
+ },
+ {
+  "category": "graphics",
+  "evidenceType": "演示",
+  "title": "蓝图风壁纸主题 P(bloom)",
+  "title_en": "P(bloom) blueprint wallpaper theme",
+  "summary": "作者用 Opus 5.5（medium/high）与 Suno 制作 Omarchy 主题，含 42 张蓝图风壁纸（共 2268 个版本文件）、配色、两种曲风的音乐视频与下载应用，报告过程中做了约 500 个决定并撰文记录。",
+  "summary_en": "With Opus 5.5 (medium/high) and Suno, the author made an Omarchy theme with 42 blueprint wallpapers in 2,268 variants, a color theme, a music video and a download app, documenting about 500 decisions in a blog post.",
+  "checkedAt": "2026-10-05T19:11:17+00:00",
+  "platform": "Hacker News",
+  "author": "qoobaa",
+  "date": "2026-10-03",
+  "likes": 2,
+  "mediaKind": "none",
+  "discoveredVia": "HN Algolia search_by_date since 2026-10-03",
+  "evidenceBasis": "Original HN comment or post text; first-hand report, not independently reproduced.",
+  "sourceUrl": "https://news.ycombinator.com/item?id=49944831",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=49944831",
+  "resources": [
+   {
+    "label": "代码仓库",
+    "label_en": "Code repo",
+    "url": "https://github.com/ncr/omarchy-p-bloom-theme"
+   },
+   {
+    "label": "制作过程博客",
+    "label_en": "Making-of blog post",
+    "url": "https://jacekbecela.com/blog/omarchy-p-bloom-theme/"
+   }
+  ]
+ },
+ {
+  "category": "coding",
+  "evidenceType": "演示",
+  "title": "Qwen Image 推理后端提速",
+  "title_en": "Faster Qwen Image backend outside ComfyUI",
+  "summary": "作者让 Opus 5.5 脱离 ComfyUI 为 Qwen Image 2.1 编写推理后端，通过缓存文本编码、融合投影矩阵乘法与分条带解码 VAE 等优化，报告生成时间缩短约 20%。",
+  "summary_en": "The author had Opus 5.5 write a Qwen Image 2.1 backend outside ComfyUI, caching text encoding, fusing projections and band-decoding the VAE, reporting about 20% faster generation.",
+  "checkedAt": "2026-10-05T19:11:17+00:00",
+  "platform": "Hacker News",
+  "author": "user43928",
+  "date": "2026-10-03",
+  "likes": null,
+  "mediaKind": "none",
+  "discoveredVia": "HN Algolia search_by_date since 2026-10-03",
+  "evidenceBasis": "Original HN comment or post text; first-hand report, not independently reproduced.",
+  "sourceUrl": "https://news.ycombinator.com/item?id=49943490",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=49943490"
  }
 ]
