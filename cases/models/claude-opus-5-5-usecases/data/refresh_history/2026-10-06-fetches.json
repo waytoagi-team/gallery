@@ -59461,11 +59461,83 @@
       "params": {
         "variables": "{\"rawQuery\":\"(\\\"Opus 5.5\\\" OR \\\"Opus5.5\\\" OR \\\"Opus-5.5\\\") since:2026-10-03 until:2026-10-04 -filter:retweets\",\"count\":40,\"cursor\":\"DAADDAABCgABHTvqMpJbEdcKAAIdO8k9ohtROgAIAAIAAAACCAADAAAAAAgABAAAABcKAAUdPh_5j4AnEAoABh0-H_mPfFaACwAHAAADvEFBQUFBQzZOc3dnQUFBTndBQUFBQUFBQUZYd0FBQUFIQUFBQVZ0QnAvc1RFVE9PSzlFQ3MyMXpybGNESUNJUVEvQ3poT0xtTDdLakp3QUxTUXlzVUZXV3lLeTZnWFhYV1pyWjRrV2Y2QUljalNJTkloSTZ5YW9pU3FSSE1vMVNvWWNDWnVYUkNQaVl6TUlIQWhKNEdSQ04wZEN3YTFtTFF5MmpuaWt4UUhURVNZME0vdmlUT0ZPd2VJZFF4cGlJMXFacmNBTTZDNE9Zeml3NGlCMnlyQlJFcTRvOE9zWkpjdTZVV09jZ3czMmlkUGNweFFURGpGd0FreEdRQlcvWVlXZVBBNFVHaWxVYVpmUjVWMkQxVTJpVjFVRVl3QmNzOGFrU0ZNUzRqRFMxblhzSUpMWXdrVHhFSml5NGgySStVQ1N2cE5LVGdTd3hEZ0dicVZIRkVhUHppZzBQTWNraU5lSTlRQ2RmMnFKNUtXZ1lxd3dCN3djQ1FqdHBOaWV2amppa2tKUlA5SnJFcEZST29HTkppV21jYXlmWnRHWUhCRlZ6a0xJbGR2RDlIVVk0TGk5Q2RiQk1vY3R6SUN0bC9Bc1h6UFVwUzBGVFhWV04xSGlEZmRGdUtyR3VFa1NHUFQ1N0hDN2N0RFZIUUEvSVlJQ3dCNTdUaUxFR3BubndjZTV2dytDamQ5QVJPT09ZaHEwUTNEaDBqQWZCbVVVODYrdHBvVWFYa08yZUtVc2l0NDd0ajcrMnVLanFXV0xDbEZja2RLbXJlQlB6OEFpNkpJVDQ5SllJVVI0eFpXamplNm1MazE5QU1Bb0FIdFFZaStReGhJZlNzVGt0a0FmVlpBS041Y2JURTV1T2Q5SGV5bVJKWkY1dWhrNnd6R3lteFl2N3FLV2lrWUZRY0taamNBeXlCcUVrVmx3OTAwT0Zsa2V2RU1qUmhra2dCQlY2WmIrVWptZ0ZxcHVHWjJtOUdJTmFlYW5xQnRGeCtLb1FTNCt6TVU0TnhReHZhQTdMSVpNa2M2eHdxeUw2d3JGY09GUHVCb1BuUUFjM1FHeHZ3ZVFoRkxsMHh2RzFXY3dnRmxjVHNIbXRHaHFhYUZVVEIxWXVkL29waHp5L3hNZFlOR3A5RyswbERMR0lsK094SUhvNEFCU2dRZG1QU3EvQzROOXBwMlNTVUNFUUppZFFXTWN4V2hnbHBJSUJqMWVmb3UxZVE5TGxxVUVUUTFVdHE4OXdJdlRRSk4za3VTVDB5QlRYaU5FZ0NUcTQ9AAA\",\"querySource\":\"typed_query\",\"product\":\"Latest\",\"includePromotedContent\":false}"
       },
+      "status": 200,
+      "elapsedSeconds": 1.97,
+      "bytes": 96929,
+      "fetchedAt": "2026-10-05T19:29:54Z",
+      "viaProxy": false,
+      "file": "x-day-2026-10-03-24-redo.json"
+    },
+    {
+      "endpoint": "/graphql/SearchTimeline",
+      "params": {
+        "variables": "{\"rawQuery\":\"(\\\"Opus 5.5\\\" OR \\\"Opus5.5\\\" OR \\\"Opus-5.5\\\") since:2026-10-03 until:2026-10-04 -filter:retweets\",\"count\":40,\"cursor\":\"DAADDAABCgABHTvqMpJbEdcKAAIdO8k9ohtROgAIAAIAAAACCAADAAAAAAgABAAAABcKAAUdPh_5j4AnEAoABh0-H_mPfFaACwAHAAADvEFBQUFBQzZOc3dnQUFBTndBQUFBQUFBQUZYd0FBQUFIQUFBQVZ0QnAvc1RFVE9PSzlFQ3MyMXpybGNESUNJUVEvQ3poT0xtTDdLakp3QUxTUXlzVUZXV3lLeTZnWFhYV1pyWjRrV2Y2QUljalNJTkloSTZ5YW9pU3FSSE1vMVNvWWNDWnVYUkNQaVl6TUlIQWhKNEdSQ04wZEN3YTFtTFF5MmpuaWt4UUhURVNZME0vdmlUT0ZPd2VJZFF4cGlJMXFacmNBTTZDNE9Zeml3NGlCMnlyQlJFcTRvOE9zWkpjdTZVV09jZ3czMmlkUGNweFFURGpGd0FreEdRQlcvWVlXZVBBNFVHaWxVYVpmUjVWMkQxVTJpVjFVRVl3QmNzOGFrU0ZNUzRqRFMxblhzSUpMWXdrVHhFSml5NGgySStVQ1N2cE5LVGdTd3hEZ0dicVZIRkVhUHppZzBQTWNraU5lSTlRQ2RmMnFKNUtXZ1lxd3dCN3djQ1FqdHBOaWV2amppa2tKUlA5SnJFcEZST29HTkppV21jYXlmWnRHWUhCRlZ6a0xJbGR2RDlIVVk0TGk5Q2RiQk1vY3R6SUN0bC9Bc1h6UFVwUzBGVFhWV04xSGlEZmRGdUtyR3VFa1NHUFQ1N0hDN2N0RFZIUUEvSVlJQ3dCNTdUaUxFR3BubndjZTV2dytDamQ5QVJPT09ZaHEwUTNEaDBqQWZCbVVVODYrdHBvVWFYa08yZUtVc2l0NDd0ajcrMnVLanFXV0xDbEZja2RLbXJlQlB6OEFpNkpJVDQ5SllJVVI0eFpXamplNm1MazE5QU1Bb0FIdFFZaStReGhJZlNzVGt0a0FmVlpBS041Y2JURTV1T2Q5SGV5bVJKWkY1dWhrNnd6R3lteFl2N3FLV2lrWUZRY0taamNBeXlCcUVrVmx3OTAwT0Zsa2V2RU1qUmhra2dCQlY2WmIrVWptZ0ZxcHVHWjJtOUdJTmFlYW5xQnRGeCtLb1FTNCt6TVU0TnhReHZhQTdMSVpNa2M2eHdxeUw2d3JGY09GUHVCb1BuUUFjM1FHeHZ3ZVFoRkxsMHh2RzFXY3dnRmxjVHNIbXRHaHFhYUZVVEIxWXVkL29waHp5L3hNZFlOR3A5RyswbERMR0lsK094SUhvNEFCU2dRZG1QU3EvQzROOXBwMlNTVUNFUUppZFFXTWN4V2hnbHBJSUJqMWVmb3UxZVE5TGxxVUVUUTFVdHE4OXdJdlRRSk4za3VTVDB5QlRYaU5FZ0NUcTQ9AAA\",\"querySource\":\"typed_query\",\"product\":\"Latest\",\"includePromotedContent\":false}"
+      },
       "status": 404,
       "elapsedSeconds": 0.66,
       "bytes": 0,
       "fetchedAt": "2026-10-05T17:25:03Z",
       "file": "x-day-2026-10-03-24.json"
+    },
+    {
+      "endpoint": "/graphql/SearchTimeline",
+      "params": {
+        "variables": "{\"rawQuery\":\"(\\\"Opus 5.5\\\" OR \\\"Opus5.5\\\" OR \\\"Opus-5.5\\\") since:2026-10-03 until:2026-10-04 -filter:retweets\",\"count\":40,\"cursor\":\"DAADDAABCgABHTvqMpJbEdcKAAIdO8gDBBtAaQAIAAIAAAACCAADAAAAAAgABAAAABgKAAUdPh_5j4AnEAoABh0-H_mPfC9wCwAHAAADvEFBQUFBQzZOc3dnQUFBT1lBQUFBQUFBQUZYd0FBQUFIQUFBQVZ0QnAvc1RFVE9PSzlFQ3MyMXpybGNESUNJU1EvQ3poT0xuYjdLako0UUxTUXlzVUZXV3lLeTZnWFhYV1pyWjRrV2Y2RUljalNKTklsSTZ5YW9xU3FSSE1vMVNvWWNDWnVYUkNQaVl6TUlIQWhKNEdSQ04wZEN3YTFtTFF5Mmpuamt4UkhUa3lZME0vdmlUT0ZPNGVJZFF4cGlJMXFacmNBTTZDNHVZem13NGlCMnpyQlJFcTRvOE9zWkpjdTZWV09jZ3czMmlkdmNweFFURGpGd0FreEdTQlcvWVlXZVBBNFVHcWxVYWJmUjVWMkQxVTJpVjFVRVl3QjhzOGFrU05NUzRqRFMxblg4SUpMWXdrYnhGSml5NHgrSStVQ3l2cFBLVGdTd3pEZ0dicVZIVkVhUHppbzBQTWNraU5lSTlRQ2RmMnFKNUtXZ1lxd3hSN3dlaVFqdHBOaWV2amppa3NKUlA5SnJrcEZST29HTkpxV21jYXkvWjlHWUhCRlZ6a0xJbGR2RDlIVVk1TGk5U2RmQmNvZHR6SUN0bC9Bc1h6UFVwUzJGVFhWV04zSGlEZmRGdUtyR3VFa1NHUFQ1N0hDN2N0RFZIUUEvWVlJQ3dCNTdUaUxFR3BuM3djKzV2dytpamQ5QVJPT09ZaHEwUTNEaDJqQWZCbWNVODYrdHBvV2FYa08yZUtVc2l0NDd0ajcrMnVLanFXV0xDbEZjbGRLbXJlQlB6OEFpNkpJVDQ5SllJVVo0eFpXamplNm1MazE5QU1Bb0FIdFFZaitReGhJZlNzVGt0a0lmVlpBS041Y2JURTV1T2Q5SGV5bVJKWkY1K2hrNnd6R3lteFl2N3FLV2lrWUZRY0taamNBeXlCcUVrVmx3OTAwT0Zsa2V2RU1uUmhra2dCQmQ2WmIrVWptZ0ZxcHVHWjJtOUdJTmFlYW5xQnRGeCtib3dTNCt6TVU0TnhReHZhQTdMSVpNa2M2eHdxeUw2d3JGY2VGUHVCb1BuUUFjM1FHeHZ3ZVFoRkwxMHp2RzFXY3dnRmxjVHNIbXRPcHE2YUZVVEIxWXVkL29waHp5L3hNZFpOR3A5RyswbERMR0lsK094SUhvNFFCU2dRZG1QU3EvQzROOXBwMlNXVWlFUUppZFEyT2N4V3BnbnJJSUJqMWVmb3UxZVE5TGxxVUVUUzFVdHE4OXdJdnpRSk4za3VUVDB5QlRYaU5FZ0NUcTQ9AAA\",\"querySource\":\"typed_query\",\"product\":\"Latest\",\"includePromotedContent\":false}"
+      },
+      "status": 200,
+      "elapsedSeconds": 1.77,
+      "bytes": 99966,
+      "fetchedAt": "2026-10-05T19:29:57Z",
+      "viaProxy": false,
+      "file": "x-day-2026-10-03-25-redo.json"
+    },
+    {
+      "endpoint": "/graphql/SearchTimeline",
+      "params": {
+        "variables": "{\"rawQuery\":\"(\\\"Opus 5.5\\\" OR \\\"Opus5.5\\\" OR \\\"Opus-5.5\\\") since:2026-10-03 until:2026-10-04 -filter:retweets\",\"count\":40,\"cursor\":\"DAADDAABCgABHTvqMpJbEdcKAAIdO8Z17VewiAAIAAIAAAACCAADAAAAAAgABAAAABkKAAUdPh_5j4AnEAoABh0-H_mPfAhgCwAHAAADvEFBQUFBQzZOc3dnQUFBUEFBQUFBQUFBQUZYd0FBQUFIQUFBQVZ0QnAvc3pFVE9PSzlFQ3MyMXpydGNISUNLU1EvQ3poT0xuYjdLako0UUxTUXlzVUZXV3lLeTZvWFhYV1pyWjRrVy82RUljalNKTklsSTZ5YW9xU3FSSE1vMVNvWWNDWnVYVENQaVl6TUlIQWhKNEdSQ04wZEN3YTFtTFl5Mmpuamt6UkhUa3lZME0vdmlUT2xPNGVJZFF4cGlJMXE1cmNBTTZDNHVZem13NGlCMjNyQlZFcTRvOE91WkpjdStWV09jZ3czMmlkdmNweFFURGpGd0FreEhTUmUvWVlXZVBCNFVHcWxVYWJmUjVWMkQxVTJpVjFVRVl3QjhzOGFtU05NUzRqRFMxblg4SUpMWXdrYnhGSml5NHgrSStVQ3l2cFBLVGdTd3pEaUdicVZIVkVhUC9qbzBQTWNraU5lSTlRQ2RmMnFKNUtXZ1lxd3hSN3dlaVFqdHBOaWV2amppa3NKUlA5SnJrcEZSZXNHTkpxV21jYXkvWjlHWUhCTlZ6a0xJbGR2RDlIMFk1TGk5U2RmQmNvZHR6SWl0bC9Bc1h6UFVweTJGVFhWV04zSGlEZmRGdUxyR3VFMFNHUFQ1N0hpN2N0RFZIUUEvY1lJQ3dCNTdUaUxGR3BuM3djKzV2dytpamQ5QVJPT09ZaHEwUTNEaDJqQWZCbWNVODYrdHBvVzZYa08yZUtVc2l0ODd0ajcrMnVLanEyV0xDbEZjbGRLbXJlUlB6OEFpK0pJVDQ5SllJVVo0eFpXamplNm1MazE5QU5Bb0FIdFFZaitSeGhJZlNzVGt0bEkvVlpFS041Y2JURTV1T2Q5SGV5bVJKWkY1K2hrNnd6R3pteFl2N3FLV2lrWUZRY0taamNBeXlCcU1rVmx3OTAwT0Zsa2V2RU1uUnBra2hCQmQ2WmIrVWptZ0ZxcHVHYjJtOUdJTmFlYW5xSnRGeCtib3dTNCt6TVU2TnhReHZhQTdMSVpNa2M2eHdxeUw2d3JGY2VGUHVCb1BuUUFjM1FHeHZ3ZVFoRkwxMHp2RzFXY3dnRmxjVHNudXRPcHU2YUZVVEIxWXU5L29waHp5L3hNZFpOR3A5RysybERMR0lsK094SUh1NFFCU2dRZG1QU3EvQzROOXBwMlNXVWlFUUppZFEyT2N4V3BnbnJZSUJqMWVmb3UxZVE5TGxxVUVUUzFVdHE4OXdJdnpRSk4za3VUVDB5QnpYaU5GZ0NUcTQ9AAA\",\"querySource\":\"typed_query\",\"product\":\"Latest\",\"includePromotedContent\":false}"
+      },
+      "status": 200,
+      "elapsedSeconds": 2.51,
+      "bytes": 104432,
+      "fetchedAt": "2026-10-05T19:30:01Z",
+      "viaProxy": false,
+      "file": "x-day-2026-10-03-26-redo.json"
+    },
+    {
+      "endpoint": "/graphql/SearchTimeline",
+      "params": {
+        "variables": "{\"rawQuery\":\"(\\\"Opus 5.5\\\" OR \\\"Opus5.5\\\" OR \\\"Opus-5.5\\\") since:2026-10-03 until:2026-10-04 -filter:retweets\",\"count\":40,\"cursor\":\"DAADDAABCgABHTvqMpJbEdcKAAIdO8VB_loA8gAIAAIAAAACCAADAAAAAAgABAAAABoKAAUdPh_5j4AnEAoABh0-H_mPe-FQCwAHAAADvEFBQUFBQzZOc3dnQUFBUG9BQUFBQUFBQUZYd0FBQUFIQUFBQVZ0QnAvc3pFVE9PYTlFQ3MyMXpydGNIWUNLU1UvS3poT0xuYjdLako0UUxhUXlzVUZXV3lPeTZvWFhYV1pyWjRrVy82RUljalNMTklsSTZ5ZW9xU3FSSE1vMVNvWWNDWnVYYkNQaVl6TUlIQWhKNEdSQ04wZER3YTFtTFl5Mmpuamt6UkhUa3lhME0vL3pUT2xPNGVJZlF4cGlJMXE1cmNBTTZDNHVZem13NHFCMjNySlZFcTRvOE91WkpjdStWV2VjZ3czMnFkdmN0eFFURGpGd0FreEh5UmUvWVlXZVBCNFVHcWxVYWJmUjVWMkQxVTJpVjFVRVl3QitzOGFtU05NUzRqTFMxblg4SUpMWXcwYnhWSml5NHgrSStVQ3l2cFBLVGdYd3pEaUdicVZIVkVhUC9qbzBQTWNraU5lSTlRQ2RmMnFONUtYZ1lxd3hSN3dmaVFqdDVOaWV2amppa3NKUlA5SnJrcEZSZnNHTkpxV204YXkvWjlHWUhCTlZ6a2JJMWR2RDlIMFk1TGk5U2RmQmNzZHR6SWl0bC9Bc1h6UFVweTJGVFhWV04zSGlEZmRGdUxyR3VFMFNIUGI1N0hpN2N0RFZIUUEvY1lJQ3dCNTdUaUxGR3BuM3djKzV2dy9pamY5Z1JPT09ZaHEyVTNEaDJqQWZCbWNVODYrdHBvVzZYa08yZUtVc2l0ODd0ajcrK3VLcnEyV0xDbEZjbGRLMnJlUlB6OEFpK0pJVDQ5WllJVVo0eGJXamplN21MazE5QU5Bb0FIdFFZaitSeHBJZlNzVGt0bEsvWFpFT041Y2JURTV1T2Q5SGV5bVJKWkY1K2hrNnd6R3pteFl2N3FLMmlrWU5RY0taamNBeXlCcU1rVmx3OTAwT0Zsa2V2RU1uUnBra2hCQmQ2WmIrVWptZ0ZxcHVHYittOUdKTmFlYW5xSnRGeCs3c3d5NCt6TVU2TnhReHY2QTdMSVpNa2M2MXdxeUw2d3JGY2ZGUHVCb1BuUUFjM1FHeHZ3ZVFoRkwxMHp2RzFXY3dnRmxjVHNudXRPcHU2YUhVVEIxWXU5L29waHp5L3pNZFpOR3A5RysybERMR0lsK094SUh1NFFCU2dSZG12U3EvQzROOXBwMlNXVWlGUUppZFEyT2N4V3BnbnJZSUJqMWVmb3UxZVE5TGxxVUVUUzFVdHE4OTBJdnpRSk4za3VUVDB5QnpYaU5GZ0NUcTQ9AAA\",\"querySource\":\"typed_query\",\"product\":\"Latest\",\"includePromotedContent\":false}"
+      },
+      "status": 200,
+      "elapsedSeconds": 2.24,
+      "bytes": 144870,
+      "fetchedAt": "2026-10-05T19:30:04Z",
+      "viaProxy": false,
+      "file": "x-day-2026-10-03-27-redo.json"
+    },
+    {
+      "endpoint": "/graphql/SearchTimeline",
+      "params": {
+        "variables": "{\"rawQuery\":\"(\\\"Opus 5.5\\\" OR \\\"Opus5.5\\\" OR \\\"Opus-5.5\\\") since:2026-10-03 until:2026-10-04 -filter:retweets\",\"count\":40,\"cursor\":\"DAADDAABCgABHTvqMpJbEdcKAAIdO8QeqJqgLQAIAAIAAAACCAADAAAAAAgABAAAABsKAAUdPh_5j4AnEAoABh0-H_mPe7pACwAHAAADvEFBQUFBQzZOc3dnQUFBUVFBQUFBQUFBQUZYd0FBQUFIQUFBQVZ0QnAvc3pFVE9PYTlFR3MyMXpydGNIWUNhU1UvSzNoT0xuYjdLako0UUxhUXl0VUZXV3lPeTZvWFhYV1pyWjRrVy82RUljalNyTklsSSt5ZW91U3FSSE1vMVNvY2NDWnVYYkNQaVl6TUlIQWhKNEdSQ04wZER3YTFtTFl5Mmpuamt6UkhUMHllMHMvL3pUT2xPNGVJZlF4cGlJMXE1N2NBTTZENHVZem13NHFCMjNySlZFcTRvOE91WkpjdStWV2Vjd3czMnFkL2N0eFFURGpGd0Frekh5UmUvWllXZVBKNFVHcWxVYWJmUjVWMkQxVTJpVjEwRVl3QitzOGFtU05NVDRqTFMxblg4SUpMWXcwYngxSml5NHgrSStVQ3l2cFBLVGdYd3pEaUc3cVZIVkVhUC9qbzBQTWNraU5lSTlRQ2RmM3FONUtYZ1lxd3hSN3dmaVVqdDVOaWV2amppa3NKUlA5SnJrckZSZnNITkpxV204YTYvWjlHWUhCTlZ6a2JJMWR2RDlIMFk1TGk5U2RmQmNzZHQzSW10bC9Bc1h6UFVwNjJGVFhWV04zSGlIL2RGdUxyR3VFMFNYUGI1N0hpN2N0RFZIUUEvY1lJQ3dGNTdUaUxIR3RuM3c4KzV2dy9pamY5Z1JPT09ZaHEyVjNEbDJqQWZCbWNVKysrdHBvVzZYa08yZWFVc2l0ODd2ajcrK3VPcnEyV0xDbkZjbGRLMnJlUlB6OFFpK0pJVDQ5WllJY1o0emJXamplN21MazE5QU5Bb0FIdFE0ci9SeHBJZlN1VGt0bEsvWFpFT045Y2JURTV1dWQ5SGZ5bVJKWkY1K2hrNnd6R3pteFl2N3FLMmlsWU5ZY0taamNBeXlCcU1rVmx3OTAwT0Zsa2V2RU1uUnBra2hCQmQ2WjcrVWpta0ZxcHVHYittOUdKTmFlYW5xSnRGeCs3c3d5NCt6TVU2TnhReHY2QTdMSVpNa2M2MXdxeUw2d3JGY2ZGUHVCNFBuUUFjM1FHeHZ3ZVFwRkwxMHp2RzFXY3hnRmxjVHNudXRPcHU2YUhVVEIxWXU5L29yaHp5L3pNZFpOR3AvRysybExMR0lsK094SUh1NFFCU2dSZG12U3EvQzROOXBwMlNXVnlGUUppZFEydWN4V3BvbnJZSUJqMWVmb3UxZVk5TGxxVUVUUzFVdHE4OTBJdnpRSk4za3VUVDB5QnpYaU5GZ2lUcTQ9AAA\",\"querySource\":\"typed_query\",\"product\":\"Latest\",\"includePromotedContent\":false}"
+      },
+      "status": 200,
+      "elapsedSeconds": 2.43,
+      "bytes": 105119,
+      "fetchedAt": "2026-10-05T19:30:07Z",
+      "viaProxy": false,
+      "file": "x-day-2026-10-03-28-redo.json"
+    },
+    {
+      "endpoint": "/graphql/SearchTimeline",
+      "params": {
+        "variables": "{\"rawQuery\":\"(\\\"Opus 5.5\\\" OR \\\"Opus5.5\\\" OR \\\"Opus-5.5\\\") since:2026-10-03 until:2026-10-04 -filter:retweets\",\"count\":40,\"cursor\":\"DAADDAABCgABHTvqMpJbEdcKAAIdO8LECVbhtwAIAAIAAAACCAADAAAAAAgABAAAABwKAAUdPh_5j4AnEAoABh0-H_mPe5MwCwAHAAADvEFBQUFBQzZOc3dnQUFBUTRBQUFBQUFBQUZYd0FBQUFIQUFBQVZ0QnAvc3pFVE9PYTlFR3MyMTdydGNIWUNhU1UvTzNoT3JuYjdLako0UUxhUXl0VUZXV3lPeTZvWFhYV1pyWjRrVy82RUljalNyTklsSSs2ZW91U3FSSE1vMVNvY2NDWnVYYkNQaVl6TUlIQWhKNEdSQ04wZER3YTFuTFl5Mmpuamt6UkhiMHllMHMvL3pUT2xPNGVJZlF4cGlJMXE3N2NBTTZENHVZejJ3NHFCMjNySjFFcTRwOE91WkpjdStWV2Vjd3czMnFkL2N0eFFURGpGd0Frekh5UmUvWllXZVBwNFVtdWxVYWJmUjVWMlQxVTJpMTEwVVl3Qis4OGFtU05NVDhqTFMxdlg4b0xMWXcwYngxSml5NHgrSStVQ3l2cFBLVGdYd3pEaUc3clZIVkVhUC9qbzBQTThraU5lWTlRQzlmM3FONUtYZ1lxd3haN3dmaVVqdDVOaWV2amppa3NaUlA5SnJrckZSZnNITkpxV204YTYvWjlHWUhKdFZ6a2JJMWR2ajlIMFk1TGk5U2RmRGNzZHQzSW10bC9Jc1h6UFV0NzJWVFhWV04zSGlIL2RGdUxyR3VFMGFYUGI1N0hpN2N0RFZIUUEvY1lJQ3lGNTdUaUxQR3RuM3c4Kzd2dy9pamY5Z1JPT09ZaHEyVjNMbDJqQWZCbWNVKysrdHBvVzZYa08yZWFVc2l0ODd2ajcrK3VPcnEyV0xDbkZjbGRLMnJlUlB6OFFpK0pJVDQ5WllJY1o0emJXamplN21MazE5QU5Bb0FIdFE0ci9SeHBJZlN1VGt0bGEvWDVFT045Y2JURzV1dWQ5SGZ5bVJKWkY1K2gwNnd6R3p1eFl2N3FLMmlsWU5ZY0taamNBeXlCcU1rVmx3OTAwT0Z0a2V2RU1uUnBtbmhCQmQrWjcvMGptc0ZxcHVHYittOUhKTmFlYW5xSnRWeCs3czB5NCt6TVU2UHhReHY2QTdMSVpNa2U2MXc2eUw2eXJGY2ZGUHVSNFBuUUFkM1lHeHZ3ZVFwRkwxMHp2RzFXY3hnRmxjVHRudXRPcHU2YUhVVEYxWXU5L29yaHp5L3pNZFpOR3AvRysybExMR0lsK094SUh1NFFCVGdSZG12U3EvQzROOTVwMldXVjJGUUppZFEydWMxZXBvbnJZSUJqMWVmb3UxZVk5TGxxVUVUYTFVdHE4OTBJdnpRSk4zbXVUVDB5QnpYaU5Gd2lUcTQ9AAA\",\"querySource\":\"typed_query\",\"product\":\"Latest\",\"includePromotedContent\":false}"
+      },
+      "status": 200,
+      "elapsedSeconds": 2.19,
+      "bytes": 133737,
+      "fetchedAt": "2026-10-05T19:30:11Z",
+      "viaProxy": false,
+      "file": "x-day-2026-10-03-29-redo.json"
     },
     {
       "endpoint": "/graphql/SearchTimeline",
@@ -59477,6 +59549,18 @@
       "bytes": 111075,
       "fetchedAt": "2026-10-05T17:12:03Z",
       "file": "x-day-2026-10-03-3.json"
+    },
+    {
+      "endpoint": "/graphql/SearchTimeline",
+      "params": {
+        "variables": "{\"rawQuery\":\"(\\\"Opus 5.5\\\" OR \\\"Opus5.5\\\" OR \\\"Opus-5.5\\\") since:2026-10-03 until:2026-10-04 -filter:retweets\",\"count\":40,\"cursor\":\"DAADDAABCgABHTvqMpJbEdcKAAIdO8Fk6JvQcwAIAAIAAAACCAADAAAAAAgABAAAAB0KAAUdPh_5j4AnEAoABh0-H_mPe2wgCwAHAAADvEFBQUFBQzZOc3dnQUFBUmdBQUFBQUFBQUZYd0FBQUFIQUFBQVZ0QnAvc3pFVE9PYTlFR3MrOTdydGNIWUNiU1UvTzNoT3JuYjdLako0VUxhUXl0VUZXV3lPeTZvM1hYV1pyWjRrVy82RUljalNyTklsSSs2ZW91U3FSSE1vMVNvY2NpWnVYYkNQaVl6TUtIQWhKNEdSQ1AwZER3YTEzTFl5Mmpuamt6UkhiMHllMHMvL3pUT25PNCtJZlF4cGlJMXE3N2NBTTZENHVZejJ3NDZCMjNySjFFcTRwOGV1WkpjdStkV2Vjd3czMnFkL2N0eFJURGpGd0Frekh5UmUvWllXZVBwNFVtdWxVYWJmUjVWMnoxVStpMTEwVVl3Sis4OGFtU05NVDhqTFMxdlg4b0xQWXcyN3gxSml5NHgrSStVQ3l2cFBLVGdYd3pEaUc3clZQVkVhZi9qbzBmTThrak5lWjlRQzlmL3FONUtYZ1lxd3haN3dmaVVqdDVOdWV2amppa3NaUlA5SnJrckZSZnNITkpxWG04YTYvYjlXWUhKdFZ6a2JJMWR2ajlIMFk5TGk5ZmRmRGRzZHQzSW10bC9Jc1h6ZlV0NzJWVFgxV04zSGlIL2RIdUxyR3VFMGVYUGI1N0hpN2N0RFZId0EvY1lJQzZGNTdUcUxQR3R2M3c4Kzd2dy9pamY5Z1JPT09ZaHEyVjNMbDJqQWZCbWNVLysrdHBvVzZYME8yZWFVc2l0ODd2ajcrK3VPcnEyV0xDbkZjbGRLMnJlUlB6OVFpK0pJVDQ5NVlNY1o0ejdXamplN21QazE5QU5Bb0FIdFE0ci9SeHBJZlN1VGt0bGEvWDVFT045Y2JURzV1dWQ5SGZ5bVJKWkY1K2gwNnd6R3p1NVl2N3FLMmlsWU5ZY0taamNBeXlCcU1rVmx3OTAwT0Z0a2V2RU1uWnBtbmhCaGQrWjcvMHptc0ZxcCtHYittOUhKTmFlYW5xWnRWeCs3czB5NCt6TVU2dnhReHY2UTdMSVpNa2U2MXc2eUw2eXJGY2ZGUHVSNFBuUUFkM1lHenZ3ZVFwRkwxMHp2RzFXY3hnRmxkVHRudXRPcHUrYUhVVEYxWXU5L29yaHp5L3pNZFpOR3AvRysybExMbVlsK094SUh1NFFCVGdSZG12U3EvQzROOTVwMldXVitGUUppZFEydWMxZXBvbnJZSUJuMWVmb3UxZVk5TGxxME1UYTFVdHU4OTBJdnpRSmQzbXZUVDB5QnpYaU5Gd2lUcTQ9AAA\",\"querySource\":\"typed_query\",\"product\":\"Latest\",\"includePromotedContent\":false}"
+      },
+      "status": 200,
+      "elapsedSeconds": 2.28,
+      "bytes": 149031,
+      "fetchedAt": "2026-10-05T19:30:14Z",
+      "viaProxy": false,
+      "file": "x-day-2026-10-03-30-redo.json"
     },
     {
       "endpoint": "/graphql/SearchTimeline",
@@ -60589,6 +60673,18 @@
       "fetchedAt": "2026-10-05T18:48:01Z",
       "viaProxy": false,
       "file": "xapi-direct-health-check-2.json"
+    },
+    {
+      "endpoint": "/graphql/TweetResultByRestId",
+      "params": {
+        "variables": "{\"tweetId\":\"2104315409612853573\",\"withHighlightedLabel\":true,\"withTweetQuoteCount\":true,\"includePromotedContent\":false,\"withBirdwatchPivots\":true,\"withVoice\":true,\"withReactions\":true}"
+      },
+      "status": 200,
+      "elapsedSeconds": 0.94,
+      "bytes": 2397,
+      "fetchedAt": "2026-10-05T19:29:02Z",
+      "viaProxy": false,
+      "file": "xapi-direct-health-check-3.json"
     },
     {
       "endpoint": "/graphql/SearchTimeline",
@@ -61817,10 +61913,87 @@
       "continuation": true,
       "viaProxy": true,
       "stopReason": "HTTP error via proxy, not successful end of pagination"
+    },
+    {
+      "query": "(\"Opus 5.5\" OR \"Opus5.5\" OR \"Opus-5.5\") since:2026-10-03 until:2026-10-04 -filter:retweets",
+      "product": "Latest",
+      "tag": "day-2026-10-03",
+      "page": 24,
+      "httpStatus": 200,
+      "objects": 22,
+      "hasNext": true,
+      "continuation": true,
+      "redoAfterKeyFix": true
+    },
+    {
+      "query": "(\"Opus 5.5\" OR \"Opus5.5\" OR \"Opus-5.5\") since:2026-10-03 until:2026-10-04 -filter:retweets",
+      "product": "Latest",
+      "tag": "day-2026-10-03",
+      "page": 25,
+      "httpStatus": 200,
+      "objects": 21,
+      "hasNext": true,
+      "continuation": true,
+      "redoAfterKeyFix": true
+    },
+    {
+      "query": "(\"Opus 5.5\" OR \"Opus5.5\" OR \"Opus-5.5\") since:2026-10-03 until:2026-10-04 -filter:retweets",
+      "product": "Latest",
+      "tag": "day-2026-10-03",
+      "page": 26,
+      "httpStatus": 200,
+      "objects": 24,
+      "hasNext": true,
+      "continuation": true,
+      "redoAfterKeyFix": true
+    },
+    {
+      "query": "(\"Opus 5.5\" OR \"Opus5.5\" OR \"Opus-5.5\") since:2026-10-03 until:2026-10-04 -filter:retweets",
+      "product": "Latest",
+      "tag": "day-2026-10-03",
+      "page": 27,
+      "httpStatus": 200,
+      "objects": 21,
+      "hasNext": true,
+      "continuation": true,
+      "redoAfterKeyFix": true
+    },
+    {
+      "query": "(\"Opus 5.5\" OR \"Opus5.5\" OR \"Opus-5.5\") since:2026-10-03 until:2026-10-04 -filter:retweets",
+      "product": "Latest",
+      "tag": "day-2026-10-03",
+      "page": 28,
+      "httpStatus": 200,
+      "objects": 24,
+      "hasNext": true,
+      "continuation": true,
+      "redoAfterKeyFix": true
+    },
+    {
+      "query": "(\"Opus 5.5\" OR \"Opus5.5\" OR \"Opus-5.5\") since:2026-10-03 until:2026-10-04 -filter:retweets",
+      "product": "Latest",
+      "tag": "day-2026-10-03",
+      "page": 29,
+      "httpStatus": 200,
+      "objects": 26,
+      "hasNext": true,
+      "continuation": true,
+      "redoAfterKeyFix": true
+    },
+    {
+      "query": "(\"Opus 5.5\" OR \"Opus5.5\" OR \"Opus-5.5\") since:2026-10-03 until:2026-10-04 -filter:retweets",
+      "product": "Latest",
+      "tag": "day-2026-10-03",
+      "page": 30,
+      "httpStatus": 200,
+      "objects": 25,
+      "hasNext": true,
+      "continuation": true,
+      "redoAfterKeyFix": true
     }
   ],
   "baseReconciliation": {
-    "checkedAt": "2026-10-05T19:11:17+00:00",
+    "checkedAt": "2026-10-05T19:35:53+00:00",
     "retainedCases": 2717,
     "fetchedCases": 2342,
     "absentFromFresh": 375,
@@ -62848,6 +63021,539 @@
       "proxyStatus": 404,
       "ok": false,
       "elapsedSeconds": 3.54
+    },
+    {
+      "at": "2026-10-05T19:33:31+00:00",
+      "purpose": "poster-image",
+      "host": "external-preview.redd.it",
+      "path": "/azFuempsZ3JubXRoMbad1oN4EjFWfqxeiJuRU_lnx7ps7EDpiJb7D1N0z4rT.png",
+      "directStatus": 404,
+      "proxyAttempt": 1,
+      "proxyStatus": 404,
+      "ok": false,
+      "elapsedSeconds": 1.82
+    },
+    {
+      "at": "2026-10-05T19:33:32+00:00",
+      "purpose": "poster-image",
+      "host": "external-preview.redd.it",
+      "path": "/cDRuM251ZzBjYXRoMVbsotEFYFzHUfwHlfPArts0mbbllCMKYJjr5sAoDp74.png",
+      "directStatus": 404,
+      "proxyAttempt": 1,
+      "proxyStatus": 404,
+      "ok": false,
+      "elapsedSeconds": 1.62
+    },
+    {
+      "at": "2026-10-05T19:33:32+00:00",
+      "purpose": "poster-image",
+      "host": "external-preview.redd.it",
+      "path": "/MXRteDE5ZHpnYXRoManZsHa8j87UZJTdo8KI7ty9bloXiTl0hcqJjn1DebbU.png",
+      "directStatus": 404,
+      "proxyAttempt": 1,
+      "proxyStatus": 404,
+      "ok": false,
+      "elapsedSeconds": 2.65
+    },
+    {
+      "at": "2026-10-05T19:33:33+00:00",
+      "purpose": "poster-image",
+      "host": "external-preview.redd.it",
+      "path": "/b3o0cG91Zjdra3RoMZcnGy2BIcPjCcfa41GYkyF3tvn5SxoMJGEYHd_IM3o5.png",
+      "directStatus": 404,
+      "proxyAttempt": 1,
+      "proxyStatus": 404,
+      "ok": false,
+      "elapsedSeconds": 1.97
+    },
+    {
+      "at": "2026-10-05T19:33:33+00:00",
+      "purpose": "poster-image",
+      "host": "external-preview.redd.it",
+      "path": "/aDVxZ2FscXV5a3RoMeEyJMokZMB-6lp_Odiad9GSKVhxEGn4obn9qJOzbgME.png",
+      "directStatus": 404,
+      "proxyAttempt": 1,
+      "proxyStatus": 404,
+      "ok": false,
+      "elapsedSeconds": 2.7
+    },
+    {
+      "at": "2026-10-05T19:33:35+00:00",
+      "purpose": "poster-image",
+      "host": "external-preview.redd.it",
+      "path": "/cDRuM251ZzBjYXRoMVbsotEFYFzHUfwHlfPArts0mbbllCMKYJjr5sAoDp74.png",
+      "directStatus": 404,
+      "proxyAttempt": 2,
+      "proxyStatus": 404,
+      "ok": false,
+      "elapsedSeconds": 1.64
+    },
+    {
+      "at": "2026-10-05T19:33:38+00:00",
+      "purpose": "poster-image",
+      "host": "external-preview.redd.it",
+      "path": "/azFuempsZ3JubXRoMbad1oN4EjFWfqxeiJuRU_lnx7ps7EDpiJb7D1N0z4rT.png",
+      "directStatus": 404,
+      "proxyAttempt": 2,
+      "proxyStatus": 0,
+      "ok": false,
+      "elapsedSeconds": 4.67,
+      "error": "curl: (35) TLS connect error: error:0A00010B:SSL routines::wrong version number\n"
+    },
+    {
+      "at": "2026-10-05T19:33:39+00:00",
+      "purpose": "poster-image",
+      "host": "external-preview.redd.it",
+      "path": "/b3o0cG91Zjdra3RoMZcnGy2BIcPjCcfa41GYkyF3tvn5SxoMJGEYHd_IM3o5.png",
+      "directStatus": 404,
+      "proxyAttempt": 2,
+      "proxyStatus": 404,
+      "ok": false,
+      "elapsedSeconds": 4.39
+    },
+    {
+      "at": "2026-10-05T19:33:40+00:00",
+      "purpose": "poster-image",
+      "host": "external-preview.redd.it",
+      "path": "/aDVxZ2FscXV5a3RoMeEyJMokZMB-6lp_Odiad9GSKVhxEGn4obn9qJOzbgME.png",
+      "directStatus": 404,
+      "proxyAttempt": 2,
+      "proxyStatus": 404,
+      "ok": false,
+      "elapsedSeconds": 4.22
+    },
+    {
+      "at": "2026-10-05T19:33:40+00:00",
+      "purpose": "poster-image",
+      "host": "external-preview.redd.it",
+      "path": "/MXRteDE5ZHpnYXRoManZsHa8j87UZJTdo8KI7ty9bloXiTl0hcqJjn1DebbU.png",
+      "directStatus": 404,
+      "proxyAttempt": 2,
+      "proxyStatus": 0,
+      "ok": false,
+      "elapsedSeconds": 5.61,
+      "error": "curl: (35) TLS connect error: error:0A000126:SSL routines::unexpected eof while reading\n"
     }
-  ]
+  ],
+  "xapiMetricFallback": [
+    {
+      "postId": "2102527003845075348",
+      "status": 200,
+      "recovered": false
+    },
+    {
+      "postId": "2102491346661736518",
+      "status": 200,
+      "recovered": false
+    },
+    {
+      "postId": "2102877370332127732",
+      "status": 200,
+      "recovered": false
+    },
+    {
+      "postId": "2102886480335262009",
+      "status": 200,
+      "recovered": false
+    },
+    {
+      "postId": "2102797607546634345",
+      "status": 200,
+      "recovered": false
+    },
+    {
+      "postId": "2102900455068381289",
+      "status": 200,
+      "recovered": false
+    },
+    {
+      "postId": "2103058727918293099",
+      "status": 200,
+      "recovered": false
+    },
+    {
+      "postId": "2103092802444042441",
+      "status": 200,
+      "recovered": false
+    },
+    {
+      "postId": "2103121606570807790",
+      "status": 200,
+      "recovered": false
+    },
+    {
+      "postId": "2103185144291172860",
+      "status": 200,
+      "recovered": false
+    },
+    {
+      "postId": "2103325360398143681",
+      "status": 200,
+      "recovered": false
+    },
+    {
+      "postId": "2103349129472790649",
+      "status": 200,
+      "recovered": false
+    },
+    {
+      "postId": "2103394286532280787",
+      "status": 200,
+      "recovered": false
+    },
+    {
+      "postId": "2103399841871306963",
+      "status": 200,
+      "recovered": false
+    },
+    {
+      "postId": "2103429586285437131",
+      "status": 200,
+      "recovered": false
+    },
+    {
+      "postId": "2103482928042852592",
+      "status": 200,
+      "recovered": false
+    },
+    {
+      "postId": "2103489794143613142",
+      "status": 200,
+      "recovered": false
+    },
+    {
+      "postId": "2103501563956269161",
+      "status": 200,
+      "recovered": false
+    },
+    {
+      "postId": "2103590461210583530",
+      "status": 200,
+      "recovered": false
+    },
+    {
+      "postId": "2103753663269507374",
+      "status": 200,
+      "recovered": false
+    },
+    {
+      "postId": "2103841190462558417",
+      "status": 200,
+      "recovered": false
+    },
+    {
+      "postId": "2103169675928764486",
+      "status": 200,
+      "recovered": false
+    },
+    {
+      "postId": "2103869704955900023",
+      "status": 200,
+      "recovered": false
+    }
+  ],
+  "xapiMetricFallbackReceipts": [
+    {
+      "endpoint": "/graphql/TweetResultByRestId",
+      "params": {
+        "variables": "{\"tweetId\":\"2102491346661736518\",\"withHighlightedLabel\":true,\"withTweetQuoteCount\":true,\"includePromotedContent\":false,\"withBirdwatchPivots\":true,\"withVoice\":true,\"withReactions\":true}"
+      },
+      "status": 200,
+      "elapsedSeconds": 0.81,
+      "bytes": 27,
+      "fetchedAt": "2026-10-05T19:29:26Z",
+      "viaProxy": false
+    },
+    {
+      "endpoint": "/graphql/TweetResultByRestId",
+      "params": {
+        "variables": "{\"tweetId\":\"2102527003845075348\",\"withHighlightedLabel\":true,\"withTweetQuoteCount\":true,\"includePromotedContent\":false,\"withBirdwatchPivots\":true,\"withVoice\":true,\"withReactions\":true}"
+      },
+      "status": 200,
+      "elapsedSeconds": 0.64,
+      "bytes": 27,
+      "fetchedAt": "2026-10-05T19:29:24Z",
+      "viaProxy": false
+    },
+    {
+      "endpoint": "/graphql/TweetResultByRestId",
+      "params": {
+        "variables": "{\"tweetId\":\"2102797607546634345\",\"withHighlightedLabel\":true,\"withTweetQuoteCount\":true,\"includePromotedContent\":false,\"withBirdwatchPivots\":true,\"withVoice\":true,\"withReactions\":true}"
+      },
+      "status": 200,
+      "elapsedSeconds": 0.81,
+      "bytes": 27,
+      "fetchedAt": "2026-10-05T19:29:30Z",
+      "viaProxy": false
+    },
+    {
+      "endpoint": "/graphql/TweetResultByRestId",
+      "params": {
+        "variables": "{\"tweetId\":\"2102877370332127732\",\"withHighlightedLabel\":true,\"withTweetQuoteCount\":true,\"includePromotedContent\":false,\"withBirdwatchPivots\":true,\"withVoice\":true,\"withReactions\":true}"
+      },
+      "status": 200,
+      "elapsedSeconds": 0.93,
+      "bytes": 27,
+      "fetchedAt": "2026-10-05T19:29:27Z",
+      "viaProxy": false
+    },
+    {
+      "endpoint": "/graphql/TweetResultByRestId",
+      "params": {
+        "variables": "{\"tweetId\":\"2102886480335262009\",\"withHighlightedLabel\":true,\"withTweetQuoteCount\":true,\"includePromotedContent\":false,\"withBirdwatchPivots\":true,\"withVoice\":true,\"withReactions\":true}"
+      },
+      "status": 200,
+      "elapsedSeconds": 0.78,
+      "bytes": 27,
+      "fetchedAt": "2026-10-05T19:29:28Z",
+      "viaProxy": false
+    },
+    {
+      "endpoint": "/graphql/TweetResultByRestId",
+      "params": {
+        "variables": "{\"tweetId\":\"2102900455068381289\",\"withHighlightedLabel\":true,\"withTweetQuoteCount\":true,\"includePromotedContent\":false,\"withBirdwatchPivots\":true,\"withVoice\":true,\"withReactions\":true}"
+      },
+      "status": 200,
+      "elapsedSeconds": 0.71,
+      "bytes": 27,
+      "fetchedAt": "2026-10-05T19:29:31Z",
+      "viaProxy": false
+    },
+    {
+      "endpoint": "/graphql/TweetResultByRestId",
+      "params": {
+        "variables": "{\"tweetId\":\"2103058727918293099\",\"withHighlightedLabel\":true,\"withTweetQuoteCount\":true,\"includePromotedContent\":false,\"withBirdwatchPivots\":true,\"withVoice\":true,\"withReactions\":true}"
+      },
+      "status": 200,
+      "elapsedSeconds": 0.88,
+      "bytes": 27,
+      "fetchedAt": "2026-10-05T19:29:32Z",
+      "viaProxy": false
+    },
+    {
+      "endpoint": "/graphql/TweetResultByRestId",
+      "params": {
+        "variables": "{\"tweetId\":\"2103092802444042441\",\"withHighlightedLabel\":true,\"withTweetQuoteCount\":true,\"includePromotedContent\":false,\"withBirdwatchPivots\":true,\"withVoice\":true,\"withReactions\":true}"
+      },
+      "status": 200,
+      "elapsedSeconds": 1.15,
+      "bytes": 27,
+      "fetchedAt": "2026-10-05T19:29:34Z",
+      "viaProxy": false
+    },
+    {
+      "endpoint": "/graphql/TweetResultByRestId",
+      "params": {
+        "variables": "{\"tweetId\":\"2103121606570807790\",\"withHighlightedLabel\":true,\"withTweetQuoteCount\":true,\"includePromotedContent\":false,\"withBirdwatchPivots\":true,\"withVoice\":true,\"withReactions\":true}"
+      },
+      "status": 200,
+      "elapsedSeconds": 0.72,
+      "bytes": 27,
+      "fetchedAt": "2026-10-05T19:29:35Z",
+      "viaProxy": false
+    },
+    {
+      "endpoint": "/graphql/TweetResultByRestId",
+      "params": {
+        "variables": "{\"tweetId\":\"2103169675928764486\",\"withHighlightedLabel\":true,\"withTweetQuoteCount\":true,\"includePromotedContent\":false,\"withBirdwatchPivots\":true,\"withVoice\":true,\"withReactions\":true}"
+      },
+      "status": 200,
+      "elapsedSeconds": 0.56,
+      "bytes": 27,
+      "fetchedAt": "2026-10-05T19:29:51Z",
+      "viaProxy": false
+    },
+    {
+      "endpoint": "/graphql/TweetResultByRestId",
+      "params": {
+        "variables": "{\"tweetId\":\"2103185144291172860\",\"withHighlightedLabel\":true,\"withTweetQuoteCount\":true,\"includePromotedContent\":false,\"withBirdwatchPivots\":true,\"withVoice\":true,\"withReactions\":true}"
+      },
+      "status": 200,
+      "elapsedSeconds": 0.64,
+      "bytes": 27,
+      "fetchedAt": "2026-10-05T19:29:36Z",
+      "viaProxy": false
+    },
+    {
+      "endpoint": "/graphql/TweetResultByRestId",
+      "params": {
+        "variables": "{\"tweetId\":\"2103325360398143681\",\"withHighlightedLabel\":true,\"withTweetQuoteCount\":true,\"includePromotedContent\":false,\"withBirdwatchPivots\":true,\"withVoice\":true,\"withReactions\":true}"
+      },
+      "status": 200,
+      "elapsedSeconds": 0.66,
+      "bytes": 27,
+      "fetchedAt": "2026-10-05T19:29:38Z",
+      "viaProxy": false
+    },
+    {
+      "endpoint": "/graphql/TweetResultByRestId",
+      "params": {
+        "variables": "{\"tweetId\":\"2103349129472790649\",\"withHighlightedLabel\":true,\"withTweetQuoteCount\":true,\"includePromotedContent\":false,\"withBirdwatchPivots\":true,\"withVoice\":true,\"withReactions\":true}"
+      },
+      "status": 200,
+      "elapsedSeconds": 0.8,
+      "bytes": 27,
+      "fetchedAt": "2026-10-05T19:29:39Z",
+      "viaProxy": false
+    },
+    {
+      "endpoint": "/graphql/TweetResultByRestId",
+      "params": {
+        "variables": "{\"tweetId\":\"2103394286532280787\",\"withHighlightedLabel\":true,\"withTweetQuoteCount\":true,\"includePromotedContent\":false,\"withBirdwatchPivots\":true,\"withVoice\":true,\"withReactions\":true}"
+      },
+      "status": 200,
+      "elapsedSeconds": 0.56,
+      "bytes": 27,
+      "fetchedAt": "2026-10-05T19:29:40Z",
+      "viaProxy": false
+    },
+    {
+      "endpoint": "/graphql/TweetResultByRestId",
+      "params": {
+        "variables": "{\"tweetId\":\"2103399841871306963\",\"withHighlightedLabel\":true,\"withTweetQuoteCount\":true,\"includePromotedContent\":false,\"withBirdwatchPivots\":true,\"withVoice\":true,\"withReactions\":true}"
+      },
+      "status": 200,
+      "elapsedSeconds": 0.84,
+      "bytes": 27,
+      "fetchedAt": "2026-10-05T19:29:41Z",
+      "viaProxy": false
+    },
+    {
+      "endpoint": "/graphql/TweetResultByRestId",
+      "params": {
+        "variables": "{\"tweetId\":\"2103429586285437131\",\"withHighlightedLabel\":true,\"withTweetQuoteCount\":true,\"includePromotedContent\":false,\"withBirdwatchPivots\":true,\"withVoice\":true,\"withReactions\":true}"
+      },
+      "status": 200,
+      "elapsedSeconds": 0.7,
+      "bytes": 27,
+      "fetchedAt": "2026-10-05T19:29:42Z",
+      "viaProxy": false
+    },
+    {
+      "endpoint": "/graphql/TweetResultByRestId",
+      "params": {
+        "variables": "{\"tweetId\":\"2103482928042852592\",\"withHighlightedLabel\":true,\"withTweetQuoteCount\":true,\"includePromotedContent\":false,\"withBirdwatchPivots\":true,\"withVoice\":true,\"withReactions\":true}"
+      },
+      "status": 200,
+      "elapsedSeconds": 0.58,
+      "bytes": 27,
+      "fetchedAt": "2026-10-05T19:29:44Z",
+      "viaProxy": false
+    },
+    {
+      "endpoint": "/graphql/TweetResultByRestId",
+      "params": {
+        "variables": "{\"tweetId\":\"2103489794143613142\",\"withHighlightedLabel\":true,\"withTweetQuoteCount\":true,\"includePromotedContent\":false,\"withBirdwatchPivots\":true,\"withVoice\":true,\"withReactions\":true}"
+      },
+      "status": 200,
+      "elapsedSeconds": 0.66,
+      "bytes": 27,
+      "fetchedAt": "2026-10-05T19:29:45Z",
+      "viaProxy": false
+    },
+    {
+      "endpoint": "/graphql/TweetResultByRestId",
+      "params": {
+        "variables": "{\"tweetId\":\"2103501563956269161\",\"withHighlightedLabel\":true,\"withTweetQuoteCount\":true,\"includePromotedContent\":false,\"withBirdwatchPivots\":true,\"withVoice\":true,\"withReactions\":true}"
+      },
+      "status": 200,
+      "elapsedSeconds": 0.62,
+      "bytes": 27,
+      "fetchedAt": "2026-10-05T19:29:46Z",
+      "viaProxy": false
+    },
+    {
+      "endpoint": "/graphql/TweetResultByRestId",
+      "params": {
+        "variables": "{\"tweetId\":\"2103590461210583530\",\"withHighlightedLabel\":true,\"withTweetQuoteCount\":true,\"includePromotedContent\":false,\"withBirdwatchPivots\":true,\"withVoice\":true,\"withReactions\":true}"
+      },
+      "status": 200,
+      "elapsedSeconds": 0.6,
+      "bytes": 27,
+      "fetchedAt": "2026-10-05T19:29:47Z",
+      "viaProxy": false
+    },
+    {
+      "endpoint": "/graphql/TweetResultByRestId",
+      "params": {
+        "variables": "{\"tweetId\":\"2103753663269507374\",\"withHighlightedLabel\":true,\"withTweetQuoteCount\":true,\"includePromotedContent\":false,\"withBirdwatchPivots\":true,\"withVoice\":true,\"withReactions\":true}"
+      },
+      "status": 200,
+      "elapsedSeconds": 0.74,
+      "bytes": 27,
+      "fetchedAt": "2026-10-05T19:29:48Z",
+      "viaProxy": false
+    },
+    {
+      "endpoint": "/graphql/TweetResultByRestId",
+      "params": {
+        "variables": "{\"tweetId\":\"2103841190462558417\",\"withHighlightedLabel\":true,\"withTweetQuoteCount\":true,\"includePromotedContent\":false,\"withBirdwatchPivots\":true,\"withVoice\":true,\"withReactions\":true}"
+      },
+      "status": 200,
+      "elapsedSeconds": 0.81,
+      "bytes": 90,
+      "fetchedAt": "2026-10-05T19:29:49Z",
+      "viaProxy": false
+    },
+    {
+      "endpoint": "/graphql/TweetResultByRestId",
+      "params": {
+        "variables": "{\"tweetId\":\"2103869704955900023\",\"withHighlightedLabel\":true,\"withTweetQuoteCount\":true,\"includePromotedContent\":false,\"withBirdwatchPivots\":true,\"withVoice\":true,\"withReactions\":true}"
+      },
+      "status": 200,
+      "elapsedSeconds": 0.79,
+      "bytes": 27,
+      "fetchedAt": "2026-10-05T19:29:52Z",
+      "viaProxy": false
+    }
+  ],
+  "xapiKeyIncident": {
+    "window": "2026-10-05T18:40Z to about 19:25Z",
+    "cause": "Appending PROXY_URL to the local env file without a separating newline corrupted XAPI_KEY; requests in this window returned 401. The key was repaired and failed XAPI work was re-run directly.",
+    "affectedRequests": [
+      "x-day-2026-10-03-24-proxy1.json",
+      "x-day-2026-10-03-24-proxy2.json",
+      "x-day-2026-10-03-24-proxy3.json",
+      "xapi-direct-health-check-2.json",
+      "xapi-direct-health-check.json"
+    ],
+    "proxyAttemptsInvalidated": [
+      {
+        "at": "2026-10-05T18:42:11+00:00",
+        "purpose": "xapi-search-continuation",
+        "host": "twitter.p.xapi.to",
+        "path": "/graphql/SearchTimeline",
+        "directStatus": 404,
+        "proxyAttempt": 1,
+        "proxyStatus": 401,
+        "ok": false,
+        "elapsedSeconds": 1.6,
+        "label": "x-day-2026-10-03-24-proxy1"
+      },
+      {
+        "at": "2026-10-05T18:42:17+00:00",
+        "purpose": "xapi-search-continuation",
+        "host": "twitter.p.xapi.to",
+        "path": "/graphql/SearchTimeline",
+        "directStatus": 404,
+        "proxyAttempt": 2,
+        "proxyStatus": 401,
+        "ok": false,
+        "elapsedSeconds": 2.32,
+        "label": "x-day-2026-10-03-24-proxy2"
+      },
+      {
+        "at": "2026-10-05T18:42:29+00:00",
+        "purpose": "xapi-search-continuation",
+        "host": "twitter.p.xapi.to",
+        "path": "/graphql/SearchTimeline",
+        "directStatus": 404,
+        "proxyAttempt": 3,
+        "proxyStatus": 401,
+        "ok": false,
+        "elapsedSeconds": 4.13,
+        "label": "x-day-2026-10-03-24-proxy3"
+      }
+    ]
+  }
 }

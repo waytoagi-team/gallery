@@ -1,18 +1,20 @@
 {
-  "checkedAt": "2026-10-05T19:11:17+00:00",
+  "checkedAt": "2026-10-05T19:35:53+00:00",
   "windowSince": "2026-10-03",
   "previousCaseCount": 5527,
-  "newCases": 745,
+  "newCases": 748,
+  "withdrawnAfterFirstPublication": 6,
   "byPlatform": {
-    "Bilibili": 260,
+    "Bilibili": 254,
     "GitHub": 33,
     "YouTube": 28,
     "Reddit": 68,
     "Hacker News": 15,
-    "X": 341
+    "X": 350
   },
   "candidatePools": {
     "x": 751,
+    "x2": 47,
     "xl": 262,
     "gh": 128,
     "r": 182,
@@ -21,9 +23,9 @@
     "hn": 71
   },
   "xSearchPrefilter": {
-    "candidatesMentioningModel": 1935,
-    "reviewed": 751,
-    "prefilteredOut": 1184,
+    "candidatesMentioningModel": 2081,
+    "reviewed": 798,
+    "prefilteredOut": 1283,
     "rule": "Original posts only (replies excluded), with at least 10 likes, or with media/links and more than 120 characters of text"
   },
   "decisions": [
@@ -5566,6 +5568,344 @@
       "reason": "Reviewed against the attribution and specificity criteria and not retained: news, opinion, promotion, repetition, ambiguous model attribution or insufficient detail. Not a finding that the work is invalid."
     },
     {
+      "candidateSet": "x2",
+      "index": 0,
+      "sourceUrl": "https://x.com/AndrewCurran_/status/2106492521488814457",
+      "status": "not-selected-this-pass",
+      "reason": "Reviewed against the attribution and specificity criteria and not retained: news, opinion, promotion, repetition, ambiguous model attribution or insufficient detail. Not a finding that the work is invalid."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 1,
+      "sourceUrl": "https://x.com/deweytn/status/2106489136945521039",
+      "status": "not-selected-this-pass",
+      "reason": "Reviewed against the attribution and specificity criteria and not retained: news, opinion, promotion, repetition, ambiguous model attribution or insufficient detail. Not a finding that the work is invalid."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 2,
+      "sourceUrl": "https://x.com/ivanainai/status/2106462626347614427",
+      "status": "accepted",
+      "caseId": "lists-1136",
+      "evidenceBasis": "Original X GraphQL post and full note text; author, quoted identity and reply parent kept distinct. Author-reported work, not independently reproduced."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 3,
+      "sourceUrl": "https://x.com/haider1/status/2106494499862257692",
+      "status": "not-selected-this-pass",
+      "reason": "Reviewed against the attribution and specificity criteria and not retained: news, opinion, promotion, repetition, ambiguous model attribution or insufficient detail. Not a finding that the work is invalid."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 4,
+      "sourceUrl": "https://x.com/itsPaulAi/status/2106489266473771306",
+      "status": "not-selected-this-pass",
+      "reason": "Reviewed against the attribution and specificity criteria and not retained: news, opinion, promotion, repetition, ambiguous model attribution or insufficient detail. Not a finding that the work is invalid."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 5,
+      "sourceUrl": "https://x.com/IntuitMachine/status/2106495036875772074",
+      "status": "not-selected-this-pass",
+      "reason": "Reviewed against the attribution and specificity criteria and not retained: news, opinion, promotion, repetition, ambiguous model attribution or insufficient detail. Not a finding that the work is invalid."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 6,
+      "sourceUrl": "https://x.com/thedelost/status/2106490477285659116",
+      "status": "not-selected-this-pass",
+      "reason": "Reviewed against the attribution and specificity criteria and not retained: news, opinion, promotion, repetition, ambiguous model attribution or insufficient detail. Not a finding that the work is invalid."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 7,
+      "sourceUrl": "https://x.com/ch3nweiii/status/2106492197847883922",
+      "status": "not-selected-this-pass",
+      "reason": "Reviewed against the attribution and specificity criteria and not retained: news, opinion, promotion, repetition, ambiguous model attribution or insufficient detail. Not a finding that the work is invalid."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 8,
+      "sourceUrl": "https://x.com/Hangsiin/status/2106494941296029911",
+      "status": "not-selected-this-pass",
+      "reason": "Reviewed against the attribution and specificity criteria and not retained: news, opinion, promotion, repetition, ambiguous model attribution or insufficient detail. Not a finding that the work is invalid."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 9,
+      "sourceUrl": "https://x.com/AIMevzulari/status/2106490563964874926",
+      "status": "accepted",
+      "caseId": "lists-1137",
+      "evidenceBasis": "Original X GraphQL post and full note text; author, quoted identity and reply parent kept distinct. Author-reported work, not independently reproduced."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 10,
+      "sourceUrl": "https://x.com/eng_khairallah1/status/2106494621182541924",
+      "status": "not-selected-this-pass",
+      "reason": "Reviewed against the attribution and specificity criteria and not retained: news, opinion, promotion, repetition, ambiguous model attribution or insufficient detail. Not a finding that the work is invalid."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 11,
+      "sourceUrl": "https://x.com/ezyang/status/2106488857403277777",
+      "status": "accepted",
+      "caseId": "lists-1138",
+      "evidenceBasis": "Original X GraphQL post and full note text; author, quoted identity and reply parent kept distinct. Author-reported work, not independently reproduced."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 12,
+      "sourceUrl": "https://x.com/mirku21/status/2106489528714502599",
+      "status": "not-selected-this-pass",
+      "reason": "Reviewed against the attribution and specificity criteria and not retained: news, opinion, promotion, repetition, ambiguous model attribution or insufficient detail. Not a finding that the work is invalid."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 13,
+      "sourceUrl": "https://x.com/eng_khairallah1/status/2105593362405589252",
+      "status": "not-selected-this-pass",
+      "reason": "Reviewed against the attribution and specificity criteria and not retained: news, opinion, promotion, repetition, ambiguous model attribution or insufficient detail. Not a finding that the work is invalid."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 14,
+      "sourceUrl": "https://x.com/IHayato/status/2106490814243410059",
+      "status": "not-selected-this-pass",
+      "reason": "Reviewed against the attribution and specificity criteria and not retained: news, opinion, promotion, repetition, ambiguous model attribution or insufficient detail. Not a finding that the work is invalid."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 15,
+      "sourceUrl": "https://x.com/Avenoxai/status/2106494682209431685",
+      "status": "not-selected-this-pass",
+      "reason": "Reviewed against the attribution and specificity criteria and not retained: news, opinion, promotion, repetition, ambiguous model attribution or insufficient detail. Not a finding that the work is invalid."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 16,
+      "sourceUrl": "https://x.com/painn_x/status/2106123470182420787",
+      "status": "not-selected-this-pass",
+      "reason": "Reviewed against the attribution and specificity criteria and not retained: news, opinion, promotion, repetition, ambiguous model attribution or insufficient detail. Not a finding that the work is invalid."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 17,
+      "sourceUrl": "https://x.com/Vtrivedy10/status/2106497379994145013",
+      "status": "not-selected-this-pass",
+      "reason": "Reviewed against the attribution and specificity criteria and not retained: news, opinion, promotion, repetition, ambiguous model attribution or insufficient detail. Not a finding that the work is invalid."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 18,
+      "sourceUrl": "https://x.com/carbo_twt/status/2106494126858617310",
+      "status": "accepted",
+      "caseId": "lists-1139",
+      "evidenceBasis": "Original X GraphQL post and full note text; author, quoted identity and reply parent kept distinct. Author-reported work, not independently reproduced."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 19,
+      "sourceUrl": "https://x.com/TimJayas/status/2106496780863226294",
+      "status": "not-selected-this-pass",
+      "reason": "Reviewed against the attribution and specificity criteria and not retained: news, opinion, promotion, repetition, ambiguous model attribution or insufficient detail. Not a finding that the work is invalid."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 20,
+      "sourceUrl": "https://x.com/twoclipping/status/2106101258834551116",
+      "status": "accepted",
+      "caseId": "lists-1140",
+      "evidenceBasis": "Original X GraphQL post and full note text; author, quoted identity and reply parent kept distinct. Author-reported work, not independently reproduced."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 21,
+      "sourceUrl": "https://x.com/ritsuto_NFT_Vt/status/2106363794725421463",
+      "status": "not-selected-this-pass",
+      "reason": "Reviewed against the attribution and specificity criteria and not retained: news, opinion, promotion, repetition, ambiguous model attribution or insufficient detail. Not a finding that the work is invalid."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 22,
+      "sourceUrl": "https://x.com/damkina7/status/2106489480248992121",
+      "status": "not-selected-this-pass",
+      "reason": "Reviewed against the attribution and specificity criteria and not retained: news, opinion, promotion, repetition, ambiguous model attribution or insufficient detail. Not a finding that the work is invalid."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 23,
+      "sourceUrl": "https://x.com/ArchiveExplorer/status/2106495068391538831",
+      "status": "not-selected-this-pass",
+      "reason": "Reviewed against the attribution and specificity criteria and not retained: news, opinion, promotion, repetition, ambiguous model attribution or insufficient detail. Not a finding that the work is invalid."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 24,
+      "sourceUrl": "https://x.com/aiyorumluyorum/status/2106022635675046350",
+      "status": "accepted",
+      "caseId": "lists-1141",
+      "evidenceBasis": "Original X GraphQL post and full note text; author, quoted identity and reply parent kept distinct. Author-reported work, not independently reproduced."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 25,
+      "sourceUrl": "https://x.com/EngMoElgaraihy/status/2106493418608451745",
+      "status": "not-selected-this-pass",
+      "reason": "Reviewed against the attribution and specificity criteria and not retained: news, opinion, promotion, repetition, ambiguous model attribution or insufficient detail. Not a finding that the work is invalid."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 26,
+      "sourceUrl": "https://x.com/xenappblog/status/2106493797307928883",
+      "status": "not-selected-this-pass",
+      "reason": "Reviewed against the attribution and specificity criteria and not retained: news, opinion, promotion, repetition, ambiguous model attribution or insufficient detail. Not a finding that the work is invalid."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 27,
+      "sourceUrl": "https://x.com/minicut_ai/status/2106490520071496183",
+      "status": "not-selected-this-pass",
+      "reason": "Reviewed against the attribution and specificity criteria and not retained: news, opinion, promotion, repetition, ambiguous model attribution or insufficient detail. Not a finding that the work is invalid."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 28,
+      "sourceUrl": "https://x.com/minicut_ai/status/2103867397123854372",
+      "status": "not-selected-this-pass",
+      "reason": "Reviewed against the attribution and specificity criteria and not retained: news, opinion, promotion, repetition, ambiguous model attribution or insufficient detail. Not a finding that the work is invalid."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 29,
+      "sourceUrl": "https://x.com/vilobatirkedis/status/2106495870610887154",
+      "status": "not-selected-this-pass",
+      "reason": "Reviewed against the attribution and specificity criteria and not retained: news, opinion, promotion, repetition, ambiguous model attribution or insufficient detail. Not a finding that the work is invalid."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 30,
+      "sourceUrl": "https://x.com/Cozy_Man_LoL/status/2106493116052390162",
+      "status": "accepted",
+      "caseId": "lists-1142",
+      "evidenceBasis": "Original X GraphQL post and full note text; author, quoted identity and reply parent kept distinct. Author-reported work, not independently reproduced."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 31,
+      "sourceUrl": "https://x.com/SVD_Studio_Q/status/2106497166005190761",
+      "status": "not-selected-this-pass",
+      "reason": "Reviewed against the attribution and specificity criteria and not retained: news, opinion, promotion, repetition, ambiguous model attribution or insufficient detail. Not a finding that the work is invalid."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 32,
+      "sourceUrl": "https://x.com/ysnverse/status/2106496823842296143",
+      "status": "not-selected-this-pass",
+      "reason": "Reviewed against the attribution and specificity criteria and not retained: news, opinion, promotion, repetition, ambiguous model attribution or insufficient detail. Not a finding that the work is invalid."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 33,
+      "sourceUrl": "https://x.com/no_meaning_x00/status/2106491731621364050",
+      "status": "not-selected-this-pass",
+      "reason": "Reviewed against the attribution and specificity criteria and not retained: news, opinion, promotion, repetition, ambiguous model attribution or insufficient detail. Not a finding that the work is invalid."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 34,
+      "sourceUrl": "https://x.com/surendrayta/status/2106490953230139449",
+      "status": "not-selected-this-pass",
+      "reason": "Reviewed against the attribution and specificity criteria and not retained: news, opinion, promotion, repetition, ambiguous model attribution or insufficient detail. Not a finding that the work is invalid."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 35,
+      "sourceUrl": "https://x.com/naumowf/status/2106490820522078513",
+      "status": "not-selected-this-pass",
+      "reason": "Reviewed against the attribution and specificity criteria and not retained: news, opinion, promotion, repetition, ambiguous model attribution or insufficient detail. Not a finding that the work is invalid."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 36,
+      "sourceUrl": "https://x.com/buildinlisbon/status/2106489802636083690",
+      "status": "accepted",
+      "caseId": "lists-1143",
+      "evidenceBasis": "Original X GraphQL post and full note text; author, quoted identity and reply parent kept distinct. Author-reported work, not independently reproduced."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 37,
+      "sourceUrl": "https://x.com/scott_000016/status/2106489475228631105",
+      "status": "not-selected-this-pass",
+      "reason": "Reviewed against the attribution and specificity criteria and not retained: news, opinion, promotion, repetition, ambiguous model attribution or insufficient detail. Not a finding that the work is invalid."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 38,
+      "sourceUrl": "https://x.com/Marty_cFly/status/2106498172189385006",
+      "status": "not-selected-this-pass",
+      "reason": "Reviewed against the attribution and specificity criteria and not retained: news, opinion, promotion, repetition, ambiguous model attribution or insufficient detail. Not a finding that the work is invalid."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 39,
+      "sourceUrl": "https://x.com/techwithjoe_io/status/2106497283798036833",
+      "status": "not-selected-this-pass",
+      "reason": "Reviewed against the attribution and specificity criteria and not retained: news, opinion, promotion, repetition, ambiguous model attribution or insufficient detail. Not a finding that the work is invalid."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 40,
+      "sourceUrl": "https://x.com/dev_jmitchell/status/2106495538866659693",
+      "status": "accepted",
+      "caseId": "lists-1144",
+      "evidenceBasis": "Original X GraphQL post and full note text; author, quoted identity and reply parent kept distinct. Author-reported work, not independently reproduced."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 41,
+      "sourceUrl": "https://x.com/LinhuaZhouappx/status/2106495293541781536",
+      "status": "not-selected-this-pass",
+      "reason": "Reviewed against the attribution and specificity criteria and not retained: news, opinion, promotion, repetition, ambiguous model attribution or insufficient detail. Not a finding that the work is invalid."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 42,
+      "sourceUrl": "https://x.com/Edenwoodfilm/status/2106493962567786915",
+      "status": "not-selected-this-pass",
+      "reason": "Reviewed against the attribution and specificity criteria and not retained: news, opinion, promotion, repetition, ambiguous model attribution or insufficient detail. Not a finding that the work is invalid."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 43,
+      "sourceUrl": "https://x.com/Saganism_org/status/2106493760968524009",
+      "status": "not-selected-this-pass",
+      "reason": "Reviewed against the attribution and specificity criteria and not retained: news, opinion, promotion, repetition, ambiguous model attribution or insufficient detail. Not a finding that the work is invalid."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 44,
+      "sourceUrl": "https://x.com/builderhelmai/status/2106490774133326103",
+      "status": "not-selected-this-pass",
+      "reason": "Reviewed against the attribution and specificity criteria and not retained: news, opinion, promotion, repetition, ambiguous model attribution or insufficient detail. Not a finding that the work is invalid."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 45,
+      "sourceUrl": "https://x.com/criticalhitsbr/status/2106490559590215950",
+      "status": "not-selected-this-pass",
+      "reason": "Reviewed against the attribution and specificity criteria and not retained: news, opinion, promotion, repetition, ambiguous model attribution or insufficient detail. Not a finding that the work is invalid."
+    },
+    {
+      "candidateSet": "x2",
+      "index": 46,
+      "sourceUrl": "https://x.com/arnaudmercier/status/2106489399210856813",
+      "status": "not-selected-this-pass",
+      "reason": "Reviewed against the attribution and specificity criteria and not retained: news, opinion, promotion, repetition, ambiguous model attribution or insufficient detail. Not a finding that the work is invalid."
+    },
+    {
       "candidateSet": "xl",
       "index": 0,
       "sourceUrl": "https://x.com/JohnWittle/status/2095995231241982040",
@@ -10052,9 +10392,9 @@
       "candidateSet": "b",
       "index": 41,
       "sourceUrl": "https://www.bilibili.com/video/BV1jEHs6XEDF",
-      "status": "accepted",
+      "status": "withdrawn",
       "caseId": "video-674",
-      "evidenceBasis": "Uploader title, description, tags and original video thumbnail from Bilibili search metadata; video not fully watched or independently reproduced."
+      "reason": "Title and description name only Claude/Opus without a version; Opus 5.5 appears only in the uploader's tags. Withdrawn after first publication for consistency with the stated attribution rule."
     },
     {
       "candidateSet": "b",
@@ -10130,9 +10470,9 @@
       "candidateSet": "b",
       "index": 51,
       "sourceUrl": "https://www.bilibili.com/video/BV1gYHs6VEAg",
-      "status": "accepted",
+      "status": "withdrawn",
       "caseId": "video-682",
-      "evidenceBasis": "Uploader title, description, tags and original video thumbnail from Bilibili search metadata; video not fully watched or independently reproduced."
+      "reason": "Title and description name only Claude/Opus without a version; Opus 5.5 appears only in the uploader's tags. Withdrawn after first publication for consistency with the stated attribution rule."
     },
     {
       "candidateSet": "b",
@@ -10232,9 +10572,9 @@
       "candidateSet": "b",
       "index": 64,
       "sourceUrl": "https://www.bilibili.com/video/BV1hmHH6KEbN",
-      "status": "accepted",
+      "status": "withdrawn",
       "caseId": "video-693",
-      "evidenceBasis": "Uploader title, description, tags and original video thumbnail from Bilibili search metadata; video not fully watched or independently reproduced."
+      "reason": "Title and description name only Claude/Opus without a version; Opus 5.5 appears only in the uploader's tags. Withdrawn after first publication for consistency with the stated attribution rule."
     },
     {
       "candidateSet": "b",
@@ -10401,9 +10741,9 @@
       "candidateSet": "b",
       "index": 86,
       "sourceUrl": "https://www.bilibili.com/video/BV1KtHE6pEu8",
-      "status": "accepted",
+      "status": "withdrawn",
       "caseId": "video-708",
-      "evidenceBasis": "Uploader title, description, tags and original video thumbnail from Bilibili search metadata; video not fully watched or independently reproduced."
+      "reason": "Title and description name only Claude/Opus without a version; Opus 5.5 appears only in the uploader's tags. Withdrawn after first publication for consistency with the stated attribution rule."
     },
     {
       "candidateSet": "b",
@@ -11141,9 +11481,9 @@
       "candidateSet": "b",
       "index": 183,
       "sourceUrl": "https://www.bilibili.com/video/BV1MEHj6DEkK",
-      "status": "accepted",
+      "status": "withdrawn",
       "caseId": "video-769",
-      "evidenceBasis": "Uploader title, description, tags and original video thumbnail from Bilibili search metadata; video not fully watched or independently reproduced."
+      "reason": "Title and description name only Claude/Opus without a version; Opus 5.5 appears only in the uploader's tags. Withdrawn after first publication for consistency with the stated attribution rule."
     },
     {
       "candidateSet": "b",
@@ -11580,9 +11920,9 @@
       "candidateSet": "b",
       "index": 240,
       "sourceUrl": "https://www.bilibili.com/video/BV12bHz6GET1",
-      "status": "accepted",
+      "status": "withdrawn",
       "caseId": "video-809",
-      "evidenceBasis": "Uploader title, description, tags and original video thumbnail from Bilibili search metadata; video not fully watched or independently reproduced."
+      "reason": "Title and description name only Claude/Opus without a version; Opus 5.5 appears only in the uploader's tags. Withdrawn after first publication for consistency with the stated attribution rule."
     },
     {
       "candidateSet": "b",
@@ -23782,10 +24122,145 @@
       "imageSha256": "6f1fa9312405c5736288b7394bb0b192c2e741819dc65c8c032c9cd7884e2687",
       "reviewStatus": "accepted",
       "reason": "Original source image visually checked against the described work"
+    },
+    {
+      "index": 745,
+      "kind": "x2",
+      "candidateIndex": 2,
+      "batch": "zz-x2redo",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2106462402082430976/img/uHjCWdroO1tDA8ep.jpg",
+      "directStatus": 200,
+      "status": "ok",
+      "via": "direct",
+      "width": 1064,
+      "height": 1200,
+      "imageSha256": "88b5dc9645d239f498ed9e85c6c2aeaa867af31b93b377e1c3dabbd4a20768b3",
+      "reviewStatus": "accepted",
+      "reason": "Original source image visually checked against the described work"
+    },
+    {
+      "index": 746,
+      "kind": "x2",
+      "candidateIndex": 9,
+      "batch": "zz-x2redo",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2106488510215507968/img/gqS-1RVpW1Ep61Y1.jpg",
+      "directStatus": 200,
+      "status": "ok",
+      "via": "direct",
+      "width": 1200,
+      "height": 675,
+      "imageSha256": "9a02576f8e400e348fa3aeb6994a4040a4fbbc959043467a1c25cb7b0678b365",
+      "reviewStatus": "excluded",
+      "reason": "Black or nearly black first frame without visible work"
+    },
+    {
+      "index": 747,
+      "kind": "x2",
+      "candidateIndex": 11,
+      "batch": "zz-x2redo",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2106487934182375425/img/jIJFNbtAEl1B6-sC.jpg",
+      "directStatus": 200,
+      "status": "ok",
+      "via": "direct",
+      "width": 1200,
+      "height": 675,
+      "imageSha256": "8a78bbd7187e5a67c840e4d94ef33563717e722291aecf739cf3ec04403f57e4",
+      "reviewStatus": "excluded",
+      "reason": "Black or nearly black first frame without visible work"
+    },
+    {
+      "index": 748,
+      "kind": "x2",
+      "candidateIndex": 18,
+      "batch": "zz-x2redo",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2106493970943803392/img/5sAizpYfAs5RNeGe.jpg",
+      "directStatus": 200,
+      "status": "ok",
+      "via": "direct",
+      "width": 675,
+      "height": 1200,
+      "imageSha256": "6c9615ddf2e52591447d113b3165469c57dd503c63dd5fa43a6f8f2382d60bfc",
+      "reviewStatus": "accepted",
+      "reason": "Original source image visually checked against the described work"
+    },
+    {
+      "index": 749,
+      "kind": "x2",
+      "candidateIndex": 20,
+      "batch": "zz-x2redo",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2106100402835869696/img/LXDT_GPsLqMfR17L.jpg",
+      "directStatus": 200,
+      "status": "ok",
+      "via": "direct",
+      "width": 1080,
+      "height": 1080,
+      "imageSha256": "c6b02896dd0ca19c579a1e166ef291d8d4761616a21215571ed9cd47148ae83c",
+      "reviewStatus": "accepted",
+      "reason": "Original source image visually checked against the described work"
+    },
+    {
+      "index": 750,
+      "kind": "x2",
+      "candidateIndex": 24,
+      "batch": "zz-x2redo",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2106022219239329792/img/4FnC4pfEt3zDTr6y.jpg",
+      "directStatus": 200,
+      "status": "ok",
+      "via": "direct",
+      "width": 1200,
+      "height": 675,
+      "imageSha256": "e4e06162ab2a56f55c6c27b05abe3ce923c5ec70b5cb010e8a16ea17d1c13b07",
+      "reviewStatus": "accepted",
+      "reason": "Original source image visually checked against the described work"
+    },
+    {
+      "index": 751,
+      "kind": "x2",
+      "candidateIndex": 30,
+      "batch": "zz-x2redo",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2106492756201979904/img/0eg54g_2gWLD3vzU.jpg",
+      "directStatus": 200,
+      "status": "ok",
+      "via": "direct",
+      "width": 1200,
+      "height": 675,
+      "imageSha256": "efaf3222cab9867df6c5e41c22cd19d49774e7ef334003729c5fd36039f6edac",
+      "reviewStatus": "excluded",
+      "reason": "Black or nearly black first frame without visible work"
+    },
+    {
+      "index": 752,
+      "kind": "x2",
+      "candidateIndex": 36,
+      "batch": "zz-x2redo",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2106487868411543553/img/d5uqstwkat3HxHI1.jpg",
+      "directStatus": 200,
+      "status": "ok",
+      "via": "direct",
+      "width": 1200,
+      "height": 675,
+      "imageSha256": "d5e28cac5488d91f820e8d38de383ae5cbbb6a5fc04279ff6e5198475495d603",
+      "reviewStatus": "excluded",
+      "reason": "Black or nearly black first frame without visible work"
+    },
+    {
+      "index": 753,
+      "kind": "x2",
+      "candidateIndex": 40,
+      "batch": "zz-x2redo",
+      "url": "https://pbs.twimg.com/media/HTvGPn5XkAAWru4.jpg",
+      "directStatus": 200,
+      "status": "ok",
+      "via": "direct",
+      "width": 916,
+      "height": 1034,
+      "imageSha256": "df657cb83db3d74388c6a8a071c60656c855e3cc7f3cdc83b6949d354f78e822",
+      "reviewStatus": "accepted",
+      "reason": "Original source image visually checked against the described work"
     }
   ],
   "baseReconciliation": {
-    "checkedAt": "2026-10-05T19:11:17+00:00",
+    "checkedAt": "2026-10-05T19:35:53+00:00",
     "retainedCases": 2717,
     "fetchedCases": 2342,
     "absentFromFresh": 375,

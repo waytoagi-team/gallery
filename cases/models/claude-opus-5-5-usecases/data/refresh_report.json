@@ -1,5 +1,5 @@
 {
-  "refreshedAt": "2026-10-05T19:11:17+00:00",
+  "refreshedAt": "2026-10-05T19:35:53+00:00",
   "scope": {
     "key": "multi-source",
     "zh": "多平台公开信源更新（部分覆盖）",
@@ -7,22 +7,23 @@
   },
   "status": "partial-coverage",
   "lastFullRefreshAt": "2026-09-30T07:38:18+00:00",
-  "lastMultiSourceRefreshAt": "2026-10-05T19:11:17+00:00",
+  "lastMultiSourceRefreshAt": "2026-10-05T19:35:53+00:00",
   "previousReport": "data/refresh_history/2026-10-06-before-refresh.json",
   "previousCaseCount": 5527,
-  "caseCount": 6272,
-  "reviewedNewExtras": 745,
+  "caseCount": 6275,
+  "reviewedNewExtras": 748,
+  "withdrawnAfterFirstPublication": 6,
   "reviewedNewExtrasByPlatform": {
-    "Bilibili": 260,
+    "Bilibili": 254,
     "GitHub": 33,
     "YouTube": 28,
     "Reddit": 68,
     "Hacker News": 15,
-    "X": 341
+    "X": 350
   },
   "baseCases": 2717,
   "baseReconciliation": {
-    "checkedAt": "2026-10-05T19:11:17+00:00",
+    "checkedAt": "2026-10-05T19:35:53+00:00",
     "retainedCases": 2717,
     "fetchedCases": 2342,
     "absentFromFresh": 375,
@@ -36,11 +37,11 @@
     "configuredSucceeded": 46,
     "supplementalRequests": 98,
     "supplementalSucceeded": 91,
-    "xapiRequests": 129,
-    "xapiSucceeded": 112,
-    "xapiSearchObjects": 2147,
-    "xCandidatesMentioningModel": 1935,
-    "xCandidatesReviewed": 751,
+    "xapiRequests": 137,
+    "xapiSucceeded": 120,
+    "xapiSearchObjects": 2304,
+    "xCandidatesMentioningModel": 2081,
+    "xCandidatesReviewed": 798,
     "listOriginalXPosts": 262,
     "githubRepositories": 162,
     "githubIssues": 837,
@@ -58,11 +59,13 @@
     "githubStarsChanged": 57,
     "proxyRetried": 23,
     "proxyRecovered": 0,
-    "xapiFallback": "unavailable: XAPI returned 401 Invalid API Key after the search phase"
+    "xapiFallbackAttempted": 23,
+    "xapiFallbackRecovered": 0
   },
   "proxy": {
-    "attempts": 92,
+    "attempts": 102,
     "succeeded": 29,
+    "note": "The three XAPI proxy attempts used a corrupted local key and do not measure the proxy.",
     "byPurpose": {
       "fxtwitter-list-post": {
         "attempts": 3,
@@ -73,7 +76,7 @@
         "succeeded": 0
       },
       "poster-image": {
-        "attempts": 10,
+        "attempts": 20,
         "succeeded": 0
       },
       "xapi-search-continuation": {
@@ -87,19 +90,20 @@
     }
   },
   "posters": {
-    "total": 5135,
-    "missing": 1137,
-    "newCasesWithPosters": 591,
+    "total": 5134,
+    "missing": 1141,
+    "newCasesWithPosters": 590,
     "previousReviewedOverlaysPreserved": true
   },
   "limitations": [
     "All 46 configured endpoints were read, but this is bounded multi-platform coverage from 2026-10-03, not the entire web.",
-    "XAPI day-split Latest chains for 2026-10-03/04/05 reached 25, 30 and 26 pages and still had more results; 10-03 stopped on repeated HTTP 404. After the search phase the XAPI key returned 401 Invalid API Key, so no XAPI single-post metric fallback was possible.",
-    "Of 1,935 X search posts naming the model, 751 originals passed a likes/media prefilter and were reviewed; replies and low-signal posts were not reviewed.",
+    "XAPI day-split Latest chains for 2026-10-03/04/05 reached 31, 30 and 26 pages; 10-04 and 10-05 still had more results. 10-03 pages 24-30 were re-run after a local key fault was repaired.",
+    "Of 2,081 X search posts naming the model, 798 originals passed a likes/media prefilter and were reviewed; replies and low-signal posts were not reviewed.",
     "Bilibili first pages returned HTTP 412 and recovered on a cookie-session retry; two keyword chains reached the eight-page cap. YouTube was limited to nine search first pages; watch pages were read only for accepted videos.",
     "Reddit evidence comes from the Arctic Shift archive for seven subreddits; ClaudeAI pagination hit HTTP 422 twice and recovered on retry.",
+    "Six Bilibili cases published at 2026-10-05T19:22Z named the version only in uploader tags; they were withdrawn in place so no other case ID changed.",
     "Upstream base list is unchanged at 2,342 entries with no new identities; all 2,717 historical base cases are retained.",
-    "Twenty-three old X posts and eleven GitHub targets remain unreadable after retries (including the proxy for X); prior metrics are kept and HTTP 404 does not prove deletion.",
+    "Twenty-three old X posts remain unreadable after FxTwitter, proxy and XAPI single-post retries, and eleven GitHub targets failed; prior metrics are kept and HTTP 404 does not prove deletion.",
     "Most output, cost and performance claims are creator reports, not independent reproductions. No raw response bodies, API keys, proxy credentials or authentication headers are published."
   ],
   "fetchReceiptFile": "data/refresh_history/2026-10-06-fetches.json",
@@ -107,14 +111,16 @@
   "processLog": "reports/UPDATE-2026-10-06.md",
   "validation": {
     "status": "passed",
-    "cases": 6272,
-    "newCases": 745,
+    "cases": 6275,
+    "newCases": 748,
+    "withdrawnInPlace": 6,
+    "firstPublicationIdsUnchanged": true,
     "existingNonmetricFieldsUnchanged": true,
     "previousEnrichmentFilesByteIdentical": true,
     "duplicateIds": 0,
     "duplicateSourceIdentities": 0,
     "csvJsonConsistent": true,
-    "pythonRegressionTests": 41,
+    "pythonRegressionTests": 42,
     "javascriptRankingTests": 3,
     "atlasValidate": "passed",
     "offlineBuildCheck": "passed",
@@ -122,7 +128,7 @@
     "browser": {
       "status": "passed",
       "smokeViews": 10,
-      "representativeCases": 9,
+      "representativeCases": 11,
       "desktop": [
         1440,
         1000

@@ -13074,7 +13074,11 @@
   "discoveredVia": "Bilibili search, five Opus 5.5 keyword variants, pubdate order",
   "evidenceBasis": "Uploader title, description, tags and original video thumbnail from Bilibili search metadata; video not fully watched or independently reproduced.",
   "sourceUrl": "https://www.bilibili.com/video/BV1jEHs6XEDF",
-  "evidenceUrl": "https://www.bilibili.com/video/BV1jEHs6XEDF"
+  "evidenceUrl": "https://www.bilibili.com/video/BV1jEHs6XEDF",
+  "withdrawn": {
+   "at": "2026-10-05T19:35:53+00:00",
+   "reason": "Title and description name only Claude/Opus without a version; Opus 5.5 appears only in the uploader's tags. Withdrawn after first publication for consistency with the stated attribution rule."
+  }
  },
  {
   "category": "3d",
@@ -13250,7 +13254,11 @@
   "discoveredVia": "Bilibili search, five Opus 5.5 keyword variants, pubdate order",
   "evidenceBasis": "Uploader title, description, tags and original video thumbnail from Bilibili search metadata; video not fully watched or independently reproduced.",
   "sourceUrl": "https://www.bilibili.com/video/BV1gYHs6VEAg",
-  "evidenceUrl": "https://www.bilibili.com/video/BV1gYHs6VEAg"
+  "evidenceUrl": "https://www.bilibili.com/video/BV1gYHs6VEAg",
+  "withdrawn": {
+   "at": "2026-10-05T19:35:53+00:00",
+   "reason": "Title and description name only Claude/Opus without a version; Opus 5.5 appears only in the uploader's tags. Withdrawn after first publication for consistency with the stated attribution rule."
+  }
  },
  {
   "category": "video",
@@ -13499,7 +13507,11 @@
   "discoveredVia": "Bilibili search, five Opus 5.5 keyword variants, pubdate order",
   "evidenceBasis": "Uploader title, description, tags and original video thumbnail from Bilibili search metadata; video not fully watched or independently reproduced.",
   "sourceUrl": "https://www.bilibili.com/video/BV1hmHH6KEbN",
-  "evidenceUrl": "https://www.bilibili.com/video/BV1hmHH6KEbN"
+  "evidenceUrl": "https://www.bilibili.com/video/BV1hmHH6KEbN",
+  "withdrawn": {
+   "at": "2026-10-05T19:35:53+00:00",
+   "reason": "Title and description name only Claude/Opus without a version; Opus 5.5 appears only in the uploader's tags. Withdrawn after first publication for consistency with the stated attribution rule."
+  }
  },
  {
   "category": "science",
@@ -13829,7 +13841,11 @@
   "discoveredVia": "Bilibili search, five Opus 5.5 keyword variants, pubdate order",
   "evidenceBasis": "Uploader title, description, tags and original video thumbnail from Bilibili search metadata; video not fully watched or independently reproduced.",
   "sourceUrl": "https://www.bilibili.com/video/BV1KtHE6pEu8",
-  "evidenceUrl": "https://www.bilibili.com/video/BV1KtHE6pEu8"
+  "evidenceUrl": "https://www.bilibili.com/video/BV1KtHE6pEu8",
+  "withdrawn": {
+   "at": "2026-10-05T19:35:53+00:00",
+   "reason": "Title and description name only Claude/Opus without a version; Opus 5.5 appears only in the uploader's tags. Withdrawn after first publication for consistency with the stated attribution rule."
+  }
  },
  {
   "category": "education",
@@ -15185,7 +15201,11 @@
   "discoveredVia": "Bilibili search, five Opus 5.5 keyword variants, pubdate order",
   "evidenceBasis": "Uploader title, description, tags and original video thumbnail from Bilibili search metadata; video not fully watched or independently reproduced.",
   "sourceUrl": "https://www.bilibili.com/video/BV1MEHj6DEkK",
-  "evidenceUrl": "https://www.bilibili.com/video/BV1MEHj6DEkK"
+  "evidenceUrl": "https://www.bilibili.com/video/BV1MEHj6DEkK",
+  "withdrawn": {
+   "at": "2026-10-05T19:35:53+00:00",
+   "reason": "Title and description name only Claude/Opus without a version; Opus 5.5 appears only in the uploader's tags. Withdrawn after first publication for consistency with the stated attribution rule."
+  }
  },
  {
   "category": "video",
@@ -16069,7 +16089,11 @@
   "discoveredVia": "Bilibili search, five Opus 5.5 keyword variants, pubdate order",
   "evidenceBasis": "Uploader title, description, tags and original video thumbnail from Bilibili search metadata; video not fully watched or independently reproduced.",
   "sourceUrl": "https://www.bilibili.com/video/BV12bHz6GET1",
-  "evidenceUrl": "https://www.bilibili.com/video/BV12bHz6GET1"
+  "evidenceUrl": "https://www.bilibili.com/video/BV12bHz6GET1",
+  "withdrawn": {
+   "at": "2026-10-05T19:35:53+00:00",
+   "reason": "Title and description name only Claude/Opus without a version; Opus 5.5 appears only in the uploader's tags. Withdrawn after first publication for consistency with the stated attribution rule."
+  }
  },
  {
   "category": "video",

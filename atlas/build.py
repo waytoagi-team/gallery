@@ -309,6 +309,9 @@ def merge_cases(topic):
         if not p.exists():
             continue
         for i, c in enumerate(json.loads(p.read_text())):
+            # A withdrawn record keeps its slot so later positional IDs never shift or get reused.
+            if c.get("withdrawn"):
+                continue
             u = norm_url(c.get("sourceUrl") or "")
             key = case_key(c)
             if key in seen:
