@@ -2014,5 +2014,22 @@
   "evidenceBasis": "Original HN comment or post text; first-hand report, not independently reproduced.",
   "sourceUrl": "https://news.ycombinator.com/item?id=49943490",
   "evidenceUrl": "https://news.ycombinator.com/item?id=49943490"
+ },
+ {
+  "platform": "Hacker News",
+  "author": "sachinag",
+  "sourceUrl": "https://news.ycombinator.com/item?id=49938458",
+  "date": "2026-10-02",
+  "category": "agents",
+  "evidenceType": "教程",
+  "title": "先规划再由另一模型建原型",
+  "title_en": "Planning before another model builds the prototype",
+  "summary": "作者先让 Opus 5.5 将计划写到文档，再交给 Codex 精简并搭建原型；描述跨工具成本，不将最终实现全归因于 Opus。",
+  "summary_en": "The author has Opus 5.5 write a document plan, then Codex simplify/build the prototype, noting switching friction and keeping implementation attribution separate.",
+  "mediaKind": "none",
+  "discoveredVia": "HN Algolia pages 0 and 1 since 2026-10-02",
+  "evidenceBasis": "Firsthand original HN comment body read through Algolia. Author claims not independently reproduced.",
+  "checkedAt": "2026-10-06T09:14:26+00:00",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=49938458"
  }
 ]

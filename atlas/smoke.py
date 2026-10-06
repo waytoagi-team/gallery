@@ -32,7 +32,9 @@ def smoke(selected, report_path):
             with sync_playwright() as p:
                 browser = p.chromium.launch()
                 for topic in selected:
-                    count = json.loads((topic.public / "data/all_cases.json").read_text())["meta"]["count"]
+                    payload = json.loads((topic.public / "data/all_cases.json").read_text())
+                    count = payload["meta"]["count"]
+                    search_query = payload["cases"][0]["title_en"] if count else None
                     for width, height in ((1440, 1000), (390, 844)):
                         page = browser.new_page(viewport={"width": width, "height": height}, locale="zh-CN")
                         errors = []
@@ -49,9 +51,9 @@ def smoke(selected, report_path):
                             assert page.locator("#sort").input_value() == "hot"
                             assert not page.evaluate("document.documentElement.scrollWidth > innerWidth + 1"), (topic.id, width, lang)
                             if count:
-                                assert page.locator("#grid article.card").count() >= 24
-                                page.locator("#q").fill("HAProxy")
-                                page.wait_for_function("new URL(location.href).searchParams.get('q') === 'HAProxy'")
+                                assert page.locator("#grid article.card").count() >= min(count, 24)
+                                page.locator("#q").fill(search_query)
+                                page.wait_for_function("query => new URL(location.href).searchParams.get('q') === query", arg=search_query)
                                 page.wait_for_selector("#grid article.card")
                             else:
                                 expected = "尚无已审核案例" if lang == "zh" else "No reviewed cases yet"
@@ -65,9 +67,12 @@ def smoke(selected, report_path):
                             page.wait_for_function("lang => document.documentElement.lang === lang", arg="zh-CN" if other == "zh" else "en")
                             assert page.locator("#sort").input_value() == "hot"
                             if count:
-                                assert page.locator("#q").input_value() == "HAProxy"
-                                expected_guide = topic.spec["guide"][other]
-                                assert page.locator("a[data-guide-en]").first.get_attribute("href") == expected_guide
+                                assert page.locator("#q").input_value() == search_query
+                                guide = topic.spec.get("guide")
+                                if guide:
+                                    assert page.locator("a[data-guide-en]").first.get_attribute("href") == guide[other]
+                                else:
+                                    assert page.locator("a[data-guide-en]").count() == 0
                             assert not errors, errors
                             results.append({"topic": topic.id, "viewport": [width, height], "language": lang,
                                             "runtimeErrors": len(errors), "horizontalOverflow": False})

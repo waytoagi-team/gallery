@@ -1,0 +1,145 @@
+{
+  "refreshedAt": "2026-10-05T19:35:53+00:00",
+  "scope": {
+    "key": "multi-source",
+    "zh": "多平台公开信源更新（部分覆盖）",
+    "en": "Multi-source public refresh (partial coverage)"
+  },
+  "status": "partial-coverage",
+  "lastFullRefreshAt": "2026-09-30T07:38:18+00:00",
+  "lastMultiSourceRefreshAt": "2026-10-05T19:35:53+00:00",
+  "previousReport": "data/refresh_history/2026-10-06-before-refresh.json",
+  "previousCaseCount": 5527,
+  "caseCount": 6275,
+  "reviewedNewExtras": 748,
+  "withdrawnAfterFirstPublication": 6,
+  "reviewedNewExtrasByPlatform": {
+    "Bilibili": 254,
+    "GitHub": 33,
+    "YouTube": 28,
+    "Reddit": 68,
+    "Hacker News": 15,
+    "X": 350
+  },
+  "baseCases": 2717,
+  "baseReconciliation": {
+    "checkedAt": "2026-10-05T19:35:53+00:00",
+    "retainedCases": 2717,
+    "fetchedCases": 2342,
+    "absentFromFresh": 375,
+    "newSourceIdentities": 0,
+    "action": "Retained historical base byte-for-byte; upstream contraction is not deletion evidence",
+    "incomingSha256": "ea6088a2e5d64bbb3d86230b72a5507e2002941acde6f999d1486323d81f62df"
+  },
+  "coverage": {
+    "windowSince": "2026-10-03",
+    "configuredEndpoints": 46,
+    "configuredSucceeded": 46,
+    "supplementalRequests": 98,
+    "supplementalSucceeded": 91,
+    "xapiRequests": 137,
+    "xapiSucceeded": 120,
+    "xapiSearchObjects": 2304,
+    "xCandidatesMentioningModel": 2081,
+    "xCandidatesReviewed": 798,
+    "listOriginalXPosts": 262,
+    "githubRepositories": 162,
+    "githubIssues": 837,
+    "redditPosts": 2509,
+    "bilibiliVideos": 517,
+    "youtubeVideos": 123,
+    "hnHits": 71,
+    "coverageComplete": false
+  },
+  "metricsUpdated": {
+    "xSucceeded": 3687,
+    "xAttempted": 3710,
+    "githubSucceeded": 350,
+    "githubAttempted": 361,
+    "githubStarsChanged": 57,
+    "proxyRetried": 23,
+    "proxyRecovered": 0,
+    "xapiFallbackAttempted": 23,
+    "xapiFallbackRecovered": 0
+  },
+  "proxy": {
+    "attempts": 102,
+    "succeeded": 29,
+    "note": "The three XAPI proxy attempts used a corrupted local key and do not measure the proxy.",
+    "byPurpose": {
+      "fxtwitter-list-post": {
+        "attempts": 3,
+        "succeeded": 0
+      },
+      "fxtwitter-metrics": {
+        "attempts": 46,
+        "succeeded": 0
+      },
+      "poster-image": {
+        "attempts": 20,
+        "succeeded": 0
+      },
+      "xapi-search-continuation": {
+        "attempts": 3,
+        "succeeded": 0
+      },
+      "youtube-watch-page": {
+        "attempts": 30,
+        "succeeded": 29
+      }
+    }
+  },
+  "posters": {
+    "total": 5134,
+    "missing": 1141,
+    "newCasesWithPosters": 590,
+    "previousReviewedOverlaysPreserved": true
+  },
+  "limitations": [
+    "All 46 configured endpoints were read, but this is bounded multi-platform coverage from 2026-10-03, not the entire web.",
+    "XAPI day-split Latest chains for 2026-10-03/04/05 reached 31, 30 and 26 pages; 10-04 and 10-05 still had more results. 10-03 pages 24-30 were re-run after a local key fault was repaired.",
+    "Of 2,081 X search posts naming the model, 798 originals passed a likes/media prefilter and were reviewed; replies and low-signal posts were not reviewed.",
+    "Bilibili first pages returned HTTP 412 and recovered on a cookie-session retry; two keyword chains reached the eight-page cap. YouTube was limited to nine search first pages; watch pages were read only for accepted videos.",
+    "Reddit evidence comes from the Arctic Shift archive for seven subreddits; ClaudeAI pagination hit HTTP 422 twice and recovered on retry.",
+    "Six Bilibili cases published at 2026-10-05T19:22Z named the version only in uploader tags; they were withdrawn in place so no other case ID changed.",
+    "Upstream base list is unchanged at 2,342 entries with no new identities; all 2,717 historical base cases are retained.",
+    "Twenty-three old X posts remain unreadable after FxTwitter, proxy and XAPI single-post retries, and eleven GitHub targets failed; prior metrics are kept and HTTP 404 does not prove deletion.",
+    "Most output, cost and performance claims are creator reports, not independent reproductions. No raw response bodies, API keys, proxy credentials or authentication headers are published."
+  ],
+  "fetchReceiptFile": "data/refresh_history/2026-10-06-fetches.json",
+  "reviewDecisionFile": "data/refresh_history/2026-10-06-review.json",
+  "processLog": "reports/UPDATE-2026-10-06.md",
+  "validation": {
+    "status": "passed",
+    "cases": 6275,
+    "newCases": 748,
+    "withdrawnInPlace": 6,
+    "firstPublicationIdsUnchanged": true,
+    "existingNonmetricFieldsUnchanged": true,
+    "previousEnrichmentFilesByteIdentical": true,
+    "duplicateIds": 0,
+    "duplicateSourceIdentities": 0,
+    "csvJsonConsistent": true,
+    "pythonRegressionTests": 42,
+    "javascriptRankingTests": 3,
+    "atlasValidate": "passed",
+    "offlineBuildCheck": "passed",
+    "gitDiffCheck": "passed",
+    "browser": {
+      "status": "passed",
+      "smokeViews": 10,
+      "representativeCases": 11,
+      "desktop": [
+        1440,
+        1000
+      ],
+      "mobile": [
+        390,
+        844
+      ],
+      "runtimeErrors": 0,
+      "mobileOverflow": false,
+      "note": "Bilibili CDN thumbnails do not load in the local headless check, as in the 2026-10-03 run."
+    }
+  }
+}

@@ -43,8 +43,10 @@ node --test tests/test_ranking.cjs
 
 ### 最新收录
 
+2026-10-06 增量整合：Opus 共 **6,324 条**，Fable 共 **27 条**。保留较新的远端数据与历史案例身份；发现仍为部分覆盖。
+
 - [Claude Opus 5.5 使用案例合集](cases/models/claude-opus-5-5-usecases)：含已审核数据与可离线浏览的 HTML
-- [Fable 5.5 使用案例合集](cases/models/fable-5-5-usecases)：监控已接入，候选待审核
+- [Fable 5.5 使用案例合集](cases/models/fable-5-5-usecases)：27 条作者归属案例，后台模型身份未独立核验
 
 ## 提交一个 Case
 
