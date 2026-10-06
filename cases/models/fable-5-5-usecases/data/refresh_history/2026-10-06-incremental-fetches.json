@@ -1,0 +1,889 @@
+{
+  "configured": [
+    {
+      "key": "github-repositories-1",
+      "url": "https://api.github.com/search/repositories?q=%22Fable+5.5%22+pushed%3A%3E%3D2026-10-02&sort=updated&per_page=30",
+      "checkedAt": "2026-10-06T09:02:55+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "28",
+        "x-ratelimit-reset": "1791277436"
+      },
+      "finalUrl": "https://api.github.com/search/repositories?q=%22Fable+5.5%22+pushed%3A%3E%3D2026-10-02&sort=updated&per_page=30",
+      "bytes": 23459,
+      "file": "github-repositories-1.txt",
+      "sha256": "d771ed21e78dff52d6ba5845f30939e360d53bdf9b5b023b7c944c40506a81d8",
+      "ok": true,
+      "returned": 4,
+      "totalReported": 4,
+      "searchIncomplete": false,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "hn-1",
+      "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Fable+5.5%22&hitsPerPage=30&numericFilters=created_at_i%3E%3D1790899200",
+      "checkedAt": "2026-10-06T09:02:55+00:00",
+      "status": 200,
+      "finalUrl": "https://hn.algolia.com/api/v1/search_by_date?query=%22Fable+5.5%22&hitsPerPage=30&numericFilters=created_at_i%3E%3D1790899200",
+      "bytes": 1498,
+      "file": "hn-1.txt",
+      "sha256": "7e04f98d6bef6a575557cf6bc28b4c3fd3fefec324b7be8eef50b4659aae6f08",
+      "ok": true,
+      "returned": 1,
+      "totalReported": 1,
+      "pagesReported": 1,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "github-repositories-2",
+      "url": "https://api.github.com/search/repositories?q=%22fable5.5%22+pushed%3A%3E%3D2026-10-02&sort=updated&per_page=30",
+      "checkedAt": "2026-10-06T09:02:55+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "29",
+        "x-ratelimit-reset": "1791277436"
+      },
+      "finalUrl": "https://api.github.com/search/repositories?q=%22fable5.5%22+pushed%3A%3E%3D2026-10-02&sort=updated&per_page=30",
+      "bytes": 66742,
+      "file": "github-repositories-2.txt",
+      "sha256": "46ed09c6529c47bf96db596bf6221d39d19c9ce3e21ab212c3e90405799a773a",
+      "ok": true,
+      "returned": 12,
+      "totalReported": 12,
+      "searchIncomplete": false,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "hn-2",
+      "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22fable5.5%22&hitsPerPage=30&numericFilters=created_at_i%3E%3D1790899200",
+      "checkedAt": "2026-10-06T09:02:55+00:00",
+      "status": 200,
+      "finalUrl": "https://hn.algolia.com/api/v1/search_by_date?query=%22fable5.5%22&hitsPerPage=30&numericFilters=created_at_i%3E%3D1790899200",
+      "bytes": 424,
+      "file": "hn-2.txt",
+      "sha256": "f5ea0dba486715d680b813777f5da6582d9ba476aaf1daaa5ad353370ee0ddc5",
+      "ok": true,
+      "returned": 0,
+      "totalReported": 0,
+      "pagesReported": 0,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "github-repositories-3",
+      "url": "https://api.github.com/search/repositories?q=%22fable-5-5%22+pushed%3A%3E%3D2026-10-02&sort=updated&per_page=30",
+      "checkedAt": "2026-10-06T09:02:56+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "26",
+        "x-ratelimit-reset": "1791277436"
+      },
+      "finalUrl": "https://api.github.com/search/repositories?q=%22fable-5-5%22+pushed%3A%3E%3D2026-10-02&sort=updated&per_page=30",
+      "bytes": 23459,
+      "file": "github-repositories-3.txt",
+      "sha256": "d771ed21e78dff52d6ba5845f30939e360d53bdf9b5b023b7c944c40506a81d8",
+      "ok": true,
+      "returned": 4,
+      "totalReported": 4,
+      "searchIncomplete": false,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "hn-3",
+      "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22fable-5-5%22&hitsPerPage=30&numericFilters=created_at_i%3E%3D1790899200",
+      "checkedAt": "2026-10-06T09:02:56+00:00",
+      "status": 200,
+      "finalUrl": "https://hn.algolia.com/api/v1/search_by_date?query=%22fable-5-5%22&hitsPerPage=30&numericFilters=created_at_i%3E%3D1790899200",
+      "bytes": 418,
+      "file": "hn-3.txt",
+      "sha256": "249f8094b317050a91b893807c9d05983a9928247c22a46d64fb955489b04cf1",
+      "ok": true,
+      "returned": 0,
+      "totalReported": 0,
+      "pagesReported": 0,
+      "pagination": "first-page-only"
+    }
+  ],
+  "supplemental": [
+    {
+      "key": "fx-2105757136219504862",
+      "url": "https://api.fxtwitter.com/chetaslua/status/2105757136219504862",
+      "checkedAt": "2026-10-06T09:06:12+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 8733,
+      "sha256": "5c2beefabd4a735aa7e02450fce4e6e0c53ba830485a3d6c4989ebc03e15cf78"
+    },
+    {
+      "key": "fx-2105792187200147541",
+      "url": "https://api.fxtwitter.com/chetaslua/status/2105792187200147541",
+      "checkedAt": "2026-10-06T09:06:01+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 12736,
+      "sha256": "ba04e4b4fdef77c24e8316cb6794da4321e0145028f4fd5e30e9c7986ff706ac"
+    },
+    {
+      "key": "fx-2105822678519001360",
+      "url": "https://api.fxtwitter.com/zAdrielsan/status/2105822678519001360",
+      "checkedAt": "2026-10-06T09:06:00+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 5891,
+      "sha256": "7bbcf1acf089035d30655a66b6d3e8532706dd912f6a66b31770a575115b805a"
+    },
+    {
+      "key": "fx-2105884276864782557",
+      "url": "https://api.fxtwitter.com/chetaslua/status/2105884276864782557",
+      "checkedAt": "2026-10-06T09:05:47+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 12293,
+      "sha256": "6dbab05f53f9167061a5df23c5a4822c6f36c2e75553bd3c1cc34d85fb31bf14"
+    },
+    {
+      "key": "fx-2105889407056109991",
+      "url": "https://api.fxtwitter.com/imjustnewatai/status/2105889407056109991",
+      "checkedAt": "2026-10-06T09:05:42+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 7056,
+      "sha256": "2704a9fc2428e7b86778549a5721a7f13d57d4832a58b9e04378d7220267c215"
+    },
+    {
+      "key": "fx-2105983571848741045",
+      "url": "https://api.fxtwitter.com/ziwenxu_/status/2105983571848741045",
+      "checkedAt": "2026-10-06T09:05:37+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 8347,
+      "sha256": "8904347a31afb8c7b66e6c39923571b5608229721d151113e5efd2f5938c9338"
+    },
+    {
+      "key": "fx-2106000055706784118",
+      "url": "https://api.fxtwitter.com/ishuagra02/status/2106000055706784118",
+      "checkedAt": "2026-10-06T09:05:46+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 5497,
+      "sha256": "4ad1a24ee74c821af459fa2abd7b3c0f5d3268124bde5a48aa1740e39f696476"
+    },
+    {
+      "key": "fx-2106031355922387163",
+      "url": "https://api.fxtwitter.com/blueemi99/status/2106031355922387163",
+      "checkedAt": "2026-10-06T09:05:51+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 5902,
+      "sha256": "86c7d668b3e22431e4134415f3f55461c4bb66deb9c9acb7cae01819907b31f4"
+    },
+    {
+      "key": "fx-2106045364868419727",
+      "url": "https://api.fxtwitter.com/ishuagra02/status/2106045364868419727",
+      "checkedAt": "2026-10-06T09:05:46+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 5531,
+      "sha256": "963003616987a13af9266f329a0636ffa1c86608d0b0b89e337c5088d8a16e26"
+    },
+    {
+      "key": "fx-2106050222828998967",
+      "url": "https://api.fxtwitter.com/notjazii/status/2106050222828998967",
+      "checkedAt": "2026-10-06T09:06:13+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 6216,
+      "sha256": "a0ab0b59a80612dc239ab3ceae59f798afa1df80ca946030a16a06e0fc15f621"
+    },
+    {
+      "key": "fx-2106065029850091943",
+      "url": "https://api.fxtwitter.com/EMostaque/status/2106065029850091943",
+      "checkedAt": "2026-10-06T09:06:05+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 6234,
+      "sha256": "edf19b123f8cbf6bda4f07dd6cae6d46d3484f0c4493aa6b50ef2323b1b960a7"
+    },
+    {
+      "key": "fx-2106076940558082297",
+      "url": "https://api.fxtwitter.com/chetaslua/status/2106076940558082297",
+      "checkedAt": "2026-10-06T09:05:49+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 12617,
+      "sha256": "0588c60f4118f78ba84dc2ef3fcc00e236af19f892e30932814d674b385907e3"
+    },
+    {
+      "key": "fx-2106081142143168580",
+      "url": "https://api.fxtwitter.com/imjustnewatai/status/2106081142143168580",
+      "checkedAt": "2026-10-06T09:05:39+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 5693,
+      "sha256": "cf6f206d3cc74ac790185eb25fc30645a1b47c77ea784eea7374894b6541e38c"
+    },
+    {
+      "key": "fx-2106095190285144331",
+      "url": "https://api.fxtwitter.com/cherry_mx_reds/status/2106095190285144331",
+      "checkedAt": "2026-10-06T09:06:13+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 5818,
+      "sha256": "a8f5d55ee08690261f762016dbf32fe1ac14d6cde11d16e2c2365067657dc2a3"
+    },
+    {
+      "key": "fx-2106112279079199037",
+      "url": "https://api.fxtwitter.com/mindblown_ai/status/2106112279079199037",
+      "checkedAt": "2026-10-06T09:06:13+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 6105,
+      "sha256": "d6ae885d95f4f03194d0e144e2966ef7a5268edbe176a614ea8d1049155ae050"
+    },
+    {
+      "key": "fx-2106138602073641241",
+      "url": "https://api.fxtwitter.com/ishuagra02/status/2106138602073641241",
+      "checkedAt": "2026-10-06T09:05:34+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 5993,
+      "sha256": "8b33327721193b8194727c142761cf2d84de6ddac83f57c0786711380b265ff9"
+    },
+    {
+      "key": "fx-2106190594775097663",
+      "url": "https://api.fxtwitter.com/imjustnewatai/status/2106190594775097663",
+      "checkedAt": "2026-10-06T09:06:12+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 5840,
+      "sha256": "870ab7f46ca7baa8fb0b1e2827c53fc1559ac76fde420cb4096c4d58c6206950"
+    },
+    {
+      "key": "fx-2106248621519978867",
+      "url": "https://api.fxtwitter.com/chetaslua/status/2106248621519978867",
+      "checkedAt": "2026-10-06T09:05:36+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 13124,
+      "sha256": "d782ad3196afe0c5afa0f885942769ebf53dad34ff6e23ba255b54ba405de228"
+    },
+    {
+      "key": "fx-2106369929813594134",
+      "url": "https://api.fxtwitter.com/ishuagra02/status/2106369929813594134",
+      "checkedAt": "2026-10-06T09:05:59+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 5514,
+      "sha256": "e9a29a42353c0aa8b2d25cd91e715e9310673947da3a7e0f35548e975a9bb561"
+    },
+    {
+      "key": "fx-2106376222309761094",
+      "url": "https://api.fxtwitter.com/Saccc_c/status/2106376222309761094",
+      "checkedAt": "2026-10-06T09:05:49+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 13384,
+      "sha256": "e73dc6990838de027ae078367b5aa49de05c414c0329151aa049183bce4c7657"
+    },
+    {
+      "key": "fx-2106489784382197771",
+      "url": "https://api.fxtwitter.com/imjustnewatai/status/2106489784382197771",
+      "checkedAt": "2026-10-06T09:06:12+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 5848,
+      "sha256": "18eae374e53fdccbb4c707579913b47293f41bbdc91006168fe5378ba165a93a"
+    },
+    {
+      "key": "fx-2106590326634983710",
+      "url": "https://api.fxtwitter.com/MozeTech/status/2106590326634983710",
+      "checkedAt": "2026-10-06T09:06:13+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 7018,
+      "sha256": "f3c333d741b930a95491a6f4d1a545cfe53bd32d17d791429f82713097022c58"
+    },
+    {
+      "key": "fx-2106638839666373114",
+      "url": "https://api.fxtwitter.com/abhinavflac/status/2106638839666373114",
+      "checkedAt": "2026-10-06T09:06:08+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 6006,
+      "sha256": "429869d07ff879ffb810911c6877f565d8d20ac570e925c5b6f269265179ec23"
+    },
+    {
+      "key": "fx-2106755903223664708",
+      "url": "https://api.fxtwitter.com/blueemi99/status/2106755903223664708",
+      "checkedAt": "2026-10-06T09:05:51+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 5804,
+      "sha256": "8aad222bbe3dcb17489530e5f4b2ac326fdf1417c8f7b2c65b6c5f17aeadbf20"
+    },
+    {
+      "key": "fx-2106925762582323550",
+      "url": "https://api.fxtwitter.com/imjustnewatai/status/2106925762582323550",
+      "checkedAt": "2026-10-06T09:05:56+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 5835,
+      "sha256": "13d8fae063bbb1ceb58608140c6a92c6676ffc673fa14bf40d1fae64aaf3efe8"
+    },
+    {
+      "key": "fx-2107086714820870617",
+      "url": "https://api.fxtwitter.com/JaydenDavisNC/status/2107086714820870617",
+      "checkedAt": "2026-10-06T09:06:15+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 6019,
+      "sha256": "45e5d8c6670f2eca08be64f23b226af4c88527650347f9c84692be190d491a50"
+    },
+    {
+      "key": "fx-2107108802440900621",
+      "url": "https://api.fxtwitter.com/blueemi99/status/2107108802440900621",
+      "checkedAt": "2026-10-06T09:05:56+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 6244,
+      "sha256": "11e75a79157abde7178a1ca70cd851ce1be6bb2b86c1e25085885e39b7f5bb0e"
+    },
+    {
+      "key": "poster-fable-062",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2106587381331816448/img/uKxjgj6i8lMnKnel.jpg",
+      "checkedAt": "2026-10-06T09:15:20+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 38357,
+      "sha256": "8b34f7ff7816e29f2ca264171f3076150c14f1e83ea559c5e6fb71e6f392ac00"
+    },
+    {
+      "key": "poster-fable-063",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2106080680471834624/img/XbejF3z_IpBdCzsz.jpg",
+      "checkedAt": "2026-10-06T09:15:20+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 13424,
+      "sha256": "d7bbffe8e7c00a88e7ed1a39c629f0d93e1375fa42214f7c1a306ea4f8e649ea"
+    },
+    {
+      "key": "poster-fable-064",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2105756947442257920/img/oLyYXG6pv6p-S7eC.jpg",
+      "checkedAt": "2026-10-06T09:15:20+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 132779,
+      "sha256": "bf9f9e0c1c18ec87d782715238adf879e0a4b747465b6d11b24fd3b3997b4467"
+    },
+    {
+      "key": "poster-fable-065",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2107086270514044928/img/zujM-sQh4dqJNAEW.jpg",
+      "checkedAt": "2026-10-06T09:15:20+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 8530,
+      "sha256": "bc8a6d1a2add42308dd09a21cf6e0fc26859fbabb0e58ef7077a42364f1fbf6e"
+    },
+    {
+      "key": "poster-fable-066",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2106095106004570112/img/5996q48lBINY-B-o.jpg",
+      "checkedAt": "2026-10-06T09:15:20+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 180562,
+      "sha256": "3967f82d274d07f7ea7c11bc370c7b7c852ac79ebabb0e55b8d468f2e7defe7b"
+    },
+    {
+      "key": "poster-fable-067",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2106045285017268224/img/Yr994w97L5tMD6u1.jpg",
+      "checkedAt": "2026-10-06T09:15:20+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 5366,
+      "sha256": "5f11c3192a5dae1f4ce34fa74d8dd3e37f142011139467183e2befe9638da485"
+    },
+    {
+      "key": "poster-fable-068",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2106125175821389824/img/g6YosFFGjYb6Twxr.jpg",
+      "checkedAt": "2026-10-06T09:15:20+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 44816,
+      "sha256": "9943078ebfa5f29928ff11cb253808e1830201d961b3bde0e2a7fc81ef408629"
+    },
+    {
+      "key": "poster-fable-069",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2106694897860317184/img/8HBr0jvQAIToY8B4.jpg",
+      "checkedAt": "2026-10-06T09:15:20+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 128877,
+      "sha256": "1ac939a99a7de7912610e05d737e44cd801ced73430369ed2d34e922334f9875"
+    },
+    {
+      "key": "poster-fable-070",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2105883581038153728/img/qel3389CG0vTxWFX.jpg",
+      "checkedAt": "2026-10-06T09:15:20+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 34018,
+      "sha256": "c6df167804b40af4db16bcd9fef1859c410a6c7c396857334cdf8f067dd17870"
+    },
+    {
+      "key": "poster-fable-071",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2106031233612283904/img/XBSPhOXO_Pi8cUJH.jpg",
+      "checkedAt": "2026-10-06T09:15:20+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 32326,
+      "sha256": "ad187accf962ddcd5ea1c8e835738f66faf5eb37c260935b2ff17a71890532e1"
+    },
+    {
+      "key": "poster-fable-072",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2107108711537745920/img/0e0hH7adfbKywwB8.jpg",
+      "checkedAt": "2026-10-06T09:15:20+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 13508,
+      "sha256": "b335769acee8018a223be9b53f842d2e44e73ba746bf735c27db1fd5eee284ce"
+    },
+    {
+      "key": "poster-fable-073",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2106111913264611328/img/-gl_fHBWEzxZh4bI.jpg",
+      "checkedAt": "2026-10-06T09:15:20+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 145122,
+      "sha256": "4b7fcfe094eab5700657c46a66a49c6cecf80620c20512c0864d12dcd29125ab"
+    },
+    {
+      "key": "poster-fable-074",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2105889292841029633/img/iz68iBAHIRdyp316.jpg",
+      "checkedAt": "2026-10-06T09:15:20+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 77479,
+      "sha256": "c38369dcab30a7a3b2592a2ef826e23e5001e9d158628946bd608aecfad42942"
+    },
+    {
+      "key": "poster-fable-075",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2105791898170576896/img/2sETYbGHlKKXwrbx.jpg",
+      "checkedAt": "2026-10-06T09:15:20+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 126831,
+      "sha256": "11921e058184a9deee4fad4a4ccdc89e44b02dc5401947350dd4c0b92e4c3e2d"
+    },
+    {
+      "key": "poster-fable-076",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2106489679746859008/img/Nr-38b0HHYCJS-me.jpg",
+      "checkedAt": "2026-10-06T09:15:20+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 15186,
+      "sha256": "aabefce8a498de9c592fec60461fb9b5f1dedecf70857ceaf84a7ad29a84b68d"
+    },
+    {
+      "key": "poster-fable-077",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2106925718034591744/img/dC27ROGDVOfCQ-RO.jpg",
+      "checkedAt": "2026-10-06T09:15:20+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 24087,
+      "sha256": "45a821663592a81d0d43c8a90671535966290487555b7577f402120e4cfa83d8"
+    },
+    {
+      "key": "poster-fable-078",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2105974025167982592/img/FOfKC5764KT75uQi.jpg",
+      "checkedAt": "2026-10-06T09:15:20+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 44123,
+      "sha256": "b9e27ef3f017676036965a5bf5aa2940b4bca0978385160a2c28e52a27d4983f"
+    },
+    {
+      "key": "poster-fable-079",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2106076390227615744/img/DZ2vEQf5P9eZjpdE.jpg",
+      "checkedAt": "2026-10-06T09:15:20+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 101590,
+      "sha256": "29a4c6fbbf00bf107a493f8f04090c5237de58e5cb58e299a4aa5fd6b6061132"
+    },
+    {
+      "key": "poster-fable-080",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2105821738743267328/img/QHPQGu2BCTYGJhoj.jpg",
+      "checkedAt": "2026-10-06T09:15:20+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 67706,
+      "sha256": "8d8cd2cee891511d37be25313a4b9db283985c1be6105b9ea208fe3510ba656e"
+    },
+    {
+      "key": "poster-fable-081",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2106349987181613056/img/rYFTbsb_ZCSzweqt.jpg",
+      "checkedAt": "2026-10-06T09:15:20+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 24955,
+      "sha256": "6cdeeb0527463666113e3fa245d44a2adbf35a2d356d9080c62c819f8087b470"
+    },
+    {
+      "key": "poster-fable-082",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2106248252194725888/img/WUlBrxYh4SrTEXmz.jpg",
+      "checkedAt": "2026-10-06T09:15:20+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 72276,
+      "sha256": "d26436d7d96df2d38278b9dcfa99b8b1fa9a92b3a954066b43115e422206ba2a"
+    },
+    {
+      "key": "poster-fable-083",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2106137509080039424/img/eZtr7zSVFZQO1nCz.jpg",
+      "checkedAt": "2026-10-06T09:15:20+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 47659,
+      "sha256": "7374241c39dab0c94f2557f2918b5aaa507cfcfe79a055609ddee8ac879b5e97"
+    },
+    {
+      "key": "poster-fable-084",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2106049835120103425/img/9CoAE_ICGOXfLuFB.jpg",
+      "checkedAt": "2026-10-06T09:15:20+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 65737,
+      "sha256": "d7d550662b97f41a709b4d58d8a54c46c0f5dfe2985010d253c6a663cb106e37"
+    },
+    {
+      "key": "poster-fable-085",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2106064884798566400/img/NzZmyt4cTpUHGxBC.jpg",
+      "checkedAt": "2026-10-06T09:15:20+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 185142,
+      "sha256": "a7605d61a6999b7a5a75d298adaa5082720676c0f8b0983d2c6bfa07df853e1f"
+    },
+    {
+      "key": "poster-fable-086",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2106190457336102912/img/DUKBaxMS-ZvZ3lm5.jpg",
+      "checkedAt": "2026-10-06T09:15:20+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 58974,
+      "sha256": "395d2654b5b0a3e977b472c8758bac824c6e63e2c1283d732b104d3192931956"
+    },
+    {
+      "key": "poster-fable-087",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2105903123424296960/img/VVKtJchJvM-4u_-2.jpg",
+      "checkedAt": "2026-10-06T09:15:20+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 86296,
+      "sha256": "1091a42f052632de59288e3f0afa7f8faeac7e97f491b8a47f07f99a18020e15"
+    },
+    {
+      "key": "poster-fable-088",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2106638072540803072/img/FwsnZFX9HlIHR0-R.jpg",
+      "checkedAt": "2026-10-06T09:15:20+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 154326,
+      "sha256": "4b7d65e79fa8c8fa9aed2eda52761be255dc1ef710b4995bab07b5a55b704bec"
+    },
+    {
+      "key": "readme-EugeneinTW--fable5-cases",
+      "url": "https://api.github.com/repos/EugeneinTW/fable5-cases/readme",
+      "checkedAt": "2026-10-06T09:04:44+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4626",
+        "x-ratelimit-reset": "1791281035"
+      },
+      "ok": true,
+      "bytes": 3479,
+      "sha256": "1521afd4379b2fec734a34abc7bc29bb3edd1583f1cb4b726112a3db0d7aa51d"
+    },
+    {
+      "key": "readme-alperpamukcu--FABLE5",
+      "url": "https://api.github.com/repos/alperpamukcu/FABLE5/readme",
+      "checkedAt": "2026-10-06T09:04:47+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4604",
+        "x-ratelimit-reset": "1791281035"
+      },
+      "ok": true,
+      "bytes": 17930,
+      "sha256": "cc2561bf3ed5a4771ba26fe0a7df77698134b7bdffe8424520eaeb9b8915e436"
+    },
+    {
+      "key": "readme-chromata83--Chromata_films_FAble5_update",
+      "url": "https://api.github.com/repos/chromata83/Chromata_films_FAble5_update/readme",
+      "checkedAt": "2026-10-06T09:04:48+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4597",
+        "x-ratelimit-reset": "1791281035"
+      },
+      "ok": true,
+      "bytes": 4169,
+      "sha256": "8ab0b7a57458548a4baa7e67cfcadae6fddb9ded34288563cab85f557f3fee25"
+    },
+    {
+      "key": "readme-coolbat--awesome-fable-5.5-usecase",
+      "url": "https://api.github.com/repos/coolbat/awesome-fable-5.5-usecase/readme",
+      "checkedAt": "2026-10-06T09:04:48+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4595",
+        "x-ratelimit-reset": "1791281035"
+      },
+      "ok": true,
+      "bytes": 28928,
+      "sha256": "e1e06b770491759985af885f92f88272f9c240ad157656ccca2b2e8a9b92de9a"
+    },
+    {
+      "key": "readme-coreyhahn--fable5_llm",
+      "url": "https://api.github.com/repos/coreyhahn/fable5_llm/readme",
+      "checkedAt": "2026-10-06T09:04:49+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4594",
+        "x-ratelimit-reset": "1791281035"
+      },
+      "ok": true,
+      "bytes": 24299,
+      "sha256": "3c4a75b6233d1d32013ed465f87e8e978b47fb507f736728dc1076e7ebcdcbeb"
+    },
+    {
+      "key": "readme-dayjur--fable5.1-5.5",
+      "url": "https://api.github.com/repos/dayjur/fable5.1-5.5/readme",
+      "checkedAt": "2026-10-06T09:04:49+00:00",
+      "ok": false,
+      "error": "HTTP Error 404: GitHub API request failed",
+      "status": 404
+    },
+    {
+      "key": "readme-everett6--gemma4-fable51-finetune",
+      "url": "https://api.github.com/repos/everett6/gemma4-fable51-finetune/readme",
+      "checkedAt": "2026-10-06T09:04:49+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4590",
+        "x-ratelimit-reset": "1791281035"
+      },
+      "ok": true,
+      "bytes": 9642,
+      "sha256": "17417602f98cd5762354015b0332658076dc0cab31840edb18c6111b07d785bd"
+    },
+    {
+      "key": "readme-inematds--fable51-system",
+      "url": "https://api.github.com/repos/inematds/fable51-system/readme",
+      "checkedAt": "2026-10-06T09:04:51+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4580",
+        "x-ratelimit-reset": "1791281035"
+      },
+      "ok": true,
+      "bytes": 2751,
+      "sha256": "26d57d611aad97217f118442b14149006d31d3d2ecb74fa1674d9c350e2fb22d"
+    },
+    {
+      "key": "readme-inematds--fable5back",
+      "url": "https://api.github.com/repos/inematds/fable5back/readme",
+      "checkedAt": "2026-10-06T09:04:51+00:00",
+      "ok": false,
+      "error": "HTTP Error 404: GitHub API request failed",
+      "status": 404
+    },
+    {
+      "key": "readme-josephouse08-web--FABLE-5.5",
+      "url": "https://api.github.com/repos/josephouse08-web/FABLE-5.5/readme",
+      "checkedAt": "2026-10-06T09:04:51+00:00",
+      "ok": false,
+      "error": "HTTP Error 404: GitHub API request failed",
+      "status": 404
+    },
+    {
+      "key": "readme-kot-Bonifacy--Fable5-vtt",
+      "url": "https://api.github.com/repos/kot-Bonifacy/Fable5-vtt/readme",
+      "checkedAt": "2026-10-06T09:04:52+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4572",
+        "x-ratelimit-reset": "1791281035"
+      },
+      "ok": true,
+      "bytes": 6955,
+      "sha256": "ecdc2f1e6fd12c96de83b648dad53e1e0ef1e06dbfaff12a956c32d73b1fc726"
+    },
+    {
+      "key": "readme-taogavn-oss--Design-Figma-Model-fable5",
+      "url": "https://api.github.com/repos/taogavn-oss/Design-Figma-Model-fable5/readme",
+      "checkedAt": "2026-10-06T09:04:54+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4553",
+        "x-ratelimit-reset": "1791281035"
+      },
+      "ok": true,
+      "bytes": 937,
+      "sha256": "ff2f0d738a645e233c44fb44d173c5d160fba419881551a8ff78d063c700bfa9"
+    },
+    {
+      "key": "readme-xianyu110--awesome-fable-5.5",
+      "url": "https://api.github.com/repos/xianyu110/awesome-fable-5.5/readme",
+      "checkedAt": "2026-10-06T09:04:54+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4551",
+        "x-ratelimit-reset": "1791281035"
+      },
+      "ok": true,
+      "bytes": 38294,
+      "sha256": "0d1f2722d507e231da5c7e383b0503bfd95cadcdbf0c1bd67a4600a46c5e4283"
+    },
+    {
+      "key": "readme-yihui-dev--awesome-fable5-5-videos",
+      "url": "https://api.github.com/repos/yihui-dev/awesome-fable5-5-videos/readme",
+      "checkedAt": "2026-10-06T09:04:55+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "5000",
+        "x-ratelimit-remaining": "4548",
+        "x-ratelimit-reset": "1791281035"
+      },
+      "ok": true,
+      "bytes": 81826,
+      "sha256": "6a97e9f62f6d64ea32089d22e7044cbbfb18f9cae9736c6f2e6dd27cd24d4dc6"
+    },
+    {
+      "key": "readme-yujione1412-png--bukken-navi-fable5",
+      "url": "https://api.github.com/repos/yujione1412-png/bukken-navi-fable5/readme",
+      "checkedAt": "2026-10-06T09:04:55+00:00",
+      "ok": false,
+      "error": "HTTP Error 404: GitHub API request failed",
+      "status": 404
+    },
+    {
+      "key": "xsearch-6-0",
+      "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%28%5C%22Fable+5.5%5C%22+OR+%5C%22fable5.5%5C%22+OR+%5C%22fable-5.5%5C%22%29+since%3A2026-10-01+-filter%3Aretweets%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Latest%22%2C+%22includePromotedContent%22%3A+false%7D",
+      "checkedAt": "2026-10-06T09:05:16+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 86674,
+      "sha256": "4ff397063b3000891f82c2904662d86317c421934288ea91e6e1d1bcd7679770"
+    },
+    {
+      "key": "xsearch-6-1",
+      "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%28%5C%22Fable+5.5%5C%22+OR+%5C%22fable5.5%5C%22+OR+%5C%22fable-5.5%5C%22%29+since%3A2026-10-01+-filter%3Aretweets%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Latest%22%2C+%22includePromotedContent%22%3A+false%2C+%22cursor%22%3A+%22DAADDAABCgABHT75Dotb0J0KAAIdPuyKNxogiwAIAAIAAAACCAADAAAAAAgABAAAAAAKAAUdPvoyDIAnEAoABh0--jIMf9jwCwAHAAAA8EVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFCUWRQdkVScVZkQnBoMCs5VjhyMjdHMUhUNzRZNzBYc0RNZFB2Z0hBeGJRNlIwKytINjYxa0V6SFQ3c2lqY2FJSXNkUHZJcU1odVFWaDArNzJoZDFpQ3NIVDd0aGI5YlFHNGRQdkRaeGRlZ3dCMCs3cS9jMjhBMkhUNzBCOFNXWUZNZFB2VjB5aHRoeGgwKzlYYkNtbUZYSFQ3M2lpSFdVYm9kUHZrT2kxdlFuUjArOXNDNVZyRXdIVDd3WVNOV3NCUWRQdkpZc2hhd0RoMCs3Kzd6R21ENwAA%22%7D",
+      "checkedAt": "2026-10-06T09:05:18+00:00",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found",
+      "status": 404
+    }
+  ],
+  "xapiSearchCoverage": [
+    {
+      "query": "(\"Fable 5.5\" OR \"fable5.5\" OR \"fable-5.5\") since:2026-10-01 -filter:retweets",
+      "product": "Latest",
+      "page": 0,
+      "objects": 21,
+      "status": 200,
+      "hasNext": true,
+      "complete": false,
+      "stopReason": null
+    },
+    {
+      "query": "(\"Fable 5.5\" OR \"fable5.5\" OR \"fable-5.5\") since:2026-10-01 -filter:retweets",
+      "product": "Latest",
+      "page": 1,
+      "objects": 0,
+      "status": 404,
+      "hasNext": false,
+      "complete": false,
+      "stopReason": "HTTP error"
+    }
+  ],
+  "existingMetrics": [],
+  "note": "Supplemental reads shared across topics. Responses remain in ignored local cache. No credentials or request authentication headers published.",
+  "firecrawl": {
+    "searches": [
+      {
+        "id": "01a11074-18df-72c9-bbee-59ca14cfbe7b",
+        "success": true,
+        "results": [
+          {
+            "url": "https://www.youtube.com/watch?v=BbsoRYprICI",
+            "title": "Claude Fable 5.5 Just Got Leaked and It's INSANE - YouTube"
+          },
+          {
+            "url": "https://www.facebook.com/freddyvega/posts/opus-55-is-a-really-scary-model-fast-writes-very-well-less-usage-consumption-vs-/1636227831207253/",
+            "title": "Opus 5.5 is a really scary model * fast * writes very well * less usage ..."
+          },
+          {
+            "url": "https://www.reddit.com/r/ClaudeCode/comments/1woe3lo/is_opus_55_really_better_than_fable_in_your/",
+            "title": "Is Opus 5.5 really better than Fable in your experience? : r/ClaudeCode"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=dQkVUANCYgc",
+            "title": "Fable 5 is Back! Here's the Best Way to Use It... - YouTube"
+          },
+          {
+            "url": "https://aiidelist.com/blog/claude-fable-5-5",
+            "title": "Claude Fable 5.5: Release Status, Leaks, Tests & Demos - AI IDE List"
+          },
+          {
+            "url": "https://evolink.ai/blog/claude-fable-5-5-vs-claude-opus-5-5",
+            "title": "Claude Fable 5.5 vs Opus 5.5: When Would Switching Pay Off? - EvoLink"
+          },
+          {
+            "url": "https://www.instagram.com/reel/DaQ0Q_dOeH3/?hl=en",
+            "title": "Fable 5 is back in Claude! Is it the same? Is it even a big deal? Let me ..."
+          },
+          {
+            "url": "https://aitoolsreview.co.uk/insights/claude-fable-5-5-leak",
+            "title": "Claude Fable 5.5 Leak: What Is Verified So Far - AI Tools Review"
+          },
+          {
+            "url": "https://www.facebook.com/groups/claudecommunity/posts/1135290722344925/",
+            "title": "Is Fable 5.5 launching soon, outperforming Opus 5.5? - Facebook"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=ts1ugvrQVbo",
+            "title": "Claude Fable 5 & Mythos 5 Explained | Benchmarks, Features & Demos"
+          }
+        ]
+      }
+    ],
+    "pages": []
+  }
+}

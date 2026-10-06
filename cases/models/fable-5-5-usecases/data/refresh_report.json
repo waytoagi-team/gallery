@@ -1,13 +1,70 @@
 {
-  "status": "not-started",
+  "refreshedAt": "2026-10-06T14:55:57+00:00",
   "scope": {
-    "zh": "尚无已审核案例",
-    "en": "No reviewed cases yet"
+    "key": "multisource-partial",
+    "zh": "多来源发现与作者归属案例审核（模型身份未独立核验）",
+    "en": "Multi-source discovery and creator-attributed case review (backend identity unverified)"
   },
-  "caseCount": 0,
-  "refreshedAt": null,
+  "status": "partial-coverage",
   "lastFullRefreshAt": null,
+  "lastMultiSourceRefreshAt": "2026-10-06T09:17:46+00:00",
+  "previousReport": "data/refresh_history/2026-10-06-before-incremental-deploy.json",
+  "previousCaseCount": 0,
+  "caseCount": 27,
+  "reviewedNewExtras": 27,
+  "newCasesByPlatform": {
+    "X": 27
+  },
+  "coverage": {
+    "configuredSourcesAttempted": 6,
+    "configuredSourcesSucceeded": 6,
+    "configuredDiscoveryCandidates": 16,
+    "reviewedAccepted": 27,
+    "partial": true
+  },
+  "metrics": {
+    "newPrimaryPostSnapshots": 27,
+    "historicalCases": 0
+  },
+  "posters": {
+    "total": 17,
+    "missing": 10,
+    "newAccepted": 17,
+    "historicalPostersPreserved": true
+  },
   "limitations": [
-    "Topic initialized with zero reviewed cases. Discovery candidates are not imported automatically."
-  ]
+    "Every accepted case is an original creator post explicitly attributing the work to Fable 5.5; this does not verify backend model identity or alleged silent routing.",
+    "No official release date, specs, pricing or general model ranking are inferred. Posts saying maybe, rumors and reposts were not accepted.",
+    "Discovery, media screening and post reading are bounded. No exhaustive platform coverage, full video viewing or independent reproduction is claimed.",
+    "Deployment reconciles with the newer remote baseline. Existing editorial content and withdrawn slots are retained. Local metric snapshots are applied only when newer; this deployment does not perform a fresh crawl."
+  ],
+  "fetchReceiptFile": "data/refresh_history/2026-10-06-incremental-fetches.json",
+  "reviewFile": "data/refresh_history/2026-10-06-incremental-review.json",
+  "processLog": "reports/UPDATE-2026-10-06-incremental.md",
+  "validation": {
+    "status": "passed",
+    "previousCaseCount": 0,
+    "existingIdsAndNonmetricFieldsUnchanged": true,
+    "pythonRegressionTests": 42,
+    "javascriptRankingTests": 3,
+    "offlineBuildCheck": "passed",
+    "csvJsonConsistent": true,
+    "gitDiffCheck": "passed",
+    "duplicateIds": 0,
+    "duplicateSourceIdentities": 0,
+    "browser": {
+      "status": "passed",
+      "views": 5,
+      "runtimeErrors": 0,
+      "horizontalOverflow": false,
+      "offlineFileMode": true
+    }
+  },
+  "reconciliation": {
+    "localReviewed": 27,
+    "alreadyOnRemote": 0,
+    "newlyAdded": 27,
+    "remoteBaselineCommit": "37c82baac43d0b1cb20fe76e8c975f5ade9ab0e2",
+    "remoteWithdrawnSlotsPreserved": true
+  }
 }

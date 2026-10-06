@@ -1,0 +1,1528 @@
+{
+  "accepted": [
+    {
+      "sourceUrl": "https://x.com/ValsAI/status/2107204457738256749",
+      "sourceIdentity": "x.com/i/status/2107204457738256749",
+      "status": "accepted",
+      "category": "science",
+      "title": "磁性半导体候选材料搜索",
+      "evidenceBasis": "Original creator post body explicitly names the model and the described task; own attachment metadata checked. Author report, not independent reproduction.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": "fx-2107204457738256749",
+      "screenIndex": 3,
+      "receipt": {
+        "key": "fx-2107204457738256749",
+        "url": "https://api.fxtwitter.com/ValsAI/status/2107204457738256749",
+        "checkedAt": "2026-10-06T09:06:11+00:00",
+        "status": 200,
+        "ok": true,
+        "bytes": 2897,
+        "sha256": "db8b38438ef9688c34349c656afda505f6d612d01d5ad83e39173b33b02851a7"
+      },
+      "id": "lists-1145",
+      "localReviewId": "lists-796"
+    },
+    {
+      "sourceUrl": "https://x.com/trikcode/status/2106599643014414696",
+      "sourceIdentity": "x.com/i/status/2106599643014414696",
+      "status": "accepted",
+      "category": "graphics",
+      "title": "把模型的心智画成视觉作品",
+      "evidenceBasis": "Original creator post body explicitly names the model and the described task; own attachment metadata checked. Author report, not independent reproduction.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": "fx-2106599643014414696",
+      "screenIndex": 4,
+      "receipt": {
+        "key": "fx-2106599643014414696",
+        "url": "https://api.fxtwitter.com/trikcode/status/2106599643014414696",
+        "checkedAt": "2026-10-06T09:06:01+00:00",
+        "status": 200,
+        "ok": true,
+        "bytes": 5689,
+        "sha256": "e6b6dcd3434c52e9b8d181e7a629cab2c611b5d7638129e5aaf9d8f539e098a7"
+      },
+      "id": "lists-1146",
+      "localReviewId": "lists-797"
+    },
+    {
+      "sourceUrl": "https://x.com/GamefxAI/status/2106387548486738010",
+      "sourceIdentity": "x.com/i/status/2106387548486738010",
+      "status": "accepted",
+      "category": "games",
+      "title": "融合 MOBA 与格斗玩法的游戏",
+      "evidenceBasis": "Original creator post body explicitly names the model and the described task; own attachment metadata checked. Author report, not independent reproduction.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": "fx-2106387548486738010",
+      "screenIndex": 5,
+      "receipt": {
+        "key": "fx-2106387548486738010",
+        "url": "https://api.fxtwitter.com/GamefxAI/status/2106387548486738010",
+        "checkedAt": "2026-10-06T09:05:43+00:00",
+        "status": 200,
+        "ok": true,
+        "bytes": 5023,
+        "sha256": "e187c329b6011f40a7b761d802905f319de2dce767f25678cfdd5c432ad481f7"
+      },
+      "posterEvidence": {
+        "sourcePage": "https://x.com/GamefxAI/status/2106387548486738010",
+        "checkedAt": "2026-10-06T09:17:25+00:00",
+        "method": "Original poster downloaded, decoded and visually inspected in a labeled contact sheet",
+        "relation": "Original creator attachment, cover or repository figure for this work",
+        "reviewStatus": "accepted",
+        "width": 1200,
+        "height": 675,
+        "imageSha256": "6a41a0cdf5fdcf13a79e03b419a6fb9a443c646c19f07dcae83b987e26747997"
+      },
+      "id": "lists-1147",
+      "localReviewId": "lists-798"
+    },
+    {
+      "sourceUrl": "https://x.com/LLMJunky/status/2106411941497389342",
+      "sourceIdentity": "x.com/i/status/2106411941497389342",
+      "status": "accepted",
+      "category": "education",
+      "title": "三十六分钟光学史动画",
+      "evidenceBasis": "Original creator post body explicitly names the model and the described task; own attachment metadata checked. Author report, not independent reproduction.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": "fx-2106411941497389342",
+      "screenIndex": 8,
+      "receipt": {
+        "key": "fx-2106411941497389342",
+        "url": "https://api.fxtwitter.com/LLMJunky/status/2106411941497389342",
+        "checkedAt": "2026-10-06T09:05:40+00:00",
+        "status": 200,
+        "ok": true,
+        "bytes": 8284,
+        "sha256": "56238d25f32c4a9e3d22f8b5d81545a1beaea5dd7e3659aca3c8bf808472f756"
+      },
+      "id": "lists-1148",
+      "localReviewId": "lists-799"
+    },
+    {
+      "sourceUrl": "https://x.com/buildwithsid/status/2106763583250108511",
+      "sourceIdentity": "x.com/i/status/2106763583250108511",
+      "status": "accepted",
+      "category": "3d",
+      "title": "水面、鱼与花瓣的 Three.js 场景",
+      "evidenceBasis": "Original creator post body explicitly names the model and the described task; own attachment metadata checked. Author report, not independent reproduction.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": "fx-2106763583250108511",
+      "screenIndex": 9,
+      "receipt": {
+        "key": "fx-2106763583250108511",
+        "url": "https://api.fxtwitter.com/buildwithsid/status/2106763583250108511",
+        "checkedAt": "2026-10-06T09:06:01+00:00",
+        "status": 200,
+        "ok": true,
+        "bytes": 6020,
+        "sha256": "79f63f0e2132377535825e524ace52a6cafb8f08b3588625dba76f4149a2ddf6"
+      },
+      "posterEvidence": {
+        "sourcePage": "https://x.com/buildwithsid/status/2106763583250108511",
+        "checkedAt": "2026-10-06T09:17:25+00:00",
+        "method": "Original poster downloaded, decoded and visually inspected in a labeled contact sheet",
+        "relation": "Original creator attachment, cover or repository figure for this work",
+        "reviewStatus": "accepted",
+        "width": 1200,
+        "height": 745,
+        "imageSha256": "4d7af35e473f2c4b8a455f917542b496f633e59aa4e1bc6194d86fae312947c0"
+      },
+      "id": "lists-1149",
+      "localReviewId": "lists-800"
+    },
+    {
+      "sourceUrl": "https://x.com/rossaxbt/status/2106758817161597021",
+      "sourceIdentity": "x.com/i/status/2106758817161597021",
+      "status": "accepted",
+      "category": "video",
+      "title": "连续变形的品牌宣传片模板",
+      "evidenceBasis": "Original creator post body explicitly names the model and the described task; own attachment metadata checked. Author report, not independent reproduction.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": "fx-2106758817161597021",
+      "screenIndex": 16,
+      "receipt": {
+        "key": "fx-2106758817161597021",
+        "url": "https://api.fxtwitter.com/rossaxbt/status/2106758817161597021",
+        "checkedAt": "2026-10-06T09:06:02+00:00",
+        "status": 200,
+        "ok": true,
+        "bytes": 62093,
+        "sha256": "59807ef093916766cb6c62fe4026af417a8240591678cf406ded8ab8377142ae"
+      },
+      "id": "lists-1150",
+      "localReviewId": "lists-805"
+    },
+    {
+      "sourceUrl": "https://x.com/ZDoranto/status/2107262186687180967",
+      "sourceIdentity": "x.com/i/status/2107262186687180967",
+      "status": "accepted",
+      "category": "graphics",
+      "title": "Roblox 视觉特效实验",
+      "evidenceBasis": "Original creator post body explicitly names the model and the described task; own attachment metadata checked. Author report, not independent reproduction.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": "fx-2107262186687180967",
+      "screenIndex": 19,
+      "receipt": {
+        "key": "fx-2107262186687180967",
+        "url": "https://api.fxtwitter.com/ZDoranto/status/2107262186687180967",
+        "checkedAt": "2026-10-06T09:06:03+00:00",
+        "status": 200,
+        "ok": true,
+        "bytes": 5517,
+        "sha256": "040b9c62eeae8459261a9dc3ef71d81dbe7488156ec8e9fa57b6bc7bcc9054e5"
+      },
+      "posterEvidence": {
+        "sourcePage": "https://x.com/ZDoranto/status/2107262186687180967",
+        "checkedAt": "2026-10-06T09:17:25+00:00",
+        "method": "Original poster downloaded, decoded and visually inspected in a labeled contact sheet",
+        "relation": "Original creator attachment, cover or repository figure for this work",
+        "reviewStatus": "accepted",
+        "width": 1200,
+        "height": 675,
+        "imageSha256": "a49014c630e63f5b09a08e97c328e8347e8703daeb80ee3ab93eb7b41c3c5fb8"
+      },
+      "id": "lists-1151",
+      "localReviewId": "lists-807"
+    },
+    {
+      "sourceUrl": "https://x.com/ann_nnng/status/2107095740485144817",
+      "sourceIdentity": "x.com/i/status/2107095740485144817",
+      "status": "accepted",
+      "category": "graphics",
+      "title": "Three.js 鸡尾酒杯效果",
+      "evidenceBasis": "Original creator post body explicitly names the model and the described task; own attachment metadata checked. Author report, not independent reproduction.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": "fx-2107095740485144817",
+      "screenIndex": 26,
+      "receipt": {
+        "key": "fx-2107095740485144817",
+        "url": "https://api.fxtwitter.com/ann_nnng/status/2107095740485144817",
+        "checkedAt": "2026-10-06T09:06:01+00:00",
+        "status": 200,
+        "ok": true,
+        "bytes": 6540,
+        "sha256": "e56294264a0e4cec614aebb734dad52ab170eba66fc445e0479d0f8ca597fa2c"
+      },
+      "posterEvidence": {
+        "sourcePage": "https://x.com/ann_nnng/status/2107095740485144817",
+        "checkedAt": "2026-10-06T09:17:25+00:00",
+        "method": "Original poster downloaded, decoded and visually inspected in a labeled contact sheet",
+        "relation": "Original creator attachment, cover or repository figure for this work",
+        "reviewStatus": "accepted",
+        "width": 1200,
+        "height": 737,
+        "imageSha256": "f5c200cda42479b1874e32fb80a6900650c638d3c70938738b6152a59ddb1a85"
+      },
+      "id": "lists-1152",
+      "localReviewId": "lists-811"
+    },
+    {
+      "sourceUrl": "https://x.com/tradphi/status/2107022944916709886",
+      "sourceIdentity": "x.com/i/status/2107022944916709886",
+      "status": "accepted",
+      "category": "business",
+      "title": "像策略游戏一样展示矿山",
+      "evidenceBasis": "Original creator post body explicitly names the model and the described task; own attachment metadata checked. Author report, not independent reproduction.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": "fx-2107022944916709886",
+      "screenIndex": 33,
+      "receipt": {
+        "key": "fx-2107022944916709886",
+        "url": "https://api.fxtwitter.com/tradphi/status/2107022944916709886",
+        "checkedAt": "2026-10-06T09:05:46+00:00",
+        "status": 200,
+        "ok": true,
+        "bytes": 5748,
+        "sha256": "4397d5546d7f33d67ac8d4491b99a9f5d28fbedeacbb4bae162b71d7f2320f7b"
+      },
+      "posterEvidence": {
+        "sourcePage": "https://x.com/tradphi/status/2107022944916709886",
+        "checkedAt": "2026-10-06T09:17:25+00:00",
+        "method": "Original poster downloaded, decoded and visually inspected in a labeled contact sheet",
+        "relation": "Original creator attachment, cover or repository figure for this work",
+        "reviewStatus": "accepted",
+        "width": 1200,
+        "height": 675,
+        "imageSha256": "adc9b48ecdf7506c64fa3f985eaa0e79e7f8c43ed84ceaf15764c381f3ae7f33"
+      },
+      "id": "lists-1153",
+      "localReviewId": "lists-814"
+    },
+    {
+      "sourceUrl": "https://x.com/mdaman010/status/2106729577280414044",
+      "sourceIdentity": "x.com/i/status/2106729577280414044",
+      "status": "accepted",
+      "category": "games",
+      "title": "Minecraft 中的变身装置模组",
+      "evidenceBasis": "Original creator post body explicitly names the model and the described task; own attachment metadata checked. Author report, not independent reproduction.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": "fx-2106729577280414044",
+      "screenIndex": 36,
+      "receipt": {
+        "key": "fx-2106729577280414044",
+        "url": "https://api.fxtwitter.com/mdaman010/status/2106729577280414044",
+        "checkedAt": "2026-10-06T09:05:51+00:00",
+        "status": 200,
+        "ok": true,
+        "bytes": 11146,
+        "sha256": "29c0b4260a482677dddfe396fe5aff68a738ef12e83ab2d33488ac802b5dbc12"
+      },
+      "posterEvidence": {
+        "sourcePage": "https://x.com/mdaman010/status/2106729577280414044",
+        "checkedAt": "2026-10-06T09:17:25+00:00",
+        "method": "Original poster downloaded, decoded and visually inspected in a labeled contact sheet",
+        "relation": "Original creator attachment, cover or repository figure for this work",
+        "reviewStatus": "accepted",
+        "width": 1200,
+        "height": 675,
+        "imageSha256": "8c9c282177fe2b5f073c63afda28b6c868be05b8f51d8297987638bff0b584ae"
+      },
+      "id": "lists-1154",
+      "localReviewId": "lists-815"
+    },
+    {
+      "sourceUrl": "https://x.com/viktoroddy/status/2106781795882807317",
+      "sourceIdentity": "x.com/i/status/2106781795882807317",
+      "status": "accepted",
+      "category": "web",
+      "title": "双模型豪宅网页视差实验",
+      "evidenceBasis": "Original creator post body explicitly names the model and the described task; own attachment metadata checked. Author report, not independent reproduction.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": "fx-2106781795882807317",
+      "screenIndex": 45,
+      "receipt": {
+        "key": "fx-2106781795882807317",
+        "url": "https://api.fxtwitter.com/viktoroddy/status/2106781795882807317",
+        "checkedAt": "2026-10-06T09:05:36+00:00",
+        "status": 200,
+        "ok": true,
+        "bytes": 6587,
+        "sha256": "952cd71fcdee1603873d6ee19df3aed0fc903f04ef6428ee1cda21d8330b550a"
+      },
+      "posterEvidence": {
+        "sourcePage": "https://x.com/viktoroddy/status/2106781795882807317",
+        "checkedAt": "2026-10-06T09:17:25+00:00",
+        "method": "Original poster downloaded, decoded and visually inspected in a labeled contact sheet",
+        "relation": "Original creator attachment, cover or repository figure for this work",
+        "reviewStatus": "accepted",
+        "width": 960,
+        "height": 1200,
+        "imageSha256": "ae11e7f4a906553c05e35723fd518f9b2cad8e9dc7410effc8930b49f3db9dfd"
+      },
+      "id": "lists-1155",
+      "localReviewId": "lists-819"
+    },
+    {
+      "sourceUrl": "https://x.com/hanaaaaaachiru/status/2106692655333920977",
+      "sourceIdentity": "x.com/i/status/2106692655333920977",
+      "status": "accepted",
+      "category": "education",
+      "title": "金融资格学习小游戏",
+      "evidenceBasis": "Original creator post body explicitly names the model and the described task; own attachment metadata checked. Author report, not independent reproduction.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": "fx-2106692655333920977",
+      "screenIndex": 52,
+      "receipt": {
+        "key": "fx-2106692655333920977",
+        "url": "https://api.fxtwitter.com/hanaaaaaachiru/status/2106692655333920977",
+        "checkedAt": "2026-10-06T09:06:13+00:00",
+        "status": 200,
+        "ok": true,
+        "bytes": 5733,
+        "sha256": "03f8cd4bdd0d51149a51d69a0f49cb806480984a6590f99fdff33706f3fb9b90"
+      },
+      "posterEvidence": {
+        "sourcePage": "https://x.com/hanaaaaaachiru/status/2106692655333920977",
+        "checkedAt": "2026-10-06T09:17:25+00:00",
+        "method": "Original poster downloaded, decoded and visually inspected in a labeled contact sheet",
+        "relation": "Original creator attachment, cover or repository figure for this work",
+        "reviewStatus": "accepted",
+        "width": 554,
+        "height": 1199,
+        "imageSha256": "393186f294dfeb75e397023a832b0f1c6b18631928263a9f2790c8440e6bc9dc"
+      },
+      "id": "lists-1156",
+      "localReviewId": "lists-820"
+    },
+    {
+      "sourceUrl": "https://x.com/ayhankorkmaz_/status/2106684612822896770",
+      "sourceIdentity": "x.com/i/status/2106684612822896770",
+      "status": "accepted",
+      "category": "education",
+      "title": "种番茄的番茄钟",
+      "evidenceBasis": "Original creator post body explicitly names the model and the described task; own attachment metadata checked. Author report, not independent reproduction.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": "fx-2106684612822896770",
+      "screenIndex": 55,
+      "receipt": {
+        "key": "fx-2106684612822896770",
+        "url": "https://api.fxtwitter.com/ayhankorkmaz_/status/2106684612822896770",
+        "checkedAt": "2026-10-06T09:05:39+00:00",
+        "status": 200,
+        "ok": true,
+        "bytes": 6861,
+        "sha256": "0f968326d9ae1b5177c1fda074d1b6035ce5a3ca746092ad382e633bb9c99ec0"
+      },
+      "posterEvidence": {
+        "sourcePage": "https://x.com/ayhankorkmaz_/status/2106684612822896770",
+        "checkedAt": "2026-10-06T09:17:25+00:00",
+        "method": "Original poster downloaded, decoded and visually inspected in a labeled contact sheet",
+        "relation": "Original creator attachment, cover or repository figure for this work",
+        "reviewStatus": "accepted",
+        "width": 1200,
+        "height": 615,
+        "imageSha256": "7c841b1d666ad095a6bf01aab357f65a89d36fe5ef4f793e7643d30d230b65a0"
+      },
+      "id": "lists-1157",
+      "localReviewId": "lists-822"
+    },
+    {
+      "sourceUrl": "https://x.com/rossaxbt/status/2106396375269134597",
+      "sourceIdentity": "x.com/i/status/2106396375269134597",
+      "status": "accepted",
+      "category": "graphics",
+      "title": "一个形状连续变成多种界面",
+      "evidenceBasis": "Original creator post body explicitly names the model and the described task; own attachment metadata checked. Author report, not independent reproduction.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": "fx-2106396375269134597",
+      "screenIndex": 67,
+      "receipt": {
+        "key": "fx-2106396375269134597",
+        "url": "https://api.fxtwitter.com/rossaxbt/status/2106396375269134597",
+        "checkedAt": "2026-10-06T09:06:06+00:00",
+        "status": 200,
+        "ok": true,
+        "bytes": 56649,
+        "sha256": "eff43130237a9f6deccc19145cefa5c7449e3e32e188f08090822a45fc3b13a0"
+      },
+      "id": "lists-1158",
+      "localReviewId": "lists-825"
+    },
+    {
+      "sourceUrl": "https://x.com/AFKHeroesXYZ/status/2106125535398990200",
+      "sourceIdentity": "x.com/i/status/2106125535398990200",
+      "status": "accepted",
+      "category": "video",
+      "title": "用游戏真实角色制作主题曲 MV",
+      "evidenceBasis": "Original creator post body explicitly names the model and the described task; own attachment metadata checked. Author report, not independent reproduction.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": "fx-2106125535398990200",
+      "screenIndex": 71,
+      "receipt": {
+        "key": "fx-2106125535398990200",
+        "url": "https://api.fxtwitter.com/AFKHeroesXYZ/status/2106125535398990200",
+        "checkedAt": "2026-10-06T09:05:39+00:00",
+        "status": 200,
+        "ok": true,
+        "bytes": 6355,
+        "sha256": "50be1ab0baa20ffb4ace25231791d7953ff3d87b96c4e29e1f4ea5b126184b6c"
+      },
+      "posterEvidence": {
+        "sourcePage": "https://x.com/AFKHeroesXYZ/status/2106125535398990200",
+        "checkedAt": "2026-10-06T09:17:25+00:00",
+        "method": "Original poster downloaded, decoded and visually inspected in a labeled contact sheet",
+        "relation": "Original creator attachment, cover or repository figure for this work",
+        "reviewStatus": "accepted",
+        "width": 1200,
+        "height": 675,
+        "imageSha256": "6a9a289b4f98bbb5e725d45596c40d89396b8e630167f691cc9717f64aed9ea1"
+      },
+      "id": "lists-1159",
+      "localReviewId": "lists-826"
+    },
+    {
+      "sourceUrl": "https://x.com/buildwithmaya/status/2106921348182540728",
+      "sourceIdentity": "x.com/i/status/2106921348182540728",
+      "status": "accepted",
+      "category": "3d",
+      "title": "佛蒙特秋日驾驶场景",
+      "evidenceBasis": "Original creator post body explicitly names the model and the described task; own attachment metadata checked. Author report, not independent reproduction.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": "fx-2106921348182540728",
+      "screenIndex": 74,
+      "receipt": {
+        "key": "fx-2106921348182540728",
+        "url": "https://api.fxtwitter.com/buildwithmaya/status/2106921348182540728",
+        "checkedAt": "2026-10-06T09:05:50+00:00",
+        "status": 200,
+        "ok": true,
+        "bytes": 6767,
+        "sha256": "13d9bc7212b25d1791f6e3d265104cb5193d476e08944449bff4079e35ea83d5"
+      },
+      "posterEvidence": {
+        "sourcePage": "https://x.com/buildwithmaya/status/2106921348182540728",
+        "checkedAt": "2026-10-06T09:17:25+00:00",
+        "method": "Original poster downloaded, decoded and visually inspected in a labeled contact sheet",
+        "relation": "Original creator attachment, cover or repository figure for this work",
+        "reviewStatus": "accepted",
+        "width": 1200,
+        "height": 710,
+        "imageSha256": "223fb815f44d2b3c17ed986c5df21eed170168d680cf10df32bfcd47ba062bce"
+      },
+      "id": "lists-1160",
+      "localReviewId": "lists-827"
+    },
+    {
+      "sourceUrl": "https://x.com/viktoroddy/status/2107058718882103388",
+      "sourceIdentity": "x.com/i/status/2107058718882103388",
+      "status": "accepted",
+      "category": "3d",
+      "title": "可抓取切开的软果冻花园",
+      "evidenceBasis": "Original creator post body explicitly names the model and the described task; own attachment metadata checked. Author report, not independent reproduction.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": "fx-2107058718882103388",
+      "screenIndex": 76,
+      "receipt": {
+        "key": "fx-2107058718882103388",
+        "url": "https://api.fxtwitter.com/viktoroddy/status/2107058718882103388",
+        "checkedAt": "2026-10-06T09:06:12+00:00",
+        "status": 200,
+        "ok": true,
+        "bytes": 6983,
+        "sha256": "02f58170a03402031b3d0db777666de0d2f293d704cea1f563dd28ae00f7f2ac"
+      },
+      "posterEvidence": {
+        "sourcePage": "https://x.com/viktoroddy/status/2107058718882103388",
+        "checkedAt": "2026-10-06T09:17:25+00:00",
+        "method": "Original poster downloaded, decoded and visually inspected in a labeled contact sheet",
+        "relation": "Original creator attachment, cover or repository figure for this work",
+        "reviewStatus": "accepted",
+        "width": 1199,
+        "height": 716,
+        "imageSha256": "edd4aad61932e7951e926b83cd844b8f757f8180c1f80028d69f398237665a51"
+      },
+      "id": "lists-1161",
+      "localReviewId": "lists-828"
+    },
+    {
+      "sourceUrl": "https://x.com/RyanSael/status/2107111191210520608",
+      "sourceIdentity": "x.com/i/status/2107111191210520608",
+      "status": "accepted",
+      "category": "education",
+      "title": "自行车刹车的三维讲解",
+      "evidenceBasis": "Original creator post body explicitly names the model and the described task; own attachment metadata checked. Author report, not independent reproduction.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": "fx-2107111191210520608",
+      "screenIndex": 82,
+      "receipt": {
+        "key": "fx-2107111191210520608",
+        "url": "https://api.fxtwitter.com/RyanSael/status/2107111191210520608",
+        "checkedAt": "2026-10-06T09:05:57+00:00",
+        "status": 200,
+        "ok": true,
+        "bytes": 6365,
+        "sha256": "00eb711d4e8d09771a52cf44d2d5e696bc71fb0316e56d38e5240901f4cbbf7d"
+      },
+      "posterEvidence": {
+        "sourcePage": "https://x.com/RyanSael/status/2107111191210520608",
+        "checkedAt": "2026-10-06T09:17:25+00:00",
+        "method": "Original poster downloaded, decoded and visually inspected in a labeled contact sheet",
+        "relation": "Original creator attachment, cover or repository figure for this work",
+        "reviewStatus": "accepted",
+        "width": 1200,
+        "height": 675,
+        "imageSha256": "81e93ec58a798e46069f803ccf9193e16a895b3690d7eab65a8052b5dfdd3a9e"
+      },
+      "id": "lists-1162",
+      "localReviewId": "lists-830"
+    },
+    {
+      "sourceUrl": "https://x.com/kisaka_ki/status/2107054815255859326",
+      "sourceIdentity": "x.com/i/status/2107054815255859326",
+      "status": "accepted",
+      "category": "science",
+      "title": "泥石流河床变化可视化",
+      "evidenceBasis": "Original creator post body explicitly names the model and the described task; own attachment metadata checked. Author report, not independent reproduction.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": "fx-2107054815255859326",
+      "screenIndex": 94,
+      "receipt": {
+        "key": "fx-2107054815255859326",
+        "url": "https://api.fxtwitter.com/kisaka_ki/status/2107054815255859326",
+        "checkedAt": "2026-10-06T09:06:04+00:00",
+        "status": 200,
+        "ok": true,
+        "bytes": 6544,
+        "sha256": "987f6778b83409f5c00a682805719ee8d0b1624894486bfb4faf0d0a1d971824"
+      },
+      "posterEvidence": {
+        "sourcePage": "https://x.com/kisaka_ki/status/2107054815255859326",
+        "checkedAt": "2026-10-06T09:17:25+00:00",
+        "method": "Original poster downloaded, decoded and visually inspected in a labeled contact sheet",
+        "relation": "Original creator attachment, cover or repository figure for this work",
+        "reviewStatus": "accepted",
+        "width": 1200,
+        "height": 675,
+        "imageSha256": "92a0077241edbd1fa2642339ce2054a73c3e634a3c6516f832b6b3955688a72c"
+      },
+      "id": "lists-1163",
+      "localReviewId": "lists-833"
+    },
+    {
+      "sourceUrl": "https://x.com/techartist_/status/2106789087600689258",
+      "sourceIdentity": "x.com/i/status/2106789087600689258",
+      "status": "accepted",
+      "category": "science",
+      "title": "把斑马线叠入时间维度",
+      "evidenceBasis": "Original creator post body explicitly names the model and the described task; own attachment metadata checked. Author report, not independent reproduction.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": "fx-2106789087600689258",
+      "screenIndex": 102,
+      "receipt": {
+        "key": "fx-2106789087600689258",
+        "url": "https://api.fxtwitter.com/techartist_/status/2106789087600689258",
+        "checkedAt": "2026-10-06T09:06:11+00:00",
+        "status": 200,
+        "ok": true,
+        "bytes": 6444,
+        "sha256": "5dc8e4df0e720358ad3a0a35c79111fe62c7dabd88c0882bc5c4f1bb2422e2f0"
+      },
+      "posterEvidence": {
+        "sourcePage": "https://x.com/techartist_/status/2106789087600689258",
+        "checkedAt": "2026-10-06T09:17:25+00:00",
+        "method": "Original poster downloaded, decoded and visually inspected in a labeled contact sheet",
+        "relation": "Original creator attachment, cover or repository figure for this work",
+        "reviewStatus": "accepted",
+        "width": 1200,
+        "height": 675,
+        "imageSha256": "54e886605eddc1286de943f8c3890e30890a8c673418e62ee45ac93285ff80e4"
+      },
+      "id": "lists-1164",
+      "localReviewId": "lists-835"
+    },
+    {
+      "sourceUrl": "https://github.com/zeddD1abl0/netbox-powerdns-ai",
+      "sourceIdentity": "github.com/zeddd1abl0/netbox-powerdns-ai",
+      "status": "accepted",
+      "category": "agents",
+      "title": "NetBox 到 PowerDNS 控制平面",
+      "evidenceBasis": "Original repository description and README reviewed for explicit model role and concrete task. Claims not independently executed.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": "readme-zeddD1abl0--netbox-powerdns-ai",
+      "screenIndex": 0,
+      "receipt": {
+        "key": "readme-zeddD1abl0--netbox-powerdns-ai",
+        "url": "https://api.github.com/repos/zeddD1abl0/netbox-powerdns-ai/readme",
+        "checkedAt": "2026-10-06T09:04:55+00:00",
+        "status": 200,
+        "transport": "gh",
+        "rateLimit": {
+          "x-ratelimit-limit": "5000",
+          "x-ratelimit-remaining": "4545",
+          "x-ratelimit-reset": "1791281035"
+        },
+        "ok": true,
+        "bytes": 3301,
+        "sha256": "717f2cb417dd34acf16c5a8dc636bb0c8e869676e86a3cf802d47d1f82d3d9b2"
+      },
+      "id": "github-398",
+      "localReviewId": "github-365"
+    },
+    {
+      "sourceUrl": "https://github.com/jinda-li/Emergence",
+      "sourceIdentity": "github.com/jinda-li/emergence",
+      "status": "accepted",
+      "category": "video",
+      "title": "代码短片《涌现》",
+      "evidenceBasis": "Original repository description and README reviewed for explicit model role and concrete task. Claims not independently executed.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": "readme-jinda-li--Emergence",
+      "screenIndex": 1,
+      "receipt": {
+        "key": "readme-jinda-li--Emergence",
+        "url": "https://api.github.com/repos/jinda-li/Emergence/readme",
+        "checkedAt": "2026-10-06T09:04:51+00:00",
+        "status": 200,
+        "transport": "gh",
+        "rateLimit": {
+          "x-ratelimit-limit": "5000",
+          "x-ratelimit-remaining": "4577",
+          "x-ratelimit-reset": "1791281035"
+        },
+        "ok": true,
+        "bytes": 2980,
+        "sha256": "d2e6008c062c859c59a36688a5ae6efa32618d8be24422d354d61825aab6c053"
+      },
+      "posterEvidence": {
+        "sourcePage": "https://github.com/jinda-li/Emergence",
+        "checkedAt": "2026-10-06T09:17:25+00:00",
+        "method": "Original poster downloaded, decoded and visually inspected in a labeled contact sheet",
+        "relation": "Original creator attachment, cover or repository figure for this work",
+        "reviewStatus": "accepted",
+        "width": 1920,
+        "height": 1080,
+        "imageSha256": "6a0d8fab6492449a12f9577187cca8cb4af07b2f04426f35e27c89919e79e94f"
+      },
+      "id": "github-399",
+      "localReviewId": "github-366"
+    },
+    {
+      "sourceUrl": "https://github.com/yeopjoonhyun/claude-auto-model",
+      "sourceIdentity": "github.com/yeopjoonhyun/claude-auto-model",
+      "status": "accepted",
+      "category": "agents",
+      "title": "按提示词切换模型的模组",
+      "evidenceBasis": "Original repository description and README reviewed for explicit model role and concrete task. Claims not independently executed.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": "readme-yeopjoonhyun--claude-auto-model",
+      "screenIndex": 10,
+      "receipt": {
+        "key": "readme-yeopjoonhyun--claude-auto-model",
+        "url": "https://api.github.com/repos/yeopjoonhyun/claude-auto-model/readme",
+        "checkedAt": "2026-10-06T09:04:54+00:00",
+        "status": 200,
+        "transport": "gh",
+        "rateLimit": {
+          "x-ratelimit-limit": "5000",
+          "x-ratelimit-remaining": "4549",
+          "x-ratelimit-reset": "1791281035"
+        },
+        "ok": true,
+        "bytes": 2250,
+        "sha256": "3ff37beb8a0d7b0016ce36d9daa1d19a8958d503218309f344c953481ba7fbb5"
+      },
+      "id": "github-400",
+      "localReviewId": "github-368"
+    },
+    {
+      "sourceUrl": "https://github.com/1995es/wordle-arena",
+      "sourceIdentity": "github.com/1995es/wordle-arena",
+      "status": "accepted",
+      "category": "games",
+      "title": "西班牙语 Wordle 模型对照",
+      "evidenceBasis": "Original repository description and README reviewed for explicit model role and concrete task. Claims not independently executed.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": "readme-1995es--wordle-arena",
+      "screenIndex": 21,
+      "receipt": {
+        "key": "readme-1995es--wordle-arena",
+        "url": "https://api.github.com/repos/1995es/wordle-arena/readme",
+        "checkedAt": "2026-10-06T09:04:44+00:00",
+        "status": 200,
+        "transport": "gh",
+        "rateLimit": {
+          "x-ratelimit-limit": "5000",
+          "x-ratelimit-remaining": "4631",
+          "x-ratelimit-reset": "1791281035"
+        },
+        "ok": true,
+        "bytes": 6087,
+        "sha256": "dfdf511d55b34714aee84bd60e5ffc0bf90aa45c80d488ba6b5fa4e38e5d2af9"
+      },
+      "id": "github-401",
+      "localReviewId": "github-369"
+    },
+    {
+      "sourceUrl": "https://github.com/TimoteoAltobrando/ai-video-skill",
+      "sourceIdentity": "github.com/timoteoaltobrando/ai-video-skill",
+      "status": "accepted",
+      "category": "video",
+      "title": "统筹视频制作与修改的 Skill",
+      "evidenceBasis": "Original repository description and README reviewed for explicit model role and concrete task. Claims not independently executed.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": "readme-TimoteoAltobrando--ai-video-skill",
+      "screenIndex": 27,
+      "receipt": {
+        "key": "readme-TimoteoAltobrando--ai-video-skill",
+        "url": "https://api.github.com/repos/TimoteoAltobrando/ai-video-skill/readme",
+        "checkedAt": "2026-10-06T09:04:47+00:00",
+        "status": 200,
+        "transport": "gh",
+        "rateLimit": {
+          "x-ratelimit-limit": "5000",
+          "x-ratelimit-remaining": "4610",
+          "x-ratelimit-reset": "1791281035"
+        },
+        "ok": true,
+        "bytes": 10324,
+        "sha256": "b4a084e7a8d2e21b30a88927e02d5895b3e710283c2199761f117a966218f72c"
+      },
+      "id": "github-402",
+      "localReviewId": "github-371"
+    },
+    {
+      "sourceUrl": "https://github.com/Ihtesham-star/cuad-serving-bench",
+      "sourceIdentity": "github.com/ihtesham-star/cuad-serving-bench",
+      "status": "accepted",
+      "category": "business",
+      "title": "合同条款提取的自托管对照",
+      "evidenceBasis": "Original repository description and README reviewed for explicit model role and concrete task. Claims not independently executed.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": "readme-Ihtesham-star--cuad-serving-bench",
+      "screenIndex": 33,
+      "receipt": {
+        "key": "readme-Ihtesham-star--cuad-serving-bench",
+        "url": "https://api.github.com/repos/Ihtesham-star/cuad-serving-bench/readme",
+        "checkedAt": "2026-10-06T09:04:45+00:00",
+        "status": 200,
+        "transport": "gh",
+        "rateLimit": {
+          "x-ratelimit-limit": "5000",
+          "x-ratelimit-remaining": "4621",
+          "x-ratelimit-reset": "1791281035"
+        },
+        "ok": true,
+        "bytes": 25007,
+        "sha256": "8f037c2b23970875b6cb9284cf1a986358e3f399f1e9cfb85ba5ebd2970cf625"
+      },
+      "posterEvidence": {
+        "sourcePage": "https://github.com/Ihtesham-star/cuad-serving-bench",
+        "checkedAt": "2026-10-06T09:17:25+00:00",
+        "method": "Original poster downloaded, decoded and visually inspected in a labeled contact sheet",
+        "relation": "Original creator attachment, cover or repository figure for this work",
+        "reviewStatus": "accepted",
+        "width": 1350,
+        "height": 780,
+        "imageSha256": "8c000a845633b17f5eb2d9170e392c4d36099205b6e167b7c25bb1cf7a84f6bc"
+      },
+      "id": "github-403",
+      "localReviewId": "github-373"
+    },
+    {
+      "sourceUrl": "https://github.com/lifeofpi-lgtm/prompt-optimizer",
+      "sourceIdentity": "github.com/lifeofpi-lgtm/prompt-optimizer",
+      "status": "accepted",
+      "category": "agents",
+      "title": "按模型调整任务提示词",
+      "evidenceBasis": "Original repository description and README reviewed for explicit model role and concrete task. Claims not independently executed.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": "readme-lifeofpi-lgtm--prompt-optimizer",
+      "screenIndex": 56,
+      "receipt": {
+        "key": "readme-lifeofpi-lgtm--prompt-optimizer",
+        "url": "https://api.github.com/repos/lifeofpi-lgtm/prompt-optimizer/readme",
+        "checkedAt": "2026-10-06T09:04:52+00:00",
+        "status": 200,
+        "transport": "gh",
+        "rateLimit": {
+          "x-ratelimit-limit": "5000",
+          "x-ratelimit-remaining": "4569",
+          "x-ratelimit-reset": "1791281035"
+        },
+        "ok": true,
+        "bytes": 5172,
+        "sha256": "e50b00d4f6ea95230cdc7736c81e75393b79836a6086e8c64be09f4e322b6b8d"
+      },
+      "id": "github-404",
+      "localReviewId": "github-381"
+    },
+    {
+      "sourceUrl": "https://github.com/Jeepittea/refund-agent",
+      "sourceIdentity": "github.com/jeepittea/refund-agent",
+      "status": "accepted",
+      "category": "agents",
+      "title": "用代码约束退款的 Agent",
+      "evidenceBasis": "Original repository description and README reviewed for explicit model role and concrete task. Claims not independently executed.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": "readme-Jeepittea--refund-agent",
+      "screenIndex": 57,
+      "receipt": {
+        "key": "readme-Jeepittea--refund-agent",
+        "url": "https://api.github.com/repos/Jeepittea/refund-agent/readme",
+        "checkedAt": "2026-10-06T09:04:45+00:00",
+        "status": 200,
+        "transport": "gh",
+        "rateLimit": {
+          "x-ratelimit-limit": "5000",
+          "x-ratelimit-remaining": "4619",
+          "x-ratelimit-reset": "1791281035"
+        },
+        "ok": true,
+        "bytes": 4620,
+        "sha256": "438d97adf151315138ee2b1719dcc4a24462ae68e86b9c8b2b734385e883da90"
+      },
+      "id": "github-405",
+      "localReviewId": "github-382"
+    },
+    {
+      "sourceUrl": "https://github.com/EvanZhuang/harness-competition-demo",
+      "sourceIdentity": "github.com/evanzhuang/harness-competition-demo",
+      "status": "accepted",
+      "category": "agents",
+      "title": "单个 Shell 工具的流式 Harness",
+      "evidenceBasis": "Original repository description and README reviewed for explicit model role and concrete task. Claims not independently executed.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": "readme-EvanZhuang--harness-competition-demo",
+      "screenIndex": 60,
+      "receipt": {
+        "key": "readme-EvanZhuang--harness-competition-demo",
+        "url": "https://api.github.com/repos/EvanZhuang/harness-competition-demo/readme",
+        "checkedAt": "2026-10-06T09:04:45+00:00",
+        "status": 200,
+        "transport": "gh",
+        "rateLimit": {
+          "x-ratelimit-limit": "5000",
+          "x-ratelimit-remaining": "4625",
+          "x-ratelimit-reset": "1791281035"
+        },
+        "ok": true,
+        "bytes": 4009,
+        "sha256": "90d350c1b4daf94d97292e66d2d610fe1f4aab25d43f70a687278f1950f6e87d"
+      },
+      "id": "github-406",
+      "localReviewId": "github-383"
+    },
+    {
+      "sourceUrl": "https://github.com/harryadnan2014-hash/Agent_with_opus5.5",
+      "sourceIdentity": "github.com/harryadnan2014-hash/agent_with_opus5.5",
+      "status": "accepted",
+      "category": "agents",
+      "title": "带引用审计的药物文献检索",
+      "evidenceBasis": "Original repository description and README reviewed for explicit model role and concrete task. Claims not independently executed.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": "readme-harryadnan2014-hash--Agent_with_opus5.5",
+      "screenIndex": 72,
+      "receipt": {
+        "key": "readme-harryadnan2014-hash--Agent_with_opus5.5",
+        "url": "https://api.github.com/repos/harryadnan2014-hash/Agent_with_opus5.5/readme",
+        "checkedAt": "2026-10-06T09:04:50+00:00",
+        "status": 200,
+        "transport": "gh",
+        "rateLimit": {
+          "x-ratelimit-limit": "5000",
+          "x-ratelimit-remaining": "4582",
+          "x-ratelimit-reset": "1791281035"
+        },
+        "ok": true,
+        "bytes": 33447,
+        "sha256": "3634445033be3f64a9635b3472d6cc0488cd9139c5710c86b32f851ea518c7a4"
+      },
+      "id": "github-407",
+      "localReviewId": "github-391"
+    },
+    {
+      "sourceUrl": "https://www.bilibili.com/video/BV11CHf6eEFc",
+      "sourceIdentity": "bilibili.com/video/BV11CHf6eEFc",
+      "status": "accepted",
+      "category": "3d",
+      "title": "三体四维碎块场景",
+      "evidenceBasis": "Creator title, available description and own cover reviewed. Full video not watched or reproduced.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": null,
+      "screenIndex": 1,
+      "posterEvidence": {
+        "sourcePage": "https://www.bilibili.com/video/BV11CHf6eEFc",
+        "checkedAt": "2026-10-06T09:17:25+00:00",
+        "method": "Original poster downloaded, decoded and visually inspected in a labeled contact sheet",
+        "relation": "Original creator attachment, cover or repository figure for this work",
+        "reviewStatus": "accepted",
+        "width": 1429,
+        "height": 803,
+        "imageSha256": "4e5ba7d5aa36a452f7797bb53973e1cc379d2c86099a8d1ea4fa623dc9986101"
+      },
+      "id": "video-931",
+      "localReviewId": "video-643"
+    },
+    {
+      "sourceUrl": "https://www.bilibili.com/video/BV114pF6PEzq",
+      "sourceIdentity": "bilibili.com/video/BV114pF6PEzq",
+      "status": "accepted",
+      "category": "video",
+      "title": "虚构复古录像带恐怖片",
+      "evidenceBasis": "Creator title, available description and own cover reviewed. Full video not watched or reproduced.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": null,
+      "screenIndex": 6,
+      "posterEvidence": {
+        "sourcePage": "https://www.bilibili.com/video/BV114pF6PEzq",
+        "checkedAt": "2026-10-06T09:17:25+00:00",
+        "method": "Original poster downloaded, decoded and visually inspected in a labeled contact sheet",
+        "relation": "Original creator attachment, cover or repository figure for this work",
+        "reviewStatus": "accepted",
+        "width": 640,
+        "height": 360,
+        "imageSha256": "a16ba772721f61677978842a4556d9b590162e3a2e4658c14ea86c2cb2b59dbc"
+      },
+      "id": "video-932",
+      "localReviewId": "video-644"
+    },
+    {
+      "sourceUrl": "https://www.bilibili.com/video/BV1D5pF6GENH",
+      "sourceIdentity": "bilibili.com/video/BV1D5pF6GENH",
+      "status": "accepted",
+      "category": "video",
+      "title": "相同提示词的自由主题视频对照",
+      "evidenceBasis": "Creator title, available description and own cover reviewed. Full video not watched or reproduced.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": null,
+      "screenIndex": 9,
+      "posterEvidence": {
+        "sourcePage": "https://www.bilibili.com/video/BV1D5pF6GENH",
+        "checkedAt": "2026-10-06T09:17:25+00:00",
+        "method": "Original poster downloaded, decoded and visually inspected in a labeled contact sheet",
+        "relation": "Original creator attachment, cover or repository figure for this work",
+        "reviewStatus": "accepted",
+        "width": 1916,
+        "height": 1080,
+        "imageSha256": "567aaa6524031b03ff6b420e70ac12e3b45ea629277db96d45b368ffa6ea6c60"
+      },
+      "id": "video-933",
+      "localReviewId": "video-645"
+    },
+    {
+      "sourceUrl": "https://www.bilibili.com/video/BV1W3pc6PEht",
+      "sourceIdentity": "bilibili.com/video/BV1W3pc6PEht",
+      "status": "accepted",
+      "category": "writing",
+      "title": "多模型同人动画的文本编写",
+      "evidenceBasis": "Creator title, available description and own cover reviewed. Full video not watched or reproduced.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": null,
+      "screenIndex": 12,
+      "posterEvidence": {
+        "sourcePage": "https://www.bilibili.com/video/BV1W3pc6PEht",
+        "checkedAt": "2026-10-06T09:17:25+00:00",
+        "method": "Original poster downloaded, decoded and visually inspected in a labeled contact sheet",
+        "relation": "Original creator attachment, cover or repository figure for this work",
+        "reviewStatus": "accepted",
+        "width": 1920,
+        "height": 1080,
+        "imageSha256": "385d6eb2503c6737f2ee039b9fb4029916a7e785b9da333009199ab6fa232d8b"
+      },
+      "id": "video-934",
+      "localReviewId": "video-646"
+    },
+    {
+      "sourceUrl": "https://www.bilibili.com/video/BV1bFpc6rESA",
+      "sourceIdentity": "bilibili.com/video/BV1bFpc6rESA",
+      "status": "accepted",
+      "category": "graphics",
+      "title": "卡牌游戏特效与音声取舍",
+      "evidenceBasis": "Creator title, available description and own cover reviewed. Full video not watched or reproduced.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": null,
+      "screenIndex": 13,
+      "posterEvidence": {
+        "sourcePage": "https://www.bilibili.com/video/BV1bFpc6rESA",
+        "checkedAt": "2026-10-06T09:17:25+00:00",
+        "method": "Original poster downloaded, decoded and visually inspected in a labeled contact sheet",
+        "relation": "Original creator attachment, cover or repository figure for this work",
+        "reviewStatus": "accepted",
+        "width": 966,
+        "height": 543,
+        "imageSha256": "df667cf6ac68606773036aeadfabe78aa494b0ed97dcdaaa897d542d06649a08"
+      },
+      "id": "video-935",
+      "localReviewId": "video-647"
+    },
+    {
+      "sourceUrl": "https://www.bilibili.com/video/BV1SgHZ6TEfq",
+      "sourceIdentity": "bilibili.com/video/BV1SgHZ6TEfq",
+      "status": "accepted",
+      "category": "education",
+      "title": "建筑方盒子的十种造型",
+      "evidenceBasis": "Creator title, available description and own cover reviewed. Full video not watched or reproduced.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": null,
+      "screenIndex": 20,
+      "posterEvidence": {
+        "sourcePage": "https://www.bilibili.com/video/BV1SgHZ6TEfq",
+        "checkedAt": "2026-10-06T09:17:25+00:00",
+        "method": "Original poster downloaded, decoded and visually inspected in a labeled contact sheet",
+        "relation": "Original creator attachment, cover or repository figure for this work",
+        "reviewStatus": "accepted",
+        "width": 1920,
+        "height": 1080,
+        "imageSha256": "40a05be91eff17c24fa1b54e8e03094553de823099a0cdef6a551585071497b0"
+      },
+      "id": "video-936",
+      "localReviewId": "video-648"
+    },
+    {
+      "sourceUrl": "https://www.bilibili.com/video/BV1a2HZ6kEkJ",
+      "sourceIdentity": "bilibili.com/video/BV1a2HZ6kEkJ",
+      "status": "accepted",
+      "category": "education",
+      "title": "动物与儿童保护的历史短片",
+      "evidenceBasis": "Creator title, available description and own cover reviewed. Full video not watched or reproduced.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": null,
+      "screenIndex": 23,
+      "posterEvidence": {
+        "sourcePage": "https://www.bilibili.com/video/BV1a2HZ6kEkJ",
+        "checkedAt": "2026-10-06T09:17:25+00:00",
+        "method": "Original poster downloaded, decoded and visually inspected in a labeled contact sheet",
+        "relation": "Original creator attachment, cover or repository figure for this work",
+        "reviewStatus": "accepted",
+        "width": 1920,
+        "height": 1080,
+        "imageSha256": "8da0dc9f0cdb517cd8797795d078d36c9fd156efe5cf498a6e8dbeb0f24df4eb"
+      },
+      "id": "video-937",
+      "localReviewId": "video-649"
+    },
+    {
+      "sourceUrl": "https://www.bilibili.com/video/BV1ZzHZ67Ehp",
+      "sourceIdentity": "bilibili.com/video/BV1ZzHZ67Ehp",
+      "status": "accepted",
+      "category": "video",
+      "title": "日语歌词识别与自动对时 MV",
+      "evidenceBasis": "Creator title, available description and own cover reviewed. Full video not watched or reproduced.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": null,
+      "screenIndex": 29,
+      "posterEvidence": {
+        "sourcePage": "https://www.bilibili.com/video/BV1ZzHZ67Ehp",
+        "checkedAt": "2026-10-06T09:17:25+00:00",
+        "method": "Original poster downloaded, decoded and visually inspected in a labeled contact sheet",
+        "relation": "Original creator attachment, cover or repository figure for this work",
+        "reviewStatus": "accepted",
+        "width": 1438,
+        "height": 808,
+        "imageSha256": "ffb95ba0a9e27553c010a3c4c209dcf8344273c70ab5daaba2226d67e37e6e6f"
+      },
+      "id": "video-938",
+      "localReviewId": "video-650"
+    },
+    {
+      "sourceUrl": "https://www.bilibili.com/video/BV1bRHZ6TEzB",
+      "sourceIdentity": "bilibili.com/video/BV1bRHZ6TEzB",
+      "status": "accepted",
+      "category": "graphics",
+      "title": "可爱风字体配色与弹性动效",
+      "evidenceBasis": "Creator title, available description and own cover reviewed. Full video not watched or reproduced.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": null,
+      "screenIndex": 38,
+      "posterEvidence": {
+        "sourcePage": "https://www.bilibili.com/video/BV1bRHZ6TEzB",
+        "checkedAt": "2026-10-06T09:17:25+00:00",
+        "method": "Original poster downloaded, decoded and visually inspected in a labeled contact sheet",
+        "relation": "Original creator attachment, cover or repository figure for this work",
+        "reviewStatus": "accepted",
+        "width": 1920,
+        "height": 1080,
+        "imageSha256": "2793110870eccde561d8ca6f066cb3e055bcbc900edb8923fbb9716d095fda83"
+      },
+      "id": "video-939",
+      "localReviewId": "video-651"
+    },
+    {
+      "sourceUrl": "https://www.bilibili.com/video/BV1KzHo6bEZZ",
+      "sourceIdentity": "bilibili.com/video/BV1KzHo6bEZZ",
+      "status": "accepted",
+      "category": "games",
+      "title": "孢子风格精神续作原型",
+      "evidenceBasis": "Creator title, available description and own cover reviewed. Full video not watched or reproduced.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": null,
+      "screenIndex": 43,
+      "posterEvidence": {
+        "sourcePage": "https://www.bilibili.com/video/BV1KzHo6bEZZ",
+        "checkedAt": "2026-10-06T09:17:25+00:00",
+        "method": "Original poster downloaded, decoded and visually inspected in a labeled contact sheet",
+        "relation": "Original creator attachment, cover or repository figure for this work",
+        "reviewStatus": "accepted",
+        "width": 1920,
+        "height": 1080,
+        "imageSha256": "79b923fb7ee5a7dbef273ed8acb36882c4790ddc1536ca69348c68f685fb8e0a"
+      },
+      "id": "video-940",
+      "localReviewId": "video-652"
+    },
+    {
+      "sourceUrl": "https://www.bilibili.com/video/BV1fRHo67E3E",
+      "sourceIdentity": "bilibili.com/video/BV1fRHo67E3E",
+      "status": "accepted",
+      "category": "video",
+      "title": "短片守夜人的分镜统筹",
+      "evidenceBasis": "Creator title, available description and own cover reviewed. Full video not watched or reproduced.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": null,
+      "screenIndex": 47,
+      "posterEvidence": {
+        "sourcePage": "https://www.bilibili.com/video/BV1fRHo67E3E",
+        "checkedAt": "2026-10-06T09:17:25+00:00",
+        "method": "Original poster downloaded, decoded and visually inspected in a labeled contact sheet",
+        "relation": "Original creator attachment, cover or repository figure for this work",
+        "reviewStatus": "accepted",
+        "width": 1672,
+        "height": 940,
+        "imageSha256": "0776f8be7caee548ac3d0b445abdb6a6e55ec3409cce1bca62cf1480fdee5a9c"
+      },
+      "id": "video-941",
+      "localReviewId": "video-653"
+    },
+    {
+      "sourceUrl": "https://www.bilibili.com/video/BV1QLHt6HEk6",
+      "sourceIdentity": "bilibili.com/video/BV1QLHt6HEk6",
+      "status": "accepted",
+      "category": "video",
+      "title": "Obsidian 图片排版插件宣传片",
+      "evidenceBasis": "Creator title, available description and own cover reviewed. Full video not watched or reproduced.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": null,
+      "screenIndex": 49,
+      "posterEvidence": {
+        "sourcePage": "https://www.bilibili.com/video/BV1QLHt6HEk6",
+        "checkedAt": "2026-10-06T09:17:25+00:00",
+        "method": "Original poster downloaded, decoded and visually inspected in a labeled contact sheet",
+        "relation": "Original creator attachment, cover or repository figure for this work",
+        "reviewStatus": "accepted",
+        "width": 1440,
+        "height": 810,
+        "imageSha256": "d7fbdbbae596c4dba22bf1672950b70fe32b36edcacf85291b58990c919344b0"
+      },
+      "id": "video-942",
+      "localReviewId": "video-654"
+    },
+    {
+      "sourceUrl": "https://www.youtube.com/watch?v=F0GadTErfxs",
+      "sourceIdentity": "youtube.com/watch?v=F0GadTErfxs",
+      "status": "accepted",
+      "category": "3d",
+      "title": "Blender 露营资产包到 Unreal",
+      "evidenceBasis": "Creator description and available transcript retrieved via Firecrawl and reviewed; video not fully watched and generation not independently reproduced.",
+      "checkedAt": "2026-10-06T09:15:16+00:00",
+      "originalResponseReceipt": "firecrawl-youtube-F0GadTErfxs",
+      "screenIndex": null,
+      "posterEvidence": {
+        "sourcePage": "https://www.youtube.com/watch?v=F0GadTErfxs",
+        "checkedAt": "2026-10-06T09:17:25+00:00",
+        "method": "Original poster downloaded, decoded and visually inspected in a labeled contact sheet",
+        "relation": "Original creator attachment, cover or repository figure for this work",
+        "reviewStatus": "accepted",
+        "width": 480,
+        "height": 360,
+        "imageSha256": "86b121bdbfcfad77480760efe6888e7e61d7c76b0c412e3cf28b471c4d24e3ce"
+      },
+      "id": "video-943",
+      "localReviewId": "video-656"
+    },
+    {
+      "sourceUrl": "https://www.youtube.com/watch?v=NoRvOqVr7WI",
+      "sourceIdentity": "youtube.com/watch?v=NoRvOqVr7WI",
+      "status": "accepted",
+      "category": "games",
+      "title": "两天迭代魔法学校冒险",
+      "evidenceBasis": "Creator description and available transcript retrieved via Firecrawl and reviewed; video not fully watched and generation not independently reproduced.",
+      "checkedAt": "2026-10-06T09:15:16+00:00",
+      "originalResponseReceipt": "firecrawl-youtube-NoRvOqVr7WI",
+      "screenIndex": null,
+      "posterEvidence": {
+        "sourcePage": "https://www.youtube.com/watch?v=NoRvOqVr7WI",
+        "checkedAt": "2026-10-06T09:17:25+00:00",
+        "method": "Original poster downloaded, decoded and visually inspected in a labeled contact sheet",
+        "relation": "Original creator attachment, cover or repository figure for this work",
+        "reviewStatus": "accepted",
+        "width": 480,
+        "height": 360,
+        "imageSha256": "48ed9260624c1fab885bab57a0638492eabd705a7ff4bf37e1d0ae0c300aa13f"
+      },
+      "id": "video-944",
+      "localReviewId": "video-657"
+    },
+    {
+      "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1wyx3og/claude_opus_55_is_phenomenal_built_a_local_on/",
+      "sourceIdentity": "reddit.com/comments/1wyx3og",
+      "status": "accepted",
+      "category": "coding",
+      "title": "Apple Silicon 本地漫画翻译应用",
+      "evidenceBasis": "Original post title and available author selftext reviewed through the archive, not direct Reddit API. Claims not independently reproduced.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": null,
+      "screenIndex": null,
+      "id": "reddit-368",
+      "localReviewId": "reddit-300"
+    },
+    {
+      "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1wyv86m/what_have_you_been_working_on_with_opus_55/",
+      "sourceIdentity": "reddit.com/comments/1wyv86m",
+      "status": "accepted",
+      "category": "coding",
+      "title": "Zoo Tycoon 地图格式与新引擎",
+      "evidenceBasis": "Original post title and available author selftext reviewed through the archive, not direct Reddit API. Claims not independently reproduced.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": null,
+      "screenIndex": null,
+      "id": "reddit-369",
+      "localReviewId": "reddit-301"
+    },
+    {
+      "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1wys3vy/ue5_dark_souls_inspired_demo_i_built_with_opus_55/",
+      "sourceIdentity": "reddit.com/comments/1wys3vy",
+      "status": "accepted",
+      "category": "games",
+      "title": "UE5 项目移植到 WebGPU",
+      "evidenceBasis": "Original post title and available author selftext reviewed through the archive, not direct Reddit API. Claims not independently reproduced.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": null,
+      "screenIndex": null,
+      "id": "reddit-370",
+      "localReviewId": "reddit-302"
+    },
+    {
+      "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1wyebvo/i_couldnt_afford_a_rally_car_or_the_skills_so_i/",
+      "sourceIdentity": "reddit.com/comments/1wyebvo",
+      "status": "accepted",
+      "category": "3d",
+      "title": "瑞士公开地理数据到 BeamNG 地图",
+      "evidenceBasis": "Original post title and available author selftext reviewed through the archive, not direct Reddit API. Claims not independently reproduced.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": null,
+      "screenIndex": null,
+      "id": "reddit-371",
+      "localReviewId": "reddit-303"
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=49938458",
+      "sourceIdentity": "news.ycombinator.com/item?id=49938458",
+      "status": "accepted",
+      "category": "agents",
+      "title": "先规划再由另一模型建原型",
+      "evidenceBasis": "Firsthand original HN comment body read through Algolia. Author claims not independently reproduced.",
+      "checkedAt": "2026-10-06T09:14:26+00:00",
+      "originalResponseReceipt": null,
+      "screenIndex": null,
+      "id": "hn-122",
+      "localReviewId": "hn-110"
+    }
+  ],
+  "alreadyPresent": [
+    {
+      "localReviewId": "github-367",
+      "existingId": "github-376",
+      "sourceUrl": "https://github.com/p-sodmann/ironweaver-db"
+    },
+    {
+      "localReviewId": "github-370",
+      "existingId": "github-365",
+      "sourceUrl": "https://github.com/MisterAstrocyte/aml"
+    },
+    {
+      "localReviewId": "github-372",
+      "existingId": "github-366",
+      "sourceUrl": "https://github.com/gavilanbe/poke-wars"
+    },
+    {
+      "localReviewId": "github-374",
+      "existingId": "github-367",
+      "sourceUrl": "https://github.com/RyanBowie/ai-video-creation-guide"
+    },
+    {
+      "localReviewId": "github-375",
+      "existingId": "github-368",
+      "sourceUrl": "https://github.com/ZJY-HubGit/ClayMirror-Claudeaimade"
+    },
+    {
+      "localReviewId": "github-376",
+      "existingId": "github-369",
+      "sourceUrl": "https://github.com/Vincentwei1021/mg-styles-15"
+    },
+    {
+      "localReviewId": "github-377",
+      "existingId": "github-370",
+      "sourceUrl": "https://github.com/gavilanbe/srak-l-zit-2"
+    },
+    {
+      "localReviewId": "github-378",
+      "existingId": "github-373",
+      "sourceUrl": "https://github.com/jmgb27/code-graph-agent-cost"
+    },
+    {
+      "localReviewId": "github-379",
+      "existingId": "github-374",
+      "sourceUrl": "https://github.com/sneha-shrikumar/Scam-Triage-with-Jev"
+    },
+    {
+      "localReviewId": "github-380",
+      "existingId": "github-375",
+      "sourceUrl": "https://github.com/auricxchu/latent"
+    },
+    {
+      "localReviewId": "github-384",
+      "existingId": "github-377",
+      "sourceUrl": "https://github.com/opivankristovi/Claude_Code_Games"
+    },
+    {
+      "localReviewId": "github-385",
+      "existingId": "github-378",
+      "sourceUrl": "https://github.com/neelnanda-io/dont-go-quiet-on-me"
+    },
+    {
+      "localReviewId": "github-386",
+      "existingId": "github-379",
+      "sourceUrl": "https://github.com/luyenchou1/why-one-third"
+    },
+    {
+      "localReviewId": "github-387",
+      "existingId": "github-380",
+      "sourceUrl": "https://github.com/switchfire6/Slopstroid-Opus"
+    },
+    {
+      "localReviewId": "github-388",
+      "existingId": "github-381",
+      "sourceUrl": "https://github.com/gcc8080/data_structure_pov"
+    },
+    {
+      "localReviewId": "github-389",
+      "existingId": "github-382",
+      "sourceUrl": "https://github.com/gcc8080/algorithm_pov_opus"
+    },
+    {
+      "localReviewId": "github-390",
+      "existingId": "github-383",
+      "sourceUrl": "https://github.com/ferale90/combinatoria"
+    },
+    {
+      "localReviewId": "github-392",
+      "existingId": "github-385",
+      "sourceUrl": "https://github.com/Imdadullah-Raji/bachelors_thesis_predefense_report_and_slides"
+    },
+    {
+      "localReviewId": "hn-107",
+      "existingId": "hn-119",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49945076"
+    },
+    {
+      "localReviewId": "hn-108",
+      "existingId": "hn-120",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49944831"
+    },
+    {
+      "localReviewId": "hn-109",
+      "existingId": "hn-121",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49943490"
+    },
+    {
+      "localReviewId": "lists-795",
+      "existingId": "lists-795",
+      "sourceUrl": "https://x.com/DilumSanjaya/status/2106426962738880879"
+    },
+    {
+      "localReviewId": "lists-801",
+      "existingId": "lists-1110",
+      "sourceUrl": "https://x.com/Lattice_Node/status/2105946058417389840"
+    },
+    {
+      "localReviewId": "lists-802",
+      "existingId": "lists-797",
+      "sourceUrl": "https://x.com/techartist_/status/2106064200535859685"
+    },
+    {
+      "localReviewId": "lists-803",
+      "existingId": "lists-1107",
+      "sourceUrl": "https://x.com/bridgemindai/status/2106071883137392798"
+    },
+    {
+      "localReviewId": "lists-804",
+      "existingId": "lists-1116",
+      "sourceUrl": "https://x.com/nokonoko_1203/status/2105922366190784915"
+    },
+    {
+      "localReviewId": "lists-806",
+      "existingId": "lists-1132",
+      "sourceUrl": "https://x.com/Lattice_Node/status/2106313749846249487"
+    },
+    {
+      "localReviewId": "lists-808",
+      "existingId": "lists-857",
+      "sourceUrl": "https://x.com/emmanuel_2m/status/2107142680782438466"
+    },
+    {
+      "localReviewId": "lists-809",
+      "existingId": "lists-801",
+      "sourceUrl": "https://x.com/dobokuya77/status/2106604492728967620"
+    },
+    {
+      "localReviewId": "lists-810",
+      "existingId": "lists-1104",
+      "sourceUrl": "https://x.com/aicreataro/status/2106236856979607569"
+    },
+    {
+      "localReviewId": "lists-812",
+      "existingId": "lists-802",
+      "sourceUrl": "https://x.com/konstantinsaifo/status/2106855420237169107"
+    },
+    {
+      "localReviewId": "lists-813",
+      "existingId": "lists-1093",
+      "sourceUrl": "https://x.com/0xaxit/status/2106375041269342691"
+    },
+    {
+      "localReviewId": "lists-816",
+      "existingId": "lists-1118",
+      "sourceUrl": "https://x.com/Angaisb_/status/2105952417980592248"
+    },
+    {
+      "localReviewId": "lists-817",
+      "existingId": "lists-1128",
+      "sourceUrl": "https://x.com/AIMevzulari/status/2106052083040256293"
+    },
+    {
+      "localReviewId": "lists-818",
+      "existingId": "lists-807",
+      "sourceUrl": "https://x.com/JohnKlerAI/status/2106524850122572130"
+    },
+    {
+      "localReviewId": "lists-821",
+      "existingId": "lists-1078",
+      "sourceUrl": "https://x.com/redp314/status/2106324559805010004"
+    },
+    {
+      "localReviewId": "lists-823",
+      "existingId": "lists-811",
+      "sourceUrl": "https://x.com/DeryaTR_/status/2106567073149190228"
+    },
+    {
+      "localReviewId": "lists-824",
+      "existingId": "lists-1135",
+      "sourceUrl": "https://x.com/0xPBIT/status/2106048668826546247"
+    },
+    {
+      "localReviewId": "lists-829",
+      "existingId": "lists-1123",
+      "sourceUrl": "https://x.com/dotey/status/2106144184449085474"
+    },
+    {
+      "localReviewId": "lists-831",
+      "existingId": "lists-1129",
+      "sourceUrl": "https://x.com/anshuc/status/2106131543752122774"
+    },
+    {
+      "localReviewId": "lists-832",
+      "existingId": "lists-1133",
+      "sourceUrl": "https://x.com/L_ARCH_01/status/2106656783221899534"
+    },
+    {
+      "localReviewId": "lists-834",
+      "existingId": "lists-1117",
+      "sourceUrl": "https://x.com/nakazakifam/status/2105898430967009547"
+    },
+    {
+      "localReviewId": "lists-836",
+      "existingId": "lists-1111",
+      "sourceUrl": "https://x.com/seiiiiiiiiiiru/status/2106310907899105704"
+    },
+    {
+      "localReviewId": "reddit-304",
+      "existingId": "reddit-359",
+      "sourceUrl": "https://www.reddit.com/r/vibecoding/comments/1wxepu1/brainrot_while_waiting_on_agents_to_finish/"
+    },
+    {
+      "localReviewId": "reddit-305",
+      "existingId": "reddit-351",
+      "sourceUrl": "https://www.reddit.com/r/singularity/comments/1wy3tu1/i_got_opus_55_to_oneshot_a_complete_remix_music/"
+    },
+    {
+      "localReviewId": "reddit-306",
+      "existingId": "reddit-352",
+      "sourceUrl": "https://www.reddit.com/r/singularity/comments/1wy1ybt/racing_the_frontier_claudeanimated_song_on/"
+    },
+    {
+      "localReviewId": "reddit-307",
+      "existingId": "reddit-353",
+      "sourceUrl": "https://www.reddit.com/r/singularity/comments/1wxzz7w/opus_55_directed_a_film_in_under_16_secs/"
+    },
+    {
+      "localReviewId": "video-655",
+      "existingId": "video-907",
+      "sourceUrl": "https://www.youtube.com/watch?v=IFtKCN8jw6o"
+    }
+  ],
+  "previousCaseCount": 6275,
+  "caseCount": 6324,
+  "existingIdsAndNonmetricFieldsUnchanged": true,
+  "localEvidence": "2026-10-06-local-review.json",
+  "fetchReceipts": "2026-10-06-incremental-fetches.json"
+}

@@ -1,0 +1,13 @@
+{
+  "status": "not-started",
+  "scope": {
+    "zh": "尚无已审核案例",
+    "en": "No reviewed cases yet"
+  },
+  "caseCount": 0,
+  "refreshedAt": null,
+  "lastFullRefreshAt": null,
+  "limitations": [
+    "Topic initialized with zero reviewed cases. Discovery candidates are not imported automatically."
+  ]
+}

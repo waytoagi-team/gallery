@@ -23,3 +23,5 @@ python3 -m atlas build --topic opus-5-5 --check
 原 GoSail 专用导入器保留在 `tools/`，使用已审核的固定源快照；它们不是 Fable 的通用来源。原始抓取缓存不随专题提交。JSON 与 CSV 下载位于 `public/data/`。
 
 线上地址仍为 `https://www.waytoagi.com/usecase-atlas/opus5-5/`。目录迁移的发布步骤见 [操作手册](../../../docs/atlas-operations.md)，实际切换状态见 [执行记录](../../../docs/multi-topic-execution.md)。
+
+2026-10-06 增量整合后共 **6324 条**，保留较新远端数据与历史 ID。[增量更新记录](reports/UPDATE-2026-10-06-incremental.md)。
