@@ -11,7 +11,7 @@ Opus 5.5 与 Fable 5.5 使用同一套 `atlas/` 采集、校验和页面代码�
 | 专题 | 配置与数据 | 页面路径 |
 | --- | --- | --- |
 | Claude Opus 5.5 | [专题目录](cases/models/claude-opus-5-5-usecases/) | `/usecase-atlas/opus5-5/` |
-| Fable 5.5 | [专题目录](cases/models/fable-5-5-usecases/) | `/usecase-atlas/fable5-5/`（发布接入待合并） |
+| Fable 5.5 | [专题目录](cases/models/fable-5-5-usecases/) | `/usecase-atlas/fable5-5/`（已部署） |
 
 ```bash
 python3 -m venv .venv
@@ -43,10 +43,10 @@ node --test tests/test_ranking.cjs
 
 ### 最新收录
 
-2026-10-06 增量整合：Opus 共 **6,324 条**，Fable 共 **27 条**。保留较新的远端数据与历史案例身份；发现仍为部分覆盖。
+2026-10-11 多来源更新：Opus 共 **6,422 条**（新增 98 条），Fable 共 **38 条**（新增 11 条）。已更新可获取的互动数据、重建页面并保留历史案例身份；本轮为部分覆盖。
 
 - [Claude Opus 5.5 使用案例合集](cases/models/claude-opus-5-5-usecases)：含已审核数据与可离线浏览的 HTML
-- [Fable 5.5 使用案例合集](cases/models/fable-5-5-usecases)：27 条作者归属案例，后台模型身份未独立核验
+- [Fable 5.5 使用案例合集](cases/models/fable-5-5-usecases)：38 条作者归属案例，后台模型身份未独立核验
 
 ## 提交一个 Case
 

@@ -1,0 +1,329 @@
+{
+  "checkedAt": "2026-10-11T06:44:08+00:00",
+  "topicId": "fable-5-5",
+  "accepted": 11,
+  "selectionPolicy": "Bounded editorial review of concrete original works; explicit version and role required. Candidate lists are not auto-imported. No claim to have reviewed every discovery hit.",
+  "decisions": [
+    {
+      "sourceUrl": "https://x.com/AndrewOnXYZ/status/2107262468502544435",
+      "decision": "accepted",
+      "topicId": "fable-5-5",
+      "selection": "x-78",
+      "evidenceBasis": "Original creator post read via FxTwitter with matching immutable tweet ID; body explicitly names the version and task. Author-reported result, not independent reproduction.",
+      "checkedAt": "2026-10-11T06:41:06+00:00",
+      "evidenceSha256": "2fd928b9c389d523278846300c9ad54fd01b4b69495a7de0ba722d83bd9cb8ed",
+      "posterStatus": "not-included",
+      "posterReason": "Blank first frame"
+    },
+    {
+      "sourceUrl": "https://x.com/imjustnewatai/status/2107590323128193174",
+      "decision": "accepted",
+      "topicId": "fable-5-5",
+      "selection": "x-93",
+      "evidenceBasis": "Original creator post read via FxTwitter with matching immutable tweet ID; body explicitly names the version and task. Author-reported result, not independent reproduction.",
+      "checkedAt": "2026-10-11T06:41:06+00:00",
+      "evidenceSha256": "66ee3e3ec8b079ac55342155d7a2da8fbe53f6efd0833696317a9c0624242f7f",
+      "posterStatus": "not-included",
+      "posterReason": "Near-black first frame"
+    },
+    {
+      "sourceUrl": "https://x.com/blueemi99/status/2108221060655055242",
+      "decision": "accepted",
+      "topicId": "fable-5-5",
+      "selection": "x-101",
+      "evidenceBasis": "Original creator post read via FxTwitter with matching immutable tweet ID; body explicitly names the version and task. Author-reported result, not independent reproduction.",
+      "checkedAt": "2026-10-11T06:41:06+00:00",
+      "evidenceSha256": "0008a7dd06c0d7007d42a6492dcc81c9755e989d4504f03ba42423af8f81a50c",
+      "posterStatus": "not-included",
+      "posterReason": "Dark first frame"
+    },
+    {
+      "sourceUrl": "https://x.com/imjustnewatai/status/2107615459822453187",
+      "decision": "accepted",
+      "topicId": "fable-5-5",
+      "selection": "x-103",
+      "evidenceBasis": "Original creator post read via FxTwitter with matching immutable tweet ID; body explicitly names the version and task. Author-reported result, not independent reproduction.",
+      "checkedAt": "2026-10-11T06:41:06+00:00",
+      "evidenceSha256": "48b56406444f55e057857781e0b5c7ceffa06925559c3de92822322c13043e78",
+      "posterStatus": "not-included",
+      "posterReason": "Dark first frame"
+    },
+    {
+      "sourceUrl": "https://x.com/oalanicolas/status/2107958931230241037",
+      "decision": "accepted",
+      "topicId": "fable-5-5",
+      "selection": "x-205",
+      "evidenceBasis": "Original creator post read via FxTwitter with matching immutable tweet ID; body explicitly names the version and task. Author-reported result, not independent reproduction.",
+      "checkedAt": "2026-10-11T06:41:06+00:00",
+      "evidenceSha256": "52a8a7978f96e1b6e462861bc718ced080ab77526222c96bea5e8c4240870cdf",
+      "posterStatus": "accepted",
+      "posterReason": "Original image visually checked"
+    },
+    {
+      "sourceUrl": "https://x.com/notjazii/status/2107497752217460896",
+      "decision": "accepted",
+      "topicId": "fable-5-5",
+      "selection": "x-299",
+      "evidenceBasis": "Original creator post read via FxTwitter with matching immutable tweet ID; body explicitly names the version and task. Author-reported result, not independent reproduction.",
+      "checkedAt": "2026-10-11T06:41:06+00:00",
+      "evidenceSha256": "86f3cd0f4b37d132c3b1cf5775bfeffb0c5e34deeb7afa3093dfcd0041f3b154",
+      "posterStatus": "not-included",
+      "posterReason": "Near-black first frame"
+    },
+    {
+      "sourceUrl": "https://x.com/AISuperDomain/status/2108878175531110875",
+      "decision": "accepted",
+      "topicId": "fable-5-5",
+      "selection": "x-474",
+      "evidenceBasis": "Original creator post read via FxTwitter with matching immutable tweet ID; body explicitly names the version and task. Author-reported result, not independent reproduction.",
+      "checkedAt": "2026-10-11T06:41:06+00:00",
+      "evidenceSha256": "37d96d98dbd7883dbac94f0c07b61abf00faf87d28123a7f2d3ed2b68be38c18",
+      "posterStatus": "accepted",
+      "posterReason": "Original image visually checked"
+    },
+    {
+      "sourceUrl": "https://x.com/Vince__Russell/status/2107315127292952696",
+      "decision": "accepted",
+      "topicId": "fable-5-5",
+      "selection": "x-542",
+      "evidenceBasis": "Original creator post read via FxTwitter with matching immutable tweet ID; body explicitly names the version and task. Author-reported result, not independent reproduction.",
+      "checkedAt": "2026-10-11T06:41:06+00:00",
+      "evidenceSha256": "6f288ffd3ef1034bb4876ec65312e3182fb73eac2467b4c5040ac247217198d6",
+      "posterStatus": "accepted",
+      "posterReason": "Original image visually checked"
+    },
+    {
+      "sourceUrl": "https://x.com/MyCodeCoach/status/2107267599843422699",
+      "decision": "accepted",
+      "topicId": "fable-5-5",
+      "selection": "x-559",
+      "evidenceBasis": "Original creator post read via FxTwitter with matching immutable tweet ID; body explicitly names the version and task. Author-reported result, not independent reproduction.",
+      "checkedAt": "2026-10-11T06:41:06+00:00",
+      "evidenceSha256": "ad5c17b15da17720f9bad507ab6a01f891fd6dc79bc9333b4097e7411a7718a9",
+      "posterStatus": "accepted",
+      "posterReason": "Original image visually checked"
+    },
+    {
+      "sourceUrl": "https://x.com/RobinDenmark/status/2108194732744888801",
+      "decision": "accepted",
+      "topicId": "fable-5-5",
+      "selection": "x-609",
+      "evidenceBasis": "Original creator post read via FxTwitter with matching immutable tweet ID; body explicitly names the version and task. Author-reported result, not independent reproduction.",
+      "checkedAt": "2026-10-11T06:41:06+00:00",
+      "evidenceSha256": "356d8e6bee78a3bc041ce9c199f833117e2d4c47649159c980270652f930dfbe",
+      "posterStatus": "not-included",
+      "posterReason": "Near-black first frame"
+    },
+    {
+      "sourceUrl": "https://x.com/adam_fresko/status/2107637770873417894",
+      "decision": "accepted",
+      "topicId": "fable-5-5",
+      "selection": "x-611",
+      "evidenceBasis": "Original creator post read via FxTwitter with matching immutable tweet ID; body explicitly names the version and task. Author-reported result, not independent reproduction.",
+      "checkedAt": "2026-10-11T06:41:06+00:00",
+      "evidenceSha256": "dc008410bf5b4d30b02bfcbfeafc31e6ece2a9c51ce8bbf8b84122cf522bb5b2",
+      "posterStatus": "accepted",
+      "posterReason": "Original image visually checked"
+    },
+    {
+      "sourceUrl": "https://x.com/PatrickToulme/status/2108653404830535935",
+      "topicId": "fable-5-5",
+      "selection": "x-19",
+      "decision": "not-accepted",
+      "reason": "Dinner discussion and predictions",
+      "checkedAt": "2026-10-11T06:44:08+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/kimmonismus/status/2108954632714170803",
+      "topicId": "fable-5-5",
+      "selection": "x-22",
+      "decision": "not-accepted",
+      "reason": "Unverified model forecasts",
+      "checkedAt": "2026-10-11T06:44:08+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/bridgemindai/status/2107805599706825157",
+      "topicId": "fable-5-5",
+      "selection": "x-26",
+      "decision": "not-accepted",
+      "reason": "Release anticipation only",
+      "checkedAt": "2026-10-11T06:44:08+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/IndependentEco/status/2108972312582140232",
+      "topicId": "fable-5-5",
+      "selection": "x-49",
+      "decision": "not-accepted",
+      "reason": "Release predictions",
+      "checkedAt": "2026-10-11T06:44:08+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/blueemi99/status/2107459553369760024",
+      "topicId": "fable-5-5",
+      "selection": "x-54",
+      "decision": "not-accepted",
+      "reason": "Work description insufficient beyond a generic edit label",
+      "checkedAt": "2026-10-11T06:44:08+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/blueemi99/status/2108912164253602187",
+      "topicId": "fable-5-5",
+      "selection": "x-351",
+      "decision": "not-accepted",
+      "reason": "Joint Opus/Fable attribution without clear role separation",
+      "checkedAt": "2026-10-11T06:44:08+00:00"
+    }
+  ],
+  "posters": [
+    {
+      "selection": "x-78",
+      "sourcePage": "https://x.com/AndrewOnXYZ/status/2107262468502544435",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2107261834931650560/img/nyFrC9GJYEmTG6Ii.jpg",
+      "checkedAt": "2026-10-11T06:42:31+00:00",
+      "status": 200,
+      "ok": true,
+      "width": 1200,
+      "height": 675,
+      "imageSha256": "47ee0aa29214f301abb373caca537b7bd9386c930c6deae730286e3b92e3ef77",
+      "reviewStatus": "not-included",
+      "reason": "Blank first frame"
+    },
+    {
+      "selection": "x-93",
+      "sourcePage": "https://x.com/imjustnewatai/status/2107590323128193174",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2107590228043030528/img/HUucW-1rk6RUH0XT.jpg",
+      "checkedAt": "2026-10-11T06:42:31+00:00",
+      "status": 200,
+      "ok": true,
+      "width": 1200,
+      "height": 675,
+      "imageSha256": "a572e1c2be27ef922bc0ba2df2f357be2cc56251a6a86dd76e6cba47ea585f07",
+      "reviewStatus": "not-included",
+      "reason": "Near-black first frame"
+    },
+    {
+      "selection": "x-101",
+      "sourcePage": "https://x.com/blueemi99/status/2108221060655055242",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2108220392938545152/img/VLeytYV7Zz9SakIu.jpg",
+      "checkedAt": "2026-10-11T06:42:31+00:00",
+      "status": 200,
+      "ok": true,
+      "width": 1200,
+      "height": 675,
+      "imageSha256": "366de16b823e8a1d12e9bf8e4bdbd695e773aab6b35744954725fe1e1fe496b1",
+      "reviewStatus": "not-included",
+      "reason": "Dark first frame"
+    },
+    {
+      "selection": "x-103",
+      "sourcePage": "https://x.com/imjustnewatai/status/2107615459822453187",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2107615366415331328/img/zCeTbw6K4nJwi1rV.jpg",
+      "checkedAt": "2026-10-11T06:42:31+00:00",
+      "status": 200,
+      "ok": true,
+      "width": 1200,
+      "height": 675,
+      "imageSha256": "012080a4cc393982627b8109f9101ce90b15761203a86c46a325a45aaf3d27ba",
+      "reviewStatus": "not-included",
+      "reason": "Dark first frame"
+    },
+    {
+      "selection": "x-205",
+      "sourcePage": "https://x.com/oalanicolas/status/2107958931230241037",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2107956735025500160/img/-P_YJ25lEZwgL6z1.jpg",
+      "checkedAt": "2026-10-11T06:42:31+00:00",
+      "status": 200,
+      "ok": true,
+      "width": 1200,
+      "height": 675,
+      "imageSha256": "bdd34653b030403d87589d4b53555a8a729e3ac10dc9af9aaa586fd8b385cc6d",
+      "reviewStatus": "accepted",
+      "reason": "Original image visually checked"
+    },
+    {
+      "selection": "x-299",
+      "sourcePage": "https://x.com/notjazii/status/2107497752217460896",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2107497541386608640/img/A68to733RgDy5n1c.jpg",
+      "checkedAt": "2026-10-11T06:42:31+00:00",
+      "status": 200,
+      "ok": true,
+      "width": 1200,
+      "height": 675,
+      "imageSha256": "69028f47911bc014412cf991982262227d14048cb8afc658819a5c564ddd9153",
+      "reviewStatus": "not-included",
+      "reason": "Near-black first frame"
+    },
+    {
+      "selection": "x-474",
+      "sourcePage": "https://x.com/AISuperDomain/status/2108878175531110875",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2108877115131076609/img/KSe-02lOySuCO1E3.jpg",
+      "checkedAt": "2026-10-11T06:42:31+00:00",
+      "status": 200,
+      "ok": true,
+      "width": 1200,
+      "height": 753,
+      "imageSha256": "b7bdae10a5be0c08c91aed4951254b49c72cc35eb472bbfa1f5f1c2ad041077e",
+      "reviewStatus": "accepted",
+      "reason": "Original image visually checked"
+    },
+    {
+      "selection": "x-542",
+      "sourcePage": "https://x.com/Vince__Russell/status/2107315127292952696",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2107314487217029120/img/6kSdTjK4h1Sn181Y.jpg",
+      "checkedAt": "2026-10-11T06:42:31+00:00",
+      "status": 200,
+      "ok": true,
+      "width": 1200,
+      "height": 675,
+      "imageSha256": "e23909f13ae631c083ea643fd029071493c9cb483fcaa213914e627e2da98bbc",
+      "reviewStatus": "accepted",
+      "reason": "Original image visually checked"
+    },
+    {
+      "selection": "x-559",
+      "sourcePage": "https://x.com/MyCodeCoach/status/2107267599843422699",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2107267152093003776/img/y7VTNsH4MunDnqz3.jpg",
+      "checkedAt": "2026-10-11T06:42:31+00:00",
+      "status": 200,
+      "ok": true,
+      "width": 1200,
+      "height": 675,
+      "imageSha256": "4c367389217ef08f9d20f2fb222afd9af8d344eae68e03d65a3070cda2606e4f",
+      "reviewStatus": "accepted",
+      "reason": "Original image visually checked"
+    },
+    {
+      "selection": "x-609",
+      "sourcePage": "https://x.com/RobinDenmark/status/2108194732744888801",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2108194611084591104/img/XAybfvMKXPxkPUX2.jpg",
+      "checkedAt": "2026-10-11T06:42:31+00:00",
+      "status": 200,
+      "ok": true,
+      "width": 1200,
+      "height": 675,
+      "imageSha256": "920319488c8e35fbd571140e948bcc61bea72dea646cb446729056ac8437997e",
+      "reviewStatus": "not-included",
+      "reason": "Near-black first frame"
+    },
+    {
+      "selection": "x-611",
+      "sourcePage": "https://x.com/adam_fresko/status/2107637770873417894",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2107636757839699968/img/9mSpXAulotJAjtPR.jpg",
+      "checkedAt": "2026-10-11T06:42:31+00:00",
+      "status": 200,
+      "ok": true,
+      "width": 1200,
+      "height": 675,
+      "imageSha256": "1dad472d24766cee1199f9c3d695da6a9335781b4fb5b5e94b15edbc2f18fffb",
+      "reviewStatus": "accepted",
+      "reason": "Original image visually checked"
+    }
+  ],
+  "deferredCandidatePools": {
+    "x": 614,
+    "reddit": 175,
+    "githubReadmes": 47,
+    "bilibiliBeforeCanonicalDedup": 331
+  },
+  "note": "Pool sizes precede complete original-source review. Remaining candidates are deferred, not rejected or accepted."
+}

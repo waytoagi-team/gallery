@@ -1,0 +1,527 @@
+{
+  "checkedAt": "2026-10-11T06:49:44+00:00",
+  "topicId": "opus-5-5",
+  "receipts": [
+    {
+      "key": "github-page-2",
+      "url": "https://api.github.com/search/repositories?q=%22opus+5.5%22+pushed%3A%3E%3D2026-10-06&sort=updated&per_page=100&page=2",
+      "checkedAt": "2026-10-11T06:45:29+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "29",
+        "x-ratelimit-reset": "1791701189"
+      },
+      "finalUrl": "https://api.github.com/search/repositories?q=%22opus+5.5%22+pushed%3A%3E%3D2026-10-06&sort=updated&per_page=100&page=2",
+      "bytes": 455104,
+      "file": "github-page-2.txt",
+      "sha256": "ef25d2fcef147c3984f734d40829dcfb0a9dd0dfd14a9a6921ac8cfa5a7029ee",
+      "ok": true,
+      "returned": 79,
+      "totalReported": 179,
+      "searchIncomplete": false,
+      "pagination": "explicit-page",
+      "page": 2
+    },
+    {
+      "key": "github-page-3",
+      "url": "https://api.github.com/search/repositories?q=%22opus+5.5%22+pushed%3A%3E%3D2026-10-06&sort=updated&per_page=100&page=3",
+      "checkedAt": "2026-10-11T06:45:32+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "28",
+        "x-ratelimit-reset": "1791701189"
+      },
+      "finalUrl": "https://api.github.com/search/repositories?q=%22opus+5.5%22+pushed%3A%3E%3D2026-10-06&sort=updated&per_page=100&page=3",
+      "bytes": 57,
+      "file": "github-page-3.txt",
+      "sha256": "02fd82da8d5083837b36b531f02c3e66468812efe4b0c376b1ae5582b69c5ff2",
+      "ok": true,
+      "returned": 0,
+      "totalReported": 179,
+      "searchIncomplete": false,
+      "pagination": "explicit-page",
+      "page": 3
+    }
+  ],
+  "candidates": [
+    {
+      "sourceUrl": "https://github.com/arimanyus/hophopnopenope",
+      "repository": "arimanyus/hophopnopenope",
+      "pushedAt": "2026-10-08T13:53:32Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/qwer777qq/goni-opus55-shorts-skill",
+      "repository": "qwer777qq/goni-opus55-shorts-skill",
+      "pushedAt": "2026-10-08T08:56:04Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/okashiina/illa-mods",
+      "repository": "okashiina/illa-mods",
+      "pushedAt": "2026-10-08T08:16:34Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/Cybertiron/qwen-animation-summary",
+      "repository": "Cybertiron/qwen-animation-summary",
+      "pushedAt": "2026-10-08T08:14:10Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/kesha666-opt/opus-5-5",
+      "repository": "kesha666-opt/opus-5-5",
+      "pushedAt": "2026-10-08T06:27:17Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/0xabys/saigon-rush-hour",
+      "repository": "0xabys/saigon-rush-hour",
+      "pushedAt": "2026-10-08T05:04:27Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/evgenspm/kclaude",
+      "repository": "evgenspm/kclaude",
+      "pushedAt": "2026-10-08T05:04:03Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/neelnanda-io/dont-go-quiet-on-me",
+      "repository": "neelnanda-io/dont-go-quiet-on-me",
+      "pushedAt": "2026-10-08T03:34:34Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+      "repository": "yihui-dev/awesome-opus5-5-videos",
+      "pushedAt": "2026-10-08T02:17:59Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/V9011N/pygame-piano-animator",
+      "repository": "V9011N/pygame-piano-animator",
+      "pushedAt": "2026-10-11T06:10:06Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/t-shiratori/kaze-no-koro-opus-5.5",
+      "repository": "t-shiratori/kaze-no-koro-opus-5.5",
+      "pushedAt": "2026-10-08T01:05:51Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/YunruDU/openhouse-3d",
+      "repository": "YunruDU/openhouse-3d",
+      "pushedAt": "2026-10-08T00:11:52Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/mwatkins03-netizen/The-Machine-Before-The-Machine-Opus-5.5",
+      "repository": "mwatkins03-netizen/The-Machine-Before-The-Machine-Opus-5.5",
+      "pushedAt": "2026-10-08T00:06:00Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/duolahypercho/spawn-subagents-skill",
+      "repository": "duolahypercho/spawn-subagents-skill",
+      "pushedAt": "2026-10-07T23:31:50Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/AlexMGlesser/Offline-AI-Wikipedia",
+      "repository": "AlexMGlesser/Offline-AI-Wikipedia",
+      "pushedAt": "2026-10-07T22:50:42Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/EvanZhuang/harness-competition-demo",
+      "repository": "EvanZhuang/harness-competition-demo",
+      "pushedAt": "2026-10-07T22:41:51Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/UncleAcid1/RTKContinued",
+      "repository": "UncleAcid1/RTKContinued",
+      "pushedAt": "2026-10-07T22:30:30Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/mikecavallo/showcase-review",
+      "repository": "mikecavallo/showcase-review",
+      "pushedAt": "2026-10-07T20:48:44Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/thevibeworks/opus-5-5-for-everyone",
+      "repository": "thevibeworks/opus-5-5-for-everyone",
+      "pushedAt": "2026-10-07T20:06:02Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation",
+      "repository": "mariovirgili/WonderSwanColor-AI_Translation",
+      "pushedAt": "2026-10-10T18:37:00Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/oscarwallace2013-lgtm/skate-64",
+      "repository": "oscarwallace2013-lgtm/skate-64",
+      "pushedAt": "2026-10-07T19:10:30Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/PodeCaradox/GalaxyFrame",
+      "repository": "PodeCaradox/GalaxyFrame",
+      "pushedAt": "2026-10-07T18:28:00Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/leamariek/aevum",
+      "repository": "leamariek/aevum",
+      "pushedAt": "2026-10-07T17:27:02Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/1cookstar2-web/prompt-polish",
+      "repository": "1cookstar2-web/prompt-polish",
+      "pushedAt": "2026-10-07T17:02:28Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/emergent-wisdom/story",
+      "repository": "emergent-wisdom/story",
+      "pushedAt": "2026-10-07T16:01:44Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/apimodels/claude-opus-5-5-video-prompts",
+      "repository": "apimodels/claude-opus-5-5-video-prompts",
+      "pushedAt": "2026-10-07T15:26:23Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/Prompt-Motion/Prompt-Motion.github.io",
+      "repository": "Prompt-Motion/Prompt-Motion.github.io",
+      "pushedAt": "2026-10-07T15:26:11Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/ramalanbintang4-svg/opus-5.5",
+      "repository": "ramalanbintang4-svg/opus-5.5",
+      "pushedAt": "2026-10-07T15:20:43Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/ismoshushi/awesome-opus-video-skills",
+      "repository": "ismoshushi/awesome-opus-video-skills",
+      "pushedAt": "2026-10-07T13:51:25Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/kirishimarisano-rgb/opus5.5-1",
+      "repository": "kirishimarisano-rgb/opus5.5-1",
+      "pushedAt": "2026-10-07T13:31:42Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/shiiiIIiIiiin/graffiti-short-proofs",
+      "repository": "shiiiIIiIiiin/graffiti-short-proofs",
+      "pushedAt": "2026-10-07T13:09:06Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/GustavoPilar/simulador-3d",
+      "repository": "GustavoPilar/simulador-3d",
+      "pushedAt": "2026-10-07T13:07:45Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/hkkk1231/only-my-railgun-mv",
+      "repository": "hkkk1231/only-my-railgun-mv",
+      "pushedAt": "2026-10-07T12:01:01Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/adityaimamz/rocket-orbit-pixel-claude-vs-gemini",
+      "repository": "adityaimamz/rocket-orbit-pixel-claude-vs-gemini",
+      "pushedAt": "2026-10-07T11:43:43Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/shiiiIIiIiiin/graffiti-262-proof",
+      "repository": "shiiiIIiIiiin/graffiti-262-proof",
+      "pushedAt": "2026-10-07T11:37:05Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/obzue/obzue-agent-graph",
+      "repository": "obzue/obzue-agent-graph",
+      "pushedAt": "2026-10-07T11:19:44Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/QalbAsia/silo-tv-show-animation-made-by-claude",
+      "repository": "QalbAsia/silo-tv-show-animation-made-by-claude",
+      "pushedAt": "2026-10-07T11:12:25Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/shiiiIIiIiiin/graffiti-714-proof",
+      "repository": "shiiiIIiIiiin/graffiti-714-proof",
+      "pushedAt": "2026-10-07T11:03:57Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/transkatgirl/vibeclaude",
+      "repository": "transkatgirl/vibeclaude",
+      "pushedAt": "2026-10-07T10:44:24Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/Th1nhNg0/the-plane-needs-six",
+      "repository": "Th1nhNg0/the-plane-needs-six",
+      "pushedAt": "2026-10-07T10:30:45Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/DavutKaraoglan/pieload",
+      "repository": "DavutKaraoglan/pieload",
+      "pushedAt": "2026-10-07T10:16:57Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/AgentsLoop/awesome-opus-5.5-games",
+      "repository": "AgentsLoop/awesome-opus-5.5-games",
+      "pushedAt": "2026-10-07T09:06:17Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/mikenevermiss/motionpromptgallery",
+      "repository": "mikenevermiss/motionpromptgallery",
+      "pushedAt": "2026-10-07T08:46:58Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/Khalidabdi1/factory",
+      "repository": "Khalidabdi1/factory",
+      "pushedAt": "2026-10-07T08:27:39Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/jakebball/Opus5.5-Core-",
+      "repository": "jakebball/Opus5.5-Core-",
+      "pushedAt": "2026-10-07T07:21:24Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/miladicode823-coder/Oni-Ronin",
+      "repository": "miladicode823-coder/Oni-Ronin",
+      "pushedAt": "2026-10-07T06:28:12Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/younesbag/claude-agent-constitution",
+      "repository": "younesbag/claude-agent-constitution",
+      "pushedAt": "2026-10-07T06:01:54Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/is-hp-is-mad/Agent4Chrome",
+      "repository": "is-hp-is-mad/Agent4Chrome",
+      "pushedAt": "2026-10-07T04:07:18Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/aa27259/nf-gateway",
+      "repository": "aa27259/nf-gateway",
+      "pushedAt": "2026-10-06T23:52:30Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/matteau94/Arctic-Survival",
+      "repository": "matteau94/Arctic-Survival",
+      "pushedAt": "2026-10-06T23:20:05Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/gautham-v/code-bench",
+      "repository": "gautham-v/code-bench",
+      "pushedAt": "2026-10-06T22:27:11Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/shopville-limited/gosau-live-wallpaper",
+      "repository": "shopville-limited/gosau-live-wallpaper",
+      "pushedAt": "2026-10-06T21:46:02Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/CircusPigeon/breakowt",
+      "repository": "CircusPigeon/breakowt",
+      "pushedAt": "2026-10-06T21:45:09Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/nikita4a/nf-gateway",
+      "repository": "nikita4a/nf-gateway",
+      "pushedAt": "2026-10-06T19:17:29Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/asys-projects/xok-opus55",
+      "repository": "asys-projects/xok-opus55",
+      "pushedAt": "2026-10-06T19:09:47Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/RyanBowie/ai-video-creation-guide",
+      "repository": "RyanBowie/ai-video-creation-guide",
+      "pushedAt": "2026-10-06T19:06:03Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/pangoleen/desportes-1593",
+      "repository": "pangoleen/desportes-1593",
+      "pushedAt": "2026-10-06T17:39:58Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/KannanRajan19/ClaudeVideos",
+      "repository": "KannanRajan19/ClaudeVideos",
+      "pushedAt": "2026-10-06T17:26:11Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/primaryatias-oss/Slop-Port-Of-HTN-Planner-To-Go-And-Nim",
+      "repository": "primaryatias-oss/Slop-Port-Of-HTN-Planner-To-Go-And-Nim",
+      "pushedAt": "2026-10-06T16:49:42Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/xirba13/Skylanders-Giants-in-SSA",
+      "repository": "xirba13/Skylanders-Giants-in-SSA",
+      "pushedAt": "2026-10-06T16:37:15Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/aroyston14/Split_Claude_training_app",
+      "repository": "aroyston14/Split_Claude_training_app",
+      "pushedAt": "2026-10-06T15:55:45Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/teedjay/go-bombjack",
+      "repository": "teedjay/go-bombjack",
+      "pushedAt": "2026-10-06T14:40:53Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/tanuu5/nova-lancer",
+      "repository": "tanuu5/nova-lancer",
+      "pushedAt": "2026-10-06T14:02:53Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/zqkra/opus-prime",
+      "repository": "zqkra/opus-prime",
+      "pushedAt": "2026-10-06T11:57:08Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/zubcodes/ATC_Game",
+      "repository": "zubcodes/ATC_Game",
+      "pushedAt": "2026-10-06T10:52:31Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/2600th/game-with-ai-starter-pack",
+      "repository": "2600th/game-with-ai-starter-pack",
+      "pushedAt": "2026-10-06T09:42:37Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/jinda-li/Emergence",
+      "repository": "jinda-li/Emergence",
+      "pushedAt": "2026-10-06T09:37:18Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/opusvideo/awesome-claude-video",
+      "repository": "opusvideo/awesome-claude-video",
+      "pushedAt": "2026-10-06T09:25:32Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/1kvoidsoft/Opus5.5_MG_Anim_Zao",
+      "repository": "1kvoidsoft/Opus5.5_MG_Anim_Zao",
+      "pushedAt": "2026-10-06T09:16:29Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/theolundqvist/frontier-games",
+      "repository": "theolundqvist/frontier-games",
+      "pushedAt": "2026-10-06T06:09:28Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/exclusiveabhi/turbo-kart-rally-game",
+      "repository": "exclusiveabhi/turbo-kart-rally-game",
+      "pushedAt": "2026-10-06T05:06:34Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/miguelsolorio/the-tithe",
+      "repository": "miguelsolorio/the-tithe",
+      "pushedAt": "2026-10-06T03:58:39Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/aibengineering/sprout-quest",
+      "repository": "aibengineering/sprout-quest",
+      "pushedAt": "2026-10-06T03:27:12Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/yeopjoonhyun/claude-auto-model",
+      "repository": "yeopjoonhyun/claude-auto-model",
+      "pushedAt": "2026-10-06T02:38:30Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/juan52878911/reto-opus-5.5-chispa",
+      "repository": "juan52878911/reto-opus-5.5-chispa",
+      "pushedAt": "2026-10-06T02:06:47Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/AzusagawaKaedeSama/kawaii-style-kit",
+      "repository": "AzusagawaKaedeSama/kawaii-style-kit",
+      "pushedAt": "2026-10-06T01:52:03Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/rrcatto/IDFvHamas",
+      "repository": "rrcatto/IDFvHamas",
+      "pushedAt": "2026-10-06T01:20:21Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/shahass92-commits/Compass-Nexus-iq-Landing-page",
+      "repository": "shahass92-commits/Compass-Nexus-iq-Landing-page",
+      "pushedAt": "2026-10-06T01:18:22Z",
+      "reviewStatus": "pending"
+    },
+    {
+      "sourceUrl": "https://github.com/shahass92-commits/nexus-iq-new-opus-5.5",
+      "repository": "shahass92-commits/nexus-iq-new-opus-5.5",
+      "pushedAt": "2026-10-06T01:16:53Z",
+      "reviewStatus": "pending"
+    }
+  ],
+  "note": "79 page-two search hits saved as minimal metadata for later original-source review; not imported."
+}

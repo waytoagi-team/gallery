@@ -1,0 +1,2957 @@
+{
+  "schemaVersion": 1,
+  "topicId": "opus-5-5",
+  "runId": "20261011T052840Z-a713d422",
+  "startedAt": "2026-10-11T05:28:40+00:00",
+  "finishedAt": "2026-10-11T05:28:45+00:00",
+  "since": "2026-10-06",
+  "status": "retrieved",
+  "sourcesAttempted": 46,
+  "sourcesSucceeded": 46,
+  "coverage": "partial",
+  "candidateCount": 200,
+  "reviewedNewCases": 0,
+  "limitations": [
+    "Successful retrieval does not prove exhaustive coverage or model attribution.",
+    "Search adapters inspect one bounded page per configured query; no complete-pagination claim.",
+    "Only GitHub and HN JSON searches currently emit candidate metadata; other snapshots require manual review.",
+    "Discovery does not change accepted data, metric freshness or the published refresh report."
+  ],
+  "sources": [
+    {
+      "key": "coolbat",
+      "url": "https://raw.githubusercontent.com/coolbat/awesome-opus-5.5-usecase/main/data/usecases.json",
+      "checkedAt": "2026-10-11T05:28:40+00:00",
+      "status": 200,
+      "finalUrl": "https://raw.githubusercontent.com/coolbat/awesome-opus-5.5-usecase/main/data/usecases.json",
+      "bytes": 308641,
+      "file": "coolbat.txt",
+      "sha256": "4b50c3ac500683af03b568bdb83be06f7336d3f9257ba4c992b1ecc4788e9f8f",
+      "ok": true,
+      "pagination": "not-verified"
+    },
+    {
+      "key": "opusvideo",
+      "url": "https://raw.githubusercontent.com/opusvideo/awesome-claude-video/main/cases.json",
+      "checkedAt": "2026-10-11T05:28:40+00:00",
+      "status": 200,
+      "finalUrl": "https://raw.githubusercontent.com/opusvideo/awesome-claude-video/main/cases.json",
+      "bytes": 204330,
+      "file": "opusvideo.txt",
+      "sha256": "74e8c2db7e57e1240e56de861ca651671244abec085cd37ce3850ba7f3ef09e5",
+      "ok": true,
+      "pagination": "not-verified"
+    },
+    {
+      "key": "games",
+      "url": "https://raw.githubusercontent.com/AgentsLoop/awesome-opus-5.5-games/main/games.json",
+      "checkedAt": "2026-10-11T05:28:40+00:00",
+      "status": 200,
+      "finalUrl": "https://raw.githubusercontent.com/AgentsLoop/awesome-opus-5.5-games/main/games.json",
+      "bytes": 2593430,
+      "file": "games.txt",
+      "sha256": "8ae5a05f86671b3b2ab023c077db0cda194bd555fb84a05d11caee594f899867",
+      "ok": true,
+      "pagination": "not-verified"
+    },
+    {
+      "key": "frontend",
+      "url": "https://raw.githubusercontent.com/OpenVGLab/awesome-opus5.5-frontend-showcases/main/README.en.md",
+      "checkedAt": "2026-10-11T05:28:40+00:00",
+      "status": 200,
+      "finalUrl": "https://raw.githubusercontent.com/OpenVGLab/awesome-opus5.5-frontend-showcases/main/README.en.md",
+      "bytes": 76472,
+      "file": "frontend.txt",
+      "sha256": "2b1f37dab1aa6e36778d1601cf36dfc43bd339d10a940ad3d46a78600c59e85d",
+      "ok": true
+    },
+    {
+      "key": "github-search",
+      "url": "https://api.github.com/search/repositories?q=%22opus+5.5%22+pushed%3A%3E%3D2026-10-06&sort=updated&per_page=100",
+      "checkedAt": "2026-10-11T05:28:40+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "29",
+        "x-ratelimit-reset": "1791696580"
+      },
+      "finalUrl": "https://api.github.com/search/repositories?q=%22opus+5.5%22+pushed%3A%3E%3D2026-10-06&sort=updated&per_page=100",
+      "bytes": 569017,
+      "file": "github-search.txt",
+      "sha256": "de774dc9fbff8a9c349aea20573654fbc0e858095d88ac84e044f3a8eab0c0eb",
+      "ok": true,
+      "returned": 100,
+      "totalReported": 177,
+      "searchIncomplete": false,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "hn",
+      "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22opus+5.5%22&hitsPerPage=100&numericFilters=created_at_i%3E%3D1791244800",
+      "checkedAt": "2026-10-11T05:28:40+00:00",
+      "status": 200,
+      "finalUrl": "https://hn.algolia.com/api/v1/search_by_date?query=%22opus+5.5%22&hitsPerPage=100&numericFilters=created_at_i%3E%3D1791244800",
+      "bytes": 193704,
+      "file": "hn.txt",
+      "sha256": "3139e757f1cd70168ed65b1d2379b04efc8583630346427d1c8981911bb71ea3",
+      "ok": true,
+      "returned": 100,
+      "totalReported": 214,
+      "pagesReported": 3,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "reddit-ai",
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=ClaudeAI&after=2026-10-06&limit=100&sort=desc",
+      "checkedAt": "2026-10-11T05:28:40+00:00",
+      "status": 200,
+      "finalUrl": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=ClaudeAI&after=2026-10-06&limit=100&sort=desc",
+      "bytes": 378168,
+      "file": "reddit-ai.txt",
+      "sha256": "202119c68f480eabd29462b32ff1b1607b7573af4bad98e8fb0e36062176da72",
+      "ok": true,
+      "pagination": "not-verified"
+    },
+    {
+      "key": "reddit-code",
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=ClaudeCode&after=2026-10-06&limit=100&sort=desc",
+      "checkedAt": "2026-10-11T05:28:40+00:00",
+      "status": 200,
+      "finalUrl": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=ClaudeCode&after=2026-10-06&limit=100&sort=desc",
+      "bytes": 542727,
+      "file": "reddit-code.txt",
+      "sha256": "97c6ce6eacb7a42b73fb47d58df237d6888f3062f94f70dd3a0f4013abdd6d02",
+      "ok": true,
+      "pagination": "not-verified"
+    },
+    {
+      "key": "reddit-claude",
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=claude&after=2026-10-06&limit=100&sort=desc",
+      "checkedAt": "2026-10-11T05:28:40+00:00",
+      "status": 200,
+      "finalUrl": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=claude&after=2026-10-06&limit=100&sort=desc",
+      "bytes": 342510,
+      "file": "reddit-claude.txt",
+      "sha256": "e7f1fba131a17ea2f889f1e56525aba662b9b664dd6eb6b853f796ab8000b53d",
+      "ok": true,
+      "pagination": "not-verified"
+    },
+    {
+      "key": "youtube",
+      "url": "https://www.youtube.com/results?search_query=claude+opus+5.5&sp=CAI%253D",
+      "checkedAt": "2026-10-11T05:28:40+00:00",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=claude+opus+5.5&sp=CAI%253D",
+      "bytes": 1409645,
+      "file": "youtube.txt",
+      "sha256": "9af3881a0321f224f2913d1122eca09404c0de2ed55552659cbfca042b6ea90f",
+      "ok": true
+    },
+    {
+      "key": "bilibili",
+      "url": "https://api.bilibili.com/x/web-interface/search/type?search_type=video&keyword=opus+5.5&order=pubdate&page=1&page_size=50",
+      "checkedAt": "2026-10-11T05:28:40+00:00",
+      "status": 200,
+      "finalUrl": "https://api.bilibili.com/x/web-interface/search/type?search_type=video&keyword=opus+5.5&order=pubdate&page=1&page_size=50",
+      "bytes": 82987,
+      "file": "bilibili.txt",
+      "sha256": "80949fe1ca4c0200a15c27b443fcc74c07d8c5d746f46d6a76b5225838d3352e",
+      "ok": true,
+      "pagination": "not-verified"
+    },
+    {
+      "key": "zenn",
+      "url": "https://zenn.dev/topics/claude/feed",
+      "checkedAt": "2026-10-11T05:28:41+00:00",
+      "status": 200,
+      "finalUrl": "https://zenn.dev/topics/claude/feed",
+      "bytes": 43917,
+      "file": "zenn.txt",
+      "sha256": "62f39642e7956b4c8ac93ea94a7d76f313ed649416013365648c6f89dc7cd9d8",
+      "ok": true
+    },
+    {
+      "key": "latent",
+      "url": "https://www.latent.space/feed",
+      "checkedAt": "2026-10-11T05:28:41+00:00",
+      "status": 200,
+      "finalUrl": "https://www.latent.space/feed",
+      "bytes": 1030265,
+      "file": "latent.txt",
+      "sha256": "2ea5de8e7fe9b9e77e38e39e4917cc7baf9d1d0883dc7da4f281b39e659b6dbf",
+      "ok": true
+    },
+    {
+      "key": "zvi",
+      "url": "https://thezvi.substack.com/feed",
+      "checkedAt": "2026-10-11T05:28:41+00:00",
+      "status": 200,
+      "finalUrl": "https://thezvi.substack.com/feed",
+      "bytes": 2275357,
+      "file": "zvi.txt",
+      "sha256": "7ab68503c1bcdc710384460e846734673940998186d0b1c8670c5fd57d326c98",
+      "ok": true
+    },
+    {
+      "key": "mollick",
+      "url": "https://www.oneusefulthing.org/feed",
+      "checkedAt": "2026-10-11T05:28:41+00:00",
+      "status": 200,
+      "finalUrl": "https://www.oneusefulthing.org/feed",
+      "bytes": 907151,
+      "file": "mollick.txt",
+      "sha256": "c8cfa39e84e13bd7ad9866e1e6c87523b69000990688089a58218e60f99ad8c6",
+      "ok": true
+    },
+    {
+      "key": "youmind",
+      "url": "https://youmind.com/opus-5-5-prompts",
+      "checkedAt": "2026-10-11T05:28:42+00:00",
+      "status": 200,
+      "finalUrl": "https://youmind.com/opus-5-5-prompts",
+      "bytes": 370539,
+      "file": "youmind.txt",
+      "sha256": "7ce3bab9efa01544b78afdec9c18ce71d91093f29e2504c005be8b88133a0d70",
+      "ok": true
+    },
+    {
+      "key": "ohmyopus",
+      "url": "https://ohmyopus.com/en",
+      "checkedAt": "2026-10-11T05:28:42+00:00",
+      "status": 200,
+      "finalUrl": "https://ohmyopus.com/en",
+      "bytes": 356399,
+      "file": "ohmyopus.txt",
+      "sha256": "2fa62f053f80f3a60125265c25d6d951e3ee4d6cb962404aef7b91fb422ee978",
+      "ok": true
+    },
+    {
+      "key": "mia",
+      "url": "https://raw.githubusercontent.com/MiaAI-Lab/Claude-Opus-5.5-100-HTML-Files/main/index.html",
+      "checkedAt": "2026-10-11T05:28:42+00:00",
+      "status": 200,
+      "finalUrl": "https://raw.githubusercontent.com/MiaAI-Lab/Claude-Opus-5.5-100-HTML-Files/main/index.html",
+      "bytes": 389105,
+      "file": "mia.txt",
+      "sha256": "a444a3e4961f16f8e204c11374d1fa6fef91547c6c84e15d460bca5af656054b",
+      "ok": true
+    },
+    {
+      "key": "blender",
+      "url": "https://blenderai.org/gallery",
+      "checkedAt": "2026-10-11T05:28:42+00:00",
+      "status": 200,
+      "finalUrl": "https://blenderai.org/gallery",
+      "bytes": 467577,
+      "file": "blender.txt",
+      "sha256": "10ac71b644c80d1a9c161bc5924d0d7739c794b2716b9869385c4adb1797a491",
+      "ok": true
+    },
+    {
+      "key": "combos",
+      "url": "https://combos.converge.ai/prompt/claude-opus-5-5",
+      "checkedAt": "2026-10-11T05:28:42+00:00",
+      "status": 200,
+      "finalUrl": "https://combos.converge.ai/prompt/claude-opus-5-5",
+      "bytes": 762501,
+      "file": "combos.txt",
+      "sha256": "c4eca5d5751b07afea250c1b44f6bf8875d4c3e8027cfee4247720035f2574ee",
+      "ok": true
+    },
+    {
+      "key": "aveniqa",
+      "url": "https://aveniqa.com/?lang=en",
+      "checkedAt": "2026-10-11T05:28:42+00:00",
+      "status": 200,
+      "finalUrl": "https://aveniqa.com/?lang=en",
+      "bytes": 173449,
+      "file": "aveniqa.txt",
+      "sha256": "320811dfa7acb5e00c58f30e7111b1fdadd0081954b63a24963066d38a050be4",
+      "ok": true
+    },
+    {
+      "key": "simon",
+      "url": "https://simonwillison.net/atom/everything/",
+      "checkedAt": "2026-10-11T05:28:42+00:00",
+      "status": 200,
+      "finalUrl": "https://simonwillison.net/atom/everything/",
+      "bytes": 93719,
+      "file": "simon.txt",
+      "sha256": "234a18e1903eab4995fab4270e6859f083c34c965ceb48a94113e1649444a7ce",
+      "ok": true
+    },
+    {
+      "key": "qiita",
+      "url": "https://qiita.com/api/v2/items?query=%22Opus+5.5%22&per_page=100",
+      "checkedAt": "2026-10-11T05:28:42+00:00",
+      "status": 200,
+      "finalUrl": "https://qiita.com/api/v2/items?query=%22Opus+5.5%22&per_page=100",
+      "bytes": 7402820,
+      "file": "qiita.txt",
+      "sha256": "f52aebec8dff4b358ac118f07a6afc29e5f87f343b1908dfbd95282258f2233c",
+      "ok": true,
+      "pagination": "not-verified"
+    },
+    {
+      "key": "athemeroy-readme",
+      "url": "https://raw.githubusercontent.com/athemeroy/awesome-opus-5-5-videos/main/README.md",
+      "checkedAt": "2026-10-11T05:28:43+00:00",
+      "status": 200,
+      "finalUrl": "https://raw.githubusercontent.com/athemeroy/awesome-opus-5-5-videos/main/README.md",
+      "bytes": 11134,
+      "file": "athemeroy-readme.txt",
+      "sha256": "67373bbc408e8093016d027bfa7ba6932f5b0467cff075aabbd1e73886a91268",
+      "ok": true
+    },
+    {
+      "key": "frontier-data",
+      "url": "https://raw.githubusercontent.com/theolundqvist/frontier-games/main/data/games.yaml",
+      "checkedAt": "2026-10-11T05:28:43+00:00",
+      "status": 200,
+      "finalUrl": "https://raw.githubusercontent.com/theolundqvist/frontier-games/main/data/games.yaml",
+      "bytes": 146131,
+      "file": "frontier-data.txt",
+      "sha256": "d3cf8af558c3a9769eec95c240d5c19c19c73951784be9d60e663207c6dd1f3f",
+      "ok": true
+    },
+    {
+      "key": "lemo",
+      "url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/main/README.md",
+      "checkedAt": "2026-10-11T05:28:43+00:00",
+      "status": 200,
+      "finalUrl": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/main/README.md",
+      "bytes": 19894,
+      "file": "lemo.txt",
+      "sha256": "329c651e9e1d50cb6f6b9eb04391498d8697a7c54477b4d4e864782941c18464",
+      "ok": true
+    },
+    {
+      "key": "yihui-data",
+      "url": "https://raw.githubusercontent.com/yihui-dev/awesome-opus5-5-videos/main/data/videos.json",
+      "checkedAt": "2026-10-11T05:28:43+00:00",
+      "status": 200,
+      "finalUrl": "https://raw.githubusercontent.com/yihui-dev/awesome-opus5-5-videos/main/data/videos.json",
+      "bytes": 585194,
+      "file": "yihui-data.txt",
+      "sha256": "6a7a5664e693e7741567c9092af127fb5906bbf3a194f4c6475292c15f540776",
+      "ok": true,
+      "pagination": "not-verified"
+    },
+    {
+      "key": "video-prompts",
+      "url": "https://raw.githubusercontent.com/joeseesun/opus-video-prompts/main/README.md",
+      "checkedAt": "2026-10-11T05:28:43+00:00",
+      "status": 200,
+      "finalUrl": "https://raw.githubusercontent.com/joeseesun/opus-video-prompts/main/README.md",
+      "bytes": 41358,
+      "file": "video-prompts.txt",
+      "sha256": "173d9891809c39bee086b41023837020d72e32f0a11d64f25ede026c9f412e7a",
+      "ok": true
+    },
+    {
+      "key": "magiccreator",
+      "url": "https://raw.githubusercontent.com/magiccreator-ai/awesome-claude-opus-5-5-demos/main/README.md",
+      "checkedAt": "2026-10-11T05:28:43+00:00",
+      "status": 200,
+      "finalUrl": "https://raw.githubusercontent.com/magiccreator-ai/awesome-claude-opus-5-5-demos/main/README.md",
+      "bytes": 25178,
+      "file": "magiccreator.txt",
+      "sha256": "be32e3aae09c7ac3b4ab4cb51c839254cc5c4fa6261cb34b01a0b309dd272371",
+      "ok": true
+    },
+    {
+      "key": "tripo",
+      "url": "https://raw.githubusercontent.com/TripoGrowthLab/awesome-opus-5-5-prompts/main/docs/catalog.en.1.md",
+      "checkedAt": "2026-10-11T05:28:43+00:00",
+      "status": 200,
+      "finalUrl": "https://raw.githubusercontent.com/TripoGrowthLab/awesome-opus-5-5-prompts/main/docs/catalog.en.1.md",
+      "bytes": 132963,
+      "file": "tripo.txt",
+      "sha256": "0dccb6e9a74d0db7c8489f7ae5843116363a76f5b3f4f69d084754dcbd9d75f5",
+      "ok": true
+    },
+    {
+      "key": "official",
+      "url": "https://www.anthropic.com/claude-opus-5-5",
+      "checkedAt": "2026-10-11T05:28:43+00:00",
+      "status": 200,
+      "finalUrl": "https://www.anthropic.com/claude-opus-5-5",
+      "bytes": 463824,
+      "file": "official.txt",
+      "sha256": "30c6750d82e77ab338d96878b63e18a868b5db1016306d8e92a8ef71ef09dc92",
+      "ok": true
+    },
+    {
+      "key": "vals",
+      "url": "https://www.vals.ai/models/anthropic_claude-opus-5-5",
+      "checkedAt": "2026-10-11T05:28:43+00:00",
+      "status": 200,
+      "finalUrl": "https://www.vals.ai/models/anthropic_claude-opus-5-5",
+      "bytes": 345230,
+      "file": "vals.txt",
+      "sha256": "ab02d9b19d6c13495ff940fdf0043e14ac3680c8f74ebbd168c8f6eded093ccc",
+      "ok": true
+    },
+    {
+      "key": "sonar",
+      "url": "https://www.sonarsource.com/blog/claude-opus-5-5-an-evaluation/",
+      "checkedAt": "2026-10-11T05:28:43+00:00",
+      "status": 200,
+      "finalUrl": "https://www.sonarsource.com/blog/claude-opus-5-5-an-evaluation/",
+      "bytes": 702777,
+      "file": "sonar.txt",
+      "sha256": "6941d0989439e30733c081a5a79aa514849c4e5ff06de854bef3fe71d11c1d96",
+      "ok": true
+    },
+    {
+      "key": "every",
+      "url": "https://every.to/vibe-check/vibe-check-opus-5-5-is-pulling-our-codex-converts-back-to-claude",
+      "checkedAt": "2026-10-11T05:28:43+00:00",
+      "status": 200,
+      "finalUrl": "https://every.to/vibe-check/vibe-check-opus-5-5-is-pulling-our-codex-converts-back-to-claude",
+      "bytes": 164302,
+      "file": "every.txt",
+      "sha256": "9f6fbc258b567efc1fc4e914d8693cf15e8045c7da164c0b4809ce826cf342b8",
+      "ok": true
+    },
+    {
+      "key": "aa",
+      "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
+      "checkedAt": "2026-10-11T05:28:43+00:00",
+      "status": 200,
+      "finalUrl": "https://artificialanalysis.ai/models/claude-opus-5-5",
+      "bytes": 1473626,
+      "file": "aa.txt",
+      "sha256": "9a1ba4d47e17bd35312781c639ac6cb0b18aa846963a77acdf5305a7928d769c",
+      "ok": true
+    },
+    {
+      "key": "endor",
+      "url": "https://www.endorlabs.com/learn/opus-5-5-6x-cheaper-and-2x-faster-than-fable-5-1-but-memorization-keeps-it-off-the-top-spot",
+      "checkedAt": "2026-10-11T05:28:43+00:00",
+      "status": 200,
+      "finalUrl": "https://www.endorlabs.com/learn/opus-5-5-6x-cheaper-and-2x-faster-than-fable-5-1-but-memorization-keeps-it-off-the-top-spot",
+      "bytes": 212591,
+      "file": "endor.txt",
+      "sha256": "0eda3f0f0d8955af4fcc98c631b5a87aca4be6b94dae085a82d9e752c10b3bee",
+      "ok": true
+    },
+    {
+      "key": "sprite",
+      "url": "https://www.spritefusion.com/blog/opus-5-5-for-pixel-art-scenes",
+      "checkedAt": "2026-10-11T05:28:43+00:00",
+      "status": 200,
+      "finalUrl": "https://www.spritefusion.com/blog/opus-5-5-for-pixel-art-scenes",
+      "bytes": 27035,
+      "file": "sprite.txt",
+      "sha256": "4c97d9dc12a74c4627f47729ce76a96268f9a894bded478a419617c915eae32b",
+      "ok": true
+    },
+    {
+      "key": "lemo-styles",
+      "url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/main/styles/README.md",
+      "checkedAt": "2026-10-11T05:28:44+00:00",
+      "status": 200,
+      "finalUrl": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/main/styles/README.md",
+      "bytes": 5767,
+      "file": "lemo-styles.txt",
+      "sha256": "3c9b28977f3434a7c8f718eb55d32db19af97f49d28ca6df2d92b994b8f1bdec",
+      "ok": true
+    },
+    {
+      "key": "lemo-director",
+      "url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/main/DIRECTOR.md",
+      "checkedAt": "2026-10-11T05:28:44+00:00",
+      "status": 200,
+      "finalUrl": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/main/DIRECTOR.md",
+      "bytes": 10403,
+      "file": "lemo-director.txt",
+      "sha256": "317495c3dac573f2e8b0dadfd56511a1b35a7c385e9f75beca1034af05960678",
+      "ok": true
+    },
+    {
+      "key": "lemo-technique",
+      "url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/main/TECHNIQUE.md",
+      "checkedAt": "2026-10-11T05:28:44+00:00",
+      "status": 200,
+      "finalUrl": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/main/TECHNIQUE.md",
+      "bytes": 12364,
+      "file": "lemo-technique.txt",
+      "sha256": "cd456c1d936e9b44cc4e05fa5d3b062cc4d2dc079620e36902cd74cbb0a43fd6",
+      "ok": true
+    },
+    {
+      "key": "blender-prompts",
+      "url": "https://blenderai.org/prompts",
+      "checkedAt": "2026-10-11T05:28:44+00:00",
+      "status": 200,
+      "finalUrl": "https://blenderai.org/prompts",
+      "bytes": 377971,
+      "file": "blender-prompts.txt",
+      "sha256": "da2b73a327e49bcdeb01a0e39ea3fb8c5dd09bdfbe267df2c8df0eebb42ee619",
+      "ok": true
+    },
+    {
+      "key": "blender-methodology",
+      "url": "https://blenderai.org/methodology",
+      "checkedAt": "2026-10-11T05:28:44+00:00",
+      "status": 200,
+      "finalUrl": "https://blenderai.org/methodology",
+      "bytes": 101411,
+      "file": "blender-methodology.txt",
+      "sha256": "574f32058067afb5f87e819b0d2aa2b3332651c39c7fc310c0b5eb27b50ff8f2",
+      "ok": true
+    },
+    {
+      "key": "qiita-session-logs",
+      "url": "https://qiita.com/api/v2/items/37d3bdd0bafdd81ba392",
+      "checkedAt": "2026-10-11T05:28:44+00:00",
+      "status": 200,
+      "finalUrl": "https://qiita.com/api/v2/items/37d3bdd0bafdd81ba392",
+      "bytes": 48819,
+      "file": "qiita-session-logs.txt",
+      "sha256": "db3945cb81073922deecb712a798fb270dcac85a147ec2d420791772275cc53c",
+      "ok": true,
+      "pagination": "not-verified"
+    },
+    {
+      "key": "gosail-video",
+      "url": "https://raw.githubusercontent.com/zhuyansen/awesome-opus-5.5-video/main/cases.json",
+      "checkedAt": "2026-10-11T05:28:44+00:00",
+      "status": 200,
+      "finalUrl": "https://raw.githubusercontent.com/zhuyansen/awesome-opus-5.5-video/main/cases.json",
+      "bytes": 1251527,
+      "file": "gosail-video.txt",
+      "sha256": "38dadad5cf7576cdf48cb9c0f1ba89af3bcdb2a651c725f6ecedca1b7890f475",
+      "ok": true,
+      "pagination": "not-verified"
+    },
+    {
+      "key": "x-seed-2104401613968527400",
+      "url": "https://api.fxtwitter.com/yucheng/status/2104401613968527400",
+      "checkedAt": "2026-10-11T05:28:44+00:00",
+      "status": 200,
+      "finalUrl": "https://api.fxtwitter.com/yucheng/status/2104401613968527400",
+      "bytes": 11100,
+      "file": "x-seed-2104401613968527400.txt",
+      "sha256": "e5c9d1669ae3b56ca72645249e52b42ef677af58d2d5bd01498e3a11f1505b96",
+      "ok": true,
+      "pagination": "not-verified"
+    },
+    {
+      "key": "x-seed-2104250271891099672",
+      "url": "https://api.fxtwitter.com/arni0x9053/status/2104250271891099672",
+      "checkedAt": "2026-10-11T05:28:44+00:00",
+      "status": 200,
+      "finalUrl": "https://api.fxtwitter.com/arni0x9053/status/2104250271891099672",
+      "bytes": 9078,
+      "file": "x-seed-2104250271891099672.txt",
+      "sha256": "4accbf9fa3b4c057b3d4ead5cbc19563817c451beed604c947eade845b571f52",
+      "ok": true,
+      "pagination": "not-verified"
+    }
+  ],
+  "candidates": [
+    {
+      "sourceUrl": "https://github.com/masseater/mst-ja-decision-bench",
+      "title": "masseater/mst-ja-decision-bench",
+      "platform": "GitHub",
+      "date": "2026-10-11",
+      "sourceIdentity": "github.com/masseater/mst-ja-decision-bench",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/4thyaN6/EZlator",
+      "title": "4thyaN6/EZlator",
+      "platform": "GitHub",
+      "date": "2026-10-04",
+      "sourceIdentity": "github.com/4thyan6/ezlator",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/mos-ks/qwen-benchmarking-dgx-spark",
+      "title": "mos-ks/qwen-benchmarking-dgx-spark",
+      "platform": "GitHub",
+      "date": "2026-10-09",
+      "sourceIdentity": "github.com/mos-ks/qwen-benchmarking-dgx-spark",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/SubmitGame/Claude-vs-ChatGPT",
+      "title": "SubmitGame/Claude-vs-ChatGPT",
+      "platform": "GitHub",
+      "date": "2026-09-30",
+      "sourceIdentity": "github.com/submitgame/claude-vs-chatgpt",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/humdonsolana/qubit-lab",
+      "title": "humdonsolana/qubit-lab",
+      "platform": "GitHub",
+      "date": "2026-10-10",
+      "sourceIdentity": "github.com/humdonsolana/qubit-lab",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/TsinHzl/kiro2cc-proxy",
+      "title": "TsinHzl/kiro2cc-proxy",
+      "platform": "GitHub",
+      "date": "2026-05-15",
+      "sourceIdentity": "github.com/tsinhzl/kiro2cc-proxy",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/u9822914324-web/kalshi-paper-bot",
+      "title": "u9822914324-web/kalshi-paper-bot",
+      "platform": "GitHub",
+      "date": "2026-10-08",
+      "sourceIdentity": "github.com/u9822914324-web/kalshi-paper-bot",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/saigyo/tsumugi",
+      "title": "saigyo/tsumugi",
+      "platform": "GitHub",
+      "date": "2026-08-27",
+      "sourceIdentity": "github.com/saigyo/tsumugi",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/mxssnx-creator/CTS-A-O",
+      "title": "mxssnx-creator/CTS-A-O",
+      "platform": "GitHub",
+      "date": "2026-09-26",
+      "sourceIdentity": "github.com/mxssnx-creator/cts-a-o",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/ilien-dev/themis",
+      "title": "ilien-dev/themis",
+      "platform": "GitHub",
+      "date": "2026-10-02",
+      "sourceIdentity": "github.com/ilien-dev/themis",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/alireza-hariri/ghoori",
+      "title": "alireza-hariri/ghoori",
+      "platform": "GitHub",
+      "date": "2026-10-10",
+      "sourceIdentity": "github.com/alireza-hariri/ghoori",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/kesha666-opt/opus5.5",
+      "title": "kesha666-opt/opus5.5",
+      "platform": "GitHub",
+      "date": "2026-10-08",
+      "sourceIdentity": "github.com/kesha666-opt/opus5.5",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/ulissesflores/mythos-5-1-travas",
+      "title": "ulissesflores/mythos-5-1-travas",
+      "platform": "GitHub",
+      "date": "2026-10-10",
+      "sourceIdentity": "github.com/ulissesflores/mythos-5-1-travas",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/DruskoEgor/OS_labs",
+      "title": "DruskoEgor/OS_labs",
+      "platform": "GitHub",
+      "date": "2026-10-09",
+      "sourceIdentity": "github.com/druskoegor/os_labs",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/asgeirtj/system_prompts_leaks",
+      "title": "asgeirtj/system_prompts_leaks",
+      "platform": "GitHub",
+      "date": "2025-05-03",
+      "sourceIdentity": "github.com/asgeirtj/system_prompts_leaks",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/M3-4T35/WarbandVR",
+      "title": "M3-4T35/WarbandVR",
+      "platform": "GitHub",
+      "date": "2026-10-03",
+      "sourceIdentity": "github.com/m3-4t35/warbandvr",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Amkt1tkt/ctfp-lean4",
+      "title": "Amkt1tkt/ctfp-lean4",
+      "platform": "GitHub",
+      "date": "2026-10-10",
+      "sourceIdentity": "github.com/amkt1tkt/ctfp-lean4",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/LeaddeOpenLab/awesome-opus-5-5-video-prompts",
+      "title": "LeaddeOpenLab/awesome-opus-5-5-video-prompts",
+      "platform": "GitHub",
+      "date": "2026-09-28",
+      "sourceIdentity": "github.com/leaddeopenlab/awesome-opus-5-5-video-prompts",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/p-sodmann/ironweaver-db",
+      "title": "p-sodmann/ironweaver-db",
+      "platform": "GitHub",
+      "date": "2026-10-01",
+      "sourceIdentity": "github.com/p-sodmann/ironweaver-db",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/AlexGalhardo/askedly-social-network",
+      "title": "AlexGalhardo/askedly-social-network",
+      "platform": "GitHub",
+      "date": "2025-06-10",
+      "sourceIdentity": "github.com/alexgalhardo/askedly-social-network",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/adunext/adu-motion-video",
+      "title": "adunext/adu-motion-video",
+      "platform": "GitHub",
+      "date": "2026-09-28",
+      "sourceIdentity": "github.com/adunext/adu-motion-video",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/beyondworks/lean-forge-55",
+      "title": "beyondworks/lean-forge-55",
+      "platform": "GitHub",
+      "date": "2026-09-23",
+      "sourceIdentity": "github.com/beyondworks/lean-forge-55",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/WXK-AI/jev-opus",
+      "title": "WXK-AI/jev-opus",
+      "platform": "GitHub",
+      "date": "2026-09-23",
+      "sourceIdentity": "github.com/wxk-ai/jev-opus",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/eraycoskunai/opus5.5-prompt-skill",
+      "title": "eraycoskunai/opus5.5-prompt-skill",
+      "platform": "GitHub",
+      "date": "2026-10-10",
+      "sourceIdentity": "github.com/eraycoskunai/opus5.5-prompt-skill",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/arnicas/bee-garden-game",
+      "title": "arnicas/bee-garden-game",
+      "platform": "GitHub",
+      "date": "2026-09-23",
+      "sourceIdentity": "github.com/arnicas/bee-garden-game",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/MAAdan/MiguelAdanWebsite",
+      "title": "MAAdan/MiguelAdanWebsite",
+      "platform": "GitHub",
+      "date": "2026-10-03",
+      "sourceIdentity": "github.com/maadan/migueladanwebsite",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/MiddleSugar7000/premium-saas-web-skill",
+      "title": "MiddleSugar7000/premium-saas-web-skill",
+      "platform": "GitHub",
+      "date": "2026-10-01",
+      "sourceIdentity": "github.com/middlesugar7000/premium-saas-web-skill",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/lemomo-ai/lemo-opuscar",
+      "title": "lemomo-ai/lemo-opuscar",
+      "platform": "GitHub",
+      "date": "2026-09-26",
+      "sourceIdentity": "github.com/lemomo-ai/lemo-opuscar",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/DXH430725/backroom_test",
+      "title": "DXH430725/backroom_test",
+      "platform": "GitHub",
+      "date": "2026-09-25",
+      "sourceIdentity": "github.com/dxh430725/backroom_test",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/zhuyansen/awesome-opus-5.5-video",
+      "title": "zhuyansen/awesome-opus-5.5-video",
+      "platform": "GitHub",
+      "date": "2026-09-27",
+      "sourceIdentity": "github.com/zhuyansen/awesome-opus-5.5-video",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/AlexGalhardo/CLI-Turn-Based-RPG-Game",
+      "title": "AlexGalhardo/CLI-Turn-Based-RPG-Game",
+      "platform": "GitHub",
+      "date": "2026-09-27",
+      "sourceIdentity": "github.com/alexgalhardo/cli-turn-based-rpg-game",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/cr1707/claude-chrome-speed",
+      "title": "cr1707/claude-chrome-speed",
+      "platform": "GitHub",
+      "date": "2026-10-10",
+      "sourceIdentity": "github.com/cr1707/claude-chrome-speed",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/aidevksh/token-diet",
+      "title": "aidevksh/token-diet",
+      "platform": "GitHub",
+      "date": "2026-10-10",
+      "sourceIdentity": "github.com/aidevksh/token-diet",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/notwindstone/vita3k-web",
+      "title": "notwindstone/vita3k-web",
+      "platform": "GitHub",
+      "date": "2026-09-12",
+      "sourceIdentity": "github.com/notwindstone/vita3k-web",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Bodila51/opus-sound-layer",
+      "title": "Bodila51/opus-sound-layer",
+      "platform": "GitHub",
+      "date": "2026-10-09",
+      "sourceIdentity": "github.com/bodila51/opus-sound-layer",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Jo-Lam/ncvr-linkage-equity",
+      "title": "Jo-Lam/ncvr-linkage-equity",
+      "platform": "GitHub",
+      "date": "2026-10-10",
+      "sourceIdentity": "github.com/jo-lam/ncvr-linkage-equity",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/anteloc/ldraw-nova",
+      "title": "anteloc/ldraw-nova",
+      "platform": "GitHub",
+      "date": "2026-09-23",
+      "sourceIdentity": "github.com/anteloc/ldraw-nova",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/cryptosecco/octopus",
+      "title": "cryptosecco/octopus",
+      "platform": "GitHub",
+      "date": "2026-10-08",
+      "sourceIdentity": "github.com/cryptosecco/octopus",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/mailes/awesome-claude-5-5-videos",
+      "title": "mailes/awesome-claude-5-5-videos",
+      "platform": "GitHub",
+      "date": "2026-10-07",
+      "sourceIdentity": "github.com/mailes/awesome-claude-5-5-videos",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/JinshiYu914/opus5-5-video-prompt-website",
+      "title": "JinshiYu914/opus5-5-video-prompt-website",
+      "platform": "GitHub",
+      "date": "2026-10-10",
+      "sourceIdentity": "github.com/jinshiyu914/opus5-5-video-prompt-website",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/jaikaar15/Flight-sim",
+      "title": "jaikaar15/Flight-sim",
+      "platform": "GitHub",
+      "date": "2026-10-10",
+      "sourceIdentity": "github.com/jaikaar15/flight-sim",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/CalmDownNova/cosmic-breach",
+      "title": "CalmDownNova/cosmic-breach",
+      "platform": "GitHub",
+      "date": "2026-09-30",
+      "sourceIdentity": "github.com/calmdownnova/cosmic-breach",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/pshankinclarke/line-item-review",
+      "title": "pshankinclarke/line-item-review",
+      "platform": "GitHub",
+      "date": "2026-10-09",
+      "sourceIdentity": "github.com/pshankinclarke/line-item-review",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/EvertonColombo/Sentinela",
+      "title": "EvertonColombo/Sentinela",
+      "platform": "GitHub",
+      "date": "2026-10-08",
+      "sourceIdentity": "github.com/evertoncolombo/sentinela",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/pedrohasf/equilibrium-poker",
+      "title": "pedrohasf/equilibrium-poker",
+      "platform": "GitHub",
+      "date": "2026-10-09",
+      "sourceIdentity": "github.com/pedrohasf/equilibrium-poker",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/chrisbuczek/threejs-multiplayer-fps",
+      "title": "chrisbuczek/threejs-multiplayer-fps",
+      "platform": "GitHub",
+      "date": "2026-10-05",
+      "sourceIdentity": "github.com/chrisbuczek/threejs-multiplayer-fps",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Hubert-BitScribbles/clear-tracker",
+      "title": "Hubert-BitScribbles/clear-tracker",
+      "platform": "GitHub",
+      "date": "2026-10-06",
+      "sourceIdentity": "github.com/hubert-bitscribbles/clear-tracker",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/marvinmcv-svg/Habit-Tracking-APP",
+      "title": "marvinmcv-svg/Habit-Tracking-APP",
+      "platform": "GitHub",
+      "date": "2026-10-06",
+      "sourceIdentity": "github.com/marvinmcv-svg/habit-tracking-app",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/mishakgg/comp491-2026-all-demos",
+      "title": "mishakgg/comp491-2026-all-demos",
+      "platform": "GitHub",
+      "date": "2026-10-09",
+      "sourceIdentity": "github.com/mishakgg/comp491-2026-all-demos",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/ducksarecool1/tsa-ai-prep",
+      "title": "ducksarecool1/tsa-ai-prep",
+      "platform": "GitHub",
+      "date": "2026-10-09",
+      "sourceIdentity": "github.com/ducksarecool1/tsa-ai-prep",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/opivankristovi/Claude_Code_Games",
+      "title": "opivankristovi/Claude_Code_Games",
+      "platform": "GitHub",
+      "date": "2026-10-04",
+      "sourceIdentity": "github.com/opivankristovi/claude_code_games",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/fasihh/ide",
+      "title": "fasihh/ide",
+      "platform": "GitHub",
+      "date": "2026-10-07",
+      "sourceIdentity": "github.com/fasihh/ide",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Hubert-BitScribbles/Liquid-Clock",
+      "title": "Hubert-BitScribbles/Liquid-Clock",
+      "platform": "GitHub",
+      "date": "2026-10-02",
+      "sourceIdentity": "github.com/hubert-bitscribbles/liquid-clock",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/per-simmons/opus-premiere-editing",
+      "title": "per-simmons/opus-premiere-editing",
+      "platform": "GitHub",
+      "date": "2026-10-09",
+      "sourceIdentity": "github.com/per-simmons/opus-premiere-editing",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/PHY041/claude-motion-playbook",
+      "title": "PHY041/claude-motion-playbook",
+      "platform": "GitHub",
+      "date": "2026-10-08",
+      "sourceIdentity": "github.com/phy041/claude-motion-playbook",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/glamdring09/haiku-opus",
+      "title": "glamdring09/haiku-opus",
+      "platform": "GitHub",
+      "date": "2026-10-09",
+      "sourceIdentity": "github.com/glamdring09/haiku-opus",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Kom129/ninja-vpn",
+      "title": "Kom129/ninja-vpn",
+      "platform": "GitHub",
+      "date": "2026-10-09",
+      "sourceIdentity": "github.com/kom129/ninja-vpn",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/kuight/lt-opus5.5-memory",
+      "title": "kuight/lt-opus5.5-memory",
+      "platform": "GitHub",
+      "date": "2026-10-04",
+      "sourceIdentity": "github.com/kuight/lt-opus5.5-memory",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/average-user-887/flybrain",
+      "title": "average-user-887/flybrain",
+      "platform": "GitHub",
+      "date": "2026-09-23",
+      "sourceIdentity": "github.com/average-user-887/flybrain",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/dT-Tb-labs/babel-orchestration",
+      "title": "dT-Tb-labs/babel-orchestration",
+      "platform": "GitHub",
+      "date": "2026-07-18",
+      "sourceIdentity": "github.com/dt-tb-labs/babel-orchestration",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/cktang88/3d-fps",
+      "title": "cktang88/3d-fps",
+      "platform": "GitHub",
+      "date": "2026-10-08",
+      "sourceIdentity": "github.com/cktang88/3d-fps",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/ylimingtju/clawd-dan-zhuang",
+      "title": "ylimingtju/clawd-dan-zhuang",
+      "platform": "GitHub",
+      "date": "2026-10-09",
+      "sourceIdentity": "github.com/ylimingtju/clawd-dan-zhuang",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/WinterArc21/Battle-of-Midway-Visualization-Opus-5.5",
+      "title": "WinterArc21/Battle-of-Midway-Visualization-Opus-5.5",
+      "platform": "GitHub",
+      "date": "2026-09-24",
+      "sourceIdentity": "github.com/winterarc21/battle-of-midway-visualization-opus-5.5",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/coolbat/awesome-opus-5.5-usecase",
+      "title": "coolbat/awesome-opus-5.5-usecase",
+      "platform": "GitHub",
+      "date": "2026-09-24",
+      "sourceIdentity": "github.com/coolbat/awesome-opus-5.5-usecase",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/anttiluode/Perjantai",
+      "title": "anttiluode/Perjantai",
+      "platform": "GitHub",
+      "date": "2026-10-09",
+      "sourceIdentity": "github.com/anttiluode/perjantai",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Crawfis-Software/IronCitadel-Showcase",
+      "title": "Crawfis-Software/IronCitadel-Showcase",
+      "platform": "GitHub",
+      "date": "2026-10-08",
+      "sourceIdentity": "github.com/crawfis-software/ironcitadel-showcase",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/wallfacer-web/opus-5-5-visual-showcase",
+      "title": "wallfacer-web/opus-5-5-visual-showcase",
+      "platform": "GitHub",
+      "date": "2026-10-07",
+      "sourceIdentity": "github.com/wallfacer-web/opus-5-5-visual-showcase",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/anttiluode/Kuulustelu",
+      "title": "anttiluode/Kuulustelu",
+      "platform": "GitHub",
+      "date": "2026-10-09",
+      "sourceIdentity": "github.com/anttiluode/kuulustelu",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/cocodedk/agent-benchmark",
+      "title": "cocodedk/agent-benchmark",
+      "platform": "GitHub",
+      "date": "2026-10-09",
+      "sourceIdentity": "github.com/cocodedk/agent-benchmark",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Chaveex/veex-fighting",
+      "title": "Chaveex/veex-fighting",
+      "platform": "GitHub",
+      "date": "2026-10-01",
+      "sourceIdentity": "github.com/chaveex/veex-fighting",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/atkinsjp/Claude-CRM",
+      "title": "atkinsjp/Claude-CRM",
+      "platform": "GitHub",
+      "date": "2026-10-09",
+      "sourceIdentity": "github.com/atkinsjp/claude-crm",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/dimitriskaramalikis/glyphfall",
+      "title": "dimitriskaramalikis/glyphfall",
+      "platform": "GitHub",
+      "date": "2026-10-09",
+      "sourceIdentity": "github.com/dimitriskaramalikis/glyphfall",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/zeddD1abl0/netbox-powerdns-ai",
+      "title": "zeddD1abl0/netbox-powerdns-ai",
+      "platform": "GitHub",
+      "date": "2026-09-25",
+      "sourceIdentity": "github.com/zeddd1abl0/netbox-powerdns-ai",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/nawka12/NawkaRouter",
+      "title": "nawka12/NawkaRouter",
+      "platform": "GitHub",
+      "date": "2026-10-09",
+      "sourceIdentity": "github.com/nawka12/nawkarouter",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/M-37-AI/jev-aktien-screener",
+      "title": "M-37-AI/jev-aktien-screener",
+      "platform": "GitHub",
+      "date": "2026-10-09",
+      "sourceIdentity": "github.com/m-37-ai/jev-aktien-screener",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/casens5/math-lean",
+      "title": "casens5/math-lean",
+      "platform": "GitHub",
+      "date": "2026-10-08",
+      "sourceIdentity": "github.com/casens5/math-lean",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/mosaicss/archivist-benchmark",
+      "title": "mosaicss/archivist-benchmark",
+      "platform": "GitHub",
+      "date": "2026-10-09",
+      "sourceIdentity": "github.com/mosaicss/archivist-benchmark",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Foremanytz/AbyssScavenger",
+      "title": "Foremanytz/AbyssScavenger",
+      "platform": "GitHub",
+      "date": "2026-10-08",
+      "sourceIdentity": "github.com/foremanytz/abyssscavenger",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/xianyu110/awesome-claude-opus-5.5",
+      "title": "xianyu110/awesome-claude-opus-5.5",
+      "platform": "GitHub",
+      "date": "2026-09-28",
+      "sourceIdentity": "github.com/xianyu110/awesome-claude-opus-5.5",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/JTMC-G3/HelloNeighbor",
+      "title": "JTMC-G3/HelloNeighbor",
+      "platform": "GitHub",
+      "date": "2026-09-28",
+      "sourceIdentity": "github.com/jtmc-g3/helloneighbor",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/rdjkgwo/claude-api-pricing",
+      "title": "rdjkgwo/claude-api-pricing",
+      "platform": "GitHub",
+      "date": "2026-10-09",
+      "sourceIdentity": "github.com/rdjkgwo/claude-api-pricing",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/wakamex/llm-left-alone",
+      "title": "wakamex/llm-left-alone",
+      "platform": "GitHub",
+      "date": "2026-10-08",
+      "sourceIdentity": "github.com/wakamex/llm-left-alone",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/vishalbakshi/local-voice-dictation",
+      "title": "vishalbakshi/local-voice-dictation",
+      "platform": "GitHub",
+      "date": "2026-10-09",
+      "sourceIdentity": "github.com/vishalbakshi/local-voice-dictation",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/once-ere/Dirac_claude",
+      "title": "once-ere/Dirac_claude",
+      "platform": "GitHub",
+      "date": "2026-09-25",
+      "sourceIdentity": "github.com/once-ere/dirac_claude",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/matyasstoch/cloudroom-math",
+      "title": "matyasstoch/cloudroom-math",
+      "platform": "GitHub",
+      "date": "2026-10-08",
+      "sourceIdentity": "github.com/matyasstoch/cloudroom-math",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/WollyMonjac/ButchGraves3D",
+      "title": "WollyMonjac/ButchGraves3D",
+      "platform": "GitHub",
+      "date": "2026-10-08",
+      "sourceIdentity": "github.com/wollymonjac/butchgraves3d",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/junaaid96/daily-ar-ap-tracking",
+      "title": "junaaid96/daily-ar-ap-tracking",
+      "platform": "GitHub",
+      "date": "2026-09-24",
+      "sourceIdentity": "github.com/junaaid96/daily-ar-ap-tracking",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/20q2/i-like-ur-look-lyric-video",
+      "title": "20q2/i-like-ur-look-lyric-video",
+      "platform": "GitHub",
+      "date": "2026-10-08",
+      "sourceIdentity": "github.com/20q2/i-like-ur-look-lyric-video",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/ArthurMonteiro08586/vani-autoreg",
+      "title": "ArthurMonteiro08586/vani-autoreg",
+      "platform": "GitHub",
+      "date": "2026-10-08",
+      "sourceIdentity": "github.com/arthurmonteiro08586/vani-autoreg",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/shivam-24-deep/sparks-of-agi-in-code",
+      "title": "shivam-24-deep/sparks-of-agi-in-code",
+      "platform": "GitHub",
+      "date": "2026-10-08",
+      "sourceIdentity": "github.com/shivam-24-deep/sparks-of-agi-in-code",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/francisco-antao-aguiar/opus-5.5-condo-app",
+      "title": "francisco-antao-aguiar/opus-5.5-condo-app",
+      "platform": "GitHub",
+      "date": "2026-10-05",
+      "sourceIdentity": "github.com/francisco-antao-aguiar/opus-5.5-condo-app",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/ArthurMonteiro08586/notion-agent-gateway",
+      "title": "ArthurMonteiro08586/notion-agent-gateway",
+      "platform": "GitHub",
+      "date": "2026-10-08",
+      "sourceIdentity": "github.com/arthurmonteiro08586/notion-agent-gateway",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/BilousNikita/Claude5.5",
+      "title": "BilousNikita/Claude5.5",
+      "platform": "GitHub",
+      "date": "2026-10-08",
+      "sourceIdentity": "github.com/bilousnikita/claude5.5",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/IdoHoresh/promptify",
+      "title": "IdoHoresh/promptify",
+      "platform": "GitHub",
+      "date": "2026-08-23",
+      "sourceIdentity": "github.com/idohoresh/promptify",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/ClaudeCodeOpus-5-5/Claude-Opus-5.5-AI-Free-Desktop",
+      "title": "ClaudeCodeOpus-5-5/Claude-Opus-5.5-AI-Free-Desktop",
+      "platform": "GitHub",
+      "date": "2026-10-08",
+      "sourceIdentity": "github.com/claudecodeopus-5-5/claude-opus-5.5-ai-free-desktop",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/shiiiIIiIiiin/graffiti-results",
+      "title": "shiiiIIiIiiin/graffiti-results",
+      "platform": "GitHub",
+      "date": "2026-10-07",
+      "sourceIdentity": "github.com/shiiiiiiiiiin/graffiti-results",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/shiiiIIiIiiin/graffiti-322-counterexample",
+      "title": "shiiiIIiIiiin/graffiti-322-counterexample",
+      "platform": "GitHub",
+      "date": "2026-10-07",
+      "sourceIdentity": "github.com/shiiiiiiiiiin/graffiti-322-counterexample",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/arimanyus/hophopnopenope",
+      "title": "arimanyus/hophopnopenope",
+      "platform": "GitHub",
+      "date": "2026-09-24",
+      "sourceIdentity": "github.com/arimanyus/hophopnopenope",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/qwer777qq/goni-opus55-shorts-skill",
+      "title": "qwer777qq/goni-opus55-shorts-skill",
+      "platform": "GitHub",
+      "date": "2026-10-08",
+      "sourceIdentity": "github.com/qwer777qq/goni-opus55-shorts-skill",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/okashiina/illa-mods",
+      "title": "okashiina/illa-mods",
+      "platform": "GitHub",
+      "date": "2026-10-07",
+      "sourceIdentity": "github.com/okashiina/illa-mods",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-search"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50039903",
+      "title": "OpenSCAD the Programmers Solid 3D CAD Modeller",
+      "platform": "Hacker News",
+      "date": "2026-10-11",
+      "sourceIdentity": "news.ycombinator.com/item?id=50039903",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50039750",
+      "title": "Recent AI models struggled to match a human algorithmic innovation",
+      "platform": "Hacker News",
+      "date": "2026-10-11",
+      "sourceIdentity": "news.ycombinator.com/item?id=50039750",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50038995",
+      "title": "Grieving the loss of details",
+      "platform": "Hacker News",
+      "date": "2026-10-11",
+      "sourceIdentity": "news.ycombinator.com/item?id=50038995",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50038946",
+      "title": "Unikernels were hard. key word: were",
+      "platform": "Hacker News",
+      "date": "2026-10-11",
+      "sourceIdentity": "news.ycombinator.com/item?id=50038946",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50038619",
+      "title": "Anthropic Bans Cruelty to Claude, Still Won't Say What It Protects",
+      "platform": "Hacker News",
+      "date": "2026-10-11",
+      "sourceIdentity": "news.ycombinator.com/item?id=50038619",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50037852",
+      "title": "Show HN: ManimGX – Manim's API on a Rust/wgpu engine, for 3D videos in Python",
+      "platform": "Hacker News",
+      "date": "2026-10-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50037852",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50037841",
+      "title": "Show HN: Mailbox Viewer – publish FOIA email dumps as a static Gmail-like site",
+      "platform": "Hacker News",
+      "date": "2026-10-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50037841",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50036579",
+      "title": "Show HN: Pale Engine – a Doom-like game created by Opus 5.5",
+      "platform": "Hacker News",
+      "date": "2026-10-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50036579",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50036160",
+      "title": "OpenSCAD the Programmers Solid 3D CAD Modeller",
+      "platform": "Hacker News",
+      "date": "2026-10-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50036160",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50033432",
+      "title": "Anthropic AI model submits false tip on unsolved Philly murder, police say",
+      "platform": "Hacker News",
+      "date": "2026-10-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50033432",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50033115",
+      "title": "Sharing AI progress in mathematics",
+      "platform": "Hacker News",
+      "date": "2026-10-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50033115",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50033082",
+      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "platform": "Hacker News",
+      "date": "2026-10-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50033082",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50032504",
+      "title": "There's little that's \"inevitable\" about AI",
+      "platform": "Hacker News",
+      "date": "2026-10-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50032504",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50032204",
+      "title": "REA Reverse – Engineer Anything",
+      "platform": "Hacker News",
+      "date": "2026-10-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50032204",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50030822",
+      "title": "REA Reverse – Engineer Anything",
+      "platform": "Hacker News",
+      "date": "2026-10-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50030822",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50029537",
+      "title": "REA Reverse – Engineer Anything",
+      "platform": "Hacker News",
+      "date": "2026-10-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50029537",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50028987",
+      "title": "REA Reverse – Engineer Anything",
+      "platform": "Hacker News",
+      "date": "2026-10-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50028987",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50028478",
+      "title": "REA Reverse – Engineer Anything",
+      "platform": "Hacker News",
+      "date": "2026-10-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50028478",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50028341",
+      "title": "Show HN: Claude Opus 5.5 Video prompts and skills",
+      "platform": "Hacker News",
+      "date": "2026-10-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50028341",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50028064",
+      "title": "Why are coding agents so dumb?",
+      "platform": "Hacker News",
+      "date": "2026-10-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50028064",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50026871",
+      "title": "Why are coding agents so dumb?",
+      "platform": "Hacker News",
+      "date": "2026-10-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50026871",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50026300",
+      "title": "Why are coding agents so dumb?",
+      "platform": "Hacker News",
+      "date": "2026-10-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50026300",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50026017",
+      "title": "Show HN: Quake ported to safe Rust, playable in browser",
+      "platform": "Hacker News",
+      "date": "2026-10-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50026017",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50025461",
+      "title": "Pointing AI at archives found a forgotten meteorite, lost rhinos, and more",
+      "platform": "Hacker News",
+      "date": "2026-10-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50025461",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50025104",
+      "title": "Typesafe AI raises $870M at $7.5B",
+      "platform": "Hacker News",
+      "date": "2026-10-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50025104",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50024925",
+      "title": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
+      "platform": "Hacker News",
+      "date": "2026-10-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50024925",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50024579",
+      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "platform": "Hacker News",
+      "date": "2026-10-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50024579",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50024351",
+      "title": "Sharing AI progress in mathematics",
+      "platform": "Hacker News",
+      "date": "2026-10-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50024351",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50023951",
+      "title": "Getting the most out of Opus 5.5 in Claude and Claude Code",
+      "platform": "Hacker News",
+      "date": "2026-10-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50023951",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50023427",
+      "title": "Sharing AI progress in mathematics",
+      "platform": "Hacker News",
+      "date": "2026-10-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50023427",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50023119",
+      "title": "Ask HN: Which frontier model can do code security reviews",
+      "platform": "Hacker News",
+      "date": "2026-10-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50023119",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50022487",
+      "title": "Cloudflare acquires Deno",
+      "platform": "Hacker News",
+      "date": "2026-10-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50022487",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50020273",
+      "title": "Show HN: Quake ported to safe Rust, playable in browser",
+      "platform": "Hacker News",
+      "date": "2026-10-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50020273",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50020096",
+      "title": "Ask HN: What if no AIpocalypse, no AI bubble, what if it just keeps advancing?",
+      "platform": "Hacker News",
+      "date": "2026-10-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50020096",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50019927",
+      "title": "Opus 5.5 Took Fable's Job. Haiku 5.5 Proved Me Wrong",
+      "platform": "Hacker News",
+      "date": "2026-10-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50019927",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50019464",
+      "title": "Show HN: K10s – A Clickable Kubernetes TUI (Go, Bubble Tea)",
+      "platform": "Hacker News",
+      "date": "2026-10-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50019464",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50018684",
+      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "platform": "Hacker News",
+      "date": "2026-10-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50018684",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50018632",
+      "title": "Show HN: Quake ported to safe Rust, playable in browser",
+      "platform": "Hacker News",
+      "date": "2026-10-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50018632",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50018544",
+      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "platform": "Hacker News",
+      "date": "2026-10-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50018544",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50018481",
+      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "platform": "Hacker News",
+      "date": "2026-10-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50018481",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50018453",
+      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "platform": "Hacker News",
+      "date": "2026-10-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50018453",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50018323",
+      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "platform": "Hacker News",
+      "date": "2026-10-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50018323",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50017666",
+      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "platform": "Hacker News",
+      "date": "2026-10-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50017666",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50017440",
+      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "platform": "Hacker News",
+      "date": "2026-10-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50017440",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50017369",
+      "title": "Show HN: Remix Opus 5.5 motion videos online",
+      "platform": "Hacker News",
+      "date": "2026-10-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50017369",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50017180",
+      "title": "Ask HN: Are you a subscribed LLM or a locally deployed open-source model?",
+      "platform": "Hacker News",
+      "date": "2026-10-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50017180",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50016797",
+      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "platform": "Hacker News",
+      "date": "2026-10-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50016797",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50016715",
+      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "platform": "Hacker News",
+      "date": "2026-10-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50016715",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50016703",
+      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "platform": "Hacker News",
+      "date": "2026-10-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50016703",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50016664",
+      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "platform": "Hacker News",
+      "date": "2026-10-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50016664",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50015819",
+      "title": "3D FPS game demo with photorealistic rendering, by Opus 5.5",
+      "platform": "Hacker News",
+      "date": "2026-10-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50015819",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50015185",
+      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "platform": "Hacker News",
+      "date": "2026-10-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50015185",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50015080",
+      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "platform": "Hacker News",
+      "date": "2026-10-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50015080",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50014745",
+      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "platform": "Hacker News",
+      "date": "2026-10-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50014745",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50014511",
+      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "platform": "Hacker News",
+      "date": "2026-10-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50014511",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50014384",
+      "title": "I gave Opus 5.5 one Peppa Pig frame; it made a 13-second cartoon in JavaScript",
+      "platform": "Hacker News",
+      "date": "2026-10-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50014384",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50014329",
+      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "platform": "Hacker News",
+      "date": "2026-10-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50014329",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50013775",
+      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "platform": "Hacker News",
+      "date": "2026-10-08",
+      "sourceIdentity": "news.ycombinator.com/item?id=50013775",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50013738",
+      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "platform": "Hacker News",
+      "date": "2026-10-08",
+      "sourceIdentity": "news.ycombinator.com/item?id=50013738",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50013262",
+      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "platform": "Hacker News",
+      "date": "2026-10-08",
+      "sourceIdentity": "news.ycombinator.com/item?id=50013262",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50012985",
+      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "platform": "Hacker News",
+      "date": "2026-10-08",
+      "sourceIdentity": "news.ycombinator.com/item?id=50012985",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50012504",
+      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "platform": "Hacker News",
+      "date": "2026-10-08",
+      "sourceIdentity": "news.ycombinator.com/item?id=50012504",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50012180",
+      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "platform": "Hacker News",
+      "date": "2026-10-08",
+      "sourceIdentity": "news.ycombinator.com/item?id=50012180",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50012037",
+      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "platform": "Hacker News",
+      "date": "2026-10-08",
+      "sourceIdentity": "news.ycombinator.com/item?id=50012037",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50011845",
+      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "platform": "Hacker News",
+      "date": "2026-10-08",
+      "sourceIdentity": "news.ycombinator.com/item?id=50011845",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50011813",
+      "title": "Show HN: LLM Motion Graphics Benchmark",
+      "platform": "Hacker News",
+      "date": "2026-10-08",
+      "sourceIdentity": "news.ycombinator.com/item?id=50011813",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50011685",
+      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "platform": "Hacker News",
+      "date": "2026-10-08",
+      "sourceIdentity": "news.ycombinator.com/item?id=50011685",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50011664",
+      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "platform": "Hacker News",
+      "date": "2026-10-08",
+      "sourceIdentity": "news.ycombinator.com/item?id=50011664",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50011477",
+      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "platform": "Hacker News",
+      "date": "2026-10-08",
+      "sourceIdentity": "news.ycombinator.com/item?id=50011477",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50011192",
+      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "platform": "Hacker News",
+      "date": "2026-10-08",
+      "sourceIdentity": "news.ycombinator.com/item?id=50011192",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50011180",
+      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "platform": "Hacker News",
+      "date": "2026-10-08",
+      "sourceIdentity": "news.ycombinator.com/item?id=50011180",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50010919",
+      "title": "Show HN: Terse, a Claude Code plugin that halves reply length by cutting filler",
+      "platform": "Hacker News",
+      "date": "2026-10-08",
+      "sourceIdentity": "news.ycombinator.com/item?id=50010919",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50010578",
+      "title": "Trump administration is suspending Microsoft from a green card program",
+      "platform": "Hacker News",
+      "date": "2026-10-08",
+      "sourceIdentity": "news.ycombinator.com/item?id=50010578",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50010330",
+      "title": "LGTM (Looks Good to Me) – Claude Opus 5.5 Music Video",
+      "platform": "Hacker News",
+      "date": "2026-10-08",
+      "sourceIdentity": "news.ycombinator.com/item?id=50010330",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50009436",
+      "title": "I gave Opus 5.5 one prompt and six hours to visualize Invisible Cities",
+      "platform": "Hacker News",
+      "date": "2026-10-08",
+      "sourceIdentity": "news.ycombinator.com/item?id=50009436",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50009211",
+      "title": "I gave Opus 5.5 one prompt and six hours to visualize Invisible Cities",
+      "platform": "Hacker News",
+      "date": "2026-10-08",
+      "sourceIdentity": "news.ycombinator.com/item?id=50009211",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50009138",
+      "title": "I gave Opus 5.5 one prompt and six hours to visualize Invisible Cities",
+      "platform": "Hacker News",
+      "date": "2026-10-08",
+      "sourceIdentity": "news.ycombinator.com/item?id=50009138",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50009077",
+      "title": "Big Tech ruined the cloud, so we're renaming ours",
+      "platform": "Hacker News",
+      "date": "2026-10-08",
+      "sourceIdentity": "news.ycombinator.com/item?id=50009077",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50008971",
+      "title": "Port of the TypeScript compiler, checker and lsp to Rust, by LLM",
+      "platform": "Hacker News",
+      "date": "2026-10-08",
+      "sourceIdentity": "news.ycombinator.com/item?id=50008971",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50008320",
+      "title": "Claude Haiku 5.5",
+      "platform": "Hacker News",
+      "date": "2026-10-08",
+      "sourceIdentity": "news.ycombinator.com/item?id=50008320",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50007792",
+      "title": "Opus 5.5 built the entire Middle-earth from LOTR with Three.js",
+      "platform": "Hacker News",
+      "date": "2026-10-08",
+      "sourceIdentity": "news.ycombinator.com/item?id=50007792",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50007179",
+      "title": "Claude Haiku 5.5",
+      "platform": "Hacker News",
+      "date": "2026-10-08",
+      "sourceIdentity": "news.ycombinator.com/item?id=50007179",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50006668",
+      "title": "I gave Opus 5.5 one prompt and six hours to visualize Invisible Cities",
+      "platform": "Hacker News",
+      "date": "2026-10-08",
+      "sourceIdentity": "news.ycombinator.com/item?id=50006668",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50006176",
+      "title": "I'm not paying $20 for ChatGPT or Claude because a free local LLM does",
+      "platform": "Hacker News",
+      "date": "2026-10-08",
+      "sourceIdentity": "news.ycombinator.com/item?id=50006176",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50005912",
+      "title": "I gave Opus 5.5 one prompt and six hours to visualize Invisible Cities",
+      "platform": "Hacker News",
+      "date": "2026-10-08",
+      "sourceIdentity": "news.ycombinator.com/item?id=50005912",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50005745",
+      "title": "OpenAI withdraws three mathematical results",
+      "platform": "Hacker News",
+      "date": "2026-10-08",
+      "sourceIdentity": "news.ycombinator.com/item?id=50005745",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50005620",
+      "title": "I gave Opus 5.5 one prompt and six hours to visualize Invisible Cities",
+      "platform": "Hacker News",
+      "date": "2026-10-08",
+      "sourceIdentity": "news.ycombinator.com/item?id=50005620",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50005419",
+      "title": "I gave Opus 5.5 one prompt and six hours to visualize Invisible Cities",
+      "platform": "Hacker News",
+      "date": "2026-10-08",
+      "sourceIdentity": "news.ycombinator.com/item?id=50005419",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50005310",
+      "title": "Ask HN: Which frontier model can do code security reviews",
+      "platform": "Hacker News",
+      "date": "2026-10-08",
+      "sourceIdentity": "news.ycombinator.com/item?id=50005310",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50005249",
+      "title": "“Math 2.0” will need to value mathematical progress more holistically",
+      "platform": "Hacker News",
+      "date": "2026-10-08",
+      "sourceIdentity": "news.ycombinator.com/item?id=50005249",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50004895",
+      "title": "I gave Opus 5.5 one prompt and six hours to visualize Invisible Cities",
+      "platform": "Hacker News",
+      "date": "2026-10-08",
+      "sourceIdentity": "news.ycombinator.com/item?id=50004895",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50004857",
+      "title": "Port of the TypeScript compiler, checker and lsp to Rust, by LLM",
+      "platform": "Hacker News",
+      "date": "2026-10-08",
+      "sourceIdentity": "news.ycombinator.com/item?id=50004857",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50004790",
+      "title": "I gave Opus 5.5 one prompt and six hours to visualize Invisible Cities",
+      "platform": "Hacker News",
+      "date": "2026-10-08",
+      "sourceIdentity": "news.ycombinator.com/item?id=50004790",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50004186",
+      "title": "The Mathocalypse",
+      "platform": "Hacker News",
+      "date": "2026-10-08",
+      "sourceIdentity": "news.ycombinator.com/item?id=50004186",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50004099",
+      "title": "Show HN: Terse, a Claude Code plugin that halves reply length by cutting filler",
+      "platform": "Hacker News",
+      "date": "2026-10-08",
+      "sourceIdentity": "news.ycombinator.com/item?id=50004099",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50004070",
+      "title": "AI agent designs a complete RISC-V CPU from a 219-word spec sheet in 12 hours",
+      "platform": "Hacker News",
+      "date": "2026-10-08",
+      "sourceIdentity": "news.ycombinator.com/item?id=50004070",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50003959",
+      "title": "Show HN: Runbook and scripts for Claude to edit raw footage in DaVinci Resolve",
+      "platform": "Hacker News",
+      "date": "2026-10-08",
+      "sourceIdentity": "news.ycombinator.com/item?id=50003959",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50003951",
+      "title": "Port of the TypeScript compiler, checker and lsp to Rust, by LLM",
+      "platform": "Hacker News",
+      "date": "2026-10-08",
+      "sourceIdentity": "news.ycombinator.com/item?id=50003951",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50003773",
+      "title": "“Math 2.0” will need to value mathematical progress more holistically",
+      "platform": "Hacker News",
+      "date": "2026-10-08",
+      "sourceIdentity": "news.ycombinator.com/item?id=50003773",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50003637",
+      "title": "Classic PC demoscene productions running natively in the browser",
+      "platform": "Hacker News",
+      "date": "2026-10-08",
+      "sourceIdentity": "news.ycombinator.com/item?id=50003637",
+      "topicId": "opus-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn"
+      ]
+    }
+  ]
+}
