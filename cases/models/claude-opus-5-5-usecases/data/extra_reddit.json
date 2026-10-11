@@ -6602,5 +6602,397 @@
   "evidenceBasis": "Original post title and available author selftext reviewed through the archive, not direct Reddit API. Claims not independently reproduced.",
   "checkedAt": "2026-10-06T09:14:26+00:00",
   "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1wyebvo/i_couldnt_afford_a_rally_car_or_the_skills_so_i/"
+ },
+ {
+  "platform": "Reddit",
+  "author": "ConcentrateCheap9280",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x2opmn/i_gave_astra_and_opus_55_the_exact_same_prompt_a/",
+  "date": "2026-10-10",
+  "category": "video",
+  "evidenceType": "评测",
+  "title": "同题剪辑与原创音乐对比",
+  "title_en": "A shared brief for editing and original music",
+  "summary": "作者给 Astra 和 Opus 5.5 同样的角色剪辑与作曲任务，比较镜头节奏和完成度；这是两轮主观体验。",
+  "summary_en": "The author gives Astra and Opus 5.5 the same character-edit and music-composition tasks and compares pacing and finish in two subjective trials.",
+  "mediaKind": "none",
+  "checkedAt": "2026-10-11T06:41:06+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x2opmn/i_gave_astra_and_opus_55_the_exact_same_prompt_a/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-11 multi-source discovery and original-source review"
+ },
+ {
+  "platform": "Reddit",
+  "author": "leftballsack1",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x2nqqf/gpt_6_or_opus_55/",
+  "date": "2026-10-10",
+  "category": "3d",
+  "evidenceType": "演示",
+  "title": "从 PDF 图纸重建 SolidWorks 容器",
+  "title_en": "Rebuilding a vessel in SolidWorks from a PDF",
+  "summary": "作者报告让 Opus 5.5 从 PDF 图纸在 SolidWorks 中重建容器，这是自动化系统的初步测试，尚未验证完整工作流。",
+  "summary_en": "The author reports using Opus 5.5 to recreate a vessel from a PDF in SolidWorks as an initial automation test, not a validated end-to-end system.",
+  "mediaKind": "none",
+  "checkedAt": "2026-10-11T06:41:06+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x2nqqf/gpt_6_or_opus_55/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-11 multi-source discovery and original-source review"
+ },
+ {
+  "platform": "Reddit",
+  "author": "Moist-Audience-9646",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x2ktpl/used_opus_55_extra_to_turn_a_whole_pickleball/",
+  "date": "2026-10-10",
+  "category": "graphics",
+  "evidenceType": "演示",
+  "title": "用手表挥拍数据回放匹克球",
+  "title_en": "Replaying pickleball from wrist-motion data",
+  "summary": "作者用 Opus 5.5 把 Apple Watch 挥拍数据变为四秒轨迹回放；球落点只是根据类型和速度推测，手表没有看到球。",
+  "summary_en": "The author turns Apple Watch swing data into a four-second replay with Opus 5.5. Ball landing points are estimates from swing type and speed, not observed tracking.",
+  "mediaKind": "image",
+  "checkedAt": "2026-10-11T06:41:06+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x2ktpl/used_opus_55_extra_to_turn_a_whole_pickleball/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-11 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://apps.apple.com/us/app/picklewatch/id6743818899?platform=iphone"
+   }
+  ],
+  "poster": "https://preview.redd.it/yslkxf9mbouh1.gif?format=png8&s=ef86045f92eea9e372523a650032812604324bf0",
+  "posterEvidence": {
+   "sourcePage": "https://www.reddit.com/r/ClaudeAI/comments/1x2ktpl/used_opus_55_extra_to_turn_a_whole_pickleball/",
+   "checkedAt": "2026-10-11T06:42:31+00:00",
+   "width": 720,
+   "height": 720,
+   "imageSha256": "fb93939f8327acbb6020165f1182ebecb65be9b364923e865aef35ceb1e3e4d6",
+   "method": "Original attachment/cover downloaded, decoded and visually inspected in a labeled contact sheet",
+   "relation": "Original creator attachment or video cover for this work",
+   "reviewStatus": "accepted"
+  }
+ },
+ {
+  "platform": "Reddit",
+  "author": "FreshnessAi",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x2kbri/i_used_claude_opus_55_to_turn_todays_news_into_a/",
+  "date": "2026-10-10",
+  "category": "video",
+  "evidenceType": "演示",
+  "title": "从新闻检索到竖屏短片",
+  "title_en": "From news research to a vertical short",
+  "summary": "作者让 Opus 5.5 medium 检索新闻、规划六幕、生成画面与字幕、修复音频并渲染 33.7 秒竖屏视频，另输出封面和字幕文件。",
+  "summary_en": "The author uses Opus 5.5 medium for news research, six-scene planning, visuals, captions and audio correction, reporting a 33.7-second vertical short plus covers and subtitles.",
+  "mediaKind": "video",
+  "checkedAt": "2026-10-11T06:41:06+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x2kbri/i_used_claude_opus_55_to_turn_todays_news_into_a/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-11 multi-source discovery and original-source review",
+  "poster": "https://external-preview.redd.it/MHhvM2twZWU4b3VoMeZJ62OmHPdG1HYgoT58TcEXEnrzu24F4euJZdLEijRg.png?format=pjpg&auto=webp&s=7784b2a58b32bc60f6eee843aca251bf961344c2",
+  "posterEvidence": {
+   "sourcePage": "https://www.reddit.com/r/ClaudeAI/comments/1x2kbri/i_used_claude_opus_55_to_turn_todays_news_into_a/",
+   "checkedAt": "2026-10-11T06:42:31+00:00",
+   "width": 1080,
+   "height": 1920,
+   "imageSha256": "2d947691f8b087bbc716befd262ef6b7649a765c14a4a92b9f3d956b7b81ed37",
+   "method": "Original attachment/cover downloaded, decoded and visually inspected in a labeled contact sheet",
+   "relation": "Original creator attachment or video cover for this work",
+   "reviewStatus": "accepted"
+  }
+ },
+ {
+  "platform": "Reddit",
+  "author": "Miserable_Tiger_5742",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x1tdl0/five_models_one_prompt_build_a_peaceful_temple/",
+  "date": "2026-10-09",
+  "category": "graphics",
+  "evidenceType": "评测",
+  "title": "五模型禅意庭院盲看",
+  "title_en": "A five-model temple-garden blind comparison",
+  "summary": "作者给五个模型相同单文件交互庭院提示，均用 high、每个一次且不修改，再将作品匿名排列供体验；Opus 5.5 是参测模型之一。",
+  "summary_en": "The author gives five models the same single-file interactive garden brief at high effort, with one unedited run each, and presents anonymized outputs. Opus 5.5 is one participant.",
+  "mediaKind": "image",
+  "checkedAt": "2026-10-11T06:41:06+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x1tdl0/five_models_one_prompt_build_a_peaceful_temple/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-11 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://locust.lol/arena/4](https://locust.lol/arena/4"
+   }
+  ],
+  "poster": "https://preview.redd.it/ogz0l6sdlhuh1.png?auto=webp&s=f08e83b8d0e84f77ce7f0ceecf8d13afa1ae97a2",
+  "posterEvidence": {
+   "sourcePage": "https://www.reddit.com/r/ClaudeAI/comments/1x1tdl0/five_models_one_prompt_build_a_peaceful_temple/",
+   "checkedAt": "2026-10-11T06:42:31+00:00",
+   "width": 1200,
+   "height": 630,
+   "imageSha256": "9951c28467da0c1b6064dcd62cac3426e76863415616bdff616f89137ef5d93f",
+   "method": "Original attachment/cover downloaded, decoded and visually inspected in a labeled contact sheet",
+   "relation": "Original creator attachment or video cover for this work",
+   "reviewStatus": "accepted"
+  }
+ },
+ {
+  "platform": "Reddit",
+  "author": "Zoxc32",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x1qz22/open_source_parametric_cad/",
+  "date": "2026-10-09",
+  "category": "3d",
+  "evidenceType": "演示",
+  "title": "可导出流形实体的参数化 CAD",
+  "title_en": "A parametric CAD prototype with manifold export",
+  "summary": "作者与 Opus 5.5 合作开发 Varde，包含约束草图、拉伸、旋转和 3MF 导出，同时承认内核功能仍有限，并非所有情况都有效。",
+  "summary_en": "The author co-develops Varde with Opus 5.5, including constrained sketches, extrusion, revolution and 3MF export, while noting limited kernel coverage and unsupported cases.",
+  "mediaKind": "image",
+  "checkedAt": "2026-10-11T06:41:06+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x1qz22/open_source_parametric_cad/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-11 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://zoxc.github.io/varde/](https://zoxc.github.io/varde/"
+   }
+  ],
+  "poster": "https://preview.redd.it/rogmo0ph4huh1.png?auto=webp&s=8e5695e9a26a0dbb0ef98405143a89718a9ebb2b",
+  "posterEvidence": {
+   "sourcePage": "https://www.reddit.com/r/ClaudeAI/comments/1x1qz22/open_source_parametric_cad/",
+   "checkedAt": "2026-10-11T06:42:31+00:00",
+   "width": 1266,
+   "height": 913,
+   "imageSha256": "3f849bc40d5629fa438bd48e0760122190645fb4b735534d617c839d793438c5",
+   "method": "Original attachment/cover downloaded, decoded and visually inspected in a labeled contact sheet",
+   "relation": "Original creator attachment or video cover for this work",
+   "reviewStatus": "accepted"
+  }
+ },
+ {
+  "platform": "Reddit",
+  "author": "ringnir",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x1p3uv/i_got_opus_55_to_build_kerr_descent_to_help_me/",
+  "date": "2026-10-09",
+  "category": "education",
+  "evidenceType": "演示",
+  "title": "像素风旋转黑洞旅程",
+  "title_en": "A pixel-art journey into a rotating black hole",
+  "summary": "作者用多个 Opus 5.5 线程制作 Kerr Descent，加入尺度对照、声音和交互说明；物理实现与教学准确性未独立验证。",
+  "summary_en": "The author uses Opus 5.5 threads to build Kerr Descent with scale comparisons, sound and interactive explanations. Its physics implementation and educational accuracy were not independently verified.",
+  "mediaKind": "image",
+  "checkedAt": "2026-10-11T06:41:06+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x1p3uv/i_got_opus_55_to_build_kerr_descent_to_help_me/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-11 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://kerr-descent.vercel.app/](https://kerr-descent.vercel.app/"
+   }
+  ],
+  "poster": "https://external-preview.redd.it/1PFa9CViu6Bw6Bn4ZSbMh-DnufUPIjk6MvtXX6JO6E8.png?auto=webp&s=6bcf87bcc72d4e6090853667455788ab618d1ff0",
+  "posterEvidence": {
+   "sourcePage": "https://www.reddit.com/r/ClaudeAI/comments/1x1p3uv/i_got_opus_55_to_build_kerr_descent_to_help_me/",
+   "checkedAt": "2026-10-11T06:42:31+00:00",
+   "width": 1200,
+   "height": 630,
+   "imageSha256": "6ad851c3f7fc4691c06f04053baaafe25812c9cfd76ba52013829baab3c225dd",
+   "method": "Original attachment/cover downloaded, decoded and visually inspected in a labeled contact sheet",
+   "relation": "Original creator attachment or video cover for this work",
+   "reviewStatus": "accepted"
+  }
+ },
+ {
+  "platform": "Reddit",
+  "author": "oxmannnn",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x1o4lp/i_built_a_cozy_typewriter_in_the_browser_with/",
+  "date": "2026-10-09",
+  "category": "web",
+  "evidenceType": "演示",
+  "title": "浏览器里可打字和绘画的打字机",
+  "title_en": "A browser typewriter for text and art",
+  "summary": "作者让 Opus 5.5 制作 Three.js 打字机，由子任务处理声音、纸张墨迹和绘画工具；支持导出及真实打字机作画步骤，经过多轮反馈。",
+  "summary_en": "Opus 5.5 builds a Three.js typewriter with parallel work on sound, paper, ink and drawing tools, supporting exports and instructions for physical typewriter art after repeated feedback.",
+  "mediaKind": "video",
+  "checkedAt": "2026-10-11T06:41:06+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x1o4lp/i_built_a_cozy_typewriter_in_the_browser_with/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-11 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://winchxyz.github.io/platen/](https://winchxyz.github.io/platen/"
+   },
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://github.com/winchxyz/platen](https://github.com/winchxyz/platen"
+   }
+  ],
+  "poster": "https://external-preview.redd.it/a3VkMmVvZjhsZ3VoMfGk5rs224_RLfLUz3oHJXR9-juBU__AxasfEsfJaCir.png?format=pjpg&auto=webp&s=f8bbe94d522bd3fe35b29ae7e35ca4764e2bd73a",
+  "posterEvidence": {
+   "sourcePage": "https://www.reddit.com/r/ClaudeAI/comments/1x1o4lp/i_built_a_cozy_typewriter_in_the_browser_with/",
+   "checkedAt": "2026-10-11T06:42:31+00:00",
+   "width": 1920,
+   "height": 1080,
+   "imageSha256": "2890d198dc246d031421a362d68645fb6c85bda5f3e7bf4f7d0c4a282f71991d",
+   "method": "Original attachment/cover downloaded, decoded and visually inspected in a labeled contact sheet",
+   "relation": "Original creator attachment or video cover for this work",
+   "reviewStatus": "accepted"
+  }
+ },
+ {
+  "platform": "Reddit",
+  "author": "emarkosov",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x1nsaz/i_tested_haiku_55_sonnet_55_and_opus_55_as/",
+  "date": "2026-10-09",
+  "category": "agents",
+  "evidenceType": "评测",
+  "title": "六项真实任务的子模型对照",
+  "title_en": "Comparing subagent models on six real tasks",
+  "summary": "作者用相同提示和文件比较 Opus 5.5、Sonnet、Haiku 的代码搜索、网页研究与事实核查，指出低价模型在核查中误报较多；样本仅六项任务。",
+  "summary_en": "The author compares Opus 5.5, Sonnet and Haiku on six code-search, research and fact-checking tasks with shared inputs, reporting more false positives from cheaper models in fact checking.",
+  "mediaKind": "none",
+  "checkedAt": "2026-10-11T06:41:06+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x1nsaz/i_tested_haiku_55_sonnet_55_and_opus_55_as/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-11 multi-source discovery and original-source review"
+ },
+ {
+  "platform": "Reddit",
+  "author": "titkun",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x1mb45/opus_55_built_the_vehicles_and_physics_for_my/",
+  "date": "2026-10-09",
+  "category": "games",
+  "evidenceType": "限制",
+  "title": "赛车原型中的越野摩托难题",
+  "title_en": "A dirt-bike limitation in a racing prototype",
+  "summary": "Opus 5.5 负责四辆车、物理和道具，Astra 负责地图观感，作者手调关卡；越野摩托仍不稳定，不能把全部作品归于一个模型。",
+  "summary_en": "Opus 5.5 handles four vehicles, physics and items, Astra handles map visuals and the author edits levels. The dirt bike remains unstable, so the whole project is not credited to one model.",
+  "mediaKind": "video",
+  "checkedAt": "2026-10-11T06:41:06+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x1mb45/opus_55_built_the_vehicles_and_physics_for_my/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-11 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://sandscape.app/play?g=3UpDloEh](https://sandscape.app/play?g=3UpDloEh"
+   }
+  ],
+  "poster": "https://external-preview.redd.it/cmgwcXRmOWk3Z3VoMZlK4b85j9Bp6WL4r85-Y_mBifqLJwhEXHrvudZylmde.png?format=pjpg&auto=webp&s=4f67f634cc071e842cd69e85fa8bba8851449eb0",
+  "posterEvidence": {
+   "sourcePage": "https://www.reddit.com/r/ClaudeAI/comments/1x1mb45/opus_55_built_the_vehicles_and_physics_for_my/",
+   "checkedAt": "2026-10-11T06:42:31+00:00",
+   "width": 1920,
+   "height": 1080,
+   "imageSha256": "3a65a1261c9e6395e5d4bfd3957c47ab2683042fe8d7d65c1035e7d9a582e054",
+   "method": "Original attachment/cover downloaded, decoded and visually inspected in a labeled contact sheet",
+   "relation": "Original creator attachment or video cover for this work",
+   "reviewStatus": "accepted"
+  }
+ },
+ {
+  "platform": "Reddit",
+  "author": "themayorofbikini",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x1ju1d/claude_code_build123d_mcp_the_cad_assistant_ive/",
+  "date": "2026-10-09",
+  "category": "3d",
+  "evidenceType": "演示",
+  "title": "用 build123d MCP 设计水培装置",
+  "title_en": "Designing a hydroponic garden with build123d MCP",
+  "summary": "作者给 Opus 5.5 两段需求并接入 build123d MCP，生成水培装置设计；发帖时尚未制作实物，结构实用性待验证。",
+  "summary_en": "The author gives Opus 5.5 a short brief through build123d MCP to design a hydroponic garden. It had not been physically built, so practical validity remains untested.",
+  "mediaKind": "image",
+  "checkedAt": "2026-10-11T06:41:06+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x1ju1d/claude_code_build123d_mcp_the_cad_assistant_ive/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-11 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://github.com/pzfreo/build123d-mcp"
+   }
+  ]
+ },
+ {
+  "platform": "Reddit",
+  "author": "HummingbirdAya",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x2ngsf/oustanding_results_with_no_claudemd_or_skills/",
+  "date": "2026-10-10",
+  "category": "coding",
+  "evidenceType": "演示",
+  "title": "逐步分析后重建 WinForms 业务工具",
+  "title_en": "Rebuilding WinForms tools after staged analysis",
+  "summary": "作者用 Opus 5.5 分析旧 .NET 项目、重建备份工具，并推进业务系统的数据层和表单迁移；业务系统仍只完成一部分。",
+  "summary_en": "The author uses Opus 5.5 for legacy .NET analysis, a backup-tool rebuild and partial migration of a business application's data layer and forms. The larger rebuild remains incomplete.",
+  "mediaKind": "image",
+  "checkedAt": "2026-10-11T06:41:06+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x2ngsf/oustanding_results_with_no_claudemd_or_skills/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-11 multi-source discovery and original-source review"
+ },
+ {
+  "platform": "Reddit",
+  "author": "Chronos_Squared",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x2k528/claude_opus_55_composed_a_piece_for_organ_harp/",
+  "date": "2026-10-10",
+  "category": "audio",
+  "evidenceType": "演示",
+  "title": "管风琴、竖琴与手风琴的梦境短片",
+  "title_en": "A dream short for organ, harp and accordion",
+  "summary": "作者让 Opus 5.5 用 Python 作曲并以 Godot 制作动画，采用音源库而非音频生成模型；五版配乐只保留标准调律版，画面经过多轮人工审改。",
+  "summary_en": "Opus 5.5 composes in Python and animates in Godot using sampled instruments. The author rejects four experimental-tuning versions, retains standard tuning and repeatedly reviews the visuals.",
+  "mediaKind": "video",
+  "checkedAt": "2026-10-11T06:41:06+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x2k528/claude_opus_55_composed_a_piece_for_organ_harp/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-11 multi-source discovery and original-source review",
+  "poster": "https://external-preview.redd.it/MCclEiXYYX2pa_BmkFRWmT9-4hwEigZHPUrsBIC-w3g.jpeg?auto=webp&s=d4f5ef3029d2308c5bb41891a52b347efea91a7f",
+  "posterEvidence": {
+   "sourcePage": "https://www.reddit.com/r/ClaudeCode/comments/1x2k528/claude_opus_55_composed_a_piece_for_organ_harp/",
+   "checkedAt": "2026-10-11T06:42:31+00:00",
+   "width": 480,
+   "height": 360,
+   "imageSha256": "f4c577bcb27d7902c66290e64a09a4cd3378460bcf452d67f7737fccdff0378c",
+   "method": "Original attachment/cover downloaded, decoded and visually inspected in a labeled contact sheet",
+   "relation": "Original creator attachment or video cover for this work",
+   "reviewStatus": "accepted"
+  }
+ },
+ {
+  "platform": "Reddit",
+  "author": "Ucodia",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x23sld/resurrecting_freeware_from_2000_with_claude_code/",
+  "date": "2026-10-10",
+  "category": "coding",
+  "evidenceType": "演示",
+  "title": "把旧版桌面减压程序移植到网页与 Mac",
+  "title_en": "Porting a nostalgic desktop toy to web and Mac",
+  "summary": "作者借助 Opus 5.5 与 REA 移植 stress.exe，沿用原图像、动画和声音，提供网页与 Mac 版本并注明原作者版权。",
+  "summary_en": "The author uses Opus 5.5 and REA to port stress.exe to web and Mac, retaining original graphics, animation and sound and crediting the original copyright holder.",
+  "mediaKind": "video",
+  "checkedAt": "2026-10-11T06:41:06+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x23sld/resurrecting_freeware_from_2000_with_claude_code/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-11 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://rea.tools/"
+   },
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://ucodia.github.io/desktop-games-nostalgia/](https://ucodia.github.io/desktop-games-nostalgia/"
+   }
+  ]
  }
 ]

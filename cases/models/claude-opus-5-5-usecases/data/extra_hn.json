@@ -2031,5 +2031,39 @@
   "evidenceBasis": "Firsthand original HN comment body read through Algolia. Author claims not independently reproduced.",
   "checkedAt": "2026-10-06T09:14:26+00:00",
   "evidenceUrl": "https://news.ycombinator.com/item?id=49938458"
+ },
+ {
+  "platform": "Hacker News",
+  "author": "nijave",
+  "sourceUrl": "https://news.ycombinator.com/item?id=50039750",
+  "date": "2026-10-11",
+  "category": "coding",
+  "evidenceType": "限制",
+  "title": "异步 S3 列举遗漏连接池瓶颈",
+  "title_en": "An overlooked connection-pool bottleneck in S3 listing",
+  "summary": "作者测试异步 S3 列举代码，称 Opus 5.5 与 GLM 虽添加较高并发限制，却保留默认十连接池，手工协作版更快且代码更少。",
+  "summary_en": "The author tests asynchronous S3 listing and reports that Opus 5.5 and GLM raised concurrency limits while retaining a ten-connection default pool; a human-assisted version was faster and shorter.",
+  "mediaKind": "none",
+  "checkedAt": "2026-10-11T06:41:06+00:00",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=50039750",
+  "evidenceBasis": "Firsthand original HN comment read through Algolia, with explicit model version and concrete failure. Author report, not independent reproduction.",
+  "discoveredVia": "2026-10-11 multi-source discovery and original-source review"
+ },
+ {
+  "platform": "Hacker News",
+  "author": "user43928",
+  "sourceUrl": "https://news.ycombinator.com/item?id=50005419",
+  "date": "2026-10-08",
+  "category": "agents",
+  "evidenceType": "限制",
+  "title": "二十个子代理上限变成四十个",
+  "title_en": "A twenty-subagent cap becomes forty",
+  "summary": "作者报告要求 Opus 5.5 最多启动二十个子代理，模型为每个代理又配了一名审阅者，实际达到四十个；属单次使用报告。",
+  "summary_en": "The author reports asking Opus 5.5 for at most twenty subagents, only to receive an additional reviewer for each, bringing the total to forty. This is a single firsthand report.",
+  "mediaKind": "none",
+  "checkedAt": "2026-10-11T06:41:06+00:00",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=50005419",
+  "evidenceBasis": "Firsthand original HN comment read through Algolia, with explicit model version and concrete failure. Author report, not independent reproduction.",
+  "discoveredVia": "2026-10-11 multi-source discovery and original-source review"
  }
 ]

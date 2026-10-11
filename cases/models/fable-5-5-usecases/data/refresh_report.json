@@ -1,70 +1,79 @@
 {
-  "refreshedAt": "2026-10-06T14:55:57+00:00",
+  "refreshedAt": "2026-10-11T06:44:08+00:00",
   "scope": {
     "key": "multisource-partial",
-    "zh": "多来源发现与作者归属案例审核（模型身份未独立核验）",
-    "en": "Multi-source discovery and creator-attributed case review (backend identity unverified)"
+    "zh": "多来源发现、原帖审核与互动数据更新（部分覆盖）",
+    "en": "Multi-source discovery, original-source review and metrics (partial coverage)"
   },
   "status": "partial-coverage",
   "lastFullRefreshAt": null,
-  "lastMultiSourceRefreshAt": "2026-10-06T09:17:46+00:00",
-  "previousReport": "data/refresh_history/2026-10-06-before-incremental-deploy.json",
-  "previousCaseCount": 0,
-  "caseCount": 27,
-  "reviewedNewExtras": 27,
+  "lastMultiSourceRefreshAt": "2026-10-11T06:44:08+00:00",
+  "previousReport": "data/refresh_history/2026-10-11-before-refresh.json",
+  "previousCaseCount": 27,
+  "caseCount": 38,
+  "reviewedNewExtras": 11,
   "newCasesByPlatform": {
-    "X": 27
+    "X": 11
   },
   "coverage": {
+    "since": "2026-10-06",
     "configuredSourcesAttempted": 6,
     "configuredSourcesSucceeded": 6,
-    "configuredDiscoveryCandidates": 16,
-    "reviewedAccepted": 27,
+    "configuredDiscoveryCandidates": 11,
+    "reviewedAccepted": 11,
     "partial": true
   },
   "metrics": {
-    "newPrimaryPostSnapshots": 27,
-    "historicalCases": 0
+    "refreshedAt": "2026-10-11T05:29:01+00:00",
+    "x": {
+      "attempted": 27,
+      "succeeded": 27
+    },
+    "github": {
+      "attempted": 0,
+      "succeeded": 0,
+      "changed": 0,
+      "byKind": {
+        "repository": {
+          "attempted": 0,
+          "succeeded": 0
+        },
+        "pull_request": {
+          "attempted": 0,
+          "succeeded": 0
+        },
+        "issue": {
+          "attempted": 0,
+          "succeeded": 0
+        }
+      }
+    },
+    "failed": []
   },
   "posters": {
-    "total": 17,
-    "missing": 10,
-    "newAccepted": 17,
+    "total": 22,
+    "missing": 16,
+    "newAccepted": 5,
     "historicalPostersPreserved": true
   },
   "limitations": [
-    "Every accepted case is an original creator post explicitly attributing the work to Fable 5.5; this does not verify backend model identity or alleged silent routing.",
-    "No official release date, specs, pricing or general model ranking are inferred. Posts saying maybe, rumors and reposts were not accepted.",
-    "Discovery, media screening and post reading are bounded. No exhaustive platform coverage, full video viewing or independent reproduction is claimed.",
-    "Deployment reconciles with the newer remote baseline. Existing editorial content and withdrawn slots are retained. Local metric snapshots are applied only when newer; this deployment does not perform a fresh crawl."
+    "Accepted Fable cases are explicitly creator-attributed; backend model identity, routing and any official release were not verified.",
+    "Configured endpoints, public catalogs and web/X searches are bounded discovery, not an exhaustive internet crawl. Unreviewed candidates are not imported.",
+    "X search: 37 requests, 31 succeeded; six returned errors and several chains reached the five-page cap. Top search is not a global popularity ranking.",
+    "Scientific validity, performance, costs and generation claims remain author-reported; no independent reproduction. Model roles are separated in multi-tool work.",
+    "Failed historical metric requests preserve prior valid values and timestamps. No new reply-thread audit."
   ],
-  "fetchReceiptFile": "data/refresh_history/2026-10-06-incremental-fetches.json",
-  "reviewFile": "data/refresh_history/2026-10-06-incremental-review.json",
-  "processLog": "reports/UPDATE-2026-10-06-incremental.md",
+  "fetchReceiptFile": "data/refresh_history/2026-10-11-fetches.json",
+  "reviewFile": "data/refresh_history/2026-10-11-review.json",
+  "processLog": "reports/UPDATE-2026-10-11.md",
   "validation": {
     "status": "passed",
-    "previousCaseCount": 0,
-    "existingIdsAndNonmetricFieldsUnchanged": true,
-    "pythonRegressionTests": 42,
-    "javascriptRankingTests": 3,
-    "offlineBuildCheck": "passed",
-    "csvJsonConsistent": true,
-    "gitDiffCheck": "passed",
-    "duplicateIds": 0,
-    "duplicateSourceIdentities": 0,
-    "browser": {
-      "status": "passed",
-      "views": 5,
-      "runtimeErrors": 0,
-      "horizontalOverflow": false,
-      "offlineFileMode": true
-    }
-  },
-  "reconciliation": {
-    "localReviewed": 27,
-    "alreadyOnRemote": 0,
-    "newlyAdded": 27,
-    "remoteBaselineCommit": "37c82baac43d0b1cb20fe76e8c975f5ade9ab0e2",
-    "remoteWithdrawnSlotsPreserved": true
+    "checkedAt": "2026-10-11T06:49:44+00:00",
+    "reportFile": "data/refresh_history/2026-10-11-validation.json",
+    "browserViews": 5,
+    "pythonTestsPassed": 42,
+    "rankingTestsPassed": 3,
+    "dataAndAssetsValidation": "passed",
+    "offlineBuildCheck": "passed"
   }
 }
