@@ -2,9 +2,9 @@
   "schemaVersion": 1,
   "topicId": "opus-5-5",
   "publicPath": "/usecase-atlas/opus5-5/",
-  "caseCount": 6422,
+  "caseCount": 6674,
   "files": {
-    "assets/og-image.png": "1b6926a38a4d28640a1e36f5ea0c2ac450302b3ce5a7d819ddb35ff06268573a",
+    "assets/og-image.png": "d763d864809f133e225628b21f737e708af269a487df31c79ab703e44ce3e5b2",
     "assets/reply-posters/2102534635356148221.jpg": "4493693f3e5eda3054145351f28c4878ad9eb3a0fa5c563916a047504fec8895",
     "assets/reply-posters/2102751228040212974.jpg": "e0b79b603602c822d98d94415bc435e20053bee13b716cd13beca9e5a5b5da60",
     "assets/reply-posters/2102767648480092491.jpg": "2ec2f8f8286afe6ff7084c56e365b4a83ce08df98c65c7dc1ccf7ab8d86caaca",
@@ -53,8 +53,8 @@
     "blog/opus55-beginner-guide/img/video-en.webp": "6810d4890190a85225818a6282336ccaadd497b46d79658dc1ae5ab14bc2a3f3",
     "blog/opus55-beginner-guide/img/video.webp": "bfbc6946810688d423032bee37bd7cffdf2aaba489970b64029e1f0b88ae9694",
     "blog/opus55-beginner-guide/index.html": "9839b1d6331f10b8ba17600d21506c134de52b1713cd37e19d01ac85484ca68d",
-    "data/all_cases.csv": "6c8ff3c74aac24ed723b9ef7c975740f89daea776cc6d822179c7ad55c7ba113",
-    "data/all_cases.json": "a6495b716d94a007b8082b7f5d09860d9d3392b75f68d5f236f17ffcf99bb36c",
-    "index.html": "4f681cb5e6dad1be2ad30f13926a73d0acfaa0316c566936fc64edc48c431130"
+    "data/all_cases.csv": "2db1268b02e0d6a4f6beda4049b81f03bf110c353c2ba32ba51bd633a1b4c666",
+    "data/all_cases.json": "a333da5b29d5f09242e06625417be137f56ed5be582a46bd094df8ca11697474",
+    "index.html": "a75513584388597931b739f481fb18741a8e82e0ecfcf9fea6a5be3fd5380743"
   }
 }

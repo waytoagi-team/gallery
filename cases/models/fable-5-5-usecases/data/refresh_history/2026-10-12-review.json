@@ -1,0 +1,197 @@
+{
+  "checkedAt": "2026-10-12T13:54:49+00:00",
+  "topicId": "fable-5-5",
+  "accepted": 1,
+  "selectionPolicy": "Editorial review of every keyword-matched candidate in the bounded pools; concrete original work, explicit version and model role required. Candidate lists are not auto-imported.",
+  "decisions": [
+    {
+      "sourceUrl": "https://x.com/imjustnewatai/status/2109191246715462070",
+      "decision": "accepted",
+      "topicId": "fable-5-5",
+      "selection": "x-50",
+      "evidenceBasis": "Original creator post read via FxTwitter with matching immutable tweet ID; body explicitly names the version and task. Author-reported result, not independent reproduction.",
+      "checkedAt": "2026-10-12T13:54:39+00:00",
+      "evidenceSha256": "8440e4019fcf97927c791933eb366288f0f951fe054c9c76d19fa115c7784ed3",
+      "posterStatus": "not-included",
+      "posterReason": "Black first frame"
+    },
+    {
+      "sourceUrl": "http://www.bilibili.com/video/av117425060253987",
+      "topicId": "fable-5-5",
+      "selection": "bili-18",
+      "decision": "not-accepted",
+      "reason": "AI news/leak roundup, not a first-hand use case",
+      "checkedAt": "2026-10-12T13:54:49+00:00"
+    },
+    {
+      "sourceUrl": "http://www.bilibili.com/video/av117425211183282",
+      "topicId": "fable-5-5",
+      "selection": "bili-34",
+      "decision": "not-accepted",
+      "reason": "AI news/leak roundup, not a first-hand use case",
+      "checkedAt": "2026-10-12T13:54:49+00:00"
+    },
+    {
+      "sourceUrl": "http://www.bilibili.com/video/av117426603694803",
+      "topicId": "fable-5-5",
+      "selection": "bili-64",
+      "decision": "not-accepted",
+      "reason": "Model identity speculative (possible routing/gray-test), no explicit Opus 5.5 attribution",
+      "checkedAt": "2026-10-12T13:54:49+00:00"
+    },
+    {
+      "sourceUrl": "http://www.bilibili.com/video/av117427123788447",
+      "topicId": "fable-5-5",
+      "selection": "bili-88",
+      "decision": "not-accepted",
+      "reason": "Model identity speculative (possible routing/gray-test), no explicit Opus 5.5 attribution",
+      "checkedAt": "2026-10-12T13:54:49+00:00"
+    },
+    {
+      "sourceUrl": "https://www.reddit.com/r/Anthropic/comments/1x3a570/fable_55/",
+      "topicId": "fable-5-5",
+      "selection": "reddit-54",
+      "decision": "not-accepted",
+      "reason": "Release speculation",
+      "checkedAt": "2026-10-12T13:54:49+00:00"
+    },
+    {
+      "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x3i7ai/has_anyone_figured_out_how_to_get_fable_55_back/",
+      "topicId": "fable-5-5",
+      "selection": "reddit-89",
+      "decision": "not-accepted",
+      "reason": "Complaint about another model",
+      "checkedAt": "2026-10-12T13:54:49+00:00"
+    },
+    {
+      "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x3i4k2/claude_before_and_after_the_ab_testing_of_fable/",
+      "topicId": "fable-5-5",
+      "selection": "reddit-90",
+      "decision": "not-accepted",
+      "reason": "Complaint about another model",
+      "checkedAt": "2026-10-12T13:54:49+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/superalesha/status/2109192419145109624",
+      "topicId": "fable-5-5",
+      "selection": "x-7",
+      "decision": "not-accepted",
+      "reason": "Meme without executed task",
+      "checkedAt": "2026-10-12T13:54:49+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/TokenGremlin/status/2108732263642935789",
+      "topicId": "fable-5-5",
+      "selection": "x-34",
+      "decision": "not-accepted",
+      "reason": "Unverified rumors",
+      "checkedAt": "2026-10-12T13:54:49+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/ConnorTalksAI/status/2108930356951069175",
+      "topicId": "fable-5-5",
+      "selection": "x-69",
+      "decision": "not-accepted",
+      "reason": "Poll",
+      "checkedAt": "2026-10-12T13:54:49+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/NovaXCode/status/2108870935864586617",
+      "topicId": "fable-5-5",
+      "selection": "x-77",
+      "decision": "not-accepted",
+      "reason": "Meme",
+      "checkedAt": "2026-10-12T13:54:49+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/HarshithLucky3/status/2109284620160364977",
+      "topicId": "fable-5-5",
+      "selection": "x-121",
+      "decision": "not-accepted",
+      "reason": "Access/routing speculation",
+      "checkedAt": "2026-10-12T13:54:49+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/notjazii/status/2109312871901565160",
+      "topicId": "fable-5-5",
+      "selection": "x-125",
+      "decision": "not-accepted",
+      "reason": "Rumors",
+      "checkedAt": "2026-10-12T13:54:49+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/vikktorrrre/status/2109616157405708699",
+      "topicId": "fable-5-5",
+      "selection": "x-163",
+      "decision": "not-accepted",
+      "reason": "Third-party model news",
+      "checkedAt": "2026-10-12T13:54:49+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/Haleeeemahh/status/2108843573202604148",
+      "topicId": "fable-5-5",
+      "selection": "x-184",
+      "decision": "not-accepted",
+      "reason": "Speculation",
+      "checkedAt": "2026-10-12T13:54:49+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/razeden0/status/2109265685180248176",
+      "topicId": "fable-5-5",
+      "selection": "x-243",
+      "decision": "not-accepted",
+      "reason": "Unverified routing claim",
+      "checkedAt": "2026-10-12T13:54:49+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/vikktorrrre/status/2109627048687730998",
+      "topicId": "fable-5-5",
+      "selection": "x-253",
+      "decision": "not-accepted",
+      "reason": "Retells Anthropic's video",
+      "checkedAt": "2026-10-12T13:54:49+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/Biggest/status/2109619960901177380",
+      "topicId": "fable-5-5",
+      "selection": "x-281",
+      "decision": "not-accepted",
+      "reason": "Rumor",
+      "checkedAt": "2026-10-12T13:54:49+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/Airo_07/status/2109630540915827173",
+      "topicId": "fable-5-5",
+      "selection": "x-371",
+      "decision": "not-accepted",
+      "reason": "Political meme",
+      "checkedAt": "2026-10-12T13:54:49+00:00"
+    }
+  ],
+  "posters": [
+    {
+      "selection": "x-50",
+      "sourcePage": "https://x.com/imjustnewatai/status/2109191246715462070",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2109191131061723137/img/5LBjLsAglGr0VKzU.jpg",
+      "checkedAt": "2026-10-12T13:53:42+00:00",
+      "status": 200,
+      "ok": true,
+      "width": 1200,
+      "height": 675,
+      "imageSha256": "c84f7a92f28403a11242787f4eddc84ea10c93068c4770767b745f6ad6b312c2",
+      "reviewStatus": "not-included",
+      "reason": "Black first frame"
+    }
+  ],
+  "candidatePools": {
+    "x": 390,
+    "reddit": 141,
+    "bili": 271,
+    "github": 49,
+    "hn": 52,
+    "yt": 20
+  },
+  "corrections": [],
+  "note": "Pool counts precede editorial selection and overlap across platforms; they are not counts of unique cases.",
+  "dateAdjustments": []
+}

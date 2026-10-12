@@ -1315,5 +1315,32 @@
    "relation": "Original creator attachment or video cover for this work",
    "reviewStatus": "accepted"
   }
+ },
+ {
+  "platform": "X",
+  "author": "@imjustnewatai",
+  "sourceUrl": "https://x.com/imjustnewatai/status/2109191246715462070",
+  "date": "2026-10-11",
+  "category": "audio",
+  "evidenceType": "演示",
+  "title": "两句提示生成的四乐章交响曲",
+  "title_en": "A four-movement symphony from two prompts",
+  "summary": "作者给 Claude Fable 5.5 两条提示：写一首交响曲并录制视频；约四小时后得到 9 分 38 秒、四个乐章的作品及逐音符可视化视频。 后台模型身份与路由未独立核验。",
+  "summary_en": "The creator gave Claude Fable 5.5 two prompts, to write a symphony and record a video of it; about four hours later it produced a 9:38, four-movement piece with a video of every note. Backend identity and routing are unverified.",
+  "mediaKind": "video",
+  "checkedAt": "2026-10-12T13:54:39+00:00",
+  "evidenceUrl": "https://x.com/imjustnewatai/status/2109191246715462070",
+  "evidenceBasis": "Original creator post read via FxTwitter with matching immutable tweet ID; body explicitly names the version and task. Author-reported result, not independent reproduction.",
+  "discoveredVia": "2026-10-12 multi-source discovery and original-source review",
+  "likes": 539,
+  "bookmarks": 294,
+  "views": 36782,
+  "metricsCheckedAt": "2026-10-12T13:52:41+00:00",
+  "id": "x-2109191246715462070",
+  "modelAttribution": {
+   "topicId": "fable-5-5",
+   "basis": "explicit-source",
+   "role": "Creator-attributed work; backend identity unverified"
+  }
  }
 ]
