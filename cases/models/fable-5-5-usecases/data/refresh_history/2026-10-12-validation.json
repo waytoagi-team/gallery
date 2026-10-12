@@ -1,0 +1,84 @@
+{
+  "status": "passed",
+  "checkedAt": "2026-10-12T13:57:57+00:00",
+  "caseCount": 39,
+  "previousCaseCount": 38,
+  "newCaseCount": 1,
+  "historicalIdsPreserved": true,
+  "historicalNonMetricFieldsPreserved": true,
+  "historicalChangedFields": {
+    "views": 37,
+    "metricsCheckedAt": 38,
+    "bookmarks": 17,
+    "likes": 22
+  },
+  "unchangedSourceFiles": [
+    "base_cases.json"
+  ],
+  "positionalSlotsPreserved": true,
+  "pythonTests": {
+    "passed": 42
+  },
+  "rankingTests": {
+    "passed": 3
+  },
+  "dataAndAssetsValidation": "passed",
+  "offlineBuildCheck": "passed",
+  "browser": {
+    "status": "passed",
+    "views": 5,
+    "checks": [
+      {
+        "topic": "fable-5-5",
+        "viewport": [
+          1440,
+          1000
+        ],
+        "language": "zh",
+        "runtimeErrors": 0,
+        "horizontalOverflow": false
+      },
+      {
+        "topic": "fable-5-5",
+        "viewport": [
+          1440,
+          1000
+        ],
+        "language": "en",
+        "runtimeErrors": 0,
+        "horizontalOverflow": false
+      },
+      {
+        "topic": "fable-5-5",
+        "viewport": [
+          390,
+          844
+        ],
+        "language": "zh",
+        "runtimeErrors": 0,
+        "horizontalOverflow": false
+      },
+      {
+        "topic": "fable-5-5",
+        "viewport": [
+          390,
+          844
+        ],
+        "language": "en",
+        "runtimeErrors": 0,
+        "horizontalOverflow": false
+      },
+      {
+        "topic": "fable-5-5",
+        "offlineFileMode": true,
+        "runtimeErrors": 0
+      }
+    ],
+    "externalPosters": "Blocked for offline regression; original URLs unchanged"
+  },
+  "visualReview": {
+    "mobile390": "passed",
+    "shareCard": "passed"
+  },
+  "deployment": "not-performed"
+}
