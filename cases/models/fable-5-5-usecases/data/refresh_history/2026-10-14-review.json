@@ -1,0 +1,490 @@
+{
+  "checkedAt": "2026-10-13T17:25:54+00:00",
+  "topicId": "fable-5-5",
+  "accepted": 6,
+  "selectionPolicy": "Editorial review of every keyword-matched candidate in the bounded pools; concrete original work, explicit version and model role required. Candidate lists are not auto-imported.",
+  "decisions": [
+    {
+      "sourceUrl": "https://x.com/ChrisGPT/status/2109570757579649086",
+      "decision": "accepted",
+      "topicId": "fable-5-5",
+      "selection": "x-40",
+      "evidenceBasis": "Original creator post read via FxTwitter with matching immutable tweet ID; body explicitly names the version and task. Author-reported result, not independent reproduction.",
+      "checkedAt": "2026-10-13T17:24:58+00:00",
+      "evidenceSha256": "4f11b600db99c7418e91fc859c5b34f14f243482afb34acb472c4d182ffe09f4",
+      "posterStatus": "not-included",
+      "posterReason": "Black or near-black first frame"
+    },
+    {
+      "sourceUrl": "https://x.com/imjustnewatai/status/2109811005395996875",
+      "decision": "accepted",
+      "topicId": "fable-5-5",
+      "selection": "x-109",
+      "evidenceBasis": "Original creator post read via FxTwitter with matching immutable tweet ID; body explicitly names the version and task. Author-reported result, not independent reproduction.",
+      "checkedAt": "2026-10-13T17:24:58+00:00",
+      "evidenceSha256": "4d5f61af5e14bee8ebdb3ccbaec308d0b9b306ca97114f6a840586aa83aebf1f",
+      "posterStatus": "accepted",
+      "posterReason": "Original image visually checked"
+    },
+    {
+      "sourceUrl": "https://x.com/imjustnewatai/status/2109821687151690008",
+      "decision": "accepted",
+      "topicId": "fable-5-5",
+      "selection": "x-156",
+      "evidenceBasis": "Original creator post read via FxTwitter with matching immutable tweet ID; body explicitly names the version and task. Author-reported result, not independent reproduction.",
+      "checkedAt": "2026-10-13T17:24:58+00:00",
+      "evidenceSha256": "dbd9ae7e66f3e76ea617a2cd7e485818c2230259a8cf5a81a73e93fcf3707b71",
+      "posterStatus": "accepted",
+      "posterReason": "Original image visually checked"
+    },
+    {
+      "sourceUrl": "https://x.com/romance0x/status/2109704094126682274",
+      "decision": "accepted",
+      "topicId": "fable-5-5",
+      "selection": "x-165",
+      "evidenceBasis": "Original creator post read via FxTwitter with matching immutable tweet ID; body explicitly names the version and task. Author-reported result, not independent reproduction.",
+      "checkedAt": "2026-10-13T17:24:58+00:00",
+      "evidenceSha256": "5283e768217d1f03aa223766f607ed890931458a8e53c1350b027fdb293bbbbb",
+      "posterStatus": "accepted",
+      "posterReason": "Original image visually checked"
+    },
+    {
+      "sourceUrl": "https://x.com/Airo_07/status/2109658160269344801",
+      "decision": "accepted",
+      "topicId": "fable-5-5",
+      "selection": "x-195",
+      "evidenceBasis": "Original creator post read via FxTwitter with matching immutable tweet ID; body explicitly names the version and task. Author-reported result, not independent reproduction.",
+      "checkedAt": "2026-10-13T17:24:58+00:00",
+      "evidenceSha256": "d8abfc64993af327d4df9b740a5c38f23160aa557d17fa51a180d89e9c75652d",
+      "posterStatus": "accepted",
+      "posterReason": "Original image visually checked"
+    },
+    {
+      "sourceUrl": "https://x.com/imjustnewatai/status/2109824086582890931",
+      "decision": "accepted",
+      "topicId": "fable-5-5",
+      "selection": "x-204",
+      "evidenceBasis": "Original creator post read via FxTwitter with matching immutable tweet ID; body explicitly names the version and task. Author-reported result, not independent reproduction.",
+      "checkedAt": "2026-10-13T17:24:58+00:00",
+      "evidenceSha256": "78de40147e00a19e44c393a6a3d98cac8b5279083ccceae0d398e33da3f70c30",
+      "posterStatus": "accepted",
+      "posterReason": "Original image visually checked"
+    },
+    {
+      "sourceUrl": "http://www.bilibili.com/video/av117427308398516",
+      "topicId": "fable-5-5",
+      "selection": "bili-66",
+      "decision": "not-accepted",
+      "reason": "Re-upload of ChrisGPT's X post (Fable 5.5 musical); not the original creator",
+      "checkedAt": "2026-10-13T17:25:54+00:00"
+    },
+    {
+      "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x43ekz/usage_limits_are_nerfed_for_me_right_now_are_they/",
+      "topicId": "fable-5-5",
+      "selection": "reddit-24",
+      "decision": "not-accepted",
+      "reason": "Usage-limit complaint, no task",
+      "checkedAt": "2026-10-13T17:25:54+00:00"
+    },
+    {
+      "sourceUrl": "https://www.reddit.com/r/singularity/comments/1x51se6/per_leo_on_twitter_fable_55_is_slated_to_release/",
+      "topicId": "fable-5-5",
+      "selection": "reddit-32",
+      "decision": "not-accepted",
+      "reason": "Release rumor",
+      "checkedAt": "2026-10-13T17:25:54+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/alexgetmancom/status/2110001044986163687",
+      "topicId": "fable-5-5",
+      "selection": "x-22",
+      "decision": "not-accepted",
+      "reason": "Model availability news",
+      "checkedAt": "2026-10-13T17:25:54+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/kimmonismus/status/2110023838264156496",
+      "topicId": "fable-5-5",
+      "selection": "x-29",
+      "decision": "not-accepted",
+      "reason": "Model availability news",
+      "checkedAt": "2026-10-13T17:25:54+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/testingcatalog/status/2110031026026332551",
+      "topicId": "fable-5-5",
+      "selection": "x-34",
+      "decision": "not-accepted",
+      "reason": "Model availability rumor",
+      "checkedAt": "2026-10-13T17:25:54+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/synthwavedd/status/2110045399385829469",
+      "topicId": "fable-5-5",
+      "selection": "x-36",
+      "decision": "not-accepted",
+      "reason": "Release rumor",
+      "checkedAt": "2026-10-13T17:25:54+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/TokenGremlin/status/2110035216165200155",
+      "topicId": "fable-5-5",
+      "selection": "x-48",
+      "decision": "not-accepted",
+      "reason": "Industry commentary",
+      "checkedAt": "2026-10-13T17:25:54+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/chetaslua/status/2110032565927329992",
+      "topicId": "fable-5-5",
+      "selection": "x-51",
+      "decision": "not-accepted",
+      "reason": "Model availability news",
+      "checkedAt": "2026-10-13T17:25:54+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/imjustnewatai/status/2109587343732875381",
+      "topicId": "fable-5-5",
+      "selection": "x-56",
+      "decision": "not-accepted",
+      "reason": "Release speculation",
+      "checkedAt": "2026-10-13T17:25:54+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/kimmonismus/status/2110047297560043673",
+      "topicId": "fable-5-5",
+      "selection": "x-75",
+      "decision": "not-accepted",
+      "reason": "Release rumor",
+      "checkedAt": "2026-10-13T17:25:54+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/ai_for_success/status/2110025597221228714",
+      "topicId": "fable-5-5",
+      "selection": "x-87",
+      "decision": "not-accepted",
+      "reason": "Release rumor",
+      "checkedAt": "2026-10-13T17:25:54+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/giadotai/status/2110042900507820289",
+      "topicId": "fable-5-5",
+      "selection": "x-94",
+      "decision": "not-accepted",
+      "reason": "Opinion",
+      "checkedAt": "2026-10-13T17:25:54+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/mark_k/status/2110036837637259759",
+      "topicId": "fable-5-5",
+      "selection": "x-95",
+      "decision": "not-accepted",
+      "reason": "Release rumor",
+      "checkedAt": "2026-10-13T17:25:54+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/scottstts/status/2110011488605778165",
+      "topicId": "fable-5-5",
+      "selection": "x-112",
+      "decision": "not-accepted",
+      "reason": "Release speculation",
+      "checkedAt": "2026-10-13T17:25:54+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/ConnorTalksAI/status/2109723610826916261",
+      "topicId": "fable-5-5",
+      "selection": "x-140",
+      "decision": "not-accepted",
+      "reason": "Poll",
+      "checkedAt": "2026-10-13T17:25:54+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/argofowl/status/2110051753655992615",
+      "topicId": "fable-5-5",
+      "selection": "x-159",
+      "decision": "not-accepted",
+      "reason": "Release rumor",
+      "checkedAt": "2026-10-13T17:25:54+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/Ananth7e/status/2110048837129982457",
+      "topicId": "fable-5-5",
+      "selection": "x-172",
+      "decision": "not-accepted",
+      "reason": "Release rumor",
+      "checkedAt": "2026-10-13T17:25:54+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/xiangning0/status/2110042881096609931",
+      "topicId": "fable-5-5",
+      "selection": "x-175",
+      "decision": "not-accepted",
+      "reason": "Release commentary",
+      "checkedAt": "2026-10-13T17:25:54+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/PrismChemAI/status/2109890628863864904",
+      "topicId": "fable-5-5",
+      "selection": "x-176",
+      "decision": "not-accepted",
+      "reason": "Rumor",
+      "checkedAt": "2026-10-13T17:25:54+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/xiax0603/status/2109901352348598590",
+      "topicId": "fable-5-5",
+      "selection": "x-189",
+      "decision": "not-accepted",
+      "reason": "Routing speculation (Opus 6 or Fable 5.5); version attribution uncertain",
+      "checkedAt": "2026-10-13T17:25:54+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/CodeByNZ/status/2110024323004354684",
+      "topicId": "fable-5-5",
+      "selection": "x-191",
+      "decision": "not-accepted",
+      "reason": "Release rumor",
+      "checkedAt": "2026-10-13T17:25:54+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/since1795/status/2110051196627309030",
+      "topicId": "fable-5-5",
+      "selection": "x-207",
+      "decision": "not-accepted",
+      "reason": "Release rumor",
+      "checkedAt": "2026-10-13T17:25:54+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/cleeeeeeeeement/status/2110049792390819860",
+      "topicId": "fable-5-5",
+      "selection": "x-208",
+      "decision": "not-accepted",
+      "reason": "Lead-magnet promotion for copying others' content",
+      "checkedAt": "2026-10-13T17:25:54+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/xiax0603/status/2110049509481046479",
+      "topicId": "fable-5-5",
+      "selection": "x-209",
+      "decision": "not-accepted",
+      "reason": "Release rumor",
+      "checkedAt": "2026-10-13T17:25:54+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/mattgapp/status/2109455041379873062",
+      "topicId": "fable-5-5",
+      "selection": "x-211",
+      "decision": "not-accepted",
+      "reason": "Joke announcement",
+      "checkedAt": "2026-10-13T17:25:54+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/HYJsfn9h/status/2110043839750864997",
+      "topicId": "fable-5-5",
+      "selection": "x-218",
+      "decision": "not-accepted",
+      "reason": "Comparison without any task description",
+      "checkedAt": "2026-10-13T17:25:54+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/buildwithhassan/status/2110051487392923700",
+      "topicId": "fable-5-5",
+      "selection": "x-229",
+      "decision": "not-accepted",
+      "reason": "Model availability news",
+      "checkedAt": "2026-10-13T17:25:54+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/ParamSiddh/status/2110044527109312984",
+      "topicId": "fable-5-5",
+      "selection": "x-235",
+      "decision": "not-accepted",
+      "reason": "Release commentary",
+      "checkedAt": "2026-10-13T17:25:54+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/zhengli5503571/status/2110042251346756033",
+      "topicId": "fable-5-5",
+      "selection": "x-236",
+      "decision": "not-accepted",
+      "reason": "Model availability news",
+      "checkedAt": "2026-10-13T17:25:54+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/claude_news/status/2110052701887246792",
+      "topicId": "fable-5-5",
+      "selection": "x-241",
+      "decision": "not-accepted",
+      "reason": "Model availability news",
+      "checkedAt": "2026-10-13T17:25:54+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/ajith_io/status/2110044035675255283",
+      "topicId": "fable-5-5",
+      "selection": "x-242",
+      "decision": "not-accepted",
+      "reason": "Release rumor",
+      "checkedAt": "2026-10-13T17:25:54+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/Policifyai/status/2110042883575439508",
+      "topicId": "fable-5-5",
+      "selection": "x-243",
+      "decision": "not-accepted",
+      "reason": "Release rumor",
+      "checkedAt": "2026-10-13T17:25:54+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/Policifyai/status/2110042497376252256",
+      "topicId": "fable-5-5",
+      "selection": "x-244",
+      "decision": "not-accepted",
+      "reason": "Model availability news",
+      "checkedAt": "2026-10-13T17:25:54+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/Policifyai/status/2110042399216984424",
+      "topicId": "fable-5-5",
+      "selection": "x-245",
+      "decision": "not-accepted",
+      "reason": "Model availability rumor",
+      "checkedAt": "2026-10-13T17:25:54+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/MikelEcheve/status/2110041826686066740",
+      "topicId": "fable-5-5",
+      "selection": "x-246",
+      "decision": "not-accepted",
+      "reason": "Release commentary",
+      "checkedAt": "2026-10-13T17:25:54+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/QwenAIFans/status/2110053467054051619",
+      "topicId": "fable-5-5",
+      "selection": "x-250",
+      "decision": "not-accepted",
+      "reason": "Model availability news",
+      "checkedAt": "2026-10-13T17:25:54+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/Zei_lani/status/2110052038704824396",
+      "topicId": "fable-5-5",
+      "selection": "x-252",
+      "decision": "not-accepted",
+      "reason": "Claims early access without describing a task",
+      "checkedAt": "2026-10-13T17:25:54+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/xk2324573703/status/2110049247374737752",
+      "topicId": "fable-5-5",
+      "selection": "x-253",
+      "decision": "not-accepted",
+      "reason": "Model availability commentary",
+      "checkedAt": "2026-10-13T17:25:54+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/dariuusnv/status/2110035052231045235",
+      "topicId": "fable-5-5",
+      "selection": "x-255",
+      "decision": "not-accepted",
+      "reason": "Model availability news",
+      "checkedAt": "2026-10-13T17:25:54+00:00"
+    }
+  ],
+  "posters": [
+    {
+      "selection": "x-40",
+      "sourcePage": "https://x.com/ChrisGPT/status/2109570757579649086",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2109570463886151680/img/z20ErD5AveU0iqrF.jpg",
+      "checkedAt": "2026-10-13T17:25:07+00:00",
+      "status": 200,
+      "ok": true,
+      "width": 1200,
+      "height": 675,
+      "imageSha256": "be9dc224badea6c18ce071214a1fdb460ff5a2dcc95b652591c30664ec3637e4",
+      "reviewStatus": "not-included",
+      "reason": "Black or near-black first frame"
+    },
+    {
+      "selection": "x-109",
+      "sourcePage": "https://x.com/imjustnewatai/status/2109811005395996875",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2109810864337334272/img/MYEUtUqGQzDAmVk8.jpg",
+      "checkedAt": "2026-10-13T17:25:08+00:00",
+      "status": 200,
+      "ok": true,
+      "width": 675,
+      "height": 1200,
+      "imageSha256": "7a4a28076dcd8d9e11acb8bf2b4b5ab9ca72027dd511f496aad423c8396bf9dc",
+      "reviewStatus": "accepted",
+      "reason": "Original image visually checked"
+    },
+    {
+      "selection": "x-156",
+      "sourcePage": "https://x.com/imjustnewatai/status/2109821687151690008",
+      "url": "https://pbs.twimg.com/media/HUeXX5AW4AAYGrY.jpg?name=orig",
+      "checkedAt": "2026-10-13T17:25:10+00:00",
+      "status": 200,
+      "ok": true,
+      "width": 1077,
+      "height": 953,
+      "imageSha256": "30ed45935f0b9b63e5f6ac6543f81a31c038c44451df6c480cdb4ab00da72ed9",
+      "reviewStatus": "accepted",
+      "reason": "Original image visually checked"
+    },
+    {
+      "selection": "x-165",
+      "sourcePage": "https://x.com/romance0x/status/2109704094126682274",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2109702852398493696/img/ZFOQvJqhhN09NETm.jpg",
+      "checkedAt": "2026-10-13T17:25:10+00:00",
+      "status": 200,
+      "ok": true,
+      "width": 966,
+      "height": 1200,
+      "imageSha256": "a05c837224bef3fe5d09dfda4bd94db37b9f875b848ef536a9b517865a800d19",
+      "reviewStatus": "accepted",
+      "reason": "Original image visually checked"
+    },
+    {
+      "selection": "x-195",
+      "sourcePage": "https://x.com/Airo_07/status/2109658160269344801",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2109658105722368000/img/-UxYEPVerp6iOLUP.jpg",
+      "checkedAt": "2026-10-13T17:25:11+00:00",
+      "status": 200,
+      "ok": true,
+      "width": 1200,
+      "height": 675,
+      "imageSha256": "8e3a3c887d4a72aa6856f9d827d7751e18b424ea326dfa3d4d5f78c5cb64fb2b",
+      "reviewStatus": "accepted",
+      "reason": "Original image visually checked"
+    },
+    {
+      "selection": "x-204",
+      "sourcePage": "https://x.com/imjustnewatai/status/2109824086582890931",
+      "url": "https://pbs.twimg.com/media/HUeZ00iX0AATxH6.jpg?name=orig",
+      "checkedAt": "2026-10-13T17:25:11+00:00",
+      "status": 200,
+      "ok": true,
+      "width": 704,
+      "height": 669,
+      "imageSha256": "3f376373a945fa9777eeeba41f93de5e662f2a28c4fd4ca9e4683ae6f09029c7",
+      "reviewStatus": "accepted",
+      "reason": "Original image visually checked"
+    }
+  ],
+  "candidatePools": {
+    "x": 268,
+    "reddit": 55,
+    "bili": 110,
+    "github": 46,
+    "hn": 59,
+    "yt": 20
+  },
+  "corrections": [],
+  "note": "Pool counts precede editorial selection and overlap across platforms; they are not counts of unique cases.",
+  "dateAdjustments": [],
+  "priorRejectionsSkipped": {
+    "run": "2026-10-12",
+    "count": 651,
+    "note": "Candidates rejected in the previous run were excluded from the pools by source identity (BV ID for Bilibili); GitHub README candidates were not pre-filtered and 13 were re-rejected."
+  }
+}

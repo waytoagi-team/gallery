@@ -1,5 +1,5 @@
 {
-  "refreshedAt": "2026-10-12T13:54:49+00:00",
+  "refreshedAt": "2026-10-13T17:25:54+00:00",
   "scope": {
     "key": "multisource-partial",
     "zh": "多来源发现、原帖审核与互动数据更新（部分覆盖）",
@@ -7,26 +7,26 @@
   },
   "status": "partial-coverage",
   "lastFullRefreshAt": null,
-  "lastMultiSourceRefreshAt": "2026-10-12T13:54:49+00:00",
-  "previousReport": "data/refresh_history/2026-10-12-before-refresh.json",
-  "previousCaseCount": 38,
-  "caseCount": 39,
-  "reviewedNewExtras": 1,
+  "lastMultiSourceRefreshAt": "2026-10-13T17:25:54+00:00",
+  "previousReport": "data/refresh_history/2026-10-14-before-refresh.json",
+  "previousCaseCount": 39,
+  "caseCount": 45,
+  "reviewedNewExtras": 6,
   "newCasesByPlatform": {
-    "X": 1
+    "X": 6
   },
   "coverage": {
-    "since": "2026-10-10",
+    "since": "2026-10-12",
     "configuredSourcesAttempted": 6,
     "configuredSourcesSucceeded": 6,
-    "configuredDiscoveryCandidates": 8,
-    "reviewedAccepted": 1,
+    "configuredDiscoveryCandidates": 12,
+    "reviewedAccepted": 6,
     "partial": true
   },
   "metrics": {
-    "refreshedAt": "2026-10-12T13:34:10+00:00",
+    "refreshedAt": "2026-10-13T17:04:08+00:00",
     "x": {
-      "attempted": 38,
+      "attempted": 39,
       "succeeded": 38
     },
     "github": {
@@ -48,28 +48,37 @@
         }
       }
     },
-    "failed": []
+    "failed": [
+      {
+        "key": "x:2107315127292952696",
+        "url": "https://api.fxtwitter.com/Vince__Russell/status/2107315127292952696",
+        "checkedAt": "2026-10-13T17:04:06+00:00",
+        "ok": false,
+        "error": "HTTP Error 404: Not Found",
+        "status": 404
+      }
+    ]
   },
   "posters": {
-    "total": 22,
-    "missing": 17,
-    "newAccepted": 0,
+    "total": 27,
+    "missing": 18,
+    "newAccepted": 5,
     "historicalPostersPreserved": true
   },
   "limitations": [
-    "Accepted Fable cases are explicitly creator-attributed; backend model identity, routing and any official release were not verified.",
-    "Configured endpoints, public catalogs and web/X/video searches are bounded discovery, not an exhaustive internet crawl. Every keyword-matched candidate in the resulting pools was reviewed against its original source; nothing was auto-imported.",
-    "X search: 25 requests, 22 succeeded; three chains ended with a 404 on a later page and the three per-day Top chains reached the five-page cap. Top search is not a global popularity ranking.",
+    "Accepted Fable cases are explicitly creator-attributed; backend model identity, routing and any official release were not verified. Posts that themselves speculate about Opus 5.5 being routed to another model were not attributed to either topic.",
+    "Configured endpoints, public catalogs and web/X/video searches are bounded discovery, not an exhaustive internet crawl. Every keyword-matched candidate in the resulting pools was reviewed against its original source; nothing was auto-imported. The 651 candidates rejected on 2026-10-12 were not re-reviewed (13 GitHub repositories resurfaced and were rejected again).",
+    "X search: 21 requests, 19 succeeded; two chains ended with a 404 on a later page and three chains (two Fable, one per-day Opus Top) reached the five-page cap. Top search is not a global popularity ranking.",
     "Scientific validity, performance, costs and generation claims remain author-reported; no independent reproduction. Model roles are separated in multi-tool work.",
-    "Historical metrics: X 38/38. Failed requests (mostly deleted or unavailable posts) preserve prior valid values and timestamps. No new reply-thread audit."
+    "Historical metrics: X 38/39; one post now returns 404 and keeps its prior values and timestamp. No new reply-thread audit."
   ],
-  "fetchReceiptFile": "data/refresh_history/2026-10-12-fetches.json",
-  "reviewFile": "data/refresh_history/2026-10-12-review.json",
-  "processLog": "reports/UPDATE-2026-10-12.md",
+  "fetchReceiptFile": "data/refresh_history/2026-10-14-fetches.json",
+  "reviewFile": "data/refresh_history/2026-10-14-review.json",
+  "processLog": "reports/UPDATE-2026-10-14.md",
   "validation": {
     "status": "passed",
-    "checkedAt": "2026-10-12T13:57:57+00:00",
-    "reportFile": "data/refresh_history/2026-10-12-validation.json",
+    "checkedAt": "2026-10-13T17:27:19+00:00",
+    "reportFile": "data/refresh_history/2026-10-14-validation.json",
     "browserViews": 5,
     "pythonTestsPassed": 42,
     "rankingTestsPassed": 3,
