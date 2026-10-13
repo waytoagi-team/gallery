@@ -7896,5 +7896,375 @@
    "relation": "Original creator attachment or video cover for this work",
    "reviewStatus": "accepted"
   }
+ },
+ {
+  "platform": "Reddit",
+  "author": "CarlosGOAT09",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x3nkty/opus_55_is_insane_at_decompilation_ports/",
+  "date": "2026-10-12",
+  "category": "games",
+  "evidenceType": "演示",
+  "title": "把三款经典游戏移植为原生桌面版",
+  "title_en": "Three classic games ported to native desktop builds",
+  "summary": "作者只给出一句提示，让 Opus 5.5 分析 StarFox、StarFox 2 与 Sonic CD 的 ROM，构建高层硬件运行时并加入宽屏、高帧率和手柄支持，生成 Windows、Mac 与 Linux 原生版本；作者后来更正说，结果更接近针对单个游戏的模拟器加生成的反汇编，而非还原原始源码。",
+  "summary_en": "From a one-line prompt, Opus 5.5 analyzed the ROMs of StarFox, StarFox 2 and Sonic CD, built high-level hardware runtimes and added widescreen, higher frame rates and controller support for native Windows, Mac and Linux builds. The author later clarified that the result is closer to a game-specific emulator plus generated disassembly than a reconstruction of the original source.",
+  "mediaKind": "image",
+  "checkedAt": "2026-10-13T17:24:58+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x3nkty/opus_55_is_insane_at_decompilation_ports/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-14 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://github.com/carlosrmz009/littleplanet"
+   },
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://github.com/carlosrmz009/arwing"
+   },
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://github.com/carlosrmz009/arwing2"
+   }
+  ]
+ },
+ {
+  "platform": "Reddit",
+  "author": "phoenixprotocol01",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x4z8ye/claude_code_x_opus_55_is_cooking_app_development/",
+  "date": "2026-10-13",
+  "category": "video",
+  "evidenceType": "演示",
+  "title": "在 Claude Code 中制作剪贴板应用的宣传片",
+  "title_en": "A clipboard app's promo video made in Claude Code",
+  "summary": "作者用 Claude Code 开发剪贴板工具 ClipTen 后，把应用素材、界面图、配色、自写脚本和时间线交给 Opus 5.5，由它编排场景、动画、配音同步并渲染 4K 宣传片；配音来自 ElevenLabs。",
+  "summary_en": "After building the ClipTen clipboard tool with Claude Code, the author gave Opus 5.5 the app assets, UI graphics, colors and a self-written script and timeline. It orchestrated scenes, animation, voice sync and rendering for a 4K promo video, with the voiceover from ElevenLabs.",
+  "mediaKind": "video",
+  "checkedAt": "2026-10-13T17:24:58+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x4z8ye/claude_code_x_opus_55_is_cooking_app_development/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-14 multi-source discovery and original-source review"
+ },
+ {
+  "platform": "Reddit",
+  "author": "loming123",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x4tejn/took_hey_opus_55_build_me_a_247_news_network/",
+  "date": "2026-10-13",
+  "category": "video",
+  "evidenceType": "演示",
+  "title": "全天候直播的 AI 脱口秀节目",
+  "title_en": "A round-the-clock AI talk show on air",
+  "summary": "作者用 Claude Code（Opus 5.5）约三天把恶搞节目 ELON FM 从需求文档做到上线直播：TypeScript 选题、研究、撰稿与审核流程，Godot 体素角色与口型同步渲染，ElevenLabs 配音经 OBS 推流到 YouTube；作者称它还读取日志排查过推流故障。",
+  "summary_en": "In about three days, Claude Code (Opus 5.5) took the parody show ELON FM from spec to live broadcast: a TypeScript pipeline that picks topics, researches, scripts and reviews segments, a Godot renderer with voxel characters and lip sync, and ElevenLabs voices streamed through OBS to YouTube. The author says it also read logs to fix a streaming failure.",
+  "mediaKind": "none",
+  "checkedAt": "2026-10-13T17:24:58+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x4tejn/took_hey_opus_55_build_me_a_247_news_network/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-14 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://elonfm.stream"
+   }
+  ]
+ },
+ {
+  "platform": "Reddit",
+  "author": "theonly1me",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x4ox7t/i_built_an_open_source_tool_that_learns_your/",
+  "date": "2026-10-13",
+  "category": "agents",
+  "evidenceType": "评测",
+  "title": "从过往纠正中学习编码偏好的工具",
+  "title_en": "A tool that learns coding preferences from past corrections",
+  "summary": "作者开源 shadowclone，从 Claude Code 会话中找出用户的纠正并转成技能；在 7 个合成任务、每项 3 次的测试中，作者报告 Opus 5.5 遵循偏好的比例从 63.8% 提升到 96.4%，Sonnet 5.5 从 65.0% 提升到 81.7%。",
+  "summary_en": "The open-source shadowclone mines Claude Code sessions for the user's corrections and turns them into skills. On seven synthetic tasks run three times each, the author reports Opus 5.5 following 96.4% of preferences, up from 63.8%, and Sonnet 5.5 rising from 65.0% to 81.7%.",
+  "mediaKind": "image",
+  "checkedAt": "2026-10-13T17:24:58+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x4ox7t/i_built_an_open_source_tool_that_learns_your/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-14 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://github.com/theonly1me/shadowclone"
+   }
+  ]
+ },
+ {
+  "platform": "Reddit",
+  "author": "Batty25111",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x4lxjq/opus_55_made_me_an_ad/",
+  "date": "2026-10-13",
+  "category": "video",
+  "evidenceType": "演示",
+  "title": "绘本风格的网站广告片",
+  "title_en": "A storybook-style ad for a website",
+  "summary": "作者让 Opus 5.5 借助视频剪辑与 3D 建模技能为自己的代码托管网站制作绘本风格广告，配音由 Fable 5.1 通过作者的 ElevenLabs 密钥完成；作者称经过大量打磨，未使用其他工具。",
+  "summary_en": "Using skills for video editing and 3D modeling, Opus 5.5 made a storybook-style ad for the author's code-hosting site, while Fable 5.1 handled the voices through the author's ElevenLabs key. The author says it took much polishing and no other tools were used.",
+  "mediaKind": "video",
+  "checkedAt": "2026-10-13T17:24:58+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x4lxjq/opus_55_made_me_an_ad/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-14 multi-source discovery and original-source review",
+  "poster": "https://external-preview.redd.it/6Znps6HKOBtoF5leO_rQyM-5Io_Hs6B9foaRNFr0eW4.jpeg?auto=webp&s=5c99f5d56484dafa44a963e077ee01d7b763e533",
+  "posterEvidence": {
+   "sourcePage": "https://www.reddit.com/r/ClaudeCode/comments/1x4lxjq/opus_55_made_me_an_ad/",
+   "checkedAt": "2026-10-13T17:25:06+00:00",
+   "width": 480,
+   "height": 360,
+   "imageSha256": "c848b471268f005585ce14b3df1a52a5cb8f520dd412010a14d1b187060f7eba",
+   "method": "Original attachment/cover downloaded, decoded and visually inspected in a labeled contact sheet",
+   "relation": "Original creator attachment or video cover for this work",
+   "reviewStatus": "accepted"
+  }
+ },
+ {
+  "platform": "Reddit",
+  "author": "faiface",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x482ox/what_if_claude_had_a_keyboard_watch_it_build_a/",
+  "date": "2026-10-12",
+  "category": "agents",
+  "evidenceType": "演示",
+  "title": "让编码 Agent 在编辑器里逐行打字的扩展",
+  "title_en": "An extension that lets a coding agent type in your editor",
+  "summary": "作者用 Opus 5.5 编写 VS Code 扩展 AI Pair，让编码 Agent 以人的速度在编辑器中边写边讲解，用户可随时打断或接管；演示中 Opus 5.5 从零写出支持王车易位、吃过路兵和升变的双人国际象棋应用。",
+  "summary_en": "Opus 5.5 built AI Pair, a VS Code extension that makes a coding agent type in the editor at human pace while explaining, so the user can interrupt or take over. In the demo, Opus 5.5 writes a two-player chess app from scratch, including castling, en passant and promotion.",
+  "mediaKind": "video",
+  "checkedAt": "2026-10-13T17:24:58+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x482ox/what_if_claude_had_a_keyboard_watch_it_build_a/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-14 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://marketplace.visualstudio.com/items?itemName=michalstrba.ai-pair"
+   },
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://github.com/faiface/ai-pair"
+   }
+  ],
+  "poster": "https://external-preview.redd.it/WtPrZP5un5vp6O0Zixe3jVH0fTrDr9ESXLWZ2wA5O4U.jpeg?auto=webp&s=81eab9699fb02c99329e488f149e4e591e3c9887",
+  "posterEvidence": {
+   "sourcePage": "https://www.reddit.com/r/ClaudeCode/comments/1x482ox/what_if_claude_had_a_keyboard_watch_it_build_a/",
+   "checkedAt": "2026-10-13T17:25:06+00:00",
+   "width": 480,
+   "height": 360,
+   "imageSha256": "1578db3d374d97c5e35a8b1c415e69c5720e52eea0302db5cad6643e2c02ab2e",
+   "method": "Original attachment/cover downloaded, decoded and visually inspected in a labeled contact sheet",
+   "relation": "Original creator attachment or video cover for this work",
+   "reviewStatus": "accepted"
+  }
+ },
+ {
+  "platform": "Reddit",
+  "author": "zfyl",
+  "sourceUrl": "https://www.reddit.com/r/vibecoding/comments/1x4zko1/2_years_of_sophisticated_geospatial_ski_map/",
+  "date": "2026-10-13",
+  "category": "games",
+  "evidenceType": "演示",
+  "title": "基于真实地形数据的滑雪游戏",
+  "title_en": "A ski game built on real terrain data",
+  "summary": "作者把多年积累的 OSM 雪道、缆车数据与地形管线做成覆盖约 6000 座滑雪场的 three.js 游戏，其中 3D 部分用 Opus 5.5 完成，并加入 Cloudflare TURN 多人模式和每周赛事；作者称约一半工作由 AI 完成。",
+  "summary_en": "The author turned years of OSM slope and lift data and a terrain pipeline into a three.js game covering about 6,000 ski resorts. The 3D side was vibecoded with Opus 5.5, with multiplayer over Cloudflare TURN and a weekly cup; the author puts the AI share at about half.",
+  "mediaKind": "video",
+  "checkedAt": "2026-10-13T17:24:58+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/vibecoding/comments/1x4zko1/2_years_of_sophisticated_geospatial_ski_map/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-14 multi-source discovery and original-source review",
+  "poster": "https://external-preview.redd.it/dDRldXg5b20zOXZoMdd7Vc9-g2kXgBHSwszbMy-2tzjnCr-z5PweE9i6MZJz.png?format=pjpg&auto=webp&s=b5838b2d3d778d25aaa2b7d4d0cc88a7646db495",
+  "posterEvidence": {
+   "sourcePage": "https://www.reddit.com/r/vibecoding/comments/1x4zko1/2_years_of_sophisticated_geospatial_ski_map/",
+   "checkedAt": "2026-10-13T17:25:06+00:00",
+   "width": 1920,
+   "height": 1080,
+   "imageSha256": "0832b29f89ee26a7238bdbb6b6ab4f77ac0370aec3f9302112b32e8e37a8d140",
+   "method": "Original attachment/cover downloaded, decoded and visually inspected in a labeled contact sheet",
+   "relation": "Original creator attachment or video cover for this work",
+   "reviewStatus": "accepted"
+  }
+ },
+ {
+  "platform": "Reddit",
+  "author": "sharan_n",
+  "sourceUrl": "https://www.reddit.com/r/Anthropic/comments/1x4xt9x/opus_55_made_my_game_trailer_for_me_it_recorded/",
+  "date": "2026-10-13",
+  "category": "video",
+  "evidenceType": "演示",
+  "title": "自行录制并剪辑的游戏预告片",
+  "title_en": "A game trailer recorded and cut by Opus 5.5",
+  "summary": "作者提供脚本和旧版预告片，让 Opus 5.5 录制新的游戏画面并自行剪辑出 Steam 游戏 Glyph 的新预告片，用 medium 推理强度约花数小时。",
+  "summary_en": "Given the script and the previous trailer, Opus 5.5 recorded new gameplay and edited a new trailer for the Steam game Glyph by itself, taking a few hours at medium effort.",
+  "mediaKind": "image",
+  "checkedAt": "2026-10-13T17:24:58+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/Anthropic/comments/1x4xt9x/opus_55_made_my_game_trailer_for_me_it_recorded/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-14 multi-source discovery and original-source review",
+  "poster": "https://external-preview.redd.it/oLGsa2R023wRmCjOcppg2WidtyT9oFqEkBues3xOnXI.jpeg?auto=webp&s=67490128248289f3ba8d76824a387d77df4dcdc3",
+  "posterEvidence": {
+   "sourcePage": "https://www.reddit.com/r/Anthropic/comments/1x4xt9x/opus_55_made_my_game_trailer_for_me_it_recorded/",
+   "checkedAt": "2026-10-13T17:25:06+00:00",
+   "width": 616,
+   "height": 353,
+   "imageSha256": "508742585b8971bd8085cd52ec25fa3920601c71b85b8d0ebc524a4e5306b737",
+   "method": "Original attachment/cover downloaded, decoded and visually inspected in a labeled contact sheet",
+   "relation": "Original creator attachment or video cover for this work",
+   "reviewStatus": "accepted"
+  }
+ },
+ {
+  "platform": "Reddit",
+  "author": "thunderbiribiriiii",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x4zpny/wip_estimator_app_i_am_developing_with_mcp/",
+  "date": "2026-10-13",
+  "category": "business",
+  "evidenceType": "演示",
+  "title": "从招标文件算量计价的估算应用",
+  "title_en": "An estimating app that prices bid packages",
+  "summary": "作者开发中的估算应用通过 MCP 调用 Opus 5.5，几乎能自行完成招标文件的工程量计算与计价，并内置文件查看与索引搜索；应用尚未公开，作者称仍有不少错误。",
+  "summary_en": "The author's work-in-progress estimating app uses Opus 5.5 through MCP to do quantity takeoff and pricing from a bid package almost on its own, with a built-in file viewer and indexed search. It is not public, and the author says bugs remain.",
+  "mediaKind": "video",
+  "checkedAt": "2026-10-13T17:24:58+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x4zpny/wip_estimator_app_i_am_developing_with_mcp/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-14 multi-source discovery and original-source review"
+ },
+ {
+  "platform": "Reddit",
+  "author": "ronrirem",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x4uo9j/im_building_a_cozy_game_with_claude/",
+  "date": "2026-10-13",
+  "category": "games",
+  "evidenceType": "演示",
+  "title": "透明果冻角色的治愈养成游戏",
+  "title_en": "A cozy life sim with translucent jelly companions",
+  "summary": "非程序员作者担任美术指导和测试，先用 ChatGPT 与 Nano Banana 2 出概念图、用 Meshy 生成模型，再由 Opus 5.5 承担主要开发，并实现内含水果切片的半透明果冻质感；游戏含需求、技能和昼夜循环，仍在开发中。",
+  "summary_en": "Acting as art director and tester rather than developer, the author made mock-ups with ChatGPT and Nano Banana 2 and meshes with Meshy, then had Opus 5.5 do the heavy lifting, including a translucent jelly look with fruit slices inside. The work-in-progress game has needs, skills and a day-night cycle.",
+  "mediaKind": "video",
+  "checkedAt": "2026-10-13T17:24:58+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x4uo9j/im_building_a_cozy_game_with_claude/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-14 multi-source discovery and original-source review",
+  "poster": "https://external-preview.redd.it/N2hlMjB3Znk0OHZoMaIJy-3usxMGp15kHjgo1z0Upr6r5atN1FLz83j4M8B9.png?format=pjpg&auto=webp&s=ba063e235900654918f493dab0177098e5071627",
+  "posterEvidence": {
+   "sourcePage": "https://www.reddit.com/r/ClaudeAI/comments/1x4uo9j/im_building_a_cozy_game_with_claude/",
+   "checkedAt": "2026-10-13T17:25:06+00:00",
+   "width": 411,
+   "height": 720,
+   "imageSha256": "e5b7a9a1b426ca8b4793945022d8311ac42dc3baf5a7887cbc9a9a604acfe7ea",
+   "method": "Original attachment/cover downloaded, decoded and visually inspected in a labeled contact sheet",
+   "relation": "Original creator attachment or video cover for this work",
+   "reviewStatus": "accepted"
+  }
+ },
+ {
+  "platform": "Reddit",
+  "author": "ZeNicolas_",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x4pmfr/opus_55_is_crazy/",
+  "date": "2026-10-13",
+  "category": "games",
+  "evidenceType": "演示",
+  "title": "改写《王国之心 记忆之链》的战斗系统",
+  "title_en": "Reworking the combat in Kingdom Hearts: Chain of Memories",
+  "summary": "作者让 Claude 移除 GBA 版《王国之心 记忆之链》的卡牌战斗，改成接近《王国之心 1》的战斗系统，帖子标题称使用 Opus 5.5；效果以视频为准，未说明具体方法。",
+  "summary_en": "The author had Claude strip the card combat from the GBA game Kingdom Hearts: Chain of Memories and build something closer to Kingdom Hearts 1's combat; the post title credits Opus 5.5. The result is shown in a video, with no details on the method.",
+  "mediaKind": "video",
+  "checkedAt": "2026-10-13T17:24:58+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x4pmfr/opus_55_is_crazy/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-14 multi-source discovery and original-source review",
+  "poster": "https://external-preview.redd.it/ZGxyNW9kbTRsNnZoMSAk_g3BGfCdLkjOizwsqtWdOodjjR3zHOHGzIylzmVE.png?format=pjpg&auto=webp&s=deff055f81d3400c6f9459cbbca0ee56d4700453",
+  "posterEvidence": {
+   "sourcePage": "https://www.reddit.com/r/ClaudeAI/comments/1x4pmfr/opus_55_is_crazy/",
+   "checkedAt": "2026-10-13T17:25:06+00:00",
+   "width": 719,
+   "height": 332,
+   "imageSha256": "8a67f6deaf2b01c13a1c7dc19ef4d66a26a26bc02ac237a15cbe96f2c2e708c8",
+   "method": "Original attachment/cover downloaded, decoded and visually inspected in a labeled contact sheet",
+   "relation": "Original creator attachment or video cover for this work",
+   "reviewStatus": "accepted"
+  }
+ },
+ {
+  "platform": "Reddit",
+  "author": "mcmac_max",
+  "sourceUrl": "https://www.reddit.com/r/claude/comments/1x4zypr/claude_opus_music_video_about_ai_hallucinations/",
+  "date": "2026-10-13",
+  "category": "video",
+  "evidenceType": "教程",
+  "title": "关于 AI 幻觉的歌曲 MV 完整流程",
+  "title_en": "A full workflow for a music video about AI hallucinations",
+  "summary": "作者用 ChatGPT 4.1 写歌词、Suno 生成歌曲，再在 Claude 桌面应用中使用 Opus 5.5（Extra 思考），由它自行安装 Remotion 技能并按歌词同步制作动态图形 MV；各步提示词均已公开。",
+  "summary_en": "The author wrote lyrics with ChatGPT 4.1 and the song with Suno, then used Opus 5.5 with Extra thinking in the Claude desktop app, which installed the Remotion skills itself and built a lyric-synced motion-graphics video. The prompts for each step are shared.",
+  "mediaKind": "video",
+  "checkedAt": "2026-10-13T17:24:58+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/claude/comments/1x4zypr/claude_opus_music_video_about_ai_hallucinations/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-14 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://youtu.be/wwGDm5roSB4"
+   },
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://treepad.ai/"
+   },
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://suno.com/"
+   },
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://claude.ai/"
+   }
+  ],
+  "poster": "https://external-preview.redd.it/VA1sEa3mcBR03Lh4zfNVV-KFCMw68FRAIV1BfS2auho.jpeg?auto=webp&s=e40b9376b8a1189b72dbd0333d896e9dfcd148ab",
+  "posterEvidence": {
+   "sourcePage": "https://www.reddit.com/r/claude/comments/1x4zypr/claude_opus_music_video_about_ai_hallucinations/",
+   "checkedAt": "2026-10-13T17:25:06+00:00",
+   "width": 480,
+   "height": 360,
+   "imageSha256": "0be3d04b61b3cc7decaaa7787694ef036eb3c3edfc8eb5e5ba33ee6f8ed8bf6c",
+   "method": "Original attachment/cover downloaded, decoded and visually inspected in a labeled contact sheet",
+   "relation": "Original creator attachment or video cover for this work",
+   "reviewStatus": "accepted"
+  }
+ },
+ {
+  "platform": "Reddit",
+  "author": "pizzaisprettyneato",
+  "sourceUrl": "https://www.reddit.com/r/vibecoding/comments/1x4agp8/i_had_claude_make_a_bubblegum_pop_music_video/",
+  "date": "2026-10-12",
+  "category": "video",
+  "evidenceType": "演示",
+  "title": "关于被 AI 取代的泡泡糖流行 MV",
+  "title_en": "A bubblegum-pop video about being replaced by AI",
+  "summary": "作者与 Claude 写好歌词后用 Suno 生成歌曲，再让 Opus 5.5 用 JavaScript 和 Remotion 制作全部画面；因卡点不准，又让它做了手动调整歌词时间的工具，前后约两天完成。",
+  "summary_en": "After writing lyrics with Claude and generating the song in Suno, the author had Opus 5.5 build the whole video in JavaScript with Remotion. When word timing and beats were off, it built a tool for adjusting them by hand; the video took about two days.",
+  "mediaKind": "video",
+  "checkedAt": "2026-10-13T17:24:58+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/vibecoding/comments/1x4agp8/i_had_claude_make_a_bubblegum_pop_music_video/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-14 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://www.youtube.com/watch?v=AYQZ94ds5Ic"
+   }
+  ]
  }
 ]

@@ -1,0 +1,91 @@
+{
+  "status": "passed",
+  "checkedAt": "2026-10-13T17:27:19+00:00",
+  "caseCount": 6832,
+  "previousCaseCount": 6674,
+  "newCaseCount": 158,
+  "historicalIdsPreserved": true,
+  "historicalNonMetricFieldsPreserved": true,
+  "historicalChangedFields": {
+    "bookmarks": 692,
+    "likes": 692,
+    "metricsCheckedAt": 4591,
+    "views": 3559,
+    "stars": 39,
+    "metricsSourceUrl": 19
+  },
+  "unchangedSourceFiles": [
+    "base_cases.json",
+    "case_enrichments.json",
+    "reply_enrichments.json",
+    "poster_enrichments.json",
+    "extra_gosail.json"
+  ],
+  "positionalSlotsPreserved": true,
+  "pythonTests": {
+    "passed": 42
+  },
+  "rankingTests": {
+    "passed": 3
+  },
+  "dataAndAssetsValidation": "passed",
+  "offlineBuildCheck": "passed",
+  "browser": {
+    "status": "passed",
+    "views": 5,
+    "checks": [
+      {
+        "topic": "opus-5-5",
+        "viewport": [
+          1440,
+          1000
+        ],
+        "language": "zh",
+        "runtimeErrors": 0,
+        "horizontalOverflow": false
+      },
+      {
+        "topic": "opus-5-5",
+        "viewport": [
+          1440,
+          1000
+        ],
+        "language": "en",
+        "runtimeErrors": 0,
+        "horizontalOverflow": false
+      },
+      {
+        "topic": "opus-5-5",
+        "viewport": [
+          390,
+          844
+        ],
+        "language": "zh",
+        "runtimeErrors": 0,
+        "horizontalOverflow": false
+      },
+      {
+        "topic": "opus-5-5",
+        "viewport": [
+          390,
+          844
+        ],
+        "language": "en",
+        "runtimeErrors": 0,
+        "horizontalOverflow": false
+      },
+      {
+        "topic": "opus-5-5",
+        "offlineFileMode": true,
+        "runtimeErrors": 0
+      }
+    ],
+    "externalPosters": "Blocked for offline regression; original URLs unchanged"
+  },
+  "visualReview": {
+    "mobile390": "passed",
+    "shareCard": "passed"
+  },
+  "deployment": "not-performed",
+  "notes": "metricsSourceUrl changes are the metrics tool lowercasing GitHub API URLs for 19 repositories imported on 2026-10-12; no other non-metric field changed."
+}
