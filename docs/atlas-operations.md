@@ -17,7 +17,7 @@ python -m atlas collect --topic fable-5-5 --since 2026-09-01 \
   --report cases/models/fable-5-5-usecases/reports/discovery-2026-10-03.json
 ```
 
-每次运行自动生成独立批次目录 `.cache/atlas/<topic>/<run>/`。`--output-dir` 可指定一个空目录，重复使用已有目录会被拒绝，避免旧响应被当成新结果。返回码 1 表示至少一个入口失败，其他成功回执仍然保存。
+每次运行自动生成独立批次目录 `.cache/atlas/<topic>/<run>/`。`--output-dir` 可指定一个空目录，重复使用已有目录会被拒绝，避免旧响应被当成新结果。超时、429、5xx 以及 Arctic Shift 的 422 属于临时错误，最多重试两次，分别等待 10 秒和 30 秒，回执的 `retries` 记录每次失败；其余 4xx 不重试。重试后仍失败时返回码为 1，其他成功回执仍然保存。
 
 GitHub 搜索与 HN 搜索暂只获取每个查询的首个有界页面；日期窗口分别转换为 GitHub 仓库 pushed、Issue updated 与 HN created_at_i 条件。其他来源可能不支持日期过滤，抓取成功不意味着分页完成。GitHub 与 HN JSON 可输出最小候选元数据；其余 Opus 既有入口仍保留响应供本地审核。
 

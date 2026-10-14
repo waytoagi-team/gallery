@@ -66,8 +66,9 @@
   },
   {
     "key": "zvi",
-    "url": "https://thezvi.substack.com/feed",
-    "format": "xml"
+    "url": "https://thezvi.wordpress.com/feed/",
+    "format": "xml",
+    "note": "Author's WordPress mirror of thezvi.substack.com, which returns 403 to GitHub Actions runners."
   },
   {
     "key": "mollick",

@@ -10,7 +10,7 @@ import unittest
 from unittest.mock import patch
 
 from atlas.build import merge_cases, render_page, build_topic
-from atlas.collectors.discovery import discovery_url, run_discovery
+from atlas.collectors.discovery import collect, discovery_url, run_discovery
 from atlas.config import Topic, load_topic, read_topic
 from atlas.share_card import ensure_card
 from atlas.validate import validate_cases, validate_public
@@ -140,6 +140,44 @@ class DiscoveryTests(unittest.TestCase):
                 run_discovery(topic, output_dir=directory)
         self.assertEqual((topic.data / "base_cases.json").read_bytes(), baseline)
         self.assertEqual((topic.data / "refresh_report.json").read_bytes(), freshness)
+
+    def fetch_with(self, url, responses):
+        import urllib.error
+
+        class Response(io.BytesIO):
+            status = 200
+
+        def open_(request, timeout):
+            outcome = responses.pop(0)
+            if isinstance(outcome, int):
+                raise urllib.error.HTTPError(request.full_url, outcome, "error", {}, None)
+            response = Response(outcome)
+            response.url = request.full_url
+            return response
+        opener = type("Opener", (), {"open": staticmethod(open_)})()
+        with tempfile.TemporaryDirectory() as directory, \
+                patch("atlas.collectors.discovery.urllib.request.build_opener", return_value=opener), \
+                patch("atlas.collectors.discovery.time.sleep") as sleep:
+            entry = collect({"key": "source", "url": url, "format": "json"}, Path(directory), "2026-10-12")
+        return entry, [c.args[0] for c in sleep.call_args_list]
+
+    def test_transient_arctic_shift_errors_are_retried_with_receipts(self):
+        arctic = "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=claude"
+        entry, waits = self.fetch_with(arctic, [422, 522, b'{"data": []}'])
+        self.assertTrue(entry["ok"])
+        self.assertEqual(entry["status"], 200)
+        self.assertNotIn("error", entry)
+        self.assertEqual([r["status"] for r in entry["retries"]], [422, 522])
+        self.assertEqual(waits, [10, 30])
+        entry, waits = self.fetch_with(arctic, [522, 522, 522])
+        self.assertFalse(entry["ok"])
+        self.assertEqual(len(entry["retries"]), 2)
+
+    def test_final_client_errors_are_not_retried(self):
+        for url, status in (("https://example.com/search", 422), ("https://thezvi.wordpress.com/feed/", 403)):
+            entry, waits = self.fetch_with(url, [status])
+            self.assertEqual((entry["ok"], entry["status"], waits), (False, status, []))
+            self.assertNotIn("retries", entry)
 
 
 if __name__ == "__main__":
