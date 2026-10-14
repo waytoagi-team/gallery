@@ -11,6 +11,7 @@ import hashlib
 import http.cookiejar
 import json
 import pathlib
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -47,45 +48,71 @@ def search_metadata(parsed):
     return {"pagination": "not-verified"}
 
 
-def collect(source, directory, since):
-    url = discovery_url(source, since)
-    entry = {"key": source["key"], "url": url,
-             "checkedAt": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds")}
+# Arctic Shift answers an overloaded search with 422 or a Cloudflare 52x and
+# usually succeeds on a later attempt; other 4xx responses are final.
+RETRY_DELAYS = (10, 30)
+
+
+def transient(error, url):
+    if isinstance(error, urllib.error.HTTPError):
+        if error.code == 422:
+            return urllib.parse.urlsplit(url).hostname == "arctic-shift.photon-reddit.com"
+        return error.code in (408, 425, 429) or error.code >= 500
+    return isinstance(error, (urllib.error.URLError, TimeoutError))
+
+
+def fetch_snapshot(source, url, directory, entry):
     headers = {"User-Agent": "Mozilla/5.0 (UseCaseAtlas public-source review)"}
     opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()))
-    try:
-        if urllib.parse.urlsplit(url).hostname == "api.bilibili.com":
-            headers["Referer"] = "https://www.bilibili.com/"
-            with opener.open(urllib.request.Request(headers["Referer"], headers=headers), timeout=25) as response:
-                response.read()
-        if urllib.parse.urlsplit(url).netloc == "api.github.com":
-            body, metadata = read_github(url)
-            entry.update(metadata, finalUrl=url, bytes=len(body))
-        else:
-            with opener.open(urllib.request.Request(url, headers=headers), timeout=30) as response:
-                body = response.read()
-                entry.update(status=response.status, finalUrl=response.url, bytes=len(body))
-        if source["format"] == "json":
-            parsed = json.loads(body)
-            if urllib.parse.urlsplit(url).hostname == "api.bilibili.com" and parsed.get("code") != 0:
-                raise ValueError("Bilibili API returned an application error")
-        elif source["format"] == "xml":
-            ET.fromstring(body)
-        if not body:
-            raise ValueError("Empty response")
-        filename = source["key"] + ".txt"
-        target = directory / filename
-        target.with_suffix(".tmp").write_bytes(body)
-        target.with_suffix(".tmp").replace(target)
-        entry.update(file=filename, sha256=hashlib.sha256(body).hexdigest(), ok=True)
-        if source["format"] == "json":
-            entry.update(search_metadata(parsed))
-    except (OSError, ValueError, ET.ParseError) as error:
-        entry.update(ok=False, error=str(error))
-        if isinstance(error, urllib.error.HTTPError):
-            entry["status"] = error.code
-            if urllib.parse.urlsplit(url).netloc == "api.github.com":
-                entry.update(response_metadata(error.code, error.headers))
+    if urllib.parse.urlsplit(url).hostname == "api.bilibili.com":
+        headers["Referer"] = "https://www.bilibili.com/"
+        with opener.open(urllib.request.Request(headers["Referer"], headers=headers), timeout=25) as response:
+            response.read()
+    if urllib.parse.urlsplit(url).netloc == "api.github.com":
+        body, metadata = read_github(url)
+        entry.update(metadata, finalUrl=url, bytes=len(body))
+    else:
+        with opener.open(urllib.request.Request(url, headers=headers), timeout=30) as response:
+            body = response.read()
+            entry.update(status=response.status, finalUrl=response.url, bytes=len(body))
+    if source["format"] == "json":
+        parsed = json.loads(body)
+        if urllib.parse.urlsplit(url).hostname == "api.bilibili.com" and parsed.get("code") != 0:
+            raise ValueError("Bilibili API returned an application error")
+    elif source["format"] == "xml":
+        ET.fromstring(body)
+    if not body:
+        raise ValueError("Empty response")
+    filename = source["key"] + ".txt"
+    target = directory / filename
+    target.with_suffix(".tmp").write_bytes(body)
+    target.with_suffix(".tmp").replace(target)
+    entry.update(file=filename, sha256=hashlib.sha256(body).hexdigest(), ok=True)
+    if source["format"] == "json":
+        entry.update(search_metadata(parsed))
+
+
+def collect(source, directory, since):
+    url = discovery_url(source, since)
+    retries = []
+    for delay in (*RETRY_DELAYS, None):
+        entry = {"key": source["key"], "url": url,
+                 "checkedAt": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds")}
+        try:
+            fetch_snapshot(source, url, directory, entry)
+        except (OSError, ValueError, ET.ParseError) as error:
+            entry.update(ok=False, error=str(error))
+            if isinstance(error, urllib.error.HTTPError):
+                entry["status"] = error.code
+                if urllib.parse.urlsplit(url).netloc == "api.github.com":
+                    entry.update(response_metadata(error.code, error.headers))
+            if delay is not None and transient(error, url):
+                retries.append({k: entry[k] for k in ("checkedAt", "status", "error") if k in entry})
+                time.sleep(delay)
+                continue
+        break
+    if retries:
+        entry["retries"] = retries
     return entry
 
 
