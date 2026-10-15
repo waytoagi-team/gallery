@@ -1,247 +1,247 @@
 {
  "meta": {
   "source": "https://api.fxtwitter.com/",
-  "refreshedAt": "2026-10-13T17:04:08+00:00",
+  "refreshedAt": "2026-10-15T12:19:04+00:00",
   "note": "Primary X metrics only. Failed posts retain their previous values and timestamps."
  },
  "cases": [
   {
    "sourceUrl": "https://x.com/MozeTech/status/2106590326634983710",
-   "likes": 9774,
-   "bookmarks": 4340,
-   "views": 1726283,
-   "metricsCheckedAt": "2026-10-13T17:04:00+00:00"
+   "likes": 9767,
+   "bookmarks": 4328,
+   "views": 1728453,
+   "metricsCheckedAt": "2026-10-15T12:18:48+00:00"
   },
   {
    "sourceUrl": "https://x.com/imjustnewatai/status/2106081142143168580",
-   "likes": 8011,
-   "bookmarks": 5067,
-   "views": 415895,
-   "metricsCheckedAt": "2026-10-13T17:04:00+00:00"
+   "likes": 8106,
+   "bookmarks": 5149,
+   "views": 420319,
+   "metricsCheckedAt": "2026-10-15T12:18:48+00:00"
   },
   {
    "sourceUrl": "https://x.com/chetaslua/status/2105757136219504862",
-   "likes": 4315,
+   "likes": 4317,
    "bookmarks": 1773,
-   "views": 692903,
-   "metricsCheckedAt": "2026-10-13T17:04:00+00:00"
+   "views": 694066,
+   "metricsCheckedAt": "2026-10-15T12:18:49+00:00"
   },
   {
    "sourceUrl": "https://x.com/JaydenDavisNC/status/2107086714820870617",
-   "likes": 3051,
-   "bookmarks": 1443,
-   "views": 291452,
-   "metricsCheckedAt": "2026-10-13T17:04:00+00:00"
+   "likes": 3050,
+   "bookmarks": 1447,
+   "views": 292747,
+   "metricsCheckedAt": "2026-10-15T12:18:49+00:00"
   },
   {
    "sourceUrl": "https://x.com/cherry_mx_reds/status/2106095190285144331",
-   "likes": 1622,
-   "bookmarks": 838,
-   "views": 235311,
-   "metricsCheckedAt": "2026-10-13T17:04:00+00:00"
+   "likes": 1625,
+   "bookmarks": 841,
+   "views": 236114,
+   "metricsCheckedAt": "2026-10-15T12:18:50+00:00"
   },
   {
    "sourceUrl": "https://x.com/ishuagra02/status/2106045364868419727",
-   "likes": 1554,
-   "bookmarks": 629,
-   "views": 98484,
-   "metricsCheckedAt": "2026-10-13T17:04:00+00:00"
+   "likes": 1562,
+   "bookmarks": 631,
+   "views": 99954,
+   "metricsCheckedAt": "2026-10-15T12:18:50+00:00"
   },
   {
    "sourceUrl": "https://x.com/ishuagra02/status/2106369929813594134",
    "likes": 1332,
-   "bookmarks": 552,
-   "views": 76342,
-   "metricsCheckedAt": "2026-10-13T17:04:00+00:00"
+   "bookmarks": 554,
+   "views": 76571,
+   "metricsCheckedAt": "2026-10-15T12:18:50+00:00"
   },
   {
    "sourceUrl": "https://x.com/blueemi99/status/2106755903223664708",
-   "likes": 1213,
+   "likes": 1214,
    "bookmarks": 389,
-   "views": 65606,
-   "metricsCheckedAt": "2026-10-13T17:04:00+00:00"
+   "views": 65776,
+   "metricsCheckedAt": "2026-10-15T12:18:51+00:00"
   },
   {
    "sourceUrl": "https://x.com/chetaslua/status/2105884276864782557",
-   "likes": 1020,
+   "likes": 1018,
    "bookmarks": 466,
-   "views": 81141,
-   "metricsCheckedAt": "2026-10-13T17:04:01+00:00"
+   "views": 81346,
+   "metricsCheckedAt": "2026-10-15T12:18:51+00:00"
   },
   {
    "sourceUrl": "https://x.com/blueemi99/status/2106031355922387163",
-   "likes": 873,
+   "likes": 874,
    "bookmarks": 491,
-   "views": 82109,
-   "metricsCheckedAt": "2026-10-13T17:04:01+00:00"
+   "views": 82264,
+   "metricsCheckedAt": "2026-10-15T12:18:51+00:00"
   },
   {
    "sourceUrl": "https://x.com/blueemi99/status/2107108802440900621",
-   "likes": 957,
-   "bookmarks": 402,
-   "views": 68116,
-   "metricsCheckedAt": "2026-10-13T17:04:01+00:00"
+   "likes": 960,
+   "bookmarks": 401,
+   "views": 68444,
+   "metricsCheckedAt": "2026-10-15T12:18:52+00:00"
   },
   {
    "sourceUrl": "https://x.com/mindblown_ai/status/2106112279079199037",
-   "likes": 757,
-   "bookmarks": 417,
-   "views": 112993,
-   "metricsCheckedAt": "2026-10-13T17:04:01+00:00"
+   "likes": 759,
+   "bookmarks": 416,
+   "views": 113213,
+   "metricsCheckedAt": "2026-10-15T12:18:52+00:00"
   },
   {
    "sourceUrl": "https://x.com/imjustnewatai/status/2105889407056109991",
    "likes": 732,
    "bookmarks": 217,
-   "views": 44147,
-   "metricsCheckedAt": "2026-10-13T17:04:02+00:00"
+   "views": 44203,
+   "metricsCheckedAt": "2026-10-15T12:18:52+00:00"
   },
   {
    "sourceUrl": "https://x.com/chetaslua/status/2105792187200147541",
-   "likes": 680,
-   "bookmarks": 207,
-   "views": 68535,
-   "metricsCheckedAt": "2026-10-13T17:04:02+00:00"
+   "likes": 679,
+   "bookmarks": 206,
+   "views": 68612,
+   "metricsCheckedAt": "2026-10-15T12:18:53+00:00"
   },
   {
    "sourceUrl": "https://x.com/imjustnewatai/status/2106489784382197771",
-   "likes": 745,
-   "bookmarks": 617,
-   "views": 25453,
-   "metricsCheckedAt": "2026-10-13T17:04:02+00:00"
+   "likes": 753,
+   "bookmarks": 626,
+   "views": 25836,
+   "metricsCheckedAt": "2026-10-15T12:18:53+00:00"
   },
   {
    "sourceUrl": "https://x.com/imjustnewatai/status/2106925762582323550",
-   "likes": 532,
+   "likes": 531,
    "bookmarks": 146,
-   "views": 26188,
-   "metricsCheckedAt": "2026-10-13T17:04:02+00:00"
+   "views": 26284,
+   "metricsCheckedAt": "2026-10-15T12:18:53+00:00"
   },
   {
    "sourceUrl": "https://x.com/ziwenxu_/status/2105983571848741045",
-   "likes": 423,
-   "bookmarks": 224,
-   "views": 42458,
-   "metricsCheckedAt": "2026-10-13T17:04:02+00:00"
+   "likes": 427,
+   "bookmarks": 226,
+   "views": 43986,
+   "metricsCheckedAt": "2026-10-15T12:18:53+00:00"
   },
   {
    "sourceUrl": "https://x.com/chetaslua/status/2106076940558082297",
-   "likes": 411,
-   "bookmarks": 132,
-   "views": 42130,
-   "metricsCheckedAt": "2026-10-13T17:04:02+00:00"
+   "likes": 409,
+   "bookmarks": 131,
+   "views": 42174,
+   "metricsCheckedAt": "2026-10-15T12:18:54+00:00"
   },
   {
    "sourceUrl": "https://x.com/zAdrielsan/status/2105822678519001360",
    "likes": 391,
-   "bookmarks": 229,
-   "views": 345803,
-   "metricsCheckedAt": "2026-10-13T17:04:03+00:00"
+   "bookmarks": 228,
+   "views": 345885,
+   "metricsCheckedAt": "2026-10-15T12:18:54+00:00"
   },
   {
    "sourceUrl": "https://x.com/Saccc_c/status/2106376222309761094",
-   "likes": 365,
-   "bookmarks": 404,
-   "views": 27696,
-   "metricsCheckedAt": "2026-10-13T17:04:03+00:00"
+   "likes": 377,
+   "bookmarks": 419,
+   "views": 29945,
+   "metricsCheckedAt": "2026-10-15T12:18:55+00:00"
   },
   {
    "sourceUrl": "https://x.com/chetaslua/status/2106248621519978867",
-   "likes": 250,
+   "likes": 249,
    "bookmarks": 58,
-   "views": 25739,
-   "metricsCheckedAt": "2026-10-13T17:04:03+00:00"
+   "views": 25819,
+   "metricsCheckedAt": "2026-10-15T12:18:55+00:00"
   },
   {
    "sourceUrl": "https://x.com/ishuagra02/status/2106138602073641241",
    "likes": 242,
    "bookmarks": 167,
-   "views": 24576,
-   "metricsCheckedAt": "2026-10-13T17:04:03+00:00"
+   "views": 24643,
+   "metricsCheckedAt": "2026-10-15T12:18:55+00:00"
   },
   {
    "sourceUrl": "https://x.com/notjazii/status/2106050222828998967",
    "likes": 199,
    "bookmarks": 22,
-   "views": 11927,
-   "metricsCheckedAt": "2026-10-13T17:04:03+00:00"
+   "views": 11958,
+   "metricsCheckedAt": "2026-10-15T12:18:56+00:00"
   },
   {
    "sourceUrl": "https://x.com/EMostaque/status/2106065029850091943",
    "likes": 182,
    "bookmarks": 35,
-   "views": 18218,
-   "metricsCheckedAt": "2026-10-13T17:04:03+00:00"
+   "views": 18268,
+   "metricsCheckedAt": "2026-10-15T12:18:56+00:00"
   },
   {
    "sourceUrl": "https://x.com/imjustnewatai/status/2106190594775097663",
-   "likes": 169,
+   "likes": 168,
    "bookmarks": 91,
-   "views": 14220,
-   "metricsCheckedAt": "2026-10-13T17:04:04+00:00"
+   "views": 14261,
+   "metricsCheckedAt": "2026-10-15T12:18:57+00:00"
   },
   {
    "sourceUrl": "https://x.com/ishuagra02/status/2106000055706784118",
-   "likes": 164,
+   "likes": 165,
    "bookmarks": 52,
-   "views": 6509,
-   "metricsCheckedAt": "2026-10-13T17:04:04+00:00"
+   "views": 6514,
+   "metricsCheckedAt": "2026-10-15T12:18:57+00:00"
   },
   {
    "sourceUrl": "https://x.com/abhinavflac/status/2106638839666373114",
-   "likes": 163,
-   "bookmarks": 82,
-   "views": 59175,
-   "metricsCheckedAt": "2026-10-13T17:04:04+00:00"
+   "likes": 162,
+   "bookmarks": 81,
+   "views": 59205,
+   "metricsCheckedAt": "2026-10-15T12:18:57+00:00"
   },
   {
    "sourceUrl": "https://x.com/AndrewOnXYZ/status/2107262468502544435",
-   "likes": 755,
-   "bookmarks": 306,
-   "views": 46379,
-   "metricsCheckedAt": "2026-10-13T17:04:04+00:00"
+   "likes": 756,
+   "bookmarks": 307,
+   "views": 46533,
+   "metricsCheckedAt": "2026-10-15T12:18:57+00:00"
   },
   {
    "sourceUrl": "https://x.com/imjustnewatai/status/2107590323128193174",
-   "likes": 599,
-   "bookmarks": 269,
-   "views": 58016,
-   "metricsCheckedAt": "2026-10-13T17:04:05+00:00"
+   "likes": 602,
+   "bookmarks": 272,
+   "views": 60445,
+   "metricsCheckedAt": "2026-10-15T12:18:58+00:00"
   },
   {
    "sourceUrl": "https://x.com/blueemi99/status/2108221060655055242",
-   "likes": 514,
+   "likes": 517,
    "bookmarks": 129,
-   "views": 41438,
-   "metricsCheckedAt": "2026-10-13T17:04:05+00:00"
+   "views": 42002,
+   "metricsCheckedAt": "2026-10-15T12:18:58+00:00"
   },
   {
    "sourceUrl": "https://x.com/imjustnewatai/status/2107615459822453187",
    "likes": 503,
-   "bookmarks": 239,
-   "views": 50530,
-   "metricsCheckedAt": "2026-10-13T17:04:05+00:00"
+   "bookmarks": 241,
+   "views": 50794,
+   "metricsCheckedAt": "2026-10-15T12:18:59+00:00"
   },
   {
    "sourceUrl": "https://x.com/oalanicolas/status/2107958931230241037",
    "likes": 199,
-   "bookmarks": 97,
-   "views": 9352,
-   "metricsCheckedAt": "2026-10-13T17:04:05+00:00"
+   "bookmarks": 98,
+   "views": 9482,
+   "metricsCheckedAt": "2026-10-15T12:18:59+00:00"
   },
   {
    "sourceUrl": "https://x.com/notjazii/status/2107497752217460896",
    "likes": 87,
    "bookmarks": 8,
-   "views": 4861,
-   "metricsCheckedAt": "2026-10-13T17:04:05+00:00"
+   "views": 4900,
+   "metricsCheckedAt": "2026-10-15T12:18:59+00:00"
   },
   {
    "sourceUrl": "https://x.com/AISuperDomain/status/2108878175531110875",
    "likes": 66,
-   "bookmarks": 26,
-   "views": 12646,
-   "metricsCheckedAt": "2026-10-13T17:04:05+00:00"
+   "bookmarks": 27,
+   "views": 12963,
+   "metricsCheckedAt": "2026-10-15T12:19:00+00:00"
   },
   {
    "sourceUrl": "https://x.com/Vince__Russell/status/2107315127292952696",
@@ -254,29 +254,71 @@
    "sourceUrl": "https://x.com/MyCodeCoach/status/2107267599843422699",
    "likes": 6,
    "bookmarks": 1,
-   "views": 482,
-   "metricsCheckedAt": "2026-10-13T17:04:06+00:00"
+   "views": 485,
+   "metricsCheckedAt": "2026-10-15T12:19:00+00:00"
   },
   {
    "sourceUrl": "https://x.com/RobinDenmark/status/2108194732744888801",
    "likes": 0,
    "bookmarks": 0,
-   "views": 12,
-   "metricsCheckedAt": "2026-10-13T17:04:06+00:00"
+   "views": 14,
+   "metricsCheckedAt": "2026-10-15T12:19:01+00:00"
   },
   {
    "sourceUrl": "https://x.com/adam_fresko/status/2107637770873417894",
    "likes": 0,
    "bookmarks": 0,
-   "views": 512,
-   "metricsCheckedAt": "2026-10-13T17:04:06+00:00"
+   "views": 523,
+   "metricsCheckedAt": "2026-10-15T12:19:02+00:00"
   },
   {
    "sourceUrl": "https://x.com/imjustnewatai/status/2109191246715462070",
-   "likes": 559,
-   "bookmarks": 302,
-   "views": 38017,
-   "metricsCheckedAt": "2026-10-13T17:04:07+00:00"
+   "likes": 578,
+   "bookmarks": 312,
+   "views": 38945,
+   "metricsCheckedAt": "2026-10-15T12:19:02+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/ChrisGPT/status/2109570757579649086",
+   "likes": 506,
+   "bookmarks": 194,
+   "views": 26159,
+   "metricsCheckedAt": "2026-10-15T12:19:02+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/imjustnewatai/status/2109811005395996875",
+   "likes": 75,
+   "bookmarks": 12,
+   "views": 5022,
+   "metricsCheckedAt": "2026-10-15T12:19:02+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/imjustnewatai/status/2109821687151690008",
+   "likes": 27,
+   "bookmarks": 2,
+   "views": 2676,
+   "metricsCheckedAt": "2026-10-15T12:19:03+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/romance0x/status/2109704094126682274",
+   "likes": 19,
+   "bookmarks": 2,
+   "views": 820,
+   "metricsCheckedAt": "2026-10-15T12:19:03+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/Airo_07/status/2109658160269344801",
+   "likes": 10,
+   "bookmarks": 4,
+   "views": 853,
+   "metricsCheckedAt": "2026-10-15T12:19:03+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/imjustnewatai/status/2109824086582890931",
+   "likes": 11,
+   "bookmarks": 2,
+   "views": 1631,
+   "metricsCheckedAt": "2026-10-15T12:19:03+00:00"
   }
  ]
 }
