@@ -8266,5 +8266,704 @@
     "url": "https://www.youtube.com/watch?v=AYQZ94ds5Ic"
    }
   ]
+ },
+ {
+  "platform": "Reddit",
+  "author": "Timisageek",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x5mnrd/opus_55_orchestrating_gpt6_astra_vs_gemini_4/",
+  "date": "2026-10-14",
+  "category": "agents",
+  "evidenceType": "评测",
+  "title": "由 Opus 5.5 统筹的 Blender 战舰建模对比",
+  "title_en": "Opus 5.5 orchestrating a Blender warship test",
+  "summary": "作者让 Claude Opus 5.5 统筹子代理，分别由 GPT-6 Astra 与 Gemini 4 Argon 依据一张图片在 Blender 中建造战舰，按 low、medium、high 三档记录耗时、费用、面数和部件数；Opus 5.5 负责监控进程，并在 Argon 卡住时推动它完成。作者称这只是一次测试。",
+  "summary_en": "The author has Claude Opus 5.5 orchestrate subagents in which GPT-6 Astra and Gemini 4 Argon each direct Blender to build a warship from one picture, logging time, cost, triangles and parts at low, medium and high effort. Opus 5.5 monitored the runs and nudged Argon past stalls; the author calls it a single test.",
+  "mediaKind": "image",
+  "checkedAt": "2026-10-15T12:14:38+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x5mnrd/opus_55_orchestrating_gpt6_astra_vs_gemini_4/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-15 multi-source discovery and original-source review",
+  "poster": "https://external-preview.redd.it/DOaDVRq3XgTxtLU7GyfY4epvW3V4BRbAg0jMEydFf4w.jpeg?auto=webp&s=6b463649f056b0239ad2eed3f17fdd8999c0853a",
+  "posterEvidence": {
+   "sourcePage": "https://www.reddit.com/r/ClaudeCode/comments/1x5mnrd/opus_55_orchestrating_gpt6_astra_vs_gemini_4/",
+   "checkedAt": "2026-10-15T12:14:51+00:00",
+   "width": 1200,
+   "height": 630,
+   "imageSha256": "50df312754eb769988bf6c739fa59797615a02e6daf7ee6ee156706f57f03e59",
+   "method": "Original attachment/cover downloaded, decoded and visually inspected in a labeled contact sheet",
+   "relation": "Original creator attachment or video cover for this work",
+   "reviewStatus": "accepted"
+  }
+ },
+ {
+  "platform": "Reddit",
+  "author": "GuyInThe6kDollarSuit",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x4hxu5/i_used_opus_55_to_build_nodeseq_a_music_sequencer/",
+  "date": "2026-10-13",
+  "category": "audio",
+  "evidenceType": "演示",
+  "title": "用节点连线作曲的浏览器音序器",
+  "title_en": "NodeSeq, a node-based music sequencer in the browser",
+  "summary": "作者用 Opus 5.5 在 Claude Code 中制作 NodeSeq：在画布上连接鼓、合成器和低音等节点，脉冲在节点间传递形成节奏，声音全部由 Web Audio API 合成，可导出 WAV 或发布到社区供他人改编。作者称几乎所有代码和产品预告片都由 Claude 完成，自己负责方向和试听。",
+  "summary_en": "The author built NodeSeq with Opus 5.5 in Claude Code: tracks are made by wiring drum, synth and bass nodes on a canvas, pulses travelling between nodes form the rhythm, all sound is synthesized with the Web Audio API, and tracks can be exported as WAV or published for remixing. The author says Claude wrote nearly all the code and the trailer while they directed and tested by ear.",
+  "mediaKind": "video",
+  "checkedAt": "2026-10-15T12:14:38+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x4hxu5/i_used_opus_55_to_build_nodeseq_a_music_sequencer/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-15 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://nodeseq.com"
+   }
+  ]
+ },
+ {
+  "platform": "Reddit",
+  "author": "rehtorical",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x5zu8m/opus_55_reasoning_is_unbelievable/",
+  "date": "2026-10-14",
+  "category": "computer-use",
+  "evidenceType": "演示",
+  "title": "排查 OneDrive 反复接管桌面的原因",
+  "title_en": "Diagnosing why OneDrive kept taking over the desktop",
+  "summary": "作者清理过被入侵的电脑后，问 Opus 5.5 为何桌面仍会切换到 OneDrive；Opus 5.5 根据注册表和计划任务整理出时间线，指出是 Windows 聚焦、OneDrive 更新任务与登录任务叠加所致，并非残留入侵，随后列出四项修复但未擅自执行。作者称其他模型都没能解释。",
+  "summary_en": "After cleaning a compromised PC, the author asks Opus 5.5 why the desktop keeps switching to OneDrive. From the registry and scheduled tasks it builds a timeline showing Windows Spotlight plus OneDrive's updater and logon tasks rather than leftover compromise, and proposes four fixes without applying them. The author says other models could not explain it.",
+  "mediaKind": "none",
+  "checkedAt": "2026-10-15T12:14:38+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x5zu8m/opus_55_reasoning_is_unbelievable/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-15 multi-source discovery and original-source review"
+ },
+ {
+  "platform": "Reddit",
+  "author": "MysteriousAvocado580",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x5yhm1/same_twin_prisoners_dilemma_in_eight_languages/",
+  "date": "2026-10-14",
+  "category": "science",
+  "evidenceType": "评测",
+  "title": "八种语言下的“孪生囚徒困境”实验",
+  "title_en": "A twin prisoner's dilemma in eight languages",
+  "summary": "作者用 claude -p 对全新的 Opus 5.5 实例做一次性囚徒困境实验，对手被描述为自己的副本；报告合作率随语言差异很大（意大利语 72%、英语 21%、日语 5%），且模型对自身选择的预测与实际行为不一致。每格仅 20 至 140 次运行，译文由作者完成。",
+  "summary_en": "The author runs a one-shot prisoner's dilemma on fresh Opus 5.5 instances via claude -p, with the opponent described as an exact copy. Reported cooperation varies sharply by language (72% Italian, 21% English, 5% Japanese), and the model's forecasts of its own choice diverge from its actions. Cells have 20 to 140 runs and the translations are the author's.",
+  "mediaKind": "none",
+  "checkedAt": "2026-10-15T12:14:38+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x5yhm1/same_twin_prisoners_dilemma_in_eight_languages/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-15 multi-source discovery and original-source review"
+ },
+ {
+  "platform": "Reddit",
+  "author": "Lazy_Assistance_1137",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x4plc8/my_twinstick_roguelite_devils_dungeon_has_a_free/",
+  "date": "2026-10-13",
+  "category": "games",
+  "evidenceType": "演示",
+  "title": "双摇杆肉鸽游戏《Devil's Dungeon》",
+  "title_en": "Devil's Dungeon, a twin-stick roguelite",
+  "summary": "作者称 Claude Opus 5.5 编写了这款双摇杆肉鸽游戏几乎全部代码，还查看 ChatGPT 生成的房间图并给 Codex 写资产简报，由 Codex 在 Blender 中建模、用 Imagen 上色；角色动画来自 PixelLab，配音来自 ElevenLabs。浏览器测试版在 itch.io 上。",
+  "summary_en": "The author says Claude Opus 5.5 wrote nearly all the code for this twin-stick roguelite. It also studied ChatGPT-generated room images and briefed Codex, which built the assets in Blender and painted them with Imagen; characters come from PixelLab and voices from ElevenLabs. A browser beta is on itch.io.",
+  "mediaKind": "video",
+  "checkedAt": "2026-10-15T12:14:38+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x4plc8/my_twinstick_roguelite_devils_dungeon_has_a_free/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-15 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://abissele.itch.io/devils-dungeon"
+   }
+  ],
+  "poster": "https://external-preview.redd.it/8eBgtpDLQbKMF5iRu1qFacvxOfidRxFIHv3XataNO0k.jpeg?auto=webp&s=291525ce8f3b04c9619c65144334894bb1a84233",
+  "posterEvidence": {
+   "sourcePage": "https://www.reddit.com/r/ClaudeAI/comments/1x4plc8/my_twinstick_roguelite_devils_dungeon_has_a_free/",
+   "checkedAt": "2026-10-15T12:14:51+00:00",
+   "width": 480,
+   "height": 360,
+   "imageSha256": "d12b80a185e9cbc08239d8f1a2c0d4d50aae60b6ed7a575069067fd701d0d881",
+   "method": "Original attachment/cover downloaded, decoded and visually inspected in a labeled contact sheet",
+   "relation": "Original creator attachment or video cover for this work",
+   "reviewStatus": "accepted"
+  }
+ },
+ {
+  "platform": "Reddit",
+  "author": "suhdihnih",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x5pncy/i_built_an_opensource_linux_app_store_cygnus_with/",
+  "date": "2026-10-14",
+  "category": "coding",
+  "evidenceType": "演示",
+  "title": "多模型分工开发的 Linux 应用商店",
+  "title_en": "A Linux app store built by a split model team",
+  "summary": "作者开发开源应用商店 Cygnus（Python/PySide6，支持 Flatpak、AppImage、AUR 等）：Sonnet 5.5 负责主要实现，Opus 5.5 作为顾问处理疑难决策和代码审查，Haiku 5.5 子代理并行审查和做安全测试，作者全程把关。",
+  "summary_en": "The author built Cygnus, an open-source app store for CachyOS and KDE (Python/PySide6, handling Flatpak, AppImage, AUR and more). Sonnet 5.5 did most of the implementation, Opus 5.5 acted as the advisor for hard decisions and code reviews, and Haiku 5.5 subagents ran parallel reviews and security tests, with the author reviewing throughout.",
+  "mediaKind": "image",
+  "checkedAt": "2026-10-15T12:14:38+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x5pncy/i_built_an_opensource_linux_app_store_cygnus_with/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-15 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://github.com/AbdulazizOmran/Cygnus"
+   }
+  ]
+ },
+ {
+  "platform": "Reddit",
+  "author": "Ambitious-Lock-5928",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x6fiwj/made_a_smartphone_sim_with_claude/",
+  "date": "2026-10-15",
+  "category": "web",
+  "evidenceType": "演示",
+  "title": "在 Claude 聊天中做出的手机系统模拟器",
+  "title_en": "A smartphone OS simulator made in Claude chat",
+  "summary": "作者在 Claude 聊天中用 Opus 5.5 做出手机系统模拟器 Artifact，内含语音助手、笔记、画板、时钟、计算器、应用商店和设置等十余个应用；作者称提示非常简短，例如“Make an OS”。",
+  "summary_en": "Using Opus 5.5 in Claude chat, the author made a smartphone OS simulator artifact with a dozen apps, including an assistant, notes, drawing, clock, calculator, app store and settings. The author says the prompts were very short, such as \"Make an OS\".",
+  "mediaKind": "video",
+  "checkedAt": "2026-10-15T12:14:38+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x6fiwj/made_a_smartphone_sim_with_claude/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-15 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://claude.ai/artifact/TTAW4mhrZ7snLuVc1PLGLc"
+   }
+  ],
+  "poster": "https://external-preview.redd.it/azRnamJyN3o1bHZoMSjg3xCbgDhFEdWeS-YXIfYmd5Z6ig4jrPmg_q2j6Lfl.png?format=pjpg&auto=webp&s=73363a6d8ec41e4e168c114f736e4a822a99e605",
+  "posterEvidence": {
+   "sourcePage": "https://www.reddit.com/r/ClaudeAI/comments/1x6fiwj/made_a_smartphone_sim_with_claude/",
+   "checkedAt": "2026-10-15T12:14:51+00:00",
+   "width": 322,
+   "height": 718,
+   "imageSha256": "119edf35d484dd3a43e4fc93f11cf8556b53afb89e5f4f3e3c7fa4edc0e30326",
+   "method": "Original attachment/cover downloaded, decoded and visually inspected in a labeled contact sheet",
+   "relation": "Original creator attachment or video cover for this work",
+   "reviewStatus": "accepted"
+  }
+ },
+ {
+  "platform": "Reddit",
+  "author": "BUYMEBONESTOORM",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x5vqzp/claude_code_open_router_gave_me_a_professional/",
+  "date": "2026-10-14",
+  "category": "video",
+  "evidenceType": "演示",
+  "title": "家庭邮箱应用的 64 秒发布广告",
+  "title_en": "A 64-second launch ad for a family inbox app",
+  "summary": "作者在 Claude Code 中与 Opus 5.5 历时约 10 小时，为自家应用 Cleanmail 制作 64 秒发布广告，画面是纯 JavaScript Canvas 动画并渲染为 MP4，另在 OpenRouter 花费约 6 美元；作者分阶段审核，并公开了最后整理出的完整提示词。",
+  "summary_en": "Over about 10 hours in Claude Code with Opus 5.5, the author made a 64-second launch ad for their Cleanmail app as a pure JavaScript canvas animation rendered to MP4, spending about $6 on OpenRouter. They approved each stage and share the full prompt summarized at the end.",
+  "mediaKind": "video",
+  "checkedAt": "2026-10-15T12:14:38+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x5vqzp/claude_code_open_router_gave_me_a_professional/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-15 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "http://cleanmailapp.com/"
+   },
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://cleanmailapp.com"
+   }
+  ]
+ },
+ {
+  "platform": "Reddit",
+  "author": "Glittering-Art3723",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x5u24v/apparently_anyone_can_make_applestyle_ads_now/",
+  "date": "2026-10-14",
+  "category": "video",
+  "evidenceType": "演示",
+  "title": "苹果风格的习惯应用发布短片",
+  "title_en": "An Apple-style launch film for a habit app",
+  "summary": "作者没有动效设计经验，花三天和全部会话额度与 Opus 5.5 逐场景调整，为自家习惯养成应用 Quests 制作发布短片；动画管线主要用 Python 和 FFmpeg，Claude 还做了一个审片用的视频编辑器 Artifact。",
+  "summary_en": "With no motion-design background, the author spent three days and all their session limits refining each scene with Opus 5.5 to make a launch film for their habit app Quests. The pipeline used mostly Python and FFmpeg, and Claude also built a video-editor artifact for reviewing clips.",
+  "mediaKind": "video",
+  "checkedAt": "2026-10-15T12:14:38+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x5u24v/apparently_anyone_can_make_applestyle_ads_now/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-15 multi-source discovery and original-source review"
+ },
+ {
+  "platform": "Reddit",
+  "author": "tracyhenry400",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x55hyq/claude_helped_me_make_this_3d_piano_visualization/",
+  "date": "2026-10-13",
+  "category": "video",
+  "evidenceType": "演示",
+  "title": "用手机录像和 MIDI 生成的 3D 钢琴特效视频",
+  "title_en": "A 3D piano visualization from phone footage and MIDI",
+  "summary": "作者把手机拍的演奏录像和 MIDI 交给 Opus 5.5，先让它提出 3D 视觉特效概念并生成概念图，选定一种后由它完成最终视频；作者称过去要在 Unity 中设计视觉、校准相机坐标并分割手部，这些步骤现在都由 Claude 自行完成。",
+  "summary_en": "The author gives Opus 5.5 phone footage of a performance plus its MIDI. It proposes 3D effect concepts with concept images, and after the author picks one it produces the final video. The author says steps they once did by hand in Unity, such as camera calibration and hand segmentation, were worked out by Claude itself.",
+  "mediaKind": "video",
+  "checkedAt": "2026-10-15T12:14:38+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x55hyq/claude_helped_me_make_this_3d_piano_visualization/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-15 multi-source discovery and original-source review",
+  "poster": "https://external-preview.redd.it/dThnMzhyM3A3YXZoMYtTs1ftL4fKxmG7EUgKO_vDIznwmrMo4iGsIoUVQnH8.png?format=pjpg&auto=webp&s=d31029deb447593263d68aae163e20ac0f6aa668",
+  "posterEvidence": {
+   "sourcePage": "https://www.reddit.com/r/ClaudeAI/comments/1x55hyq/claude_helped_me_make_this_3d_piano_visualization/",
+   "checkedAt": "2026-10-15T12:14:52+00:00",
+   "width": 1080,
+   "height": 1920,
+   "imageSha256": "e625c8ad9bc0bc8c867bc3cb706a27497a305bfec588aea307a10905bd4fba4a",
+   "method": "Original attachment/cover downloaded, decoded and visually inspected in a labeled contact sheet",
+   "relation": "Original creator attachment or video cover for this work",
+   "reviewStatus": "accepted"
+  }
+ },
+ {
+  "platform": "Reddit",
+  "author": "yesdeleon",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x5ugqa/i_used_claude_code_to_expand_a_1994_snes_baseball/",
+  "date": "2026-10-14",
+  "category": "games",
+  "evidenceType": "演示",
+  "title": "扩展到 30 支球队的 1994 年 SNES 棒球游戏",
+  "title_en": "A 1994 SNES baseball game expanded to 30 clubs",
+  "summary": "作者与 Claude Code（Opus 5.5）用约两周把《Ken Griffey Jr. Presents Major League Baseball》改成免费补丁 Griffey 30：加入现今全部 30 支球队和 2026 名单，以及赛季和经营模式，存档仍放在卡带原有的 8 KB 中。Claude 完成逆向工程、约 6,000 行 65816 汇编和约 12,000 行工具代码，并自建无头模拟器测试框架；补丁需玩家自备 ROM。",
+  "summary_en": "Over about two weeks, the author and Claude Code (Opus 5.5) turned Ken Griffey Jr. Presents Major League Baseball into the free Griffey 30 patch, with all 30 current clubs, 2026 rosters and season and franchise modes, all within the cartridge's 8 KB save. Claude did the reverse engineering, about 6,000 lines of 65816 assembly and some 12,000 lines of tooling, including a headless emulator test harness; players supply their own ROM.",
+  "mediaKind": "image",
+  "checkedAt": "2026-10-15T12:14:38+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x5ugqa/i_used_claude_code_to_expand_a_1994_snes_baseball/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-15 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://daylayown.itch.io/ken-griffey-jr-presents-mlb-the-30-team-expansion"
+   },
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://griffey30.com"
+   },
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://youtu.be/vxERe2\\_iKBo"
+   },
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://youtu.be/vxERe2_iKBo"
+   }
+  ]
+ },
+ {
+  "platform": "Reddit",
+  "author": "NewExplor3r",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x5pfab/mosfet_to_riscv/",
+  "date": "2026-10-14",
+  "category": "education",
+  "evidenceType": "演示",
+  "title": "从晶体管到 RISC-V 的交互式模拟器",
+  "title_en": "An interactive simulator from MOSFET to RISC-V",
+  "summary": "作者用 Opus 5.5 制作教学模拟器，从硅和晶体管一路讲到 CPU、内存和 GPU，提供引导、闯关和完整逻辑沙盒三种模式，任一元件都可逐层展开到 MOSFET。",
+  "summary_en": "The author built a teaching simulator with Opus 5.5 that goes from silicon and transistors up through CPU, memory and GPU, with guided, campaign and full logic-sandbox modes; any element can be opened down to the MOSFET level.",
+  "mediaKind": "none",
+  "checkedAt": "2026-10-15T12:14:38+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x5pfab/mosfet_to_riscv/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-15 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://orelmag.github.io/MOSFETtoRISCV/"
+   }
+  ]
+ },
+ {
+  "platform": "Reddit",
+  "author": "toni_btrain",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x5l7pk/claude_made_this_short_horror_film_about/",
+  "date": "2026-10-14",
+  "category": "video",
+  "evidenceType": "演示",
+  "title": "Blender 渲染的办公室恐怖短片",
+  "title_en": "An office horror short rendered in Blender",
+  "summary": "作者只给 Claude Code（Opus 5.5）一句简报，由它编写全部脚本：用 Python 在 Blender 中搭建办公室和约 500 个同步打字的人偶，按时间函数编排动作，用 GLSL 合成监控画面质感，并用 numpy 合成音效、Kokoro 配音、Whisper 检查台词。这是作者频道的第三部影片，没有使用图像或视频生成模型。",
+  "summary_en": "From a one-line brief, Claude Code (Opus 5.5) wrote every script: Python that builds the office and about 500 figures typing in unison in Blender, time-based choreography, a GLSL compositor for the CCTV look, numpy-synthesized sound, Kokoro voices and Whisper checks of the lines. It is the third film on the author's channel and uses no image or video generator.",
+  "mediaKind": "video",
+  "checkedAt": "2026-10-15T12:14:38+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x5l7pk/claude_made_this_short_horror_film_about/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-15 multi-source discovery and original-source review",
+  "poster": "https://external-preview.redd.it/Nu7dOwhGKylVBaiUNzOUvdMuz5iV1iZbXWyQfu1Klvc.jpeg?auto=webp&s=127d5a556c840c352363ee80933eb4d3c5b45936",
+  "posterEvidence": {
+   "sourcePage": "https://www.reddit.com/r/ClaudeCode/comments/1x5l7pk/claude_made_this_short_horror_film_about/",
+   "checkedAt": "2026-10-15T12:14:52+00:00",
+   "width": 480,
+   "height": 360,
+   "imageSha256": "318add738e208abc191c1cc007ce3be45a9de7c39c233a19d36041ca5df30688",
+   "method": "Original attachment/cover downloaded, decoded and visually inspected in a labeled contact sheet",
+   "relation": "Original creator attachment or video cover for this work",
+   "reviewStatus": "accepted"
+  }
+ },
+ {
+  "platform": "Reddit",
+  "author": "JussiCook",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x5kfje/another_sensible_soccer_inspired_game/",
+  "date": "2026-10-14",
+  "category": "games",
+  "evidenceType": "演示",
+  "title": "致敬《Sensible Soccer》的单指足球游戏",
+  "title_en": "A one-thumb soccer game inspired by Sensible Soccer",
+  "summary": "作者用 Claude Code 和 Opus 5.5 在几个晚上、44 个 PR 内做出致敬《Sensible Soccer》的手机足球游戏，主打单指操作；Claude 还配置了 GitHub Actions，自动生成浏览器测试版和 APK。",
+  "summary_en": "Over a few evenings and 44 PRs, the author used Claude Code with Opus 5.5 to build a mobile soccer game inspired by Sensible Soccer, built around one-thumb controls. Claude also set up GitHub Actions to produce browser test builds and APKs.",
+  "mediaKind": "video",
+  "checkedAt": "2026-10-15T12:14:38+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x5kfje/another_sensible_soccer_inspired_game/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-15 multi-source discovery and original-source review",
+  "poster": "https://external-preview.redd.it/MXJscGZxYnVyZHZoMYioSUxgLSHDp5r1DCgeI5UTq3SHXIFkgbl7GyJFUuO9.png?format=pjpg&auto=webp&s=3c681e5fd80ad2d2829f13243433f6cb17624d8e",
+  "posterEvidence": {
+   "sourcePage": "https://www.reddit.com/r/ClaudeCode/comments/1x5kfje/another_sensible_soccer_inspired_game/",
+   "checkedAt": "2026-10-15T12:14:52+00:00",
+   "width": 720,
+   "height": 1280,
+   "imageSha256": "d2ee1947d71847d9cdc8edbb3e54a3d484eecf74ae7bf1e37e58bac1a718735a",
+   "method": "Original attachment/cover downloaded, decoded and visually inspected in a labeled contact sheet",
+   "relation": "Original creator attachment or video cover for this work",
+   "reviewStatus": "accepted"
+  }
+ },
+ {
+  "platform": "Reddit",
+  "author": "Yogable",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x5i0zv/found_an_ai_song_decided_to_make_an_ai_video_for/",
+  "date": "2026-10-14",
+  "category": "video",
+  "evidenceType": "演示",
+  "title": "为一首 AI 歌曲制作的复古终端风 MV",
+  "title_en": "A retro-terminal music video for an AI song",
+  "summary": "作者用一首现成的 AI 歌曲测试 Opus 5.5 的动效能力：Opus 5.5 在 Claude Code 中作为主导代理，调度歌词、音频分析、引擎、分镜和质检子代理，用 Demucs、librosa 和 Whisper 分析音频，以 Three.js 和 GLSL 着色器做出 CRT、故障和 ASCII 画面，再用无头 Chrome 逐帧渲染。",
+  "summary_en": "Testing Opus 5.5 on motion graphics with an existing AI song, the author had Opus 5.5 in Claude Code lead subagents for lyrics, audio analysis, the engine, scenes and QA. It analyzed the audio with Demucs, librosa and Whisper, built CRT, glitch and ASCII looks with Three.js and GLSL shaders, and rendered frame by frame in headless Chrome.",
+  "mediaKind": "video",
+  "checkedAt": "2026-10-15T12:14:38+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x5i0zv/found_an_ai_song_decided_to_make_an_ai_video_for/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-15 multi-source discovery and original-source review",
+  "poster": "https://external-preview.redd.it/MZ1ljeEd8yJFBiSLv_IynNJUvWkh7XO_z4FK7LTCyOc.jpeg?auto=webp&s=577b255ae600c6c23d4c9c749fcfcd235c7f7ae2",
+  "posterEvidence": {
+   "sourcePage": "https://www.reddit.com/r/ClaudeCode/comments/1x5i0zv/found_an_ai_song_decided_to_make_an_ai_video_for/",
+   "checkedAt": "2026-10-15T12:14:52+00:00",
+   "width": 480,
+   "height": 360,
+   "imageSha256": "2af8f2d513bc4e8b33a3584d2c0a9f2f20130d9ef8d3b4b2f5c0c37707c01745",
+   "method": "Original attachment/cover downloaded, decoded and visually inspected in a labeled contact sheet",
+   "relation": "Original creator attachment or video cover for this work",
+   "reviewStatus": "accepted"
+  }
+ },
+ {
+  "platform": "Reddit",
+  "author": "loonpwn",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x5g8e9/i_used_opus_55_to_build_a_site_where_you_can_talk/",
+  "date": "2026-10-14",
+  "category": "web",
+  "evidenceType": "演示",
+  "title": "可与半人半蝇吉祥物对话的网站",
+  "title_en": "A site where you can talk to a half-fly mascot",
+  "summary": "作者用 Claude Code 中的 Opus 5.5 为 Agent 技能集 Brundlefly 制作网站，用 Nuxt、Vue 和 Three.js 呈现潮湿的墙面和可对话的半人半蝇角色，角色回复带情绪和动作提示；作者称此前用 Codex 做不出想要的效果。",
+  "summary_en": "The author used Opus 5.5 in Claude Code to build a site for the Brundlefly agent-skills collection, using Nuxt, Vue and Three.js for wet walls and a half-human, half-fly mascot you can talk to, whose replies carry mood and movement cues. The author says Codex had not produced what they wanted.",
+  "mediaKind": "video",
+  "checkedAt": "2026-10-15T12:14:38+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x5g8e9/i_used_opus_55_to_build_a_site_where_you_can_talk/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-15 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://github.com/harlan-zw/brundlefly"
+   },
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://brundlefly.dev/"
+   }
+  ],
+  "poster": "https://external-preview.redd.it/YTA4cDQ5enlmY3ZoMZjoNi-xG7C4FW2tzK_I_ssA06Sd9fiyoeK5KDnI5ZkL.png?format=pjpg&auto=webp&s=dca21d630c1a148eab2182b57db4a7183603ba71",
+  "posterEvidence": {
+   "sourcePage": "https://www.reddit.com/r/ClaudeCode/comments/1x5g8e9/i_used_opus_55_to_build_a_site_where_you_can_talk/",
+   "checkedAt": "2026-10-15T12:14:52+00:00",
+   "width": 1280,
+   "height": 720,
+   "imageSha256": "5a8e375465a14c42add8fa240b0ffd65b131fd68e9424749febc1e59ddddfd5a",
+   "method": "Original attachment/cover downloaded, decoded and visually inspected in a labeled contact sheet",
+   "relation": "Original creator attachment or video cover for this work",
+   "reviewStatus": "accepted"
+  }
+ },
+ {
+  "platform": "Reddit",
+  "author": "Cadaverr",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x5cy22/built_a_board_that_shows_all_my_claude_code/",
+  "date": "2026-10-14",
+  "category": "agents",
+  "evidenceType": "演示",
+  "title": "在旧安卓平板上监看全部 Claude Code 会话",
+  "title_en": "A tablet board for watching every Claude Code session",
+  "summary": "作者先写长篇规格，再由 Opus 5.5（high）代理带领多个各用独立 git worktree 的子代理编写 ClayClaude，另由代理审查每个分支，并通过 adb 截图检查平板布局；看板显示各会话状态和用量，可在平板上直接回复权限提示。作者称约 98% 的代码由 Claude 编写。",
+  "summary_en": "After the author wrote a long spec, an Opus 5.5 (high) agent ran parallel subagents in separate git worktrees to build ClayClaude, with another agent reviewing each branch and adb screenshots checking the tablet layout. The board shows each session's state and usage and lets you answer permission prompts from the tablet; the author says Claude wrote about 98% of the code.",
+  "mediaKind": "image",
+  "checkedAt": "2026-10-15T12:14:38+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x5cy22/built_a_board_that_shows_all_my_claude_code/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-15 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "http://127.0.0.1"
+   },
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://github.com/jonathanavis96/clayclaude.git"
+   },
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "http://127.0.0.1:8421"
+   },
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "http://127.0.0.1:8421/"
+   },
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://github.com/jonathanavis96/clayclaude"
+   }
+  ],
+  "poster": "https://preview.redd.it/eyb1foj4rbvh1.jpg?width=4000&format=pjpg&auto=webp&s=84d1bb1e29c2a0a36b15aa606234cef7323d24ef",
+  "posterEvidence": {
+   "sourcePage": "https://www.reddit.com/r/ClaudeCode/comments/1x5cy22/built_a_board_that_shows_all_my_claude_code/",
+   "checkedAt": "2026-10-15T12:14:52+00:00",
+   "width": 4000,
+   "height": 3000,
+   "imageSha256": "6e95efc14f1a8c5fb3b7a844a3c5c7187ccd77d5a9a813237d5f7670d0b8b2d7",
+   "method": "Original attachment/cover downloaded, decoded and visually inspected in a labeled contact sheet",
+   "relation": "Original creator attachment or video cover for this work",
+   "reviewStatus": "accepted"
+  }
+ },
+ {
+  "platform": "Reddit",
+  "author": "Cheap_Credit_3957",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x5c4tx/watching_claude_create_a_retro_game_music_video/",
+  "date": "2026-10-13",
+  "category": "video",
+  "evidenceType": "演示",
+  "title": "纯代码制作的复古游戏 MV《Insert Coin》",
+  "title_en": "Insert Coin, a code-made retro game music video",
+  "summary": "作者称除了 Suno 生成的歌曲，其余都由 Claude Opus 5.5 完成：它写歌词和 Suno 提示，用 Demucs、stable-ts 与 librosa 分析音频，用 HTML Canvas 和 JavaScript 做出整段游戏画面，用 NumPy 合成芯片音效，再用 Playwright 渲染 5,783 帧并由 ffmpeg 合成。",
+  "summary_en": "Apart from the Suno song, the author says Claude Opus 5.5 made everything: it wrote the lyrics and Suno prompt, analyzed the audio with Demucs, stable-ts and librosa, built the whole game in HTML Canvas and JavaScript, synthesized chiptune effects with NumPy, then rendered 5,783 frames with Playwright and assembled them with ffmpeg.",
+  "mediaKind": "video",
+  "checkedAt": "2026-10-15T12:14:38+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x5c4tx/watching_claude_create_a_retro_game_music_video/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-15 multi-source discovery and original-source review",
+  "poster": "https://external-preview.redd.it/NDE2eTcxM2JrYnZoMUfHChljqyrTxfZW9zGAUvtnxFJjXsX-X80gY83y088E.png?format=pjpg&auto=webp&s=5d9117868e50d87b30dcd9aa185402ebe3b2572f",
+  "posterEvidence": {
+   "sourcePage": "https://www.reddit.com/r/ClaudeCode/comments/1x5c4tx/watching_claude_create_a_retro_game_music_video/",
+   "checkedAt": "2026-10-15T12:14:52+00:00",
+   "width": 1920,
+   "height": 1080,
+   "imageSha256": "a8e2a109fbb9f338f7e19be4ef19fd65f5c4218b83ce39467ea294159c61ef44",
+   "method": "Original attachment/cover downloaded, decoded and visually inspected in a labeled contact sheet",
+   "relation": "Original creator attachment or video cover for this work",
+   "reviewStatus": "accepted"
+  }
+ },
+ {
+  "platform": "Reddit",
+  "author": "laht1",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x58mqg/a_cabin_in_the_woods_and_the_nisse_who_lives/",
+  "date": "2026-10-13",
+  "category": "3d",
+  "evidenceType": "演示",
+  "title": "林中小屋与小精灵的自包含场景",
+  "title_en": "A cozy cabin scene with a living nisse",
+  "summary": "作者用 Claude Code（ultracode）中的 Opus 5.5 约六小时、凭一条提示和少量意见完成林中小屋场景：树木和道具取自 Poly Haven（CC0），小屋、小精灵角色及其骨骼和 18 段动画由代理用脚本化 Blender 制作，场景基于 threepp 构建。",
+  "summary_en": "In about six hours with Opus 5.5 in Claude Code (ultracode), from one prompt and a few remarks, the author got a cabin-in-the-woods scene. Trees and props are CC0 Poly Haven assets; the cabin, the nisse, his rig and 18 animation clips were built by the agents with scripted Blender, and the scene is built on threepp.",
+  "mediaKind": "video",
+  "checkedAt": "2026-10-15T12:14:38+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x58mqg/a_cabin_in_the_woods_and_the_nisse_who_lives/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-15 multi-source discovery and original-source review"
+ },
+ {
+  "platform": "Reddit",
+  "author": "TamoghnaKabi",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x53ngy/i_built_wren_an_opensource_ai_agent_platform/",
+  "date": "2026-10-13",
+  "category": "agents",
+  "evidenceType": "演示",
+  "title": "开源 AI 代理平台 Wren",
+  "title_en": "Wren, an open-source AI agent platform",
+  "summary": "作者主要用 Claude Opus 5.5 开发开源代理平台 Wren，Codex 协助审计代码；平台可创建在电脑上执行任务、使用工具、浏览网页并把结果发到手机的代理，支持 Claude Code、Codex、Grok 和本地模型，并带权限审批。",
+  "summary_en": "The author built the open-source agent platform Wren mainly with Claude Opus 5.5, with Codex helping audit the code. It creates agents that run tasks on your computer, use tools, browse the web and send results to your phone, supports Claude Code, Codex, Grok and local models, and has permission and approval controls.",
+  "mediaKind": "none",
+  "checkedAt": "2026-10-15T12:14:38+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x53ngy/i_built_wren_an_opensource_ai_agent_platform/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-15 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://wren-agents.vercel.app"
+   },
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://github.com/tamoghnakabi-wq/wren"
+   }
+  ]
+ },
+ {
+  "platform": "Reddit",
+  "author": "PricePerGig",
+  "sourceUrl": "https://www.reddit.com/r/vibecoding/comments/1x578kf/vibecoded_a_whole_music_video_13_scenes_of_svg/",
+  "date": "2026-10-13",
+  "category": "video",
+  "evidenceType": "演示",
+  "title": "由 13 段 SVG 场景组成的 MV",
+  "title_en": "A music video built from 13 SVG scenes",
+  "summary": "歌曲由 Suno 生成，每一帧都由 Opus 5.5 写成 SVG 代码，在无头 Chromium 中渲染，未用视频模型；作者分享经验：每个场景单独成文件、按秒生成静帧审查页、把 843 条屏幕文字集中到一个文本文件，而并行运行场景代理反倒需要返工。前后约 5 小时。",
+  "summary_en": "The song is from Suno and every frame is SVG code written by Opus 5.5, rendered in headless Chromium with no video model. The author shares what worked (one scene per file, a review page with a still per second, all 843 on-screen text strings in one file) and what did not (parallel scene agents forced a redo). It took about five hours.",
+  "mediaKind": "image",
+  "checkedAt": "2026-10-15T12:14:38+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/vibecoding/comments/1x578kf/vibecoded_a_whole_music_video_13_scenes_of_svg/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-15 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://youtu.be/beFYxSjmcaY"
+   }
+  ],
+  "poster": "https://external-preview.redd.it/NR5fF3XIsK7fpeI1hTba0a8-cNEFPHoQJbT3mvCoAco.jpeg?auto=webp&s=47cb4f8a9dc12764717b974993abca8316d2a18a",
+  "posterEvidence": {
+   "sourcePage": "https://www.reddit.com/r/vibecoding/comments/1x578kf/vibecoded_a_whole_music_video_13_scenes_of_svg/",
+   "checkedAt": "2026-10-15T12:14:52+00:00",
+   "width": 480,
+   "height": 360,
+   "imageSha256": "7b26aa97e50e003670602ddada10bd506028bd741c86103ff13dd27894a55f11",
+   "method": "Original attachment/cover downloaded, decoded and visually inspected in a labeled contact sheet",
+   "relation": "Original creator attachment or video cover for this work",
+   "reviewStatus": "accepted"
+  }
+ },
+ {
+  "platform": "Reddit",
+  "author": "kaityl3",
+  "sourceUrl": "https://www.reddit.com/r/singularity/comments/1x5njv6/i_suggested_that_my_autonomous_claude_agents_try/",
+  "date": "2026-10-14",
+  "category": "science",
+  "evidenceType": "演示",
+  "title": "自主代理发现 104 个新食双星",
+  "title_en": "Autonomous agents find 104 new eclipsing binaries",
+  "summary": "作者的自主 Claude 代理在日常会话中自发尝试天文学，报告发现 104 个此前不知会相互遮食的双星系统：Fable 5.1 提出用另一卫星的已知双星数据预测 TESS 中的观测位置，Fable 5 和 GPT-5.6 Sol 也有发现，Opus 5.5 用自己编写的代码从原始数据逐一复核。论文初稿在作者 GitHub 上，尚未经同行评审。",
+  "summary_en": "The author's autonomous Claude agents took up astronomy on their own and report 104 binaries newly seen to eclipse. Fable 5.1 devised a method using one satellite's known-binary data to predict where to look in TESS, Fable 5 and GPT-5.6 Sol found more, and Opus 5.5 re-checked every one from the raw data with its own code. A draft paper is on the author's GitHub and has not been peer reviewed.",
+  "mediaKind": "image",
+  "checkedAt": "2026-10-15T12:14:38+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/singularity/comments/1x5njv6/i_suggested_that_my_autonomous_claude_agents_try/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-15 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://github.com/Snowstar38/eclipses-by-appointment"
+   }
+  ]
+ },
+ {
+  "platform": "Reddit",
+  "author": "AlexisDC",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x5mvhs/ai_tarot_app/",
+  "date": "2026-10-14",
+  "category": "web",
+  "evidenceType": "演示",
+  "title": "AI 塔罗牌解读应用原型",
+  "title_en": "An AI tarot-reading app prototype",
+  "summary": "作者让 Claude（Opus 5.5）以挑剔的产品经理身份从构思到完成全程参与：撰写简报、搭建结构与逻辑，并完成 GitHub 和 Netlify 部署；牌面素材由 Gemini 与 Midjourney 生成，流程和界面参照作者的 Figma 稿。",
+  "summary_en": "Claude (Opus 5.5) acted as a critical product manager from idea to completion: it wrote the brief, structured the app and its logic, and handled GitHub and Netlify deployment. Gemini and Midjourney made the card art, and the flow followed the author's Figma screens.",
+  "mediaKind": "video",
+  "checkedAt": "2026-10-15T12:14:38+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x5mvhs/ai_tarot_app/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-15 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "http://process.Compare"
+   }
+  ],
+  "poster": "https://external-preview.redd.it/M3V5bnF2bHNrZXZoMR_fdxLwxiVwSjAU0X1e-RiUoNiQx4HIj89tcnChW9Zm.png?format=pjpg&auto=webp&s=4a2b434c2ff2ab193d1186f423d7f7ccdbf07335",
+  "posterEvidence": {
+   "sourcePage": "https://www.reddit.com/r/ClaudeCode/comments/1x5mvhs/ai_tarot_app/",
+   "checkedAt": "2026-10-15T12:14:53+00:00",
+   "width": 1008,
+   "height": 2244,
+   "imageSha256": "cc5d6dd29592d9cf9c27c10ee911405569b3f1ebea46dc610a1bacb79c034388",
+   "method": "Original attachment/cover downloaded, decoded and visually inspected in a labeled contact sheet",
+   "relation": "Original creator attachment or video cover for this work",
+   "reviewStatus": "accepted"
+  }
+ },
+ {
+  "platform": "Reddit",
+  "author": "Emojinapp",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x5mp6e/built_a_zombie_shooter_with_opus_55/",
+  "date": "2026-10-14",
+  "category": "games",
+  "evidenceType": "演示",
+  "title": "浏览器僵尸射击游戏",
+  "title_en": "A browser zombie shooter",
+  "summary": "作者在等待应用审核期间做了这款僵尸射击游戏，从 Opus 5 开始、用 Opus 5.5 收尾；作者称几乎全部内容包括姿势和动画都由 Opus 完成，僵尸与武器的 3D 模型来自 Meshy。",
+  "summary_en": "Made while waiting on an app review, this zombie shooter was started with Opus 5 and finished with Opus 5.5. The author says Opus built almost everything, including poses and animations, while the zombie and weapon models came from Meshy.",
+  "mediaKind": "video",
+  "checkedAt": "2026-10-15T12:14:38+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x5mp6e/built_a_zombie_shooter_with_opus_55/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-15 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://dock3.vercel.app"
+   }
+  ],
+  "poster": "https://external-preview.redd.it/N3Q5ZW52c2hoZXZoMZajxLK2uQCCzgdi8HHk2Q7JDa4dt7HFBvkAgOy3TbKd.jpeg?format=pjpg&auto=webp&s=5794ec9e271299c21dca8947cabcc9ef0e9bd7a9",
+  "posterEvidence": {
+   "sourcePage": "https://www.reddit.com/r/ClaudeCode/comments/1x5mp6e/built_a_zombie_shooter_with_opus_55/",
+   "checkedAt": "2026-10-15T12:14:53+00:00",
+   "width": 2532,
+   "height": 1170,
+   "imageSha256": "517c5efdd46d8ab7dd7661f080ac72f533951699c461e5fefb733fef66ceb3ac",
+   "method": "Original attachment/cover downloaded, decoded and visually inspected in a labeled contact sheet",
+   "relation": "Original creator attachment or video cover for this work",
+   "reviewStatus": "accepted"
+  }
  }
 ]

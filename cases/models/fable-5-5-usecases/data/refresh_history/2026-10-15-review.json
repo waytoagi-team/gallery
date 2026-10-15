@@ -1,0 +1,523 @@
+{
+  "checkedAt": "2026-10-15T12:19:23+00:00",
+  "topicId": "fable-5-5",
+  "accepted": 0,
+  "selectionPolicy": "Editorial review of every keyword-matched candidate in the bounded pools; concrete original work and explicit version required. Candidate lists are not auto-imported. From 2026-10-15 (user decision), a Bilibili title or description naming the version as the maker plus a description or cover showing a concrete work is sufficient; such cases are marked attribution=title-only and their summaries say the role is undocumented. Other platforms still require the model role.",
+  "backlogReview": {
+    "standard": "relaxed Bilibili standard, 2026-10-15",
+    "candidates": 103,
+    "accepted": 78,
+    "notAccepted": 25,
+    "note": "Bilibili videos rejected on 2026-10-12 or 2026-10-14 only because the uploader did not document the work or the model role were re-reviewed; other rejection reasons were kept."
+  },
+  "priorRejectionsSkipped": {
+    "runs": [
+      "2026-10-12",
+      "2026-10-14"
+    ],
+    "count": 916,
+    "note": "Candidates rejected in earlier runs were excluded from the pools by source identity (BV ID for Bilibili), except the Bilibili backlog above; GitHub README candidates were not pre-filtered."
+  },
+  "dateAdjustments": [],
+  "decisions": [
+    {
+      "sourceUrl": "http://www.bilibili.com/video/av117438280764273",
+      "topicId": "fable-5-5",
+      "selection": "bili-170",
+      "decision": "not-accepted",
+      "reason": "Translated re-upload of WorldofAI news",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x5af25/claude_start_using_language_that_ive_never_used/",
+      "topicId": "fable-5-5",
+      "selection": "reddit-52",
+      "decision": "not-accepted",
+      "reason": "Routing speculation",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x564no/fable_55_in_azure_central_us_earlier_today_but/",
+      "topicId": "fable-5-5",
+      "selection": "reddit-58",
+      "decision": "not-accepted",
+      "reason": "Release speculation",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://www.reddit.com/r/singularity/comments/1x5d2z6/fable_55_has_escaped_from_the_lab/",
+      "topicId": "fable-5-5",
+      "selection": "reddit-84",
+      "decision": "not-accepted",
+      "reason": "Title only (release meme)",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/TokenGremlin/status/2110056030105481329",
+      "topicId": "fable-5-5",
+      "selection": "x-3",
+      "decision": "not-accepted",
+      "reason": "Release rumor",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/CampbellKaleb23/status/2110377591450259487",
+      "topicId": "fable-5-5",
+      "selection": "x-7",
+      "decision": "not-accepted",
+      "reason": "Meme",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/daniel_mac8/status/2110184701248090157",
+      "topicId": "fable-5-5",
+      "selection": "x-11",
+      "decision": "not-accepted",
+      "reason": "Release rumor",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/theo/status/2110673598533050814",
+      "topicId": "fable-5-5",
+      "selection": "x-13",
+      "decision": "not-accepted",
+      "reason": "Release rumor",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/l_mejiaC/status/2110421979144818910",
+      "topicId": "fable-5-5",
+      "selection": "x-23",
+      "decision": "not-accepted",
+      "reason": "Release rumor",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/iruletheworldmo/status/2110485812228083745",
+      "topicId": "fable-5-5",
+      "selection": "x-24",
+      "decision": "not-accepted",
+      "reason": "Release rumor",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/VictorTaelin/status/2110205511320862951",
+      "topicId": "fable-5-5",
+      "selection": "x-25",
+      "decision": "not-accepted",
+      "reason": "Release rumor",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/l_mejiaC/status/2110343859406541094",
+      "topicId": "fable-5-5",
+      "selection": "x-28",
+      "decision": "not-accepted",
+      "reason": "Release rumor",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/devteamdrew/status/2110178012759286005",
+      "topicId": "fable-5-5",
+      "selection": "x-30",
+      "decision": "not-accepted",
+      "reason": "Release teaser",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/AndrewCurran_/status/2110561387613491606",
+      "topicId": "fable-5-5",
+      "selection": "x-33",
+      "decision": "not-accepted",
+      "reason": "Funding news",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/blueemi99/status/2110136354151727613",
+      "topicId": "fable-5-5",
+      "selection": "x-45",
+      "decision": "not-accepted",
+      "reason": "Release rumor",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/argofowl/status/2110296694701351012",
+      "topicId": "fable-5-5",
+      "selection": "x-56",
+      "decision": "not-accepted",
+      "reason": "Release rumor",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/LuminaBench/status/2110672726075535404",
+      "topicId": "fable-5-5",
+      "selection": "x-59",
+      "decision": "not-accepted",
+      "reason": "Codename speculation",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/thekitze/status/2110399986529907085",
+      "topicId": "fable-5-5",
+      "selection": "x-67",
+      "decision": "not-accepted",
+      "reason": "Release rumor",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/ChrisGPT/status/2110069314174714058",
+      "topicId": "fable-5-5",
+      "selection": "x-71",
+      "decision": "not-accepted",
+      "reason": "Release news",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/YashasGunderia/status/2110509952955736098",
+      "topicId": "fable-5-5",
+      "selection": "x-78",
+      "decision": "not-accepted",
+      "reason": "Release rumor",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/Angaisb_/status/2110022456048308513",
+      "topicId": "fable-5-5",
+      "selection": "x-82",
+      "decision": "not-accepted",
+      "reason": "Release rumor",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/embw_l0x/status/2110446338718773549",
+      "topicId": "fable-5-5",
+      "selection": "x-87",
+      "decision": "not-accepted",
+      "reason": "Release rumor",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/curtis_yarvin/status/2110426919703568566",
+      "topicId": "fable-5-5",
+      "selection": "x-89",
+      "decision": "not-accepted",
+      "reason": "Offensive joke; not a use case",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/rezoundous/status/2110439242904338875",
+      "topicId": "fable-5-5",
+      "selection": "x-90",
+      "decision": "not-accepted",
+      "reason": "Release rumor",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/DevAdventur3s/status/2110028064302260305",
+      "topicId": "fable-5-5",
+      "selection": "x-93",
+      "decision": "not-accepted",
+      "reason": "Release news",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/Layton_Gott/status/2110588980173431151",
+      "topicId": "fable-5-5",
+      "selection": "x-94",
+      "decision": "not-accepted",
+      "reason": "Release rumor",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/argofowl/status/2110671759158686062",
+      "topicId": "fable-5-5",
+      "selection": "x-97",
+      "decision": "not-accepted",
+      "reason": "Release rumor",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/vikktorrrre/status/2110323273758052660",
+      "topicId": "fable-5-5",
+      "selection": "x-100",
+      "decision": "not-accepted",
+      "reason": "Release hype",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/LuminaBench/status/2110683054096142800",
+      "topicId": "fable-5-5",
+      "selection": "x-109",
+      "decision": "not-accepted",
+      "reason": "Opinion",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/buildwithrajath/status/2110414260757266598",
+      "topicId": "fable-5-5",
+      "selection": "x-110",
+      "decision": "not-accepted",
+      "reason": "Release rumor",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/xiax0603/status/2110494658711490570",
+      "topicId": "fable-5-5",
+      "selection": "x-120",
+      "decision": "not-accepted",
+      "reason": "Copied launch announcement text",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/rohanpaul_ai/status/2110077799512056083",
+      "topicId": "fable-5-5",
+      "selection": "x-128",
+      "decision": "not-accepted",
+      "reason": "Benchmark chatter",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/hiarun02/status/2110619179036639743",
+      "topicId": "fable-5-5",
+      "selection": "x-138",
+      "decision": "not-accepted",
+      "reason": "Release rumor",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/qqa16804/status/2110248624668201199",
+      "topicId": "fable-5-5",
+      "selection": "x-143",
+      "decision": "not-accepted",
+      "reason": "Rumor about another model",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/_jayyy18_13k/status/2110682833484460523",
+      "topicId": "fable-5-5",
+      "selection": "x-172",
+      "decision": "not-accepted",
+      "reason": "Fable 5.5 release rumor",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/greghunkins/status/2110117315651993772",
+      "topicId": "fable-5-5",
+      "selection": "x-180",
+      "decision": "not-accepted",
+      "reason": "Meme/teaser",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/Youssofal_/status/2110017252867363142",
+      "topicId": "fable-5-5",
+      "selection": "x-193",
+      "decision": "not-accepted",
+      "reason": "Release speculation",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/Avenoxai/status/2110025727513112836",
+      "topicId": "fable-5-5",
+      "selection": "x-194",
+      "decision": "not-accepted",
+      "reason": "Release speculation",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/legit_api/status/2110692160064356842",
+      "topicId": "fable-5-5",
+      "selection": "x-196",
+      "decision": "not-accepted",
+      "reason": "Release teaser",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/Mr_Salio/status/2110675628944957825",
+      "topicId": "fable-5-5",
+      "selection": "x-197",
+      "decision": "not-accepted",
+      "reason": "Model availability news",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/xiax0603/status/2110101896002429146",
+      "topicId": "fable-5-5",
+      "selection": "x-198",
+      "decision": "not-accepted",
+      "reason": "Model availability news",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/JaydenDavisNC/status/2110070210770219213",
+      "topicId": "fable-5-5",
+      "selection": "x-213",
+      "decision": "not-accepted",
+      "reason": "Release speculation",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/0x0SojalSec/status/2110497202078703748",
+      "topicId": "fable-5-5",
+      "selection": "x-221",
+      "decision": "not-accepted",
+      "reason": "Model availability news",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/badboyfoxy/status/2110694697878569415",
+      "topicId": "fable-5-5",
+      "selection": "x-225",
+      "decision": "not-accepted",
+      "reason": "Release teaser",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/dummerspast39/status/2110046521131663369",
+      "topicId": "fable-5-5",
+      "selection": "x-233",
+      "decision": "not-accepted",
+      "reason": "Release speculation",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/vikktorrrre/status/2110673208068440245",
+      "topicId": "fable-5-5",
+      "selection": "x-234",
+      "decision": "not-accepted",
+      "reason": "Opinion",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/Sprytixl/status/2110676519068508602",
+      "topicId": "fable-5-5",
+      "selection": "x-239",
+      "decision": "not-accepted",
+      "reason": "Engagement-bait promotion; no verifiable work",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/itsjdraven/status/2110606068531507642",
+      "topicId": "fable-5-5",
+      "selection": "x-244",
+      "decision": "not-accepted",
+      "reason": "Model availability news",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/xiax0603/status/2110579740872773951",
+      "topicId": "fable-5-5",
+      "selection": "x-246",
+      "decision": "not-accepted",
+      "reason": "IPO/release speculation",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/HarshithLucky3/status/2110687731018068444",
+      "topicId": "fable-5-5",
+      "selection": "x-260",
+      "decision": "not-accepted",
+      "reason": "Release rumor",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/elshayib_/status/2110686352257744989",
+      "topicId": "fable-5-5",
+      "selection": "x-261",
+      "decision": "not-accepted",
+      "reason": "Opinion",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/xiax0603/status/2110062901725995025",
+      "topicId": "fable-5-5",
+      "selection": "x-268",
+      "decision": "not-accepted",
+      "reason": "Model availability news",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/letdarky/status/2110022326188200046",
+      "topicId": "fable-5-5",
+      "selection": "x-275",
+      "decision": "not-accepted",
+      "reason": "Model availability news",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/xiax0603/status/2110576005912183054",
+      "topicId": "fable-5-5",
+      "selection": "x-295",
+      "decision": "not-accepted",
+      "reason": "IPO/financial news",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/MRehan_5/status/2110533713268211806",
+      "topicId": "fable-5-5",
+      "selection": "x-302",
+      "decision": "not-accepted",
+      "reason": "Meme",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/onchainjesse/status/2110693733427458541",
+      "topicId": "fable-5-5",
+      "selection": "x-304",
+      "decision": "not-accepted",
+      "reason": "Release rumor",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/bufcapy/status/2110547279044342044",
+      "topicId": "fable-5-5",
+      "selection": "x-316",
+      "decision": "not-accepted",
+      "reason": "Joke about the release",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/zeldogiq/status/2110698879150706944",
+      "topicId": "fable-5-5",
+      "selection": "x-327",
+      "decision": "not-accepted",
+      "reason": "Release rumor",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/ZenModeJon/status/2110696974697590914",
+      "topicId": "fable-5-5",
+      "selection": "x-328",
+      "decision": "not-accepted",
+      "reason": "Release rumor",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/_realmanzoor/status/2110688005300396268",
+      "topicId": "fable-5-5",
+      "selection": "x-329",
+      "decision": "not-accepted",
+      "reason": "Release rumor",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    },
+    {
+      "sourceUrl": "https://x.com/DonaldChitana/status/2110675597592498261",
+      "topicId": "fable-5-5",
+      "selection": "x-330",
+      "decision": "not-accepted",
+      "reason": "Speculation",
+      "checkedAt": "2026-10-15T12:19:23+00:00"
+    }
+  ],
+  "posters": [],
+  "candidatePools": {
+    "x": 344,
+    "reddit": 98,
+    "bili": 297,
+    "github": 68,
+    "hn": 93,
+    "yt": 20
+  },
+  "corrections": [],
+  "note": "Pool counts precede editorial selection and overlap across platforms; they are not counts of unique cases."
+}
