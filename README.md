@@ -43,10 +43,10 @@ node --test tests/test_ranking.cjs
 
 ### 最新收录
 
-2026-10-15 多来源更新：Opus 共 **7,152 条**（新增 320 条），Fable 共 **45 条**（本轮无新增）。Bilibili 改为“标题或简介写明由模型制作、且简介或封面能看出具体作品”即可收录，模型分工未说明的条目在摘要中注明。已更新可获取的互动数据、重建页面并保留历史案例身份；本轮为部分覆盖。
+2026-10-21 多来源更新：Opus 共 **7,347 条**（新增 195 条），Fable 共 **45 条**（本轮无新增）。新增来自 X、GitHub、Bilibili、Reddit、Hacker News 和 YouTube，并更新可获取的历史互动数据。本轮为部分覆盖，未完成证据核对的候选另行留档，历史案例身份保留。
 
 - [Claude Opus 5.5 使用案例合集](cases/models/claude-opus-5-5-usecases)：含已审核数据与可离线浏览的 HTML
-- [Fable 5.5 使用案例合集](cases/models/fable-5-5-usecases)：38 条作者归属案例，后台模型身份未独立核验
+- [Fable 5.5 使用案例合集](cases/models/fable-5-5-usecases)：45 条作者归属案例，后台模型身份未独立核验
 
 ## 提交一个 Case
 

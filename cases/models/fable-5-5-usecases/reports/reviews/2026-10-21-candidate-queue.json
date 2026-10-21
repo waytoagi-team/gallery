@@ -1,0 +1,1206 @@
+{
+  "createdAt": "2026-10-21T13:33:08+00:00",
+  "topicId": "fable-5-5",
+  "statusCounts": {
+    "pending-editorial-review": 129
+  },
+  "candidates": [
+    {
+      "selection": "x-6",
+      "sourceUrl": "https://x.com/TokenGremlin/status/2111885266441077237",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-10",
+      "sourceUrl": "https://x.com/SoundDobad/status/2112253485404369270",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-16",
+      "sourceUrl": "https://x.com/daniel_mac8/status/2112311035512418553",
+      "platform": "X",
+      "topicHints": [
+        "opus-5-5",
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-22",
+      "sourceUrl": "https://x.com/imjustnewatai/status/2111369364335190526",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-23",
+      "sourceUrl": "https://x.com/dummerspast39/status/2111519245733654775",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-26",
+      "sourceUrl": "https://x.com/theo/status/2112503499774890100",
+      "platform": "X",
+      "topicHints": [
+        "opus-5-5",
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-30",
+      "sourceUrl": "https://x.com/dummerspast39/status/2111577334436319355",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-32",
+      "sourceUrl": "https://x.com/ziwenxu_/status/2111212505947357651",
+      "platform": "X",
+      "topicHints": [
+        "opus-5-5",
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-33",
+      "sourceUrl": "https://x.com/alxfazio/status/2111832232323351001",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-34",
+      "sourceUrl": "https://x.com/kimmonismus/status/2112486734324007404",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-35",
+      "sourceUrl": "https://x.com/vikktorrrre/status/2112496048723669433",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-37",
+      "sourceUrl": "https://x.com/bridgemindai/status/2111467818990354916",
+      "platform": "X",
+      "topicHints": [
+        "opus-5-5",
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-41",
+      "sourceUrl": "https://x.com/lyraxana/status/2111891363230814426",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-42",
+      "sourceUrl": "https://x.com/imjustnewatai/status/2111654915957477776",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-44",
+      "sourceUrl": "https://x.com/karanC_12/status/2112418939892547725",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-50",
+      "sourceUrl": "https://x.com/chetaslua/status/2111458379386523724",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-53",
+      "sourceUrl": "https://x.com/lyraxana/status/2110732706443067733",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-58",
+      "sourceUrl": "https://x.com/devteamdrew/status/2112591205750001745",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-60",
+      "sourceUrl": "https://x.com/Ananth7e/status/2112573940627538341",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-69",
+      "sourceUrl": "https://x.com/dummerspast39/status/2112275947634446639",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-71",
+      "sourceUrl": "https://x.com/LuminaBench/status/2112483269191077938",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-84",
+      "sourceUrl": "https://x.com/dummerspast39/status/2111464346010152967",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-87",
+      "sourceUrl": "https://x.com/Tech_girl/status/2112582017628217757",
+      "platform": "X",
+      "topicHints": [
+        "opus-5-5",
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-91",
+      "sourceUrl": "https://x.com/davis7/status/2112421312153219361",
+      "platform": "X",
+      "topicHints": [
+        "opus-5-5",
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-96",
+      "sourceUrl": "https://x.com/Angaisb_/status/2112207072876019982",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-108",
+      "sourceUrl": "https://x.com/scaling01/status/2112747751390020032",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-109",
+      "sourceUrl": "https://x.com/imjustnewatai/status/2112412103621431481",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-116",
+      "sourceUrl": "https://x.com/Mr_Salio/status/2112612757593821270",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-127",
+      "sourceUrl": "https://x.com/imjustnewatai/status/2112306201883275578",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-139",
+      "sourceUrl": "https://x.com/ai_funss/status/2111459264598544474",
+      "platform": "X",
+      "topicHints": [
+        "opus-5-5",
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-140",
+      "sourceUrl": "https://x.com/Mr_Salio/status/2112516544316031345",
+      "platform": "X",
+      "topicHints": [
+        "opus-5-5",
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-147",
+      "sourceUrl": "https://x.com/adnaannasir_/status/2112824399841853902",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-149",
+      "sourceUrl": "https://x.com/StatsWire/status/2112751039501762857",
+      "platform": "X",
+      "topicHints": [
+        "opus-5-5",
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-156",
+      "sourceUrl": "https://x.com/adityaa_behera/status/2112598868345114853",
+      "platform": "X",
+      "topicHints": [
+        "opus-5-5",
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-157",
+      "sourceUrl": "https://x.com/mkeremturhan/status/2112242504380592137",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-191",
+      "sourceUrl": "https://x.com/dummerspast39/status/2111957286620930535",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-204",
+      "sourceUrl": "https://x.com/zer0point_eth/status/2112588106348085494",
+      "platform": "X",
+      "topicHints": [
+        "opus-5-5",
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-207",
+      "sourceUrl": "https://x.com/marcthecreatorr/status/2112452105583595965",
+      "platform": "X",
+      "topicHints": [
+        "opus-5-5",
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-210",
+      "sourceUrl": "https://x.com/vikktorrrre/status/2111894081211121892",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-224",
+      "sourceUrl": "https://x.com/theaidesk_/status/2112630134272328121",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-228",
+      "sourceUrl": "https://x.com/ritu_twts/status/2112231553837470000",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-229",
+      "sourceUrl": "https://x.com/kapilansh_twt/status/2111790969926598835",
+      "platform": "X",
+      "topicHints": [
+        "opus-5-5",
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-231",
+      "sourceUrl": "https://x.com/imjustnewatai/status/2112419096625103224",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-239",
+      "sourceUrl": "https://x.com/SadAlbert10/status/2112578612008542335",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-241",
+      "sourceUrl": "https://x.com/mark_k/status/2112820819608945136",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-246",
+      "sourceUrl": "https://x.com/argofowl/status/2112828510532485441",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-271",
+      "sourceUrl": "https://x.com/tunguz/status/2112572542288306268",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-276",
+      "sourceUrl": "https://x.com/haider1/status/2112856453195206699",
+      "platform": "X",
+      "topicHints": [
+        "opus-5-5",
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-278",
+      "sourceUrl": "https://x.com/laopai1990/status/2112735815868817459",
+      "platform": "X",
+      "topicHints": [
+        "opus-5-5",
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-285",
+      "sourceUrl": "https://x.com/0xRemakw/status/2112422036169506899",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-286",
+      "sourceUrl": "https://x.com/vikktorrrre/status/2112170738174030071",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-292",
+      "sourceUrl": "https://x.com/luckeyfaraday/status/2112006209314189532",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-306",
+      "sourceUrl": "https://x.com/OGKAIM/status/2112456637978120347",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-309",
+      "sourceUrl": "https://x.com/aymanemsi/status/2112637686884253995",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-313",
+      "sourceUrl": "https://x.com/embw_l0x/status/2112857442950476222",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-331",
+      "sourceUrl": "https://x.com/l_mejiaC/status/2112528900983284019",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-336",
+      "sourceUrl": "https://x.com/shakhzod1001/status/2112635734028890412",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-339",
+      "sourceUrl": "https://x.com/DeepStarts/status/2112823469532696763",
+      "platform": "X",
+      "topicHints": [
+        "opus-5-5",
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-353",
+      "sourceUrl": "https://x.com/MrTacticalX/status/2112854368655397290",
+      "platform": "X",
+      "topicHints": [
+        "opus-5-5",
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-365",
+      "sourceUrl": "https://x.com/filicroval/status/2111762453038317852",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-366",
+      "sourceUrl": "https://x.com/amritwt/status/2112887172332396728",
+      "platform": "X",
+      "topicHints": [
+        "opus-5-5",
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-384",
+      "sourceUrl": "https://x.com/rezoundous/status/2112856420181745927",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-399",
+      "sourceUrl": "https://x.com/StatsWire/status/2112865517614629218",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-406",
+      "sourceUrl": "https://x.com/itssotsot/status/2112591133834367449",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-428",
+      "sourceUrl": "https://x.com/zer0point_eth/status/2112881226788868154",
+      "platform": "X",
+      "topicHints": [
+        "opus-5-5",
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-429",
+      "sourceUrl": "https://x.com/MrTacticalX/status/2111522969717748072",
+      "platform": "X",
+      "topicHints": [
+        "opus-5-5",
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-460",
+      "sourceUrl": "https://x.com/chanduuu_cs/status/2112858208335516141",
+      "platform": "X",
+      "topicHints": [
+        "opus-5-5",
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-484",
+      "sourceUrl": "https://x.com/bei351009016/status/2112557115642696065",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-517",
+      "sourceUrl": "https://x.com/Ionkosm/status/2112869255180153200",
+      "platform": "X",
+      "topicHints": [
+        "opus-5-5",
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-523",
+      "sourceUrl": "https://x.com/AIMind_Ai/status/2112773941710238127",
+      "platform": "X",
+      "topicHints": [
+        "opus-5-5",
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-534",
+      "sourceUrl": "https://x.com/rand_longevity/status/2112891666004877484",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-559",
+      "sourceUrl": "https://x.com/TC_Poole/status/2112660018927734887",
+      "platform": "X",
+      "topicHints": [
+        "opus-5-5",
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-567",
+      "sourceUrl": "https://x.com/ChainLinkMunki/status/2112287467109777572",
+      "platform": "X",
+      "topicHints": [
+        "opus-5-5",
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-571",
+      "sourceUrl": "https://x.com/aiwithadb/status/2112855162335138054",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-589",
+      "sourceUrl": "https://x.com/Kappaemmedev/status/2112876558990139591",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-684",
+      "sourceUrl": "https://x.com/murrtlen/status/2112893758765224178",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-744",
+      "sourceUrl": "https://x.com/kimmonismus/status/2111106647758192915",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-746",
+      "sourceUrl": "https://x.com/chetaslua/status/2111157145102397817",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-762",
+      "sourceUrl": "https://x.com/legit_api/status/2111193444345667813",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-785",
+      "sourceUrl": "https://x.com/chetaslua/status/2111087834329399635",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-790",
+      "sourceUrl": "https://x.com/Mr_Salio/status/2111097153074470950",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-803",
+      "sourceUrl": "https://x.com/pankajkumar_dev/status/2111518872272814233",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-808",
+      "sourceUrl": "https://x.com/Mr_Salio/status/2111590674961154433",
+      "platform": "X",
+      "topicHints": [
+        "opus-5-5",
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-827",
+      "sourceUrl": "https://x.com/kimmonismus/status/2110929950270165030",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-859",
+      "sourceUrl": "https://x.com/dummerspast39/status/2111391206848503923",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-861",
+      "sourceUrl": "https://x.com/pankajkumar_dev/status/2112176644018626840",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-880",
+      "sourceUrl": "https://x.com/Mr_Salio/status/2111816222811541641",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "x-883",
+      "sourceUrl": "https://x.com/MozeTech/status/2111652513846026593",
+      "platform": "X",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "reddit-7",
+      "sourceUrl": "https://www.reddit.com/r/claude/comments/1x6q9j9/claude_fable_55_reaches_anthropic_partners_with_a/",
+      "platform": "Reddit",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "reddit-15",
+      "sourceUrl": "https://www.reddit.com/r/Anthropic/comments/1x849yz/what_do_you_expect_from_fable_55/",
+      "platform": "Reddit",
+      "topicHints": [
+        "opus-5-5",
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "reddit-23",
+      "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x92wfw/claude_fable_55s_work_maybe/",
+      "platform": "Reddit",
+      "topicHints": [
+        "opus-5-5",
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "reddit-31",
+      "sourceUrl": "https://www.reddit.com/r/claude/comments/1xa00fv/is_claude_subtly_routing_to_fable_55_unbelievable/",
+      "platform": "Reddit",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "reddit-47",
+      "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x9zb09/fable_55_maybe/",
+      "platform": "Reddit",
+      "topicHints": [
+        "opus-5-5",
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "reddit-102",
+      "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1xacs9t/does_anthropic_generally_give_a_banked_or_an/",
+      "platform": "Reddit",
+      "topicHints": [
+        "opus-5-5",
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "reddit-132",
+      "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xbjryk/fable_55_cant_be_released_until_reset_credits/",
+      "platform": "Reddit",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "reddit-135",
+      "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xbg6vu/when_will_the_banked_reset_from_the_release_expire/",
+      "platform": "Reddit",
+      "topicHints": [
+        "opus-5-5",
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "reddit-141",
+      "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xba7fv/fable_no_longer_limited_to_50_of_your_usage_limit/",
+      "platform": "Reddit",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "reddit-149",
+      "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xato0b/fable_55_imminent/",
+      "platform": "Reddit",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "reddit-182",
+      "sourceUrl": "https://www.reddit.com/r/claude/comments/1xb3i0q/fable_55_expected_soon/",
+      "platform": "Reddit",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "reddit-183",
+      "sourceUrl": "https://www.reddit.com/r/claude/comments/1xav7pi/i_think_fable_55_will_come_for_pro_users_also/",
+      "platform": "Reddit",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "reddit-186",
+      "sourceUrl": "https://www.reddit.com/r/claude/comments/1xaotst/latest_updates_on_claude_fable_55_model/",
+      "platform": "Reddit",
+      "topicHints": [
+        "opus-5-5",
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "reddit-252",
+      "sourceUrl": "https://www.reddit.com/r/claude/comments/1x7oz58/opus_55_loves_the_name_gerald_talking_about_the/",
+      "platform": "Reddit",
+      "topicHints": [
+        "opus-5-5",
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "reddit-262",
+      "sourceUrl": "https://www.reddit.com/r/singularity/comments/1x9hk3c/cant_wait_for_all_these_anti_ai_fuckers_to_get/",
+      "platform": "Reddit",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "reddit-263",
+      "sourceUrl": "https://www.reddit.com/r/singularity/comments/1x8eisf/realized_my_opus_was_routing_to_fable_55_so_i_had/",
+      "platform": "Reddit",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "bili-28",
+      "sourceUrl": "https://www.bilibili.com/video/BV1pPnj6TE5g",
+      "platform": "Bilibili",
+      "topicHints": [
+        "opus-5-5",
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "bili-113",
+      "sourceUrl": "https://www.bilibili.com/video/BV1z3J96PEYj",
+      "platform": "Bilibili",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "bili-165",
+      "sourceUrl": "https://www.bilibili.com/video/BV1SmJ86nE6v",
+      "platform": "Bilibili",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "bili-221",
+      "sourceUrl": "https://www.bilibili.com/video/BV1P5Jt6KEWx",
+      "platform": "Bilibili",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "bili-234",
+      "sourceUrl": "https://www.bilibili.com/video/BV1rxnP6eEWq",
+      "platform": "Bilibili",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "bili-279",
+      "sourceUrl": "https://www.bilibili.com/video/BV1ahJv6qERn",
+      "platform": "Bilibili",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "bili-330",
+      "sourceUrl": "https://www.bilibili.com/video/BV1JenM6yEYr",
+      "platform": "Bilibili",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "bili-421",
+      "sourceUrl": "https://www.bilibili.com/video/BV1KDn36hEHr",
+      "platform": "Bilibili",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "bili-519",
+      "sourceUrl": "https://www.bilibili.com/video/BV1LfJY66ESS",
+      "platform": "Bilibili",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "bili-577",
+      "sourceUrl": "https://www.bilibili.com/video/BV1iZJY63E1d",
+      "platform": "Bilibili",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "github-24",
+      "sourceUrl": "https://github.com/Genovese-Felipe/NASA-APIs-Fable5",
+      "platform": "GitHub",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "github-30",
+      "sourceUrl": "https://github.com/vivmuk/fable5",
+      "platform": "GitHub",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "github-133",
+      "sourceUrl": "https://github.com/Dev-angPatil/free-claude-fable-5-5",
+      "platform": "GitHub",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "github-153",
+      "sourceUrl": "https://github.com/hibi89/fable5.1_web_catcher",
+      "platform": "GitHub",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "github-156",
+      "sourceUrl": "https://github.com/kot-Bonifacy/Fable5-vtt",
+      "platform": "GitHub",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "hn-50166554",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50166554",
+      "platform": "Hacker News",
+      "topicHints": [
+        "opus-5-5",
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "hn-50174596",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50174596",
+      "platform": "Hacker News",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "hn-50136627",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50136627",
+      "platform": "Hacker News",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "hn-50136416",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50136416",
+      "platform": "Hacker News",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "hn-50134741",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50134741",
+      "platform": "Hacker News",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "hn-50131191",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50131191",
+      "platform": "Hacker News",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "hn-50129437",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50129437",
+      "platform": "Hacker News",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "hn-50102026",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50102026",
+      "platform": "Hacker News",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "hn-50090988",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50090988",
+      "platform": "Hacker News",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    },
+    {
+      "selection": "hn-50084960",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50084960",
+      "platform": "Hacker News",
+      "topicHints": [
+        "fable-5-5"
+      ],
+      "status": "pending-editorial-review"
+    }
+  ],
+  "note": "Minimal source identities only. Pending is not an acceptance or a rejection; raw bodies are kept out of Git."
+}

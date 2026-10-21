@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-10-21T13:33:08+00:00",
+  "topicId": "fable-5-5",
+  "accepted": 0,
+  "selectionPolicy": "Prioritized original-source review within bounded candidate pools. Explicit version, concrete work and model role required. Only accepted cases were imported; unselected candidates remain pending, not assumed rejected or fully reviewed. Bilibili follows the user-approved 2026-10-15 relaxed standard, but all accepted Bilibili entries in this run document the task. Backend model identity and claimed outcomes are not independently verified.",
+  "priorRejectionsSkipped": 1606,
+  "dateAdjustments": [],
+  "decisions": [],
+  "posters": [],
+  "candidatePools": {
+    "x": 952,
+    "reddit": 265,
+    "bili": 706,
+    "github": 170,
+    "hn": 217,
+    "yt": 20
+  },
+  "sharedQueueStatusCounts": {
+    "pending-editorial-review": 2811,
+    "accepted": 195,
+    "not-accepted": 2,
+    "previously-not-accepted": 2
+  },
+  "candidateQueueFile": "reports/reviews/2026-10-21-candidate-queue.json",
+  "note": "Pool and queue counts overlap across topics and platforms and are not counts of unique works. Pending items include screened candidates without completed evidence review."
+}

@@ -8965,5 +8965,730 @@
    "relation": "Original creator attachment or video cover for this work",
    "reviewStatus": "accepted"
   }
+ },
+ {
+  "platform": "Reddit",
+  "author": "Imaginary_Data_708",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x9fwk4/the_world_has_changed/",
+  "date": "2026-10-18",
+  "category": "coding",
+  "evidenceType": "演示",
+  "title": "用摄像头反馈优化 ESP32 屏幕渲染",
+  "title_en": "Optimizing ESP32 display rendering with camera feedback",
+  "summary": "作者让 Opus 5.5 结合摄像头画面调试 Waveshare ESP32 屏幕的竖屏渲染。帧率改善为作者报告，未复测。",
+  "summary_en": "The creator used Opus 5.5 and camera feedback to debug portrait rendering on a Waveshare ESP32 display. Reported frame-rate gains were not independently tested.",
+  "mediaKind": "image",
+  "checkedAt": "2026-10-21T13:32:02+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x9fwk4/the_world_has_changed/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-21 multi-source discovery and original-source review",
+  "poster": "https://preview.redd.it/z98elwwnuawh1.jpeg?auto=webp&s=f1f50b3d2f58ee4f2ec561c940421ec6638f6a20",
+  "posterEvidence": {
+   "sourcePage": "https://www.reddit.com/r/ClaudeCode/comments/1x9fwk4/the_world_has_changed/",
+   "checkedAt": "2026-10-21T13:30:13+00:00",
+   "width": 4096,
+   "height": 2304,
+   "imageSha256": "7c35042322a948dff53237058cc7f0f222e0f9a923e34b4b9fbd3fcfe32448ff",
+   "method": "Original attachment/cover downloaded, decoded and visually inspected in a labeled contact sheet",
+   "relation": "Original creator attachment or video cover for this work",
+   "reviewStatus": "accepted"
+  }
+ },
+ {
+  "platform": "Reddit",
+  "author": "Bogdanilaa",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x9ue4y/after_712_and_39_hours_opus_55_beat_baldurs_gate/",
+  "date": "2026-10-19",
+  "category": "agents",
+  "evidenceType": "演示",
+  "title": "通过 MCP 操作《博德之门 3》",
+  "title_en": "Playing Baldur’s Gate 3 through MCP",
+  "summary": "作者为 Opus 5.5 搭建 Python MCP、Lua 通信、截图和输入控制工具，并记录多次会话中的游戏推进过程；提供开源控制框架。",
+  "summary_en": "The creator connected Opus 5.5 to Baldur’s Gate 3 through Python MCP, Lua communication, screenshots and input controls, documenting progress across sessions and sharing the harness.",
+  "mediaKind": "none",
+  "checkedAt": "2026-10-21T13:32:02+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x9ue4y/after_712_and_39_hours_opus_55_beat_baldurs_gate/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-21 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "http://HANDOFF.md"
+   },
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "http://lessons.md"
+   },
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://bogdantruta.com/blog/claude-finished-baldurs-gate-3/"
+   },
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://github.com/Bogzx/bg3-agent-harness"
+   }
+  ]
+ },
+ {
+  "platform": "Reddit",
+  "author": "LTSharpe",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x8jcmq/used_claude_to_fix_oblivion_remastered_performance/",
+  "date": "2026-10-17",
+  "category": "coding",
+  "evidenceType": "演示",
+  "title": "迭代《湮灭重制版》的性能补丁",
+  "title_en": "Iterating on Oblivion Remastered performance fixes",
+  "summary": "作者描述了用 Opus 5.5 分析性能、修改代码并反复跑基准的流程，附补丁仓库。性能提升属于作者测试结果。",
+  "summary_en": "The author describes profiling, code changes and repeated benchmarks with Opus 5.5, linking the patch repository. Performance improvements are author-reported.",
+  "mediaKind": "video",
+  "checkedAt": "2026-10-21T13:32:02+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x8jcmq/used_claude_to_fix_oblivion_remastered_performance/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-21 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://github.com/LTSharpe/OblivionRemasteredPerformanceFix"
+   }
+  ],
+  "poster": "https://external-preview.redd.it/AfcB4h0YnWEj-yTA7excEzNwbMAonCEnaLQb8gA4UGM.jpeg?format=pjpg&auto=webp&s=33499a4554f60a8ba61b12e8b1faa37c931e6800",
+  "posterEvidence": {
+   "sourcePage": "https://www.reddit.com/r/ClaudeCode/comments/1x8jcmq/used_claude_to_fix_oblivion_remastered_performance/",
+   "checkedAt": "2026-10-21T13:30:13+00:00",
+   "width": 480,
+   "height": 360,
+   "imageSha256": "ded7cefac21caf5aed667d1220afdc32f17e05f928d1ed6d8cb0c6a8eba7fe14",
+   "method": "Original attachment/cover downloaded, decoded and visually inspected in a labeled contact sheet",
+   "relation": "Original creator attachment or video cover for this work",
+   "reviewStatus": "accepted"
+  }
+ },
+ {
+  "platform": "Reddit",
+  "author": "chasedev21",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x9uwwg/i_made_an_app_to_find_any_photo_on_my_laptop_with/",
+  "date": "2026-10-19",
+  "category": "vision",
+  "evidenceType": "演示",
+  "title": "Orchard Photos 本地照片探索工具",
+  "title_en": "Orchard Photos local photo explorer",
+  "summary": "作者用 Opus 5.5 编写本地照片索引与探索工具，并制作发布视频；项目用 UMAP 等方式展示照片集合，附开源仓库。",
+  "summary_en": "The creator credits Opus 5.5 with most of the code and the launch video for a local photo indexing and exploration tool, including UMAP views, and shares its repository.",
+  "mediaKind": "video",
+  "checkedAt": "2026-10-21T13:32:02+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x9uwwg/i_made_an_app_to_find_any_photo_on_my_laptop_with/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-21 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://github.com/chaseleantj/orchard-photos"
+   }
+  ],
+  "poster": "https://external-preview.redd.it/MWk1a2t4N3pzZXdoMR0ifnYuFpJhmrdnGxv7LaFfLJmhKnfEPlmExzRJO5bs.png?auto=webp&s=24e514fa8aad1fb2f69aec3280b27bc4f0107db9",
+  "posterEvidence": {
+   "sourcePage": "https://www.reddit.com/r/ClaudeAI/comments/1x9uwwg/i_made_an_app_to_find_any_photo_on_my_laptop_with/",
+   "checkedAt": "2026-10-21T13:30:13+00:00",
+   "width": 1920,
+   "height": 1080,
+   "imageSha256": "38129fd5b1b969b25670d8284a21c60f866400e2f298b7efc21c5165b3d61ae0",
+   "method": "Original attachment/cover downloaded, decoded and visually inspected in a labeled contact sheet",
+   "relation": "Original creator attachment or video cover for this work",
+   "reviewStatus": "accepted"
+  }
+ },
+ {
+  "platform": "Reddit",
+  "author": "sabotizer",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x7a60f/i_forked_chromium_with_claude_code_to_solve_my/",
+  "date": "2026-10-16",
+  "category": "coding",
+  "evidenceType": "演示",
+  "title": "Shuttle 浏览器的多模型开发流程",
+  "title_en": "A multi-model development workflow for Shuttle",
+  "summary": "作者用 Opus 5.5 与 Fable 5.1 开发 Chromium 分支 Shuttle，并描述代理隔离、架构与评审分工。成果属于多个模型共同参与的开发。",
+  "summary_en": "The creator used Opus 5.5 and Fable 5.1 to develop the Shuttle Chromium fork, describing agent isolation, architecture and review responsibilities across models.",
+  "mediaKind": "video",
+  "checkedAt": "2026-10-21T13:32:02+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x7a60f/i_forked_chromium_with_claude_code_to_solve_my/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-21 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://github.com/vercel-labs/agent-browser"
+   },
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://www.shuttlebrowser.com"
+   },
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://www.shuttlebrowser.com/"
+   },
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://github.com/shuttle-browser/shuttle"
+   }
+  ],
+  "poster": "https://external-preview.redd.it/YW10ajBnOXI1c3ZoMeNO9HdMZpCh94DYsxHnbP4A9_V6f9dPxOmCMz2-2zDh.png?format=pjpg&auto=webp&s=0a8b2a7b0e735763beb6b075f1402f2b02c7c822",
+  "posterEvidence": {
+   "sourcePage": "https://www.reddit.com/r/ClaudeCode/comments/1x7a60f/i_forked_chromium_with_claude_code_to_solve_my/",
+   "checkedAt": "2026-10-21T13:30:13+00:00",
+   "width": 1920,
+   "height": 1198,
+   "imageSha256": "3772cf50f15be8561077c6eec0a6bf2f17df57b33839153591959044bb43fd5f",
+   "method": "Original attachment/cover downloaded, decoded and visually inspected in a labeled contact sheet",
+   "relation": "Original creator attachment or video cover for this work",
+   "reviewStatus": "accepted"
+  }
+ },
+ {
+  "platform": "Reddit",
+  "author": "zTrojan",
+  "sourceUrl": "https://www.reddit.com/r/claude/comments/1x6z296/vibe_coded_a_16_kb_fps_game_as_an_experiment/",
+  "date": "2026-10-15",
+  "category": "games",
+  "evidenceType": "演示",
+  "title": "Blind Sector 16 KB 射击游戏",
+  "title_en": "Blind Sector 16 KB shooter",
+  "summary": "作者用 Fable 规划、Opus 5.5 实现和压缩第一人称射击游戏 Blind Sector，分享代码和体积约束下的开发过程。",
+  "summary_en": "The creator used Fable for planning and Opus 5.5 for implementation and size optimization of Blind Sector, sharing code and the process of fitting an FPS into a small package.",
+  "mediaKind": "video",
+  "checkedAt": "2026-10-21T13:32:02+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/claude/comments/1x6z296/vibe_coded_a_16_kb_fps_game_as_an_experiment/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-21 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://github.com/zTrojan/blind-sector"
+   }
+  ],
+  "poster": "https://external-preview.redd.it/cGFwdzhydzlmcHZoMWJlAjJiqz5-eu4UVg-KuDHqBfhztl1OdCt6Zm1h7V0o.png?format=pjpg&auto=webp&s=69317caa1fe569ebdf6495ed9b2ffb927a5f9570",
+  "posterEvidence": {
+   "sourcePage": "https://www.reddit.com/r/claude/comments/1x6z296/vibe_coded_a_16_kb_fps_game_as_an_experiment/",
+   "checkedAt": "2026-10-21T13:30:13+00:00",
+   "width": 1920,
+   "height": 1080,
+   "imageSha256": "25cfb13c84131ec6e5ee898d44a9144468c294e262d2409d23cb91af0e1c8e4d",
+   "method": "Original attachment/cover downloaded, decoded and visually inspected in a labeled contact sheet",
+   "relation": "Original creator attachment or video cover for this work",
+   "reviewStatus": "accepted"
+  }
+ },
+ {
+  "platform": "Reddit",
+  "author": "Acclynn",
+  "sourceUrl": "https://www.reddit.com/r/vibecoding/comments/1x76k70/i_made_a_minecraft_server_plugin_to_prompt_agents/",
+  "date": "2026-10-16",
+  "category": "games",
+  "evidenceType": "演示",
+  "title": "WorldPrompt Minecraft 建造插件",
+  "title_en": "WorldPrompt Minecraft building plugin",
+  "summary": "作者展示让玩家用自然语言生成建筑的 Minecraft 插件，说明先用 GPT 6 Astra、后用 Opus 5.5 开发，并提供代码。",
+  "summary_en": "The creator demonstrates a natural-language Minecraft building plugin, credits development first to GPT 6 Astra and then Opus 5.5, and links its source.",
+  "mediaKind": "video",
+  "checkedAt": "2026-10-21T13:32:02+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/vibecoding/comments/1x76k70/i_made_a_minecraft_server_plugin_to_prompt_agents/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-21 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://github.com/Ni-Cobra/worldprompt"
+   },
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://www.youtube.com/watch?v=1TMD-y\\_XeXk"
+   },
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://www.youtube.com/watch?v=1TMD-y_XeXk"
+   }
+  ],
+  "poster": "https://external-preview.redd.it/bXRiczN6M2k4cnZoMf9lLbpQbqPZ_MXXH-Z7xhn1u1PFfqbmNScaK2y42Zw1.png?auto=webp&s=ac4ed64df27e29e5ef9a0a63b7203348a02ac738",
+  "posterEvidence": {
+   "sourcePage": "https://www.reddit.com/r/vibecoding/comments/1x76k70/i_made_a_minecraft_server_plugin_to_prompt_agents/",
+   "checkedAt": "2026-10-21T13:30:13+00:00",
+   "width": 2560,
+   "height": 1372,
+   "imageSha256": "b5f58dfb22c2224a4b9c3c702682a5956fda42061672231a7c9b60ae54b59a81",
+   "method": "Original attachment/cover downloaded, decoded and visually inspected in a labeled contact sheet",
+   "relation": "Original creator attachment or video cover for this work",
+   "reviewStatus": "accepted"
+  }
+ },
+ {
+  "platform": "Reddit",
+  "author": "Sonnyc56",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x9gzsv/coverband_any_song_as_a_guitar_hero_rock_band/",
+  "date": "2026-10-18",
+  "category": "games",
+  "evidenceType": "演示",
+  "title": "CoverBand 浏览器节奏游戏",
+  "title_en": "CoverBand browser rhythm game",
+  "summary": "作者让 Opus 5.5 编写支持歌曲分析、节奏谱和吉他控制器的浏览器游戏，也制作素材与发布视频。音频处理效果未独立测试。",
+  "summary_en": "The creator credits Opus 5.5 with code, assets and a launch video for a browser rhythm game with song analysis, note charts and guitar-controller support. Audio processing was not independently tested.",
+  "mediaKind": "video",
+  "checkedAt": "2026-10-21T13:32:02+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x9gzsv/coverband_any_song_as_a_guitar_hero_rock_band/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-21 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "http://playcoverband.com"
+   }
+  ]
+ },
+ {
+  "platform": "Reddit",
+  "author": "DuckyEnoughh",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xaa3ox/opus_55_blender_made_animation/",
+  "date": "2026-10-19",
+  "category": "3d",
+  "evidenceType": "演示",
+  "title": "用 Blender 制作星战同人动画",
+  "title_en": "Creating a Star Wars fan animation in Blender",
+  "summary": "作者用 Opus 5.5 编排 Blender 动画，角色与场景采用下载的现成模型，并分享制作过程。",
+  "summary_en": "The creator used Opus 5.5 to animate a Star Wars fan scene in Blender using downloaded models, and shared the process.",
+  "mediaKind": "video",
+  "checkedAt": "2026-10-21T13:32:02+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xaa3ox/opus_55_blender_made_animation/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-21 multi-source discovery and original-source review",
+  "poster": "https://external-preview.redd.it/Mms4ZnlrOTR2aHdoMcnP1BesGthQ25kDlYXc81n1BS1xOrii81ee4OaUyIDH.png?format=pjpg&auto=webp&s=e9a10edae9b3a4b49379b14ac359d7f358654a84",
+  "posterEvidence": {
+   "sourcePage": "https://www.reddit.com/r/ClaudeCode/comments/1xaa3ox/opus_55_blender_made_animation/",
+   "checkedAt": "2026-10-21T13:30:14+00:00",
+   "width": 1920,
+   "height": 1080,
+   "imageSha256": "7d5199d38fe59e402babd723f8c3e011ff6623e9d60671921fea2808b309bccb",
+   "method": "Original attachment/cover downloaded, decoded and visually inspected in a labeled contact sheet",
+   "relation": "Original creator attachment or video cover for this work",
+   "reviewStatus": "accepted"
+  }
+ },
+ {
+  "platform": "Reddit",
+  "author": "No_Twist_678",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x9vcvb/build_with_opus_55_old_school_pc_you_can_pick_up/",
+  "date": "2026-10-19",
+  "category": "games",
+  "evidenceType": "演示",
+  "title": "浏览器中的复古电脑体验",
+  "title_en": "A retro computer experience in the browser",
+  "summary": "作者展示用 Opus 5.5 多轮开发的复古电脑与 MS-DOS 风格模拟体验，并提供可访问的演示地址。",
+  "summary_en": "The creator shares a retro computer and MS-DOS-style experience developed iteratively with Opus 5.5, with a linked browser demo.",
+  "mediaKind": "video",
+  "checkedAt": "2026-10-21T13:32:02+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x9vcvb/build_with_opus_55_old_school_pc_you_can_pick_up/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-21 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://retro.bioneural.de/"
+   }
+  ],
+  "poster": "https://external-preview.redd.it/eWU3MTc3aDEyZndoMSmWNUeMg828a0qZ1ZJuLmShFCaibSTa3bl6lzIlkiH4.png?auto=webp&s=befec1d450fa2b75099e64cd4a1f33d98db13c76",
+  "posterEvidence": {
+   "sourcePage": "https://www.reddit.com/r/ClaudeCode/comments/1x9vcvb/build_with_opus_55_old_school_pc_you_can_pick_up/",
+   "checkedAt": "2026-10-21T13:30:14+00:00",
+   "width": 1474,
+   "height": 1184,
+   "imageSha256": "35ecbe989bf495c4c78cc1776b5846cd0563e46cf9d8dd540a60eecbc5e66e86",
+   "method": "Original attachment/cover downloaded, decoded and visually inspected in a labeled contact sheet",
+   "relation": "Original creator attachment or video cover for this work",
+   "reviewStatus": "accepted"
+  }
+ },
+ {
+  "platform": "Reddit",
+  "author": "Present_Bonus_1963",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xa1obz/drawn_with_javascript_by_claude_code/",
+  "date": "2026-10-19",
+  "category": "graphics",
+  "evidenceType": "演示",
+  "title": "用 SVG 笔画绘制插画",
+  "title_en": "Drawing illustrations with SVG strokes",
+  "summary": "作者把绘图工作流交给 Opus 5.5，通过 SVG 笔画生成插画，并分享所用技能与木槿花提示词示例。",
+  "summary_en": "The creator used Opus 5.5 and a drawing workflow to generate illustrations from SVG strokes, sharing the skill and a hibiscus prompt example.",
+  "mediaKind": "image",
+  "checkedAt": "2026-10-21T13:32:02+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xa1obz/drawn_with_javascript_by_claude_code/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-21 multi-source discovery and original-source review",
+  "poster": "https://i.redd.it/1bx8irhbbgwh1.png",
+  "posterEvidence": {
+   "sourcePage": "https://www.reddit.com/r/ClaudeCode/comments/1xa1obz/drawn_with_javascript_by_claude_code/",
+   "checkedAt": "2026-10-21T13:30:14+00:00",
+   "width": 832,
+   "height": 641,
+   "imageSha256": "1ba7a1d7f6582eced3bda493d86594c5b97a145631440a249865e49789ec1ee5",
+   "method": "Original attachment/cover downloaded, decoded and visually inspected in a labeled contact sheet",
+   "relation": "Original creator attachment or video cover for this work",
+   "reviewStatus": "accepted"
+  }
+ },
+ {
+  "platform": "Reddit",
+  "author": "elias1328",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1xab8s4/built_a_melodydrawing_tool_with_claude_opus_it/",
+  "date": "2026-10-19",
+  "category": "audio",
+  "evidenceType": "演示",
+  "title": "Visual Harmonics 泛音可视化",
+  "title_en": "Visual Harmonics overtone visualization",
+  "summary": "作者用 Opus 5.5 多代理开发旋律绘制与泛音可视化工具 Visual Harmonics，并提供源码。",
+  "summary_en": "The creator used an Opus 5.5 multi-agent workflow to build Visual Harmonics, a melody-drawing and overtone visualization tool, and shared its source.",
+  "mediaKind": "video",
+  "checkedAt": "2026-10-21T13:32:02+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1xab8s4/built_a_melodydrawing_tool_with_claude_opus_it/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-21 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://elias1328.github.io/Visual-Harmonics/"
+   },
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://github.com/elias1328/Visual-Harmonics"
+   }
+  ],
+  "poster": "https://external-preview.redd.it/ODNuM3NtN2IwaXdoMQA9cvhPh6XVwse0PU3C4AfFHIxHcs1TBLrR7PYjQzMP.png?format=pjpg&auto=webp&s=8767d0c37bf7c0a745e1bf39ae763ba5697c2815",
+  "posterEvidence": {
+   "sourcePage": "https://www.reddit.com/r/ClaudeAI/comments/1xab8s4/built_a_melodydrawing_tool_with_claude_opus_it/",
+   "checkedAt": "2026-10-21T13:30:14+00:00",
+   "width": 1920,
+   "height": 918,
+   "imageSha256": "fa6cfa4e471ee3050d6034133904906ce42c872f56b09c529744b223474ae0db",
+   "method": "Original attachment/cover downloaded, decoded and visually inspected in a labeled contact sheet",
+   "relation": "Original creator attachment or video cover for this work",
+   "reviewStatus": "accepted"
+  }
+ },
+ {
+  "platform": "Reddit",
+  "author": "levmiseri",
+  "sourceUrl": "https://www.reddit.com/r/vibecoding/comments/1x7it06/making_detailed_organs_with_opus_55/",
+  "date": "2026-10-16",
+  "category": "3d",
+  "evidenceType": "演示",
+  "title": "WebGPU 人体器官交互展示",
+  "title_en": "Interactive WebGPU organ visualization",
+  "summary": "作者展示用 Opus 5.5 制作的人体器官 WebGPU 交互页面，提供 grimoire.bio 演示。页面内容未作医学准确性验证。",
+  "summary_en": "The creator shows interactive WebGPU organ visuals made with Opus 5.5 and links grimoire.bio. Medical accuracy was not independently assessed.",
+  "mediaKind": "image",
+  "checkedAt": "2026-10-21T13:32:02+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/vibecoding/comments/1x7it06/making_detailed_organs_with_opus_55/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-21 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://grimoire.bio"
+   }
+  ],
+  "poster": "https://i.redd.it/6ijbb8a3iuvh1.jpg",
+  "posterEvidence": {
+   "sourcePage": "https://www.reddit.com/r/vibecoding/comments/1x7it06/making_detailed_organs_with_opus_55/",
+   "checkedAt": "2026-10-21T13:30:14+00:00",
+   "width": 1179,
+   "height": 1513,
+   "imageSha256": "d8d525496970dbd930fd8ed0f0375cb6cd7370eba3d07e6de5bac93c591908a1",
+   "method": "Original attachment/cover downloaded, decoded and visually inspected in a labeled contact sheet",
+   "relation": "Original creator attachment or video cover for this work",
+   "reviewStatus": "accepted"
+  }
+ },
+ {
+  "platform": "Reddit",
+  "author": "Visible_Weight_3218",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x7u3e1/opus_55_brag_made_my_launch_video_using_my_app/",
+  "date": "2026-10-16",
+  "category": "video",
+  "evidenceType": "演示",
+  "title": "DiscCollection 应用发布视频",
+  "title_en": "DiscCollection app launch video",
+  "summary": "作者用 Opus 5.5 配合 Brag 工作流迭代制作 DiscCollection 发布视频。此案例的模型任务是视频制作。",
+  "summary_en": "The creator used Opus 5.5 with the Brag workflow to iterate on a DiscCollection launch video. The documented model task is video production.",
+  "mediaKind": "video",
+  "checkedAt": "2026-10-21T13:32:02+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x7u3e1/opus_55_brag_made_my_launch_video_using_my_app/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-21 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://apps.apple.com/us/app/disc-collection/id6817679006"
+   }
+  ],
+  "poster": "https://external-preview.redd.it/cDV0cWdyajBwd3ZoMSmFzGcmgSbsAdbt2Ui8pNhO3P6fZNc8iFnH24cuQ0-7.png?format=pjpg&auto=webp&s=f74b11f2e837560ce96314272e54b74907744529",
+  "posterEvidence": {
+   "sourcePage": "https://www.reddit.com/r/ClaudeCode/comments/1x7u3e1/opus_55_brag_made_my_launch_video_using_my_app/",
+   "checkedAt": "2026-10-21T13:30:14+00:00",
+   "width": 1080,
+   "height": 1920,
+   "imageSha256": "ce9fce851be8354ca2c9084bc4c5704606e136a768c82c67b8fc5b6977fe828f",
+   "method": "Original attachment/cover downloaded, decoded and visually inspected in a labeled contact sheet",
+   "relation": "Original creator attachment or video cover for this work",
+   "reviewStatus": "accepted"
+  }
+ },
+ {
+  "platform": "Reddit",
+  "author": "inexistences",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x92rn2/i_built_a_tool_with_claude_that_reads_10_years_of/",
+  "date": "2026-10-18",
+  "category": "coding",
+  "evidenceType": "演示",
+  "title": "将 Apple Notes 整理成本地归档应用",
+  "title_en": "Turning Apple Notes into a local archive app",
+  "summary": "作者描述用 Fable 5.1 规划、Opus 5.5 实现个人笔记归档应用和演示视频的过程，原始笔记内容未公开核验。",
+  "summary_en": "The author describes planning a personal Apple Notes archive with Fable 5.1 and implementing the app and demo video with Opus 5.5. The underlying private notes were not inspected.",
+  "mediaKind": "video",
+  "checkedAt": "2026-10-21T13:32:02+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x92rn2/i_built_a_tool_with_claude_that_reads_10_years_of/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-21 multi-source discovery and original-source review"
+ },
+ {
+  "platform": "Reddit",
+  "author": "BitIlia",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x9hunr/one_unintended_consequences_of_making_a_readable/",
+  "date": "2026-10-18",
+  "category": "3d",
+  "evidenceType": "演示",
+  "title": "用滚动控制城堡场景漫游",
+  "title_en": "A scroll-controlled castle fly-through",
+  "summary": "作者用 Opus 5.5 编写城堡场景的网页漫游，对比 ES3D 与 glTF 资产工作流，并说明页面实现过程。",
+  "summary_en": "The creator used Opus 5.5 to build a scroll-controlled castle fly-through, comparing ES3D and glTF asset workflows and describing the implementation.",
+  "mediaKind": "image",
+  "checkedAt": "2026-10-21T13:32:02+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x9hunr/one_unintended_consequences_of_making_a_readable/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-21 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://es3d.org"
+   },
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://zenodo.org/records/23403919"
+   }
+  ],
+  "poster": "https://external-preview.redd.it/fw5vAtLAyTv20oflTH7n4coqp9bw8eZtWQxuJWvN3tE.jpeg?auto=webp&s=e8f92a2dfdc09603dfcece98092c215c07bb1a03",
+  "posterEvidence": {
+   "sourcePage": "https://www.reddit.com/r/ClaudeCode/comments/1x9hunr/one_unintended_consequences_of_making_a_readable/",
+   "checkedAt": "2026-10-21T13:30:14+00:00",
+   "width": 1600,
+   "height": 900,
+   "imageSha256": "d63e3a95bc12a696cf0adf032bd37d0d71922327cf9de345dc3e76b62f350505",
+   "method": "Original attachment/cover downloaded, decoded and visually inspected in a labeled contact sheet",
+   "relation": "Original creator attachment or video cover for this work",
+   "reviewStatus": "accepted"
+  }
+ },
+ {
+  "platform": "Reddit",
+  "author": "idlerunner00",
+  "sourceUrl": "https://www.reddit.com/r/vibecoding/comments/1x7i48i/building_a_multiplayer_extraction_rts_with_claude/",
+  "date": "2026-10-16",
+  "category": "games",
+  "evidenceType": "演示",
+  "title": "Out of Pixkrieg 浏览器撤离策略游戏",
+  "title_en": "Out of Pixkrieg browser extraction strategy game",
+  "summary": "作者描述用 Opus 5.5 与 GPT Astra 开发 Rust/Wasm 和 wgpu 游戏原型的过程。帖子中的限时测试已经结束。",
+  "summary_en": "The creator describes developing a Rust/Wasm and wgpu game prototype with Opus 5.5 and GPT Astra. The time-limited playtest announced in the post has ended.",
+  "mediaKind": "image",
+  "checkedAt": "2026-10-21T13:32:02+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/vibecoding/comments/1x7i48i/building_a_multiplayer_extraction_rts_with_claude/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-21 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://pixkrieg.com"
+   },
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://discord.gg/KmbhM2mJdH"
+   }
+  ]
+ },
+ {
+  "platform": "Reddit",
+  "author": "Gebby32",
+  "sourceUrl": "https://www.reddit.com/r/vibecoding/comments/1x74kcv/built_my_firstever_3d_game_with_claude_opus_55/",
+  "date": "2026-10-16",
+  "category": "games",
+  "evidenceType": "演示",
+  "title": "Sloths vs Penguins 多工具游戏制作",
+  "title_en": "Making Sloths vs Penguins with multiple tools",
+  "summary": "作者用 Opus 5.5 统筹游戏制作，结合 Codex、Meshy、Blender 与 Suno 处理设计、资产、动画和音乐，并分享流程。",
+  "summary_en": "The creator used Opus 5.5 to coordinate game production with Codex, Meshy, Blender and Suno handling design, assets, animation and music.",
+  "mediaKind": "image",
+  "checkedAt": "2026-10-21T13:32:02+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/vibecoding/comments/1x74kcv/built_my_firstever_3d_game_with_claude_opus_55/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-21 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://run.world/lucidconfusion/sloths-vs-penguins-a-spooky-jam-competition"
+   }
+  ],
+  "poster": "https://external-preview.redd.it/Y2Vrc3JodHZwcXZoMXO4hGu7FeUzV1_VUUeuHQn-WfKDSawOLyQPRneA7Hdz.png?auto=webp&s=31ae2df83dce57c928be6049ac4bb99e98f7ff70",
+  "posterEvidence": {
+   "sourcePage": "https://www.reddit.com/r/vibecoding/comments/1x74kcv/built_my_firstever_3d_game_with_claude_opus_55/",
+   "checkedAt": "2026-10-21T13:30:15+00:00",
+   "width": 1920,
+   "height": 1080,
+   "imageSha256": "e51a0aa39c7f36253542467dbd6a61a9fb2e7f5db92752b59c88281e3ab15270",
+   "method": "Original attachment/cover downloaded, decoded and visually inspected in a labeled contact sheet",
+   "relation": "Original creator attachment or video cover for this work",
+   "reviewStatus": "accepted"
+  }
+ },
+ {
+  "platform": "Reddit",
+  "author": "megagodstar",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x9vqpg/i_used_claude_opus_to_create_a_procedural/",
+  "date": "2026-10-19",
+  "category": "3d",
+  "evidenceType": "演示",
+  "title": "用 Python 生成 Blender 窄船模型",
+  "title_en": "Generating narrowboat models in Blender with Python",
+  "summary": "作者让 Opus 5.5 设计并编写 Blender 窄船生成脚本，提供开源代码。该模型未作实船工程验证。",
+  "summary_en": "The creator used Opus 5.5 to design and script a narrowboat generator in Blender, sharing the source. The model was not validated for real-world boat engineering.",
+  "mediaKind": "none",
+  "checkedAt": "2026-10-21T13:32:02+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1x9vqpg/i_used_claude_opus_to_create_a_procedural/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-21 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://github.com/3vilM33pl3/narrowboat-generator"
+   }
+  ]
+ },
+ {
+  "platform": "Reddit",
+  "author": "SouRUz",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x7gubt/video_editor_made_with_c_using_claude_opus_55/",
+  "date": "2026-10-16",
+  "category": "coding",
+  "evidenceType": "演示",
+  "title": "Wabcut 开源桌面视频编辑器",
+  "title_en": "Wabcut open-source desktop video editor",
+  "summary": "作者用 Opus 5.5 多代理开发 C++20、Qt6 和 QML 视频编辑器 Wabcut，并公开架构文档与代码。功能与性能未独立实测。",
+  "summary_en": "The creator used Opus 5.5 agents to develop Wabcut in C++20, Qt6 and QML, publishing code and architecture documents. Features and performance were not independently tested.",
+  "mediaKind": "image",
+  "checkedAt": "2026-10-21T13:32:02+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x7gubt/video_editor_made_with_c_using_claude_opus_55/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-21 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://github.com/sorsama/wabcut"
+   }
+  ],
+  "poster": "https://i.redd.it/3skp7ht74uvh1.png",
+  "posterEvidence": {
+   "sourcePage": "https://www.reddit.com/r/ClaudeCode/comments/1x7gubt/video_editor_made_with_c_using_claude_opus_55/",
+   "checkedAt": "2026-10-21T13:30:15+00:00",
+   "width": 1600,
+   "height": 960,
+   "imageSha256": "a77cf822552ca6518a7dafc7657bef31b23be9f7c65497091cdac31af9e1d0a4",
+   "method": "Original attachment/cover downloaded, decoded and visually inspected in a labeled contact sheet",
+   "relation": "Original creator attachment or video cover for this work",
+   "reviewStatus": "accepted"
+  }
+ },
+ {
+  "platform": "Reddit",
+  "author": "Ilyomix",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x6xcvs/github_profile_experiment/",
+  "date": "2026-10-15",
+  "category": "web",
+  "evidenceType": "演示",
+  "title": "可互动的 LED 风格 GitHub 主页",
+  "title_en": "An interactive LED-style GitHub profile",
+  "summary": "作者用 Opus 5.5 与 Superpowers 工作流开发 Python 生成器、SVG 动画和无服务器函数，在 GitHub 主页中实现像素宠物和动态数据。",
+  "summary_en": "The creator used Opus 5.5 and Superpowers to build a Python generator, SVG animations and serverless functions for a GitHub profile with a pixel pet and live data.",
+  "mediaKind": "image",
+  "checkedAt": "2026-10-21T13:32:02+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1x6xcvs/github_profile_experiment/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-21 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://github.com/Ilyomix"
+   }
+  ]
+ },
+ {
+  "platform": "Reddit",
+  "author": "Snoo-10493",
+  "sourceUrl": "https://www.reddit.com/r/claude/comments/1x8s4zi/i_built_tacit_os_made_possible_by_opus_55/",
+  "date": "2026-10-18",
+  "category": "coding",
+  "evidenceType": "演示",
+  "title": "Tacit OS 的系统调试与开发",
+  "title_en": "System debugging and development for Tacit OS",
+  "summary": "作者介绍在 Arch Linux 衍生系统 Tacit 中使用 Opus 5.5 排查窗口问题、比较架构并修改代码的流程，保留人工约束、审查与运行测试。",
+  "summary_en": "The creator describes using Opus 5.5 to investigate window bugs, compare architecture and change code for the Arch-based Tacit OS, with human constraints, review and runtime testing.",
+  "mediaKind": "video",
+  "checkedAt": "2026-10-21T13:32:02+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/claude/comments/1x8s4zi/i_built_tacit_os_made_possible_by_opus_55/",
+  "evidenceBasis": "Firsthand post title and body read from Arctic Shift Reddit archive; explicit version and task checked. Archived author report, not independent reproduction.",
+  "discoveredVia": "2026-10-21 multi-source discovery and original-source review",
+  "resources": [
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://tacitos.co"
+   },
+   {
+    "label": "作者附链",
+    "label_en": "Creator link",
+    "url": "https://github.com/ciscobugger/tacit"
+   }
+  ]
  }
 ]
