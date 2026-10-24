@@ -5257,5 +5257,22 @@
     "url": "https://github.com/tett23/point-of-needle"
    }
   ]
+ },
+ {
+  "platform": "Web",
+  "author": "Daniel Russo / SandBase",
+  "sourceUrl": "https://blog.sandbase.ai/fable-5-5-viral-prompts-tested-2026/",
+  "date": "2026-10-20",
+  "category": "graphics",
+  "evidenceType": "评测",
+  "title": "热门创意提示词的小样本实测",
+  "title_en": "Small-sample tests of viral creative prompts",
+  "summary": "SandBase 用 Opus 5.5 与 Fable 5.1 测试 SVG、回忆探针和 HTML 动画；Opus 完成 SVG，但一轮动画请求耗尽输出预算。测试未使用 Fable 5.5，也不能由探针推断隐藏模型身份。",
+  "summary_en": "SandBase tested Opus 5.5 and Fable 5.1 on SVG, recall probes and HTML animation. Opus produced SVG but exhausted its budget on one animation attempt. Fable 5.5 was not tested and probes do not establish hidden model identity.",
+  "evidenceBasis": "Original experiment article read on the publisher website. Model IDs, small samples and failure categories reviewed; tests not independently rerun. Editorial cover excluded because it is not model output.",
+  "checkedAt": "2026-10-24T09:52:47+00:00",
+  "evidenceUrl": "https://blog.sandbase.ai/fable-5-5-viral-prompts-tested-2026/",
+  "mediaKind": "none",
+  "discoveredVia": "2026-10-24 supplemental web search and original-source review"
  }
 ]

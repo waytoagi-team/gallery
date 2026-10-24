@@ -2524,5 +2524,39 @@
   "evidenceUrl": "https://news.ycombinator.com/item?id=50106800",
   "evidenceBasis": "Firsthand original HN comment read through Algolia, with explicit model version and concrete task. Author report, not independent reproduction.",
   "discoveredVia": "2026-10-21 multi-source discovery and original-source review"
+ },
+ {
+  "platform": "Hacker News",
+  "author": "mparker123",
+  "sourceUrl": "https://news.ycombinator.com/item?id=50195366",
+  "date": "2026-10-22",
+  "category": "education",
+  "evidenceType": "演示",
+  "title": "地铁旅程式医学科普网页",
+  "title_en": "A subway-ride medical explainer",
+  "summary": "作者用 Opus 5.5 编写滚动交互科普网站，Codex 审查代码，图像、语音和歌曲由其他工具提供；人类持续审阅内容。",
+  "summary_en": "The creator used Opus 5.5 to build a scrolling educational site, Codex for code review and separate image, voice and music tools, with continuing human content review.",
+  "mediaKind": "none",
+  "checkedAt": "2026-10-24T09:52:47+00:00",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=50195366",
+  "evidenceBasis": "Firsthand original HN comment read through Algolia, with explicit model version and concrete task. Author report, not independent reproduction.",
+  "discoveredVia": "2026-10-24 multi-source discovery and original-source review"
+ },
+ {
+  "platform": "Hacker News",
+  "author": "arjie",
+  "sourceUrl": "https://news.ycombinator.com/item?id=50192584",
+  "date": "2026-10-22",
+  "category": "coding",
+  "evidenceType": "演示",
+  "title": "个人 Markdown 阅读器",
+  "title_en": "A personal Markdown viewer",
+  "summary": "作者用 Opus 5.5 在已有 JSON 阅读器代码基础上制作 Markdown 阅读工具，强调快速启动体验；性能为作者自述。",
+  "summary_en": "The author used Opus 5.5 for a Markdown viewer based on an existing JSON-viewer codebase, reporting fast startup without an independent benchmark.",
+  "mediaKind": "none",
+  "checkedAt": "2026-10-24T09:52:47+00:00",
+  "evidenceUrl": "https://news.ycombinator.com/item?id=50192584",
+  "evidenceBasis": "Firsthand original HN comment read through Algolia, with explicit model version and concrete task. Author report, not independent reproduction.",
+  "discoveredVia": "2026-10-24 multi-source discovery and original-source review"
  }
 ]

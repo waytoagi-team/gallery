@@ -1,0 +1,92 @@
+{
+  "refreshedAt": "2026-10-21T13:33:08+00:00",
+  "scope": {
+    "key": "multisource-partial",
+    "zh": "多来源发现、原帖审核与互动数据更新（部分覆盖）",
+    "en": "Multi-source discovery, original-source review and metrics (partial coverage)"
+  },
+  "status": "partial-coverage",
+  "lastFullRefreshAt": null,
+  "lastMultiSourceRefreshAt": "2026-10-21T13:33:08+00:00",
+  "previousReport": "data/refresh_history/2026-10-21-before-refresh.json",
+  "previousCaseCount": 45,
+  "caseCount": 45,
+  "reviewedNewExtras": 0,
+  "newCasesByPlatform": {},
+  "coverage": {
+    "since": "2026-10-14",
+    "configuredSourcesAttempted": 6,
+    "configuredSourcesSucceeded": 6,
+    "configuredDiscoveryCandidates": 27,
+    "reviewedAccepted": 0,
+    "partial": true,
+    "candidateQueueFile": "reports/reviews/2026-10-21-candidate-queue.json",
+    "backfill": {
+      "count": 0,
+      "sourceUrls": [],
+      "note": "Older original works surfaced by bounded search or repositories pushed during the window; original dates were retained where applicable."
+    }
+  },
+  "metrics": {
+    "refreshedAt": "2026-10-21T13:20:09+00:00",
+    "x": {
+      "attempted": 45,
+      "succeeded": 44
+    },
+    "github": {
+      "attempted": 0,
+      "succeeded": 0,
+      "changed": 0,
+      "byKind": {
+        "repository": {
+          "attempted": 0,
+          "succeeded": 0
+        },
+        "pull_request": {
+          "attempted": 0,
+          "succeeded": 0
+        },
+        "issue": {
+          "attempted": 0,
+          "succeeded": 0
+        }
+      }
+    },
+    "failed": [
+      {
+        "key": "x:2107315127292952696",
+        "url": "https://api.fxtwitter.com/Vince__Russell/status/2107315127292952696",
+        "checkedAt": "2026-10-21T13:20:04+00:00",
+        "ok": false,
+        "error": "HTTP Error 404: Not Found",
+        "status": 404
+      }
+    ]
+  },
+  "posters": {
+    "total": 27,
+    "missing": 18,
+    "newAccepted": 0,
+    "historicalPostersPreserved": true
+  },
+  "limitations": [
+    "Bounded multi-source discovery and prioritized editorial review, not exhaustive web coverage. Unfinished candidates are retained in a separate queue and were not automatically imported.",
+    "X searches are limited to five pages per query; some pagination requests returned 404. Retrying the October 16 and October 19 daily searches succeeded. Historical metrics that could not be fetched retain their prior values and timestamps.",
+    "Reddit retrieval is limited to twelve pages per subreddit; Bilibili search is limited to twenty pages. Video descriptions and original covers were reviewed; full videos were not watched.",
+    "Author reports are not independent reproductions. Multi-model roles are distinguished in the summaries. Back-end identity and routing are not independently verified.",
+    "No new Fable case was admitted in this run. Candidate claims include unverified early-access or hidden-routing attribution; these remain pending where source evidence is insufficient. Existing 45 author-attributed cases are preserved."
+  ],
+  "fetchReceiptFile": "data/refresh_history/2026-10-21-fetches.json",
+  "reviewFile": "data/refresh_history/2026-10-21-review.json",
+  "processLog": "reports/UPDATE-2026-10-21.md",
+  "validation": {
+    "status": "passed",
+    "checkedAt": "2026-10-21T13:34:42+00:00",
+    "pythonTestsPassed": 44,
+    "rankingTestsPassed": 3,
+    "dataAndAssetsValidation": "passed",
+    "offlineBuildCheck": "passed",
+    "browserViews": 5,
+    "reportFile": "data/refresh_history/2026-10-21-validation.json"
+  }
+}

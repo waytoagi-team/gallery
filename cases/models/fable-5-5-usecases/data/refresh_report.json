@@ -1,5 +1,5 @@
 {
-  "refreshedAt": "2026-10-21T13:33:08+00:00",
+  "refreshedAt": "2026-10-24T09:53:31+00:00",
   "scope": {
     "key": "multisource-partial",
     "zh": "多来源发现、原帖审核与互动数据更新（部分覆盖）",
@@ -7,20 +7,20 @@
   },
   "status": "partial-coverage",
   "lastFullRefreshAt": null,
-  "lastMultiSourceRefreshAt": "2026-10-21T13:33:08+00:00",
-  "previousReport": "data/refresh_history/2026-10-21-before-refresh.json",
+  "lastMultiSourceRefreshAt": "2026-10-24T09:53:31+00:00",
+  "previousReport": "data/refresh_history/2026-10-24-before-refresh.json",
   "previousCaseCount": 45,
   "caseCount": 45,
   "reviewedNewExtras": 0,
   "newCasesByPlatform": {},
   "coverage": {
-    "since": "2026-10-14",
+    "since": "2026-10-20",
     "configuredSourcesAttempted": 6,
     "configuredSourcesSucceeded": 6,
-    "configuredDiscoveryCandidates": 27,
+    "configuredDiscoveryCandidates": 16,
     "reviewedAccepted": 0,
     "partial": true,
-    "candidateQueueFile": "reports/reviews/2026-10-21-candidate-queue.json",
+    "candidateQueueFile": "reports/reviews/2026-10-24-candidate-queue.json",
     "backfill": {
       "count": 0,
       "sourceUrls": [],
@@ -28,7 +28,7 @@
     }
   },
   "metrics": {
-    "refreshedAt": "2026-10-21T13:20:09+00:00",
+    "refreshedAt": "2026-10-24T09:45:10+00:00",
     "x": {
       "attempted": 45,
       "succeeded": 44
@@ -56,7 +56,7 @@
       {
         "key": "x:2107315127292952696",
         "url": "https://api.fxtwitter.com/Vince__Russell/status/2107315127292952696",
-        "checkedAt": "2026-10-21T13:20:04+00:00",
+        "checkedAt": "2026-10-24T09:45:08+00:00",
         "ok": false,
         "error": "HTTP Error 404: Not Found",
         "status": 404
@@ -71,22 +71,44 @@
   },
   "limitations": [
     "Bounded multi-source discovery and prioritized editorial review, not exhaustive web coverage. Unfinished candidates are retained in a separate queue and were not automatically imported.",
-    "X searches are limited to five pages per query; some pagination requests returned 404. Retrying the October 16 and October 19 daily searches succeeded. Historical metrics that could not be fetched retain their prior values and timestamps.",
+    "X searches are limited to five pages per query; some pagination requests returned 404. The October 20 daily search was retried and yielded three pages before another 404. Historical metrics that could not be fetched retain their prior values and timestamps.",
     "Reddit retrieval is limited to twelve pages per subreddit; Bilibili search is limited to twenty pages. Video descriptions and original covers were reviewed; full videos were not watched.",
     "Author reports are not independent reproductions. Multi-model roles are distinguished in the summaries. Back-end identity and routing are not independently verified.",
+    "Firecrawl search could not run because credits were exhausted. Regular web search and original publisher/repository reads supplemented the platform collectors.",
     "No new Fable case was admitted in this run. Candidate claims include unverified early-access or hidden-routing attribution; these remain pending where source evidence is insufficient. Existing 45 author-attributed cases are preserved."
   ],
-  "fetchReceiptFile": "data/refresh_history/2026-10-21-fetches.json",
-  "reviewFile": "data/refresh_history/2026-10-21-review.json",
-  "processLog": "reports/UPDATE-2026-10-21.md",
+  "fetchReceiptFile": "data/refresh_history/2026-10-24-fetches.json",
+  "reviewFile": "data/refresh_history/2026-10-24-review.json",
+  "processLog": "reports/UPDATE-2026-10-24.md",
   "validation": {
     "status": "passed",
-    "checkedAt": "2026-10-21T13:34:42+00:00",
-    "pythonTestsPassed": 44,
-    "rankingTestsPassed": 3,
-    "dataAndAssetsValidation": "passed",
-    "offlineBuildCheck": "passed",
-    "browserViews": 5,
-    "reportFile": "data/refresh_history/2026-10-21-validation.json"
+    "checkedAt": "2026-10-24T09:54:45+00:00",
+    "pythonTests": 44,
+    "javascriptTests": 3,
+    "browserViews": 10,
+    "historicalIntegrity": {
+      "topic": "fable-5-5",
+      "before": 45,
+      "after": 45,
+      "new": 0,
+      "historicalChangedFields": {
+        "metricsCheckedAt": 44,
+        "likes": 27,
+        "views": 42,
+        "bookmarks": 21
+      },
+      "unchangedSourceFiles": [
+        "base_cases.json"
+      ]
+    },
+    "failedMetricCasesPreserved": 1,
+    "browserReport": "reports/reviews/2026-10-24-browser.json",
+    "checks": [
+      "all-topic validation",
+      "reproducible build check",
+      "historical ID and source-position preservation",
+      "failed metric values and timestamps retained",
+      "new poster contact sheets and desktop/mobile pages visually reviewed"
+    ]
   }
 }
