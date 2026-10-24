@@ -1,0 +1,96 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "topic": "opus-5-5",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "language": "zh",
+      "runtimeErrors": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "topic": "opus-5-5",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "language": "en",
+      "runtimeErrors": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "topic": "opus-5-5",
+      "viewport": [
+        390,
+        844
+      ],
+      "language": "zh",
+      "runtimeErrors": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "topic": "opus-5-5",
+      "viewport": [
+        390,
+        844
+      ],
+      "language": "en",
+      "runtimeErrors": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "topic": "opus-5-5",
+      "offlineFileMode": true,
+      "runtimeErrors": 0
+    },
+    {
+      "topic": "fable-5-5",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "language": "zh",
+      "runtimeErrors": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "topic": "fable-5-5",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "language": "en",
+      "runtimeErrors": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "topic": "fable-5-5",
+      "viewport": [
+        390,
+        844
+      ],
+      "language": "zh",
+      "runtimeErrors": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "topic": "fable-5-5",
+      "viewport": [
+        390,
+        844
+      ],
+      "language": "en",
+      "runtimeErrors": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "topic": "fable-5-5",
+      "offlineFileMode": true,
+      "runtimeErrors": 0
+    }
+  ],
+  "externalPosters": "Blocked for offline regression; original URLs unchanged"
+}

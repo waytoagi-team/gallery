@@ -1,0 +1,85 @@
+{
+  "refreshedAt": "2026-10-15T12:19:23+00:00",
+  "scope": {
+    "key": "multisource-partial",
+    "zh": "多来源发现、原帖审核与互动数据更新（部分覆盖）",
+    "en": "Multi-source discovery, original-source review and metrics (partial coverage)"
+  },
+  "status": "partial-coverage",
+  "lastFullRefreshAt": null,
+  "lastMultiSourceRefreshAt": "2026-10-15T12:19:23+00:00",
+  "previousReport": "data/refresh_history/2026-10-15-before-refresh.json",
+  "previousCaseCount": 45,
+  "caseCount": 45,
+  "reviewedNewExtras": 0,
+  "newCasesByPlatform": {},
+  "coverage": {
+    "since": "2026-10-13",
+    "configuredSourcesAttempted": 6,
+    "configuredSourcesSucceeded": 6,
+    "configuredDiscoveryCandidates": 14,
+    "reviewedAccepted": 0,
+    "partial": true
+  },
+  "metrics": {
+    "refreshedAt": "2026-10-15T12:19:04+00:00",
+    "x": {
+      "attempted": 45,
+      "succeeded": 44
+    },
+    "github": {
+      "attempted": 0,
+      "succeeded": 0,
+      "changed": 0,
+      "byKind": {
+        "repository": {
+          "attempted": 0,
+          "succeeded": 0
+        },
+        "pull_request": {
+          "attempted": 0,
+          "succeeded": 0
+        },
+        "issue": {
+          "attempted": 0,
+          "succeeded": 0
+        }
+      }
+    },
+    "failed": [
+      {
+        "key": "x:2107315127292952696",
+        "url": "https://api.fxtwitter.com/Vince__Russell/status/2107315127292952696",
+        "checkedAt": "2026-10-15T12:19:00+00:00",
+        "ok": false,
+        "error": "HTTP Error 404: Not Found",
+        "status": 404
+      }
+    ]
+  },
+  "posters": {
+    "total": 27,
+    "missing": 18,
+    "newAccepted": 0,
+    "historicalPostersPreserved": true
+  },
+  "limitations": [
+    "Configured endpoints and shared X/catalog/Bilibili/Reddit/GitHub pools are bounded discovery, not an exhaustive crawl. 61 candidates mentioning Fable 5.5 were reviewed against their original sources; none met the attribution and concrete-work standard. Nothing was auto-imported.",
+    "The relaxed 2026-10-15 Bilibili standard was applied to Fable too; no Bilibili video in the pools names Fable 5.5 as the maker of a concrete work.",
+    "Attribution remains author-reported; backend identity and service routing are not independently verified.",
+    "Historical metrics: X 44/45; one post now returns 404 and keeps its prior value and timestamp."
+  ],
+  "fetchReceiptFile": "data/refresh_history/2026-10-15-fetches.json",
+  "reviewFile": "data/refresh_history/2026-10-15-review.json",
+  "processLog": "reports/UPDATE-2026-10-15.md",
+  "validation": {
+    "status": "passed",
+    "checkedAt": "2026-10-15T12:21:04+00:00",
+    "reportFile": "data/refresh_history/2026-10-15-validation.json",
+    "browserViews": 5,
+    "pythonTestsPassed": 44,
+    "rankingTestsPassed": 3,
+    "dataAndAssetsValidation": "passed",
+    "offlineBuildCheck": "passed"
+  }
+}

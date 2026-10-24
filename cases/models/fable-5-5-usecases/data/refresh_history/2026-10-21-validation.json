@@ -1,0 +1,78 @@
+{
+  "status": "passed",
+  "checkedAt": "2026-10-21T13:34:42+00:00",
+  "pythonTestsPassed": 44,
+  "rankingTestsPassed": 3,
+  "dataAndAssetsValidation": "passed",
+  "offlineBuildCheck": "passed",
+  "browserViews": 5,
+  "browserChecks": [
+    {
+      "topic": "fable-5-5",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "language": "zh",
+      "runtimeErrors": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "topic": "fable-5-5",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "language": "en",
+      "runtimeErrors": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "topic": "fable-5-5",
+      "viewport": [
+        390,
+        844
+      ],
+      "language": "zh",
+      "runtimeErrors": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "topic": "fable-5-5",
+      "viewport": [
+        390,
+        844
+      ],
+      "language": "en",
+      "runtimeErrors": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "topic": "fable-5-5",
+      "offlineFileMode": true,
+      "runtimeErrors": 0
+    }
+  ],
+  "historicalIntegrity": {
+    "topic": "fable-5-5",
+    "before": 45,
+    "after": 45,
+    "new": 0,
+    "historicalChangedFields": {
+      "likes": 34,
+      "metricsCheckedAt": 44,
+      "views": 43,
+      "bookmarks": 29
+    },
+    "unchangedSourceFiles": [
+      "base_cases.json"
+    ]
+  },
+  "posterReview": {
+    "downloadedDecoded": 0,
+    "accepted": 0,
+    "unreadable": 0,
+    "visuallyExcluded": 0
+  },
+  "externalPosterBrowserPolicy": "Blocked for offline regression; original URLs unchanged"
+}

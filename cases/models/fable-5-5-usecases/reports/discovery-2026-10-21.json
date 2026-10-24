@@ -1,0 +1,465 @@
+{
+  "schemaVersion": 1,
+  "topicId": "fable-5-5",
+  "runId": "20261021T131954Z-73223eeb",
+  "startedAt": "2026-10-21T13:19:54+00:00",
+  "finishedAt": "2026-10-21T13:19:56+00:00",
+  "since": "2026-10-14",
+  "status": "retrieved",
+  "sourcesAttempted": 6,
+  "sourcesSucceeded": 6,
+  "coverage": "partial",
+  "candidateCount": 27,
+  "reviewedNewCases": 0,
+  "limitations": [
+    "Successful retrieval does not prove exhaustive coverage or model attribution.",
+    "Search adapters inspect one bounded page per configured query; no complete-pagination claim.",
+    "Only GitHub and HN JSON searches currently emit candidate metadata; other snapshots require manual review.",
+    "Discovery does not change accepted data, metric freshness or the published refresh report."
+  ],
+  "sources": [
+    {
+      "key": "github-repositories-1",
+      "url": "https://api.github.com/search/repositories?q=%22Fable+5.5%22+pushed%3A%3E%3D2026-10-14&sort=updated&per_page=30",
+      "checkedAt": "2026-10-21T13:19:54+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "27",
+        "x-ratelimit-reset": "1792588854"
+      },
+      "finalUrl": "https://api.github.com/search/repositories?q=%22Fable+5.5%22+pushed%3A%3E%3D2026-10-14&sort=updated&per_page=30",
+      "bytes": 42607,
+      "file": "github-repositories-1.txt",
+      "sha256": "98456450e65316b8e4016b144140720dd0828b1784031fc2a86d09e82f8afadc",
+      "ok": true,
+      "returned": 7,
+      "totalReported": 7,
+      "searchIncomplete": false,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "hn-1",
+      "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Fable+5.5%22&hitsPerPage=30&numericFilters=created_at_i%3E%3D1791936000",
+      "checkedAt": "2026-10-21T13:19:54+00:00",
+      "status": 200,
+      "finalUrl": "https://hn.algolia.com/api/v1/search_by_date?query=%22Fable+5.5%22&hitsPerPage=30&numericFilters=created_at_i%3E%3D1791936000",
+      "bytes": 13213,
+      "file": "hn-1.txt",
+      "sha256": "c7e1fbfa8175ce9326c6ffe21a9be4583ec72c022c3203e1e8b96da526900616",
+      "ok": true,
+      "returned": 10,
+      "totalReported": 10,
+      "pagesReported": 1,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "github-repositories-2",
+      "url": "https://api.github.com/search/repositories?q=%22fable5.5%22+pushed%3A%3E%3D2026-10-14&sort=updated&per_page=30",
+      "checkedAt": "2026-10-21T13:19:54+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "29",
+        "x-ratelimit-reset": "1792588854"
+      },
+      "finalUrl": "https://api.github.com/search/repositories?q=%22fable5.5%22+pushed%3A%3E%3D2026-10-14&sort=updated&per_page=30",
+      "bytes": 61406,
+      "file": "github-repositories-2.txt",
+      "sha256": "77d8a240222f8a1fd94a249891166b5bd74345b161c56df0c38e58e0891fb1e9",
+      "ok": true,
+      "returned": 11,
+      "totalReported": 11,
+      "searchIncomplete": false,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "hn-2",
+      "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22fable5.5%22&hitsPerPage=30&numericFilters=created_at_i%3E%3D1791936000",
+      "checkedAt": "2026-10-21T13:19:55+00:00",
+      "status": 200,
+      "finalUrl": "https://hn.algolia.com/api/v1/search_by_date?query=%22fable5.5%22&hitsPerPage=30&numericFilters=created_at_i%3E%3D1791936000",
+      "bytes": 424,
+      "file": "hn-2.txt",
+      "sha256": "b69c761c5fca5efa466ae1fcc024f05c2afddf5c7d29d3c32f568b16e301209b",
+      "ok": true,
+      "returned": 0,
+      "totalReported": 0,
+      "pagesReported": 0,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "github-repositories-3",
+      "url": "https://api.github.com/search/repositories?q=%22fable-5-5%22+pushed%3A%3E%3D2026-10-14&sort=updated&per_page=30",
+      "checkedAt": "2026-10-21T13:19:55+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "26",
+        "x-ratelimit-reset": "1792588854"
+      },
+      "finalUrl": "https://api.github.com/search/repositories?q=%22fable-5-5%22+pushed%3A%3E%3D2026-10-14&sort=updated&per_page=30",
+      "bytes": 42607,
+      "file": "github-repositories-3.txt",
+      "sha256": "98456450e65316b8e4016b144140720dd0828b1784031fc2a86d09e82f8afadc",
+      "ok": true,
+      "returned": 7,
+      "totalReported": 7,
+      "searchIncomplete": false,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "hn-3",
+      "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22fable-5-5%22&hitsPerPage=30&numericFilters=created_at_i%3E%3D1791936000",
+      "checkedAt": "2026-10-21T13:19:55+00:00",
+      "status": 200,
+      "finalUrl": "https://hn.algolia.com/api/v1/search_by_date?query=%22fable-5-5%22&hitsPerPage=30&numericFilters=created_at_i%3E%3D1791936000",
+      "bytes": 1932,
+      "file": "hn-3.txt",
+      "sha256": "e8d65b5d46f091642c952b422c357ffe7c0ecc5c3dab1b339caa18d0d16a26aa",
+      "ok": true,
+      "returned": 1,
+      "totalReported": 1,
+      "pagesReported": 1,
+      "pagination": "first-page-only"
+    }
+  ],
+  "candidates": [
+    {
+      "sourceUrl": "https://github.com/jiejia2026/fable55-field-guide",
+      "title": "jiejia2026/fable55-field-guide",
+      "platform": "GitHub",
+      "date": "2026-10-21",
+      "sourceIdentity": "github.com/jiejia2026/fable55-field-guide",
+      "topicId": "fable-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-2",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/billyhetech/awesome-fable5-5-videos",
+      "title": "billyhetech/awesome-fable5-5-videos",
+      "platform": "GitHub",
+      "date": "2026-10-10",
+      "sourceIdentity": "github.com/billyhetech/awesome-fable5-5-videos",
+      "topicId": "fable-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-2",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/billyhetech/awesome-viral-ai-videos",
+      "title": "billyhetech/awesome-viral-ai-videos",
+      "platform": "GitHub",
+      "date": "2026-10-15",
+      "sourceIdentity": "github.com/billyhetech/awesome-viral-ai-videos",
+      "topicId": "fable-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/xianyu110/awesome-fable-5.5",
+      "title": "xianyu110/awesome-fable-5.5",
+      "platform": "GitHub",
+      "date": "2026-10-03",
+      "sourceIdentity": "github.com/xianyu110/awesome-fable-5.5",
+      "topicId": "fable-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/coolbat/awesome-fable-5.5-usecase",
+      "title": "coolbat/awesome-fable-5.5-usecase",
+      "platform": "GitHub",
+      "date": "2026-10-03",
+      "sourceIdentity": "github.com/coolbat/awesome-fable-5.5-usecase",
+      "topicId": "fable-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/mailes/awesome-claude-5-5-videos",
+      "title": "mailes/awesome-claude-5-5-videos",
+      "platform": "GitHub",
+      "date": "2026-10-07",
+      "sourceIdentity": "github.com/mailes/awesome-claude-5-5-videos",
+      "topicId": "fable-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Dev-angPatil/free-claude-fable-5-5",
+      "title": "Dev-angPatil/free-claude-fable-5-5",
+      "platform": "GitHub",
+      "date": "2026-10-17",
+      "sourceIdentity": "github.com/dev-angpatil/free-claude-fable-5-5",
+      "topicId": "fable-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50174596",
+      "title": "Anthropic logged net loss of over $80B in first half of 2026",
+      "platform": "Hacker News",
+      "date": "2026-10-21",
+      "sourceIdentity": "news.ycombinator.com/item?id=50174596",
+      "topicId": "fable-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50166554",
+      "title": "DeepSeek just open-sourced its inference engine",
+      "platform": "Hacker News",
+      "date": "2026-10-20",
+      "sourceIdentity": "news.ycombinator.com/item?id=50166554",
+      "topicId": "fable-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50136627",
+      "title": "Fable 5.5: SVG of a controller riding a bicyle riding a pelican riding a bicycle",
+      "platform": "Hacker News",
+      "date": "2026-10-18",
+      "sourceIdentity": "news.ycombinator.com/item?id=50136627",
+      "topicId": "fable-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50136416",
+      "title": "Fable 5.5: SVG of a controller riding a bicyle riding a pelican riding a bicycle",
+      "platform": "Hacker News",
+      "date": "2026-10-18",
+      "sourceIdentity": "news.ycombinator.com/item?id=50136416",
+      "topicId": "fable-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50134741",
+      "title": "Fable 5.5: SVG of bike riding a pelican",
+      "platform": "Hacker News",
+      "date": "2026-10-17",
+      "sourceIdentity": "news.ycombinator.com/item?id=50134741",
+      "topicId": "fable-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50131191",
+      "title": "DeepSeek-v4.1-Flash-1017",
+      "platform": "Hacker News",
+      "date": "2026-10-17",
+      "sourceIdentity": "news.ycombinator.com/item?id=50131191",
+      "topicId": "fable-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50129437",
+      "title": "DeepSeek-v4.1-Flash-1017",
+      "platform": "Hacker News",
+      "date": "2026-10-17",
+      "sourceIdentity": "news.ycombinator.com/item?id=50129437",
+      "topicId": "fable-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50102026",
+      "title": "Claude Fable 5.5 traces have been spotted in Azure configs",
+      "platform": "Hacker News",
+      "date": "2026-10-15",
+      "sourceIdentity": "news.ycombinator.com/item?id=50102026",
+      "topicId": "fable-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50090988",
+      "title": "Why do LLM pelicans look like this?",
+      "platform": "Hacker News",
+      "date": "2026-10-14",
+      "sourceIdentity": "news.ycombinator.com/item?id=50090988",
+      "topicId": "fable-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50084960",
+      "title": "AI is a tool and using it well takes skill",
+      "platform": "Hacker News",
+      "date": "2026-10-14",
+      "sourceIdentity": "news.ycombinator.com/item?id=50084960",
+      "topicId": "fable-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/yujione1412-png/bukken-navi-fable5",
+      "title": "yujione1412-png/bukken-navi-fable5",
+      "platform": "GitHub",
+      "date": "2026-07-13",
+      "sourceIdentity": "github.com/yujione1412-png/bukken-navi-fable5",
+      "topicId": "fable-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/EugeneinTW/fable5-cases",
+      "title": "EugeneinTW/fable5-cases",
+      "platform": "GitHub",
+      "date": "2026-06-11",
+      "sourceIdentity": "github.com/eugeneintw/fable5-cases",
+      "topicId": "fable-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/rhein1/fable5-codex",
+      "title": "rhein1/fable5-codex",
+      "platform": "GitHub",
+      "date": "2026-07-05",
+      "sourceIdentity": "github.com/rhein1/fable5-codex",
+      "topicId": "fable-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/kot-Bonifacy/Fable5-vtt",
+      "title": "kot-Bonifacy/Fable5-vtt",
+      "platform": "GitHub",
+      "date": "2026-07-16",
+      "sourceIdentity": "github.com/kot-bonifacy/fable5-vtt",
+      "topicId": "fable-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/vivmuk/fable5",
+      "title": "vivmuk/fable5",
+      "platform": "GitHub",
+      "date": "2026-06-10",
+      "sourceIdentity": "github.com/vivmuk/fable5",
+      "topicId": "fable-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/hibi89/fable5.1_web_catcher",
+      "title": "hibi89/fable5.1_web_catcher",
+      "platform": "GitHub",
+      "date": "2026-10-18",
+      "sourceIdentity": "github.com/hibi89/fable5.1_web_catcher",
+      "topicId": "fable-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/chromata83/Chromata_films_FAble5_update",
+      "title": "chromata83/Chromata_films_FAble5_update",
+      "platform": "GitHub",
+      "date": "2026-07-08",
+      "sourceIdentity": "github.com/chromata83/chromata_films_fable5_update",
+      "topicId": "fable-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Genovese-Felipe/NASA-APIs-Fable5",
+      "title": "Genovese-Felipe/NASA-APIs-Fable5",
+      "platform": "GitHub",
+      "date": "2026-08-04",
+      "sourceIdentity": "github.com/genovese-felipe/nasa-apis-fable5",
+      "topicId": "fable-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/TLAN1012/Fable5",
+      "title": "TLAN1012/Fable5",
+      "platform": "GitHub",
+      "date": "2026-06-10",
+      "sourceIdentity": "github.com/tlan1012/fable5",
+      "topicId": "fable-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50158235",
+      "title": "MiniMax M3.1 Flash",
+      "platform": "Hacker News",
+      "date": "2026-10-19",
+      "sourceIdentity": "news.ycombinator.com/item?id=50158235",
+      "topicId": "fable-5-5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3"
+      ]
+    }
+  ]
+}

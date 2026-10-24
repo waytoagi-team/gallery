@@ -73,3 +73,10 @@
 - 正式地址核对：两个专题的 `index.html`、`data/all_cases.json`、`assets/og-image.png`、`build.json` 与 gallery `0655508` 中 public 文件的 MD5 全部一致。
 - 合并源码后自动生成的 [bump PR 42](https://github.com/waytoagi-team/waytoagi-static-pages/pull/42) 仍使用旧 source.dir，已关闭且未合并。之后 Opus 的 bump PR 以 public 目录为准。
 - 迁移后线上只提供 public 中的文件；原目录中的 `data/extra_*.json`、`UPDATE-*.md` 与脚本仍在仓库中，不再由网站直接提供。
+
+## 2026 年 10 月 24 日更新与发布准备
+
+- 本轮新增 136 条 Opus 案例，累计 7,483；Fable 保持 45 条。与当前线上 10 月 15 日版相比，将一并发布 10 月 21 日和本轮的 331 条新增。
+- 成功更新 4,962 条历史来源的互动指标；请求失败时保留原值和核对时间。采用新海报 87 张，基础列表与所有历史 ID、来源顺序不变。
+- 44 项 Python、3 项 JavaScript 测试及 10 个浏览器视图通过；双专题构建一致性和数据校验通过。
+- 证据、候选队列与覆盖限制见各专题 `reports/UPDATE-2026-10-24.md`。源码使用 [PR #33](https://github.com/waytoagi-team/gallery/pull/33)，发布清单须锁定其 main 合并 SHA。
