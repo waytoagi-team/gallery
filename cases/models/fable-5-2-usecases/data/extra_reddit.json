@@ -1,0 +1,23 @@
+[
+  {
+    "id": "fable52-cat-animation",
+    "title": "猫跨越历史时代的动画测试",
+    "title_en": "A cat-through-history animation test",
+    "summary": "作者明确在正式 Fable 5.2 上尝试猫穿越不同时代的动画，并对视觉效果表示不满意；原帖附视频。",
+    "summary_en": "The author tested a cat-through-history animation on released Fable 5.2 and was dissatisfied with the visuals; the post includes video.",
+    "category": "graphics",
+    "platform": "Reddit",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1xs3cjx/i_did_a_cat_animation_test_with_fable52extra/",
+    "author": "Sufficient_Nobody477",
+    "date": "2026-11-10",
+    "evidenceType": "限制",
+    "checkedAt": "2026-11-10T10:26:12+00:00",
+    "evidenceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1xs3cjx/i_did_a_cat_animation_test_with_fable52extra/",
+    "evidenceBasis": "通过网页工具读取原帖正文，明确区分 5.2 实测与旧 5.5 传闻作品；只记录该作者自己的测试。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "动画生成"
+    }
+  }
+]

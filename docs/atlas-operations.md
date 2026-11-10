@@ -76,6 +76,7 @@ python -m atlas.smoke --all
 | path | source.dir |
 | --- | --- |
 | `/usecase-atlas/opus5-5/` | `cases/models/claude-opus-5-5-usecases/public` |
+| `/usecase-atlas/fable5-2/` | `cases/models/fable-5-2-usecases/public` |
 | `/usecase-atlas/fable5-5/`（已暂停公开，不应挂载） | `cases/models/fable-5-5-usecases/public`（历史归档） |
 
 首次迁移要一起审阅源码 PR 与发布清单 PR。先确认源码构建与浏览器检查通过，再合并源码和对应的发布清单变更。过渡期间旧挂载仍指向已发布 SHA；不要合并使用旧 source.dir 的自动 bump PR，它不能代表 public 目录迁移已经接入。

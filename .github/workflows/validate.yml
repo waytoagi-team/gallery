@@ -28,8 +28,7 @@ jobs:
       - run: python -m playwright install --with-deps chromium
       - run: python -m unittest discover -s tests -p 'test_*.py'
       - run: node --test tests/test_ranking.cjs
-      # Shared changes must rebuild every topic. At two topics, checking both on
-      # each PR is cheap and catches cross-topic regressions without path heuristics.
+      # Check every configured topic to catch cross-topic regressions.
       - run: python -m atlas build --all --check
       - run: python -m atlas.smoke --all --report .cache/validation/browser.json
       - uses: actions/upload-artifact@v4

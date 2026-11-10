@@ -1,0 +1,365 @@
+[
+  {
+    "id": "fable52-hyuki-993504",
+    "title": "代码生成群论对称性短片",
+    "title_en": "Group-theory symmetry film generated with code",
+    "summary": "作者让 Fable 5.2 制作约 30 秒的群论视频，报告画面和音乐均由代码生成；未独立复现。",
+    "summary_en": "The author requested a 30-second group-theory video and reports code-generated visuals and music; not independently reproduced.",
+    "category": "education",
+    "platform": "X",
+    "sourceUrl": "https://x.com/hyuki/status/2120029845572993504",
+    "author": "hyuki",
+    "date": "2026-11-10",
+    "evidenceType": "演示",
+    "checkedAt": "2026-11-10T10:26:12+00:00",
+    "evidenceUrl": "https://x.com/hyuki/status/2120029845572993504",
+    "evidenceBasis": "已读取创作者原帖，原帖明确写出 Fable 5.2 并说明上述任务。作品合集仅用于发现；后台模型、费用及结果未经独立复现。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "生成代码或动画；比较任务中仅归属 Fable 5.2 的部分"
+    },
+    "likes": 53,
+    "metricsCheckedAt": "2026-11-10T10:26:12+00:00",
+    "resources": [
+      {
+        "label": "作品合集中的演示",
+        "label_en": "Demo in discovery gallery",
+        "url": "https://fable5.app/fable-5-2/works/hyuki-993504/"
+      }
+    ]
+  },
+  {
+    "id": "fable52-yupi996-694138",
+    "title": "古风卷轴式 AI 编程学习路线",
+    "title_en": "An ancient-scroll AI coding study path",
+    "summary": "作者明确使用 Fable 5.2 制作学习路线卷轴，并认为历史质感仍有改进空间；属个人演示。",
+    "summary_en": "The creator attributes a scroll-style study path to Fable 5.2 and notes that its aged appearance could improve.",
+    "category": "graphics",
+    "platform": "X",
+    "sourceUrl": "https://x.com/yupi996/status/2120029153185694138",
+    "author": "yupi996",
+    "date": "2026-11-10",
+    "evidenceType": "演示",
+    "checkedAt": "2026-11-10T10:26:12+00:00",
+    "evidenceUrl": "https://x.com/yupi996/status/2120029153185694138",
+    "evidenceBasis": "已读取创作者原帖，原帖明确写出 Fable 5.2 并说明上述任务。作品合集仅用于发现；后台模型、费用及结果未经独立复现。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "生成代码或动画；比较任务中仅归属 Fable 5.2 的部分"
+    },
+    "likes": 13,
+    "metricsCheckedAt": "2026-11-10T10:26:12+00:00",
+    "resources": [
+      {
+        "label": "作品合集中的演示",
+        "label_en": "Demo in discovery gallery",
+        "url": "https://fable5.app/fable-5-2/works/yupi996-694138/"
+      }
+    ]
+  },
+  {
+    "id": "fable52-motion-so-361891",
+    "title": "同提示词动画的时间与费用对比",
+    "title_en": "Animation comparison with the same prompt",
+    "summary": "Motion 报告 Fable 用时约 2 小时 36 分、费用 88.09 美元，较 Opus 更快但更贵；仅代表该次运行。",
+    "summary_en": "Motion reports about 2h36m and $88.09 for Fable, faster but costlier than its Opus run; a single reported comparison.",
+    "category": "video",
+    "platform": "X",
+    "sourceUrl": "https://x.com/motion_so/status/2120029008809361891",
+    "author": "motion_so",
+    "date": "2026-11-10",
+    "evidenceType": "评测",
+    "checkedAt": "2026-11-10T10:26:12+00:00",
+    "evidenceUrl": "https://x.com/motion_so/status/2120029008809361891",
+    "evidenceBasis": "已读取创作者原帖，原帖明确写出 Fable 5.2 并说明上述任务。作品合集仅用于发现；后台模型、费用及结果未经独立复现。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "生成代码或动画；比较任务中仅归属 Fable 5.2 的部分"
+    },
+    "likes": 40,
+    "metricsCheckedAt": "2026-11-10T10:26:12+00:00",
+    "resources": [
+      {
+        "label": "作品合集中的演示",
+        "label_en": "Demo in discovery gallery",
+        "url": "https://fable5.app/fable-5-2/works/motion-so-361891/"
+      }
+    ]
+  },
+  {
+    "id": "fable52-dubibubiii-425413",
+    "title": "Claude 吉祥物进化史动画对比",
+    "title_en": "Claude mascot evolution animation comparison",
+    "summary": "作者用 Fable 5.2 与 Opus 5.5 制作 60 秒卡通，旁白另由 FishAudio MCP 生成。",
+    "summary_en": "The creator compared 60-second cartoons from Fable 5.2 and Opus 5.5; narration came from FishAudio MCP.",
+    "category": "graphics",
+    "platform": "X",
+    "sourceUrl": "https://x.com/Dubibubiii/status/2120028715258425413",
+    "author": "Dubibubiii",
+    "date": "2026-11-10",
+    "evidenceType": "评测",
+    "checkedAt": "2026-11-10T10:26:12+00:00",
+    "evidenceUrl": "https://x.com/Dubibubiii/status/2120028715258425413",
+    "evidenceBasis": "已读取创作者原帖，原帖明确写出 Fable 5.2 并说明上述任务。作品合集仅用于发现；后台模型、费用及结果未经独立复现。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "生成代码或动画；比较任务中仅归属 Fable 5.2 的部分"
+    },
+    "likes": 0,
+    "metricsCheckedAt": "2026-11-10T10:26:12+00:00",
+    "resources": [
+      {
+        "label": "作品合集中的演示",
+        "label_en": "Demo in discovery gallery",
+        "url": "https://fable5.app/fable-5-2/works/dubibubiii-425413/"
+      }
+    ]
+  },
+  {
+    "id": "fable52-kernelchai-628006",
+    "title": "印度奶茶摊游戏同提示词对比",
+    "title_en": "Chai-stall games from the same prompt",
+    "summary": "作者报告 Fable High 约 18 分钟完成含订单和升级的游戏，并提供可玩链接；未复跑比较。",
+    "summary_en": "The creator reports an 18-minute Fable High run for a chai-stall game with orders and upgrades, with a playable comparison.",
+    "category": "games",
+    "platform": "X",
+    "sourceUrl": "https://x.com/KernelChai/status/2120028680055628006",
+    "author": "KernelChai",
+    "date": "2026-11-10",
+    "evidenceType": "评测",
+    "checkedAt": "2026-11-10T10:26:12+00:00",
+    "evidenceUrl": "https://x.com/KernelChai/status/2120028680055628006",
+    "evidenceBasis": "已读取创作者原帖，原帖明确写出 Fable 5.2 并说明上述任务。作品合集仅用于发现；后台模型、费用及结果未经独立复现。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "生成代码或动画；比较任务中仅归属 Fable 5.2 的部分"
+    },
+    "likes": 3,
+    "metricsCheckedAt": "2026-11-10T10:26:12+00:00",
+    "resources": [
+      {
+        "label": "作品合集中的演示",
+        "label_en": "Demo in discovery gallery",
+        "url": "https://fable5.app/fable-5-2/works/kernelchai-628006/"
+      }
+    ]
+  },
+  {
+    "id": "fable52-makaneko-ai-938583",
+    "title": "网站、绘图与 3D 场景的多任务对比",
+    "title_en": "Multi-task website, drawing and 3D comparison",
+    "summary": "作者逐项比较 Fable 5.2 与 Opus 5.5 的网站、代码绘图、3D 游戏及房间；各任务耗时不同。",
+    "summary_en": "The author compares websites, code drawing, games and rooms from both models; timings vary by task.",
+    "category": "web",
+    "platform": "X",
+    "sourceUrl": "https://x.com/makaneko_AI/status/2120028638833938583",
+    "author": "makaneko_AI",
+    "date": "2026-11-10",
+    "evidenceType": "评测",
+    "checkedAt": "2026-11-10T10:26:12+00:00",
+    "evidenceUrl": "https://x.com/makaneko_AI/status/2120028638833938583",
+    "evidenceBasis": "已读取创作者原帖，原帖明确写出 Fable 5.2 并说明上述任务。作品合集仅用于发现；后台模型、费用及结果未经独立复现。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "生成代码或动画；比较任务中仅归属 Fable 5.2 的部分"
+    },
+    "likes": 4,
+    "metricsCheckedAt": "2026-11-10T10:26:12+00:00",
+    "resources": [
+      {
+        "label": "作品合集中的演示",
+        "label_en": "Demo in discovery gallery",
+        "url": "https://fable5.app/fable-5-2/works/makaneko-ai-938583/"
+      }
+    ]
+  },
+  {
+    "id": "fable52-sirbost-712653",
+    "title": "一分钟音乐视频的额度消耗测试",
+    "title_en": "Session-usage cost of a music video",
+    "summary": "作者报告制作约一分钟 MV 耗时 32 分钟、消耗当次会话额度 74%；费用和额度因账户而异。",
+    "summary_en": "The creator reports 32 minutes and 74% of a session allowance for a music video; usage is account-specific.",
+    "category": "video",
+    "platform": "X",
+    "sourceUrl": "https://x.com/Sirbost/status/2120028393131712653",
+    "author": "Sirbost",
+    "date": "2026-11-10",
+    "evidenceType": "限制",
+    "checkedAt": "2026-11-10T10:26:12+00:00",
+    "evidenceUrl": "https://x.com/Sirbost/status/2120028393131712653",
+    "evidenceBasis": "已读取创作者原帖，原帖明确写出 Fable 5.2 并说明上述任务。作品合集仅用于发现；后台模型、费用及结果未经独立复现。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "生成代码或动画；比较任务中仅归属 Fable 5.2 的部分"
+    },
+    "likes": 0,
+    "metricsCheckedAt": "2026-11-10T10:26:12+00:00",
+    "resources": [
+      {
+        "label": "作品合集中的演示",
+        "label_en": "Demo in discovery gallery",
+        "url": "https://fable5.app/fable-5-2/works/sirbost-712653/"
+      }
+    ]
+  },
+  {
+    "id": "fable52-augustobuilds-283723",
+    "title": "Hero in Motion：延迟加载视频首屏",
+    "title_en": "Hero in Motion: click-to-load video hero",
+    "summary": "作者称 Fable 5.2 编写了生成短片的代码，并公开含按播放加载、自动暂停和减少动态效果支持的页面套件。",
+    "summary_en": "The creator attributes the film code to Fable 5.2 and links a kit with click-to-load video, auto-pause and reduced-motion support.",
+    "category": "web",
+    "platform": "X",
+    "sourceUrl": "https://x.com/AugustoBuilds/status/2120027646071283723",
+    "author": "AugustoBuilds",
+    "date": "2026-11-10",
+    "evidenceType": "演示",
+    "checkedAt": "2026-11-10T10:26:12+00:00",
+    "evidenceUrl": "https://x.com/AugustoBuilds/status/2120027646071283723",
+    "evidenceBasis": "已读取创作者原帖，原帖明确写出 Fable 5.2 并说明上述任务。作品合集仅用于发现；后台模型、费用及结果未经独立复现。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "生成代码或动画；比较任务中仅归属 Fable 5.2 的部分"
+    },
+    "likes": 1,
+    "metricsCheckedAt": "2026-11-10T10:26:12+00:00",
+    "resources": [
+      {
+        "label": "作品合集中的演示",
+        "label_en": "Demo in discovery gallery",
+        "url": "https://fable5.app/fable-5-2/works/augustobuilds-283723/"
+      }
+    ]
+  },
+  {
+    "id": "fable52-leohuanfang-934713",
+    "title": "机器人、帆船与火柴人提示词复测",
+    "title_en": "Retesting robot, ship and stickman prompts",
+    "summary": "作者用正式 Fable 5.2 复测三类提示词；长输出需人工按顺序拼接，火柴人结果为网页而非已渲染视频。",
+    "summary_en": "The author retested three prompts; long outputs required assembly, and the stickman result was a webpage rather than a rendered video.",
+    "category": "graphics",
+    "platform": "X",
+    "sourceUrl": "https://x.com/leohuanfang/status/2120027555960934713",
+    "author": "leohuanfang",
+    "date": "2026-11-10",
+    "evidenceType": "评测",
+    "checkedAt": "2026-11-10T10:26:12+00:00",
+    "evidenceUrl": "https://x.com/leohuanfang/status/2120027555960934713",
+    "evidenceBasis": "已读取创作者原帖，原帖明确写出 Fable 5.2 并说明上述任务。作品合集仅用于发现；后台模型、费用及结果未经独立复现。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "生成代码或动画；比较任务中仅归属 Fable 5.2 的部分"
+    },
+    "likes": 0,
+    "metricsCheckedAt": "2026-11-10T10:26:12+00:00",
+    "resources": [
+      {
+        "label": "作品合集中的演示",
+        "label_en": "Demo in discovery gallery",
+        "url": "https://fable5.app/fable-5-2/works/leohuanfang-934713/"
+      }
+    ]
+  },
+  {
+    "id": "fable52-satya5n21-267380",
+    "title": "Afterglow：可漫步的异星景观",
+    "title_en": "Afterglow: an explorable alien landscape",
+    "summary": "作者明确归属 Fable 5.2，公开场景与提示词；行走方向控制天空行星旋转，效果未独立运行验证。",
+    "summary_en": "The author attributes an alien landscape to Fable 5.2 and shares the demo and prompt; walking direction controls planetary rotation.",
+    "category": "3d",
+    "platform": "X",
+    "sourceUrl": "https://x.com/satya5n21/status/2120027542967267380",
+    "author": "satya5n21",
+    "date": "2026-11-10",
+    "evidenceType": "演示",
+    "checkedAt": "2026-11-10T10:26:12+00:00",
+    "evidenceUrl": "https://x.com/satya5n21/status/2120027542967267380",
+    "evidenceBasis": "已读取创作者原帖，原帖明确写出 Fable 5.2 并说明上述任务。作品合集仅用于发现；后台模型、费用及结果未经独立复现。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "生成代码或动画；比较任务中仅归属 Fable 5.2 的部分"
+    },
+    "likes": 6,
+    "metricsCheckedAt": "2026-11-10T10:26:12+00:00",
+    "resources": [
+      {
+        "label": "作品合集中的演示",
+        "label_en": "Demo in discovery gallery",
+        "url": "https://fable5.app/fable-5-2/works/satya5n21-267380/"
+      }
+    ]
+  },
+  {
+    "id": "fable52-riley-blender",
+    "title": "Blender 房间短片与云端渲染",
+    "title_en": "Blender room film and cloud rendering",
+    "summary": "作者称 Fable 5.2 编写场景与动画代码，调用 RunPod 渲染并用 ElevenLabs 制作音效；52 分钟及 5.75 美元为作者报告。",
+    "summary_en": "The creator reports Blender code, RunPod rendering and ElevenLabs audio; the 52-minute/$5.75 figures are self-reported.",
+    "category": "3d",
+    "platform": "X",
+    "sourceUrl": "https://x.com/rileybrown/status/2119902109709537708",
+    "author": "Riley Brown",
+    "date": "2026-11-09",
+    "evidenceType": "演示",
+    "checkedAt": "2026-11-10T10:26:12+00:00",
+    "evidenceUrl": "https://x.com/rileybrown/status/2119902109709537708",
+    "evidenceBasis": "已读取原帖及串帖；作者明确模型版本和用途，未独立重现性能、费用或路由。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "项目代码和工作流"
+    }
+  },
+  {
+    "id": "fable52-theo-fishslop",
+    "title": "Fishslop 游戏：费用与可玩性限制",
+    "title_en": "Fishslop: cost and playability trade-offs",
+    "summary": "Theo 报告一次 Fable 5.2 游戏运行耗时 76 分钟、约 42 美元，认为视觉提升未明显改善可玩性和性价比。",
+    "summary_en": "Theo reports 76 minutes and about $42, with limited improvement in playability or value over his Opus run.",
+    "category": "games",
+    "platform": "X",
+    "sourceUrl": "https://x.com/theo/status/2119926277801144695",
+    "author": "Theo",
+    "date": "2026-11-09",
+    "evidenceType": "限制",
+    "checkedAt": "2026-11-10T10:26:12+00:00",
+    "evidenceUrl": "https://x.com/theo/status/2119926277801144695",
+    "evidenceBasis": "已读取原帖及串帖；作者明确模型版本和用途，未独立重现性能、费用或路由。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "项目代码和工作流"
+    }
+  },
+  {
+    "id": "fable52-shumer-tests",
+    "title": "创作者的多项目编程测试",
+    "title_en": "A creator’s multi-project coding tests",
+    "summary": "Matt Shumer 明确称使用 Fable 5.2，并在同一串帖列出体素引擎、视频和游戏等作品；仅作为作者归属记录。",
+    "summary_en": "Matt Shumer explicitly attributes a thread of voxel-engine, video and game experiments to Fable 5.2; these remain creator claims.",
+    "category": "agents",
+    "platform": "X",
+    "sourceUrl": "https://x.com/mattshumer_/status/2119886664017547687",
+    "author": "Matt Shumer",
+    "date": "2026-11-09",
+    "evidenceType": "演示",
+    "checkedAt": "2026-11-10T10:26:12+00:00",
+    "evidenceUrl": "https://x.com/mattshumer_/status/2119886664017547687",
+    "evidenceBasis": "已读取原帖及串帖；作者明确模型版本和用途，未独立重现性能、费用或路由。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "项目代码和工作流"
+    }
+  }
+]

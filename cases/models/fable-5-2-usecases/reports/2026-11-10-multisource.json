@@ -1,0 +1,4504 @@
+{
+  "schemaVersion": 1,
+  "topicId": "fable-5-2",
+  "finishedAt": "2026-11-10T10:26:12+00:00",
+  "coverage": "partial",
+  "apiCandidates": 205,
+  "apiRequests": 12,
+  "webSearchRequests": 10,
+  "galleryCandidates": 79,
+  "uniqueSources": 377,
+  "acceptedCaseCount": 26,
+  "acceptedSourceCount": 19,
+  "unreviewedSources": 358,
+  "newCasesByPlatform": {
+    "X": 13,
+    "GitHub": 3,
+    "Reddit": 1,
+    "Bilibili": 1,
+    "Web": 8
+  },
+  "searches": [
+    {
+      "file": "search-0.json",
+      "searchId": "01a1c4f9-3f2f-706c-b886-6db2665036b4",
+      "returned": 10,
+      "sha256": "6bdc03900f642f604d2838d4b50f9a52780922b331eb605ac2c65dce49e1a9af",
+      "query": "\"Fable 5.2\" AI"
+    },
+    {
+      "file": "search-1.json",
+      "searchId": "01a1c4f9-3fd2-717d-932d-a27ccc1d2650",
+      "returned": 10,
+      "sha256": "5a861c3251571740d2dea9f99ecc4836a80dcd9fe105a575bad5b01b04b9852f",
+      "query": "\"fable5.2\""
+    },
+    {
+      "file": "search-2.json",
+      "searchId": "01a1c4f9-3ef2-74db-a883-4e97b1cb0438",
+      "returned": 10,
+      "sha256": "9561d050ea6067aa8d535d90b9335c72bfc40bed5ee912d27b63bf8ab394743a",
+      "query": "\"fable-5-2\" AI"
+    },
+    {
+      "file": "search-3.json",
+      "searchId": "01a1c4f9-8eb2-74be-8c05-ed937729d792",
+      "returned": 10,
+      "sha256": "fce2026a0c4b3636e6fb521f8269c044e49892a662a8b8d0f989ad67eba764a3",
+      "query": "\"Fable 5.2\" site:x.com built"
+    },
+    {
+      "file": "search-4.json",
+      "searchId": "01a1c4f9-8eb2-718b-9b50-2deb6e6dd24b",
+      "returned": 10,
+      "sha256": "ba16e7f53c8fe21044d7fbf4a7bd09e18d13d36d4208129949a128e67a80bcb3",
+      "query": "\"Fable 5.2\" site:reddit.com test"
+    },
+    {
+      "file": "search-5.json",
+      "searchId": "01a1c4f9-8fe1-7660-a3ba-f6f932dffdf3",
+      "returned": 10,
+      "sha256": "f2ab1c3d2cf208cdd8afc7c38a956ea5a66389c176d037b512302765eb7c3a8e",
+      "query": "\"Fable 5.2\" site:github.com"
+    },
+    {
+      "file": "search-6.json",
+      "searchId": "01a1c4f9-8fb1-752d-a6e1-459a5ed51e24",
+      "returned": 10,
+      "sha256": "56db78aa781c34c91b6f2c1ecc3fc662655fc6369c0a9cf1c100308f61820559",
+      "query": "\"Fable 5.2\" site:youtube.com demo"
+    },
+    {
+      "file": "search-7.json",
+      "searchId": "01a1c4f9-8eeb-7110-9b8e-de62b1071c85",
+      "returned": 10,
+      "sha256": "21683b1b57ecae20421b2d26f85cb23e050cefff099799c4cd5a756352d5a29a",
+      "query": "\"Fable 5.2\" site:bilibili.com"
+    },
+    {
+      "file": "search-8.json",
+      "searchId": "01a1c4f9-8ffc-76fc-84d9-4126c2b1945a",
+      "returned": 10,
+      "sha256": "638859ea97c1714e68ce794a1d2ffafcc05acd61ecde155668e98a7053e4e5b0",
+      "query": "\"Fable 5.2\" 案例 实测"
+    },
+    {
+      "file": "search-9.json",
+      "searchId": "01a1c4f9-8fbd-70f6-8dfd-fdf71f1692f1",
+      "returned": 5,
+      "sha256": "91b9e56dd09f5522a7bfab93dac08ad4362811330c334f2a4c932b40b219a55b",
+      "query": "\"Fable 5.2\" site:anthropic.com/news"
+    }
+  ],
+  "receipts": [
+    {
+      "file": "BV1aXWK6eEXz.json",
+      "sha256": "c4bd9a80ef1c85ca6fc9f3637d1e99235ee0cd758ed936025487f25333ae204c",
+      "status": "readable",
+      "error": null
+    },
+    {
+      "file": "BV1zvWP6MECB.json",
+      "sha256": "27d98a36bfbaf367a8e8f7191c6ad5381f5e09a69416f70a1bb72cfcddecda29",
+      "status": "readable",
+      "error": null
+    },
+    {
+      "file": "page-0.json",
+      "sha256": "4185c760fcd421bbd08fe092773c7cc3c2b86f98b74e0d8394fbf6edac76194b",
+      "status": "readable",
+      "error": null
+    },
+    {
+      "file": "page-1.json",
+      "sha256": "0e6d9bf54be608f9be2291f3713ec6c9dae0b54d84515aa0e62e5ca4948aa4ab",
+      "status": "readable",
+      "error": null
+    },
+    {
+      "file": "page-2.json",
+      "sha256": "4c8b3ab6029471602866a267eaa40ed9e511fe14bb06dc07e5ad9fd76fadf5ea",
+      "status": "failed-or-empty",
+      "error": {
+        "code": "unsupported_site",
+        "status": 403,
+        "message": "Firecrawl can't scrape this site because it is currently not supported. Check Alexandria for a relevant provider if available, or use another source."
+      }
+    },
+    {
+      "file": "page-3.json",
+      "sha256": "2f5f13e7b4c8fadf389b107305153a8d0303010a184bfa72d34c7e8cfb4effba",
+      "status": "readable",
+      "error": null
+    },
+    {
+      "file": "page-4.json",
+      "sha256": "47f84ed2290060413d577d124163e2e5ece53e7bc54d4ac20c9205e2c0da2331",
+      "status": "readable",
+      "error": null
+    },
+    {
+      "file": "page-5.json",
+      "sha256": "510f5eecdea1d2deba7dcfc4faeb912fe8e7772a1f8b0d53838a9f710d6a38ad",
+      "status": "readable",
+      "error": null
+    },
+    {
+      "file": "x-akionionio-638078.json",
+      "sha256": "6e210a700b5aadf4310efe0e921c0489635602bfe8464ddaadd030be83c55fb0",
+      "status": "failed-or-empty",
+      "error": "Insufficient credits for this connected-app request. Hosted MCP calls (from apps such as ChatGPT, Claude or Codex) spend a daily MCP credit allowance first and then your team's credits, and neither can cover this request; the allowance resets at 2026-11-10T15:58:29.779Z. To continue now, add credits or upgrade your plan at https://firecrawl.dev/pricing."
+    },
+    {
+      "file": "x-alexstlouis10-907802.json",
+      "sha256": "d7a2332643213aa8fe8df5d41d340c66debf704f2a2f28c3eb24fe398742fafa",
+      "status": "failed-or-empty",
+      "error": "Insufficient credits for this connected-app request. Hosted MCP calls (from apps such as ChatGPT, Claude or Codex) spend a daily MCP credit allowance first and then your team's credits, and neither can cover this request; the allowance resets at 2026-11-10T15:58:29.779Z. To continue now, add credits or upgrade your plan at https://firecrawl.dev/pricing."
+    },
+    {
+      "file": "x-alightinastorm-440210.json",
+      "sha256": "6e210a700b5aadf4310efe0e921c0489635602bfe8464ddaadd030be83c55fb0",
+      "status": "failed-or-empty",
+      "error": "Insufficient credits for this connected-app request. Hosted MCP calls (from apps such as ChatGPT, Claude or Codex) spend a daily MCP credit allowance first and then your team's credits, and neither can cover this request; the allowance resets at 2026-11-10T15:58:29.779Z. To continue now, add credits or upgrade your plan at https://firecrawl.dev/pricing."
+    },
+    {
+      "file": "x-augustobuilds-283723.json",
+      "sha256": "cde10af90bbd609a830b3f67feaf5a1c435727a8a06976c8970e2e055900a07c",
+      "status": "readable",
+      "error": null
+    },
+    {
+      "file": "x-czzzzzzj-682817.json",
+      "sha256": "6e210a700b5aadf4310efe0e921c0489635602bfe8464ddaadd030be83c55fb0",
+      "status": "failed-or-empty",
+      "error": "Insufficient credits for this connected-app request. Hosted MCP calls (from apps such as ChatGPT, Claude or Codex) spend a daily MCP credit allowance first and then your team's credits, and neither can cover this request; the allowance resets at 2026-11-10T15:58:29.779Z. To continue now, add credits or upgrade your plan at https://firecrawl.dev/pricing."
+    },
+    {
+      "file": "x-dubibubiii-425413.json",
+      "sha256": "01b2e19e7210a6b4d779565fe58b5a6ef6e1f41683b436f9ddea3c86c22b651a",
+      "status": "readable",
+      "error": null
+    },
+    {
+      "file": "x-guillermocasfer-112423.json",
+      "sha256": "5b27c97ae020ab8715410d294404c8cf8c99226ebb5730a7dc3c940c352b03b5",
+      "status": "failed-or-empty",
+      "error": null
+    },
+    {
+      "file": "x-hyuki-993504.json",
+      "sha256": "54ebd831a14de9a42f591f981192044c35a68b67fa25add012ddd90bc8c7a51c",
+      "status": "readable",
+      "error": null
+    },
+    {
+      "file": "x-iamtanzil-641645.json",
+      "sha256": "d7a2332643213aa8fe8df5d41d340c66debf704f2a2f28c3eb24fe398742fafa",
+      "status": "failed-or-empty",
+      "error": "Insufficient credits for this connected-app request. Hosted MCP calls (from apps such as ChatGPT, Claude or Codex) spend a daily MCP credit allowance first and then your team's credits, and neither can cover this request; the allowance resets at 2026-11-10T15:58:29.779Z. To continue now, add credits or upgrade your plan at https://firecrawl.dev/pricing."
+    },
+    {
+      "file": "x-jarrodwatts-777937.json",
+      "sha256": "a52440bada0f7ce0129d141faea4cfcce4cff3a2044d952413d192df2eaa1998",
+      "status": "readable",
+      "error": null
+    },
+    {
+      "file": "x-kernelchai-628006.json",
+      "sha256": "d7a5236d329848c372e7d929850b7f8694f5a2ccb86bd18b24efc084614ff115",
+      "status": "readable",
+      "error": null
+    },
+    {
+      "file": "x-krongggggg-956012.json",
+      "sha256": "d7a2332643213aa8fe8df5d41d340c66debf704f2a2f28c3eb24fe398742fafa",
+      "status": "failed-or-empty",
+      "error": "Insufficient credits for this connected-app request. Hosted MCP calls (from apps such as ChatGPT, Claude or Codex) spend a daily MCP credit allowance first and then your team's credits, and neither can cover this request; the allowance resets at 2026-11-10T15:58:29.779Z. To continue now, add credits or upgrade your plan at https://firecrawl.dev/pricing."
+    },
+    {
+      "file": "x-leohuanfang-029529.json",
+      "sha256": "d7a2332643213aa8fe8df5d41d340c66debf704f2a2f28c3eb24fe398742fafa",
+      "status": "failed-or-empty",
+      "error": "Insufficient credits for this connected-app request. Hosted MCP calls (from apps such as ChatGPT, Claude or Codex) spend a daily MCP credit allowance first and then your team's credits, and neither can cover this request; the allowance resets at 2026-11-10T15:58:29.779Z. To continue now, add credits or upgrade your plan at https://firecrawl.dev/pricing."
+    },
+    {
+      "file": "x-leohuanfang-137874.json",
+      "sha256": "6e210a700b5aadf4310efe0e921c0489635602bfe8464ddaadd030be83c55fb0",
+      "status": "failed-or-empty",
+      "error": "Insufficient credits for this connected-app request. Hosted MCP calls (from apps such as ChatGPT, Claude or Codex) spend a daily MCP credit allowance first and then your team's credits, and neither can cover this request; the allowance resets at 2026-11-10T15:58:29.779Z. To continue now, add credits or upgrade your plan at https://firecrawl.dev/pricing."
+    },
+    {
+      "file": "x-leohuanfang-934713.json",
+      "sha256": "771e72426a34786acaf034d56334a1f76ba07fcfe62adc06a631f2f42286d22d",
+      "status": "readable",
+      "error": null
+    },
+    {
+      "file": "x-lovekeshanand07-613199.json",
+      "sha256": "a8aa3d30743fb4963f08cb303430b501c6f97b09dfd4e9724e572b035656bfcf",
+      "status": "failed-or-empty",
+      "error": "Insufficient credits for this connected-app request. Hosted MCP calls (from apps such as ChatGPT, Claude or Codex) spend a daily MCP credit allowance first and then your team's credits, and neither can cover this request; the allowance resets at 2026-11-10T15:58:29.779Z. To continue now, add credits or upgrade your plan at https://firecrawl.dev/pricing."
+    },
+    {
+      "file": "x-ma-kanteishi-152239.json",
+      "sha256": "d7a2332643213aa8fe8df5d41d340c66debf704f2a2f28c3eb24fe398742fafa",
+      "status": "failed-or-empty",
+      "error": "Insufficient credits for this connected-app request. Hosted MCP calls (from apps such as ChatGPT, Claude or Codex) spend a daily MCP credit allowance first and then your team's credits, and neither can cover this request; the allowance resets at 2026-11-10T15:58:29.779Z. To continue now, add credits or upgrade your plan at https://firecrawl.dev/pricing."
+    },
+    {
+      "file": "x-makaneko-ai-938583.json",
+      "sha256": "c547c65d90d9d614a54d7b612ab92d7f804e82d9d994d1238addb008d4d72853",
+      "status": "readable",
+      "error": null
+    },
+    {
+      "file": "x-motion-so-361891.json",
+      "sha256": "6760a4b6cc85b0681d6d5e550210ff05f80ffa4695a7c7b16e1642737dd5857c",
+      "status": "readable",
+      "error": null
+    },
+    {
+      "file": "x-mrtacticalx-996053.json",
+      "sha256": "6e210a700b5aadf4310efe0e921c0489635602bfe8464ddaadd030be83c55fb0",
+      "status": "failed-or-empty",
+      "error": "Insufficient credits for this connected-app request. Hosted MCP calls (from apps such as ChatGPT, Claude or Codex) spend a daily MCP credit allowance first and then your team's credits, and neither can cover this request; the allowance resets at 2026-11-10T15:58:29.779Z. To continue now, add credits or upgrade your plan at https://firecrawl.dev/pricing."
+    },
+    {
+      "file": "x-rehan-shei-403789.json",
+      "sha256": "6e210a700b5aadf4310efe0e921c0489635602bfe8464ddaadd030be83c55fb0",
+      "status": "failed-or-empty",
+      "error": "Insufficient credits for this connected-app request. Hosted MCP calls (from apps such as ChatGPT, Claude or Codex) spend a daily MCP credit allowance first and then your team's credits, and neither can cover this request; the allowance resets at 2026-11-10T15:58:29.779Z. To continue now, add credits or upgrade your plan at https://firecrawl.dev/pricing."
+    },
+    {
+      "file": "x-roketssi-665272.json",
+      "sha256": "6e210a700b5aadf4310efe0e921c0489635602bfe8464ddaadd030be83c55fb0",
+      "status": "failed-or-empty",
+      "error": "Insufficient credits for this connected-app request. Hosted MCP calls (from apps such as ChatGPT, Claude or Codex) spend a daily MCP credit allowance first and then your team's credits, and neither can cover this request; the allowance resets at 2026-11-10T15:58:29.779Z. To continue now, add credits or upgrade your plan at https://firecrawl.dev/pricing."
+    },
+    {
+      "file": "x-satya5n21-267380.json",
+      "sha256": "265456b8170f6a89ebe4b338f2319b8ad6e5a62a4830b4fbae2c2fac6c92eab7",
+      "status": "readable",
+      "error": null
+    },
+    {
+      "file": "x-saypotsan-749050.json",
+      "sha256": "6e210a700b5aadf4310efe0e921c0489635602bfe8464ddaadd030be83c55fb0",
+      "status": "failed-or-empty",
+      "error": "Insufficient credits for this connected-app request. Hosted MCP calls (from apps such as ChatGPT, Claude or Codex) spend a daily MCP credit allowance first and then your team's credits, and neither can cover this request; the allowance resets at 2026-11-10T15:58:29.779Z. To continue now, add credits or upgrade your plan at https://firecrawl.dev/pricing."
+    },
+    {
+      "file": "x-shannnu-18-844785.json",
+      "sha256": "d7a2332643213aa8fe8df5d41d340c66debf704f2a2f28c3eb24fe398742fafa",
+      "status": "failed-or-empty",
+      "error": "Insufficient credits for this connected-app request. Hosted MCP calls (from apps such as ChatGPT, Claude or Codex) spend a daily MCP credit allowance first and then your team's credits, and neither can cover this request; the allowance resets at 2026-11-10T15:58:29.779Z. To continue now, add credits or upgrade your plan at https://firecrawl.dev/pricing."
+    },
+    {
+      "file": "x-sirbost-712653.json",
+      "sha256": "faa80ffad3f5cbe53de15ce5f1dbe80db51e9c23155efdb65cea78c91917cf7f",
+      "status": "readable",
+      "error": null
+    },
+    {
+      "file": "x-tejasthange3-545578.json",
+      "sha256": "d7a2332643213aa8fe8df5d41d340c66debf704f2a2f28c3eb24fe398742fafa",
+      "status": "failed-or-empty",
+      "error": "Insufficient credits for this connected-app request. Hosted MCP calls (from apps such as ChatGPT, Claude or Codex) spend a daily MCP credit allowance first and then your team's credits, and neither can cover this request; the allowance resets at 2026-11-10T15:58:29.779Z. To continue now, add credits or upgrade your plan at https://firecrawl.dev/pricing."
+    },
+    {
+      "file": "x-tkss2607-824763.json",
+      "sha256": "d7a2332643213aa8fe8df5d41d340c66debf704f2a2f28c3eb24fe398742fafa",
+      "status": "failed-or-empty",
+      "error": "Insufficient credits for this connected-app request. Hosted MCP calls (from apps such as ChatGPT, Claude or Codex) spend a daily MCP credit allowance first and then your team's credits, and neither can cover this request; the allowance resets at 2026-11-10T15:58:29.779Z. To continue now, add credits or upgrade your plan at https://firecrawl.dev/pricing."
+    },
+    {
+      "file": "x-tsuyatsuyatt-996126.json",
+      "sha256": "d7a2332643213aa8fe8df5d41d340c66debf704f2a2f28c3eb24fe398742fafa",
+      "status": "failed-or-empty",
+      "error": "Insufficient credits for this connected-app request. Hosted MCP calls (from apps such as ChatGPT, Claude or Codex) spend a daily MCP credit allowance first and then your team's credits, and neither can cover this request; the allowance resets at 2026-11-10T15:58:29.779Z. To continue now, add credits or upgrade your plan at https://firecrawl.dev/pricing."
+    },
+    {
+      "file": "x-yupi996-694138.json",
+      "sha256": "7858b3fcd80374e539090b002d06047cbcd3aa52a45a2b28d8b8cdf9df8b23a4",
+      "status": "readable",
+      "error": null
+    }
+  ],
+  "limitations": [
+    "部分覆盖：搜索索引、公开接口和有限作品合集不是全网穷尽抓取。",
+    "Firecrawl 在本轮原帖审核中额度耗尽，之后停止使用；其余未核对作品保留候选。",
+    "未独立复现生成过程、后台模型路由、费用或基准结果；摘要注明作者或官方自述。",
+    "B 站和 YouTube 的部分页面不可读取或限流；未将标题命中直接入库。",
+    "仓库名称含版本但正文未明确归属者不入库；不把 Fable 5.5 或 Mythos 案例改标为 5.2。"
+  ],
+  "candidates": [
+    {
+      "sourceUrl": "https://github.com/biscuits67/fable5.2",
+      "title": "biscuits67/fable5.2",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/biscuits67/fable5.2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-2",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/KostiKoNeuro/fable-5-2-solo",
+      "title": "KostiKoNeuro/fable-5-2-solo",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/kostikoneuro/fable-5-2-solo",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/VibeClip/awesome-fable-5-2-videos",
+      "title": "VibeClip/awesome-fable-5-2-videos",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/vibeclip/awesome-fable-5-2-videos",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/liang8989/awesome-fable5-2-videos",
+      "title": "liang8989/awesome-fable5-2-videos",
+      "platform": "GitHub",
+      "date": "2026-11-09",
+      "sourceIdentity": "github.com/liang8989/awesome-fable5-2-videos",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3",
+        "search-5.json"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Anna-SAP/PromptRefiner2026",
+      "title": "Anna-SAP/PromptRefiner2026",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/anna-sap/promptrefiner2026",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/S77FFY/daedalus",
+      "title": "S77FFY/daedalus",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/s77ffy/daedalus",
+      "topicId": "fable-5-2",
+      "status": "accepted",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ],
+      "acceptedCaseIds": [
+        "fable52-daedalus"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/rink1969/awesome-fable52-videos",
+      "title": "rink1969/awesome-fable52-videos",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/rink1969/awesome-fable52-videos",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/webKing021/dustfall",
+      "title": "webKing021/dustfall",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/webking021/dustfall",
+      "topicId": "fable-5-2",
+      "status": "accepted",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ],
+      "acceptedCaseIds": [
+        "fable52-dustfall"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/sc8z35a-collab/Fables5.2",
+      "title": "sc8z35a-collab/Fables5.2",
+      "platform": "GitHub",
+      "date": "2026-11-09",
+      "sourceIdentity": "github.com/sc8z35a-collab/fables5.2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/chmillera-hub/spare-token-bug-fixes",
+      "title": "chmillera-hub/spare-token-bug-fixes",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/chmillera-hub/spare-token-bug-fixes",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/anttiluode/ReturnToGeometricNeuron",
+      "title": "anttiluode/ReturnToGeometricNeuron",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/anttiluode/returntogeometricneuron",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/mikhailpetrusheuski/dotnet-agent-history-guard",
+      "title": "mikhailpetrusheuski/dotnet-agent-history-guard",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/mikhailpetrusheuski/dotnet-agent-history-guard",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/fatihlabsai/fable-5-2-simit-tezgahi",
+      "title": "fatihlabsai/fable-5-2-simit-tezgahi",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/fatihlabsai/fable-5-2-simit-tezgahi",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/motionvideohq/awesome-fable-5-2-motion-design",
+      "title": "motionvideohq/awesome-fable-5-2-motion-design",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/motionvideohq/awesome-fable-5-2-motion-design",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/davidramsay95/claude-chess_fable_5-2_20261110",
+      "title": "davidramsay95/claude-chess_fable_5-2_20261110",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/davidramsay95/claude-chess_fable_5-2_20261110",
+      "topicId": "fable-5-2",
+      "status": "accepted",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ],
+      "acceptedCaseIds": [
+        "fable52-chess"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Dari-Universer-Pub/worldbox-fable5.2",
+      "title": "Dari-Universer-Pub/worldbox-fable5.2",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/dari-universer-pub/worldbox-fable5.2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Recursive-Self-Improving/qingdao-badaguan-threejs-fable-5-2-max-cc",
+      "title": "Recursive-Self-Improving/qingdao-badaguan-threejs-fable-5-2-max-cc",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/recursive-self-improving/qingdao-badaguan-threejs-fable-5-2-max-cc",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/mitarthpathak/Blender-Fable-5.2",
+      "title": "mitarthpathak/Blender-Fable-5.2",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/mitarthpathak/blender-fable-5.2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Ilias-AK/NewGameFromFable5.2",
+      "title": "Ilias-AK/NewGameFromFable5.2",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/ilias-ak/newgamefromfable5.2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/hideewsj-maker/awesome-fable-5-2-videos",
+      "title": "hideewsj-maker/awesome-fable-5-2-videos",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/hideewsj-maker/awesome-fable-5-2-videos",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/yihui-dev/awesome-fable5-2-videos",
+      "title": "yihui-dev/awesome-fable5-2-videos",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/yihui-dev/awesome-fable5-2-videos",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/BeatAPI/awesome-fable-5-2-videos",
+      "title": "BeatAPI/awesome-fable-5-2-videos",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/beatapi/awesome-fable-5-2-videos",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Junhan2/oh-my-fable",
+      "title": "Junhan2/oh-my-fable",
+      "platform": "GitHub",
+      "date": "2026-09-02",
+      "sourceIdentity": "github.com/junhan2/oh-my-fable",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/anttiluode/CrystalMoonV3",
+      "title": "anttiluode/CrystalMoonV3",
+      "platform": "GitHub",
+      "date": "2026-11-09",
+      "sourceIdentity": "github.com/anttiluode/crystalmoonv3",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/jayypatel18/tiny-rocket-5-2",
+      "title": "jayypatel18/tiny-rocket-5-2",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/jayypatel18/tiny-rocket-5-2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/7ammad/refable",
+      "title": "7ammad/refable",
+      "platform": "GitHub",
+      "date": "2026-07-03",
+      "sourceIdentity": "github.com/7ammad/refable",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/ChrisHKAI/awesome-fable-5.2-videos",
+      "title": "ChrisHKAI/awesome-fable-5.2-videos",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/chrishkai/awesome-fable-5.2-videos",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Petyok/blameless",
+      "title": "Petyok/blameless",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/petyok/blameless",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Token173/claude-fable-5.2",
+      "title": "Token173/claude-fable-5.2",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/token173/claude-fable-5.2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/catrouter-net/claude-fable-5-2",
+      "title": "catrouter-net/claude-fable-5-2",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/catrouter-net/claude-fable-5-2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50438258",
+      "title": "Fable 5.2 one-shotted my nephew's dream game",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50438258",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50438133",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50438133",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50438066",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50438066",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50437963",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50437963",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50437942",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50437942",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50437917",
+      "title": "Is Fable 5.2 just Opus 5.5 with a higher effort setting?",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50437917",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50437895",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50437895",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50437877",
+      "title": "On Being an Engineer in 2026",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50437877",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50437778",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50437778",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50437524",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50437524",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50437195",
+      "title": "Fable 5.2 one-shotted my nephew's dream game",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50437195",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50437194",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50437194",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50437146",
+      "title": "Fable 5.2 one-shotted my nephew's dream game",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50437146",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50436761",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50436761",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50436557",
+      "title": "Locating the source of a mysterious beep",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50436557",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50436355",
+      "title": "Locating the source of a mysterious beep",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50436355",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50436252",
+      "title": "Fable 5.2 and Jagged AGI: General, often expert, and sometimes jagged",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50436252",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50436244",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50436244",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50436100",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50436100",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50436080",
+      "title": "Fable 5.2 one-shotted my nephew's dream game",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50436080",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50435964",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50435964",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50435961",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50435961",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50435911",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50435911",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50435823",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50435823",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50435753",
+      "title": "On Being an Engineer in 2026",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50435753",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50435663",
+      "title": "Notes on Fable 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50435663",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1",
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50435641",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50435641",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50435602",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50435602",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1",
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50435590",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50435590",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50435571",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50435571",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50435708",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50435708",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50435577",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50435577",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50433686",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50433686",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50433659",
+      "title": "Fable 5.2 one-shotted my nephew's dream game",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50433659",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3",
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50432994",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50432994",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3",
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50432975",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50432975",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3",
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50432838",
+      "title": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50432838",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50432687",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50432687",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3",
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50431769",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50431769",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50431343",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50431343",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3",
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50431144",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50431144",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3",
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430968",
+      "title": "Safely scaling multi-agent teams with Claude Fable 5.2nd PostgreSQL",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430968",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430691",
+      "title": "Claude Fable 5.2 now available on AI Gateway",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430691",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3",
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430176",
+      "title": "Claude Fable 5.2 launch offers",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430176",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3",
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430154",
+      "title": "Claude Fable 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430154",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3",
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430044",
+      "title": "Fable 5.2 Out",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430044",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3",
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/eval-forge/claude-battle",
+      "title": "eval-forge/claude-battle",
+      "platform": "GitHub",
+      "date": "2026-11-09",
+      "sourceIdentity": "github.com/eval-forge/claude-battle",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/bluesky-rgb/model-showdown",
+      "title": "bluesky-rgb/model-showdown",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/bluesky-rgb/model-showdown",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/skel714-debug/Fable_5.2_Companies",
+      "title": "skel714-debug/Fable_5.2_Companies",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/skel714-debug/fable_5.2_companies",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/techkwon/fable52-oneshot-bench",
+      "title": "techkwon/fable52-oneshot-bench",
+      "platform": "GitHub",
+      "date": "2026-11-09",
+      "sourceIdentity": "github.com/techkwon/fable52-oneshot-bench",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/bwoliveira/prompt-studio",
+      "title": "bwoliveira/prompt-studio",
+      "platform": "GitHub",
+      "date": "2026-09-27",
+      "sourceIdentity": "github.com/bwoliveira/prompt-studio",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/moain2026/Fable-5.2",
+      "title": "moain2026/Fable-5.2",
+      "platform": "GitHub",
+      "date": "2026-11-09",
+      "sourceIdentity": "github.com/moain2026/fable-5.2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/VoltexAI/Fable5.2-Test",
+      "title": "VoltexAI/Fable5.2-Test",
+      "platform": "GitHub",
+      "date": "2026-11-09",
+      "sourceIdentity": "github.com/voltexai/fable5.2-test",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/thequantling/fable-5.2-tests",
+      "title": "thequantling/fable-5.2-tests",
+      "platform": "GitHub",
+      "date": "2026-11-09",
+      "sourceIdentity": "github.com/thequantling/fable-5.2-tests",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/monokernn/FABLE-5.2-UNPACKED",
+      "title": "monokernn/FABLE-5.2-UNPACKED",
+      "platform": "GitHub",
+      "date": "2026-11-09",
+      "sourceIdentity": "github.com/monokernn/fable-5.2-unpacked",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/az9713/fable-5.2-demos",
+      "title": "az9713/fable-5.2-demos",
+      "platform": "GitHub",
+      "date": "2026-11-09",
+      "sourceIdentity": "github.com/az9713/fable-5.2-demos",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Para-FR/claude-fable-5.2-flight-sim",
+      "title": "Para-FR/claude-fable-5.2-flight-sim",
+      "platform": "GitHub",
+      "date": "2026-11-09",
+      "sourceIdentity": "github.com/para-fr/claude-fable-5.2-flight-sim",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/MiaAI-Lab/Claude-Fable-5.2-HTML-Files",
+      "title": "MiaAI-Lab/Claude-Fable-5.2-HTML-Files",
+      "platform": "GitHub",
+      "date": "2026-11-09",
+      "sourceIdentity": "github.com/miaai-lab/claude-fable-5.2-html-files",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/perron/fable-migrate-check",
+      "title": "perron/fable-migrate-check",
+      "platform": "GitHub",
+      "date": "2026-11-09",
+      "sourceIdentity": "github.com/perron/fable-migrate-check",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/perron/fablescan",
+      "title": "perron/fablescan",
+      "platform": "GitHub",
+      "date": "2026-11-09",
+      "sourceIdentity": "github.com/perron/fablescan",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/l1ly-time/infinity-board",
+      "title": "l1ly-time/infinity-board",
+      "platform": "GitHub",
+      "date": "2026-11-09",
+      "sourceIdentity": "github.com/l1ly-time/infinity-board",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/perpetuity369/fable-5.2-system-prompt",
+      "title": "perpetuity369/fable-5.2-system-prompt",
+      "platform": "GitHub",
+      "date": "2026-11-09",
+      "sourceIdentity": "github.com/perpetuity369/fable-5.2-system-prompt",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/preacherxp/fable-five",
+      "title": "preacherxp/fable-five",
+      "platform": "GitHub",
+      "date": "2026-11-09",
+      "sourceIdentity": "github.com/preacherxp/fable-five",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/fatihlabsai/fable-5-2-city",
+      "title": "fatihlabsai/fable-5-2-city",
+      "platform": "GitHub",
+      "date": "2026-11-09",
+      "sourceIdentity": "github.com/fatihlabsai/fable-5-2-city",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/akashmakesdesigns/fable-sites",
+      "title": "akashmakesdesigns/fable-sites",
+      "platform": "GitHub",
+      "date": "2026-11-09",
+      "sourceIdentity": "github.com/akashmakesdesigns/fable-sites",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/anstapnever/blackout",
+      "title": "anstapnever/blackout",
+      "platform": "GitHub",
+      "date": "2026-11-09",
+      "sourceIdentity": "github.com/anstapnever/blackout",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/ThePeeps191/fable-5.2-high-test",
+      "title": "ThePeeps191/fable-5.2-high-test",
+      "platform": "GitHub",
+      "date": "2026-11-09",
+      "sourceIdentity": "github.com/thepeeps191/fable-5.2-high-test",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/EvoLinkAI/awesome-claude-fable-5-2-use-cases",
+      "title": "EvoLinkAI/awesome-claude-fable-5-2-use-cases",
+      "platform": "GitHub",
+      "date": "2026-06-10",
+      "sourceIdentity": "github.com/evolinkai/awesome-claude-fable-5-2-use-cases",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/TheClockwyrks/tcab-pong-claude-claude-fable-5-2ba637d6",
+      "title": "TheClockwyrks/tcab-pong-claude-claude-fable-5-2ba637d6",
+      "platform": "GitHub",
+      "date": "2026-08-19",
+      "sourceIdentity": "github.com/theclockwyrks/tcab-pong-claude-claude-fable-5-2ba637d6",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/TheClockwyrks/tcab-pong-claude-claude-fable-5-244fe86e",
+      "title": "TheClockwyrks/tcab-pong-claude-claude-fable-5-244fe86e",
+      "platform": "GitHub",
+      "date": "2026-08-19",
+      "sourceIdentity": "github.com/theclockwyrks/tcab-pong-claude-claude-fable-5-244fe86e",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/TheClockwyrks/tcab-fathom-claude-claude-fable-5-2e03cbab",
+      "title": "TheClockwyrks/tcab-fathom-claude-claude-fable-5-2e03cbab",
+      "platform": "GitHub",
+      "date": "2026-07-09",
+      "sourceIdentity": "github.com/theclockwyrks/tcab-fathom-claude-claude-fable-5-2e03cbab",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/wyattmcd08/Fable5.2-mt",
+      "title": "wyattmcd08/Fable5.2-mt",
+      "platform": "GitHub",
+      "date": "2026-07-02",
+      "sourceIdentity": "github.com/wyattmcd08/fable5.2-mt",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/charge260w/fable5-2",
+      "title": "charge260w/fable5-2",
+      "platform": "GitHub",
+      "date": "2026-06-14",
+      "sourceIdentity": "github.com/charge260w/fable5-2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/ppauloke-bot/Claude-Fable-5.2",
+      "title": "ppauloke-bot/Claude-Fable-5.2",
+      "platform": "GitHub",
+      "date": "2026-06-11",
+      "sourceIdentity": "github.com/ppauloke-bot/claude-fable-5.2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50435534",
+      "title": "Fable 5.2 one-shotted my nephew's dream game",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50435534",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50435303",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50435303",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50435143",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50435143",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50435095",
+      "title": "Fable 5.2 one-shotted my nephew's dream game",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50435095",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50435040",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50435040",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50435003",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50435003",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50434942",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50434942",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50434936",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50434936",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50434921",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50434921",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50434873",
+      "title": "Fable 5.2 one-shotted my nephew's dream game",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50434873",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50434784",
+      "title": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50434784",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50434753",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50434753",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50434750",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50434750",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50434685",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50434685",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50434619",
+      "title": "Fable 5.2 one-shotted my nephew's dream game",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50434619",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50434558",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50434558",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50434508",
+      "title": "Fable 5.2 one-shotted my nephew's dream game",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50434508",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50434458",
+      "title": "Fable 5.2 one-shotted my nephew's dream game",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50434458",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50434433",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50434433",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50434424",
+      "title": "Fable 5.2 one-shotted my nephew's dream game",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50434424",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50434389",
+      "title": "Fable 5.2 one-shotted my nephew's dream game",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50434389",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50434223",
+      "title": "Fable 5.2 one-shotted my nephew's dream game",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50434223",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50434214",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50434214",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50434156",
+      "title": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50434156",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50433963",
+      "title": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50433963",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50433961",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50433961",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50433738",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50433738",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50433706",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50433706",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50433540",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50433540",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50433520",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50433520",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50433399",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50433399",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50433272",
+      "title": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50433272",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50433270",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50433270",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50433058",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50433058",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50433049",
+      "title": "AI labs raise prices without raising prices",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50433049",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50433004",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50433004",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50432977",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50432977",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50432968",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50432968",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50432936",
+      "title": "Is Opus 5.5 nerfed? Thinking patterns changed on November 3",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50432936",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50432902",
+      "title": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50432902",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50432836",
+      "title": "Show HN: Fable 5.2 made a fun Claude castaway clone",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50432836",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50432816",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50432816",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50432710",
+      "title": "Fable 5.2 is a jump in TakingYourJobBench",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50432710",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50432663",
+      "title": "Claude Fable 5.2 launch offers",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50432663",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50432566",
+      "title": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50432566",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50432483",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50432483",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50432456",
+      "title": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50432456",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50432449",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50432449",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50432419",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50432419",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50432212",
+      "title": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50432212",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50432202",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50432202",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50431894",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50431894",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50431882",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50431882",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50431810",
+      "title": "On Being an Engineer in 2026",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50431810",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50431691",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50431691",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50431650",
+      "title": "Is Opus 5.5 nerfed? Thinking patterns changed on November 3",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50431650",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50431536",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50431536",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50431452",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50431452",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50431435",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50431435",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50431418",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50431418",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50431344",
+      "title": "Fable 5.2 and Jagged AGI",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50431344",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50431328",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50431328",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50431225",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50431225",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50431198",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50431198",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50431164",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50431164",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50431080",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50431080",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50431044",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50431044",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50431037",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50431037",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50431031",
+      "title": "Is Opus 5.5 nerfed? Thinking patterns changed on November 3",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50431031",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430969",
+      "title": "Speeding up Quantum Espresso by 36x using Claude Fable 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430969",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430962",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430962",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430943",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430943",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430938",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430938",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430931",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430931",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430925",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430925",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430766",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430766",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430693",
+      "title": "System Card: Claude Fable 5.2 and Claude Mythos 5.2 [pdf]",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430693",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430687",
+      "title": "Claude Fable 5.2 designs a working voice assistant [video]",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430687",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430590",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430590",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430544",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430544",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430443",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430443",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430419",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430419",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430379",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430379",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430364",
+      "title": "Claude Fable 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430364",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430273",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430273",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430248",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430248",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430228",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430228",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430183",
+      "title": "Is Opus 5.5 nerfed? Thinking patterns changed on November 3",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430183",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430150",
+      "title": "Is Opus 5.5 nerfed? Thinking patterns changed on November 3",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430150",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430085",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430085",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430067",
+      "title": "Fable 5.2 Available in Claude Desktop",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430067",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50429993",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50429993",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50429947",
+      "title": "Claude Fable 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50429947",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50429906",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50429906",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50429068",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50429068",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50423935",
+      "title": "Tell HN: A flood of reports of Opus 5.5 being nerfed",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50423935",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50212343",
+      "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
+      "platform": "Hacker News",
+      "date": "2026-10-23",
+      "sourceIdentity": "news.ycombinator.com/item?id=50212343",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=49804388",
+      "title": "Claude Opus 5.5",
+      "platform": "Hacker News",
+      "date": "2026-09-22",
+      "sourceIdentity": "news.ycombinator.com/item?id=49804388",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=49796134",
+      "title": "Elevated errors for multiple models – Resolved",
+      "platform": "Hacker News",
+      "date": "2026-09-22",
+      "sourceIdentity": "news.ycombinator.com/item?id=49796134",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=49529147",
+      "title": "Claude Fable 5.1 and Claude Mythos 5.1",
+      "platform": "Hacker News",
+      "date": "2026-09-01",
+      "sourceIdentity": "news.ycombinator.com/item?id=49529147",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=49525937",
+      "title": "Claude Fable 5.1 and Claude Mythos 5.1",
+      "platform": "Hacker News",
+      "date": "2026-09-01",
+      "sourceIdentity": "news.ycombinator.com/item?id=49525937",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceIdentity": "platform.claude.com/docs/en/models/fable-5/overview",
+      "sourceUrl": "https://platform.claude.com/docs/en/models/fable-5/overview",
+      "title": "Claude Fable 5 - Claude Platform Docs",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-0.json"
+      ]
+    },
+    {
+      "sourceIdentity": "instagram.com/p/DfiFCriIQB4",
+      "sourceUrl": "https://www.instagram.com/p/DfiFCriIQB4/",
+      "title": "Anthropic just released Claude Fable 5.2 and Mythos ...",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-0.json"
+      ]
+    },
+    {
+      "sourceIdentity": "reddit.com/comments/1wfpuai",
+      "sourceUrl": "https://www.reddit.com/r/claude/comments/1wfpuai/fable_52_next_week/",
+      "title": "Fable 5.2 Next Week? : r/claude",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-0.json"
+      ]
+    },
+    {
+      "sourceIdentity": "investing.com/news/stock-market-news/anthropic-launches-fable-52-and-mythos-52-ai-models-ahead-of-ipo-5013030",
+      "sourceUrl": "https://www.investing.com/news/stock-market-news/anthropic-launches-fable-52-and-mythos-52-ai-models-ahead-of-ipo-5013030",
+      "title": "Anthropic launches Fable 5.2 and Mythos 5.2 AI models ...",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-0.json"
+      ]
+    },
+    {
+      "sourceIdentity": "youtube.com/watch?v=hUZNPCSZDaQ",
+      "sourceUrl": "https://www.youtube.com/watch?v=hUZNPCSZDaQ",
+      "title": "HUGE Fable 5.2, Opus 5.2, Sonnet 5.2 LEAKS! Gemini World ...",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-0.json"
+      ]
+    },
+    {
+      "sourceIdentity": "apimaster.ai/blog/claude-5-2-api",
+      "sourceUrl": "https://apimaster.ai/blog/claude-5-2-api",
+      "title": "Claude 5.2: Opus 5.2, Fable 5.2 and what you can use today",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-0.json"
+      ]
+    },
+    {
+      "sourceIdentity": "overchat.ai/models/claude-fable-5-2",
+      "sourceUrl": "https://overchat.ai/models/claude-fable-5-2",
+      "title": "Claude Fable 5.2: Chat Online, Specs & Benchmarks",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-0.json"
+      ]
+    },
+    {
+      "sourceIdentity": "youtube.com/watch?v=a30jl5ZXlsM",
+      "sourceUrl": "https://www.youtube.com/watch?v=a30jl5ZXlsM",
+      "title": "Fable 5.2 Just Embarrassed GPT-6 Astra",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-0.json"
+      ]
+    },
+    {
+      "sourceIdentity": "cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html",
+      "sourceUrl": "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html",
+      "title": "Anthropic releases first frontier models since Amodei's call ...",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-0.json"
+      ]
+    },
+    {
+      "sourceIdentity": "epoch.ai/models/claude-fable-5-2",
+      "sourceUrl": "https://epoch.ai/models/claude-fable-5-2",
+      "title": "Claude Fable 5.2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-0.json"
+      ]
+    },
+    {
+      "sourceIdentity": "reddit.com/comments/1xs0d1i",
+      "sourceUrl": "https://www.reddit.com/r/singularity/comments/1xs0d1i/introducing_fable_52_and_mythos_52/",
+      "title": "Introducing Fable 5.2 and Mythos 5.2 : r/singularity",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-1.json"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2119870171905245546",
+      "sourceUrl": "https://x.com/iAmHenryMascot/status/2119870171905245546",
+      "title": "Henry Mascot on X: \"Fable5.2 is here\" / X",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-1.json"
+      ]
+    },
+    {
+      "sourceIdentity": "facebook.com/100083241103501/videos/2184449875487150",
+      "sourceUrl": "https://www.facebook.com/100083241103501/videos/2184449875487150/",
+      "title": "Technology IG on Reels",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-1.json"
+      ]
+    },
+    {
+      "sourceIdentity": "instagram.com/reel/Dfi9J40SpB8",
+      "sourceUrl": "https://www.instagram.com/reel/Dfi9J40SpB8/",
+      "title": "Anthropic's New Year Gift: Claude Fable 5.2!",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-1.json"
+      ]
+    },
+    {
+      "sourceIdentity": "youtube.com/watch?v=azsl7B70ba0",
+      "sourceUrl": "https://www.youtube.com/watch?v=azsl7B70ba0",
+      "title": "Fable5.2を触ってみる！！！",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-1.json"
+      ]
+    },
+    {
+      "sourceIdentity": "reddit.com/comments/1xs3cjx",
+      "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1xs3cjx/i_did_a_cat_animation_test_with_fable52extra/",
+      "title": "I did a cat animation test with Fable5.2(extra) : r/ClaudeAI",
+      "status": "accepted",
+      "discoveredVia": [
+        "search-1.json"
+      ],
+      "acceptedCaseIds": [
+        "fable52-cat-animation"
+      ]
+    },
+    {
+      "sourceIdentity": "facebook.com/bsindia/posts/anthropic-says-its-latest-ai-models-offer-faster-responses-and-stronger-coding-r/1603150625190754",
+      "sourceUrl": "https://www.facebook.com/bsindia/posts/anthropic-says-its-latest-ai-models-offer-faster-responses-and-stronger-coding-r/1603150625190754/",
+      "title": "#Anthropic says its latest #AI models offer faster responses ...",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-1.json"
+      ]
+    },
+    {
+      "sourceIdentity": "aibase.com/news/32190",
+      "sourceUrl": "https://www.aibase.com/news/32190",
+      "title": "Anthropic Releases Claude Fable5.2 and Mythos5.2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-1.json"
+      ]
+    },
+    {
+      "sourceIdentity": "youtube.com/watch?v=KVJ5Ywgyjps",
+      "sourceUrl": "https://www.youtube.com/shorts/KVJ5Ywgyjps",
+      "title": "created by Fable5.2 by anthropic engineer #fable ...",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-1.json"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/hashtag/fable5",
+      "sourceUrl": "https://x.com/hashtag/fable5",
+      "title": "#fable5 - Search / X",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-1.json"
+      ]
+    },
+    {
+      "sourceIdentity": "anthropic.com/claude/fable",
+      "sourceUrl": "https://www.anthropic.com/claude/fable",
+      "title": "Claude Fable 5.2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-2.json"
+      ]
+    },
+    {
+      "sourceIdentity": "reddit.com/comments/1xs0dct",
+      "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1xs0dct/fable_52_just_landed/",
+      "title": "Fable 5.2 just landed. : r/ClaudeAI",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-2.json",
+        "search-4.json"
+      ]
+    },
+    {
+      "sourceIdentity": "platform.claude.com/docs/en/models/fable-5-2/whats-new-fable-5-2",
+      "sourceUrl": "https://platform.claude.com/docs/en/models/fable-5-2/whats-new-fable-5-2",
+      "title": "What's new in Claude Fable 5.2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-2.json"
+      ]
+    },
+    {
+      "sourceIdentity": "reddit.com/comments/1xs2wdl",
+      "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1xs2wdl/fable_52_review_here_is_whats_actually_different/",
+      "title": "Fable 5.2 REVIEW Here is what's actually different and what to try first ...",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-2.json",
+        "search-4.json"
+      ]
+    },
+    {
+      "sourceIdentity": "facebook.com/groups/698593531630485/posts/1782883643201463",
+      "sourceUrl": "https://www.facebook.com/groups/698593531630485/posts/1782883643201463/",
+      "title": "What does Claude Fable 5.2 mean for business owners?",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-2.json"
+      ]
+    },
+    {
+      "sourceIdentity": "forums.macrumors.com/threads/anthropic-launches-claude-fable-5-2-and-mythos-5-2.2494036",
+      "sourceUrl": "https://forums.macrumors.com/threads/anthropic-launches-claude-fable-5-2-and-mythos-5-2.2494036/",
+      "title": "Anthropic Launches Claude Fable 5.2 and Mythos 5.2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-2.json"
+      ]
+    },
+    {
+      "sourceIdentity": "vals.ai/models/anthropic_claude-fable-5-2",
+      "sourceUrl": "https://www.vals.ai/models/anthropic_claude-fable-5-2",
+      "title": "Claude Fable 5.2 Benchmarks, Cost and Capabilities",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-2.json"
+      ]
+    },
+    {
+      "sourceIdentity": "openrouter.ai/anthropic/claude-fable-5.2",
+      "sourceUrl": "https://openrouter.ai/anthropic/claude-fable-5.2",
+      "title": "Claude Fable 5.2 - API Pricing & Benchmarks",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-2.json"
+      ]
+    },
+    {
+      "sourceIdentity": "lifearchitect.substack.com/p/the-memo-special-edition-claude-fable-24d",
+      "sourceUrl": "https://lifearchitect.substack.com/p/the-memo-special-edition-claude-fable-24d",
+      "title": "Claude Fable 5.2 and Claude Mythos 5.2 - 9/Nov/2026",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-2.json"
+      ]
+    },
+    {
+      "sourceIdentity": "aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-2-on-aws",
+      "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-2-on-aws/",
+      "title": "Introducing Claude Fable 5.2 on AWS | Artificial Intelligence",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-2.json"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2119867132452221045",
+      "sourceUrl": "https://x.com/claudeai/status/2119867132452221045",
+      "title": "Claude on X: \"Fable 5.2 shows substantially improved ...",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-3.json"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2119870223562191289",
+      "sourceUrl": "https://x.com/petergyang/status/2119870223562191289",
+      "title": "Peter Yang on X: \"Fable 5.2 is here! I had early access and ...",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-3.json"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2119870808143298647",
+      "sourceUrl": "https://x.com/kimmonismus/status/2119870808143298647",
+      "title": "This is insane: An Anthropic engineer asked Claude Fable ...",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-3.json"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2119886664017547687",
+      "sourceUrl": "https://x.com/mattshumer_/status/2119886664017547687",
+      "title": "Matt Shumer on X: \"I spent over 400B tokens testing Fable ...",
+      "status": "accepted",
+      "discoveredVia": [
+        "search-3.json"
+      ],
+      "acceptedCaseIds": [
+        "fable52-shumer-tests"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2119898687803621427",
+      "sourceUrl": "https://x.com/ClaudeDevs/status/2119898687803621427",
+      "title": "Which Claude model should you build with? Fable, Opus ...",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-3.json"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2119874129033879893",
+      "sourceUrl": "https://x.com/minchoi/status/2119874129033879893",
+      "title": "This is wild. Anthropic just dropped Fable 5.2 + Mythos ... - X",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-3.json"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2119926277801144695",
+      "sourceUrl": "https://x.com/theo/status/2119926277801144695",
+      "title": "Theo - t3.gg on X: \"Fable 5.2 built this in 76 minutes and it ...",
+      "status": "accepted",
+      "discoveredVia": [
+        "search-3.json"
+      ],
+      "acceptedCaseIds": [
+        "fable52-theo-fishslop"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2119899459761131615",
+      "sourceUrl": "https://x.com/claudeai/status/2119899459761131615",
+      "title": "\"During pre-release testing, Claude Fable 5.2 and ... - X",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-3.json"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2119902109709537708",
+      "sourceUrl": "https://x.com/rileybrown/status/2119902109709537708",
+      "title": "This is actually INSANE. Fable 5.2 just ...",
+      "status": "accepted",
+      "discoveredVia": [
+        "search-3.json"
+      ],
+      "acceptedCaseIds": [
+        "fable52-riley-blender"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2119870801730245009",
+      "sourceUrl": "https://x.com/jeremyberman/status/2119870801730245009",
+      "title": "Built from scratch with Fable writing python to control blender",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-3.json"
+      ]
+    },
+    {
+      "sourceIdentity": "reddit.com/comments/1xs0kkm",
+      "sourceUrl": "https://www.reddit.com/r/claude/comments/1xs0kkm/fable_52_just_showed_up_in_my_claude_code_model/",
+      "title": "Fable 5.2 just showed up in my Claude Code model picker",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-4.json"
+      ]
+    },
+    {
+      "sourceIdentity": "reddit.com/comments/1xs35uw",
+      "sourceUrl": "https://www.reddit.com/r/claude/comments/1xs35uw/fable_52_is_insane/",
+      "title": "Fable 5.2. is INSANE : r/claude",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-4.json"
+      ]
+    },
+    {
+      "sourceIdentity": "reddit.com/comments/1xs1y29",
+      "sourceUrl": "https://www.reddit.com/r/singularity/comments/1xs1y29/claude_fable_52_built_a_playable_gears_of_war/",
+      "title": "Claude Fable 5.2 built a playable Gears of War clone in ...",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-4.json"
+      ]
+    },
+    {
+      "sourceIdentity": "reddit.com/comments/1xs0qxm",
+      "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xs0qxm/fable_52_is_here_30_cheaper_and_much_cheaper_than/",
+      "title": "Fable 5.2 is here! 30% cheaper and much cheaper than ...",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-4.json"
+      ]
+    },
+    {
+      "sourceIdentity": "reddit.com/comments/1xs0o7q",
+      "sourceUrl": "https://www.reddit.com/r/Anthropic/comments/1xs0o7q/fable_52_just_dropped/",
+      "title": "Fable 5.2 just dropped! : r/Anthropic",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-4.json"
+      ]
+    },
+    {
+      "sourceIdentity": "reddit.com/comments/1xs25gb",
+      "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1xs25gb/fable_52/",
+      "title": "Fable 5.2 : r/ClaudeAI",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-4.json"
+      ]
+    },
+    {
+      "sourceIdentity": "reddit.com/r/ClaudeCode?after=dDNfMXhyOXg1eQ%3D%3D&sort=best&t=DAY",
+      "sourceUrl": "https://www.reddit.com/r/ClaudeCode/?after=dDNfMXhyOXg1eQ%3D%3D&sort=best&t=DAY",
+      "title": "r/ClaudeCode",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-4.json"
+      ]
+    },
+    {
+      "sourceIdentity": "reddit.com/comments/1xs1mam",
+      "sourceUrl": "https://www.reddit.com/r/singularity/comments/1xs1mam/fable_52_intelligence_benchmark/",
+      "title": "Fable 5.2 Intelligence Benchmark : r/singularity",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-4.json"
+      ]
+    },
+    {
+      "sourceIdentity": "github.com/elder-plinius/cl4r1t4s/blob/main/anthropic/claude-web-app-fable-5.2.md",
+      "sourceUrl": "https://github.com/elder-plinius/CL4R1T4S/blob/main/ANTHROPIC/CLAUDE-WEB-APP-FABLE-5.2.md",
+      "title": "CLAUDE-WEB-APP-FABLE-5.2.md - elder-plinius",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-5.json"
+      ]
+    },
+    {
+      "sourceIdentity": "github.com/asgeirtj/system_prompts_leaks/blob/main/anthropic/claude-code/claude-code-fable-5.2.md",
+      "sourceUrl": "https://github.com/asgeirtj/system_prompts_leaks/blob/main/Anthropic/claude-code/claude-code-fable-5.2.md",
+      "title": "claude-code-fable-5.2.md - asgeirtj",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-5.json"
+      ]
+    },
+    {
+      "sourceIdentity": "github.com/elder-plinius/cl4r1t4s/blob/main/anthropic/claude-code-fable-5.2.txt",
+      "sourceUrl": "https://github.com/elder-plinius/CL4R1T4S/blob/main/ANTHROPIC/CLAUDE-CODE-FABLE-5.2.txt",
+      "title": "CL4R1T4S/ANTHROPIC/CLAUDE-CODE-FABLE-5.2.txt at ...",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-5.json"
+      ]
+    },
+    {
+      "sourceIdentity": "github.com/anomalyco/models.dev/issues/13271",
+      "sourceUrl": "https://github.com/anomalyco/models.dev/issues/13271",
+      "title": "[missing-model] ofox: anthropic/claude-fable-5.2 #13271",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-5.json"
+      ]
+    },
+    {
+      "sourceIdentity": "github.com/topics/fable-5-2",
+      "sourceUrl": "https://github.com/topics/fable-5-2",
+      "title": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-5.json"
+      ]
+    },
+    {
+      "sourceIdentity": "github.com/wei-shaw/sub2api/issues/8639/linked_closing_reference?reference_location=REPO_PULLS_INDEX",
+      "sourceUrl": "https://github.com/Wei-Shaw/sub2api/issues/8639/linked_closing_reference?reference_location=REPO_PULLS_INDEX",
+      "title": "适配：Claude Fable 5.2 Claude Mythos 5.2 · Issue #8630",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-5.json"
+      ]
+    },
+    {
+      "sourceIdentity": "github.com/openclaw/openclaw/issues/196248",
+      "sourceUrl": "https://github.com/openclaw/openclaw/issues/196248",
+      "title": "no catalog row, direct-path Claude Code identity ...",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-5.json"
+      ]
+    },
+    {
+      "sourceIdentity": "github.com/nanmicoder/cc-haha/activity",
+      "sourceUrl": "https://github.com/NanmiCoder/cc-haha/activity",
+      "title": "Activity · NanmiCoder/cc-haha",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-5.json"
+      ]
+    },
+    {
+      "sourceIdentity": "github.com/ultralytics/ultralytics/actions/workflows/ci.yml",
+      "sourceUrl": "https://github.com/ultralytics/ultralytics/actions/workflows/ci.yml",
+      "title": "CI",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-5.json"
+      ]
+    },
+    {
+      "sourceIdentity": "youtube.com/watch?v=foCBPrpbO68",
+      "sourceUrl": "https://www.youtube.com/watch?v=foCBPrpbO68",
+      "title": "Anthropic has just DROPPED A NUKE! (Fable 5.2)",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-6.json"
+      ]
+    },
+    {
+      "sourceIdentity": "youtube.com/watch?v=gd2-D47ExhY",
+      "sourceUrl": "https://www.youtube.com/watch?v=gd2-D47ExhY",
+      "title": "Claude Fable 5.2: 1000 AI Agents Built an Entire OS (I ...",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-6.json"
+      ]
+    },
+    {
+      "sourceIdentity": "youtube.com/watch?v=vdYynH177h0",
+      "sourceUrl": "https://www.youtube.com/watch?v=vdYynH177h0",
+      "title": "Claude Fable 5.2 designs a working voice-assistant hub",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-6.json"
+      ]
+    },
+    {
+      "sourceIdentity": "youtube.com/watch?v=rGzEmR8fGaw",
+      "sourceUrl": "https://www.youtube.com/watch?v=rGzEmR8fGaw",
+      "title": "Claude Fable 5.2 IS INSANE! Fable 6 HIDEEN, Gemini ...",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-6.json"
+      ]
+    },
+    {
+      "sourceIdentity": "youtube.com/watch?v=AsDJtv_2fxE",
+      "sourceUrl": "https://www.youtube.com/watch?v=AsDJtv_2fxE",
+      "title": "“Fable 5.2” Just DESTROYED GPT-6 Astra",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-6.json"
+      ]
+    },
+    {
+      "sourceIdentity": "youtube.com/watch?v=yVd3FIz6Mbk",
+      "sourceUrl": "https://www.youtube.com/watch?v=yVd3FIz6Mbk",
+      "title": "Fable 5.2 First Impressions: Big Wins, w/ One Big Flop",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-6.json"
+      ]
+    },
+    {
+      "sourceIdentity": "youtube.com/watch?v=QGBjtY8sw3w",
+      "sourceUrl": "https://www.youtube.com/watch?v=QGBjtY8sw3w",
+      "title": "Claude Fable 5.2 & Mythos 5.2 Explained",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-6.json"
+      ]
+    },
+    {
+      "sourceIdentity": "youtube.com/watch?v=M6Ow1flko4c",
+      "sourceUrl": "https://www.youtube.com/shorts/M6Ow1flko4c",
+      "title": "Claude Fable 5.2 Built A Working OS From An Empty Folder",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-6.json"
+      ]
+    },
+    {
+      "sourceIdentity": "youtube.com/watch?v=kwRxc8QPhrk",
+      "sourceUrl": "https://www.youtube.com/watch?v=kwRxc8QPhrk",
+      "title": "Fable 5.2 & Mythos 5.2 Are OUT (Not 5.5... Here's Why)",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-6.json"
+      ]
+    },
+    {
+      "sourceIdentity": "youtube.com/watch?v=KaBA00u816s",
+      "sourceUrl": "https://www.youtube.com/watch?v=KaBA00u816s",
+      "title": "Claude FABLE 5.2 IS HERE! #1 AI Model INSANE DEMOS ...",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-6.json"
+      ]
+    },
+    {
+      "sourceIdentity": "bilibili.com/video/BV133WK6YE2M",
+      "sourceUrl": "https://www.bilibili.com/video/BV133WK6YE2M/",
+      "title": "【黑鸦】宇宙颤栗！Anthropic 发布Fable 5.2 和Mythos 5.2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-7.json"
+      ]
+    },
+    {
+      "sourceIdentity": "bilibili.com/video/BV1fdWN6kE4i",
+      "sourceUrl": "https://www.bilibili.com/video/BV1fdWN6kE4i/",
+      "title": "Anthropic 最强模型升级！Claude Fable 5.2 / Mythos 5.2 七 ...",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-7.json"
+      ]
+    },
+    {
+      "sourceIdentity": "bilibili.com/video/BV1D3WK6aED3",
+      "sourceUrl": "https://www.bilibili.com/video/BV1D3WK6aED3/",
+      "title": "Anthropic 发布Fable 5.2 和Mythos 5.2；字节跳动发布 ...",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-7.json"
+      ]
+    },
+    {
+      "sourceIdentity": "bilibili.com/video/BV1dwWK6BEKi",
+      "sourceUrl": "https://www.bilibili.com/video/BV1dwWK6BEKi",
+      "title": "Anthropic 推出Claude Fable 5.2 和Mythos 5.2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-7.json"
+      ]
+    },
+    {
+      "sourceIdentity": "bilibili.com/video/BV1aXWK6eEXz",
+      "sourceUrl": "https://www.bilibili.com/video/BV1aXWK6eEXz/",
+      "title": "【不及预期？】Fable 5.2前端表现速览，与Opus5.5不相上下？",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-7.json"
+      ]
+    },
+    {
+      "sourceIdentity": "bilibili.com/video/BV1r8WP6rEoy",
+      "sourceUrl": "https://www.bilibili.com/video/BV1r8WP6rEoy/",
+      "title": "Claude Fable 5.2 发布！跑分碾压Opus 5.5，最多送3 张重置 ...",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-7.json"
+      ]
+    },
+    {
+      "sourceIdentity": "bilibili.com/video/BV1zvWP6MECB",
+      "sourceUrl": "https://www.bilibili.com/video/BV1zvWP6MECB/",
+      "title": "fable-5.2-鹈鹕测试max",
+      "status": "accepted",
+      "discoveredVia": [
+        "search-7.json"
+      ],
+      "acceptedCaseIds": [
+        "fable52-bili-pelican"
+      ]
+    },
+    {
+      "sourceIdentity": "bilibili.com/toy/juya-ai-daily",
+      "sourceUrl": "https://www.bilibili.com/toy/juya-ai-daily/",
+      "title": "橘鸦AI早报",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-7.json"
+      ]
+    },
+    {
+      "sourceIdentity": "search.bilibili.com/all?keyword=%E7%98%AB%E5%9D%90",
+      "sourceUrl": "https://search.bilibili.com/all?keyword=%E7%98%AB%E5%9D%90",
+      "title": "瘫坐-哔哩哔哩_Bilibili",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-7.json"
+      ]
+    },
+    {
+      "sourceIdentity": "search.bilibili.com/all?keyword=Opus+5.5",
+      "sourceUrl": "https://search.bilibili.com/all?keyword=Opus%205.5",
+      "title": "Opus 5.5-哔哩哔哩_Bilibili",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-7.json"
+      ]
+    },
+    {
+      "sourceIdentity": "youtube.com/watch?v=lV28RPwDkTg",
+      "sourceUrl": "https://www.youtube.com/watch?v=lV28RPwDkTg",
+      "title": "最强模型6项实测！Fable 5.2 只用Medium，就能做到这个程度",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-8.json"
+      ]
+    },
+    {
+      "sourceIdentity": "zhuanlan.zhihu.com/p/2103367324665394659",
+      "sourceUrl": "https://zhuanlan.zhihu.com/p/2103367324665394659",
+      "title": "Fable 5.2深夜掀桌！从0造操作系统，性价比反超Opus 5.5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-8.json"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120061601738867177",
+      "sourceUrl": "https://x.com/AISuperDomain/status/2120061601738867177",
+      "title": "AI超元域on X: \"🚀我在b站发布了深度实测Claude Fable 5.2 ...",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-8.json"
+      ]
+    },
+    {
+      "sourceIdentity": "datacamp.com/zh/blog/claude-fable-5-2-and-mythos-5-2",
+      "sourceUrl": "https://www.datacamp.com/zh/blog/claude-fable-5-2-and-mythos-5-2",
+      "title": "Claude Fable 5.2 与Mythos 5.2：我们对这次升级的看法",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-8.json"
+      ]
+    },
+    {
+      "sourceIdentity": "36kr.com/p/3990258921716485",
+      "sourceUrl": "https://m.36kr.com/p/3990258921716485",
+      "title": "刚刚，Fable 5.2也曝光了",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-8.json"
+      ]
+    },
+    {
+      "sourceIdentity": "instagram.com/reel/Dfiqhb1TCKj",
+      "sourceUrl": "https://www.instagram.com/reel/Dfiqhb1TCKj/",
+      "title": "Claude 又發布最強模型！ Fable 5.2 評測登頂 ...",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-8.json"
+      ]
+    },
+    {
+      "sourceIdentity": "sohu.com/a/1099672616_121948415?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+      "sourceUrl": "https://m.sohu.com/a/1099672616_121948415?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+      "title": "实测Fable 5.2 ：IPO味儿最冲的超强模型",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-8.json"
+      ]
+    },
+    {
+      "sourceIdentity": "oschina.net/news/503499/claude-fable-and-mythos-5-2",
+      "sourceUrl": "https://www.oschina.net/news/503499/claude-fable-and-mythos-5-2",
+      "title": "Anthropic 发布Fable 5.2 与Mythos 5.2，声称“8 天写出一个 ...",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-8.json"
+      ]
+    },
+    {
+      "sourceIdentity": "facebook.com/wong.q.carmen/posts/anthropic-%E5%9C%A8-119-%E4%B8%80%E6%AC%A1%E6%8E%A8%E5%87%BA%E4%B8%A4%E4%B8%AA%E6%96%B0%E6%A8%A1%E5%9E%8Bclaude-fable-52-%E5%92%8C-mythos-52%E7%9B%B4%E6%8E%A5%E6%8A%8A-ai-%E5%86%9B%E5%A4%87%E7%AB%9E%E8%B5%9B%E5%86%8D%E6%8E%A8%E4%B8%8A%E4%B8%80%E5%B1%82%E6%A5%BC-fable-52-%E4%BB%8A/30220305700902882",
+      "sourceUrl": "https://www.facebook.com/wong.q.carmen/posts/anthropic-%E5%9C%A8-119-%E4%B8%80%E6%AC%A1%E6%8E%A8%E5%87%BA%E4%B8%A4%E4%B8%AA%E6%96%B0%E6%A8%A1%E5%9E%8Bclaude-fable-52-%E5%92%8C-mythos-52%E7%9B%B4%E6%8E%A5%E6%8A%8A-ai-%E5%86%9B%E5%A4%87%E7%AB%9E%E8%B5%9B%E5%86%8D%E6%8E%A8%E4%B8%8A%E4%B8%80%E5%B1%82%E6%A5%BC-fable-52-%E4%BB%8A/30220305700902882/",
+      "title": "Anthropic 在11/9 一次推出两个新模型：Claude Fable 5.2 ...",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-8.json"
+      ]
+    },
+    {
+      "sourceIdentity": "sohu.com/a/1099402540_413981",
+      "sourceUrl": "https://www.sohu.com/a/1099402540_413981",
+      "title": "刚刚，Claude Fable 5.2 登顶世界第一，一夜斩杀Opus 5.5",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-8.json"
+      ]
+    },
+    {
+      "sourceIdentity": "anthropic.com/news",
+      "sourceUrl": "https://www.anthropic.com/news",
+      "title": "Newsroom",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-9.json"
+      ]
+    },
+    {
+      "sourceIdentity": "anthropic.com/news/models",
+      "sourceUrl": "https://www.anthropic.com/news/models",
+      "title": "Models",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-9.json"
+      ]
+    },
+    {
+      "sourceIdentity": "anthropic.com/news/announcements",
+      "sourceUrl": "https://www.anthropic.com/news/announcements",
+      "title": "Announcements",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-9.json"
+      ]
+    },
+    {
+      "sourceIdentity": "anthropic.com/news/how-anthropic-teams-use-claude-code",
+      "sourceUrl": "https://www.anthropic.com/news/how-anthropic-teams-use-claude-code",
+      "title": "How Anthropic teams use Claude Code",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-9.json"
+      ]
+    },
+    {
+      "sourceIdentity": "anthropic.com/news/claude-for-enterprise",
+      "sourceUrl": "https://www.anthropic.com/news/claude-for-enterprise",
+      "title": "Claude for Enterprise | Claude by Anthropic",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "search-9.json"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120030097004777937",
+      "sourceUrl": "https://x.com/jarrodwatts/status/2120030097004777937",
+      "title": "漂浮遗迹草岛上的第一人称射击游戏",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120029845572993504",
+      "sourceUrl": "https://x.com/hyuki/status/2120029845572993504",
+      "title": "对称性之旅：一个三角形和几面镜子铺满平面",
+      "status": "accepted",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ],
+      "acceptedCaseIds": [
+        "fable52-hyuki-993504"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120029153185694138",
+      "sourceUrl": "https://x.com/yupi996/status/2120029153185694138",
+      "title": "做成古风卷轴的 AI 编程学习路线",
+      "status": "accepted",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ],
+      "acceptedCaseIds": [
+        "fable52-yupi996-694138"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120029008809361891",
+      "sourceUrl": "https://x.com/motion_so/status/2120029008809361891",
+      "title": "同一条 Motion 提示词：Opus 5.5 对比 Fable 5.2 的城堡与提权故事",
+      "status": "accepted",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ],
+      "acceptedCaseIds": [
+        "fable52-motion-so-361891"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120028715258425413",
+      "sourceUrl": "https://x.com/Dubibubiii/status/2120028715258425413",
+      "title": "Fable 5.2 对比 Opus 5.5：Claude 吉祥物进化史一分钟动画",
+      "status": "accepted",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ],
+      "acceptedCaseIds": [
+        "fable52-dubibubiii-425413"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120028680055628006",
+      "sourceUrl": "https://x.com/KernelChai/status/2120028680055628006",
+      "title": "Opus 5.5 对比 Fable 5.2 做同一款印度奶茶摊游戏",
+      "status": "accepted",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ],
+      "acceptedCaseIds": [
+        "fable52-kernelchai-628006"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120028638833938583",
+      "sourceUrl": "https://x.com/makaneko_AI/status/2120028638833938583",
+      "title": "Fable 5.2 对比 Opus 5.5 做同一个 Fable 5.2 日文介绍页",
+      "status": "accepted",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ],
+      "acceptedCaseIds": [
+        "fable52-makaneko-ai-938583"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120028393131712653",
+      "sourceUrl": "https://x.com/Sirbost/status/2120028393131712653",
+      "title": "P(DOOM)：带 AI 风险计量条的卡通音乐视频",
+      "status": "accepted",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ],
+      "acceptedCaseIds": [
+        "fable52-sirbost-712653"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120027646071283723",
+      "sourceUrl": "https://x.com/AugustoBuilds/status/2120027646071283723",
+      "title": "Hero in Motion：介绍按播放才加载的视频首屏的动态文字短片",
+      "status": "accepted",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ],
+      "acceptedCaseIds": [
+        "fable52-augustobuilds-283723"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120027555960934713",
+      "sourceUrl": "https://x.com/leohuanfang/status/2120027555960934713",
+      "title": "爆款火柴人对打提示词在 Fable 5.2 和 Opus 5.5 上重跑",
+      "status": "accepted",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ],
+      "acceptedCaseIds": [
+        "fable52-leohuanfang-934713"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120027542967267380",
+      "sourceUrl": "https://x.com/satya5n21/status/2120027542967267380",
+      "title": "Afterglow：在环状行星下穿过异星草地的漫步",
+      "status": "accepted",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ],
+      "acceptedCaseIds": [
+        "fable52-satya5n21-267380"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120027508129112423",
+      "sourceUrl": "https://x.com/guillermocasfer/status/2120027508129112423",
+      "title": "拼贴风格的 AI 到 AGI 动画与发光高塔",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120027256659824763",
+      "sourceUrl": "https://x.com/Tkss2607/status/2120027256659824763",
+      "title": "White Hackers：日文网络安全预告片",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120026765523665272",
+      "sourceUrl": "https://x.com/RoketsSI/status/2120026765523665272",
+      "title": "AirTranslate：Mac 实时字幕应用的竖屏发布片",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120026164479545578",
+      "sourceUrl": "https://x.com/TejasThange3/status/2120026164479545578",
+      "title": "夏天的末班车：动画风乡间车站从正午到夜晚",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120025455743152239",
+      "sourceUrl": "https://x.com/ma_kanteishi/status/2120025455743152239",
+      "title": "AI 辅助不动产鉴定师的日文宣传片",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120025125076844785",
+      "sourceUrl": "https://x.com/Shannnu_18/status/2120025125076844785",
+      "title": "Aurora 9：从发射台到 210 公里轨道的火箭发射模拟",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120024536955638078",
+      "sourceUrl": "https://x.com/akionionio/status/2120024536955638078",
+      "title": "工地经营驾驶舱：两年工期里长出一整片 3D 街区",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120024471100907802",
+      "sourceUrl": "https://x.com/AlexStLouis10/status/2120024471100907802",
+      "title": "Blueline：带罚球和以多打少的 3D 冰球网页游戏",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120024384685613199",
+      "sourceUrl": "https://x.com/LovekeshAnand07/status/2120024384685613199",
+      "title": "whyred：CI 日志诊断工具的故障风发布片",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120024307573137874",
+      "sourceUrl": "https://x.com/leohuanfang/status/2120024307573137874",
+      "title": "爆款帆船提示词在 Fable 5.2 和 Opus 5.5 上重跑",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120024077930996126",
+      "sourceUrl": "https://x.com/tsuyatsuyatt/status/2120024077930996126",
+      "title": "Genesis：从粒子漩涡到发光行星的 3D 展示片",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120023093464682817",
+      "sourceUrl": "https://x.com/czzzzzzJ_/status/2120023093464682817",
+      "title": "发布会风格的中文 AI 知识站宣传片",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120022343217029529",
+      "sourceUrl": "https://x.com/leohuanfang/status/2120022343217029529",
+      "title": "爆款机器人短片提示词在 Fable 5.2 和 Opus 5.5 上重跑",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120021693045641645",
+      "sourceUrl": "https://x.com/iamtanzil_/status/2120021693045641645",
+      "title": "以 3D 模型城市为核心的迪拜建筑工作室网站",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120021613093749050",
+      "sourceUrl": "https://x.com/saypotsan/status/2120021613093749050",
+      "title": "Beyond the Signal：关于智能无界的青色粒子短片",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120021610161996053",
+      "sourceUrl": "https://x.com/MrTacticalX/status/2120021610161996053",
+      "title": "Fable 5.2 对比 Opus 5.5：方块风格的浮空风车岛",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120021475495403789",
+      "sourceUrl": "https://x.com/rehan_shei/status/2120021475495403789",
+      "title": "在 Blender 里建模、绑定并做动画的僵尸鸟角色",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120020469487440210",
+      "sourceUrl": "https://x.com/alightinastorm/status/2120020469487440210",
+      "title": "带军械库和沙漠小镇地图的网页第一人称射击游戏",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120020309587956012",
+      "sourceUrl": "https://x.com/Krongggggg/status/2120020309587956012",
+      "title": "舷号 H92 的 3D 驱逐舰破浪航行",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120020026552152264",
+      "sourceUrl": "https://x.com/SagarGiri1707/status/2120020026552152264",
+      "title": "Build it all：Claude Fable 5.2 暗色发布风格动效短片",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120017840434823227",
+      "sourceUrl": "https://x.com/genel_ai/status/2120017840434823227",
+      "title": "Opus 5.5 对比 Fable 5.2 设计同一个鸡肉便当餐车网站",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120017467812778053",
+      "sourceUrl": "https://x.com/PorisRora/status/2120017467812778053",
+      "title": "悬崖、樱花树和浮空岛组成的方块风格世界",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120017397059121516",
+      "sourceUrl": "https://x.com/Shannnu_18/status/2120017397059121516",
+      "title": "缓缓飞入一个发光的螺旋星系",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120017187448725651",
+      "sourceUrl": "https://x.com/Tech2Wild/status/2120017187448725651",
+      "title": "两个体素战士在神殿旁的白色平台上蓄力对决",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120017167848763821",
+      "sourceUrl": "https://x.com/FreedomAIG/status/2120017167848763821",
+      "title": "一个点长成线、面、体：包豪斯风格动态短片",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120017129022046541",
+      "sourceUrl": "https://x.com/Sisyphus_QwQ/status/2120017129022046541",
+      "title": "八位插画偶像的韩流小卡动态短片",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120017106804900304",
+      "sourceUrl": "https://x.com/himanshutwtxs/status/2120017106804900304",
+      "title": "一条提示词的动效设计师作品集：节奏、缓动、形状与字体",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120017100844814354",
+      "sourceUrl": "https://x.com/deedee_kon45120/status/2120017100844814354",
+      "title": "围红围巾的鹈鹕在海边公路上骑自行车",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120016334679609690",
+      "sourceUrl": "https://x.com/HolyGrail/status/2120016334679609690",
+      "title": "把博客文章变成快节奏日文幻灯视频：八个月做的副业项目",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120015679500001578",
+      "sourceUrl": "https://x.com/iliazolotukhin/status/2120015679500001578",
+      "title": "花哨的连接钱包卡片一次次被改成干净的列表",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120015641151426838",
+      "sourceUrl": "https://x.com/jev_chat/status/2120015641151426838",
+      "title": "云上叠罗汉：双翼飞机上的 3D 杂技短片",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120015289165426836",
+      "sourceUrl": "https://x.com/0x_zyven/status/2120015289165426836",
+      "title": "雨夜霓虹城市赛车，冲线拿下第一",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120014940350382119",
+      "sourceUrl": "https://x.com/chhddavid/status/2120014940350382119",
+      "title": "认识你的 AI 员工：Shipper 发布短片",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120014892040417720",
+      "sourceUrl": "https://x.com/wshuyi/status/2120014892040417720",
+      "title": "剑齿虎在金色草原上捕猎野牛",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120014839233868024",
+      "sourceUrl": "https://x.com/buildwithavis/status/2120014839233868024",
+      "title": "Fable 5.2 对比 GPT 6 Astra：同一个春节水上花市",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120014570790195600",
+      "sourceUrl": "https://x.com/davishaal/status/2120014570790195600",
+      "title": "《再见，放学后》：纸飞机与海边小镇的动画预告",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120014394843074864",
+      "sourceUrl": "https://x.com/_moud47/status/2120014394843074864",
+      "title": "双生子的故事：阿拉伯语讲解 Fable 5.2 与 Mythos 5.2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120014216753262816",
+      "sourceUrl": "https://x.com/takamasa045/status/2120014216753262816",
+      "title": "只要声音就够了：黑、米白、橙配色的日文歌词动态视频",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120013209554047013",
+      "sourceUrl": "https://x.com/akira_papa_IT/status/2120013209554047013",
+      "title": "由 Fable 5.2 做的十分钟日文 Fable 5.2 讲解视频",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120012834461646927",
+      "sourceUrl": "https://x.com/tankazunori0914/status/2120012834461646927",
+      "title": "从一个点到一个世界：只用代码的着色器视频与合成音乐",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120011939971760622",
+      "sourceUrl": "https://x.com/SadAlbert10/status/2120011939971760622",
+      "title": "OVER HELL：火焰体素剪辑，在 Claude 应用里录屏",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120010936584945922",
+      "sourceUrl": "https://x.com/alightinastorm/status/2120010936584945922",
+      "title": "Vibes 对 Luddites：满场观众的 3D 篮球游戏",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120010028073771323",
+      "sourceUrl": "https://x.com/mrdejie/status/2120010028073771323",
+      "title": "Reina 吓 Hiro：有配音的分支选择喜剧游戏",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120009331739607260",
+      "sourceUrl": "https://x.com/coleywoleyyy/status/2120009331739607260",
+      "title": "火柴人在夜色城市上空的网站广告牌间打斗",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120008924204310895",
+      "sourceUrl": "https://x.com/j_h_h_3/status/2120008924204310895",
+      "title": "Assembly：一条提示词做出的桌上微缩森林短片",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120008595458928930",
+      "sourceUrl": "https://x.com/Midnightballoon/status/2120008595458928930",
+      "title": "2027：关于不停加速的研究的竖屏粒子短片",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120008070352765272",
+      "sourceUrl": "https://x.com/bryanpatricca/status/2120008070352765272",
+      "title": "Lamplighter：小探测车在沙漠城市中发现嫩芽",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120007853230694422",
+      "sourceUrl": "https://x.com/hive_echo/status/2120007853230694422",
+      "title": "只有六种笔触的画家，一步步画出夜海与灯塔",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120007830065614926",
+      "sourceUrl": "https://x.com/higgsfield_ai/status/2120007830065614926",
+      "title": "TORQK：Fable 自己发明并在 Blender 里搭出的机器人关节发布短片",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2120007289071640613",
+      "sourceUrl": "https://x.com/niramayo2096/status/2120007289071640613",
+      "title": "金继：日式波纹图案裂开，再用金线修补",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2119910195325481026",
+      "sourceUrl": "https://x.com/ericmaskfr/status/2119910195325481026",
+      "title": "迈阿密风格开放世界犯罪游戏，含改装店和计时赛",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2119910055990505730",
+      "sourceUrl": "https://x.com/FaridaNever/status/2119910055990505730",
+      "title": "水墨风动作游戏：斗笠剑客与白猫",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2119910054413685102",
+      "sourceUrl": "https://x.com/geneohms/status/2119910054413685102",
+      "title": "Pocket Chess：一句话在手机上做出的国际象棋",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2119909865296699749",
+      "sourceUrl": "https://x.com/mihawkxxxxx/status/2119909865296699749",
+      "title": "《钟表匠的宅邸》Roblox 恐怖游戏预告片",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2119909780269785332",
+      "sourceUrl": "https://x.com/Scratcherrrr/status/2119909780269785332",
+      "title": "Piranha P-7：代码建模、能自拆的 3D 食人鱼",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2119909604431626667",
+      "sourceUrl": "https://x.com/Webilyco/status/2119909604431626667",
+      "title": "KONTUR：从蓝图到交付的 3D 滚动落地页",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2119909579983396903",
+      "sourceUrl": "https://x.com/Shannnu_18/status/2119909579983396903",
+      "title": "7 月的 Fable 5 对比 11 月的 Fable 5.2：地球查看器并排",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2119909371484213380",
+      "sourceUrl": "https://x.com/s_matysik/status/2119909371484213380",
+      "title": "带 3D 知识图谱的智能体指挥中心面板",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2119909017216491720",
+      "sourceUrl": "https://x.com/itssotsot/status/2119909017216491720",
+      "title": "玩具房第三人称探索小游戏",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2119908486880342326",
+      "sourceUrl": "https://x.com/higgsfield_ai/status/2119908486880342326",
+      "title": "平面咖啡馆草图变成带纹理的 3D 房间",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2119907947132125485",
+      "sourceUrl": "https://x.com/Elizaveta_ai/status/2119907947132125485",
+      "title": "深潜滑块：从海面潜到深海的音量控件",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2119907891419480107",
+      "sourceUrl": "https://x.com/aug5thmusic/status/2119907891419480107",
+      "title": "用 LilyPond 写成的 D 小调管风琴赋格",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2119907841599496421",
+      "sourceUrl": "https://x.com/higgsfield_ai/status/2119907841599496421",
+      "title": "苍蝇视角下的后院野餐（Three.js）",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2119907675265987047",
+      "sourceUrl": "https://x.com/higgsfield_ai/status/2119907675265987047",
+      "title": "代码做的声道模型唱 lo-fi",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2119907670077722932",
+      "sourceUrl": "https://x.com/yzr_koba/status/2119907670077722932",
+      "title": "水彩风讲解：天空为什么变色",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2119907318729245180",
+      "sourceUrl": "https://x.com/EnvolDev/status/2119907318729245180",
+      "title": "Fable 5.2 对比 Opus 5.5：冰拱间的航船",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2119907096636657696",
+      "sourceUrl": "https://x.com/LuminaBench/status/2119907096636657696",
+      "title": "昼夜变换的体素宝塔浮岛",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "x.com/i/status/2119907039669575757",
+      "sourceUrl": "https://x.com/whydeso/status/2119907039669575757",
+      "title": "Gemini 4 Argon 对比 Fable 5.2 做俯视角犯罪游戏",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "liang8989/awesome-fable5-2-videos"
+      ]
+    },
+    {
+      "sourceIdentity": "anthropic.com/claude-fable-and-mythos-5-2",
+      "sourceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "title": "生产服务从 Python 迁移至 Rust",
+      "discoveredVia": [
+        "original-source-review"
+      ],
+      "status": "accepted",
+      "acceptedCaseIds": [
+        "fable52-python-rust",
+        "fable52-os",
+        "fable52-hardware",
+        "fable52-robotics",
+        "fable52-oracle-sql",
+        "fable52-uber-audit",
+        "fable52-phonon",
+        "fable52-loan-review"
+      ]
+    }
+  ],
+  "reviewNotes": [
+    {
+      "sourceUrl": "https://github.com/Recursive-Self-Improving/qingdao-badaguan-threejs-fable-5-2-max-cc",
+      "decision": "unreviewed",
+      "reason": "已读取 README，具体场景可确认，但正文未明确模型版本归属；仓库名称不足以入库。"
+    },
+    {
+      "sourceUrl": "https://github.com/mitarthpathak/Blender-Fable-5.2",
+      "decision": "unreviewed",
+      "reason": "正文明确 Blender 和 Claude 工具链，但未明确此次使用的模型版本。"
+    },
+    {
+      "sourceUrl": "https://www.bilibili.com/video/BV1aXWK6eEXz/",
+      "decision": "unreviewed",
+      "reason": "标题符合关键词，视频简介为空；尚未核对视频内容。"
+    }
+  ],
+  "releaseEvidence": {
+    "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "releasedAt": "2026-11-09",
+    "basis": "Official announcement dated November 9, 2026."
+  }
+}

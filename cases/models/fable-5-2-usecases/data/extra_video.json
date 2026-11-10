@@ -1,0 +1,28 @@
+[
+  {
+    "id": "fable52-bili-pelican",
+    "title": "SVG 鹈鹕骑车动画实测",
+    "title_en": "Animated SVG pelican bicycle test",
+    "summary": "UP 主明确使用 claude-fable-5-2，公开单文件 HTML 提示词与轮转、腿部联动等结果，称未手工修改；未复跑。",
+    "summary_en": "The creator names claude-fable-5-2 and shares an HTML/SVG prompt and results; claims no manual edits, not independently reproduced.",
+    "category": "graphics",
+    "platform": "Bilibili",
+    "sourceUrl": "https://www.bilibili.com/video/BV1zvWP6MECB/",
+    "author": "ekosystem",
+    "date": "2026-11-09",
+    "evidenceType": "评测",
+    "checkedAt": "2026-11-10T10:26:12+00:00",
+    "evidenceUrl": "https://www.bilibili.com/video/BV1zvWP6MECB/",
+    "evidenceBasis": "已读取 B 站视频信息接口中的完整作者简介，明确模型 ID、提示词及测试结果。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "HTML/SVG 动画代码"
+    },
+    "views": 13130,
+    "likes": 85,
+    "metricsCheckedAt": "2026-11-10T10:26:12+00:00",
+    "poster": "https://i1.hdslb.com/bfs/archive/fad36174ca3a71073214707dc50af647bd4c2090.jpg",
+    "mediaKind": "video"
+  }
+]
