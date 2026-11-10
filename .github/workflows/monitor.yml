@@ -7,7 +7,7 @@ on:
       topic:
         description: Topic ID, or all enabled topics
         type: choice
-        options: [all, opus-5-5, fable-5-5]
+        options: [all, opus-5-5]
         default: all
 permissions:
   contents: read

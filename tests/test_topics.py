@@ -118,6 +118,8 @@ class DiscoveryTests(unittest.TestCase):
 
     def test_partial_failure_and_alias_duplicates_do_not_change_accepted_data(self):
         topic = load_topic("fable-5-5")
+        # Exercise discovery independently of whether this archived topic is enabled.
+        topic = Topic(topic.directory, {**topic.spec, "monitor": {**topic.spec["monitor"], "enabled": True}})
         baseline = (topic.data / "base_cases.json").read_bytes()
         freshness = (topic.data / "refresh_report.json").read_bytes()
         def fake_collect(source, directory, since):
