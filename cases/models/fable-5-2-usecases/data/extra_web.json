@@ -1,0 +1,170 @@
+[
+  {
+    "id": "fable52-python-rust",
+    "title": "生产服务从 Python 迁移至 Rust",
+    "title_en": "Production Python-to-Rust migration",
+    "summary": "Anthropic 报告早期 Fable 5.2 智能体团队完成服务迁移；性能结论来自官方。",
+    "summary_en": "Anthropic reports a production-service migration by early Fable 5.2 agents; vendor-reported results.",
+    "category": "coding",
+    "platform": "Web",
+    "sourceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "author": "Anthropic",
+    "date": "2026-11-09",
+    "evidenceType": "演示",
+    "checkedAt": "2026-11-10T10:26:12+00:00",
+    "evidenceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "evidenceBasis": "已读取 Anthropic 发布原文，对应段落或具名反馈明确写出 Fable 5.2。官方或合作方自述，未经独立复现；未收录仅归属 Mythos 的结果。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "官方实验或合作方评测"
+    }
+  },
+  {
+    "id": "fable52-os",
+    "title": "从空目录构建操作系统原型",
+    "title_en": "An operating-system prototype from an empty folder",
+    "summary": "Anthropic 报告 Fable 5.2 多智能体历时八天构建可启动原型；未复现。",
+    "summary_en": "Anthropic reports an eight-day multi-agent build of a bootable prototype; not reproduced.",
+    "category": "agents",
+    "platform": "Web",
+    "sourceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "author": "Anthropic",
+    "date": "2026-11-09",
+    "evidenceType": "演示",
+    "checkedAt": "2026-11-10T10:26:12+00:00",
+    "evidenceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "evidenceBasis": "已读取 Anthropic 发布原文，对应段落或具名反馈明确写出 Fable 5.2。官方或合作方自述，未经独立复现；未收录仅归属 Mythos 的结果。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "官方实验或合作方评测"
+    }
+  },
+  {
+    "id": "fable52-hardware",
+    "title": "设计电路板、外壳与嵌入式软件",
+    "title_en": "Circuit-board, enclosure and firmware design",
+    "summary": "Anthropic 与 Diode 展示三种电子设备，明确归属 Fable 5.2；属官方实验。",
+    "summary_en": "Anthropic and Diode report three devices designed with Fable 5.2; an official experiment.",
+    "category": "science",
+    "platform": "Web",
+    "sourceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "author": "Anthropic / Diode",
+    "date": "2026-11-09",
+    "evidenceType": "演示",
+    "checkedAt": "2026-11-10T10:26:12+00:00",
+    "evidenceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "evidenceBasis": "已读取 Anthropic 发布原文，对应段落或具名反馈明确写出 Fable 5.2。官方或合作方自述，未经独立复现；未收录仅归属 Mythos 的结果。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "官方实验或合作方评测"
+    }
+  },
+  {
+    "id": "fable52-robotics",
+    "title": "机器人开瓶盖与绘图任务",
+    "title_en": "Robot bottle-opening and drawing tasks",
+    "summary": "官方展示 Fable 5.2 控制实体机器人；实验条件与结论未独立核验。",
+    "summary_en": "Anthropic demonstrates Fable 5.2 controlling physical robots; conditions not independently verified.",
+    "category": "computer-use",
+    "platform": "Web",
+    "sourceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "author": "Anthropic",
+    "date": "2026-11-09",
+    "evidenceType": "评测",
+    "checkedAt": "2026-11-10T10:26:12+00:00",
+    "evidenceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "evidenceBasis": "已读取 Anthropic 发布原文，对应段落或具名反馈明确写出 Fable 5.2。官方或合作方自述，未经独立复现；未收录仅归属 Mythos 的结果。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "官方实验或合作方评测"
+    }
+  },
+  {
+    "id": "fable52-oracle-sql",
+    "title": "防止跨层级金额重复求和的 SQL 测试",
+    "title_en": "SQL avoiding cross-grain double counting",
+    "summary": "Oracle 的具名反馈称 Fable 5.2 正确处理汇总口径；由 Anthropic 发布。",
+    "summary_en": "Oracle reports correct aggregation in a SQL test, in an Anthropic-published testimonial.",
+    "category": "business",
+    "platform": "Web",
+    "sourceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "author": "Oracle / Liyu Gong",
+    "date": "2026-11-09",
+    "evidenceType": "评测",
+    "checkedAt": "2026-11-10T10:26:12+00:00",
+    "evidenceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "evidenceBasis": "已读取 Anthropic 发布原文，对应段落或具名反馈明确写出 Fable 5.2。官方或合作方自述，未经独立复现；未收录仅归属 Mythos 的结果。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "官方实验或合作方评测"
+    }
+  },
+  {
+    "id": "fable52-uber-audit",
+    "title": "长时多智能体审计与修复建议",
+    "title_en": "Long-running multi-agent audit",
+    "summary": "Uber 具名反馈描述审计、修复 PR 和政策建议；此处仅记录官方刊载的使用反馈。",
+    "summary_en": "Uber describes an audit, fix PRs and policy recommendations in an Anthropic-published testimonial.",
+    "category": "coding",
+    "platform": "Web",
+    "sourceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "author": "Uber / Andrew Mager",
+    "date": "2026-11-09",
+    "evidenceType": "评测",
+    "checkedAt": "2026-11-10T10:26:12+00:00",
+    "evidenceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "evidenceBasis": "已读取 Anthropic 发布原文，对应段落或具名反馈明确写出 Fable 5.2。官方或合作方自述，未经独立复现；未收录仅归属 Mythos 的结果。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "官方实验或合作方评测"
+    }
+  },
+  {
+    "id": "fable52-phonon",
+    "title": "Quantum ESPRESSO 声子代码优化",
+    "title_en": "Quantum ESPRESSO phonon-code optimization",
+    "summary": "Discovered Materials 反馈声子计算提速；由官方刊载，未独立跑分。",
+    "summary_en": "Discovered Materials reports faster phonon calculations; vendor-published, not independently benchmarked.",
+    "category": "science",
+    "platform": "Web",
+    "sourceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "author": "Discovered Materials / Akash Ramdas",
+    "date": "2026-11-09",
+    "evidenceType": "评测",
+    "checkedAt": "2026-11-10T10:26:12+00:00",
+    "evidenceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "evidenceBasis": "已读取 Anthropic 发布原文，对应段落或具名反馈明确写出 Fable 5.2。官方或合作方自述，未经独立复现；未收录仅归属 Mythos 的结果。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "官方实验或合作方评测"
+    }
+  },
+  {
+    "id": "fable52-loan-review",
+    "title": "贷款申请材料一致性检查",
+    "title_en": "Loan-document consistency review",
+    "summary": "Box 反馈其识别了工资存款与银行余额的不一致；属于具名测试反馈。",
+    "summary_en": "Box reports detecting inconsistent salary deposits and bank balances in a document-review test.",
+    "category": "business",
+    "platform": "Web",
+    "sourceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "author": "Box / Yashodha Bhavnani",
+    "date": "2026-11-09",
+    "evidenceType": "评测",
+    "checkedAt": "2026-11-10T10:26:12+00:00",
+    "evidenceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "evidenceBasis": "已读取 Anthropic 发布原文，对应段落或具名反馈明确写出 Fable 5.2。官方或合作方自述，未经独立复现；未收录仅归属 Mythos 的结果。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "官方实验或合作方评测"
+    }
+  }
+]

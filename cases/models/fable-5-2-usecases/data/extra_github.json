@@ -1,0 +1,68 @@
+[
+  {
+    "id": "fable52-daedalus",
+    "title": "Daedalus：希腊神话解谜游戏",
+    "title_en": "Daedalus: a Greek-mythology puzzle game",
+    "summary": "仓库 README 明确标注使用 Fable 5.2 构建希腊神话解谜游戏；未运行游戏。",
+    "summary_en": "The repository attributes its Greek-mythology puzzle game to Fable 5.2; not executed here.",
+    "category": "games",
+    "platform": "GitHub",
+    "sourceUrl": "https://github.com/S77FFY/daedalus",
+    "author": "S77FFY",
+    "date": "2026-11-10",
+    "evidenceType": "演示",
+    "checkedAt": "2026-11-10T10:26:12+00:00",
+    "evidenceUrl": "https://github.com/S77FFY/daedalus",
+    "evidenceBasis": "已读取仓库 README，其中明确模型版本及实现对象。仓库名称或搜索命中本身未作为证据。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "游戏实现"
+    },
+    "githubKind": "repository"
+  },
+  {
+    "id": "fable52-dustfall",
+    "title": "Dustfall：浏览器西部开放世界",
+    "title_en": "Dustfall: a browser western",
+    "summary": "README 明确称故事、着色器和游戏代码由 Fable 5.2 在 Claude Code 中生成；第三方素材另有署名。",
+    "summary_en": "The README attributes game code, story and shaders to Fable 5.2 in Claude Code, with separately credited third-party assets.",
+    "category": "games",
+    "platform": "GitHub",
+    "sourceUrl": "https://github.com/webKing021/dustfall",
+    "author": "webKing021",
+    "date": "2026-11-10",
+    "evidenceType": "演示",
+    "checkedAt": "2026-11-10T10:26:12+00:00",
+    "evidenceUrl": "https://github.com/webKing021/dustfall",
+    "evidenceBasis": "已读取仓库 README，其中明确模型版本及实现对象。仓库名称或搜索命中本身未作为证据。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "游戏实现"
+    },
+    "githubKind": "repository"
+  },
+  {
+    "id": "fable52-chess",
+    "title": "无棋类依赖的国际象棋实现",
+    "title_en": "Chess without runtime chess libraries",
+    "summary": "README 明确称规则、搜索引擎及声音由 Fable 5.2 编写，并列出操作与已知限制；未独立运行测试。",
+    "summary_en": "The README attributes rules, search and sounds to Fable 5.2 and lists limitations; repository tests were not rerun.",
+    "category": "games",
+    "platform": "GitHub",
+    "sourceUrl": "https://github.com/davidramsay95/claude-chess_fable_5-2_20261110",
+    "author": "davidramsay95",
+    "date": "2026-11-10",
+    "evidenceType": "演示",
+    "checkedAt": "2026-11-10T10:26:12+00:00",
+    "evidenceUrl": "https://github.com/davidramsay95/claude-chess_fable_5-2_20261110",
+    "evidenceBasis": "已读取仓库 README，其中明确模型版本及实现对象。仓库名称或搜索命中本身未作为证据。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "游戏实现"
+    },
+    "githubKind": "repository"
+  }
+]

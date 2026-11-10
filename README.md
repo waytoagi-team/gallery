@@ -8,11 +8,12 @@
 
 Fable 5.5 尚未发布，其专题已暂停公开展示和采集；旧资料保留用于核对，不作为正式版本案例推荐。
 
-模型专题使用同一套 `atlas/` 采集、校验和页面代码，各自维护配置、已审核数据、发现候选及发布产物。
+Opus 5.5 与 Fable 5.2 使用同一套 `atlas/` 采集、校验和页面代码，各自维护配置、已审核数据、发现候选及发布产物。
 
 | 专题 | 配置与数据 | 页面路径 |
 | --- | --- | --- |
 | Claude Opus 5.5 | [专题目录](cases/models/claude-opus-5-5-usecases/) | `/usecase-atlas/opus5-5/` |
+| Fable 5.2 | [专题目录](cases/models/fable-5-2-usecases/) | `/usecase-atlas/fable5-2/`（26 条） |
 
 ```bash
 python3 -m venv .venv

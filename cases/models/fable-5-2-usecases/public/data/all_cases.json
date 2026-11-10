@@ -1,0 +1,918 @@
+{
+ "meta": {
+  "categories": {
+   "games": {
+    "zh": "游戏开发",
+    "en": "Game Development"
+   },
+   "education": {
+    "zh": "交互教育与可视化",
+    "en": "Interactive Learning & Visualization"
+   },
+   "3d": {
+    "zh": "3D 建模与场景",
+    "en": "3D Modeling & Scenes"
+   },
+   "audio": {
+    "zh": "音乐与声音",
+    "en": "Music & Sound"
+   },
+   "graphics": {
+    "zh": "创意图形与动画",
+    "en": "Creative Graphics & Animation"
+   },
+   "web": {
+    "zh": "网站与界面",
+    "en": "Websites & Interfaces"
+   },
+   "business": {
+    "zh": "业务分析与文档",
+    "en": "Business Analysis & Documents"
+   },
+   "agents": {
+    "zh": "Agent 与开发工作流",
+    "en": "Agents & Developer Workflows"
+   },
+   "vision": {
+    "zh": "视觉理解与数据标注",
+    "en": "Visual Understanding & Annotation"
+   },
+   "video": {
+    "zh": "视频编辑与制作",
+    "en": "Video Editing & Production"
+   },
+   "coding": {
+    "zh": "代码维护与测试",
+    "en": "Code Maintenance & Testing"
+   },
+   "writing": {
+    "zh": "写作与知识解释",
+    "en": "Writing & Explanations"
+   },
+   "science": {
+    "zh": "科学研究与电路",
+    "en": "Scientific Research & Circuits"
+   },
+   "computer-use": {
+    "zh": "电脑操作",
+    "en": "Computer Use"
+   }
+  },
+  "count": 26,
+  "added": {
+   "x": 13,
+   "github": 3,
+   "web": 8,
+   "reddit": 1,
+   "video": 1
+  },
+  "asOf": "2026-11-10",
+  "duplicatesSkipped": 0,
+  "refreshedAt": "2026-11-10T10:26:12+00:00",
+  "refreshScope": {
+   "zh": "首次多来源发现与原始出处审核（部分覆盖）",
+   "en": "Initial multi-source discovery and original-source review (partial coverage)"
+  },
+  "lastFullRefreshAt": null
+ },
+ "cases": [
+  {
+   "id": "fable52-hyuki-993504",
+   "source": "x",
+   "platform": "X",
+   "category": "education",
+   "evidenceType": "演示",
+   "evidenceType_en": "Demo",
+   "title": "代码生成群论对称性短片",
+   "title_en": "Group-theory symmetry film generated with code",
+   "summary": "作者让 Fable 5.2 制作约 30 秒的群论视频，报告画面和音乐均由代码生成；未独立复现。",
+   "summary_en": "The author requested a 30-second group-theory video and reports code-generated visuals and music; not independently reproduced.",
+   "author": "hyuki",
+   "sourceUrl": "https://x.com/hyuki/status/2120029845572993504",
+   "date": "2026-11-10",
+   "likes": 53,
+   "bookmarks": null,
+   "stars": null,
+   "views": null,
+   "mediaKind": "none",
+   "poster": null,
+   "checkedAt": "2026-11-10T10:26:12+00:00",
+   "evidenceUrl": "https://x.com/hyuki/status/2120029845572993504",
+   "evidenceBasis": "已读取创作者原帖，原帖明确写出 Fable 5.2 并说明上述任务。作品合集仅用于发现；后台模型、费用及结果未经独立复现。",
+   "metricsCheckedAt": "2026-11-10T10:26:12+00:00",
+   "resources": [
+    {
+     "label": "作品合集中的演示",
+     "label_en": "Demo in discovery gallery",
+     "url": "https://fable5.app/fable-5-2/works/hyuki-993504/"
+    }
+   ],
+   "modelAttribution": {
+    "topicId": "fable-5-2",
+    "basis": "explicit-source",
+    "role": "生成代码或动画；比较任务中仅归属 Fable 5.2 的部分"
+   }
+  },
+  {
+   "id": "fable52-yupi996-694138",
+   "source": "x",
+   "platform": "X",
+   "category": "graphics",
+   "evidenceType": "演示",
+   "evidenceType_en": "Demo",
+   "title": "古风卷轴式 AI 编程学习路线",
+   "title_en": "An ancient-scroll AI coding study path",
+   "summary": "作者明确使用 Fable 5.2 制作学习路线卷轴，并认为历史质感仍有改进空间；属个人演示。",
+   "summary_en": "The creator attributes a scroll-style study path to Fable 5.2 and notes that its aged appearance could improve.",
+   "author": "yupi996",
+   "sourceUrl": "https://x.com/yupi996/status/2120029153185694138",
+   "date": "2026-11-10",
+   "likes": 13,
+   "bookmarks": null,
+   "stars": null,
+   "views": null,
+   "mediaKind": "none",
+   "poster": null,
+   "checkedAt": "2026-11-10T10:26:12+00:00",
+   "evidenceUrl": "https://x.com/yupi996/status/2120029153185694138",
+   "evidenceBasis": "已读取创作者原帖，原帖明确写出 Fable 5.2 并说明上述任务。作品合集仅用于发现；后台模型、费用及结果未经独立复现。",
+   "metricsCheckedAt": "2026-11-10T10:26:12+00:00",
+   "resources": [
+    {
+     "label": "作品合集中的演示",
+     "label_en": "Demo in discovery gallery",
+     "url": "https://fable5.app/fable-5-2/works/yupi996-694138/"
+    }
+   ],
+   "modelAttribution": {
+    "topicId": "fable-5-2",
+    "basis": "explicit-source",
+    "role": "生成代码或动画；比较任务中仅归属 Fable 5.2 的部分"
+   }
+  },
+  {
+   "id": "fable52-motion-so-361891",
+   "source": "x",
+   "platform": "X",
+   "category": "video",
+   "evidenceType": "评测",
+   "evidenceType_en": "Evaluation",
+   "title": "同提示词动画的时间与费用对比",
+   "title_en": "Animation comparison with the same prompt",
+   "summary": "Motion 报告 Fable 用时约 2 小时 36 分、费用 88.09 美元，较 Opus 更快但更贵；仅代表该次运行。",
+   "summary_en": "Motion reports about 2h36m and $88.09 for Fable, faster but costlier than its Opus run; a single reported comparison.",
+   "author": "motion_so",
+   "sourceUrl": "https://x.com/motion_so/status/2120029008809361891",
+   "date": "2026-11-10",
+   "likes": 40,
+   "bookmarks": null,
+   "stars": null,
+   "views": null,
+   "mediaKind": "none",
+   "poster": null,
+   "checkedAt": "2026-11-10T10:26:12+00:00",
+   "evidenceUrl": "https://x.com/motion_so/status/2120029008809361891",
+   "evidenceBasis": "已读取创作者原帖，原帖明确写出 Fable 5.2 并说明上述任务。作品合集仅用于发现；后台模型、费用及结果未经独立复现。",
+   "metricsCheckedAt": "2026-11-10T10:26:12+00:00",
+   "resources": [
+    {
+     "label": "作品合集中的演示",
+     "label_en": "Demo in discovery gallery",
+     "url": "https://fable5.app/fable-5-2/works/motion-so-361891/"
+    }
+   ],
+   "modelAttribution": {
+    "topicId": "fable-5-2",
+    "basis": "explicit-source",
+    "role": "生成代码或动画；比较任务中仅归属 Fable 5.2 的部分"
+   }
+  },
+  {
+   "id": "fable52-dubibubiii-425413",
+   "source": "x",
+   "platform": "X",
+   "category": "graphics",
+   "evidenceType": "评测",
+   "evidenceType_en": "Evaluation",
+   "title": "Claude 吉祥物进化史动画对比",
+   "title_en": "Claude mascot evolution animation comparison",
+   "summary": "作者用 Fable 5.2 与 Opus 5.5 制作 60 秒卡通，旁白另由 FishAudio MCP 生成。",
+   "summary_en": "The creator compared 60-second cartoons from Fable 5.2 and Opus 5.5; narration came from FishAudio MCP.",
+   "author": "Dubibubiii",
+   "sourceUrl": "https://x.com/Dubibubiii/status/2120028715258425413",
+   "date": "2026-11-10",
+   "likes": 0,
+   "bookmarks": null,
+   "stars": null,
+   "views": null,
+   "mediaKind": "none",
+   "poster": null,
+   "checkedAt": "2026-11-10T10:26:12+00:00",
+   "evidenceUrl": "https://x.com/Dubibubiii/status/2120028715258425413",
+   "evidenceBasis": "已读取创作者原帖，原帖明确写出 Fable 5.2 并说明上述任务。作品合集仅用于发现；后台模型、费用及结果未经独立复现。",
+   "metricsCheckedAt": "2026-11-10T10:26:12+00:00",
+   "resources": [
+    {
+     "label": "作品合集中的演示",
+     "label_en": "Demo in discovery gallery",
+     "url": "https://fable5.app/fable-5-2/works/dubibubiii-425413/"
+    }
+   ],
+   "modelAttribution": {
+    "topicId": "fable-5-2",
+    "basis": "explicit-source",
+    "role": "生成代码或动画；比较任务中仅归属 Fable 5.2 的部分"
+   }
+  },
+  {
+   "id": "fable52-kernelchai-628006",
+   "source": "x",
+   "platform": "X",
+   "category": "games",
+   "evidenceType": "评测",
+   "evidenceType_en": "Evaluation",
+   "title": "印度奶茶摊游戏同提示词对比",
+   "title_en": "Chai-stall games from the same prompt",
+   "summary": "作者报告 Fable High 约 18 分钟完成含订单和升级的游戏，并提供可玩链接；未复跑比较。",
+   "summary_en": "The creator reports an 18-minute Fable High run for a chai-stall game with orders and upgrades, with a playable comparison.",
+   "author": "KernelChai",
+   "sourceUrl": "https://x.com/KernelChai/status/2120028680055628006",
+   "date": "2026-11-10",
+   "likes": 3,
+   "bookmarks": null,
+   "stars": null,
+   "views": null,
+   "mediaKind": "none",
+   "poster": null,
+   "checkedAt": "2026-11-10T10:26:12+00:00",
+   "evidenceUrl": "https://x.com/KernelChai/status/2120028680055628006",
+   "evidenceBasis": "已读取创作者原帖，原帖明确写出 Fable 5.2 并说明上述任务。作品合集仅用于发现；后台模型、费用及结果未经独立复现。",
+   "metricsCheckedAt": "2026-11-10T10:26:12+00:00",
+   "resources": [
+    {
+     "label": "作品合集中的演示",
+     "label_en": "Demo in discovery gallery",
+     "url": "https://fable5.app/fable-5-2/works/kernelchai-628006/"
+    }
+   ],
+   "modelAttribution": {
+    "topicId": "fable-5-2",
+    "basis": "explicit-source",
+    "role": "生成代码或动画；比较任务中仅归属 Fable 5.2 的部分"
+   }
+  },
+  {
+   "id": "fable52-makaneko-ai-938583",
+   "source": "x",
+   "platform": "X",
+   "category": "web",
+   "evidenceType": "评测",
+   "evidenceType_en": "Evaluation",
+   "title": "网站、绘图与 3D 场景的多任务对比",
+   "title_en": "Multi-task website, drawing and 3D comparison",
+   "summary": "作者逐项比较 Fable 5.2 与 Opus 5.5 的网站、代码绘图、3D 游戏及房间；各任务耗时不同。",
+   "summary_en": "The author compares websites, code drawing, games and rooms from both models; timings vary by task.",
+   "author": "makaneko_AI",
+   "sourceUrl": "https://x.com/makaneko_AI/status/2120028638833938583",
+   "date": "2026-11-10",
+   "likes": 4,
+   "bookmarks": null,
+   "stars": null,
+   "views": null,
+   "mediaKind": "none",
+   "poster": null,
+   "checkedAt": "2026-11-10T10:26:12+00:00",
+   "evidenceUrl": "https://x.com/makaneko_AI/status/2120028638833938583",
+   "evidenceBasis": "已读取创作者原帖，原帖明确写出 Fable 5.2 并说明上述任务。作品合集仅用于发现；后台模型、费用及结果未经独立复现。",
+   "metricsCheckedAt": "2026-11-10T10:26:12+00:00",
+   "resources": [
+    {
+     "label": "作品合集中的演示",
+     "label_en": "Demo in discovery gallery",
+     "url": "https://fable5.app/fable-5-2/works/makaneko-ai-938583/"
+    }
+   ],
+   "modelAttribution": {
+    "topicId": "fable-5-2",
+    "basis": "explicit-source",
+    "role": "生成代码或动画；比较任务中仅归属 Fable 5.2 的部分"
+   }
+  },
+  {
+   "id": "fable52-sirbost-712653",
+   "source": "x",
+   "platform": "X",
+   "category": "video",
+   "evidenceType": "限制",
+   "evidenceType_en": "Limitation",
+   "title": "一分钟音乐视频的额度消耗测试",
+   "title_en": "Session-usage cost of a music video",
+   "summary": "作者报告制作约一分钟 MV 耗时 32 分钟、消耗当次会话额度 74%；费用和额度因账户而异。",
+   "summary_en": "The creator reports 32 minutes and 74% of a session allowance for a music video; usage is account-specific.",
+   "author": "Sirbost",
+   "sourceUrl": "https://x.com/Sirbost/status/2120028393131712653",
+   "date": "2026-11-10",
+   "likes": 0,
+   "bookmarks": null,
+   "stars": null,
+   "views": null,
+   "mediaKind": "none",
+   "poster": null,
+   "checkedAt": "2026-11-10T10:26:12+00:00",
+   "evidenceUrl": "https://x.com/Sirbost/status/2120028393131712653",
+   "evidenceBasis": "已读取创作者原帖，原帖明确写出 Fable 5.2 并说明上述任务。作品合集仅用于发现；后台模型、费用及结果未经独立复现。",
+   "metricsCheckedAt": "2026-11-10T10:26:12+00:00",
+   "resources": [
+    {
+     "label": "作品合集中的演示",
+     "label_en": "Demo in discovery gallery",
+     "url": "https://fable5.app/fable-5-2/works/sirbost-712653/"
+    }
+   ],
+   "modelAttribution": {
+    "topicId": "fable-5-2",
+    "basis": "explicit-source",
+    "role": "生成代码或动画；比较任务中仅归属 Fable 5.2 的部分"
+   }
+  },
+  {
+   "id": "fable52-augustobuilds-283723",
+   "source": "x",
+   "platform": "X",
+   "category": "web",
+   "evidenceType": "演示",
+   "evidenceType_en": "Demo",
+   "title": "Hero in Motion：延迟加载视频首屏",
+   "title_en": "Hero in Motion: click-to-load video hero",
+   "summary": "作者称 Fable 5.2 编写了生成短片的代码，并公开含按播放加载、自动暂停和减少动态效果支持的页面套件。",
+   "summary_en": "The creator attributes the film code to Fable 5.2 and links a kit with click-to-load video, auto-pause and reduced-motion support.",
+   "author": "AugustoBuilds",
+   "sourceUrl": "https://x.com/AugustoBuilds/status/2120027646071283723",
+   "date": "2026-11-10",
+   "likes": 1,
+   "bookmarks": null,
+   "stars": null,
+   "views": null,
+   "mediaKind": "none",
+   "poster": null,
+   "checkedAt": "2026-11-10T10:26:12+00:00",
+   "evidenceUrl": "https://x.com/AugustoBuilds/status/2120027646071283723",
+   "evidenceBasis": "已读取创作者原帖，原帖明确写出 Fable 5.2 并说明上述任务。作品合集仅用于发现；后台模型、费用及结果未经独立复现。",
+   "metricsCheckedAt": "2026-11-10T10:26:12+00:00",
+   "resources": [
+    {
+     "label": "作品合集中的演示",
+     "label_en": "Demo in discovery gallery",
+     "url": "https://fable5.app/fable-5-2/works/augustobuilds-283723/"
+    }
+   ],
+   "modelAttribution": {
+    "topicId": "fable-5-2",
+    "basis": "explicit-source",
+    "role": "生成代码或动画；比较任务中仅归属 Fable 5.2 的部分"
+   }
+  },
+  {
+   "id": "fable52-leohuanfang-934713",
+   "source": "x",
+   "platform": "X",
+   "category": "graphics",
+   "evidenceType": "评测",
+   "evidenceType_en": "Evaluation",
+   "title": "机器人、帆船与火柴人提示词复测",
+   "title_en": "Retesting robot, ship and stickman prompts",
+   "summary": "作者用正式 Fable 5.2 复测三类提示词；长输出需人工按顺序拼接，火柴人结果为网页而非已渲染视频。",
+   "summary_en": "The author retested three prompts; long outputs required assembly, and the stickman result was a webpage rather than a rendered video.",
+   "author": "leohuanfang",
+   "sourceUrl": "https://x.com/leohuanfang/status/2120027555960934713",
+   "date": "2026-11-10",
+   "likes": 0,
+   "bookmarks": null,
+   "stars": null,
+   "views": null,
+   "mediaKind": "none",
+   "poster": null,
+   "checkedAt": "2026-11-10T10:26:12+00:00",
+   "evidenceUrl": "https://x.com/leohuanfang/status/2120027555960934713",
+   "evidenceBasis": "已读取创作者原帖，原帖明确写出 Fable 5.2 并说明上述任务。作品合集仅用于发现；后台模型、费用及结果未经独立复现。",
+   "metricsCheckedAt": "2026-11-10T10:26:12+00:00",
+   "resources": [
+    {
+     "label": "作品合集中的演示",
+     "label_en": "Demo in discovery gallery",
+     "url": "https://fable5.app/fable-5-2/works/leohuanfang-934713/"
+    }
+   ],
+   "modelAttribution": {
+    "topicId": "fable-5-2",
+    "basis": "explicit-source",
+    "role": "生成代码或动画；比较任务中仅归属 Fable 5.2 的部分"
+   }
+  },
+  {
+   "id": "fable52-satya5n21-267380",
+   "source": "x",
+   "platform": "X",
+   "category": "3d",
+   "evidenceType": "演示",
+   "evidenceType_en": "Demo",
+   "title": "Afterglow：可漫步的异星景观",
+   "title_en": "Afterglow: an explorable alien landscape",
+   "summary": "作者明确归属 Fable 5.2，公开场景与提示词；行走方向控制天空行星旋转，效果未独立运行验证。",
+   "summary_en": "The author attributes an alien landscape to Fable 5.2 and shares the demo and prompt; walking direction controls planetary rotation.",
+   "author": "satya5n21",
+   "sourceUrl": "https://x.com/satya5n21/status/2120027542967267380",
+   "date": "2026-11-10",
+   "likes": 6,
+   "bookmarks": null,
+   "stars": null,
+   "views": null,
+   "mediaKind": "none",
+   "poster": null,
+   "checkedAt": "2026-11-10T10:26:12+00:00",
+   "evidenceUrl": "https://x.com/satya5n21/status/2120027542967267380",
+   "evidenceBasis": "已读取创作者原帖，原帖明确写出 Fable 5.2 并说明上述任务。作品合集仅用于发现；后台模型、费用及结果未经独立复现。",
+   "metricsCheckedAt": "2026-11-10T10:26:12+00:00",
+   "resources": [
+    {
+     "label": "作品合集中的演示",
+     "label_en": "Demo in discovery gallery",
+     "url": "https://fable5.app/fable-5-2/works/satya5n21-267380/"
+    }
+   ],
+   "modelAttribution": {
+    "topicId": "fable-5-2",
+    "basis": "explicit-source",
+    "role": "生成代码或动画；比较任务中仅归属 Fable 5.2 的部分"
+   }
+  },
+  {
+   "id": "fable52-riley-blender",
+   "source": "x",
+   "platform": "X",
+   "category": "3d",
+   "evidenceType": "演示",
+   "evidenceType_en": "Demo",
+   "title": "Blender 房间短片与云端渲染",
+   "title_en": "Blender room film and cloud rendering",
+   "summary": "作者称 Fable 5.2 编写场景与动画代码，调用 RunPod 渲染并用 ElevenLabs 制作音效；52 分钟及 5.75 美元为作者报告。",
+   "summary_en": "The creator reports Blender code, RunPod rendering and ElevenLabs audio; the 52-minute/$5.75 figures are self-reported.",
+   "author": "Riley Brown",
+   "sourceUrl": "https://x.com/rileybrown/status/2119902109709537708",
+   "date": "2026-11-09",
+   "likes": null,
+   "bookmarks": null,
+   "stars": null,
+   "views": null,
+   "mediaKind": "none",
+   "poster": null,
+   "checkedAt": "2026-11-10T10:26:12+00:00",
+   "evidenceUrl": "https://x.com/rileybrown/status/2119902109709537708",
+   "evidenceBasis": "已读取原帖及串帖；作者明确模型版本和用途，未独立重现性能、费用或路由。",
+   "modelAttribution": {
+    "topicId": "fable-5-2",
+    "basis": "explicit-source",
+    "role": "项目代码和工作流"
+   }
+  },
+  {
+   "id": "fable52-theo-fishslop",
+   "source": "x",
+   "platform": "X",
+   "category": "games",
+   "evidenceType": "限制",
+   "evidenceType_en": "Limitation",
+   "title": "Fishslop 游戏：费用与可玩性限制",
+   "title_en": "Fishslop: cost and playability trade-offs",
+   "summary": "Theo 报告一次 Fable 5.2 游戏运行耗时 76 分钟、约 42 美元，认为视觉提升未明显改善可玩性和性价比。",
+   "summary_en": "Theo reports 76 minutes and about $42, with limited improvement in playability or value over his Opus run.",
+   "author": "Theo",
+   "sourceUrl": "https://x.com/theo/status/2119926277801144695",
+   "date": "2026-11-09",
+   "likes": null,
+   "bookmarks": null,
+   "stars": null,
+   "views": null,
+   "mediaKind": "none",
+   "poster": null,
+   "checkedAt": "2026-11-10T10:26:12+00:00",
+   "evidenceUrl": "https://x.com/theo/status/2119926277801144695",
+   "evidenceBasis": "已读取原帖及串帖；作者明确模型版本和用途，未独立重现性能、费用或路由。",
+   "modelAttribution": {
+    "topicId": "fable-5-2",
+    "basis": "explicit-source",
+    "role": "项目代码和工作流"
+   }
+  },
+  {
+   "id": "fable52-shumer-tests",
+   "source": "x",
+   "platform": "X",
+   "category": "agents",
+   "evidenceType": "演示",
+   "evidenceType_en": "Demo",
+   "title": "创作者的多项目编程测试",
+   "title_en": "A creator’s multi-project coding tests",
+   "summary": "Matt Shumer 明确称使用 Fable 5.2，并在同一串帖列出体素引擎、视频和游戏等作品；仅作为作者归属记录。",
+   "summary_en": "Matt Shumer explicitly attributes a thread of voxel-engine, video and game experiments to Fable 5.2; these remain creator claims.",
+   "author": "Matt Shumer",
+   "sourceUrl": "https://x.com/mattshumer_/status/2119886664017547687",
+   "date": "2026-11-09",
+   "likes": null,
+   "bookmarks": null,
+   "stars": null,
+   "views": null,
+   "mediaKind": "none",
+   "poster": null,
+   "checkedAt": "2026-11-10T10:26:12+00:00",
+   "evidenceUrl": "https://x.com/mattshumer_/status/2119886664017547687",
+   "evidenceBasis": "已读取原帖及串帖；作者明确模型版本和用途，未独立重现性能、费用或路由。",
+   "modelAttribution": {
+    "topicId": "fable-5-2",
+    "basis": "explicit-source",
+    "role": "项目代码和工作流"
+   }
+  },
+  {
+   "id": "fable52-daedalus",
+   "source": "github",
+   "platform": "GitHub",
+   "category": "games",
+   "evidenceType": "演示",
+   "evidenceType_en": "Demo",
+   "title": "Daedalus：希腊神话解谜游戏",
+   "title_en": "Daedalus: a Greek-mythology puzzle game",
+   "summary": "仓库 README 明确标注使用 Fable 5.2 构建希腊神话解谜游戏；未运行游戏。",
+   "summary_en": "The repository attributes its Greek-mythology puzzle game to Fable 5.2; not executed here.",
+   "author": "S77FFY",
+   "sourceUrl": "https://github.com/S77FFY/daedalus",
+   "date": "2026-11-10",
+   "likes": null,
+   "bookmarks": null,
+   "stars": null,
+   "views": null,
+   "mediaKind": "none",
+   "poster": null,
+   "checkedAt": "2026-11-10T10:26:12+00:00",
+   "evidenceUrl": "https://github.com/S77FFY/daedalus",
+   "evidenceBasis": "已读取仓库 README，其中明确模型版本及实现对象。仓库名称或搜索命中本身未作为证据。",
+   "githubKind": "repository",
+   "modelAttribution": {
+    "topicId": "fable-5-2",
+    "basis": "explicit-source",
+    "role": "游戏实现"
+   }
+  },
+  {
+   "id": "fable52-dustfall",
+   "source": "github",
+   "platform": "GitHub",
+   "category": "games",
+   "evidenceType": "演示",
+   "evidenceType_en": "Demo",
+   "title": "Dustfall：浏览器西部开放世界",
+   "title_en": "Dustfall: a browser western",
+   "summary": "README 明确称故事、着色器和游戏代码由 Fable 5.2 在 Claude Code 中生成；第三方素材另有署名。",
+   "summary_en": "The README attributes game code, story and shaders to Fable 5.2 in Claude Code, with separately credited third-party assets.",
+   "author": "webKing021",
+   "sourceUrl": "https://github.com/webKing021/dustfall",
+   "date": "2026-11-10",
+   "likes": null,
+   "bookmarks": null,
+   "stars": null,
+   "views": null,
+   "mediaKind": "none",
+   "poster": null,
+   "checkedAt": "2026-11-10T10:26:12+00:00",
+   "evidenceUrl": "https://github.com/webKing021/dustfall",
+   "evidenceBasis": "已读取仓库 README，其中明确模型版本及实现对象。仓库名称或搜索命中本身未作为证据。",
+   "githubKind": "repository",
+   "modelAttribution": {
+    "topicId": "fable-5-2",
+    "basis": "explicit-source",
+    "role": "游戏实现"
+   }
+  },
+  {
+   "id": "fable52-chess",
+   "source": "github",
+   "platform": "GitHub",
+   "category": "games",
+   "evidenceType": "演示",
+   "evidenceType_en": "Demo",
+   "title": "无棋类依赖的国际象棋实现",
+   "title_en": "Chess without runtime chess libraries",
+   "summary": "README 明确称规则、搜索引擎及声音由 Fable 5.2 编写，并列出操作与已知限制；未独立运行测试。",
+   "summary_en": "The README attributes rules, search and sounds to Fable 5.2 and lists limitations; repository tests were not rerun.",
+   "author": "davidramsay95",
+   "sourceUrl": "https://github.com/davidramsay95/claude-chess_fable_5-2_20261110",
+   "date": "2026-11-10",
+   "likes": null,
+   "bookmarks": null,
+   "stars": null,
+   "views": null,
+   "mediaKind": "none",
+   "poster": null,
+   "checkedAt": "2026-11-10T10:26:12+00:00",
+   "evidenceUrl": "https://github.com/davidramsay95/claude-chess_fable_5-2_20261110",
+   "evidenceBasis": "已读取仓库 README，其中明确模型版本及实现对象。仓库名称或搜索命中本身未作为证据。",
+   "githubKind": "repository",
+   "modelAttribution": {
+    "topicId": "fable-5-2",
+    "basis": "explicit-source",
+    "role": "游戏实现"
+   }
+  },
+  {
+   "id": "fable52-python-rust",
+   "source": "web",
+   "platform": "Web",
+   "category": "coding",
+   "evidenceType": "演示",
+   "evidenceType_en": "Demo",
+   "title": "生产服务从 Python 迁移至 Rust",
+   "title_en": "Production Python-to-Rust migration",
+   "summary": "Anthropic 报告早期 Fable 5.2 智能体团队完成服务迁移；性能结论来自官方。",
+   "summary_en": "Anthropic reports a production-service migration by early Fable 5.2 agents; vendor-reported results.",
+   "author": "Anthropic",
+   "sourceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+   "date": "2026-11-09",
+   "likes": null,
+   "bookmarks": null,
+   "stars": null,
+   "views": null,
+   "mediaKind": "none",
+   "poster": null,
+   "checkedAt": "2026-11-10T10:26:12+00:00",
+   "evidenceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+   "evidenceBasis": "已读取 Anthropic 发布原文，对应段落或具名反馈明确写出 Fable 5.2。官方或合作方自述，未经独立复现；未收录仅归属 Mythos 的结果。",
+   "modelAttribution": {
+    "topicId": "fable-5-2",
+    "basis": "explicit-source",
+    "role": "官方实验或合作方评测"
+   }
+  },
+  {
+   "id": "fable52-os",
+   "source": "web",
+   "platform": "Web",
+   "category": "agents",
+   "evidenceType": "演示",
+   "evidenceType_en": "Demo",
+   "title": "从空目录构建操作系统原型",
+   "title_en": "An operating-system prototype from an empty folder",
+   "summary": "Anthropic 报告 Fable 5.2 多智能体历时八天构建可启动原型；未复现。",
+   "summary_en": "Anthropic reports an eight-day multi-agent build of a bootable prototype; not reproduced.",
+   "author": "Anthropic",
+   "sourceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+   "date": "2026-11-09",
+   "likes": null,
+   "bookmarks": null,
+   "stars": null,
+   "views": null,
+   "mediaKind": "none",
+   "poster": null,
+   "checkedAt": "2026-11-10T10:26:12+00:00",
+   "evidenceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+   "evidenceBasis": "已读取 Anthropic 发布原文，对应段落或具名反馈明确写出 Fable 5.2。官方或合作方自述，未经独立复现；未收录仅归属 Mythos 的结果。",
+   "modelAttribution": {
+    "topicId": "fable-5-2",
+    "basis": "explicit-source",
+    "role": "官方实验或合作方评测"
+   }
+  },
+  {
+   "id": "fable52-hardware",
+   "source": "web",
+   "platform": "Web",
+   "category": "science",
+   "evidenceType": "演示",
+   "evidenceType_en": "Demo",
+   "title": "设计电路板、外壳与嵌入式软件",
+   "title_en": "Circuit-board, enclosure and firmware design",
+   "summary": "Anthropic 与 Diode 展示三种电子设备，明确归属 Fable 5.2；属官方实验。",
+   "summary_en": "Anthropic and Diode report three devices designed with Fable 5.2; an official experiment.",
+   "author": "Anthropic / Diode",
+   "sourceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+   "date": "2026-11-09",
+   "likes": null,
+   "bookmarks": null,
+   "stars": null,
+   "views": null,
+   "mediaKind": "none",
+   "poster": null,
+   "checkedAt": "2026-11-10T10:26:12+00:00",
+   "evidenceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+   "evidenceBasis": "已读取 Anthropic 发布原文，对应段落或具名反馈明确写出 Fable 5.2。官方或合作方自述，未经独立复现；未收录仅归属 Mythos 的结果。",
+   "modelAttribution": {
+    "topicId": "fable-5-2",
+    "basis": "explicit-source",
+    "role": "官方实验或合作方评测"
+   }
+  },
+  {
+   "id": "fable52-robotics",
+   "source": "web",
+   "platform": "Web",
+   "category": "computer-use",
+   "evidenceType": "评测",
+   "evidenceType_en": "Evaluation",
+   "title": "机器人开瓶盖与绘图任务",
+   "title_en": "Robot bottle-opening and drawing tasks",
+   "summary": "官方展示 Fable 5.2 控制实体机器人；实验条件与结论未独立核验。",
+   "summary_en": "Anthropic demonstrates Fable 5.2 controlling physical robots; conditions not independently verified.",
+   "author": "Anthropic",
+   "sourceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+   "date": "2026-11-09",
+   "likes": null,
+   "bookmarks": null,
+   "stars": null,
+   "views": null,
+   "mediaKind": "none",
+   "poster": null,
+   "checkedAt": "2026-11-10T10:26:12+00:00",
+   "evidenceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+   "evidenceBasis": "已读取 Anthropic 发布原文，对应段落或具名反馈明确写出 Fable 5.2。官方或合作方自述，未经独立复现；未收录仅归属 Mythos 的结果。",
+   "modelAttribution": {
+    "topicId": "fable-5-2",
+    "basis": "explicit-source",
+    "role": "官方实验或合作方评测"
+   }
+  },
+  {
+   "id": "fable52-oracle-sql",
+   "source": "web",
+   "platform": "Web",
+   "category": "business",
+   "evidenceType": "评测",
+   "evidenceType_en": "Evaluation",
+   "title": "防止跨层级金额重复求和的 SQL 测试",
+   "title_en": "SQL avoiding cross-grain double counting",
+   "summary": "Oracle 的具名反馈称 Fable 5.2 正确处理汇总口径；由 Anthropic 发布。",
+   "summary_en": "Oracle reports correct aggregation in a SQL test, in an Anthropic-published testimonial.",
+   "author": "Oracle / Liyu Gong",
+   "sourceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+   "date": "2026-11-09",
+   "likes": null,
+   "bookmarks": null,
+   "stars": null,
+   "views": null,
+   "mediaKind": "none",
+   "poster": null,
+   "checkedAt": "2026-11-10T10:26:12+00:00",
+   "evidenceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+   "evidenceBasis": "已读取 Anthropic 发布原文，对应段落或具名反馈明确写出 Fable 5.2。官方或合作方自述，未经独立复现；未收录仅归属 Mythos 的结果。",
+   "modelAttribution": {
+    "topicId": "fable-5-2",
+    "basis": "explicit-source",
+    "role": "官方实验或合作方评测"
+   }
+  },
+  {
+   "id": "fable52-uber-audit",
+   "source": "web",
+   "platform": "Web",
+   "category": "coding",
+   "evidenceType": "评测",
+   "evidenceType_en": "Evaluation",
+   "title": "长时多智能体审计与修复建议",
+   "title_en": "Long-running multi-agent audit",
+   "summary": "Uber 具名反馈描述审计、修复 PR 和政策建议；此处仅记录官方刊载的使用反馈。",
+   "summary_en": "Uber describes an audit, fix PRs and policy recommendations in an Anthropic-published testimonial.",
+   "author": "Uber / Andrew Mager",
+   "sourceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+   "date": "2026-11-09",
+   "likes": null,
+   "bookmarks": null,
+   "stars": null,
+   "views": null,
+   "mediaKind": "none",
+   "poster": null,
+   "checkedAt": "2026-11-10T10:26:12+00:00",
+   "evidenceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+   "evidenceBasis": "已读取 Anthropic 发布原文，对应段落或具名反馈明确写出 Fable 5.2。官方或合作方自述，未经独立复现；未收录仅归属 Mythos 的结果。",
+   "modelAttribution": {
+    "topicId": "fable-5-2",
+    "basis": "explicit-source",
+    "role": "官方实验或合作方评测"
+   }
+  },
+  {
+   "id": "fable52-phonon",
+   "source": "web",
+   "platform": "Web",
+   "category": "science",
+   "evidenceType": "评测",
+   "evidenceType_en": "Evaluation",
+   "title": "Quantum ESPRESSO 声子代码优化",
+   "title_en": "Quantum ESPRESSO phonon-code optimization",
+   "summary": "Discovered Materials 反馈声子计算提速；由官方刊载，未独立跑分。",
+   "summary_en": "Discovered Materials reports faster phonon calculations; vendor-published, not independently benchmarked.",
+   "author": "Discovered Materials / Akash Ramdas",
+   "sourceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+   "date": "2026-11-09",
+   "likes": null,
+   "bookmarks": null,
+   "stars": null,
+   "views": null,
+   "mediaKind": "none",
+   "poster": null,
+   "checkedAt": "2026-11-10T10:26:12+00:00",
+   "evidenceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+   "evidenceBasis": "已读取 Anthropic 发布原文，对应段落或具名反馈明确写出 Fable 5.2。官方或合作方自述，未经独立复现；未收录仅归属 Mythos 的结果。",
+   "modelAttribution": {
+    "topicId": "fable-5-2",
+    "basis": "explicit-source",
+    "role": "官方实验或合作方评测"
+   }
+  },
+  {
+   "id": "fable52-loan-review",
+   "source": "web",
+   "platform": "Web",
+   "category": "business",
+   "evidenceType": "评测",
+   "evidenceType_en": "Evaluation",
+   "title": "贷款申请材料一致性检查",
+   "title_en": "Loan-document consistency review",
+   "summary": "Box 反馈其识别了工资存款与银行余额的不一致；属于具名测试反馈。",
+   "summary_en": "Box reports detecting inconsistent salary deposits and bank balances in a document-review test.",
+   "author": "Box / Yashodha Bhavnani",
+   "sourceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+   "date": "2026-11-09",
+   "likes": null,
+   "bookmarks": null,
+   "stars": null,
+   "views": null,
+   "mediaKind": "none",
+   "poster": null,
+   "checkedAt": "2026-11-10T10:26:12+00:00",
+   "evidenceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+   "evidenceBasis": "已读取 Anthropic 发布原文，对应段落或具名反馈明确写出 Fable 5.2。官方或合作方自述，未经独立复现；未收录仅归属 Mythos 的结果。",
+   "modelAttribution": {
+    "topicId": "fable-5-2",
+    "basis": "explicit-source",
+    "role": "官方实验或合作方评测"
+   }
+  },
+  {
+   "id": "fable52-cat-animation",
+   "source": "reddit",
+   "platform": "Reddit",
+   "category": "graphics",
+   "evidenceType": "限制",
+   "evidenceType_en": "Limitation",
+   "title": "猫跨越历史时代的动画测试",
+   "title_en": "A cat-through-history animation test",
+   "summary": "作者明确在正式 Fable 5.2 上尝试猫穿越不同时代的动画，并对视觉效果表示不满意；原帖附视频。",
+   "summary_en": "The author tested a cat-through-history animation on released Fable 5.2 and was dissatisfied with the visuals; the post includes video.",
+   "author": "Sufficient_Nobody477",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1xs3cjx/i_did_a_cat_animation_test_with_fable52extra/",
+   "date": "2026-11-10",
+   "likes": null,
+   "bookmarks": null,
+   "stars": null,
+   "views": null,
+   "mediaKind": "none",
+   "poster": null,
+   "checkedAt": "2026-11-10T10:26:12+00:00",
+   "evidenceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1xs3cjx/i_did_a_cat_animation_test_with_fable52extra/",
+   "evidenceBasis": "通过网页工具读取原帖正文，明确区分 5.2 实测与旧 5.5 传闻作品；只记录该作者自己的测试。",
+   "modelAttribution": {
+    "topicId": "fable-5-2",
+    "basis": "explicit-source",
+    "role": "动画生成"
+   }
+  },
+  {
+   "id": "fable52-bili-pelican",
+   "source": "video",
+   "platform": "Bilibili",
+   "category": "graphics",
+   "evidenceType": "评测",
+   "evidenceType_en": "Evaluation",
+   "title": "SVG 鹈鹕骑车动画实测",
+   "title_en": "Animated SVG pelican bicycle test",
+   "summary": "UP 主明确使用 claude-fable-5-2，公开单文件 HTML 提示词与轮转、腿部联动等结果，称未手工修改；未复跑。",
+   "summary_en": "The creator names claude-fable-5-2 and shares an HTML/SVG prompt and results; claims no manual edits, not independently reproduced.",
+   "author": "ekosystem",
+   "sourceUrl": "https://www.bilibili.com/video/BV1zvWP6MECB/",
+   "date": "2026-11-09",
+   "likes": 85,
+   "bookmarks": null,
+   "stars": null,
+   "views": 13130,
+   "mediaKind": "video",
+   "poster": "https://i1.hdslb.com/bfs/archive/fad36174ca3a71073214707dc50af647bd4c2090.jpg",
+   "checkedAt": "2026-11-10T10:26:12+00:00",
+   "evidenceUrl": "https://www.bilibili.com/video/BV1zvWP6MECB/",
+   "evidenceBasis": "已读取 B 站视频信息接口中的完整作者简介，明确模型 ID、提示词及测试结果。",
+   "metricsCheckedAt": "2026-11-10T10:26:12+00:00",
+   "modelAttribution": {
+    "topicId": "fable-5-2",
+    "basis": "explicit-source",
+    "role": "HTML/SVG 动画代码"
+   }
+  }
+ ]
+}

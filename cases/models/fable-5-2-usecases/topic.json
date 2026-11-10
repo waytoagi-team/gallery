@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "monitor": {
+    "enabled": true,
+    "lookbackDays": 2
+  },
+  "attribution": {
+    "keywordMatchIsEvidence": false,
+    "requireOriginalSource": true,
+    "requireExplicitVersion": true,
+    "requireReviewMetadata": true
+  },
+  "id": "fable-5-2",
+  "name": "Fable 5.2",
+  "shortName": "Fable 5.2",
+  "aliases": [
+    "Fable 5.2",
+    "fable5.2",
+    "fable-5-2"
+  ],
+  "publicPath": "/usecase-atlas/fable5-2/",
+  "releasedAt": "2026-11-09",
+  "baseSource": null,
+  "guide": null,
+  "ogTemplate": null
+}
