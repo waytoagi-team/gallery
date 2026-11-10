@@ -6,12 +6,13 @@
 
 ## 模型案例监控
 
-Opus 5.5 与 Fable 5.5 使用同一套 `atlas/` 采集、校验和页面代码，各自维护配置、已审核数据、发现候选及发布产物。
+Fable 5.5 尚未发布，其专题已暂停公开展示和采集；旧资料保留用于核对，不作为正式版本案例推荐。
+
+模型专题使用同一套 `atlas/` 采集、校验和页面代码，各自维护配置、已审核数据、发现候选及发布产物。
 
 | 专题 | 配置与数据 | 页面路径 |
 | --- | --- | --- |
 | Claude Opus 5.5 | [专题目录](cases/models/claude-opus-5-5-usecases/) | `/usecase-atlas/opus5-5/` |
-| Fable 5.5 | [专题目录](cases/models/fable-5-5-usecases/) | `/usecase-atlas/fable5-5/`（已部署） |
 
 ```bash
 python3 -m venv .venv
@@ -19,8 +20,8 @@ python3 -m venv .venv
 .venv/bin/python -m playwright install chromium
 
 python3 -m atlas list
-python3 -m atlas collect --topic fable-5-5 --dry-run
-python3 -m atlas collect --topic fable-5-5 --since 2026-09-01
+python3 -m atlas collect --topic opus-5-5 --dry-run
+python3 -m atlas collect --topic opus-5-5 --since 2026-09-01
 .venv/bin/python -m atlas build --all
 python3 -m atlas build --all --check
 python3 -m unittest discover -s tests -p 'test_*.py'
@@ -46,7 +47,6 @@ node --test tests/test_ranking.cjs
 2026-10-21 多来源更新：Opus 共 **7,347 条**（新增 195 条），Fable 共 **45 条**（本轮无新增）。新增来自 X、GitHub、Bilibili、Reddit、Hacker News 和 YouTube，并更新可获取的历史互动数据。本轮为部分覆盖，未完成证据核对的候选另行留档，历史案例身份保留。
 
 - [Claude Opus 5.5 使用案例合集](cases/models/claude-opus-5-5-usecases)：含已审核数据与可离线浏览的 HTML
-- [Fable 5.5 使用案例合集](cases/models/fable-5-5-usecases)：45 条作者归属案例，后台模型身份未独立核验
 
 ## 提交一个 Case
 

@@ -10,6 +10,8 @@
 
 ## 发现候选
 
+Fable 5.5 尚未发布，当前 monitor.enabled=false，以下 Fable 5.5 命令仅作历史示例；禁止把这些历史型号自述作为已发布版本证据。恢复公开前需核实正式发布及逐条版本归属，并显式恢复发布挂载。
+
 ```bash
 python -m atlas list --enabled --json
 python -m atlas collect --topic fable-5-5 --dry-run
@@ -74,7 +76,7 @@ python -m atlas.smoke --all
 | path | source.dir |
 | --- | --- |
 | `/usecase-atlas/opus5-5/` | `cases/models/claude-opus-5-5-usecases/public` |
-| `/usecase-atlas/fable5-5/` | `cases/models/fable-5-5-usecases/public` |
+| `/usecase-atlas/fable5-5/`（已暂停公开，不应挂载） | `cases/models/fable-5-5-usecases/public`（历史归档） |
 
 首次迁移要一起审阅源码 PR 与发布清单 PR。先确认源码构建与浏览器检查通过，再合并源码和对应的发布清单变更。过渡期间旧挂载仍指向已发布 SHA；不要合并使用旧 source.dir 的自动 bump PR，它不能代表 public 目录迁移已经接入。
 
