@@ -19,5 +19,26 @@
       "basis": "explicit-source",
       "role": "动画生成"
     }
+  },
+  {
+    "id": "fable52-tria-prima",
+    "title": "Tria Prima：黑暗奇幻炼金游戏",
+    "title_en": "Tria Prima: a dark-fantasy alchemy game",
+    "summary": "作者报告 Fable 5.2 与九个子智能体开发游戏，首版约四小时，修复后总计约六个半小时；公开源码与试玩。",
+    "summary_en": "The author reports nine subagents, a four-hour first build and about 6.5 hours including fixes, with code and demo links.",
+    "category": "games",
+    "platform": "Reddit",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xssfep/i_gave_fable_52_one_prompt_on_max_effort_it/",
+    "author": "oxmannnn",
+    "date": null,
+    "evidenceType": "演示",
+    "checkedAt": "2026-11-12T05:33:41+00:00",
+    "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xssfep/i_gave_fable_52_one_prompt_on_max_effort_it/",
+    "evidenceBasis": "已读取 Reddit 原帖的具体提示词、模型版本、修复过程和关联 GitHub 仓库；未独立复现。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "游戏代码与多智能体编排"
+    }
   }
 ]

@@ -1,0 +1,5300 @@
+{
+  "schemaVersion": 1,
+  "topicId": "fable-5-2",
+  "runId": "20261112T052333Z-6d40d43d",
+  "startedAt": "2026-11-12T05:23:33+00:00",
+  "finishedAt": "2026-11-12T05:27:11+00:00",
+  "since": "2026-11-09",
+  "status": "retrieved",
+  "sourcesAttempted": 24,
+  "sourcesSucceeded": 24,
+  "coverage": "partial",
+  "candidateCount": 385,
+  "reviewedNewCases": 0,
+  "limitations": [
+    "Successful retrieval does not prove exhaustive coverage or model attribution.",
+    "Configured GitHub/HN queries paginated up to 10 pages based on reported totals; live result sets can change during retrieval. This does not cover all platforms.",
+    "Only GitHub and HN JSON searches currently emit candidate metadata; other snapshots require manual review.",
+    "Discovery does not change accepted data, metric freshness or the published refresh report."
+  ],
+  "sources": [
+    {
+      "key": "github-repositories-1",
+      "url": "https://api.github.com/search/repositories?q=%22Fable+5.2%22+pushed%3A%3E%3D2026-11-09&sort=updated&per_page=30",
+      "checkedAt": "2026-11-12T05:23:33+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "29",
+        "x-ratelimit-reset": "1794461073"
+      },
+      "finalUrl": "https://api.github.com/search/repositories?q=%22Fable+5.2%22+pushed%3A%3E%3D2026-11-09&sort=updated&per_page=30",
+      "bytes": 173436,
+      "file": "github-repositories-1.txt",
+      "sha256": "4fae7ee6a0bdcfb9cc065afabc115c9397d2268b50bde98a81a5e93b85cf9180",
+      "ok": true,
+      "returned": 30,
+      "totalReported": 186,
+      "searchIncomplete": false,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "hn-1",
+      "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Fable+5.2%22&hitsPerPage=30&numericFilters=created_at_i%3E%3D1794182400",
+      "checkedAt": "2026-11-12T05:23:33+00:00",
+      "status": 200,
+      "finalUrl": "https://hn.algolia.com/api/v1/search_by_date?query=%22Fable+5.2%22&hitsPerPage=30&numericFilters=created_at_i%3E%3D1794182400",
+      "bytes": 69751,
+      "file": "hn-1.txt",
+      "sha256": "b4ee41dca8f5a1008323077eff402da90decfcd7d3b619ce97b88d2e742c17b0",
+      "ok": true,
+      "returned": 30,
+      "totalReported": 189,
+      "pagesReported": 7,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "github-repositories-2",
+      "url": "https://api.github.com/search/repositories?q=%22fable5.2%22+pushed%3A%3E%3D2026-11-09&sort=updated&per_page=30",
+      "checkedAt": "2026-11-12T05:23:34+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "28",
+        "x-ratelimit-reset": "1794461073"
+      },
+      "finalUrl": "https://api.github.com/search/repositories?q=%22fable5.2%22+pushed%3A%3E%3D2026-11-09&sort=updated&per_page=30",
+      "bytes": 10839,
+      "file": "github-repositories-2.txt",
+      "sha256": "356c8ccfeddde4e914e934d06b452577aa7e19dcb3f39e7b7e660852ef4d0712",
+      "ok": true,
+      "returned": 2,
+      "totalReported": 2,
+      "searchIncomplete": false,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "hn-2",
+      "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22fable5.2%22&hitsPerPage=30&numericFilters=created_at_i%3E%3D1794182400",
+      "checkedAt": "2026-11-12T05:23:35+00:00",
+      "status": 200,
+      "finalUrl": "https://hn.algolia.com/api/v1/search_by_date?query=%22fable5.2%22&hitsPerPage=30&numericFilters=created_at_i%3E%3D1794182400",
+      "bytes": 1581,
+      "file": "hn-2.txt",
+      "sha256": "d276c1bacd32ba87f9f71da25e94964115206c819fdd079e2da04ce7fc614740",
+      "ok": true,
+      "returned": 1,
+      "totalReported": 1,
+      "pagesReported": 1,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "github-repositories-3",
+      "url": "https://api.github.com/search/repositories?q=%22fable-5-2%22+pushed%3A%3E%3D2026-11-09&sort=updated&per_page=30",
+      "checkedAt": "2026-11-12T05:23:35+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "27",
+        "x-ratelimit-reset": "1794461073"
+      },
+      "finalUrl": "https://api.github.com/search/repositories?q=%22fable-5-2%22+pushed%3A%3E%3D2026-11-09&sort=updated&per_page=30",
+      "bytes": 173436,
+      "file": "github-repositories-3.txt",
+      "sha256": "34baa5a05b0b1366d3977cfd247a0cff56f31ab3084fceffc840101a5daaaa5f",
+      "ok": true,
+      "returned": 30,
+      "totalReported": 188,
+      "searchIncomplete": false,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "hn-3",
+      "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22fable-5-2%22&hitsPerPage=30&numericFilters=created_at_i%3E%3D1794182400",
+      "checkedAt": "2026-11-12T05:23:36+00:00",
+      "status": 200,
+      "finalUrl": "https://hn.algolia.com/api/v1/search_by_date?query=%22fable-5-2%22&hitsPerPage=30&numericFilters=created_at_i%3E%3D1794182400",
+      "bytes": 37047,
+      "file": "hn-3.txt",
+      "sha256": "309d31637160f0f15a9a5896931a28f7d263cd319be837d3dc3d5138cfe77a85",
+      "ok": true,
+      "returned": 20,
+      "totalReported": 20,
+      "pagesReported": 1,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "github-repositories-1-page-2",
+      "url": "https://api.github.com/search/repositories?q=%22Fable+5.2%22+pushed%3A%3E%3D2026-11-09&sort=updated&per_page=30&page=2",
+      "checkedAt": "2026-11-12T05:26:58+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "29",
+        "x-ratelimit-reset": "1794461278"
+      },
+      "finalUrl": "https://api.github.com/search/repositories?q=%22Fable+5.2%22+pushed%3A%3E%3D2026-11-09&sort=updated&per_page=30&page=2",
+      "bytes": 168876,
+      "file": "github-repositories-1-page-2.txt",
+      "sha256": "40fcddf1042e6dfd8b56617b94e074dac57b2a24b0328496d848a12b9c72c94d",
+      "ok": true,
+      "returned": 30,
+      "totalReported": 186,
+      "searchIncomplete": false,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "github-repositories-1-page-3",
+      "url": "https://api.github.com/search/repositories?q=%22Fable+5.2%22+pushed%3A%3E%3D2026-11-09&sort=updated&per_page=30&page=3",
+      "checkedAt": "2026-11-12T05:26:58+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "28",
+        "x-ratelimit-reset": "1794461278"
+      },
+      "finalUrl": "https://api.github.com/search/repositories?q=%22Fable+5.2%22+pushed%3A%3E%3D2026-11-09&sort=updated&per_page=30&page=3",
+      "bytes": 179159,
+      "file": "github-repositories-1-page-3.txt",
+      "sha256": "a7d9de8aad3faf94f08d77e4e2c3b722230d330e64f27e07c447a58892d0bdb5",
+      "ok": true,
+      "returned": 30,
+      "totalReported": 186,
+      "searchIncomplete": false,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "github-repositories-1-page-4",
+      "url": "https://api.github.com/search/repositories?q=%22Fable+5.2%22+pushed%3A%3E%3D2026-11-09&sort=updated&per_page=30&page=4",
+      "checkedAt": "2026-11-12T05:27:00+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "27",
+        "x-ratelimit-reset": "1794461278"
+      },
+      "finalUrl": "https://api.github.com/search/repositories?q=%22Fable+5.2%22+pushed%3A%3E%3D2026-11-09&sort=updated&per_page=30&page=4",
+      "bytes": 174691,
+      "file": "github-repositories-1-page-4.txt",
+      "sha256": "ed887e2c8f2d49c6906c0530c06be17afa51ed69adbebd46dd5214af1993bbaa",
+      "ok": true,
+      "returned": 30,
+      "totalReported": 186,
+      "searchIncomplete": false,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "github-repositories-1-page-5",
+      "url": "https://api.github.com/search/repositories?q=%22Fable+5.2%22+pushed%3A%3E%3D2026-11-09&sort=updated&per_page=30&page=5",
+      "checkedAt": "2026-11-12T05:27:00+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "26",
+        "x-ratelimit-reset": "1794461278"
+      },
+      "finalUrl": "https://api.github.com/search/repositories?q=%22Fable+5.2%22+pushed%3A%3E%3D2026-11-09&sort=updated&per_page=30&page=5",
+      "bytes": 169273,
+      "file": "github-repositories-1-page-5.txt",
+      "sha256": "6eaeb42d19350c0f02ab146ae9ea849ca35d71fc6447b557e1c502da912ed652",
+      "ok": true,
+      "returned": 30,
+      "totalReported": 186,
+      "searchIncomplete": false,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "github-repositories-1-page-6",
+      "url": "https://api.github.com/search/repositories?q=%22Fable+5.2%22+pushed%3A%3E%3D2026-11-09&sort=updated&per_page=30&page=6",
+      "checkedAt": "2026-11-12T05:27:01+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "25",
+        "x-ratelimit-reset": "1794461278"
+      },
+      "finalUrl": "https://api.github.com/search/repositories?q=%22Fable+5.2%22+pushed%3A%3E%3D2026-11-09&sort=updated&per_page=30&page=6",
+      "bytes": 170059,
+      "file": "github-repositories-1-page-6.txt",
+      "sha256": "7a3469e05a733527b098fa3408369fdbe9d5e7ff0c4e682502c74c4de64d5732",
+      "ok": true,
+      "returned": 30,
+      "totalReported": 186,
+      "searchIncomplete": false,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "github-repositories-1-page-7",
+      "url": "https://api.github.com/search/repositories?q=%22Fable+5.2%22+pushed%3A%3E%3D2026-11-09&sort=updated&per_page=30&page=7",
+      "checkedAt": "2026-11-12T05:27:02+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "24",
+        "x-ratelimit-reset": "1794461278"
+      },
+      "finalUrl": "https://api.github.com/search/repositories?q=%22Fable+5.2%22+pushed%3A%3E%3D2026-11-09&sort=updated&per_page=30&page=7",
+      "bytes": 33751,
+      "file": "github-repositories-1-page-7.txt",
+      "sha256": "4a1125811bc2f8f5bdd9f1e685ff96935d73ec5e09e495c75bec0504be4db54c",
+      "ok": true,
+      "returned": 6,
+      "totalReported": 186,
+      "searchIncomplete": false,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "hn-1-page-2",
+      "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Fable+5.2%22&hitsPerPage=30&page=1&numericFilters=created_at_i%3E%3D1794182400",
+      "checkedAt": "2026-11-12T05:27:03+00:00",
+      "status": 200,
+      "finalUrl": "https://hn.algolia.com/api/v1/search_by_date?query=%22Fable+5.2%22&hitsPerPage=30&page=1&numericFilters=created_at_i%3E%3D1794182400",
+      "bytes": 47186,
+      "file": "hn-1-page-2.txt",
+      "sha256": "6a437c6bcd5539b970eeb0ba3170abcb20f0c319dac2e920effc2d4a7dd5e234",
+      "ok": true,
+      "returned": 30,
+      "totalReported": 189,
+      "pagesReported": 7,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "hn-1-page-3",
+      "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Fable+5.2%22&hitsPerPage=30&page=2&numericFilters=created_at_i%3E%3D1794182400",
+      "checkedAt": "2026-11-12T05:27:03+00:00",
+      "status": 200,
+      "finalUrl": "https://hn.algolia.com/api/v1/search_by_date?query=%22Fable+5.2%22&hitsPerPage=30&page=2&numericFilters=created_at_i%3E%3D1794182400",
+      "bytes": 51960,
+      "file": "hn-1-page-3.txt",
+      "sha256": "d2bf810979a079795c491a91656686ae7761d5260fb96df23bf717b3732f92fa",
+      "ok": true,
+      "returned": 30,
+      "totalReported": 189,
+      "pagesReported": 7,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "hn-1-page-4",
+      "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Fable+5.2%22&hitsPerPage=30&page=3&numericFilters=created_at_i%3E%3D1794182400",
+      "checkedAt": "2026-11-12T05:27:04+00:00",
+      "status": 200,
+      "finalUrl": "https://hn.algolia.com/api/v1/search_by_date?query=%22Fable+5.2%22&hitsPerPage=30&page=3&numericFilters=created_at_i%3E%3D1794182400",
+      "bytes": 56116,
+      "file": "hn-1-page-4.txt",
+      "sha256": "956c519acc4aeae79605f21b7e17d448bd52892668d104cfe390af64136eca6a",
+      "ok": true,
+      "returned": 30,
+      "totalReported": 189,
+      "pagesReported": 7,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "hn-1-page-5",
+      "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Fable+5.2%22&hitsPerPage=30&page=4&numericFilters=created_at_i%3E%3D1794182400",
+      "checkedAt": "2026-11-12T05:27:05+00:00",
+      "status": 200,
+      "finalUrl": "https://hn.algolia.com/api/v1/search_by_date?query=%22Fable+5.2%22&hitsPerPage=30&page=4&numericFilters=created_at_i%3E%3D1794182400",
+      "bytes": 64693,
+      "file": "hn-1-page-5.txt",
+      "sha256": "af73467ee1f3743cc49969149b3b1ae274c1aef925e3c1f8e04c9694303ca4ac",
+      "ok": true,
+      "returned": 30,
+      "totalReported": 189,
+      "pagesReported": 7,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "hn-1-page-6",
+      "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Fable+5.2%22&hitsPerPage=30&page=5&numericFilters=created_at_i%3E%3D1794182400",
+      "checkedAt": "2026-11-12T05:27:05+00:00",
+      "status": 200,
+      "finalUrl": "https://hn.algolia.com/api/v1/search_by_date?query=%22Fable+5.2%22&hitsPerPage=30&page=5&numericFilters=created_at_i%3E%3D1794182400",
+      "bytes": 50252,
+      "file": "hn-1-page-6.txt",
+      "sha256": "37deba2afa2310adcf0727604d3168e83865cf6ad2485724b154c98585c9dee0",
+      "ok": true,
+      "returned": 30,
+      "totalReported": 189,
+      "pagesReported": 7,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "hn-1-page-7",
+      "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Fable+5.2%22&hitsPerPage=30&page=6&numericFilters=created_at_i%3E%3D1794182400",
+      "checkedAt": "2026-11-12T05:27:06+00:00",
+      "status": 200,
+      "finalUrl": "https://hn.algolia.com/api/v1/search_by_date?query=%22Fable+5.2%22&hitsPerPage=30&page=6&numericFilters=created_at_i%3E%3D1794182400",
+      "bytes": 12161,
+      "file": "hn-1-page-7.txt",
+      "sha256": "8051bc1faafee9d254bc87831c77c24256fa298da5a76d094838ac1eb8a34a14",
+      "ok": true,
+      "returned": 9,
+      "totalReported": 189,
+      "pagesReported": 7,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "github-repositories-3-page-2",
+      "url": "https://api.github.com/search/repositories?q=%22fable-5-2%22+pushed%3A%3E%3D2026-11-09&sort=updated&per_page=30&page=2",
+      "checkedAt": "2026-11-12T05:27:06+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "23",
+        "x-ratelimit-reset": "1794461278"
+      },
+      "finalUrl": "https://api.github.com/search/repositories?q=%22fable-5-2%22+pushed%3A%3E%3D2026-11-09&sort=updated&per_page=30&page=2",
+      "bytes": 170209,
+      "file": "github-repositories-3-page-2.txt",
+      "sha256": "2e1f771655301db8ee9bba5502dd59f7ac4c5413f4b5464802c58e1cde8c8046",
+      "ok": true,
+      "returned": 30,
+      "totalReported": 188,
+      "searchIncomplete": false,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "github-repositories-3-page-3",
+      "url": "https://api.github.com/search/repositories?q=%22fable-5-2%22+pushed%3A%3E%3D2026-11-09&sort=updated&per_page=30&page=3",
+      "checkedAt": "2026-11-12T05:27:06+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "22",
+        "x-ratelimit-reset": "1794461278"
+      },
+      "finalUrl": "https://api.github.com/search/repositories?q=%22fable-5-2%22+pushed%3A%3E%3D2026-11-09&sort=updated&per_page=30&page=3",
+      "bytes": 178242,
+      "file": "github-repositories-3-page-3.txt",
+      "sha256": "e3933a3c3afe4fecd644402e0ee320cf9414f50fbf6acacc1ace0795d4df92b0",
+      "ok": true,
+      "returned": 30,
+      "totalReported": 188,
+      "searchIncomplete": false,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "github-repositories-3-page-4",
+      "url": "https://api.github.com/search/repositories?q=%22fable-5-2%22+pushed%3A%3E%3D2026-11-09&sort=updated&per_page=30&page=4",
+      "checkedAt": "2026-11-12T05:27:08+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "21",
+        "x-ratelimit-reset": "1794461278"
+      },
+      "finalUrl": "https://api.github.com/search/repositories?q=%22fable-5-2%22+pushed%3A%3E%3D2026-11-09&sort=updated&per_page=30&page=4",
+      "bytes": 174801,
+      "file": "github-repositories-3-page-4.txt",
+      "sha256": "87aa2e2970b2aaf5eeaa47db8d0a267dcc9429c700a887115fd80d637bd34942",
+      "ok": true,
+      "returned": 30,
+      "totalReported": 188,
+      "searchIncomplete": false,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "github-repositories-3-page-5",
+      "url": "https://api.github.com/search/repositories?q=%22fable-5-2%22+pushed%3A%3E%3D2026-11-09&sort=updated&per_page=30&page=5",
+      "checkedAt": "2026-11-12T05:27:08+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "20",
+        "x-ratelimit-reset": "1794461278"
+      },
+      "finalUrl": "https://api.github.com/search/repositories?q=%22fable-5-2%22+pushed%3A%3E%3D2026-11-09&sort=updated&per_page=30&page=5",
+      "bytes": 170827,
+      "file": "github-repositories-3-page-5.txt",
+      "sha256": "8ae81ce75291ef8542278ceead7d2ad85b11009b4ce7b5f7dda7ad7059dd00a4",
+      "ok": true,
+      "returned": 30,
+      "totalReported": 188,
+      "searchIncomplete": false,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "github-repositories-3-page-6",
+      "url": "https://api.github.com/search/repositories?q=%22fable-5-2%22+pushed%3A%3E%3D2026-11-09&sort=updated&per_page=30&page=6",
+      "checkedAt": "2026-11-12T05:27:09+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "19",
+        "x-ratelimit-reset": "1794461278"
+      },
+      "finalUrl": "https://api.github.com/search/repositories?q=%22fable-5-2%22+pushed%3A%3E%3D2026-11-09&sort=updated&per_page=30&page=6",
+      "bytes": 170190,
+      "file": "github-repositories-3-page-6.txt",
+      "sha256": "2ec163d6138ecb878a7787c35120f04a66ff4dd35774aed1d0fbd6763fa66cb4",
+      "ok": true,
+      "returned": 30,
+      "totalReported": 188,
+      "searchIncomplete": false,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "github-repositories-3-page-7",
+      "url": "https://api.github.com/search/repositories?q=%22fable-5-2%22+pushed%3A%3E%3D2026-11-09&sort=updated&per_page=30&page=7",
+      "checkedAt": "2026-11-12T05:27:09+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "18",
+        "x-ratelimit-reset": "1794461278"
+      },
+      "finalUrl": "https://api.github.com/search/repositories?q=%22fable-5-2%22+pushed%3A%3E%3D2026-11-09&sort=updated&per_page=30&page=7",
+      "bytes": 44482,
+      "file": "github-repositories-3-page-7.txt",
+      "sha256": "affdde35c0fe6f5f5fb8f2bf7843b5dc3c6beb3e654472afc8c2e0337b3e174d",
+      "ok": true,
+      "returned": 8,
+      "totalReported": 188,
+      "searchIncomplete": false,
+      "pagination": "first-page-only"
+    }
+  ],
+  "candidates": [
+    {
+      "sourceUrl": "https://github.com/eval-forge/opus-v-fable",
+      "title": "eval-forge/opus-v-fable",
+      "platform": "GitHub",
+      "date": "2026-11-12",
+      "sourceIdentity": "github.com/eval-forge/opus-v-fable",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/chmillera-hub/spare-token-bug-fixes",
+      "title": "chmillera-hub/spare-token-bug-fixes",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/chmillera-hub/spare-token-bug-fixes",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/basemazab/tuktuk",
+      "title": "basemazab/tuktuk",
+      "platform": "GitHub",
+      "date": "2026-11-12",
+      "sourceIdentity": "github.com/basemazab/tuktuk",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/anduin13/until-further-notice",
+      "title": "anduin13/until-further-notice",
+      "platform": "GitHub",
+      "date": "2026-11-12",
+      "sourceIdentity": "github.com/anduin13/until-further-notice",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/VibeClip/awesome-fable-5-2-videos",
+      "title": "VibeClip/awesome-fable-5-2-videos",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/vibeclip/awesome-fable-5-2-videos",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/TheMizeGuy/fable-5.2-potatobench",
+      "title": "TheMizeGuy/fable-5.2-potatobench",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/themizeguy/fable-5.2-potatobench",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/EMendezJ/humanoidHarness",
+      "title": "EMendezJ/humanoidHarness",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/emendezj/humanoidharness",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/hillgrant55-sys/DoomsdayUpdated",
+      "title": "hillgrant55-sys/DoomsdayUpdated",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/hillgrant55-sys/doomsdayupdated",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/sigco3111/nightshift-ko",
+      "title": "sigco3111/nightshift-ko",
+      "platform": "GitHub",
+      "date": "2026-11-12",
+      "sourceIdentity": "github.com/sigco3111/nightshift-ko",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Jiaaqiliu/xuanji-x1",
+      "title": "Jiaaqiliu/xuanji-x1",
+      "platform": "GitHub",
+      "date": "2026-11-12",
+      "sourceIdentity": "github.com/jiaaqiliu/xuanji-x1",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/fablestar/bayhaven",
+      "title": "fablestar/bayhaven",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/fablestar/bayhaven",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/2727345589/saltline-fable-5.2",
+      "title": "2727345589/saltline-fable-5.2",
+      "platform": "GitHub",
+      "date": "2026-11-12",
+      "sourceIdentity": "github.com/2727345589/saltline-fable-5.2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/vadympetryshyn/effort-pilot",
+      "title": "vadympetryshyn/effort-pilot",
+      "platform": "GitHub",
+      "date": "2026-11-02",
+      "sourceIdentity": "github.com/vadympetryshyn/effort-pilot",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/mitarthpathak/Blender-Fable-5.2",
+      "title": "mitarthpathak/Blender-Fable-5.2",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/mitarthpathak/blender-fable-5.2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/apimodels/claude-fable-5-2-prompts",
+      "title": "apimodels/claude-fable-5-2-prompts",
+      "platform": "GitHub",
+      "date": "2026-11-12",
+      "sourceIdentity": "github.com/apimodels/claude-fable-5-2-prompts",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/mdchia/fable-moonward",
+      "title": "mdchia/fable-moonward",
+      "platform": "GitHub",
+      "date": "2026-11-12",
+      "sourceIdentity": "github.com/mdchia/fable-moonward",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/KDayInSummer/saltline-fable-5.2",
+      "title": "KDayInSummer/saltline-fable-5.2",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/kdayinsummer/saltline-fable-5.2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/MartinCalderon-x/alexa-con-fable",
+      "title": "MartinCalderon-x/alexa-con-fable",
+      "platform": "GitHub",
+      "date": "2026-11-12",
+      "sourceIdentity": "github.com/martincalderon-x/alexa-con-fable",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/mmmax21/Hangzhou-3DMap",
+      "title": "mmmax21/Hangzhou-3DMap",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/mmmax21/hangzhou-3dmap",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/ummydev/awesome-claude-fable-videos",
+      "title": "ummydev/awesome-claude-fable-videos",
+      "platform": "GitHub",
+      "date": "2026-11-12",
+      "sourceIdentity": "github.com/ummydev/awesome-claude-fable-videos",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/sigco3111/harvest-standoff-ko",
+      "title": "sigco3111/harvest-standoff-ko",
+      "platform": "GitHub",
+      "date": "2026-11-12",
+      "sourceIdentity": "github.com/sigco3111/harvest-standoff-ko",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/DNDNoob/EmberDeep",
+      "title": "DNDNoob/EmberDeep",
+      "platform": "GitHub",
+      "date": "2026-11-12",
+      "sourceIdentity": "github.com/dndnoob/emberdeep",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/mofa-si/awesome-fable-5-2-videos",
+      "title": "mofa-si/awesome-fable-5-2-videos",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/mofa-si/awesome-fable-5-2-videos",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/rickyferdezz-glitch/brief-skill",
+      "title": "rickyferdezz-glitch/brief-skill",
+      "platform": "GitHub",
+      "date": "2026-11-12",
+      "sourceIdentity": "github.com/rickyferdezz-glitch/brief-skill",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/floriszxfloris-hub/fable-5.2-work",
+      "title": "floriszxfloris-hub/fable-5.2-work",
+      "platform": "GitHub",
+      "date": "2026-11-12",
+      "sourceIdentity": "github.com/floriszxfloris-hub/fable-5.2-work",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/techkwon/fable52-oneshot-bench",
+      "title": "techkwon/fable52-oneshot-bench",
+      "platform": "GitHub",
+      "date": "2026-11-09",
+      "sourceIdentity": "github.com/techkwon/fable52-oneshot-bench",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/verissimodf/fable52-auditor",
+      "title": "verissimodf/fable52-auditor",
+      "platform": "GitHub",
+      "date": "2026-11-12",
+      "sourceIdentity": "github.com/verissimodf/fable52-auditor",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/inematds/audite-seu-claude",
+      "title": "inematds/audite-seu-claude",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/inematds/audite-seu-claude",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/sktjgudals/fable-5-2-prompting",
+      "title": "sktjgudals/fable-5-2-prompting",
+      "platform": "GitHub",
+      "date": "2026-11-12",
+      "sourceIdentity": "github.com/sktjgudals/fable-5-2-prompting",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/jammyfu/awesome-ai-model-showcases",
+      "title": "jammyfu/awesome-ai-model-showcases",
+      "platform": "GitHub",
+      "date": "2026-11-05",
+      "sourceIdentity": "github.com/jammyfu/awesome-ai-model-showcases",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50460481",
+      "title": "Fable 5.2 or Opus? When to use each model in Claude Code [video]",
+      "platform": "Hacker News",
+      "date": "2026-11-11",
+      "sourceIdentity": "news.ycombinator.com/item?id=50460481",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50459509",
+      "title": "Why are we still working this hard?",
+      "platform": "Hacker News",
+      "date": "2026-11-11",
+      "sourceIdentity": "news.ycombinator.com/item?id=50459509",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50459229",
+      "title": "Why are we still working this hard?",
+      "platform": "Hacker News",
+      "date": "2026-11-11",
+      "sourceIdentity": "news.ycombinator.com/item?id=50459229",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50459208",
+      "title": "Emacs in the Age of Magic",
+      "platform": "Hacker News",
+      "date": "2026-11-11",
+      "sourceIdentity": "news.ycombinator.com/item?id=50459208",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50458969",
+      "title": "Why are we still working this hard?",
+      "platform": "Hacker News",
+      "date": "2026-11-11",
+      "sourceIdentity": "news.ycombinator.com/item?id=50458969",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50458346",
+      "title": "A C++ Quicksort Faster Than std:sort",
+      "platform": "Hacker News",
+      "date": "2026-11-11",
+      "sourceIdentity": "news.ycombinator.com/item?id=50458346",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50456549",
+      "title": "Show HN: Klad, a paint app your coding agent can drive (source-available)",
+      "platform": "Hacker News",
+      "date": "2026-11-11",
+      "sourceIdentity": "news.ycombinator.com/item?id=50456549",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50455637",
+      "title": "Make this forward pass as fast as possible",
+      "platform": "Hacker News",
+      "date": "2026-11-11",
+      "sourceIdentity": "news.ycombinator.com/item?id=50455637",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50455321",
+      "title": "Show HN: Polishing SF Bay Area transit: a Fable 5.2 game from a few prompts",
+      "platform": "Hacker News",
+      "date": "2026-11-11",
+      "sourceIdentity": "news.ycombinator.com/item?id=50455321",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1",
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50454951",
+      "title": "Show HN: Klad, a paint app your coding agent can drive (source-available)",
+      "platform": "Hacker News",
+      "date": "2026-11-11",
+      "sourceIdentity": "news.ycombinator.com/item?id=50454951",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50453513",
+      "title": "Prompting Claude Fable 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-11",
+      "sourceIdentity": "news.ycombinator.com/item?id=50453513",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1",
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50453055",
+      "title": "Show HN: Beam – Pairing machines with passkeys; replace SSH&VPN's with Tailcat",
+      "platform": "Hacker News",
+      "date": "2026-11-11",
+      "sourceIdentity": "news.ycombinator.com/item?id=50453055",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50452465",
+      "title": "Gemini 4 Carbon is now available",
+      "platform": "Hacker News",
+      "date": "2026-11-11",
+      "sourceIdentity": "news.ycombinator.com/item?id=50452465",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50451801",
+      "title": "Van Gogh's Starry Night turned into a riding game with Fable 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-11",
+      "sourceIdentity": "news.ycombinator.com/item?id=50451801",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50449591",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-11",
+      "sourceIdentity": "news.ycombinator.com/item?id=50449591",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50448880",
+      "title": "Claude usage limit reset is a gambler's rush",
+      "platform": "Hacker News",
+      "date": "2026-11-11",
+      "sourceIdentity": "news.ycombinator.com/item?id=50448880",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50448744",
+      "title": "Tell HN: A flood of reports of Opus 5.5 being nerfed",
+      "platform": "Hacker News",
+      "date": "2026-11-11",
+      "sourceIdentity": "news.ycombinator.com/item?id=50448744",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50448401",
+      "title": "Gemini 4 Carbon is now available",
+      "platform": "Hacker News",
+      "date": "2026-11-11",
+      "sourceIdentity": "news.ycombinator.com/item?id=50448401",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50448338",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-11",
+      "sourceIdentity": "news.ycombinator.com/item?id=50448338",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50448215",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-11",
+      "sourceIdentity": "news.ycombinator.com/item?id=50448215",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50447948",
+      "title": "Looks Like the Intelligence Explosion Will Happen in 2027 After All",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50447948",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50447039",
+      "title": "AI Users have workdays up to 90 min longer than non-users",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50447039",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50446808",
+      "title": "Gemini 4 Carbon is now available",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50446808",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50446547",
+      "title": "Claude Fable 5.2 HTML Files",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50446547",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50446220",
+      "title": "Sherman Anti-Trust Act (1890)",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50446220",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50446164",
+      "title": "Saltline: First-person shooter built by Fable 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50446164",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50444968",
+      "title": "Gemini 4 Carbon is now available",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50444968",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50444918",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50444918",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50444850",
+      "title": "Saltline: First-person shooter built by Fable 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50444850",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50444369",
+      "title": "Show HN: Educational crystallography game built with Fable 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50444369",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/biscuits67/fable5.2",
+      "title": "biscuits67/fable5.2",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/biscuits67/fable5.2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-2",
+        "github-repositories-1-page-5",
+        "github-repositories-3-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/attentionisyouneed/3A-game",
+      "title": "attentionisyouneed/3A-game",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/attentionisyouneed/3a-game",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50457499",
+      "title": "Anthropic says a key AI safety alarm has been triggered, days before its IPO",
+      "platform": "Hacker News",
+      "date": "2026-11-11",
+      "sourceIdentity": "news.ycombinator.com/item?id=50457499",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50435708",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50435708",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50435663",
+      "title": "Notes on Fable 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50435663",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3",
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50435602",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50435602",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3",
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50435577",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50435577",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50433686",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50433686",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50433659",
+      "title": "Fable 5.2 one-shotted my nephew's dream game",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50433659",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3",
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50432994",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50432994",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3",
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50432975",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50432975",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3",
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50432838",
+      "title": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50432838",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50432687",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50432687",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3",
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50431769",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50431769",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50431343",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50431343",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3",
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50431144",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50431144",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3",
+        "hn-1-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430968",
+      "title": "Safely scaling multi-agent teams with Claude Fable 5.2nd PostgreSQL",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430968",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430691",
+      "title": "Claude Fable 5.2 now available on AI Gateway",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430691",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3",
+        "hn-1-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430176",
+      "title": "Claude Fable 5.2 launch offers",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430176",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3",
+        "hn-1-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430154",
+      "title": "Claude Fable 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430154",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3",
+        "hn-1-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430044",
+      "title": "Fable 5.2 Out",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430044",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3",
+        "hn-1-page-7"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/ElUlises15/preview-fable",
+      "title": "ElUlises15/preview-fable",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/elulises15/preview-fable",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Pomidium/radius-fable",
+      "title": "Pomidium/radius-fable",
+      "platform": "GitHub",
+      "date": "2026-11-12",
+      "sourceIdentity": "github.com/pomidium/radius-fable",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/GavinLOrio/Fable-5.2-random-game",
+      "title": "GavinLOrio/Fable-5.2-random-game",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/gavinlorio/fable-5.2-random-game",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/sc8z35a-collab/Fables5.2",
+      "title": "sc8z35a-collab/Fables5.2",
+      "platform": "GitHub",
+      "date": "2026-11-09",
+      "sourceIdentity": "github.com/sc8z35a-collab/fables5.2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/jaydenaleung/takeoff-flight-sim",
+      "title": "jaydenaleung/takeoff-flight-sim",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/jaydenaleung/takeoff-flight-sim",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/mchen04/twinleaf-town",
+      "title": "mchen04/twinleaf-town",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/mchen04/twinleaf-town",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/sn3hhaa/eidolon",
+      "title": "sn3hhaa/eidolon",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/sn3hhaa/eidolon",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/bilalzindani/fable-proof",
+      "title": "bilalzindani/fable-proof",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/bilalzindani/fable-proof",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/masugus/fable5.2-5min-game",
+      "title": "masugus/fable5.2-5min-game",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/masugus/fable5.2-5min-game",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/whaslbeck/Zuuls",
+      "title": "whaslbeck/Zuuls",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/whaslbeck/zuuls",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/sandbase-lab/awesome-fable-5-2",
+      "title": "sandbase-lab/awesome-fable-5-2",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/sandbase-lab/awesome-fable-5-2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/eval-forge/claude-battle",
+      "title": "eval-forge/claude-battle",
+      "platform": "GitHub",
+      "date": "2026-11-09",
+      "sourceIdentity": "github.com/eval-forge/claude-battle",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/oldzitterhand/sternenjaeger",
+      "title": "oldzitterhand/sternenjaeger",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/oldzitterhand/sternenjaeger",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/enzocage/sniper-fable-5.2",
+      "title": "enzocage/sniper-fable-5.2",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/enzocage/sniper-fable-5.2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/jiachengliu12345/awesome-fable-5-2",
+      "title": "jiachengliu12345/awesome-fable-5-2",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/jiachengliu12345/awesome-fable-5-2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/koumpas/hundred-ghosts",
+      "title": "koumpas/hundred-ghosts",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/koumpas/hundred-ghosts",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/KalarisLabs/claude-systems-prompts",
+      "title": "KalarisLabs/claude-systems-prompts",
+      "platform": "GitHub",
+      "date": "2026-06-10",
+      "sourceIdentity": "github.com/kalarislabs/claude-systems-prompts",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Fangshuming-star/fable-5.2-Web-shooting-game",
+      "title": "Fangshuming-star/fable-5.2-Web-shooting-game",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/fangshuming-star/fable-5.2-web-shooting-game",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/SharpWizard/ironvale",
+      "title": "SharpWizard/ironvale",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/sharpwizard/ironvale",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/EddizEge/nightshift-fable",
+      "title": "EddizEge/nightshift-fable",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/eddizege/nightshift-fable",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/vtmelchiades/vo-insumos",
+      "title": "vtmelchiades/vo-insumos",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/vtmelchiades/vo-insumos",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/sabotage-dev/breakout_challenge",
+      "title": "sabotage-dev/breakout_challenge",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/sabotage-dev/breakout_challenge",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Prokopiy8247/Fable5-2-Effort-Test-GTA",
+      "title": "Prokopiy8247/Fable5-2-Effort-Test-GTA",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/prokopiy8247/fable5-2-effort-test-gta",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/motionvideohq/awesome-fable-5-2-motion-design",
+      "title": "motionvideohq/awesome-fable-5-2-motion-design",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/motionvideohq/awesome-fable-5-2-motion-design",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/ummydev/awesome-claude-fable-games",
+      "title": "ummydev/awesome-claude-fable-games",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/ummydev/awesome-claude-fable-games",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Anil-matcha/Claude-Fable-5-2-API",
+      "title": "Anil-matcha/Claude-Fable-5-2-API",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/anil-matcha/claude-fable-5-2-api",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/wenzhengshi/fable5-2-salt-online",
+      "title": "wenzhengshi/fable5-2-salt-online",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/wenzhengshi/fable5-2-salt-online",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/gavilanbe/ceba",
+      "title": "gavilanbe/ceba",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/gavilanbe/ceba",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/fablestar/fablestar",
+      "title": "fablestar/fablestar",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/fablestar/fablestar",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/aibumagin/fable",
+      "title": "aibumagin/fable",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/aibumagin/fable",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-2",
+        "github-repositories-3-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/jakozaur/sf_bay_area_transit_fable_5_2_game",
+      "title": "jakozaur/sf_bay_area_transit_fable_5_2_game",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/jakozaur/sf_bay_area_transit_fable_5_2_game",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-3",
+        "github-repositories-3-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/joeseesun/claude-fable-52-guide",
+      "title": "joeseesun/claude-fable-52-guide",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/joeseesun/claude-fable-52-guide",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-3",
+        "github-repositories-3-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Thawlynn2005/Lewisis-Music",
+      "title": "Thawlynn2005/Lewisis-Music",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/thawlynn2005/lewisis-music",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-3",
+        "github-repositories-3-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/fatihlabsai/Claude",
+      "title": "fatihlabsai/Claude",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/fatihlabsai/claude",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-3",
+        "github-repositories-3-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/isnehasish/Frontier-Model-Capability-Test",
+      "title": "isnehasish/Frontier-Model-Capability-Test",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/isnehasish/frontier-model-capability-test",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-3",
+        "github-repositories-3-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/sidoyu/gaze-cathedral-claude-fable-5.2",
+      "title": "sidoyu/gaze-cathedral-claude-fable-5.2",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/sidoyu/gaze-cathedral-claude-fable-5.2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-3",
+        "github-repositories-3-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/michael-haufschild-gib/wiggle",
+      "title": "michael-haufschild-gib/wiggle",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/michael-haufschild-gib/wiggle",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-3",
+        "github-repositories-3-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/BeatAPI/awesome-fable-5-2-videos",
+      "title": "BeatAPI/awesome-fable-5-2-videos",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/beatapi/awesome-fable-5-2-videos",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-3",
+        "github-repositories-3-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Amnaun/ai-frontend-reference-wall",
+      "title": "Amnaun/ai-frontend-reference-wall",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/amnaun/ai-frontend-reference-wall",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-3",
+        "github-repositories-3-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/masamunecode/parley",
+      "title": "masamunecode/parley",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/masamunecode/parley",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-3",
+        "github-repositories-3-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Anna-SAP/PromptRefiner2026",
+      "title": "Anna-SAP/PromptRefiner2026",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/anna-sap/promptrefiner2026",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-3",
+        "github-repositories-3-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/realcodebear/saltline-fable-5.2",
+      "title": "realcodebear/saltline-fable-5.2",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/realcodebear/saltline-fable-5.2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-3",
+        "github-repositories-3-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/KhalidAbdelaty/claude-fable-5-2-api",
+      "title": "KhalidAbdelaty/claude-fable-5-2-api",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/khalidabdelaty/claude-fable-5-2-api",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-3",
+        "github-repositories-3-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/msebastianb/fable-5-2-3d-quality-grade",
+      "title": "msebastianb/fable-5-2-3d-quality-grade",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/msebastianb/fable-5-2-3d-quality-grade",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-3",
+        "github-repositories-3-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/vishwajeetsharma/fable5.2-capabilities",
+      "title": "vishwajeetsharma/fable5.2-capabilities",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/vishwajeetsharma/fable5.2-capabilities",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-3",
+        "github-repositories-3-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/codecode3/opus-minecraft-papers",
+      "title": "codecode3/opus-minecraft-papers",
+      "platform": "GitHub",
+      "date": "2026-11-07",
+      "sourceIdentity": "github.com/codecode3/opus-minecraft-papers",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-3",
+        "github-repositories-3-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Adnanabbas17/Fable-5.2-game-test",
+      "title": "Adnanabbas17/Fable-5.2-game-test",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/adnanabbas17/fable-5.2-game-test",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-3",
+        "github-repositories-3-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/KostiKoNeuro/gemini-carbon-vs-fable-5-2",
+      "title": "KostiKoNeuro/gemini-carbon-vs-fable-5-2",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/kostikoneuro/gemini-carbon-vs-fable-5-2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-3",
+        "github-repositories-3-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/git-sanbu/awesome-claude-fable-5-2",
+      "title": "git-sanbu/awesome-claude-fable-5-2",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/git-sanbu/awesome-claude-fable-5-2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-3",
+        "github-repositories-3-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Ramichetty09/https-github.com-MiaAI-Lab-Claude-Fable-5.2-HTML-Files-blob-main-072-lumen-town-grid.html",
+      "title": "Ramichetty09/https-github.com-MiaAI-Lab-Claude-Fable-5.2-HTML-Files-blob-main-072-lumen-town-grid.html",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/ramichetty09/https-github.com-miaai-lab-claude-fable-5.2-html-files-blob-main-072-lumen-town-grid.html",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-3",
+        "github-repositories-3-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Rylaa/fable5.2-opus5.5-orchestrator",
+      "title": "Rylaa/fable5.2-opus5.5-orchestrator",
+      "platform": "GitHub",
+      "date": "2026-06-12",
+      "sourceIdentity": "github.com/rylaa/fable5.2-opus5.5-orchestrator",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-3",
+        "github-repositories-3-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/fedifianto/shuttlestrike",
+      "title": "fedifianto/shuttlestrike",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/fedifianto/shuttlestrike",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-3",
+        "github-repositories-3-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/thoughtpilot99/gtm-xray",
+      "title": "thoughtpilot99/gtm-xray",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/thoughtpilot99/gtm-xray",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-3",
+        "github-repositories-3-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/hahaliu1029/fable5.2demo",
+      "title": "hahaliu1029/fable5.2demo",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/hahaliu1029/fable5.2demo",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-3",
+        "github-repositories-3-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/anttiluode/Moon",
+      "title": "anttiluode/Moon",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/anttiluode/moon",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-3",
+        "github-repositories-3-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/NineTigers/emberfall-forge-claude-fable-5.2",
+      "title": "NineTigers/emberfall-forge-claude-fable-5.2",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/ninetigers/emberfall-forge-claude-fable-5.2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-3",
+        "github-repositories-3-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/xianyu110/awesome-claude-fable-5.2",
+      "title": "xianyu110/awesome-claude-fable-5.2",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/xianyu110/awesome-claude-fable-5.2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-3",
+        "github-repositories-3-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/aihaiqi/Helium-Claude-Fable5.2",
+      "title": "aihaiqi/Helium-Claude-Fable5.2",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/aihaiqi/helium-claude-fable5.2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-3",
+        "github-repositories-3-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/KooEmmanuel/custom-suit-studio",
+      "title": "KooEmmanuel/custom-suit-studio",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/kooemmanuel/custom-suit-studio",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-3",
+        "github-repositories-3-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/rauulsanchis/planifica-con-fable",
+      "title": "rauulsanchis/planifica-con-fable",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/rauulsanchis/planifica-con-fable",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-3",
+        "github-repositories-3-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/tong0619453646-dev/awesome-claude-fable-5.2-video-prompts",
+      "title": "tong0619453646-dev/awesome-claude-fable-5.2-video-prompts",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/tong0619453646-dev/awesome-claude-fable-5.2-video-prompts",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-4",
+        "github-repositories-3-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/adityabatra072/ceo-run",
+      "title": "adityabatra072/ceo-run",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/adityabatra072/ceo-run",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-4",
+        "github-repositories-3-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/CarlitoVital/Fable_5.2_Test_10.11.2026",
+      "title": "CarlitoVital/Fable_5.2_Test_10.11.2026",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/carlitovital/fable_5.2_test_10.11.2026",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-4",
+        "github-repositories-3-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/coolbat/awesome-fable5-2-case",
+      "title": "coolbat/awesome-fable5-2-case",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/coolbat/awesome-fable5-2-case",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-4",
+        "github-repositories-3-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/TholeG/saltline-field-archive",
+      "title": "TholeG/saltline-field-archive",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/tholeg/saltline-field-archive",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-4",
+        "github-repositories-3-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/hideewsj-maker/awesome-fable-5-2-videos",
+      "title": "hideewsj-maker/awesome-fable-5-2-videos",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/hideewsj-maker/awesome-fable-5-2-videos",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-4",
+        "github-repositories-3-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/yihui-dev/awesome-fable5-2-videos",
+      "title": "yihui-dev/awesome-fable5-2-videos",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/yihui-dev/awesome-fable5-2-videos",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-4",
+        "github-repositories-3-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/wquguru/fable52-fps-repro",
+      "title": "wquguru/fable52-fps-repro",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/wquguru/fable52-fps-repro",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-4",
+        "github-repositories-3-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/YUJINSIK-momo/fable5.2-Benchmark-test",
+      "title": "YUJINSIK-momo/fable5.2-Benchmark-test",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/yujinsik-momo/fable5.2-benchmark-test",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-4",
+        "github-repositories-3-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/edvardgrishin27/nativeprompt",
+      "title": "edvardgrishin27/nativeprompt",
+      "platform": "GitHub",
+      "date": "2026-07-30",
+      "sourceIdentity": "github.com/edvardgrishin27/nativeprompt",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-4",
+        "github-repositories-3-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/xianyu110/Claude-Fable-5.2",
+      "title": "xianyu110/Claude-Fable-5.2",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/xianyu110/claude-fable-5.2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-4",
+        "github-repositories-3-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Geemir/Exam-Quiz-Preparation-Skill",
+      "title": "Geemir/Exam-Quiz-Preparation-Skill",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/geemir/exam-quiz-preparation-skill",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-4",
+        "github-repositories-3-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/chzbloom123/settlement-bluff-fable5.2",
+      "title": "chzbloom123/settlement-bluff-fable5.2",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/chzbloom123/settlement-bluff-fable5.2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-4",
+        "github-repositories-3-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/silvereyes137-eng/Fable-5.2game",
+      "title": "silvereyes137-eng/Fable-5.2game",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/silvereyes137-eng/fable-5.2game",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-4",
+        "github-repositories-3-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/selmakcby/fable-ajan-takimi",
+      "title": "selmakcby/fable-ajan-takimi",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/selmakcby/fable-ajan-takimi",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-4",
+        "github-repositories-3-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/skel714-debug/Fable_5.2_Companies",
+      "title": "skel714-debug/Fable_5.2_Companies",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/skel714-debug/fable_5.2_companies",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-4",
+        "github-repositories-3-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/rink1969/awesome-fable52-videos",
+      "title": "rink1969/awesome-fable52-videos",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/rink1969/awesome-fable52-videos",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-4",
+        "github-repositories-3-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/bhavya-gx/fable-vfx",
+      "title": "bhavya-gx/fable-vfx",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/bhavya-gx/fable-vfx",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-4",
+        "github-repositories-3-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Ilias-AK/New3DGameFromFable5.2",
+      "title": "Ilias-AK/New3DGameFromFable5.2",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/ilias-ak/new3dgamefromfable5.2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-4",
+        "github-repositories-3-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/MON724/saltline-fable-5.2",
+      "title": "MON724/saltline-fable-5.2",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/mon724/saltline-fable-5.2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-4",
+        "github-repositories-3-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/samharden/fable5.2piano",
+      "title": "samharden/fable5.2piano",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/samharden/fable5.2piano",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-4",
+        "github-repositories-3-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/sanny114/fable52-reel",
+      "title": "sanny114/fable52-reel",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/sanny114/fable52-reel",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-4",
+        "github-repositories-3-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/stevemaughan/fable-5.2-chess-24hrs",
+      "title": "stevemaughan/fable-5.2-chess-24hrs",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/stevemaughan/fable-5.2-chess-24hrs",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-4",
+        "github-repositories-3-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/DraftRelic275/Claude-Tower-Defence-Game",
+      "title": "DraftRelic275/Claude-Tower-Defence-Game",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/draftrelic275/claude-tower-defence-game",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-4",
+        "github-repositories-3-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/ShaunPrice/soccer-3d",
+      "title": "ShaunPrice/soccer-3d",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/shaunprice/soccer-3d",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-4",
+        "github-repositories-3-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/KaiyuanGONG/formula-to-pixel",
+      "title": "KaiyuanGONG/formula-to-pixel",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/kaiyuangong/formula-to-pixel",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-4",
+        "github-repositories-3-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/systemsluke/fable5.2game",
+      "title": "systemsluke/fable5.2game",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/systemsluke/fable5.2game",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-4",
+        "github-repositories-3-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Vibha-Ramprakash/fable-video-editing-guide",
+      "title": "Vibha-Ramprakash/fable-video-editing-guide",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/vibha-ramprakash/fable-video-editing-guide",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-4",
+        "github-repositories-3-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Seawolf0/Spectra",
+      "title": "Seawolf0/Spectra",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/seawolf0/spectra",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-4",
+        "github-repositories-3-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/az9713/fable-5.2-typewriter-demos",
+      "title": "az9713/fable-5.2-typewriter-demos",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/az9713/fable-5.2-typewriter-demos",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-4",
+        "github-repositories-3-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/CrazyRock114/pelican",
+      "title": "CrazyRock114/pelican",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/crazyrock114/pelican",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-5",
+        "github-repositories-3-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/liang8989/awesome-fable5-2-videos",
+      "title": "liang8989/awesome-fable5-2-videos",
+      "platform": "GitHub",
+      "date": "2026-11-09",
+      "sourceIdentity": "github.com/liang8989/awesome-fable5-2-videos",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-5",
+        "github-repositories-3-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/MasterOfVFX2070/xray-mirror",
+      "title": "MasterOfVFX2070/xray-mirror",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/masterofvfx2070/xray-mirror",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-5",
+        "github-repositories-3-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/tornikegomareli/Matrix",
+      "title": "tornikegomareli/Matrix",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/tornikegomareli/matrix",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-5",
+        "github-repositories-3-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/kvngnsn/stunningfrontenddesign",
+      "title": "kvngnsn/stunningfrontenddesign",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/kvngnsn/stunningfrontenddesign",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-5",
+        "github-repositories-3-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/GavinLOrio/Random-Game-design",
+      "title": "GavinLOrio/Random-Game-design",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/gavinlorio/random-game-design",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-5",
+        "github-repositories-3-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/peter-guillam123/Steinem52",
+      "title": "peter-guillam123/Steinem52",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/peter-guillam123/steinem52",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-5",
+        "github-repositories-3-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/masamunecode/fable-designed-9",
+      "title": "masamunecode/fable-designed-9",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/masamunecode/fable-designed-9",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-5",
+        "github-repositories-3-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Dodaios/Fable5.2-",
+      "title": "Dodaios/Fable5.2-",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/dodaios/fable5.2-",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-5",
+        "github-repositories-3-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/hama-jp/sumi-os-claude-fable-5-2",
+      "title": "hama-jp/sumi-os-claude-fable-5-2",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/hama-jp/sumi-os-claude-fable-5-2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-5",
+        "github-repositories-3-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/zaferyildiz12/fable-orkestrasyon",
+      "title": "zaferyildiz12/fable-orkestrasyon",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/zaferyildiz12/fable-orkestrasyon",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-5",
+        "github-repositories-3-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/anttiluode/ReturnToGeometricNeuron",
+      "title": "anttiluode/ReturnToGeometricNeuron",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/anttiluode/returntogeometricneuron",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-5",
+        "github-repositories-3-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/samuelhackl-alt/Fable-5.2-Project",
+      "title": "samuelhackl-alt/Fable-5.2-Project",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/samuelhackl-alt/fable-5.2-project",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-5",
+        "github-repositories-3-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/chillqoder/Fable-5.2",
+      "title": "chillqoder/Fable-5.2",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/chillqoder/fable-5.2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-5",
+        "github-repositories-3-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/kara-developer/fable-tek-cumle",
+      "title": "kara-developer/fable-tek-cumle",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/kara-developer/fable-tek-cumle",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-5",
+        "github-repositories-3-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/realcodebear/blender-fable-5.2",
+      "title": "realcodebear/blender-fable-5.2",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/realcodebear/blender-fable-5.2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-5",
+        "github-repositories-3-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/S77FFY/daedalus",
+      "title": "S77FFY/daedalus",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/s77ffy/daedalus",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-5",
+        "github-repositories-3-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Archive228/claude-fable-rea-bla",
+      "title": "Archive228/claude-fable-rea-bla",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/archive228/claude-fable-rea-bla",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-5",
+        "github-repositories-3-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/drago-suzuki58/gearline-gbc",
+      "title": "drago-suzuki58/gearline-gbc",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/drago-suzuki58/gearline-gbc",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-5",
+        "github-repositories-3-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/anstapnever/fable-chess",
+      "title": "anstapnever/fable-chess",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/anstapnever/fable-chess",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-5",
+        "github-repositories-3-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Sosavskaii/guide-fable-claude",
+      "title": "Sosavskaii/guide-fable-claude",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/sosavskaii/guide-fable-claude",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-5",
+        "github-repositories-3-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/fable-5-2/Claude-Fable-5.2-Free",
+      "title": "fable-5-2/Claude-Fable-5.2-Free",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/fable-5-2/claude-fable-5.2-free",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-5",
+        "github-repositories-3-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/andreteow/farm-ca",
+      "title": "andreteow/farm-ca",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/andreteow/farm-ca",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-5",
+        "github-repositories-3-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/MBotirjonDev/fable-receipts",
+      "title": "MBotirjonDev/fable-receipts",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/mbotirjondev/fable-receipts",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-5",
+        "github-repositories-3-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/arpitpatel25/earth-whole-story",
+      "title": "arpitpatel25/earth-whole-story",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/arpitpatel25/earth-whole-story",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-5",
+        "github-repositories-3-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/fengyiqicoder/awesome-fable-5.2",
+      "title": "fengyiqicoder/awesome-fable-5.2",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/fengyiqicoder/awesome-fable-5.2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-5",
+        "github-repositories-3-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/fornhere/fable-5-2-benchmark",
+      "title": "fornhere/fable-5-2-benchmark",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/fornhere/fable-5-2-benchmark",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-5",
+        "github-repositories-3-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/xiaozhenliu/boeing-fable-5-2",
+      "title": "xiaozhenliu/boeing-fable-5-2",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/xiaozhenliu/boeing-fable-5-2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-5",
+        "github-repositories-3-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/benjamint08/kaleido",
+      "title": "benjamint08/kaleido",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/benjamint08/kaleido",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-5",
+        "github-repositories-3-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Rikinshah787/Game-Fable-5.2",
+      "title": "Rikinshah787/Game-Fable-5.2",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/rikinshah787/game-fable-5.2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-6",
+        "github-repositories-3-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/enestanerr/Prove",
+      "title": "enestanerr/Prove",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/enestanerr/prove",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-6",
+        "github-repositories-3-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Lampodigital/fable-5-2-demos",
+      "title": "Lampodigital/fable-5-2-demos",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/lampodigital/fable-5-2-demos",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-6",
+        "github-repositories-3-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/KostiKoNeuro/fable-5-2-solo",
+      "title": "KostiKoNeuro/fable-5-2-solo",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/kostikoneuro/fable-5-2-solo",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-6",
+        "github-repositories-3-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/webKing021/dustfall",
+      "title": "webKing021/dustfall",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/webking021/dustfall",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-6",
+        "github-repositories-3-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/mikhailpetrusheuski/dotnet-agent-history-guard",
+      "title": "mikhailpetrusheuski/dotnet-agent-history-guard",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/mikhailpetrusheuski/dotnet-agent-history-guard",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-6",
+        "github-repositories-3-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/davidramsay95/claude-chess_fable_5-2_20261110",
+      "title": "davidramsay95/claude-chess_fable_5-2_20261110",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/davidramsay95/claude-chess_fable_5-2_20261110",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-6",
+        "github-repositories-3-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Dari-Universer-Pub/worldbox-fable5.2",
+      "title": "Dari-Universer-Pub/worldbox-fable5.2",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/dari-universer-pub/worldbox-fable5.2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-6",
+        "github-repositories-3-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Recursive-Self-Improving/qingdao-badaguan-threejs-fable-5-2-max-cc",
+      "title": "Recursive-Self-Improving/qingdao-badaguan-threejs-fable-5-2-max-cc",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/recursive-self-improving/qingdao-badaguan-threejs-fable-5-2-max-cc",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-6",
+        "github-repositories-3-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Ilias-AK/NewGameFromFable5.2",
+      "title": "Ilias-AK/NewGameFromFable5.2",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/ilias-ak/newgamefromfable5.2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-6",
+        "github-repositories-3-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Junhan2/oh-my-fable",
+      "title": "Junhan2/oh-my-fable",
+      "platform": "GitHub",
+      "date": "2026-09-02",
+      "sourceIdentity": "github.com/junhan2/oh-my-fable",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-6",
+        "github-repositories-3-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/anttiluode/CrystalMoonV3",
+      "title": "anttiluode/CrystalMoonV3",
+      "platform": "GitHub",
+      "date": "2026-11-09",
+      "sourceIdentity": "github.com/anttiluode/crystalmoonv3",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-6",
+        "github-repositories-3-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/jayypatel18/tiny-rocket-5-2",
+      "title": "jayypatel18/tiny-rocket-5-2",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/jayypatel18/tiny-rocket-5-2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-6",
+        "github-repositories-3-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/7ammad/refable",
+      "title": "7ammad/refable",
+      "platform": "GitHub",
+      "date": "2026-07-03",
+      "sourceIdentity": "github.com/7ammad/refable",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-6",
+        "github-repositories-3-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/ChrisHKAI/awesome-fable-5.2-videos",
+      "title": "ChrisHKAI/awesome-fable-5.2-videos",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/chrishkai/awesome-fable-5.2-videos",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-6",
+        "github-repositories-3-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Petyok/blameless",
+      "title": "Petyok/blameless",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/petyok/blameless",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-6",
+        "github-repositories-3-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Token173/claude-fable-5.2",
+      "title": "Token173/claude-fable-5.2",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/token173/claude-fable-5.2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-6",
+        "github-repositories-3-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/masaladosa619/PaisaTrail",
+      "title": "masaladosa619/PaisaTrail",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/masaladosa619/paisatrail",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-6",
+        "github-repositories-3-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/catrouter-net/claude-fable-5-2",
+      "title": "catrouter-net/claude-fable-5-2",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/catrouter-net/claude-fable-5-2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-6",
+        "github-repositories-3-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/bluesky-rgb/model-showdown",
+      "title": "bluesky-rgb/model-showdown",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/bluesky-rgb/model-showdown",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-6",
+        "github-repositories-3-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/bwoliveira/prompt-studio",
+      "title": "bwoliveira/prompt-studio",
+      "platform": "GitHub",
+      "date": "2026-09-27",
+      "sourceIdentity": "github.com/bwoliveira/prompt-studio",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-6",
+        "github-repositories-3-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/moain2026/Fable-5.2",
+      "title": "moain2026/Fable-5.2",
+      "platform": "GitHub",
+      "date": "2026-11-09",
+      "sourceIdentity": "github.com/moain2026/fable-5.2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-6",
+        "github-repositories-3-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/VoltexAI/Fable5.2-Test",
+      "title": "VoltexAI/Fable5.2-Test",
+      "platform": "GitHub",
+      "date": "2026-11-09",
+      "sourceIdentity": "github.com/voltexai/fable5.2-test",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-6",
+        "github-repositories-3-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/thequantling/fable-5.2-tests",
+      "title": "thequantling/fable-5.2-tests",
+      "platform": "GitHub",
+      "date": "2026-11-09",
+      "sourceIdentity": "github.com/thequantling/fable-5.2-tests",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-6",
+        "github-repositories-3-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/monokernn/FABLE-5.2-UNPACKED",
+      "title": "monokernn/FABLE-5.2-UNPACKED",
+      "platform": "GitHub",
+      "date": "2026-11-09",
+      "sourceIdentity": "github.com/monokernn/fable-5.2-unpacked",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-6",
+        "github-repositories-3-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/az9713/fable-5.2-demos",
+      "title": "az9713/fable-5.2-demos",
+      "platform": "GitHub",
+      "date": "2026-11-09",
+      "sourceIdentity": "github.com/az9713/fable-5.2-demos",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-6",
+        "github-repositories-3-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Para-FR/claude-fable-5.2-flight-sim",
+      "title": "Para-FR/claude-fable-5.2-flight-sim",
+      "platform": "GitHub",
+      "date": "2026-11-09",
+      "sourceIdentity": "github.com/para-fr/claude-fable-5.2-flight-sim",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-6",
+        "github-repositories-3-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/MiaAI-Lab/Claude-Fable-5.2-HTML-Files",
+      "title": "MiaAI-Lab/Claude-Fable-5.2-HTML-Files",
+      "platform": "GitHub",
+      "date": "2026-11-09",
+      "sourceIdentity": "github.com/miaai-lab/claude-fable-5.2-html-files",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-6",
+        "github-repositories-3-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/perron/fable-migrate-check",
+      "title": "perron/fable-migrate-check",
+      "platform": "GitHub",
+      "date": "2026-11-09",
+      "sourceIdentity": "github.com/perron/fable-migrate-check",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-6",
+        "github-repositories-3-page-7"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/perron/fablescan",
+      "title": "perron/fablescan",
+      "platform": "GitHub",
+      "date": "2026-11-09",
+      "sourceIdentity": "github.com/perron/fablescan",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-6",
+        "github-repositories-3-page-7"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/l1ly-time/infinity-board",
+      "title": "l1ly-time/infinity-board",
+      "platform": "GitHub",
+      "date": "2026-11-09",
+      "sourceIdentity": "github.com/l1ly-time/infinity-board",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-7",
+        "github-repositories-3-page-7"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/perpetuity369/fable-5.2-system-prompt",
+      "title": "perpetuity369/fable-5.2-system-prompt",
+      "platform": "GitHub",
+      "date": "2026-11-09",
+      "sourceIdentity": "github.com/perpetuity369/fable-5.2-system-prompt",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-7",
+        "github-repositories-3-page-7"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/preacherxp/fable-five",
+      "title": "preacherxp/fable-five",
+      "platform": "GitHub",
+      "date": "2026-11-09",
+      "sourceIdentity": "github.com/preacherxp/fable-five",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-7",
+        "github-repositories-3-page-7"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/akashmakesdesigns/fable-sites",
+      "title": "akashmakesdesigns/fable-sites",
+      "platform": "GitHub",
+      "date": "2026-11-09",
+      "sourceIdentity": "github.com/akashmakesdesigns/fable-sites",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-7",
+        "github-repositories-3-page-7"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/anstapnever/blackout",
+      "title": "anstapnever/blackout",
+      "platform": "GitHub",
+      "date": "2026-11-09",
+      "sourceIdentity": "github.com/anstapnever/blackout",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-7",
+        "github-repositories-3-page-7"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/ThePeeps191/fable-5.2-high-test",
+      "title": "ThePeeps191/fable-5.2-high-test",
+      "platform": "GitHub",
+      "date": "2026-11-09",
+      "sourceIdentity": "github.com/thepeeps191/fable-5.2-high-test",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1-page-7",
+        "github-repositories-3-page-7"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50444229",
+      "title": "Gemini 4 Carbon is now available",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50444229",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50443998",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50443998",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50443799",
+      "title": "Gemini 4 Carbon is now available",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50443799",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50443704",
+      "title": "Gemini 4 Carbon is now available",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50443704",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50443651",
+      "title": "Gemini 4 Carbon is now available",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50443651",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50443607",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50443607",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50443121",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50443121",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50442822",
+      "title": "Blender 5.3 released with Gaussian Splat support",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50442822",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50442801",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50442801",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50442774",
+      "title": "Gemini 4 Carbon is now available",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50442774",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50442664",
+      "title": "Fable 5.2 and Jagged AGI",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50442664",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50442491",
+      "title": "Wake me up when AI can...",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50442491",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50441525",
+      "title": "Claude Fable 5.2 from Anthropic, Added to Personality Bench",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50441525",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50440771",
+      "title": "Ask HN: Anyone else notice Fable 5.2 making grammar errors?",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50440771",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50440717",
+      "title": "Indie Game Development with AI",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50440717",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50440079",
+      "title": "Claude Fable 5.2, one day later [video]",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50440079",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50439835",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50439835",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50438714",
+      "title": "Show HN: An alien pressing against wired glass, in Three.js (Claude Fable 5.2)",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50438714",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50438650",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50438650",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50438609",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50438609",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50438506",
+      "title": "Ask HN: Anyone else notice Fable 5.2 making grammar errors?",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50438506",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50438432",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50438432",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50438393",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50438393",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50438303",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50438303",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50438258",
+      "title": "Fable 5.2 one-shotted my nephew's dream game",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50438258",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50438133",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50438133",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50438066",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50438066",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50437963",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50437963",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50437917",
+      "title": "Is Fable 5.2 just Opus 5.5 with a higher effort setting?",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50437917",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50437895",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50437895",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50437877",
+      "title": "On Being an Engineer in 2026",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50437877",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50437778",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50437778",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50437524",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50437524",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50437195",
+      "title": "Fable 5.2 one-shotted my nephew's dream game",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50437195",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50437194",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50437194",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50437146",
+      "title": "Fable 5.2 one-shotted my nephew's dream game",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50437146",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50436761",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50436761",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50436557",
+      "title": "Locating the source of a mysterious beep",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50436557",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50436355",
+      "title": "Locating the source of a mysterious beep",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50436355",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50436252",
+      "title": "Fable 5.2 and Jagged AGI: General, often expert, and sometimes jagged",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50436252",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50436244",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50436244",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50436100",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50436100",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50436080",
+      "title": "Fable 5.2 one-shotted my nephew's dream game",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50436080",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50435964",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50435964",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50435961",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50435961",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50435911",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50435911",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50435823",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50435823",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50435753",
+      "title": "On Being an Engineer in 2026",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50435753",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50435641",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50435641",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50435590",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50435590",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50435571",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50435571",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50435534",
+      "title": "Fable 5.2 one-shotted my nephew's dream game",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50435534",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50435303",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50435303",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50435143",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50435143",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50435095",
+      "title": "Fable 5.2 one-shotted my nephew's dream game",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50435095",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50435040",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50435040",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50435003",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50435003",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50434942",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50434942",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50434936",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50434936",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50434921",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50434921",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50434873",
+      "title": "Fable 5.2 one-shotted my nephew's dream game",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50434873",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50434784",
+      "title": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50434784",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50434753",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50434753",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50434750",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50434750",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50434685",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50434685",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50434619",
+      "title": "Fable 5.2 one-shotted my nephew's dream game",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50434619",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50434558",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50434558",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50434508",
+      "title": "Fable 5.2 one-shotted my nephew's dream game",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50434508",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50434458",
+      "title": "Fable 5.2 one-shotted my nephew's dream game",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50434458",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50434433",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50434433",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50434424",
+      "title": "Fable 5.2 one-shotted my nephew's dream game",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50434424",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50434389",
+      "title": "Fable 5.2 one-shotted my nephew's dream game",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50434389",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50434223",
+      "title": "Fable 5.2 one-shotted my nephew's dream game",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50434223",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50434214",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "platform": "Hacker News",
+      "date": "2026-11-10",
+      "sourceIdentity": "news.ycombinator.com/item?id=50434214",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50434156",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50434156",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50433963",
+      "title": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50433963",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50433961",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50433961",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50433738",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50433738",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50433706",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50433706",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50433540",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50433540",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50433520",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50433520",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50433399",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50433399",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50433272",
+      "title": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50433272",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50433270",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50433270",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50433058",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50433058",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50433049",
+      "title": "AI labs raise prices without raising prices",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50433049",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50433004",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50433004",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-4"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50432977",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50432977",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50432968",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50432968",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50432936",
+      "title": "Is Opus 5.5 nerfed? Thinking patterns changed on November 3",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50432936",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50432902",
+      "title": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50432902",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50432836",
+      "title": "Show HN: Fable 5.2 made a fun Claude castaway clone",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50432836",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50432816",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50432816",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50432710",
+      "title": "Fable 5.2 is a jump in TakingYourJobBench",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50432710",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50432663",
+      "title": "Claude Fable 5.2 launch offers",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50432663",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50432566",
+      "title": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50432566",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50432483",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50432483",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50432456",
+      "title": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50432456",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50432449",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50432449",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50432419",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50432419",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50432212",
+      "title": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50432212",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50432202",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50432202",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50431894",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50431894",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50431882",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50431882",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50431810",
+      "title": "On Being an Engineer in 2026",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50431810",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50431691",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50431691",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50431650",
+      "title": "Is Opus 5.5 nerfed? Thinking patterns changed on November 3",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50431650",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50431536",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50431536",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50431452",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50431452",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50431435",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50431435",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50431418",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50431418",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50431344",
+      "title": "Fable 5.2 and Jagged AGI",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50431344",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50431328",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50431328",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-5"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50431225",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50431225",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50431198",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50431198",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50431164",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50431164",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50431080",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50431080",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50431044",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50431044",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50431037",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50431037",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50431031",
+      "title": "Is Opus 5.5 nerfed? Thinking patterns changed on November 3",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50431031",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430969",
+      "title": "Speeding up Quantum Espresso by 36x using Claude Fable 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430969",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430962",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430962",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430943",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430943",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430938",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430938",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430931",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430931",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430925",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430925",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430766",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430766",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430693",
+      "title": "System Card: Claude Fable 5.2 and Claude Mythos 5.2 [pdf]",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430693",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430687",
+      "title": "Claude Fable 5.2 designs a working voice assistant [video]",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430687",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430590",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430590",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430544",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430544",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430443",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430443",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430419",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430419",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430379",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430379",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430364",
+      "title": "Claude Fable 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430364",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430273",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430273",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430248",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430248",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430228",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430228",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430183",
+      "title": "Is Opus 5.5 nerfed? Thinking patterns changed on November 3",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430183",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-6"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430150",
+      "title": "Is Opus 5.5 nerfed? Thinking patterns changed on November 3",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430150",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-7"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430085",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430085",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-7"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50430067",
+      "title": "Fable 5.2 Available in Claude Desktop",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50430067",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-7"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50429993",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50429993",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-7"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50429947",
+      "title": "Claude Fable 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50429947",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-7"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50429906",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50429906",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-7"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50429068",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50429068",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-7"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50423935",
+      "title": "Tell HN: A flood of reports of Opus 5.5 being nerfed",
+      "platform": "Hacker News",
+      "date": "2026-11-09",
+      "sourceIdentity": "news.ycombinator.com/item?id=50423935",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1-page-7"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/mirzahusadzic/unified-model-router",
+      "title": "mirzahusadzic/unified-model-router",
+      "platform": "GitHub",
+      "date": "2026-10-18",
+      "sourceIdentity": "github.com/mirzahusadzic/unified-model-router",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-3-page-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/mythos-5-2/Claude-Mythos-5.2-Free",
+      "title": "mythos-5-2/Claude-Mythos-5.2-Free",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/mythos-5-2/claude-mythos-5.2-free",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-3-page-5"
+      ]
+    }
+  ],
+  "pagination": {
+    "additionalPagesAttempted": 18,
+    "maximumPagesPerQuery": 10,
+    "method": "GitHub page is 1-based; HN page is 0-based."
+  }
+}

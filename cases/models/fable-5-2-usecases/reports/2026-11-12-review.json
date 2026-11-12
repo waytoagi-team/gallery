@@ -1,0 +1,2858 @@
+{
+  "checkedAt": "2026-11-12T05:33:41+00:00",
+  "previousCount": 26,
+  "caseCount": 72,
+  "addedCaseIds": [
+    "fable52-x-2120026765523665272",
+    "fable52-x-2120025125076844785",
+    "fable52-x-2120024536955638078",
+    "fable52-x-2120024471100907802",
+    "fable52-x-2120024384685613199",
+    "fable52-x-2120023093464682817",
+    "fable52-x-2120021610161996053",
+    "fable52-x-2120021475495403789",
+    "fable52-x-2120020469487440210",
+    "fable52-x-2120017840434823227",
+    "fable52-x-2120017467812778053",
+    "fable52-x-2120017106804900304",
+    "fable52-x-2120017100844814354",
+    "fable52-x-2120015289165426836",
+    "fable52-x-2120014892040417720",
+    "fable52-x-2120014570790195600",
+    "fable52-x-2120013209554047013",
+    "fable52-x-2120007830065614926",
+    "fable52-x-2119910344998912507",
+    "fable52-x-2119909938969580024",
+    "fable52-x-2119909371484213380",
+    "fable52-x-2119907841599496421",
+    "fable52-x-2119907039669575757",
+    "fable52-x-2119906202330988961",
+    "fable52-x-2119904269235277978",
+    "fable52-x-2119903463735799971",
+    "fable52-x-2119900775727902732",
+    "fable52-x-2119896030993146101",
+    "fable52-x-2119895459519168558",
+    "fable52-x-2119894929795145756",
+    "fable52-x-2119894073024606617",
+    "fable52-x-2119893970897490135",
+    "fable52-x-2119891197317591040",
+    "fable52-x-2119887623070077213",
+    "fable52-x-2119879273196761464",
+    "fable52-x-2119869170871652487",
+    "fable52-x-2119925633564463609",
+    "fable52-gh-basemazab-tuktuk",
+    "fable52-gh-jiaaqiliu-xuanji-x1",
+    "fable52-gh-mdchia-fable-moonward",
+    "fable52-bili-BV1mHWM6YEkP",
+    "fable52-bili-BV1gsWg6gEis",
+    "fable52-bili-BV1edWM63Ewd",
+    "fable52-yt-H0OeHaQ3L84",
+    "fable52-yt-82EJCUmD4O4",
+    "fable52-tria-prima"
+  ],
+  "previousPosters": 1,
+  "localPosters": 56,
+  "failedPosters": [],
+  "rootCause": "25 of 26 previously published cases had no poster field; the one Bilibili image loads successfully.",
+  "limitations": [
+    "Partial public-web coverage; no exhaustive-internet claim.",
+    "Model identity, performance, cost and scientific claims remain author-reported.",
+    "Only source-linked images are used; no generic illustrations for sources without images."
+  ],
+  "newCasesByPlatform": {
+    "X": 37,
+    "GitHub": 3,
+    "Reddit": 1,
+    "Bilibili": 3,
+    "YouTube": 2
+  },
+  "discovery": {
+    "apiRequests": 24,
+    "apiSucceeded": 24,
+    "apiCandidates": 385,
+    "galleryCandidates": 157,
+    "xRequests": 169,
+    "xSucceeded": 165,
+    "webQueries": 6
+  },
+  "missingPosters": [
+    {
+      "id": "fable52-sirbost-712653",
+      "sourceUrl": "https://x.com/Sirbost/status/2120028393131712653",
+      "reason": "No suitable source-linked project image verified; kept as text-only case."
+    },
+    {
+      "id": "fable52-shumer-tests",
+      "sourceUrl": "https://x.com/mattshumer_/status/2119886664017547687",
+      "reason": "No suitable source-linked project image verified; kept as text-only case."
+    },
+    {
+      "id": "fable52-daedalus",
+      "sourceUrl": "https://github.com/S77FFY/daedalus",
+      "reason": "No suitable source-linked project image verified; kept as text-only case."
+    },
+    {
+      "id": "fable52-chess",
+      "sourceUrl": "https://github.com/davidramsay95/claude-chess_fable_5-2_20261110",
+      "reason": "No suitable source-linked project image verified; kept as text-only case."
+    },
+    {
+      "id": "fable52-gh-basemazab-tuktuk",
+      "sourceUrl": "https://github.com/basemazab/tuktuk",
+      "reason": "No suitable source-linked project image verified; kept as text-only case."
+    },
+    {
+      "id": "fable52-gh-jiaaqiliu-xuanji-x1",
+      "sourceUrl": "https://github.com/Jiaaqiliu/xuanji-x1",
+      "reason": "No suitable source-linked project image verified; kept as text-only case."
+    },
+    {
+      "id": "fable52-gh-mdchia-fable-moonward",
+      "sourceUrl": "https://github.com/mdchia/fable-moonward",
+      "reason": "No suitable source-linked project image verified; kept as text-only case."
+    },
+    {
+      "id": "fable52-python-rust",
+      "sourceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "reason": "No suitable source-linked project image verified; kept as text-only case."
+    },
+    {
+      "id": "fable52-os",
+      "sourceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "reason": "No suitable source-linked project image verified; kept as text-only case."
+    },
+    {
+      "id": "fable52-hardware",
+      "sourceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "reason": "No suitable source-linked project image verified; kept as text-only case."
+    },
+    {
+      "id": "fable52-robotics",
+      "sourceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "reason": "No suitable source-linked project image verified; kept as text-only case."
+    },
+    {
+      "id": "fable52-oracle-sql",
+      "sourceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "reason": "No suitable source-linked project image verified; kept as text-only case."
+    },
+    {
+      "id": "fable52-uber-audit",
+      "sourceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "reason": "No suitable source-linked project image verified; kept as text-only case."
+    },
+    {
+      "id": "fable52-phonon",
+      "sourceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "reason": "No suitable source-linked project image verified; kept as text-only case."
+    },
+    {
+      "id": "fable52-loan-review",
+      "sourceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "reason": "No suitable source-linked project image verified; kept as text-only case."
+    },
+    {
+      "id": "fable52-cat-animation",
+      "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1xs3cjx/i_did_a_cat_animation_test_with_fable52extra/",
+      "reason": "No suitable source-linked project image verified; kept as text-only case."
+    }
+  ],
+  "imageReceipts": [
+    {
+      "id": "fable52-hyuki-993504",
+      "sourceUrl": "https://x.com/hyuki/status/2120029845572993504",
+      "title_en": "Group-theory symmetry film generated with code",
+      "poster": "assets/case-posters/fable52-hyuki-993504.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/hyuki/status/2120029845572993504",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120029075490451456/img/LakXkRETvZVXQA8b.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120029075490451456/img/LakXkRETvZVXQA8b.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "5c9203f7f6f3022a79a090a7feae78a93eaf24ecdcc6389f0a18243da81ab900"
+      }
+    },
+    {
+      "id": "fable52-yupi996-694138",
+      "sourceUrl": "https://x.com/yupi996/status/2120029153185694138",
+      "title_en": "An ancient-scroll AI coding study path",
+      "poster": "assets/case-posters/fable52-yupi996-694138.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/yupi996/status/2120029153185694138",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120023755523280896/img/bo-Vy6mmR7SPDj_R.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120023755523280896/img/bo-Vy6mmR7SPDj_R.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 391,
+        "imageSha256": "a3578678552baeaad5ae27e6c6f9b7a3404b026bb3d1715d8fda9e87c8b1c52b"
+      }
+    },
+    {
+      "id": "fable52-motion-so-361891",
+      "sourceUrl": "https://x.com/motion_so/status/2120029008809361891",
+      "title_en": "Animation comparison with the same prompt",
+      "poster": "assets/case-posters/fable52-motion-so-361891.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/motion_so/status/2120029008809361891",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120028443060342784/img/pArozeUaw_Ht45Yw.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120028443060342784/img/pArozeUaw_Ht45Yw.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "32322ffbcf1b26c1491d6ac8480431babb6ca26e053243be5b68a8876b384acd"
+      }
+    },
+    {
+      "id": "fable52-dubibubiii-425413",
+      "sourceUrl": "https://x.com/Dubibubiii/status/2120028715258425413",
+      "title_en": "Claude mascot evolution animation comparison",
+      "poster": "assets/case-posters/fable52-dubibubiii-425413.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/Dubibubiii/status/2120028715258425413",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120028288584474624/img/IR0eaNdpPDcOTNlN.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120028288584474624/img/IR0eaNdpPDcOTNlN.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 286,
+        "imageSha256": "ad76430b6009fdb340c3eff0e638db60142538cd9d594456fcb9dca564033376"
+      }
+    },
+    {
+      "id": "fable52-kernelchai-628006",
+      "sourceUrl": "https://x.com/KernelChai/status/2120028680055628006",
+      "title_en": "Chai-stall games from the same prompt",
+      "poster": "assets/case-posters/fable52-kernelchai-628006.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/KernelChai/status/2120028680055628006",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120028484303228928/img/AMLL7Tlb1EwtqEfr.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120028484303228928/img/AMLL7Tlb1EwtqEfr.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "2ceb8375d607de63a124ef9cb9eec9a36a1cab727c25efd00b8849f0bb93ed77"
+      }
+    },
+    {
+      "id": "fable52-makaneko-ai-938583",
+      "sourceUrl": "https://x.com/makaneko_AI/status/2120028638833938583",
+      "title_en": "Multi-task website, drawing and 3D comparison",
+      "poster": "assets/case-posters/fable52-makaneko-ai-938583.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/makaneko_AI/status/2120028638833938583",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120028599730438144/img/t6z_QugKZEFkYOoy.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120028599730438144/img/t6z_QugKZEFkYOoy.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "8868a94897a21f85f832ec0c74df81fdb5c8b8a0363864d7645a1ba3abeb2daf"
+      }
+    },
+    {
+      "id": "fable52-augustobuilds-283723",
+      "sourceUrl": "https://x.com/AugustoBuilds/status/2120027646071283723",
+      "title_en": "Hero in Motion: click-to-load video hero",
+      "poster": "assets/case-posters/fable52-augustobuilds-283723.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/AugustoBuilds/status/2120027646071283723",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120027622662909952/img/e4fbrtJsOwePpoQy.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120027622662909952/img/e4fbrtJsOwePpoQy.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 680,
+        "imageSha256": "f87d74587e0dfbb80ec08f54499d087a53955ba21696c5a3532ce240adaead9f"
+      }
+    },
+    {
+      "id": "fable52-leohuanfang-934713",
+      "sourceUrl": "https://x.com/leohuanfang/status/2120027555960934713",
+      "title_en": "Retesting robot, ship and stickman prompts",
+      "poster": "assets/case-posters/fable52-leohuanfang-934713.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/leohuanfang/status/2120027555960934713",
+        "sourceImageUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2120027527884283904/pu/img/zGLpl61037JoHYV5.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2120027527884283904/pu/img/zGLpl61037JoHYV5.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 383,
+        "height": 680,
+        "imageSha256": "030d0fec478dabc4337f21d6607e6abc9087c4832cc278a8e64c555639185b76"
+      }
+    },
+    {
+      "id": "fable52-satya5n21-267380",
+      "sourceUrl": "https://x.com/satya5n21/status/2120027542967267380",
+      "title_en": "Afterglow: an explorable alien landscape",
+      "poster": "assets/case-posters/fable52-satya5n21-267380.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/satya5n21/status/2120027542967267380",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120024289760157696/img/NfFQdpCoeRbi2erh.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120024289760157696/img/NfFQdpCoeRbi2erh.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 448,
+        "imageSha256": "156ed45506dbeb483b547df160449319f6976b3961b0ad03f4f1555a6978dc40"
+      }
+    },
+    {
+      "id": "fable52-riley-blender",
+      "sourceUrl": "https://x.com/rileybrown/status/2119902109709537708",
+      "title_en": "Blender room film and cloud rendering",
+      "poster": "assets/case-posters/fable52-riley-blender.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/rileybrown/status/2119902109709537708",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119897796736131072/img/uYa4QI709MAYcBH3.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119897796736131072/img/uYa4QI709MAYcBH3.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "9920f5db4fac2e932a1728ed62cd30afde316e90de2cda42ac2d210147a2ef3d"
+      }
+    },
+    {
+      "id": "fable52-theo-fishslop",
+      "sourceUrl": "https://x.com/theo/status/2119926277801144695",
+      "title_en": "Fishslop: cost and playability trade-offs",
+      "poster": "assets/case-posters/fable52-theo-fishslop.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/theo/status/2119926277801144695",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119926035043237888/img/aTQDq8qWdKxg9zBR.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119926035043237888/img/aTQDq8qWdKxg9zBR.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 679,
+        "height": 468,
+        "imageSha256": "3fcae0c4c04941ef17e74235bad2a48c26d562bd08ef8f0aa987e5ead7528c99"
+      }
+    },
+    {
+      "id": "fable52-x-2120026765523665272",
+      "sourceUrl": "https://x.com/RoketsSI/status/2120026765523665272",
+      "title_en": "AirTranslate: a vertical launch film for a live-caption Mac app",
+      "poster": "assets/case-posters/fable52-x-2120026765523665272.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/RoketsSI/status/2120026765523665272",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120026669000040448/img/aT8uXcHrcM9UfGdT.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120026669000040448/img/aT8uXcHrcM9UfGdT.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 383,
+        "height": 680,
+        "imageSha256": "65628b4de70a1d5c336c1f43af7c99632cbd110a3018e9def79da5b3ee816099"
+      }
+    },
+    {
+      "id": "fable52-x-2120025125076844785",
+      "sourceUrl": "https://x.com/Shannnu_18/status/2120025125076844785",
+      "title_en": "Aurora 9: a rocket launch simulation from pad to a 210 km orbit",
+      "poster": "assets/case-posters/fable52-x-2120025125076844785.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/Shannnu_18/status/2120025125076844785",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120025037176745984/img/5eJhLE71gbYlOKuD.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120025037176745984/img/5eJhLE71gbYlOKuD.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "cf874c4fbfa86d24ea00b15b0ee7a2add831a8f57167f7d3214488b4a312c5ae"
+      }
+    },
+    {
+      "id": "fable52-x-2120024536955638078",
+      "sourceUrl": "https://x.com/akionionio/status/2120024536955638078",
+      "title_en": "A construction site cockpit that grows a 3D city block over two years",
+      "poster": "assets/case-posters/fable52-x-2120024536955638078.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/akionionio/status/2120024536955638078",
+        "sourceImageUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2120024489958543360/pu/img/RCtIMVdgHOaSt7iN.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2120024489958543360/pu/img/RCtIMVdgHOaSt7iN.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "33be8fcc65a7fdb40a7fcf82ed226935ebe8c1dc339ec6348dd05617721eee09"
+      }
+    },
+    {
+      "id": "fable52-x-2120024471100907802",
+      "sourceUrl": "https://x.com/AlexStLouis10/status/2120024471100907802",
+      "title_en": "Blueline: a 3D ice hockey browser game with penalties and power plays",
+      "poster": "assets/case-posters/fable52-x-2120024471100907802.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/AlexStLouis10/status/2120024471100907802",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120023916563644416/img/MRIPWdEowDWEjfc0.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120023916563644416/img/MRIPWdEowDWEjfc0.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "2e30e85d53059f3b607670627d7189eb11326f6e0374a106855598d674f77262"
+      }
+    },
+    {
+      "id": "fable52-x-2120024384685613199",
+      "sourceUrl": "https://x.com/LovekeshAnand07/status/2120024384685613199",
+      "title_en": "whyred: a glitchy launch film for a CI log diagnosis tool",
+      "poster": "assets/case-posters/fable52-x-2120024384685613199.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/LovekeshAnand07/status/2120024384685613199",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120024241877946368/img/H-rsfyijYM-UG9ft.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120024241877946368/img/H-rsfyijYM-UG9ft.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "38b4f4765ac76da4fc4de9ac82d813033e1b30ad4b7d391b0327bf6b83f4779d"
+      }
+    },
+    {
+      "id": "fable52-x-2120023093464682817",
+      "sourceUrl": "https://x.com/czzzzzzJ_/status/2120023093464682817",
+      "title_en": "A keynote-style promo film for a Chinese AI knowledge site",
+      "poster": "assets/case-posters/fable52-x-2120023093464682817.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/czzzzzzJ_/status/2120023093464682817",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120022717013409792/img/KrbjrQ_a5-XvnCXc.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120022717013409792/img/KrbjrQ_a5-XvnCXc.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "39f86269967dfa4288280dd12d10642d5a99a14665a35952b8e27799bee24230"
+      }
+    },
+    {
+      "id": "fable52-x-2120021610161996053",
+      "sourceUrl": "https://x.com/MrTacticalX/status/2120021610161996053",
+      "title_en": "Fable 5.2 vs Opus 5.5: a floating windmill island in Minecraft style",
+      "poster": "assets/case-posters/fable52-x-2120021610161996053.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/MrTacticalX/status/2120021610161996053",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120021356519497729/img/MJipzEFZOsL6wOkM.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120021356519497729/img/MJipzEFZOsL6wOkM.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 544,
+        "height": 680,
+        "imageSha256": "853911ba84a48978e1678980e1be5a0a06d28384e505ada5ed2531c8c046b998"
+      }
+    },
+    {
+      "id": "fable52-x-2120021475495403789",
+      "sourceUrl": "https://x.com/rehan_shei/status/2120021475495403789",
+      "title_en": "A zombie bird character built, rigged and animated in Blender",
+      "poster": "assets/case-posters/fable52-x-2120021475495403789.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/rehan_shei/status/2120021475495403789",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120021261338509312/img/7z7uqxuvZtkNc-53.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120021261338509312/img/7z7uqxuvZtkNc-53.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "117da362071bff42811fccbdb4e4a906f9882ccb8e341a2f01b3b568e265a793"
+      }
+    },
+    {
+      "id": "fable52-x-2120020469487440210",
+      "sourceUrl": "https://x.com/alightinastorm/status/2120020469487440210",
+      "title_en": "A browser first-person shooter with an armory and a desert town map",
+      "poster": "assets/case-posters/fable52-x-2120020469487440210.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/alightinastorm/status/2120020469487440210",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120020347520966656/img/9AIT_SdyWJU_RkCg.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120020347520966656/img/9AIT_SdyWJU_RkCg.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 384,
+        "imageSha256": "ae9e683baf6c6084133ebfdfbddde1c6aaba712edd54a4e055a4054a5584d103"
+      }
+    },
+    {
+      "id": "fable52-x-2120017840434823227",
+      "sourceUrl": "https://x.com/genel_ai/status/2120017840434823227",
+      "title_en": "Opus 5.5 vs Fable 5.2 designing the same chicken lunch truck website",
+      "poster": "assets/case-posters/fable52-x-2120017840434823227.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/genel_ai/status/2120017840434823227",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120017735593918464/img/IJ32NV3FBIfxxiWM.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120017735593918464/img/IJ32NV3FBIfxxiWM.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 544,
+        "height": 680,
+        "imageSha256": "1758f91b05ff1760989bccd8f52c812524e85bfc2174f588f63dc3d701632574"
+      }
+    },
+    {
+      "id": "fable52-x-2120017467812778053",
+      "sourceUrl": "https://x.com/PorisRora/status/2120017467812778053",
+      "title_en": "A blocky Minecraft-style world of cliffs, cherry trees and floating islands",
+      "poster": "assets/case-posters/fable52-x-2120017467812778053.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/PorisRora/status/2120017467812778053",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120013087353004032/img/535AoeCQFBI8lpF0.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120013087353004032/img/535AoeCQFBI8lpF0.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "7741b6842c6a73aecccd6a647557d2be9aeb5cf50d6bdb12ff7064d9ba81ddbb"
+      }
+    },
+    {
+      "id": "fable52-x-2120017106804900304",
+      "sourceUrl": "https://x.com/himanshutwtxs/status/2120017106804900304",
+      "title_en": "A one-prompt motion designer showreel: timing, easing, shape and type",
+      "poster": "assets/case-posters/fable52-x-2120017106804900304.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/himanshutwtxs/status/2120017106804900304",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120016926374260736/img/aPCGTN5hM19Qv5mx.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120016926374260736/img/aPCGTN5hM19Qv5mx.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "161977e04c923fbadf59a0b20c1126f59412a4702b6d910e63e8ad594846fea2"
+      }
+    },
+    {
+      "id": "fable52-x-2120017100844814354",
+      "sourceUrl": "https://x.com/deedee_kon45120/status/2120017100844814354",
+      "title_en": "A pelican with a red scarf rides a bicycle along a seaside road",
+      "poster": "assets/case-posters/fable52-x-2120017100844814354.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/deedee_kon45120/status/2120017100844814354",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120017047048617984/img/7RxIslmlICQT-Tdj.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120017047048617984/img/7RxIslmlICQT-Tdj.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "51e3725ff60b6c6e5974e920e296b9d7fb6e1b0701d29093a39d7353d45c15c6"
+      }
+    },
+    {
+      "id": "fable52-x-2120015289165426836",
+      "sourceUrl": "https://x.com/0x_zyven/status/2120015289165426836",
+      "title_en": "A neon night race through a rainy city, finishing in first place",
+      "poster": "assets/case-posters/fable52-x-2120015289165426836.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/0x_zyven/status/2120015289165426836",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120015254268919808/img/lRoQwuSJAae8NVbV.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120015254268919808/img/lRoQwuSJAae8NVbV.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "e49b24303f0b3cdacfeecf4efce8f2c969b9ca0cb3e2eee48c7d8bedae27860d"
+      }
+    },
+    {
+      "id": "fable52-x-2120014892040417720",
+      "sourceUrl": "https://x.com/wshuyi/status/2120014892040417720",
+      "title_en": "A sabertooth cat hunts a bison on a golden steppe",
+      "poster": "assets/case-posters/fable52-x-2120014892040417720.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/wshuyi/status/2120014892040417720",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120014231450034176/img/dDRJCDH_K5Kdoafm.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120014231450034176/img/dDRJCDH_K5Kdoafm.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "d3f34438a6b40d59dbb28c55418a62b1447133e2ffae99b8abf182aff50111e7"
+      }
+    },
+    {
+      "id": "fable52-x-2120014570790195600",
+      "sourceUrl": "https://x.com/davishaal/status/2120014570790195600",
+      "title_en": "Sayonara, After School: an anime trailer about a paper plane and a seaside town",
+      "poster": "assets/case-posters/fable52-x-2120014570790195600.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/davishaal/status/2120014570790195600",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120011260611952640/img/9IowShf1kUrff7yh.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120011260611952640/img/9IowShf1kUrff7yh.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "b5d3f7392ef84aef5475975e02163bbdd9aedf72140fa9615cad39fbbe1e77e4"
+      }
+    },
+    {
+      "id": "fable52-x-2120013209554047013",
+      "sourceUrl": "https://x.com/akira_papa_IT/status/2120013209554047013",
+      "title_en": "A ten-minute Japanese explainer on Fable 5.2, made by Fable 5.2",
+      "poster": "assets/case-posters/fable52-x-2120013209554047013.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/akira_papa_IT/status/2120013209554047013",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120011730181132288/img/bY8VbAJ7cq7HXPQF.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120011730181132288/img/bY8VbAJ7cq7HXPQF.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "e31e8814173f13297e913a744d26d11a3e69e441392dd89014d31812b0196bec"
+      }
+    },
+    {
+      "id": "fable52-x-2120007830065614926",
+      "sourceUrl": "https://x.com/higgsfield_ai/status/2120007830065614926",
+      "title_en": "TORQK: a launch film for a robot joint that Fable invented and built in Blender",
+      "poster": "assets/case-posters/fable52-x-2120007830065614926.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/higgsfield_ai/status/2120007830065614926",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120007518940549120/img/-kDCXtkme65vRzj6.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120007518940549120/img/-kDCXtkme65vRzj6.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "f5e42d688d906a144568972aa0f850b6f2b081c527604ebc66ab35770239c8eb"
+      }
+    },
+    {
+      "id": "fable52-x-2119910344998912507",
+      "sourceUrl": "https://x.com/higgsfield_ai/status/2119910344998912507",
+      "title_en": "Paris, 1940: a rainy night street with searchlights over the river",
+      "poster": "assets/case-posters/fable52-x-2119910344998912507.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/higgsfield_ai/status/2119910344998912507",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119909152743194624/img/vNIxkxZoqRAnk3QO.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119909152743194624/img/vNIxkxZoqRAnk3QO.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "7239ae85665924f3e421f6d1165a3ebb6ce9a3e30a1f3640e3fd53b774b83b37"
+      }
+    },
+    {
+      "id": "fable52-x-2119909938969580024",
+      "sourceUrl": "https://x.com/higgsfield_ai/status/2119909938969580024",
+      "title_en": "Lip tracking in code: a new voice synced to a woman's mouth in a diner",
+      "poster": "assets/case-posters/fable52-x-2119909938969580024.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/higgsfield_ai/status/2119909938969580024",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119909898960130048/img/qwr0_DMkmLPc0Iv6.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119909898960130048/img/qwr0_DMkmLPc0Iv6.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 510,
+        "imageSha256": "2309176cc127eb84d16f020cec6e7146519c35c35328434fc59b81d2a95b7fb8"
+      }
+    },
+    {
+      "id": "fable52-x-2119909371484213380",
+      "sourceUrl": "https://x.com/s_matysik/status/2119909371484213380",
+      "title_en": "A command-center dashboard with a 3D knowledge graph",
+      "poster": "assets/case-posters/fable52-x-2119909371484213380.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/s_matysik/status/2119909371484213380",
+        "sourceImageUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2119909140998823936/pu/img/Jlvo1NLF--_kSInr.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2119909140998823936/pu/img/Jlvo1NLF--_kSInr.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "838efbf71277e42f3a189c39c8eb1c3f706dcbdcd8dcc40803681239e2d43534"
+      }
+    },
+    {
+      "id": "fable52-x-2119907841599496421",
+      "sourceUrl": "https://x.com/higgsfield_ai/status/2119907841599496421",
+      "title_en": "A fly's-eye view of a backyard picnic in Three.js",
+      "poster": "assets/case-posters/fable52-x-2119907841599496421.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/higgsfield_ai/status/2119907841599496421",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119907568432934912/img/orJw8OffHPubvbZK.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119907568432934912/img/orJw8OffHPubvbZK.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "ef6164aa88e69fbbf17151f61d378d04fa52d9a816c8f31ae21eb5a841c84878"
+      }
+    },
+    {
+      "id": "fable52-x-2119907039669575757",
+      "sourceUrl": "https://x.com/whydeso/status/2119907039669575757",
+      "title_en": "Gemini 4 Argon vs Fable 5.2 making a top-down crime game",
+      "poster": "assets/case-posters/fable52-x-2119907039669575757.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/whydeso/status/2119907039669575757",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119905063116140544/img/hm7An7RbHs_mpMbt.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119905063116140544/img/hm7An7RbHs_mpMbt.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 453,
+        "imageSha256": "cc55766de529d2c8b037aedd361a24e1c253e941d0ad03849ad95aea82daad81"
+      }
+    },
+    {
+      "id": "fable52-x-2119906202330988961",
+      "sourceUrl": "https://x.com/sprinntt/status/2119906202330988961",
+      "title_en": "A ramen stall in the Tokyo night rain that turns to snow",
+      "poster": "assets/case-posters/fable52-x-2119906202330988961.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/sprinntt/status/2119906202330988961",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119905884365074432/img/wtdJc73u7gFsAnpE.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119905884365074432/img/wtdJc73u7gFsAnpE.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 382,
+        "imageSha256": "f95dba19fe3c7954e255871509a853a04b81ba6cef2031744f09fc49d01c536c"
+      }
+    },
+    {
+      "id": "fable52-x-2119904269235277978",
+      "sourceUrl": "https://x.com/higgsfield_ai/status/2119904269235277978",
+      "title_en": "A cat wakes an old robot in an overgrown ruin",
+      "poster": "assets/case-posters/fable52-x-2119904269235277978.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/higgsfield_ai/status/2119904269235277978",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119904158409256960/img/Xzpz8Ruz3rvGLWk5.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119904158409256960/img/Xzpz8Ruz3rvGLWk5.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "4652d87dce37306035487956a3a532f083ecfb839fda3c3ec5d5372262265f9a"
+      }
+    },
+    {
+      "id": "fable52-x-2119903463735799971",
+      "sourceUrl": "https://x.com/adityavg13/status/2119903463735799971",
+      "title_en": "First Battle of Geonosis: a Blender battle of droids, clones and gunships",
+      "poster": "assets/case-posters/fable52-x-2119903463735799971.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/adityavg13/status/2119903463735799971",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119903375407878145/img/gXRy2quU6K8PT4Jg.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119903375407878145/img/gXRy2quU6K8PT4Jg.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "7bcee7123b844e5398abd7967645f7a1a0a0b493c988a89a4afa89b96df1bafa"
+      }
+    },
+    {
+      "id": "fable52-x-2119900775727902732",
+      "sourceUrl": "https://x.com/kplikethebird/status/2119900775727902732",
+      "title_en": "Jerusalem at Passover: a 3D fly-through from the Temple to the Stepped Street",
+      "poster": "assets/case-posters/fable52-x-2119900775727902732.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/kplikethebird/status/2119900775727902732",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119900521687314432/img/W5YriXBU4c7l51fi.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119900521687314432/img/W5YriXBU4c7l51fi.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "5cdb5b03322790f9c95fdd9dc849f943c0ebae8e39d151b35c20c423edf714c1"
+      }
+    },
+    {
+      "id": "fable52-x-2119896030993146101",
+      "sourceUrl": "https://x.com/Ldataengineer/status/2119896030993146101",
+      "title_en": "Draining the North Atlantic: a 3D seafloor flyover down to 8,600 m",
+      "poster": "assets/case-posters/fable52-x-2119896030993146101.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/Ldataengineer/status/2119896030993146101",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119895394016522240/img/CduLN_7D-VNqu3mw.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119895394016522240/img/CduLN_7D-VNqu3mw.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "6df239684af5cbf2e3bac38f4acd2e9bc36be4fde8a49119fa79fd12203ced11"
+      }
+    },
+    {
+      "id": "fable52-x-2119895459519168558",
+      "sourceUrl": "https://x.com/higgsfield_ai/status/2119895459519168558",
+      "title_en": "An android head modelled part by part in Blender from a 360° video",
+      "poster": "assets/case-posters/fable52-x-2119895459519168558.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/higgsfield_ai/status/2119895459519168558",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119894442358222848/img/a7ybx2METcxy9ejj.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119894442358222848/img/a7ybx2METcxy9ejj.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 639,
+        "height": 680,
+        "imageSha256": "3f2a3f44122e26b512621b727f5417bb06f3844bf2b65db5821578bd35438526"
+      }
+    },
+    {
+      "id": "fable52-x-2119894929795145756",
+      "sourceUrl": "https://x.com/jonathanhamiche/status/2119894929795145756",
+      "title_en": "Slingshot: a gravity puzzle game that bends shots around planets",
+      "poster": "assets/case-posters/fable52-x-2119894929795145756.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/jonathanhamiche/status/2119894929795145756",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119894054234107904/img/nRpTo6i5SVzCwvD3.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119894054234107904/img/nRpTo6i5SVzCwvD3.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "b058629ba6ff2d64c01445096834802acd028a4edac429146e01d9907b84da49"
+      }
+    },
+    {
+      "id": "fable52-x-2119894073024606617",
+      "sourceUrl": "https://x.com/crtvTeknologist/status/2119894073024606617",
+      "title_en": "Keep: a password field that builds a pixel castle as the password grows",
+      "poster": "assets/case-posters/fable52-x-2119894073024606617.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/crtvTeknologist/status/2119894073024606617",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119894021472473089/img/8ioC_TfaPGYPa7ip.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119894021472473089/img/8ioC_TfaPGYPa7ip.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 680,
+        "imageSha256": "c5e66837f154eed215ff0f954762bed10900559011d71e790a56cbc319e97097"
+      }
+    },
+    {
+      "id": "fable52-x-2119893970897490135",
+      "sourceUrl": "https://x.com/higgsfield_ai/status/2119893970897490135",
+      "title_en": "A zombie hand rigged in Blender crawls, flips and makes hand signs",
+      "poster": "assets/case-posters/fable52-x-2119893970897490135.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/higgsfield_ai/status/2119893970897490135",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119888131575205888/img/ViCOXYAxNqLvTClP.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119888131575205888/img/ViCOXYAxNqLvTClP.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "62554cb4d8e7c7e2e7400619bbb98365bf72426ee0a2a7c1086f19a7b9cc8862"
+      }
+    },
+    {
+      "id": "fable52-x-2119891197317591040",
+      "sourceUrl": "https://x.com/al_maxgo/status/2119891197317591040",
+      "title_en": "FBPlot: a vertical trailer for a football chart and stats app",
+      "poster": "assets/case-posters/fable52-x-2119891197317591040.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/al_maxgo/status/2119891197317591040",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119890367994576896/img/XXBoYnoq-knIAobe.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119890367994576896/img/XXBoYnoq-knIAobe.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 383,
+        "height": 680,
+        "imageSha256": "0fd149968007fce2478e6a4cb38c6293d282c98c8522f63a41dda61116452ac9"
+      }
+    },
+    {
+      "id": "fable52-x-2119887623070077213",
+      "sourceUrl": "https://x.com/danteeonsol/status/2119887623070077213",
+      "title_en": "A UFO lands at a night-time Area 51 base and an alien greets the crew",
+      "poster": "assets/case-posters/fable52-x-2119887623070077213.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/danteeonsol/status/2119887623070077213",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119887223810076672/img/U6vhrrrWqJgYtSjf.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119887223810076672/img/U6vhrrrWqJgYtSjf.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "cc436a10c6a74800cc0bea0d6d76f6d2d599df59f5c9202a1d4deb7461c89bbd"
+      }
+    },
+    {
+      "id": "fable52-x-2119879273196761464",
+      "sourceUrl": "https://x.com/aidanshandle/status/2119879273196761464",
+      "title_en": "Porting a C++ path tracer to the browser by writing a compiler",
+      "poster": "assets/case-posters/fable52-x-2119879273196761464.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/aidanshandle/status/2119879273196761464",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119879169731645440/img/CvZ6AbboxVDFjGBX.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119879169731645440/img/CvZ6AbboxVDFjGBX.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "5bb123035780ae8990335e9cfeefae89561548967732e89846a7fde4d515ea48"
+      }
+    },
+    {
+      "id": "fable52-x-2119869170871652487",
+      "sourceUrl": "https://x.com/maxleiter/status/2119869170871652487",
+      "title_en": "Life circuits: a compiler that runs a maze solver inside the Game of Life",
+      "poster": "assets/case-posters/fable52-x-2119869170871652487.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/maxleiter/status/2119869170871652487",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119868875127087104/img/WkMZ-oK0KG6BYsCT.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119868875127087104/img/WkMZ-oK0KG6BYsCT.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "c74b2e16fe816e7062612edd237ce34d95429ad679a7db877f93f2e6d4160df8"
+      }
+    },
+    {
+      "id": "fable52-x-2119925633564463609",
+      "sourceUrl": "https://x.com/felixrieseberg/status/2119925633564463609",
+      "title_en": "Saltline: a single-prompt shooter experiment",
+      "poster": "assets/case-posters/fable52-x-2119925633564463609.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/felixrieseberg/status/2119925633564463609",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119919821538447360/img/tuJ7YP9fTEVJK8C8.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119919821538447360/img/tuJ7YP9fTEVJK8C8.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 377,
+        "imageSha256": "b2ccf8f9e64287209bf5fd5684c148f9c96f629768ca08257819bc206f9a5f29"
+      }
+    },
+    {
+      "id": "fable52-dustfall",
+      "sourceUrl": "https://github.com/webKing021/dustfall",
+      "title_en": "Dustfall: a browser western",
+      "poster": "assets/case-posters/fable52-dustfall.jpg",
+      "mediaKind": "image",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://github.com/webKing021/dustfall",
+        "sourceImageUrl": "https://raw.githubusercontent.com/webKing021/dustfall/main/docs/riding.jpg",
+        "retrievedImageUrl": "https://raw.githubusercontent.com/webKing021/dustfall/main/docs/riding.jpg",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "primary-page-image",
+        "width": 1280,
+        "height": 720,
+        "imageSha256": "50f6c9cd1170f69b4343bd3bf6ed1db188474eb4eb2ef77484bd9b50b80cce6f"
+      }
+    },
+    {
+      "id": "fable52-tria-prima",
+      "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xssfep/i_gave_fable_52_one_prompt_on_max_effort_it/",
+      "title_en": "Tria Prima: a dark-fantasy alchemy game",
+      "poster": "assets/case-posters/fable52-tria-prima.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://www.reddit.com/r/ClaudeCode/comments/1xssfep/i_gave_fable_52_one_prompt_on_max_effort_it/",
+        "sourceImageUrl": "https://raw.githubusercontent.com/winchxyz/tria-prima/main/media/title.jpg",
+        "retrievedImageUrl": "https://raw.githubusercontent.com/winchxyz/tria-prima/main/media/title.jpg",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "linked-project-screenshot",
+        "width": 1920,
+        "height": 1080,
+        "imageSha256": "e0b5d594e64c6903485ec60ddd5fc1834d296b56a8a8a3545bf72f4d5366d477"
+      }
+    },
+    {
+      "id": "fable52-bili-pelican",
+      "sourceUrl": "https://www.bilibili.com/video/BV1zvWP6MECB/",
+      "title_en": "Animated SVG pelican bicycle test",
+      "poster": "assets/case-posters/fable52-bili-pelican.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://www.bilibili.com/video/BV1zvWP6MECB/",
+        "sourceImageUrl": "https://i1.hdslb.com/bfs/archive/fad36174ca3a71073214707dc50af647bd4c2090.jpg",
+        "retrievedImageUrl": "https://i1.hdslb.com/bfs/archive/fad36174ca3a71073214707dc50af647bd4c2090.jpg",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "primary-page-image",
+        "width": 1920,
+        "height": 1080,
+        "imageSha256": "b0abb0c0e7e2792e98cd4f11edd82c368d7d1ebc91eb178c06fe394def27f242"
+      }
+    },
+    {
+      "id": "fable52-bili-BV1mHWM6YEkP",
+      "sourceUrl": "https://www.bilibili.com/video/BV1mHWM6YEkP/",
+      "title_en": "Six project tests at Medium effort",
+      "poster": "assets/case-posters/fable52-bili-BV1mHWM6YEkP.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://www.bilibili.com/video/BV1mHWM6YEkP/",
+        "sourceImageUrl": "https://i1.hdslb.com/bfs/archive/a5d4b33bf887408e85148f2bd5deb56a5978ac1a.jpg",
+        "retrievedImageUrl": "https://i1.hdslb.com/bfs/archive/a5d4b33bf887408e85148f2bd5deb56a5978ac1a.jpg",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "primary-page-image",
+        "width": 1672,
+        "height": 940,
+        "imageSha256": "d16067b8ee0daddfff3bc18307b9dfb981ee61affaead0bc72e29bbb6f30deb7"
+      }
+    },
+    {
+      "id": "fable52-bili-BV1gsWg6gEis",
+      "sourceUrl": "https://www.bilibili.com/video/BV1gsWg6gEis/",
+      "title_en": "Seven tests including Unity and Godot",
+      "poster": "assets/case-posters/fable52-bili-BV1gsWg6gEis.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://www.bilibili.com/video/BV1gsWg6gEis/",
+        "sourceImageUrl": "https://i2.hdslb.com/bfs/archive/539aaf594c0626bc99b95803c4c264d4d1a057cd.jpg",
+        "retrievedImageUrl": "https://i2.hdslb.com/bfs/archive/539aaf594c0626bc99b95803c4c264d4d1a057cd.jpg",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "primary-page-image",
+        "width": 1672,
+        "height": 940,
+        "imageSha256": "0ab30a26e6bd917be5228c352219db48210fac96cc97bcd8223bb7e31421210f"
+      }
+    },
+    {
+      "id": "fable52-bili-BV1edWM63Ewd",
+      "sourceUrl": "https://www.bilibili.com/video/BV1edWM63Ewd/",
+      "title_en": "Private benchmark, 3D inspection and usage limits",
+      "poster": "assets/case-posters/fable52-bili-BV1edWM63Ewd.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://www.bilibili.com/video/BV1edWM63Ewd/",
+        "sourceImageUrl": "https://i1.hdslb.com/bfs/archive/40bf1176d54f596706b0f0b97993b5cfabe6574a.jpg",
+        "retrievedImageUrl": "https://i1.hdslb.com/bfs/archive/40bf1176d54f596706b0f0b97993b5cfabe6574a.jpg",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "primary-page-image",
+        "width": 1664,
+        "height": 936,
+        "imageSha256": "a7c30761199717862fe817bb31b0d477479f7c83123072c538a11e430c6229fb"
+      }
+    },
+    {
+      "id": "fable52-yt-H0OeHaQ3L84",
+      "sourceUrl": "https://www.youtube.com/watch?v=H0OeHaQ3L84",
+      "title_en": "Motion design, drone game and UI comparison",
+      "poster": "assets/case-posters/fable52-yt-H0OeHaQ3L84.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://www.youtube.com/watch?v=H0OeHaQ3L84",
+        "sourceImageUrl": "https://i.ytimg.com/vi/H0OeHaQ3L84/maxresdefault.jpg",
+        "retrievedImageUrl": "https://i.ytimg.com/vi/H0OeHaQ3L84/maxresdefault.jpg",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "primary-page-image",
+        "width": 1280,
+        "height": 720,
+        "imageSha256": "28e0ab00de1560b347ff6f648c55df16826ce436366ca4e84ecd770f151f9332"
+      }
+    },
+    {
+      "id": "fable52-yt-82EJCUmD4O4",
+      "sourceUrl": "https://www.youtube.com/watch?v=82EJCUmD4O4",
+      "title_en": "33 coding prompts and subscription usage",
+      "poster": "assets/case-posters/fable52-yt-82EJCUmD4O4.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://www.youtube.com/watch?v=82EJCUmD4O4",
+        "sourceImageUrl": "https://i.ytimg.com/vi/82EJCUmD4O4/maxresdefault.jpg",
+        "retrievedImageUrl": "https://i.ytimg.com/vi/82EJCUmD4O4/maxresdefault.jpg",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "primary-page-image",
+        "width": 1280,
+        "height": 720,
+        "imageSha256": "40895a51adfb3707b003bbbe502372b0789c37f939475541b0a2b8e6c5e41ce1"
+      }
+    }
+  ],
+  "validation": {
+    "pythonTests": 45,
+    "rankingTests": 3,
+    "browserViews": 15,
+    "localImageDecodeChecks": 56,
+    "visualReview": "All source-linked thumbnail sheets inspected; some source video posters are dark opening frames. No substitute illustrations used."
+  },
+  "candidateReceipts": {
+    "x": {
+      "checkedAt": "2026-11-12T05:25:23.953662+00:00",
+      "requests": [
+        {
+          "url": "https://x.com/0x_zyven/status/2120015289165426836",
+          "ok": true,
+          "file": "2120015289165426836.json",
+          "sha256": "357443a07c97dc5717f15bfd479850892a8a121f74bb3cbf9bb94132dea4d66b",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/AlexStLouis10/status/2120024471100907802",
+          "ok": true,
+          "file": "2120024471100907802.json",
+          "sha256": "4c4261ca040a737602630bb542b24c43e445d808da3955a38cdf2663d5a4529d",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/AmirMushich/status/2119903338078564844",
+          "ok": true,
+          "file": "2119903338078564844.json",
+          "sha256": "37252160a3cc980629df3f5f9f895c579c29b462c401390825fcfb630f179bec",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/AskVenice/status/2119875657954152572",
+          "ok": true,
+          "file": "2119875657954152572.json",
+          "sha256": "16297847d1f190ed2583eee21aedf93881de4c0e0a0bebb5c7df1d6700afc6dc",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/AugustoBuilds/status/2120027646071283723",
+          "ok": true,
+          "file": "2120027646071283723.json",
+          "sha256": "d1d5a402901a74869db384bad8a31ffb437e4d7d5f014f3c12ffa655f1110f4c",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/BertrandDiouly/status/2119886197648765001",
+          "ok": true,
+          "file": "2119886197648765001.json",
+          "sha256": "636acd44b56fc5b4289273ebc08ec863bd02b3139bb6b9598530fd4f98ed6285",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/ConvictionFAQ/status/2119898203088937131",
+          "ok": true,
+          "file": "2119898203088937131.json",
+          "sha256": "fe75ef23fd99db38007983dd3d282695f80d15606c6790371d79f2578ba495d5",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/Dubibubiii/status/2120028715258425413",
+          "ok": true,
+          "file": "2120028715258425413.json",
+          "sha256": "c0bf02cfabe9cfe19fc55359ba4dccb27d69278b966001b3dca2c16c79b64e80",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/Elizaveta_ai/status/2119907947132125485",
+          "ok": true,
+          "file": "2119907947132125485.json",
+          "sha256": "362cfaaf7fcfa5e3767ac7379de654686f48d214b1ce55889fc4bd2e3901cd58",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/EnvolDev/status/2119907318729245180",
+          "ok": true,
+          "file": "2119907318729245180.json",
+          "sha256": "ecb92240fd62c3f9b5667884a0d1ca5e148d2a893a048f78550e4c0ee8da9b04",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/FaridaNever/status/2119910055990505730",
+          "ok": true,
+          "file": "2119910055990505730.json",
+          "sha256": "153351d6d16ec1f0ce8c26f74981b2be300b1505a4fa08267c35f785e167a785",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/FreedomAIG/status/2120017167848763821",
+          "ok": true,
+          "file": "2120017167848763821.json",
+          "sha256": "2cb4fbcce4d38e5813707380078a17a1801864fa44e9cfc5cc00da16b79419ca",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/HolyGrail/status/2120016334679609690",
+          "ok": true,
+          "file": "2120016334679609690.json",
+          "sha256": "4f131631b8e4f91be2ccbfbf770109c23e01cfda4f3968373378001b8e0ed294",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/JBabaTalks/status/2119903489270694319",
+          "ok": true,
+          "file": "2119903489270694319.json",
+          "sha256": "247f7be616a8df34231a90b6e13f24034e764d45d2edd94d850004f74e1a8a53",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/KernelChai/status/2120028680055628006",
+          "ok": true,
+          "file": "2120028680055628006.json",
+          "sha256": "6c415590faf153852065d6dc29d9ec657b84ab4e8fc15ba8fa402f298d521663",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/Khazix0918/status/2119902325460590834",
+          "ok": true,
+          "file": "2119902325460590834.json",
+          "sha256": "9323845759f2e2ddb29d385ea14f65580eae837960d6497772be0ab9ab7063da",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/Krongggggg/status/2120020309587956012",
+          "ok": true,
+          "file": "2120020309587956012.json",
+          "sha256": "77d7bb302e237c9b93027a61b3297cbed3f542ec3c2040d9937266f1d868314d",
+          "explicit": true,
+          "media": 2
+        },
+        {
+          "url": "https://x.com/Ldataengineer/status/2119896030993146101",
+          "ok": true,
+          "file": "2119896030993146101.json",
+          "sha256": "bc8e175cf49554791d030ffeeec250adfc0e08a6fe82dedf5b2deef639dee95e",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/LovekeshAnand07/status/2120024384685613199",
+          "ok": true,
+          "file": "2120024384685613199.json",
+          "sha256": "8c77e176fe4f1d88e3f5a25a96e1f5aa41d5dbe32c8d27a60ff76d907b9bd201",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/LuminaBench/status/2119907096636657696",
+          "ok": true,
+          "file": "2119907096636657696.json",
+          "sha256": "2772aaae384cb8488936bcd7c5c5d7eaff270189d4f7c48ec3d46d7374df0b16",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/Maaaaaaadiii/status/2119885527243714946",
+          "ok": true,
+          "file": "2119885527243714946.json",
+          "sha256": "e5dc94b2bd63f4dbd7fa7fbad5e0e6bdc9e4fd7ca67936a8ce0926201ed16714",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/MarvellousDev/status/2119889511333380563",
+          "ok": true,
+          "file": "2119889511333380563.json",
+          "sha256": "6200029ce0f3ae9f064810d89982b0f906ec026124d9e4dbf7b28610cce7b100",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/MatthewBerman/status/2119868636810953017",
+          "ok": true,
+          "file": "2119868636810953017.json",
+          "sha256": "f6418f65e79af87bfac6cfb366b38fae4e23570b83de7400396cba6bb33dafd4",
+          "explicit": false,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/MatthewBerman/status/2119871207206158459",
+          "ok": true,
+          "file": "2119871207206158459.json",
+          "sha256": "7ed7ac780a4a240c3f4273791a130685881f41364ed337ee1927c65cf576a93f",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/Midnightballoon/status/2120008595458928930",
+          "ok": true,
+          "file": "2120008595458928930.json",
+          "sha256": "16375bd4a2d5421ef85df20e5cf14b005db8a07eddd7008de3b9d7933d31c72d",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/MrTacticalX/status/2120021610161996053",
+          "ok": true,
+          "file": "2120021610161996053.json",
+          "sha256": "d2d40ab024e08c08ce09833b9d7bf2bd692b34e24333eef6851bcaee01ccf60c",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/N1njaCodex/status/2119883560937001387",
+          "ok": true,
+          "file": "2119883560937001387.json",
+          "sha256": "c8090792f3f62d0ee53b9836dfd0c05eca62736460d45a3a7641f7f7a901e94d",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/PorisRora/status/2120017467812778053",
+          "ok": true,
+          "file": "2120017467812778053.json",
+          "sha256": "57013f5c1129bc428ebb81eb8515d7644534f632c7236c4871a3a4bfe829bb8e",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/RoketsSI/status/2120026765523665272",
+          "ok": true,
+          "file": "2120026765523665272.json",
+          "sha256": "91f868b2ccc8e597bfc8db9e743d990adae01e295c95f565c11c61fe748f08ce",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/RuslanKyrch/status/2119896220814762218",
+          "ok": true,
+          "file": "2119896220814762218.json",
+          "sha256": "3ef3d380ebcbb3d6fdd41aad5e6a69c8ec42c58c562cd73a579228bd921f1a76",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/SadAlbert10/status/2120011939971760622",
+          "ok": true,
+          "file": "2120011939971760622.json",
+          "sha256": "72ea93ac5d38d6d7a60284769bd86c006822af4aaf74bde0e6b3b426b1ab5800",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/SagarGiri1707/status/2120020026552152264",
+          "ok": true,
+          "file": "2120020026552152264.json",
+          "sha256": "659a9e07812834722be5ffdf68bd8993c8193f0cba2296f90f2b3e93e23441f9",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/Scratcherrrr/status/2119909780269785332",
+          "ok": true,
+          "file": "2119909780269785332.json",
+          "sha256": "2ceef9a771d610095f73e47459317aa2f3122174f1a62ee2a60ef504cf07e0e2",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/Shannnu_18/status/2119909579983396903",
+          "ok": true,
+          "file": "2119909579983396903.json",
+          "sha256": "2d57c11f026aacb07f42b3cbffcd62fd81712ff458778089169436cedd6e8c26",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/Shannnu_18/status/2120017397059121516",
+          "ok": true,
+          "file": "2120017397059121516.json",
+          "sha256": "cc42fbb3b0740063fb0723005a2f846344c5143a3ad2050bc33057c6e5d71e8c",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/Shannnu_18/status/2120025125076844785",
+          "ok": true,
+          "file": "2120025125076844785.json",
+          "sha256": "d6bdf4b8096376943fb33bc77d0f0589f16207c78a360e05172c60921c3458af",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/Sirbost/status/2120028393131712653",
+          "ok": false,
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://x.com/Sisyphus_QwQ/status/2120017129022046541",
+          "ok": true,
+          "file": "2120017129022046541.json",
+          "sha256": "1cdfbc8dd890bd45b3c2fcccdc3dd6c23af594e09c895c15642ac154105b0822",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/Tech2Wild/status/2120017187448725651",
+          "ok": true,
+          "file": "2120017187448725651.json",
+          "sha256": "b561b70b0d998a51d84b8132a6084523a09019bc5bcf1df34321d1b3694d05eb",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/TejasThange3/status/2120026164479545578",
+          "ok": true,
+          "file": "2120026164479545578.json",
+          "sha256": "fb5b50ad6360541e2e532e4f85c3716a3845d6c11d77d5e77347ca69159ff7b1",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/TekonBurns/status/2119900328212713872",
+          "ok": true,
+          "file": "2119900328212713872.json",
+          "sha256": "0af215612fa0466f51400e260b5ced33d2c8c5c9affab5368ef28ec3b6e0bd3b",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/Tkss2607/status/2120027256659824763",
+          "ok": true,
+          "file": "2120027256659824763.json",
+          "sha256": "8df685dc29f49b35e864a3df9a22a1387ff8973810af473ce04eb9fb14bbf2cc",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/Webilyco/status/2119909604431626667",
+          "ok": true,
+          "file": "2119909604431626667.json",
+          "sha256": "872ba0e1799ffc2a7abc9d6021093a1f09c1708f443c4423a941099a70430432",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/WesRoth/status/2119911161386934330",
+          "ok": true,
+          "file": "2119911161386934330.json",
+          "sha256": "937356c1d76bb2e1b9c5ba502adca1d31eb18cb3898dd7d64d4c730a116cf885",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/ZirkoMirko/status/2119896335843529121",
+          "ok": true,
+          "file": "2119896335843529121.json",
+          "sha256": "5c08adea65109414c5e7ee489362429b91da7d7a31cb3b7fc9ceea402fdfef1c",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/_moud47/status/2120014394843074864",
+          "ok": true,
+          "file": "2120014394843074864.json",
+          "sha256": "e19239d81dbaace2acadb2192809abf09a53b7467f8119d728f5a7a4e261897b",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/abhinavflac/status/2119884257145581980",
+          "ok": true,
+          "file": "2119884257145581980.json",
+          "sha256": "b85792b53aa2ef65b29f63aa43ca38a7846081862ba66cf88b5886a12457c8b9",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/adityavg13/status/2119903463735799971",
+          "ok": true,
+          "file": "2119903463735799971.json",
+          "sha256": "a7c983d27d1104eb5fe167a51ef0c6beb97593ca8c2e803c88fb9b5364e0f1c0",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/aidanshandle/status/2119879273196761464",
+          "ok": true,
+          "file": "2119879273196761464.json",
+          "sha256": "e9193a2914ac62c1432b2cd8c1e3a8220aeaf62ef5c91f6b4d9b9e50d9c468cc",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/aimi_teno/status/2119881949540229421",
+          "ok": true,
+          "file": "2119881949540229421.json",
+          "sha256": "d6004c89b40cc682f0d77405659f0a791b5528c3c06f7fda6f594d6a2c0a4a34",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/akionionio/status/2120024536955638078",
+          "ok": true,
+          "file": "2120024536955638078.json",
+          "sha256": "4d1c0e76a7c2a84a740ece900fe258e8dc3de891c2fc17fdf30bdcf959fb42c2",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/akira_papa_IT/status/2120013209554047013",
+          "ok": true,
+          "file": "2120013209554047013.json",
+          "sha256": "2b27ddc9c8baaf44c638900ea407c3079b4241157b2b1ea897fa438b7589969e",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/al_maxgo/status/2119891197317591040",
+          "ok": true,
+          "file": "2119891197317591040.json",
+          "sha256": "7a21847dcc3a4093e6343edfd787f30915ab776d42f58a0b5e8a74dbd86d58cd",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/alightinastorm/status/2120010936584945922",
+          "ok": true,
+          "file": "2120010936584945922.json",
+          "sha256": "949092c20e27c6e9a1100b4115a52ae561c740d5032f9b725bd581fcc12e69d3",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/alightinastorm/status/2120020469487440210",
+          "ok": true,
+          "file": "2120020469487440210.json",
+          "sha256": "3cbd3739b3f35896c6a6a5c13947d902c2a0ce7b0ee5415d6acbe9da13b3a085",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/aug5thmusic/status/2119907891419480107",
+          "ok": true,
+          "file": "2119907891419480107.json",
+          "sha256": "38a54d510cdfa143bf6ddcdb99c69815db907630d4673faaea93507b35b8b38e",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/benjistacked/status/2119893035240849805",
+          "ok": true,
+          "file": "2119893035240849805.json",
+          "sha256": "0d03d962985632142f236b1460f88cee8ab075edfe677d0a7f35df5954878f82",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/bryanpatricca/status/2120008070352765272",
+          "ok": false,
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://x.com/buildwithavis/status/2120014839233868024",
+          "ok": true,
+          "file": "2120014839233868024.json",
+          "sha256": "92417cb51e0a9e1dd51ccd9c5885bcf6a5244105e77a9319254fb98e0114018a",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/buriedstupidity/status/2119900194540322870",
+          "ok": true,
+          "file": "2119900194540322870.json",
+          "sha256": "e5e4e565b52ff4dd5f31126f1499a725647d12ab9addd361e54159fcb53842c2",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/charan_kilari/status/2119884295179538680",
+          "ok": true,
+          "file": "2119884295179538680.json",
+          "sha256": "70ff296bdb698d1e1f78217291f73fdef889e0f8640e89518eecf1744a65047f",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/chhddavid/status/2120014940350382119",
+          "ok": true,
+          "file": "2120014940350382119.json",
+          "sha256": "26662be2f66966a5f18a109a7892e57bf4ef1491e70529c9d5917ef1e2fda4a0",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/claudeai/status/2119867114450268322",
+          "ok": true,
+          "file": "2119867114450268322.json",
+          "sha256": "a96480bfc346b2cc18eb7129e06281315983b3185ffaf0bdb699f060ee83afb5",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/claudeai/status/2120174844822298730",
+          "ok": true,
+          "file": "2120174844822298730.json",
+          "sha256": "4047f02362d43bb82c72f19f37d6e68144798460c79dc5f1d78c5d7c0759a919",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/claudeai/status/2120174866620166383",
+          "ok": true,
+          "file": "2120174866620166383.json",
+          "sha256": "29d705f1bd3808d97021b2a3b7b37b0c33e8039f2a0132e711820177f93b74b1",
+          "explicit": true,
+          "media": 0
+        },
+        {
+          "url": "https://x.com/coleywoleyyy/status/2120009331739607260",
+          "ok": true,
+          "file": "2120009331739607260.json",
+          "sha256": "15a20d201791cc5972eaaac95410de508c744a2152a5d839e974888df5e976a7",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/crtvTeknologist/status/2119888532886200528",
+          "ok": true,
+          "file": "2119888532886200528.json",
+          "sha256": "90d4c8f1e322671519d3d773e0d0f0fe700d38830e6e451af710f29190ee521c",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/crtvTeknologist/status/2119894073024606617",
+          "ok": true,
+          "file": "2119894073024606617.json",
+          "sha256": "19ddff4526ec48d35d1e6651e171067ac3a50e89aaddef96831aea6b58845668",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/cube__lol/status/2119904449556832554",
+          "ok": true,
+          "file": "2119904449556832554.json",
+          "sha256": "05c863fb4689a4c3f27f50aa50eaac89b9ff8574c733d07173a1cade686d9d3d",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/czzzzzzJ_/status/2120023093464682817",
+          "ok": true,
+          "file": "2120023093464682817.json",
+          "sha256": "6e779c3a50e9ce360ff76d43be2b2fc4d4cc220fb29aa3220e216690ee5b1b10",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/danteeonsol/status/2119887623070077213",
+          "ok": true,
+          "file": "2119887623070077213.json",
+          "sha256": "35083911837b90af60e2150ef72e4e8072ce76bbce7234c8917208cff1014817",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/dariuusnv/status/2119878952588329192",
+          "ok": true,
+          "file": "2119878952588329192.json",
+          "sha256": "7cc8206184003c0d325a0c60c3a9fadc4488cd9a90d8b52c132576dace4fc494",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/davishaal/status/2120014570790195600",
+          "ok": true,
+          "file": "2120014570790195600.json",
+          "sha256": "fa03c952427262da53c926a77960b84a9e58b08bc0ec7ba019a72af0d8ef1b62",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/deedee_kon45120/status/2120017100844814354",
+          "ok": true,
+          "file": "2120017100844814354.json",
+          "sha256": "d1c0eed719220de7ca02ee1077f89bc2f12b946e3b7be386856380500af9807f",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/devteamdrew/status/2119892540950241283",
+          "ok": true,
+          "file": "2119892540950241283.json",
+          "sha256": "427e371fb697ed6fc83ad482d94131fc39bd8a680166aacf06948fd5647e1642",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/eluchocha/status/2119902302001635455",
+          "ok": true,
+          "file": "2119902302001635455.json",
+          "sha256": "8a11e1297af011a67f880844254df13b22490c3d293ae2adddb4f877f6434cf9",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/ercankeskinx/status/2120152066903712100",
+          "ok": false,
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://x.com/ericmaskfr/status/2119910195325481026",
+          "ok": true,
+          "file": "2119910195325481026.json",
+          "sha256": "bc8d82727649fba049dfb3b327acbc29c0b71646aaf5c78b0870ae7e384f8c4d",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/ericskavinski/status/2119895601580016005",
+          "ok": true,
+          "file": "2119895601580016005.json",
+          "sha256": "680e831d20f6e24bc9a6ed38c299039b0036c21403cc68f2d79620c2dc7624bc",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/evrentkg/status/2119905501601272283",
+          "ok": true,
+          "file": "2119905501601272283.json",
+          "sha256": "ffb6590a358044fb047e2ad5959b027c9bd79d0ffd0ee80fe3687991a3da8bf3",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/eyadnour/status/2119899260606910886",
+          "ok": true,
+          "file": "2119899260606910886.json",
+          "sha256": "cc6fb07bf672e07165adcc227a45513ef35aa7e343805f714fd4d51d4f6165b6",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/fuoeba/status/2119906486017307074",
+          "ok": true,
+          "file": "2119906486017307074.json",
+          "sha256": "85bfd8590f6823fb363690c67c5eacdb6860d752c93ea561e49c40333c4787fa",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/furkancavlakcom/status/2119896886345695521",
+          "ok": true,
+          "file": "2119896886345695521.json",
+          "sha256": "2b5f503a8e92c3f8449ea88a0912a1e30e9b04a18f9abfc7e8bfe652b0f8b7a7",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/g_beyrouti/status/2119904386826780943",
+          "ok": true,
+          "file": "2119904386826780943.json",
+          "sha256": "20f61ce67c979ad6326e6b29dfd469b6723031aefe97d234b37c8ea255f14bcb",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/genel_ai/status/2120017840434823227",
+          "ok": true,
+          "file": "2120017840434823227.json",
+          "sha256": "5a108301328b21a580b9dc05759a49e20959c49bdd350d0211a9547488a25c9c",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/geneohms/status/2119910054413685102",
+          "ok": true,
+          "file": "2119910054413685102.json",
+          "sha256": "2c48399565cf8618e116a4bcfc8a03233440ca3c3d7a0a183bf337cf52294f67",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/guillermocasfer/status/2120027508129112423",
+          "ok": false,
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://x.com/handsher_NGU/status/2119887298292863367",
+          "ok": true,
+          "file": "2119887298292863367.json",
+          "sha256": "70be17fb4385b26b3df7f231949ad47f4b3dbf81ef219457aef8c072f6280116",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/handsher_NGU/status/2119910478025789655",
+          "ok": true,
+          "file": "2119910478025789655.json",
+          "sha256": "7f8813642678b3de09d03a46fb09e4a2e9164292aaa4d34dbbc903773e31bed1",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/hello_amani/status/2119873980786237842",
+          "ok": true,
+          "file": "2119873980786237842.json",
+          "sha256": "e3e0bd518e284453cffe5144423d68795175697db403de5570f584748ef908f4",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/heypearlai/status/2119903760529113116",
+          "ok": true,
+          "file": "2119903760529113116.json",
+          "sha256": "a35b025af8c94124c25d6d66829e656b206ec5794504e523244d90492be38b78",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/higgsfield_ai/status/2119890046748938248",
+          "ok": true,
+          "file": "2119890046748938248.json",
+          "sha256": "fc094311428c84be85dd7b6476b82911919ce5bf84b6663e1bd304b235c3fc75",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/higgsfield_ai/status/2119893970897490135",
+          "ok": true,
+          "file": "2119893970897490135.json",
+          "sha256": "b871f93d84d579e31ee5be0784d80315ba848b90a10f21b3a5a12211c4a7d3a1",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/higgsfield_ai/status/2119895459519168558",
+          "ok": true,
+          "file": "2119895459519168558.json",
+          "sha256": "d1f736d743296a2d211176d9a0aa38a1086c02debf26324432f7e776efb69e9d",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/higgsfield_ai/status/2119897113534529605",
+          "ok": true,
+          "file": "2119897113534529605.json",
+          "sha256": "0a5e33c31587382811b2adf4a20aa56b23fffccb6e49e336ea2e18285e612b45",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/higgsfield_ai/status/2119904269235277978",
+          "ok": true,
+          "file": "2119904269235277978.json",
+          "sha256": "0c96732d83cf400e99bb277fc2b7cbc3137033a3f0deecd9ef37af250745ebc1",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/higgsfield_ai/status/2119905141822484595",
+          "ok": true,
+          "file": "2119905141822484595.json",
+          "sha256": "ecd65c5bfa960c4131a91bbd53f712534d29fb36a6fc2751db6e0b88a1357fb4",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/higgsfield_ai/status/2119906332077957629",
+          "ok": true,
+          "file": "2119906332077957629.json",
+          "sha256": "c2fbd02bd81cc3f7246b339165f972197983d3c0ada3193509fccd758ac406ac",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/higgsfield_ai/status/2119906341078945977",
+          "ok": true,
+          "file": "2119906341078945977.json",
+          "sha256": "d65e1b225046c23da3621840f3370a38c8a41ecbf6b2aa0ea3a8cb3e63be2799",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/higgsfield_ai/status/2119907675265987047",
+          "ok": true,
+          "file": "2119907675265987047.json",
+          "sha256": "47c4f9e3685cb1df08884fc78ead3af622352a9981efa261e89b13f11cac19e6",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/higgsfield_ai/status/2119907841599496421",
+          "ok": true,
+          "file": "2119907841599496421.json",
+          "sha256": "9da579d246bec2d5c842dbf7783da25c07a501937741c449e0d9dfdaebc4a4bd",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/higgsfield_ai/status/2119908486880342326",
+          "ok": true,
+          "file": "2119908486880342326.json",
+          "sha256": "bbf0688839909118d18e191177894e51bc1d538dab1e699d8afb71afb78f9507",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/higgsfield_ai/status/2119909938969580024",
+          "ok": true,
+          "file": "2119909938969580024.json",
+          "sha256": "acad42c20f286379543ff3984640aefea2638c2b00aee641188f706a54a64648",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/higgsfield_ai/status/2119910344998912507",
+          "ok": true,
+          "file": "2119910344998912507.json",
+          "sha256": "d2e00c902ee01e7f51b8fba64b427b2558caf66ec127de3c0199b81bd9038f76",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/higgsfield_ai/status/2120007830065614926",
+          "ok": true,
+          "file": "2120007830065614926.json",
+          "sha256": "4b0d193b962fc44b5bcf3e47f5c272b0540fa75c0673e091cf9b02adf595edce",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/himanshutwtxs/status/2120017106804900304",
+          "ok": true,
+          "file": "2120017106804900304.json",
+          "sha256": "b309d08f177aa294356b2b3600a320c002a7bf91486a1155d8a1c3bb05fcee42",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/hive_echo/status/2120007853230694422",
+          "ok": true,
+          "file": "2120007853230694422.json",
+          "sha256": "7fe8382ba70f0286b5fc5cd3ce5d0e0f3eb8e242e6eadb28c67a30c351ec4318",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/hugo_grndd/status/2119909979381723615",
+          "ok": true,
+          "file": "2119909979381723615.json",
+          "sha256": "1d5fbab508079f3325b303fd75244757bd4fb32a14d8b2b518b804be7c7e76b5",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/hyuki/status/2120029845572993504",
+          "ok": true,
+          "file": "2120029845572993504.json",
+          "sha256": "16f9f022b8a14590d139b32b4579d828d8b88367ef9124671696a6e086b330b5",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/iamtanzil_/status/2120021693045641645",
+          "ok": true,
+          "file": "2120021693045641645.json",
+          "sha256": "189224397796148002a32748428a166f602cf455ad4b1c2f0508da3ec623cdbe",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/iliazolotukhin/status/2120015679500001578",
+          "ok": true,
+          "file": "2120015679500001578.json",
+          "sha256": "a66451b10b83062fd3fe0c16e14a077a05d4179b2e0a209b7eac50c1da45e584",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/internetphysics/status/2119903808935313778",
+          "ok": true,
+          "file": "2119903808935313778.json",
+          "sha256": "d1ade22d13f46b16d26966014db53da5a69d9342025afeb4316069ce226edc0d",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/ioTanjiro/status/2119891527438606534",
+          "ok": true,
+          "file": "2119891527438606534.json",
+          "sha256": "adbf4b8655f392cda61ca68d4528664850de3688e9950069dc25b1881fd57e94",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/itssotsot/status/2119888070283845716",
+          "ok": true,
+          "file": "2119888070283845716.json",
+          "sha256": "c136047267d366a1dc010d30584a7a9eaf8541c0e929569bf454feb08cf1df56",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/itssotsot/status/2119909017216491720",
+          "ok": true,
+          "file": "2119909017216491720.json",
+          "sha256": "7637de8545dd7b4b304de8942a807e58176b2bf6f762337ee3589c07f5de116d",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/j_h_h_3/status/2120008924204310895",
+          "ok": true,
+          "file": "2120008924204310895.json",
+          "sha256": "6ac7c6ebd3dacb6f3908b33d3d532cd0590a16ec243306987c6a36798f57600e",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/jarrodwatts/status/2120030097004777937",
+          "ok": true,
+          "file": "2120030097004777937.json",
+          "sha256": "54919dd4577c9fdd58aebcd9f8229758825a5887d2d5dd2c28964a0b59de8d9b",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/jeremyberman/status/2119870801730245009",
+          "ok": true,
+          "file": "2119870801730245009.json",
+          "sha256": "67122dcd5a03336c49e4eb3198f481dabc9ecbbd80edc6a41d93ce35e053bced",
+          "explicit": false,
+          "media": 0
+        },
+        {
+          "url": "https://x.com/jev_chat/status/2120015641151426838",
+          "ok": true,
+          "file": "2120015641151426838.json",
+          "sha256": "d088894c80403fc207e896316845126616a2a104df601cc7ed88202a601a87ef",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/jonathanhamiche/status/2119894929795145756",
+          "ok": true,
+          "file": "2119894929795145756.json",
+          "sha256": "c485d39aaa59e258d7601edd4bbb9566561d9d4cbf3268b615c390a7cfa730d9",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/josendev/status/2119876164051243409",
+          "ok": true,
+          "file": "2119876164051243409.json",
+          "sha256": "8c21777846b19709d7ee530931525eccf06b3d4c87d334fc50415a6ba491045c",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/josendev/status/2119894060521730048",
+          "ok": true,
+          "file": "2119894060521730048.json",
+          "sha256": "6a7a416520804004933477c98cab5411ef276501c8ca8c5c6089f8463848d4b0",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/josendev/status/2119906280118845704",
+          "ok": true,
+          "file": "2119906280118845704.json",
+          "sha256": "2dd6526dbe34097c62e73496d49f6356411d2e28c7526f6962bcd8646455a1d2",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/joshvlc/status/2119894656221958575",
+          "ok": true,
+          "file": "2119894656221958575.json",
+          "sha256": "44773a2372e9eeb3a5762cb90c4eec565c929be54a26e6d216de3ef753c8bcd8",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/jumperz/status/2119884258789757436",
+          "ok": true,
+          "file": "2119884258789757436.json",
+          "sha256": "640ddd840f7a9255b0c2830df40c86cb9f847492cbf91c84990135ce3132bf8c",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/kaif9998/status/2119903824848761287",
+          "ok": true,
+          "file": "2119903824848761287.json",
+          "sha256": "e6b2e305f1fb8a3d2162df0d2e6aa2d45d444c97ec213f8f7614dc3a54805093",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/kimmonismus/status/2119870808143298647",
+          "ok": true,
+          "file": "2119870808143298647.json",
+          "sha256": "a6f81793e5b70d947f2acfcfe9dc2ea8b7fa8277acfc6483935ed5608f213d4c",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/kplikethebird/status/2119900775727902732",
+          "ok": true,
+          "file": "2119900775727902732.json",
+          "sha256": "282678624f8dd672f07c795e14d9742cea7b9cc522b8179e1c22b45973144dba",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/leohuanfang/status/2120022343217029529",
+          "ok": true,
+          "file": "2120022343217029529.json",
+          "sha256": "d9cb7d27d98e9df513e1e5d0c3a898f51449ed21ba942947a3c933a4e249828f",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/leohuanfang/status/2120024307573137874",
+          "ok": true,
+          "file": "2120024307573137874.json",
+          "sha256": "508bc7d14bfb660a5ec1baba2980f8553ce0273a7a15f292a434bfc6fbff1254",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/leohuanfang/status/2120027555960934713",
+          "ok": true,
+          "file": "2120027555960934713.json",
+          "sha256": "18a4221a49ffe77996e6046292912757f83ae1a89ba8e0c146b4e0c99d242dac",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/ma_kanteishi/status/2120025455743152239",
+          "ok": true,
+          "file": "2120025455743152239.json",
+          "sha256": "a5df32adc6b1a4652468f1b36286d718a4793c57e74250522e00b1321c179a53",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/makaneko_AI/status/2120028638833938583",
+          "ok": true,
+          "file": "2120028638833938583.json",
+          "sha256": "556bf9511b24d59978612f02758141a26fb01d8f3cf6f256550b996bf9a2d5e7",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/mattshumer_/status/2119870965106483384",
+          "ok": true,
+          "file": "2119870965106483384.json",
+          "sha256": "aadfe13b2facab4e9cc5baf3bf9b2b7157b222e3c06310e778f6399b7f734800",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/mattshumer_/status/2119879860344766782",
+          "ok": true,
+          "file": "2119879860344766782.json",
+          "sha256": "3565f7f023be2a7de1292f86725107825614531ec75304945a1a17f3b7259eb2",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/mattshumer_/status/2119886664017547687",
+          "ok": true,
+          "file": "2119886664017547687.json",
+          "sha256": "5f740b67aef448767f294b588d052c9b7ed2767c7392d901d3919d4a2a2917c0",
+          "explicit": true,
+          "media": 0
+        },
+        {
+          "url": "https://x.com/mattshumer_/status/2119889518564147409",
+          "ok": true,
+          "file": "2119889518564147409.json",
+          "sha256": "294341dca336656629a9f266fdf1ad3759ebaeec33eb3d6923565ec8b1a3821b",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/maxleiter/status/2119869170871652487",
+          "ok": true,
+          "file": "2119869170871652487.json",
+          "sha256": "adea6d0abaa634546ab025878e52da0ca0e7a30b3fc497980401fd881684076d",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/maxt3chno/status/2119896698281467952",
+          "ok": true,
+          "file": "2119896698281467952.json",
+          "sha256": "92a51f034a1a91d3b1f78a415e271c71049f783358f0e27d92019f0463e5ece4",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/mihawkxxxxx/status/2119909865296699749",
+          "ok": true,
+          "file": "2119909865296699749.json",
+          "sha256": "04540ec29d3320c3fb1e2fcad495d75c9e47e845fe539860ca472c9e9eb4e8c8",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/minchoi/status/2120193920189759993",
+          "ok": true,
+          "file": "2120193920189759993.json",
+          "sha256": "3f4fbb74665a5f82fc3881a62dba5c104759ba1324d1c029e08b380f18c15843",
+          "explicit": true,
+          "media": 0
+        },
+        {
+          "url": "https://x.com/motion_so/status/2120029008809361891",
+          "ok": true,
+          "file": "2120029008809361891.json",
+          "sha256": "9dbcfa8d72821a24919f249317dc0d0d632cc8efa10a2b696d870c16f1791727",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/mrdejie/status/2120010028073771323",
+          "ok": true,
+          "file": "2120010028073771323.json",
+          "sha256": "6a9233fe6cf24d198ce55a9e09a7816f3b77e826e22ea7ab000aaa07fdb7c68d",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/niramayo2096/status/2120007289071640613",
+          "ok": true,
+          "file": "2120007289071640613.json",
+          "sha256": "9cffbf113c04ba37b728983e59f9604ae1adb3415789e27bbc7b365ca4ff3ace",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/nottherajyk/status/2119890840067985571",
+          "ok": true,
+          "file": "2119890840067985571.json",
+          "sha256": "7ccecfaf34e74e9fe095e363069dea0b176c245a72ae46d2b1f90d03515877a4",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/osmanaga__/status/2119923975635738780",
+          "ok": true,
+          "file": "2119923975635738780.json",
+          "sha256": "9a3643d1fd684bef35683dbc20d67dc941a2d1e6c9e6b848c56141d3ac9262a5",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/other__reality/status/2119885430627913784",
+          "ok": true,
+          "file": "2119885430627913784.json",
+          "sha256": "4207587315032e131cccefff63e2c25b82fb238323478f741a38861099d3bd66",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/paulgrowthlab/status/2119890500979499382",
+          "ok": true,
+          "file": "2119890500979499382.json",
+          "sha256": "216c923c13f2be24114e57b5a2fdc4c3b3257a9e08a4a003016f31b46b734bf0",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/petergostev/status/2120167560700383572",
+          "ok": true,
+          "file": "2120167560700383572.json",
+          "sha256": "64761b516ce8c0e35b764853d7313bcd5e13d9fe42c96cfa703eec75b459bb5c",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/petergyang/status/2119870223562191289",
+          "ok": true,
+          "file": "2119870223562191289.json",
+          "sha256": "10664cffc425d1c4d256df3f010454534ab2290fa827472428c85c052978ee64",
+          "explicit": true,
+          "media": 0
+        },
+        {
+          "url": "https://x.com/petergyang/status/2119901658394358005",
+          "ok": true,
+          "file": "2119901658394358005.json",
+          "sha256": "86e18ea75552d549ef6e289ae488ed8bef5de77eafeb5bdaccb3b3ea3c2fce1b",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/rehan_shei/status/2120021475495403789",
+          "ok": true,
+          "file": "2120021475495403789.json",
+          "sha256": "5ca7e3d65f515fb2ac3f7d9142db2951913e3e597e2e18e7b4aeb0fad5b79753",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/repodoting/status/2119898879340765513",
+          "ok": true,
+          "file": "2119898879340765513.json",
+          "sha256": "1c0bb8d00ff6a5f915fa9ac848015439629be8d719f435a33220c7954717ffa7",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/rileybrown/status/2119902109709537708",
+          "ok": true,
+          "file": "2119902109709537708.json",
+          "sha256": "3b523143e673d317fcffc930895e252cbb26b7ae83107fcf8fd3265781eebbe7",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/s_matysik/status/2119909371484213380",
+          "ok": true,
+          "file": "2119909371484213380.json",
+          "sha256": "002d06658a9ed0f93289696f42a32a36f794365e58f01b4550fee1e2a87c1e81",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/satya5n21/status/2120027542967267380",
+          "ok": true,
+          "file": "2120027542967267380.json",
+          "sha256": "8cdeac6d5fe006f365f19045653ba8b4c30e7fd8633e73af30a17a643021df13",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/saypotsan/status/2120021613093749050",
+          "ok": true,
+          "file": "2120021613093749050.json",
+          "sha256": "4c39fda167910763bdb4702a00b6711110b3df9700b7ebb01cbe997ca5b674eb",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/sprinntt/status/2119906202330988961",
+          "ok": true,
+          "file": "2119906202330988961.json",
+          "sha256": "d017343e964a7c04985f14024c7e022d674801866422206f88b6b7a9e0945ab6",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/takamasa045/status/2120014216753262816",
+          "ok": true,
+          "file": "2120014216753262816.json",
+          "sha256": "08aaceb9bbaaef8db0da98575f4caf43bf94099027c51d083fe4c5107d6ca616",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/tankazunori0914/status/2120012834461646927",
+          "ok": true,
+          "file": "2120012834461646927.json",
+          "sha256": "e4a46f3d35fdfd89db7e36fe20f1b37685a77bd9b3abe52aa8a0c35f7aa5e25e",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/theo/status/2119926277801144695",
+          "ok": true,
+          "file": "2119926277801144695.json",
+          "sha256": "7902497b4c895310e1e1069a4c9cb094903f8f029e16d1cce46827e31d23a20d",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/tsuyatsuyatt/status/2120024077930996126",
+          "ok": true,
+          "file": "2120024077930996126.json",
+          "sha256": "c143e7877ce62650a0cf119e77fe693ce9b0bc167a9db8b4918b26ad1ae2c2a9",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/vib3coded/status/2119876781700505627",
+          "ok": true,
+          "file": "2119876781700505627.json",
+          "sha256": "c5efde203cee4a10c7d3a719db1738aad231288c16d37e441357585364b1db7d",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/viewsfrom02108/status/2119896345729437907",
+          "ok": true,
+          "file": "2119896345729437907.json",
+          "sha256": "49bd06281eae15d5d0070674e71267046a1eefede4f580a83cf50e635f2645c6",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/whydeso/status/2119907039669575757",
+          "ok": true,
+          "file": "2119907039669575757.json",
+          "sha256": "4250a98adc55dbe1ca068a43346687dd438cb6501dcc67e6c97a133f2d6002cd",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/wshuyi/status/2120014892040417720",
+          "ok": true,
+          "file": "2120014892040417720.json",
+          "sha256": "8301a4a0a75c1b10ddf105196a9d901a6e082e48eef5cae053aac99261f79171",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/yalcinwebb/status/2119895050163286374",
+          "ok": true,
+          "file": "2119895050163286374.json",
+          "sha256": "d6836d0108d9ebb6458b440b6a2042c6a2d1f1779da6abe5bab33c2babcfc42c",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/yupi996/status/2120029153185694138",
+          "ok": true,
+          "file": "2120029153185694138.json",
+          "sha256": "a395019686ca838dca564155c7aee5639fdb83a9f31ec80f3ee65e3d4a094445",
+          "explicit": true,
+          "media": 1
+        },
+        {
+          "url": "https://x.com/yzr_koba/status/2119907670077722932",
+          "ok": true,
+          "file": "2119907670077722932.json",
+          "sha256": "2f841bfdbd3b336a6e648b8cbabfe36efe6a46d2afe5e4885d83c3748067c2bc",
+          "explicit": true,
+          "media": 1
+        }
+      ]
+    },
+    "webSearches": [
+      {
+        "query": "\"Fable 5.2\" site:x.com built",
+        "searchId": "01a1ce36-1e83-75a9-86dd-2420e0ede3d8",
+        "results": [
+          {
+            "url": "https://x.com/claudeai/status/2119867114450268322",
+            "title": "\"Introducing Claude Fable 5.2 and Claude Mythos ..."
+          },
+          {
+            "url": "https://x.com/claudeai/status/2120174844822298730",
+            "title": "A thread of early experiments with Claude Fable 5.2"
+          },
+          {
+            "url": "https://x.com/kimmonismus/status/2119870808143298647",
+            "title": "This is insane: An Anthropic engineer asked Claude Fable ..."
+          },
+          {
+            "url": "https://x.com/MatthewBerman/status/2119871207206158459",
+            "title": "Matthew Berman on X: \"Fable 5.2 is HERE! 🔥 I've burned ..."
+          },
+          {
+            "url": "https://x.com/mattshumer_/status/2119886664017547687",
+            "title": "Matt Shumer on X: \"I spent over 400B tokens testing Fable ..."
+          },
+          {
+            "url": "https://x.com/petergyang/status/2119870223562191289",
+            "title": "Peter Yang on X: \"Fable 5.2 is here! I had early access and ..."
+          },
+          {
+            "url": "https://x.com/minchoi/status/2120193920189759993",
+            "title": "Min Choi on X"
+          },
+          {
+            "url": "https://x.com/petergostev/status/2120167560700383572",
+            "title": "Peter Gostev - this is what Fable 5.2 (Max) built overnight"
+          },
+          {
+            "url": "https://x.com/claudeai/status/2120174866620166383",
+            "title": "\"Claude Fable 5.2 is now available. What will you explore? ..."
+          },
+          {
+            "url": "https://x.com/jeremyberman/status/2119870801730245009",
+            "title": "Built from scratch with Fable writing python to control blender"
+          }
+        ]
+      },
+      {
+        "query": "\"Fable 5.2\" site:reddit.com demo",
+        "searchId": "01a1ce36-1e35-71b9-beb6-15ceea15beed",
+        "results": [
+          {
+            "url": "https://www.reddit.com/r/TopologyAI/comments/1xsavuo/an_anthropic_engineer_built_this_fps_with_new/",
+            "title": "An Anthropic Engineer Built This FPS With NEW Fable 5.2"
+          },
+          {
+            "url": "https://www.reddit.com/r/aigamedev/comments/1xsa1jh/fable_52_shooting_game/",
+            "title": "Fable 5.2 - Shooting game : r/aigamedev"
+          },
+          {
+            "url": "https://www.reddit.com/r/ClaudeAI/comments/1xsftbq/pretty_insane_video_from_fable_52_with_1_single/",
+            "title": "Pretty insane video from Fable 5.2 with 1 single short prompt"
+          },
+          {
+            "url": "https://www.reddit.com/r/claude/comments/1xskbif/hows_everyone_finding_claude_fable_52_so_far/",
+            "title": "How's everyone finding Claude Fable 5.2 so far?"
+          },
+          {
+            "url": "https://www.reddit.com/r/singularity/comments/1xs1y29/claude_fable_52_built_a_playable_gears_of_war/",
+            "title": "Claude Fable 5.2 built a playable Gears of War clone in ..."
+          },
+          {
+            "url": "https://www.reddit.com/r/aigamedev/comments/1xsljai/this_is_insane_fable_52_just_created_a_complete/",
+            "title": "This is insane. Fable 5.2 just created a complete promo ..."
+          },
+          {
+            "url": "https://www.reddit.com/r/robotics/comments/1xs1bu6/fable_52_shows_substantially_improved_skills_in/",
+            "title": "Improvements in Fable 5.2 for robot control"
+          },
+          {
+            "url": "https://www.reddit.com/r/ClaudeAI/top/?cb=1794357746383",
+            "title": "r/ClaudeAI"
+          },
+          {
+            "url": "https://www.reddit.com/r/ClaudeCode/comments/1xssfep/i_gave_fable_52_one_prompt_on_max_effort_it/",
+            "title": "I gave Fable 5.2 one prompt on max effort. It forked 9 ..."
+          },
+          {
+            "url": "https://www.reddit.com/r/ClaudeAI/comments/1xs0dct/fable_52_just_landed/",
+            "title": "Fable 5.2 just landed. : r/ClaudeAI"
+          }
+        ]
+      },
+      {
+        "query": "\"Fable 5.2\" site:youtube.com test",
+        "searchId": "01a1ce36-1ede-7604-909e-ac7870e7d279",
+        "results": [
+          {
+            "url": "https://www.youtube.com/watch?v=SsSKJA0EHD4",
+            "title": "I Tested Fable 5.2 vs Opus 5.5 (Full Breakdown)"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=ha1Iu9YWMtw",
+            "title": "How to Prompt Claude Fable 5.2 [Anthropic's Own Guide]"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=QwaU4yU0PdQ",
+            "title": "Fable 5.2 | First Impressions"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=82EJCUmD4O4",
+            "title": "I Tested NEW Fable 5.2 on Coding: BEST Model That No ..."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=1gYQc4CL_oo",
+            "title": "Claude Fable 5.2 review: fast, creative, and finally not ..."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=h76wUNmRqxc",
+            "title": "NOTHING will be smarter than Fable 5.2..."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=H0OeHaQ3L84",
+            "title": "I Tested Fable 5.2 vs Opus 5.5 on Motion Design, UI and ..."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=2TM8W66NI_8",
+            "title": "Anthropic's Fable 5.2 is the World's Best AI Model"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=yNI5-Y0ei9Y",
+            "title": "Testing the New Fable 5.2 with Claude Code"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=C45VVcCV9OY",
+            "title": "I Tested Fable 5.2 vs Opus 5.5. What You Need to Know"
+          }
+        ]
+      },
+      {
+        "query": "\"Fable 5.2\" 实测 site:bilibili.com",
+        "searchId": "01a1ce36-1e84-7506-b6aa-4ad573724677",
+        "results": [
+          {
+            "url": "https://www.bilibili.com/video/BV1mHWM6YEkP/",
+            "title": "最强模型6项实测！Fable 5.2 只用Medium，就能做到这个程度"
+          },
+          {
+            "url": "https://www.bilibili.com/video/BV1gsWg6gEis/",
+            "title": "世界最强AI！深度实测Claude Fable 5.2！价格更低"
+          },
+          {
+            "url": "https://www.bilibili.com/video/BV1fdWN6kE4i/",
+            "title": "Anthropic 最强模型升级！Claude Fable 5.2 / Mythos 5.2 七 ..."
+          },
+          {
+            "url": "https://www.bilibili.com/video/BV1XnW26mE6y/?spm_id_from=333.788.recommend_more_video.14",
+            "title": "【Fable 5.2半价】零基础小白一口气学会Claude桌面版使用"
+          },
+          {
+            "url": "https://www.bilibili.com/video/BV1aoWM6zEoC/",
+            "title": "神的杰作：Fabel 5.2！全网最全测评Vs Claude Opus 5.5 ..."
+          },
+          {
+            "url": "https://www.bilibili.com/video/BV1edWM63Ewd/?spm_id_from=333.788.recommend_more_video.19",
+            "title": "Claude Fable 5.2实测：94分刷爆了我们的私有题库"
+          },
+          {
+            "url": "https://www.bilibili.com/video/BV1EAWM62ETg/",
+            "title": "Claude Fable 5.2 雷达图，几乎全方位领先，长文档推理是 ..."
+          },
+          {
+            "url": "https://www.bilibili.com/video/BV1KDW363Ez4?spm_id_from=333.40138.feed-card.all.click",
+            "title": "来解决Fable 5.2办不了的事情……【B站AI创造公开赛】"
+          },
+          {
+            "url": "https://www.bilibili.com/video/BV1PeWM6xEup/?spm_id_from=333.788.recommend_more_video.16",
+            "title": "Fable 5.2发布，断崖式领先"
+          },
+          {
+            "url": "https://www.bilibili.com/video/BV1FLWj66E8b/?spm_id_from=333.788.recommend_more_video.15",
+            "title": "32个AI中文考试大PK，这次豆包终于不垫底了吗？！"
+          }
+        ]
+      },
+      {
+        "query": "\"Fable 5.2\" built after:2026-11-10 before:2026-11-13",
+        "searchId": "01a1ce3a-48ba-73bc-9ed8-1fb4104c026c",
+        "results": [
+          {
+            "url": "https://www.youtube.com/watch?v=5mA9Hab09Do",
+            "title": "The NEW Claude Fable 5.2 is Just Absurd"
+          },
+          {
+            "url": "https://www.reddit.com/r/artificial/comments/1xsoidy/claude_fable_52_coordinated_more_than_1000_ai/",
+            "title": "Claude Fable 5.2 coordinated more than 1000 AI agents to ..."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=pvdL7q1EuG4",
+            "title": "Fable 5.2 for Web Design, 3D, UI and UX is Amazing"
+          },
+          {
+            "url": "https://x.com/claudeai/status/2120174844822298730",
+            "title": "A thread of early experiments with Claude Fable 5.2"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=Hcu2-7zXKic",
+            "title": "Claude Fable 5.2 Built This Game From One Prompt. Then ..."
+          },
+          {
+            "url": "https://thenewstack.io/claude-fable-game-demos/",
+            "title": "Anthropic's Claude Fable 5.2 built a shooter in 1 prompt"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=TGvmLGenH6E",
+            "title": "20 Wild Things People Built With Claude Fable 5.2"
+          },
+          {
+            "url": "https://www.institutepm.com/knowledge-hub/claude-fable-5-2-for-product-managers",
+            "title": "Claude Fable 5.2 for Product Managers: Faster, Cheaper, ..."
+          },
+          {
+            "url": "https://www.instagram.com/p/DfnGcVfDzyG/",
+            "title": "\"Comment \"FABLE\" to get the prompts for all 13 Claude ..."
+          },
+          {
+            "url": "https://www.instagram.com/reel/Dfngie3Ic9W/",
+            "title": "Built this game prototype using Claude Fable 5.2 The ..."
+          }
+        ]
+      },
+      {
+        "query": "\"Fable 5.2\" site:github.com after:2026-11-10",
+        "searchId": "01a1ce3a-48c7-756d-ad7d-d2f3cb8240ee",
+        "results": [
+          {
+            "url": "https://github.com/asgeirtj/system_prompts_leaks/blob/main/Anthropic/claude-fable-5.2.md",
+            "title": "system_prompts_leaks/Anthropic/claude-fable-5.2.md at ..."
+          },
+          {
+            "url": "https://github.com/realcodebear/saltline-fable-5.2",
+            "title": "realcodebear/saltline-fable-5.2"
+          },
+          {
+            "url": "https://github.com/anthropics/claude-code/issues/108955",
+            "title": "[Bug] /model picker omits Fable 5.2, though /model claude- ..."
+          },
+          {
+            "url": "https://github.com/anthropics/claude-code/issues/108821",
+            "title": "Fable 5.2 ignores explicit instructions on what to read and ..."
+          },
+          {
+            "url": "https://github.com/topics/free-claude-fable-5-2",
+            "title": "free-claude-fable-5-2"
+          },
+          {
+            "url": "https://github.com/anthropics/claude-code/issues/108754",
+            "title": "Fable 5.2 doesn't follow simple standing rules any better ..."
+          },
+          {
+            "url": "https://github.com/aws-samples/anthropic-on-aws/blob/main/notebooks/claude_fable_5_2_getting_started/claude-fable-5-2-getting-started.ipynb",
+            "title": "claude-fable-5-2-getting-started.ipynb"
+          },
+          {
+            "url": "https://github.com/anthropics/claude-code/issues/108898",
+            "title": "[Bug] Model \"claude-fable-5-2\" missing from /model list but ..."
+          },
+          {
+            "url": "https://github.com/anthropics/claude-code/issues/108816",
+            "title": "Fable 5.2 does not follow the configured review procedure ..."
+          },
+          {
+            "url": "https://github.com/anomalyco/opencode/issues/63341",
+            "title": "Bump gitlab-ai-provider to 6.24.0 (adds Claude Fable 5.2) · ..."
+          }
+        ]
+      }
+    ]
+  }
+}

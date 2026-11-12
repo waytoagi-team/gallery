@@ -1,0 +1,1068 @@
+{
+  "cases": [
+    {
+      "id": "fable52-hyuki-993504",
+      "sourceUrl": "https://x.com/hyuki/status/2120029845572993504",
+      "title_en": "Group-theory symmetry film generated with code",
+      "poster": "assets/case-posters/fable52-hyuki-993504.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/hyuki/status/2120029845572993504",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120029075490451456/img/LakXkRETvZVXQA8b.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120029075490451456/img/LakXkRETvZVXQA8b.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "5c9203f7f6f3022a79a090a7feae78a93eaf24ecdcc6389f0a18243da81ab900"
+      }
+    },
+    {
+      "id": "fable52-yupi996-694138",
+      "sourceUrl": "https://x.com/yupi996/status/2120029153185694138",
+      "title_en": "An ancient-scroll AI coding study path",
+      "poster": "assets/case-posters/fable52-yupi996-694138.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/yupi996/status/2120029153185694138",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120023755523280896/img/bo-Vy6mmR7SPDj_R.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120023755523280896/img/bo-Vy6mmR7SPDj_R.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 391,
+        "imageSha256": "a3578678552baeaad5ae27e6c6f9b7a3404b026bb3d1715d8fda9e87c8b1c52b"
+      }
+    },
+    {
+      "id": "fable52-motion-so-361891",
+      "sourceUrl": "https://x.com/motion_so/status/2120029008809361891",
+      "title_en": "Animation comparison with the same prompt",
+      "poster": "assets/case-posters/fable52-motion-so-361891.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/motion_so/status/2120029008809361891",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120028443060342784/img/pArozeUaw_Ht45Yw.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120028443060342784/img/pArozeUaw_Ht45Yw.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "32322ffbcf1b26c1491d6ac8480431babb6ca26e053243be5b68a8876b384acd"
+      }
+    },
+    {
+      "id": "fable52-dubibubiii-425413",
+      "sourceUrl": "https://x.com/Dubibubiii/status/2120028715258425413",
+      "title_en": "Claude mascot evolution animation comparison",
+      "poster": "assets/case-posters/fable52-dubibubiii-425413.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/Dubibubiii/status/2120028715258425413",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120028288584474624/img/IR0eaNdpPDcOTNlN.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120028288584474624/img/IR0eaNdpPDcOTNlN.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 286,
+        "imageSha256": "ad76430b6009fdb340c3eff0e638db60142538cd9d594456fcb9dca564033376"
+      }
+    },
+    {
+      "id": "fable52-kernelchai-628006",
+      "sourceUrl": "https://x.com/KernelChai/status/2120028680055628006",
+      "title_en": "Chai-stall games from the same prompt",
+      "poster": "assets/case-posters/fable52-kernelchai-628006.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/KernelChai/status/2120028680055628006",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120028484303228928/img/AMLL7Tlb1EwtqEfr.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120028484303228928/img/AMLL7Tlb1EwtqEfr.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "2ceb8375d607de63a124ef9cb9eec9a36a1cab727c25efd00b8849f0bb93ed77"
+      }
+    },
+    {
+      "id": "fable52-makaneko-ai-938583",
+      "sourceUrl": "https://x.com/makaneko_AI/status/2120028638833938583",
+      "title_en": "Multi-task website, drawing and 3D comparison",
+      "poster": "assets/case-posters/fable52-makaneko-ai-938583.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/makaneko_AI/status/2120028638833938583",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120028599730438144/img/t6z_QugKZEFkYOoy.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120028599730438144/img/t6z_QugKZEFkYOoy.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "8868a94897a21f85f832ec0c74df81fdb5c8b8a0363864d7645a1ba3abeb2daf"
+      }
+    },
+    {
+      "id": "fable52-augustobuilds-283723",
+      "sourceUrl": "https://x.com/AugustoBuilds/status/2120027646071283723",
+      "title_en": "Hero in Motion: click-to-load video hero",
+      "poster": "assets/case-posters/fable52-augustobuilds-283723.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/AugustoBuilds/status/2120027646071283723",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120027622662909952/img/e4fbrtJsOwePpoQy.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120027622662909952/img/e4fbrtJsOwePpoQy.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 680,
+        "imageSha256": "f87d74587e0dfbb80ec08f54499d087a53955ba21696c5a3532ce240adaead9f"
+      }
+    },
+    {
+      "id": "fable52-leohuanfang-934713",
+      "sourceUrl": "https://x.com/leohuanfang/status/2120027555960934713",
+      "title_en": "Retesting robot, ship and stickman prompts",
+      "poster": "assets/case-posters/fable52-leohuanfang-934713.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/leohuanfang/status/2120027555960934713",
+        "sourceImageUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2120027527884283904/pu/img/zGLpl61037JoHYV5.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2120027527884283904/pu/img/zGLpl61037JoHYV5.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 383,
+        "height": 680,
+        "imageSha256": "030d0fec478dabc4337f21d6607e6abc9087c4832cc278a8e64c555639185b76"
+      }
+    },
+    {
+      "id": "fable52-satya5n21-267380",
+      "sourceUrl": "https://x.com/satya5n21/status/2120027542967267380",
+      "title_en": "Afterglow: an explorable alien landscape",
+      "poster": "assets/case-posters/fable52-satya5n21-267380.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/satya5n21/status/2120027542967267380",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120024289760157696/img/NfFQdpCoeRbi2erh.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120024289760157696/img/NfFQdpCoeRbi2erh.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 448,
+        "imageSha256": "156ed45506dbeb483b547df160449319f6976b3961b0ad03f4f1555a6978dc40"
+      }
+    },
+    {
+      "id": "fable52-riley-blender",
+      "sourceUrl": "https://x.com/rileybrown/status/2119902109709537708",
+      "title_en": "Blender room film and cloud rendering",
+      "poster": "assets/case-posters/fable52-riley-blender.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/rileybrown/status/2119902109709537708",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119897796736131072/img/uYa4QI709MAYcBH3.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119897796736131072/img/uYa4QI709MAYcBH3.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "9920f5db4fac2e932a1728ed62cd30afde316e90de2cda42ac2d210147a2ef3d"
+      }
+    },
+    {
+      "id": "fable52-theo-fishslop",
+      "sourceUrl": "https://x.com/theo/status/2119926277801144695",
+      "title_en": "Fishslop: cost and playability trade-offs",
+      "poster": "assets/case-posters/fable52-theo-fishslop.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/theo/status/2119926277801144695",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119926035043237888/img/aTQDq8qWdKxg9zBR.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119926035043237888/img/aTQDq8qWdKxg9zBR.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 679,
+        "height": 468,
+        "imageSha256": "3fcae0c4c04941ef17e74235bad2a48c26d562bd08ef8f0aa987e5ead7528c99"
+      }
+    },
+    {
+      "id": "fable52-x-2120026765523665272",
+      "sourceUrl": "https://x.com/RoketsSI/status/2120026765523665272",
+      "title_en": "AirTranslate: a vertical launch film for a live-caption Mac app",
+      "poster": "assets/case-posters/fable52-x-2120026765523665272.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/RoketsSI/status/2120026765523665272",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120026669000040448/img/aT8uXcHrcM9UfGdT.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120026669000040448/img/aT8uXcHrcM9UfGdT.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 383,
+        "height": 680,
+        "imageSha256": "65628b4de70a1d5c336c1f43af7c99632cbd110a3018e9def79da5b3ee816099"
+      }
+    },
+    {
+      "id": "fable52-x-2120025125076844785",
+      "sourceUrl": "https://x.com/Shannnu_18/status/2120025125076844785",
+      "title_en": "Aurora 9: a rocket launch simulation from pad to a 210 km orbit",
+      "poster": "assets/case-posters/fable52-x-2120025125076844785.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/Shannnu_18/status/2120025125076844785",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120025037176745984/img/5eJhLE71gbYlOKuD.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120025037176745984/img/5eJhLE71gbYlOKuD.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "cf874c4fbfa86d24ea00b15b0ee7a2add831a8f57167f7d3214488b4a312c5ae"
+      }
+    },
+    {
+      "id": "fable52-x-2120024536955638078",
+      "sourceUrl": "https://x.com/akionionio/status/2120024536955638078",
+      "title_en": "A construction site cockpit that grows a 3D city block over two years",
+      "poster": "assets/case-posters/fable52-x-2120024536955638078.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/akionionio/status/2120024536955638078",
+        "sourceImageUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2120024489958543360/pu/img/RCtIMVdgHOaSt7iN.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2120024489958543360/pu/img/RCtIMVdgHOaSt7iN.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "33be8fcc65a7fdb40a7fcf82ed226935ebe8c1dc339ec6348dd05617721eee09"
+      }
+    },
+    {
+      "id": "fable52-x-2120024471100907802",
+      "sourceUrl": "https://x.com/AlexStLouis10/status/2120024471100907802",
+      "title_en": "Blueline: a 3D ice hockey browser game with penalties and power plays",
+      "poster": "assets/case-posters/fable52-x-2120024471100907802.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/AlexStLouis10/status/2120024471100907802",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120023916563644416/img/MRIPWdEowDWEjfc0.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120023916563644416/img/MRIPWdEowDWEjfc0.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "2e30e85d53059f3b607670627d7189eb11326f6e0374a106855598d674f77262"
+      }
+    },
+    {
+      "id": "fable52-x-2120024384685613199",
+      "sourceUrl": "https://x.com/LovekeshAnand07/status/2120024384685613199",
+      "title_en": "whyred: a glitchy launch film for a CI log diagnosis tool",
+      "poster": "assets/case-posters/fable52-x-2120024384685613199.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/LovekeshAnand07/status/2120024384685613199",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120024241877946368/img/H-rsfyijYM-UG9ft.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120024241877946368/img/H-rsfyijYM-UG9ft.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "38b4f4765ac76da4fc4de9ac82d813033e1b30ad4b7d391b0327bf6b83f4779d"
+      }
+    },
+    {
+      "id": "fable52-x-2120023093464682817",
+      "sourceUrl": "https://x.com/czzzzzzJ_/status/2120023093464682817",
+      "title_en": "A keynote-style promo film for a Chinese AI knowledge site",
+      "poster": "assets/case-posters/fable52-x-2120023093464682817.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/czzzzzzJ_/status/2120023093464682817",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120022717013409792/img/KrbjrQ_a5-XvnCXc.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120022717013409792/img/KrbjrQ_a5-XvnCXc.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "39f86269967dfa4288280dd12d10642d5a99a14665a35952b8e27799bee24230"
+      }
+    },
+    {
+      "id": "fable52-x-2120021610161996053",
+      "sourceUrl": "https://x.com/MrTacticalX/status/2120021610161996053",
+      "title_en": "Fable 5.2 vs Opus 5.5: a floating windmill island in Minecraft style",
+      "poster": "assets/case-posters/fable52-x-2120021610161996053.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/MrTacticalX/status/2120021610161996053",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120021356519497729/img/MJipzEFZOsL6wOkM.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120021356519497729/img/MJipzEFZOsL6wOkM.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 544,
+        "height": 680,
+        "imageSha256": "853911ba84a48978e1678980e1be5a0a06d28384e505ada5ed2531c8c046b998"
+      }
+    },
+    {
+      "id": "fable52-x-2120021475495403789",
+      "sourceUrl": "https://x.com/rehan_shei/status/2120021475495403789",
+      "title_en": "A zombie bird character built, rigged and animated in Blender",
+      "poster": "assets/case-posters/fable52-x-2120021475495403789.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/rehan_shei/status/2120021475495403789",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120021261338509312/img/7z7uqxuvZtkNc-53.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120021261338509312/img/7z7uqxuvZtkNc-53.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "117da362071bff42811fccbdb4e4a906f9882ccb8e341a2f01b3b568e265a793"
+      }
+    },
+    {
+      "id": "fable52-x-2120020469487440210",
+      "sourceUrl": "https://x.com/alightinastorm/status/2120020469487440210",
+      "title_en": "A browser first-person shooter with an armory and a desert town map",
+      "poster": "assets/case-posters/fable52-x-2120020469487440210.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/alightinastorm/status/2120020469487440210",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120020347520966656/img/9AIT_SdyWJU_RkCg.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120020347520966656/img/9AIT_SdyWJU_RkCg.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 384,
+        "imageSha256": "ae9e683baf6c6084133ebfdfbddde1c6aaba712edd54a4e055a4054a5584d103"
+      }
+    },
+    {
+      "id": "fable52-x-2120017840434823227",
+      "sourceUrl": "https://x.com/genel_ai/status/2120017840434823227",
+      "title_en": "Opus 5.5 vs Fable 5.2 designing the same chicken lunch truck website",
+      "poster": "assets/case-posters/fable52-x-2120017840434823227.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/genel_ai/status/2120017840434823227",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120017735593918464/img/IJ32NV3FBIfxxiWM.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120017735593918464/img/IJ32NV3FBIfxxiWM.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 544,
+        "height": 680,
+        "imageSha256": "1758f91b05ff1760989bccd8f52c812524e85bfc2174f588f63dc3d701632574"
+      }
+    },
+    {
+      "id": "fable52-x-2120017467812778053",
+      "sourceUrl": "https://x.com/PorisRora/status/2120017467812778053",
+      "title_en": "A blocky Minecraft-style world of cliffs, cherry trees and floating islands",
+      "poster": "assets/case-posters/fable52-x-2120017467812778053.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/PorisRora/status/2120017467812778053",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120013087353004032/img/535AoeCQFBI8lpF0.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120013087353004032/img/535AoeCQFBI8lpF0.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "7741b6842c6a73aecccd6a647557d2be9aeb5cf50d6bdb12ff7064d9ba81ddbb"
+      }
+    },
+    {
+      "id": "fable52-x-2120017106804900304",
+      "sourceUrl": "https://x.com/himanshutwtxs/status/2120017106804900304",
+      "title_en": "A one-prompt motion designer showreel: timing, easing, shape and type",
+      "poster": "assets/case-posters/fable52-x-2120017106804900304.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/himanshutwtxs/status/2120017106804900304",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120016926374260736/img/aPCGTN5hM19Qv5mx.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120016926374260736/img/aPCGTN5hM19Qv5mx.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "161977e04c923fbadf59a0b20c1126f59412a4702b6d910e63e8ad594846fea2"
+      }
+    },
+    {
+      "id": "fable52-x-2120017100844814354",
+      "sourceUrl": "https://x.com/deedee_kon45120/status/2120017100844814354",
+      "title_en": "A pelican with a red scarf rides a bicycle along a seaside road",
+      "poster": "assets/case-posters/fable52-x-2120017100844814354.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/deedee_kon45120/status/2120017100844814354",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120017047048617984/img/7RxIslmlICQT-Tdj.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120017047048617984/img/7RxIslmlICQT-Tdj.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "51e3725ff60b6c6e5974e920e296b9d7fb6e1b0701d29093a39d7353d45c15c6"
+      }
+    },
+    {
+      "id": "fable52-x-2120015289165426836",
+      "sourceUrl": "https://x.com/0x_zyven/status/2120015289165426836",
+      "title_en": "A neon night race through a rainy city, finishing in first place",
+      "poster": "assets/case-posters/fable52-x-2120015289165426836.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/0x_zyven/status/2120015289165426836",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120015254268919808/img/lRoQwuSJAae8NVbV.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120015254268919808/img/lRoQwuSJAae8NVbV.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "e49b24303f0b3cdacfeecf4efce8f2c969b9ca0cb3e2eee48c7d8bedae27860d"
+      }
+    },
+    {
+      "id": "fable52-x-2120014892040417720",
+      "sourceUrl": "https://x.com/wshuyi/status/2120014892040417720",
+      "title_en": "A sabertooth cat hunts a bison on a golden steppe",
+      "poster": "assets/case-posters/fable52-x-2120014892040417720.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/wshuyi/status/2120014892040417720",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120014231450034176/img/dDRJCDH_K5Kdoafm.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120014231450034176/img/dDRJCDH_K5Kdoafm.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "d3f34438a6b40d59dbb28c55418a62b1447133e2ffae99b8abf182aff50111e7"
+      }
+    },
+    {
+      "id": "fable52-x-2120014570790195600",
+      "sourceUrl": "https://x.com/davishaal/status/2120014570790195600",
+      "title_en": "Sayonara, After School: an anime trailer about a paper plane and a seaside town",
+      "poster": "assets/case-posters/fable52-x-2120014570790195600.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/davishaal/status/2120014570790195600",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120011260611952640/img/9IowShf1kUrff7yh.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120011260611952640/img/9IowShf1kUrff7yh.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "b5d3f7392ef84aef5475975e02163bbdd9aedf72140fa9615cad39fbbe1e77e4"
+      }
+    },
+    {
+      "id": "fable52-x-2120013209554047013",
+      "sourceUrl": "https://x.com/akira_papa_IT/status/2120013209554047013",
+      "title_en": "A ten-minute Japanese explainer on Fable 5.2, made by Fable 5.2",
+      "poster": "assets/case-posters/fable52-x-2120013209554047013.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/akira_papa_IT/status/2120013209554047013",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120011730181132288/img/bY8VbAJ7cq7HXPQF.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120011730181132288/img/bY8VbAJ7cq7HXPQF.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "e31e8814173f13297e913a744d26d11a3e69e441392dd89014d31812b0196bec"
+      }
+    },
+    {
+      "id": "fable52-x-2120007830065614926",
+      "sourceUrl": "https://x.com/higgsfield_ai/status/2120007830065614926",
+      "title_en": "TORQK: a launch film for a robot joint that Fable invented and built in Blender",
+      "poster": "assets/case-posters/fable52-x-2120007830065614926.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/higgsfield_ai/status/2120007830065614926",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120007518940549120/img/-kDCXtkme65vRzj6.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120007518940549120/img/-kDCXtkme65vRzj6.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "f5e42d688d906a144568972aa0f850b6f2b081c527604ebc66ab35770239c8eb"
+      }
+    },
+    {
+      "id": "fable52-x-2119910344998912507",
+      "sourceUrl": "https://x.com/higgsfield_ai/status/2119910344998912507",
+      "title_en": "Paris, 1940: a rainy night street with searchlights over the river",
+      "poster": "assets/case-posters/fable52-x-2119910344998912507.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/higgsfield_ai/status/2119910344998912507",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119909152743194624/img/vNIxkxZoqRAnk3QO.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119909152743194624/img/vNIxkxZoqRAnk3QO.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "7239ae85665924f3e421f6d1165a3ebb6ce9a3e30a1f3640e3fd53b774b83b37"
+      }
+    },
+    {
+      "id": "fable52-x-2119909938969580024",
+      "sourceUrl": "https://x.com/higgsfield_ai/status/2119909938969580024",
+      "title_en": "Lip tracking in code: a new voice synced to a woman's mouth in a diner",
+      "poster": "assets/case-posters/fable52-x-2119909938969580024.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/higgsfield_ai/status/2119909938969580024",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119909898960130048/img/qwr0_DMkmLPc0Iv6.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119909898960130048/img/qwr0_DMkmLPc0Iv6.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 510,
+        "imageSha256": "2309176cc127eb84d16f020cec6e7146519c35c35328434fc59b81d2a95b7fb8"
+      }
+    },
+    {
+      "id": "fable52-x-2119909371484213380",
+      "sourceUrl": "https://x.com/s_matysik/status/2119909371484213380",
+      "title_en": "A command-center dashboard with a 3D knowledge graph",
+      "poster": "assets/case-posters/fable52-x-2119909371484213380.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/s_matysik/status/2119909371484213380",
+        "sourceImageUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2119909140998823936/pu/img/Jlvo1NLF--_kSInr.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2119909140998823936/pu/img/Jlvo1NLF--_kSInr.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "838efbf71277e42f3a189c39c8eb1c3f706dcbdcd8dcc40803681239e2d43534"
+      }
+    },
+    {
+      "id": "fable52-x-2119907841599496421",
+      "sourceUrl": "https://x.com/higgsfield_ai/status/2119907841599496421",
+      "title_en": "A fly's-eye view of a backyard picnic in Three.js",
+      "poster": "assets/case-posters/fable52-x-2119907841599496421.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/higgsfield_ai/status/2119907841599496421",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119907568432934912/img/orJw8OffHPubvbZK.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119907568432934912/img/orJw8OffHPubvbZK.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "ef6164aa88e69fbbf17151f61d378d04fa52d9a816c8f31ae21eb5a841c84878"
+      }
+    },
+    {
+      "id": "fable52-x-2119907039669575757",
+      "sourceUrl": "https://x.com/whydeso/status/2119907039669575757",
+      "title_en": "Gemini 4 Argon vs Fable 5.2 making a top-down crime game",
+      "poster": "assets/case-posters/fable52-x-2119907039669575757.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/whydeso/status/2119907039669575757",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119905063116140544/img/hm7An7RbHs_mpMbt.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119905063116140544/img/hm7An7RbHs_mpMbt.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 453,
+        "imageSha256": "cc55766de529d2c8b037aedd361a24e1c253e941d0ad03849ad95aea82daad81"
+      }
+    },
+    {
+      "id": "fable52-x-2119906202330988961",
+      "sourceUrl": "https://x.com/sprinntt/status/2119906202330988961",
+      "title_en": "A ramen stall in the Tokyo night rain that turns to snow",
+      "poster": "assets/case-posters/fable52-x-2119906202330988961.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/sprinntt/status/2119906202330988961",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119905884365074432/img/wtdJc73u7gFsAnpE.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119905884365074432/img/wtdJc73u7gFsAnpE.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 382,
+        "imageSha256": "f95dba19fe3c7954e255871509a853a04b81ba6cef2031744f09fc49d01c536c"
+      }
+    },
+    {
+      "id": "fable52-x-2119904269235277978",
+      "sourceUrl": "https://x.com/higgsfield_ai/status/2119904269235277978",
+      "title_en": "A cat wakes an old robot in an overgrown ruin",
+      "poster": "assets/case-posters/fable52-x-2119904269235277978.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/higgsfield_ai/status/2119904269235277978",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119904158409256960/img/Xzpz8Ruz3rvGLWk5.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119904158409256960/img/Xzpz8Ruz3rvGLWk5.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "4652d87dce37306035487956a3a532f083ecfb839fda3c3ec5d5372262265f9a"
+      }
+    },
+    {
+      "id": "fable52-x-2119903463735799971",
+      "sourceUrl": "https://x.com/adityavg13/status/2119903463735799971",
+      "title_en": "First Battle of Geonosis: a Blender battle of droids, clones and gunships",
+      "poster": "assets/case-posters/fable52-x-2119903463735799971.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/adityavg13/status/2119903463735799971",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119903375407878145/img/gXRy2quU6K8PT4Jg.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119903375407878145/img/gXRy2quU6K8PT4Jg.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "7bcee7123b844e5398abd7967645f7a1a0a0b493c988a89a4afa89b96df1bafa"
+      }
+    },
+    {
+      "id": "fable52-x-2119900775727902732",
+      "sourceUrl": "https://x.com/kplikethebird/status/2119900775727902732",
+      "title_en": "Jerusalem at Passover: a 3D fly-through from the Temple to the Stepped Street",
+      "poster": "assets/case-posters/fable52-x-2119900775727902732.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/kplikethebird/status/2119900775727902732",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119900521687314432/img/W5YriXBU4c7l51fi.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119900521687314432/img/W5YriXBU4c7l51fi.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "5cdb5b03322790f9c95fdd9dc849f943c0ebae8e39d151b35c20c423edf714c1"
+      }
+    },
+    {
+      "id": "fable52-x-2119896030993146101",
+      "sourceUrl": "https://x.com/Ldataengineer/status/2119896030993146101",
+      "title_en": "Draining the North Atlantic: a 3D seafloor flyover down to 8,600 m",
+      "poster": "assets/case-posters/fable52-x-2119896030993146101.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/Ldataengineer/status/2119896030993146101",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119895394016522240/img/CduLN_7D-VNqu3mw.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119895394016522240/img/CduLN_7D-VNqu3mw.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "6df239684af5cbf2e3bac38f4acd2e9bc36be4fde8a49119fa79fd12203ced11"
+      }
+    },
+    {
+      "id": "fable52-x-2119895459519168558",
+      "sourceUrl": "https://x.com/higgsfield_ai/status/2119895459519168558",
+      "title_en": "An android head modelled part by part in Blender from a 360° video",
+      "poster": "assets/case-posters/fable52-x-2119895459519168558.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/higgsfield_ai/status/2119895459519168558",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119894442358222848/img/a7ybx2METcxy9ejj.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119894442358222848/img/a7ybx2METcxy9ejj.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 639,
+        "height": 680,
+        "imageSha256": "3f2a3f44122e26b512621b727f5417bb06f3844bf2b65db5821578bd35438526"
+      }
+    },
+    {
+      "id": "fable52-x-2119894929795145756",
+      "sourceUrl": "https://x.com/jonathanhamiche/status/2119894929795145756",
+      "title_en": "Slingshot: a gravity puzzle game that bends shots around planets",
+      "poster": "assets/case-posters/fable52-x-2119894929795145756.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/jonathanhamiche/status/2119894929795145756",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119894054234107904/img/nRpTo6i5SVzCwvD3.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119894054234107904/img/nRpTo6i5SVzCwvD3.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "b058629ba6ff2d64c01445096834802acd028a4edac429146e01d9907b84da49"
+      }
+    },
+    {
+      "id": "fable52-x-2119894073024606617",
+      "sourceUrl": "https://x.com/crtvTeknologist/status/2119894073024606617",
+      "title_en": "Keep: a password field that builds a pixel castle as the password grows",
+      "poster": "assets/case-posters/fable52-x-2119894073024606617.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/crtvTeknologist/status/2119894073024606617",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119894021472473089/img/8ioC_TfaPGYPa7ip.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119894021472473089/img/8ioC_TfaPGYPa7ip.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 680,
+        "imageSha256": "c5e66837f154eed215ff0f954762bed10900559011d71e790a56cbc319e97097"
+      }
+    },
+    {
+      "id": "fable52-x-2119893970897490135",
+      "sourceUrl": "https://x.com/higgsfield_ai/status/2119893970897490135",
+      "title_en": "A zombie hand rigged in Blender crawls, flips and makes hand signs",
+      "poster": "assets/case-posters/fable52-x-2119893970897490135.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/higgsfield_ai/status/2119893970897490135",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119888131575205888/img/ViCOXYAxNqLvTClP.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119888131575205888/img/ViCOXYAxNqLvTClP.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "62554cb4d8e7c7e2e7400619bbb98365bf72426ee0a2a7c1086f19a7b9cc8862"
+      }
+    },
+    {
+      "id": "fable52-x-2119891197317591040",
+      "sourceUrl": "https://x.com/al_maxgo/status/2119891197317591040",
+      "title_en": "FBPlot: a vertical trailer for a football chart and stats app",
+      "poster": "assets/case-posters/fable52-x-2119891197317591040.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/al_maxgo/status/2119891197317591040",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119890367994576896/img/XXBoYnoq-knIAobe.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119890367994576896/img/XXBoYnoq-knIAobe.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 383,
+        "height": 680,
+        "imageSha256": "0fd149968007fce2478e6a4cb38c6293d282c98c8522f63a41dda61116452ac9"
+      }
+    },
+    {
+      "id": "fable52-x-2119887623070077213",
+      "sourceUrl": "https://x.com/danteeonsol/status/2119887623070077213",
+      "title_en": "A UFO lands at a night-time Area 51 base and an alien greets the crew",
+      "poster": "assets/case-posters/fable52-x-2119887623070077213.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/danteeonsol/status/2119887623070077213",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119887223810076672/img/U6vhrrrWqJgYtSjf.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119887223810076672/img/U6vhrrrWqJgYtSjf.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "cc436a10c6a74800cc0bea0d6d76f6d2d599df59f5c9202a1d4deb7461c89bbd"
+      }
+    },
+    {
+      "id": "fable52-x-2119879273196761464",
+      "sourceUrl": "https://x.com/aidanshandle/status/2119879273196761464",
+      "title_en": "Porting a C++ path tracer to the browser by writing a compiler",
+      "poster": "assets/case-posters/fable52-x-2119879273196761464.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/aidanshandle/status/2119879273196761464",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119879169731645440/img/CvZ6AbboxVDFjGBX.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119879169731645440/img/CvZ6AbboxVDFjGBX.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "5bb123035780ae8990335e9cfeefae89561548967732e89846a7fde4d515ea48"
+      }
+    },
+    {
+      "id": "fable52-x-2119869170871652487",
+      "sourceUrl": "https://x.com/maxleiter/status/2119869170871652487",
+      "title_en": "Life circuits: a compiler that runs a maze solver inside the Game of Life",
+      "poster": "assets/case-posters/fable52-x-2119869170871652487.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/maxleiter/status/2119869170871652487",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119868875127087104/img/WkMZ-oK0KG6BYsCT.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119868875127087104/img/WkMZ-oK0KG6BYsCT.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "c74b2e16fe816e7062612edd237ce34d95429ad679a7db877f93f2e6d4160df8"
+      }
+    },
+    {
+      "id": "fable52-x-2119925633564463609",
+      "sourceUrl": "https://x.com/felixrieseberg/status/2119925633564463609",
+      "title_en": "Saltline: a single-prompt shooter experiment",
+      "poster": "assets/case-posters/fable52-x-2119925633564463609.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/felixrieseberg/status/2119925633564463609",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119919821538447360/img/tuJ7YP9fTEVJK8C8.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119919821538447360/img/tuJ7YP9fTEVJK8C8.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 377,
+        "imageSha256": "b2ccf8f9e64287209bf5fd5684c148f9c96f629768ca08257819bc206f9a5f29"
+      }
+    },
+    {
+      "id": "fable52-dustfall",
+      "sourceUrl": "https://github.com/webKing021/dustfall",
+      "title_en": "Dustfall: a browser western",
+      "poster": "assets/case-posters/fable52-dustfall.jpg",
+      "mediaKind": "image",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://github.com/webKing021/dustfall",
+        "sourceImageUrl": "https://raw.githubusercontent.com/webKing021/dustfall/main/docs/riding.jpg",
+        "retrievedImageUrl": "https://raw.githubusercontent.com/webKing021/dustfall/main/docs/riding.jpg",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "primary-page-image",
+        "width": 1280,
+        "height": 720,
+        "imageSha256": "50f6c9cd1170f69b4343bd3bf6ed1db188474eb4eb2ef77484bd9b50b80cce6f"
+      }
+    },
+    {
+      "id": "fable52-tria-prima",
+      "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xssfep/i_gave_fable_52_one_prompt_on_max_effort_it/",
+      "title_en": "Tria Prima: a dark-fantasy alchemy game",
+      "poster": "assets/case-posters/fable52-tria-prima.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://www.reddit.com/r/ClaudeCode/comments/1xssfep/i_gave_fable_52_one_prompt_on_max_effort_it/",
+        "sourceImageUrl": "https://raw.githubusercontent.com/winchxyz/tria-prima/main/media/title.jpg",
+        "retrievedImageUrl": "https://raw.githubusercontent.com/winchxyz/tria-prima/main/media/title.jpg",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "linked-project-screenshot",
+        "width": 1920,
+        "height": 1080,
+        "imageSha256": "e0b5d594e64c6903485ec60ddd5fc1834d296b56a8a8a3545bf72f4d5366d477"
+      }
+    },
+    {
+      "id": "fable52-bili-pelican",
+      "sourceUrl": "https://www.bilibili.com/video/BV1zvWP6MECB/",
+      "title_en": "Animated SVG pelican bicycle test",
+      "poster": "assets/case-posters/fable52-bili-pelican.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://www.bilibili.com/video/BV1zvWP6MECB/",
+        "sourceImageUrl": "https://i1.hdslb.com/bfs/archive/fad36174ca3a71073214707dc50af647bd4c2090.jpg",
+        "retrievedImageUrl": "https://i1.hdslb.com/bfs/archive/fad36174ca3a71073214707dc50af647bd4c2090.jpg",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "primary-page-image",
+        "width": 1920,
+        "height": 1080,
+        "imageSha256": "b0abb0c0e7e2792e98cd4f11edd82c368d7d1ebc91eb178c06fe394def27f242"
+      }
+    },
+    {
+      "id": "fable52-bili-BV1mHWM6YEkP",
+      "sourceUrl": "https://www.bilibili.com/video/BV1mHWM6YEkP/",
+      "title_en": "Six project tests at Medium effort",
+      "poster": "assets/case-posters/fable52-bili-BV1mHWM6YEkP.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://www.bilibili.com/video/BV1mHWM6YEkP/",
+        "sourceImageUrl": "https://i1.hdslb.com/bfs/archive/a5d4b33bf887408e85148f2bd5deb56a5978ac1a.jpg",
+        "retrievedImageUrl": "https://i1.hdslb.com/bfs/archive/a5d4b33bf887408e85148f2bd5deb56a5978ac1a.jpg",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "primary-page-image",
+        "width": 1672,
+        "height": 940,
+        "imageSha256": "d16067b8ee0daddfff3bc18307b9dfb981ee61affaead0bc72e29bbb6f30deb7"
+      }
+    },
+    {
+      "id": "fable52-bili-BV1gsWg6gEis",
+      "sourceUrl": "https://www.bilibili.com/video/BV1gsWg6gEis/",
+      "title_en": "Seven tests including Unity and Godot",
+      "poster": "assets/case-posters/fable52-bili-BV1gsWg6gEis.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://www.bilibili.com/video/BV1gsWg6gEis/",
+        "sourceImageUrl": "https://i2.hdslb.com/bfs/archive/539aaf594c0626bc99b95803c4c264d4d1a057cd.jpg",
+        "retrievedImageUrl": "https://i2.hdslb.com/bfs/archive/539aaf594c0626bc99b95803c4c264d4d1a057cd.jpg",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "primary-page-image",
+        "width": 1672,
+        "height": 940,
+        "imageSha256": "0ab30a26e6bd917be5228c352219db48210fac96cc97bcd8223bb7e31421210f"
+      }
+    },
+    {
+      "id": "fable52-bili-BV1edWM63Ewd",
+      "sourceUrl": "https://www.bilibili.com/video/BV1edWM63Ewd/",
+      "title_en": "Private benchmark, 3D inspection and usage limits",
+      "poster": "assets/case-posters/fable52-bili-BV1edWM63Ewd.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://www.bilibili.com/video/BV1edWM63Ewd/",
+        "sourceImageUrl": "https://i1.hdslb.com/bfs/archive/40bf1176d54f596706b0f0b97993b5cfabe6574a.jpg",
+        "retrievedImageUrl": "https://i1.hdslb.com/bfs/archive/40bf1176d54f596706b0f0b97993b5cfabe6574a.jpg",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "primary-page-image",
+        "width": 1664,
+        "height": 936,
+        "imageSha256": "a7c30761199717862fe817bb31b0d477479f7c83123072c538a11e430c6229fb"
+      }
+    },
+    {
+      "id": "fable52-yt-H0OeHaQ3L84",
+      "sourceUrl": "https://www.youtube.com/watch?v=H0OeHaQ3L84",
+      "title_en": "Motion design, drone game and UI comparison",
+      "poster": "assets/case-posters/fable52-yt-H0OeHaQ3L84.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://www.youtube.com/watch?v=H0OeHaQ3L84",
+        "sourceImageUrl": "https://i.ytimg.com/vi/H0OeHaQ3L84/maxresdefault.jpg",
+        "retrievedImageUrl": "https://i.ytimg.com/vi/H0OeHaQ3L84/maxresdefault.jpg",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "primary-page-image",
+        "width": 1280,
+        "height": 720,
+        "imageSha256": "28e0ab00de1560b347ff6f648c55df16826ce436366ca4e84ecd770f151f9332"
+      }
+    },
+    {
+      "id": "fable52-yt-82EJCUmD4O4",
+      "sourceUrl": "https://www.youtube.com/watch?v=82EJCUmD4O4",
+      "title_en": "33 coding prompts and subscription usage",
+      "poster": "assets/case-posters/fable52-yt-82EJCUmD4O4.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://www.youtube.com/watch?v=82EJCUmD4O4",
+        "sourceImageUrl": "https://i.ytimg.com/vi/82EJCUmD4O4/maxresdefault.jpg",
+        "retrievedImageUrl": "https://i.ytimg.com/vi/82EJCUmD4O4/maxresdefault.jpg",
+        "checkedAt": "2026-11-12T05:33:41+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "primary-page-image",
+        "width": 1280,
+        "height": 720,
+        "imageSha256": "40895a51adfb3707b003bbbe502372b0789c37f939475541b0a2b8e6c5e41ce1"
+      }
+    }
+  ]
+}

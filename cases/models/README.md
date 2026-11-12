@@ -9,4 +9,4 @@
 | 案例 | 模型 | 简介 |
 | --- | --- | --- |
 | [Claude Opus 5.5 使用案例合集](claude-opus-5-5-usecases) | Claude Opus 5.5 | 多来源结构化案例与独立静态页面，由共享 atlas 工具构建 |
-| [Fable 5.2 案例监控](fable-5-2-usecases) | Fable 5.2 | 26 条案例，附原始出处与版本归属，部分覆盖 |
+| [Fable 5.2 案例监控](fable-5-2-usecases) | Fable 5.2 | 72 条案例、56 张来源封面，附版本归属，部分覆盖 |

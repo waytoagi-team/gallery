@@ -45,6 +45,20 @@ def smoke(selected, report_path):
                             response = page.goto(url, wait_until="load")
                             assert response.status == 200, url
                             page.wait_for_selector("#grid article.card" if count else "#grid .empty")
+                            local_posters = [c["poster"] for c in payload["cases"]
+                                             if (c.get("poster") or "").startswith("assets/case-posters/")]
+                            if local_posters and width == 1440 and lang == "zh":
+                                broken = page.evaluate("""async urls => {
+                                  const checks = await Promise.all(urls.map(src => new Promise(resolve => {
+                                    const img = new Image();
+                                    const timer = setTimeout(() => resolve(src), 15000);
+                                    img.onload = () => { clearTimeout(timer); resolve(img.naturalWidth > 0 ? null : src); };
+                                    img.onerror = () => { clearTimeout(timer); resolve(src); };
+                                    img.src = new URL(src, location.href).href;
+                                  })));
+                                  return checks.filter(Boolean);
+                                }""", local_posters)
+                                assert not broken, (topic.id, "broken local posters", broken)
                             assert topic.spec["name"] in page.title()
                             expected_lang = "zh-CN" if lang == "zh" else "en"
                             assert page.locator("html").get_attribute("lang") == expected_lang
