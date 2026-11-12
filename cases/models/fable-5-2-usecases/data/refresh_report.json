@@ -1,15 +1,15 @@
 {
-  "refreshedAt": "2026-11-12T05:33:41+00:00",
+  "refreshedAt": "2026-11-12T15:17:30+00:00",
   "scope": {
-    "zh": "多来源更新、互动指标与原始封面补全（部分覆盖）",
-    "en": "Multi-source update, metrics and source-linked covers (partial coverage)"
+    "zh": "X 站内搜索、引用串与原作者作品追踪（部分覆盖）",
+    "en": "X native search, quote threads and original-creator tracing (partial coverage)"
   },
   "status": "partial-coverage",
   "lastFullRefreshAt": null,
-  "lastMultiSourceRefreshAt": "2026-11-12T05:33:41+00:00",
-  "previousCaseCount": 26,
-  "caseCount": 72,
-  "reviewedNewExtras": 46,
+  "lastMultiSourceRefreshAt": "2026-11-12T15:17:30+00:00",
+  "previousCaseCount": 72,
+  "caseCount": 110,
+  "reviewedNewExtras": 38,
   "newCasesByPlatform": {
     "X": 37,
     "GitHub": 3,
@@ -33,8 +33,8 @@
     "Only source-linked images are used; no generic illustrations for sources without images."
   ],
   "posters": {
-    "before": 1,
-    "localVerified": 56,
+    "before": 57,
+    "localVerified": 94,
     "missing": 16
   }
 }

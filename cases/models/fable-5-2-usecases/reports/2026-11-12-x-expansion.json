@@ -1,0 +1,558 @@
+{
+  "checkedAt": "2026-11-12T15:17:30+00:00",
+  "topicId": "fable-5-2",
+  "previousCaseCount": 72,
+  "caseCount": 110,
+  "newCaseCount": 38,
+  "previousPosters": 57,
+  "newPosters": 37,
+  "localPosters": 94,
+  "methods": [
+    "Two public web searches on model/version variants, then original-post and quoted-post tracing.",
+    "Three logged-in X searches: latest exact phrase; video posts with min_faves:20; app/tool/website/dashboard/github variants.",
+    "Bounded scrolling of EricBuess creator-credit thread, then original author threads.",
+    "Cross-check public galleries and machine-readable indexes against exact original IDs and media; do not automatically import.",
+    "Verify creator-linked demo page responses and follow author replies for feature limits and clone links."
+  ],
+  "nativeRoutes": {
+    "native-videos": {
+      "query": "\"Fable 5.2\" filter:videos min_faves:20 since:2026-11-09",
+      "visiblePosts": 11,
+      "urls": [
+        "https://x.com/0xCodila/status/2120890960133394494",
+        "https://x.com/edmakethings/status/2120881651832242605",
+        "https://x.com/Lummox_eth/status/2120875907476783361",
+        "https://x.com/nataliexbz/status/2120875576701403387",
+        "https://x.com/mehulmpt/status/2120875475337977953",
+        "https://x.com/sleepclip/status/2120874727073861857",
+        "https://x.com/cosm0rder/status/2120873666946986115",
+        "https://x.com/RezAIT00/status/2120872362069328064",
+        "https://x.com/woodxbt/status/2120869246917808571",
+        "https://x.com/benchuchu/status/2120867905537736783",
+        "https://x.com/literallydenis/status/2120866958790848953"
+      ]
+    },
+    "native-eric-thread": {
+      "query": null,
+      "visiblePosts": 16,
+      "urls": [
+        "https://x.com/EricBuess/status/2120170332304621998",
+        "https://x.com/EricBuess/status/2120171879558177156",
+        "https://x.com/EricBuess/status/2120172200976097454",
+        "https://x.com/EricBuess/status/2120172402554421476",
+        "https://x.com/EricBuess/status/2120172489904914789",
+        "https://x.com/EricBuess/status/2120172559329051042",
+        "https://x.com/EricBuess/status/2120172634335797738",
+        "https://x.com/EricBuess/status/2120172782105366600",
+        "https://x.com/EricBuess/status/2120187247831970203",
+        "https://x.com/EricBuess/status/2120187324772565465",
+        "https://x.com/EricBuess/status/2120187419135725840",
+        "https://x.com/EricBuess/status/2120187483245760859",
+        "https://x.com/EricBuess/status/2120187576263065674",
+        "https://x.com/EricBuess/status/2120187656470516016",
+        "https://x.com/EricBuess/status/2120187743904903403",
+        "https://x.com/EricBuess/status/2120187842311729413"
+      ],
+      "sourceUrl": "https://x.com/EricBuess/status/2120170332304621998"
+    },
+    "native-latest": {
+      "query": "\"Fable 5.2\" since:2026-11-10",
+      "visiblePosts": 20,
+      "urls": [
+        "https://x.com/mimi10v3/status/2120896377337360598",
+        "https://x.com/keiru_ai/status/2120896365828173898",
+        "https://x.com/8CrystalCurrent/status/2120896345158672728",
+        "https://x.com/zyonbuilds/status/2120896341610049570",
+        "https://x.com/CelestialSayuki/status/2120896339500470643",
+        "https://x.com/Betaer/status/2120896282579615820",
+        "https://x.com/jabosiswanto94/status/2120896254343598256",
+        "https://x.com/liyue_ai/status/2120896139381911711",
+        "https://x.com/theairelay/status/2120896055277707478",
+        "https://x.com/boardyai/status/2120896035849633946",
+        "https://x.com/TariqTechs/status/2120895894518432094",
+        "https://x.com/Jesus_Galindez1/status/2120895880563740910",
+        "https://x.com/yulafezmem/status/2120895857101029643",
+        "https://x.com/getinfotoyou/status/2120895832308273312",
+        "https://x.com/AveryRunsAI/status/2120895825899618441",
+        "https://x.com/maraotherwise/status/2120895751165284832",
+        "https://x.com/kirchnr/status/2120895749936267708",
+        "https://x.com/omercoskun_tech/status/2120895705476714686",
+        "https://x.com/ai_bange/status/2120895667300356201",
+        "https://x.com/chadkowalski70/status/2120895640569819230"
+      ]
+    },
+    "native-apps": {
+      "query": "\"Fable 5.2\" (app OR tool OR website OR dashboard OR github) since:2026-11-09 -filter:replies",
+      "visiblePosts": 14,
+      "urls": [
+        "https://x.com/ai_bange/status/2120895667300356201",
+        "https://x.com/hiimsimsas/status/2120895447678017754",
+        "https://x.com/ghosstty_/status/2120894636948439054",
+        "https://x.com/Sanemavcil/status/2120894080813010972",
+        "https://x.com/solotechdev/status/2120893838273196233",
+        "https://x.com/AnikaCodes/status/2120891781353210087",
+        "https://x.com/ujjexe/status/2120891575756861689",
+        "https://x.com/theadnaankhan/status/2120890364764557352",
+        "https://x.com/ascndnt_alchmy/status/2120888926109868050",
+        "https://x.com/BuildingWaves/status/2120888434189537782",
+        "https://x.com/0xfuckpoverty/status/2120886595058356476",
+        "https://x.com/sujingshen/status/2120886355182113123",
+        "https://x.com/h_a_t_a_r_a_k_e/status/2120884088471248985",
+        "https://x.com/RohithThakurwar/status/2120882741529235921"
+      ]
+    }
+  },
+  "metadataPosts": 380,
+  "candidateStatuses": {
+    "not-imported-pending-review": 317,
+    "accepted": 38,
+    "already-published": 25
+  },
+  "accepted": [
+    {
+      "id": "fable52-x-2120371213474107825",
+      "sourceUrl": "https://x.com/angeldot_/status/2120371213474107825",
+      "title": "可逐层编辑的街机 Lottie 动画图标",
+      "author": "angeldot_",
+      "evidenceUrl": "https://x.com/angeldot_/status/2120371213474107825",
+      "modelRole": "动画设计与 MCP 编排"
+    },
+    {
+      "id": "fable52-x-2120248525254742318",
+      "sourceUrl": "https://x.com/emollick/status/2120248525254742318",
+      "title": "Dread & District：幻想世界的运输经营游戏",
+      "author": "emollick",
+      "evidenceUrl": "https://x.com/emollick/status/2120248525254742318",
+      "modelRole": "游戏开发与多智能体编排"
+    },
+    {
+      "id": "fable52-x-2120695866684231998",
+      "sourceUrl": "https://x.com/RyanSael/status/2120695866684231998",
+      "title": "Farewell Light：隔夜制作的游戏演示",
+      "author": "RyanSael",
+      "evidenceUrl": "https://x.com/RyanSael/status/2120695866684231998",
+      "modelRole": "游戏演示开发"
+    },
+    {
+      "id": "fable52-x-2120192761542615271",
+      "sourceUrl": "https://x.com/loktar00/status/2120192761542615271",
+      "title": "包含角色动画和击败特效的游戏测试",
+      "author": "loktar00",
+      "evidenceUrl": "https://x.com/loktar00/status/2120192761542615271",
+      "modelRole": "游戏代码、模型与动画生成"
+    },
+    {
+      "id": "fable52-x-2119868968307695818",
+      "sourceUrl": "https://x.com/kevin_t_ngo/status/2119868968307695818",
+      "title": "乘船穿越八个梦境的浏览器游戏",
+      "author": "kevin_t_ngo",
+      "evidenceUrl": "https://x.com/kevin_t_ngo/status/2119868968307695818",
+      "modelRole": "浏览器游戏开发"
+    },
+    {
+      "id": "fable52-x-2119867743965163994",
+      "sourceUrl": "https://x.com/ForwardEditor/status/2119867743965163994",
+      "title": "浮岛之间的骑龙模拟器",
+      "author": "ForwardEditor",
+      "evidenceUrl": "https://x.com/ForwardEditor/status/2119867743965163994",
+      "modelRole": "游戏与动画开发"
+    },
+    {
+      "id": "fable52-x-2119868640879349998",
+      "sourceUrl": "https://x.com/MatthewBerman/status/2119868640879349998",
+      "title": "视频编辑器原型演示",
+      "author": "MatthewBerman",
+      "evidenceUrl": "https://x.com/MatthewBerman/status/2119868627885441389",
+      "modelRole": "视频编辑软件开发"
+    },
+    {
+      "id": "fable52-x-2119901658394358005",
+      "sourceUrl": "https://x.com/petergyang/status/2119901658394358005",
+      "title": "Turbo Tails：六位选手的浏览器卡丁车",
+      "author": "petergyang",
+      "evidenceUrl": "https://x.com/petergyang/status/2119901658394358005",
+      "modelRole": "浏览器赛车游戏开发"
+    },
+    {
+      "id": "fable52-x-2119910054413685102",
+      "sourceUrl": "https://x.com/geneohms/status/2119910054413685102",
+      "title": "在手机上生成可对弈的国际象棋",
+      "author": "geneohms",
+      "evidenceUrl": "https://x.com/geneohms/status/2119910054413685102",
+      "modelRole": "移动端游戏生成"
+    },
+    {
+      "id": "fable52-x-2119900328212713872",
+      "sourceUrl": "https://x.com/TekonBurns/status/2119900328212713872",
+      "title": "从齿轮照片重建可运转的 SVG 机械",
+      "author": "TekonBurns",
+      "evidenceUrl": "https://x.com/TekonBurns/status/2119900328212713872",
+      "modelRole": "图像理解与 SVG 机械动画"
+    },
+    {
+      "id": "fable52-x-2119903808935313778",
+      "sourceUrl": "https://x.com/internetphysics/status/2119903808935313778",
+      "title": "在浏览器油画模拟器里逐步画人像",
+      "author": "internetphysics",
+      "evidenceUrl": "https://x.com/internetphysics/status/2119903808935313778",
+      "modelRole": "视觉反馈与浏览器绘画"
+    },
+    {
+      "id": "fable52-x-2119907891419480107",
+      "sourceUrl": "https://x.com/aug5thmusic/status/2119907891419480107",
+      "title": "用 LilyPond 编写巴赫风格管风琴赋格",
+      "author": "aug5thmusic",
+      "evidenceUrl": "https://x.com/aug5thmusic/status/2119907891419480107",
+      "modelRole": "乐谱代码生成"
+    },
+    {
+      "id": "fable52-x-2119903338078564844",
+      "sourceUrl": "https://x.com/AmirMushich/status/2119903338078564844",
+      "title": "Blender 与 Reaper 合成器短片实测",
+      "author": "AmirMushich",
+      "evidenceUrl": "https://x.com/AmirMushich/status/2119903338078564844",
+      "modelRole": "3D 短片与音频工作流编排"
+    },
+    {
+      "id": "fable52-x-2119905501601272283",
+      "sourceUrl": "https://x.com/evrentkg/status/2119905501601272283",
+      "title": "在手机上运行的 AR 互动测试",
+      "author": "evrentkg",
+      "evidenceUrl": "https://x.com/evrentkg/status/2119905501601272283",
+      "modelRole": "AR 互动原型开发"
+    },
+    {
+      "id": "fable52-x-2120016334679609690",
+      "sourceUrl": "https://x.com/HolyGrail/status/2120016334679609690",
+      "title": "把个人博客文章转成日文视频",
+      "author": "HolyGrail",
+      "evidenceUrl": "https://x.com/HolyGrail/status/2120016334679609690",
+      "modelRole": "文章改编与视频制作"
+    },
+    {
+      "id": "fable52-x-2120007289071640613",
+      "sourceUrl": "https://x.com/niramayo2096/status/2120007289071640613",
+      "title": "金继：用代码绘制和配乐的和风动效",
+      "author": "niramayo2096",
+      "evidenceUrl": "https://x.com/niramayo2096/status/2120007289071640613",
+      "modelRole": "动态图形与声音代码生成"
+    },
+    {
+      "id": "fable52-x-2120012834461646927",
+      "sourceUrl": "https://x.com/tankazunori0914/status/2120012834461646927",
+      "title": "从一个点长成世界的着色器短片",
+      "author": "tankazunori0914",
+      "evidenceUrl": "https://x.com/tankazunori0914/status/2120012834461646927",
+      "modelRole": "着色器绘图与音频合成"
+    },
+    {
+      "id": "fable52-x-2120010028073771323",
+      "sourceUrl": "https://x.com/mrdejie/status/2120010028073771323",
+      "title": "Reina 与 Hiro：带配音的互动喜剧游戏",
+      "author": "mrdejie",
+      "evidenceUrl": "https://x.com/mrdejie/status/2120010028073771323",
+      "modelRole": "游戏开发与 ElevenLabs MCP 编排"
+    },
+    {
+      "id": "fable52-x-2120008924204310895",
+      "sourceUrl": "https://x.com/j_h_h_3/status/2120008924204310895",
+      "title": "用 Vork 与 Voyager 制作 4K 场景短片",
+      "author": "j_h_h_3",
+      "evidenceUrl": "https://x.com/j_h_h_3/status/2120008924204310895",
+      "modelRole": "3D 场景代码与渲染迭代"
+    },
+    {
+      "id": "fable52-x-2120030097004777937",
+      "sourceUrl": "https://x.com/jarrodwatts/status/2120030097004777937",
+      "title": "浮空草岛与遗迹的第一人称游戏演示",
+      "author": "jarrodwatts",
+      "evidenceUrl": "https://x.com/jarrodwatts/status/2120030097004777937",
+      "modelRole": "游戏开发"
+    },
+    {
+      "id": "fable52-x-2119868633086378471",
+      "sourceUrl": "https://x.com/MatthewBerman/status/2119868633086378471",
+      "title": "用动效解释语言模型如何工作",
+      "author": "MatthewBerman",
+      "evidenceUrl": "https://x.com/MatthewBerman/status/2119868633086378471",
+      "modelRole": "科普动效生成"
+    },
+    {
+      "id": "fable52-x-2119919466163093768",
+      "sourceUrl": "https://x.com/Rasmic/status/2119919466163093768",
+      "title": "Convex 产品原理讲解动效",
+      "author": "Rasmic",
+      "evidenceUrl": "https://x.com/Rasmic/status/2119919466163093768",
+      "modelRole": "产品讲解视频制作"
+    },
+    {
+      "id": "fable52-x-2119978892861829227",
+      "sourceUrl": "https://x.com/linxiaobei888/status/2119978892861829227",
+      "title": "面向幼儿的英语启蒙动画",
+      "author": "linxiaobei888",
+      "evidenceUrl": "https://x.com/linxiaobei888/status/2119978892861829227",
+      "modelRole": "教学内容设计与动画编排"
+    },
+    {
+      "id": "fable52-x-2119974354260013293",
+      "sourceUrl": "https://x.com/DeryaTR_/status/2119974354260013293",
+      "title": "用代码串联科学史的 3D 讲解短片",
+      "author": "DeryaTR_",
+      "evidenceUrl": "https://x.com/DeryaTR_/status/2119974354260013293",
+      "modelRole": "科学史可视化视频"
+    },
+    {
+      "id": "fable52-x-2120341251178594532",
+      "sourceUrl": "https://x.com/BlendiByl/status/2120341251178594532",
+      "title": "浏览器中的手绘笔触风格游戏",
+      "author": "BlendiByl",
+      "evidenceUrl": "https://x.com/BlendiByl/status/2120341251178594532",
+      "modelRole": "风格化游戏渲染"
+    },
+    {
+      "id": "fable52-x-2120438091647218025",
+      "sourceUrl": "https://x.com/chetaslua/status/2120438091647218025",
+      "title": "疲惫的鹈鹕：单 HTML 代码短片",
+      "author": "chetaslua",
+      "evidenceUrl": "https://x.com/chetaslua/status/2120438091647218025",
+      "modelRole": "叙事短片与声音代码生成"
+    },
+    {
+      "id": "fable52-x-2119931740940640542",
+      "sourceUrl": "https://x.com/Izkimar/status/2119931740940640542",
+      "title": "风格化 MMO 世界与代码生成资产",
+      "author": "Izkimar",
+      "evidenceUrl": "https://x.com/Izkimar/status/2119931740940640542",
+      "modelRole": "游戏世界与资产生成"
+    },
+    {
+      "id": "fable52-x-2119877733488394520",
+      "sourceUrl": "https://x.com/petergostev/status/2119877733488394520",
+      "title": "Istanbul：伊斯坦布尔 3D 场景",
+      "author": "petergostev",
+      "evidenceUrl": "https://x.com/petergostev/status/2119877733488394520",
+      "modelRole": "城市场景生成"
+    },
+    {
+      "id": "fable52-x-2119885430627913784",
+      "sourceUrl": "https://x.com/other__reality/status/2119885430627913784",
+      "title": "Clawd 制作并发布模型的动画",
+      "author": "other__reality",
+      "evidenceUrl": "https://x.com/other__reality/status/2119885430627913784",
+      "modelRole": "已有动画工程的扩展"
+    },
+    {
+      "id": "fable52-x-2120003817584361926",
+      "sourceUrl": "https://x.com/higgsfield_ai/status/2120003817584361926",
+      "title": "Tin Knight：由一张画构建玩具店生存游戏",
+      "author": "higgsfield_ai",
+      "evidenceUrl": "https://x.com/higgsfield_ai/status/2120003817584361926",
+      "modelRole": "游戏代码与素材工具编排"
+    },
+    {
+      "id": "fable52-x-2120896377337360598",
+      "sourceUrl": "https://x.com/mimi10v3/status/2120896377337360598",
+      "title": "Bodies First：心智演化主题的生成文章",
+      "author": "mimi10v3",
+      "evidenceUrl": "https://x.com/mimi10v3/status/2120896377337360598",
+      "modelRole": "长篇科普写作"
+    },
+    {
+      "id": "fable52-x-2120896365828173898",
+      "sourceUrl": "https://x.com/keiru_ai/status/2120896365828173898",
+      "title": "Low End Heart：多工具协作的音乐视频",
+      "author": "keiru_ai",
+      "evidenceUrl": "https://x.com/keiru_ai/status/2120896365828173898",
+      "modelRole": "MV 画面与编辑工作流编排"
+    },
+    {
+      "id": "fable52-x-2120895857101029643",
+      "sourceUrl": "https://x.com/yulafezmem/status/2120895857101029643",
+      "title": "纯 CSS 的像素游戏演示",
+      "author": "yulafezmem",
+      "evidenceUrl": "https://x.com/yulafezmem/status/2120895857101029643",
+      "modelRole": "CSS 互动界面开发"
+    },
+    {
+      "id": "fable52-x-2120891575756861689",
+      "sourceUrl": "https://x.com/ujjexe/status/2120891575756861689",
+      "title": "按智能体配置并从 GitHub 安装技能的工具",
+      "author": "ujjexe",
+      "evidenceUrl": "https://x.com/ujjexe/status/2120891575756861689",
+      "modelRole": "智能体工具开发"
+    },
+    {
+      "id": "fable52-x-2120882741529235921",
+      "sourceUrl": "https://x.com/RohithThakurwar/status/2120882741529235921",
+      "title": "带物理粒子群效果的网站",
+      "author": "RohithThakurwar",
+      "evidenceUrl": "https://x.com/RohithThakurwar/status/2120882741529235921",
+      "modelRole": "互动网页与物理视觉效果"
+    },
+    {
+      "id": "fable52-x-2120866958790848953",
+      "sourceUrl": "https://x.com/literallydenis/status/2120866958790848953",
+      "title": "可探索的公元前 600 年巴比伦场景",
+      "author": "literallydenis",
+      "evidenceUrl": "https://x.com/literallydenis/status/2120866958790848953",
+      "modelRole": "历史城市场景生成"
+    },
+    {
+      "id": "fable52-x-2120867905537736783",
+      "sourceUrl": "https://x.com/benchuchu/status/2120867905537736783",
+      "title": "Fable 5.2 与 RYFT 的 3D 格斗游戏测试",
+      "author": "benchuchu",
+      "evidenceUrl": "https://x.com/benchuchu/status/2120867905537736783",
+      "modelRole": "游戏开发与 RYFT 引擎协作"
+    },
+    {
+      "id": "fable52-x-2120875576701403387",
+      "sourceUrl": "https://x.com/nataliexbz/status/2120875576701403387",
+      "title": "把交易成本纳入隔夜策略回测的分析案例",
+      "author": "nataliexbz",
+      "evidenceUrl": "https://x.com/nataliexbz/status/2120875576701403387",
+      "modelRole": "回测分析与研究脚本工作流"
+    }
+  ],
+  "mediaChecks": {
+    "newSourcePosters": 37,
+    "identicalMediaConflictsWithExisting": 0,
+    "missing": [
+      {
+        "id": "fable52-x-2120896377337360598",
+        "reason": "Text-writing example; no original post media available in the observed metadata, cover still pending."
+      }
+    ],
+    "videoFramesExtracted": [
+      {
+        "id": "fable52-x-2119867743965163994",
+        "sourceVideoUrl": "https://video.twimg.com/amplify_video/2119862159303647232/vid/avc1/1920x1080/c93rtq4-OzfTurQa.mp4?tag=29",
+        "retrievedVideoUrl": "https://video.twimg.com/amplify_video/2119862159303647232/vid/avc1/640x360/vBaYD8UlVrTsXiYN.mp4?tag=29",
+        "frameSeconds": 5,
+        "width": 640,
+        "height": 360,
+        "imageSha256": "04aea257466513a0121484075a52ca077d107bcbd23eef4edc4381d041ebe20a"
+      },
+      {
+        "id": "fable52-x-2120007289071640613",
+        "sourceVideoUrl": "https://video.twimg.com/amplify_video/2119992211135950848/vid/avc1/1920x1080/_Kzr3bLyt7ZwqdMp.mp4?tag=29",
+        "retrievedVideoUrl": "https://video.twimg.com/amplify_video/2119992211135950848/vid/avc1/640x360/ZJwS5Ph30VuarTJ2.mp4?tag=29",
+        "frameSeconds": 5,
+        "width": 640,
+        "height": 360,
+        "imageSha256": "75306943943896808c1bac8b9c829edaba36832366e7929358dcdb94ff740f41"
+      },
+      {
+        "id": "fable52-x-2119868633086378471",
+        "sourceVideoUrl": "https://video.twimg.com/amplify_video/2119868088091017217/vid/avc1/1920x1080/5TB7-RiWDIUPCxdO.mp4?tag=29",
+        "retrievedVideoUrl": "https://video.twimg.com/amplify_video/2119868088091017217/vid/avc1/640x360/sUFXTiMPyo41dc1n.mp4?tag=29",
+        "frameSeconds": 12,
+        "width": 640,
+        "height": 360,
+        "imageSha256": "9609fc875cf2027bbb354a37f329d333a3273a1219a57db7759892cb073287bd"
+      },
+      {
+        "id": "fable52-x-2119919466163093768",
+        "sourceVideoUrl": "https://video.twimg.com/amplify_video/2119919371401244672/vid/avc1/1920x1080/yS6Kbc5l0NBv4N40.mp4?tag=29",
+        "retrievedVideoUrl": "https://video.twimg.com/amplify_video/2119919371401244672/vid/avc1/640x360/1R47L2UhuXFKWCaB.mp4?tag=29",
+        "frameSeconds": 45,
+        "width": 640,
+        "height": 360,
+        "imageSha256": "5eeeae54d949d73226cf6053e7d47e54e35c65f72e2e2331122c91083abf420b"
+      },
+      {
+        "id": "fable52-x-2119885430627913784",
+        "sourceVideoUrl": "https://video.twimg.com/amplify_video/2119884273071411200/vid/avc1/1280x720/DwN1eSgpBgK8Wpa6.mp4?tag=14",
+        "retrievedVideoUrl": "https://video.twimg.com/amplify_video/2119884273071411200/vid/avc1/640x360/_vhOT03AbyClVe4n.mp4?tag=14",
+        "frameSeconds": 5,
+        "width": 640,
+        "height": 360,
+        "imageSha256": "9859ac4e6223765f3bc93e9f64c168c712cb88d2794508b04d442582339f0f43"
+      }
+    ],
+    "newCoverBoardsReviewed": 37
+  },
+  "exclusions": [
+    {
+      "sourceUrl": "https://x.com/AIHighlight/status/2120073181423604139",
+      "reason": "Curator quotation of Kevin Ngo; only the original creator post is imported."
+    },
+    {
+      "sourceUrl": "https://x.com/sorenxet/status/2120262092011823264",
+      "reason": "Another description of the same Kevin Ngo boat demo; not a new case."
+    },
+    {
+      "sourceUrl": "https://x.com/Sanemavcil/status/2120894080813010972",
+      "reason": "Native result explicitly attributes the example to Opus 5.5 rather than Fable 5.2."
+    },
+    {
+      "sourceUrl": "https://x.com/davis7/status/2120810499415908356",
+      "reason": "Mixed-model and unreleased Fable 5.5 claims; not imported as an isolated Fable 5.2 case."
+    },
+    {
+      "sourceUrl": "https://x.com/ercankeskinx/status/2120152066903712100",
+      "reason": "Indexed candidate but exact metadata retrieval returned 404; not accepted from gallery text alone."
+    }
+  ],
+  "contextCorrections": [
+    {
+      "id": "fable52-x-2120341251178594532",
+      "reason": "Same-author reply clarifies gameplay is mainly walking around and enjoying scenery.",
+      "evidenceUrl": "https://x.com/BlendiByl/status/2120343693706293494"
+    },
+    {
+      "id": "fable52-x-2119868640879349998",
+      "reason": "Model attribution is in the same-author test thread root; production readiness is an author claim, not a verified result.",
+      "evidenceUrl": "https://x.com/MatthewBerman/status/2119868627885441389"
+    }
+  ],
+  "demoPageReceipts": [
+    {
+      "name": "dread",
+      "url": "https://dread-and-district.netlify.app",
+      "status": 200,
+      "title": "Dread &amp; District: All services subject to dragons",
+      "checkedAt": "2026-11-12T15:12:21+00:00"
+    },
+    {
+      "name": "farewell",
+      "url": "https://sael.net/demo/farewell-light/",
+      "status": 200,
+      "title": "Farewell Light \\xB7 sael.net",
+      "checkedAt": "2026-11-12T15:12:21+00:00"
+    },
+    {
+      "name": "kart",
+      "url": "https://turbo-tails.vercel.app",
+      "status": 200,
+      "title": "Turbo Tails",
+      "checkedAt": "2026-11-12T15:12:21+00:00"
+    },
+    {
+      "name": "bodies",
+      "url": "https://mimi10v3.com/machine-writing/bodies-first",
+      "status": 200,
+      "title": "Bodies First — Claude Fable 5.2 · mimi10v3",
+      "checkedAt": "2026-11-12T15:12:22+00:00"
+    },
+    {
+      "name": "babylon",
+      "url": "https://claude.ai/artifact/CTjrZXVdUgKJ6qJXrvvr28",
+      "status": 200,
+      "title": "Claude Artifact",
+      "checkedAt": "2026-11-12T15:12:22+00:00"
+    }
+  ],
+  "limitations": [
+    "Partial, bounded coverage of public posts and logged-in search results; no full-X or full-web completeness claim.",
+    "No interactive game playtest, code audit, performance reproduction, historical/scientific validation, or financial-return verification is implied.",
+    "Costs, timelines, FPS and quality claims remain author-reported. Third-party tools and supplied assets keep their credited roles.",
+    "Firecrawl search/scrape seed collection succeeded, but subsequent provider research was not executed because account credits ran out.",
+    "Fable 5.5 remains offline and its archived records are not relabelled."
+  ],
+  "publicDiscoverySources": [
+    "https://raw.githubusercontent.com/liang8989/awesome-fable5-2-videos/main/data/videos.json",
+    "https://github.com/yihui-dev/awesome-fable5-2-videos",
+    "https://beatapi.io/fable-5-2-videos"
+  ]
+}
