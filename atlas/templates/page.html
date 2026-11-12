@@ -577,7 +577,7 @@ footer .links a{color:var(--lime)}
       empty:q=>q ? `没有匹配「${q}」的案例` : '没有匹配的案例', emptyWith:c=>`当前条件：${c}`, clearQ:'清除搜索', dropFacet:(v,n)=>`去掉「${v}」→ ${n} 条`,
       suggestCat:(v,n)=>`按分类「${v}」筛选（${n}）→`, suggestEv:(v,n)=>`按证据类型「${v}」筛选（${n}）→`, suggestSrc:(v,n)=>`只看来源「${v}」（${n}）→`, suggestLead:'这是一个筛选项：',
       githubKinds:{repository:'仓库',pull_request:'PR',issue:'Issue',file:'文件',gist:'Gist',comment:'评论',other:'页面'},
-      noPoster:'暂无来源封面', noMetric:'暂无独立热度', reactions:'表情回应', comments:'评论', reactionTitle:'此 PR / Issue 正文的表情回应总数，包含各类回应，不等于赞同数', commentTitle:'此 PR / Issue 的讨论区评论数，不含代码评审评论，不参与热度排序',
+      noPoster:'封面待补充', noMetric:'暂无独立热度', reactions:'表情回应', comments:'评论', reactionTitle:'此 PR / Issue 正文的表情回应总数，包含各类回应，不等于赞同数', commentTitle:'此 PR / Issue 的讨论区评论数，不含代码评审评论，不参与热度排序',
       video:'视频', resources:'相关资料', u:{likes:'点赞',saves:'收藏',stars:'仓库 Stars',views:'播放'}},
     en:{...I18N.en, docTitle:'{{MODEL_NAME}} Real-World Use Case Atlas | WaytoAGI',
       now:'Showing:', allN:n=>`All ${n} cases`, toCases:'Go to cases ↓', clearAll:'Clear all ✕', remove:v=>`Remove filter: ${v}`,
@@ -588,7 +588,7 @@ footer .links a{color:var(--lime)}
       empty:q=>q ? `No cases match “${q}”` : 'No matching cases', emptyWith:c=>`Current filters: ${c}`, clearQ:'Clear search', dropFacet:(v,n)=>`Drop “${v}” → ${n}`,
       suggestCat:(v,n)=>`Filter by category “${v}” (${n}) →`, suggestEv:(v,n)=>`Filter by evidence “${v}” (${n}) →`, suggestSrc:(v,n)=>`Show only “${v}” (${n}) →`, suggestLead:'That is a filter:',
       githubKinds:{repository:'Repo',pull_request:'PR',issue:'Issue',file:'File',gist:'Gist',comment:'Comment',other:'Page'},
-      noPoster:'No source image available', noMetric:'No item metrics', reactions:'reactions', comments:'comments', reactionTitle:'All reactions to this PR / issue body, not a count of approvals', commentTitle:'Discussion comments on this PR / issue, excluding inline review comments; not used for ranking',
+      noPoster:'Cover pending', noMetric:'No item metrics', reactions:'reactions', comments:'comments', reactionTitle:'All reactions to this PR / issue body, not a count of approvals', commentTitle:'Discussion comments on this PR / issue, excluding inline review comments; not used for ranking',
       video:'video', resources:'Related resources', u:{likes:'likes',saves:'saves',stars:'repository stars',views:'views'}}
   };
   const store = { get(k){try{return localStorage.getItem(k)}catch{return null}}, set(k,v){try{localStorage.setItem(k,v)}catch{}} };

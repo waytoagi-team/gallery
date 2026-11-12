@@ -9,6 +9,7 @@
     "assets/case-posters/fable52-bili-BV1gsWg6gEis.jpg": "0ab30a26e6bd917be5228c352219db48210fac96cc97bcd8223bb7e31421210f",
     "assets/case-posters/fable52-bili-BV1mHWM6YEkP.jpg": "d16067b8ee0daddfff3bc18307b9dfb981ee61affaead0bc72e29bbb6f30deb7",
     "assets/case-posters/fable52-bili-pelican.jpg": "b0abb0c0e7e2792e98cd4f11edd82c368d7d1ebc91eb178c06fe394def27f242",
+    "assets/case-posters/fable52-cat-animation.jpg": "74767e068665a3af2d136ff2b67a0a54b997624ab9dc75a95474b25097c3454a",
     "assets/case-posters/fable52-dubibubiii-425413.jpg": "ad76430b6009fdb340c3eff0e638db60142538cd9d594456fcb9dca564033376",
     "assets/case-posters/fable52-dustfall.jpg": "50f6c9cd1170f69b4343bd3bf6ed1db188474eb4eb2ef77484bd9b50b80cce6f",
     "assets/case-posters/fable52-hyuki-993504.jpg": "5c9203f7f6f3022a79a090a7feae78a93eaf24ecdcc6389f0a18243da81ab900",
@@ -61,8 +62,8 @@
     "assets/case-posters/fable52-yt-H0OeHaQ3L84.jpg": "28e0ab00de1560b347ff6f648c55df16826ce436366ca4e84ecd770f151f9332",
     "assets/case-posters/fable52-yupi996-694138.jpg": "a3578678552baeaad5ae27e6c6f9b7a3404b026bb3d1715d8fda9e87c8b1c52b",
     "assets/og-image.png": "a843051da942a4d75f354206538a192fc617c40d074de7174987c0e6ed83972c",
-    "data/all_cases.csv": "243bd0062fad55947ec7afb3e9033633134976ba46c7cf5899861c2016795166",
-    "data/all_cases.json": "e1bff53e780ce7aebbc81ffc5ad728b1e86d9ee723b9330b15e460e138d00452",
-    "index.html": "a78851ca720f3fc68e29ead4885847c7943e126e619ec4e2d406204d1a36a5f8"
+    "data/all_cases.csv": "3ed59c930d39ff921c6b4ee7820e0d349c8cfa6bdea15fb551c38119f783c3f8",
+    "data/all_cases.json": "aeb48ac567a904edf84fc103998b37c07cfa4f66cadd61c631524e0ae4c6bd87",
+    "index.html": "b865328fc45788dba09607fa69212f664ba17c50bbec5064e51736d817e2ca05"
   }
 }
