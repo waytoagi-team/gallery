@@ -98,3 +98,7 @@ Fable 5.2 的来源图片保存到专题 `content/assets/case-posters/`，并在
 ### Reddit 视频封面核对
 
 抓取结果无图不代表原帖无媒体。先保留已核实的 `mediaKind`；无法取图的卡片显示“封面待补充”。登录后定位原帖对应的 `shreddit-player[post-id]`，读取其 `poster`，并核对播放器开放 Shadow DOM 中的 `video.poster` / `img[alt="media poster"]`。不得把头像、广告、推荐视频或评论图片当成该帖封面。优先保存来源播放器封面；来源没有封面时再尝试原视频取帧。真人验证交给用户处理。图片审核后写入 `data/poster_enrichments.json`，记录原帖 ID、来源 URL、尺寸、SHA-256 和方法，保存到 `content/assets/case-posters/`，随后构建并实际解码核对。2026-11-12 的猫动画案例使用原帖 `t3_1xs3cjx` 的 640×1180 原始封面，详见该主题的 `reports/2026-11-12-cat-media-diagnosis.json`。
+
+### 从 X 搜索扩展案例
+
+先用版本变体查最新内容，再用 `filter:videos min_faves:20` 和 `app OR tool OR website OR dashboard OR github` 分别找作品与工具。记录查询和有限滚动覆盖，搜索结果不直接入库。合集与引用串只作为发现入口，沿引用、同作者回复和作品链接找原帖，按原始帖子/同一作品/相同媒体去重；缺少版本归属时沿同作者串首帖核对，并公开上下文链接。读取作者补充回复，确认玩法、第三方素材和工具职责；不可把作者的 FPS、耗时、生产级等评价写成已验证事实。优先原帖媒体封面，下载后记录校验值并由浏览器实际解码。只更新 Fable 5.2 的发布挂载，保持 Fable 5.5 下线。
