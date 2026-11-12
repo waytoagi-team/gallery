@@ -100,6 +100,27 @@ class PosterEnrichmentTests(unittest.TestCase):
         self.assertEqual(self.case["mediaKind"], "video")
         self.assertEqual(self.case["posterEvidence"], {"original": True})
 
+    def test_local_poster_requires_matching_file_and_rejects_escape(self):
+        import hashlib
+        import tempfile
+        from pathlib import Path
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            image = root / "assets/case-posters/result.jpg"
+            image.parent.mkdir(parents=True)
+            image.write_bytes(b"reviewed source image")
+            patch = {**self.patch, "poster": "assets/case-posters/result.jpg",
+                     "posterEvidence": {**self.patch["posterEvidence"],
+                         "imageSha256": hashlib.sha256(image.read_bytes()).hexdigest()}}
+            apply_poster_enrichments([self.case], [patch], content_dir=root)
+            self.assertEqual(self.case["poster"], patch["poster"])
+            image.write_bytes(b"replaced image")
+            with self.assertRaisesRegex(ValueError, "checksum"):
+                apply_poster_enrichments([self.case], [patch], content_dir=root)
+            for path in ("assets/case-posters/../../outside.jpg", "assets/case-posters/missing.jpg"):
+                with self.subTest(path=path), self.assertRaises(ValueError):
+                    apply_poster_enrichments([self.case], [{**patch, "poster": path}], content_dir=root)
+
     def test_rejects_reused_id_changed_editorial_title_missing_and_duplicate_targets(self):
         for change in ({"sourceUrl": "https://example.com/other"}, {"title_en": "Experiment B"}, {"id": "absent"}):
             with self.subTest(change=change), self.assertRaises(ValueError):

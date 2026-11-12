@@ -90,3 +90,7 @@ python -m atlas.smoke --all
 本地构建、远端 PR、CI 和正式部署是不同状态，具体执行证据统一记录在 [执行记录](multi-topic-execution.md)。
 
 首次迁移的 [清单补丁](deployment/static-pages.patch) 以零上下文格式保存，便于审阅改动字段；如需在对应基线的发布仓库应用，使用 `git apply --unidiff-zero`。完整上下文以发布 PR 为准。
+
+## 来源封面
+
+Fable 5.2 的来源图片保存到专题 `content/assets/case-posters/`，并在 `data/poster_enrichments.json` 记录案例 ID、原帖、原图片地址、尺寸和 SHA-256。相对地址必须限定在该目录；构建会检查实际文件与校验值，浏览器冒烟会解码全部本地封面。图片原样保存，不用无关图片替代。缺少可核实来源的案例保持文字展示。更新数据时同时报告封面覆盖与缺图原因。

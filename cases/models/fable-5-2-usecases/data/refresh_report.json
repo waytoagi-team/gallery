@@ -1,32 +1,40 @@
 {
-  "refreshedAt": "2026-11-10T10:26:12+00:00",
+  "refreshedAt": "2026-11-12T05:33:41+00:00",
   "scope": {
-    "zh": "首次多来源发现与原始出处审核（部分覆盖）",
-    "en": "Initial multi-source discovery and original-source review (partial coverage)"
+    "zh": "多来源更新、互动指标与原始封面补全（部分覆盖）",
+    "en": "Multi-source update, metrics and source-linked covers (partial coverage)"
   },
   "status": "partial-coverage",
   "lastFullRefreshAt": null,
-  "lastMultiSourceRefreshAt": "2026-11-10T10:26:12+00:00",
-  "previousCaseCount": 0,
-  "caseCount": 26,
-  "reviewedNewExtras": 26,
+  "lastMultiSourceRefreshAt": "2026-11-12T05:33:41+00:00",
+  "previousCaseCount": 26,
+  "caseCount": 72,
+  "reviewedNewExtras": 46,
   "newCasesByPlatform": {
-    "X": 13,
+    "X": 37,
     "GitHub": 3,
     "Reddit": 1,
-    "Bilibili": 1,
-    "Web": 8
+    "Bilibili": 3,
+    "YouTube": 2
   },
   "coverage": {
-    "partial": true,
-    "uniqueSources": 377,
-    "unreviewedSources": 358
+    "apiRequests": 24,
+    "apiSucceeded": 24,
+    "apiCandidates": 385,
+    "galleryCandidates": 157,
+    "xRequests": 169,
+    "xSucceeded": 165,
+    "webQueries": 6,
+    "partial": true
   },
   "limitations": [
-    "部分覆盖：搜索索引、公开接口和有限作品合集不是全网穷尽抓取。",
-    "Firecrawl 在本轮原帖审核中额度耗尽，之后停止使用；其余未核对作品保留候选。",
-    "未独立复现生成过程、后台模型路由、费用或基准结果；摘要注明作者或官方自述。",
-    "B 站和 YouTube 的部分页面不可读取或限流；未将标题命中直接入库。",
-    "仓库名称含版本但正文未明确归属者不入库；不把 Fable 5.5 或 Mythos 案例改标为 5.2。"
-  ]
+    "Partial public-web coverage; no exhaustive-internet claim.",
+    "Model identity, performance, cost and scientific claims remain author-reported.",
+    "Only source-linked images are used; no generic illustrations for sources without images."
+  ],
+  "posters": {
+    "before": 1,
+    "localVerified": 56,
+    "missing": 16
+  }
 }

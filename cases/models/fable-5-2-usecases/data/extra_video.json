@@ -19,10 +19,123 @@
       "basis": "explicit-source",
       "role": "HTML/SVG 动画代码"
     },
-    "views": 13130,
-    "likes": 85,
-    "metricsCheckedAt": "2026-11-10T10:26:12+00:00",
-    "poster": "https://i1.hdslb.com/bfs/archive/fad36174ca3a71073214707dc50af647bd4c2090.jpg",
+    "views": 17296,
+    "likes": 104,
+    "metricsCheckedAt": "2026-11-12T05:33:41+00:00",
     "mediaKind": "video"
+  },
+  {
+    "id": "fable52-bili-BV1mHWM6YEkP",
+    "title": "Medium 档六项项目实测",
+    "title_en": "Six project tests at Medium effort",
+    "summary": "作者在 Cursor 中实测识图菜单、敦煌动画、积木手册和 Blender 等项目，并讨论交互与成本限制。",
+    "summary_en": "The creator tests six Cursor projects, including visual menus, animation and Blender, and discusses interaction/cost limitations.",
+    "category": "agents",
+    "platform": "Bilibili",
+    "sourceUrl": "https://www.bilibili.com/video/BV1mHWM6YEkP/",
+    "author": "kate人不错",
+    "date": "2026-11-10",
+    "evidenceType": "评测",
+    "checkedAt": "2026-11-12T05:33:41+00:00",
+    "evidenceUrl": "https://www.bilibili.com/video/BV1mHWM6YEkP/",
+    "evidenceBasis": "已读取 B 站视频信息接口中的作者简介，明确版本、具体测试任务和用途；未以相关推荐文案作为证据。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "作者的项目实测"
+    },
+    "likes": 376,
+    "views": 15041,
+    "metricsCheckedAt": "2026-11-12T05:33:41+00:00"
+  },
+  {
+    "id": "fable52-bili-BV1gsWg6gEis",
+    "title": "Unity 与 Godot 等七场景实测",
+    "title_en": "Seven tests including Unity and Godot",
+    "summary": "作者明确使用正式 Fable 5.2 Medium，展示前端、Unity、Godot 与动画；并澄清此前误称 5.5 的情况。",
+    "summary_en": "The creator names Fable 5.2 Medium for frontend, Unity, Godot and animation tests, correcting earlier 5.5 naming.",
+    "category": "games",
+    "platform": "Bilibili",
+    "sourceUrl": "https://www.bilibili.com/video/BV1gsWg6gEis/",
+    "author": "AI超元域",
+    "date": "2026-11-10",
+    "evidenceType": "评测",
+    "checkedAt": "2026-11-12T05:33:41+00:00",
+    "evidenceUrl": "https://www.bilibili.com/video/BV1gsWg6gEis/",
+    "evidenceBasis": "已读取 B 站视频信息接口中的作者简介，明确版本、具体测试任务和用途；未以相关推荐文案作为证据。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "作者的项目实测"
+    },
+    "likes": 459,
+    "views": 26409,
+    "metricsCheckedAt": "2026-11-12T05:33:41+00:00"
+  },
+  {
+    "id": "fable52-bili-BV1edWM63Ewd",
+    "title": "私有题库、3D 巡检与额度消耗",
+    "title_en": "Private benchmark, 3D inspection and usage limits",
+    "summary": "作者报告私有题库与 3D 风机巡检测试，并强调额度消耗；评分未独立复核。",
+    "summary_en": "The creator reports a private benchmark and 3D wind-turbine inspection test, highlighting usage costs; scores are not independently verified.",
+    "category": "coding",
+    "platform": "Bilibili",
+    "sourceUrl": "https://www.bilibili.com/video/BV1edWM63Ewd/",
+    "author": "程序员阿江-Relakkes",
+    "date": "2026-11-10",
+    "evidenceType": "评测",
+    "checkedAt": "2026-11-12T05:33:41+00:00",
+    "evidenceUrl": "https://www.bilibili.com/video/BV1edWM63Ewd/",
+    "evidenceBasis": "已读取 B 站视频信息接口中的作者简介，明确版本、具体测试任务和用途；未以相关推荐文案作为证据。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "作者的项目实测"
+    },
+    "likes": 3132,
+    "views": 105124,
+    "metricsCheckedAt": "2026-11-12T05:33:41+00:00"
+  },
+  {
+    "id": "fable52-yt-H0OeHaQ3L84",
+    "title": "动效、无人机游戏与 UI 对比",
+    "title_en": "Motion design, drone game and UI comparison",
+    "summary": "原视频章节逐项测试 3D 无人机游戏、视频和 Mobbin UI 工作流；个人比较不等于统一基准。",
+    "summary_en": "Original chapters cover a 3D drone game, video and a Mobbin UI workflow; a creator comparison rather than a standardized benchmark.",
+    "category": "web",
+    "platform": "YouTube",
+    "sourceUrl": "https://www.youtube.com/watch?v=H0OeHaQ3L84",
+    "author": "Lukas Margerie",
+    "date": "2026-11-10",
+    "evidenceType": "评测",
+    "checkedAt": "2026-11-12T05:33:41+00:00",
+    "evidenceUrl": "https://www.youtube.com/watch?v=H0OeHaQ3L84",
+    "evidenceBasis": "已读取原 YouTube 页面、章节或逐字稿，作者明确版本和测试任务；未将推荐视频标题算作该视频证据。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "原作者模型评测"
+    }
+  },
+  {
+    "id": "fable52-yt-82EJCUmD4O4",
+    "title": "33 条编程提示词与使用额度测试",
+    "title_en": "33 coding prompts and subscription usage",
+    "summary": "原视频逐字稿说明使用 Fable 5.2 Medium 跑 33 条编程提示词，并比较质量、时长和订阅额度；含赞助内容。",
+    "summary_en": "The transcript describes 33 Fable 5.2 Medium coding prompts and quality, timing and subscription usage comparisons; includes sponsorship.",
+    "category": "coding",
+    "platform": "YouTube",
+    "sourceUrl": "https://www.youtube.com/watch?v=82EJCUmD4O4",
+    "author": "AI Coding Daily",
+    "date": "2026-11-10",
+    "evidenceType": "评测",
+    "checkedAt": "2026-11-12T05:33:41+00:00",
+    "evidenceUrl": "https://www.youtube.com/watch?v=82EJCUmD4O4",
+    "evidenceBasis": "已读取原 YouTube 页面、章节或逐字稿，作者明确版本和测试任务；未将推荐视频标题算作该视频证据。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "原作者模型评测"
+    }
   }
 ]

@@ -85,7 +85,7 @@ def apply_enrichments(cases, enrichments):
     return cases
 
 
-def apply_poster_enrichments(cases, enrichments):
+def apply_poster_enrichments(cases, enrichments, content_dir=None):
     """Fill missing posters from reviewed context, guarding both ID and source identity.
 
     Editorial URLs can describe multiple experiments. Matching the editorial title
@@ -107,7 +107,20 @@ def apply_poster_enrichments(cases, enrichments):
         seen.add(patch["id"])
         if not isinstance(patch["posterEvidence"], dict):
             raise ValueError(f"Poster evidence must be an object: {patch['id']}")
-        for url in (patch["poster"], patch["posterEvidence"].get("sourcePage", "")):
+        local = patch["poster"].startswith("assets/case-posters/")
+        if local:
+            if content_dir is None or not re.fullmatch(r"assets/case-posters/[A-Za-z0-9_-]+\.(?:jpg|jpeg|png|webp)", patch["poster"]):
+                raise ValueError(f"Invalid local poster path: {patch['id']}")
+            root = pathlib.Path(content_dir).resolve()
+            asset = (root / patch["poster"]).resolve()
+            if not asset.is_relative_to(root) or not asset.is_file():
+                raise ValueError(f"Local poster missing or escapes content: {patch['id']}")
+            if hashlib.sha256(asset.read_bytes()).hexdigest() != patch["posterEvidence"].get("imageSha256"):
+                raise ValueError(f"Local poster checksum mismatch: {patch['id']}")
+        urls = [patch["posterEvidence"].get("sourcePage", "")]
+        if not local:
+            urls.append(patch["poster"])
+        for url in urls:
             parsed = urlsplit(url)
             host = parsed.hostname or ""
             try:
@@ -347,7 +360,7 @@ def merge_cases(topic):
             apply_enrichments(cases, json.loads(enrichment_path.read_text())["cases"])
     poster_path = DATA / "poster_enrichments.json"
     if poster_path.exists():
-        apply_poster_enrichments(cases, json.loads(poster_path.read_text())["cases"])
+        apply_poster_enrichments(cases, json.loads(poster_path.read_text())["cases"], content_dir=topic.content)
     # snapshot date = newest dated case (sources lag a day or two behind the fetch)
     for c in cases:
         sanitize_github_metrics(c)

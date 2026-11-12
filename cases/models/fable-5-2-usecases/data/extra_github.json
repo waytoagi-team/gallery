@@ -19,7 +19,9 @@
       "basis": "explicit-source",
       "role": "游戏实现"
     },
-    "githubKind": "repository"
+    "githubKind": "repository",
+    "stars": 1,
+    "metricsCheckedAt": "2026-11-12T05:33:41+00:00"
   },
   {
     "id": "fable52-dustfall",
@@ -41,7 +43,9 @@
       "basis": "explicit-source",
       "role": "游戏实现"
     },
-    "githubKind": "repository"
+    "githubKind": "repository",
+    "stars": 2,
+    "metricsCheckedAt": "2026-11-12T05:33:41+00:00"
   },
   {
     "id": "fable52-chess",
@@ -63,6 +67,80 @@
       "basis": "explicit-source",
       "role": "游戏实现"
     },
-    "githubKind": "repository"
+    "githubKind": "repository",
+    "stars": 0,
+    "metricsCheckedAt": "2026-11-12T05:33:41+00:00"
+  },
+  {
+    "id": "fable52-gh-basemazab-tuktuk",
+    "title": "埃及街道上的三轮车网页游戏",
+    "title_en": "Tuktuk: a 3D Egyptian-street game",
+    "summary": "README 明确称由 Fable 5.2 编写，使用 Three.js 生成模型和声音，提供可玩链接；未独立运行。",
+    "summary_en": "The README attributes the Three.js game to Fable 5.2 and links a demo; not independently run.",
+    "category": "games",
+    "platform": "GitHub",
+    "sourceUrl": "https://github.com/basemazab/tuktuk",
+    "author": "basemazab",
+    "date": "2026-11-12",
+    "evidenceType": "演示",
+    "checkedAt": "2026-11-12T05:33:41+00:00",
+    "evidenceUrl": "https://github.com/basemazab/tuktuk",
+    "evidenceBasis": "已读取仓库 README，正文明确模型版本和实现角色；非仅按仓库名或搜索关键词收录。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "项目代码或工程设计"
+    },
+    "githubKind": "repository",
+    "stars": 0,
+    "metricsCheckedAt": "2026-11-12T05:33:41+00:00"
+  },
+  {
+    "id": "fable52-gh-jiaaqiliu-xuanji-x1",
+    "title": "玄机 X1：人形机器人系统设计",
+    "title_en": "Xuanji X1: a humanoid robot design",
+    "summary": "README 明确让 Fable 5.2 负责系统工程与子系统编排；内容是开放设计和仿真，不能视为已制造或认证的机器人。",
+    "summary_en": "The README attributes systems design and agent coordination to Fable 5.2; this is a design/simulation project, not verified manufactured hardware.",
+    "category": "science",
+    "platform": "GitHub",
+    "sourceUrl": "https://github.com/Jiaaqiliu/xuanji-x1",
+    "author": "Jiaaqiliu",
+    "date": "2026-11-12",
+    "evidenceType": "演示",
+    "checkedAt": "2026-11-12T05:33:41+00:00",
+    "evidenceUrl": "https://github.com/Jiaaqiliu/xuanji-x1",
+    "evidenceBasis": "已读取仓库 README，正文明确模型版本和实现角色；非仅按仓库名或搜索关键词收录。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "项目代码或工程设计"
+    },
+    "githubKind": "repository",
+    "stars": 0,
+    "metricsCheckedAt": "2026-11-12T05:33:41+00:00"
+  },
+  {
+    "id": "fable52-gh-mdchia-fable-moonward",
+    "title": "Moonward：飞蛾与火种策略游戏",
+    "title_en": "Moonward: a moth-and-ember strategy game",
+    "summary": "README 明确称 Fable 5.2 从一句简介设计、编写并测试游戏，提供浏览器试玩和运行方法；未复跑。",
+    "summary_en": "The author attributes design, code and playtesting to Fable 5.2 from a one-line brief and links a demo; not independently reproduced.",
+    "category": "games",
+    "platform": "GitHub",
+    "sourceUrl": "https://github.com/mdchia/fable-moonward",
+    "author": "mdchia",
+    "date": "2026-11-12",
+    "evidenceType": "演示",
+    "checkedAt": "2026-11-12T05:33:41+00:00",
+    "evidenceUrl": "https://github.com/mdchia/fable-moonward",
+    "evidenceBasis": "已读取仓库 README，正文明确模型版本和实现角色；非仅按仓库名或搜索关键词收录。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "项目代码或工程设计"
+    },
+    "githubKind": "repository",
+    "stars": 0,
+    "metricsCheckedAt": "2026-11-12T05:33:41+00:00"
   }
 ]
