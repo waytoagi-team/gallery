@@ -2670,8 +2670,8 @@
    "bookmarks": null,
    "stars": null,
    "views": null,
-   "mediaKind": "none",
-   "poster": null,
+   "mediaKind": "video",
+   "poster": "assets/case-posters/fable52-cat-animation.jpg",
    "checkedAt": "2026-11-10T10:26:12+00:00",
    "evidenceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1xs3cjx/i_did_a_cat_animation_test_with_fable52extra/",
    "evidenceBasis": "通过网页工具读取原帖正文，明确区分 5.2 实测与旧 5.5 传闻作品；只记录该作者自己的测试。",
@@ -2679,6 +2679,19 @@
     "topicId": "fable-5-2",
     "basis": "explicit-source",
     "role": "动画生成"
+   },
+   "posterEvidence": {
+    "reviewStatus": "accepted",
+    "sourcePage": "https://www.reddit.com/r/ClaudeAI/comments/1xs3cjx/i_did_a_cat_animation_test_with_fable52extra/",
+    "sourceImageUrl": "https://external-preview.redd.it/i-did-a-cat-animation-test-with-fable5-2-extra-v0-Z3RoeHo4aWpnbjBpMTqW-Zg1vX_Op77eB77THVYpK_oSr9Pol7MHqTz3GPtU.jpeg?width=640&crop=smart&format=pjpg&auto=webp&s=d28305f6b90a5d43d39efe3987a5569626d26d75",
+    "retrievedImageUrl": "https://external-preview.redd.it/i-did-a-cat-animation-test-with-fable5-2-extra-v0-Z3RoeHo4aWpnbjBpMTqW-Zg1vX_Op77eB77THVYpK_oSr9Pol7MHqTz3GPtU.jpeg?width=640&crop=smart&format=pjpg&auto=webp&s=d28305f6b90a5d43d39efe3987a5569626d26d75",
+    "checkedAt": "2026-11-12T14:52:48+00:00",
+    "method": "reddit-player-poster-mirrored-verbatim",
+    "relation": "original-post-video-poster",
+    "width": 640,
+    "height": 1180,
+    "imageSha256": "74767e068665a3af2d136ff2b67a0a54b997624ab9dc75a95474b25097c3454a",
+    "sourcePostId": "t3_1xs3cjx"
    }
   },
   {

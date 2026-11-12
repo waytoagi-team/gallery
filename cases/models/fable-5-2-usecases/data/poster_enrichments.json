@@ -1063,6 +1063,26 @@
         "height": 720,
         "imageSha256": "40895a51adfb3707b003bbbe502372b0789c37f939475541b0a2b8e6c5e41ce1"
       }
+    },
+    {
+      "id": "fable52-cat-animation",
+      "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1xs3cjx/i_did_a_cat_animation_test_with_fable52extra/",
+      "title_en": "A cat-through-history animation test",
+      "poster": "assets/case-posters/fable52-cat-animation.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://www.reddit.com/r/ClaudeAI/comments/1xs3cjx/i_did_a_cat_animation_test_with_fable52extra/",
+        "sourceImageUrl": "https://external-preview.redd.it/i-did-a-cat-animation-test-with-fable5-2-extra-v0-Z3RoeHo4aWpnbjBpMTqW-Zg1vX_Op77eB77THVYpK_oSr9Pol7MHqTz3GPtU.jpeg?width=640&crop=smart&format=pjpg&auto=webp&s=d28305f6b90a5d43d39efe3987a5569626d26d75",
+        "retrievedImageUrl": "https://external-preview.redd.it/i-did-a-cat-animation-test-with-fable5-2-extra-v0-Z3RoeHo4aWpnbjBpMTqW-Zg1vX_Op77eB77THVYpK_oSr9Pol7MHqTz3GPtU.jpeg?width=640&crop=smart&format=pjpg&auto=webp&s=d28305f6b90a5d43d39efe3987a5569626d26d75",
+        "checkedAt": "2026-11-12T14:52:48+00:00",
+        "method": "reddit-player-poster-mirrored-verbatim",
+        "relation": "original-post-video-poster",
+        "width": 640,
+        "height": 1180,
+        "imageSha256": "74767e068665a3af2d136ff2b67a0a54b997624ab9dc75a95474b25097c3454a",
+        "sourcePostId": "t3_1xs3cjx"
+      }
     }
   ]
 }

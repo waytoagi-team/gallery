@@ -94,3 +94,7 @@ python -m atlas.smoke --all
 ## 来源封面
 
 Fable 5.2 的来源图片保存到专题 `content/assets/case-posters/`，并在 `data/poster_enrichments.json` 记录案例 ID、原帖、原图片地址、尺寸和 SHA-256。相对地址必须限定在该目录；构建会检查实际文件与校验值，浏览器冒烟会解码全部本地封面。图片原样保存，不用无关图片替代。缺少可核实来源的案例保持文字展示。更新数据时同时报告封面覆盖与缺图原因。
+
+### Reddit 视频封面核对
+
+抓取结果无图不代表原帖无媒体。先保留已核实的 `mediaKind`；无法取图的卡片显示“封面待补充”。登录后定位原帖对应的 `shreddit-player[post-id]`，读取其 `poster`，并核对播放器开放 Shadow DOM 中的 `video.poster` / `img[alt="media poster"]`。不得把头像、广告、推荐视频或评论图片当成该帖封面。优先保存来源播放器封面；来源没有封面时再尝试原视频取帧。真人验证交给用户处理。图片审核后写入 `data/poster_enrichments.json`，记录原帖 ID、来源 URL、尺寸、SHA-256 和方法，保存到 `content/assets/case-posters/`，随后构建并实际解码核对。2026-11-12 的猫动画案例使用原帖 `t3_1xs3cjx` 的 640×1180 原始封面，详见该主题的 `reports/2026-11-12-cat-media-diagnosis.json`。
