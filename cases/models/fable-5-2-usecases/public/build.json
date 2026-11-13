@@ -34,7 +34,7 @@
     "assets/case-posters/fable52-tria-prima.jpg": "e0b5d594e64c6903485ec60ddd5fc1834d296b56a8a8a3545bf72f4d5366d477",
     "assets/case-posters/fable52-web-prefix-400.png": "5f4fa8259366192e03da1dc6b0c2651c98aad6ad226187019bc2b674c605193a",
     "assets/case-posters/fable52-web-snorkel-coding.png": "6d11c89e9ca9f4a9f88a6149e94b8e7532e29313a4e2400654bebd349859daf5",
-    "assets/case-posters/fable52-web-ultralytics-iedxray.webp": "fbfd6a25c9684c751fbc7ea4e745eb31c66bdc0579f7b25bcb3518b34311e0b5",
+    "assets/case-posters/fable52-web-ultralytics-ul37.webp": "fbfd6a25c9684c751fbc7ea4e745eb31c66bdc0579f7b25bcb3518b34311e0b5",
     "assets/case-posters/fable52-x-2119867743965163994.jpg": "04aea257466513a0121484075a52ca077d107bcbd23eef4edc4381d041ebe20a",
     "assets/case-posters/fable52-x-2119868633086378471.jpg": "9609fc875cf2027bbb354a37f329d333a3273a1219a57db7759892cb073287bd",
     "assets/case-posters/fable52-x-2119868640879349998.jpg": "a5a5971704ef55df415593d020bf408016d2b57cb87f0beecae316bffb4f81c8",
@@ -165,8 +165,8 @@
     "assets/case-posters/fable52-yt-owMtQh_3k4k.jpg": "815d879e25f6c50c6b4536265ad77678b6aac54aceddb4e0e29e58d51e64cc65",
     "assets/case-posters/fable52-yupi996-694138.jpg": "a3578678552baeaad5ae27e6c6f9b7a3404b026bb3d1715d8fda9e87c8b1c52b",
     "assets/og-image.png": "d2beb59c5c9a08698da5420d41ecebf0a349168212cc0348e92c7aaac5e84952",
-    "data/all_cases.csv": "fa43a2993d868f88a827c40d653d58f0942d7dd40cf083e7ce2e39f1d28e1f13",
-    "data/all_cases.json": "51664166a684244b86dea42746f03ae239084d4d231af4cbdf44d59e59a02d93",
-    "index.html": "2977f69e8d81b620dace3903e2f18da3526f16fd2b9b2c5c1ff00ea20b9c45cc"
+    "data/all_cases.csv": "3335dd642706635c31918c3f8e3d64675cb90c38e75c2a5d897e8125f08c4aee",
+    "data/all_cases.json": "9b0d20d9d013eb0947040f69d1f44be7f86c4d97f2b263c8f13cb1f0ca5eacdd",
+    "index.html": "a68c1d480ef71e3912bbca4cf9233a646e7350e43310ab4abffe430d472c55eb"
   }
 }

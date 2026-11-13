@@ -6853,7 +6853,7 @@
    "stars": null,
    "views": null,
    "mediaKind": "image",
-   "poster": "assets/case-posters/fable52-web-ultralytics-iedxray.webp",
+   "poster": "assets/case-posters/fable52-web-ultralytics-ul37.webp",
    "checkedAt": "2026-11-13T02:25:00+00:00",
    "evidenceUrl": "https://www.ultralytics.com/blog/claude-fable-5-2-auto-annotation",
    "evidenceBasis": "已读取 Ultralytics 官方工程博客原文与 Anthropic API 重放返回信息（stop reason: refusal, general_harms），数字为 Ultralytics 公开实测记录。",
