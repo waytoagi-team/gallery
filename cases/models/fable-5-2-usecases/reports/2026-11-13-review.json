@@ -1,0 +1,154 @@
+{
+  "checkedAt": "2026-11-13T02:25:00+00:00",
+  "topicId": "fable-5-2",
+  "previousCount": 110,
+  "caseCount": 189,
+  "addedCount": 79,
+  "addedByPlatform": {
+    "X": 48,
+    "GitHub": 8,
+    "Hacker News": 2,
+    "Reddit": 5,
+    "Bilibili": 5,
+    "YouTube": 7,
+    "Web": 4
+  },
+  "addedCaseIds": [
+    "fable52-x-2120284261089673376",
+    "fable52-x-2119952985933697063",
+    "fable52-x-2120154832694858224",
+    "fable52-x-2120172126175162672",
+    "fable52-x-2120002682421182624",
+    "fable52-x-2120010995309457643",
+    "fable52-x-2119870150845599972",
+    "fable52-x-2120260208245043663",
+    "fable52-x-2119918307457577163",
+    "fable52-x-2120237304694579367",
+    "fable52-x-2120238844754923874",
+    "fable52-x-2120000888974766501",
+    "fable52-x-2120905625852936318",
+    "fable52-x-2120030634248929556",
+    "fable52-x-2120453392921501862",
+    "fable52-x-2120486254852608470",
+    "fable52-x-2120636604624560229",
+    "fable52-x-2120722200001122321",
+    "fable52-x-2120152637249315094",
+    "fable52-x-2120498246426706176",
+    "fable52-x-2120248387354190212",
+    "fable52-x-2120752985949057215",
+    "fable52-x-2120443630213267500",
+    "fable52-x-2120694045299327187",
+    "fable52-x-2120680918914601165",
+    "fable52-x-2119975721909301684",
+    "fable52-x-2119972124211454139",
+    "fable52-x-2120570580743471284",
+    "fable52-x-2120635318001180996",
+    "fable52-x-2119916096098582566",
+    "fable52-x-2120359214157603139",
+    "fable52-x-2120071690482794603",
+    "fable52-x-2119937977426338283",
+    "fable52-x-2120858483390337361",
+    "fable52-x-2120846360064692377",
+    "fable52-x-2120090542419984686",
+    "fable52-x-2120302122776342865",
+    "fable52-x-2120290751502581879",
+    "fable52-x-2120599812512833557",
+    "fable52-x-2120508846758400485",
+    "fable52-x-2120039417981333599",
+    "fable52-x-2119967359444382107",
+    "fable52-x-2120531821306032607",
+    "fable52-x-2120498188486693305",
+    "fable52-x-2120824873513832590",
+    "fable52-x-2120916530439344392",
+    "fable52-x-2120132485186986305",
+    "fable52-x-2120967083664220427",
+    "fable52-gh-rylaa-orchestrator",
+    "fable52-gh-wquguru-fps-repro",
+    "fable52-gh-sktjgudals-prompting",
+    "fable52-gh-vadympetryshyn-effort-pilot",
+    "fable52-gh-bhavya-gx-fable-vfx",
+    "fable52-gh-prokopiy-gta-effort",
+    "fable52-gh-selmakcby-ajan-takimi",
+    "fable52-gh-claude-code-issue-108898",
+    "fable52-hn-50469007",
+    "fable52-hn-50476597",
+    "fable52-reddit-1xtnyre",
+    "fable52-reddit-1xtxi68",
+    "fable52-reddit-1xtz7tp",
+    "fable52-reddit-1xtwsf3",
+    "fable52-reddit-1xtpdy9",
+    "fable52-bili-BV1ScWa6NEUZ",
+    "fable52-bili-BV17mWY6XEQ4",
+    "fable52-bili-BV1MtWY6iE2C",
+    "fable52-bili-BV1o2Wh6yED6",
+    "fable52-bili-BV1t4Wh6bEcZ",
+    "fable52-yt-owMtQh_3k4k",
+    "fable52-yt-583ThJIqQ7k",
+    "fable52-yt-UTffozEcD4U",
+    "fable52-yt-IwXn5UYIt0g",
+    "fable52-yt-XZoQ1lBZGDA",
+    "fable52-yt-eUmiy54xhqQ",
+    "fable52-yt-C33hJGt-ySg",
+    "fable52-web-ultralytics-iedxray",
+    "fable52-web-snorkel-coding",
+    "fable52-web-higgsfield-eldmar",
+    "fable52-web-prefix-400"
+  ],
+  "exclusions": [
+    {
+      "target": "KDayInSummer/saltline-fable-5.2 & HN 50444850",
+      "reason": "Duplicate of existing fable52-x-2119925633564463609 (Felix Rieseberg Saltline)."
+    },
+    {
+      "target": "Reddit v.redd.it/18kwuendo81i1 (1xuncwv)",
+      "reason": "Cross-platform repost of accepted X original fable52-x-2120010995309457643 (@anabology)."
+    },
+    {
+      "target": "Bilibili BV1M8WY6NE48",
+      "reason": "Repost of YouTube eUmiy54xhqQ; accepted original YouTube video fable52-yt-eUmiy54xhqQ instead."
+    },
+    {
+      "target": "X @discoveredmat 2119873515969237412",
+      "reason": "Same Quantum Espresso DFT/DFPT work already tracked under fable52-phonon; linked under fable52-phonon resources to prevent double counting."
+    },
+    {
+      "target": "X @emollick/status/2119918307457577163 vs GitHub emollick/ai-portals; X @AmirMushich/status/2119937977426338283 vs GitHub amirmushichge/worm-rider",
+      "reason": "Kept X originals and linked live demos/GitHub repos inside resources instead of adding duplicate GitHub rows."
+    },
+    {
+      "target": "GitHub klad-app/klad & nathanmauro/agentic-workflows",
+      "reason": "General Claude Code / Codex agent workflows without explicit Fable 5.2 attribution in README."
+    },
+    {
+      "target": "X @mathiaschpl 2119878412181676283 & @MrTacticalX 2120763769307779425",
+      "reason": "Caption lacks concrete task description and author reply context was unavailable."
+    },
+    {
+      "target": "HN 50438506 & GitHub anthropics/claude-code#109116",
+      "reason": "Insufficient reproducible context or disputed premise in replies."
+    },
+    {
+      "target": "Bilibili BV1LQWh6GEto / BV1FCWY6xEqb / BV1gJWh6PEcM",
+      "reason": "Empty or non-evidenced descriptions; prioritized verifiable creator descriptions and telemetry."
+    }
+  ],
+  "posters": {
+    "before": 94,
+    "localVerified": 160,
+    "missing": 29
+  },
+  "darkVideoFramesReplaced": [
+    "fable52-x-2119937977426338283",
+    "fable52-x-2119967359444382107",
+    "fable52-x-2120002682421182624",
+    "fable52-x-2120010995309457643",
+    "fable52-x-2120152637249315094",
+    "fable52-x-2120498188486693305",
+    "fable52-x-2120498246426706176",
+    "fable52-x-2120680918914601165"
+  ],
+  "metricsRefreshFailuresRetainedPrior": [
+    "fable52-sirbost-712653 (FXTwitter 404)",
+    "fable52-gh-jiaaqiliu-xuanji-x1 (GitHub API 404)"
+  ]
+}

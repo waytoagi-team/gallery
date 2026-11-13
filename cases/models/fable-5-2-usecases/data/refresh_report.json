@@ -1,40 +1,49 @@
 {
-  "refreshedAt": "2026-11-12T15:17:30+00:00",
+  "refreshedAt": "2026-11-13T02:25:00+00:00",
   "scope": {
-    "zh": "X 站内搜索、引用串与原作者作品追踪（部分覆盖）",
-    "en": "X native search, quote threads and original-creator tracing (partial coverage)"
+    "zh": "X 站内多关键词/多语言检索、GitHub/HN 跨页检索、Reddit/B 站/YouTube 与工程评测博客补充（部分覆盖）",
+    "en": "X multi-query/multilingual search, GitHub/HN pagination, Reddit/Bilibili/YouTube & engineering blogs (partial coverage)"
   },
   "status": "partial-coverage",
   "lastFullRefreshAt": null,
-  "lastMultiSourceRefreshAt": "2026-11-12T15:17:30+00:00",
-  "previousCaseCount": 72,
-  "caseCount": 110,
-  "reviewedNewExtras": 38,
+  "lastMultiSourceRefreshAt": "2026-11-13T02:25:00+00:00",
+  "previousCaseCount": 110,
+  "caseCount": 189,
+  "reviewedNewExtras": 79,
   "newCasesByPlatform": {
-    "X": 37,
-    "GitHub": 3,
-    "Reddit": 1,
-    "Bilibili": 3,
-    "YouTube": 2
+    "X": 48,
+    "GitHub": 8,
+    "Hacker News": 2,
+    "Reddit": 5,
+    "Bilibili": 5,
+    "YouTube": 7,
+    "Web": 4
   },
   "coverage": {
-    "apiRequests": 24,
-    "apiSucceeded": 24,
-    "apiCandidates": 385,
-    "galleryCandidates": 157,
-    "xRequests": 169,
-    "xSucceeded": 165,
-    "webQueries": 6,
+    "atlasCollectRequests": 6,
+    "atlasCollectSucceeded": 6,
+    "githubHnQueries": 15,
+    "githubHnSucceeded": 15,
+    "xapiRequests": 21,
+    "xapiSucceeded": 17,
+    "arcticShiftRedditRequests": 5,
+    "arcticShiftRedditSucceeded": 1,
+    "fxtwitterVerified": 85,
+    "githubVerified": 14,
+    "liveDemoChecks": 9,
+    "webArticlesVerified": 6,
     "partial": true
   },
   "limitations": [
     "Partial public-web coverage; no exhaustive-internet claim.",
-    "Model identity, performance, cost and scientific claims remain author-reported.",
-    "Only source-linked images are used; no generic illustrations for sources without images."
+    "Arctic Shift Reddit queries returned HTTP 422 on 4 of 5 subreddits (ClaudeAI, ClaudeCode, LocalLLaMA, singularity); only r/claude succeeded.",
+    "XAPI search returned HTTP 404 on 4 empty/thread queries; FXTwitter metrics failed on 1 deleted post (fable52-sirbost-712653) and GitHub API returned 404 on 1 repo (fable52-gh-jiaaqiliu-xuanji-x1), both retaining prior metrics.",
+    "Model identity, performance, cost, token volume and scientific claims remain author-reported.",
+    "Only source-linked images or extracted source video frames are used; no generic illustrations for sources without images."
   ],
   "posters": {
-    "before": 57,
-    "localVerified": 94,
-    "missing": 16
+    "before": 94,
+    "localVerified": 160,
+    "missing": 29
   }
 }

@@ -1796,6 +1796,1292 @@
         "height": 680,
         "imageSha256": "d1963e71085a0e1c384917b139bd02e33d0884bfaf01a4fd11a07e9a8dc540d9"
       }
+    },
+    {
+      "id": "fable52-x-2120284261089673376",
+      "sourceUrl": "https://x.com/ebbyamir/status/2120284261089673376",
+      "title_en": "Starry Nightrider: playable Van Gogh web game",
+      "poster": "assets/case-posters/fable52-x-2120284261089673376.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/ebbyamir/status/2120284261089673376",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120283338477121537/img/tdKADwxxpbgwFZ3C.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120283338477121537/img/tdKADwxxpbgwFZ3C.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "41e0a1dda7f26b1cbb063600ea14462025a406763c2e80b879f0fb4f98c15fef"
+      }
+    },
+    {
+      "id": "fable52-x-2119952985933697063",
+      "sourceUrl": "https://x.com/suna_gaku/status/2119952985933697063",
+      "title_en": "Japanese showcase: self-composed track and full promo film",
+      "poster": "assets/case-posters/fable52-x-2119952985933697063.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/suna_gaku/status/2119952985933697063",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119952480008294400/img/ju0LmXUNH0blzfqW.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119952480008294400/img/ju0LmXUNH0blzfqW.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "9d45bc4dac125bd3937b851b64a607bbcaf282959fd462c13e3f16c394a98c3c"
+      }
+    },
+    {
+      "id": "fable52-x-2120154832694858224",
+      "sourceUrl": "https://x.com/dominikmartn/status/2120154832694858224",
+      "title_en": "Web UI and motion design showcase",
+      "poster": "assets/case-posters/fable52-x-2120154832694858224.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/dominikmartn/status/2120154832694858224",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120154807218696192/img/G40Bbx5nKB4ZzySK.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120154807218696192/img/G40Bbx5nKB4ZzySK.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 510,
+        "imageSha256": "f5f8ada30ab8e8693ad37652275731a449ca0bac4c906720439ce70be26756c9"
+      }
+    },
+    {
+      "id": "fable52-x-2120172126175162672",
+      "sourceUrl": "https://x.com/megyo9/status/2120172126175162672",
+      "title_en": "Interactive cloth physics simulation in Japanese",
+      "poster": "assets/case-posters/fable52-x-2120172126175162672.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/megyo9/status/2120172126175162672",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120171768442929153/img/AX7oVzhvwL4T7dEm.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120171768442929153/img/AX7oVzhvwL4T7dEm.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 503,
+        "imageSha256": "731d9a344a646bcd101cb7d652908ce0824dd80de7fc1fa4fb3d0b379ab57b58"
+      }
+    },
+    {
+      "id": "fable52-x-2120002682421182624",
+      "sourceUrl": "https://x.com/gavinpurcell/status/2120002682421182624",
+      "title_en": "Vocal-tract synthesizer musical performance from repo",
+      "poster": "assets/case-posters/fable52-x-2120002682421182624.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/gavinpurcell/status/2120002682421182624",
+        "sourceImageUrl": "https://video.twimg.com/amplify_video/2120001805090177024/vid/avc1/1920x1080/hdVxlk7o1OTL9Pm0.mp4?tag=29",
+        "retrievedImageUrl": "https://video.twimg.com/amplify_video/2120001805090177024/vid/avc1/1920x1080/hdVxlk7o1OTL9Pm0.mp4?tag=29",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "avfoundation-original-video-frame",
+        "relation": "original-post-video-frame",
+        "width": 960,
+        "height": 540,
+        "imageSha256": "f63e6dae287229dc15cc18ba1c9ae844132ca9e25f9764fa3fd2dd7780d59b99",
+        "originalPosterUrl": "https://pbs.twimg.com/amplify_video_thumb/2120001805090177024/img/72jygSESY8DmAydM.jpg",
+        "sourceVideoUrl": "https://video.twimg.com/amplify_video/2120001805090177024/vid/avc1/1920x1080/hdVxlk7o1OTL9Pm0.mp4?tag=29",
+        "retrievedVideoUrl": "https://video.twimg.com/amplify_video/2120001805090177024/vid/avc1/1920x1080/hdVxlk7o1OTL9Pm0.mp4?tag=29",
+        "frameSeconds": 45
+      }
+    },
+    {
+      "id": "fable52-x-2120010995309457643",
+      "sourceUrl": "https://x.com/anabology/status/2120010995309457643",
+      "title_en": "Two-shot 9-hour autonomous dream film",
+      "poster": "assets/case-posters/fable52-x-2120010995309457643.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/anabology/status/2120010995309457643",
+        "sourceImageUrl": "https://video.twimg.com/amplify_video/2120010889222848512/vid/avc1/1920x1080/yU8xruKAQjBwtUEd.mp4?tag=29",
+        "retrievedImageUrl": "https://video.twimg.com/amplify_video/2120010889222848512/vid/avc1/1920x1080/yU8xruKAQjBwtUEd.mp4?tag=29",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "avfoundation-original-video-frame",
+        "relation": "original-post-video-frame",
+        "width": 960,
+        "height": 540,
+        "imageSha256": "011bf407780f50f2a90395d9f2dff2d0674788d7a16e72d34030ab594f682005",
+        "originalPosterUrl": "https://pbs.twimg.com/amplify_video_thumb/2120010889222848512/img/rZFVhKqxKxTGLxHX.jpg",
+        "sourceVideoUrl": "https://video.twimg.com/amplify_video/2120010889222848512/vid/avc1/1920x1080/yU8xruKAQjBwtUEd.mp4?tag=29",
+        "retrievedVideoUrl": "https://video.twimg.com/amplify_video/2120010889222848512/vid/avc1/1920x1080/yU8xruKAQjBwtUEd.mp4?tag=29",
+        "frameSeconds": 35
+      }
+    },
+    {
+      "id": "fable52-x-2120260208245043663",
+      "sourceUrl": "https://x.com/aollivier82/status/2120260208245043663",
+      "title_en": "Animated history of computer graphics generated in code",
+      "poster": "assets/case-posters/fable52-x-2120260208245043663.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/aollivier82/status/2120260208245043663",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120212244919160832/img/4a_EYaqxyhvTyKOh.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120212244919160832/img/4a_EYaqxyhvTyKOh.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 383,
+        "height": 680,
+        "imageSha256": "8897894b4353d2baa53a26d7a8f56256bcaa449f16523da9752083ec9052edf9"
+      }
+    },
+    {
+      "id": "fable52-x-2119918307457577163",
+      "sourceUrl": "https://x.com/emollick/status/2119918307457577163",
+      "title_en": "Portals: hands-off flight across 450+ code-generated 3D worlds",
+      "poster": "assets/case-posters/fable52-x-2119918307457577163.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/emollick/status/2119918307457577163",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119916822719840256/img/z6Umv8d4gNiB_Caz.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119916822719840256/img/z6Umv8d4gNiB_Caz.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "82a04b5dc1a2954c99b10f09f53e10f45023ad8cceefb93674e46afdfb31d8f7"
+      }
+    },
+    {
+      "id": "fable52-x-2120237304694579367",
+      "sourceUrl": "https://x.com/birdabo/status/2120237304694579367",
+      "title_en": "Fable 5.2 + Blender + Unreal Engine 3D scene pipeline",
+      "poster": "assets/case-posters/fable52-x-2120237304694579367.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/birdabo/status/2120237304694579367",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120219622180044800/img/vGspXNeLf4vC3MvX.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120219622180044800/img/vGspXNeLf4vC3MvX.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "b17c781ac0543eec6c1d8e1d334c8523083c818659e60e693584e51777b71348"
+      }
+    },
+    {
+      "id": "fable52-x-2120238844754923874",
+      "sourceUrl": "https://x.com/kevin_t_ngo/status/2120238844754923874",
+      "title_en": "Dark fantasy souls-like boss fight browser game demo",
+      "poster": "assets/case-posters/fable52-x-2120238844754923874.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/kevin_t_ngo/status/2120238844754923874",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120233931744391168/img/Fzk7dWEfYuOgywxF.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120233931744391168/img/Fzk7dWEfYuOgywxF.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "30630a1b38a7ba3454dd50e2065048399d847a4ff3c0eef4122aef4f0321cc95"
+      }
+    },
+    {
+      "id": "fable52-x-2120000888974766501",
+      "sourceUrl": "https://x.com/emollick/status/2120000888974766501",
+      "title_en": "Unsaturated benchmark trendline chart (ECI, Remote Labor, RoboDojo)",
+      "poster": "assets/case-posters/fable52-x-2120000888974766501.jpg",
+      "mediaKind": "image",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/emollick/status/2120000888974766501",
+        "sourceImageUrl": "https://pbs.twimg.com/media/HWvA91bXkAAah7u.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/media/HWvA91bXkAAah7u?format=jpg&name=small",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 405,
+        "imageSha256": "b88624056fe1e5aecf2dd560035dbc4110b319f5a724e3af61b61cfe49770aaa"
+      }
+    },
+    {
+      "id": "fable52-x-2120905625852936318",
+      "sourceUrl": "https://x.com/deedydas/status/2120905625852936318",
+      "title_en": "Coded 72-bar house track via music-theory pattern search",
+      "poster": "assets/case-posters/fable52-x-2120905625852936318.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/deedydas/status/2120905625852936318",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120904570314305536/img/Ha1ocJXQe34p0bk8.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120904570314305536/img/Ha1ocJXQe34p0bk8.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 362,
+        "height": 680,
+        "imageSha256": "2c1159e3d216ab242bdf9fcd4fd97c1282312e98c12b58bfcad356651b9efb0d"
+      }
+    },
+    {
+      "id": "fable52-x-2120030634248929556",
+      "sourceUrl": "https://x.com/akakuma0219/status/2120030634248929556",
+      "title_en": "Previs 3D character locomotion generated from three motion words",
+      "poster": "assets/case-posters/fable52-x-2120030634248929556.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/akakuma0219/status/2120030634248929556",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120030599155195904/img/abqVbyiES39-UYiU.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120030599155195904/img/abqVbyiES39-UYiU.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 599,
+        "height": 680,
+        "imageSha256": "75985db11d002419e60e9922778765b95bcf400aca149c069bbbadae77ccbf82"
+      }
+    },
+    {
+      "id": "fable52-x-2120453392921501862",
+      "sourceUrl": "https://x.com/akakuma0219/status/2120453392921501862",
+      "title_en": "3D pianist character playing La Campanella via physical key presses",
+      "poster": "assets/case-posters/fable52-x-2120453392921501862.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/akakuma0219/status/2120453392921501862",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120452873863729152/img/u6KErRmr-OH3CCwH.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120452873863729152/img/u6KErRmr-OH3CCwH.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "ca5a3bbd23c9ab8d16308b7d4cb44d29dbbd05b9a1c850971d844566ecaf5042"
+      }
+    },
+    {
+      "id": "fable52-x-2120486254852608470",
+      "sourceUrl": "https://x.com/DaveJ/status/2120486254852608470",
+      "title_en": "Evaluation of design-system consistency and motion design",
+      "poster": "assets/case-posters/fable52-x-2120486254852608470.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/DaveJ/status/2120486254852608470",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120486213438119936/img/WbOp0p8AowsjnNjA.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120486213438119936/img/WbOp0p8AowsjnNjA.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 621,
+        "height": 680,
+        "imageSha256": "8405b9532ec40240379b83f63c56e5aa05aecb051323060ebfa8c6f025c63dd2"
+      }
+    },
+    {
+      "id": "fable52-x-2120636604624560229",
+      "sourceUrl": "https://x.com/pingouh/status/2120636604624560229",
+      "title_en": "Procedural bipedal robot locomotion from Three.js to Unreal 5.8",
+      "poster": "assets/case-posters/fable52-x-2120636604624560229.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/pingouh/status/2120636604624560229",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120635243942035456/img/RkBAt3NhPpO1Pja3.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120635243942035456/img/RkBAt3NhPpO1Pja3.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "4b53bb387a22fb79950357c4b950db569628dd1a36ae31ba5eec9faaf432abb4"
+      }
+    },
+    {
+      "id": "fable52-x-2120722200001122321",
+      "sourceUrl": "https://x.com/kevin_t_ngo/status/2120722200001122321",
+      "title_en": "Generative illustrations written in JavaScript",
+      "poster": "assets/case-posters/fable52-x-2120722200001122321.jpg",
+      "mediaKind": "image",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/kevin_t_ngo/status/2120722200001122321",
+        "sourceImageUrl": "https://pbs.twimg.com/media/HW5Rj0dasAAl20M.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/media/HW5Rj0dasAAl20M?format=jpg&name=small",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 340,
+        "height": 680,
+        "imageSha256": "ce18daf82e82680d271814c1bfca86a3ef2aed4df1692341217c05b19f98b922"
+      }
+    },
+    {
+      "id": "fable52-x-2120152637249315094",
+      "sourceUrl": "https://x.com/cube_224/status/2120152637249315094",
+      "title_en": "3-minute Rubik's Cube math explainer generated in 2 hours",
+      "poster": "assets/case-posters/fable52-x-2120152637249315094.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/cube_224/status/2120152637249315094",
+        "sourceImageUrl": "https://video.twimg.com/amplify_video/2120152100395196416/vid/avc1/1280x720/-eTVxcwP3QiS5-hs.mp4?tag=14",
+        "retrievedImageUrl": "https://video.twimg.com/amplify_video/2120152100395196416/vid/avc1/1280x720/-eTVxcwP3QiS5-hs.mp4?tag=14",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "avfoundation-original-video-frame",
+        "relation": "original-post-video-frame",
+        "width": 960,
+        "height": 540,
+        "imageSha256": "368ed207d74298978f16fffc472a9093d18649faf7ee316c8b954370326c7257",
+        "originalPosterUrl": "https://pbs.twimg.com/amplify_video_thumb/2120152100395196416/img/RI0EkvayGXtEDB92.jpg",
+        "sourceVideoUrl": "https://video.twimg.com/amplify_video/2120152100395196416/vid/avc1/1280x720/-eTVxcwP3QiS5-hs.mp4?tag=14",
+        "retrievedVideoUrl": "https://video.twimg.com/amplify_video/2120152100395196416/vid/avc1/1280x720/-eTVxcwP3QiS5-hs.mp4?tag=14",
+        "frameSeconds": 45
+      }
+    },
+    {
+      "id": "fable52-x-2120498246426706176",
+      "sourceUrl": "https://x.com/RezAIT00/status/2120498246426706176",
+      "title_en": "Overnight Blender + Unreal 3D game environment demo",
+      "poster": "assets/case-posters/fable52-x-2120498246426706176.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/RezAIT00/status/2120498246426706176",
+        "sourceImageUrl": "https://video.twimg.com/amplify_video/2120498139656286208/vid/avc1/1920x1080/cIuG9Eiu6uNTlvEm.mp4?tag=29",
+        "retrievedImageUrl": "https://video.twimg.com/amplify_video/2120498139656286208/vid/avc1/1920x1080/cIuG9Eiu6uNTlvEm.mp4?tag=29",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "avfoundation-original-video-frame",
+        "relation": "original-post-video-frame",
+        "width": 960,
+        "height": 540,
+        "imageSha256": "082e46d58591b2db08b128a6264996df920b5c931ea322a3c464fa265a470101",
+        "originalPosterUrl": "https://pbs.twimg.com/amplify_video_thumb/2120498139656286208/img/F7o_2jgwDDHAHBZ-.jpg",
+        "sourceVideoUrl": "https://video.twimg.com/amplify_video/2120498139656286208/vid/avc1/1920x1080/cIuG9Eiu6uNTlvEm.mp4?tag=29",
+        "retrievedVideoUrl": "https://video.twimg.com/amplify_video/2120498139656286208/vid/avc1/1920x1080/cIuG9Eiu6uNTlvEm.mp4?tag=29",
+        "frameSeconds": 10
+      }
+    },
+    {
+      "id": "fable52-x-2120248387354190212",
+      "sourceUrl": "https://x.com/JamesC_Alpha/status/2120248387354190212",
+      "title_en": "Frontend UI design praise with usage-burn caveat",
+      "poster": "assets/case-posters/fable52-x-2120248387354190212.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/JamesC_Alpha/status/2120248387354190212",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120248325605564416/img/aTTqjm-WXMtkWIy3.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120248325605564416/img/aTTqjm-WXMtkWIy3.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 510,
+        "imageSha256": "a9a8b97f3f197c31ee5dc5f914d638f70a52c68b647065e11ea1656e0d4e9971"
+      }
+    },
+    {
+      "id": "fable52-x-2120752985949057215",
+      "sourceUrl": "https://x.com/chrisjdimarco/status/2120752985949057215",
+      "title_en": "GPU-simulated swarm of 1M+ morphing nanobots in Three.js",
+      "poster": "assets/case-posters/fable52-x-2120752985949057215.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/chrisjdimarco/status/2120752985949057215",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120752380903833600/img/FsBQTw5ERXIBWoPK.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120752380903833600/img/FsBQTw5ERXIBWoPK.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 679,
+        "height": 506,
+        "imageSha256": "9b631f90543b2f339666680736e077f972382ffd74cc9ffe0e1a3a936c236b6e"
+      }
+    },
+    {
+      "id": "fable52-x-2120443630213267500",
+      "sourceUrl": "https://x.com/marcvidal/status/2120443630213267500",
+      "title_en": "Spanish physics explainer: why fingers never truly touch",
+      "poster": "assets/case-posters/fable52-x-2120443630213267500.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/marcvidal/status/2120443630213267500",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120088578005098496/img/CgpZet_MNtzMc34J.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120088578005098496/img/CgpZet_MNtzMc34J.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "7e36a5bbc65a7a8d15213a50794f4c2633513c41e791498d09b56630b730659c"
+      }
+    },
+    {
+      "id": "fable52-x-2120694045299327187",
+      "sourceUrl": "https://x.com/op7418/status/2120694045299327187",
+      "title_en": "30MB single-file HTML 3D action game built in one afternoon",
+      "poster": "assets/case-posters/fable52-x-2120694045299327187.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/op7418/status/2120694045299327187",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120692796327968768/img/CexsRABoPsALcj3U.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120692796327968768/img/CexsRABoPsALcj3U.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 344,
+        "imageSha256": "578bf5be36dd8c34159704cb1a6c07265f21da1052957d3175da3c3076352462"
+      }
+    },
+    {
+      "id": "fable52-x-2120680918914601165",
+      "sourceUrl": "https://x.com/calebfahlgren/status/2120680918914601165",
+      "title_en": "Detailed 3D architectural house built from one short prompt",
+      "poster": "assets/case-posters/fable52-x-2120680918914601165.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/calebfahlgren/status/2120680918914601165",
+        "sourceImageUrl": "https://video.twimg.com/amplify_video/2120675630282911744/vid/avc1/1920x1080/X2zBSZVT9empWwwq.mp4?tag=29",
+        "retrievedImageUrl": "https://video.twimg.com/amplify_video/2120675630282911744/vid/avc1/1920x1080/X2zBSZVT9empWwwq.mp4?tag=29",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "avfoundation-original-video-frame",
+        "relation": "original-post-video-frame",
+        "width": 960,
+        "height": 540,
+        "imageSha256": "64e0da340b44981c4ed7dd07e4de9c479442d0c4a103f1fe32c13162f6b478b8",
+        "originalPosterUrl": "https://pbs.twimg.com/amplify_video_thumb/2120675630282911744/img/d6Rr6cTMgBcahkqR.jpg",
+        "sourceVideoUrl": "https://video.twimg.com/amplify_video/2120675630282911744/vid/avc1/1920x1080/X2zBSZVT9empWwwq.mp4?tag=29",
+        "retrievedVideoUrl": "https://video.twimg.com/amplify_video/2120675630282911744/vid/avc1/1920x1080/X2zBSZVT9empWwwq.mp4?tag=29",
+        "frameSeconds": 20
+      }
+    },
+    {
+      "id": "fable52-x-2119975721909301684",
+      "sourceUrl": "https://x.com/higgsfield_ai/status/2119975721909301684",
+      "title_en": "Finishing and physics-redesigning da Vinci's flying machine",
+      "poster": "assets/case-posters/fable52-x-2119975721909301684.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/higgsfield_ai/status/2119975721909301684",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119975447723454464/img/JIOwJR3O0MU6GP9K.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119975447723454464/img/JIOwJR3O0MU6GP9K.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "6e7be6eb38860e34c73cf5bad59ce9e98ae7d8ff7e436bce90df8ae819bf2fe4"
+      }
+    },
+    {
+      "id": "fable52-x-2119972124211454139",
+      "sourceUrl": "https://x.com/kevin_t_ngo/status/2119972124211454139",
+      "title_en": "90s toy commercial coded in Python and rendered in Blender",
+      "poster": "assets/case-posters/fable52-x-2119972124211454139.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/kevin_t_ngo/status/2119972124211454139",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119970272552095744/img/ZH2HGWtn-N8PCIHK.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119970272552095744/img/ZH2HGWtn-N8PCIHK.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 680,
+        "imageSha256": "120cf9fa6bce0689fab08f3757c6b803ce3da10eb53eef3f11d2fd3e24faf5d3"
+      }
+    },
+    {
+      "id": "fable52-x-2120570580743471284",
+      "sourceUrl": "https://x.com/goodhart_labs/status/2120570580743471284",
+      "title_en": "HoneyBench v0.2 alignment test: Fable 5.2 cheated in 12% of runs",
+      "poster": "assets/case-posters/fable52-x-2120570580743471284.jpg",
+      "mediaKind": "image",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/goodhart_labs/status/2120570580743471284",
+        "sourceImageUrl": "https://pbs.twimg.com/media/HW3HhGQa0AAgsfg.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/media/HW3HhGQa0AAgsfg?format=jpg&name=small",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "b5df5500131c8c0ab9f9917dadc35731b3f98bf12c5ba67f6ed98d83e8d79a84"
+      }
+    },
+    {
+      "id": "fable52-x-2120635318001180996",
+      "sourceUrl": "https://x.com/KHvostikk/status/2120635318001180996",
+      "title_en": "Hard-surface image-to-3D modeling demo",
+      "poster": "assets/case-posters/fable52-x-2120635318001180996.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/KHvostikk/status/2120635318001180996",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120635020545064960/img/fcVsdr4FwO09_0_p.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120635020545064960/img/fcVsdr4FwO09_0_p.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "95dc33410a6187cdd699016dc88b3534b6172e2cbfafe03f0bc0fe5c94dbbf26"
+      }
+    },
+    {
+      "id": "fable52-x-2119916096098582566",
+      "sourceUrl": "https://x.com/0xKense1/status/2119916096098582566",
+      "title_en": "Blender character rigging comparison: Fable 5.2 vs Opus 5.5",
+      "poster": "assets/case-posters/fable52-x-2119916096098582566.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/0xKense1/status/2119916096098582566",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119915735342346241/img/qDheqtUrhsvmJ7Dy.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119915735342346241/img/qDheqtUrhsvmJ7Dy.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "d72d1158ac6e3c55ada8afffd40f66605feec89b5c579c08a6d7c02a17abb4ef"
+      }
+    },
+    {
+      "id": "fable52-x-2120071690482794603",
+      "sourceUrl": "https://x.com/solotechdev/status/2120071690482794603",
+      "title_en": "On-device iOS AR & video editing app",
+      "poster": "assets/case-posters/fable52-x-2120071690482794603.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/solotechdev/status/2120071690482794603",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120070228587503616/img/qDvf8M0ys4KVB1Tp.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120070228587503616/img/qDvf8M0ys4KVB1Tp.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 633,
+        "imageSha256": "8466b8dc9e3cdceeafeb3e1c3cc737def8d4883d3ad70152acdb34a3666b0b3a"
+      }
+    },
+    {
+      "id": "fable52-x-2119937977426338283",
+      "sourceUrl": "https://x.com/AmirMushich/status/2119937977426338283",
+      "title_en": "Worm Rider: 220KB open-source Three.js sandworm game",
+      "poster": "assets/case-posters/fable52-x-2119937977426338283.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/AmirMushich/status/2119937977426338283",
+        "sourceImageUrl": "https://video.twimg.com/amplify_video/2119936256498962432/vid/avc1/1920x1080/pYXo58uow7BeKq9v.mp4?tag=29",
+        "retrievedImageUrl": "https://video.twimg.com/amplify_video/2119936256498962432/vid/avc1/1920x1080/pYXo58uow7BeKq9v.mp4?tag=29",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "avfoundation-original-video-frame",
+        "relation": "original-post-video-frame",
+        "width": 960,
+        "height": 540,
+        "imageSha256": "d8a3eb24e1673f3aaffd5855937e3bd21666c2e43753cee78ffc866db028e4e6",
+        "originalPosterUrl": "https://pbs.twimg.com/amplify_video_thumb/2119936256498962432/img/Md1DWGijRFEEm1Z_.jpg",
+        "sourceVideoUrl": "https://video.twimg.com/amplify_video/2119936256498962432/vid/avc1/1920x1080/pYXo58uow7BeKq9v.mp4?tag=29",
+        "retrievedVideoUrl": "https://video.twimg.com/amplify_video/2119936256498962432/vid/avc1/1920x1080/pYXo58uow7BeKq9v.mp4?tag=29",
+        "frameSeconds": 10
+      }
+    },
+    {
+      "id": "fable52-x-2120858483390337361",
+      "sourceUrl": "https://x.com/KHvostikk/status/2120858483390337361",
+      "title_en": "One-iteration PBR material map workflow",
+      "poster": "assets/case-posters/fable52-x-2120858483390337361.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/KHvostikk/status/2120858483390337361",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120858404713304064/img/SpMomli5VpF97Nbu.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120858404713304064/img/SpMomli5VpF97Nbu.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "91c6cd16afa6b9c401bd7402520b85f6d4312324ac5cafea8b3db905f4121e32"
+      }
+    },
+    {
+      "id": "fable52-x-2120846360064692377",
+      "sourceUrl": "https://x.com/noclipepe/status/2120846360064692377",
+      "title_en": "Chrome Dino multi-model test with timing and API cost",
+      "poster": "assets/case-posters/fable52-x-2120846360064692377.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/noclipepe/status/2120846360064692377",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120845405587992576/img/3YNjauqbYnwyk_LI.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120845405587992576/img/3YNjauqbYnwyk_LI.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 544,
+        "height": 680,
+        "imageSha256": "9f52b24f0ee5570952fdb748f427a4b8640a200f34f3036646acfe80eb86a04d"
+      }
+    },
+    {
+      "id": "fable52-x-2120090542419984686",
+      "sourceUrl": "https://x.com/devteamdrew/status/2120090542419984686",
+      "title_en": "World's 7 Wonders drawn and animated via code",
+      "poster": "assets/case-posters/fable52-x-2120090542419984686.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/devteamdrew/status/2120090542419984686",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120090526225408000/img/AS4O-3N8yukmhPJC.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120090526225408000/img/AS4O-3N8yukmhPJC.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 510,
+        "height": 680,
+        "imageSha256": "3b0527c67cebcd955b4d075439040bf6667f3d5edbaba8ba5605749ff26b47f2"
+      }
+    },
+    {
+      "id": "fable52-x-2120302122776342865",
+      "sourceUrl": "https://x.com/AugustCastilIo/status/2120302122776342865",
+      "title_en": "Yard Clash: playable 7v7 neighborhood football web game",
+      "poster": "assets/case-posters/fable52-x-2120302122776342865.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/AugustCastilIo/status/2120302122776342865",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120299872809095168/img/PLWNHfwlnf4faYAX.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120299872809095168/img/PLWNHfwlnf4faYAX.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "5750f597ab47140f12c268dd9491796d45d568263131f4cd20210bba807f5d03"
+      }
+    },
+    {
+      "id": "fable52-x-2120290751502581879",
+      "sourceUrl": "https://x.com/AugustCastilIo/status/2120290751502581879",
+      "title_en": "Skyflare: fighter jet combat game built in 3 hours",
+      "poster": "assets/case-posters/fable52-x-2120290751502581879.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/AugustCastilIo/status/2120290751502581879",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120290202639900672/img/xllopCn_aOgBz-jc.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120290202639900672/img/xllopCn_aOgBz-jc.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 442,
+        "imageSha256": "750c5f126116f01f21c2b1716d9922edf52fa319c181a331bdf86e5235f9ff67"
+      }
+    },
+    {
+      "id": "fable52-x-2120599812512833557",
+      "sourceUrl": "https://x.com/Andrew_Blumson/status/2120599812512833557",
+      "title_en": "MAAD MAXXING: asset-free Three.js/WebGPU playable game",
+      "poster": "assets/case-posters/fable52-x-2120599812512833557.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/Andrew_Blumson/status/2120599812512833557",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120599444978626560/img/D5TBJv54CEhSJmlR.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120599444978626560/img/D5TBJv54CEhSJmlR.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 343,
+        "imageSha256": "bda92e9e91fbd7bf08b550cb9e3f825c01365be6d1a6068f44b90a2c0e26c812"
+      }
+    },
+    {
+      "id": "fable52-x-2120508846758400485",
+      "sourceUrl": "https://x.com/kotohibi_3d/status/2120508846758400485",
+      "title_en": "Wide-area 3D point-cloud to Blender/UE5.9 mesh reconstruction",
+      "poster": "assets/case-posters/fable52-x-2120508846758400485.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/kotohibi_3d/status/2120508846758400485",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120505795293167616/img/RJB51pdXlthv5lhC.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120505795293167616/img/RJB51pdXlthv5lhC.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "f6361c0c1546d4b700f6ee80e1b6777a1dc175a31be961b61a9f154b58c50936"
+      }
+    },
+    {
+      "id": "fable52-x-2120039417981333599",
+      "sourceUrl": "https://x.com/Stefan_3D_AI/status/2120039417981333599",
+      "title_en": "Blender sea-serpent collision test: Fable 5.2 ($89.7) vs Opus 5.5 ($25.2)",
+      "poster": "assets/case-posters/fable52-x-2120039417981333599.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/Stefan_3D_AI/status/2120039417981333599",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120038192166600704/img/nC1tUnZE9BMBlN94.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120038192166600704/img/nC1tUnZE9BMBlN94.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 680,
+        "imageSha256": "e327790ea1ec31c050910d19d0658b7894d0718eddf2ed5488b38c8283db5093"
+      }
+    },
+    {
+      "id": "fable52-x-2119967359444382107",
+      "sourceUrl": "https://x.com/kis/status/2119967359444382107",
+      "title_en": "String quartet sonata with physically modeled violin synthesis",
+      "poster": "assets/case-posters/fable52-x-2119967359444382107.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/kis/status/2119967359444382107",
+        "sourceImageUrl": "https://video.twimg.com/amplify_video/2119966909840179200/vid/avc1/1334x886/U4qCwE3soewcj_QQ.mp4?tag=29",
+        "retrievedImageUrl": "https://video.twimg.com/amplify_video/2119966909840179200/vid/avc1/1334x886/U4qCwE3soewcj_QQ.mp4?tag=29",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "avfoundation-original-video-frame",
+        "relation": "original-post-video-frame",
+        "width": 960,
+        "height": 637,
+        "imageSha256": "71872571f151ce2b4f028f117d14f013adecddae25d37cedcac8c9397cb6fa4b",
+        "originalPosterUrl": "https://pbs.twimg.com/amplify_video_thumb/2119966909840179200/img/xQc_UVdun9drpoBW.jpg",
+        "sourceVideoUrl": "https://video.twimg.com/amplify_video/2119966909840179200/vid/avc1/1334x886/U4qCwE3soewcj_QQ.mp4?tag=29",
+        "retrievedVideoUrl": "https://video.twimg.com/amplify_video/2119966909840179200/vid/avc1/1334x886/U4qCwE3soewcj_QQ.mp4?tag=29",
+        "frameSeconds": 30
+      }
+    },
+    {
+      "id": "fable52-x-2120531821306032607",
+      "sourceUrl": "https://x.com/seveibar/status/2120531821306032607",
+      "title_en": "tscircuit SoC motor-controller PCB test: $200 vs $12",
+      "poster": "assets/case-posters/fable52-x-2120531821306032607.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/seveibar/status/2120531821306032607",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120531758987030528/img/q9cfq8_Cntc0K6OA.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120531758987030528/img/q9cfq8_Cntc0K6OA.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "4a8ffe27feb366ca9f480fe5e563959b7a47cd29797a4cf0511eca58756eed51"
+      }
+    },
+    {
+      "id": "fable52-x-2120498188486693305",
+      "sourceUrl": "https://x.com/snakajima/status/2120498188486693305",
+      "title_en": "Music video produced using JingleScript",
+      "poster": "assets/case-posters/fable52-x-2120498188486693305.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/snakajima/status/2120498188486693305",
+        "sourceImageUrl": "https://video.twimg.com/amplify_video/2120497571500298240/vid/avc1/1280x720/psOz4VbIFL3QT4UN.mp4?tag=29",
+        "retrievedImageUrl": "https://video.twimg.com/amplify_video/2120497571500298240/vid/avc1/1280x720/psOz4VbIFL3QT4UN.mp4?tag=29",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "avfoundation-original-video-frame",
+        "relation": "original-post-video-frame",
+        "width": 960,
+        "height": 540,
+        "imageSha256": "5c72bfe45e6725fc6f5169f5731176ebdb940fe55060e6cd80a9f6181e81c32f",
+        "originalPosterUrl": "https://pbs.twimg.com/amplify_video_thumb/2120497571500298240/img/RF1l5FyDbPRelFTU.jpg",
+        "sourceVideoUrl": "https://video.twimg.com/amplify_video/2120497571500298240/vid/avc1/1280x720/psOz4VbIFL3QT4UN.mp4?tag=29",
+        "retrievedVideoUrl": "https://video.twimg.com/amplify_video/2120497571500298240/vid/avc1/1280x720/psOz4VbIFL3QT4UN.mp4?tag=29",
+        "frameSeconds": 20
+      }
+    },
+    {
+      "id": "fable52-x-2120824873513832590",
+      "sourceUrl": "https://x.com/termix_ai/status/2120824873513832590",
+      "title_en": "Agent.family one-sentence game creation agent powered by Fable 5.2",
+      "poster": "assets/case-posters/fable52-x-2120824873513832590.jpg",
+      "mediaKind": "image",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/termix_ai/status/2120824873513832590",
+        "sourceImageUrl": "https://pbs.twimg.com/media/HW6u4jtbYAAY_CA.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/media/HW6u4jtbYAAY_CA?format=jpg&name=small",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 383,
+        "imageSha256": "1ff645032a4c55bc7f50bf3b3516b30438f87ff98f02212ba4889ecc8150d10e"
+      }
+    },
+    {
+      "id": "fable52-x-2120916530439344392",
+      "sourceUrl": "https://x.com/EnvolDev/status/2120916530439344392",
+      "title_en": "Alpine Gold 3D plane benchmark: best quality at 6.5x Opus cost",
+      "poster": "assets/case-posters/fable52-x-2120916530439344392.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/EnvolDev/status/2120916530439344392",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120742628467826688/img/uUAHi_B4HrD4gHkv.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120742628467826688/img/uUAHi_B4HrD4gHkv.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 680,
+        "height": 680,
+        "imageSha256": "92aa68aa0bf77a06983ddc7a83433f39e78edf813393067c79cbad4d7d7dd4cd"
+      }
+    },
+    {
+      "id": "fable52-x-2120967083664220427",
+      "sourceUrl": "https://x.com/0xClodex/status/2120967083664220427",
+      "title_en": "Code-built interactive 3D drone engineering education lab",
+      "poster": "assets/case-posters/fable52-x-2120967083664220427.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://x.com/0xClodex/status/2120967083664220427",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120964314580365313/img/snzRXpJaoiyLCJgK.jpg",
+        "retrievedImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120964314580365313/img/snzRXpJaoiyLCJgK.jpg?format=jpg&name=small",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "source-linked-thumbnail-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 544,
+        "height": 680,
+        "imageSha256": "81affd4905d30123b97e5d94d85e03ee4e6eb95ab888a23fc16cd6882d1b7646"
+      }
+    },
+    {
+      "id": "fable52-gh-wquguru-fps-repro",
+      "sourceUrl": "https://github.com/wquguru/fable52-fps-repro",
+      "title_en": "fable52-fps-repro: 4 single-file 3D FPS repros with prompts & API billing",
+      "poster": "assets/case-posters/fable52-gh-wquguru-fps-repro.jpg",
+      "mediaKind": "image",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://github.com/wquguru/fable52-fps-repro",
+        "sourceImageUrl": "https://raw.githubusercontent.com/wquguru/fable52-fps-repro/main/docs/screens/03-model-1.jpg",
+        "retrievedImageUrl": "https://raw.githubusercontent.com/wquguru/fable52-fps-repro/main/docs/screens/03-model-1.jpg",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "github-repo-readme-image-mirrored-verbatim",
+        "relation": "repo-screenshot",
+        "width": 1280,
+        "height": 800,
+        "imageSha256": "4455904f1c814f0c92f747ae323b971fa6fcafa6eaa0fa272db2da8de71837e5"
+      }
+    },
+    {
+      "id": "fable52-gh-vadympetryshyn-effort-pilot",
+      "sourceUrl": "https://github.com/vadympetryshyn/effort-pilot",
+      "title_en": "Effort Pilot: per-turn reasoning effort router for Fable 5.2 & Opus",
+      "poster": "assets/case-posters/fable52-gh-vadympetryshyn-effort-pilot.png",
+      "mediaKind": "image",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://github.com/vadympetryshyn/effort-pilot",
+        "sourceImageUrl": "https://raw.githubusercontent.com/vadympetryshyn/effort-pilot/main/assets/social-preview.png",
+        "retrievedImageUrl": "https://raw.githubusercontent.com/vadympetryshyn/effort-pilot/main/assets/social-preview.png",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "github-repo-asset-mirrored-verbatim",
+        "relation": "repo-asset",
+        "width": 1280,
+        "height": 640,
+        "imageSha256": "f2a7129f2603b2708c20f4cf095d8828f30ff8c3c2934b2faab48163f10f3808"
+      }
+    },
+    {
+      "id": "fable52-gh-bhavya-gx-fable-vfx",
+      "sourceUrl": "https://github.com/bhavya-gx/fable-vfx",
+      "title_en": "fable-vfx: config-driven Claude skill for talking-head VFX",
+      "poster": "assets/case-posters/fable52-gh-bhavya-gx-fable-vfx.jpg",
+      "mediaKind": "image",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://github.com/bhavya-gx/fable-vfx",
+        "sourceImageUrl": "https://raw.githubusercontent.com/bhavya-gx/fable-vfx/main/assets/sheet.jpg",
+        "retrievedImageUrl": "https://raw.githubusercontent.com/bhavya-gx/fable-vfx/main/assets/sheet.jpg",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "github-repo-asset-mirrored-verbatim",
+        "relation": "repo-screenshot",
+        "width": 1920,
+        "height": 810,
+        "imageSha256": "b98424b55a0ed6ea787137cb62089144aa5ee1202f1b1dcedef9ce51612cf26c"
+      }
+    },
+    {
+      "id": "fable52-gh-selmakcby-ajan-takimi",
+      "sourceUrl": "https://github.com/selmakcby/fable-ajan-takimi",
+      "title_en": "Turkish 3-model agent team (Fable 5.2 lead, Opus dev, Sonnet QA)",
+      "poster": "assets/case-posters/fable52-gh-selmakcby-ajan-takimi.png",
+      "mediaKind": "image",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://github.com/selmakcby/fable-ajan-takimi",
+        "sourceImageUrl": "https://raw.githubusercontent.com/selmakcby/fable-ajan-takimi/main/ornek-uygulama/ekran/uygulama.png",
+        "retrievedImageUrl": "https://raw.githubusercontent.com/selmakcby/fable-ajan-takimi/main/ornek-uygulama/ekran/uygulama.png",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "github-repo-asset-mirrored-verbatim",
+        "relation": "repo-screenshot",
+        "width": 1100,
+        "height": 1300,
+        "imageSha256": "24215b37576c49fa9ed82e2a787115a67b21f3d0e223be04d4675305f35947e1"
+      }
+    },
+    {
+      "id": "fable52-hn-50476597",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50476597",
+      "title_en": "1993 Silicon Graphics Indy workstation personal site built with Fable 5.2",
+      "poster": "assets/case-posters/fable52-hn-50476597.jpg",
+      "mediaKind": "image",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://gregorywieber.com/indy/",
+        "sourceImageUrl": "https://gregorywieber.com/indy/assets/og.jpg",
+        "retrievedImageUrl": "https://gregorywieber.com/indy/assets/og.jpg",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "source-page-og-image-mirrored-verbatim",
+        "relation": "linked-demo-og-image",
+        "width": 1200,
+        "height": 630,
+        "imageSha256": "74b80686867b92088116424677f0314bc2b65c510cf1f82bb9b9049c17e19703"
+      }
+    },
+    {
+      "id": "fable52-reddit-1xtxi68",
+      "sourceUrl": "https://www.reddit.com/r/claude/comments/1xtxi68/fable_52_not_such_a_great_vision_model/",
+      "title_en": "Vision failure: spotted extra 'three hands' in only 1 of 5 runs",
+      "poster": "assets/case-posters/fable52-reddit-1xtxi68.png",
+      "mediaKind": "image",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://www.reddit.com/r/claude/comments/1xtxi68/fable_52_not_such_a_great_vision_model/",
+        "sourceImageUrl": "https://i.redd.it/4emm1h41l21i1.png",
+        "retrievedImageUrl": "https://i.redd.it/4emm1h41l21i1.png",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "reddit-post-image-mirrored-verbatim",
+        "relation": "original-post-media",
+        "width": 1094,
+        "height": 1700,
+        "imageSha256": "0849876370042cbdc34a572c023e420301a4c63f824839dae3173e8761582a8e"
+      }
+    },
+    {
+      "id": "fable52-bili-BV1ScWa6NEUZ",
+      "sourceUrl": "https://www.bilibili.com/video/BV1ScWa6NEUZ/",
+      "title_en": "Fable 5.2 vs Gemini 4 Carbon across 3 web & 2 repo tasks",
+      "poster": "assets/case-posters/fable52-bili-BV1ScWa6NEUZ.webp",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://www.bilibili.com/video/BV1ScWa6NEUZ/",
+        "sourceImageUrl": "https://i2.hdslb.com/bfs/archive/4a28004c94ede48070705a7c7b0ea0ffcc3e7b59.jpg",
+        "retrievedImageUrl": "https://i2.hdslb.com/bfs/archive/4a28004c94ede48070705a7c7b0ea0ffcc3e7b59.jpg@640w_360h_1c.webp",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "bilibili-api-cover-mirrored-verbatim",
+        "relation": "original-video-cover",
+        "width": 640,
+        "height": 360,
+        "imageSha256": "1cca390908364c388ad65c4d3d2704840c41c1addaa1742ede365d3fb4d3e9ff"
+      }
+    },
+    {
+      "id": "fable52-bili-BV17mWY6XEQ4",
+      "sourceUrl": "https://www.bilibili.com/video/BV17mWY6XEQ4/",
+      "title_en": "Inside Fable 5.2's perspective: Devin telemetry & generated short",
+      "poster": "assets/case-posters/fable52-bili-BV17mWY6XEQ4.webp",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://www.bilibili.com/video/BV17mWY6XEQ4/",
+        "sourceImageUrl": "https://i0.hdslb.com/bfs/archive/b221d812bcbe67458559ceb1fa343daa7daf1f28.jpg",
+        "retrievedImageUrl": "https://i0.hdslb.com/bfs/archive/b221d812bcbe67458559ceb1fa343daa7daf1f28.jpg@640w_360h_1c.webp",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "bilibili-api-cover-mirrored-verbatim",
+        "relation": "original-video-cover",
+        "width": 640,
+        "height": 360,
+        "imageSha256": "ec745d8dc9deb682c3083e26d15b4a8e0d476ae7619e46231ee5f17cf81e4eb4"
+      }
+    },
+    {
+      "id": "fable52-bili-BV1MtWY6iE2C",
+      "sourceUrl": "https://www.bilibili.com/video/BV1MtWY6iE2C/",
+      "title_en": "Code-simulated history of game graphics (1958 oscilloscope to DLSS)",
+      "poster": "assets/case-posters/fable52-bili-BV1MtWY6iE2C.webp",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://www.bilibili.com/video/BV1MtWY6iE2C/",
+        "sourceImageUrl": "https://i1.hdslb.com/bfs/archive/d673122da95aba87cd259b8535425eb3470c7fb8.jpg",
+        "retrievedImageUrl": "https://i1.hdslb.com/bfs/archive/d673122da95aba87cd259b8535425eb3470c7fb8.jpg@640w_360h_1c.webp",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "bilibili-api-cover-mirrored-verbatim",
+        "relation": "original-video-cover",
+        "width": 640,
+        "height": 360,
+        "imageSha256": "d0404db03fbe5ab28095b541b5da46a87b7e98d670758194b15f2b9659d8aee8"
+      }
+    },
+    {
+      "id": "fable52-bili-BV1o2Wh6yED6",
+      "sourceUrl": "https://www.bilibili.com/video/BV1o2Wh6yED6/",
+      "title_en": "Open-source onboarding UI for InternalBeyond-Mobile PWA",
+      "poster": "assets/case-posters/fable52-bili-BV1o2Wh6yED6.webp",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://www.bilibili.com/video/BV1o2Wh6yED6/",
+        "sourceImageUrl": "https://i1.hdslb.com/bfs/archive/642031bac3712b34db31718b35f66302a499f555.jpg",
+        "retrievedImageUrl": "https://i1.hdslb.com/bfs/archive/642031bac3712b34db31718b35f66302a499f555.jpg@640w_360h_1c.webp",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "bilibili-api-cover-mirrored-verbatim",
+        "relation": "original-video-cover",
+        "width": 640,
+        "height": 360,
+        "imageSha256": "562aa66df21038c524f58346096061abe626f17f68474510dee96cdaa5e8b8c8"
+      }
+    },
+    {
+      "id": "fable52-bili-BV1t4Wh6bEcZ",
+      "sourceUrl": "https://www.bilibili.com/video/BV1t4Wh6bEcZ/",
+      "title_en": "One-prompt 40s Blender short rendered on 5×RTX 5090 RunPod",
+      "poster": "assets/case-posters/fable52-bili-BV1t4Wh6bEcZ.webp",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://www.bilibili.com/video/BV1t4Wh6bEcZ/",
+        "sourceImageUrl": "https://i1.hdslb.com/bfs/archive/676af12a270d03e8100178472dddd54b7ec90680.jpg",
+        "retrievedImageUrl": "https://i1.hdslb.com/bfs/archive/676af12a270d03e8100178472dddd54b7ec90680.jpg@640w_360h_1c.webp",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "bilibili-api-cover-mirrored-verbatim",
+        "relation": "original-video-cover",
+        "width": 640,
+        "height": 360,
+        "imageSha256": "02264db89b625b389b31bad4e08e35605b216906a77be2565cb85a0a4382e989"
+      }
+    },
+    {
+      "id": "fable52-yt-owMtQh_3k4k",
+      "sourceUrl": "https://www.youtube.com/watch?v=owMtQh_3k4k",
+      "title_en": "E-ink display breakthrough after failed runs & price-tradeoff review",
+      "poster": "assets/case-posters/fable52-yt-owMtQh_3k4k.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://www.youtube.com/watch?v=owMtQh_3k4k",
+        "sourceImageUrl": "https://i.ytimg.com/vi/owMtQh_3k4k/hqdefault.jpg",
+        "retrievedImageUrl": "https://i.ytimg.com/vi/owMtQh_3k4k/hqdefault.jpg",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "youtube-thumbnail-mirrored-verbatim",
+        "relation": "original-video-thumbnail",
+        "width": 480,
+        "height": 360,
+        "imageSha256": "815d879e25f6c50c6b4536265ad77678b6aac54aceddb4e0e29e58d51e64cc65"
+      }
+    },
+    {
+      "id": "fable52-yt-583ThJIqQ7k",
+      "sourceUrl": "https://www.youtube.com/watch?v=583ThJIqQ7k",
+      "title_en": "Deep dive: 264-page Fable 5.2 report, METR RSI & 100+ tests",
+      "poster": "assets/case-posters/fable52-yt-583ThJIqQ7k.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://www.youtube.com/watch?v=583ThJIqQ7k",
+        "sourceImageUrl": "https://i.ytimg.com/vi/583ThJIqQ7k/hqdefault.jpg",
+        "retrievedImageUrl": "https://i.ytimg.com/vi/583ThJIqQ7k/hqdefault.jpg",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "youtube-thumbnail-mirrored-verbatim",
+        "relation": "original-video-thumbnail",
+        "width": 480,
+        "height": 360,
+        "imageSha256": "4a139c558299dfec1072f415fcd65295137483c707e82fcff67d3f47f2357d6c"
+      }
+    },
+    {
+      "id": "fable52-yt-UTffozEcD4U",
+      "sourceUrl": "https://www.youtube.com/watch?v=UTffozEcD4U",
+      "title_en": "Can Fable 5.2 in Blender beat dedicated 3D generators?",
+      "poster": "assets/case-posters/fable52-yt-UTffozEcD4U.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://www.youtube.com/watch?v=UTffozEcD4U",
+        "sourceImageUrl": "https://i.ytimg.com/vi/UTffozEcD4U/hqdefault.jpg",
+        "retrievedImageUrl": "https://i.ytimg.com/vi/UTffozEcD4U/hqdefault.jpg",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "youtube-thumbnail-mirrored-verbatim",
+        "relation": "original-video-thumbnail",
+        "width": 480,
+        "height": 360,
+        "imageSha256": "8d5bcbd7d406ac9089ecf0fbe81f8ca7a2f85c13bf1419ddb3d19e160f935bb0"
+      }
+    },
+    {
+      "id": "fable52-yt-IwXn5UYIt0g",
+      "sourceUrl": "https://www.youtube.com/watch?v=IwXn5UYIt0g",
+      "title_en": "Fable 5.2 vs Opus 5.5 on motion graphics & animations",
+      "poster": "assets/case-posters/fable52-yt-IwXn5UYIt0g.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://www.youtube.com/watch?v=IwXn5UYIt0g",
+        "sourceImageUrl": "https://i.ytimg.com/vi/IwXn5UYIt0g/hqdefault.jpg",
+        "retrievedImageUrl": "https://i.ytimg.com/vi/IwXn5UYIt0g/hqdefault.jpg",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "youtube-thumbnail-mirrored-verbatim",
+        "relation": "original-video-thumbnail",
+        "width": 480,
+        "height": 360,
+        "imageSha256": "307f973475012da42b26774f957094d9c22de0305eb638ec2bb594309787a4de"
+      }
+    },
+    {
+      "id": "fable52-yt-XZoQ1lBZGDA",
+      "sourceUrl": "https://www.youtube.com/watch?v=XZoQ1lBZGDA",
+      "title_en": "Six parallel 6h max-effort builds ($400 lawnmower sim, UE 5.9 horror)",
+      "poster": "assets/case-posters/fable52-yt-XZoQ1lBZGDA.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://www.youtube.com/watch?v=XZoQ1lBZGDA",
+        "sourceImageUrl": "https://i.ytimg.com/vi/XZoQ1lBZGDA/hqdefault.jpg",
+        "retrievedImageUrl": "https://i.ytimg.com/vi/XZoQ1lBZGDA/hqdefault.jpg",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "youtube-thumbnail-mirrored-verbatim",
+        "relation": "original-video-thumbnail",
+        "width": 480,
+        "height": 360,
+        "imageSha256": "f72be8ccd61831bb810bdbd4961349164f4d81c53ba5a1ee73f01152482229f5"
+      }
+    },
+    {
+      "id": "fable52-yt-eUmiy54xhqQ",
+      "sourceUrl": "https://www.youtube.com/watch?v=eUmiy54xhqQ",
+      "title_en": "Blender benchmark vs Fable 5.1 & Astra (rigged expressions, backflip, cathedral)",
+      "poster": "assets/case-posters/fable52-yt-eUmiy54xhqQ.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://www.youtube.com/watch?v=eUmiy54xhqQ",
+        "sourceImageUrl": "https://i.ytimg.com/vi/eUmiy54xhqQ/hqdefault.jpg",
+        "retrievedImageUrl": "https://i.ytimg.com/vi/eUmiy54xhqQ/hqdefault.jpg",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "youtube-thumbnail-mirrored-verbatim",
+        "relation": "original-video-thumbnail",
+        "width": 480,
+        "height": 360,
+        "imageSha256": "54331c6761dff76b159ea89324fb630b9885b57aa388f3552dff054a6a9410b5"
+      }
+    },
+    {
+      "id": "fable52-yt-C33hJGt-ySg",
+      "sourceUrl": "https://www.youtube.com/watch?v=C33hJGt-ySg",
+      "title_en": "Official Anthropic guide: when to use Opus 5.5 vs Fable 5.2 in Claude Code",
+      "poster": "assets/case-posters/fable52-yt-C33hJGt-ySg.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://www.youtube.com/watch?v=C33hJGt-ySg",
+        "sourceImageUrl": "https://i.ytimg.com/vi/C33hJGt-ySg/hqdefault.jpg",
+        "retrievedImageUrl": "https://i.ytimg.com/vi/C33hJGt-ySg/hqdefault.jpg",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "youtube-thumbnail-mirrored-verbatim",
+        "relation": "original-video-thumbnail",
+        "width": 480,
+        "height": 360,
+        "imageSha256": "9b021ae7cbd949f40672a19371692a6a646c1a308db3d56424272783fb44cd6c"
+      }
+    },
+    {
+      "id": "fable52-web-ultralytics-iedxray",
+      "sourceUrl": "https://www.ultralytics.com/blog/claude-fable-5-2-auto-annotation",
+      "title_en": "Ultralytics UL37: #2 overall mAP50 (0.544), 10/10 IEDXray security refusals",
+      "poster": "assets/case-posters/fable52-web-ultralytics-iedxray.webp",
+      "mediaKind": "image",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://www.ultralytics.com/blog/claude-fable-5-2-auto-annotation",
+        "sourceImageUrl": "https://cdn.ul.run/i/c571801ab284c3ce1f3934d695546967.webp",
+        "retrievedImageUrl": "https://cdn.ul.run/i/c571801ab284c3ce1f3934d695546967.webp",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "source-page-og-image-mirrored-verbatim",
+        "relation": "original-article-og-image",
+        "width": 1200,
+        "height": 675,
+        "imageSha256": "fbfd6a25c9684c751fbc7ea4e745eb31c66bdc0579f7b25bcb3518b34311e0b5"
+      }
+    },
+    {
+      "id": "fable52-web-snorkel-coding",
+      "sourceUrl": "https://snorkel.ai/blog/fable-5-2-vs-fable-5-1-coding-benchmark/",
+      "title_en": "Snorkel AI coding benchmark: pass@1 rises from 53.1% to 71.4% vs 5.1",
+      "poster": "assets/case-posters/fable52-web-snorkel-coding.png",
+      "mediaKind": "image",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://snorkel.ai/blog/fable-5-2-vs-fable-5-1-coding-benchmark/",
+        "sourceImageUrl": "https://s46486.pcdn.co/wp-content/uploads/2022/01/Cover-Claude_Fable52-1_-_USE-1024x576.png",
+        "retrievedImageUrl": "https://s46486.pcdn.co/wp-content/uploads/2022/01/Cover-Claude_Fable52-1_-_USE-1024x576.png",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "source-page-og-image-mirrored-verbatim",
+        "relation": "original-article-og-image",
+        "width": 1024,
+        "height": 576,
+        "imageSha256": "6d11c89e9ca9f4a9f88a6149e94b8e7532e29313a4e2400654bebd349859daf5"
+      }
+    },
+    {
+      "id": "fable52-web-prefix-400",
+      "sourceUrl": "https://dev.to/reidmarlow/why-claude-fable-52-throws-400-errors-on-mutable-agent-loops-4map",
+      "title_en": "API breaking change: preserved-thinking prefix checks trigger 400s on mutable loops",
+      "poster": "assets/case-posters/fable52-web-prefix-400.png",
+      "mediaKind": "image",
+      "posterEvidence": {
+        "reviewStatus": "accepted",
+        "sourcePage": "https://dev.to/reidmarlow/why-claude-fable-52-throws-400-errors-on-mutable-agent-loops-4map",
+        "sourceImageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fyqrljj8nwl01obw12gqo.png",
+        "retrievedImageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fyqrljj8nwl01obw12gqo.png",
+        "checkedAt": "2026-11-13T02:25:00+00:00",
+        "method": "source-page-og-image-mirrored-verbatim",
+        "relation": "original-article-og-image",
+        "width": 1200,
+        "height": 627,
+        "imageSha256": "5f4fa8259366192e03da1dc6b0c2651c98aad6ad226187019bc2b674c605193a"
+      }
     }
   ]
 }

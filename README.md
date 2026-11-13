@@ -13,7 +13,7 @@ Opus 5.5 与 Fable 5.2 使用同一套 `atlas/` 采集、校验和页面代码�
 | 专题 | 配置与数据 | 页面路径 |
 | --- | --- | --- |
 | Claude Opus 5.5 | [专题目录](cases/models/claude-opus-5-5-usecases/) | `/usecase-atlas/opus5-5/` |
-| Fable 5.2 | [专题目录](cases/models/fable-5-2-usecases/) | `/usecase-atlas/fable5-2/`（110 条，56 张来源封面） |
+| Fable 5.2 | [专题目录](cases/models/fable-5-2-usecases/) | `/usecase-atlas/fable5-2/`（189 条，160 张来源封面） |
 
 ```bash
 python3 -m venv .venv

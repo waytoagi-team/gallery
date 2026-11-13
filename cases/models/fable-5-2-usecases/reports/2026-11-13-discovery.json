@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "topicId": "fable-5-2",
+  "date": "2026-11-13",
+  "startedAt": "2026-11-13T02:06:00+00:00",
+  "finishedAt": "2026-11-13T02:25:00+00:00",
+  "status": "retrieved-partial",
+  "coverage": "partial",
+  "channels": {
+    "atlas_collect": {
+      "since": "2026-11-11",
+      "attempted": 6,
+      "succeeded": 6,
+      "candidates": 68
+    },
+    "github_hn_extended": {
+      "since": "2026-11-09",
+      "attempted": 15,
+      "succeeded": 15,
+      "verified": {
+        "github": 14,
+        "hn": 5
+      }
+    },
+    "xapi_search": {
+      "queries": [
+        "latest",
+        "top",
+        "videos",
+        "tools",
+        "postmortem",
+        "multilang",
+        "eng"
+      ],
+      "requests": 21,
+      "succeeded": 17,
+      "fxtwitterVerified": 85
+    },
+    "reddit_arctic_shift": {
+      "attemptedSubreddits": [
+        "claude",
+        "ClaudeAI",
+        "ClaudeCode",
+        "LocalLLaMA",
+        "singularity"
+      ],
+      "succeededSubreddits": [
+        "claude"
+      ],
+      "posts": 38,
+      "errors": {
+        "422": 4
+      }
+    },
+    "bilibili_youtube": {
+      "bilibiliQueries": 2,
+      "bilibiliFetchedDetails": 9,
+      "youtubeQueries": 2,
+      "youtubeInspected": 9
+    },
+    "web_search": {
+      "articlesRead": [
+        "ultralytics.com",
+        "snorkel.ai",
+        "higgsfield.ai",
+        "dev.to/reidmarlow",
+        "fable52.games",
+        "gregorywieber.com/indy"
+      ]
+    }
+  },
+  "limitations": [
+    "Partial public-web coverage; no exhaustive-internet claim.",
+    "Arctic Shift Reddit queries returned HTTP 422 on 4 of 5 subreddits (ClaudeAI, ClaudeCode, LocalLLaMA, singularity); only r/claude succeeded.",
+    "XAPI search returned HTTP 404 on 4 empty/thread queries; FXTwitter metrics failed on 1 deleted post (fable52-sirbost-712653) and GitHub API returned 404 on 1 repo (fable52-gh-jiaaqiliu-xuanji-x1), both retaining prior metrics.",
+    "Model identity, performance, cost, token volume and scientific claims remain author-reported.",
+    "Only source-linked images or extracted source video frames are used; no generic illustrations for sources without images."
+  ]
+}

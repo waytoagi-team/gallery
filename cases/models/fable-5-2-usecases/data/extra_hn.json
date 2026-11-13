@@ -1,0 +1,62 @@
+[
+  {
+    "id": "fable52-hn-50469007",
+    "title": "Show HN：Fable52.games 单文件 HTML 游戏聚合站（含 30+ 作品与提示词）",
+    "title_en": "Show HN: Fable52.games directory of 30+ single-file HTML games",
+    "summary": "Show HN 收录的在线街机合集站，汇集 30 余款社区报道由 Fable 5.2 生成的单文件浏览器游戏，附源码查看、提示词与试玩入口（本站仅作为聚合索引记录，具体归属需查原游戏帖）。",
+    "summary_en": "Show HN arcade directory collecting 30+ Fable 5.2 browser games with inline prompt & source views; listed here as a community directory/aggregator.",
+    "category": "games",
+    "platform": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50469007",
+    "author": "felixne",
+    "date": "2026-11-12",
+    "evidenceType": "集成",
+    "checkedAt": "2026-11-13T02:25:00+00:00",
+    "evidenceUrl": "https://news.ycombinator.com/item?id=50469007",
+    "evidenceBasis": "已读取 Hacker News 原帖（62 分，24 条讨论）及目标站 fable52.games，确认收录定位为可 inspect 源码的单文件游戏聚合目录。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "目录所收录单文件 HTML 游戏的生成模型"
+    },
+    "comments": 24,
+    "metricsCheckedAt": "2026-11-13T02:25:00+00:00",
+    "resources": [
+      {
+        "label": "Fable52.games 主站",
+        "label_en": "Fable52.games arcade",
+        "url": "https://fable52.games"
+      }
+    ]
+  },
+  {
+    "id": "fable52-hn-50476597",
+    "title": "把个人主页重构成 1993 年 SGI Indigo 3D 工作站（gregorywieber.com/indy）",
+    "title_en": "1993 Silicon Graphics Indy workstation personal site built with Fable 5.2",
+    "summary": "作者分享让 Fable 5.2 将个人网站改造为 1993 年 SGI Indigo 工作站桌面，支持开机登录、WebGL 3D 文件系统漫游与内嵌弹球游戏；实测页面可正常加载。",
+    "summary_en": "Gregory Wieber had Fable 5.2 transform his personal site into an interactive 1993 SGI Indy WebGL workstation with 3D file navigation and Soft Break.",
+    "category": "web",
+    "platform": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50476597",
+    "author": "gdubs",
+    "date": "2026-11-13",
+    "evidenceType": "演示",
+    "checkedAt": "2026-11-13T02:25:00+00:00",
+    "evidenceUrl": "https://news.ycombinator.com/item?id=50476597",
+    "evidenceBasis": "已读取 HN 讨论帖与目标演示页面 https://gregorywieber.com/indy/（HTTP 200），页面元数据确认交互 3D SGI 工作站实现。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "WebGL 3D 复古工作站站点编写"
+    },
+    "comments": 2,
+    "metricsCheckedAt": "2026-11-13T02:25:00+00:00",
+    "resources": [
+      {
+        "label": "在线 SGI 工作站体验",
+        "label_en": "Live Indy site",
+        "url": "https://gregorywieber.com/indy/"
+      }
+    ]
+  }
+]

@@ -129,8 +129,8 @@
     "id": "fable52-phonon",
     "title": "Quantum ESPRESSO 声子代码优化",
     "title_en": "Quantum ESPRESSO phonon-code optimization",
-    "summary": "Discovered Materials 反馈声子计算提速；由官方刊载，未独立跑分。",
-    "summary_en": "Discovered Materials reports faster phonon calculations; vendor-published, not independently benchmarked.",
+    "summary": "Discovered Materials 反馈基于 60 万行 Fortran 代码的 Quantum ESPRESSO 自主优化：官方与作者后续 X 串均报告 DFT 提速 36 倍、DFPT 声子计算提速 9 倍；结果未独立跑分。",
+    "summary_en": "Discovered Materials reports Fable 5.2 autonomously accelerated DFT by 36x and DFPT phonon codepaths by 9x in Quantum Espresso (600k-line Fortran); not independently benchmarked.",
     "category": "science",
     "platform": "Web",
     "sourceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
@@ -144,7 +144,14 @@
       "topicId": "fable-5-2",
       "basis": "explicit-source",
       "role": "官方实验或合作方评测"
-    }
+    },
+    "resources": [
+      {
+        "label": "Discovered Materials 公开 X 串（含视频实录）",
+        "label_en": "Creator X thread with video",
+        "url": "https://x.com/discoveredmat/status/2119873515969237412"
+      }
+    ]
   },
   {
     "id": "fable52-loan-review",
@@ -166,5 +173,92 @@
       "basis": "explicit-source",
       "role": "官方实验或合作方评测"
     }
+  },
+  {
+    "id": "fable52-web-ultralytics-iedxray",
+    "title": "Ultralytics UL37 视觉检测评测：常规第 2 名，但 IEDXray 安全 X 光片全拒答",
+    "title_en": "Ultralytics UL37: #2 overall mAP50 (0.544), 10/10 IEDXray security refusals",
+    "summary": "Ultralytics 实测 36 个目标检测数据集发现：Fable 5.2 综合 mAP50-95 居 44 个模型第 1、mAP50 达 0.544 居第 2；但因触发爆炸物风控政策拒绝标注全部 10 张 IEDXray 安检图（含普通手机/笔记本，而 Opus 5.5 等全部正常作答）。",
+    "summary_en": "Ultralytics UL37 benchmark ranks Fable 5.2 #1 in mAP50-95 (0.347) and #2 in mAP50 (0.544), yet Anthropic's general_harms filter blocked all 10 IEDXray scans (5 benign devices only), while Opus 5.5 and 43 others answered.",
+    "category": "vision",
+    "platform": "Web",
+    "sourceUrl": "https://www.ultralytics.com/blog/claude-fable-5-2-auto-annotation",
+    "author": "Ultralytics / Glenn Jocher",
+    "date": "2026-11-10",
+    "evidenceType": "限制",
+    "checkedAt": "2026-11-13T02:25:00+00:00",
+    "evidenceUrl": "https://www.ultralytics.com/blog/claude-fable-5-2-auto-annotation",
+    "evidenceBasis": "已读取 Ultralytics 官方工程博客原文与 Anthropic API 重放返回信息（stop reason: refusal, general_harms），数字为 Ultralytics 公开实测记录。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "36 个数据集目标检测标注与风控拒答实测模型"
+    },
+    "mediaKind": "image"
+  },
+  {
+    "id": "fable52-web-snorkel-coding",
+    "title": "Snorkel AI 26 项前沿终端编码基准：pass@1 由 53.1% 升至 71.4%",
+    "title_en": "Snorkel AI coding benchmark: pass@1 rises from 53.1% to 71.4% vs 5.1",
+    "summary": "Snorkel AI 在 26 项高难终端编程任务对比 Fable 5.2 与 5.1：pass@1 从 53.1% 升至 71.4%、pass@3 达 80%；42% 源于 5.1 终端/大文件写入崩溃的故障近乎归零，剩余失败主因转向死锁误读题面。",
+    "summary_en": "Across 26 frontier terminal coding tasks, Snorkel reports pass@1 rose from 53.1% to 71.4% and pass@3 from 69% to 80%; mid-run mechanical crashes nearly vanished while remaining failures stem from spec misinterpretation.",
+    "category": "coding",
+    "platform": "Web",
+    "sourceUrl": "https://snorkel.ai/blog/fable-5-2-vs-fable-5-1-coding-benchmark/",
+    "author": "Snorkel AI",
+    "date": "2026-11-12",
+    "evidenceType": "评测",
+    "checkedAt": "2026-11-13T02:25:00+00:00",
+    "evidenceUrl": "https://snorkel.ai/blog/fable-5-2-vs-fable-5-1-coding-benchmark/",
+    "evidenceBasis": "已读取 Snorkel AI 公开基准博客摘要与分项错误归因数据，作者对照 Fable 5.1 给出具体任务数与失败分布。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "终端编程代理基准主测与失败模式对比对象"
+    },
+    "mediaKind": "image"
+  },
+  {
+    "id": "fable52-web-higgsfield-eldmar",
+    "title": "Eldmar：Higgsfield MCP + Blender 两天打造 3D 浏览器奇幻 MMO 原型",
+    "title_en": "Eldmar: 3D browser fantasy MMO built in ~2 days with Higgsfield MCP",
+    "summary": "Higgsfield 工程博客记录通过 Claude Code + Blender + Higgsfield MCP 让 Fable 5.2 约两天搭出可游玩的 three.js + Docker MMO 第一张地图 Clearvale（1.2km 山谷及 44 类 NPC/怪物）；含 MCP 产品推广背景。",
+    "summary_en": "Higgsfield studio blog documents Fable 5.2 building Eldmar—a playable three.js + Docker fantasy MMO featuring the 1.2km Clearvale zone and 44 NPC/monster types—in ~2 days via Claude Code, Blender and Higgsfield MCP.",
+    "category": "games",
+    "platform": "Web",
+    "sourceUrl": "https://higgsfield.ai/@higgsfield.studio/blogs/build-a-browser-mmo-with-claude-fable-5-2",
+    "author": "Higgsfield Studio",
+    "date": "2026-11-10",
+    "evidenceType": "集成",
+    "checkedAt": "2026-11-13T02:25:00+00:00",
+    "evidenceUrl": "https://higgsfield.ai/@higgsfield.studio/blogs/build-a-browser-mmo-with-claude-fable-5-2",
+    "evidenceBasis": "已读取 Higgsfield Studio 官方博客元数据与工程说明；模型能力展示外包含 Higgsfield MCP 产品生态推广背景。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "通过 MCP 与 Docker 后端协作搭建 3D MMO 客户端代码"
+    }
+  },
+  {
+    "id": "fable52-web-prefix-400",
+    "title": "API 迁移排障：Fable 5.2 强制思维链前缀校验导致可变代理循环第 2 轮报 HTTP 400",
+    "title_en": "API breaking change: preserved-thinking prefix checks trigger 400s on mutable loops",
+    "summary": "工程文章拆解 Fable 5.2 强制在全账号开启加密思考块前缀绑定：运行中更新 system 时间戳、动态挂载 MCP 工具schema 或客户端裁剪消息会在第 2 轮直接触发 HTTP 400，需改用只追加前缀或 drop_block 标头。",
+    "summary_en": "Technical breakdown of claude-fable-5-2 enforcing cryptographic prefix binding across all accounts: mutating system timestamps, mid-session MCP tools, or trimming messages triggers turn-2 400 errors unless converted to append-only prefixes.",
+    "category": "agents",
+    "platform": "Web",
+    "sourceUrl": "https://dev.to/reidmarlow/why-claude-fable-52-throws-400-errors-on-mutable-agent-loops-4map",
+    "author": "Reid Marlow",
+    "date": "2026-11-10",
+    "evidenceType": "限制",
+    "checkedAt": "2026-11-13T02:25:00+00:00",
+    "evidenceUrl": "https://dev.to/reidmarlow/why-claude-fable-52-throws-400-errors-on-mutable-agent-loops-4map",
+    "evidenceBasis": "已读取 Dev.to 技术解析全文并核对 Anthropic preserved thinking 文档约束（含 thinking-binding-controls-2026-08-01 修复方案）。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "API 强制防蒸馏前缀绑定引发的多轮兼容限制"
+    },
+    "mediaKind": "image"
   }
 ]
