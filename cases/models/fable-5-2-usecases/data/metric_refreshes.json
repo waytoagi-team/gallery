@@ -1,0 +1,618 @@
+{
+ "meta": {
+  "source": "https://api.fxtwitter.com/",
+  "refreshedAt": "2026-11-13T02:06:32+00:00",
+  "note": "Primary X metrics only. Failed posts retain their previous values and timestamps."
+ },
+ "cases": [
+  {
+   "sourceUrl": "https://x.com/hyuki/status/2120029845572993504",
+   "likes": 106,
+   "bookmarks": 40,
+   "views": 10442,
+   "metricsCheckedAt": "2026-11-13T02:06:17+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/yupi996/status/2120029153185694138",
+   "likes": 17,
+   "bookmarks": 4,
+   "views": 4371,
+   "metricsCheckedAt": "2026-11-13T02:06:17+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/motion_so/status/2120029008809361891",
+   "likes": 57,
+   "bookmarks": 49,
+   "views": 8584,
+   "metricsCheckedAt": "2026-11-13T02:06:17+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/Dubibubiii/status/2120028715258425413",
+   "likes": 2,
+   "bookmarks": 1,
+   "views": 270,
+   "metricsCheckedAt": "2026-11-13T02:06:17+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/KernelChai/status/2120028680055628006",
+   "likes": 6,
+   "bookmarks": 1,
+   "views": 1143,
+   "metricsCheckedAt": "2026-11-13T02:06:18+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/makaneko_AI/status/2120028638833938583",
+   "likes": 7,
+   "bookmarks": 6,
+   "views": 4396,
+   "metricsCheckedAt": "2026-11-13T02:06:18+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/AugustoBuilds/status/2120027646071283723",
+   "likes": 1,
+   "bookmarks": 0,
+   "views": 5683,
+   "metricsCheckedAt": "2026-11-13T02:06:18+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/leohuanfang/status/2120027555960934713",
+   "likes": 0,
+   "bookmarks": 0,
+   "views": 37,
+   "metricsCheckedAt": "2026-11-13T02:06:19+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/satya5n21/status/2120027542967267380",
+   "likes": 17,
+   "bookmarks": 0,
+   "views": 998,
+   "metricsCheckedAt": "2026-11-13T02:06:19+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/rileybrown/status/2119902109709537708",
+   "likes": 6995,
+   "bookmarks": 7204,
+   "views": 871666,
+   "metricsCheckedAt": "2026-11-13T02:06:19+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/theo/status/2119926277801144695",
+   "likes": 2325,
+   "bookmarks": 201,
+   "views": 140009,
+   "metricsCheckedAt": "2026-11-13T02:06:19+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/mattshumer_/status/2119886664017547687",
+   "likes": 4407,
+   "bookmarks": 2584,
+   "views": 1142038,
+   "metricsCheckedAt": "2026-11-13T02:06:19+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/RoketsSI/status/2120026765523665272",
+   "likes": 0,
+   "bookmarks": 0,
+   "views": 58,
+   "metricsCheckedAt": "2026-11-13T02:06:19+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/Shannnu_18/status/2120025125076844785",
+   "likes": 19,
+   "bookmarks": 1,
+   "views": 624,
+   "metricsCheckedAt": "2026-11-13T02:06:20+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/akionionio/status/2120024536955638078",
+   "likes": 36,
+   "bookmarks": 27,
+   "views": 4654,
+   "metricsCheckedAt": "2026-11-13T02:06:20+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/AlexStLouis10/status/2120024471100907802",
+   "likes": 196,
+   "bookmarks": 158,
+   "views": 43830,
+   "metricsCheckedAt": "2026-11-13T02:06:20+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/LovekeshAnand07/status/2120024384685613199",
+   "likes": 0,
+   "bookmarks": 0,
+   "views": 59,
+   "metricsCheckedAt": "2026-11-13T02:06:20+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/czzzzzzJ_/status/2120023093464682817",
+   "likes": 2,
+   "bookmarks": 0,
+   "views": 350,
+   "metricsCheckedAt": "2026-11-13T02:06:20+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/MrTacticalX/status/2120021610161996053",
+   "likes": 28,
+   "bookmarks": 13,
+   "views": 2580,
+   "metricsCheckedAt": "2026-11-13T02:06:20+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/rehan_shei/status/2120021475495403789",
+   "likes": 45,
+   "bookmarks": 38,
+   "views": 3353,
+   "metricsCheckedAt": "2026-11-13T02:06:20+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/alightinastorm/status/2120020469487440210",
+   "likes": 163,
+   "bookmarks": 35,
+   "views": 12327,
+   "metricsCheckedAt": "2026-11-13T02:06:20+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/genel_ai/status/2120017840434823227",
+   "likes": 20,
+   "bookmarks": 31,
+   "views": 6554,
+   "metricsCheckedAt": "2026-11-13T02:06:21+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/PorisRora/status/2120017467812778053",
+   "likes": 5,
+   "bookmarks": 0,
+   "views": 209,
+   "metricsCheckedAt": "2026-11-13T02:06:21+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/himanshutwtxs/status/2120017106804900304",
+   "likes": 31,
+   "bookmarks": 15,
+   "views": 1381,
+   "metricsCheckedAt": "2026-11-13T02:06:21+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/deedee_kon45120/status/2120017100844814354",
+   "likes": 1,
+   "bookmarks": 0,
+   "views": 209,
+   "metricsCheckedAt": "2026-11-13T02:06:21+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/0x_zyven/status/2120015289165426836",
+   "likes": 556,
+   "bookmarks": 6,
+   "views": 63914,
+   "metricsCheckedAt": "2026-11-13T02:06:22+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/wshuyi/status/2120014892040417720",
+   "likes": 13,
+   "bookmarks": 3,
+   "views": 4985,
+   "metricsCheckedAt": "2026-11-13T02:06:22+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/davishaal/status/2120014570790195600",
+   "likes": 8,
+   "bookmarks": 2,
+   "views": 596,
+   "metricsCheckedAt": "2026-11-13T02:06:22+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/akira_papa_IT/status/2120013209554047013",
+   "likes": 14,
+   "bookmarks": 2,
+   "views": 2446,
+   "metricsCheckedAt": "2026-11-13T02:06:22+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/higgsfield_ai/status/2120007830065614926",
+   "likes": 243,
+   "bookmarks": 88,
+   "views": 23346,
+   "metricsCheckedAt": "2026-11-13T02:06:22+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/higgsfield_ai/status/2119910344998912507",
+   "likes": 205,
+   "bookmarks": 58,
+   "views": 15316,
+   "metricsCheckedAt": "2026-11-13T02:06:22+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/higgsfield_ai/status/2119909938969580024",
+   "likes": 771,
+   "bookmarks": 595,
+   "views": 55434,
+   "metricsCheckedAt": "2026-11-13T02:06:22+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/s_matysik/status/2119909371484213380",
+   "likes": 1,
+   "bookmarks": 0,
+   "views": 69,
+   "metricsCheckedAt": "2026-11-13T02:06:22+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/higgsfield_ai/status/2119907841599496421",
+   "likes": 103,
+   "bookmarks": 25,
+   "views": 13267,
+   "metricsCheckedAt": "2026-11-13T02:06:23+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/whydeso/status/2119907039669575757",
+   "likes": 11,
+   "bookmarks": 5,
+   "views": 1126,
+   "metricsCheckedAt": "2026-11-13T02:06:23+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/sprinntt/status/2119906202330988961",
+   "likes": 3,
+   "bookmarks": 0,
+   "views": 1090,
+   "metricsCheckedAt": "2026-11-13T02:06:23+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/higgsfield_ai/status/2119904269235277978",
+   "likes": 55,
+   "bookmarks": 21,
+   "views": 10122,
+   "metricsCheckedAt": "2026-11-13T02:06:23+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/adityavg13/status/2119903463735799971",
+   "likes": 293,
+   "bookmarks": 70,
+   "views": 44703,
+   "metricsCheckedAt": "2026-11-13T02:06:23+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/kplikethebird/status/2119900775727902732",
+   "likes": 42,
+   "bookmarks": 20,
+   "views": 10498,
+   "metricsCheckedAt": "2026-11-13T02:06:23+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/Ldataengineer/status/2119896030993146101",
+   "likes": 5,
+   "bookmarks": 4,
+   "views": 2353,
+   "metricsCheckedAt": "2026-11-13T02:06:23+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/higgsfield_ai/status/2119895459519168558",
+   "likes": 244,
+   "bookmarks": 177,
+   "views": 21537,
+   "metricsCheckedAt": "2026-11-13T02:06:23+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/jonathanhamiche/status/2119894929795145756",
+   "likes": 0,
+   "bookmarks": 1,
+   "views": 145,
+   "metricsCheckedAt": "2026-11-13T02:06:24+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/crtvTeknologist/status/2119894073024606617",
+   "likes": 1556,
+   "bookmarks": 482,
+   "views": 89628,
+   "metricsCheckedAt": "2026-11-13T02:06:24+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/higgsfield_ai/status/2119893970897490135",
+   "likes": 954,
+   "bookmarks": 731,
+   "views": 64861,
+   "metricsCheckedAt": "2026-11-13T02:06:24+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/al_maxgo/status/2119891197317591040",
+   "likes": 17,
+   "bookmarks": 23,
+   "views": 1455,
+   "metricsCheckedAt": "2026-11-13T02:06:24+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/danteeonsol/status/2119887623070077213",
+   "likes": 3,
+   "bookmarks": 2,
+   "views": 221,
+   "metricsCheckedAt": "2026-11-13T02:06:24+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/aidanshandle/status/2119879273196761464",
+   "likes": 103,
+   "bookmarks": 26,
+   "views": 3883,
+   "metricsCheckedAt": "2026-11-13T02:06:24+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/maxleiter/status/2119869170871652487",
+   "likes": 66,
+   "bookmarks": 9,
+   "views": 3811,
+   "metricsCheckedAt": "2026-11-13T02:06:25+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/felixrieseberg/status/2119925633564463609",
+   "likes": 14470,
+   "bookmarks": 10037,
+   "views": 4289526,
+   "metricsCheckedAt": "2026-11-13T02:06:25+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/angeldot_/status/2120371213474107825",
+   "likes": 160,
+   "bookmarks": 6,
+   "views": 19199,
+   "metricsCheckedAt": "2026-11-13T02:06:25+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/emollick/status/2120248525254742318",
+   "likes": 300,
+   "bookmarks": 137,
+   "views": 29106,
+   "metricsCheckedAt": "2026-11-13T02:06:25+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/RyanSael/status/2120695866684231998",
+   "likes": 43,
+   "bookmarks": 18,
+   "views": 4259,
+   "metricsCheckedAt": "2026-11-13T02:06:25+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/loktar00/status/2120192761542615271",
+   "likes": 1397,
+   "bookmarks": 875,
+   "views": 191843,
+   "metricsCheckedAt": "2026-11-13T02:06:25+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/kevin_t_ngo/status/2119868968307695818",
+   "likes": 4200,
+   "bookmarks": 1759,
+   "views": 482470,
+   "metricsCheckedAt": "2026-11-13T02:06:26+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/ForwardEditor/status/2119867743965163994",
+   "likes": 461,
+   "bookmarks": 93,
+   "views": 31414,
+   "metricsCheckedAt": "2026-11-13T02:06:26+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/MatthewBerman/status/2119868640879349998",
+   "likes": 56,
+   "bookmarks": 10,
+   "views": 6262,
+   "metricsCheckedAt": "2026-11-13T02:06:26+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/petergyang/status/2119901658394358005",
+   "likes": 138,
+   "bookmarks": 87,
+   "views": 32504,
+   "metricsCheckedAt": "2026-11-13T02:06:26+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/geneohms/status/2119910054413685102",
+   "likes": 1,
+   "bookmarks": 0,
+   "views": 860,
+   "metricsCheckedAt": "2026-11-13T02:06:26+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/TekonBurns/status/2119900328212713872",
+   "likes": 31,
+   "bookmarks": 4,
+   "views": 978,
+   "metricsCheckedAt": "2026-11-13T02:06:26+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/internetphysics/status/2119903808935313778",
+   "likes": 391,
+   "bookmarks": 130,
+   "views": 66174,
+   "metricsCheckedAt": "2026-11-13T02:06:26+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/aug5thmusic/status/2119907891419480107",
+   "likes": 128,
+   "bookmarks": 63,
+   "views": 11453,
+   "metricsCheckedAt": "2026-11-13T02:06:26+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/AmirMushich/status/2119903338078564844",
+   "likes": 236,
+   "bookmarks": 208,
+   "views": 78796,
+   "metricsCheckedAt": "2026-11-13T02:06:27+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/evrentkg/status/2119905501601272283",
+   "likes": 3,
+   "bookmarks": 1,
+   "views": 122,
+   "metricsCheckedAt": "2026-11-13T02:06:27+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/HolyGrail/status/2120016334679609690",
+   "likes": 38,
+   "bookmarks": 10,
+   "views": 2640,
+   "metricsCheckedAt": "2026-11-13T02:06:27+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/niramayo2096/status/2120007289071640613",
+   "likes": 6,
+   "bookmarks": 1,
+   "views": 373,
+   "metricsCheckedAt": "2026-11-13T02:06:27+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/tankazunori0914/status/2120012834461646927",
+   "likes": 5,
+   "bookmarks": 2,
+   "views": 443,
+   "metricsCheckedAt": "2026-11-13T02:06:27+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/mrdejie/status/2120010028073771323",
+   "likes": 201,
+   "bookmarks": 4,
+   "views": 34479,
+   "metricsCheckedAt": "2026-11-13T02:06:27+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/j_h_h_3/status/2120008924204310895",
+   "likes": 45,
+   "bookmarks": 53,
+   "views": 5927,
+   "metricsCheckedAt": "2026-11-13T02:06:27+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/jarrodwatts/status/2120030097004777937",
+   "likes": 156,
+   "bookmarks": 22,
+   "views": 11178,
+   "metricsCheckedAt": "2026-11-13T02:06:28+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/MatthewBerman/status/2119868633086378471",
+   "likes": 100,
+   "bookmarks": 63,
+   "views": 8021,
+   "metricsCheckedAt": "2026-11-13T02:06:28+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/Rasmic/status/2119919466163093768",
+   "likes": 246,
+   "bookmarks": 74,
+   "views": 11927,
+   "metricsCheckedAt": "2026-11-13T02:06:28+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/linxiaobei888/status/2119978892861829227",
+   "likes": 158,
+   "bookmarks": 187,
+   "views": 80987,
+   "metricsCheckedAt": "2026-11-13T02:06:28+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/DeryaTR_/status/2119974354260013293",
+   "likes": 281,
+   "bookmarks": 81,
+   "views": 16745,
+   "metricsCheckedAt": "2026-11-13T02:06:28+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/BlendiByl/status/2120341251178594532",
+   "likes": 7824,
+   "bookmarks": 4157,
+   "views": 412351,
+   "metricsCheckedAt": "2026-11-13T02:06:29+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/chetaslua/status/2120438091647218025",
+   "likes": 346,
+   "bookmarks": 90,
+   "views": 14436,
+   "metricsCheckedAt": "2026-11-13T02:06:29+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/Izkimar/status/2119931740940640542",
+   "likes": 363,
+   "bookmarks": 180,
+   "views": 22138,
+   "metricsCheckedAt": "2026-11-13T02:06:29+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/petergostev/status/2119877733488394520",
+   "likes": 2912,
+   "bookmarks": 889,
+   "views": 476219,
+   "metricsCheckedAt": "2026-11-13T02:06:29+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/other__reality/status/2119885430627913784",
+   "likes": 214,
+   "bookmarks": 92,
+   "views": 13566,
+   "metricsCheckedAt": "2026-11-13T02:06:29+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/higgsfield_ai/status/2120003817584361926",
+   "likes": 39,
+   "bookmarks": 11,
+   "views": 10490,
+   "metricsCheckedAt": "2026-11-13T02:06:29+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/mimi10v3/status/2120896377337360598",
+   "likes": 24,
+   "bookmarks": 6,
+   "views": 728,
+   "metricsCheckedAt": "2026-11-13T02:06:29+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/keiru_ai/status/2120896365828173898",
+   "likes": 4,
+   "bookmarks": 0,
+   "views": 224,
+   "metricsCheckedAt": "2026-11-13T02:06:29+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/yulafezmem/status/2120895857101029643",
+   "likes": 5,
+   "bookmarks": 0,
+   "views": 147,
+   "metricsCheckedAt": "2026-11-13T02:06:30+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/ujjexe/status/2120891575756861689",
+   "likes": 4,
+   "bookmarks": 0,
+   "views": 190,
+   "metricsCheckedAt": "2026-11-13T02:06:30+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/RohithThakurwar/status/2120882741529235921",
+   "likes": 0,
+   "bookmarks": 0,
+   "views": 19,
+   "metricsCheckedAt": "2026-11-13T02:06:30+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/literallydenis/status/2120866958790848953",
+   "likes": 492,
+   "bookmarks": 271,
+   "views": 33202,
+   "metricsCheckedAt": "2026-11-13T02:06:30+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/benchuchu/status/2120867905537736783",
+   "likes": 50,
+   "bookmarks": 3,
+   "views": 1664,
+   "metricsCheckedAt": "2026-11-13T02:06:30+00:00"
+  },
+  {
+   "sourceUrl": "https://x.com/nataliexbz/status/2120875576701403387",
+   "likes": 34,
+   "bookmarks": 20,
+   "views": 958,
+   "metricsCheckedAt": "2026-11-13T02:06:30+00:00"
+  }
+ ]
+}

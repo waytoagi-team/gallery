@@ -21,7 +21,8 @@
     },
     "githubKind": "repository",
     "stars": 1,
-    "metricsCheckedAt": "2026-11-12T05:33:41+00:00"
+    "metricsCheckedAt": "2026-11-13T02:06:31+00:00",
+    "metricsSourceUrl": "https://api.github.com/repos/s77ffy/daedalus"
   },
   {
     "id": "fable52-dustfall",
@@ -44,8 +45,9 @@
       "role": "游戏实现"
     },
     "githubKind": "repository",
-    "stars": 2,
-    "metricsCheckedAt": "2026-11-12T05:33:41+00:00"
+    "stars": 3,
+    "metricsCheckedAt": "2026-11-13T02:06:32+00:00",
+    "metricsSourceUrl": "https://api.github.com/repos/webking021/dustfall"
   },
   {
     "id": "fable52-chess",
@@ -69,7 +71,8 @@
     },
     "githubKind": "repository",
     "stars": 0,
-    "metricsCheckedAt": "2026-11-12T05:33:41+00:00"
+    "metricsCheckedAt": "2026-11-13T02:06:31+00:00",
+    "metricsSourceUrl": "https://api.github.com/repos/davidramsay95/claude-chess_fable_5-2_20261110"
   },
   {
     "id": "fable52-gh-basemazab-tuktuk",
@@ -93,7 +96,8 @@
     },
     "githubKind": "repository",
     "stars": 0,
-    "metricsCheckedAt": "2026-11-12T05:33:41+00:00"
+    "metricsCheckedAt": "2026-11-13T02:06:30+00:00",
+    "metricsSourceUrl": "https://api.github.com/repos/basemazab/tuktuk"
   },
   {
     "id": "fable52-gh-jiaaqiliu-xuanji-x1",
@@ -141,6 +145,214 @@
     },
     "githubKind": "repository",
     "stars": 0,
-    "metricsCheckedAt": "2026-11-12T05:33:41+00:00"
+    "metricsCheckedAt": "2026-11-13T02:06:31+00:00",
+    "metricsSourceUrl": "https://api.github.com/repos/mdchia/fable-moonward"
+  },
+  {
+    "id": "fable52-gh-rylaa-orchestrator",
+    "title": "Fable Orchestrator：Fable 5.2 主脑 + Opus/Sonnet 分工编排插件",
+    "title_en": "Fable Orchestrator: Fable 5.2 chair routing to Opus & Sonnet workers",
+    "summary": "开源 Claude Code 插件，将昂贵的 Fable 5.2 锁定在规划与决策位（effort 上限 high），把批量机械活分发给 Sonnet 5.5，把迁移与安全审查分发给 Opus 5.5。",
+    "summary_en": "Open-source Claude Code plugin keeping Fable 5.2 on planning and decisions while dispatching volume to Sonnet 5.5 and critical slices to Opus 5.5.",
+    "category": "agents",
+    "platform": "GitHub",
+    "sourceUrl": "https://github.com/Rylaa/fable5.2-opus5.5-orchestrator",
+    "author": "Rylaa",
+    "date": "2026-11-11",
+    "evidenceType": "集成",
+    "checkedAt": "2026-11-13T02:25:00+00:00",
+    "evidenceUrl": "https://github.com/Rylaa/fable5.2-opus5.5-orchestrator",
+    "evidenceBasis": "已读取 GitHub 仓库 API 元数据、README 与提交历史，正文明确写出 Fable 5.2 或 claude-fable-5-2 及具体工程分工；星标为仓库真实数据（非仓库条目不含星标）。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "主控编排与架构决策位"
+    },
+    "githubKind": "repository",
+    "stars": 82,
+    "metricsCheckedAt": "2026-11-13T02:25:00+00:00",
+    "metricsSourceUrl": "https://api.github.com/repos/Rylaa/fable5.2-opus5.5-orchestrator"
+  },
+  {
+    "id": "fable52-gh-wquguru-fps-repro",
+    "title": "fable52-fps-repro：4 个单文件 3D FPS 复现实验与真实账单公开",
+    "title_en": "fable52-fps-repro: 4 single-file 3D FPS repros with prompts & API billing",
+    "summary": "受 Saltline 启发，作者使用 Fable 5.2 跑通 4 个纯代码单文件 3D 射击游戏复现，完整公开源码、提示词、运行脚本、GitHub Pages 试玩与真实 API 账单记录。",
+    "summary_en": "Four single-file 3D FPS reproductions generated with Fable 5.2 inspired by Saltline, publishing playable pages, prompts, scripts and cost records.",
+    "category": "games",
+    "platform": "GitHub",
+    "sourceUrl": "https://github.com/wquguru/fable52-fps-repro",
+    "author": "wquguru",
+    "date": "2026-11-11",
+    "evidenceType": "评测",
+    "checkedAt": "2026-11-13T02:25:00+00:00",
+    "evidenceUrl": "https://github.com/wquguru/fable52-fps-repro",
+    "evidenceBasis": "已读取 GitHub 仓库 API 元数据、README 与提交历史，正文明确写出 Fable 5.2 或 claude-fable-5-2 及具体工程分工；星标为仓库真实数据（非仓库条目不含星标）。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "独立单文件 3D 游戏代码与资产生成"
+    },
+    "githubKind": "repository",
+    "stars": 78,
+    "metricsCheckedAt": "2026-11-13T02:25:00+00:00",
+    "metricsSourceUrl": "https://api.github.com/repos/wquguru/fable52-fps-repro",
+    "resources": [
+      {
+        "label": "在线试玩与账单汇总页",
+        "label_en": "GitHub Pages demos",
+        "url": "https://wquguru.github.io/fable52-fps-repro/"
+      }
+    ]
+  },
+  {
+    "id": "fable52-gh-sktjgudals-prompting",
+    "title": "fable-5-2-prompting：针对 Fable 5.2 的 CLAUDE.md 与提示词审计技能",
+    "title_en": "fable-5-2-prompting: agent skill for auditing Fable 5.2 prompts & harnesses",
+    "summary": "依据 Anthropic 官方 Fable 5.2 提示工程指南编写的非官方技能，用于自动化检查与调优现有项目中的 CLAUDE.md、技能配置与代理护栏。",
+    "summary_en": "Unofficial agent skill based on Anthropic's Fable 5.2 prompting guide for auditing prompts, CLAUDE.md files and harnesses.",
+    "category": "coding",
+    "platform": "GitHub",
+    "sourceUrl": "https://github.com/sktjgudals/fable-5-2-prompting",
+    "author": "sktjgudals",
+    "date": "2026-11-12",
+    "evidenceType": "教程",
+    "checkedAt": "2026-11-13T02:25:00+00:00",
+    "evidenceUrl": "https://github.com/sktjgudals/fable-5-2-prompting",
+    "evidenceBasis": "已读取 GitHub 仓库 API 元数据、README 与提交历史，正文明确写出 Fable 5.2 或 claude-fable-5-2 及具体工程分工；星标为仓库真实数据（非仓库条目不含星标）。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "提示工程与护栏调优对象"
+    },
+    "githubKind": "repository",
+    "stars": 11,
+    "metricsCheckedAt": "2026-11-13T02:25:00+00:00",
+    "metricsSourceUrl": "https://api.github.com/repos/sktjgudals/fable-5-2-prompting"
+  },
+  {
+    "id": "fable52-gh-vadympetryshyn-effort-pilot",
+    "title": "Effort Pilot：按回合自动切换 Fable 5.2/Opus 推理强度的插件",
+    "title_en": "Effort Pilot: per-turn reasoning effort router for Fable 5.2 & Opus",
+    "summary": "Claude Code 插件，按任务自动分配 high/medium/low 推理深度，并支持自然语言按句切换如“Fable 5.2 high 规划、Opus medium 实现”，以降低 token 耗费。",
+    "summary_en": "Claude Code plugin routing reasoning effort per turn and supporting natural-language switching such as planning on Fable 5.2 high and building on Opus.",
+    "category": "agents",
+    "platform": "GitHub",
+    "sourceUrl": "https://github.com/vadympetryshyn/effort-pilot",
+    "author": "vadympetryshyn",
+    "date": "2026-11-12",
+    "evidenceType": "集成",
+    "checkedAt": "2026-11-13T02:25:00+00:00",
+    "evidenceUrl": "https://github.com/vadympetryshyn/effort-pilot",
+    "evidenceBasis": "已读取 GitHub 仓库 API 元数据、README 与提交历史，正文明确写出 Fable 5.2 或 claude-fable-5-2 及具体工程分工；星标为仓库真实数据（非仓库条目不含星标）。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "支持自然语言路由与 effort 调度的高阶规划模型"
+    },
+    "githubKind": "repository",
+    "stars": 9,
+    "metricsCheckedAt": "2026-11-13T02:25:00+00:00",
+    "metricsSourceUrl": "https://api.github.com/repos/vadympetryshyn/effort-pilot"
+  },
+  {
+    "id": "fable52-gh-bhavya-gx-fable-vfx",
+    "title": "fable-vfx：本地可运行的口播视频特效 Claude 技能",
+    "title_en": "fable-vfx: config-driven Claude skill for talking-head VFX",
+    "summary": "将 Fable 5.2 发布片中的“人头后置字幕、响指变海洋、掌心落星与本地合成音效”封装为配置驱动的开源 Claude 技能，全流程本地运行。",
+    "summary_en": "Turns the effects from Fable 5.2's talking-head launch video (title behind head, ocean snap, 3D props on palms, local SFX) into a reusable local skill.",
+    "category": "video",
+    "platform": "GitHub",
+    "sourceUrl": "https://github.com/bhavya-gx/fable-vfx",
+    "author": "bhavya-gx",
+    "date": "2026-11-11",
+    "evidenceType": "教程",
+    "checkedAt": "2026-11-13T02:25:00+00:00",
+    "evidenceUrl": "https://github.com/bhavya-gx/fable-vfx",
+    "evidenceBasis": "已读取 GitHub 仓库 API 元数据、README 与提交历史，正文明确写出 Fable 5.2 或 claude-fable-5-2 及具体工程分工；星标为仓库真实数据（非仓库条目不含星标）。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "复刻发布片特效管道的技能模板来源"
+    },
+    "githubKind": "repository",
+    "stars": 8,
+    "metricsCheckedAt": "2026-11-13T02:25:00+00:00",
+    "metricsSourceUrl": "https://api.github.com/repos/bhavya-gx/fable-vfx"
+  },
+  {
+    "id": "fable52-gh-prokopiy-gta-effort",
+    "title": "六档推理深度对照：Fable 5.2 用 Godot + Blender MCP 写开放世界沙盒",
+    "title_en": "Six-effort-level GTA sandbox benchmark in Godot 4.7 + Blender MCP",
+    "summary": "同一任务分别在 Low、Medium、High、Extra、Max、Ultracode 六档下让 Fable 5.2 独立使用 Blender MCP 造资产并在 Godot 4.7 中做开放世界游戏，公开提示词、报告与 .exe 编译产物。",
+    "summary_en": "Runs the exact same Godot 4.7 + Blender MCP open-world game prompt across all 6 Fable 5.2 effort levels, publishing standalone builds, logs and reports.",
+    "category": "games",
+    "platform": "GitHub",
+    "sourceUrl": "https://github.com/Prokopiy8247/Fable5-2-Effort-Test-GTA",
+    "author": "Prokopiy8247",
+    "date": "2026-11-11",
+    "evidenceType": "评测",
+    "checkedAt": "2026-11-13T02:25:00+00:00",
+    "evidenceUrl": "https://github.com/Prokopiy8247/Fable5-2-Effort-Test-GTA",
+    "evidenceBasis": "已读取 GitHub 仓库 API 元数据、README 与提交历史，正文明确写出 Fable 5.2 或 claude-fable-5-2 及具体工程分工；星标为仓库真实数据（非仓库条目不含星标）。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "全六档推理深度下的自主 3D 游戏开发对照主体"
+    },
+    "githubKind": "repository",
+    "stars": 6,
+    "metricsCheckedAt": "2026-11-13T02:25:00+00:00",
+    "metricsSourceUrl": "https://api.github.com/repos/Prokopiy8247/Fable5-2-Effort-Test-GTA"
+  },
+  {
+    "id": "fable52-gh-selmakcby-ajan-takimi",
+    "title": "土耳其语三模型团队实战：Fable 5.2 领队 + Opus 开发 + Sonnet 测试",
+    "title_en": "Turkish 3-model agent team (Fable 5.2 lead, Opus dev, Sonnet QA)",
+    "summary": "对比视频配套仓库，公开 Fable 5.2 任架构队长、Opus 5.5 写业务代码、Sonnet 5.5 跑测试的配置方案及该团队实测产出的完整示例 Web 应用。",
+    "summary_en": "Turkish Claude Code 3-model team setup assigning Fable 5.2 as team lead, Opus 5.5 as developer and Sonnet 5.5 as tester, plus the generated app.",
+    "category": "agents",
+    "platform": "GitHub",
+    "sourceUrl": "https://github.com/selmakcby/fable-ajan-takimi",
+    "author": "selmakcby",
+    "date": "2026-11-11",
+    "evidenceType": "演示",
+    "checkedAt": "2026-11-13T02:25:00+00:00",
+    "evidenceUrl": "https://github.com/selmakcby/fable-ajan-takimi",
+    "evidenceBasis": "已读取 GitHub 仓库 API 元数据、README 与提交历史，正文明确写出 Fable 5.2 或 claude-fable-5-2 及具体工程分工；星标为仓库真实数据（非仓库条目不含星标）。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "多模型智能体团队队长与终审角色"
+    },
+    "githubKind": "repository",
+    "stars": 3,
+    "metricsCheckedAt": "2026-11-13T02:25:00+00:00",
+    "metricsSourceUrl": "https://api.github.com/repos/selmakcby/fable-ajan-takimi"
+  },
+  {
+    "id": "fable52-gh-claude-code-issue-108898",
+    "title": "Claude Code Issue #108898：/model 选单遗漏 claude-fable-5-2（仅手动输入可用）",
+    "title_en": "Claude Code Issue #108898: claude-fable-5-2 missing from /model picker",
+    "summary": "开发者在 Claude Code v2.1.322（macOS/Ghostty）提交 Bug 报告：`/model` 列表界面中看不到 Fable 5.2，必须手动执行 `/model claude-fable-5-2` 才能启用。",
+    "summary_en": "Bug report in Claude Code v2.1.322 showing claude-fable-5-2 absent from the interactive /model list despite working when manually specified.",
+    "category": "coding",
+    "platform": "GitHub",
+    "sourceUrl": "https://github.com/anthropics/claude-code/issues/108898",
+    "author": "sid150",
+    "date": "2026-11-10",
+    "evidenceType": "限制",
+    "checkedAt": "2026-11-13T02:25:00+00:00",
+    "evidenceUrl": "https://github.com/anthropics/claude-code/issues/108898",
+    "evidenceBasis": "已读取 anthropics/claude-code 公开 Issue #108898 正文与环境版本信息（v2.1.322）；按规范不继承主仓库星标。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "CLI 模型选择器兼容性问题对象"
+    },
+    "githubKind": "issue",
+    "comments": 0,
+    "metricsCheckedAt": "2026-11-13T02:25:00+00:00",
+    "metricsSourceUrl": "https://api.github.com/repos/anthropics/claude-code/issues/108898"
   }
 ]

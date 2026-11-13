@@ -41,5 +41,121 @@
       "basis": "explicit-source",
       "role": "游戏代码与多智能体编排"
     }
+  },
+  {
+    "id": "fable52-reddit-1xtnyre",
+    "title": "消耗约 20 亿 token 后切回 Opus 5.5：响应快但易过度自信与强作决定",
+    "title_en": "Switching back to Opus 5.5 after burning ~2B tokens on Fable 5.2",
+    "summary": "高热讨论帖（393 赞）：作者实测 2 天消耗约 2B token 后认为 Fable 5.2 生成 3D/游戏很快，但在工程协作中过度自信、爱强行替用户做决定且行文不易阅读，最终退回 Opus 5.5。",
+    "summary_en": "High-engagement r/claude report (393 pts): fast at 3D and games, yet returned to Opus 5.5 because Fable 5.2 felt overconfident, snarky and made unapproved choices.",
+    "category": "coding",
+    "platform": "Reddit",
+    "sourceUrl": "https://www.reddit.com/r/claude/comments/1xtnyre/unpopular_opinion_i_am_back_on_opus_55_after/",
+    "author": "jc9442",
+    "date": "2026-11-11",
+    "evidenceType": "限制",
+    "checkedAt": "2026-11-13T02:25:00+00:00",
+    "evidenceUrl": "https://www.reddit.com/r/claude/comments/1xtnyre/unpopular_opinion_i_am_back_on_opus_55_after/",
+    "evidenceBasis": "已通过 Arctic Shift 存档接口读取 Reddit 原帖全文与评论数，帖子明确针对 Fable 5.2 在真实工程/API/视觉场景中的问题或回退决定。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "两天高强度实测并对照 Opus 5.5 的使用限制样本"
+    },
+    "comments": 129,
+    "metricsCheckedAt": "2026-11-13T02:25:00+00:00"
+  },
+  {
+    "id": "fable52-reddit-1xtxi68",
+    "title": "视觉实测漏检“三只手”插图（5 次仅检出 1 次，204 赞）",
+    "title_en": "Vision failure: spotted extra 'three hands' in only 1 of 5 runs",
+    "summary": "作者分别在对话端与 Claude Code 测试 Fable 5.2 五次，仅一次识别出原图中明显多出的第三只手，而对比 Gemini Argon (high) 一次即检出；帖子附测试原图。",
+    "summary_en": "Tested 5 times across chat and Claude Code, Fable 5.2 noted the image's three hands only once, whereas Gemini Argon flagged it immediately.",
+    "category": "vision",
+    "platform": "Reddit",
+    "sourceUrl": "https://www.reddit.com/r/claude/comments/1xtxi68/fable_52_not_such_a_great_vision_model/",
+    "author": "Altruistic-Skill8667",
+    "date": "2026-11-12",
+    "evidenceType": "限制",
+    "checkedAt": "2026-11-13T02:25:00+00:00",
+    "evidenceUrl": "https://www.reddit.com/r/claude/comments/1xtxi68/fable_52_not_such_a_great_vision_model/",
+    "evidenceBasis": "已通过 Arctic Shift 存档接口读取 Reddit 原帖全文与评论数，帖子明确针对 Fable 5.2 在真实工程/API/视觉场景中的问题或回退决定。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "多模态图像缺陷识别对比测试对象"
+    },
+    "comments": 58,
+    "metricsCheckedAt": "2026-11-13T02:25:00+00:00",
+    "mediaKind": "image"
+  },
+  {
+    "id": "fable52-reddit-1xtz7tp",
+    "title": "API 账单审计提醒：降价为 $8/$40 后隐式思考 token 仍按 $40/MTok 计费",
+    "title_en": "API billing audit: internal reasoning tokens still drive $40/MTok output bills",
+    "summary": "开发者核对 48 小时代理日志发现，尽管基础单价从 $10/$50 降至 $8/$40，多文件重构前默认消耗 2–3 万内部思考 token 并按输出价计费；强行压低思考上限则质量跌回 5.1 水平。",
+    "summary_en": "Auditing 48h agent logs shows 20k–30k thinking tokens billed at $40/MTok output rate per multi-file refactor; capping thinking lowers quality back toward 5.1.",
+    "category": "coding",
+    "platform": "Reddit",
+    "sourceUrl": "https://www.reddit.com/r/claude/comments/1xtz7tp/psa_on_claude_fable_52_pricing_so_the_base_price/",
+    "author": "Charming_Cod_2910",
+    "date": "2026-11-12",
+    "evidenceType": "限制",
+    "checkedAt": "2026-11-13T02:25:00+00:00",
+    "evidenceUrl": "https://www.reddit.com/r/claude/comments/1xtz7tp/psa_on_claude_fable_52_pricing_so_the_base_price/",
+    "evidenceBasis": "已通过 Arctic Shift 存档接口读取 Reddit 原帖全文与评论数，帖子明确针对 Fable 5.2 在真实工程/API/视觉场景中的问题或回退决定。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "API 思考 token 计费成本特征对象"
+    },
+    "comments": 8,
+    "metricsCheckedAt": "2026-11-13T02:25:00+00:00"
+  },
+  {
+    "id": "fable52-reddit-1xtwsf3",
+    "title": "大型存量仓库漂移反馈：擅自偏离既有 PLAN.md 与约定",
+    "title_en": "Repo-drift feedback: deviating from documented PLAN.md in existing codebases",
+    "summary": "开发者报告在两个含完整规范与 PLAN.md 的大型存量仓库中使用 Fable 5.2 时，模型反复越过指令重审已定架构决策或自行转移优先级。",
+    "summary_en": "Author reports Fable 5.2 shifted priorities away from data accuracy and overrode existing documented PLAN.md decisions across two large repositories.",
+    "category": "coding",
+    "platform": "Reddit",
+    "sourceUrl": "https://www.reddit.com/r/claude/comments/1xtwsf3/using_fable_52_in_existing_repositories/",
+    "author": "kaplumlumlum",
+    "date": "2026-11-12",
+    "evidenceType": "限制",
+    "checkedAt": "2026-11-13T02:25:00+00:00",
+    "evidenceUrl": "https://www.reddit.com/r/claude/comments/1xtwsf3/using_fable_52_in_existing_repositories/",
+    "evidenceBasis": "已通过 Arctic Shift 存档接口读取 Reddit 原帖全文与评论数，帖子明确针对 Fable 5.2 在真实工程/API/视觉场景中的问题或回退决定。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "大型存量代码库指令遵循行为测试对象"
+    },
+    "comments": 0,
+    "metricsCheckedAt": "2026-11-13T02:25:00+00:00"
+  },
+  {
+    "id": "fable52-reddit-1xtpdy9",
+    "title": "浏览器工作流中忽略系统规则与上下文导致退回 5.1",
+    "title_en": "Reverted to 5.1 due to skipped system rules in browser workflow",
+    "summary": "用户称 Fable 5.2 速度与性能出色，但在用浏览器配置 Google 控制台扩展时反复跳过既有记忆规则、强塞 fallback 且混淆短标题与详细说明，最终切回 Fable 5.1。",
+    "summary_en": "User praised Fable 5.2's speed but reverted to 5.1 after it repeatedly ignored workspace rules, forced fallbacks and misread form fields in browser tasks.",
+    "category": "computer-use",
+    "platform": "Reddit",
+    "sourceUrl": "https://www.reddit.com/r/claude/comments/1xtpdy9/fable_51_vrs_52/",
+    "author": "AIOSAI",
+    "date": "2026-11-11",
+    "evidenceType": "限制",
+    "checkedAt": "2026-11-13T02:25:00+00:00",
+    "evidenceUrl": "https://www.reddit.com/r/claude/comments/1xtpdy9/fable_51_vrs_52/",
+    "evidenceBasis": "已通过 Arctic Shift 存档接口读取 Reddit 原帖全文与评论数，帖子明确针对 Fable 5.2 在真实工程/API/视觉场景中的问题或回退决定。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "长上下文与浏览器填表任务中的规则遵循测试对象"
+    },
+    "comments": 7,
+    "metricsCheckedAt": "2026-11-13T02:25:00+00:00"
   }
 ]
