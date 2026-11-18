@@ -1,0 +1,148 @@
+{
+  "cases": [
+    {
+      "id": "gpt62-gpt62-oneshot-bench",
+      "sourceUrl": "https://github.com/techkwon/gpt62-oneshot-bench",
+      "title_en": "One-shot coding comparison",
+      "poster": "assets/case-posters/gpt62-oneshot-bench.webp",
+      "mediaKind": "image",
+      "posterEvidence": {
+        "sourcePage": "https://github.com/techkwon/gpt62-oneshot-bench/blob/dce6895e6a7fc09e566b3d86b113c1893f18de41/assets/posters/colosseum-astra.jpg",
+        "imageUrl": "https://raw.githubusercontent.com/techkwon/gpt62-oneshot-bench/dce6895e6a7fc09e566b3d86b113c1893f18de41/assets/posters/colosseum-astra.jpg",
+        "reviewStatus": "accepted",
+        "method": "original repository image resized for the card",
+        "relation": "Astra 罗马斗兽场作品封面",
+        "width": 800,
+        "height": 500,
+        "imageSha256": "025ac4eed4f54f937abdf072cc9dfe672b6c89eda033e9a882003ab4e71bc7e5",
+        "checkedAt": "2026-11-18T07:50:23+00:00"
+      }
+    },
+    {
+      "id": "gpt62-ai-game-duel",
+      "sourceUrl": "https://github.com/jambocoder159/ai-game-duel",
+      "title_en": "Two rounds of browser game design",
+      "poster": "assets/case-posters/ai-game-duel.webp",
+      "mediaKind": "image",
+      "posterEvidence": {
+        "sourcePage": "https://github.com/jambocoder159/ai-game-duel/blob/f84683a6d27baa53b4fc2ddf8a6ea1d24ecf4916/versions/r2-astra/poster.webp",
+        "imageUrl": "https://raw.githubusercontent.com/jambocoder159/ai-game-duel/f84683a6d27baa53b4fc2ddf8a6ea1d24ecf4916/versions/r2-astra/poster.webp",
+        "reviewStatus": "accepted",
+        "method": "original repository image resized for the card",
+        "relation": "第二轮 Astra 天灯游戏海报",
+        "width": 506,
+        "height": 900,
+        "imageSha256": "21acb02adda788c634ae299fb8cb1cfbc67fd3d5dc42ec04703b4b93b5dda51a",
+        "checkedAt": "2026-11-18T07:50:29+00:00"
+      }
+    },
+    {
+      "id": "gpt62-apis-mechanica",
+      "sourceUrl": "https://github.com/LongHuynh-vn/apis-mechanica",
+      "title_en": "An articulated mechanical honeybee",
+      "poster": "assets/case-posters/apis-mechanica.webp",
+      "mediaKind": "image",
+      "posterEvidence": {
+        "sourcePage": "https://github.com/LongHuynh-vn/apis-mechanica/blob/13fe2eeb09463d5d004596a0a2ab662ff7f6a0c6/GPT-6.2%20Astra/preview.png",
+        "imageUrl": "https://raw.githubusercontent.com/LongHuynh-vn/apis-mechanica/13fe2eeb09463d5d004596a0a2ab662ff7f6a0c6/GPT-6.2%20Astra/preview.png",
+        "reviewStatus": "accepted",
+        "method": "original repository image resized for the card",
+        "relation": "机械蜜蜂 Astra 版本预览",
+        "width": 1200,
+        "height": 675,
+        "imageSha256": "66f44eba2fc210dd346f1f53bc7f84f1a4d11daa29e54ed00a05bc5985f5ce9d",
+        "checkedAt": "2026-11-18T07:50:24+00:00"
+      }
+    },
+    {
+      "id": "gpt62-imersao-jarvis-3d",
+      "sourceUrl": "https://github.com/inematds/imersao-jarvis-3d",
+      "title_en": "Assemble Jarvis in a 3D hangar",
+      "poster": "assets/case-posters/imersao-jarvis-3d.webp",
+      "mediaKind": "image",
+      "posterEvidence": {
+        "sourcePage": "https://github.com/inematds/imersao-jarvis-3d/blob/ac51f39ec674a0714ee0515c587f998f12b08466/processo/revisoes/capturas-final/02-hangar.png",
+        "imageUrl": "https://raw.githubusercontent.com/inematds/imersao-jarvis-3d/ac51f39ec674a0714ee0515c587f998f12b08466/processo/revisoes/capturas-final/02-hangar.png",
+        "reviewStatus": "accepted",
+        "method": "original repository image resized for the card",
+        "relation": "作者最终验收截图中的互动机库",
+        "width": 1200,
+        "height": 750,
+        "imageSha256": "08017b8aa62299e95e4fe2db0e7361bca49988df82102a778941fc6d97c0c9e4",
+        "checkedAt": "2026-11-18T07:50:23+00:00"
+      }
+    },
+    {
+      "id": "gpt62-blackburn-flight",
+      "sourceUrl": "https://github.com/Dun4ev/blackburn-flight",
+      "title_en": "Fly the 1912 Blackburn Type D",
+      "poster": "assets/case-posters/blackburn-flight.webp",
+      "mediaKind": "image",
+      "posterEvidence": {
+        "sourcePage": "https://github.com/Dun4ev/blackburn-flight/blob/1f3bb50853300f4663af8727286b3cae301250c7/assets/flight-preview.jpg",
+        "imageUrl": "https://raw.githubusercontent.com/Dun4ev/blackburn-flight/1f3bb50853300f4663af8727286b3cae301250c7/assets/flight-preview.jpg",
+        "reviewStatus": "accepted",
+        "method": "original repository image resized for the card",
+        "relation": "作者在说明中展示的飞行模拟截图",
+        "width": 1200,
+        "height": 630,
+        "imageSha256": "b08b71f5b675cdf182a0477d9cd76fdf8f45cbe7ef7dad63a8c763fef603d4c4",
+        "checkedAt": "2026-11-18T07:50:23+00:00"
+      }
+    },
+    {
+      "id": "gpt62-flying-anglia",
+      "sourceUrl": "https://github.com/baturyilmaz/flying-anglia",
+      "title_en": "Chase a train with tilt controls",
+      "poster": "assets/case-posters/flying-anglia.webp",
+      "mediaKind": "image",
+      "posterEvidence": {
+        "sourcePage": "https://github.com/baturyilmaz/flying-anglia/blob/6c932e368a9a7e9d139d2f8a3f4212b2de2db1a6/docs/screenshots/chase.png",
+        "imageUrl": "https://raw.githubusercontent.com/baturyilmaz/flying-anglia/6c932e368a9a7e9d139d2f8a3f4212b2de2db1a6/docs/screenshots/chase.png",
+        "reviewStatus": "accepted",
+        "method": "original repository image resized for the card",
+        "relation": "手持设备游戏追车画面",
+        "width": 410,
+        "height": 502,
+        "imageSha256": "2252e86f20cf49b16cf1cde73e0f2615520aeb5c474b402422849bbb1dfe3fbb",
+        "checkedAt": "2026-11-18T07:50:23+00:00"
+      }
+    },
+    {
+      "id": "gpt62-wallpaper-for-gundam-unicorn-pilot-screen",
+      "sourceUrl": "https://github.com/JustinMars999/wallpaper-for-gundam-unicorn-pilot-screen",
+      "title_en": "An animated cockpit wallpaper",
+      "poster": "assets/case-posters/wallpaper-for-gundam-unicorn-pilot-screen.webp",
+      "mediaKind": "image",
+      "posterEvidence": {
+        "sourcePage": "https://github.com/JustinMars999/wallpaper-for-gundam-unicorn-pilot-screen/blob/ac0f62b573584b79df21968437686120a6ca9a2d/docs/preview.jpg",
+        "imageUrl": "https://raw.githubusercontent.com/JustinMars999/wallpaper-for-gundam-unicorn-pilot-screen/ac0f62b573584b79df21968437686120a6ca9a2d/docs/preview.jpg",
+        "reviewStatus": "accepted",
+        "method": "original repository image resized for the card",
+        "relation": "作者发布的驾驶舱壁纸预览",
+        "width": 960,
+        "height": 540,
+        "imageSha256": "833e1f788e475f7b1ab74df84e601cf4a4390c278466217bf64e95fe57337f19",
+        "checkedAt": "2026-11-18T07:50:24+00:00"
+      }
+    },
+    {
+      "id": "gpt62-weight-space-programming-experiment",
+      "sourceUrl": "https://github.com/dylanler/weight-space-programming-experiment",
+      "title_en": "Testing weight edits with SVG tasks",
+      "poster": "assets/case-posters/weight-space-programming-experiment.webp",
+      "mediaKind": "image",
+      "posterEvidence": {
+        "sourcePage": "https://github.com/dylanler/weight-space-programming-experiment/blob/9c6a8ab8e62ab3c3f3e287e578c0f44dd836c9b2/blog/img/examples.png",
+        "imageUrl": "https://raw.githubusercontent.com/dylanler/weight-space-programming-experiment/9c6a8ab8e62ab3c3f3e287e578c0f44dd836c9b2/blog/img/examples.png",
+        "reviewStatus": "accepted",
+        "method": "original repository image resized for the card",
+        "relation": "作者展示 SVG 权重编辑结果的对照图",
+        "width": 1200,
+        "height": 900,
+        "imageSha256": "d016767f9681c9954d487bc3ec592f784a8e33fde8ace21d72ed1a6464e7a442",
+        "checkedAt": "2026-11-18T07:50:24+00:00"
+      }
+    }
+  ]
+}
