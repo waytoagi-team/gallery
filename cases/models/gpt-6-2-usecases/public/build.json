@@ -5,16 +5,16 @@
   "caseCount": 10,
   "files": {
     "assets/case-posters/ai-game-duel.webp": "21acb02adda788c634ae299fb8cb1cfbc67fd3d5dc42ec04703b4b93b5dda51a",
-    "assets/case-posters/apis-mechanica.webp": "66f44eba2fc210dd346f1f53bc7f84f1a4d11daa29e54ed00a05bc5985f5ce9d",
     "assets/case-posters/blackburn-flight.webp": "b08b71f5b675cdf182a0477d9cd76fdf8f45cbe7ef7dad63a8c763fef603d4c4",
     "assets/case-posters/flying-anglia.webp": "2252e86f20cf49b16cf1cde73e0f2615520aeb5c474b402422849bbb1dfe3fbb",
     "assets/case-posters/gpt62-oneshot-bench.webp": "025ac4eed4f54f937abdf072cc9dfe672b6c89eda033e9a882003ab4e71bc7e5",
     "assets/case-posters/imersao-jarvis-3d.webp": "08017b8aa62299e95e4fe2db0e7361bca49988df82102a778941fc6d97c0c9e4",
+    "assets/case-posters/mechanical-bee.webp": "66f44eba2fc210dd346f1f53bc7f84f1a4d11daa29e54ed00a05bc5985f5ce9d",
     "assets/case-posters/wallpaper-for-gundam-unicorn-pilot-screen.webp": "833e1f788e475f7b1ab74df84e601cf4a4390c278466217bf64e95fe57337f19",
     "assets/case-posters/weight-space-programming-experiment.webp": "d016767f9681c9954d487bc3ec592f784a8e33fde8ace21d72ed1a6464e7a442",
     "assets/og-image.png": "700e6daa5e8ca1eb661ffdb41aace76b0aa46560ac821781e734a81376b9248d",
-    "data/all_cases.csv": "832bbfea2df060062904dc5f03547d35ff27b0bc1fa99bc61368890076117a38",
-    "data/all_cases.json": "59b29dbb848f81100bc8d0fd2a1cce18ee269a9ace28b47df6d0eee7d5c93e67",
-    "index.html": "7a1541778a36245b774c4766056f377d6291b6c58e53308bed603993f3b7d213"
+    "data/all_cases.csv": "8eb3d4b634c740d73b3d88f8deaeb2bb20b61605faa02b30867f9ecb8b705368",
+    "data/all_cases.json": "7872ada905bb889e51ab47e30e79db8c913f341c616befb8b8053ae38eedaadd",
+    "index.html": "157ec425fb08497a4e04674ba53286124715a255572bb93ba33837c6cce31b76"
   }
 }
