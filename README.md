@@ -12,6 +12,7 @@ Opus 5.5 与 Fable 5.2 使用同一套 `atlas/` 采集、校验和页面代码�
 
 | 专题 | 配置与数据 | 页面路径 |
 | --- | --- | --- |
+| GPT-6.2 Astra / Sol | [专题目录](cases/models/gpt-6-2-usecases/) | [/usecase-atlas/gpt6-2/](https://www.waytoagi.com/usecase-atlas/gpt6-2/) |
 | Claude Opus 5.5 | [专题目录](cases/models/claude-opus-5-5-usecases/) | `/usecase-atlas/opus5-5/` |
 | Fable 5.2 | [专题目录](cases/models/fable-5-2-usecases/) | `/usecase-atlas/fable5-2/`（189 条，160 张来源封面） |
 

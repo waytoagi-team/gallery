@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "topicId": "gpt-6-2",
+  "publicPath": "/usecase-atlas/gpt6-2/",
+  "caseCount": 10,
+  "files": {
+    "assets/og-image.png": "700e6daa5e8ca1eb661ffdb41aace76b0aa46560ac821781e734a81376b9248d",
+    "data/all_cases.csv": "c0dfaf337ab5ced6f4d715b7c76b140cfc6981f8eba32880d9420ff52c127c2c",
+    "data/all_cases.json": "7247e2675181b1047b8718f68439eb48e723a862c4a8279ca2eb9df26a66dc4b",
+    "index.html": "3ec779d9ce805b30a5fa86ea15abb0e1e8b243b58d8ce6afdd37545d3ffce40b"
+  }
+}

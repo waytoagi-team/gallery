@@ -1,0 +1,10 @@
+{
+  "refreshedAt": "2026-11-18T05:58:23+00:00",
+  "caseCount": 10,
+  "status": "partial-coverage",
+  "lastFullRefreshAt": null,
+  "scope": {
+    "zh": "首批收录，核对 GitHub 原仓库说明与 OpenAI 发布演示；作品效果由作者报告。",
+    "en": "Launch sample from repository READMEs and an OpenAI demo. Outcomes are author-reported."
+  }
+}

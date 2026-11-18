@@ -1,0 +1,23 @@
+[
+  {
+    "id": "gpt62-paper-lamp",
+    "title": "从建筑照片到可组装的纸灯",
+    "title_en": "From architecture photos to a paper lamp",
+    "summary": "OpenAI 团队以芝加哥 Marina City 的阳台为灵感，用 Astra 迭代 CAD 设计并生成纸灯定制网站，最后手工组装实物。",
+    "summary_en": "OpenAI used Astra to iterate a CAD design inspired by Marina City and generate a lamp-builder website. The team assembled the physical lamp by hand.",
+    "category": "3d",
+    "evidenceType": "演示",
+    "sourceUrl": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+    "author": "OpenAI",
+    "date": "2026-11-17",
+    "evidenceUrl": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+    "checkedAt": "2026-11-18T05:58:23+00:00",
+    "evidenceBasis": "OpenAI 团队以芝加哥 Marina City 的阳台为灵感，用 Astra 迭代 CAD 设计并生成纸灯定制网站，最后手工组装实物。",
+    "modelAttribution": {
+      "topicId": "gpt-6-2",
+      "basis": "explicit-source",
+      "role": "从建筑照片到可组装的纸灯"
+    },
+    "platform": "Web"
+  }
+]

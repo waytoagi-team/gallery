@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "monitor": {
+    "enabled": true,
+    "lookbackDays": 2
+  },
+  "attribution": {
+    "keywordMatchIsEvidence": false,
+    "requireOriginalSource": true,
+    "requireExplicitVersion": true,
+    "requireReviewMetadata": true
+  },
+  "id": "gpt-6-2",
+  "name": "GPT-6.2",
+  "shortName": "GPT-6.2",
+  "aliases": [
+    "GPT-6.2",
+    "GPT‑6.2",
+    "GPT 6.2"
+  ],
+  "publicPath": "/usecase-atlas/gpt6-2/",
+  "releasedAt": "2026-11-17",
+  "baseSource": null,
+  "guide": null,
+  "ogTemplate": null
+}

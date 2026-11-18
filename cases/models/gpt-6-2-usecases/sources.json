@@ -1,0 +1,50 @@
+[
+  {
+    "key": "github-repositories-1",
+    "url": "https://api.github.com/search/repositories?q=%22GPT-6.2%22&sort=updated&per_page=30",
+    "format": "json",
+    "platform": "GitHub",
+    "query": "GPT-6.2",
+    "coverage": "First page only; a keyword match is a candidate, not verified attribution."
+  },
+  {
+    "key": "hn-1",
+    "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22GPT-6.2%22&hitsPerPage=30",
+    "format": "json",
+    "platform": "Hacker News",
+    "query": "GPT-6.2",
+    "coverage": "First page only; a keyword match is a candidate, not verified attribution."
+  },
+  {
+    "key": "github-repositories-2",
+    "url": "https://api.github.com/search/repositories?q=%22GPT6.2%22&sort=updated&per_page=30",
+    "format": "json",
+    "platform": "GitHub",
+    "query": "GPT6.2",
+    "coverage": "First page only; a keyword match is a candidate, not verified attribution."
+  },
+  {
+    "key": "hn-2",
+    "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22GPT6.2%22&hitsPerPage=30",
+    "format": "json",
+    "platform": "Hacker News",
+    "query": "GPT6.2",
+    "coverage": "First page only; a keyword match is a candidate, not verified attribution."
+  },
+  {
+    "key": "github-repositories-3",
+    "url": "https://api.github.com/search/repositories?q=%22gpt-6.2-astra%22&sort=updated&per_page=30",
+    "format": "json",
+    "platform": "GitHub",
+    "query": "gpt-6.2-astra",
+    "coverage": "First page only; a keyword match is a candidate, not verified attribution."
+  },
+  {
+    "key": "hn-3",
+    "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22gpt-6.2-astra%22&hitsPerPage=30",
+    "format": "json",
+    "platform": "Hacker News",
+    "query": "gpt-6.2-astra",
+    "coverage": "First page only; a keyword match is a candidate, not verified attribution."
+  }
+]
