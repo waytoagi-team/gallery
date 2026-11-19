@@ -19,5 +19,27 @@
       "role": "从建筑照片到可组装的纸灯"
     },
     "platform": "Web"
+  },
+  {
+    "id": "gpt62-web-plotly-data-analytics",
+    "title": "Plotly：43 道数据分析任务测试",
+    "title_en": "Plotly: a 43-question data-analysis test",
+    "summary": "Plotly 在合成风电数据仓库中测试 GPT-6.2 Astra，报告答对 41/43 题、漏掉两项隐藏模式；同页记录 Sol 为 40/43。每个模型只跑一次，不能将一两分差距当作稳定结论。",
+    "summary_en": "Plotly tests GPT-6.2 Astra on a synthetic wind-energy warehouse, reporting 41/43 with two missed hidden patterns; Sol scores 40/43. Each model has one run, so small differences may reflect run variance.",
+    "category": "business",
+    "platform": "Web",
+    "sourceUrl": "https://plotly.com/blog/gpt-6-2-astra-plotly-data-analytics-bench",
+    "author": "Plotly",
+    "date": "2026-11-17",
+    "evidenceType": "评测",
+    "checkedAt": "2026-11-19T12:49:49+00:00",
+    "evidenceUrl": "https://plotly.com/blog/gpt-6-2-astra-plotly-data-analytics-bench",
+    "evidenceBasis": "Plotly 在合成风电数据仓库中测试 GPT-6.2 Astra，报告答对 41/43 题、漏掉两项隐藏模式；同页记录 Sol 为 40/43。每个模型只跑一次，不能将一两分差距当作稳定结论。",
+    "modelAttribution": {
+      "topicId": "gpt-6-2",
+      "basis": "explicit-source",
+      "role": "Plotly: a 43-question data-analysis test"
+    },
+    "mediaKind": "image"
   }
 ]

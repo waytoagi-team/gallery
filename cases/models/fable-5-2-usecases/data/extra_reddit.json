@@ -157,5 +157,176 @@
     },
     "comments": 7,
     "metricsCheckedAt": "2026-11-13T02:25:00+00:00"
+  },
+  {
+    "id": "fable52-reddit-1xxvbo6",
+    "title": "用户报告用量界面出现突发额度耗尽",
+    "title_en": "A reported quota-consumption anomaly",
+    "summary": "用户发布用量截图，报告 Fable 5.2 在界面仅显示短暂活动后触发五小时额度上限。记录的是用户观察，未独立复现或确认扣费原因。",
+    "summary_en": "A user posts a usage screenshot and reports hitting the five-hour cap after very little displayed activity. The cause and reproducibility are unverified.",
+    "category": "coding",
+    "platform": "Reddit",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xxvbo6/fable_52_used_my_entire_5hour_quota_while_only/",
+    "author": "DiamondPG1",
+    "date": "2026-11-16",
+    "evidenceType": "限制",
+    "checkedAt": "2026-11-19T12:46:52+00:00",
+    "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xxvbo6/fable_52_used_my_entire_5hour_quota_while_only/",
+    "evidenceBasis": "已通过 Arctic Shift 存档接口读取 Reddit 原帖全文与评论数，帖子明确针对 Fable 5.2 在真实工程/API/配额场景的表现。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "限额突发异常消耗告警"
+    },
+    "comments": 134,
+    "metricsCheckedAt": "2026-11-18T06:15:00+00:00",
+    "mediaKind": "image"
+  },
+  {
+    "id": "fable52-reddit-1xyphos",
+    "title": "用户记录模型对 automated reminder 的回应",
+    "title_en": "A user records a response about automated reminders",
+    "summary": "用户在 Fable 5.2 High 会话中记录模型提及 automated reminder 文本。此帖展示会话行为，不能据此确认隐藏系统内容或提示注入的来源。",
+    "summary_en": "A Fable 5.2 High user records the model referring to automated-reminder text. This documents conversation behavior, not proof of hidden system content or its origin.",
+    "category": "agents",
+    "platform": "Reddit",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xyphos/claude_told_me_about_a_hidden_automated_reminder/",
+    "author": "cookie_players5",
+    "date": "2026-11-17",
+    "evidenceType": "限制",
+    "checkedAt": "2026-11-19T12:46:52+00:00",
+    "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xyphos/claude_told_me_about_a_hidden_automated_reminder/",
+    "evidenceBasis": "已通过 Arctic Shift 存档接口读取 Reddit 原帖全文与评论数，帖子明确针对 Fable 5.2 在真实工程/API/配额场景的表现。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "高力度模式下系统提醒块泄露现象"
+    },
+    "comments": 23,
+    "metricsCheckedAt": "2026-11-18T06:15:00+00:00"
+  },
+  {
+    "id": "fable52-reddit-1xy3487",
+    "title": "用地下室 LiDAR 扫描规划收纳",
+    "title_en": "Planning basement storage from a LiDAR scan",
+    "summary": "作者报告将杂乱地下室的 LiDAR 扫描交给 Fable 5.2，得到房间结构与四套含物料、估价的货架方案；尺寸和报价为模型输出，未独立测量核价。",
+    "summary_en": "The author feeds a cluttered basement LiDAR scan to Fable 5.2 and receives four shelving layouts with materials and estimates. Dimensions and prices were not independently verified.",
+    "category": "3d",
+    "platform": "Reddit",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xy3487/i_gave_claude_fable_52_a_lazy_lidar_scan_of_my/",
+    "author": "Sufficient-Storage87",
+    "date": "2026-11-16",
+    "evidenceType": "演示",
+    "checkedAt": "2026-11-19T12:46:52+00:00",
+    "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xy3487/i_gave_claude_fable_52_a_lazy_lidar_scan_of_my/",
+    "evidenceBasis": "已通过 Arctic Shift 存档接口读取 Reddit 原帖全文与评论数，帖子明确针对 Fable 5.2 在真实工程/API/配额场景的表现。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "单次杂乱地下室 LiDAR 扫描智能空间规划"
+    },
+    "comments": 30,
+    "metricsCheckedAt": "2026-11-18T06:15:00+00:00",
+    "mediaKind": "image"
+  },
+  {
+    "id": "fable52-reddit-1xsp90d",
+    "title": "临时路径为空导致清理误删的用户复盘",
+    "title_en": "A user account of deletion caused by an empty temporary path",
+    "summary": "用户报告 Opus 5.5 主代理、Fable 5.2 顾问组合在清理临时文件时误删仓库，并引述会话解释。保留为未独立复现的失败反馈，不将执行责任归给顾问模型。",
+    "summary_en": "A user reports repository deletion during cleanup with Opus 5.5 as primary agent and Fable 5.2 as advisor, quoting the session. The account is unverified and does not assign execution to the advisor.",
+    "category": "agents",
+    "platform": "Reddit",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xsp90d/at_546_am_i_get_anurgent_message_on_my_phone_from/",
+    "author": "ricopan",
+    "date": "2026-11-10",
+    "evidenceType": "限制",
+    "checkedAt": "2026-11-19T12:49:49+00:00",
+    "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xsp90d/at_546_am_i_get_anurgent_message_on_my_phone_from/",
+    "evidenceBasis": "用户报告 Opus 5.5 主代理、Fable 5.2 顾问组合在清理临时文件时误删仓库，并引述会话解释。保留为未独立复现的失败反馈，不将执行责任归给顾问模型。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "A user account of deletion caused by an empty temporary path"
+    },
+    "comments": 304,
+    "metricsCheckedAt": "2026-11-19T12:49:49+00:00"
+  },
+  {
+    "id": "fable52-reddit-1xt1t87",
+    "title": "Glyph Bloom：图像转字符艺术",
+    "title_en": "Glyph Bloom: turning images into character art",
+    "summary": "作者用 Fable 5.2 迭代单文件 WebGL2/Web Audio 工具，把图像、视频或文字转为字符效果，支持三维旋转与导出，并公开源码。",
+    "summary_en": "The creator iterates a single-file WebGL2/Web Audio tool with Fable 5.2 that turns images, video or text into character art with rotation and export, publishing source.",
+    "category": "graphics",
+    "platform": "Reddit",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xt1t87/ascii_art_generator_with_fable_52_experiment/",
+    "author": "oxmannnn",
+    "date": "2026-11-10",
+    "evidenceType": "演示",
+    "checkedAt": "2026-11-19T12:49:49+00:00",
+    "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xt1t87/ascii_art_generator_with_fable_52_experiment/",
+    "evidenceBasis": "作者用 Fable 5.2 迭代单文件 WebGL2/Web Audio 工具，把图像、视频或文字转为字符效果，支持三维旋转与导出，并公开源码。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "Glyph Bloom: turning images into character art"
+    },
+    "comments": 37,
+    "metricsCheckedAt": "2026-11-19T12:49:49+00:00",
+    "resources": [
+      {
+        "label": "作者关联作品",
+        "label_en": "Creator-linked project",
+        "url": "https://winchxyz.github.io/glyph-bloom/"
+      },
+      {
+        "label": "作者关联作品",
+        "label_en": "Creator-linked project",
+        "url": "https://winchxyz.github.io/glyph-bloom/"
+      },
+      {
+        "label": "作者关联作品",
+        "label_en": "Creator-linked project",
+        "url": "https://github.com/winchxyz/glyph-bloom"
+      },
+      {
+        "label": "作者关联作品",
+        "label_en": "Creator-linked project",
+        "url": "https://github.com/winchxyz/glyph-bloom"
+      }
+    ],
+    "mediaKind": "video"
+  },
+  {
+    "id": "fable52-reddit-1xzir6g",
+    "title": "Voidstruck：程序化星系探索",
+    "title_en": "Voidstruck: procedural galaxy exploration",
+    "summary": "作者用 Fable 5.2 编写 WebGPU 太空探索游戏，自己决定设计与试听音乐，公开作品并说明主要在桌面 Chrome/Edge 测试。",
+    "summary_en": "The creator uses Fable 5.2 to code a WebGPU space-exploration game while directing design and choosing music, and notes testing primarily on desktop Chrome and Edge.",
+    "category": "games",
+    "platform": "Reddit",
+    "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1xzir6g/a_game_with_a_galaxy_of_150_million_star_systems/",
+    "author": "BigTutor6739",
+    "date": "2026-11-18",
+    "evidenceType": "演示",
+    "checkedAt": "2026-11-19T12:49:49+00:00",
+    "evidenceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1xzir6g/a_game_with_a_galaxy_of_150_million_star_systems/",
+    "evidenceBasis": "作者用 Fable 5.2 编写 WebGPU 太空探索游戏，自己决定设计与试听音乐，公开作品并说明主要在桌面 Chrome/Edge 测试。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "Voidstruck: procedural galaxy exploration"
+    },
+    "comments": 57,
+    "metricsCheckedAt": "2026-11-19T12:49:49+00:00",
+    "resources": [
+      {
+        "label": "作者关联作品",
+        "label_en": "Creator-linked project",
+        "url": "https://voidstruck.com"
+      }
+    ],
+    "mediaKind": "video"
   }
 ]

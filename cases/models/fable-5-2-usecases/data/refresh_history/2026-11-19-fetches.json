@@ -1,0 +1,4372 @@
+{
+ "configuredDiscovery": {
+  "schemaVersion": 1,
+  "topicId": "fable-5-2",
+  "runId": "20261119T123925Z-5fc5ae6d",
+  "startedAt": "2026-11-19T12:39:25+00:00",
+  "finishedAt": "2026-11-19T12:39:27+00:00",
+  "since": "2026-11-17",
+  "status": "retrieved",
+  "sourcesAttempted": 6,
+  "sourcesSucceeded": 6,
+  "coverage": "partial",
+  "candidateCount": 70,
+  "reviewedNewCases": 0,
+  "limitations": [
+   "Successful retrieval does not prove exhaustive coverage or model attribution.",
+   "Search adapters inspect one bounded page per configured query; no complete-pagination claim.",
+   "Only GitHub and HN JSON searches currently emit candidate metadata; other snapshots require manual review.",
+   "Discovery does not change accepted data, metric freshness or the published refresh report."
+  ],
+  "sources": [
+   {
+    "key": "github-repositories-1",
+    "url": "https://api.github.com/search/repositories?q=%22Fable+5.2%22+pushed%3A%3E%3D2026-11-17&sort=updated&per_page=30",
+    "checkedAt": "2026-11-19T12:39:25+00:00",
+    "status": 200,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "30",
+     "x-ratelimit-remaining": "24",
+     "x-ratelimit-reset": "1795092024"
+    },
+    "finalUrl": "https://api.github.com/search/repositories?q=%22Fable+5.2%22+pushed%3A%3E%3D2026-11-17&sort=updated&per_page=30",
+    "bytes": 173758,
+    "file": "github-repositories-1.txt",
+    "sha256": "8deb25c32c4bc82403b3ec560bdaa50a6124246183220e372300883bedf06f25",
+    "ok": true,
+    "returned": 30,
+    "totalReported": 75,
+    "searchIncomplete": false,
+    "pagination": "first-page-only"
+   },
+   {
+    "key": "hn-1",
+    "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Fable+5.2%22&hitsPerPage=30&numericFilters=created_at_i%3E%3D1794873600",
+    "checkedAt": "2026-11-19T12:39:25+00:00",
+    "status": 200,
+    "finalUrl": "https://hn.algolia.com/api/v1/search_by_date?query=%22Fable+5.2%22&hitsPerPage=30&numericFilters=created_at_i%3E%3D1794873600",
+    "bytes": 61693,
+    "file": "hn-1.txt",
+    "sha256": "9062fad65ad54c61c6e504ee7592b93a75f3d6ad0170ac7a909ff41ce003c58c",
+    "ok": true,
+    "returned": 30,
+    "totalReported": 65,
+    "pagesReported": 3,
+    "pagination": "first-page-only"
+   },
+   {
+    "key": "github-repositories-2",
+    "url": "https://api.github.com/search/repositories?q=%22fable5.2%22+pushed%3A%3E%3D2026-11-17&sort=updated&per_page=30",
+    "checkedAt": "2026-11-19T12:39:25+00:00",
+    "status": 200,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "30",
+     "x-ratelimit-remaining": "25",
+     "x-ratelimit-reset": "1795092024"
+    },
+    "finalUrl": "https://api.github.com/search/repositories?q=%22fable5.2%22+pushed%3A%3E%3D2026-11-17&sort=updated&per_page=30",
+    "bytes": 21797,
+    "file": "github-repositories-2.txt",
+    "sha256": "cacf59bfeb53bf757dc00480c577bb0a2bc1cfba0b45b278dcca7e7ef0cd0d0d",
+    "ok": true,
+    "returned": 4,
+    "totalReported": 4,
+    "searchIncomplete": false,
+    "pagination": "first-page-only"
+   },
+   {
+    "key": "hn-2",
+    "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22fable5.2%22&hitsPerPage=30&numericFilters=created_at_i%3E%3D1794873600",
+    "checkedAt": "2026-11-19T12:39:25+00:00",
+    "status": 200,
+    "finalUrl": "https://hn.algolia.com/api/v1/search_by_date?query=%22fable5.2%22&hitsPerPage=30&numericFilters=created_at_i%3E%3D1794873600",
+    "bytes": 3027,
+    "file": "hn-2.txt",
+    "sha256": "c1db469d2e3934a59f65215a04616f98c996504e87d29c5c5cd4cf79633d1edf",
+    "ok": true,
+    "returned": 1,
+    "totalReported": 1,
+    "pagesReported": 1,
+    "pagination": "first-page-only"
+   },
+   {
+    "key": "github-repositories-3",
+    "url": "https://api.github.com/search/repositories?q=%22fable-5-2%22+pushed%3A%3E%3D2026-11-17&sort=updated&per_page=30",
+    "checkedAt": "2026-11-19T12:39:25+00:00",
+    "status": 200,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "30",
+     "x-ratelimit-remaining": "23",
+     "x-ratelimit-reset": "1795092024"
+    },
+    "finalUrl": "https://api.github.com/search/repositories?q=%22fable-5-2%22+pushed%3A%3E%3D2026-11-17&sort=updated&per_page=30",
+    "bytes": 173615,
+    "file": "github-repositories-3.txt",
+    "sha256": "ccc6c5dba1ff26bce3647a1a6a68027bd3f9ef0b0d87bff5e5f08597e36549f0",
+    "ok": true,
+    "returned": 30,
+    "totalReported": 78,
+    "searchIncomplete": false,
+    "pagination": "first-page-only"
+   },
+   {
+    "key": "hn-3",
+    "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22fable-5-2%22&hitsPerPage=30&numericFilters=created_at_i%3E%3D1794873600",
+    "checkedAt": "2026-11-19T12:39:25+00:00",
+    "status": 200,
+    "finalUrl": "https://hn.algolia.com/api/v1/search_by_date?query=%22fable-5-2%22&hitsPerPage=30&numericFilters=created_at_i%3E%3D1794873600",
+    "bytes": 8298,
+    "file": "hn-3.txt",
+    "sha256": "9a1d975c7ea2576771bb19bed5a6a8f09c26509ffbd3430d0b751d50eba74ba7",
+    "ok": true,
+    "returned": 4,
+    "totalReported": 4,
+    "pagesReported": 1,
+    "pagination": "first-page-only"
+   }
+  ],
+  "candidates": [
+   {
+    "sourceUrl": "https://github.com/DarinKorn1/Super-Paper-Mario-3DS-Demo",
+    "title": "DarinKorn1/Super-Paper-Mario-3DS-Demo",
+    "platform": "GitHub",
+    "date": "2026-11-13",
+    "sourceIdentity": "github.com/darinkorn1/super-paper-mario-3ds-demo",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "github-repositories-1",
+     "github-repositories-3"
+    ]
+   },
+   {
+    "sourceUrl": "https://github.com/chomachomachoma/candyland_pwa",
+    "title": "chomachomachoma/candyland_pwa",
+    "platform": "GitHub",
+    "date": "2026-11-14",
+    "sourceIdentity": "github.com/chomachomachoma/candyland_pwa",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "github-repositories-1",
+     "github-repositories-3"
+    ]
+   },
+   {
+    "sourceUrl": "https://github.com/HossamSalemOnline/fable-5.2-motion-design",
+    "title": "HossamSalemOnline/fable-5.2-motion-design",
+    "platform": "GitHub",
+    "date": "2026-11-19",
+    "sourceIdentity": "github.com/hossamsalemonline/fable-5.2-motion-design",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "github-repositories-1",
+     "github-repositories-3"
+    ]
+   },
+   {
+    "sourceUrl": "https://github.com/rossinek/cold-boot",
+    "title": "rossinek/cold-boot",
+    "platform": "GitHub",
+    "date": "2026-11-12",
+    "sourceIdentity": "github.com/rossinek/cold-boot",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "github-repositories-1",
+     "github-repositories-3"
+    ]
+   },
+   {
+    "sourceUrl": "https://github.com/yukhughkui/fable-games",
+    "title": "yukhughkui/fable-games",
+    "platform": "GitHub",
+    "date": "2026-11-16",
+    "sourceIdentity": "github.com/yukhughkui/fable-games",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "github-repositories-1",
+     "github-repositories-3"
+    ]
+   },
+   {
+    "sourceUrl": "https://github.com/mitarthpathak/Blender-Fable-5.2",
+    "title": "mitarthpathak/Blender-Fable-5.2",
+    "platform": "GitHub",
+    "date": "2026-11-10",
+    "sourceIdentity": "github.com/mitarthpathak/blender-fable-5.2",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "github-repositories-1",
+     "github-repositories-3"
+    ]
+   },
+   {
+    "sourceUrl": "https://github.com/SuggarCoder/fable5.2test",
+    "title": "SuggarCoder/fable5.2test",
+    "platform": "GitHub",
+    "date": "2026-11-19",
+    "sourceIdentity": "github.com/suggarcoder/fable5.2test",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "github-repositories-1",
+     "github-repositories-2",
+     "github-repositories-3"
+    ]
+   },
+   {
+    "sourceUrl": "https://github.com/ChrisHKAI/awesome-fable-5.2-videos",
+    "title": "ChrisHKAI/awesome-fable-5.2-videos",
+    "platform": "GitHub",
+    "date": "2026-11-10",
+    "sourceIdentity": "github.com/chrishkai/awesome-fable-5.2-videos",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "github-repositories-1",
+     "github-repositories-3"
+    ]
+   },
+   {
+    "sourceUrl": "https://github.com/vadympetryshyn/effort-pilot",
+    "title": "vadympetryshyn/effort-pilot",
+    "platform": "GitHub",
+    "date": "2026-11-02",
+    "sourceIdentity": "github.com/vadympetryshyn/effort-pilot",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "github-repositories-1",
+     "github-repositories-3"
+    ]
+   },
+   {
+    "sourceUrl": "https://github.com/StefanKnol/Last-Return",
+    "title": "StefanKnol/Last-Return",
+    "platform": "GitHub",
+    "date": "2026-11-14",
+    "sourceIdentity": "github.com/stefanknol/last-return",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "github-repositories-1",
+     "github-repositories-3"
+    ]
+   },
+   {
+    "sourceUrl": "https://github.com/DBeben22/akai-explorer",
+    "title": "DBeben22/akai-explorer",
+    "platform": "GitHub",
+    "date": "2026-11-19",
+    "sourceIdentity": "github.com/dbeben22/akai-explorer",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "github-repositories-1",
+     "github-repositories-3"
+    ]
+   },
+   {
+    "sourceUrl": "https://github.com/sigco3111/fable-5.2-potatobench-ko",
+    "title": "sigco3111/fable-5.2-potatobench-ko",
+    "platform": "GitHub",
+    "date": "2026-11-19",
+    "sourceIdentity": "github.com/sigco3111/fable-5.2-potatobench-ko",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "github-repositories-1",
+     "github-repositories-3"
+    ]
+   },
+   {
+    "sourceUrl": "https://github.com/fengyiqicoder/awesome-fable-5.2",
+    "title": "fengyiqicoder/awesome-fable-5.2",
+    "platform": "GitHub",
+    "date": "2026-11-10",
+    "sourceIdentity": "github.com/fengyiqicoder/awesome-fable-5.2",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "github-repositories-1",
+     "github-repositories-3"
+    ]
+   },
+   {
+    "sourceUrl": "https://github.com/burnout293/Jungle-Loop",
+    "title": "burnout293/Jungle-Loop",
+    "platform": "GitHub",
+    "date": "2026-11-15",
+    "sourceIdentity": "github.com/burnout293/jungle-loop",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "github-repositories-1",
+     "github-repositories-3"
+    ]
+   },
+   {
+    "sourceUrl": "https://github.com/TholeG/saltline-field-archive",
+    "title": "TholeG/saltline-field-archive",
+    "platform": "GitHub",
+    "date": "2026-11-11",
+    "sourceIdentity": "github.com/tholeg/saltline-field-archive",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "github-repositories-1",
+     "github-repositories-3"
+    ]
+   },
+   {
+    "sourceUrl": "https://github.com/drew879/raptor-race-fable",
+    "title": "drew879/raptor-race-fable",
+    "platform": "GitHub",
+    "date": "2026-11-16",
+    "sourceIdentity": "github.com/drew879/raptor-race-fable",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "github-repositories-1",
+     "github-repositories-3"
+    ]
+   },
+   {
+    "sourceUrl": "https://github.com/ZTaer/ai-game-analysis__saltline",
+    "title": "ZTaer/ai-game-analysis__saltline",
+    "platform": "GitHub",
+    "date": "2026-11-17",
+    "sourceIdentity": "github.com/ztaer/ai-game-analysis__saltline",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "github-repositories-1",
+     "github-repositories-3"
+    ]
+   },
+   {
+    "sourceUrl": "https://github.com/carpentry-liu/awesome-astra-3d",
+    "title": "carpentry-liu/awesome-astra-3d",
+    "platform": "GitHub",
+    "date": "2026-09-06",
+    "sourceIdentity": "github.com/carpentry-liu/awesome-astra-3d",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "github-repositories-1",
+     "github-repositories-3"
+    ]
+   },
+   {
+    "sourceUrl": "https://github.com/hahaliu1029/fable5.2demo",
+    "title": "hahaliu1029/fable5.2demo",
+    "platform": "GitHub",
+    "date": "2026-11-11",
+    "sourceIdentity": "github.com/hahaliu1029/fable5.2demo",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "github-repositories-1",
+     "github-repositories-3"
+    ]
+   },
+   {
+    "sourceUrl": "https://github.com/ygx2378/awesome-fable-5-2-games",
+    "title": "ygx2378/awesome-fable-5-2-games",
+    "platform": "GitHub",
+    "date": "2026-11-12",
+    "sourceIdentity": "github.com/ygx2378/awesome-fable-5-2-games",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "github-repositories-1",
+     "github-repositories-3"
+    ]
+   },
+   {
+    "sourceUrl": "https://github.com/ummydev/awesome-claude-fable-games",
+    "title": "ummydev/awesome-claude-fable-games",
+    "platform": "GitHub",
+    "date": "2026-11-11",
+    "sourceIdentity": "github.com/ummydev/awesome-claude-fable-games",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "github-repositories-1",
+     "github-repositories-3"
+    ]
+   },
+   {
+    "sourceUrl": "https://github.com/CrazyRock114/pelican",
+    "title": "CrazyRock114/pelican",
+    "platform": "GitHub",
+    "date": "2026-11-10",
+    "sourceIdentity": "github.com/crazyrock114/pelican",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "github-repositories-1",
+     "github-repositories-3"
+    ]
+   },
+   {
+    "sourceUrl": "https://github.com/GuoCoder/awesome-html-games",
+    "title": "GuoCoder/awesome-html-games",
+    "platform": "GitHub",
+    "date": "2026-11-14",
+    "sourceIdentity": "github.com/guocoder/awesome-html-games",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "github-repositories-1",
+     "github-repositories-3"
+    ]
+   },
+   {
+    "sourceUrl": "https://github.com/chmillera-hub/spare-token-bug-fixes",
+    "title": "chmillera-hub/spare-token-bug-fixes",
+    "platform": "GitHub",
+    "date": "2026-11-10",
+    "sourceIdentity": "github.com/chmillera-hub/spare-token-bug-fixes",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "github-repositories-1",
+     "github-repositories-3"
+    ]
+   },
+   {
+    "sourceUrl": "https://github.com/Revenn0/starship-launch",
+    "title": "Revenn0/starship-launch",
+    "platform": "GitHub",
+    "date": "2026-11-19",
+    "sourceIdentity": "github.com/revenn0/starship-launch",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "github-repositories-1",
+     "github-repositories-3"
+    ]
+   },
+   {
+    "sourceUrl": "https://github.com/sandbase-lab/awesome-fable-5-2",
+    "title": "sandbase-lab/awesome-fable-5-2",
+    "platform": "GitHub",
+    "date": "2026-11-11",
+    "sourceIdentity": "github.com/sandbase-lab/awesome-fable-5-2",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "github-repositories-1",
+     "github-repositories-3"
+    ]
+   },
+   {
+    "sourceUrl": "https://github.com/gc-digital-net/fable-seo-prompts",
+    "title": "gc-digital-net/fable-seo-prompts",
+    "platform": "GitHub",
+    "date": "2026-11-18",
+    "sourceIdentity": "github.com/gc-digital-net/fable-seo-prompts",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "github-repositories-1",
+     "github-repositories-3"
+    ]
+   },
+   {
+    "sourceUrl": "https://github.com/Anteros79/cabin-config-fable",
+    "title": "Anteros79/cabin-config-fable",
+    "platform": "GitHub",
+    "date": "2026-11-15",
+    "sourceIdentity": "github.com/anteros79/cabin-config-fable",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "github-repositories-1",
+     "github-repositories-3"
+    ]
+   },
+   {
+    "sourceUrl": "https://github.com/techkwon/gpt62-oneshot-bench",
+    "title": "techkwon/gpt62-oneshot-bench",
+    "platform": "GitHub",
+    "date": "2026-11-18",
+    "sourceIdentity": "github.com/techkwon/gpt62-oneshot-bench",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "github-repositories-1"
+    ]
+   },
+   {
+    "sourceUrl": "https://github.com/Cryptopiy/Claude-Fable-5.2-Effort-Test-Open-World",
+    "title": "Cryptopiy/Claude-Fable-5.2-Effort-Test-Open-World",
+    "platform": "GitHub",
+    "date": "2026-11-18",
+    "sourceIdentity": "github.com/cryptopiy/claude-fable-5.2-effort-test-open-world",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "github-repositories-1"
+    ]
+   },
+   {
+    "sourceUrl": "https://news.ycombinator.com/item?id=50558559",
+    "title": "Two stealth models just appeared on the leaderboard, both ahead of Fable 5.2",
+    "platform": "Hacker News",
+    "date": "2026-11-19",
+    "sourceIdentity": "news.ycombinator.com/item?id=50558559",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "hn-1"
+    ]
+   },
+   {
+    "sourceUrl": "https://news.ycombinator.com/item?id=50558513",
+    "title": "Gemini 4 Neon",
+    "platform": "Hacker News",
+    "date": "2026-11-19",
+    "sourceIdentity": "news.ycombinator.com/item?id=50558513",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "hn-1"
+    ]
+   },
+   {
+    "sourceUrl": "https://news.ycombinator.com/item?id=50558501",
+    "title": "Anthropic prices initial public offering",
+    "platform": "Hacker News",
+    "date": "2026-11-19",
+    "sourceIdentity": "news.ycombinator.com/item?id=50558501",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "hn-1"
+    ]
+   },
+   {
+    "sourceUrl": "https://news.ycombinator.com/item?id=50557360",
+    "title": "Anthropic prices initial public offering",
+    "platform": "Hacker News",
+    "date": "2026-11-19",
+    "sourceIdentity": "news.ycombinator.com/item?id=50557360",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "hn-1"
+    ]
+   },
+   {
+    "sourceUrl": "https://news.ycombinator.com/item?id=50556863",
+    "title": "Gemini 4 Neon",
+    "platform": "Hacker News",
+    "date": "2026-11-19",
+    "sourceIdentity": "news.ycombinator.com/item?id=50556863",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "hn-1"
+    ]
+   },
+   {
+    "sourceUrl": "https://news.ycombinator.com/item?id=50556691",
+    "title": "Gemini 4 Neon",
+    "platform": "Hacker News",
+    "date": "2026-11-19",
+    "sourceIdentity": "news.ycombinator.com/item?id=50556691",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "hn-1"
+    ]
+   },
+   {
+    "sourceUrl": "https://news.ycombinator.com/item?id=50556534",
+    "title": "Show HN: Zpup – Zdog style 3D scenes in JSON, SVG from any angle",
+    "platform": "Hacker News",
+    "date": "2026-11-19",
+    "sourceIdentity": "news.ycombinator.com/item?id=50556534",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "hn-1"
+    ]
+   },
+   {
+    "sourceUrl": "https://news.ycombinator.com/item?id=50556157",
+    "title": "Gemini 4 Neon",
+    "platform": "Hacker News",
+    "date": "2026-11-19",
+    "sourceIdentity": "news.ycombinator.com/item?id=50556157",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "hn-1"
+    ]
+   },
+   {
+    "sourceUrl": "https://news.ycombinator.com/item?id=50555272",
+    "title": "Gemini 4 Neon",
+    "platform": "Hacker News",
+    "date": "2026-11-19",
+    "sourceIdentity": "news.ycombinator.com/item?id=50555272",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "hn-1"
+    ]
+   },
+   {
+    "sourceUrl": "https://news.ycombinator.com/item?id=50555163",
+    "title": "Gemini 4 Neon looks like an Opus 5.5 competitor",
+    "platform": "Hacker News",
+    "date": "2026-11-19",
+    "sourceIdentity": "news.ycombinator.com/item?id=50555163",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "hn-1"
+    ]
+   },
+   {
+    "sourceUrl": "https://news.ycombinator.com/item?id=50554659",
+    "title": "Fable: Written, painted and directed by Claude Fable 5.2",
+    "platform": "Hacker News",
+    "date": "2026-11-19",
+    "sourceIdentity": "news.ycombinator.com/item?id=50554659",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "hn-1"
+    ]
+   },
+   {
+    "sourceUrl": "https://news.ycombinator.com/item?id=50554269",
+    "title": "Fable: Written, painted and directed by Claude Fable 5.2",
+    "platform": "Hacker News",
+    "date": "2026-11-19",
+    "sourceIdentity": "news.ycombinator.com/item?id=50554269",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "hn-1"
+    ]
+   },
+   {
+    "sourceUrl": "https://news.ycombinator.com/item?id=50554192",
+    "title": "Gemini 4 Neon",
+    "platform": "Hacker News",
+    "date": "2026-11-19",
+    "sourceIdentity": "news.ycombinator.com/item?id=50554192",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "hn-1"
+    ]
+   },
+   {
+    "sourceUrl": "https://news.ycombinator.com/item?id=50553924",
+    "title": "Gemini 4 Neon",
+    "platform": "Hacker News",
+    "date": "2026-11-18",
+    "sourceIdentity": "news.ycombinator.com/item?id=50553924",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "hn-1"
+    ]
+   },
+   {
+    "sourceUrl": "https://news.ycombinator.com/item?id=50553896",
+    "title": "Gemini 4 Neon",
+    "platform": "Hacker News",
+    "date": "2026-11-18",
+    "sourceIdentity": "news.ycombinator.com/item?id=50553896",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "hn-1"
+    ]
+   },
+   {
+    "sourceUrl": "https://news.ycombinator.com/item?id=50553168",
+    "title": "Gemini 4 Neon",
+    "platform": "Hacker News",
+    "date": "2026-11-18",
+    "sourceIdentity": "news.ycombinator.com/item?id=50553168",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "hn-1"
+    ]
+   },
+   {
+    "sourceUrl": "https://news.ycombinator.com/item?id=50553152",
+    "title": "Show HN: Boo-Mas",
+    "platform": "Hacker News",
+    "date": "2026-11-18",
+    "sourceIdentity": "news.ycombinator.com/item?id=50553152",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "hn-1"
+    ]
+   },
+   {
+    "sourceUrl": "https://news.ycombinator.com/item?id=50552756",
+    "title": "Gemini 4 Neon",
+    "platform": "Hacker News",
+    "date": "2026-11-18",
+    "sourceIdentity": "news.ycombinator.com/item?id=50552756",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "hn-1"
+    ]
+   },
+   {
+    "sourceUrl": "https://news.ycombinator.com/item?id=50551922",
+    "title": "Seven new models at scalable price-performance",
+    "platform": "Hacker News",
+    "date": "2026-11-18",
+    "sourceIdentity": "news.ycombinator.com/item?id=50551922",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "hn-1"
+    ]
+   },
+   {
+    "sourceUrl": "https://news.ycombinator.com/item?id=50551488",
+    "title": "SRE-1: 27B model for Production Investigations",
+    "platform": "Hacker News",
+    "date": "2026-11-18",
+    "sourceIdentity": "news.ycombinator.com/item?id=50551488",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "hn-1"
+    ]
+   },
+   {
+    "sourceUrl": "https://news.ycombinator.com/item?id=50550897",
+    "title": "Why is Gemini 4 Carbon taking so long?",
+    "platform": "Hacker News",
+    "date": "2026-11-18",
+    "sourceIdentity": "news.ycombinator.com/item?id=50550897",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "hn-1"
+    ]
+   },
+   {
+    "sourceUrl": "https://news.ycombinator.com/item?id=50550861",
+    "title": "GPT‑6.2 Astra and Sol",
+    "platform": "Hacker News",
+    "date": "2026-11-18",
+    "sourceIdentity": "news.ycombinator.com/item?id=50550861",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "hn-1"
+    ]
+   },
+   {
+    "sourceUrl": "https://news.ycombinator.com/item?id=50550700",
+    "title": "Show HN: KradleBench – Multi-agent AI evals in Minecraft",
+    "platform": "Hacker News",
+    "date": "2026-11-18",
+    "sourceIdentity": "news.ycombinator.com/item?id=50550700",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "hn-1"
+    ]
+   },
+   {
+    "sourceUrl": "https://news.ycombinator.com/item?id=50550078",
+    "title": "Fable 5.2 made a video explaining the DeepSeek Super-agent architecture",
+    "platform": "Hacker News",
+    "date": "2026-11-18",
+    "sourceIdentity": "news.ycombinator.com/item?id=50550078",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "hn-1"
+    ]
+   },
+   {
+    "sourceUrl": "https://news.ycombinator.com/item?id=50549500",
+    "title": "KradleBench: Multi-agent AI evals in Minecraft",
+    "platform": "Hacker News",
+    "date": "2026-11-18",
+    "sourceIdentity": "news.ycombinator.com/item?id=50549500",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "hn-1"
+    ]
+   },
+   {
+    "sourceUrl": "https://news.ycombinator.com/item?id=50549415",
+    "title": "Seven new models at scalable price-performance",
+    "platform": "Hacker News",
+    "date": "2026-11-18",
+    "sourceIdentity": "news.ycombinator.com/item?id=50549415",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "hn-1"
+    ]
+   },
+   {
+    "sourceUrl": "https://news.ycombinator.com/item?id=50548720",
+    "title": "I built a swimmable underwater world in one 97 KB HTML file with Fable 5.2",
+    "platform": "Hacker News",
+    "date": "2026-11-18",
+    "sourceIdentity": "news.ycombinator.com/item?id=50548720",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "hn-1"
+    ]
+   },
+   {
+    "sourceUrl": "https://news.ycombinator.com/item?id=50548317",
+    "title": "Show HN: Maxanti – A logic puzzle",
+    "platform": "Hacker News",
+    "date": "2026-11-18",
+    "sourceIdentity": "news.ycombinator.com/item?id=50548317",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "hn-1"
+    ]
+   },
+   {
+    "sourceUrl": "https://news.ycombinator.com/item?id=50545577",
+    "title": "Why is Gemini 4 Carbon taking so long?",
+    "platform": "Hacker News",
+    "date": "2026-11-18",
+    "sourceIdentity": "news.ycombinator.com/item?id=50545577",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "hn-1"
+    ]
+   },
+   {
+    "sourceUrl": "https://news.ycombinator.com/item?id=50545384",
+    "title": "Why is Gemini 4 Carbon taking so long?",
+    "platform": "Hacker News",
+    "date": "2026-11-18",
+    "sourceIdentity": "news.ycombinator.com/item?id=50545384",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "hn-1"
+    ]
+   },
+   {
+    "sourceUrl": "https://github.com/WZR0821/Codex-Menu-Meter",
+    "title": "WZR0821/Codex-Menu-Meter",
+    "platform": "GitHub",
+    "date": "2026-11-17",
+    "sourceIdentity": "github.com/wzr0821/codex-menu-meter",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "github-repositories-2"
+    ]
+   },
+   {
+    "sourceUrl": "https://github.com/shvmm/dualboot-r36s-clone",
+    "title": "shvmm/dualboot-r36s-clone",
+    "platform": "GitHub",
+    "date": "2026-11-17",
+    "sourceIdentity": "github.com/shvmm/dualboot-r36s-clone",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "github-repositories-2"
+    ]
+   },
+   {
+    "sourceUrl": "https://github.com/yinzhenqiang/JPgame",
+    "title": "yinzhenqiang/JPgame",
+    "platform": "GitHub",
+    "date": "2026-11-17",
+    "sourceIdentity": "github.com/yinzhenqiang/jpgame",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "github-repositories-2"
+    ]
+   },
+   {
+    "sourceUrl": "https://news.ycombinator.com/item?id=50537361",
+    "title": "GPT‑6.2 Astra and Sol",
+    "platform": "Hacker News",
+    "date": "2026-11-17",
+    "sourceIdentity": "news.ycombinator.com/item?id=50537361",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "hn-2"
+    ]
+   },
+   {
+    "sourceUrl": "https://github.com/AI-Terrarium/terrarium",
+    "title": "AI-Terrarium/terrarium",
+    "platform": "GitHub",
+    "date": "2026-11-14",
+    "sourceIdentity": "github.com/ai-terrarium/terrarium",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "github-repositories-3"
+    ]
+   },
+   {
+    "sourceUrl": "https://github.com/mirzahusadzic/unified-model-router",
+    "title": "mirzahusadzic/unified-model-router",
+    "platform": "GitHub",
+    "date": "2026-10-18",
+    "sourceIdentity": "github.com/mirzahusadzic/unified-model-router",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "github-repositories-3"
+    ]
+   },
+   {
+    "sourceUrl": "https://news.ycombinator.com/item?id=50552548",
+    "title": "Gemini 4 Neon",
+    "platform": "Hacker News",
+    "date": "2026-11-18",
+    "sourceIdentity": "news.ycombinator.com/item?id=50552548",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "hn-3"
+    ]
+   },
+   {
+    "sourceUrl": "https://news.ycombinator.com/item?id=50548777",
+    "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
+    "platform": "Hacker News",
+    "date": "2026-11-18",
+    "sourceIdentity": "news.ycombinator.com/item?id=50548777",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "hn-3"
+    ]
+   },
+   {
+    "sourceUrl": "https://news.ycombinator.com/item?id=50535642",
+    "title": "GPT‑6.2 Astra and Sol",
+    "platform": "Hacker News",
+    "date": "2026-11-17",
+    "sourceIdentity": "news.ycombinator.com/item?id=50535642",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "hn-3"
+    ]
+   },
+   {
+    "sourceUrl": "https://news.ycombinator.com/item?id=50532109",
+    "title": "Claude Fable 5.2 vs. Opus 5.5: Same scores at almost 4x the cost",
+    "platform": "Hacker News",
+    "date": "2026-11-17",
+    "sourceIdentity": "news.ycombinator.com/item?id=50532109",
+    "topicId": "fable-5-2",
+    "status": "unreviewed",
+    "discoveredVia": [
+     "hn-3"
+    ]
+   }
+  ]
+ },
+ "supplementalDiscovery": [
+  {
+   "key": "fable-5-2-x-latest-0",
+   "checkedAt": "2026-11-19T12:40:35+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "7cf1e5d1b03248ebb9b9260c40d542b05333a5a6b771186f94d7bba1aa8fade3",
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%28%5C%22Fable+5.2%5C%22+OR+%5C%22Fable5.2%5C%22+OR+%5C%22fable-5-2%5C%22%29+since%3A2026-11-17+-filter%3Aretweets%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Latest%22%2C+%22includePromotedContent%22%3A+false%7D"
+  },
+  {
+   "key": "fable-5-2-x-top-0",
+   "checkedAt": "2026-11-19T12:40:35+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "bdc511d7937e7a87f52692472bea0b6347f7be50816bd222e5db4e9898b8e885",
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%28%5C%22Fable+5.2%5C%22+OR+%5C%22Fable5.2%5C%22+OR+%5C%22fable-5-2%5C%22%29+since%3A2026-11-17+-filter%3Aretweets%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Top%22%2C+%22includePromotedContent%22%3A+false%7D"
+  },
+  {
+   "key": "fable-5-2-x-latest-1",
+   "checkedAt": "2026-11-19T12:40:37+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "08b7cf1515555f79f7e01dbf2b2af59e09272c9069ee2eefcc10d00ecd2f11d9",
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%28%5C%22Fable+5.2%5C%22+OR+%5C%22Fable5.2%5C%22+OR+%5C%22fable-5-2%5C%22%29+since%3A2026-11-17+-filter%3Aretweets%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Latest%22%2C+%22includePromotedContent%22%3A+false%2C+%22cursor%22%3A+%22DAADDAABCgABHXfRYs1akOkKAAIdd8_gq1ZAAwAIAAIAAAACCAADAAAAAAgABAAAAAAKAAUdd9Fti0AnEAoABh130W2LP9jwCwAHAAAA8EVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFCUWRkOUI1aHhhZ3F4MTMwVFN5R3lEQkhYZlF5aFFXd05jZGQ5RGlvOXFoengxMzBRVTZXd0dLSFhmUlFuU1d3RTRkZDlCY0tsc3hBaDEzMEpNdVc2QXZIWGZRdHZOYllBd2RkOUN5YmRmUS9oMTN6L28yR29IMUhYZlJZczFha09rZGQ4LzFqWnNBWVIxMzBJNWdGeUdkSFhmUW9oUlhRQzRkZDlEc0xSZXc1aDEzME82TFdqRmJIWGZQOWttWFlHVWRkOC9ncTFaQUF4MTMwUkU4bXVCcgAA%22%7D"
+  },
+  {
+   "key": "fable-5-2-x-top-1",
+   "checkedAt": "2026-11-19T12:40:38+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "11a0091994247633e5ad0754ed15ced0546d700c814292e8ce339ddc727e66ef",
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%28%5C%22Fable+5.2%5C%22+OR+%5C%22Fable5.2%5C%22+OR+%5C%22fable-5-2%5C%22%29+since%3A2026-11-17+-filter%3Aretweets%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Top%22%2C+%22includePromotedContent%22%3A+false%2C+%22cursor%22%3A+%22DAACCgACHXfRbhKAJxAKAAMdd9FuEn_Y8AgABAAAAAILAAUAAADwRW1QQzZ3QUFBZlEvZ0dKTjB2R3AvQUFBQUJRZGRyZk9IMW9SbEIxMnhLc0kydEFtSFhZZHA0MmJ3UFlkZFFZYnNoc3g3QjEyRll6OUdzQ21IWFNzZGN5WG9EOGRkY0VyWVJwaFZSMTJlc2JnRnlGR0hYZkRHYmNiRVJvZGQ1NVNMNVpSaUIxMmpGVjRGdEJ4SFhWUWdubFdzQ2dkZHJYREYxdVFKQjEybjQ5REduQy9IWGFzZzFpYTRYQWRkODgzYzlkUWRSMTN5UFQ1bXVEa0hYYkdCenVhVU1VZGRyWDl0Wm9RM0IxMVl6cmZHbUhvCAAGAAAAAAgABwAAAAAMAAgKAAEddKx1zJegPwAAAA%22%7D"
+  },
+  {
+   "key": "fable-5-2-x-latest-2",
+   "checkedAt": "2026-11-19T12:40:40+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "21b654a3d0a75a9ca217f26d2f4aa80e2d6485bb977b42c6572f1077abd59ddb",
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%28%5C%22Fable+5.2%5C%22+OR+%5C%22Fable5.2%5C%22+OR+%5C%22fable-5-2%5C%22%29+since%3A2026-11-17+-filter%3Aretweets%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Latest%22%2C+%22includePromotedContent%22%3A+false%2C+%22cursor%22%3A+%22DAADDAABCgABHXfRYs1akOkKAAIdd88XlJsw-AAIAAIAAAACCAADAAAAAAgABAAAAAEKAAUdd9Fti0AnEAoABh130W2LP7HgCwAHAAAByEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFDZ2RkOCt1aTFvQmpCMTN6K0NyVmtBREhYZlF5aFFXd05jZGQ4OGQwNXNCTEIxMzBVSjBsc0JPSFhmUWt5NWJvQzhkZDlCY0tsc3hBaDEzejVFNjJwQWhIWGZRc20zWDBQNGRkODhYbEpzdytCMTN6L28yR29IMUhYZlBHaWZXY1NZZGQ4ODFxbFl3aEIxM3oyMlVsakZTSFhmUDREMWFrZkVkZDlDaUZGZEFMaDEzME82TFdqRmJIWGZRam1BWElaMGRkODh4UXBvUlNSMTN6N3hhMndBbEhYZlJOTEliSU1FZGQ5QjVoeGFncXgxM3o4aitGcUErSFhmUkJUcGJBWW9kZDlEaW85cWh6eDEzeng5MTJsSHZIWGZQNEZMYllhSWRkOUMyODF0Z0RCMTN6MDd5bWpIMkhYZlJZczFha09rZGQ4K294MXRBYkIxM3p5V1ZGNUZwSFhmUE5VdWJZY3NkZDg4M2M5ZFFkUjEzeitDQzFsREVIWGZQOVkyYkFHRWRkOURzTFJldzVoMTN6L1pKbDJCbEhYZlBTTktXd0hjZGQ5RVJQSnJnYXc9PQAA%22%7D"
+  },
+  {
+   "key": "fable-5-2-x-latest-3",
+   "checkedAt": "2026-11-19T12:40:42+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "1b11193eb92bd06bd5e71c160c43e2a44dd063224e2e6c6b9a959dbe205560bf",
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%28%5C%22Fable+5.2%5C%22+OR+%5C%22Fable5.2%5C%22+OR+%5C%22fable-5-2%5C%22%29+since%3A2026-11-17+-filter%3Aretweets%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Latest%22%2C+%22includePromotedContent%22%3A+false%2C+%22cursor%22%3A+%22DAADDAABCgABHXfRYs1akOkKAAIdd85QDdaRRgAIAAIAAAACCAADAAAAAAgABAAAAAIKAAUdd9Fti0AnEAoABh130W2LP4rQCwAHAAACnEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFEd2RkOCt1aTFvQmpCMTMwVUowbHNCT0hYZlBIZE9iQVN3ZGQ4NVFEZGFSUmgxMzBKTXVXNkF2SFhmUEY1U2JNUGdkZDgvNk5ocUI5UjEzejIyVWxqRlNIWGZQR2lmV2NTWWRkODhBMFp0Z2RSMTN6eldxVmpDRUhYZlFqbUFYSVowZGQ4OHhRcG9SU1IxM3ptODJteEQrSFhmUWVZY1dvS3NkZDlFMHNoc2d3UjEzenVKZUcwQjJIWGZPYm0yYU1FWWRkODhCL0phQnd4MTN6K0JTMjJHaUhYZk8xZ0FiMFZZZGQ4NWxuSnV3RFIxMzBXTE5XcERwSFhmUHFNZGJRR3dkZDg4MVM1dGh5eDEzeitDQzFsREVIWGZQTjNQWFVIVWRkODhsbFJlUmFSMTN6cHVKbHNEckhYZlF5aFFXd05jZGQ4L2dxMVpBQXgxM3p4TVNsOUhVSFhmUVhDcGJNUUlkZDlDeWJkZlEvaDEzejVFNjJwQWhIWGZPVUpUV2tWd2RkODdXRnBxQXBoMTN6K0E5V3BIeEhYZlFvaFJYUUM0ZGQ5RHVpMW94V3gxM3psQkhtcUVsSFhmUTRxUGFvYzhkZDgrOFd0c0FKUjEzMFFVNld3R0tIWGZQeVA0V29ENGRkODhBckZkZ2RoMTN6c0Q2MjlDckhYZlBIM1hhVWU4ZGQ5QzI4MXRnREIxM3owN3ltakgySFhmT2czcmJBSE1kZDg2d1o1b3g0UjEzenBrRTF4RURIWGZQRkhOV1lMMGRkOC8xalpzQVlSMTMwT3d0RjdEbUhYZlA5a21YWUdVZGQ4OUkwcGJBZHgxMzBSRThtdUJySFhmTzFkb2JZSms9AAA%22%7D"
+  },
+  {
+   "key": "fable-5-2-x-top-2",
+   "checkedAt": "2026-11-19T12:40:41+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "c777589c541693fee608ebb1de45c86c799d693cbcd81252d89b79bceb9a15b4",
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%28%5C%22Fable+5.2%5C%22+OR+%5C%22Fable5.2%5C%22+OR+%5C%22fable-5-2%5C%22%29+since%3A2026-11-17+-filter%3Aretweets%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Top%22%2C+%22includePromotedContent%22%3A+false%2C+%22cursor%22%3A+%22DAACCgACHXfRbhKAJxAKAAMdd9FuEn-x4AgABAAAAAILAAUAAAHoRW1QQzZ3QUFBZlEvZ0dKTjB2R3AvQUFBQUNzZGRzSnZ6MXB3ZkIxMmd3SWkxb0gwSFhlQ0xIdVhVV0FkZDgvZ3ExWkFBeDEzengzVG13RXNIWFpySVl5V1Fid2Rkc28xckJaQkVCMTJ4UVFrbXRES0hYVTF3dytic0JJZGRoMm5qWnZBOWgxMXdTdGhHbUZWSFhTc2RjeVhvRDhkZGhXTS9SckFwaDExVGI1cjJ6RFVIWFo2eHVBWElVWWRkb3hWZUJiUWNSMTN6d0RSbTJCMUhYYWZqME1hY0w4ZGRWQ0NlVmF3S0IxM3B6d3NsMEI5SFhmTE5zRWE0SmtkZExyMkNaY1JPQjEzMEtJVVYwQXVIWFV5WXZqYXNKY2RkOGowK1pyZzVCMTEwdU0zRjhFZ0hYVUVqa2thc0tZZGRyWDl0Wm9RM0IxMnQ4NGZXaEdVSFhhdG1GWWJZZE1kZHNTckNOclFKaDExQmh1eUd6SHNIWGJwVlczYjBkUWRkOE1adHhzUkdoMTNubEl2bGxHSUhYYTF3eGRia0NRZGRxeURXSnJoY0IxM2JXN1VXakVRSFhmUE4zUFhVSFVkZHNZSE81cFF4UjExWXpyZkdtSG9IWGV0aG9wYVlZUWRkVTkrTHhjeGJ3PT0IAAYAAAAACAAHAAAAAQwACAoAAR10uvYJlxE4AAAA%22%7D"
+  },
+  {
+   "key": "fable-5-2-x-top-3",
+   "checkedAt": "2026-11-19T12:40:44+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "611bcdc3b9dc49b86193f1b78d9a5b97fef0c2dfde89238dedf6428cbf0ce2fc",
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%28%5C%22Fable+5.2%5C%22+OR+%5C%22Fable5.2%5C%22+OR+%5C%22fable-5-2%5C%22%29+since%3A2026-11-17+-filter%3Aretweets%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Top%22%2C+%22includePromotedContent%22%3A+false%2C+%22cursor%22%3A+%22DAACCgACHXfRbhKAJxAKAAMdd9FuEn-K0AgABAAAAAILAAUAAAMIRW1QQzZ3QUFBZlEvZ0dKTjB2R3AvQUFBQUVZZGRzSnZ6MXB3ZkIxM2dpeDdsMUZnSFhmRitjM2JrUTRkZDh2Nmg5dFE1aDEzengzVG13RXNIWGJLTmF3V1FSQWRkc1pxTHhwZy9oMTJSOHB5RnVHbkhYWWRwNDJid1BZZGRLeDF6SmVnUHgxMkZZejlHc0NtSFhaNnh1QVhJVVlkZFUyK2E5c3cxQjEzendEUm0yQjFIWFZvYkVSYWdJMGRkOC9lMnBkQTJSMTFVSUo1VnJBb0hYZW5QQ3lYUUgwZGRYbVhRTmFSVmgxMXJia2ZtdURSSFhVRWpra2FzS1lkZFRKaStOcXdseDEyWTViUEdpSGpIWGEzemg5YUVaUWRkUisvTXBaeE5oMTFwNlpEbXJFcEhYZWVVaStXVVlnZGRyWERGMXVRSkIxMmxnN1RGM0FUSFhmUDRJTFdVTVFkZDhXL090b3dhaDEzeklwNkc5QWdIWGZQTjNQWFVIVWRkc1lITzVwUXhSMTNyWWFLV21HRUhYYURBaUxXZ2ZRZGQ4L2dxMVpBQXgxMmF5R01sa0c4SFhWcWpER2FvVDhkZHNVRUpKclF5aDExQSt0a1c1RXdIWFhCSzJFYVlWVWRkVFhERDV1d0VoMTJqRlY0RnRCeEhYZkprQ2NhUWJZZGQ4L2E3QmF3UHgxMm40OURHbkMvSFhiZFdhZmJ3Qm9kZExyMkNaY1JPQjEzeXpiQkd1Q1pIWGZRb2hSWFFDNGRkOGowK1pyZzVCMTEwdU0zRjhFZ0hYYTEvYldhRU53ZGRhSlA3MW94Z3gxMG5lWFRXaUZFSFhhdG1GWWJZZE1kZHRreElkdlJTUjEyeEtzSTJ0QW1IWGJwVlczYjBkUWRkUVlic2hzeDdCMTN5ZjZURzVHakhYZkRHYmNiRVJvZGQ1OEIyWm9RQWgxM2JXN1VXakVRSFhhc2cxaWE0WEFkZDgvMWpac0FZUjExeDlsNWwzRHhIWFZqT3Q4YVllZ2RkVTkrTHhjeGJ3PT0IAAYAAAAACAAHAAAAAgwACAoAAR10uvYJlxE4AAAA%22%7D"
+  },
+  {
+   "key": "fable-5-2-x-projects-0",
+   "checkedAt": "2026-11-19T12:40:44+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "3c83e8a37924f80e16de69f70abc8f70a40d68c0960b6a7a2230dac545c3fee0",
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%28%5C%22Fable+5.2%5C%22+OR+%5C%22Fable5.2%5C%22+OR+%5C%22fable-5-2%5C%22%29+since%3A2026-11-17+-filter%3Aretweets+%28github+OR+built+OR+made+OR+%5Cu4f5c%5Cu3063%5Cu305f+OR+%5Cu5236%5Cu4f5c+OR+app+OR+game%29%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Top%22%2C+%22includePromotedContent%22%3A+false%7D"
+  },
+  {
+   "key": "fable-5-2-bili-1",
+   "checkedAt": "2026-11-19T12:40:47+00:00",
+   "ok": false,
+   "error": "HTTPError",
+   "status": 412,
+   "url": "https://api.bilibili.com/x/web-interface/search/type?search_type=video&keyword=Fable+5.2&order=pubdate&page=1&page_size=50"
+  },
+  {
+   "key": "fable-5-2-youtube",
+   "checkedAt": "2026-11-19T12:40:47+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "79631e5a43eed66a08a124c9822715e6d6c0a0d8fb8be8ac8265b1fc9fba08c0",
+   "url": "https://www.youtube.com/results?search_query=%22Fable+5.2%22&sp=CAI%3D"
+  },
+  {
+   "key": "fable-5-2-gh-0-1",
+   "checkedAt": "2026-11-19T12:40:44+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "30",
+    "x-ratelimit-remaining": "27",
+    "x-ratelimit-reset": "1795092094"
+   },
+   "finalUrl": "https://api.github.com/search/repositories?q=%22Fable+5.2%22+pushed%3A%3E%3D2026-11-17+pushed%3A%3E%3D2026-10-23&sort=updated&per_page=100&page=1",
+   "bytes": 585584,
+   "sha256": "2ee865eb80f6f59da52d5978558f1d101a74778fba189be6cde05ee108261866",
+   "ok": true,
+   "returned": 100,
+   "totalReported": 366,
+   "searchIncomplete": false,
+   "pagination": "first-page-only",
+   "url": "https://api.github.com/search/repositories?q=%22Fable+5.2%22+pushed%3A%3E%3D2026-11-17+pushed%3A%3E%3D2026-10-23&sort=updated&per_page=100&page=1"
+  },
+  {
+   "key": "fable-5-2-x-projects-1",
+   "checkedAt": "2026-11-19T12:40:47+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "e76e935bafd9e2a6ba10ae94adb01b5600bda467cff2eca94890871983d0101a",
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%28%5C%22Fable+5.2%5C%22+OR+%5C%22Fable5.2%5C%22+OR+%5C%22fable-5-2%5C%22%29+since%3A2026-11-17+-filter%3Aretweets+%28github+OR+built+OR+made+OR+%5Cu4f5c%5Cu3063%5Cu305f+OR+%5Cu5236%5Cu4f5c+OR+app+OR+game%29%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Top%22%2C+%22includePromotedContent%22%3A+false%2C+%22cursor%22%3A+%22DAACCgACHXfRdrWAJxAKAAMdd9F2tX_Y8AgABAAAAAILAAUAAAD8RW1QQzZ3QUFBZlEvZ0dKTjB2R3AvQUFBQUJVZGRyZk9IMW9SbEIxMnhsMmcyM0Y2SFhicFZXM2IwZFFkZDJmRzJoc0I1aDEybzV5TlZ1Q2VIWGI1c0ZlWFVZVWRkNGZ0dFJzZ0hCMTN1RlJIbXVCSkhYWEZKNUhXZ2NVZGRYL2JhNW9nZkIxM2xUaXJGNEJESFhWTnZtdmJNTlFkZHd0TnY5Y0FzaDEyakZWNEZ0QnhIWGQzcWpqYllSSWRkcCtQUXhwd3Z4MTJsUVhIRmlHcEhYWlN3blZXSVc0ZGQ1RTJsdHV4ZngxM24wekxtZ0UrSFhWUGZpOFhNVzg9CAAGAAAAAAgABwAAAAAMAAgKAAEddU2-a9sw1AAAAA%22%7D"
+  },
+  {
+   "key": "fable-5-2-reddit-ClaudeAI-0",
+   "checkedAt": "2026-11-19T12:40:45+00:00",
+   "status": 200,
+   "finalUrl": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=ClaudeAI&query=Fable+5.2&after=2026-10-23&limit=100&sort=desc",
+   "bytes": 566502,
+   "sha256": "066ce7c7e9e6f09c359f5768b7bcf1472a6a56449195d502aa0bd8b5e0f56242",
+   "ok": true,
+   "pagination": "not-verified",
+   "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=ClaudeAI&query=Fable+5.2&after=2026-10-23&limit=100&sort=desc"
+  },
+  {
+   "key": "fable-5-2-x-projects-2",
+   "checkedAt": "2026-11-19T12:40:50+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "3cf0f9b3a060a8bbda11723cfc9ed0785df88c4dd16241ff56a883117fccf375",
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%28%5C%22Fable+5.2%5C%22+OR+%5C%22Fable5.2%5C%22+OR+%5C%22fable-5-2%5C%22%29+since%3A2026-11-17+-filter%3Aretweets+%28github+OR+built+OR+made+OR+%5Cu4f5c%5Cu3063%5Cu305f+OR+%5Cu5236%5Cu4f5c+OR+app+OR+game%29%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Top%22%2C+%22includePromotedContent%22%3A+false%2C+%22cursor%22%3A+%22DAACCgACHXfRdrWAJxAKAAMdd9F2tX-x4AgABAAAAAILAAUAAAHcRW1QQzZ3QUFBZlEvZ0dKTjB2R3AvQUFBQUNvZGRvU1hYcGVnQmgxMmVXb2pGMEJSSFhkbnh0b2JBZVlkZFZzSWxwYWgzUjEwckhYTWw2QS9IWGU0VkVlYTRFa2RkY1Vua2RhQnhSMTJoWVhtbG5DMEhYWjZ4dUFYSVVZZGRYL2JhNW9nZkIxMVRiNXIyekRVSFhhTVZYZ1cwSEVkZHZOSmRsc1JzUjEzZDZvNDIyRVNIWGFmajBNYWNMOGRkNDVRNGh2UVBoMTJVc0oxVmlGdUhYYmRXYWZid0JvZGRsM2lIdFp4QUIxM3NTOXgyaURCSFhlNmI5U1hFQTBkZHJublMxZWhJQjEweFAvSTE4R09IWGEzemg5YUVaUWRkSjNsMDFvaFJCMTJ4bDJnMjNGNkhYVkZaOEthc0ZrZGRRUlNpOVp4dFIxMitiQlhsMUdGSFhham5JMVc0SjRkZDRmdHRSc2dIQjEyNlZWdDI5SFVIWGVWT0tzWGdFTWRkdXNWb0Jad1poMTNDMDIvMXdDeUhYYVZCY2NXSWFrZGQ3aUFhVnB3NUIxM2tUYVcyN0YvSFhlMno1a2JJTHNkZDU5TXk1b0JQaDEzZTdJSGxzRW1IWFZQZmk4WE1XOD0IAAYAAAAACAAHAAAAAQwACAoAAR11Tb5r2zDUAAAA%22%7D"
+  },
+  {
+   "key": "fable-5-2-gh-0-2",
+   "checkedAt": "2026-11-19T12:40:49+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "30",
+    "x-ratelimit-remaining": "25",
+    "x-ratelimit-reset": "1795092094"
+   },
+   "finalUrl": "https://api.github.com/search/repositories?q=%22Fable+5.2%22+pushed%3A%3E%3D2026-11-17+pushed%3A%3E%3D2026-10-23&sort=updated&per_page=100&page=2",
+   "bytes": 575853,
+   "sha256": "948934f6b55a271b7e15cdc4872c0120bdb2fe24b9c643f1e3510d2d00758587",
+   "ok": true,
+   "returned": 100,
+   "totalReported": 366,
+   "searchIncomplete": false,
+   "pagination": "first-page-only",
+   "url": "https://api.github.com/search/repositories?q=%22Fable+5.2%22+pushed%3A%3E%3D2026-11-17+pushed%3A%3E%3D2026-10-23&sort=updated&per_page=100&page=2"
+  },
+  {
+   "key": "fable-5-2-x-projects-3",
+   "checkedAt": "2026-11-19T12:40:52+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "414241dff48fd1e7175bc2ddfa405f11df97153deb319e2aed45997156bdb088",
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%28%5C%22Fable+5.2%5C%22+OR+%5C%22Fable5.2%5C%22+OR+%5C%22fable-5-2%5C%22%29+since%3A2026-11-17+-filter%3Aretweets+%28github+OR+built+OR+made+OR+%5Cu4f5c%5Cu3063%5Cu305f+OR+%5Cu5236%5Cu4f5c+OR+app+OR+game%29%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Top%22%2C+%22includePromotedContent%22%3A+false%2C+%22cursor%22%3A+%22DAACCgACHXfRdrWAJxAKAAMdd9F2tX-K0AgABAAAAAILAAUAAAKwRW1QQzZ3QUFBZlEvZ0dKTjB2R3AvQUFBQUQ0ZGRadVhsRnVRZkIxMnRJNTJWdkN5SFhYRko1SFdnY1VkZDdoVVI1cmdTUjExV3dpV2xxSGRIWFNzZGN5WG9EOGRkVTIrYTlzdzFCMTN6L28yR29IMUhYWjZ4dUFYSVVZZGR4VWVJTnV4QngxM25BWExGMERMSFhlT1VPSWIwRDRkZDdFdmNkb2d3UjEyWGVJZTFuRUFIWGE1NTB0WG9TQWRkTVQveU5mQmpoMTJ0ODRmV2hHVUhYVGhyZTZiWWVNZGQ4dkl2cGFBdUIxMnhsMmcyM0Y2SFhWRlo4S2FzRmtkZDhMWFFwZEI5eDEwMFpxSWxqQ0ZIWGFqbkkxVzRKNGRkNGZ0dFJzZ0hCMTNzTHV4bHRCOUhYZW40OFBhNFE4ZGR1c1ZvQlp3WmgxMkNnblZtckFFSFhjTFRiL1hBTElkZFUyRzZkWVJkeDEzME1vVUZzRFhIWGRueHRvYkFlWWRkbmxxSXhkQVVSMTJoSmRlbDZBR0hYYUZoZWFXY0xRZGRYL2JhNW9nZkIxMm40OURHbkMvSFhhTVZYZ1cwSEVkZDNlcU9OdGhFaDEyODBsMld4R3hIWGNRY0VtV0lCRWRkazFmZ1JyUUdSMTJVc0oxVmlGdUhYYmRXYWZid0JvZGRXQkdpVmN3SFIxM3VtL1VseEFOSFhWOUtwZGE4S01kZEozbDAxb2hSQjEyNlZWdDI5SFVIWGI1c0ZlWFVZVWRkUVJTaTlaeHRSMTFoK08yMjNHR0hYYmpiampYY0U0ZGQ1VTRxeGVBUXgxMmxRWEhGaUdwSFhlNGdHbGFjT1FkZDVFMmx0dXhmeDEzdHMrWkd5QzdIWGVmVE11YUFUNGRkM3V5QjViQkpoMTFUMzR2RnpGdggABgAAAAAIAAcAAAACDAAICgABHXVNvmvbMNQAAAA%22%7D"
+  },
+  {
+   "key": "fable-5-2-hn-0",
+   "checkedAt": "2026-11-19T12:40:53+00:00",
+   "status": 200,
+   "finalUrl": "https://hn.algolia.com/api/v1/search_by_date?query=Fable+5.2&hitsPerPage=100&numericFilters=created_at_i%3E%3D1792713600",
+   "bytes": 193318,
+   "sha256": "97293a8599c90652e5664f972077d85b4266c17bbf796d974a4168dfeb39ca79",
+   "ok": true,
+   "returned": 100,
+   "totalReported": 338,
+   "pagesReported": 4,
+   "pagination": "first-page-only",
+   "url": "https://hn.algolia.com/api/v1/search_by_date?query=Fable+5.2&hitsPerPage=100&numericFilters=created_at_i%3E%3D1792713600"
+  },
+  {
+   "key": "fable-5-2-gh-1-1",
+   "checkedAt": "2026-11-19T12:40:55+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "30",
+    "x-ratelimit-remaining": "23",
+    "x-ratelimit-reset": "1795092094"
+   },
+   "finalUrl": "https://api.github.com/search/repositories?q=%22Fable5.2%22+pushed%3A%3E%3D2026-11-17+pushed%3A%3E%3D2026-10-23&sort=updated&per_page=100&page=1",
+   "bytes": 60468,
+   "sha256": "5fd352ec3f195d11ef4e94995ebb9d76b3a971515637b4464e654ff9979875bd",
+   "ok": true,
+   "returned": 11,
+   "totalReported": 11,
+   "searchIncomplete": false,
+   "pagination": "first-page-only",
+   "url": "https://api.github.com/search/repositories?q=%22Fable5.2%22+pushed%3A%3E%3D2026-11-17+pushed%3A%3E%3D2026-10-23&sort=updated&per_page=100&page=1"
+  },
+  {
+   "key": "fable-5-2-hn-1",
+   "checkedAt": "2026-11-19T12:41:00+00:00",
+   "status": 200,
+   "finalUrl": "https://hn.algolia.com/api/v1/search_by_date?query=Fable5.2&hitsPerPage=100&numericFilters=created_at_i%3E%3D1792713600",
+   "bytes": 5422,
+   "sha256": "46283717a93f241920b95ed7e667096656a2eacc34d2341d49608191c681e9af",
+   "ok": true,
+   "returned": 3,
+   "totalReported": 3,
+   "pagesReported": 1,
+   "pagination": "first-page-only",
+   "url": "https://hn.algolia.com/api/v1/search_by_date?query=Fable5.2&hitsPerPage=100&numericFilters=created_at_i%3E%3D1792713600"
+  },
+  {
+   "key": "fable-5-2-gh-2-1",
+   "checkedAt": "2026-11-19T12:41:01+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "30",
+    "x-ratelimit-remaining": "21",
+    "x-ratelimit-reset": "1795092094"
+   },
+   "finalUrl": "https://api.github.com/search/repositories?q=%22fable-5-2%22+pushed%3A%3E%3D2026-11-17+pushed%3A%3E%3D2026-10-23&sort=updated&per_page=100&page=1",
+   "bytes": 587657,
+   "sha256": "7470b229e97825490c43a4cca3186f2c11d58f4946c8b1d4bdba0f7e6259ae68",
+   "ok": true,
+   "returned": 100,
+   "totalReported": 369,
+   "searchIncomplete": false,
+   "pagination": "first-page-only",
+   "url": "https://api.github.com/search/repositories?q=%22fable-5-2%22+pushed%3A%3E%3D2026-11-17+pushed%3A%3E%3D2026-10-23&sort=updated&per_page=100&page=1"
+  },
+  {
+   "key": "fable-5-2-gh-2-2",
+   "checkedAt": "2026-11-19T12:41:05+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "30",
+    "x-ratelimit-remaining": "19",
+    "x-ratelimit-reset": "1795092094"
+   },
+   "finalUrl": "https://api.github.com/search/repositories?q=%22fable-5-2%22+pushed%3A%3E%3D2026-11-17+pushed%3A%3E%3D2026-10-23&sort=updated&per_page=100&page=2",
+   "bytes": 574695,
+   "sha256": "5db53f19de756040f0613cbcb2ac749649f59fd116cb92bec52b0951b8547e3d",
+   "ok": true,
+   "returned": 100,
+   "totalReported": 369,
+   "searchIncomplete": false,
+   "pagination": "first-page-only",
+   "url": "https://api.github.com/search/repositories?q=%22fable-5-2%22+pushed%3A%3E%3D2026-11-17+pushed%3A%3E%3D2026-10-23&sort=updated&per_page=100&page=2"
+  },
+  {
+   "key": "fable-5-2-hn-2",
+   "checkedAt": "2026-11-19T12:41:13+00:00",
+   "status": 200,
+   "finalUrl": "https://hn.algolia.com/api/v1/search_by_date?query=fable-5-2&hitsPerPage=100&numericFilters=created_at_i%3E%3D1792713600",
+   "bytes": 47560,
+   "sha256": "3e3eb4e70f287f97e20fcb15dc6c7aa5529212627fc08bc6fe077184e76828aa",
+   "ok": true,
+   "returned": 26,
+   "totalReported": 26,
+   "pagesReported": 1,
+   "pagination": "first-page-only",
+   "url": "https://hn.algolia.com/api/v1/search_by_date?query=fable-5-2&hitsPerPage=100&numericFilters=created_at_i%3E%3D1792713600"
+  },
+  {
+   "key": "fable-5-2-reddit-ClaudeAI-1",
+   "checkedAt": "2026-11-19T12:41:33+00:00",
+   "status": 200,
+   "finalUrl": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=ClaudeAI&query=Fable+5.2&after=2026-10-23&limit=100&sort=desc&before=1794775054",
+   "bytes": 503556,
+   "sha256": "83b50049fa0464deaf9ee14cff32d05a5312061cb80e0de8bc49ab639855e4b4",
+   "ok": true,
+   "pagination": "not-verified",
+   "retries": [
+    {
+     "checkedAt": "2026-11-19T12:40:51+00:00",
+     "status": 422,
+     "error": "HTTP Error 422: Unprocessable Entity"
+    },
+    {
+     "checkedAt": "2026-11-19T12:41:02+00:00",
+     "status": 422,
+     "error": "HTTP Error 422: Unprocessable Entity"
+    }
+   ],
+   "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=ClaudeAI&query=Fable+5.2&after=2026-10-23&limit=100&sort=desc&before=1794775054"
+  },
+  {
+   "key": "fable-5-2-reddit-ClaudeAI-2",
+   "checkedAt": "2026-11-19T12:42:23+00:00",
+   "ok": false,
+   "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>",
+   "retries": [
+    {
+     "checkedAt": "2026-11-19T12:41:39+00:00",
+     "status": 422,
+     "error": "HTTP Error 422: Unprocessable Entity"
+    },
+    {
+     "checkedAt": "2026-11-19T12:41:52+00:00",
+     "status": 429,
+     "error": "HTTP Error 429: Too Many Requests"
+    }
+   ],
+   "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=ClaudeAI&query=Fable+5.2&after=2026-10-23&limit=100&sort=desc&before=1794578514"
+  },
+  {
+   "key": "fable-5-2-reddit-ClaudeCode-0",
+   "checkedAt": "2026-11-19T12:42:44+00:00",
+   "status": 200,
+   "finalUrl": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=ClaudeCode&query=Fable+5.2&after=2026-10-23&limit=100&sort=desc",
+   "bytes": 537465,
+   "sha256": "882ed3b4d84167574278d1303825a79f88edb384cd175e87034a7b2412e15f84",
+   "ok": true,
+   "pagination": "not-verified",
+   "retries": [
+    {
+     "checkedAt": "2026-11-19T12:42:28+00:00",
+     "status": 422,
+     "error": "HTTP Error 422: Unprocessable Entity"
+    }
+   ],
+   "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=ClaudeCode&query=Fable+5.2&after=2026-10-23&limit=100&sort=desc"
+  },
+  {
+   "key": "fable-5-2-reddit-ClaudeCode-1",
+   "checkedAt": "2026-11-19T12:43:34+00:00",
+   "status": 200,
+   "finalUrl": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=ClaudeCode&query=Fable+5.2&after=2026-10-23&limit=100&sort=desc&before=1794563335",
+   "bytes": 437808,
+   "sha256": "421cff401aa546de01b9328c6e4d20f94b33a7fb5501a0f412aae56a21bf9f98",
+   "ok": true,
+   "pagination": "not-verified",
+   "retries": [
+    {
+     "checkedAt": "2026-11-19T12:42:51+00:00",
+     "status": 422,
+     "error": "HTTP Error 422: Unprocessable Entity"
+    },
+    {
+     "checkedAt": "2026-11-19T12:43:03+00:00",
+     "status": 422,
+     "error": "HTTP Error 422: Unprocessable Entity"
+    }
+   ],
+   "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=ClaudeCode&query=Fable+5.2&after=2026-10-23&limit=100&sort=desc&before=1794563335"
+  },
+  {
+   "key": "fable-5-2-reddit-ClaudeCode-2",
+   "checkedAt": "2026-11-19T12:44:21+00:00",
+   "ok": false,
+   "error": "HTTP Error 422: Unprocessable Entity",
+   "status": 422,
+   "retries": [
+    {
+     "checkedAt": "2026-11-19T12:43:39+00:00",
+     "status": 422,
+     "error": "HTTP Error 422: Unprocessable Entity"
+    },
+    {
+     "checkedAt": "2026-11-19T12:43:50+00:00",
+     "status": 422,
+     "error": "HTTP Error 422: Unprocessable Entity"
+    }
+   ],
+   "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=ClaudeCode&query=Fable+5.2&after=2026-10-23&limit=100&sort=desc&before=1794318145"
+  },
+  {
+   "key": "fable-5-2-reddit-claude-0",
+   "checkedAt": "2026-11-19T12:45:03+00:00",
+   "ok": false,
+   "error": "HTTP Error 422: Unprocessable Entity",
+   "status": 422,
+   "retries": [
+    {
+     "checkedAt": "2026-11-19T12:44:22+00:00",
+     "status": 422,
+     "error": "HTTP Error 422: Unprocessable Entity"
+    },
+    {
+     "checkedAt": "2026-11-19T12:44:32+00:00",
+     "status": 422,
+     "error": "HTTP Error 422: Unprocessable Entity"
+    }
+   ],
+   "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=claude&query=Fable+5.2&after=2026-10-23&limit=100&sort=desc"
+  },
+  {
+   "key": "fable-5-2-reddit-vibecoding-0",
+   "checkedAt": "2026-11-19T12:45:04+00:00",
+   "status": 200,
+   "finalUrl": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=vibecoding&query=Fable+5.2&after=2026-10-23&limit=100&sort=desc",
+   "bytes": 369392,
+   "sha256": "3fa13cea5a88c6c95cc7f7645173054ad12f14dcd3f266fc3dffb1d140791be7",
+   "ok": true,
+   "pagination": "not-verified",
+   "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=vibecoding&query=Fable+5.2&after=2026-10-23&limit=100&sort=desc"
+  },
+  {
+   "key": "fable-5-2-reddit-LocalLLaMA-0",
+   "checkedAt": "2026-11-19T12:45:55+00:00",
+   "ok": false,
+   "error": "HTTP Error 422: Unprocessable Entity",
+   "status": 422,
+   "retries": [
+    {
+     "checkedAt": "2026-11-19T12:45:10+00:00",
+     "status": 422,
+     "error": "HTTP Error 422: Unprocessable Entity"
+    },
+    {
+     "checkedAt": "2026-11-19T12:45:22+00:00",
+     "status": 422,
+     "error": "HTTP Error 422: Unprocessable Entity"
+    }
+   ],
+   "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=LocalLLaMA&query=Fable+5.2&after=2026-10-23&limit=100&sort=desc"
+  }
+ ],
+ "metricReceipts": [
+  {
+   "key": "x:2120029845572993504",
+   "url": "https://api.fxtwitter.com/hyuki/status/2120029845572993504",
+   "checkedAt": "2026-11-19T12:39:27+00:00",
+   "status": 200,
+   "sha256": "b68663cd4b9aefc0dfad28c531de8f4df0cdbcc478aa533662b11ab017339899",
+   "ok": true,
+   "metrics": {
+    "likes": 106,
+    "bookmarks": 40,
+    "views": 11939
+   }
+  },
+  {
+   "key": "x:2120029153185694138",
+   "url": "https://api.fxtwitter.com/yupi996/status/2120029153185694138",
+   "checkedAt": "2026-11-19T12:39:27+00:00",
+   "status": 200,
+   "sha256": "e9a2ba55a90e98819ad0ff8280c1ef487e570a0d91742e2ab753d32781b0cf9d",
+   "ok": true,
+   "metrics": {
+    "likes": 17,
+    "bookmarks": 4,
+    "views": 4658
+   }
+  },
+  {
+   "key": "x:2120029008809361891",
+   "url": "https://api.fxtwitter.com/motion_so/status/2120029008809361891",
+   "checkedAt": "2026-11-19T12:39:27+00:00",
+   "status": 200,
+   "sha256": "295ac0ab1e8d2b7b411a3ca4a0fcf19db58431dac67387e6db67048aba833b10",
+   "ok": true,
+   "metrics": {
+    "likes": 57,
+    "bookmarks": 50,
+    "views": 9043
+   }
+  },
+  {
+   "key": "x:2120028715258425413",
+   "url": "https://api.fxtwitter.com/Dubibubiii/status/2120028715258425413",
+   "checkedAt": "2026-11-19T12:39:27+00:00",
+   "status": 200,
+   "sha256": "ea2051bf7cd07668c1bdb5c03cef21a61e09a4ac1b24f81b3f767a5c94454a83",
+   "ok": true,
+   "metrics": {
+    "likes": 2,
+    "bookmarks": 1,
+    "views": 317
+   }
+  },
+  {
+   "key": "x:2120028680055628006",
+   "url": "https://api.fxtwitter.com/KernelChai/status/2120028680055628006",
+   "checkedAt": "2026-11-19T12:39:27+00:00",
+   "status": 200,
+   "sha256": "b5b051564865bd0701083748b7882abefb4c5b7fd03c9c9826c310ee80d344c4",
+   "ok": true,
+   "metrics": {
+    "likes": 7,
+    "bookmarks": 1,
+    "views": 1286
+   }
+  },
+  {
+   "key": "x:2120028638833938583",
+   "url": "https://api.fxtwitter.com/makaneko_AI/status/2120028638833938583",
+   "checkedAt": "2026-11-19T12:39:27+00:00",
+   "status": 200,
+   "sha256": "80caa6bf54c06d10907f7b4d62a128b609157e867de59ad56f259a1259ddceca",
+   "ok": true,
+   "metrics": {
+    "likes": 7,
+    "bookmarks": 6,
+    "views": 4615
+   }
+  },
+  {
+   "key": "x:2120028393131712653",
+   "url": "https://api.fxtwitter.com/Sirbost/status/2120028393131712653",
+   "checkedAt": "2026-11-19T12:39:28+00:00",
+   "ok": false,
+   "error": "HTTP Error 404: Not Found",
+   "status": 404
+  },
+  {
+   "key": "x:2120027646071283723",
+   "url": "https://api.fxtwitter.com/AugustoBuilds/status/2120027646071283723",
+   "checkedAt": "2026-11-19T12:39:28+00:00",
+   "status": 200,
+   "sha256": "4532d05643cd91ccec1d676fadee758ed7dba2ade49ee72d79e178113a151b3d",
+   "ok": true,
+   "metrics": {
+    "likes": 1,
+    "bookmarks": 1,
+    "views": 5998
+   }
+  },
+  {
+   "key": "x:2120027555960934713",
+   "url": "https://api.fxtwitter.com/leohuanfang/status/2120027555960934713",
+   "checkedAt": "2026-11-19T12:39:28+00:00",
+   "status": 200,
+   "sha256": "1425c5153d7817c20eac902ad1769773baedb7df7ce4f82595d3e85e469e2449",
+   "ok": true,
+   "metrics": {
+    "likes": 0,
+    "bookmarks": 0,
+    "views": 61
+   }
+  },
+  {
+   "key": "x:2120027542967267380",
+   "url": "https://api.fxtwitter.com/satya5n21/status/2120027542967267380",
+   "checkedAt": "2026-11-19T12:39:28+00:00",
+   "status": 200,
+   "sha256": "b14b86109f0b7b529a68cf5817017f776d0399df1b565b8f54863c6f98dff62b",
+   "ok": true,
+   "metrics": {
+    "likes": 28,
+    "bookmarks": 2,
+    "views": 1734
+   }
+  },
+  {
+   "key": "x:2119902109709537708",
+   "url": "https://api.fxtwitter.com/rileybrown/status/2119902109709537708",
+   "checkedAt": "2026-11-19T12:39:28+00:00",
+   "status": 200,
+   "sha256": "c577b273fb0c3f19932f090a32abe2199cb61ae79bd89158d285f4af1bec9392",
+   "ok": true,
+   "metrics": {
+    "likes": 7070,
+    "bookmarks": 7273,
+    "views": 915760
+   }
+  },
+  {
+   "key": "x:2119926277801144695",
+   "url": "https://api.fxtwitter.com/theo/status/2119926277801144695",
+   "checkedAt": "2026-11-19T12:39:28+00:00",
+   "status": 200,
+   "sha256": "a78464a5ad17b122262ada7c64150921c9d9135d544fee98cfed61029c6c87d9",
+   "ok": true,
+   "metrics": {
+    "likes": 2324,
+    "bookmarks": 202,
+    "views": 141906
+   }
+  },
+  {
+   "key": "x:2119886664017547687",
+   "url": "https://api.fxtwitter.com/mattshumer_/status/2119886664017547687",
+   "checkedAt": "2026-11-19T12:39:29+00:00",
+   "status": 200,
+   "sha256": "284a3e15b40b1d2ab5ffdfa595d70f6625c9e6518e26ba229bc3b1d8e7ff9876",
+   "ok": true,
+   "metrics": {
+    "likes": 4408,
+    "bookmarks": 2578,
+    "views": 1149237
+   }
+  },
+  {
+   "key": "x:2120026765523665272",
+   "url": "https://api.fxtwitter.com/RoketsSI/status/2120026765523665272",
+   "checkedAt": "2026-11-19T12:39:29+00:00",
+   "status": 200,
+   "sha256": "c5b16770019c7bdd69bbbfe93f8f8233bbe651aceccf0271eaa90ca277707e3b",
+   "ok": true,
+   "metrics": {
+    "likes": 0,
+    "bookmarks": 0,
+    "views": 76
+   }
+  },
+  {
+   "key": "x:2120025125076844785",
+   "url": "https://api.fxtwitter.com/Shannnu_18/status/2120025125076844785",
+   "checkedAt": "2026-11-19T12:39:29+00:00",
+   "status": 200,
+   "sha256": "772e52c71e2d80fff18da0b73d415ebe3ce11fa0cd48140735e1d4711fa55578",
+   "ok": true,
+   "metrics": {
+    "likes": 18,
+    "bookmarks": 1,
+    "views": 670
+   }
+  },
+  {
+   "key": "x:2120024536955638078",
+   "url": "https://api.fxtwitter.com/akionionio/status/2120024536955638078",
+   "checkedAt": "2026-11-19T12:39:29+00:00",
+   "status": 200,
+   "sha256": "4060f58590daf990500ff5a721f9ec553ab35f69318b6bbe4d0f3f3bcf9ceca1",
+   "ok": true,
+   "metrics": {
+    "likes": 36,
+    "bookmarks": 27,
+    "views": 4896
+   }
+  },
+  {
+   "key": "x:2120024471100907802",
+   "url": "https://api.fxtwitter.com/AlexStLouis10/status/2120024471100907802",
+   "checkedAt": "2026-11-19T12:39:29+00:00",
+   "status": 200,
+   "sha256": "c91719024adca60e00e0a0896be567197cbf0a6baa835aece54027c20efedcb5",
+   "ok": true,
+   "metrics": {
+    "likes": 195,
+    "bookmarks": 158,
+    "views": 44189
+   }
+  },
+  {
+   "key": "x:2120024384685613199",
+   "url": "https://api.fxtwitter.com/LovekeshAnand07/status/2120024384685613199",
+   "checkedAt": "2026-11-19T12:39:29+00:00",
+   "status": 200,
+   "sha256": "09ee12606248d36b1cc0e30d161f98d4a75584f997193c8b1c8738a9e6c91e0b",
+   "ok": true,
+   "metrics": {
+    "likes": 0,
+    "bookmarks": 0,
+    "views": 70
+   }
+  },
+  {
+   "key": "x:2120023093464682817",
+   "url": "https://api.fxtwitter.com/czzzzzzJ_/status/2120023093464682817",
+   "checkedAt": "2026-11-19T12:39:29+00:00",
+   "status": 200,
+   "sha256": "21d1af8ba5eb1b68a2e5d36f92dbe4feeca79c9ba2d9547661f3ff80e17f5029",
+   "ok": true,
+   "metrics": {
+    "likes": 2,
+    "bookmarks": 1,
+    "views": 897
+   }
+  },
+  {
+   "key": "x:2120021610161996053",
+   "url": "https://api.fxtwitter.com/MrTacticalX/status/2120021610161996053",
+   "checkedAt": "2026-11-19T12:39:29+00:00",
+   "status": 200,
+   "sha256": "4de9b0d32898812b75ee0d95f7c9b2d06ca1f4b17e5581ec20d97bd5a70fb2ae",
+   "ok": true,
+   "metrics": {
+    "likes": 29,
+    "bookmarks": 13,
+    "views": 2878
+   }
+  },
+  {
+   "key": "x:2120021475495403789",
+   "url": "https://api.fxtwitter.com/rehan_shei/status/2120021475495403789",
+   "checkedAt": "2026-11-19T12:39:29+00:00",
+   "status": 200,
+   "sha256": "3e9e3f21772180d930e5f8634204cd8f2517cd3ac6e0babb268718d14942cbe6",
+   "ok": true,
+   "metrics": {
+    "likes": 47,
+    "bookmarks": 39,
+    "views": 3496
+   }
+  },
+  {
+   "key": "x:2120020469487440210",
+   "url": "https://api.fxtwitter.com/alightinastorm/status/2120020469487440210",
+   "checkedAt": "2026-11-19T12:39:29+00:00",
+   "status": 200,
+   "sha256": "18f24188657a7b1ea8159b40f57d115b0ad15dcb2cfe832ed7a2ee6f7a227573",
+   "ok": true,
+   "metrics": {
+    "likes": 163,
+    "bookmarks": 33,
+    "views": 13009
+   }
+  },
+  {
+   "key": "x:2120017840434823227",
+   "url": "https://api.fxtwitter.com/genel_ai/status/2120017840434823227",
+   "checkedAt": "2026-11-19T12:39:30+00:00",
+   "status": 200,
+   "sha256": "1f86c73a2a82367286bac143841d53094ad0011334fe8f83dfe8edf283195e05",
+   "ok": true,
+   "metrics": {
+    "likes": 23,
+    "bookmarks": 34,
+    "views": 7990
+   }
+  },
+  {
+   "key": "x:2120017467812778053",
+   "url": "https://api.fxtwitter.com/PorisRora/status/2120017467812778053",
+   "checkedAt": "2026-11-19T12:39:30+00:00",
+   "status": 200,
+   "sha256": "da857a52736a81571beafdc347c726655c7cad2c25137890b966c19d4c603c68",
+   "ok": true,
+   "metrics": {
+    "likes": 5,
+    "bookmarks": 0,
+    "views": 267
+   }
+  },
+  {
+   "key": "x:2120017106804900304",
+   "url": "https://api.fxtwitter.com/himanshutwtxs/status/2120017106804900304",
+   "checkedAt": "2026-11-19T12:39:30+00:00",
+   "status": 200,
+   "sha256": "84704644637b949dcee1818c8bbf371cc028a4d18acab8aab061cf5cc85d1f91",
+   "ok": true,
+   "metrics": {
+    "likes": 32,
+    "bookmarks": 16,
+    "views": 1629
+   }
+  },
+  {
+   "key": "x:2120017100844814354",
+   "url": "https://api.fxtwitter.com/deedee_kon45120/status/2120017100844814354",
+   "checkedAt": "2026-11-19T12:39:30+00:00",
+   "status": 200,
+   "sha256": "25a26f22752f2b247ab628a33c55cc297a9850234e36991fa8ae1dce3809936f",
+   "ok": true,
+   "metrics": {
+    "likes": 1,
+    "bookmarks": 0,
+    "views": 253
+   }
+  },
+  {
+   "key": "x:2120015289165426836",
+   "url": "https://api.fxtwitter.com/0x_zyven/status/2120015289165426836",
+   "checkedAt": "2026-11-19T12:39:30+00:00",
+   "status": 200,
+   "sha256": "60df0b3f0296794f180962d2e532996d683c5cb298eedf75760bd5eb3c08aae6",
+   "ok": true,
+   "metrics": {
+    "likes": 529,
+    "bookmarks": 7,
+    "views": 107823
+   }
+  },
+  {
+   "key": "x:2120014892040417720",
+   "url": "https://api.fxtwitter.com/wshuyi/status/2120014892040417720",
+   "checkedAt": "2026-11-19T12:39:30+00:00",
+   "status": 200,
+   "sha256": "856e0131e5867c5398722d9f728c262d9276ea343223156194ceea4e6ab96823",
+   "ok": true,
+   "metrics": {
+    "likes": 13,
+    "bookmarks": 4,
+    "views": 5174
+   }
+  },
+  {
+   "key": "x:2120014570790195600",
+   "url": "https://api.fxtwitter.com/davishaal/status/2120014570790195600",
+   "checkedAt": "2026-11-19T12:39:31+00:00",
+   "status": 200,
+   "sha256": "d19589463936fc5ee0fe890a06f36e1b2ce801990be3d8bab7457eb6fb3d8abf",
+   "ok": true,
+   "metrics": {
+    "likes": 8,
+    "bookmarks": 3,
+    "views": 661
+   }
+  },
+  {
+   "key": "x:2120013209554047013",
+   "url": "https://api.fxtwitter.com/akira_papa_IT/status/2120013209554047013",
+   "checkedAt": "2026-11-19T12:39:31+00:00",
+   "status": 200,
+   "sha256": "5b4e43c056d4589758f0b4b9d4721564422d3c28e752be2943bcf03d8fac2f6f",
+   "ok": true,
+   "metrics": {
+    "likes": 14,
+    "bookmarks": 2,
+    "views": 2597
+   }
+  },
+  {
+   "key": "x:2120007830065614926",
+   "url": "https://api.fxtwitter.com/higgsfield_ai/status/2120007830065614926",
+   "checkedAt": "2026-11-19T12:39:31+00:00",
+   "status": 200,
+   "sha256": "220d5264719b3187703d64157f722aa7b73c68923831d5a35dcaf231ab2fe319",
+   "ok": true,
+   "metrics": {
+    "likes": 246,
+    "bookmarks": 91,
+    "views": 24717
+   }
+  },
+  {
+   "key": "x:2119910344998912507",
+   "url": "https://api.fxtwitter.com/higgsfield_ai/status/2119910344998912507",
+   "checkedAt": "2026-11-19T12:39:31+00:00",
+   "status": 200,
+   "sha256": "cf76b8fe61f6e75a1babdc854acc44bda543ae5b5e451ec7ebb10ff090e9c59a",
+   "ok": true,
+   "metrics": {
+    "likes": 204,
+    "bookmarks": 57,
+    "views": 15897
+   }
+  },
+  {
+   "key": "x:2119909938969580024",
+   "url": "https://api.fxtwitter.com/higgsfield_ai/status/2119909938969580024",
+   "checkedAt": "2026-11-19T12:39:31+00:00",
+   "status": 200,
+   "sha256": "dfc8e8e01d99936f2b66453e1cdaec89f452c2f64847455e4c5b2de941286156",
+   "ok": true,
+   "metrics": {
+    "likes": 777,
+    "bookmarks": 598,
+    "views": 56583
+   }
+  },
+  {
+   "key": "x:2119909371484213380",
+   "url": "https://api.fxtwitter.com/s_matysik/status/2119909371484213380",
+   "checkedAt": "2026-11-19T12:39:31+00:00",
+   "status": 200,
+   "sha256": "e6290e0b0ce73898fb110cf43f9de8062dc630e3d531e3d56d3a07b0410de2af",
+   "ok": true,
+   "metrics": {
+    "likes": 1,
+    "bookmarks": 0,
+    "views": 79
+   }
+  },
+  {
+   "key": "x:2119907841599496421",
+   "url": "https://api.fxtwitter.com/higgsfield_ai/status/2119907841599496421",
+   "checkedAt": "2026-11-19T12:39:31+00:00",
+   "status": 200,
+   "sha256": "1139b8a6f63065c3e8fc70e87116e6979df90a15b30e1880d89b7c99e940dcc8",
+   "ok": true,
+   "metrics": {
+    "likes": 103,
+    "bookmarks": 26,
+    "views": 13663
+   }
+  },
+  {
+   "key": "x:2119907039669575757",
+   "url": "https://api.fxtwitter.com/whydeso/status/2119907039669575757",
+   "checkedAt": "2026-11-19T12:39:31+00:00",
+   "status": 200,
+   "sha256": "988fed4095621f7ceb1f3ad0921a52c40dcb260e68c91ff129a67bca566f4e99",
+   "ok": true,
+   "metrics": {
+    "likes": 11,
+    "bookmarks": 5,
+    "views": 1198
+   }
+  },
+  {
+   "key": "x:2119906202330988961",
+   "url": "https://api.fxtwitter.com/sprinntt/status/2119906202330988961",
+   "checkedAt": "2026-11-19T12:39:31+00:00",
+   "status": 200,
+   "sha256": "bf83e31e6f53198778de989852a36eed933b4340cd7d75b4d1729effe6aa48fd",
+   "ok": true,
+   "metrics": {
+    "likes": 3,
+    "bookmarks": 0,
+    "views": 1160
+   }
+  },
+  {
+   "key": "x:2119904269235277978",
+   "url": "https://api.fxtwitter.com/higgsfield_ai/status/2119904269235277978",
+   "checkedAt": "2026-11-19T12:39:31+00:00",
+   "status": 200,
+   "sha256": "4aee294015fb6d960e1cb096a7311a576c50b3c786fb3f3eda5a89e972ec7dc5",
+   "ok": true,
+   "metrics": {
+    "likes": 56,
+    "bookmarks": 21,
+    "views": 10532
+   }
+  },
+  {
+   "key": "x:2119903463735799971",
+   "url": "https://api.fxtwitter.com/adityavg13/status/2119903463735799971",
+   "checkedAt": "2026-11-19T12:39:32+00:00",
+   "status": 200,
+   "sha256": "37545f66373f64d630b2c460fade3a54697e2f331d44fb2f23f2c493d730d2da",
+   "ok": true,
+   "metrics": {
+    "likes": 292,
+    "bookmarks": 69,
+    "views": 45092
+   }
+  },
+  {
+   "key": "x:2119900775727902732",
+   "url": "https://api.fxtwitter.com/kplikethebird/status/2119900775727902732",
+   "checkedAt": "2026-11-19T12:39:32+00:00",
+   "status": 200,
+   "sha256": "2c9aa908a4d4ab701a8d673a552616a13f4c80bfe6aa8d02d06f53d2a72f3d06",
+   "ok": true,
+   "metrics": {
+    "likes": 43,
+    "bookmarks": 22,
+    "views": 10658
+   }
+  },
+  {
+   "key": "x:2119896030993146101",
+   "url": "https://api.fxtwitter.com/Ldataengineer/status/2119896030993146101",
+   "checkedAt": "2026-11-19T12:39:32+00:00",
+   "status": 200,
+   "sha256": "3dca2135de501ddba408b0a15d7bae867c626961a6419588d77e8bc2a4ad2a3c",
+   "ok": true,
+   "metrics": {
+    "likes": 5,
+    "bookmarks": 3,
+    "views": 2421
+   }
+  },
+  {
+   "key": "x:2119895459519168558",
+   "url": "https://api.fxtwitter.com/higgsfield_ai/status/2119895459519168558",
+   "checkedAt": "2026-11-19T12:39:32+00:00",
+   "status": 200,
+   "sha256": "76eb588ee6c8e1a57ccc08b0bb3018b2c6039a3005feabe572c1e52db89c119a",
+   "ok": true,
+   "metrics": {
+    "likes": 246,
+    "bookmarks": 179,
+    "views": 22535
+   }
+  },
+  {
+   "key": "x:2119894929795145756",
+   "url": "https://api.fxtwitter.com/jonathanhamiche/status/2119894929795145756",
+   "checkedAt": "2026-11-19T12:39:32+00:00",
+   "status": 200,
+   "sha256": "b44e9e4cff902c350ce3904b88c5eec53e7adaa974e685884a131916b4d942a5",
+   "ok": true,
+   "metrics": {
+    "likes": 0,
+    "bookmarks": 1,
+    "views": 151
+   }
+  },
+  {
+   "key": "x:2119894073024606617",
+   "url": "https://api.fxtwitter.com/crtvTeknologist/status/2119894073024606617",
+   "checkedAt": "2026-11-19T12:39:32+00:00",
+   "status": 200,
+   "sha256": "3db638949946fad58a3d0d0c4bbc92fb430a41b85fe32e8f5b3ae2bb360fb549",
+   "ok": true,
+   "metrics": {
+    "likes": 1577,
+    "bookmarks": 487,
+    "views": 92042
+   }
+  },
+  {
+   "key": "x:2119893970897490135",
+   "url": "https://api.fxtwitter.com/higgsfield_ai/status/2119893970897490135",
+   "checkedAt": "2026-11-19T12:39:32+00:00",
+   "status": 200,
+   "sha256": "1dfba450b745e64e1fd6ca035a3bd7c8f95c9d60824c6126a3f452f726f8638d",
+   "ok": true,
+   "metrics": {
+    "likes": 959,
+    "bookmarks": 731,
+    "views": 66234
+   }
+  },
+  {
+   "key": "x:2119891197317591040",
+   "url": "https://api.fxtwitter.com/al_maxgo/status/2119891197317591040",
+   "checkedAt": "2026-11-19T12:39:32+00:00",
+   "status": 200,
+   "sha256": "bdd1abb0caab77192a4b75e129e97a8de206c113afc946e24adedeccdcc985f1",
+   "ok": true,
+   "metrics": {
+    "likes": 17,
+    "bookmarks": 22,
+    "views": 1494
+   }
+  },
+  {
+   "key": "x:2119887623070077213",
+   "url": "https://api.fxtwitter.com/danteeonsol/status/2119887623070077213",
+   "checkedAt": "2026-11-19T12:39:33+00:00",
+   "status": 200,
+   "sha256": "052c5d2380f9d6138dd5908b2a4428e42d8d651f672cabd923c9780fb723093d",
+   "ok": true,
+   "metrics": {
+    "likes": 3,
+    "bookmarks": 2,
+    "views": 247
+   }
+  },
+  {
+   "key": "x:2119879273196761464",
+   "url": "https://api.fxtwitter.com/aidanshandle/status/2119879273196761464",
+   "checkedAt": "2026-11-19T12:39:33+00:00",
+   "status": 200,
+   "sha256": "1d7bdd6fc95a906030b8c4e814f09e59842990d92a03c23b9935bf065463196f",
+   "ok": true,
+   "metrics": {
+    "likes": 109,
+    "bookmarks": 31,
+    "views": 4524
+   }
+  },
+  {
+   "key": "x:2119869170871652487",
+   "url": "https://api.fxtwitter.com/maxleiter/status/2119869170871652487",
+   "checkedAt": "2026-11-19T12:39:33+00:00",
+   "status": 200,
+   "sha256": "9328883ad216efa50ad9a8ce465f38147981fa8a1b3c5bdbfd689b9d7ebc981c",
+   "ok": true,
+   "metrics": {
+    "likes": 66,
+    "bookmarks": 9,
+    "views": 3901
+   }
+  },
+  {
+   "key": "x:2119925633564463609",
+   "url": "https://api.fxtwitter.com/felixrieseberg/status/2119925633564463609",
+   "checkedAt": "2026-11-19T12:39:33+00:00",
+   "status": 200,
+   "sha256": "dbf59415d5c0be1ec51829ed0f495c8256526164df15323e453df81962d0d907",
+   "ok": true,
+   "metrics": {
+    "likes": 14993,
+    "bookmarks": 10393,
+    "views": 4466543
+   }
+  },
+  {
+   "key": "x:2120371213474107825",
+   "url": "https://api.fxtwitter.com/angeldot_/status/2120371213474107825",
+   "checkedAt": "2026-11-19T12:39:33+00:00",
+   "status": 200,
+   "sha256": "a6d4c61dd9f32a498e3cfc552adcdc30945fa8b64d0264afc33807dcdbbf34a3",
+   "ok": true,
+   "metrics": {
+    "likes": 159,
+    "bookmarks": 6,
+    "views": 19381
+   }
+  },
+  {
+   "key": "x:2120248525254742318",
+   "url": "https://api.fxtwitter.com/emollick/status/2120248525254742318",
+   "checkedAt": "2026-11-19T12:39:33+00:00",
+   "status": 200,
+   "sha256": "eccff8605a98373c7da45f2225813e15a118ee3d373d4f6a6531af9c8522af2c",
+   "ok": true,
+   "metrics": {
+    "likes": 303,
+    "bookmarks": 141,
+    "views": 30699
+   }
+  },
+  {
+   "key": "x:2120695866684231998",
+   "url": "https://api.fxtwitter.com/RyanSael/status/2120695866684231998",
+   "checkedAt": "2026-11-19T12:39:33+00:00",
+   "status": 200,
+   "sha256": "777a836d8fb85581aee6a56b9fb3a80446d1d202df82a237d60deaed4072b4b0",
+   "ok": true,
+   "metrics": {
+    "likes": 44,
+    "bookmarks": 20,
+    "views": 5874
+   }
+  },
+  {
+   "key": "x:2120192761542615271",
+   "url": "https://api.fxtwitter.com/loktar00/status/2120192761542615271",
+   "checkedAt": "2026-11-19T12:39:33+00:00",
+   "status": 200,
+   "sha256": "4074eb52627320841bbcca9b2fd35c17582581f73f9d3832e58e2fca2c3cc71f",
+   "ok": true,
+   "metrics": {
+    "likes": 1435,
+    "bookmarks": 897,
+    "views": 201943
+   }
+  },
+  {
+   "key": "x:2119868968307695818",
+   "url": "https://api.fxtwitter.com/kevin_t_ngo/status/2119868968307695818",
+   "checkedAt": "2026-11-19T12:39:33+00:00",
+   "status": 200,
+   "sha256": "bcd4f08355c583481c0722cab6633705b3e71421cc1e7242ad73a9af61a0c1d9",
+   "ok": true,
+   "metrics": {
+    "likes": 4277,
+    "bookmarks": 1817,
+    "views": 512519
+   }
+  },
+  {
+   "key": "x:2119867743965163994",
+   "url": "https://api.fxtwitter.com/ForwardEditor/status/2119867743965163994",
+   "checkedAt": "2026-11-19T12:39:33+00:00",
+   "status": 200,
+   "sha256": "7039c0971bc19c02c2f4b0bc44ab0124464083dee3e609fca726c97bdfe523df",
+   "ok": true,
+   "metrics": {
+    "likes": 459,
+    "bookmarks": 92,
+    "views": 31918
+   }
+  },
+  {
+   "key": "x:2119868640879349998",
+   "url": "https://api.fxtwitter.com/MatthewBerman/status/2119868640879349998",
+   "checkedAt": "2026-11-19T12:39:34+00:00",
+   "status": 200,
+   "sha256": "fa7fdd4232a4d1020caf5917733b5392d3b6bead9e873fe8999af0de60be6c58",
+   "ok": true,
+   "metrics": {
+    "likes": 56,
+    "bookmarks": 10,
+    "views": 6377
+   }
+  },
+  {
+   "key": "x:2119901658394358005",
+   "url": "https://api.fxtwitter.com/petergyang/status/2119901658394358005",
+   "checkedAt": "2026-11-19T12:39:34+00:00",
+   "status": 200,
+   "sha256": "80d97bacc54ccb1717ed7396e3889d32ef56dd91a2cd1e6d6613fa76120db6cd",
+   "ok": true,
+   "metrics": {
+    "likes": 142,
+    "bookmarks": 88,
+    "views": 33102
+   }
+  },
+  {
+   "key": "x:2119910054413685102",
+   "url": "https://api.fxtwitter.com/geneohms/status/2119910054413685102",
+   "checkedAt": "2026-11-19T12:39:34+00:00",
+   "status": 200,
+   "sha256": "344a9e01e6d9b095554cd8df62d8f09b8a7819246dc4671a4d45b410832a44a9",
+   "ok": true,
+   "metrics": {
+    "likes": 1,
+    "bookmarks": 0,
+    "views": 864
+   }
+  },
+  {
+   "key": "x:2119900328212713872",
+   "url": "https://api.fxtwitter.com/TekonBurns/status/2119900328212713872",
+   "checkedAt": "2026-11-19T12:39:34+00:00",
+   "status": 200,
+   "sha256": "70fee1e7ba92a1523e1ebf410163335b69e11ce27e39374ce4c4eddd57673bc6",
+   "ok": true,
+   "metrics": {
+    "likes": 31,
+    "bookmarks": 4,
+    "views": 1016
+   }
+  },
+  {
+   "key": "x:2119903808935313778",
+   "url": "https://api.fxtwitter.com/internetphysics/status/2119903808935313778",
+   "checkedAt": "2026-11-19T12:39:34+00:00",
+   "status": 200,
+   "sha256": "f0b443f65d74b9729c8f7e96246fd634e8610bdbfb0ea9103d6a7bb166377a18",
+   "ok": true,
+   "metrics": {
+    "likes": 389,
+    "bookmarks": 130,
+    "views": 66523
+   }
+  },
+  {
+   "key": "x:2119907891419480107",
+   "url": "https://api.fxtwitter.com/aug5thmusic/status/2119907891419480107",
+   "checkedAt": "2026-11-19T12:39:34+00:00",
+   "status": 200,
+   "sha256": "16438ae98e397f82e75debe19833b5a6750019fcbeff891d5765d0165bdb5363",
+   "ok": true,
+   "metrics": {
+    "likes": 129,
+    "bookmarks": 63,
+    "views": 11813
+   }
+  },
+  {
+   "key": "x:2119903338078564844",
+   "url": "https://api.fxtwitter.com/AmirMushich/status/2119903338078564844",
+   "checkedAt": "2026-11-19T12:39:34+00:00",
+   "status": 200,
+   "sha256": "bbb6d88ac8bf55e35e066ce53818be9ce2778d43c6c3f96b2dd08718799fd07a",
+   "ok": true,
+   "metrics": {
+    "likes": 241,
+    "bookmarks": 214,
+    "views": 81139
+   }
+  },
+  {
+   "key": "x:2119905501601272283",
+   "url": "https://api.fxtwitter.com/evrentkg/status/2119905501601272283",
+   "checkedAt": "2026-11-19T12:39:34+00:00",
+   "status": 200,
+   "sha256": "071aceecb3643a3f430819064e919d8a22e0d67af92fd709a0266a1e6432bd9a",
+   "ok": true,
+   "metrics": {
+    "likes": 8,
+    "bookmarks": 1,
+    "views": 167
+   }
+  },
+  {
+   "key": "x:2120016334679609690",
+   "url": "https://api.fxtwitter.com/HolyGrail/status/2120016334679609690",
+   "checkedAt": "2026-11-19T12:39:34+00:00",
+   "status": 200,
+   "sha256": "2934294d19e295e2249a1ac20d72b83761ad2db59c17cb5b75c76ad457bf870e",
+   "ok": true,
+   "metrics": {
+    "likes": 38,
+    "bookmarks": 10,
+    "views": 2665
+   }
+  },
+  {
+   "key": "x:2120007289071640613",
+   "url": "https://api.fxtwitter.com/niramayo2096/status/2120007289071640613",
+   "checkedAt": "2026-11-19T12:39:34+00:00",
+   "status": 200,
+   "sha256": "818d1597eeec2476c9481d21e365d9d48da3d421ee91e4d5e33a8d35bce29555",
+   "ok": true,
+   "metrics": {
+    "likes": 6,
+    "bookmarks": 1,
+    "views": 409
+   }
+  },
+  {
+   "key": "x:2120012834461646927",
+   "url": "https://api.fxtwitter.com/tankazunori0914/status/2120012834461646927",
+   "checkedAt": "2026-11-19T12:39:34+00:00",
+   "status": 200,
+   "sha256": "9dfd7063af4ecb7385948db7199bf640014462696ee3d8b081fd9470357b37f9",
+   "ok": true,
+   "metrics": {
+    "likes": 5,
+    "bookmarks": 3,
+    "views": 486
+   }
+  },
+  {
+   "key": "x:2120010028073771323",
+   "url": "https://api.fxtwitter.com/mrdejie/status/2120010028073771323",
+   "checkedAt": "2026-11-19T12:39:35+00:00",
+   "status": 200,
+   "sha256": "dc853292f9e272cbe2f671f803f57fb8e738de9ba9fa53a2531ac97cca1201df",
+   "ok": true,
+   "metrics": {
+    "likes": 210,
+    "bookmarks": 3,
+    "views": 34658
+   }
+  },
+  {
+   "key": "x:2120008924204310895",
+   "url": "https://api.fxtwitter.com/j_h_h_3/status/2120008924204310895",
+   "checkedAt": "2026-11-19T12:39:35+00:00",
+   "status": 200,
+   "sha256": "912a91661caa2fc7681ee9f17407eaecff248b8c289734e134eff3429102682f",
+   "ok": true,
+   "metrics": {
+    "likes": 45,
+    "bookmarks": 53,
+    "views": 6073
+   }
+  },
+  {
+   "key": "x:2120030097004777937",
+   "url": "https://api.fxtwitter.com/jarrodwatts/status/2120030097004777937",
+   "checkedAt": "2026-11-19T12:39:35+00:00",
+   "status": 200,
+   "sha256": "57c4aeddffdcb2304cbe6dbfda2981d072214fa6740868ab57871838a2dd7ffe",
+   "ok": true,
+   "metrics": {
+    "likes": 155,
+    "bookmarks": 22,
+    "views": 11349
+   }
+  },
+  {
+   "key": "x:2119868633086378471",
+   "url": "https://api.fxtwitter.com/MatthewBerman/status/2119868633086378471",
+   "checkedAt": "2026-11-19T12:39:35+00:00",
+   "status": 200,
+   "sha256": "3df3d15bdda3573da546b1fc20e83eecd0beec8ff19879927538a262d4e01711",
+   "ok": true,
+   "metrics": {
+    "likes": 100,
+    "bookmarks": 63,
+    "views": 8226
+   }
+  },
+  {
+   "key": "x:2119919466163093768",
+   "url": "https://api.fxtwitter.com/Rasmic/status/2119919466163093768",
+   "checkedAt": "2026-11-19T12:39:35+00:00",
+   "status": 200,
+   "sha256": "8969521884264aabe9fec28c1517f6094e7103233a4aae0360f2bfed82a7e1ec",
+   "ok": true,
+   "metrics": {
+    "likes": 246,
+    "bookmarks": 73,
+    "views": 12109
+   }
+  },
+  {
+   "key": "x:2119978892861829227",
+   "url": "https://api.fxtwitter.com/linxiaobei888/status/2119978892861829227",
+   "checkedAt": "2026-11-19T12:39:35+00:00",
+   "status": 200,
+   "sha256": "38d26a8eed317a4975828ddd5330037d02f4de114bf8b8176929b8942601adb6",
+   "ok": true,
+   "metrics": {
+    "likes": 159,
+    "bookmarks": 191,
+    "views": 84887
+   }
+  },
+  {
+   "key": "x:2119974354260013293",
+   "url": "https://api.fxtwitter.com/DeryaTR_/status/2119974354260013293",
+   "checkedAt": "2026-11-19T12:39:35+00:00",
+   "status": 200,
+   "sha256": "be6623828f8feca1e28743bac881cf222aa5655a41af932449dab4e04f6255fd",
+   "ok": true,
+   "metrics": {
+    "likes": 283,
+    "bookmarks": 80,
+    "views": 16985
+   }
+  },
+  {
+   "key": "x:2120341251178594532",
+   "url": "https://api.fxtwitter.com/BlendiByl/status/2120341251178594532",
+   "checkedAt": "2026-11-19T12:39:36+00:00",
+   "status": 200,
+   "sha256": "8f259e19e393e128fa9e7f268f44c894e398c6f028f1a431930716e45f5d0d51",
+   "ok": true,
+   "metrics": {
+    "likes": 8017,
+    "bookmarks": 4286,
+    "views": 455366
+   }
+  },
+  {
+   "key": "x:2120438091647218025",
+   "url": "https://api.fxtwitter.com/chetaslua/status/2120438091647218025",
+   "checkedAt": "2026-11-19T12:39:36+00:00",
+   "status": 200,
+   "sha256": "23d4cc36e0ac4db9ada36e8eaf7300372f72dd7e021838836f16388c3d92d610",
+   "ok": true,
+   "metrics": {
+    "likes": 358,
+    "bookmarks": 93,
+    "views": 15495
+   }
+  },
+  {
+   "key": "x:2119931740940640542",
+   "url": "https://api.fxtwitter.com/Izkimar/status/2119931740940640542",
+   "checkedAt": "2026-11-19T12:39:36+00:00",
+   "status": 200,
+   "sha256": "5bc8ed66204027d9fec5cb159c223330702fd94645fb3e6c9089295e643b57b1",
+   "ok": true,
+   "metrics": {
+    "likes": 369,
+    "bookmarks": 182,
+    "views": 22657
+   }
+  },
+  {
+   "key": "x:2119877733488394520",
+   "url": "https://api.fxtwitter.com/petergostev/status/2119877733488394520",
+   "checkedAt": "2026-11-19T12:39:36+00:00",
+   "status": 200,
+   "sha256": "bb1e44e7dc421b355cf92193b601e403164085149ae349a78a9f33e06a25f5f4",
+   "ok": true,
+   "metrics": {
+    "likes": 2913,
+    "bookmarks": 884,
+    "views": 485333
+   }
+  },
+  {
+   "key": "x:2119885430627913784",
+   "url": "https://api.fxtwitter.com/other__reality/status/2119885430627913784",
+   "checkedAt": "2026-11-19T12:39:36+00:00",
+   "status": 200,
+   "sha256": "a565b98b476e51258f3567c0a345b2e00fd06692d75f94ee58a7f3ed13309354",
+   "ok": true,
+   "metrics": {
+    "likes": 219,
+    "bookmarks": 93,
+    "views": 14380
+   }
+  },
+  {
+   "key": "x:2120003817584361926",
+   "url": "https://api.fxtwitter.com/higgsfield_ai/status/2120003817584361926",
+   "checkedAt": "2026-11-19T12:39:36+00:00",
+   "status": 200,
+   "sha256": "516ec5df947d7d26d434d929510290d4bbdedb8c964a05286744e187723fedf5",
+   "ok": true,
+   "metrics": {
+    "likes": 41,
+    "bookmarks": 15,
+    "views": 11284
+   }
+  },
+  {
+   "key": "x:2120896377337360598",
+   "url": "https://api.fxtwitter.com/mimi10v3/status/2120896377337360598",
+   "checkedAt": "2026-11-19T12:39:36+00:00",
+   "status": 200,
+   "sha256": "a52f66aa4704e838766cde9d56d514a93b864e7421ce096038762f5c10a162b4",
+   "ok": true,
+   "metrics": {
+    "likes": 29,
+    "bookmarks": 7,
+    "views": 952
+   }
+  },
+  {
+   "key": "x:2120896365828173898",
+   "url": "https://api.fxtwitter.com/keiru_ai/status/2120896365828173898",
+   "checkedAt": "2026-11-19T12:39:36+00:00",
+   "status": 200,
+   "sha256": "9d733d713bf711e4961f7ecf8111015006cc32a55ee81c4cce56b9ca1010dcd9",
+   "ok": true,
+   "metrics": {
+    "likes": 7,
+    "bookmarks": 0,
+    "views": 351
+   }
+  },
+  {
+   "key": "x:2120895857101029643",
+   "url": "https://api.fxtwitter.com/yulafezmem/status/2120895857101029643",
+   "checkedAt": "2026-11-19T12:39:36+00:00",
+   "status": 200,
+   "sha256": "60a34572dd2cdb8e935f27a5851e582721c6abaca0371909799519b4faa4085c",
+   "ok": true,
+   "metrics": {
+    "likes": 8,
+    "bookmarks": 0,
+    "views": 333
+   }
+  },
+  {
+   "key": "x:2120891575756861689",
+   "url": "https://api.fxtwitter.com/ujjexe/status/2120891575756861689",
+   "checkedAt": "2026-11-19T12:39:36+00:00",
+   "status": 200,
+   "sha256": "189e2820611eb8bc4235c98a515c4e6bfbcb145104a828ced55a7d38c58bfca1",
+   "ok": true,
+   "metrics": {
+    "likes": 4,
+    "bookmarks": 0,
+    "views": 248
+   }
+  },
+  {
+   "key": "x:2120882741529235921",
+   "url": "https://api.fxtwitter.com/RohithThakurwar/status/2120882741529235921",
+   "checkedAt": "2026-11-19T12:39:36+00:00",
+   "status": 200,
+   "sha256": "5d7d9867bd57671a1d13e901eebb5c646f9baa4aeeb2431baf82f00522f58a17",
+   "ok": true,
+   "metrics": {
+    "likes": 1,
+    "bookmarks": 0,
+    "views": 37
+   }
+  },
+  {
+   "key": "x:2120866958790848953",
+   "url": "https://api.fxtwitter.com/literallydenis/status/2120866958790848953",
+   "checkedAt": "2026-11-19T12:39:36+00:00",
+   "status": 200,
+   "sha256": "27eecf1ee56c819b32590add49471f74eb306b350fd8d50ab337ec1f5ee3deec",
+   "ok": true,
+   "metrics": {
+    "likes": 1168,
+    "bookmarks": 622,
+    "views": 81211
+   }
+  },
+  {
+   "key": "x:2120867905537736783",
+   "url": "https://api.fxtwitter.com/benchuchu/status/2120867905537736783",
+   "checkedAt": "2026-11-19T12:39:37+00:00",
+   "status": 200,
+   "sha256": "251c16bde9470571a397f7d273ffcae778e18820a358ad1d88ff17a1f89d6274",
+   "ok": true,
+   "metrics": {
+    "likes": 58,
+    "bookmarks": 3,
+    "views": 2074
+   }
+  },
+  {
+   "key": "x:2120875576701403387",
+   "url": "https://api.fxtwitter.com/nataliexbz/status/2120875576701403387",
+   "checkedAt": "2026-11-19T12:39:37+00:00",
+   "status": 200,
+   "sha256": "d0ca56140da4a7a0cc5cf4c8bf80a21b1f1ee85040107df37ff7cfba0d9b8be5",
+   "ok": true,
+   "metrics": {
+    "likes": 45,
+    "bookmarks": 24,
+    "views": 1673
+   }
+  },
+  {
+   "key": "x:2120284261089673376",
+   "url": "https://api.fxtwitter.com/ebbyamir/status/2120284261089673376",
+   "checkedAt": "2026-11-19T12:39:37+00:00",
+   "status": 200,
+   "sha256": "af062dc5921ee84598722ee58376e477e048a202f860f91bccd943a33d57326b",
+   "ok": true,
+   "metrics": {
+    "likes": 17964,
+    "bookmarks": 10059,
+    "views": 1981506
+   }
+  },
+  {
+   "key": "x:2119952985933697063",
+   "url": "https://api.fxtwitter.com/suna_gaku/status/2119952985933697063",
+   "checkedAt": "2026-11-19T12:39:37+00:00",
+   "status": 200,
+   "sha256": "0da540f1a92b4435c00821d9abb612ef8fa320fb461510f065bae0c30ab7b3cc",
+   "ok": true,
+   "metrics": {
+    "likes": 6771,
+    "bookmarks": 4193,
+    "views": 1130120
+   }
+  },
+  {
+   "key": "x:2120154832694858224",
+   "url": "https://api.fxtwitter.com/dominikmartn/status/2120154832694858224",
+   "checkedAt": "2026-11-19T12:39:37+00:00",
+   "status": 200,
+   "sha256": "f8cf11b285ed1ad23311e2c9a543543e0b43970787c182e0995ee158ee91c228",
+   "ok": true,
+   "metrics": {
+    "likes": 7254,
+    "bookmarks": 5353,
+    "views": 374054
+   }
+  },
+  {
+   "key": "x:2120172126175162672",
+   "url": "https://api.fxtwitter.com/megyo9/status/2120172126175162672",
+   "checkedAt": "2026-11-19T12:39:37+00:00",
+   "status": 200,
+   "sha256": "e08811c83a64f20148f4899e0fe54c97bedd49bd4d0a0aad6770b1e217e51147",
+   "ok": true,
+   "metrics": {
+    "likes": 5396,
+    "bookmarks": 2823,
+    "views": 439036
+   }
+  },
+  {
+   "key": "x:2120002682421182624",
+   "url": "https://api.fxtwitter.com/gavinpurcell/status/2120002682421182624",
+   "checkedAt": "2026-11-19T12:39:38+00:00",
+   "status": 200,
+   "sha256": "3e50ab563f4f0e60ce39c8ea4b1c415c9897dc58c50851025989f1d7ea4fd85f",
+   "ok": true,
+   "metrics": {
+    "likes": 5125,
+    "bookmarks": 2320,
+    "views": 380064
+   }
+  },
+  {
+   "key": "x:2120010995309457643",
+   "url": "https://api.fxtwitter.com/anabology/status/2120010995309457643",
+   "checkedAt": "2026-11-19T12:39:38+00:00",
+   "status": 200,
+   "sha256": "a2e8b9bfa19a980de9379f7ba5e7eb9a287702aaf551f76718422e5783938a85",
+   "ok": true,
+   "metrics": {
+    "likes": 5464,
+    "bookmarks": 3962,
+    "views": 1043249
+   }
+  },
+  {
+   "key": "x:2119870150845599972",
+   "url": "https://api.fxtwitter.com/emollick/status/2119870150845599972",
+   "checkedAt": "2026-11-19T12:39:38+00:00",
+   "status": 200,
+   "sha256": "8a49cf0da4513c2b43add6cfd18c0731082ec4459939a520c524c14e7901bc99",
+   "ok": true,
+   "metrics": {
+    "likes": 4274,
+    "bookmarks": 4480,
+    "views": 728366
+   }
+  },
+  {
+   "key": "x:2120260208245043663",
+   "url": "https://api.fxtwitter.com/aollivier82/status/2120260208245043663",
+   "checkedAt": "2026-11-19T12:39:38+00:00",
+   "status": 200,
+   "sha256": "d688a9b879253bb6eb3ea803372656a5564505c69f0b2843f3085bc761607b7f",
+   "ok": true,
+   "metrics": {
+    "likes": 3201,
+    "bookmarks": 1010,
+    "views": 562501
+   }
+  },
+  {
+   "key": "x:2119918307457577163",
+   "url": "https://api.fxtwitter.com/emollick/status/2119918307457577163",
+   "checkedAt": "2026-11-19T12:39:38+00:00",
+   "status": 200,
+   "sha256": "fee694bff5b3193fe52e45c75758176127f73a8232aaddfc2cac5ca872579dbd",
+   "ok": true,
+   "metrics": {
+    "likes": 1938,
+    "bookmarks": 1058,
+    "views": 110734
+   }
+  },
+  {
+   "key": "x:2120237304694579367",
+   "url": "https://api.fxtwitter.com/birdabo/status/2120237304694579367",
+   "checkedAt": "2026-11-19T12:39:38+00:00",
+   "status": 200,
+   "sha256": "562ba3491c482b830173543a157a21b84fa24541e7d36f65e07e45648658688b",
+   "ok": true,
+   "metrics": {
+    "likes": 1959,
+    "bookmarks": 774,
+    "views": 125096
+   }
+  },
+  {
+   "key": "x:2120238844754923874",
+   "url": "https://api.fxtwitter.com/kevin_t_ngo/status/2120238844754923874",
+   "checkedAt": "2026-11-19T12:39:38+00:00",
+   "status": 200,
+   "sha256": "cabd95b3c068a1d65cebc3067b02e3ddecd38aa7478002f2486b41c3f0297fd8",
+   "ok": true,
+   "metrics": {
+    "likes": 1801,
+    "bookmarks": 1001,
+    "views": 487780
+   }
+  },
+  {
+   "key": "x:2120000888974766501",
+   "url": "https://api.fxtwitter.com/emollick/status/2120000888974766501",
+   "checkedAt": "2026-11-19T12:39:38+00:00",
+   "status": 200,
+   "sha256": "e316359b2bf24e0b3bee9ec39f2a8af6e138347671de3b6e80acb9c198f75ac8",
+   "ok": true,
+   "metrics": {
+    "likes": 1526,
+    "bookmarks": 433,
+    "views": 109515
+   }
+  },
+  {
+   "key": "x:2120905625852936318",
+   "url": "https://api.fxtwitter.com/deedydas/status/2120905625852936318",
+   "checkedAt": "2026-11-19T12:39:38+00:00",
+   "status": 200,
+   "sha256": "f10dcdbaf2c3adf69c53a267adf9b2c7b7688b1671e024a9175d8454c1cce74b",
+   "ok": true,
+   "metrics": {
+    "likes": 4060,
+    "bookmarks": 3919,
+    "views": 1205055
+   }
+  },
+  {
+   "key": "x:2120030634248929556",
+   "url": "https://api.fxtwitter.com/akakuma0219/status/2120030634248929556",
+   "checkedAt": "2026-11-19T12:39:38+00:00",
+   "status": 200,
+   "sha256": "5b21d7e3d36114da35b6e5f8083c1151b369d3baf97e481814d7bfe092bd2f20",
+   "ok": true,
+   "metrics": {
+    "likes": 1402,
+    "bookmarks": 1230,
+    "views": 128191
+   }
+  },
+  {
+   "key": "x:2120453392921501862",
+   "url": "https://api.fxtwitter.com/akakuma0219/status/2120453392921501862",
+   "checkedAt": "2026-11-19T12:39:39+00:00",
+   "status": 200,
+   "sha256": "dd9f4881708a2809776ec702cab41dbc95d4276bfa78a67523ff69f58822d813",
+   "ok": true,
+   "metrics": {
+    "likes": 115,
+    "bookmarks": 34,
+    "views": 4777
+   }
+  },
+  {
+   "key": "x:2120486254852608470",
+   "url": "https://api.fxtwitter.com/DaveJ/status/2120486254852608470",
+   "checkedAt": "2026-11-19T12:39:39+00:00",
+   "status": 200,
+   "sha256": "e04b189715991c1720446862d509f276a84397ad41acc9714e0b44c5050dc688",
+   "ok": true,
+   "metrics": {
+    "likes": 1387,
+    "bookmarks": 1238,
+    "views": 49473
+   }
+  },
+  {
+   "key": "x:2120636604624560229",
+   "url": "https://api.fxtwitter.com/pingouh/status/2120636604624560229",
+   "checkedAt": "2026-11-19T12:39:39+00:00",
+   "status": 200,
+   "sha256": "33b912eedd75f685038893f3147ef3041d5318e4f6f1f8924017c69b03fdd86c",
+   "ok": true,
+   "metrics": {
+    "likes": 1710,
+    "bookmarks": 857,
+    "views": 65846
+   }
+  },
+  {
+   "key": "x:2120722200001122321",
+   "url": "https://api.fxtwitter.com/kevin_t_ngo/status/2120722200001122321",
+   "checkedAt": "2026-11-19T12:39:39+00:00",
+   "status": 200,
+   "sha256": "e6ff1b9abb0d4e973475a12ecae559269bd321b0554227b2a839fcf0372f02c8",
+   "ok": true,
+   "metrics": {
+    "likes": 3179,
+    "bookmarks": 1288,
+    "views": 368052
+   }
+  },
+  {
+   "key": "x:2120152637249315094",
+   "url": "https://api.fxtwitter.com/cube_224/status/2120152637249315094",
+   "checkedAt": "2026-11-19T12:39:39+00:00",
+   "status": 200,
+   "sha256": "0323a419e09054f99eaa3c72c2f0427d36ab1ad63d1a08549857a7d410c448dc",
+   "ok": true,
+   "metrics": {
+    "likes": 1229,
+    "bookmarks": 790,
+    "views": 95290
+   }
+  },
+  {
+   "key": "x:2120498246426706176",
+   "url": "https://api.fxtwitter.com/RezAIT00/status/2120498246426706176",
+   "checkedAt": "2026-11-19T12:39:39+00:00",
+   "status": 200,
+   "sha256": "debafee5dc3898118d737ab54c6681c24f8e1c6890e1bff036962805ee0faff4",
+   "ok": true,
+   "metrics": {
+    "likes": 1329,
+    "bookmarks": 648,
+    "views": 79162
+   }
+  },
+  {
+   "key": "x:2120248387354190212",
+   "url": "https://api.fxtwitter.com/JamesC_Alpha/status/2120248387354190212",
+   "checkedAt": "2026-11-19T12:39:39+00:00",
+   "status": 200,
+   "sha256": "aeb3a144772e105eebdd357746e6afabf130a6ba41f2f29b93b53771a1305ecf",
+   "ok": true,
+   "metrics": {
+    "likes": 1194,
+    "bookmarks": 1246,
+    "views": 79171
+   }
+  },
+  {
+   "key": "x:2120752985949057215",
+   "url": "https://api.fxtwitter.com/chrisjdimarco/status/2120752985949057215",
+   "checkedAt": "2026-11-19T12:39:39+00:00",
+   "status": 200,
+   "sha256": "501acf30d5d93104c9d5d5e667f2e9eef509cf6a24e659852a35457160ebe585",
+   "ok": true,
+   "metrics": {
+    "likes": 1683,
+    "bookmarks": 839,
+    "views": 146857
+   }
+  },
+  {
+   "key": "x:2120443630213267500",
+   "url": "https://api.fxtwitter.com/marcvidal/status/2120443630213267500",
+   "checkedAt": "2026-11-19T12:39:40+00:00",
+   "status": 200,
+   "sha256": "364b256d9ea36d6e0659b83055244b1747093ec6b4f8c9c513a9c5d22c49a9b1",
+   "ok": true,
+   "metrics": {
+    "likes": 1062,
+    "bookmarks": 248,
+    "views": 97762
+   }
+  },
+  {
+   "key": "x:2120694045299327187",
+   "url": "https://api.fxtwitter.com/op7418/status/2120694045299327187",
+   "checkedAt": "2026-11-19T12:39:40+00:00",
+   "status": 200,
+   "sha256": "ef8f6c586b136b96426c98472778a14623abd3eaf510e1d14cfaf24809d0cb53",
+   "ok": true,
+   "metrics": {
+    "likes": 1163,
+    "bookmarks": 970,
+    "views": 296113
+   }
+  },
+  {
+   "key": "x:2120680918914601165",
+   "url": "https://api.fxtwitter.com/calebfahlgren/status/2120680918914601165",
+   "checkedAt": "2026-11-19T12:39:40+00:00",
+   "status": 200,
+   "sha256": "29fc52b4164161c5d12274059504867e2696aedcfe9cd482463860b1bc0a42bb",
+   "ok": true,
+   "metrics": {
+    "likes": 1023,
+    "bookmarks": 711,
+    "views": 85082
+   }
+  },
+  {
+   "key": "x:2119975721909301684",
+   "url": "https://api.fxtwitter.com/higgsfield_ai/status/2119975721909301684",
+   "checkedAt": "2026-11-19T12:39:40+00:00",
+   "status": 200,
+   "sha256": "7bf20d7b14a5efb509b5b88f1e1a06e92da1400337dfe0740de2b8ffaaabbe9f",
+   "ok": true,
+   "metrics": {
+    "likes": 878,
+    "bookmarks": 239,
+    "views": 174789
+   }
+  },
+  {
+   "key": "x:2119972124211454139",
+   "url": "https://api.fxtwitter.com/kevin_t_ngo/status/2119972124211454139",
+   "checkedAt": "2026-11-19T12:39:40+00:00",
+   "status": 200,
+   "sha256": "a9396a1da31f09b3d9dab449cf182774e118a45b44b83a66a3f30cccf45caf58",
+   "ok": true,
+   "metrics": {
+    "likes": 766,
+    "bookmarks": 372,
+    "views": 31388
+   }
+  },
+  {
+   "key": "x:2120570580743471284",
+   "url": "https://api.fxtwitter.com/goodhart_labs/status/2120570580743471284",
+   "checkedAt": "2026-11-19T12:39:40+00:00",
+   "status": 200,
+   "sha256": "51f65cb05cddf1f7b5b0a9233af96f43011d1cbf80ec19ef0202da10c9234f32",
+   "ok": true,
+   "metrics": {
+    "likes": 673,
+    "bookmarks": 218,
+    "views": 73907
+   }
+  },
+  {
+   "key": "x:2120635318001180996",
+   "url": "https://api.fxtwitter.com/KHvostikk/status/2120635318001180996",
+   "checkedAt": "2026-11-19T12:39:40+00:00",
+   "status": 200,
+   "sha256": "f2fc39311b1b3a721f99664bed2cd5bdb605cae3800d854be4d95009bcb4ea53",
+   "ok": true,
+   "metrics": {
+    "likes": 669,
+    "bookmarks": 475,
+    "views": 36532
+   }
+  },
+  {
+   "key": "x:2119916096098582566",
+   "url": "https://api.fxtwitter.com/0xKense1/status/2119916096098582566",
+   "checkedAt": "2026-11-19T12:39:40+00:00",
+   "status": 200,
+   "sha256": "146991983535d452f3c7a7d75ff9552c247351c36ae252ece12419e88dde52a2",
+   "ok": true,
+   "metrics": {
+    "likes": 552,
+    "bookmarks": 839,
+    "views": 53214
+   }
+  },
+  {
+   "key": "x:2120359214157603139",
+   "url": "https://api.fxtwitter.com/emollick/status/2120359214157603139",
+   "checkedAt": "2026-11-19T12:39:40+00:00",
+   "status": 200,
+   "sha256": "65a15b789ba458311458e64e58c536eb109b66698a5ced69087589562eeea281",
+   "ok": true,
+   "metrics": {
+    "likes": 457,
+    "bookmarks": 196,
+    "views": 55818
+   }
+  },
+  {
+   "key": "x:2120071690482794603",
+   "url": "https://api.fxtwitter.com/solotechdev/status/2120071690482794603",
+   "checkedAt": "2026-11-19T12:39:41+00:00",
+   "status": 200,
+   "sha256": "8aec2a34e7ffb3a46a58058049a5729b8fcbf0ddf36e4b96dfb22c7feb993aac",
+   "ok": true,
+   "metrics": {
+    "likes": 433,
+    "bookmarks": 494,
+    "views": 34695
+   }
+  },
+  {
+   "key": "x:2119937977426338283",
+   "url": "https://api.fxtwitter.com/AmirMushich/status/2119937977426338283",
+   "checkedAt": "2026-11-19T12:39:41+00:00",
+   "status": 200,
+   "sha256": "3a1fdec2a4e6fb33ed3233fc088e98b9d9a7530bb4831e26a9b16cb5f1a8b182",
+   "ok": true,
+   "metrics": {
+    "likes": 253,
+    "bookmarks": 153,
+    "views": 63294
+   }
+  },
+  {
+   "key": "x:2120858483390337361",
+   "url": "https://api.fxtwitter.com/KHvostikk/status/2120858483390337361",
+   "checkedAt": "2026-11-19T12:39:41+00:00",
+   "status": 200,
+   "sha256": "134de9e078acd093f2eef4668aa5bf136afe4b59503d87d9ba7fe6cd725a8c29",
+   "ok": true,
+   "metrics": {
+    "likes": 282,
+    "bookmarks": 256,
+    "views": 11082
+   }
+  },
+  {
+   "key": "x:2120846360064692377",
+   "url": "https://api.fxtwitter.com/noclipepe/status/2120846360064692377",
+   "checkedAt": "2026-11-19T12:39:41+00:00",
+   "status": 200,
+   "sha256": "c0950f064bb1a1fb7e1ce7522a7480c608be721bb80a90aa3ce242f0d47250e9",
+   "ok": true,
+   "metrics": {
+    "likes": 334,
+    "bookmarks": 94,
+    "views": 55972
+   }
+  },
+  {
+   "key": "x:2120090542419984686",
+   "url": "https://api.fxtwitter.com/devteamdrew/status/2120090542419984686",
+   "checkedAt": "2026-11-19T12:39:41+00:00",
+   "status": 200,
+   "sha256": "e5ebc81798f650214d303f8601eded034105a9728452196cb80f5e288e2d8d1e",
+   "ok": true,
+   "metrics": {
+    "likes": 218,
+    "bookmarks": 114,
+    "views": 11404
+   }
+  },
+  {
+   "key": "x:2120302122776342865",
+   "url": "https://api.fxtwitter.com/AugustCastilIo/status/2120302122776342865",
+   "checkedAt": "2026-11-19T12:39:41+00:00",
+   "status": 200,
+   "sha256": "7f4c3d203da3bb15b12c2a8c8807b8a0f63aa395a1e6f2d6036c9f1f68bea8f2",
+   "ok": true,
+   "metrics": {
+    "likes": 215,
+    "bookmarks": 163,
+    "views": 21439
+   }
+  },
+  {
+   "key": "x:2120290751502581879",
+   "url": "https://api.fxtwitter.com/AugustCastilIo/status/2120290751502581879",
+   "checkedAt": "2026-11-19T12:39:41+00:00",
+   "status": 200,
+   "sha256": "2ede8f66efee1c1cf9e6b18aaffed3e3373820ae45ddfab1f8f92abdabad8277",
+   "ok": true,
+   "metrics": {
+    "likes": 128,
+    "bookmarks": 78,
+    "views": 6212
+   }
+  },
+  {
+   "key": "x:2120599812512833557",
+   "url": "https://api.fxtwitter.com/Andrew_Blumson/status/2120599812512833557",
+   "checkedAt": "2026-11-19T12:39:41+00:00",
+   "status": 200,
+   "sha256": "cf2e981d97a141dfdac99b5623b50cc1a1fa40d9b186e5fb56d447f6dc700bcc",
+   "ok": true,
+   "metrics": {
+    "likes": 247,
+    "bookmarks": 220,
+    "views": 122545
+   }
+  },
+  {
+   "key": "x:2120508846758400485",
+   "url": "https://api.fxtwitter.com/kotohibi_3d/status/2120508846758400485",
+   "checkedAt": "2026-11-19T12:39:41+00:00",
+   "status": 200,
+   "sha256": "7a3bf730d2586668c372344af55d17ef02cc17da04667acc0e07b2a113c9f1d4",
+   "ok": true,
+   "metrics": {
+    "likes": 144,
+    "bookmarks": 113,
+    "views": 15900
+   }
+  },
+  {
+   "key": "x:2120039417981333599",
+   "url": "https://api.fxtwitter.com/Stefan_3D_AI/status/2120039417981333599",
+   "checkedAt": "2026-11-19T12:39:42+00:00",
+   "status": 200,
+   "sha256": "a2668d338392b4017acdb134ca29cbe214cd84cc9887880fe292b6e36a6a832e",
+   "ok": true,
+   "metrics": {
+    "likes": 104,
+    "bookmarks": 32,
+    "views": 8000
+   }
+  },
+  {
+   "key": "x:2119967359444382107",
+   "url": "https://api.fxtwitter.com/kis/status/2119967359444382107",
+   "checkedAt": "2026-11-19T12:39:42+00:00",
+   "status": 200,
+   "sha256": "2c21d25ce00fdc499dcb90af68505d45eb242a142c8420078282257c16d3e872",
+   "ok": true,
+   "metrics": {
+    "likes": 101,
+    "bookmarks": 38,
+    "views": 11580
+   }
+  },
+  {
+   "key": "x:2120531821306032607",
+   "url": "https://api.fxtwitter.com/seveibar/status/2120531821306032607",
+   "checkedAt": "2026-11-19T12:39:42+00:00",
+   "status": 200,
+   "sha256": "c89548865e24ad2408cc25752796045ca0e8685b87fa1e2e2112ca4dd3bdbc75",
+   "ok": true,
+   "metrics": {
+    "likes": 90,
+    "bookmarks": 27,
+    "views": 6732
+   }
+  },
+  {
+   "key": "x:2120498188486693305",
+   "url": "https://api.fxtwitter.com/snakajima/status/2120498188486693305",
+   "checkedAt": "2026-11-19T12:39:42+00:00",
+   "status": 200,
+   "sha256": "e06048fdf4fa0a9882180ddbe7303adabbf0b0309295ebbcfb91899b7ad0672f",
+   "ok": true,
+   "metrics": {
+    "likes": 98,
+    "bookmarks": 24,
+    "views": 48053
+   }
+  },
+  {
+   "key": "x:2120824873513832590",
+   "url": "https://api.fxtwitter.com/termix_ai/status/2120824873513832590",
+   "checkedAt": "2026-11-19T12:39:42+00:00",
+   "status": 200,
+   "sha256": "17f3485d851e123478ff8ec7f4d0324ee3decfd9d01423e57a8e4f778a85815f",
+   "ok": true,
+   "metrics": {
+    "likes": 114,
+    "bookmarks": 7,
+    "views": 59236
+   }
+  },
+  {
+   "key": "x:2120916530439344392",
+   "url": "https://api.fxtwitter.com/EnvolDev/status/2120916530439344392",
+   "checkedAt": "2026-11-19T12:39:42+00:00",
+   "status": 200,
+   "sha256": "c16482f2aaea60306e0364cae7f56803dd66c78f45e62ae0894b5215f57022d7",
+   "ok": true,
+   "metrics": {
+    "likes": 94,
+    "bookmarks": 21,
+    "views": 11625
+   }
+  },
+  {
+   "key": "x:2120132485186986305",
+   "url": "https://api.fxtwitter.com/0xClodex/status/2120132485186986305",
+   "checkedAt": "2026-11-19T12:39:42+00:00",
+   "status": 200,
+   "sha256": "91c794487bade6fa83ff5b0b82947ba43e9166b256debd797f1c75f5346e80f0",
+   "ok": true,
+   "metrics": {
+    "likes": 37,
+    "bookmarks": 56,
+    "views": 19740
+   }
+  },
+  {
+   "key": "x:2120967083664220427",
+   "url": "https://api.fxtwitter.com/0xClodex/status/2120967083664220427",
+   "checkedAt": "2026-11-19T12:39:43+00:00",
+   "status": 200,
+   "sha256": "55f3b2e7c74d5e026a7b6f51186811275e17ce22efdb3986cec7dd74ef4d11a8",
+   "ok": true,
+   "metrics": {
+    "likes": 25,
+    "bookmarks": 16,
+    "views": 686
+   }
+  },
+  {
+   "key": "x:2121333521663017401",
+   "url": "https://api.fxtwitter.com/ravisparikh/status/2121333521663017401",
+   "checkedAt": "2026-11-19T12:39:43+00:00",
+   "status": 200,
+   "sha256": "1ec759daa3ff1d2f733b55b2ad26d69038a592d0dafa8d8d41fa9a7d7614bd1c",
+   "ok": true,
+   "metrics": {
+    "likes": 5417,
+    "bookmarks": 1182,
+    "views": 794683
+   }
+  },
+  {
+   "key": "x:2122538394710687871",
+   "url": "https://api.fxtwitter.com/aj_dev_smith/status/2122538394710687871",
+   "checkedAt": "2026-11-19T12:39:43+00:00",
+   "status": 200,
+   "sha256": "22dff04e19a26ce8b05f92b76a024bc83ec1469b74884d20d1945b223f508a53",
+   "ok": true,
+   "metrics": {
+    "likes": 5305,
+    "bookmarks": 2448,
+    "views": 343942
+   }
+  },
+  {
+   "key": "x:2122013410309153042",
+   "url": "https://api.fxtwitter.com/__morse/status/2122013410309153042",
+   "checkedAt": "2026-11-19T12:39:43+00:00",
+   "status": 200,
+   "sha256": "5b9e7879e68b197821183324bf4ef91e12691a8b7a0eaccb0593ce920810be88",
+   "ok": true,
+   "metrics": {
+    "likes": 4482,
+    "bookmarks": 2212,
+    "views": 231528
+   }
+  },
+  {
+   "key": "x:2121548293834740076",
+   "url": "https://api.fxtwitter.com/mixie3D/status/2121548293834740076",
+   "checkedAt": "2026-11-19T12:39:43+00:00",
+   "status": 200,
+   "sha256": "253efcc1154b0bc1728beb4968f96b218dcbc7688132d849f7750cd529cf05c9",
+   "ok": true,
+   "metrics": {
+    "likes": 4442,
+    "bookmarks": 1895,
+    "views": 258315
+   }
+  },
+  {
+   "key": "x:2121176151234330707",
+   "url": "https://api.fxtwitter.com/chetaslua/status/2121176151234330707",
+   "checkedAt": "2026-11-19T12:39:43+00:00",
+   "status": 200,
+   "sha256": "0facffe75a5218a0a86d731446d913d44b4e1272c9d999f09e5b88eb00d14618",
+   "ok": true,
+   "metrics": {
+    "likes": 3738,
+    "bookmarks": 1673,
+    "views": 194945
+   }
+  },
+  {
+   "key": "x:2122106585136959664",
+   "url": "https://api.fxtwitter.com/viktoroddy/status/2122106585136959664",
+   "checkedAt": "2026-11-19T12:39:43+00:00",
+   "status": 200,
+   "sha256": "803e37416e3a9cb52d5f207784a89c34d7a394390de5b5e302c2f8f6286ab670",
+   "ok": true,
+   "metrics": {
+    "likes": 3627,
+    "bookmarks": 3053,
+    "views": 153082
+   }
+  },
+  {
+   "key": "x:2122750634210529569",
+   "url": "https://api.fxtwitter.com/ArtificialAnlys/status/2122750634210529569",
+   "checkedAt": "2026-11-19T12:39:43+00:00",
+   "status": 200,
+   "sha256": "2059b4c3f244aecae39c21daa4d52317a861e0af16da98da39f0c7d47ec7d6dc",
+   "ok": true,
+   "metrics": {
+    "likes": 3298,
+    "bookmarks": 513,
+    "views": 519802
+   }
+  },
+  {
+   "key": "x:2121594536153718972",
+   "url": "https://api.fxtwitter.com/BlendiByl/status/2121594536153718972",
+   "checkedAt": "2026-11-19T12:39:43+00:00",
+   "status": 200,
+   "sha256": "b3bdd9053ad97a12a62499bd113a665f25c25f5e7fc3d80928713f8756db71ed",
+   "ok": true,
+   "metrics": {
+    "likes": 2558,
+    "bookmarks": 1754,
+    "views": 163865
+   }
+  },
+  {
+   "key": "x:2122682962647122403",
+   "url": "https://api.fxtwitter.com/xikhar/status/2122682962647122403",
+   "checkedAt": "2026-11-19T12:39:43+00:00",
+   "status": 200,
+   "sha256": "93e2b59fbb0b222c6f87aaf450e1994959dcc6048a394f8677b61142678d7643",
+   "ok": true,
+   "metrics": {
+    "likes": 2229,
+    "bookmarks": 2052,
+    "views": 100344
+   }
+  },
+  {
+   "key": "x:2121891917147562456",
+   "url": "https://api.fxtwitter.com/kapilansh_twt/status/2121891917147562456",
+   "checkedAt": "2026-11-19T12:39:44+00:00",
+   "status": 200,
+   "sha256": "4cc5e039cc6db6d8c1cb429b81d61eb9e3fe1c3d288b791ab4fc2c7cbeae8ac9",
+   "ok": true,
+   "metrics": {
+    "likes": 1689,
+    "bookmarks": 532,
+    "views": 76513
+   }
+  },
+  {
+   "key": "x:2121793239175119279",
+   "url": "https://api.fxtwitter.com/aniketjart/status/2121793239175119279",
+   "checkedAt": "2026-11-19T12:39:44+00:00",
+   "status": 200,
+   "sha256": "665793eddbe74c5585b7216aa6516694e707cb0cf00fb5686c840a3648acb7b3",
+   "ok": true,
+   "metrics": {
+    "likes": 1364,
+    "bookmarks": 591,
+    "views": 68021
+   }
+  },
+  {
+   "key": "x:2122421921790767239",
+   "url": "https://api.fxtwitter.com/thegeomaster/status/2122421921790767239",
+   "checkedAt": "2026-11-19T12:39:44+00:00",
+   "status": 200,
+   "sha256": "3ce7409e61c4afe74147c4c78fdab6298424a773e8840b1a9dcd4138de57d73e",
+   "ok": true,
+   "metrics": {
+    "likes": 945,
+    "bookmarks": 683,
+    "views": 65149
+   }
+  },
+  {
+   "key": "x:2122762395869450680",
+   "url": "https://api.fxtwitter.com/EpochAIResearch/status/2122762395869450680",
+   "checkedAt": "2026-11-19T12:39:44+00:00",
+   "status": 200,
+   "sha256": "085fbf50578651dd61856169dd38a8de9cd4236471348cf4e8cbed99d65175b5",
+   "ok": true,
+   "metrics": {
+    "likes": 153,
+    "bookmarks": 19,
+    "views": 24268
+   }
+  },
+  {
+   "key": "x:2122711903877358056",
+   "url": "https://api.fxtwitter.com/viktoroddy/status/2122711903877358056",
+   "checkedAt": "2026-11-19T12:39:44+00:00",
+   "status": 200,
+   "sha256": "cb30d16b3248137eaf3a7d269b4857d15f0a6b50cb8aa63a0e3435e951613e8b",
+   "ok": true,
+   "metrics": {
+    "likes": 1370,
+    "bookmarks": 1137,
+    "views": 72717
+   }
+  },
+  {
+   "key": "x:2122361634190696575",
+   "url": "https://api.fxtwitter.com/nickvernij/status/2122361634190696575",
+   "checkedAt": "2026-11-19T12:39:44+00:00",
+   "status": 200,
+   "sha256": "bd2ef43b0787d233217480b1736f28299e47b7cdc5278f55286fe1b42a33e7aa",
+   "ok": true,
+   "metrics": {
+    "likes": 870,
+    "bookmarks": 640,
+    "views": 68026
+   }
+  },
+  {
+   "key": "x:2121780322106999106",
+   "url": "https://api.fxtwitter.com/kevin_t_ngo/status/2121780322106999106",
+   "checkedAt": "2026-11-19T12:39:44+00:00",
+   "status": 200,
+   "sha256": "9d3755bcf58ebafd9c73ebc5345471556253ab8cabed45757770d5e64f115420",
+   "ok": true,
+   "metrics": {
+    "likes": 848,
+    "bookmarks": 636,
+    "views": 80878
+   }
+  },
+  {
+   "key": "x:2122737418864664618",
+   "url": "https://api.fxtwitter.com/TuXinming/status/2122737418864664618",
+   "checkedAt": "2026-11-19T12:39:44+00:00",
+   "status": 200,
+   "sha256": "0511be75d7383a9bb6d8ad1974e17798f552ff0f84fa9bb938073536c8b833ea",
+   "ok": true,
+   "metrics": {
+    "likes": 1062,
+    "bookmarks": 420,
+    "views": 188066
+   }
+  },
+  {
+   "key": "x:2121406571280478310",
+   "url": "https://api.fxtwitter.com/aj_dev_smith/status/2121406571280478310",
+   "checkedAt": "2026-11-19T12:39:45+00:00",
+   "status": 200,
+   "sha256": "7d0831a18e512066458e6211684e8510aa725b1229bdc55c16afd7ffbbf64ac9",
+   "ok": true,
+   "metrics": {
+    "likes": 635,
+    "bookmarks": 277,
+    "views": 227819
+   }
+  },
+  {
+   "key": "x:2121941875326373952",
+   "url": "https://api.fxtwitter.com/janm_uiux/status/2121941875326373952",
+   "checkedAt": "2026-11-19T12:39:45+00:00",
+   "status": 200,
+   "sha256": "e5f4c14bd7fbc055cad02b17d2f28fb48e562497f84d4ccef6b00e52bf9fc236",
+   "ok": true,
+   "metrics": {
+    "likes": 602,
+    "bookmarks": 467,
+    "views": 32614
+   }
+  },
+  {
+   "key": "x:2121701020598415465",
+   "url": "https://api.fxtwitter.com/kevin_t_ngo/status/2121701020598415465",
+   "checkedAt": "2026-11-19T12:39:45+00:00",
+   "status": 200,
+   "sha256": "d12fecc07791f3e4963366093ec7d893fe106ba43e287a863b8edda5073a283b",
+   "ok": true,
+   "metrics": {
+    "likes": 509,
+    "bookmarks": 239,
+    "views": 23382
+   }
+  },
+  {
+   "key": "x:2122837291874070590",
+   "url": "https://api.fxtwitter.com/ChrisGPT/status/2122837291874070590",
+   "checkedAt": "2026-11-19T12:39:45+00:00",
+   "status": 200,
+   "sha256": "1c17b992c5c020a59c1c196050eacd691eea13d507650ff343fd1fab5fddcf33",
+   "ok": true,
+   "metrics": {
+    "likes": 734,
+    "bookmarks": 182,
+    "views": 151893
+   }
+  },
+  {
+   "key": "x:2122464141990588795",
+   "url": "https://api.fxtwitter.com/apekshik/status/2122464141990588795",
+   "checkedAt": "2026-11-19T12:39:45+00:00",
+   "status": 200,
+   "sha256": "28a27fba6a402fdfcd263544e0bf0b8e834e9c19e768f67f6226c23311c493c8",
+   "ok": true,
+   "metrics": {
+    "likes": 425,
+    "bookmarks": 773,
+    "views": 52534
+   }
+  },
+  {
+   "key": "x:2122723067533398064",
+   "url": "https://api.fxtwitter.com/parhelion318/status/2122723067533398064",
+   "checkedAt": "2026-11-19T12:39:45+00:00",
+   "status": 200,
+   "sha256": "69066acb114ee7be0284745b5f74a6101e58e1469ce7fffaf010633036954c77",
+   "ok": true,
+   "metrics": {
+    "likes": 542,
+    "bookmarks": 306,
+    "views": 12913
+   }
+  },
+  {
+   "key": "x:2122702891819377117",
+   "url": "https://api.fxtwitter.com/moritzkremb/status/2122702891819377117",
+   "checkedAt": "2026-11-19T12:39:45+00:00",
+   "status": 200,
+   "sha256": "b82d5a9cf43032b122fabf1a90db443c18434aaca1b14207d993f46b3c175058",
+   "ok": true,
+   "metrics": {
+    "likes": 444,
+    "bookmarks": 423,
+    "views": 75061
+   }
+  },
+  {
+   "key": "x:2121204420717486244",
+   "url": "https://api.fxtwitter.com/Av1dlive/status/2121204420717486244",
+   "checkedAt": "2026-11-19T12:39:45+00:00",
+   "status": 200,
+   "sha256": "b2cea4a5f403f8270f358aae768c199a71681214d9184149e2437e2ee5c6a167",
+   "ok": true,
+   "metrics": {
+    "likes": 243,
+    "bookmarks": 371,
+    "views": 12515
+   }
+  },
+  {
+   "key": "x:2122755823806079145",
+   "url": "https://api.fxtwitter.com/mattshumer_/status/2122755823806079145",
+   "checkedAt": "2026-11-19T12:39:45+00:00",
+   "status": 200,
+   "sha256": "2e974dafa71220c28971faff582d9b253ff1794ddb8382d398142f623f8e1ab8",
+   "ok": true,
+   "metrics": {
+    "likes": 217,
+    "bookmarks": 18,
+    "views": 36926
+   }
+  },
+  {
+   "key": "x:2120607619215970632",
+   "url": "https://api.fxtwitter.com/ElevenCreative/status/2120607619215970632",
+   "checkedAt": "2026-11-19T12:39:46+00:00",
+   "status": 200,
+   "sha256": "f2053eda0410b607e33a662573b777535381698c7a3292f6c1c865b1d39bf5e6",
+   "ok": true,
+   "metrics": {
+    "likes": 209,
+    "bookmarks": 10,
+    "views": 128310
+   }
+  },
+  {
+   "key": "x:2121525925900947923",
+   "url": "https://api.fxtwitter.com/anvithbuilds/status/2121525925900947923",
+   "checkedAt": "2026-11-19T12:39:46+00:00",
+   "status": 200,
+   "sha256": "e9209999e14854703763d79cbc2f1e3f6705dd3199febee09d810198832a56fe",
+   "ok": true,
+   "metrics": {
+    "likes": 205,
+    "bookmarks": 108,
+    "views": 37745
+   }
+  },
+  {
+   "key": "x:2122409515350155484",
+   "url": "https://api.fxtwitter.com/YashBudhiya/status/2122409515350155484",
+   "checkedAt": "2026-11-19T12:39:46+00:00",
+   "status": 200,
+   "sha256": "530b54738a7e3f0c8ac7244998c8a3917592d6ede232279b232b571b3d327322",
+   "ok": true,
+   "metrics": {
+    "likes": 173,
+    "bookmarks": 114,
+    "views": 20211
+   }
+  },
+  {
+   "key": "x:2122514075381010598",
+   "url": "https://api.fxtwitter.com/KanaWorks_AI/status/2122514075381010598",
+   "checkedAt": "2026-11-19T12:39:46+00:00",
+   "status": 200,
+   "sha256": "7f738184940c3d9b77bec8c455977c5c01b9568ff3df4e7492fa1209ccb54c29",
+   "ok": true,
+   "metrics": {
+    "likes": 182,
+    "bookmarks": 163,
+    "views": 11292
+   }
+  },
+  {
+   "key": "x:2121581514622177348",
+   "url": "https://api.fxtwitter.com/0xnicc0/status/2121581514622177348",
+   "checkedAt": "2026-11-19T12:39:46+00:00",
+   "status": 200,
+   "sha256": "eb5f4aae23e55a2613a2290bf1f55b360f27ca8ff1e4ed39854f3b428c1eadec",
+   "ok": true,
+   "metrics": {
+    "likes": 160,
+    "bookmarks": 268,
+    "views": 15090
+   }
+  },
+  {
+   "key": "x:2122549584627188006",
+   "url": "https://api.fxtwitter.com/rehan_shei/status/2122549584627188006",
+   "checkedAt": "2026-11-19T12:39:46+00:00",
+   "status": 200,
+   "sha256": "bd65ca419ef52987056f765f57358eb82cc76b6577c30554ae79e35ad0956dfc",
+   "ok": true,
+   "metrics": {
+    "likes": 159,
+    "bookmarks": 123,
+    "views": 9498
+   }
+  },
+  {
+   "key": "x:2122394153497842080",
+   "url": "https://api.fxtwitter.com/Karmedge/status/2122394153497842080",
+   "checkedAt": "2026-11-19T12:39:46+00:00",
+   "status": 200,
+   "sha256": "0d3608fa506f4e4b50efb4c177999d1b2e21a3b38bcc576656935d43403fc003",
+   "ok": true,
+   "metrics": {
+    "likes": 150,
+    "bookmarks": 113,
+    "views": 7738
+   }
+  },
+  {
+   "key": "x:2121731559741096370",
+   "url": "https://api.fxtwitter.com/chirovisuals/status/2121731559741096370",
+   "checkedAt": "2026-11-19T12:39:46+00:00",
+   "status": 200,
+   "sha256": "d3752790cf7fa9a6ef680a0a50dc99355e51f6545d078a4ef6b8b60599afbd39",
+   "ok": true,
+   "metrics": {
+    "likes": 126,
+    "bookmarks": 175,
+    "views": 5955
+   }
+  },
+  {
+   "key": "x:2122756006770065825",
+   "url": "https://api.fxtwitter.com/jsnnsa/status/2122756006770065825",
+   "checkedAt": "2026-11-19T12:39:46+00:00",
+   "status": 200,
+   "sha256": "b04584336e0abd9fc96dbc832f944adc09bb5d66dd5dd1376a3409b24f81d9ec",
+   "ok": true,
+   "metrics": {
+    "likes": 95,
+    "bookmarks": 11,
+    "views": 3723
+   }
+  },
+  {
+   "key": "x:2121897192135053383",
+   "url": "https://api.fxtwitter.com/tazmannner/status/2121897192135053383",
+   "checkedAt": "2026-11-19T12:39:47+00:00",
+   "status": 200,
+   "sha256": "f53b083dde0cecf3e66657684138e0c8dae2622671843ee3397a57e2c6aca752",
+   "ok": true,
+   "metrics": {
+    "likes": 74,
+    "bookmarks": 77,
+    "views": 2893
+   }
+  },
+  {
+   "key": "x:2122907243150807300",
+   "url": "https://api.fxtwitter.com/output09141/status/2122907243150807300",
+   "checkedAt": "2026-11-19T12:39:47+00:00",
+   "status": 200,
+   "sha256": "987847015acdcbeec71f8510a92456d12a7c790d84460f9c30fcb31c2e905191",
+   "ok": true,
+   "metrics": {
+    "likes": 18,
+    "bookmarks": 1,
+    "views": 713
+   }
+  },
+  {
+   "key": "x:2122905335849718244",
+   "url": "https://api.fxtwitter.com/meishengsimon/status/2122905335849718244",
+   "checkedAt": "2026-11-19T12:39:47+00:00",
+   "status": 200,
+   "sha256": "2f677054fea9778fdac4c5d9586d5e45ae5c993098a3394dc424d9f38a7dc26b",
+   "ok": true,
+   "metrics": {
+    "likes": 8,
+    "bookmarks": 0,
+    "views": 437
+   }
+  },
+  {
+   "key": "x:2121154550123958621",
+   "url": "https://api.fxtwitter.com/AndreiProvkin/status/2121154550123958621",
+   "checkedAt": "2026-11-19T12:39:47+00:00",
+   "status": 200,
+   "sha256": "99f1b88b256ec19dd794976106413a848c24afaed35cd32b0c54a5d7eaf88cbb",
+   "ok": true,
+   "metrics": {
+    "likes": 7,
+    "bookmarks": 0,
+    "views": 2936
+   }
+  },
+  {
+   "key": "x:2122403889865453632",
+   "url": "https://api.fxtwitter.com/AndreiProvkin/status/2122403889865453632",
+   "checkedAt": "2026-11-19T12:39:47+00:00",
+   "status": 200,
+   "sha256": "6ad7eb85e1273aa461ce430d062d4fbefc9e18161d8fd790db1a91e86e57b638",
+   "ok": true,
+   "metrics": {
+    "likes": 1,
+    "bookmarks": 1,
+    "views": 407
+   }
+  },
+  {
+   "key": "github:andrisgauracs/bevel-os",
+   "url": "https://api.github.com/repos/andrisgauracs/bevel-os",
+   "checkedAt": "2026-11-19T12:39:47+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4985",
+    "x-ratelimit-reset": "1795094716"
+   },
+   "sha256": "87a6f25b71c726f39cd99402b6b36f4f935f296eb87628f3a5bf04ff9e4fe551",
+   "ok": true,
+   "metrics": {
+    "stars": 101
+   }
+  },
+  {
+   "key": "github:anthropics/claude-code/issues/108898",
+   "url": "https://api.github.com/repos/anthropics/claude-code/issues/108898",
+   "checkedAt": "2026-11-19T12:39:47+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4983",
+    "x-ratelimit-reset": "1795094716"
+   },
+   "sha256": "01d59fe338f893f633d53ee36d8b901810bc420d42638279eafe88845431cb34",
+   "ok": true,
+   "metrics": {
+    "reactions": 0,
+    "comments": 1
+   }
+  },
+  {
+   "key": "github:archive228/claude-fable-rea-bla",
+   "url": "https://api.github.com/repos/archive228/claude-fable-rea-bla",
+   "checkedAt": "2026-11-19T12:39:48+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4984",
+    "x-ratelimit-reset": "1795094716"
+   },
+   "sha256": "cec30c48e2da01bf5b5d1cc54669f0fb812d3c314d037be04fa16396fbd055cc",
+   "ok": true,
+   "metrics": {
+    "stars": 38
+   }
+  },
+  {
+   "key": "github:az9713/fable-5.2-3d-animations",
+   "url": "https://api.github.com/repos/az9713/fable-5.2-3d-animations",
+   "checkedAt": "2026-11-19T12:39:48+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4982",
+    "x-ratelimit-reset": "1795094716"
+   },
+   "sha256": "498b662e26ed9ed10ef461842700eede1235c78635d277bfa55d67f2f8c9a478",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:basemazab/tuktuk",
+   "url": "https://api.github.com/repos/basemazab/tuktuk",
+   "checkedAt": "2026-11-19T12:39:48+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4980",
+    "x-ratelimit-reset": "1795094716"
+   },
+   "sha256": "474dad9a8d61d67a2a0426fa8c7bd196cefc78828e073e5c3adf6cd8b351333f",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:bhavya-gx/fable-vfx",
+   "url": "https://api.github.com/repos/bhavya-gx/fable-vfx",
+   "checkedAt": "2026-11-19T12:39:48+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4981",
+    "x-ratelimit-reset": "1795094716"
+   },
+   "sha256": "ece9b089e59206aab235b828428f0a3e7908ae2e2cc693f9a7cf19f3e84abc9f",
+   "ok": true,
+   "metrics": {
+    "stars": 9
+   }
+  },
+  {
+   "key": "github:cagrikacmaz/fable-5-2-vs-gemini-4-carbon-captcha-wall",
+   "url": "https://api.github.com/repos/cagrikacmaz/fable-5-2-vs-gemini-4-carbon-captcha-wall",
+   "checkedAt": "2026-11-19T12:39:48+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4979",
+    "x-ratelimit-reset": "1795094716"
+   },
+   "sha256": "8300a436828c69312bba76b1ac388e530a27b06ceeb37347e8d0a6fb3ba84231",
+   "ok": true,
+   "metrics": {
+    "stars": 3
+   }
+  },
+  {
+   "key": "github:czwu013/london-thames-fable-5.2-high-",
+   "url": "https://api.github.com/repos/czwu013/london-thames-fable-5.2-high-",
+   "checkedAt": "2026-11-19T12:39:48+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4976",
+    "x-ratelimit-reset": "1795094716"
+   },
+   "sha256": "51b6e047bea854fa91f82849964ef0c417f229680832bd5b4481106db601b2d5",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:davidramsay95/claude-chess_fable_5-2_20261110",
+   "url": "https://api.github.com/repos/davidramsay95/claude-chess_fable_5-2_20261110",
+   "checkedAt": "2026-11-19T12:39:48+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4977",
+    "x-ratelimit-reset": "1795094716"
+   },
+   "sha256": "abded2570e4519cc0846187ab724513408bd587cc55c6dab07d8044bb8c8fe87",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:devloops-ai/unified-brain",
+   "url": "https://api.github.com/repos/devloops-ai/unified-brain",
+   "checkedAt": "2026-11-19T12:39:48+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4978",
+    "x-ratelimit-reset": "1795094716"
+   },
+   "sha256": "cba64752d76b99fe49cd74b3a97f2a14fe8394cab5c22696151e61d28b63c7d3",
+   "ok": true,
+   "metrics": {
+    "stars": 34
+   }
+  },
+  {
+   "key": "github:fablestar/bayhaven",
+   "url": "https://api.github.com/repos/fablestar/bayhaven",
+   "checkedAt": "2026-11-19T12:39:49+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4974",
+    "x-ratelimit-reset": "1795094716"
+   },
+   "sha256": "bb69acbd256aa396152518b9eabaa37a8c211bf8cfb374f03b9d758d92c4bc0f",
+   "ok": true,
+   "metrics": {
+    "stars": 3
+   }
+  },
+  {
+   "key": "github:farion1231/cc-switch/issues/9608",
+   "url": "https://api.github.com/repos/farion1231/cc-switch/issues/9608",
+   "checkedAt": "2026-11-19T12:39:49+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4975",
+    "x-ratelimit-reset": "1795094716"
+   },
+   "sha256": "4a1bd03eacab8af23c28b3fcbdc1197f43ccb0bf57c83d1d721e7280f1ec47c4",
+   "ok": true,
+   "metrics": {
+    "reactions": 0,
+    "comments": 2
+   }
+  },
+  {
+   "key": "github:francis1998/multi-bot-agentic",
+   "url": "https://api.github.com/repos/francis1998/multi-bot-agentic",
+   "checkedAt": "2026-11-19T12:39:49+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4973",
+    "x-ratelimit-reset": "1795094716"
+   },
+   "sha256": "ed895391978bbd9e160a8630895b437866cc0db8652e0c48825914f3daf8b72b",
+   "ok": true,
+   "metrics": {
+    "stars": 11
+   }
+  },
+  {
+   "key": "github:gavilanbe/pantastic",
+   "url": "https://api.github.com/repos/gavilanbe/pantastic",
+   "checkedAt": "2026-11-19T12:39:49+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4971",
+    "x-ratelimit-reset": "1795094716"
+   },
+   "sha256": "25649129d612a8960af0b3938140e20b21b6732eca1e46d45020952cfe55adea",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:hu2148284557-debug/fable-challenge",
+   "url": "https://api.github.com/repos/hu2148284557-debug/fable-challenge",
+   "checkedAt": "2026-11-19T12:39:49+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4972",
+    "x-ratelimit-reset": "1795094716"
+   },
+   "sha256": "868b403dd4560c27faa1d03232a9c5eb40ff907eab19392da961029ebbc26605",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:jasielrasec18-dev/site-agua-mineral-threejs",
+   "url": "https://api.github.com/repos/jasielrasec18-dev/site-agua-mineral-threejs",
+   "checkedAt": "2026-11-19T12:39:49+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4970",
+    "x-ratelimit-reset": "1795094716"
+   },
+   "sha256": "1efa740c8a280ffab9aeec96ee0a95e15c67c2aa8f165e28ff59b07b600ac463",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:jiaaqiliu/xuanji-x1",
+   "url": "https://api.github.com/repos/jiaaqiliu/xuanji-x1",
+   "checkedAt": "2026-11-19T12:39:49+00:00",
+   "ok": false,
+   "error": "HTTP Error 404: GitHub API request failed",
+   "status": 404,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4968",
+    "x-ratelimit-reset": "1795094716"
+   }
+  },
+  {
+   "key": "github:kompas/dirigent",
+   "url": "https://api.github.com/repos/kompas/dirigent",
+   "checkedAt": "2026-11-19T12:39:49+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4969",
+    "x-ratelimit-reset": "1795094716"
+   },
+   "sha256": "6fd8ff2a6961b9f63730f7d4ef046b14fb600df260e6fbedf51e73396270036f",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:leonxlnx/castle-cinematic",
+   "url": "https://api.github.com/repos/leonxlnx/castle-cinematic",
+   "checkedAt": "2026-11-19T12:39:50+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4967",
+    "x-ratelimit-reset": "1795094716"
+   },
+   "sha256": "d5fa92bd92db1e01f92b6e3efa36d71f3a5d1820ad7049e064045ec9f2eebe0d",
+   "ok": true,
+   "metrics": {
+    "stars": 8
+   }
+  },
+  {
+   "key": "github:mdchia/fable-moonward",
+   "url": "https://api.github.com/repos/mdchia/fable-moonward",
+   "checkedAt": "2026-11-19T12:39:50+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4966",
+    "x-ratelimit-reset": "1795094716"
+   },
+   "sha256": "22cfe5de06956bf352e7d4f987d430c9404140cd0499b6cafb1439d72924b991",
+   "ok": true,
+   "metrics": {
+    "stars": 0
+   }
+  },
+  {
+   "key": "github:noniv/abyssal-garden",
+   "url": "https://api.github.com/repos/noniv/abyssal-garden",
+   "checkedAt": "2026-11-19T12:39:50+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4964",
+    "x-ratelimit-reset": "1795094716"
+   },
+   "sha256": "ed748a9c339024d051dafae385a47b3c4e10c2feb826b85fc6809078f7cf81f4",
+   "ok": true,
+   "metrics": {
+    "stars": 2465
+   }
+  },
+  {
+   "key": "github:ololo-dev/apex-lap-fable-5-2",
+   "url": "https://api.github.com/repos/ololo-dev/apex-lap-fable-5-2",
+   "checkedAt": "2026-11-19T12:39:50+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4963",
+    "x-ratelimit-reset": "1795094716"
+   },
+   "sha256": "bbcbd4c2654fcf2c902dd6277f4521297cb1d0f5cd6eeef1376f747e82bf5cc6",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:prokopiy8247/fable5-2-effort-test-gta",
+   "url": "https://api.github.com/repos/prokopiy8247/fable5-2-effort-test-gta",
+   "checkedAt": "2026-11-19T12:39:50+00:00",
+   "ok": false,
+   "error": "HTTP Error 404: GitHub API request failed",
+   "status": 404,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4962",
+    "x-ratelimit-reset": "1795094716"
+   }
+  },
+  {
+   "key": "github:realcodebear/threejs-fable-5.2-all-effort-koi-pond",
+   "url": "https://api.github.com/repos/realcodebear/threejs-fable-5.2-all-effort-koi-pond",
+   "checkedAt": "2026-11-19T12:39:50+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4965",
+    "x-ratelimit-reset": "1795094716"
+   },
+   "sha256": "72ff07226983a0469ab7b6f41ead2263e2c68e1c4d2b8afaf6763dc5819e0406",
+   "ok": true,
+   "metrics": {
+    "stars": 3
+   }
+  },
+  {
+   "key": "github:rylaa/fable5.2-opus5.5-orchestrator",
+   "url": "https://api.github.com/repos/rylaa/fable5.2-opus5.5-orchestrator",
+   "checkedAt": "2026-11-19T12:39:50+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4961",
+    "x-ratelimit-reset": "1795094716"
+   },
+   "sha256": "16222c02fc4f1bcfaeec71f8cb3d0a327493b745f29e2d1835d047adb0e95933",
+   "ok": true,
+   "metrics": {
+    "stars": 86
+   }
+  },
+  {
+   "key": "github:rynfar/meridian/issues/1516",
+   "url": "https://api.github.com/repos/rynfar/meridian/issues/1516",
+   "checkedAt": "2026-11-19T12:39:51+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4960",
+    "x-ratelimit-reset": "1795094716"
+   },
+   "sha256": "e6cfcdf6bb7579af9c9bbcd0281b3ab6928cdbcea8697990786cda4e4c3c279a",
+   "ok": true,
+   "metrics": {
+    "reactions": 3,
+    "comments": 1
+   }
+  },
+  {
+   "key": "github:s77ffy/daedalus",
+   "url": "https://api.github.com/repos/s77ffy/daedalus",
+   "checkedAt": "2026-11-19T12:39:51+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4959",
+    "x-ratelimit-reset": "1795094716"
+   },
+   "sha256": "0971de642761361c34b5e8ea3019ed12dbda52e75cbbb4e2c3c5146bda0dcfe0",
+   "ok": true,
+   "metrics": {
+    "stars": 2
+   }
+  },
+  {
+   "key": "github:selmakcby/fable-ajan-takimi",
+   "url": "https://api.github.com/repos/selmakcby/fable-ajan-takimi",
+   "checkedAt": "2026-11-19T12:39:51+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4957",
+    "x-ratelimit-reset": "1795094716"
+   },
+   "sha256": "12e2a907180ef7d0ba09181a5e0d5a3c07fc2e84d61682526ab8964ac60d2516",
+   "ok": true,
+   "metrics": {
+    "stars": 3
+   }
+  },
+  {
+   "key": "github:sktjgudals/fable-5-2-prompting",
+   "url": "https://api.github.com/repos/sktjgudals/fable-5-2-prompting",
+   "checkedAt": "2026-11-19T12:39:51+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4958",
+    "x-ratelimit-reset": "1795094716"
+   },
+   "sha256": "589e442357eede968a2b9e25ccb3d3d8b3f7a7acb76e7cf6824034f09dcc33f5",
+   "ok": true,
+   "metrics": {
+    "stars": 16
+   }
+  },
+  {
+   "key": "github:stefanknol/last-return",
+   "url": "https://api.github.com/repos/stefanknol/last-return",
+   "checkedAt": "2026-11-19T12:39:51+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4956",
+    "x-ratelimit-reset": "1795094716"
+   },
+   "sha256": "3a7f0f0aa0927d160147e50a9931887736ced9e7e9a4266224765a988b072c8d",
+   "ok": true,
+   "metrics": {
+    "stars": 3
+   }
+  },
+  {
+   "key": "github:tellahq/opensession/pull/560",
+   "url": "https://api.github.com/repos/tellahq/opensession/issues/560",
+   "checkedAt": "2026-11-19T12:39:51+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4955",
+    "x-ratelimit-reset": "1795094716"
+   },
+   "sha256": "4e11bc38db8ad7c86fbc308ae2d57a452a571c56f4b0a75bac38b431440d9dfb",
+   "ok": true,
+   "metrics": {
+    "reactions": 0,
+    "comments": 25
+   }
+  },
+  {
+   "key": "github:themizeguy/fable-5.2-potatobench",
+   "url": "https://api.github.com/repos/themizeguy/fable-5.2-potatobench",
+   "checkedAt": "2026-11-19T12:39:52+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4954",
+    "x-ratelimit-reset": "1795094716"
+   },
+   "sha256": "5695237c59a180c5d851aab5c61474c1f3edf73401ca99dbba7cb641d6ad282c",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  },
+  {
+   "key": "github:vadympetryshyn/effort-pilot",
+   "url": "https://api.github.com/repos/vadympetryshyn/effort-pilot",
+   "checkedAt": "2026-11-19T12:39:52+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4951",
+    "x-ratelimit-reset": "1795094716"
+   },
+   "sha256": "226e228c5baa9465335ffd29fd45b021fbe05c2c0abf37b871ac266ff37ec46c",
+   "ok": true,
+   "metrics": {
+    "stars": 9
+   }
+  },
+  {
+   "key": "github:verissimodf/fable52-auditor",
+   "url": "https://api.github.com/repos/verissimodf/fable52-auditor",
+   "checkedAt": "2026-11-19T12:39:52+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4952",
+    "x-ratelimit-reset": "1795094716"
+   },
+   "sha256": "03307d01ca26f5c64c4c85bd90cb76b729a21975510d7278ac7677f08d2b553a",
+   "ok": true,
+   "metrics": {
+    "stars": 2
+   }
+  },
+  {
+   "key": "github:viktorkav/uno-com-escada",
+   "url": "https://api.github.com/repos/viktorkav/uno-com-escada",
+   "checkedAt": "2026-11-19T12:39:52+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4953",
+    "x-ratelimit-reset": "1795094716"
+   },
+   "sha256": "289e64c5dcafae20fc6f9de6d29f79a91d63cd0051711f892fe52706146d6600",
+   "ok": true,
+   "metrics": {
+    "stars": 136
+   }
+  },
+  {
+   "key": "github:webking021/dustfall",
+   "url": "https://api.github.com/repos/webking021/dustfall",
+   "checkedAt": "2026-11-19T12:39:52+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4950",
+    "x-ratelimit-reset": "1795094716"
+   },
+   "sha256": "df5b9fc3cc581be52077c97cbb56abe1434295eeee772fb37642be04bc654664",
+   "ok": true,
+   "metrics": {
+    "stars": 3
+   }
+  },
+  {
+   "key": "github:wei-shaw/sub2api/issues/8630",
+   "url": "https://api.github.com/repos/wei-shaw/sub2api/issues/8630",
+   "checkedAt": "2026-11-19T12:39:52+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4949",
+    "x-ratelimit-reset": "1795094716"
+   },
+   "sha256": "f1e4827e0108a9c476d9769f593fab49dd777a9d7764519edecf48d34ea94107",
+   "ok": true,
+   "metrics": {
+    "reactions": 2,
+    "comments": 3
+   }
+  },
+  {
+   "key": "github:wquguru/fable52-fps-repro",
+   "url": "https://api.github.com/repos/wquguru/fable52-fps-repro",
+   "checkedAt": "2026-11-19T12:39:53+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4948",
+    "x-ratelimit-reset": "1795094716"
+   },
+   "sha256": "d0073c62cbc982ab4d55641a2a738f31fb2c449be12105170a60bb132b7592b2",
+   "ok": true,
+   "metrics": {
+    "stars": 114
+   }
+  },
+  {
+   "key": "github:zhgarylu/everyday-game",
+   "url": "https://api.github.com/repos/zhgarylu/everyday-game",
+   "checkedAt": "2026-11-19T12:39:53+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4947",
+    "x-ratelimit-reset": "1795094716"
+   },
+   "sha256": "e4ae9837a0794a62e1247076d252f255ca45174fad4236996bcfba905292eda5",
+   "ok": true,
+   "metrics": {
+    "stars": 1
+   }
+  }
+ ],
+ "note": "Raw bodies and authentication stay in ignored local cache. Searches and pagination are bounded; success is not proof of exhaustive coverage."
+}

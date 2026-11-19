@@ -20,8 +20,8 @@
       "role": "游戏实现"
     },
     "githubKind": "repository",
-    "stars": 1,
-    "metricsCheckedAt": "2026-11-13T02:06:31+00:00",
+    "stars": 2,
+    "metricsCheckedAt": "2026-11-19T12:39:51+00:00",
     "metricsSourceUrl": "https://api.github.com/repos/s77ffy/daedalus"
   },
   {
@@ -46,7 +46,7 @@
     },
     "githubKind": "repository",
     "stars": 3,
-    "metricsCheckedAt": "2026-11-13T02:06:32+00:00",
+    "metricsCheckedAt": "2026-11-19T12:39:52+00:00",
     "metricsSourceUrl": "https://api.github.com/repos/webking021/dustfall"
   },
   {
@@ -71,7 +71,7 @@
     },
     "githubKind": "repository",
     "stars": 0,
-    "metricsCheckedAt": "2026-11-13T02:06:31+00:00",
+    "metricsCheckedAt": "2026-11-19T12:39:48+00:00",
     "metricsSourceUrl": "https://api.github.com/repos/davidramsay95/claude-chess_fable_5-2_20261110"
   },
   {
@@ -96,7 +96,7 @@
     },
     "githubKind": "repository",
     "stars": 0,
-    "metricsCheckedAt": "2026-11-13T02:06:30+00:00",
+    "metricsCheckedAt": "2026-11-19T12:39:48+00:00",
     "metricsSourceUrl": "https://api.github.com/repos/basemazab/tuktuk"
   },
   {
@@ -145,7 +145,7 @@
     },
     "githubKind": "repository",
     "stars": 0,
-    "metricsCheckedAt": "2026-11-13T02:06:31+00:00",
+    "metricsCheckedAt": "2026-11-19T12:39:50+00:00",
     "metricsSourceUrl": "https://api.github.com/repos/mdchia/fable-moonward"
   },
   {
@@ -169,9 +169,9 @@
       "role": "主控编排与架构决策位"
     },
     "githubKind": "repository",
-    "stars": 82,
-    "metricsCheckedAt": "2026-11-13T02:25:00+00:00",
-    "metricsSourceUrl": "https://api.github.com/repos/Rylaa/fable5.2-opus5.5-orchestrator"
+    "stars": 86,
+    "metricsCheckedAt": "2026-11-19T12:39:50+00:00",
+    "metricsSourceUrl": "https://api.github.com/repos/rylaa/fable5.2-opus5.5-orchestrator"
   },
   {
     "id": "fable52-gh-wquguru-fps-repro",
@@ -194,8 +194,8 @@
       "role": "独立单文件 3D 游戏代码与资产生成"
     },
     "githubKind": "repository",
-    "stars": 78,
-    "metricsCheckedAt": "2026-11-13T02:25:00+00:00",
+    "stars": 114,
+    "metricsCheckedAt": "2026-11-19T12:39:53+00:00",
     "metricsSourceUrl": "https://api.github.com/repos/wquguru/fable52-fps-repro",
     "resources": [
       {
@@ -226,8 +226,8 @@
       "role": "提示工程与护栏调优对象"
     },
     "githubKind": "repository",
-    "stars": 11,
-    "metricsCheckedAt": "2026-11-13T02:25:00+00:00",
+    "stars": 16,
+    "metricsCheckedAt": "2026-11-19T12:39:51+00:00",
     "metricsSourceUrl": "https://api.github.com/repos/sktjgudals/fable-5-2-prompting"
   },
   {
@@ -252,7 +252,7 @@
     },
     "githubKind": "repository",
     "stars": 9,
-    "metricsCheckedAt": "2026-11-13T02:25:00+00:00",
+    "metricsCheckedAt": "2026-11-19T12:39:52+00:00",
     "metricsSourceUrl": "https://api.github.com/repos/vadympetryshyn/effort-pilot"
   },
   {
@@ -276,8 +276,8 @@
       "role": "复刻发布片特效管道的技能模板来源"
     },
     "githubKind": "repository",
-    "stars": 8,
-    "metricsCheckedAt": "2026-11-13T02:25:00+00:00",
+    "stars": 9,
+    "metricsCheckedAt": "2026-11-19T12:39:48+00:00",
     "metricsSourceUrl": "https://api.github.com/repos/bhavya-gx/fable-vfx"
   },
   {
@@ -301,9 +301,9 @@
       "role": "全六档推理深度下的自主 3D 游戏开发对照主体"
     },
     "githubKind": "repository",
-    "stars": 6,
-    "metricsCheckedAt": "2026-11-13T02:25:00+00:00",
-    "metricsSourceUrl": "https://api.github.com/repos/Prokopiy8247/Fable5-2-Effort-Test-GTA"
+    "stars": 7,
+    "metricsCheckedAt": "2026-11-18T05:52:29+00:00",
+    "metricsSourceUrl": "https://api.github.com/repos/prokopiy8247/fable5-2-effort-test-gta"
   },
   {
     "id": "fable52-gh-selmakcby-ajan-takimi",
@@ -327,7 +327,7 @@
     },
     "githubKind": "repository",
     "stars": 3,
-    "metricsCheckedAt": "2026-11-13T02:25:00+00:00",
+    "metricsCheckedAt": "2026-11-19T12:39:51+00:00",
     "metricsSourceUrl": "https://api.github.com/repos/selmakcby/fable-ajan-takimi"
   },
   {
@@ -351,8 +351,564 @@
       "role": "CLI 模型选择器兼容性问题对象"
     },
     "githubKind": "issue",
-    "comments": 0,
-    "metricsCheckedAt": "2026-11-13T02:25:00+00:00",
-    "metricsSourceUrl": "https://api.github.com/repos/anthropics/claude-code/issues/108898"
+    "comments": 1,
+    "metricsCheckedAt": "2026-11-19T12:39:47+00:00",
+    "metricsSourceUrl": "https://api.github.com/repos/anthropics/claude-code/issues/108898",
+    "reactions": 0
+  },
+  {
+    "id": "fable52-gh-noniv-abyssal-garden",
+    "title": "Abyssal Garden：可游动的水下世界",
+    "title_en": "Abyssal Garden: a procedural underwater world",
+    "summary": "作者在 Reddit 明确说明用 Fable 5.2 生成 WebGPU 海底场景，并链接源码；包含海藻、沉船和蝠鲼。作者报告最初为单文件实现，后续补充碰撞与画质档位。",
+    "summary_en": "The creator attributes a procedural WebGPU underwater scene to Fable 5.2 and links the source from Reddit. Later iterations add collisions and quality levels.",
+    "category": "games",
+    "platform": "GitHub",
+    "sourceUrl": "https://github.com/Noniv/abyssal-garden",
+    "author": "Noniv",
+    "date": "2026-11-12",
+    "evidenceType": "演示",
+    "checkedAt": "2026-11-19T12:46:52+00:00",
+    "evidenceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1xw376f/",
+    "evidenceBasis": "原作者 Reddit 标题明确 Fable 5.2，正文链接同一 GitHub 仓库并说明单提示、WebGPU、后续迭代与性能限制。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "单 HTML 文件 97KB 3D 水下探索世界"
+    },
+    "githubKind": "repository",
+    "stars": 2465,
+    "metricsCheckedAt": "2026-11-19T12:39:50+00:00",
+    "metricsSourceUrl": "https://api.github.com/repos/noniv/abyssal-garden",
+    "resources": [
+      {
+        "label": "在线畅游 Abyssal Garden",
+        "label_en": "Play Abyssal Garden",
+        "url": "https://noniv.github.io/abyssal-garden/"
+      },
+      {
+        "label": "r/ClaudeAI 原帖（11.2K 赞）",
+        "label_en": "r/ClaudeAI post (11.2K score)",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1xw376f/i_built_a_swimmable_underwater_world_in_one_97_kb/"
+      },
+      {
+        "label": "Tom's Hardware 报道",
+        "label_en": "Tom's Hardware coverage",
+        "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/fable-5-2-creates-an-underwater-world-in-a-browser-in-only-96-kb-40-line-prompt-creates-impressive-demo-that-runs-at-180-fps"
+      },
+      {
+        "label": "作者开发说明",
+        "label_en": "Creator development account",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1xw376f/"
+      }
+    ]
+  },
+  {
+    "id": "fable52-gh-viktorkav-uno",
+    "title": "Fiat Uno 赛车：Fable 与 Opus 同题对比",
+    "title_en": "Fiat Uno racing: Fable and Opus on the same prompt",
+    "summary": "作者用同一提示分别测试 Fable 5.2 与 Opus 5.5，公开两份单文件 WebGPU 赛车、试玩入口和迭代记录；车辆、赛道与声音均由代码生成。",
+    "summary_en": "The creator publishes separate Fable 5.2 and Opus 5.5 WebGPU racing games from the same prompt, with playable builds and iteration records.",
+    "category": "games",
+    "platform": "GitHub",
+    "sourceUrl": "https://github.com/viktorkav/uno-com-escada",
+    "author": "viktorkav",
+    "date": "2026-11-16",
+    "evidenceType": "评测",
+    "checkedAt": "2026-11-19T12:46:52+00:00",
+    "evidenceUrl": "https://github.com/viktorkav/uno-com-escada",
+    "evidenceBasis": "已读取 GitHub 仓库元数据与 README 原文，明确记录 Fable 5.2 Attribution 与可复现源码结构。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "同题单文件 Three.js 赛车对比"
+    },
+    "githubKind": "repository",
+    "stars": 136,
+    "metricsCheckedAt": "2026-11-19T12:39:52+00:00",
+    "metricsSourceUrl": "https://api.github.com/repos/viktorkav/uno-com-escada"
+  },
+  {
+    "id": "fable52-gh-andrisgauracs-bevel-os",
+    "title": "Bevel OS：Fable 5.2 为单颗 ESP32-S3 写出带 VGA 输出的 Win95 风格桌面系统",
+    "title_en": "Bevel OS: Win95-style VGA desktop OS on a single ESP32-S3 written by Fable 5.2 (95★)",
+    "summary": "作者记录：开发者仅靠一颗无 GPU 的 ESP32-S3 微控制器，由 Claude Fable 5.2 编写出完整类 Windows 95 桌面操作系统与 VGA 驱动，支持窗口系统与小应用运行，开源获 95★。",
+    "summary_en": "Creator report: A functional Windows-95-style desktop operating system with VGA monitor output running on a single ESP32-S3 microcontroller, written by Claude Fable 5.2 (95 GitHub stars).",
+    "category": "coding",
+    "platform": "GitHub",
+    "sourceUrl": "https://github.com/andrisgauracs/bevel-os",
+    "author": "andrisgauracs",
+    "date": "2026-11-14",
+    "evidenceType": "演示",
+    "checkedAt": "2026-11-19T12:46:52+00:00",
+    "evidenceUrl": "https://github.com/andrisgauracs/bevel-os",
+    "evidenceBasis": "已读取 GitHub 仓库元数据与 README 原文，明确记录 Fable 5.2 Attribution 与可复现源码结构。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "ESP32-S3 嵌入式微控制器桌面操作系统编写"
+    },
+    "githubKind": "repository",
+    "stars": 101,
+    "metricsCheckedAt": "2026-11-19T12:39:47+00:00",
+    "metricsSourceUrl": "https://api.github.com/repos/andrisgauracs/bevel-os"
+  },
+  {
+    "id": "fable52-gh-devloops-unified-brain",
+    "title": "Unified Brain 对照评测：以轻量记忆层追近 Fable 5.2 Max 72.75/74 基准成绩",
+    "title_en": "Unified Brain benchmark: persistent agent memory evaluated against Fable 5.2 max effort (34★)",
+    "summary": "作者记录：DevLoops 发布开源持久化证据记忆框架并在 9 题 xz 考古任务上对标：Claude Fable 5.2 Max Effort 获 72.75/74 最高分（9 题耗时 5,372 秒、估算成本约 50 美元），而作者的 Hybrid 方案在追近准度的同时大幅压缩延迟与开销。",
+    "summary_en": "Creator report: DevLoops open-sources a persistent coding-agent memory framework benchmarked directly against Claude Fable 5.2 at max effort (72.75/74, ~$50 estimated, 5,372s across 9 deep codebase Q&A tasks; 34 GitHub stars).",
+    "category": "agents",
+    "platform": "GitHub",
+    "sourceUrl": "https://github.com/DevLoops-ai/unified-brain",
+    "author": "DevLoops-ai",
+    "date": "2026-10-15",
+    "evidenceType": "评测",
+    "checkedAt": "2026-11-19T12:46:52+00:00",
+    "evidenceUrl": "https://github.com/DevLoops-ai/unified-brain",
+    "evidenceBasis": "已读取 GitHub 仓库元数据与 README 原文，明确记录 Fable 5.2 Attribution 与可复现源码结构。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "编码代理持久记忆层成本与得分对照基准"
+    },
+    "githubKind": "repository",
+    "stars": 34,
+    "metricsCheckedAt": "2026-11-19T12:39:48+00:00",
+    "metricsSourceUrl": "https://api.github.com/repos/devloops-ai/unified-brain"
+  },
+  {
+    "id": "fable52-gh-leonxlnx-castle",
+    "title": "Castle Cinematic：多模型协作搭建城堡短片",
+    "title_en": "Castle Cinematic: a multi-model Blender production",
+    "summary": "README 说明 Fable 5.2 编写城堡、镜头和渲染流程，Fable 子代理制作景观与植被，Opus 5.5 子代理处理水、火、道具和音效检索。仓库提供提示词和 Blender 渲染脚本。",
+    "summary_en": "The README assigns the castle, cameras and render pipeline to Fable 5.2, with Fable landscape agents and Opus 5.5 agents for water, fire, props and audio discovery. Prompts and Blender scripts are public.",
+    "category": "video",
+    "platform": "GitHub",
+    "sourceUrl": "https://github.com/Leonxlnx/castle-cinematic",
+    "author": "Leonxlnx",
+    "date": "2026-11-15",
+    "evidenceType": "演示",
+    "checkedAt": "2026-11-19T12:46:52+00:00",
+    "evidenceUrl": "https://github.com/Leonxlnx/castle-cinematic",
+    "evidenceBasis": "已读取 GitHub 仓库元数据与 README 原文，明确记录 Fable 5.2 Attribution 与可复现源码结构。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "单场景程序化影视级 WebGL 短片引擎"
+    },
+    "githubKind": "repository",
+    "stars": 8,
+    "metricsCheckedAt": "2026-11-19T12:39:50+00:00",
+    "metricsSourceUrl": "https://api.github.com/repos/leonxlnx/castle-cinematic"
+  },
+  {
+    "id": "fable52-gh-stefanknol-last-return",
+    "title": "Last Return：Fable 5.2 构建的三维密闭泵站恐怖探索游戏与截图集",
+    "title_en": "Last Return: 3D atmospheric pump-hall horror exploration game by Fable 5.2 (3★)",
+    "summary": "作者记录：开源 Web 3D 恐怖探索项目《Last Return》，包含 Fable 5.2 生成的密闭工业泵站光影场景、声景交互与实时渲染截图。",
+    "summary_en": "Creator report: Atmospheric 3D pump-hall horror exploration game built with Claude Fable 5.2, featuring realtime industrial lighting and exploration mechanics.",
+    "category": "games",
+    "platform": "GitHub",
+    "sourceUrl": "https://github.com/StefanKnol/Last-Return",
+    "author": "StefanKnol",
+    "date": "2026-11-14",
+    "evidenceType": "演示",
+    "checkedAt": "2026-11-19T12:46:52+00:00",
+    "evidenceUrl": "https://github.com/StefanKnol/Last-Return",
+    "evidenceBasis": "已读取 GitHub 仓库元数据与 README 原文，明确记录 Fable 5.2 Attribution 与可复现源码结构。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "WebGL 第一人称恐怖潜行游戏编写"
+    },
+    "githubKind": "repository",
+    "stars": 3,
+    "metricsCheckedAt": "2026-11-19T12:39:51+00:00",
+    "metricsSourceUrl": "https://api.github.com/repos/stefanknol/last-return"
+  },
+  {
+    "id": "fable52-gh-cagrikacmaz-captcha",
+    "title": "同题验证码攻防实验：Fable 5.2 vs Gemini 4 Carbon 打造人类可通过、代理难破解关卡",
+    "title_en": "CAPTCHA Wall duel: Fable 5.2 vs Gemini 4 Carbon building human-pass / AI-fail challenges (3★)",
+    "summary": "作者记录：开源双模型对照实验仓库：同一提示词要求 Fable 5.2 与 Gemini 4 Carbon 分别设计“人类可轻松通过但多模态 AI 代理失败”的前端交互验证码页面。",
+    "summary_en": "Creator report: Head-to-head experiment prompting Claude Fable 5.2 and Gemini 4 Carbon to build interactive CAPTCHA challenges passable by humans yet resilient against AI agents.",
+    "category": "web",
+    "platform": "GitHub",
+    "sourceUrl": "https://github.com/cagrikacmaz/fable-5-2-vs-gemini-4-carbon-captcha-wall",
+    "author": "cagrikacmaz",
+    "date": "2026-11-14",
+    "evidenceType": "评测",
+    "checkedAt": "2026-11-19T12:46:52+00:00",
+    "evidenceUrl": "https://github.com/cagrikacmaz/fable-5-2-vs-gemini-4-carbon-captcha-wall",
+    "evidenceBasis": "已读取 GitHub 仓库元数据与 README 原文，明确记录 Fable 5.2 Attribution 与可复现源码结构。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "对抗人类与 AI 代理的动态验证码实验"
+    },
+    "githubKind": "repository",
+    "stars": 3,
+    "metricsCheckedAt": "2026-11-19T12:39:48+00:00",
+    "metricsSourceUrl": "https://api.github.com/repos/cagrikacmaz/fable-5-2-vs-gemini-4-carbon-captcha-wall"
+  },
+  {
+    "id": "fable52-gh-fablestar-bayhaven",
+    "title": "Bayhaven：全代码与每次 Git 提交均由 Claude Fable 5.2 实时编写的开放世界游戏",
+    "title_en": "Bayhaven: original open-world browser game committed line-by-line by Fable 5.2 (3★)",
+    "summary": "作者记录：实验性开放世界项目：作者让 Claude Fable 5.2 自主主导架构、玩法循环、地形系统与每一次代码 Commit，持续演化《Bayhaven》海港沙盒。",
+    "summary_en": "Creator report: Original open-world browser game where every line of code and Git commit is authored live by Claude Fable 5.2.",
+    "category": "games",
+    "platform": "GitHub",
+    "sourceUrl": "https://github.com/fablestar/bayhaven",
+    "author": "fablestar",
+    "date": "2026-11-11",
+    "evidenceType": "演示",
+    "checkedAt": "2026-11-19T12:46:52+00:00",
+    "evidenceUrl": "https://github.com/fablestar/bayhaven",
+    "evidenceBasis": "已读取 GitHub 仓库元数据与 README 原文，明确记录 Fable 5.2 Attribution 与可复现源码结构。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "全自动 AI 实况提交开放世界海港游戏"
+    },
+    "githubKind": "repository",
+    "stars": 3,
+    "metricsCheckedAt": "2026-11-19T12:39:49+00:00",
+    "metricsSourceUrl": "https://api.github.com/repos/fablestar/bayhaven"
+  },
+  {
+    "id": "fable52-gh-realcodebear-koi",
+    "title": "锦鲤池塘 5 档 Effort 实测：对比 Fable 5.2（low→max）与 Opus 5.5 / GPT-6 高力度效果",
+    "title_en": "Koi Pond Effort Test: 7-way Three.js comparison across Fable 5.2 effort levels (3★)",
+    "summary": "作者记录：开发者用同一 Three.js 锦鲤池塘提示词跑了 7 次：横向比较 Fable 5.2 在 low / medium / high / xhigh / max 五档推理力度下的水面波纹、鱼群游动、加载表现及与 Opus 5.5 / GPT-6 的差异。",
+    "summary_en": "Creator report: Controlled 7-run benchmark testing the same Three.js koi pond prompt across all 5 Claude Fable 5.2 effort levels (low, medium, high, xhigh, max) plus Opus 5.5 and GPT-6.",
+    "category": "graphics",
+    "platform": "GitHub",
+    "sourceUrl": "https://github.com/realcodebear/threejs-fable-5.2-all-effort-koi-pond",
+    "author": "realcodebear",
+    "date": "2026-11-12",
+    "evidenceType": "评测",
+    "checkedAt": "2026-11-19T12:46:52+00:00",
+    "evidenceUrl": "https://github.com/realcodebear/threejs-fable-5.2-all-effort-koi-pond",
+    "evidenceBasis": "已读取 GitHub 仓库元数据与 README 原文，明确记录 Fable 5.2 Attribution 与可复现源码结构。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "五档推理力度（low→max）Three.js 同题对比"
+    },
+    "githubKind": "repository",
+    "stars": 3,
+    "metricsCheckedAt": "2026-11-19T12:39:50+00:00",
+    "metricsSourceUrl": "https://api.github.com/repos/realcodebear/threejs-fable-5.2-all-effort-koi-pond"
+  },
+  {
+    "id": "fable52-gh-kompas-dirigent",
+    "title": "dirigent：让 Opus 接小活、Fable 5.2 专职架构规划与验收的 Claude Code 省钱插件",
+    "title_en": "dirigent: Claude Code plugin delegating planning/review to Fable 5.2 & builds to Opus (1★)",
+    "summary": "作者记录：开发者结合真实每日工作流博客开源的 Claude Code 插件：默认以低成本 Opus 5.5 执行常规开发，遇到复杂大任务时先聚拢一轮提问、请 Fable 5.2 规划并把关终审，显著节省周额度。",
+    "summary_en": "Creator report: Claude Code orchestration plugin (paired with creator's engineering blog post) that routes complex planning and final review to Fable 5.2 while letting cheaper Opus/worker models execute routine builds.",
+    "category": "agents",
+    "platform": "GitHub",
+    "sourceUrl": "https://github.com/Kompas/dirigent",
+    "author": "Kompas",
+    "date": "2026-11-16",
+    "evidenceType": "集成",
+    "checkedAt": "2026-11-19T12:46:52+00:00",
+    "evidenceUrl": "https://github.com/Kompas/dirigent",
+    "evidenceBasis": "已读取 GitHub 仓库元数据与 README 原文，明确记录 Fable 5.2 Attribution 与可复现源码结构。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "Fable 5.2 规划审查 + Opus 执行分层插件"
+    },
+    "githubKind": "repository",
+    "stars": 1,
+    "metricsCheckedAt": "2026-11-19T12:39:49+00:00",
+    "metricsSourceUrl": "https://api.github.com/repos/kompas/dirigent",
+    "resources": [
+      {
+        "label": "作者深度实战博客",
+        "label_en": "Creator workflow blog post",
+        "url": "https://blog.hagebols.com/posts/fable-plans-and-reviews-opus-builds-cheaper/"
+      }
+    ]
+  },
+  {
+    "id": "fable52-gh-themizeguy-potatobench",
+    "title": "PotatoBench《The County》：单提示词让 Fable 5.2 独立开发并上线全套种土豆网页游戏",
+    "title_en": "PotatoBench entry 'The County': single-prompt browser farming game shipped by Fable 5.2 (1★)",
+    "summary": "作者记录：PotatoBench 单提示词全托管测试集作品之一：从零构建包含土地耕作、季节天气、商店经济系统在内的完整浏览器土豆农场游戏。",
+    "summary_en": "Creator report: Fable 5.2's entry in TheMizeGuy's PotatoBench: given one prompt to build and ship a complete browser-based potato farming game autonomously.",
+    "category": "games",
+    "platform": "GitHub",
+    "sourceUrl": "https://github.com/TheMizeGuy/fable-5.2-potatobench",
+    "author": "TheMizeGuy",
+    "date": "2026-11-11",
+    "evidenceType": "评测",
+    "checkedAt": "2026-11-19T12:46:52+00:00",
+    "evidenceUrl": "https://github.com/TheMizeGuy/fable-5.2-potatobench",
+    "evidenceBasis": "已读取 GitHub 仓库元数据与 README 原文，明确记录 Fable 5.2 Attribution 与可复现源码结构。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "PotatoBench 自主发游单提示词基准测试"
+    },
+    "githubKind": "repository",
+    "stars": 1,
+    "metricsCheckedAt": "2026-11-19T12:39:52+00:00",
+    "metricsSourceUrl": "https://api.github.com/repos/themizeguy/fable-5.2-potatobench"
+  },
+  {
+    "id": "fable52-gh-ololo-apex-lap",
+    "title": "Apex Lap：单次会话生成的全功能 WebGL 3D 竞速游戏与计时赛",
+    "title_en": "Apex Lap: 3D browser racing game built by Claude Fable 5.2 in a single session (1★)",
+    "summary": "作者记录：使用 Fable 5.2 在单次开发会话内完成的纯前端 3D 竞速游戏，支持漂移物理、多圈计时与赛道弯道渲染。",
+    "summary_en": "Creator report: A playable 3D browser racing game generated by Claude Fable 5.2 in one continuous coding session.",
+    "category": "games",
+    "platform": "GitHub",
+    "sourceUrl": "https://github.com/ololo-dev/apex-lap-fable-5-2",
+    "author": "ololo-dev",
+    "date": "2026-11-16",
+    "evidenceType": "演示",
+    "checkedAt": "2026-11-19T12:46:52+00:00",
+    "evidenceUrl": "https://github.com/ololo-dev/apex-lap-fable-5-2",
+    "evidenceBasis": "已读取 GitHub 仓库元数据与 README 原文，明确记录 Fable 5.2 Attribution 与可复现源码结构。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "单会话浏览器 3D 竞速游戏生成"
+    },
+    "githubKind": "repository",
+    "stars": 1,
+    "metricsCheckedAt": "2026-11-19T12:39:50+00:00",
+    "metricsSourceUrl": "https://api.github.com/repos/ololo-dev/apex-lap-fable-5-2"
+  },
+  {
+    "id": "fable52-gh-zhgarylu-everyday",
+    "title": "回声游戏厅：多款浏览器小游戏",
+    "title_en": "Echo Arcade: a collection of browser games",
+    "summary": "作者公开由 Fable 5.2 编写并迭代的网页游戏厅，记录玩法、界面和自测过程；部分角色图来自额外生图，语音由火山引擎合成。",
+    "summary_en": "The creator credits Fable 5.2 with implementing and testing a browser arcade. Some character images are generated separately, and speech uses an external synthesis service.",
+    "category": "games",
+    "platform": "GitHub",
+    "sourceUrl": "https://github.com/zhgarylu/everyday-game",
+    "author": "zhgarylu",
+    "date": "2026-11-15",
+    "evidenceType": "演示",
+    "checkedAt": "2026-11-19T12:46:52+00:00",
+    "evidenceUrl": "https://github.com/zhgarylu/everyday-game",
+    "evidenceBasis": "已读取 GitHub 仓库元数据与 README 原文，明确记录 Fable 5.2 Attribution 与可复现源码结构。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "纯 Fable 5.2 打造的中文每日小游戏合集"
+    },
+    "githubKind": "repository",
+    "stars": 1,
+    "metricsCheckedAt": "2026-11-19T12:39:53+00:00",
+    "metricsSourceUrl": "https://api.github.com/repos/zhgarylu/everyday-game"
+  },
+  {
+    "id": "fable52-gh-az9713-3d-atlas",
+    "title": "3D Style Atlas：Fable 5.2 设计架构 + Opus 5.5 批量实现 100 种 Three.js 动效风格",
+    "title_en": "3D Style Atlas: 100 Three.js visual styles architected by Fable 5.2, built by Opus 5.5 (1★)",
+    "summary": "作者记录：由 Claude Fable 5.2 负责全套视觉体系与架构设计、再交由 Opus 5.5 实现的 100 种 Three.js 三维风格图鉴仓库（含黏土渲染、体素、流体等封面）。",
+    "summary_en": "Creator report: 100 interactive Three.js animation styles architected by Claude Fable 5.2 and implemented with Claude Opus 5.5.",
+    "category": "graphics",
+    "platform": "GitHub",
+    "sourceUrl": "https://github.com/az9713/fable-5.2-3d-animations",
+    "author": "az9713",
+    "date": "2026-11-13",
+    "evidenceType": "演示",
+    "checkedAt": "2026-11-19T12:46:52+00:00",
+    "evidenceUrl": "https://github.com/az9713/fable-5.2-3d-animations",
+    "evidenceBasis": "已读取 GitHub 仓库元数据与 README 原文，明确记录 Fable 5.2 Attribution 与可复现源码结构。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "Fable 设计 + Opus 实现百种 Three.js 动效图谱"
+    },
+    "githubKind": "repository",
+    "stars": 1,
+    "metricsCheckedAt": "2026-11-19T12:39:48+00:00",
+    "metricsSourceUrl": "https://api.github.com/repos/az9713/fable-5.2-3d-animations"
+  },
+  {
+    "id": "fable52-gh-gavilanbe-pantastic",
+    "title": "Pantastic!：西班牙开发者用 Fable 5.2 编写的 3D 揉面、柴火窑烤面包经营游戏",
+    "title_en": "Pantastic!: cozy 3D wood-fired bakery game authored with Claude Fable 5.2 (1★)",
+    "summary": "作者记录：西班牙独立开发者作品：围绕揉面、控制柴火烤炉火候并向顾客售卖面包的温馨 3D 浏览器模拟经营小游戏。",
+    "summary_en": "Creator report: Cozy Spanish 3D bakery simulation game about kneading dough, firing a wood oven, and serving customers, built with Claude Fable 5.2.",
+    "category": "games",
+    "platform": "GitHub",
+    "sourceUrl": "https://github.com/gavilanbe/pantastic",
+    "author": "gavilanbe",
+    "date": "2026-11-14",
+    "evidenceType": "演示",
+    "checkedAt": "2026-11-19T12:46:52+00:00",
+    "evidenceUrl": "https://github.com/gavilanbe/pantastic",
+    "evidenceBasis": "已读取 GitHub 仓库元数据与 README 原文，明确记录 Fable 5.2 Attribution 与可复现源码结构。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "3D 柴火面包烘焙休闲网页游戏"
+    },
+    "githubKind": "repository",
+    "stars": 1,
+    "metricsCheckedAt": "2026-11-19T12:39:49+00:00",
+    "metricsSourceUrl": "https://api.github.com/repos/gavilanbe/pantastic"
+  },
+  {
+    "id": "fable52-gh-hu-fable-challenge",
+    "title": "为 Killfield 坦克游戏增加避弹对手",
+    "title_en": "Adding a bullet-avoidance opponent to Killfield",
+    "summary": "作者在原有 Hybrid 对手上加入 Fable 5.2 编写的短期子弹轨迹预测程序。游戏引擎、网络权重和素材沿用原项目；模型用于写程序，并非每帧在线调用。",
+    "summary_en": "Fable 5.2 writes a short-horizon bullet predictor on top of the existing Hybrid opponent. The engine and weights remain from Killfield; the language model is not called during each game frame.",
+    "category": "games",
+    "platform": "GitHub",
+    "sourceUrl": "https://github.com/hu2148284557-debug/fable-challenge",
+    "author": "hu2148284557-debug",
+    "date": "2026-11-17",
+    "evidenceType": "演示",
+    "checkedAt": "2026-11-19T12:46:52+00:00",
+    "evidenceUrl": "https://github.com/hu2148284557-debug/fable-challenge",
+    "evidenceBasis": "已读取 GitHub 仓库元数据与 README 原文，明确记录 Fable 5.2 Attribution 与可复现源码结构。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "开源坦克动荡 AI 对战 AI 强化改造"
+    },
+    "githubKind": "repository",
+    "stars": 1,
+    "metricsCheckedAt": "2026-11-19T12:39:49+00:00",
+    "metricsSourceUrl": "https://api.github.com/repos/hu2148284557-debug/fable-challenge"
+  },
+  {
+    "id": "fable52-gh-jasiel-agua-mineral",
+    "title": "Pale 高山矿泉水 3D 品牌官网：Fable 5.2 单提示词一次直出、零手改交互玻璃瓶与气泡粒子",
+    "title_en": "Pale Mineral Water 3D landing page: zero hand-edits single-prompt Three.js build (1★)",
+    "summary": "作者记录：葡萄牙语开发者实测单提示词直出《Pale》品牌矿泉水官网：随着页面滚动实时旋转倾斜 Three.js 3D 玻璃水瓶并伴随内部上升气泡物理仿真，仓库 README 确认“未手改任何一行代码”。",
+    "summary_en": "Creator report: Portuguese conceptual 3D mineral water brand landing page featuring a scroll-reactive Three.js glass bottle and bubble simulation generated in one Fable 5.2 prompt with zero manual edits.",
+    "category": "web",
+    "platform": "GitHub",
+    "sourceUrl": "https://github.com/jasielrasec18-dev/site-agua-mineral-threejs",
+    "author": "jasielrasec18-dev",
+    "date": "2026-11-16",
+    "evidenceType": "演示",
+    "checkedAt": "2026-11-19T12:46:52+00:00",
+    "evidenceUrl": "https://github.com/jasielrasec18-dev/site-agua-mineral-threejs",
+    "evidenceBasis": "已读取 GitHub 仓库元数据与 README 原文，明确记录 Fable 5.2 Attribution 与可复现源码结构。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "单提示词零手改 Three.js 矿泉水 3D 官网"
+    },
+    "githubKind": "repository",
+    "stars": 1,
+    "metricsCheckedAt": "2026-11-19T12:39:49+00:00",
+    "metricsSourceUrl": "https://api.github.com/repos/jasielrasec18-dev/site-agua-mineral-threejs"
+  },
+  {
+    "id": "fable52-gh-meridian-issue-1516",
+    "title": "Meridian Issue #1516：Pro 订阅已可用 Fable 5.2 但网关 `/v1/models` 目录停留在 5.1",
+    "title_en": "Meridian Issue #1516: claude-fable-5-2 missing from Meridian model catalogue",
+    "summary": "作者记录：开源代理网关 Meridian v1.88.0 用户反馈：Claude Pro 订阅虽已开放 Fable 5.2，但网关模型清单仅列到 `claude-fable-5-1`，请求即时补充映射。",
+    "summary_en": "Creator report: Issue report tracking Meridian v1.88.0 missing `claude-fable-5-2` from its `/v1/models` catalogue after Claude Pro launch.",
+    "category": "coding",
+    "platform": "GitHub",
+    "sourceUrl": "https://github.com/rynfar/meridian/issues/1516",
+    "author": "nlitend1",
+    "date": "2026-11-09",
+    "evidenceType": "限制",
+    "checkedAt": "2026-11-19T12:46:52+00:00",
+    "evidenceUrl": "https://github.com/rynfar/meridian/issues/1516",
+    "evidenceBasis": "已读取 GitHub Issue/PR API 元数据与正文，明确记录 Fable 5.2 / Mythos 5.2 适配或边界行为。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "第三方代理工具目录漏列 claude-fable-5-2"
+    },
+    "githubKind": "issue",
+    "comments": 1,
+    "metricsCheckedAt": "2026-11-19T12:39:51+00:00",
+    "metricsSourceUrl": "https://api.github.com/repos/rynfar/meridian/issues/1516",
+    "reactions": 3
+  },
+  {
+    "id": "fable52-gh-cc-switch-issue-9608",
+    "title": "CC Switch Issue #9608：上游为 Fable 5.2 时路由配置仍误写旧版 `claude-fable-5` 标识符",
+    "title_en": "CC Switch Issue #9608: Fable tier still writes stale claude-fable-5 model ID in routing mode",
+    "summary": "作者记录：开发者反馈主流配置工具 CC Switch 在路由模式下的 Fable 档位映射滞后，虽然 Opus/Sonnet 5.5 已有精确小版本映射，但 Fable 仍写入 `claude-fable-5` 导致上游调度偏差。",
+    "summary_en": "Creator report: Bug report in CC Switch showing its Fable routing tier defaulting to stale `claude-fable-5` instead of `claude-fable-5-2`, unlike updated Opus/Sonnet 5.5 mappings.",
+    "category": "coding",
+    "platform": "GitHub",
+    "sourceUrl": "https://github.com/farion1231/cc-switch/issues/9608",
+    "author": "loseheart-dev",
+    "date": "2026-11-16",
+    "evidenceType": "限制",
+    "checkedAt": "2026-11-19T12:46:52+00:00",
+    "evidenceUrl": "https://github.com/farion1231/cc-switch/issues/9608",
+    "evidenceBasis": "已读取 GitHub Issue/PR API 元数据与正文，明确记录 Fable 5.2 / Mythos 5.2 适配或边界行为。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "客户端路由模式默认档位映射未跟进 5.2"
+    },
+    "githubKind": "issue",
+    "comments": 2,
+    "metricsCheckedAt": "2026-11-19T12:39:49+00:00",
+    "metricsSourceUrl": "https://api.github.com/repos/farion1231/cc-switch/issues/9608",
+    "reactions": 0
+  },
+  {
+    "id": "fable52-github-masamunecode-tacet",
+    "title": "Tacet：测试聊天代理何时保持安静",
+    "title_en": "Tacet: testing when a chat agent should stay quiet",
+    "summary": "作者用 Fable 5.2 编写聊天工作区与代理提示词，并以多模型、多次运行比较不必要发言。仓库公开测试条件与结果，分数仅适用于该任务集。",
+    "summary_en": "The creator uses Fable 5.2 to build a chat workspace and agent prompts, then compares unnecessary replies across models and repeated runs with published test conditions.",
+    "category": "agents",
+    "platform": "GitHub",
+    "sourceUrl": "https://github.com/masamunecode/tacet",
+    "author": "masamunecode",
+    "date": "2026-11-13",
+    "evidenceType": "评测",
+    "checkedAt": "2026-11-19T12:49:49+00:00",
+    "evidenceUrl": "https://github.com/masamunecode/tacet/blob/main/README.md",
+    "evidenceBasis": "作者用 Fable 5.2 编写聊天工作区与代理提示词，并以多模型、多次运行比较不必要发言。仓库公开测试条件与结果，分数仅适用于该任务集。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "Tacet: testing when a chat agent should stay quiet"
+    },
+    "githubKind": "repository",
+    "stars": 0,
+    "metricsCheckedAt": "2026-11-19T12:47:31+00:00",
+    "mediaKind": "image"
+  },
+  {
+    "id": "fable52-github-kleinbuild-edtrawl-cla",
+    "title": "EdTrawl：按通勤筛选教师岗位",
+    "title_en": "EdTrawl: teaching jobs filtered by commute",
+    "summary": "作者说明此实验构建由 Fable 5.2 编排 Claude Code 代理完成，结合加州学校清单、岗位信息和通勤估计筛选新职位。结果依赖外部数据与估算。",
+    "summary_en": "The owner credits Fable 5.2 with orchestrating a Claude Code build that filters California teaching jobs using school data and commute estimates. Results depend on external data and estimates.",
+    "category": "business",
+    "platform": "GitHub",
+    "sourceUrl": "https://github.com/kleinbuild/edtrawl-cla",
+    "author": "kleinbuild",
+    "date": "2026-11-18",
+    "evidenceType": "源码",
+    "checkedAt": "2026-11-19T12:49:49+00:00",
+    "evidenceUrl": "https://github.com/kleinbuild/edtrawl-cla/blob/main/README.md",
+    "evidenceBasis": "作者说明此实验构建由 Fable 5.2 编排 Claude Code 代理完成，结合加州学校清单、岗位信息和通勤估计筛选新职位。结果依赖外部数据与估算。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "EdTrawl: teaching jobs filtered by commute"
+    },
+    "githubKind": "repository",
+    "stars": 0,
+    "metricsCheckedAt": "2026-11-19T12:47:31+00:00"
   }
 ]

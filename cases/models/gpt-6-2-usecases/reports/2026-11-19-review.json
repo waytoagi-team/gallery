@@ -1,0 +1,911 @@
+{
+ "checkedAt": "2026-11-19T12:56:50+00:00",
+ "topicId": "gpt-6-2",
+ "previousPublishedCount": 10,
+ "caseCount": 25,
+ "addedCount": 15,
+ "addedByPlatform": {
+  "X": 8,
+  "GitHub": 6,
+  "Web": 1
+ },
+ "addedCaseIds": [
+  "gpt62-x-2123126087269957998",
+  "gpt62-x-2123379979119444471",
+  "gpt62-x-2123066399543468501",
+  "gpt62-x-2123389829438406999",
+  "gpt62-x-2123339603923095701",
+  "gpt62-x-2122944014530085173",
+  "gpt62-x-2123125957020291310",
+  "gpt62-x-2122755693191287009",
+  "gpt62-github-viktorkav-uno-com-escada",
+  "gpt62-github-sam1983aing-ogive-watch-film",
+  "gpt62-github-deathdadev-mossbound-giant",
+  "gpt62-github-callas157-arch-install",
+  "gpt62-github-anking8704-ai-bridge-contest-ep9",
+  "gpt62-github-zht1235456-three-js-hexacopter-by-gpt-6-2-astra",
+  "gpt62-web-plotly-data-analytics"
+ ],
+ "selectionPolicy": "Bounded multi-platform discovery; original creator, explicit version and concrete task required. Same-work cross-posts are folded into resources. Author timing/cost/performance claims are not independently reproduced. Unselected candidates remain pending.",
+ "decisions": [
+  {
+   "id": "gpt62-x-2123126087269957998",
+   "sourceUrl": "https://x.com/tobiadonadon_/status/2123126087269957998",
+   "author": "tobiadonadon_",
+   "date": "2026-11-18",
+   "evidenceUrl": "https://x.com/tobiadonadon_/status/2123126087269957998",
+   "evidenceSha256": "18cf103121e70763f025daefff87ea8046b03c4190935c688e06afb2424a192d",
+   "decision": "accepted",
+   "reason": "作者让 GPT-6.2 Astra 与 Fable 5.2 依据同一提示各自建模和制作动画，展示并排结果并讨论机械细节差异。",
+   "posterStatus": "accepted"
+  },
+  {
+   "id": "gpt62-x-2123379979119444471",
+   "sourceUrl": "https://x.com/kinderlayer/status/2123379979119444471",
+   "author": "kinderlayer",
+   "date": "2026-11-19",
+   "evidenceUrl": "https://x.com/kinderlayer/status/2123379979119444471",
+   "evidenceSha256": "1622c7ee2100ae7c269727233c3adeec03e7d204d754c99c3a9da9db516b45a0",
+   "decision": "accepted",
+   "reason": "作者展示 GPT-6.2 Astra 与 Fable 5.2 的小熊画面对比，声称未修改输出。收录此演示，不据此推导通用质量或价格结论。",
+   "posterStatus": "accepted"
+  },
+  {
+   "id": "gpt62-x-2123066399543468501",
+   "sourceUrl": "https://x.com/Arina_tishina/status/2123066399543468501",
+   "author": "Arina_tishina",
+   "date": "2026-11-18",
+   "evidenceUrl": "https://x.com/Arina_tishina/status/2123066399543468501",
+   "evidenceSha256": "120ca521e4e434641f9eb506bbcccf8a1ac423e3524840a70c22da975d2a5a0b",
+   "decision": "accepted",
+   "reason": "游戏作者展示用 GPT-6.2 Astra 制作的 Alien Orbits 角色动画；帖子未说明完整的素材和渲染工具分工。",
+   "posterStatus": "accepted"
+  },
+  {
+   "id": "gpt62-x-2123389829438406999",
+   "sourceUrl": "https://x.com/argofowl/status/2123389829438406999",
+   "author": "argofowl",
+   "date": "2026-11-19",
+   "evidenceUrl": "https://x.com/argofowl/status/2123389829438406999",
+   "evidenceSha256": "b5f8c91e0b3adec37f7e587737bd28b00fa6075355fda36cabb712ad1aac3257",
+   "decision": "accepted",
+   "reason": "作者让 GPT-6.2 Sol 与 Opus 5.5 以 xhigh 档位、不使用工具对弈五局，记录三胜两和及按 API 价格估算的费用。结果只代表该组对局。",
+   "posterStatus": "accepted"
+  },
+  {
+   "id": "gpt62-x-2123339603923095701",
+   "sourceUrl": "https://x.com/GeekCatX/status/2123339603923095701",
+   "author": "GeekCatX",
+   "date": "2026-11-19",
+   "evidenceUrl": "https://x.com/GeekCatX/status/2123339603923095701",
+   "evidenceSha256": "e0f52998cac5f5c22a7dbbba6ba808e6f8e640b4239210403e4b0d9b9decdc47",
+   "decision": "accepted",
+   "reason": "作者用自己的代码视频复刻 Skill 驱动 GPT-6.2 Astra，参照另一模型的蝴蝶画面制作并排对比；不是独立原创设计测试。",
+   "posterStatus": "accepted"
+  },
+  {
+   "id": "gpt62-x-2122944014530085173",
+   "sourceUrl": "https://x.com/Rohit_115/status/2122944014530085173",
+   "author": "Rohit_115",
+   "date": "2026-11-18",
+   "evidenceUrl": "https://x.com/Rohit_115/status/2122944014530085173",
+   "evidenceSha256": "a2d85e09eac920097b3d8b09b7458acf3e57987e9854d73164147f5220548c42",
+   "decision": "accepted",
+   "reason": "作者在先前 GPT-6.1 Sol 与 GPT-6 Astra 制作的 Three.js FPS 上，切换到 GPT-6.2 Astra 继续改进武器和敌人交互，明确属于多模型迭代。",
+   "posterStatus": "accepted"
+  },
+  {
+   "id": "gpt62-x-2123125957020291310",
+   "sourceUrl": "https://x.com/suza_vfx/status/2123125957020291310",
+   "author": "suza_vfx",
+   "date": "2026-11-18",
+   "evidenceUrl": "https://x.com/suza_vfx/status/2123125957020291310",
+   "evidenceSha256": "b43b1149c02d76a7d729a58b2447e1d0213470ea5dabe22bca1304e95e9025a4",
+   "decision": "accepted",
+   "reason": "作者展示用 GPT-6.2 Sol 配合 AE GPT 插件完成的 GTA 主题 After Effects 动画。",
+   "posterStatus": "accepted"
+  },
+  {
+   "id": "gpt62-x-2122755693191287009",
+   "sourceUrl": "https://x.com/emollick/status/2122755693191287009",
+   "author": "emollick",
+   "date": "2026-11-17",
+   "evidenceUrl": "https://x.com/emollick/status/2122755693191287009",
+   "evidenceSha256": "fbf2921a560f7388da69c96255e9d94f5741e433cf4bce436b529cc9e724a8af",
+   "decision": "accepted",
+   "reason": "Ethan Mollick 展示用 GPT-6.2 Astra 制作的太空电梯体验，同时说明模型在指导和协作方面表现不稳定，保留其正反两面反馈。",
+   "posterStatus": "accepted"
+  },
+  {
+   "id": "gpt62-github-viktorkav-uno-com-escada",
+   "sourceUrl": "https://github.com/viktorkav/uno-com-escada",
+   "author": "viktorkav",
+   "date": "2026-11-16",
+   "evidenceUrl": "https://github.com/viktorkav/uno-com-escada/blob/main/README.md",
+   "evidenceSha256": "8bcfd13b0fd5cab73e0c6a2ba61968f65b63384411bb95e011f3a834da43debf",
+   "decision": "accepted",
+   "reason": "作者公开 Fable 5.2、Opus 5.5 与 GPT-6.2 Astra 三份单文件 WebGPU 赛车，附提示词、试玩和结果说明；后续菜单与声音改动另由 Fable 处理。",
+   "posterStatus": "accepted"
+  },
+  {
+   "id": "gpt62-github-sam1983aing-ogive-watch-film",
+   "sourceUrl": "https://github.com/Sam1983Aing/ogive-watch-film",
+   "author": "Sam1983Aing",
+   "date": "2026-11-19",
+   "evidenceUrl": "https://github.com/Sam1983Aing/ogive-watch-film/blob/main/README.md",
+   "evidenceSha256": "084c4bb7e343b9bf5c31da6e0a45c19b316dbc6c7c4266b79b2260b8b6112755",
+   "decision": "accepted",
+   "reason": "作者用 Codex 中的 GPT-6.2 Astra 编写 Python，生成 Blender 腕表零件、组装动画、灯光与声音，并公开脚本和成片。",
+   "posterStatus": "accepted"
+  },
+  {
+   "id": "gpt62-github-deathdadev-mossbound-giant",
+   "sourceUrl": "https://github.com/Deathdadev/mossbound-giant",
+   "author": "Deathdadev",
+   "date": "2026-11-18",
+   "evidenceUrl": "https://github.com/Deathdadev/mossbound-giant/blob/main/README.md",
+   "evidenceSha256": "5b9e087fcab784e58d48c622efdbce2b9cfe0df0a480963b7df015aae0b990f3",
+   "decision": "accepted",
+   "reason": "作者明确记录 Arena Code 模式中的 gpt-6.2-astra-max 归属，公开短片源码、画面和会话链接；原会话访问需要登录。",
+   "posterStatus": "accepted"
+  },
+  {
+   "id": "gpt62-github-callas157-arch-install",
+   "sourceUrl": "https://github.com/Callas157/arch-install",
+   "author": "Callas157",
+   "date": "2026-11-06",
+   "evidenceUrl": "https://github.com/Callas157/arch-install/blob/main/README.md",
+   "evidenceSha256": "0fcde6782435279ff38923ab6ad1ab4225a2e53acdd77241138241d4c698b76c",
+   "decision": "accepted",
+   "reason": "仓库作者明确说明借助 Codex 中的 GPT-6.2 Sol 开发 Arch Linux 与 KDE Plasma 安装配置项目，面向葡语桌面与游戏场景；未在本轮执行安装。",
+   "posterStatus": "pending"
+  },
+  {
+   "id": "gpt62-github-anking8704-ai-bridge-contest-ep9",
+   "sourceUrl": "https://github.com/Anking8704/ai-bridge-contest-ep9",
+   "author": "Anking8704",
+   "date": "2026-11-11",
+   "evidenceUrl": "https://github.com/Anking8704/ai-bridge-contest-ep9/blob/main/README.md",
+   "evidenceSha256": "f47abd84e925918ad61b544cad2958cbf4c8e8e827c8d69aa08047f43a5ecbdd",
+   "decision": "accepted",
+   "reason": "作者记录 GPT-6.2 Astra 极高推理生成的造桥方案、源码与截图，明确成绩来自本地官方引擎测试，而非线上官方赛事排名。",
+   "posterStatus": "accepted"
+  },
+  {
+   "id": "gpt62-github-zht1235456-three-js-hexacopter-by-gpt-6-2-astra",
+   "sourceUrl": "https://github.com/ZHT1235456/Three-js-Hexacopter-by-GPT-6.2-Astra",
+   "author": "ZHT1235456",
+   "date": "2026-11-18",
+   "evidenceUrl": "https://github.com/ZHT1235456/Three-js-Hexacopter-by-GPT-6.2-Astra/blob/main/README.md",
+   "evidenceSha256": "28b9411e7a693d81aeedd9c59dcd2f5a44f5d368108b6c34a248f08945527639",
+   "decision": "accepted",
+   "reason": "作者公开使用 GPT-6.2 Astra 制作的民用六旋翼 Three.js 模型，包含可独立转动的桨叶、相机云台和中文说明文档。",
+   "posterStatus": "accepted"
+  },
+  {
+   "id": "gpt62-web-plotly-data-analytics",
+   "sourceUrl": "https://plotly.com/blog/gpt-6-2-astra-plotly-data-analytics-bench",
+   "author": "Plotly",
+   "date": "2026-11-17",
+   "evidenceUrl": "https://plotly.com/blog/gpt-6-2-astra-plotly-data-analytics-bench",
+   "evidenceSha256": "afc38b36669aa6a74fc88a528ab43b680abe547cf4175116eaa1c1dd1348ac53",
+   "decision": "accepted",
+   "reason": "Plotly 在合成风电数据仓库中测试 GPT-6.2 Astra，报告答对 41/43 题、漏掉两项隐藏模式；同页记录 Sol 为 40/43。每个模型只跑一次，不能将一两分差距当作稳定结论。",
+   "posterStatus": "accepted"
+  }
+ ],
+ "coverage": [
+  {
+   "key": "gpt-6-2-x-latest-0",
+   "checkedAt": "2026-11-19T12:40:48+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "5b563ae98d0b26cb682ad1c07b934187966bf8cf39976e1419001da0b77c9e7d",
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%28%5C%22GPT-6.2%5C%22+OR+%5C%22GPT-6.2%5C%22+OR+%5C%22gpt-6-2%5C%22%29+since%3A2026-11-17+-filter%3Aretweets%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Latest%22%2C+%22includePromotedContent%22%3A+false%7D"
+  },
+  {
+   "key": "gpt-6-2-x-latest-1",
+   "checkedAt": "2026-11-19T12:40:51+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "ce9fe63224ecb08c7d018f1cc2c13f920c5c1c9ed5c0f7af4c6b5b87f439693a",
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%28%5C%22GPT-6.2%5C%22+OR+%5C%22GPT-6.2%5C%22+OR+%5C%22gpt-6-2%5C%22%29+since%3A2026-11-17+-filter%3Aretweets%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Latest%22%2C+%22includePromotedContent%22%3A+false%2C+%22cursor%22%3A+%22DAADDAABCgABHXfRbIla8JsKAAIdd8_f_htwgQAIAAIAAAACCAADAAAAAAgABAAAAAAKAAUdd9F6tAAnEAoABh130Xqz_9jwCwAHAAAA8EVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFCUWRkOURPYzVlaHFSMTMwVFN5R3lEQkhYZlJTcVNXUUlZZGQ5RGgrVmRCS0IxMzBRVTZXd0dLSFhmUSt0L2FrYkVkZDlEMUQ5dWdFeDEzMExNYmw4QmNIWGZRUCthYmdIVWRkOUJMTnRwUmRSMTMwRktSV2xIUEhYZlJMVnlia1JZZGQ5Qm9weHVoeEIxMzBLa2hXcUFzSFhmUmJJbGE4SnNkZDlDS0hSWnhPeDEzejkvK0czQ0JIWGZRUitWYmdGVWRkOUJjc2xyd054MTMwSEZ4R3JGSgAA%22%7D"
+  },
+  {
+   "key": "gpt-6-2-x-latest-2",
+   "checkedAt": "2026-11-19T12:40:53+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "46d05c354d1c96ffded1d581095bd4670d4c1f09baf71f8db99459774dae7d60",
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%28%5C%22GPT-6.2%5C%22+OR+%5C%22GPT-6.2%5C%22+OR+%5C%22gpt-6-2%5C%22%29+since%3A2026-11-17+-filter%3Aretweets%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Latest%22%2C+%22includePromotedContent%22%3A+false%2C+%22cursor%22%3A+%22DAADDAABCgABHXfRebRWQY8KAAIdd86wZ5ox4QAIAAIAAAACCAADAAAAAAgABAAAAAEKAAUdd9F6tAAnEAoABh130Xqz_7HgCwAHAAAByEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFDZ2RkOUZLcEpaQWhoMTN6OS8rRzNDQkhYZlE0ZmxYUVNnZGQ5RDYzOXFSc1IxM3p3RXJsbkUrSFhmUGRNSWJNVklkZDg4QWlsb3hQUjEzenp0Umw4RHlIWGZRUCthYmdIVWRkODhhSjlaeEpoMTN6MC82bWdDVUhYZlJMVnlia1JZZGQ5QkxOdHBSZFIxMzBXeUpXdkNiSFhmUWJpQ1hBVUFkZDlDcElWcWdMQjEzenZuVzJ0Q05IWGZQdHphYkVWb2RkOCtVbjVyUUFoMTN6NlVJbXVHdEhYZlFjWEVhc1VrZGQ5Qkg1VnVBVlIxMzBUU3lHeURCSFhmUVhMSmE4RGNkZDlEV3I1cnhDUjEzMFFVNld3R0tIWGZROVEvYm9CTWRkOURPYzVlaHFSMTN6d0g4bG9IREhYZlFzeHVYd0Z3ZGQ4KzQ2MXNBSVIxM3pyQm5takhoSFhmUEhUWmJRV1FkZDlCU2tWcFJ6eDEzMEdpbkc2SEVIWGZSZWJSV1FZOGRkODYxdHRwQjFCMTMwSW9kRm5FN0hYZlBKWlVYa1drZGQ4N1YyaHRnbVE9PQAA%22%7D"
+  },
+  {
+   "key": "gpt-6-2-x-latest-3",
+   "checkedAt": "2026-11-19T12:40:55+00:00",
+   "ok": false,
+   "error": "HTTPError",
+   "status": 404,
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%28%5C%22GPT-6.2%5C%22+OR+%5C%22GPT-6.2%5C%22+OR+%5C%22gpt-6-2%5C%22%29+since%3A2026-11-17+-filter%3Aretweets%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Latest%22%2C+%22includePromotedContent%22%3A+false%2C+%22cursor%22%3A+%22DAADDAABCgABHXfRebRWQY8KAAIdd823K1sgOAAIAAIAAAACCAADAAAAAAgABAAAAAIKAAUdd9F6tAAnEAoABh130Xqz_4rQCwAHAAACnEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFEd2RkODN1ZUZzd0JoMTN6bmx5RnNHekhYZlJTcVNXUUlZZGQ4L2YvaHR3Z1IxM3psQU4xcEZHSFhmUE8xR1h3UElkZDg4YUo5WnhKaDEzMEVzMjJsRjFIWGZONWcrYklid2RkOUZzaVZyd214MTN6b0dXR29IYkhYZk9SRXpXWVBFZGQ4NXlIdHNCSUIxM3o1U2ZtdEFDSFhmTytkYmEwSTBkZDgrbENKcmhyUjEzMFRTeUd5REJIWGZOdjlvYlVHNGRkOUQxRDl1Z0V4MTMwTmF2bXZFSkhYZk9ad0ViQUhFZGQ4OEIvSmFCd3gxMzBMTWJsOEJjSFhmUHVPdGJBQ0VkZDg0VnMxYWdnaDEzMEZLUldsSFBIWGZRYUtjYm9jUWRkOUY1dEZaQmp4MTN6Z1BKMnpHQ0hYZlFpaDBXY1RzZGQ4OGxsUmVSYVIxM3pwdUpsc0RySFhmT2ZzWGFjUDRkZDlEaCtWZEJLQjEzMFByZjJwR3hIWGZQQVN1V2NUNGRkODV4cmRzd2tSMTN6M1RDR3pGU0hYZlFQK2FiZ0hVZGQ4OEFpbG94UFIxMzBTMWNtNUVXSFhmUFQvcWFBSlFkZDg0ZVp0WUFLeDEzMEc0Z2x3RkFIWGZRcVNGYW9Dd2RkOCszTnBzUldoMTMwSEZ4R3JGSkhYZlFSK1ZiZ0ZVZGQ5QmNzbHJ3TngxMzBRVTZXd0dLSFhmUXpuT1hvYWtkZDg0anVWY2d1eDEzemNlL1c0Q01IWGZPc0dlYU1lRWRkODIvcTFheHdCMTN6eDAyVzBGa0hYZk90YmJhUWRRZGQ4NGJOWnZRZmgxM3piY3JXeUE0SFhmTzFkb2JZSms9AAA%22%7D"
+  },
+  {
+   "key": "gpt-6-2-x-top-0",
+   "checkedAt": "2026-11-19T12:40:55+00:00",
+   "ok": false,
+   "error": "HTTPError",
+   "status": 404,
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%28%5C%22GPT-6.2%5C%22+OR+%5C%22GPT-6.2%5C%22+OR+%5C%22gpt-6-2%5C%22%29+since%3A2026-11-17+-filter%3Aretweets%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Top%22%2C+%22includePromotedContent%22%3A+false%7D"
+  },
+  {
+   "key": "gpt-6-2-x-projects-0",
+   "checkedAt": "2026-11-19T12:40:59+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "9cea941948769cff36f102d63f6a7b4a8911a32061dd336763437105a8ca5c8b",
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%28%5C%22GPT-6.2%5C%22+OR+%5C%22GPT-6.2%5C%22+OR+%5C%22gpt-6-2%5C%22%29+since%3A2026-11-17+-filter%3Aretweets+%28github+OR+built+OR+made+OR+%5Cu4f5c%5Cu3063%5Cu305f+OR+%5Cu5236%5Cu4f5c+OR+app+OR+game%29%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Top%22%2C+%22includePromotedContent%22%3A+false%7D"
+  },
+  {
+   "key": "gpt-6-2-x-projects-1",
+   "checkedAt": "2026-11-19T12:41:02+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "91ea02391087e2a4f9b6568546253f2cabfc6fa55043556872194b1dac5f9bcd",
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%28%5C%22GPT-6.2%5C%22+OR+%5C%22GPT-6.2%5C%22+OR+%5C%22gpt-6-2%5C%22%29+since%3A2026-11-17+-filter%3Aretweets+%28github+OR+built+OR+made+OR+%5Cu4f5c%5Cu3063%5Cu305f+OR+%5Cu5236%5Cu4f5c+OR+app+OR+game%29%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Top%22%2C+%22includePromotedContent%22%3A+false%2C+%22cursor%22%3A+%22DAACCgACHXfRhVIAJxAKAAMdd9GFUf_Y8AgABAAAAAILAAUAAADwRW1QQzZ3QUFBZlEvZ0dKTjB2R3AvQUFBQUJRZGQ4WkprOXBnUEIxM3k4eTNXb0ZYSFhmUTFxK2E4UWtkZDhMWFFwZEI5eDEzdGpHZjI0RmtIWGUyUmZvWFVSZ2RkOHBVQ3R1aHdoMTJySVFlbXZHWkhYZk5MWmZhVVZzZGRZWDkwRnRnOHgxM3hyQmFXM0dVSFhkVUxtSWJzS1VkZDh6dnJ4ZkFneDEzeWk5b1YzQ0NIWGZRcVNGYW9Dd2RkOUZzaVZyd214MTMwSW9kRm5FN0hYZTZhREJXZ1hRZGQ4YWpOZHFBTUIxM3p2blcydENOCAAGAAAAAAgABwAAAAAMAAgKAAEddYX90Ftg8wAAAA%22%7D"
+  },
+  {
+   "key": "gpt-6-2-x-projects-2",
+   "checkedAt": "2026-11-19T12:41:04+00:00",
+   "ok": false,
+   "error": "HTTPError",
+   "status": 404,
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%28%5C%22GPT-6.2%5C%22+OR+%5C%22GPT-6.2%5C%22+OR+%5C%22gpt-6-2%5C%22%29+since%3A2026-11-17+-filter%3Aretweets+%28github+OR+built+OR+made+OR+%5Cu4f5c%5Cu3063%5Cu305f+OR+%5Cu5236%5Cu4f5c+OR+app+OR+game%29%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Top%22%2C+%22includePromotedContent%22%3A+false%2C+%22cursor%22%3A+%22DAACCgACHXfRhVIAJxAKAAMdd9GFUf-x4AgABAAAAAILAAUAAAHIRW1QQzZ3QUFBZlEvZ0dKTjB2R3AvQUFBQUNnZGQ4dk10MXFCVngxM3hrbVQybUE4SFhlMU9GMlhVZUFkZDdqcFlwdWdJeDEyOWttRDJwRHlIWGVBQ2RQYVlEb2RkMzZoRTV0UnNSMTN0akdmMjRGa0hYZUdmQ3phc0k4ZGQ4YXdXbHR4bEIxM0N2UEkyNkUySFhmSVMxWWJzRllkZDZuNDhoWkFwaDEzMFd5Sld2Q2JIWGZRcVNGYW9Dd2RkOHp2cnhmQWd4MTN5aTlvVjNDQ0hYZFVMbUlic0tVZGR0dnRkUmRCYmgxM2J0L3kydURlSFhmTytkYmEwSTBkZDZZcEFsWWh1QjEzTXdMOW03RmJIWGVSVnNnYUVHNGRkOURXcjVyeENSMTN3dGRDbDBIM0hYYWxwRk5iSWRVZGQ3azFCVnRoTFIxM3RrWDZGMUVZSFhXRi9kQmJZUE1kZHF5RUhwcnhtUjEzelMyWDJsRmJIWGZLVkFyYm9jSWRkazBVRkp0QXZCMTN1bWd3Vm9GMEhYZlFpaDBXY1RzZGQ4YWpOZHFBTUIxM3RCOUlWOERvSFhiYnp5R2JFTzRkZFp6bFFwdUJoZz09CAAGAAAAAAgABwAAAAEMAAgKAAEddZzlQpuBhgAAAA%22%7D"
+  },
+  {
+   "key": "gpt-6-2-gh-0-1",
+   "checkedAt": "2026-11-19T12:41:01+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "30",
+    "x-ratelimit-remaining": "20",
+    "x-ratelimit-reset": "1795092094"
+   },
+   "finalUrl": "https://api.github.com/search/repositories?q=%22GPT-6.2%22+pushed%3A%3E%3D2026-11-17+pushed%3A%3E%3D2026-10-23&sort=updated&per_page=100&page=1",
+   "bytes": 532876,
+   "sha256": "134bd4560373776dc4b8cfc48f171c7179f5debbe5ae800fb6e91342a93f8e11",
+   "ok": true,
+   "returned": 90,
+   "totalReported": 90,
+   "searchIncomplete": false,
+   "pagination": "first-page-only",
+   "url": "https://api.github.com/search/repositories?q=%22GPT-6.2%22+pushed%3A%3E%3D2026-11-17+pushed%3A%3E%3D2026-10-23&sort=updated&per_page=100&page=1"
+  },
+  {
+   "key": "gpt-6-2-bili-1",
+   "checkedAt": "2026-11-19T12:41:05+00:00",
+   "ok": false,
+   "error": "HTTPError",
+   "status": 412,
+   "url": "https://api.bilibili.com/x/web-interface/search/type?search_type=video&keyword=GPT-6.2&order=pubdate&page=1&page_size=50"
+  },
+  {
+   "key": "gpt-6-2-hn-0",
+   "checkedAt": "2026-11-19T12:41:05+00:00",
+   "status": 200,
+   "finalUrl": "https://hn.algolia.com/api/v1/search_by_date?query=GPT-6.2&hitsPerPage=100&numericFilters=created_at_i%3E%3D1792713600",
+   "bytes": 104316,
+   "sha256": "bef207aad00e20d5b18af705a34055b18ba172d82bf26959d7b63640564b4c82",
+   "ok": true,
+   "returned": 52,
+   "totalReported": 52,
+   "pagesReported": 1,
+   "pagination": "first-page-only",
+   "url": "https://hn.algolia.com/api/v1/search_by_date?query=GPT-6.2&hitsPerPage=100&numericFilters=created_at_i%3E%3D1792713600"
+  },
+  {
+   "key": "gpt-6-2-youtube",
+   "checkedAt": "2026-11-19T12:41:09+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "a25a3e32982384355b02d49a04eabb4eef33face0383036f9b042341cc8f10ed",
+   "url": "https://www.youtube.com/results?search_query=%22GPT-6.2%22&sp=CAI%3D"
+  },
+  {
+   "key": "gpt-6-2-gh-1-1",
+   "checkedAt": "2026-11-19T12:41:09+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "30",
+    "x-ratelimit-remaining": "18",
+    "x-ratelimit-reset": "1795092094"
+   },
+   "finalUrl": "https://api.github.com/search/repositories?q=%22GPT6.2%22+pushed%3A%3E%3D2026-11-17+pushed%3A%3E%3D2026-10-23&sort=updated&per_page=100&page=1",
+   "bytes": 55,
+   "sha256": "4af480b8ee5b87b369a76c49bd22c9a783908272ebffbe97898f8ab0f0772a5f",
+   "ok": true,
+   "returned": 0,
+   "totalReported": 0,
+   "searchIncomplete": false,
+   "pagination": "first-page-only",
+   "url": "https://api.github.com/search/repositories?q=%22GPT6.2%22+pushed%3A%3E%3D2026-11-17+pushed%3A%3E%3D2026-10-23&sort=updated&per_page=100&page=1"
+  },
+  {
+   "key": "gpt-6-2-hn-1",
+   "checkedAt": "2026-11-19T12:41:10+00:00",
+   "status": 200,
+   "finalUrl": "https://hn.algolia.com/api/v1/search_by_date?query=GPT6.2&hitsPerPage=100&numericFilters=created_at_i%3E%3D1792713600",
+   "bytes": 435,
+   "sha256": "6c5ed03d014d7213ea41f294ebcbcd4873c545024b3037bd145386fe7f1dba7a",
+   "ok": true,
+   "returned": 0,
+   "totalReported": 0,
+   "pagesReported": 0,
+   "pagination": "first-page-only",
+   "url": "https://hn.algolia.com/api/v1/search_by_date?query=GPT6.2&hitsPerPage=100&numericFilters=created_at_i%3E%3D1792713600"
+  },
+  {
+   "key": "gpt-6-2-gh-2-1",
+   "checkedAt": "2026-11-19T12:41:11+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "30",
+    "x-ratelimit-remaining": "17",
+    "x-ratelimit-reset": "1795092094"
+   },
+   "finalUrl": "https://api.github.com/search/repositories?q=%22gpt-6-2%22+pushed%3A%3E%3D2026-11-17+pushed%3A%3E%3D2026-10-23&sort=updated&per_page=100&page=1",
+   "bytes": 579577,
+   "sha256": "1c41d915e5334bb619dfbfb83c07a4830d205ef7919df145600cd1b37389bde3",
+   "ok": true,
+   "returned": 98,
+   "totalReported": 98,
+   "searchIncomplete": false,
+   "pagination": "first-page-only",
+   "url": "https://api.github.com/search/repositories?q=%22gpt-6-2%22+pushed%3A%3E%3D2026-11-17+pushed%3A%3E%3D2026-10-23&sort=updated&per_page=100&page=1"
+  },
+  {
+   "key": "gpt-6-2-hn-2",
+   "checkedAt": "2026-11-19T12:41:15+00:00",
+   "status": 200,
+   "finalUrl": "https://hn.algolia.com/api/v1/search_by_date?query=gpt-6-2&hitsPerPage=100&numericFilters=created_at_i%3E%3D1792713600",
+   "bytes": 17872,
+   "sha256": "3307282e129965a8b46a80e3dc7b77ba6f597917a8234e2f448ba3c5ed8df1c9",
+   "ok": true,
+   "returned": 10,
+   "totalReported": 10,
+   "pagesReported": 1,
+   "pagination": "first-page-only",
+   "url": "https://hn.algolia.com/api/v1/search_by_date?query=gpt-6-2&hitsPerPage=100&numericFilters=created_at_i%3E%3D1792713600"
+  },
+  {
+   "key": "gpt-6-2-reddit-OpenAI-0",
+   "checkedAt": "2026-11-19T12:41:15+00:00",
+   "status": 200,
+   "finalUrl": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=OpenAI&query=GPT-6.2&after=2026-10-23&limit=100&sort=desc",
+   "bytes": 331714,
+   "sha256": "51cb969fa597054cd296d9a6b135e4d24e4f7d3fbb29bfb72f229cbdf7f5eb4a",
+   "ok": true,
+   "pagination": "not-verified",
+   "retries": [
+    {
+     "checkedAt": "2026-11-19T12:41:03+00:00",
+     "status": 422,
+     "error": "HTTP Error 422: Unprocessable Entity"
+    }
+   ],
+   "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=OpenAI&query=GPT-6.2&after=2026-10-23&limit=100&sort=desc"
+  },
+  {
+   "key": "gpt-6-2-reddit-ChatGPTCoding-0",
+   "checkedAt": "2026-11-19T12:42:02+00:00",
+   "ok": false,
+   "error": "HTTP Error 422: Unprocessable Entity",
+   "status": 422,
+   "retries": [
+    {
+     "checkedAt": "2026-11-19T12:41:19+00:00",
+     "status": 422,
+     "error": "HTTP Error 422: Unprocessable Entity"
+    },
+    {
+     "checkedAt": "2026-11-19T12:41:31+00:00",
+     "status": 422,
+     "error": "HTTP Error 422: Unprocessable Entity"
+    }
+   ],
+   "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=ChatGPTCoding&query=GPT-6.2&after=2026-10-23&limit=100&sort=desc"
+  },
+  {
+   "key": "gpt-6-2-reddit-vibecoding-0",
+   "checkedAt": "2026-11-19T12:42:52+00:00",
+   "ok": false,
+   "error": "HTTP Error 422: Unprocessable Entity",
+   "status": 422,
+   "retries": [
+    {
+     "checkedAt": "2026-11-19T12:42:03+00:00",
+     "status": 422,
+     "error": "HTTP Error 422: Unprocessable Entity"
+    },
+    {
+     "checkedAt": "2026-11-19T12:42:19+00:00",
+     "status": 422,
+     "error": "HTTP Error 422: Unprocessable Entity"
+    }
+   ],
+   "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=vibecoding&query=GPT-6.2&after=2026-10-23&limit=100&sort=desc"
+  },
+  {
+   "key": "gpt-6-2-reddit-LocalLLaMA-0",
+   "checkedAt": "2026-11-19T12:43:35+00:00",
+   "ok": false,
+   "error": "HTTP Error 422: Unprocessable Entity",
+   "status": 422,
+   "retries": [
+    {
+     "checkedAt": "2026-11-19T12:42:53+00:00",
+     "status": 429,
+     "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+     "checkedAt": "2026-11-19T12:43:04+00:00",
+     "status": 422,
+     "error": "HTTP Error 422: Unprocessable Entity"
+    }
+   ],
+   "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=LocalLLaMA&query=GPT-6.2&after=2026-10-23&limit=100&sort=desc"
+  },
+  {
+   "key": "gpt-6-2-reddit-singularity-0",
+   "checkedAt": "2026-11-19T12:43:36+00:00",
+   "status": 200,
+   "finalUrl": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=singularity&query=GPT-6.2&after=2026-10-23&limit=100&sort=desc",
+   "bytes": 153308,
+   "sha256": "007dc393a507f7f2e0fee494075aecbb8ebc840864f0bb9511cdc810e944de63",
+   "ok": true,
+   "pagination": "not-verified",
+   "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=singularity&query=GPT-6.2&after=2026-10-23&limit=100&sort=desc"
+  }
+ ],
+ "webSearches": [
+  {
+   "query": "\"Fable 5.2\" built November 2026",
+   "operationId": "01a1f3d0-f50b-729d-9fd1-83109e4d0c87",
+   "success": true,
+   "results": [
+    {
+     "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+     "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2"
+    },
+    {
+     "url": "https://lifearchitect.substack.com/p/the-memo-special-edition-claude-fable-24d",
+     "title": "Special edition - Claude Fable 5.2 and Claude Mythos 5.2 - 9/Nov/2026"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=owMtQh_3k4k",
+     "title": "Claude Fable 5.2 read a month of my failed attempts and got it right the first ..."
+    },
+    {
+     "url": "https://platform.claude.com/docs/en/models/fable-5-2/overview",
+     "title": "Claude Fable 5.2 - Claude Platform Docs"
+    },
+    {
+     "url": "https://x.com/claudeai/status/2119867114450268322",
+     "title": "\"Introducing Claude Fable 5.2 and Claude Mythos 5.2, designed to ..."
+    },
+    {
+     "url": "https://www.institutepm.com/knowledge-hub/claude-fable-5-2-for-product-managers",
+     "title": "Claude Fable 5.2 for Product Managers: Faster, Cheaper, and ..."
+    }
+   ],
+   "note": "Search used for discovery; accepted records were checked against original sources."
+  },
+  {
+   "query": "\"GPT-6.2\" (\"built\" OR \"made\" OR \"experiment\") November 2026",
+   "operationId": "01a1f3d4-8570-7318-8954-7a5255830f63",
+   "success": true,
+   "results": [
+    {
+     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+     "title": "Introducing GPT-6.2 Astra and Sol"
+    },
+    {
+     "url": "https://x.com/OpenAI/status/2122750124543926515",
+     "title": "OpenAI"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=mWMrJksUqCY",
+     "title": "GPT-6.2 Astra: 10 INSANE Things It Can Do"
+    },
+    {
+     "url": "https://believemy.com/en/r/gpt-6-2-astra-sol-openai",
+     "title": "GPT-6.2 Astra and Sol: which one to pick when you work alone?"
+    },
+    {
+     "url": "https://plotly.com/blog/gpt-6-2-astra-plotly-data-analytics-bench",
+     "title": "GPT-6.2 Astra Benchmark Results for Data Analysis"
+    },
+    {
+     "url": "https://aihubmix.com/blog/gpt-6-2-sol-vs-gpt-6-2-astra-which-coding-tasks-need-the-4x-flagship",
+     "title": "GPT-6.2 Sol vs GPT-6.2 Astra: which coding tasks need the 4x flagship?"
+    },
+    {
+     "url": "https://www.requesty.ai/blog/gpt-6-2-sol-astra-pricing-benchmarks",
+     "title": "GPT-6.2 Sol and Astra: pricing, benchmarks and reactions"
+    },
+    {
+     "url": "https://cellcog.ai/blog/gpt-6-2-sol/",
+     "title": "GPT-6.2 Sol Is Out at GPT-6.1 Sol's Price"
+    }
+   ],
+   "note": "Search used for discovery; accepted records were checked against original sources."
+  },
+  {
+   "query": "\"Opus 5.5\" \"built\" November 2026",
+   "operationId": "01a1f3d4-856b-7759-98bb-aac99cdbae1a",
+   "success": true,
+   "results": [
+    {
+     "url": "https://shattered.io/claude-opus-5-5-beats-gpt-5-6-sol-benchmark-2026/",
+     "title": "Claude Opus 5.5 Costs 40% Less to Run Than Opus 5 [2026]"
+    },
+    {
+     "url": "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-5-5",
+     "title": "Claude Opus 5.5 system prompts"
+    },
+    {
+     "url": "https://www.instagram.com/p/Ddn7FEeHd97/?hl=en",
+     "title": "Claude Opus 5.5 just launched, and Anthropic is calling it smarter, faster ..."
+    },
+    {
+     "url": "https://explainx.ai/blog/claude-opus-5-5-community-showcase-watermill-jupiter-water-2026",
+     "title": "Opus 5.5 Showcase: 3D Jupiter Site, Watermill, Water (2026)"
+    },
+    {
+     "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+     "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war"
+    },
+    {
+     "url": "https://www.reddit.com/r/TopologyAI/comments/1xl3e36/1_month_of_claude_opus_55_and_227_commits_heres/",
+     "title": "1 Month of Claude Opus 5.5 and 227 commits. Here's what I was able to ..."
+    },
+    {
+     "url": "https://emergent.sh/learn/claude-fable-5-2-vs-opus-5-5",
+     "title": "Claude Fable 5.2 vs Opus 5.5: Which Claude Model to Use?"
+    },
+    {
+     "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+     "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2"
+    }
+   ],
+   "note": "Search used for discovery; accepted records were checked against original sources."
+  },
+  {
+   "query": "\"GPT-6.2\" \"space elevator\" Mollick",
+   "operationId": "01a1f3d6-779a-71d8-a21a-0fb72eba1865",
+   "success": true,
+   "results": [
+    {
+     "url": "https://x.com/emollick/status/2122755693191287009",
+     "title": "Ethan Mollick on X: \"I've been using GPT-6.2 Astra prior to launch & I found ..."
+    },
+    {
+     "url": "https://x.com/emollick/status/2122755693191287009/video/1",
+     "title": "I've been using GPT-6.2 Astra prior to launch & I found it very uneven & weird ..."
+    },
+    {
+     "url": "https://www.linkedin.com/posts/emollick_ive-been-using-gpt-62-astra-prior-to-launch-activity-7528523027421155329-7-rZ",
+     "title": "I've been using GPT-6.2 Astra prior to launch & I found it very uneven & weird ..."
+    },
+    {
+     "url": "https://venturebeat.com/technology/essentially-unusable-openai-launches-gpt-6-2-astra-and-sol-to-negative-reception-from-ai-power-users",
+     "title": "'Essentially unusable': OpenAI launches GPT-6.2 Astra and Sol to ..."
+    }
+   ],
+   "note": "Search used for discovery; accepted records were checked against original sources."
+  }
+ ],
+ "languages": [
+  "English",
+  "Chinese",
+  "Japanese",
+  "Portuguese",
+  "multilingual version queries"
+ ],
+ "candidateCount": 321,
+ "candidateQueueFile": "reports/2026-11-19-candidate-queue.json",
+ "priorDraft": null,
+ "posters": [
+  {
+   "id": "gpt62-x-2123126087269957998",
+   "topic": "gpt-6-2",
+   "sourcePage": "https://x.com/tobiadonadon_/status/2123126087269957998",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2123126003409068032/img/7QjjkQ4dJYVmYOhu.jpg",
+   "mediaKind": "video",
+   "sourceVideoUrl": "https://video.twimg.com/amplify_video/2123126003409068032/vid/avc1/1920x1080/mISepzGRvJhiZU1x.mp4?tag=29",
+   "status": 200,
+   "sourceImageSha256": "c8c800294d7324cd9d6934b83746d5e84560a12f86642cb61e1eff1a37afecb0",
+   "ok": true,
+   "width": 1200,
+   "height": 675,
+   "imageSha256": "c8c800294d7324cd9d6934b83746d5e84560a12f86642cb61e1eff1a37afecb0",
+   "method": "original-source-image-mirrored-verbatim",
+   "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+   "meanLuma": 185.0,
+   "stdLuma": 67.8
+  },
+  {
+   "id": "gpt62-x-2123379979119444471",
+   "topic": "gpt-6-2",
+   "sourcePage": "https://x.com/kinderlayer/status/2123379979119444471",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2123379901826797568/img/BLNeX7R0K8D0gozE.jpg",
+   "mediaKind": "video",
+   "sourceVideoUrl": "https://video.twimg.com/amplify_video/2123379901826797568/vid/avc1/720x1280/ZR_l3W0dit6dZlL-.mp4?tag=29",
+   "status": 200,
+   "sourceImageSha256": "923a86870019cb7bf9ff6669e1183a919d3d7d89cf76277c1638cdf6266c06ad",
+   "ok": true,
+   "width": 540,
+   "height": 960,
+   "imageSha256": "7f1b9d960f6ad4d8c5f98c167b39cffb06d03b144da8a687781c64f5c2c588c7",
+   "method": "avfoundation-original-video-frame",
+   "relation": "Frame from the original creator video",
+   "meanLuma": 52.0,
+   "stdLuma": 60.6,
+   "sourceVideoSha256": "55f8452c59810a85a45d3be009146cba705246a839c8921d510f36be85a8cc03",
+   "frameSeconds": 6.0,
+   "requestedFrameSeconds": 5,
+   "prior": false
+  },
+  {
+   "id": "gpt62-x-2123066399543468501",
+   "topic": "gpt-6-2",
+   "sourcePage": "https://x.com/Arina_tishina/status/2123066399543468501",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2123066259374034944/img/GqLPAM-w2FSEms7W.jpg",
+   "mediaKind": "video",
+   "sourceVideoUrl": "https://video.twimg.com/amplify_video/2123066259374034944/vid/avc1/1080x720/b6AFh6zI_ViDlnfy.mp4?tag=14",
+   "status": 200,
+   "sourceImageSha256": "bcfadd68de0bd26457c7116107e9b31cdd2a29c62a524e810162dc5395666b12",
+   "ok": true,
+   "width": 1080,
+   "height": 720,
+   "imageSha256": "bcfadd68de0bd26457c7116107e9b31cdd2a29c62a524e810162dc5395666b12",
+   "method": "original-source-image-mirrored-verbatim",
+   "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+   "meanLuma": 161.3,
+   "stdLuma": 36.9
+  },
+  {
+   "id": "gpt62-x-2123389829438406999",
+   "topic": "gpt-6-2",
+   "sourcePage": "https://x.com/argofowl/status/2123389829438406999",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2123389747536207872/img/m_VUe3OTgDO7wb3t.jpg",
+   "mediaKind": "video",
+   "sourceVideoUrl": "https://video.twimg.com/amplify_video/2123389747536207872/vid/avc1/1080x1350/V1_ovUgtqSTIJ5WW.mp4?tag=29",
+   "status": 200,
+   "sourceImageSha256": "f2422d640187db52b79ef90ce5c2523adc3d88cd7352b01190fcdd6960bab9a5",
+   "ok": true,
+   "width": 960,
+   "height": 1200,
+   "imageSha256": "f2422d640187db52b79ef90ce5c2523adc3d88cd7352b01190fcdd6960bab9a5",
+   "method": "original-source-image-mirrored-verbatim",
+   "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+   "meanLuma": 24.0,
+   "stdLuma": 50.2
+  },
+  {
+   "id": "gpt62-x-2123339603923095701",
+   "topic": "gpt-6-2",
+   "sourcePage": "https://x.com/GeekCatX/status/2123339603923095701",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2123338339831140352/img/5-JtrT7Gc4WpYGUW.jpg",
+   "mediaKind": "video",
+   "sourceVideoUrl": "https://video.twimg.com/amplify_video/2123338339831140352/vid/avc1/1920x2160/r-Y6mj4TtBBoKmLF.mp4?tag=29",
+   "status": 200,
+   "sourceImageSha256": "1c311d669df18ac228a49bd915626cfeb8ebd746f48295b64dee9d11b910d9a1",
+   "ok": true,
+   "width": 853,
+   "height": 960,
+   "imageSha256": "b628e5ba48ce03d2e391fc6f0e6577090e7a9941f05a7f21ba136acfd688f694",
+   "method": "avfoundation-original-video-frame",
+   "relation": "Frame from the original creator video",
+   "meanLuma": 30.6,
+   "stdLuma": 51.1,
+   "sourceVideoSha256": "f8d05efa6dc9729b836f97c003f7db88802fb6d483d22209e0a3f47b87fab3fc",
+   "frameSeconds": 3.0,
+   "requestedFrameSeconds": 4,
+   "prior": false
+  },
+  {
+   "id": "gpt62-x-2122944014530085173",
+   "topic": "gpt-6-2",
+   "sourcePage": "https://x.com/Rohit_115/status/2122944014530085173",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2122943287304871937/img/56nVHtsAp6AwTEep.jpg",
+   "mediaKind": "video",
+   "sourceVideoUrl": "https://video.twimg.com/amplify_video/2122943287304871937/vid/avc1/1628x720/FKAPCPFYOuZV7vsN.mp4?tag=14",
+   "status": 200,
+   "sourceImageSha256": "f230dc1240873757f297e0903ddb8dcbfc2db64083c8870e420a3961850feefa",
+   "ok": true,
+   "width": 1200,
+   "height": 531,
+   "imageSha256": "f230dc1240873757f297e0903ddb8dcbfc2db64083c8870e420a3961850feefa",
+   "method": "original-source-image-mirrored-verbatim",
+   "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+   "meanLuma": 94.2,
+   "stdLuma": 67.5
+  },
+  {
+   "id": "gpt62-x-2123125957020291310",
+   "topic": "gpt-6-2",
+   "sourcePage": "https://x.com/suza_vfx/status/2123125957020291310",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2123124625127489536/img/6cr-zVryaDV0yQqP.jpg",
+   "mediaKind": "video",
+   "sourceVideoUrl": "https://video.twimg.com/amplify_video/2123124625127489536/vid/avc1/2160x2160/JfpdOKHK4tWKD7JC.mp4?tag=29",
+   "status": 200,
+   "sourceImageSha256": "b6c6fe82f364e033d5dad56d371867199c3b2ed56cdddbbe5e935153376bdba5",
+   "ok": true,
+   "width": 960,
+   "height": 960,
+   "imageSha256": "0bb476b3a9994b17404497feeb788ea8798aa2c94dc3710a969f59881f9bab7e",
+   "method": "avfoundation-original-video-frame",
+   "relation": "Frame from the original creator video",
+   "meanLuma": 39.8,
+   "stdLuma": 35.5,
+   "sourceVideoSha256": "f6442fc307209a047be28407e1ba4e59412a086b18055ec4e2532d3a0c81a917",
+   "frameSeconds": 36,
+   "requestedFrameSeconds": 35,
+   "prior": false
+  },
+  {
+   "id": "gpt62-x-2122755693191287009",
+   "topic": "gpt-6-2",
+   "sourcePage": "https://x.com/emollick/status/2122755693191287009",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2122754810742976512/img/-9hag7MtB478vmDC.jpg",
+   "mediaKind": "video",
+   "sourceVideoUrl": "https://video.twimg.com/amplify_video/2122754810742976512/vid/avc1/1920x1080/xIvkSClNlmB43sUR.mp4?tag=29",
+   "status": 200,
+   "sourceImageSha256": "fdf68c202927a6258e94610fccefb3d8b5cc9c05eb8bc6967a3f7a16921a548d",
+   "ok": true,
+   "width": 1200,
+   "height": 675,
+   "imageSha256": "fdf68c202927a6258e94610fccefb3d8b5cc9c05eb8bc6967a3f7a16921a548d",
+   "method": "original-source-image-mirrored-verbatim",
+   "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+   "meanLuma": 71.6,
+   "stdLuma": 82.5
+  },
+  {
+   "id": "gpt62-github-viktorkav-uno-com-escada",
+   "topic": "gpt-6-2",
+   "sourcePage": "https://github.com/viktorkav/uno-com-escada",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "sourceImageUrl": "https://raw.githubusercontent.com/viktorkav/uno-com-escada/main/.github/screenshots/astra-largada.jpg",
+   "mediaKind": "image",
+   "sourceVideoUrl": null,
+   "ok": true,
+   "error": "HTTPError",
+   "status": 404,
+   "width": 1600,
+   "height": 900,
+   "imageSha256": "75520056c18ae5cbe42b07e925cad82d764656165bbbf88b1bb2b4d337e14f72",
+   "method": "original-source-image-mirrored-verbatim",
+   "relation": "README screenshot of the GPT-6.2 Astra version"
+  },
+  {
+   "id": "gpt62-github-sam1983aing-ogive-watch-film",
+   "topic": "gpt-6-2",
+   "sourcePage": "https://github.com/Sam1983Aing/ogive-watch-film",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "sourceImageUrl": "https://raw.githubusercontent.com/Sam1983Aing/ogive-watch-film/main/media/build.gif",
+   "mediaKind": "image",
+   "sourceVideoUrl": null,
+   "status": 200,
+   "sourceImageSha256": "b5b598b1851e0252cafe45bf29a5736d21058a21f259afc89149c9cea39090ee",
+   "ok": true,
+   "width": 560,
+   "height": 315,
+   "imageSha256": "ea35cccaac36d8a3abd60c7b9cba4fd910bed05b4864d9c7c2c8b4c1b48060f8",
+   "method": "original-gif-frame-10",
+   "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+   "meanLuma": 25.4,
+   "stdLuma": 39.8
+  },
+  {
+   "id": "gpt62-github-deathdadev-mossbound-giant",
+   "topic": "gpt-6-2",
+   "sourcePage": "https://github.com/Deathdadev/mossbound-giant",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "sourceImageUrl": "https://raw.githubusercontent.com/Deathdadev/mossbound-giant/main/verification/lighting.jpg",
+   "mediaKind": "image",
+   "sourceVideoUrl": null,
+   "status": 200,
+   "sourceImageSha256": "d3cf5b4943429bb30ae3048879cb5e1fd252ae68e1c49f075c68ce9e516b8f12",
+   "ok": true,
+   "width": 1200,
+   "height": 585,
+   "imageSha256": "d3cf5b4943429bb30ae3048879cb5e1fd252ae68e1c49f075c68ce9e516b8f12",
+   "method": "original-source-image-mirrored-verbatim",
+   "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+   "meanLuma": 117.4,
+   "stdLuma": 46.0
+  },
+  {
+   "id": "gpt62-github-callas157-arch-install",
+   "topic": "gpt-6-2",
+   "sourcePage": "https://github.com/Callas157/arch-install",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "ok": false,
+   "reason": "No verified task-related poster extracted; cover remains pending."
+  },
+  {
+   "id": "gpt62-github-anking8704-ai-bridge-contest-ep9",
+   "topic": "gpt-6-2",
+   "sourcePage": "https://github.com/Anking8704/ai-bridge-contest-ep9",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "sourceImageUrl": "https://raw.githubusercontent.com/Anking8704/ai-bridge-contest-ep9/main/images/level6-ship.png",
+   "mediaKind": "image",
+   "sourceVideoUrl": null,
+   "status": 200,
+   "sourceImageSha256": "9edd79b78c949e7993de9172b41ed26dddd88c3a0489f42133092703c3d72ea9",
+   "ok": true,
+   "width": 1387,
+   "height": 762,
+   "imageSha256": "9edd79b78c949e7993de9172b41ed26dddd88c3a0489f42133092703c3d72ea9",
+   "method": "original-source-image-mirrored-verbatim",
+   "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+   "meanLuma": 67.2,
+   "stdLuma": 56.6
+  },
+  {
+   "id": "gpt62-github-zht1235456-three-js-hexacopter-by-gpt-6-2-astra",
+   "topic": "gpt-6-2",
+   "sourcePage": "https://github.com/ZHT1235456/Three-js-Hexacopter-by-GPT-6.2-Astra",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "sourceImageUrl": "https://raw.githubusercontent.com/ZHT1235456/Three-js-Hexacopter-by-GPT-6.2-Astra/main/docs/figures/hexacopter-views.png",
+   "mediaKind": "image",
+   "sourceVideoUrl": null,
+   "status": 200,
+   "sourceImageSha256": "58cf2fe7ecb638dd35c40f1db68811d550d7d73f7341d61f75a55d112259fb5b",
+   "ok": true,
+   "width": 1560,
+   "height": 413,
+   "imageSha256": "58cf2fe7ecb638dd35c40f1db68811d550d7d73f7341d61f75a55d112259fb5b",
+   "method": "original-source-image-mirrored-verbatim",
+   "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+   "meanLuma": 221.9,
+   "stdLuma": 46.1
+  },
+  {
+   "id": "gpt62-web-plotly-data-analytics",
+   "topic": "gpt-6-2",
+   "sourcePage": "https://plotly.com/blog/gpt-6-2-astra-plotly-data-analytics-bench",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "sourceImageUrl": "https://plotly.com/cms/img/ZHjesZBvENuhSKSH_gpt-6-2-astra-frontier.png?auto=compress&fm=webp",
+   "mediaKind": "image",
+   "sourceVideoUrl": null,
+   "status": 200,
+   "sourceImageSha256": "6d59187c3dff5fa15d86f6e7951e020deaec65cad67f2dd92a7e1a98797f9914",
+   "ok": true,
+   "width": 1920,
+   "height": 1360,
+   "imageSha256": "6d59187c3dff5fa15d86f6e7951e020deaec65cad67f2dd92a7e1a98797f9914",
+   "method": "original-source-image-mirrored-verbatim",
+   "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+   "meanLuma": 18.3,
+   "stdLuma": 29.8
+  }
+ ],
+ "historicalEditorialChanges": [],
+ "posterReview": {
+  "checkedAt": "2026-11-19T12:58:26+00:00",
+  "contactSheetsReviewed": true,
+  "sourceVideoFramesReviewed": true,
+  "limitations": "One Reddit source video could not be retrieved within the bounded retry; its blank cover was omitted. Missing extracted media stays pending."
+ }
+}

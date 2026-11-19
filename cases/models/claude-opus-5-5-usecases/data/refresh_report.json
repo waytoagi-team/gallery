@@ -1,1013 +1,1461 @@
 {
-  "refreshedAt": "2026-10-24T09:53:31+00:00",
-  "scope": {
-    "key": "multisource-partial",
-    "zh": "多来源发现、原帖审核与互动数据更新（部分覆盖）",
-    "en": "Multi-source discovery, original-source review and metrics (partial coverage)"
+ "refreshedAt": "2026-11-19T12:56:50+00:00",
+ "scope": {
+  "key": "multisource-partial",
+  "zh": "多来源发现、原帖审核与互动数据更新（部分覆盖）",
+  "en": "Multi-source discovery, source review and metrics (partial coverage)"
+ },
+ "status": "partial-coverage",
+ "lastFullRefreshAt": "2026-09-30T07:38:18+00:00",
+ "lastMultiSourceRefreshAt": "2026-11-19T12:56:50+00:00",
+ "previousReport": "data/refresh_history/2026-11-19-before-refresh.json",
+ "previousCaseCount": 7483,
+ "caseCount": 7505,
+ "reviewedNewExtras": 22,
+ "newCasesByPlatform": {
+  "X": 13,
+  "GitHub": 5,
+  "Reddit": 4
+ },
+ "coverage": {
+  "since": "2026-10-23",
+  "configuredSourcesAttempted": 46,
+  "configuredSourcesSucceeded": 45,
+  "configuredDiscoveryCandidates": 200,
+  "supplementalCandidates": 750,
+  "reviewedAccepted": 22,
+  "partial": true,
+  "backfilled": 1
+ },
+ "metrics": {
+  "refreshedAt": "2026-11-19T12:48:55+00:00",
+  "x": {
+   "attempted": 4537,
+   "succeeded": 4443
   },
-  "status": "partial-coverage",
-  "lastFullRefreshAt": "2026-09-30T07:38:18+00:00",
-  "lastMultiSourceRefreshAt": "2026-10-24T09:53:31+00:00",
-  "previousReport": "data/refresh_history/2026-10-24-before-refresh.json",
-  "previousCaseCount": 7347,
-  "caseCount": 7483,
-  "reviewedNewExtras": 136,
-  "newCasesByPlatform": {
-    "Hacker News": 2,
-    "GitHub": 32,
-    "Reddit": 17,
-    "Bilibili": 17,
-    "YouTube": 2,
-    "X": 65,
-    "Web": 1
-  },
-  "coverage": {
-    "since": "2026-10-20",
-    "configuredSourcesAttempted": 46,
-    "configuredSourcesSucceeded": 45,
-    "configuredDiscoveryCandidates": 200,
-    "reviewedAccepted": 136,
-    "partial": true,
-    "candidateQueueFile": "reports/reviews/2026-10-24-candidate-queue.json",
-    "backfill": {
-      "count": 5,
-      "sourceUrls": [
-        "https://github.com/adityaimamz/pixel-animation-comparison-gpt-cluade-gemini",
-        "https://github.com/Furkiozknn/kale-savunmasi",
-        "https://github.com/roboco-io/language-benchmark",
-        "https://github.com/scotscottmca/ClaudeUnbound",
-        "https://github.com/opus-pro/opusclip-video-tools/blob/main/remakes/opus-5.5/README.md"
-      ],
-      "note": "Older original works surfaced by bounded search or repositories pushed during the window; original dates were retained where applicable."
+  "github": {
+   "attempted": 567,
+   "succeeded": 524,
+   "changed": 123,
+   "byKind": {
+    "repository": {
+     "attempted": 506,
+     "succeeded": 471
+    },
+    "pull_request": {
+     "attempted": 33,
+     "succeeded": 30
+    },
+    "issue": {
+     "attempted": 28,
+     "succeeded": 23
     }
+   }
   },
-  "metrics": {
-    "refreshedAt": "2026-10-24T09:49:47+00:00",
-    "x": {
-      "attempted": 4472,
-      "succeeded": 4408
+  "failed": [
+   {
+    "key": "x:2102527003845075348",
+    "url": "https://api.fxtwitter.com/BuiltByBilal/status/2102527003845075348",
+    "checkedAt": "2026-11-19T12:39:37+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2102475388211679520",
+    "url": "https://api.fxtwitter.com/mehulmpt/status/2102475388211679520",
+    "checkedAt": "2026-11-19T12:39:49+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2102491085021003896",
+    "url": "https://api.fxtwitter.com/cagangedikk/status/2102491085021003896",
+    "checkedAt": "2026-11-19T12:39:54+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2102491346661736518",
+    "url": "https://api.fxtwitter.com/chddaniel/status/2102491346661736518",
+    "checkedAt": "2026-11-19T12:39:54+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2102570834057728470",
+    "url": "https://api.fxtwitter.com/Ao_tofu_2/status/2102570834057728470",
+    "checkedAt": "2026-11-19T12:40:03+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2102610790725632044",
+    "url": "https://api.fxtwitter.com/gpumaxxer/status/2102610790725632044",
+    "checkedAt": "2026-11-19T12:40:07+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2102628143450464611",
+    "url": "https://api.fxtwitter.com/ManasJoshi76254/status/2102628143450464611",
+    "checkedAt": "2026-11-19T12:40:08+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2102682611659481535",
+    "url": "https://api.fxtwitter.com/i9_15900ks/status/2102682611659481535",
+    "checkedAt": "2026-11-19T12:40:12+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2102820676797391300",
+    "url": "https://api.fxtwitter.com/adriancortexbt/status/2102820676797391300",
+    "checkedAt": "2026-11-19T12:40:27+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2102826282685960417",
+    "url": "https://api.fxtwitter.com/witchof0x20/status/2102826282685960417",
+    "checkedAt": "2026-11-19T12:40:28+00:00",
+    "ok": false,
+    "error": "HTTP Error 401: Unauthorized",
+    "status": 401
+   },
+   {
+    "key": "x:2102877370332127732",
+    "url": "https://api.fxtwitter.com/LexnLin/status/2102877370332127732",
+    "checkedAt": "2026-11-19T12:40:33+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2102886480335262009",
+    "url": "https://api.fxtwitter.com/goodside/status/2102886480335262009",
+    "checkedAt": "2026-11-19T12:40:34+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2102921580120625251",
+    "url": "https://api.fxtwitter.com/luckeyfaraday/status/2102921580120625251",
+    "checkedAt": "2026-11-19T12:40:37+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2102797607546634345",
+    "url": "https://api.fxtwitter.com/chddaniel/status/2102797607546634345",
+    "checkedAt": "2026-11-19T12:40:38+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2102805741484814570",
+    "url": "https://api.fxtwitter.com/yanautome/status/2102805741484814570",
+    "checkedAt": "2026-11-19T12:40:38+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2102854987013591493",
+    "url": "https://api.fxtwitter.com/CristiVlad25/status/2102854987013591493",
+    "checkedAt": "2026-11-19T12:40:39+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2102865389134987327",
+    "url": "https://api.fxtwitter.com/vevebldr/status/2102865389134987327",
+    "checkedAt": "2026-11-19T12:40:39+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2102900455068381289",
+    "url": "https://api.fxtwitter.com/UlisesDavid__/status/2102900455068381289",
+    "checkedAt": "2026-11-19T12:40:41+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2102974643439308816",
+    "url": "https://api.fxtwitter.com/ManasJoshi76254/status/2102974643439308816",
+    "checkedAt": "2026-11-19T12:40:45+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2103058727918293099",
+    "url": "https://api.fxtwitter.com/darel023/status/2103058727918293099",
+    "checkedAt": "2026-11-19T12:40:49+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2103092802444042441",
+    "url": "https://api.fxtwitter.com/eachlabs/status/2103092802444042441",
+    "checkedAt": "2026-11-19T12:40:52+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2103115767206281272",
+    "url": "https://api.fxtwitter.com/mdaman010/status/2103115767206281272",
+    "checkedAt": "2026-11-19T12:40:54+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2103121606570807790",
+    "url": "https://api.fxtwitter.com/cerspense/status/2103121606570807790",
+    "checkedAt": "2026-11-19T12:40:55+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2103137916948259241",
+    "url": "https://api.fxtwitter.com/cagangedikk/status/2103137916948259241",
+    "checkedAt": "2026-11-19T12:41:01+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2103171088637419631",
+    "url": "https://api.fxtwitter.com/goodside/status/2103171088637419631",
+    "checkedAt": "2026-11-19T12:41:04+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2103184259305578665",
+    "url": "https://api.fxtwitter.com/adriancortexbt/status/2103184259305578665",
+    "checkedAt": "2026-11-19T12:41:05+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2103185144291172860",
+    "url": "https://api.fxtwitter.com/LexnLin/status/2103185144291172860",
+    "checkedAt": "2026-11-19T12:41:06+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2103294469869363704",
+    "url": "https://api.fxtwitter.com/yetone/status/2103294469869363704",
+    "checkedAt": "2026-11-19T12:41:16+00:00",
+    "ok": false,
+    "error": "HTTP Error 401: Unauthorized",
+    "status": 401
+   },
+   {
+    "key": "x:2103319170574340570",
+    "url": "https://api.fxtwitter.com/TheHappyWang/status/2103319170574340570",
+    "checkedAt": "2026-11-19T12:41:22+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2103325360398143681",
+    "url": "https://api.fxtwitter.com/charliebcurran/status/2103325360398143681",
+    "checkedAt": "2026-11-19T12:41:22+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2103349129472790649",
+    "url": "https://api.fxtwitter.com/Nin19536/status/2103349129472790649",
+    "checkedAt": "2026-11-19T12:41:24+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2103349906786451727",
+    "url": "https://api.fxtwitter.com/ManasJoshi76254/status/2103349906786451727",
+    "checkedAt": "2026-11-19T12:41:24+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2103394286532280787",
+    "url": "https://api.fxtwitter.com/meetshukla_/status/2103394286532280787",
+    "checkedAt": "2026-11-19T12:41:32+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2103399841871306963",
+    "url": "https://api.fxtwitter.com/chetanankola/status/2103399841871306963",
+    "checkedAt": "2026-11-19T12:41:32+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2103429586285437131",
+    "url": "https://api.fxtwitter.com/_pigeon______/status/2103429586285437131",
+    "checkedAt": "2026-11-19T12:41:34+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2103469725510754655",
+    "url": "https://api.fxtwitter.com/saltjsx/status/2103469725510754655",
+    "checkedAt": "2026-11-19T12:41:53+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2103474664919978494",
+    "url": "https://api.fxtwitter.com/arle0x/status/2103474664919978494",
+    "checkedAt": "2026-11-19T12:41:54+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2103482928042852592",
+    "url": "https://api.fxtwitter.com/effectfully/status/2103482928042852592",
+    "checkedAt": "2026-11-19T12:41:56+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2103489794143613142",
+    "url": "https://api.fxtwitter.com/monokern/status/2103489794143613142",
+    "checkedAt": "2026-11-19T12:41:57+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2103501563956269161",
+    "url": "https://api.fxtwitter.com/OriSilver/status/2103501563956269161",
+    "checkedAt": "2026-11-19T12:42:04+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2103517345734074516",
+    "url": "https://api.fxtwitter.com/TheOneMrMatt/status/2103517345734074516",
+    "checkedAt": "2026-11-19T12:42:23+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2103523494625775962",
+    "url": "https://api.fxtwitter.com/toriluoo/status/2103523494625775962",
+    "checkedAt": "2026-11-19T12:42:31+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2103525408826114384",
+    "url": "https://api.fxtwitter.com/adriancortexbt/status/2103525408826114384",
+    "checkedAt": "2026-11-19T12:42:33+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2103590461210583530",
+    "url": "https://api.fxtwitter.com/maats_s/status/2103590461210583530",
+    "checkedAt": "2026-11-19T12:43:24+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2103667481139441895",
+    "url": "https://api.fxtwitter.com/tak3sh8/status/2103667481139441895",
+    "checkedAt": "2026-11-19T12:43:35+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2103753663269507374",
+    "url": "https://api.fxtwitter.com/purohatsu/status/2103753663269507374",
+    "checkedAt": "2026-11-19T12:43:43+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2103788160031592572",
+    "url": "https://api.fxtwitter.com/mdaman010/status/2103788160031592572",
+    "checkedAt": "2026-11-19T12:43:52+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2103797855072977269",
+    "url": "https://api.fxtwitter.com/nalgami_vrc/status/2103797855072977269",
+    "checkedAt": "2026-11-19T12:43:53+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2103802973189181657",
+    "url": "https://api.fxtwitter.com/signerless/status/2103802973189181657",
+    "checkedAt": "2026-11-19T12:43:54+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2103910895688802812",
+    "url": "https://api.fxtwitter.com/mindblown_ai/status/2103910895688802812",
+    "checkedAt": "2026-11-19T12:44:13+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2102605736002150408",
+    "url": "https://api.fxtwitter.com/rainwishyt/status/2102605736002150408",
+    "checkedAt": "2026-11-19T12:44:31+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2103169675928764486",
+    "url": "https://api.fxtwitter.com/ianstig/status/2103169675928764486",
+    "checkedAt": "2026-11-19T12:44:33+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2103845689713111079",
+    "url": "https://api.fxtwitter.com/mdaman010/status/2103845689713111079",
+    "checkedAt": "2026-11-19T12:44:36+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2103768009017835623",
+    "url": "https://api.fxtwitter.com/zaqailo/status/2103768009017835623",
+    "checkedAt": "2026-11-19T12:44:41+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2103869704955900023",
+    "url": "https://api.fxtwitter.com/makevoid/status/2103869704955900023",
+    "checkedAt": "2026-11-19T12:44:43+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2102989395359887481",
+    "url": "https://api.fxtwitter.com/Ryzoft/status/2102989395359887481",
+    "checkedAt": "2026-11-19T12:44:46+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2103542568361369810",
+    "url": "https://api.fxtwitter.com/stewchan2/status/2103542568361369810",
+    "checkedAt": "2026-11-19T12:44:53+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2103757499652342153",
+    "url": "https://api.fxtwitter.com/Rush3rx/status/2103757499652342153",
+    "checkedAt": "2026-11-19T12:44:54+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2104070894251282849",
+    "url": "https://api.fxtwitter.com/izmaelmag/status/2104070894251282849",
+    "checkedAt": "2026-11-19T12:44:56+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2104919846953869421",
+    "url": "https://api.fxtwitter.com/mdaman010/status/2104919846953869421",
+    "checkedAt": "2026-11-19T12:45:06+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2105970425742463083",
+    "url": "https://api.fxtwitter.com/Kaiyu_AI/status/2105970425742463083",
+    "checkedAt": "2026-11-19T12:45:17+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2105933530190827805",
+    "url": "https://api.fxtwitter.com/minochan0824/status/2105933530190827805",
+    "checkedAt": "2026-11-19T12:45:18+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2107116106280485047",
+    "url": "https://api.fxtwitter.com/GamefxAI/status/2107116106280485047",
+    "checkedAt": "2026-11-19T12:45:20+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2107152601842385022",
+    "url": "https://api.fxtwitter.com/kevin_t_ngo/status/2107152601842385022",
+    "checkedAt": "2026-11-19T12:45:25+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2106775097562538205",
+    "url": "https://api.fxtwitter.com/ygorz01/status/2106775097562538205",
+    "checkedAt": "2026-11-19T12:45:33+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2107087950945374553",
+    "url": "https://api.fxtwitter.com/yamac_music/status/2107087950945374553",
+    "checkedAt": "2026-11-19T12:45:33+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2107142125368365103",
+    "url": "https://api.fxtwitter.com/GiantLeap/status/2107142125368365103",
+    "checkedAt": "2026-11-19T12:45:35+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2107121695840674203",
+    "url": "https://api.fxtwitter.com/ygorz01/status/2107121695840674203",
+    "checkedAt": "2026-11-19T12:45:36+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2106526224692486248",
+    "url": "https://api.fxtwitter.com/udonthavemotion/status/2106526224692486248",
+    "checkedAt": "2026-11-19T12:45:38+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2106882576669655517",
+    "url": "https://api.fxtwitter.com/AtrocityEngine/status/2106882576669655517",
+    "checkedAt": "2026-11-19T12:45:38+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2106882376437780689",
+    "url": "https://api.fxtwitter.com/prusakkq/status/2106882376437780689",
+    "checkedAt": "2026-11-19T12:45:38+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2107142351239905406",
+    "url": "https://api.fxtwitter.com/HichKorb/status/2107142351239905406",
+    "checkedAt": "2026-11-19T12:45:38+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2107100981636817121",
+    "url": "https://api.fxtwitter.com/ombrageplays/status/2107100981636817121",
+    "checkedAt": "2026-11-19T12:45:39+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2107117894031282527",
+    "url": "https://api.fxtwitter.com/AfshinK91/status/2107117894031282527",
+    "checkedAt": "2026-11-19T12:45:40+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2107146637454029155",
+    "url": "https://api.fxtwitter.com/Yeafolo/status/2107146637454029155",
+    "checkedAt": "2026-11-19T12:45:45+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2107159844050628942",
+    "url": "https://api.fxtwitter.com/isnit0/status/2107159844050628942",
+    "checkedAt": "2026-11-19T12:45:47+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2107140206910660791",
+    "url": "https://api.fxtwitter.com/blaumitz/status/2107140206910660791",
+    "checkedAt": "2026-11-19T12:45:52+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2106149214380040667",
+    "url": "https://api.fxtwitter.com/GamefxAI/status/2106149214380040667",
+    "checkedAt": "2026-11-19T12:45:56+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2106387548486738010",
+    "url": "https://api.fxtwitter.com/GamefxAI/status/2106387548486738010",
+    "checkedAt": "2026-11-19T12:45:57+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2106758817161597021",
+    "url": "https://api.fxtwitter.com/rossaxbt/status/2106758817161597021",
+    "checkedAt": "2026-11-19T12:45:57+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2106729577280414044",
+    "url": "https://api.fxtwitter.com/mdaman010/status/2106729577280414044",
+    "checkedAt": "2026-11-19T12:45:57+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2106396375269134597",
+    "url": "https://api.fxtwitter.com/rossaxbt/status/2106396375269134597",
+    "checkedAt": "2026-11-19T12:45:58+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2107949345312018897",
+    "url": "https://api.fxtwitter.com/GamefxAI/status/2107949345312018897",
+    "checkedAt": "2026-11-19T12:46:04+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2108935657334702300",
+    "url": "https://api.fxtwitter.com/ultimaxbt/status/2108935657334702300",
+    "checkedAt": "2026-11-19T12:46:05+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2109317016817717641",
+    "url": "https://api.fxtwitter.com/rajlol01/status/2109317016817717641",
+    "checkedAt": "2026-11-19T12:46:08+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2109183613850079247",
+    "url": "https://api.fxtwitter.com/rajlol01/status/2109183613850079247",
+    "checkedAt": "2026-11-19T12:46:13+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2109625522032710073",
+    "url": "https://api.fxtwitter.com/loveAIwang/status/2109625522032710073",
+    "checkedAt": "2026-11-19T12:46:14+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2109637581440754010",
+    "url": "https://api.fxtwitter.com/zekiworks/status/2109637581440754010",
+    "checkedAt": "2026-11-19T12:46:16+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2109788658991796658",
+    "url": "https://api.fxtwitter.com/chetanankola/status/2109788658991796658",
+    "checkedAt": "2026-11-19T12:46:24+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2109894604351029342",
+    "url": "https://api.fxtwitter.com/keydol123/status/2109894604351029342",
+    "checkedAt": "2026-11-19T12:46:26+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2110679322293846400",
+    "url": "https://api.fxtwitter.com/macintosh_busy/status/2110679322293846400",
+    "checkedAt": "2026-11-19T12:46:37+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2111542387218821330",
+    "url": "https://api.fxtwitter.com/Martin_Kuai/status/2111542387218821330",
+    "checkedAt": "2026-11-19T12:46:57+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2103875279588602225",
+    "url": "https://api.fxtwitter.com/higgsfield_ai/status/2103875279588602225",
+    "checkedAt": "2026-11-19T12:47:08+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "x:2102574331960389820",
+    "url": "https://api.fxtwitter.com/ai_mitosan/status/2102574331960389820",
+    "checkedAt": "2026-11-19T12:47:27+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "github:agentsloop/awesome-opus-5.5-games",
+    "url": "https://api.github.com/repos/agentsloop/awesome-opus-5.5-games",
+    "checkedAt": "2026-11-19T12:47:36+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: GitHub API request failed",
+    "status": 404,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4908",
+     "x-ratelimit-reset": "1795094716"
+    }
+   },
+   {
+    "key": "github:alexgalhardo/agent-money-boilerplate",
+    "url": "https://api.github.com/repos/alexgalhardo/agent-money-boilerplate",
+    "checkedAt": "2026-11-19T12:47:36+00:00",
+    "status": 200,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4892",
+     "x-ratelimit-reset": "1795094716"
     },
-    "github": {
-      "attempted": 536,
-      "succeeded": 510,
-      "changed": 76,
-      "byKind": {
-        "repository": {
-          "attempted": 475,
-          "succeeded": 456
-        },
-        "pull_request": {
-          "attempted": 33,
-          "succeeded": 30
-        },
-        "issue": {
-          "attempted": 28,
-          "succeeded": 24
-        }
-      }
+    "sha256": "70f85f74d09f81359f63c468c9fafd4d6171174cbc41a4cb2c34735178cce7c5",
+    "ok": false,
+    "error": "Missing or mismatched repository identity"
+   },
+   {
+    "key": "github:athemeroy/awesome-opus-5-5-videos",
+    "url": "https://api.github.com/repos/athemeroy/awesome-opus-5-5-videos",
+    "checkedAt": "2026-11-19T12:47:38+00:00",
+    "status": 200,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4855",
+     "x-ratelimit-reset": "1795094716"
     },
-    "failed": [
-      {
-        "key": "x:2102527003845075348",
-        "url": "https://api.fxtwitter.com/BuiltByBilal/status/2102527003845075348",
-        "checkedAt": "2026-10-24T09:45:02+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2102491085021003896",
-        "url": "https://api.fxtwitter.com/cagangedikk/status/2102491085021003896",
-        "checkedAt": "2026-10-24T09:45:21+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2102491346661736518",
-        "url": "https://api.fxtwitter.com/chddaniel/status/2102491346661736518",
-        "checkedAt": "2026-10-24T09:45:21+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2102628143450464611",
-        "url": "https://api.fxtwitter.com/ManasJoshi76254/status/2102628143450464611",
-        "checkedAt": "2026-10-24T09:45:37+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2102820676797391300",
-        "url": "https://api.fxtwitter.com/adriancortexbt/status/2102820676797391300",
-        "checkedAt": "2026-10-24T09:45:57+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2102877370332127732",
-        "url": "https://api.fxtwitter.com/LexnLin/status/2102877370332127732",
-        "checkedAt": "2026-10-24T09:46:03+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2102886480335262009",
-        "url": "https://api.fxtwitter.com/goodside/status/2102886480335262009",
-        "checkedAt": "2026-10-24T09:46:04+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2102921580120625251",
-        "url": "https://api.fxtwitter.com/luckeyfaraday/status/2102921580120625251",
-        "checkedAt": "2026-10-24T09:46:06+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2102797607546634345",
-        "url": "https://api.fxtwitter.com/chddaniel/status/2102797607546634345",
-        "checkedAt": "2026-10-24T09:46:07+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2102900455068381289",
-        "url": "https://api.fxtwitter.com/UlisesDavid__/status/2102900455068381289",
-        "checkedAt": "2026-10-24T09:46:10+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2102974643439308816",
-        "url": "https://api.fxtwitter.com/ManasJoshi76254/status/2102974643439308816",
-        "checkedAt": "2026-10-24T09:46:14+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2103058727918293099",
-        "url": "https://api.fxtwitter.com/darel023/status/2103058727918293099",
-        "checkedAt": "2026-10-24T09:46:18+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2103092802444042441",
-        "url": "https://api.fxtwitter.com/eachlabs/status/2103092802444042441",
-        "checkedAt": "2026-10-24T09:46:21+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2103121606570807790",
-        "url": "https://api.fxtwitter.com/cerspense/status/2103121606570807790",
-        "checkedAt": "2026-10-24T09:46:23+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2103137916948259241",
-        "url": "https://api.fxtwitter.com/cagangedikk/status/2103137916948259241",
-        "checkedAt": "2026-10-24T09:46:26+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2103171088637419631",
-        "url": "https://api.fxtwitter.com/goodside/status/2103171088637419631",
-        "checkedAt": "2026-10-24T09:46:29+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2103184259305578665",
-        "url": "https://api.fxtwitter.com/adriancortexbt/status/2103184259305578665",
-        "checkedAt": "2026-10-24T09:46:30+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2103185144291172860",
-        "url": "https://api.fxtwitter.com/LexnLin/status/2103185144291172860",
-        "checkedAt": "2026-10-24T09:46:30+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2103263112312852864",
-        "url": "https://api.fxtwitter.com/AcerFur/status/2103263112312852864",
-        "checkedAt": "2026-10-24T09:46:35+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2103325360398143681",
-        "url": "https://api.fxtwitter.com/charliebcurran/status/2103325360398143681",
-        "checkedAt": "2026-10-24T09:46:38+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2103349129472790649",
-        "url": "https://api.fxtwitter.com/Nin19536/status/2103349129472790649",
-        "checkedAt": "2026-10-24T09:46:40+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2103349906786451727",
-        "url": "https://api.fxtwitter.com/ManasJoshi76254/status/2103349906786451727",
-        "checkedAt": "2026-10-24T09:46:40+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2103394286532280787",
-        "url": "https://api.fxtwitter.com/meetshukla_/status/2103394286532280787",
-        "checkedAt": "2026-10-24T09:46:43+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2103399841871306963",
-        "url": "https://api.fxtwitter.com/chetanankola/status/2103399841871306963",
-        "checkedAt": "2026-10-24T09:46:43+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2103429586285437131",
-        "url": "https://api.fxtwitter.com/_pigeon______/status/2103429586285437131",
-        "checkedAt": "2026-10-24T09:46:45+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2103469725510754655",
-        "url": "https://api.fxtwitter.com/saltjsx/status/2103469725510754655",
-        "checkedAt": "2026-10-24T09:46:51+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2103474664919978494",
-        "url": "https://api.fxtwitter.com/arle0x/status/2103474664919978494",
-        "checkedAt": "2026-10-24T09:46:52+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2103482928042852592",
-        "url": "https://api.fxtwitter.com/effectfully/status/2103482928042852592",
-        "checkedAt": "2026-10-24T09:46:53+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2103489794143613142",
-        "url": "https://api.fxtwitter.com/monokern/status/2103489794143613142",
-        "checkedAt": "2026-10-24T09:46:54+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2103501563956269161",
-        "url": "https://api.fxtwitter.com/OriSilver/status/2103501563956269161",
-        "checkedAt": "2026-10-24T09:46:56+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2103517345734074516",
-        "url": "https://api.fxtwitter.com/TheOneMrMatt/status/2103517345734074516",
-        "checkedAt": "2026-10-24T09:47:00+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2103523494625775962",
-        "url": "https://api.fxtwitter.com/toriluoo/status/2103523494625775962",
-        "checkedAt": "2026-10-24T09:47:01+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2103525408826114384",
-        "url": "https://api.fxtwitter.com/adriancortexbt/status/2103525408826114384",
-        "checkedAt": "2026-10-24T09:47:01+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2103590461210583530",
-        "url": "https://api.fxtwitter.com/maats_s/status/2103590461210583530",
-        "checkedAt": "2026-10-24T09:47:10+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2103728429577416834",
-        "url": "https://api.fxtwitter.com/menmarsan/status/2103728429577416834",
-        "checkedAt": "2026-10-24T09:47:19+00:00",
-        "ok": false,
-        "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
-      },
-      {
-        "key": "x:2103753663269507374",
-        "url": "https://api.fxtwitter.com/purohatsu/status/2103753663269507374",
-        "checkedAt": "2026-10-24T09:47:22+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2103802973189181657",
-        "url": "https://api.fxtwitter.com/signerless/status/2103802973189181657",
-        "checkedAt": "2026-10-24T09:47:26+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2103910895688802812",
-        "url": "https://api.fxtwitter.com/mindblown_ai/status/2103910895688802812",
-        "checkedAt": "2026-10-24T09:47:35+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2103169675928764486",
-        "url": "https://api.fxtwitter.com/ianstig/status/2103169675928764486",
-        "checkedAt": "2026-10-24T09:47:50+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2103869704955900023",
-        "url": "https://api.fxtwitter.com/makevoid/status/2103869704955900023",
-        "checkedAt": "2026-10-24T09:47:58+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2103542568361369810",
-        "url": "https://api.fxtwitter.com/stewchan2/status/2103542568361369810",
-        "checkedAt": "2026-10-24T09:48:03+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2107152601842385022",
-        "url": "https://api.fxtwitter.com/kevin_t_ngo/status/2107152601842385022",
-        "checkedAt": "2026-10-24T09:48:23+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2106775097562538205",
-        "url": "https://api.fxtwitter.com/ygorz01/status/2106775097562538205",
-        "checkedAt": "2026-10-24T09:48:26+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2107087950945374553",
-        "url": "https://api.fxtwitter.com/yamac_music/status/2107087950945374553",
-        "checkedAt": "2026-10-24T09:48:27+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2107142125368365103",
-        "url": "https://api.fxtwitter.com/GiantLeap/status/2107142125368365103",
-        "checkedAt": "2026-10-24T09:48:29+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2107121695840674203",
-        "url": "https://api.fxtwitter.com/ygorz01/status/2107121695840674203",
-        "checkedAt": "2026-10-24T09:48:30+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2106882576669655517",
-        "url": "https://api.fxtwitter.com/AtrocityEngine/status/2106882576669655517",
-        "checkedAt": "2026-10-24T09:48:31+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2106882376437780689",
-        "url": "https://api.fxtwitter.com/prusakkq/status/2106882376437780689",
-        "checkedAt": "2026-10-24T09:48:31+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2107142351239905406",
-        "url": "https://api.fxtwitter.com/HichKorb/status/2107142351239905406",
-        "checkedAt": "2026-10-24T09:48:32+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2107100981636817121",
-        "url": "https://api.fxtwitter.com/ombrageplays/status/2107100981636817121",
-        "checkedAt": "2026-10-24T09:48:32+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2107117894031282527",
-        "url": "https://api.fxtwitter.com/AfshinK91/status/2107117894031282527",
-        "checkedAt": "2026-10-24T09:48:33+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2107146637454029155",
-        "url": "https://api.fxtwitter.com/Yeafolo/status/2107146637454029155",
-        "checkedAt": "2026-10-24T09:48:34+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2107159844050628942",
-        "url": "https://api.fxtwitter.com/isnit0/status/2107159844050628942",
-        "checkedAt": "2026-10-24T09:48:36+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2107140206910660791",
-        "url": "https://api.fxtwitter.com/blaumitz/status/2107140206910660791",
-        "checkedAt": "2026-10-24T09:48:36+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2106758817161597021",
-        "url": "https://api.fxtwitter.com/rossaxbt/status/2106758817161597021",
-        "checkedAt": "2026-10-24T09:48:40+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2106396375269134597",
-        "url": "https://api.fxtwitter.com/rossaxbt/status/2106396375269134597",
-        "checkedAt": "2026-10-24T09:48:41+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2108935657334702300",
-        "url": "https://api.fxtwitter.com/ultimaxbt/status/2108935657334702300",
-        "checkedAt": "2026-10-24T09:48:44+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2109317016817717641",
-        "url": "https://api.fxtwitter.com/rajlol01/status/2109317016817717641",
-        "checkedAt": "2026-10-24T09:48:46+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2109183613850079247",
-        "url": "https://api.fxtwitter.com/rajlol01/status/2109183613850079247",
-        "checkedAt": "2026-10-24T09:48:46+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2109637581440754010",
-        "url": "https://api.fxtwitter.com/zekiworks/status/2109637581440754010",
-        "checkedAt": "2026-10-24T09:48:47+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2109788658991796658",
-        "url": "https://api.fxtwitter.com/chetanankola/status/2109788658991796658",
-        "checkedAt": "2026-10-24T09:48:49+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2109894604351029342",
-        "url": "https://api.fxtwitter.com/keydol123/status/2109894604351029342",
-        "checkedAt": "2026-10-24T09:48:51+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2103875279588602225",
-        "url": "https://api.fxtwitter.com/higgsfield_ai/status/2103875279588602225",
-        "checkedAt": "2026-10-24T09:49:00+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "x:2102574331960389820",
-        "url": "https://api.fxtwitter.com/ai_mitosan/status/2102574331960389820",
-        "checkedAt": "2026-10-24T09:49:09+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: Not Found",
-        "status": 404
-      },
-      {
-        "key": "github:agentsloop/awesome-opus-5.5-games",
-        "url": "https://api.github.com/repos/agentsloop/awesome-opus-5.5-games",
-        "checkedAt": "2026-10-24T09:49:11+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: GitHub API request failed",
-        "status": 404,
-        "transport": "gh",
-        "rateLimit": {
-          "x-ratelimit-limit": "5000",
-          "x-ratelimit-remaining": "4620",
-          "x-ratelimit-reset": "1792835736"
-        }
-      },
-      {
-        "key": "github:alexgalhardo/agent-money-boilerplate",
-        "url": "https://api.github.com/repos/alexgalhardo/agent-money-boilerplate",
-        "checkedAt": "2026-10-24T09:49:11+00:00",
-        "status": 200,
-        "transport": "gh",
-        "rateLimit": {
-          "x-ratelimit-limit": "5000",
-          "x-ratelimit-remaining": "4608",
-          "x-ratelimit-reset": "1792835736"
-        },
-        "sha256": "6085928a9972a5658f5ebf6838504457184bde7f7e2c60fea2b143bc46ef5b9e",
-        "ok": false,
-        "error": "Missing or mismatched repository identity"
-      },
-      {
-        "key": "github:athemeroy/awesome-opus-5-5-videos",
-        "url": "https://api.github.com/repos/athemeroy/awesome-opus-5-5-videos",
-        "checkedAt": "2026-10-24T09:49:13+00:00",
-        "status": 200,
-        "transport": "gh",
-        "rateLimit": {
-          "x-ratelimit-limit": "5000",
-          "x-ratelimit-remaining": "4586",
-          "x-ratelimit-reset": "1792835736"
-        },
-        "sha256": "ff0ea4cb86b04e2626427eb2daefdb8a7815be14e1f0a8c825eeaf93fd7f62ac",
-        "ok": false,
-        "error": "Missing or mismatched repository identity"
-      },
-      {
-        "key": "github:bemly/408",
-        "url": "https://api.github.com/repos/bemly/408",
-        "checkedAt": "2026-10-24T09:49:14+00:00",
-        "status": 200,
-        "transport": "gh",
-        "rateLimit": {
-          "x-ratelimit-limit": "5000",
-          "x-ratelimit-remaining": "4565",
-          "x-ratelimit-reset": "1792835736"
-        },
-        "sha256": "4fcccd1e2a9e23f2e6eb5b76801908d1d0d86932fac0125dad6bff2d1ea73091",
-        "ok": false,
-        "error": "Missing or mismatched repository identity"
-      },
-      {
-        "key": "github:bigbadbillion/game",
-        "url": "https://api.github.com/repos/bigbadbillion/game",
-        "checkedAt": "2026-10-24T09:49:15+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: GitHub API request failed",
-        "status": 404,
-        "transport": "gh",
-        "rateLimit": {
-          "x-ratelimit-limit": "5000",
-          "x-ratelimit-remaining": "4562",
-          "x-ratelimit-reset": "1792835736"
-        }
-      },
-      {
-        "key": "github:bilixuesheng/a-music-by-opus-5.5",
-        "url": "https://api.github.com/repos/bilixuesheng/a-music-by-opus-5.5",
-        "checkedAt": "2026-10-24T09:49:15+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: GitHub API request failed",
-        "status": 404,
-        "transport": "gh",
-        "rateLimit": {
-          "x-ratelimit-limit": "5000",
-          "x-ratelimit-remaining": "4560",
-          "x-ratelimit-reset": "1792835736"
-        }
-      },
-      {
-        "key": "github:black2856/pixel_survivors_opus5.5test",
-        "url": "https://api.github.com/repos/black2856/pixel_survivors_opus5.5test",
-        "checkedAt": "2026-10-24T09:49:15+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: GitHub API request failed",
-        "status": 404,
-        "transport": "gh",
-        "rateLimit": {
-          "x-ratelimit-limit": "5000",
-          "x-ratelimit-remaining": "4559",
-          "x-ratelimit-reset": "1792835736"
-        }
-      },
-      {
-        "key": "github:brianm3050/amar.io",
-        "url": "https://api.github.com/repos/brianm3050/amar.io",
-        "checkedAt": "2026-10-24T09:49:15+00:00",
-        "status": 200,
-        "transport": "gh",
-        "rateLimit": {
-          "x-ratelimit-limit": "5000",
-          "x-ratelimit-remaining": "4545",
-          "x-ratelimit-reset": "1792835736"
-        },
-        "sha256": "30741b74b83ba99ff17fa4d038b477ac59f584567c84e63ccf81fc35b5ee2220",
-        "ok": false,
-        "error": "Missing or mismatched repository identity"
-      },
-      {
-        "key": "github:chaoqi31/claude-opus-paints",
-        "url": "https://api.github.com/repos/chaoqi31/claude-opus-paints",
-        "checkedAt": "2026-10-24T09:49:16+00:00",
-        "status": 200,
-        "transport": "gh",
-        "rateLimit": {
-          "x-ratelimit-limit": "5000",
-          "x-ratelimit-remaining": "4533",
-          "x-ratelimit-reset": "1792835736"
-        },
-        "sha256": "271b6e133d1bfde36c5262ad1e2ceb7a546cf5517074e75c089da08721e3dafa",
-        "ok": false,
-        "error": "Missing or mismatched repository identity"
-      },
-      {
-        "key": "github:circuspigeon/cow_game",
-        "url": "https://api.github.com/repos/circuspigeon/cow_game",
-        "checkedAt": "2026-10-24T09:49:17+00:00",
-        "status": 200,
-        "transport": "gh",
-        "rateLimit": {
-          "x-ratelimit-limit": "5000",
-          "x-ratelimit-remaining": "4524",
-          "x-ratelimit-reset": "1792835736"
-        },
-        "sha256": "031792ec168c908858482b76ef0e431149cbf733cd0564d339359935b2109c94",
-        "ok": false,
-        "error": "Missing or mismatched repository identity"
-      },
-      {
-        "key": "github:crazz-org/spo-pipeline/pull/311",
-        "url": "https://api.github.com/repos/crazz-org/spo-pipeline/issues/311",
-        "checkedAt": "2026-10-24T09:49:17+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: GitHub API request failed",
-        "status": 404,
-        "transport": "gh",
-        "rateLimit": {
-          "x-ratelimit-limit": "5000",
-          "x-ratelimit-remaining": "4517",
-          "x-ratelimit-reset": "1792835736"
-        }
-      },
-      {
-        "key": "github:diegosouzapw/omniroute/issues/14612",
-        "url": "https://api.github.com/repos/diegosouzapw/omniroute/issues/14612",
-        "checkedAt": "2026-10-24T09:49:19+00:00",
-        "status": 200,
-        "transport": "gh",
-        "rateLimit": {
-          "x-ratelimit-limit": "5000",
-          "x-ratelimit-remaining": "4484",
-          "x-ratelimit-reset": "1792835736"
-        },
-        "sha256": "8db6f417a47dd2b0758f8f71e5acea57f2677b74c2198ec11d1baa3e68690168",
-        "ok": false,
-        "error": "Missing or mismatched issue/PR identity"
-      },
-      {
-        "key": "github:drdecki/deepforge-dungeons-the-hollow-crown",
-        "url": "https://api.github.com/repos/drdecki/deepforge-dungeons-the-hollow-crown",
-        "checkedAt": "2026-10-24T09:49:19+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: GitHub API request failed",
-        "status": 404,
-        "transport": "gh",
-        "rateLimit": {
-          "x-ratelimit-limit": "5000",
-          "x-ratelimit-remaining": "4482",
-          "x-ratelimit-reset": "1792835736"
-        }
-      },
-      {
-        "key": "github:evanzhuang/harness-competition-demo",
-        "url": "https://api.github.com/repos/evanzhuang/harness-competition-demo",
-        "checkedAt": "2026-10-24T09:49:20+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: GitHub API request failed",
-        "status": 404,
-        "transport": "gh",
-        "rateLimit": {
-          "x-ratelimit-limit": "5000",
-          "x-ratelimit-remaining": "4470",
-          "x-ratelimit-reset": "1792835736"
-        }
-      },
-      {
-        "key": "github:jezweb/vite-flare-starter/issues/156",
-        "url": "https://api.github.com/repos/jezweb/vite-flare-starter/issues/156",
-        "checkedAt": "2026-10-24T09:49:25+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: GitHub API request failed",
-        "status": 404,
-        "transport": "gh",
-        "rateLimit": {
-          "x-ratelimit-limit": "5000",
-          "x-ratelimit-remaining": "4393",
-          "x-ratelimit-reset": "1792835736"
-        }
-      },
-      {
-        "key": "github:kaybenleroll/random_llm_projects/issues/120",
-        "url": "https://api.github.com/repos/kaybenleroll/random_llm_projects/issues/120",
-        "checkedAt": "2026-10-24T09:49:26+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: GitHub API request failed",
-        "status": 404,
-        "transport": "gh",
-        "rateLimit": {
-          "x-ratelimit-limit": "5000",
-          "x-ratelimit-remaining": "4368",
-          "x-ratelimit-reset": "1792835736"
-        }
-      },
-      {
-        "key": "github:kilment/qna-atlas/pull/1",
-        "url": "https://api.github.com/repos/kilment/qna-atlas/issues/1",
-        "checkedAt": "2026-10-24T09:49:26+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: GitHub API request failed",
-        "status": 404,
-        "transport": "gh",
-        "rateLimit": {
-          "x-ratelimit-limit": "5000",
-          "x-ratelimit-remaining": "4365",
-          "x-ratelimit-reset": "1792835736"
-        }
-      },
-      {
-        "key": "github:mitotkp/zombies-lan",
-        "url": "https://api.github.com/repos/mitotkp/zombies-lan",
-        "checkedAt": "2026-10-24T09:49:31+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: GitHub API request failed",
-        "status": 404,
-        "transport": "gh",
-        "rateLimit": {
-          "x-ratelimit-limit": "5000",
-          "x-ratelimit-remaining": "4303",
-          "x-ratelimit-reset": "1792835736"
-        }
-      },
-      {
-        "key": "github:nadav2150/motion-/pull/2",
-        "url": "https://api.github.com/repos/nadav2150/motion-/issues/2",
-        "checkedAt": "2026-10-24T09:49:32+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: GitHub API request failed",
-        "status": 404,
-        "transport": "gh",
-        "rateLimit": {
-          "x-ratelimit-limit": "5000",
-          "x-ratelimit-remaining": "4291",
-          "x-ratelimit-reset": "1792835736"
-        }
-      },
-      {
-        "key": "github:nickmontag/why-wont-you-let-me-help",
-        "url": "https://api.github.com/repos/nickmontag/why-wont-you-let-me-help",
-        "checkedAt": "2026-10-24T09:49:32+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: GitHub API request failed",
-        "status": 404,
-        "transport": "gh",
-        "rateLimit": {
-          "x-ratelimit-limit": "5000",
-          "x-ratelimit-remaining": "4282",
-          "x-ratelimit-reset": "1792835736"
-        }
-      },
-      {
-        "key": "github:prabhjotsodhi/claudejump",
-        "url": "https://api.github.com/repos/prabhjotsodhi/claudejump",
-        "checkedAt": "2026-10-24T09:49:35+00:00",
-        "status": 200,
-        "transport": "gh",
-        "rateLimit": {
-          "x-ratelimit-limit": "5000",
-          "x-ratelimit-remaining": "4237",
-          "x-ratelimit-reset": "1792835736"
-        },
-        "sha256": "7102d1d6aad7a9a4af8a5ac9360e27f5a210669c080de042b0a99d8a5bf76363",
-        "ok": false,
-        "error": "Missing or mismatched repository identity"
-      },
-      {
-        "key": "github:redcat888/perch",
-        "url": "https://api.github.com/repos/redcat888/perch",
-        "checkedAt": "2026-10-24T09:49:36+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: GitHub API request failed",
-        "status": 404,
-        "transport": "gh",
-        "rateLimit": {
-          "x-ratelimit-limit": "5000",
-          "x-ratelimit-remaining": "4236",
-          "x-ratelimit-reset": "1792835736"
-        }
-      },
-      {
-        "key": "github:siwo55/dragon-sail-opus",
-        "url": "https://api.github.com/repos/siwo55/dragon-sail-opus",
-        "checkedAt": "2026-10-24T09:49:38+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: GitHub API request failed",
-        "status": 404,
-        "transport": "gh",
-        "rateLimit": {
-          "x-ratelimit-limit": "5000",
-          "x-ratelimit-remaining": "4206",
-          "x-ratelimit-reset": "1792835736"
-        }
-      },
-      {
-        "key": "github:tuzhechen2005/painted-animation",
-        "url": "https://api.github.com/repos/tuzhechen2005/painted-animation",
-        "checkedAt": "2026-10-24T09:49:42+00:00",
-        "status": 200,
-        "transport": "gh",
-        "rateLimit": {
-          "x-ratelimit-limit": "5000",
-          "x-ratelimit-remaining": "4141",
-          "x-ratelimit-reset": "1792835736"
-        },
-        "sha256": "5232f564d2f6340c0aacc9317d42db2bfbd91fdcecdc5942845759c6f16bf602",
-        "ok": false,
-        "error": "Missing or mismatched repository identity"
-      },
-      {
-        "key": "github:whitelotus1998/ironwake/issues/484",
-        "url": "https://api.github.com/repos/whitelotus1998/ironwake/issues/484",
-        "checkedAt": "2026-10-24T09:49:44+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: GitHub API request failed",
-        "status": 404,
-        "transport": "gh",
-        "rateLimit": {
-          "x-ratelimit-limit": "5000",
-          "x-ratelimit-remaining": "4114",
-          "x-ratelimit-reset": "1792835736"
-        }
-      },
-      {
-        "key": "github:yhyang201/oni-web",
-        "url": "https://api.github.com/repos/yhyang201/oni-web",
-        "checkedAt": "2026-10-24T09:49:45+00:00",
-        "ok": false,
-        "error": "HTTP Error 404: GitHub API request failed",
-        "status": 404,
-        "transport": "gh",
-        "rateLimit": {
-          "x-ratelimit-limit": "5000",
-          "x-ratelimit-remaining": "4096",
-          "x-ratelimit-reset": "1792835736"
-        }
-      }
-    ]
-  },
-  "posters": {
-    "total": 6005,
-    "missing": 1478,
-    "newAccepted": 87,
-    "historicalPostersPreserved": true
-  },
-  "limitations": [
-    "Bounded multi-source discovery and prioritized editorial review, not exhaustive web coverage. Unfinished candidates are retained in a separate queue and were not automatically imported.",
-    "X searches are limited to five pages per query; some pagination requests returned 404. The October 20 daily search was retried and yielded three pages before another 404. Historical metrics that could not be fetched retain their prior values and timestamps.",
-    "Reddit retrieval is limited to twelve pages per subreddit; Bilibili search is limited to twenty pages. Video descriptions and original covers were reviewed; full videos were not watched.",
-    "Author reports are not independent reproductions. Multi-model roles are distinguished in the summaries. Back-end identity and routing are not independently verified.",
-    "Firecrawl search could not run because credits were exhausted. Regular web search and original publisher/repository reads supplemented the platform collectors.",
-    "The configured games catalog returned 404. Supplemental repository README requests had permanent 404 failures, recorded in fetch receipts.",
-    "The upstream base snapshot contains 3216 rows versus 2717 retained base rows, but omits 370 retained source identities. The base was preserved unchanged; 681 upstream identities absent from the full reviewed corpus were reconciled as candidates rather than bulk imported."
+    "sha256": "fb19e61fb9e3b82b509e0ec4a06e8732e8f1a581f3b2bf453d8189eaee726466",
+    "ok": false,
+    "error": "Missing or mismatched repository identity"
+   },
+   {
+    "key": "github:bemly/408",
+    "url": "https://api.github.com/repos/bemly/408",
+    "checkedAt": "2026-11-19T12:47:39+00:00",
+    "status": 200,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4830",
+     "x-ratelimit-reset": "1795094716"
+    },
+    "sha256": "7b837d50211835907e60cc2a7f2894121137e170ecac4950c6d38eb900b8707b",
+    "ok": false,
+    "error": "Missing or mismatched repository identity"
+   },
+   {
+    "key": "github:bigbadbillion/game",
+    "url": "https://api.github.com/repos/bigbadbillion/game",
+    "checkedAt": "2026-11-19T12:47:43+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: GitHub API request failed",
+    "status": 404,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4831",
+     "x-ratelimit-reset": "1795094716"
+    }
+   },
+   {
+    "key": "github:bilixuesheng/a-music-by-opus-5.5",
+    "url": "https://api.github.com/repos/bilixuesheng/a-music-by-opus-5.5",
+    "checkedAt": "2026-11-19T12:47:44+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: GitHub API request failed",
+    "status": 404,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4826",
+     "x-ratelimit-reset": "1795094716"
+    }
+   },
+   {
+    "key": "github:black2856/pixel_survivors_opus5.5test",
+    "url": "https://api.github.com/repos/black2856/pixel_survivors_opus5.5test",
+    "checkedAt": "2026-11-19T12:47:44+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: GitHub API request failed",
+    "status": 404,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4827",
+     "x-ratelimit-reset": "1795094716"
+    }
+   },
+   {
+    "key": "github:brianm3050/amar.io",
+    "url": "https://api.github.com/repos/brianm3050/amar.io",
+    "checkedAt": "2026-11-19T12:47:44+00:00",
+    "status": 200,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4815",
+     "x-ratelimit-reset": "1795094716"
+    },
+    "sha256": "30741b74b83ba99ff17fa4d038b477ac59f584567c84e63ccf81fc35b5ee2220",
+    "ok": false,
+    "error": "Missing or mismatched repository identity"
+   },
+   {
+    "key": "github:chaoqi31/claude-opus-paints",
+    "url": "https://api.github.com/repos/chaoqi31/claude-opus-paints",
+    "checkedAt": "2026-11-19T12:47:45+00:00",
+    "status": 200,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4801",
+     "x-ratelimit-reset": "1795094716"
+    },
+    "sha256": "eea247841815a69e47f0890f24f4afd70325ec588b6f75c9ad734cffb6516f98",
+    "ok": false,
+    "error": "Missing or mismatched repository identity"
+   },
+   {
+    "key": "github:chenyuxiaojin/cyxj-videos",
+    "url": "https://api.github.com/repos/chenyuxiaojin/cyxj-videos",
+    "checkedAt": "2026-11-19T12:47:45+00:00",
+    "status": 200,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4799",
+     "x-ratelimit-reset": "1795094716"
+    },
+    "sha256": "ef81f131fda6ce88908785a58364a370cd141a725115245cdb55e4bdf16ef3b7",
+    "ok": false,
+    "error": "Missing or mismatched repository identity"
+   },
+   {
+    "key": "github:circuspigeon/cow_game",
+    "url": "https://api.github.com/repos/circuspigeon/cow_game",
+    "checkedAt": "2026-11-19T12:47:46+00:00",
+    "status": 200,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4790",
+     "x-ratelimit-reset": "1795094716"
+    },
+    "sha256": "fa5cd0faad16300cbbaa228d0075537b51eb593c087d4bcd9021cfd33ca28c53",
+    "ok": false,
+    "error": "Missing or mismatched repository identity"
+   },
+   {
+    "key": "github:crazz-org/spo-pipeline/pull/311",
+    "url": "https://api.github.com/repos/crazz-org/spo-pipeline/issues/311",
+    "checkedAt": "2026-11-19T12:47:47+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: GitHub API request failed",
+    "status": 404,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4783",
+     "x-ratelimit-reset": "1795094716"
+    }
+   },
+   {
+    "key": "github:delexw/kiteva",
+    "url": "https://api.github.com/repos/delexw/kiteva",
+    "checkedAt": "2026-11-19T12:47:48+00:00",
+    "status": 200,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4756",
+     "x-ratelimit-reset": "1795094716"
+    },
+    "sha256": "88643a30e832ea35e2d15763664d9797bf19fa189dcaa03b13aa453fb879ce79",
+    "ok": false,
+    "error": "Missing or mismatched repository identity"
+   },
+   {
+    "key": "github:dianmo-cc/dianmo",
+    "url": "https://api.github.com/repos/dianmo-cc/dianmo",
+    "checkedAt": "2026-11-19T12:47:49+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: GitHub API request failed",
+    "status": 404,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4755",
+     "x-ratelimit-reset": "1795094716"
+    }
+   },
+   {
+    "key": "github:diegosouzapw/omniroute/issues/14612",
+    "url": "https://api.github.com/repos/diegosouzapw/omniroute/issues/14612",
+    "checkedAt": "2026-11-19T12:47:49+00:00",
+    "status": 200,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4750",
+     "x-ratelimit-reset": "1795094716"
+    },
+    "sha256": "8db6f417a47dd2b0758f8f71e5acea57f2677b74c2198ec11d1baa3e68690168",
+    "ok": false,
+    "error": "Missing or mismatched issue/PR identity"
+   },
+   {
+    "key": "github:drdecki/deepforge-dungeons-the-hollow-crown",
+    "url": "https://api.github.com/repos/drdecki/deepforge-dungeons-the-hollow-crown",
+    "checkedAt": "2026-11-19T12:47:49+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: GitHub API request failed",
+    "status": 404,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4747",
+     "x-ratelimit-reset": "1795094716"
+    }
+   },
+   {
+    "key": "github:evanzhuang/harness-competition-demo",
+    "url": "https://api.github.com/repos/evanzhuang/harness-competition-demo",
+    "checkedAt": "2026-11-19T12:47:50+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: GitHub API request failed",
+    "status": 404,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4715",
+     "x-ratelimit-reset": "1795094716"
+    }
+   },
+   {
+    "key": "github:felipegatoloko10/tiny-wings-v2",
+    "url": "https://api.github.com/repos/felipegatoloko10/tiny-wings-v2",
+    "checkedAt": "2026-11-19T12:47:51+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: GitHub API request failed",
+    "status": 404,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4724",
+     "x-ratelimit-reset": "1795094716"
+    }
+   },
+   {
+    "key": "github:furkiozknn/hisar-godot",
+    "url": "https://api.github.com/repos/furkiozknn/hisar-godot",
+    "checkedAt": "2026-11-19T12:47:54+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: GitHub API request failed",
+    "status": 404,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4699",
+     "x-ratelimit-reset": "1795094716"
+    }
+   },
+   {
+    "key": "github:ghywel/ai-storyboard",
+    "url": "https://api.github.com/repos/ghywel/ai-storyboard",
+    "checkedAt": "2026-11-19T12:47:57+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: GitHub API request failed",
+    "status": 404,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4695",
+     "x-ratelimit-reset": "1795094716"
+    }
+   },
+   {
+    "key": "github:hubert-bitscribbles/liquid-clock",
+    "url": "https://api.github.com/repos/hubert-bitscribbles/liquid-clock",
+    "checkedAt": "2026-11-19T12:47:58+00:00",
+    "status": 200,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4672",
+     "x-ratelimit-reset": "1795094716"
+    },
+    "sha256": "8e1843846411a4a5c5829803b28ca18294304e3c624ba7937de7592f89b33126",
+    "ok": false,
+    "error": "Missing or mismatched repository identity"
+   },
+   {
+    "key": "github:jeaxindr-dotcom/sonnet-55-vs-opus-55",
+    "url": "https://api.github.com/repos/jeaxindr-dotcom/sonnet-55-vs-opus-55",
+    "checkedAt": "2026-11-19T12:48:00+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: GitHub API request failed",
+    "status": 404,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4656",
+     "x-ratelimit-reset": "1795094716"
+    }
+   },
+   {
+    "key": "github:jezweb/vite-flare-starter/issues/156",
+    "url": "https://api.github.com/repos/jezweb/vite-flare-starter/issues/156",
+    "checkedAt": "2026-11-19T12:48:00+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: GitHub API request failed",
+    "status": 404,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4654",
+     "x-ratelimit-reset": "1795094716"
+    }
+   },
+   {
+    "key": "github:jwp2987/phosphor/issues/797",
+    "url": "https://api.github.com/repos/jwp2987/phosphor/issues/797",
+    "checkedAt": "2026-11-19T12:48:05+00:00",
+    "ok": false,
+    "error": "HTTP Error 410: GitHub API request failed",
+    "status": 410,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4630",
+     "x-ratelimit-reset": "1795094716"
+    }
+   },
+   {
+    "key": "github:kaybenleroll/random_llm_projects/issues/120",
+    "url": "https://api.github.com/repos/kaybenleroll/random_llm_projects/issues/120",
+    "checkedAt": "2026-11-19T12:48:06+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: GitHub API request failed",
+    "status": 404,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4626",
+     "x-ratelimit-reset": "1795094716"
+    }
+   },
+   {
+    "key": "github:kilment/qna-atlas/pull/1",
+    "url": "https://api.github.com/repos/kilment/qna-atlas/issues/1",
+    "checkedAt": "2026-11-19T12:48:06+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: GitHub API request failed",
+    "status": 404,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4622",
+     "x-ratelimit-reset": "1795094716"
+    }
+   },
+   {
+    "key": "github:kprotopapas/ironlog",
+    "url": "https://api.github.com/repos/kprotopapas/ironlog",
+    "checkedAt": "2026-11-19T12:48:07+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: GitHub API request failed",
+    "status": 404,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4605",
+     "x-ratelimit-reset": "1795094716"
+    }
+   },
+   {
+    "key": "github:m1zore1337/makima-desperate-mv-engine",
+    "url": "https://api.github.com/repos/m1zore1337/makima-desperate-mv-engine",
+    "checkedAt": "2026-11-19T12:48:09+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: GitHub API request failed",
+    "status": 404,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4586",
+     "x-ratelimit-reset": "1795094716"
+    }
+   },
+   {
+    "key": "github:mitotkp/zombies-lan",
+    "url": "https://api.github.com/repos/mitotkp/zombies-lan",
+    "checkedAt": "2026-11-19T12:48:16+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: GitHub API request failed",
+    "status": 404,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4553",
+     "x-ratelimit-reset": "1795094716"
+    }
+   },
+   {
+    "key": "github:nadav2150/motion-/pull/2",
+    "url": "https://api.github.com/repos/nadav2150/motion-/issues/2",
+    "checkedAt": "2026-11-19T12:48:17+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: GitHub API request failed",
+    "status": 404,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4542",
+     "x-ratelimit-reset": "1795094716"
+    }
+   },
+   {
+    "key": "github:nickmontag/why-wont-you-let-me-help",
+    "url": "https://api.github.com/repos/nickmontag/why-wont-you-let-me-help",
+    "checkedAt": "2026-11-19T12:48:17+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: GitHub API request failed",
+    "status": 404,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4532",
+     "x-ratelimit-reset": "1795094716"
+    }
+   },
+   {
+    "key": "github:prabhjotsodhi/claudejump",
+    "url": "https://api.github.com/repos/prabhjotsodhi/claudejump",
+    "checkedAt": "2026-11-19T12:48:20+00:00",
+    "status": 200,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4493",
+     "x-ratelimit-reset": "1795094716"
+    },
+    "sha256": "7102d1d6aad7a9a4af8a5ac9360e27f5a210669c080de042b0a99d8a5bf76363",
+    "ok": false,
+    "error": "Missing or mismatched repository identity"
+   },
+   {
+    "key": "github:prokopiy8247/opus5-5-guns-3d-models",
+    "url": "https://api.github.com/repos/prokopiy8247/opus5-5-guns-3d-models",
+    "checkedAt": "2026-11-19T12:48:20+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: GitHub API request failed",
+    "status": 404,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4494",
+     "x-ratelimit-reset": "1795094716"
+    }
+   },
+   {
+    "key": "github:prokopiy8247/opus5.5-4-projects",
+    "url": "https://api.github.com/repos/prokopiy8247/opus5.5-4-projects",
+    "checkedAt": "2026-11-19T12:48:24+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: GitHub API request failed",
+    "status": 404,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4489",
+     "x-ratelimit-reset": "1795094716"
+    }
+   },
+   {
+    "key": "github:pshankinclarke/line-item-review",
+    "url": "https://api.github.com/repos/pshankinclarke/line-item-review",
+    "checkedAt": "2026-11-19T12:48:25+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: GitHub API request failed",
+    "status": 404,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4488",
+     "x-ratelimit-reset": "1795094716"
+    }
+   },
+   {
+    "key": "github:redcat888/perch",
+    "url": "https://api.github.com/repos/redcat888/perch",
+    "checkedAt": "2026-11-19T12:48:25+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: GitHub API request failed",
+    "status": 404,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4480",
+     "x-ratelimit-reset": "1795094716"
+    }
+   },
+   {
+    "key": "github:rylaa/fable5-opus5.5-orchestrator",
+    "url": "https://api.github.com/repos/rylaa/fable5-opus5.5-orchestrator",
+    "checkedAt": "2026-11-19T12:48:26+00:00",
+    "status": 200,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4463",
+     "x-ratelimit-reset": "1795094716"
+    },
+    "sha256": "16222c02fc4f1bcfaeec71f8cb3d0a327493b745f29e2d1835d047adb0e95933",
+    "ok": false,
+    "error": "Missing or mismatched repository identity"
+   },
+   {
+    "key": "github:sakshamchitkara-dotcom/agent-fleet",
+    "url": "https://api.github.com/repos/sakshamchitkara-dotcom/agent-fleet",
+    "checkedAt": "2026-11-19T12:48:26+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: GitHub API request failed",
+    "status": 404,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4465",
+     "x-ratelimit-reset": "1795094716"
+    }
+   },
+   {
+    "key": "github:siwo55/dragon-sail-opus",
+    "url": "https://api.github.com/repos/siwo55/dragon-sail-opus",
+    "checkedAt": "2026-11-19T12:48:28+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: GitHub API request failed",
+    "status": 404,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4443",
+     "x-ratelimit-reset": "1795094716"
+    }
+   },
+   {
+    "key": "github:thedoodabides87/aur-audit",
+    "url": "https://api.github.com/repos/thedoodabides87/aur-audit",
+    "checkedAt": "2026-11-19T12:48:37+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: GitHub API request failed",
+    "status": 404,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4404",
+     "x-ratelimit-reset": "1795094716"
+    }
+   },
+   {
+    "key": "github:tuzhechen2005/painted-animation",
+    "url": "https://api.github.com/repos/tuzhechen2005/painted-animation",
+    "checkedAt": "2026-11-19T12:48:39+00:00",
+    "status": 200,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4373",
+     "x-ratelimit-reset": "1795094716"
+    },
+    "sha256": "5b3ad373391fd8db564f89b9d1519de8bd33b0196fe52ce7c9690e27e76397c2",
+    "ok": false,
+    "error": "Missing or mismatched repository identity"
+   },
+   {
+    "key": "github:whitelotus1998/ironwake/issues/484",
+    "url": "https://api.github.com/repos/whitelotus1998/ironwake/issues/484",
+    "checkedAt": "2026-11-19T12:48:41+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: GitHub API request failed",
+    "status": 404,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4354",
+     "x-ratelimit-reset": "1795094716"
+    }
+   },
+   {
+    "key": "github:yhyang201/oni-web",
+    "url": "https://api.github.com/repos/yhyang201/oni-web",
+    "checkedAt": "2026-11-19T12:48:46+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: GitHub API request failed",
+    "status": 404,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4335",
+     "x-ratelimit-reset": "1795094716"
+    }
+   }
   ],
-  "fetchReceiptFile": "data/refresh_history/2026-10-24-fetches.json",
-  "reviewFile": "data/refresh_history/2026-10-24-review.json",
-  "processLog": "reports/UPDATE-2026-10-24.md",
-  "validation": {
-    "status": "passed",
-    "checkedAt": "2026-10-24T09:54:45+00:00",
-    "pythonTests": 44,
-    "javascriptTests": 3,
-    "browserViews": 10,
-    "historicalIntegrity": {
-      "topic": "opus-5-5",
-      "before": 7347,
-      "after": 7483,
-      "new": 136,
-      "historicalChangedFields": {
-        "bookmarks": 867,
-        "metricsCheckedAt": 4918,
-        "likes": 1102,
-        "views": 3933,
-        "stars": 74,
-        "comments": 2,
-        "reactions": 1,
-        "metricsSourceUrl": 21
-      },
-      "unchangedSourceFiles": [
-        "base_cases.json",
-        "case_enrichments.json",
-        "reply_enrichments.json",
-        "poster_enrichments.json",
-        "extra_gosail.json"
-      ]
-    },
-    "failedMetricCasesPreserved": 90,
-    "browserReport": "reports/reviews/2026-10-24-browser.json",
-    "checks": [
-      "all-topic validation",
-      "reproducible build check",
-      "historical ID and source-position preservation",
-      "failed metric values and timestamps retained",
-      "new poster contact sheets and desktop/mobile pages visually reviewed"
-    ]
-  }
+  "retry": {
+   "attempted": 21,
+   "succeeded": 21
+  },
+  "note": "Counts cover the refresh input, including the unpublished Nov18 staging batch for Fable 5.2; excluded drafts were subsequently removed. New Nov19 records carry their own source-check timestamps."
+ },
+ "posters": {
+  "total": 6022,
+  "local": 17,
+  "missing": 1483
+ },
+ "limitations": [
+  "本次为有界多来源检索与优先审核，不代表全网穷尽覆盖；未审核候选单独排队。",
+  "X 部分搜索分页返回 404；Bilibili 本轮补充搜索返回 412，未绕过访问限制。已复审 Nov18 的可核实视频证据。",
+  "Reddit 存档部分请求在重试后仍返回 422/429 或网络错误，且可能返回时间窗外记录；保留原发布时间并标记补录。",
+  "原作者公布的耗时、费用、质量和效果未独立复现；视频描述、附件与抽帧不等于完整观看全部视频。",
+  "历史指标读取失败或 GitHub 对象身份不匹配时保留旧值和原时间戳；无有效新结果不归零。"
+ ],
+ "fetchReceiptFile": "data/refresh_history/2026-11-19-fetches.json",
+ "reviewFile": "reports/2026-11-19-review.json",
+ "processLog": "reports/UPDATE-2026-11-19.md",
+ "validation": {
+  "status": "passed",
+  "checkedAt": "2026-11-19T12:58:26+00:00",
+  "pythonTests": 45,
+  "rankingTests": 3,
+  "browserViews": 20,
+  "allConfiguredTopics": true,
+  "historicalIdsPreserved": true,
+  "checks": [
+   "all-topic build",
+   "all-topic data validation",
+   "desktop/mobile zh/en and file preview",
+   "all local posters decoded",
+   "historical identity integrity"
+  ]
+ }
 }

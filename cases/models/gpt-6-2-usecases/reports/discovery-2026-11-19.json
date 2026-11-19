@@ -1,0 +1,1187 @@
+{
+  "schemaVersion": 1,
+  "topicId": "gpt-6-2",
+  "runId": "20261119T123924Z-b9aba89a",
+  "startedAt": "2026-11-19T12:39:24+00:00",
+  "finishedAt": "2026-11-19T12:39:26+00:00",
+  "since": "2026-11-17",
+  "status": "retrieved",
+  "sourcesAttempted": 6,
+  "sourcesSucceeded": 6,
+  "coverage": "partial",
+  "candidateCount": 85,
+  "reviewedNewCases": 0,
+  "limitations": [
+    "Successful retrieval does not prove exhaustive coverage or model attribution.",
+    "Search adapters inspect one bounded page per configured query; no complete-pagination claim.",
+    "Only GitHub and HN JSON searches currently emit candidate metadata; other snapshots require manual review.",
+    "Discovery does not change accepted data, metric freshness or the published refresh report."
+  ],
+  "sources": [
+    {
+      "key": "github-repositories-1",
+      "url": "https://api.github.com/search/repositories?q=%22GPT-6.2%22+pushed%3A%3E%3D2026-11-17&sort=updated&per_page=30",
+      "checkedAt": "2026-11-19T12:39:24+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "27",
+        "x-ratelimit-reset": "1795092024"
+      },
+      "finalUrl": "https://api.github.com/search/repositories?q=%22GPT-6.2%22+pushed%3A%3E%3D2026-11-17&sort=updated&per_page=30",
+      "bytes": 177267,
+      "file": "github-repositories-1.txt",
+      "sha256": "cf8b1b8aebe00691a93e0a815c5f5c0a20e7cb6c4103feb55113903b0c53fc82",
+      "ok": true,
+      "returned": 30,
+      "totalReported": 83,
+      "searchIncomplete": false,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "hn-1",
+      "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22GPT-6.2%22&hitsPerPage=30&numericFilters=created_at_i%3E%3D1794873600",
+      "checkedAt": "2026-11-19T12:39:24+00:00",
+      "status": 200,
+      "finalUrl": "https://hn.algolia.com/api/v1/search_by_date?query=%22GPT-6.2%22&hitsPerPage=30&numericFilters=created_at_i%3E%3D1794873600",
+      "bytes": 63179,
+      "file": "hn-1.txt",
+      "sha256": "7804a502b161cd6cc7d24f903408724ae952aa075bc66fc84236066f11e56a24",
+      "ok": true,
+      "returned": 30,
+      "totalReported": 50,
+      "pagesReported": 2,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "github-repositories-2",
+      "url": "https://api.github.com/search/repositories?q=%22GPT6.2%22+pushed%3A%3E%3D2026-11-17&sort=updated&per_page=30",
+      "checkedAt": "2026-11-19T12:39:24+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "26",
+        "x-ratelimit-reset": "1795092024"
+      },
+      "finalUrl": "https://api.github.com/search/repositories?q=%22GPT6.2%22+pushed%3A%3E%3D2026-11-17&sort=updated&per_page=30",
+      "bytes": 55,
+      "file": "github-repositories-2.txt",
+      "sha256": "4af480b8ee5b87b369a76c49bd22c9a783908272ebffbe97898f8ab0f0772a5f",
+      "ok": true,
+      "returned": 0,
+      "totalReported": 0,
+      "searchIncomplete": false,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "hn-2",
+      "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22GPT6.2%22&hitsPerPage=30&numericFilters=created_at_i%3E%3D1794873600",
+      "checkedAt": "2026-11-19T12:39:24+00:00",
+      "status": 200,
+      "finalUrl": "https://hn.algolia.com/api/v1/search_by_date?query=%22GPT6.2%22&hitsPerPage=30&numericFilters=created_at_i%3E%3D1794873600",
+      "bytes": 410,
+      "file": "hn-2.txt",
+      "sha256": "df9134e6571135681259a36b0daa497b75fbac93b2816685e42ee596f7e2d981",
+      "ok": true,
+      "returned": 0,
+      "totalReported": 0,
+      "pagesReported": 0,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "github-repositories-3",
+      "url": "https://api.github.com/search/repositories?q=%22gpt-6.2-astra%22+pushed%3A%3E%3D2026-11-17&sort=updated&per_page=30",
+      "checkedAt": "2026-11-19T12:39:24+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "29",
+        "x-ratelimit-reset": "1795092024"
+      },
+      "finalUrl": "https://api.github.com/search/repositories?q=%22gpt-6.2-astra%22+pushed%3A%3E%3D2026-11-17&sort=updated&per_page=30",
+      "bytes": 175894,
+      "file": "github-repositories-3.txt",
+      "sha256": "3a13d668e51aeda6f8046e18303a7c948acccc4f5947f4263904dd7cd4035bc5",
+      "ok": true,
+      "returned": 30,
+      "totalReported": 57,
+      "searchIncomplete": false,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "hn-3",
+      "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22gpt-6.2-astra%22&hitsPerPage=30&numericFilters=created_at_i%3E%3D1794873600",
+      "checkedAt": "2026-11-19T12:39:24+00:00",
+      "status": 200,
+      "finalUrl": "https://hn.algolia.com/api/v1/search_by_date?query=%22gpt-6.2-astra%22&hitsPerPage=30&numericFilters=created_at_i%3E%3D1794873600",
+      "bytes": 64752,
+      "file": "hn-3.txt",
+      "sha256": "957374ca16223ade429c8b3dfb09238148777ece5cbe0f2ef3cf0dde68bcd4b8",
+      "ok": true,
+      "returned": 30,
+      "totalReported": 31,
+      "pagesReported": 2,
+      "pagination": "first-page-only"
+    }
+  ],
+  "candidates": [
+    {
+      "sourceUrl": "https://github.com/chan-yuu/forest-combat-gpt-6-2-sol-ultra",
+      "title": "chan-yuu/forest-combat-gpt-6-2-sol-ultra",
+      "platform": "GitHub",
+      "date": "2026-11-19",
+      "sourceIdentity": "github.com/chan-yuu/forest-combat-gpt-6-2-sol-ultra",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/chan-yuu/thornbound-gpt-6.2-astra-ultra",
+      "title": "chan-yuu/thornbound-gpt-6.2-astra-ultra",
+      "platform": "GitHub",
+      "date": "2026-11-19",
+      "sourceIdentity": "github.com/chan-yuu/thornbound-gpt-6.2-astra-ultra",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Pengcheng-Wang/autosota-frontier-cowork-rsi",
+      "title": "Pengcheng-Wang/autosota-frontier-cowork-rsi",
+      "platform": "GitHub",
+      "date": "2026-11-18",
+      "sourceIdentity": "github.com/pengcheng-wang/autosota-frontier-cowork-rsi",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/ZHT1235456/Three-js-Hexacopter-by-GPT-6.2-Astra",
+      "title": "ZHT1235456/Three-js-Hexacopter-by-GPT-6.2-Astra",
+      "platform": "GitHub",
+      "date": "2026-11-18",
+      "sourceIdentity": "github.com/zht1235456/three-js-hexacopter-by-gpt-6.2-astra",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/icesixgod/prompt-coach",
+      "title": "icesixgod/prompt-coach",
+      "platform": "GitHub",
+      "date": "2026-11-19",
+      "sourceIdentity": "github.com/icesixgod/prompt-coach",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/AbhishekBarali/tryhard",
+      "title": "AbhishekBarali/tryhard",
+      "platform": "GitHub",
+      "date": "2026-11-18",
+      "sourceIdentity": "github.com/abhishekbarali/tryhard",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/lsy041015/model-routing-codex",
+      "title": "lsy041015/model-routing-codex",
+      "platform": "GitHub",
+      "date": "2026-11-19",
+      "sourceIdentity": "github.com/lsy041015/model-routing-codex",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/jizhi0v0/gpt-6-2-coding-benchmarks",
+      "title": "jizhi0v0/gpt-6-2-coding-benchmarks",
+      "platform": "GitHub",
+      "date": "2026-11-19",
+      "sourceIdentity": "github.com/jizhi0v0/gpt-6-2-coding-benchmarks",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Small-tailqwq/codex-agents-lab",
+      "title": "Small-tailqwq/codex-agents-lab",
+      "platform": "GitHub",
+      "date": "2026-11-19",
+      "sourceIdentity": "github.com/small-tailqwq/codex-agents-lab",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/dbc-hbin/omp-openai-codex-500k-extension",
+      "title": "dbc-hbin/omp-openai-codex-500k-extension",
+      "platform": "GitHub",
+      "date": "2026-11-19",
+      "sourceIdentity": "github.com/dbc-hbin/omp-openai-codex-500k-extension",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/zan72122/astra-261118",
+      "title": "zan72122/astra-261118",
+      "platform": "GitHub",
+      "date": "2026-11-17",
+      "sourceIdentity": "github.com/zan72122/astra-261118",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/AG-0814/261014_LLM-Oneshot-Test",
+      "title": "AG-0814/261014_LLM-Oneshot-Test",
+      "platform": "GitHub",
+      "date": "2026-10-14",
+      "sourceIdentity": "github.com/ag-0814/261014_llm-oneshot-test",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/carpentry-liu/awesome-astra-3d",
+      "title": "carpentry-liu/awesome-astra-3d",
+      "platform": "GitHub",
+      "date": "2026-09-06",
+      "sourceIdentity": "github.com/carpentry-liu/awesome-astra-3d",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Callas157/arch-install",
+      "title": "Callas157/arch-install",
+      "platform": "GitHub",
+      "date": "2026-11-06",
+      "sourceIdentity": "github.com/callas157/arch-install",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/alanliuc-a11y/codex-model-router-gpt-6-1",
+      "title": "alanliuc-a11y/codex-model-router-gpt-6-1",
+      "platform": "GitHub",
+      "date": "2026-08-31",
+      "sourceIdentity": "github.com/alanliuc-a11y/codex-model-router-gpt-6-1",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Sam1983Aing/ogive-watch-film",
+      "title": "Sam1983Aing/ogive-watch-film",
+      "platform": "GitHub",
+      "date": "2026-11-19",
+      "sourceIdentity": "github.com/sam1983aing/ogive-watch-film",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/ygx2378/awesome-fable-5-2-games",
+      "title": "ygx2378/awesome-fable-5-2-games",
+      "platform": "GitHub",
+      "date": "2026-11-12",
+      "sourceIdentity": "github.com/ygx2378/awesome-fable-5-2-games",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/AI-Terrarium/awesome-gpt-6.2",
+      "title": "AI-Terrarium/awesome-gpt-6.2",
+      "platform": "GitHub",
+      "date": "2026-11-17",
+      "sourceIdentity": "github.com/ai-terrarium/awesome-gpt-6.2",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/cheercheung/awesome-gpt-6-2-astra-guide-and-use-cases",
+      "title": "cheercheung/awesome-gpt-6-2-astra-guide-and-use-cases",
+      "platform": "GitHub",
+      "date": "2026-11-03",
+      "sourceIdentity": "github.com/cheercheung/awesome-gpt-6-2-astra-guide-and-use-cases",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/sandbase-lab/awesome-gpt-6-2-astra",
+      "title": "sandbase-lab/awesome-gpt-6-2-astra",
+      "platform": "GitHub",
+      "date": "2026-11-12",
+      "sourceIdentity": "github.com/sandbase-lab/awesome-gpt-6-2-astra",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/sandbase-lab/awesome-gpt-6-2-sol",
+      "title": "sandbase-lab/awesome-gpt-6-2-sol",
+      "platform": "GitHub",
+      "date": "2026-11-12",
+      "sourceIdentity": "github.com/sandbase-lab/awesome-gpt-6-2-sol",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/DannyMac180/legible",
+      "title": "DannyMac180/legible",
+      "platform": "GitHub",
+      "date": "2026-11-18",
+      "sourceIdentity": "github.com/dannymac180/legible",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/xect202y-cmd/voyager-astra-3d",
+      "title": "xect202y-cmd/voyager-astra-3d",
+      "platform": "GitHub",
+      "date": "2026-11-18",
+      "sourceIdentity": "github.com/xect202y-cmd/voyager-astra-3d",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/KhalidAbdelaty/gpt-6-2-chart-analysis-api",
+      "title": "KhalidAbdelaty/gpt-6-2-chart-analysis-api",
+      "platform": "GitHub",
+      "date": "2026-11-18",
+      "sourceIdentity": "github.com/khalidabdelaty/gpt-6-2-chart-analysis-api",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/techkwon/gpt62-oneshot-bench",
+      "title": "techkwon/gpt62-oneshot-bench",
+      "platform": "GitHub",
+      "date": "2026-11-18",
+      "sourceIdentity": "github.com/techkwon/gpt62-oneshot-bench",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/ApexDorkon/FDE-challenge",
+      "title": "ApexDorkon/FDE-challenge",
+      "platform": "GitHub",
+      "date": "2026-11-18",
+      "sourceIdentity": "github.com/apexdorkon/fde-challenge",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Mic-Fundraiser/LeanBrain",
+      "title": "Mic-Fundraiser/LeanBrain",
+      "platform": "GitHub",
+      "date": "2026-11-18",
+      "sourceIdentity": "github.com/mic-fundraiser/leanbrain",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Deathdadev/mossbound-giant",
+      "title": "Deathdadev/mossbound-giant",
+      "platform": "GitHub",
+      "date": "2026-11-18",
+      "sourceIdentity": "github.com/deathdadev/mossbound-giant",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/inematds/imersao-jarvis-3d",
+      "title": "inematds/imersao-jarvis-3d",
+      "platform": "GitHub",
+      "date": "2026-11-18",
+      "sourceIdentity": "github.com/inematds/imersao-jarvis-3d",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/davidbasilefilho/gpt-6.2-astra-test",
+      "title": "davidbasilefilho/gpt-6.2-astra-test",
+      "platform": "GitHub",
+      "date": "2026-11-18",
+      "sourceIdentity": "github.com/davidbasilefilho/gpt-6.2-astra-test",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50556084",
+      "title": "Gemini 4 Neon",
+      "platform": "Hacker News",
+      "date": "2026-11-19",
+      "sourceIdentity": "news.ycombinator.com/item?id=50556084",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50555690",
+      "title": "Gemini 4 Neon",
+      "platform": "Hacker News",
+      "date": "2026-11-19",
+      "sourceIdentity": "news.ycombinator.com/item?id=50555690",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50554222",
+      "title": "New models tested: Gemini 4 Hydrogen, Qwen4-Max, and GPT-6.2",
+      "platform": "Hacker News",
+      "date": "2026-11-19",
+      "sourceIdentity": "news.ycombinator.com/item?id=50554222",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50554219",
+      "title": "GPT‑6.2 Astra and Sol",
+      "platform": "Hacker News",
+      "date": "2026-11-19",
+      "sourceIdentity": "news.ycombinator.com/item?id=50554219",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1",
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50553966",
+      "title": "Show HN: Frontier Observatory – A visual timeline of what the AI labs ship",
+      "platform": "Hacker News",
+      "date": "2026-11-18",
+      "sourceIdentity": "news.ycombinator.com/item?id=50553966",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1",
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50553592",
+      "title": "Gemini 4 Neon",
+      "platform": "Hacker News",
+      "date": "2026-11-18",
+      "sourceIdentity": "news.ycombinator.com/item?id=50553592",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1",
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50553240",
+      "title": "Gemini 4 Neon",
+      "platform": "Hacker News",
+      "date": "2026-11-18",
+      "sourceIdentity": "news.ycombinator.com/item?id=50553240",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50553069",
+      "title": "Gemini 4 Neon",
+      "platform": "Hacker News",
+      "date": "2026-11-18",
+      "sourceIdentity": "news.ycombinator.com/item?id=50553069",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50552543",
+      "title": "Gemini 4 Neon",
+      "platform": "Hacker News",
+      "date": "2026-11-18",
+      "sourceIdentity": "news.ycombinator.com/item?id=50552543",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50551381",
+      "title": "Mullet: The Skill for Job Security",
+      "platform": "Hacker News",
+      "date": "2026-11-18",
+      "sourceIdentity": "news.ycombinator.com/item?id=50551381",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1",
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50551132",
+      "title": "Genie 4 is now available",
+      "platform": "Hacker News",
+      "date": "2026-11-18",
+      "sourceIdentity": "news.ycombinator.com/item?id=50551132",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50550861",
+      "title": "GPT‑6.2 Astra and Sol",
+      "platform": "Hacker News",
+      "date": "2026-11-18",
+      "sourceIdentity": "news.ycombinator.com/item?id=50550861",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1",
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50550694",
+      "title": "GPT-6.2 Astra Formalizes Smoktunowicz's Gap Theorem",
+      "platform": "Hacker News",
+      "date": "2026-11-18",
+      "sourceIdentity": "news.ycombinator.com/item?id=50550694",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1",
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50547158",
+      "title": "GPT-6.2 Sol and Astra changed after reviewers got early access",
+      "platform": "Hacker News",
+      "date": "2026-11-18",
+      "sourceIdentity": "news.ycombinator.com/item?id=50547158",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50539802",
+      "title": "OpenAI launches GPT-6.2 Astra and Sol to negative reception from AI power users",
+      "platform": "Hacker News",
+      "date": "2026-11-17",
+      "sourceIdentity": "news.ycombinator.com/item?id=50539802",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1",
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50539688",
+      "title": "Sinaps Studio: A multi-agent physics research lab using GPT-6.2",
+      "platform": "Hacker News",
+      "date": "2026-11-17",
+      "sourceIdentity": "news.ycombinator.com/item?id=50539688",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50539476",
+      "title": "GPT‑6.2 Astra and Sol",
+      "platform": "Hacker News",
+      "date": "2026-11-17",
+      "sourceIdentity": "news.ycombinator.com/item?id=50539476",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1",
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50539448",
+      "title": "I hate GPT-6.2 Astra",
+      "platform": "Hacker News",
+      "date": "2026-11-17",
+      "sourceIdentity": "news.ycombinator.com/item?id=50539448",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1",
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50539331",
+      "title": "GPT‑6.2 Astra and Sol",
+      "platform": "Hacker News",
+      "date": "2026-11-17",
+      "sourceIdentity": "news.ycombinator.com/item?id=50539331",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50539299",
+      "title": "GPT-6.2 Astra and GPT-6.2 Sol",
+      "platform": "Hacker News",
+      "date": "2026-11-17",
+      "sourceIdentity": "news.ycombinator.com/item?id=50539299",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1",
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50537605",
+      "title": "GPT‑6.2 Astra and Sol",
+      "platform": "Hacker News",
+      "date": "2026-11-17",
+      "sourceIdentity": "news.ycombinator.com/item?id=50537605",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1",
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50537602",
+      "title": "GPT‑6.2 Astra and Sol",
+      "platform": "Hacker News",
+      "date": "2026-11-17",
+      "sourceIdentity": "news.ycombinator.com/item?id=50537602",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1",
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50537363",
+      "title": "GPT-6.2 Astra and Sol deliver most of the AA Cost per Task Pareto frontier",
+      "platform": "Hacker News",
+      "date": "2026-11-17",
+      "sourceIdentity": "news.ycombinator.com/item?id=50537363",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1",
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50537217",
+      "title": "GPT‑6.2 Astra and Sol",
+      "platform": "Hacker News",
+      "date": "2026-11-17",
+      "sourceIdentity": "news.ycombinator.com/item?id=50537217",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50537209",
+      "title": "I hate GPT-6.2 Astra",
+      "platform": "Hacker News",
+      "date": "2026-11-17",
+      "sourceIdentity": "news.ycombinator.com/item?id=50537209",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1",
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50537117",
+      "title": "GPT‑6.2 Astra and Sol",
+      "platform": "Hacker News",
+      "date": "2026-11-17",
+      "sourceIdentity": "news.ycombinator.com/item?id=50537117",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1",
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50536944",
+      "title": "GPT‑6.2 Astra and Sol",
+      "platform": "Hacker News",
+      "date": "2026-11-17",
+      "sourceIdentity": "news.ycombinator.com/item?id=50536944",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1",
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50536753",
+      "title": "GPT‑6.2 Astra and Sol",
+      "platform": "Hacker News",
+      "date": "2026-11-17",
+      "sourceIdentity": "news.ycombinator.com/item?id=50536753",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50536739",
+      "title": "GPT‑6.2 Astra and Sol",
+      "platform": "Hacker News",
+      "date": "2026-11-17",
+      "sourceIdentity": "news.ycombinator.com/item?id=50536739",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1",
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50536713",
+      "title": "Show HN: Llx – Fast, Efficient GPT-6.2 Sol and Astra Coding via ChatGPT",
+      "platform": "Hacker News",
+      "date": "2026-11-17",
+      "sourceIdentity": "news.ycombinator.com/item?id=50536713",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/avenoxai/astra-notlari",
+      "title": "avenoxai/astra-notlari",
+      "platform": "GitHub",
+      "date": "2026-11-18",
+      "sourceIdentity": "github.com/avenoxai/astra-notlari",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/RaNDoM6913/claude-code-superkit",
+      "title": "RaNDoM6913/claude-code-superkit",
+      "platform": "GitHub",
+      "date": "2026-03-23",
+      "sourceIdentity": "github.com/random6913/claude-code-superkit",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/gpt-6-2/ChatGPT-6.2-Astra-Sol-Free",
+      "title": "gpt-6-2/ChatGPT-6.2-Astra-Sol-Free",
+      "platform": "GitHub",
+      "date": "2026-11-18",
+      "sourceIdentity": "github.com/gpt-6-2/chatgpt-6.2-astra-sol-free",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/fornhere/gpt-6-2-astra-benchmark",
+      "title": "fornhere/gpt-6-2-astra-benchmark",
+      "platform": "GitHub",
+      "date": "2026-11-18",
+      "sourceIdentity": "github.com/fornhere/gpt-6-2-astra-benchmark",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Thweki/undertow-fm",
+      "title": "Thweki/undertow-fm",
+      "platform": "GitHub",
+      "date": "2026-11-18",
+      "sourceIdentity": "github.com/thweki/undertow-fm",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Thweki/operation-fracture",
+      "title": "Thweki/operation-fracture",
+      "platform": "GitHub",
+      "date": "2026-11-18",
+      "sourceIdentity": "github.com/thweki/operation-fracture",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Thweki/tidepost",
+      "title": "Thweki/tidepost",
+      "platform": "GitHub",
+      "date": "2026-11-18",
+      "sourceIdentity": "github.com/thweki/tidepost",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/viktorkav/uno-com-escada",
+      "title": "viktorkav/uno-com-escada",
+      "platform": "GitHub",
+      "date": "2026-11-16",
+      "sourceIdentity": "github.com/viktorkav/uno-com-escada",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/taswar/GPT-6.2-Astra-vs-Sol-CSharp-Sample",
+      "title": "taswar/GPT-6.2-Astra-vs-Sol-CSharp-Sample",
+      "platform": "GitHub",
+      "date": "2026-11-18",
+      "sourceIdentity": "github.com/taswar/gpt-6.2-astra-vs-sol-csharp-sample",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/MiaAI-Lab/GPT-6.2-Astra-100-HTML-Files",
+      "title": "MiaAI-Lab/GPT-6.2-Astra-100-HTML-Files",
+      "platform": "GitHub",
+      "date": "2026-11-18",
+      "sourceIdentity": "github.com/miaai-lab/gpt-6.2-astra-100-html-files",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/AdamWen95/gpt6.2-astra-demos",
+      "title": "AdamWen95/gpt6.2-astra-demos",
+      "platform": "GitHub",
+      "date": "2026-11-18",
+      "sourceIdentity": "github.com/adamwen95/gpt6.2-astra-demos",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/momentinyourhands-tech/-GPT-6.2-Astra",
+      "title": "momentinyourhands-tech/-GPT-6.2-Astra",
+      "platform": "GitHub",
+      "date": "2026-11-18",
+      "sourceIdentity": "github.com/momentinyourhands-tech/-gpt-6.2-astra",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50536704",
+      "title": "GPT‑6.2 Astra and Sol",
+      "platform": "Hacker News",
+      "date": "2026-11-17",
+      "sourceIdentity": "news.ycombinator.com/item?id=50536704",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50536438",
+      "title": "GPT-6.2 Astra scores 100% on ARC-AGI-3",
+      "platform": "Hacker News",
+      "date": "2026-11-17",
+      "sourceIdentity": "news.ycombinator.com/item?id=50536438",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50536410",
+      "title": "I hate GPT-6.2 Astra",
+      "platform": "Hacker News",
+      "date": "2026-11-17",
+      "sourceIdentity": "news.ycombinator.com/item?id=50536410",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50536176",
+      "title": "Artificial Analysis Benchmarks for GPT-6.2 Astra",
+      "platform": "Hacker News",
+      "date": "2026-11-17",
+      "sourceIdentity": "news.ycombinator.com/item?id=50536176",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50535959",
+      "title": "GPT‑6.2 Astra and Sol",
+      "platform": "Hacker News",
+      "date": "2026-11-17",
+      "sourceIdentity": "news.ycombinator.com/item?id=50535959",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50535783",
+      "title": "Artificial Analysis Benchmarks for GPT-6.2 Astra",
+      "platform": "Hacker News",
+      "date": "2026-11-17",
+      "sourceIdentity": "news.ycombinator.com/item?id=50535783",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50535765",
+      "title": "GPT‑6.2 Astra and Sol",
+      "platform": "Hacker News",
+      "date": "2026-11-17",
+      "sourceIdentity": "news.ycombinator.com/item?id=50535765",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50535688",
+      "title": "GPT 6.2 Astra Priced $8/$40 per 1M Input/Output Token",
+      "platform": "Hacker News",
+      "date": "2026-11-17",
+      "sourceIdentity": "news.ycombinator.com/item?id=50535688",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50535588",
+      "title": "GPT‑6.2 Astra and Sol",
+      "platform": "Hacker News",
+      "date": "2026-11-17",
+      "sourceIdentity": "news.ycombinator.com/item?id=50535588",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50535557",
+      "title": "GPT‑6.2 Astra and Sol",
+      "platform": "Hacker News",
+      "date": "2026-11-17",
+      "sourceIdentity": "news.ycombinator.com/item?id=50535557",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50535502",
+      "title": "GPT‑6.2 Astra and Sol",
+      "platform": "Hacker News",
+      "date": "2026-11-17",
+      "sourceIdentity": "news.ycombinator.com/item?id=50535502",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50535280",
+      "title": "GPT-6.2 Astra and Sol System Card",
+      "platform": "Hacker News",
+      "date": "2026-11-17",
+      "sourceIdentity": "news.ycombinator.com/item?id=50535280",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50535263",
+      "title": "GPT 6.2 Astra and Sol are now live",
+      "platform": "Hacker News",
+      "date": "2026-11-17",
+      "sourceIdentity": "news.ycombinator.com/item?id=50535263",
+      "topicId": "gpt-6-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3"
+      ]
+    }
+  ]
+}

@@ -21,7 +21,7 @@
     "platform": "GitHub",
     "githubKind": "repository",
     "stars": 0,
-    "metricsCheckedAt": "2026-11-18T05:58:23+00:00",
+    "metricsCheckedAt": "2026-11-19T12:39:27+00:00",
     "metricsSourceUrl": "https://api.github.com/repos/techkwon/gpt62-oneshot-bench"
   },
   {
@@ -46,7 +46,7 @@
     "platform": "GitHub",
     "githubKind": "repository",
     "stars": 0,
-    "metricsCheckedAt": "2026-11-18T05:58:23+00:00",
+    "metricsCheckedAt": "2026-11-19T12:39:26+00:00",
     "metricsSourceUrl": "https://api.github.com/repos/jambocoder159/ai-game-duel"
   },
   {
@@ -71,8 +71,8 @@
     "platform": "GitHub",
     "githubKind": "repository",
     "stars": 0,
-    "metricsCheckedAt": "2026-11-18T05:58:23+00:00",
-    "metricsSourceUrl": "https://api.github.com/repos/LongHuynh-vn/apis-mechanica"
+    "metricsCheckedAt": "2026-11-19T12:39:27+00:00",
+    "metricsSourceUrl": "https://api.github.com/repos/longhuynh-vn/apis-mechanica"
   },
   {
     "id": "gpt62-imersao-jarvis-3d",
@@ -96,7 +96,7 @@
     "platform": "GitHub",
     "githubKind": "repository",
     "stars": 0,
-    "metricsCheckedAt": "2026-11-18T05:58:23+00:00",
+    "metricsCheckedAt": "2026-11-19T12:39:26+00:00",
     "metricsSourceUrl": "https://api.github.com/repos/inematds/imersao-jarvis-3d"
   },
   {
@@ -121,8 +121,8 @@
     "platform": "GitHub",
     "githubKind": "repository",
     "stars": 0,
-    "metricsCheckedAt": "2026-11-18T05:58:23+00:00",
-    "metricsSourceUrl": "https://api.github.com/repos/Dun4ev/blackburn-flight"
+    "metricsCheckedAt": "2026-11-19T12:39:26+00:00",
+    "metricsSourceUrl": "https://api.github.com/repos/dun4ev/blackburn-flight"
   },
   {
     "id": "gpt62-flying-anglia",
@@ -146,7 +146,7 @@
     "platform": "GitHub",
     "githubKind": "repository",
     "stars": 0,
-    "metricsCheckedAt": "2026-11-18T05:58:23+00:00",
+    "metricsCheckedAt": "2026-11-19T12:39:26+00:00",
     "metricsSourceUrl": "https://api.github.com/repos/baturyilmaz/flying-anglia"
   },
   {
@@ -171,8 +171,8 @@
     "platform": "GitHub",
     "githubKind": "repository",
     "stars": 0,
-    "metricsCheckedAt": "2026-11-18T05:58:23+00:00",
-    "metricsSourceUrl": "https://api.github.com/repos/JustinMars999/wallpaper-for-gundam-unicorn-pilot-screen"
+    "metricsCheckedAt": "2026-11-19T12:39:26+00:00",
+    "metricsSourceUrl": "https://api.github.com/repos/justinmars999/wallpaper-for-gundam-unicorn-pilot-screen"
   },
   {
     "id": "gpt62-orchestra-codex",
@@ -196,7 +196,7 @@
     "platform": "GitHub",
     "githubKind": "repository",
     "stars": 0,
-    "metricsCheckedAt": "2026-11-18T05:58:23+00:00",
+    "metricsCheckedAt": "2026-11-19T12:39:27+00:00",
     "metricsSourceUrl": "https://api.github.com/repos/paulkwongemini/orchestra-codex"
   },
   {
@@ -221,7 +221,171 @@
     "platform": "GitHub",
     "githubKind": "repository",
     "stars": 0,
-    "metricsCheckedAt": "2026-11-18T05:58:23+00:00",
+    "metricsCheckedAt": "2026-11-19T12:39:26+00:00",
     "metricsSourceUrl": "https://api.github.com/repos/dylanler/weight-space-programming-experiment"
+  },
+  {
+    "id": "gpt62-github-viktorkav-uno-com-escada",
+    "title": "同题 Fiat Uno 浏览器赛车",
+    "title_en": "A same-prompt Fiat Uno browser racing test",
+    "summary": "作者公开 Fable 5.2、Opus 5.5 与 GPT-6.2 Astra 三份单文件 WebGPU 赛车，附提示词、试玩和结果说明；后续菜单与声音改动另由 Fable 处理。",
+    "summary_en": "The creator publishes separate Fable 5.2, Opus 5.5 and GPT-6.2 Astra WebGPU racing builds with prompts and comparisons. Later menu and sound work is separately attributed to Fable.",
+    "category": "games",
+    "platform": "GitHub",
+    "sourceUrl": "https://github.com/viktorkav/uno-com-escada",
+    "author": "viktorkav",
+    "date": "2026-11-16",
+    "evidenceType": "评测",
+    "checkedAt": "2026-11-19T12:49:49+00:00",
+    "evidenceUrl": "https://github.com/viktorkav/uno-com-escada/blob/main/README.md",
+    "evidenceBasis": "作者公开 Fable 5.2、Opus 5.5 与 GPT-6.2 Astra 三份单文件 WebGPU 赛车，附提示词、试玩和结果说明；后续菜单与声音改动另由 Fable 处理。",
+    "modelAttribution": {
+      "topicId": "gpt-6-2",
+      "basis": "explicit-source",
+      "role": "A same-prompt Fiat Uno browser racing test"
+    },
+    "githubKind": "repository",
+    "stars": 136,
+    "metricsCheckedAt": "2026-11-19T12:47:31+00:00",
+    "mediaKind": "image",
+    "resources": [
+      {
+        "label": "作者项目页",
+        "label_en": "Creator project page",
+        "url": "https://viktorkav.com.br/apoio/uno-com-escada/"
+      }
+    ]
+  },
+  {
+    "id": "gpt62-github-sam1983aing-ogive-watch-film",
+    "title": "Ogive：自动组装的陀飞轮腕表短片",
+    "title_en": "Ogive: a self-assembling tourbillon film",
+    "summary": "作者用 Codex 中的 GPT-6.2 Astra 编写 Python，生成 Blender 腕表零件、组装动画、灯光与声音，并公开脚本和成片。",
+    "summary_en": "The creator uses GPT-6.2 Astra in Codex to write Python for a Blender watch model, assembly animation, lighting and sound, publishing scripts and the film.",
+    "category": "video",
+    "platform": "GitHub",
+    "sourceUrl": "https://github.com/Sam1983Aing/ogive-watch-film",
+    "author": "Sam1983Aing",
+    "date": "2026-11-19",
+    "evidenceType": "源码",
+    "checkedAt": "2026-11-19T12:49:49+00:00",
+    "evidenceUrl": "https://github.com/Sam1983Aing/ogive-watch-film/blob/main/README.md",
+    "evidenceBasis": "作者用 Codex 中的 GPT-6.2 Astra 编写 Python，生成 Blender 腕表零件、组装动画、灯光与声音，并公开脚本和成片。",
+    "modelAttribution": {
+      "topicId": "gpt-6-2",
+      "basis": "explicit-source",
+      "role": "Ogive: a self-assembling tourbillon film"
+    },
+    "githubKind": "repository",
+    "stars": 3,
+    "metricsCheckedAt": "2026-11-19T12:47:31+00:00",
+    "mediaKind": "image"
+  },
+  {
+    "id": "gpt62-github-deathdadev-mossbound-giant",
+    "title": "Mossbound Giant：连续代码动画",
+    "title_en": "Mossbound Giant: a continuous code-drawn film",
+    "summary": "作者明确记录 Arena Code 模式中的 gpt-6.2-astra-max 归属，公开短片源码、画面和会话链接；原会话访问需要登录。",
+    "summary_en": "The creator attributes the film to gpt-6.2-astra-max in Arena Code mode and publishes source, frames and a conversation link, which requires sign-in.",
+    "category": "graphics",
+    "platform": "GitHub",
+    "sourceUrl": "https://github.com/Deathdadev/mossbound-giant",
+    "author": "Deathdadev",
+    "date": "2026-11-18",
+    "evidenceType": "源码",
+    "checkedAt": "2026-11-19T12:49:49+00:00",
+    "evidenceUrl": "https://github.com/Deathdadev/mossbound-giant/blob/main/README.md",
+    "evidenceBasis": "作者明确记录 Arena Code 模式中的 gpt-6.2-astra-max 归属，公开短片源码、画面和会话链接；原会话访问需要登录。",
+    "modelAttribution": {
+      "topicId": "gpt-6-2",
+      "basis": "explicit-source",
+      "role": "Mossbound Giant: a continuous code-drawn film"
+    },
+    "githubKind": "repository",
+    "stars": 0,
+    "metricsCheckedAt": "2026-11-19T12:47:31+00:00",
+    "mediaKind": "image",
+    "resources": [
+      {
+        "label": "作者项目页",
+        "label_en": "Creator project page",
+        "url": "https://deathdadev.github.io/mossbound-giant/"
+      }
+    ]
+  },
+  {
+    "id": "gpt62-github-callas157-arch-install",
+    "title": "Callas OS：Arch Linux 安装与配置",
+    "title_en": "Callas OS: Arch Linux setup and configuration",
+    "summary": "仓库作者明确说明借助 Codex 中的 GPT-6.2 Sol 开发 Arch Linux 与 KDE Plasma 安装配置项目，面向葡语桌面与游戏场景；未在本轮执行安装。",
+    "summary_en": "The owner credits GPT-6.2 Sol in Codex with assisting an Arch Linux and KDE Plasma setup project for Portuguese-language desktop and gaming use. No installation was performed in this review.",
+    "category": "coding",
+    "platform": "GitHub",
+    "sourceUrl": "https://github.com/Callas157/arch-install",
+    "author": "Callas157",
+    "date": "2026-11-06",
+    "evidenceType": "源码",
+    "checkedAt": "2026-11-19T12:49:49+00:00",
+    "evidenceUrl": "https://github.com/Callas157/arch-install/blob/main/README.md",
+    "evidenceBasis": "仓库作者明确说明借助 Codex 中的 GPT-6.2 Sol 开发 Arch Linux 与 KDE Plasma 安装配置项目，面向葡语桌面与游戏场景；未在本轮执行安装。",
+    "modelAttribution": {
+      "topicId": "gpt-6-2",
+      "basis": "explicit-source",
+      "role": "Callas OS: Arch Linux setup and configuration"
+    },
+    "githubKind": "repository",
+    "stars": 2,
+    "metricsCheckedAt": "2026-11-19T12:47:31+00:00",
+    "mediaKind": "image"
+  },
+  {
+    "id": "gpt62-github-anking8704-ai-bridge-contest-ep9",
+    "title": "造桥比赛：六关方案与本地验证",
+    "title_en": "Bridge-building solutions with local verification",
+    "summary": "作者记录 GPT-6.2 Astra 极高推理生成的造桥方案、源码与截图，明确成绩来自本地官方引擎测试，而非线上官方赛事排名。",
+    "summary_en": "The creator publishes GPT-6.2 Astra bridge solutions and screenshots, explicitly distinguishing local official-engine results from live competition rankings.",
+    "category": "science",
+    "platform": "GitHub",
+    "sourceUrl": "https://github.com/Anking8704/ai-bridge-contest-ep9",
+    "author": "Anking8704",
+    "date": "2026-11-11",
+    "evidenceType": "评测",
+    "checkedAt": "2026-11-19T12:49:49+00:00",
+    "evidenceUrl": "https://github.com/Anking8704/ai-bridge-contest-ep9/blob/main/README.md",
+    "evidenceBasis": "作者记录 GPT-6.2 Astra 极高推理生成的造桥方案、源码与截图，明确成绩来自本地官方引擎测试，而非线上官方赛事排名。",
+    "modelAttribution": {
+      "topicId": "gpt-6-2",
+      "basis": "explicit-source",
+      "role": "Bridge-building solutions with local verification"
+    },
+    "githubKind": "repository",
+    "stars": 0,
+    "metricsCheckedAt": "2026-11-19T12:47:31+00:00",
+    "mediaKind": "image"
+  },
+  {
+    "id": "gpt62-github-zht1235456-three-js-hexacopter-by-gpt-6-2-astra",
+    "title": "Three.js 六旋翼教学模型",
+    "title_en": "A Three.js hexacopter teaching model",
+    "summary": "作者公开使用 GPT-6.2 Astra 制作的民用六旋翼 Three.js 模型，包含可独立转动的桨叶、相机云台和中文说明文档。",
+    "summary_en": "The creator publishes a GPT-6.2 Astra-assisted Three.js model of a civilian hexacopter with independent rotors, a camera gimbal and Chinese documentation.",
+    "category": "3d",
+    "platform": "GitHub",
+    "sourceUrl": "https://github.com/ZHT1235456/Three-js-Hexacopter-by-GPT-6.2-Astra",
+    "author": "ZHT1235456",
+    "date": "2026-11-18",
+    "evidenceType": "源码",
+    "checkedAt": "2026-11-19T12:49:49+00:00",
+    "evidenceUrl": "https://github.com/ZHT1235456/Three-js-Hexacopter-by-GPT-6.2-Astra/blob/main/README.md",
+    "evidenceBasis": "作者公开使用 GPT-6.2 Astra 制作的民用六旋翼 Three.js 模型，包含可独立转动的桨叶、相机云台和中文说明文档。",
+    "modelAttribution": {
+      "topicId": "gpt-6-2",
+      "basis": "explicit-source",
+      "role": "A Three.js hexacopter teaching model"
+    },
+    "githubKind": "repository",
+    "stars": 1,
+    "metricsCheckedAt": "2026-11-19T12:47:31+00:00",
+    "mediaKind": "image"
   }
 ]

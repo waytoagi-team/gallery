@@ -1,0 +1,1001 @@
+{
+  "schemaVersion": 1,
+  "topicId": "fable-5-2",
+  "runId": "20261119T123925Z-5fc5ae6d",
+  "startedAt": "2026-11-19T12:39:25+00:00",
+  "finishedAt": "2026-11-19T12:39:27+00:00",
+  "since": "2026-11-17",
+  "status": "retrieved",
+  "sourcesAttempted": 6,
+  "sourcesSucceeded": 6,
+  "coverage": "partial",
+  "candidateCount": 70,
+  "reviewedNewCases": 0,
+  "limitations": [
+    "Successful retrieval does not prove exhaustive coverage or model attribution.",
+    "Search adapters inspect one bounded page per configured query; no complete-pagination claim.",
+    "Only GitHub and HN JSON searches currently emit candidate metadata; other snapshots require manual review.",
+    "Discovery does not change accepted data, metric freshness or the published refresh report."
+  ],
+  "sources": [
+    {
+      "key": "github-repositories-1",
+      "url": "https://api.github.com/search/repositories?q=%22Fable+5.2%22+pushed%3A%3E%3D2026-11-17&sort=updated&per_page=30",
+      "checkedAt": "2026-11-19T12:39:25+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "24",
+        "x-ratelimit-reset": "1795092024"
+      },
+      "finalUrl": "https://api.github.com/search/repositories?q=%22Fable+5.2%22+pushed%3A%3E%3D2026-11-17&sort=updated&per_page=30",
+      "bytes": 173758,
+      "file": "github-repositories-1.txt",
+      "sha256": "8deb25c32c4bc82403b3ec560bdaa50a6124246183220e372300883bedf06f25",
+      "ok": true,
+      "returned": 30,
+      "totalReported": 75,
+      "searchIncomplete": false,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "hn-1",
+      "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22Fable+5.2%22&hitsPerPage=30&numericFilters=created_at_i%3E%3D1794873600",
+      "checkedAt": "2026-11-19T12:39:25+00:00",
+      "status": 200,
+      "finalUrl": "https://hn.algolia.com/api/v1/search_by_date?query=%22Fable+5.2%22&hitsPerPage=30&numericFilters=created_at_i%3E%3D1794873600",
+      "bytes": 61693,
+      "file": "hn-1.txt",
+      "sha256": "9062fad65ad54c61c6e504ee7592b93a75f3d6ad0170ac7a909ff41ce003c58c",
+      "ok": true,
+      "returned": 30,
+      "totalReported": 65,
+      "pagesReported": 3,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "github-repositories-2",
+      "url": "https://api.github.com/search/repositories?q=%22fable5.2%22+pushed%3A%3E%3D2026-11-17&sort=updated&per_page=30",
+      "checkedAt": "2026-11-19T12:39:25+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "25",
+        "x-ratelimit-reset": "1795092024"
+      },
+      "finalUrl": "https://api.github.com/search/repositories?q=%22fable5.2%22+pushed%3A%3E%3D2026-11-17&sort=updated&per_page=30",
+      "bytes": 21797,
+      "file": "github-repositories-2.txt",
+      "sha256": "cacf59bfeb53bf757dc00480c577bb0a2bc1cfba0b45b278dcca7e7ef0cd0d0d",
+      "ok": true,
+      "returned": 4,
+      "totalReported": 4,
+      "searchIncomplete": false,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "hn-2",
+      "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22fable5.2%22&hitsPerPage=30&numericFilters=created_at_i%3E%3D1794873600",
+      "checkedAt": "2026-11-19T12:39:25+00:00",
+      "status": 200,
+      "finalUrl": "https://hn.algolia.com/api/v1/search_by_date?query=%22fable5.2%22&hitsPerPage=30&numericFilters=created_at_i%3E%3D1794873600",
+      "bytes": 3027,
+      "file": "hn-2.txt",
+      "sha256": "c1db469d2e3934a59f65215a04616f98c996504e87d29c5c5cd4cf79633d1edf",
+      "ok": true,
+      "returned": 1,
+      "totalReported": 1,
+      "pagesReported": 1,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "github-repositories-3",
+      "url": "https://api.github.com/search/repositories?q=%22fable-5-2%22+pushed%3A%3E%3D2026-11-17&sort=updated&per_page=30",
+      "checkedAt": "2026-11-19T12:39:25+00:00",
+      "status": 200,
+      "transport": "gh",
+      "rateLimit": {
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "23",
+        "x-ratelimit-reset": "1795092024"
+      },
+      "finalUrl": "https://api.github.com/search/repositories?q=%22fable-5-2%22+pushed%3A%3E%3D2026-11-17&sort=updated&per_page=30",
+      "bytes": 173615,
+      "file": "github-repositories-3.txt",
+      "sha256": "ccc6c5dba1ff26bce3647a1a6a68027bd3f9ef0b0d87bff5e5f08597e36549f0",
+      "ok": true,
+      "returned": 30,
+      "totalReported": 78,
+      "searchIncomplete": false,
+      "pagination": "first-page-only"
+    },
+    {
+      "key": "hn-3",
+      "url": "https://hn.algolia.com/api/v1/search_by_date?query=%22fable-5-2%22&hitsPerPage=30&numericFilters=created_at_i%3E%3D1794873600",
+      "checkedAt": "2026-11-19T12:39:25+00:00",
+      "status": 200,
+      "finalUrl": "https://hn.algolia.com/api/v1/search_by_date?query=%22fable-5-2%22&hitsPerPage=30&numericFilters=created_at_i%3E%3D1794873600",
+      "bytes": 8298,
+      "file": "hn-3.txt",
+      "sha256": "9a1d975c7ea2576771bb19bed5a6a8f09c26509ffbd3430d0b751d50eba74ba7",
+      "ok": true,
+      "returned": 4,
+      "totalReported": 4,
+      "pagesReported": 1,
+      "pagination": "first-page-only"
+    }
+  ],
+  "candidates": [
+    {
+      "sourceUrl": "https://github.com/DarinKorn1/Super-Paper-Mario-3DS-Demo",
+      "title": "DarinKorn1/Super-Paper-Mario-3DS-Demo",
+      "platform": "GitHub",
+      "date": "2026-11-13",
+      "sourceIdentity": "github.com/darinkorn1/super-paper-mario-3ds-demo",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/chomachomachoma/candyland_pwa",
+      "title": "chomachomachoma/candyland_pwa",
+      "platform": "GitHub",
+      "date": "2026-11-14",
+      "sourceIdentity": "github.com/chomachomachoma/candyland_pwa",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/HossamSalemOnline/fable-5.2-motion-design",
+      "title": "HossamSalemOnline/fable-5.2-motion-design",
+      "platform": "GitHub",
+      "date": "2026-11-19",
+      "sourceIdentity": "github.com/hossamsalemonline/fable-5.2-motion-design",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/rossinek/cold-boot",
+      "title": "rossinek/cold-boot",
+      "platform": "GitHub",
+      "date": "2026-11-12",
+      "sourceIdentity": "github.com/rossinek/cold-boot",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/yukhughkui/fable-games",
+      "title": "yukhughkui/fable-games",
+      "platform": "GitHub",
+      "date": "2026-11-16",
+      "sourceIdentity": "github.com/yukhughkui/fable-games",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/mitarthpathak/Blender-Fable-5.2",
+      "title": "mitarthpathak/Blender-Fable-5.2",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/mitarthpathak/blender-fable-5.2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/SuggarCoder/fable5.2test",
+      "title": "SuggarCoder/fable5.2test",
+      "platform": "GitHub",
+      "date": "2026-11-19",
+      "sourceIdentity": "github.com/suggarcoder/fable5.2test",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-2",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/ChrisHKAI/awesome-fable-5.2-videos",
+      "title": "ChrisHKAI/awesome-fable-5.2-videos",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/chrishkai/awesome-fable-5.2-videos",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/vadympetryshyn/effort-pilot",
+      "title": "vadympetryshyn/effort-pilot",
+      "platform": "GitHub",
+      "date": "2026-11-02",
+      "sourceIdentity": "github.com/vadympetryshyn/effort-pilot",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/StefanKnol/Last-Return",
+      "title": "StefanKnol/Last-Return",
+      "platform": "GitHub",
+      "date": "2026-11-14",
+      "sourceIdentity": "github.com/stefanknol/last-return",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/DBeben22/akai-explorer",
+      "title": "DBeben22/akai-explorer",
+      "platform": "GitHub",
+      "date": "2026-11-19",
+      "sourceIdentity": "github.com/dbeben22/akai-explorer",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/sigco3111/fable-5.2-potatobench-ko",
+      "title": "sigco3111/fable-5.2-potatobench-ko",
+      "platform": "GitHub",
+      "date": "2026-11-19",
+      "sourceIdentity": "github.com/sigco3111/fable-5.2-potatobench-ko",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/fengyiqicoder/awesome-fable-5.2",
+      "title": "fengyiqicoder/awesome-fable-5.2",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/fengyiqicoder/awesome-fable-5.2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/burnout293/Jungle-Loop",
+      "title": "burnout293/Jungle-Loop",
+      "platform": "GitHub",
+      "date": "2026-11-15",
+      "sourceIdentity": "github.com/burnout293/jungle-loop",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/TholeG/saltline-field-archive",
+      "title": "TholeG/saltline-field-archive",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/tholeg/saltline-field-archive",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/drew879/raptor-race-fable",
+      "title": "drew879/raptor-race-fable",
+      "platform": "GitHub",
+      "date": "2026-11-16",
+      "sourceIdentity": "github.com/drew879/raptor-race-fable",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/ZTaer/ai-game-analysis__saltline",
+      "title": "ZTaer/ai-game-analysis__saltline",
+      "platform": "GitHub",
+      "date": "2026-11-17",
+      "sourceIdentity": "github.com/ztaer/ai-game-analysis__saltline",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/carpentry-liu/awesome-astra-3d",
+      "title": "carpentry-liu/awesome-astra-3d",
+      "platform": "GitHub",
+      "date": "2026-09-06",
+      "sourceIdentity": "github.com/carpentry-liu/awesome-astra-3d",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/hahaliu1029/fable5.2demo",
+      "title": "hahaliu1029/fable5.2demo",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/hahaliu1029/fable5.2demo",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/ygx2378/awesome-fable-5-2-games",
+      "title": "ygx2378/awesome-fable-5-2-games",
+      "platform": "GitHub",
+      "date": "2026-11-12",
+      "sourceIdentity": "github.com/ygx2378/awesome-fable-5-2-games",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/ummydev/awesome-claude-fable-games",
+      "title": "ummydev/awesome-claude-fable-games",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/ummydev/awesome-claude-fable-games",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/CrazyRock114/pelican",
+      "title": "CrazyRock114/pelican",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/crazyrock114/pelican",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/GuoCoder/awesome-html-games",
+      "title": "GuoCoder/awesome-html-games",
+      "platform": "GitHub",
+      "date": "2026-11-14",
+      "sourceIdentity": "github.com/guocoder/awesome-html-games",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/chmillera-hub/spare-token-bug-fixes",
+      "title": "chmillera-hub/spare-token-bug-fixes",
+      "platform": "GitHub",
+      "date": "2026-11-10",
+      "sourceIdentity": "github.com/chmillera-hub/spare-token-bug-fixes",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Revenn0/starship-launch",
+      "title": "Revenn0/starship-launch",
+      "platform": "GitHub",
+      "date": "2026-11-19",
+      "sourceIdentity": "github.com/revenn0/starship-launch",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/sandbase-lab/awesome-fable-5-2",
+      "title": "sandbase-lab/awesome-fable-5-2",
+      "platform": "GitHub",
+      "date": "2026-11-11",
+      "sourceIdentity": "github.com/sandbase-lab/awesome-fable-5-2",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/gc-digital-net/fable-seo-prompts",
+      "title": "gc-digital-net/fable-seo-prompts",
+      "platform": "GitHub",
+      "date": "2026-11-18",
+      "sourceIdentity": "github.com/gc-digital-net/fable-seo-prompts",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Anteros79/cabin-config-fable",
+      "title": "Anteros79/cabin-config-fable",
+      "platform": "GitHub",
+      "date": "2026-11-15",
+      "sourceIdentity": "github.com/anteros79/cabin-config-fable",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1",
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/techkwon/gpt62-oneshot-bench",
+      "title": "techkwon/gpt62-oneshot-bench",
+      "platform": "GitHub",
+      "date": "2026-11-18",
+      "sourceIdentity": "github.com/techkwon/gpt62-oneshot-bench",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/Cryptopiy/Claude-Fable-5.2-Effort-Test-Open-World",
+      "title": "Cryptopiy/Claude-Fable-5.2-Effort-Test-Open-World",
+      "platform": "GitHub",
+      "date": "2026-11-18",
+      "sourceIdentity": "github.com/cryptopiy/claude-fable-5.2-effort-test-open-world",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50558559",
+      "title": "Two stealth models just appeared on the leaderboard, both ahead of Fable 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-19",
+      "sourceIdentity": "news.ycombinator.com/item?id=50558559",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50558513",
+      "title": "Gemini 4 Neon",
+      "platform": "Hacker News",
+      "date": "2026-11-19",
+      "sourceIdentity": "news.ycombinator.com/item?id=50558513",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50558501",
+      "title": "Anthropic prices initial public offering",
+      "platform": "Hacker News",
+      "date": "2026-11-19",
+      "sourceIdentity": "news.ycombinator.com/item?id=50558501",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50557360",
+      "title": "Anthropic prices initial public offering",
+      "platform": "Hacker News",
+      "date": "2026-11-19",
+      "sourceIdentity": "news.ycombinator.com/item?id=50557360",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50556863",
+      "title": "Gemini 4 Neon",
+      "platform": "Hacker News",
+      "date": "2026-11-19",
+      "sourceIdentity": "news.ycombinator.com/item?id=50556863",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50556691",
+      "title": "Gemini 4 Neon",
+      "platform": "Hacker News",
+      "date": "2026-11-19",
+      "sourceIdentity": "news.ycombinator.com/item?id=50556691",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50556534",
+      "title": "Show HN: Zpup – Zdog style 3D scenes in JSON, SVG from any angle",
+      "platform": "Hacker News",
+      "date": "2026-11-19",
+      "sourceIdentity": "news.ycombinator.com/item?id=50556534",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50556157",
+      "title": "Gemini 4 Neon",
+      "platform": "Hacker News",
+      "date": "2026-11-19",
+      "sourceIdentity": "news.ycombinator.com/item?id=50556157",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50555272",
+      "title": "Gemini 4 Neon",
+      "platform": "Hacker News",
+      "date": "2026-11-19",
+      "sourceIdentity": "news.ycombinator.com/item?id=50555272",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50555163",
+      "title": "Gemini 4 Neon looks like an Opus 5.5 competitor",
+      "platform": "Hacker News",
+      "date": "2026-11-19",
+      "sourceIdentity": "news.ycombinator.com/item?id=50555163",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50554659",
+      "title": "Fable: Written, painted and directed by Claude Fable 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-19",
+      "sourceIdentity": "news.ycombinator.com/item?id=50554659",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50554269",
+      "title": "Fable: Written, painted and directed by Claude Fable 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-19",
+      "sourceIdentity": "news.ycombinator.com/item?id=50554269",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50554192",
+      "title": "Gemini 4 Neon",
+      "platform": "Hacker News",
+      "date": "2026-11-19",
+      "sourceIdentity": "news.ycombinator.com/item?id=50554192",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50553924",
+      "title": "Gemini 4 Neon",
+      "platform": "Hacker News",
+      "date": "2026-11-18",
+      "sourceIdentity": "news.ycombinator.com/item?id=50553924",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50553896",
+      "title": "Gemini 4 Neon",
+      "platform": "Hacker News",
+      "date": "2026-11-18",
+      "sourceIdentity": "news.ycombinator.com/item?id=50553896",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50553168",
+      "title": "Gemini 4 Neon",
+      "platform": "Hacker News",
+      "date": "2026-11-18",
+      "sourceIdentity": "news.ycombinator.com/item?id=50553168",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50553152",
+      "title": "Show HN: Boo-Mas",
+      "platform": "Hacker News",
+      "date": "2026-11-18",
+      "sourceIdentity": "news.ycombinator.com/item?id=50553152",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50552756",
+      "title": "Gemini 4 Neon",
+      "platform": "Hacker News",
+      "date": "2026-11-18",
+      "sourceIdentity": "news.ycombinator.com/item?id=50552756",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50551922",
+      "title": "Seven new models at scalable price-performance",
+      "platform": "Hacker News",
+      "date": "2026-11-18",
+      "sourceIdentity": "news.ycombinator.com/item?id=50551922",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50551488",
+      "title": "SRE-1: 27B model for Production Investigations",
+      "platform": "Hacker News",
+      "date": "2026-11-18",
+      "sourceIdentity": "news.ycombinator.com/item?id=50551488",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50550897",
+      "title": "Why is Gemini 4 Carbon taking so long?",
+      "platform": "Hacker News",
+      "date": "2026-11-18",
+      "sourceIdentity": "news.ycombinator.com/item?id=50550897",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50550861",
+      "title": "GPT‑6.2 Astra and Sol",
+      "platform": "Hacker News",
+      "date": "2026-11-18",
+      "sourceIdentity": "news.ycombinator.com/item?id=50550861",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50550700",
+      "title": "Show HN: KradleBench – Multi-agent AI evals in Minecraft",
+      "platform": "Hacker News",
+      "date": "2026-11-18",
+      "sourceIdentity": "news.ycombinator.com/item?id=50550700",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50550078",
+      "title": "Fable 5.2 made a video explaining the DeepSeek Super-agent architecture",
+      "platform": "Hacker News",
+      "date": "2026-11-18",
+      "sourceIdentity": "news.ycombinator.com/item?id=50550078",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50549500",
+      "title": "KradleBench: Multi-agent AI evals in Minecraft",
+      "platform": "Hacker News",
+      "date": "2026-11-18",
+      "sourceIdentity": "news.ycombinator.com/item?id=50549500",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50549415",
+      "title": "Seven new models at scalable price-performance",
+      "platform": "Hacker News",
+      "date": "2026-11-18",
+      "sourceIdentity": "news.ycombinator.com/item?id=50549415",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50548720",
+      "title": "I built a swimmable underwater world in one 97 KB HTML file with Fable 5.2",
+      "platform": "Hacker News",
+      "date": "2026-11-18",
+      "sourceIdentity": "news.ycombinator.com/item?id=50548720",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50548317",
+      "title": "Show HN: Maxanti – A logic puzzle",
+      "platform": "Hacker News",
+      "date": "2026-11-18",
+      "sourceIdentity": "news.ycombinator.com/item?id=50548317",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50545577",
+      "title": "Why is Gemini 4 Carbon taking so long?",
+      "platform": "Hacker News",
+      "date": "2026-11-18",
+      "sourceIdentity": "news.ycombinator.com/item?id=50545577",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50545384",
+      "title": "Why is Gemini 4 Carbon taking so long?",
+      "platform": "Hacker News",
+      "date": "2026-11-18",
+      "sourceIdentity": "news.ycombinator.com/item?id=50545384",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-1"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/WZR0821/Codex-Menu-Meter",
+      "title": "WZR0821/Codex-Menu-Meter",
+      "platform": "GitHub",
+      "date": "2026-11-17",
+      "sourceIdentity": "github.com/wzr0821/codex-menu-meter",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/shvmm/dualboot-r36s-clone",
+      "title": "shvmm/dualboot-r36s-clone",
+      "platform": "GitHub",
+      "date": "2026-11-17",
+      "sourceIdentity": "github.com/shvmm/dualboot-r36s-clone",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/yinzhenqiang/JPgame",
+      "title": "yinzhenqiang/JPgame",
+      "platform": "GitHub",
+      "date": "2026-11-17",
+      "sourceIdentity": "github.com/yinzhenqiang/jpgame",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50537361",
+      "title": "GPT‑6.2 Astra and Sol",
+      "platform": "Hacker News",
+      "date": "2026-11-17",
+      "sourceIdentity": "news.ycombinator.com/item?id=50537361",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-2"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/AI-Terrarium/terrarium",
+      "title": "AI-Terrarium/terrarium",
+      "platform": "GitHub",
+      "date": "2026-11-14",
+      "sourceIdentity": "github.com/ai-terrarium/terrarium",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://github.com/mirzahusadzic/unified-model-router",
+      "title": "mirzahusadzic/unified-model-router",
+      "platform": "GitHub",
+      "date": "2026-10-18",
+      "sourceIdentity": "github.com/mirzahusadzic/unified-model-router",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "github-repositories-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50552548",
+      "title": "Gemini 4 Neon",
+      "platform": "Hacker News",
+      "date": "2026-11-18",
+      "sourceIdentity": "news.ycombinator.com/item?id=50552548",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50548777",
+      "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
+      "platform": "Hacker News",
+      "date": "2026-11-18",
+      "sourceIdentity": "news.ycombinator.com/item?id=50548777",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50535642",
+      "title": "GPT‑6.2 Astra and Sol",
+      "platform": "Hacker News",
+      "date": "2026-11-17",
+      "sourceIdentity": "news.ycombinator.com/item?id=50535642",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3"
+      ]
+    },
+    {
+      "sourceUrl": "https://news.ycombinator.com/item?id=50532109",
+      "title": "Claude Fable 5.2 vs. Opus 5.5: Same scores at almost 4x the cost",
+      "platform": "Hacker News",
+      "date": "2026-11-17",
+      "sourceIdentity": "news.ycombinator.com/item?id=50532109",
+      "topicId": "fable-5-2",
+      "status": "unreviewed",
+      "discoveredVia": [
+        "hn-3"
+      ]
+    }
+  ]
+}

@@ -143,6 +143,288 @@
         "imageSha256": "d016767f9681c9954d487bc3ec592f784a8e33fde8ace21d72ed1a6464e7a442",
         "checkedAt": "2026-11-18T07:50:24+00:00"
       }
+    },
+    {
+      "id": "gpt62-x-2123126087269957998",
+      "sourceUrl": "https://x.com/tobiadonadon_/status/2123126087269957998",
+      "title_en": "A same-prompt Blender modeling and motion test",
+      "poster": "assets/case-posters/gpt62-x-2123126087269957998.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "sourcePage": "https://x.com/tobiadonadon_/status/2123126087269957998",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2123126003409068032/img/7QjjkQ4dJYVmYOhu.jpg",
+        "sourceVideoUrl": "https://video.twimg.com/amplify_video/2123126003409068032/vid/avc1/1920x1080/mISepzGRvJhiZU1x.mp4?tag=29",
+        "sourceImageSha256": "c8c800294d7324cd9d6934b83746d5e84560a12f86642cb61e1eff1a37afecb0",
+        "width": 1200,
+        "height": 675,
+        "imageSha256": "c8c800294d7324cd9d6934b83746d5e84560a12f86642cb61e1eff1a37afecb0",
+        "method": "original-source-image-mirrored-verbatim",
+        "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+        "reviewStatus": "accepted",
+        "checkedAt": "2026-11-19T12:56:33+00:00"
+      }
+    },
+    {
+      "id": "gpt62-x-2123379979119444471",
+      "sourceUrl": "https://x.com/kinderlayer/status/2123379979119444471",
+      "title_en": "Side-by-side bear outputs from the same task",
+      "poster": "assets/case-posters/gpt62-x-2123379979119444471.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "sourcePage": "https://x.com/kinderlayer/status/2123379979119444471",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2123379901826797568/img/BLNeX7R0K8D0gozE.jpg",
+        "sourceVideoUrl": "https://video.twimg.com/amplify_video/2123379901826797568/vid/avc1/720x1280/ZR_l3W0dit6dZlL-.mp4?tag=29",
+        "sourceImageSha256": "923a86870019cb7bf9ff6669e1183a919d3d7d89cf76277c1638cdf6266c06ad",
+        "width": 540,
+        "height": 960,
+        "imageSha256": "7f1b9d960f6ad4d8c5f98c167b39cffb06d03b144da8a687781c64f5c2c588c7",
+        "method": "avfoundation-original-video-frame",
+        "relation": "Frame from the original creator video",
+        "sourceVideoSha256": "55f8452c59810a85a45d3be009146cba705246a839c8921d510f36be85a8cc03",
+        "frameSeconds": 6.0,
+        "requestedFrameSeconds": 5,
+        "reviewStatus": "accepted",
+        "checkedAt": "2026-11-19T12:56:33+00:00"
+      }
+    },
+    {
+      "id": "gpt62-x-2123066399543468501",
+      "sourceUrl": "https://x.com/Arina_tishina/status/2123066399543468501",
+      "title_en": "A character-heart animation for Alien Orbits",
+      "poster": "assets/case-posters/gpt62-x-2123066399543468501.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "sourcePage": "https://x.com/Arina_tishina/status/2123066399543468501",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2123066259374034944/img/GqLPAM-w2FSEms7W.jpg",
+        "sourceVideoUrl": "https://video.twimg.com/amplify_video/2123066259374034944/vid/avc1/1080x720/b6AFh6zI_ViDlnfy.mp4?tag=14",
+        "sourceImageSha256": "bcfadd68de0bd26457c7116107e9b31cdd2a29c62a524e810162dc5395666b12",
+        "width": 1080,
+        "height": 720,
+        "imageSha256": "bcfadd68de0bd26457c7116107e9b31cdd2a29c62a524e810162dc5395666b12",
+        "method": "original-source-image-mirrored-verbatim",
+        "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+        "reviewStatus": "accepted",
+        "checkedAt": "2026-11-19T12:56:33+00:00"
+      }
+    },
+    {
+      "id": "gpt62-x-2123389829438406999",
+      "sourceUrl": "https://x.com/argofowl/status/2123389829438406999",
+      "title_en": "Five chess games without tools",
+      "poster": "assets/case-posters/gpt62-x-2123389829438406999.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "sourcePage": "https://x.com/argofowl/status/2123389829438406999",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2123389747536207872/img/m_VUe3OTgDO7wb3t.jpg",
+        "sourceVideoUrl": "https://video.twimg.com/amplify_video/2123389747536207872/vid/avc1/1080x1350/V1_ovUgtqSTIJ5WW.mp4?tag=29",
+        "sourceImageSha256": "f2422d640187db52b79ef90ce5c2523adc3d88cd7352b01190fcdd6960bab9a5",
+        "width": 960,
+        "height": 1200,
+        "imageSha256": "f2422d640187db52b79ef90ce5c2523adc3d88cd7352b01190fcdd6960bab9a5",
+        "method": "original-source-image-mirrored-verbatim",
+        "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+        "reviewStatus": "accepted",
+        "checkedAt": "2026-11-19T12:56:33+00:00"
+      }
+    },
+    {
+      "id": "gpt62-x-2123339603923095701",
+      "sourceUrl": "https://x.com/GeekCatX/status/2123339603923095701",
+      "title_en": "Recreating a Three.js butterfly animation",
+      "poster": "assets/case-posters/gpt62-x-2123339603923095701.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "sourcePage": "https://x.com/GeekCatX/status/2123339603923095701",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2123338339831140352/img/5-JtrT7Gc4WpYGUW.jpg",
+        "sourceVideoUrl": "https://video.twimg.com/amplify_video/2123338339831140352/vid/avc1/1920x2160/r-Y6mj4TtBBoKmLF.mp4?tag=29",
+        "sourceImageSha256": "1c311d669df18ac228a49bd915626cfeb8ebd746f48295b64dee9d11b910d9a1",
+        "width": 853,
+        "height": 960,
+        "imageSha256": "b628e5ba48ce03d2e391fc6f0e6577090e7a9941f05a7f21ba136acfd688f694",
+        "method": "avfoundation-original-video-frame",
+        "relation": "Frame from the original creator video",
+        "sourceVideoSha256": "f8d05efa6dc9729b836f97c003f7db88802fb6d483d22209e0a3f47b87fab3fc",
+        "frameSeconds": 3.0,
+        "requestedFrameSeconds": 4,
+        "reviewStatus": "accepted",
+        "checkedAt": "2026-11-19T12:56:33+00:00"
+      }
+    },
+    {
+      "id": "gpt62-x-2122944014530085173",
+      "sourceUrl": "https://x.com/Rohit_115/status/2122944014530085173",
+      "title_en": "Iterating weapons and enemy interactions in a browser FPS",
+      "poster": "assets/case-posters/gpt62-x-2122944014530085173.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "sourcePage": "https://x.com/Rohit_115/status/2122944014530085173",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2122943287304871937/img/56nVHtsAp6AwTEep.jpg",
+        "sourceVideoUrl": "https://video.twimg.com/amplify_video/2122943287304871937/vid/avc1/1628x720/FKAPCPFYOuZV7vsN.mp4?tag=14",
+        "sourceImageSha256": "f230dc1240873757f297e0903ddb8dcbfc2db64083c8870e420a3961850feefa",
+        "width": 1200,
+        "height": 531,
+        "imageSha256": "f230dc1240873757f297e0903ddb8dcbfc2db64083c8870e420a3961850feefa",
+        "method": "original-source-image-mirrored-verbatim",
+        "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+        "reviewStatus": "accepted",
+        "checkedAt": "2026-11-19T12:56:33+00:00"
+      }
+    },
+    {
+      "id": "gpt62-x-2123125957020291310",
+      "sourceUrl": "https://x.com/suza_vfx/status/2123125957020291310",
+      "title_en": "An After Effects animation through an agent plugin",
+      "poster": "assets/case-posters/gpt62-x-2123125957020291310.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "sourcePage": "https://x.com/suza_vfx/status/2123125957020291310",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2123124625127489536/img/6cr-zVryaDV0yQqP.jpg",
+        "sourceVideoUrl": "https://video.twimg.com/amplify_video/2123124625127489536/vid/avc1/2160x2160/JfpdOKHK4tWKD7JC.mp4?tag=29",
+        "sourceImageSha256": "b6c6fe82f364e033d5dad56d371867199c3b2ed56cdddbbe5e935153376bdba5",
+        "width": 960,
+        "height": 960,
+        "imageSha256": "0bb476b3a9994b17404497feeb788ea8798aa2c94dc3710a969f59881f9bab7e",
+        "method": "avfoundation-original-video-frame",
+        "relation": "Frame from the original creator video",
+        "sourceVideoSha256": "f6442fc307209a047be28407e1ba4e59412a086b18055ec4e2532d3a0c81a917",
+        "frameSeconds": 36,
+        "requestedFrameSeconds": 35,
+        "reviewStatus": "accepted",
+        "checkedAt": "2026-11-19T12:56:33+00:00"
+      }
+    },
+    {
+      "id": "gpt62-x-2122755693191287009",
+      "sourceUrl": "https://x.com/emollick/status/2122755693191287009",
+      "title_en": "A space-elevator ride in Blender and Unity",
+      "poster": "assets/case-posters/gpt62-x-2122755693191287009.jpg",
+      "mediaKind": "video",
+      "posterEvidence": {
+        "sourcePage": "https://x.com/emollick/status/2122755693191287009",
+        "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2122754810742976512/img/-9hag7MtB478vmDC.jpg",
+        "sourceVideoUrl": "https://video.twimg.com/amplify_video/2122754810742976512/vid/avc1/1920x1080/xIvkSClNlmB43sUR.mp4?tag=29",
+        "sourceImageSha256": "fdf68c202927a6258e94610fccefb3d8b5cc9c05eb8bc6967a3f7a16921a548d",
+        "width": 1200,
+        "height": 675,
+        "imageSha256": "fdf68c202927a6258e94610fccefb3d8b5cc9c05eb8bc6967a3f7a16921a548d",
+        "method": "original-source-image-mirrored-verbatim",
+        "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+        "reviewStatus": "accepted",
+        "checkedAt": "2026-11-19T12:56:33+00:00"
+      }
+    },
+    {
+      "id": "gpt62-github-viktorkav-uno-com-escada",
+      "sourceUrl": "https://github.com/viktorkav/uno-com-escada",
+      "title_en": "A same-prompt Fiat Uno browser racing test",
+      "poster": "assets/case-posters/gpt62-github-viktorkav-uno-com-escada.jpg",
+      "mediaKind": "image",
+      "posterEvidence": {
+        "sourcePage": "https://github.com/viktorkav/uno-com-escada",
+        "sourceImageUrl": "https://raw.githubusercontent.com/viktorkav/uno-com-escada/main/.github/screenshots/astra-largada.jpg",
+        "width": 1600,
+        "height": 900,
+        "imageSha256": "75520056c18ae5cbe42b07e925cad82d764656165bbbf88b1bb2b4d337e14f72",
+        "method": "original-source-image-mirrored-verbatim",
+        "relation": "README screenshot of the GPT-6.2 Astra version",
+        "reviewStatus": "accepted",
+        "checkedAt": "2026-11-19T12:56:33+00:00"
+      }
+    },
+    {
+      "id": "gpt62-github-sam1983aing-ogive-watch-film",
+      "sourceUrl": "https://github.com/Sam1983Aing/ogive-watch-film",
+      "title_en": "Ogive: a self-assembling tourbillon film",
+      "poster": "assets/case-posters/gpt62-github-sam1983aing-ogive-watch-film.png",
+      "mediaKind": "image",
+      "posterEvidence": {
+        "sourcePage": "https://github.com/Sam1983Aing/ogive-watch-film",
+        "sourceImageUrl": "https://raw.githubusercontent.com/Sam1983Aing/ogive-watch-film/main/media/build.gif",
+        "sourceImageSha256": "b5b598b1851e0252cafe45bf29a5736d21058a21f259afc89149c9cea39090ee",
+        "width": 560,
+        "height": 315,
+        "imageSha256": "ea35cccaac36d8a3abd60c7b9cba4fd910bed05b4864d9c7c2c8b4c1b48060f8",
+        "method": "original-gif-frame-10",
+        "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+        "reviewStatus": "accepted",
+        "checkedAt": "2026-11-19T12:56:33+00:00"
+      }
+    },
+    {
+      "id": "gpt62-github-deathdadev-mossbound-giant",
+      "sourceUrl": "https://github.com/Deathdadev/mossbound-giant",
+      "title_en": "Mossbound Giant: a continuous code-drawn film",
+      "poster": "assets/case-posters/gpt62-github-deathdadev-mossbound-giant.jpg",
+      "mediaKind": "image",
+      "posterEvidence": {
+        "sourcePage": "https://github.com/Deathdadev/mossbound-giant",
+        "sourceImageUrl": "https://raw.githubusercontent.com/Deathdadev/mossbound-giant/main/verification/lighting.jpg",
+        "sourceImageSha256": "d3cf5b4943429bb30ae3048879cb5e1fd252ae68e1c49f075c68ce9e516b8f12",
+        "width": 1200,
+        "height": 585,
+        "imageSha256": "d3cf5b4943429bb30ae3048879cb5e1fd252ae68e1c49f075c68ce9e516b8f12",
+        "method": "original-source-image-mirrored-verbatim",
+        "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+        "reviewStatus": "accepted",
+        "checkedAt": "2026-11-19T12:56:33+00:00"
+      }
+    },
+    {
+      "id": "gpt62-github-anking8704-ai-bridge-contest-ep9",
+      "sourceUrl": "https://github.com/Anking8704/ai-bridge-contest-ep9",
+      "title_en": "Bridge-building solutions with local verification",
+      "poster": "assets/case-posters/gpt62-github-anking8704-ai-bridge-contest-ep9.jpg",
+      "mediaKind": "image",
+      "posterEvidence": {
+        "sourcePage": "https://github.com/Anking8704/ai-bridge-contest-ep9",
+        "sourceImageUrl": "https://raw.githubusercontent.com/Anking8704/ai-bridge-contest-ep9/main/images/level6-ship.png",
+        "sourceImageSha256": "9edd79b78c949e7993de9172b41ed26dddd88c3a0489f42133092703c3d72ea9",
+        "width": 1387,
+        "height": 762,
+        "imageSha256": "9edd79b78c949e7993de9172b41ed26dddd88c3a0489f42133092703c3d72ea9",
+        "method": "original-source-image-mirrored-verbatim",
+        "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+        "reviewStatus": "accepted",
+        "checkedAt": "2026-11-19T12:56:33+00:00"
+      }
+    },
+    {
+      "id": "gpt62-github-zht1235456-three-js-hexacopter-by-gpt-6-2-astra",
+      "sourceUrl": "https://github.com/ZHT1235456/Three-js-Hexacopter-by-GPT-6.2-Astra",
+      "title_en": "A Three.js hexacopter teaching model",
+      "poster": "assets/case-posters/gpt62-github-zht1235456-three-js-hexacopter-by-gpt-6-2-astra.png",
+      "mediaKind": "image",
+      "posterEvidence": {
+        "sourcePage": "https://github.com/ZHT1235456/Three-js-Hexacopter-by-GPT-6.2-Astra",
+        "sourceImageUrl": "https://raw.githubusercontent.com/ZHT1235456/Three-js-Hexacopter-by-GPT-6.2-Astra/main/docs/figures/hexacopter-views.png",
+        "sourceImageSha256": "58cf2fe7ecb638dd35c40f1db68811d550d7d73f7341d61f75a55d112259fb5b",
+        "width": 1560,
+        "height": 413,
+        "imageSha256": "58cf2fe7ecb638dd35c40f1db68811d550d7d73f7341d61f75a55d112259fb5b",
+        "method": "original-source-image-mirrored-verbatim",
+        "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+        "reviewStatus": "accepted",
+        "checkedAt": "2026-11-19T12:56:33+00:00"
+      }
+    },
+    {
+      "id": "gpt62-web-plotly-data-analytics",
+      "sourceUrl": "https://plotly.com/blog/gpt-6-2-astra-plotly-data-analytics-bench",
+      "title_en": "Plotly: a 43-question data-analysis test",
+      "poster": "assets/case-posters/gpt62-web-plotly-data-analytics.webp",
+      "mediaKind": "image",
+      "posterEvidence": {
+        "sourcePage": "https://plotly.com/blog/gpt-6-2-astra-plotly-data-analytics-bench",
+        "sourceImageUrl": "https://plotly.com/cms/img/ZHjesZBvENuhSKSH_gpt-6-2-astra-frontier.png?auto=compress&fm=webp",
+        "sourceImageSha256": "6d59187c3dff5fa15d86f6e7951e020deaec65cad67f2dd92a7e1a98797f9914",
+        "width": 1920,
+        "height": 1360,
+        "imageSha256": "6d59187c3dff5fa15d86f6e7951e020deaec65cad67f2dd92a7e1a98797f9914",
+        "method": "original-source-image-mirrored-verbatim",
+        "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+        "reviewStatus": "accepted",
+        "checkedAt": "2026-11-19T12:56:33+00:00"
+      }
     }
   ]
 }

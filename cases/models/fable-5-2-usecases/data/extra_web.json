@@ -60,7 +60,14 @@
       "topicId": "fable-5-2",
       "basis": "explicit-source",
       "role": "官方实验或合作方评测"
-    }
+    },
+    "resources": [
+      {
+        "label": "语音助手原型官方演示",
+        "label_en": "Official voice-assistant prototype video",
+        "url": "https://www.youtube.com/watch?v=vdYynH177h0"
+      }
+    ]
   },
   {
     "id": "fable52-robotics",
@@ -258,6 +265,84 @@
       "topicId": "fable-5-2",
       "basis": "explicit-source",
       "role": "API 强制防蒸馏前缀绑定引发的多轮兼容限制"
+    },
+    "mediaKind": "image"
+  },
+  {
+    "id": "fable52-web-rest-and-vest",
+    "title": "Rest & Vest：Unreal 游戏开发复盘",
+    "title_en": "Rest & Vest: an Unreal game-development postmortem",
+    "summary": "团队记录用 Fable 5.2 编写 Unreal C++、Blender 与音频脚本、测试和打包，人工负责指导、试玩和选音；概念图、图标与封面另用 OpenAI 工具，部分声音为外部录音。约 22 小时到提交为作者记录。",
+    "summary_en": "The team credits Fable 5.2 with Unreal C++, Blender/audio scripts, tests and packaging, while humans direct and review. OpenAI tools produce concepts, icons and cover art; some audio uses external recordings. The roughly 22-hour submission timeline is team-reported.",
+    "category": "games",
+    "platform": "Web",
+    "sourceUrl": "https://overcapacity-studios.itch.io/rest-and-vest",
+    "author": "Overcapacity Studios",
+    "date": "2026-11-16",
+    "evidenceType": "演示",
+    "checkedAt": "2026-11-19T12:56:33+00:00",
+    "evidenceUrl": "https://overcapacity-studios.itch.io/rest-and-vest/devlog/1781042/how-rest-vest-was-built-from-first-prompt-to-submission-in-22-hours",
+    "evidenceBasis": "已读取作者完整开发日志，明确 Fable 5.2、OpenAI 工具与人工职责；首提交后仍持续修复。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "22 小时从首行提示到完赛 GameJam 提交"
+    },
+    "mediaKind": "video",
+    "resources": [
+      {
+        "label": "22 小时开发日志原文",
+        "label_en": "22-hour itch.io devlog",
+        "url": "https://overcapacity-studios.itch.io/rest-and-vest/devlog/1781042/how-rest-vest-was-built-from-first-prompt-to-submission-in-22-hours"
+      },
+      {
+        "label": "YouTube 实机演示（RAMDzAPzL9M）",
+        "label_en": "Gameplay video (YouTube)",
+        "url": "https://www.youtube.com/watch?v=RAMDzAPzL9M"
+      }
+    ]
+  },
+  {
+    "id": "fable52-web-mecagent-cad",
+    "title": "MecAgent：在 SOLIDWORKS 建模与出图",
+    "title_en": "MecAgent: modeling and drawings in SOLIDWORKS",
+    "summary": "MecAgent 的工程文章介绍将 Fable 5.2 接入 CAD 工具，演示文本建模和从模型生成工程图。官方硬件基准与自家 CAD 演示分别呈现，不将基准成绩当作该流程的实测结果。",
+    "summary_en": "MecAgent describes connecting Fable 5.2 to CAD tools for text-to-CAD and drawing generation in SOLIDWORKS. Its demonstrations are distinguished from vendor hardware benchmarks.",
+    "category": "3d",
+    "platform": "Web",
+    "sourceUrl": "https://mecagent.com/blog/claude-fable-5-2-for-cad",
+    "author": "Alexandre Senet (MecAgent)",
+    "date": "2026-11-16",
+    "evidenceType": "集成",
+    "checkedAt": "2026-11-19T12:46:52+00:00",
+    "evidenceUrl": "https://mecagent.com/blog/claude-fable-5-2-for-cad",
+    "evidenceBasis": "已完整抓取并核对原文正文/日志数据与发布时间，明确讨论 Claude Fable 5.2 实测结果、成本或工作流边界。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "SOLIDWORKS 工业 CAD 实测与 BenchCAD 2.1 解读"
+    },
+    "mediaKind": "image"
+  },
+  {
+    "id": "fable52-web-metergraph",
+    "title": "Metergraph：五类任务的质量、成本与时延测试",
+    "title_en": "Metergraph: five-workload quality, cost and latency test",
+    "summary": "Metergraph 作者公开抽取、匹配、研究、设计和编程五类任务结果，报告 Fable 5.2 的设计得分提升，同时成本与时延增加。结论限于其测试集和运行条件。",
+    "summary_en": "Metergraph publishes extraction, matching, research, design and coding results, reporting improved design scores alongside higher cost and latency for Fable 5.2 within its test setup.",
+    "category": "coding",
+    "platform": "Web",
+    "sourceUrl": "https://www.metergraph.dev/blog/release-radar/2026-11/",
+    "author": "Vasiliy Radostev (Metergraph)",
+    "date": "2026-11-11",
+    "evidenceType": "评测",
+    "checkedAt": "2026-11-19T12:46:52+00:00",
+    "evidenceUrl": "https://www.metergraph.dev/blog/release-radar/2026-11/",
+    "evidenceBasis": "已完整抓取并核对原文正文/日志数据与发布时间，明确讨论 Claude Fable 5.2 实测结果、成本或工作流边界。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "五类工作负载横向质量/费用/延迟测试"
     },
     "mediaKind": "image"
   }
