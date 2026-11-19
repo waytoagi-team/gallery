@@ -10235,5 +10235,141 @@
     "url": "https://github.com/Kimeur/duology"
    }
   ]
+ },
+ {
+  "id": "opus55-reddit-1xxi29c",
+  "title": "水面着色器重复生成的失败反馈",
+  "title_en": "A failed attempt to regenerate a water shader",
+  "summary": "用户记录重新生成水面着色器时反复出现质量或运行问题。没有可复现材料，不能据此认定后台模型被降级。",
+  "summary_en": "A user reports repeated quality or runtime failures when regenerating a water shader. No reproducible artifacts establish a backend model change.",
+  "category": "coding",
+  "platform": "Reddit",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xxi29c/wtf_happened_to_opus_55/",
+  "author": "WhereIsWebb",
+  "date": "2026-11-16",
+  "evidenceType": "限制",
+  "checkedAt": "2026-11-19T12:49:49+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xxi29c/wtf_happened_to_opus_55/",
+  "evidenceBasis": "用户记录重新生成水面着色器时反复出现质量或运行问题。没有可复现材料，不能据此认定后台模型被降级。",
+  "modelAttribution": {
+   "topicId": "opus-5-5",
+   "basis": "explicit-source",
+   "role": "A failed attempt to regenerate a water shader"
+  },
+  "comments": 124,
+  "metricsCheckedAt": "2026-11-19T12:49:49+00:00"
+ },
+ {
+  "id": "opus55-reddit-1xxsuug",
+  "title": "City of Gladiators：角斗士经营游戏",
+  "title_en": "City of Gladiators: a management game",
+  "summary": "作者用 Opus 5.5 实现 React/PixiJS 前端、战斗模拟、角色 AI 与后端集成，自己负责游戏设计和反馈，并发布浏览器体验页。",
+  "summary_en": "The creator credits Opus 5.5 with React/PixiJS, combat simulation, fighter AI and backend integration while retaining human game direction, and links a playable build.",
+  "category": "games",
+  "platform": "Reddit",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xxsuug/i_built_a_roman_gladiator_management_game_with/",
+  "author": "StarDrifterG",
+  "date": "2026-11-16",
+  "evidenceType": "演示",
+  "checkedAt": "2026-11-19T12:49:49+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xxsuug/i_built_a_roman_gladiator_management_game_with/",
+  "evidenceBasis": "作者用 Opus 5.5 实现 React/PixiJS 前端、战斗模拟、角色 AI 与后端集成，自己负责游戏设计和反馈，并发布浏览器体验页。",
+  "modelAttribution": {
+   "topicId": "opus-5-5",
+   "basis": "explicit-source",
+   "role": "City of Gladiators: a management game"
+  },
+  "comments": 9,
+  "metricsCheckedAt": "2026-11-19T12:49:49+00:00",
+  "resources": [
+   {
+    "label": "作者关联作品",
+    "label_en": "Creator-linked project",
+    "url": "https://stardrifterg.itch.io/city-of-gladiators"
+   }
+  ],
+  "mediaKind": "video"
+ },
+ {
+  "id": "opus55-reddit-1xzksnb",
+  "title": "六模型制作 GTA 历史代码短片",
+  "title_en": "Six models make a GTA-history motion film",
+  "summary": "作者对六个模型使用同一短片提示，发布同步对照播放器。计费为日志折算，运行并发条件不同；GPT-6.2 Astra 还使用了生图工具，未满足原始零素材约束。",
+  "summary_en": "The author publishes synchronized films from six models using one prompt. Costs are log-based estimates and concurrency differs; GPT-6.2 Astra also used an image generator despite the no-assets constraint.",
+  "category": "video",
+  "platform": "Reddit",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xzksnb/fable_52_vs_opus_55_in_claude_code_same_oneline/",
+  "author": "cosmintrica",
+  "date": "2026-11-18",
+  "evidenceType": "评测",
+  "checkedAt": "2026-11-19T12:49:49+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xzksnb/fable_52_vs_opus_55_in_claude_code_same_oneline/",
+  "evidenceBasis": "作者对六个模型使用同一短片提示，发布同步对照播放器。计费为日志折算，运行并发条件不同；GPT-6.2 Astra 还使用了生图工具，未满足原始零素材约束。",
+  "modelAttribution": {
+   "topicId": "opus-5-5",
+   "basis": "explicit-source",
+   "role": "Six models make a GTA-history motion film"
+  },
+  "comments": 6,
+  "metricsCheckedAt": "2026-11-19T12:49:49+00:00",
+  "resources": [
+   {
+    "label": "作者关联作品",
+    "label_en": "Creator-linked project",
+    "url": "https://gta-ai-showdown.vercel.app"
+   },
+   {
+    "label": "作者关联作品",
+    "label_en": "Creator-linked project",
+    "url": "https://gta-ai-showdown.vercel.app"
+   }
+  ],
+  "mediaKind": "video"
+ },
+ {
+  "id": "opus55-reddit-1xzwzlv",
+  "title": "Berry Wine：浏览器中的 Windows 游戏实验",
+  "title_en": "Berry Wine: running Windows games in the browser",
+  "summary": "作者用 Opus 5.5 处理产品与架构工作，另用 Codex Sol 6.1 在远程机器测试游戏程序，公开浏览器体验与仓库。",
+  "summary_en": "The creator uses Opus 5.5 for product and architecture work and Codex Sol 6.1 for remote testing of game executables, linking a browser demo and repository.",
+  "category": "coding",
+  "platform": "Reddit",
+  "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xzwzlv/made_x86_windows_emulator_which_runs_age_of/",
+  "author": "vgrichina",
+  "date": "2026-11-19",
+  "evidenceType": "演示",
+  "checkedAt": "2026-11-19T12:49:49+00:00",
+  "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xzwzlv/made_x86_windows_emulator_which_runs_age_of/",
+  "evidenceBasis": "作者用 Opus 5.5 处理产品与架构工作，另用 Codex Sol 6.1 在远程机器测试游戏程序，公开浏览器体验与仓库。",
+  "modelAttribution": {
+   "topicId": "opus-5-5",
+   "basis": "explicit-source",
+   "role": "Berry Wine: running Windows games in the browser"
+  },
+  "comments": 2,
+  "metricsCheckedAt": "2026-11-19T12:49:49+00:00",
+  "resources": [
+   {
+    "label": "作者关联作品",
+    "label_en": "Creator-linked project",
+    "url": "https://berrry.wine"
+   },
+   {
+    "label": "作者关联作品",
+    "label_en": "Creator-linked project",
+    "url": "https://berrry.wine"
+   },
+   {
+    "label": "作者关联作品",
+    "label_en": "Creator-linked project",
+    "url": "https://github.com/vgrichina/berrry-wine"
+   },
+   {
+    "label": "作者关联作品",
+    "label_en": "Creator-linked project",
+    "url": "https://github.com/vgrichina/berrry-wine"
+   }
+  ],
+  "mediaKind": "video"
  }
 ]

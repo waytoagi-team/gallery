@@ -1,49 +1,130 @@
 {
-  "refreshedAt": "2026-11-13T02:25:00+00:00",
-  "scope": {
-    "zh": "X 站内多关键词/多语言检索、GitHub/HN 跨页检索、Reddit/B 站/YouTube 与工程评测博客补充（部分覆盖）",
-    "en": "X multi-query/multilingual search, GitHub/HN pagination, Reddit/Bilibili/YouTube & engineering blogs (partial coverage)"
+ "refreshedAt": "2026-11-19T12:56:50+00:00",
+ "scope": {
+  "key": "multisource-partial",
+  "zh": "多来源发现、原帖审核与互动数据更新（部分覆盖）",
+  "en": "Multi-source discovery, source review and metrics (partial coverage)"
+ },
+ "status": "partial-coverage",
+ "lastFullRefreshAt": null,
+ "lastMultiSourceRefreshAt": "2026-11-19T12:56:50+00:00",
+ "previousReport": "data/refresh_history/2026-11-19-before-refresh.json",
+ "previousCaseCount": 189,
+ "caseCount": 270,
+ "reviewedNewExtras": 81,
+ "newCasesByPlatform": {
+  "X": 41,
+  "GitHub": 21,
+  "Hacker News": 1,
+  "Web": 3,
+  "Reddit": 6,
+  "Bilibili": 5,
+  "YouTube": 4
+ },
+ "coverage": {
+  "since": "2026-11-17",
+  "configuredSourcesAttempted": 6,
+  "configuredSourcesSucceeded": 6,
+  "configuredDiscoveryCandidates": 70,
+  "supplementalCandidates": 977,
+  "reviewedAccepted": 81,
+  "partial": true,
+  "backfilled": 52
+ },
+ "metrics": {
+  "refreshedAt": "2026-11-19T12:39:53+00:00",
+  "x": {
+   "attempted": 176,
+   "succeeded": 175
   },
-  "status": "partial-coverage",
-  "lastFullRefreshAt": null,
-  "lastMultiSourceRefreshAt": "2026-11-13T02:25:00+00:00",
-  "previousCaseCount": 110,
-  "caseCount": 189,
-  "reviewedNewExtras": 79,
-  "newCasesByPlatform": {
-    "X": 48,
-    "GitHub": 8,
-    "Hacker News": 2,
-    "Reddit": 5,
-    "Bilibili": 5,
-    "YouTube": 7,
-    "Web": 4
+  "github": {
+   "attempted": 39,
+   "succeeded": 37,
+   "changed": 5,
+   "byKind": {
+    "repository": {
+     "attempted": 34,
+     "succeeded": 32
+    },
+    "pull_request": {
+     "attempted": 1,
+     "succeeded": 1
+    },
+    "issue": {
+     "attempted": 4,
+     "succeeded": 4
+    }
+   }
   },
-  "coverage": {
-    "atlasCollectRequests": 6,
-    "atlasCollectSucceeded": 6,
-    "githubHnQueries": 15,
-    "githubHnSucceeded": 15,
-    "xapiRequests": 21,
-    "xapiSucceeded": 17,
-    "arcticShiftRedditRequests": 5,
-    "arcticShiftRedditSucceeded": 1,
-    "fxtwitterVerified": 85,
-    "githubVerified": 14,
-    "liveDemoChecks": 9,
-    "webArticlesVerified": 6,
-    "partial": true
-  },
-  "limitations": [
-    "Partial public-web coverage; no exhaustive-internet claim.",
-    "Arctic Shift Reddit queries returned HTTP 422 on 4 of 5 subreddits (ClaudeAI, ClaudeCode, LocalLLaMA, singularity); only r/claude succeeded.",
-    "XAPI search returned HTTP 404 on 4 empty/thread queries; FXTwitter metrics failed on 1 deleted post (fable52-sirbost-712653) and GitHub API returned 404 on 1 repo (fable52-gh-jiaaqiliu-xuanji-x1), both retaining prior metrics.",
-    "Model identity, performance, cost, token volume and scientific claims remain author-reported.",
-    "Only source-linked images or extracted source video frames are used; no generic illustrations for sources without images."
+  "failed": [
+   {
+    "key": "x:2120028393131712653",
+    "url": "https://api.fxtwitter.com/Sirbost/status/2120028393131712653",
+    "checkedAt": "2026-11-19T12:39:28+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+   },
+   {
+    "key": "github:jiaaqiliu/xuanji-x1",
+    "url": "https://api.github.com/repos/jiaaqiliu/xuanji-x1",
+    "checkedAt": "2026-11-19T12:39:49+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: GitHub API request failed",
+    "status": 404,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4968",
+     "x-ratelimit-reset": "1795094716"
+    }
+   },
+   {
+    "key": "github:prokopiy8247/fable5-2-effort-test-gta",
+    "url": "https://api.github.com/repos/prokopiy8247/fable5-2-effort-test-gta",
+    "checkedAt": "2026-11-19T12:39:50+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: GitHub API request failed",
+    "status": 404,
+    "transport": "gh",
+    "rateLimit": {
+     "x-ratelimit-limit": "5000",
+     "x-ratelimit-remaining": "4962",
+     "x-ratelimit-reset": "1795094716"
+    }
+   }
   ],
-  "posters": {
-    "before": 94,
-    "localVerified": 160,
-    "missing": 29
-  }
+  "note": "Counts cover the refresh input, including the unpublished Nov18 staging batch for Fable 5.2; excluded drafts were subsequently removed. New Nov19 records carry their own source-check timestamps."
+ },
+ "posters": {
+  "total": 226,
+  "local": 226,
+  "missing": 44
+ },
+ "limitations": [
+  "本次为有界多来源检索与优先审核，不代表全网穷尽覆盖；未审核候选单独排队。",
+  "X 部分搜索分页返回 404；Bilibili 本轮补充搜索返回 412，未绕过访问限制。已复审 Nov18 的可核实视频证据。",
+  "Reddit 存档部分请求在重试后仍返回 422/429 或网络错误，且可能返回时间窗外记录；保留原发布时间并标记补录。",
+  "原作者公布的耗时、费用、质量和效果未独立复现；视频描述、附件与抽帧不等于完整观看全部视频。",
+  "历史指标读取失败或 GitHub 对象身份不匹配时保留旧值和原时间戳；无有效新结果不归零。"
+ ],
+ "fetchReceiptFile": "data/refresh_history/2026-11-19-fetches.json",
+ "reviewFile": "reports/2026-11-19-review.json",
+ "processLog": "reports/UPDATE-2026-11-19.md",
+ "validation": {
+  "status": "passed",
+  "checkedAt": "2026-11-19T12:58:26+00:00",
+  "pythonTests": 45,
+  "rankingTests": 3,
+  "browserViews": 20,
+  "allConfiguredTopics": true,
+  "historicalIdsPreserved": true,
+  "checks": [
+   "all-topic build",
+   "all-topic data validation",
+   "desktop/mobile zh/en and file preview",
+   "all local posters decoded",
+   "historical identity integrity"
+  ]
+ }
 }

@@ -1,0 +1,2256 @@
+{
+ "checkedAt": "2026-11-19T12:56:50+00:00",
+ "statusCounts": {
+  "pending-editorial-review": 309,
+  "accepted": 12
+ },
+ "candidates": [
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/3641397194-wq/gpt6-Astra",
+   "author": "3641397194-wq",
+   "date": "2026-08-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/viktorkav/uno-com-escada",
+   "author": "viktorkav",
+   "date": "2026-11-16",
+   "status": "accepted"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Token173/doc-token173-api",
+   "author": "Token173",
+   "date": "2026-05-27",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/carpentry-liu/awesome-astra-3d",
+   "author": "carpentry-liu",
+   "date": "2026-09-06",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/ygx2378/awesome-fable-5-2-games",
+   "author": "ygx2378",
+   "date": "2026-11-12",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/AI-Terrarium/awesome-gpt-6.2",
+   "author": "AI-Terrarium",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/tokenhunter475/awesome-chatgpt-plus-guide",
+   "author": "tokenhunter475",
+   "date": "2026-08-25",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/RaNDoM6913/claude-code-superkit",
+   "author": "RaNDoM6913",
+   "date": "2026-03-23",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Sam1983Aing/ogive-watch-film",
+   "author": "Sam1983Aing",
+   "date": "2026-11-19",
+   "status": "accepted"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/avenoxai/astra-notlari",
+   "author": "avenoxai",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/machug/spec-debate",
+   "author": "machug",
+   "date": "2026-03-26",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/AbhishekBarali/tryhard",
+   "author": "AbhishekBarali",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Callas157/arch-install",
+   "author": "Callas157",
+   "date": "2026-11-06",
+   "status": "accepted"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/cheercheung/awesome-gpt-6-2-astra-guide-and-use-cases",
+   "author": "cheercheung",
+   "date": "2026-11-03",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/cheercheung/awesome-gpt-6-2-sol-use-cases",
+   "author": "cheercheung",
+   "date": "2026-11-09",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/sandbase-lab/awesome-gpt-6-2-astra",
+   "author": "sandbase-lab",
+   "date": "2026-11-12",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/MiaAI-Lab/GPT-6.2-Sol-100-HTML-Files",
+   "author": "MiaAI-Lab",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/PankajKumardev/singularity-black-hole",
+   "author": "PankajKumardev",
+   "date": "2026-11-08",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/SnapSnap-LLC/awesome-gpt-6-2-sol-videos",
+   "author": "SnapSnap-LLC",
+   "date": "2026-11-11",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Token173/2026-Token173-Claude-ChatGPT-Grok-Gemini-AI-API",
+   "author": "Token173",
+   "date": "2026-06-04",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Token173/gpt-api",
+   "author": "Token173",
+   "date": "2026-05-30",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/ZHT1235456/Three-js-Hexacopter-by-GPT-6.2-Astra",
+   "author": "ZHT1235456",
+   "date": "2026-11-18",
+   "status": "accepted"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/alanliuc-a11y/codex-model-router-gpt-6-1",
+   "author": "alanliuc-a11y",
+   "date": "2026-08-31",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/gpt-6-2/ChatGPT-6.2-Astra-Sol-Free",
+   "author": "gpt-6-2",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/hideewsj-maker/awesome-gpt-6-2-videos",
+   "author": "hideewsj-maker",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/icesixgod/prompt-coach",
+   "author": "icesixgod",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/zan72122/astra-261118",
+   "author": "zan72122",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/47thtechcorner/RayCodes_GPT6_Astra",
+   "author": "47thtechcorner",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/AG-0814/261014_LLM-Oneshot-Test",
+   "author": "AG-0814",
+   "date": "2026-10-14",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/AdamWen95/gpt6.2-astra-demos",
+   "author": "AdamWen95",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Anking8704/ai-bridge-contest-ep9",
+   "author": "Anking8704",
+   "date": "2026-11-11",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/ApexDorkon/FDE-challenge",
+   "author": "ApexDorkon",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/CisnerosCodes/astra-range",
+   "author": "CisnerosCodes",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/DannyMac180/legible",
+   "author": "DannyMac180",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Deathdadev/mossbound-giant",
+   "author": "Deathdadev",
+   "date": "2026-11-18",
+   "status": "accepted"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/KG-NINJA/openai-to-z-gpt6.2",
+   "author": "KG-NINJA",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/KhalidAbdelaty/gpt-6-2-chart-analysis-api",
+   "author": "KhalidAbdelaty",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/KostiKoNeuro/astra-6-2-solo",
+   "author": "KostiKoNeuro",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Mahgal/gpt-6-2-quickstart",
+   "author": "Mahgal",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Maynor996/gpt-6-2-astra-has-just",
+   "author": "Maynor996",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Maynor996/model-listing-gpt-6-2-astra",
+   "author": "Maynor996",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Maynor996/openai-claude-flagship-leak",
+   "author": "Maynor996",
+   "date": "2026-11-02",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/MiaAI-Lab/GPT-6.2-Astra-100-HTML-Files",
+   "author": "MiaAI-Lab",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Mic-Fundraiser/LeanBrain",
+   "author": "Mic-Fundraiser",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/MichaelCao1/vesper-ward",
+   "author": "MichaelCao1",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Pengcheng-Wang/autosota-frontier-cowork-rsi",
+   "author": "Pengcheng-Wang",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/PoyoAPI/GPT-6.2-API",
+   "author": "PoyoAPI",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Recursive-Self-Improving/qingdao-badaguan-threejs-gpt-6.2-astra-ultra-codex",
+   "author": "Recursive-Self-Improving",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Recursive-Self-Improving/qingdao-badaguan-threejs-gpt-6.2-sol-ultra-codex",
+   "author": "Recursive-Self-Improving",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Small-tailqwq/codex-agents-lab",
+   "author": "Small-tailqwq",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/StarrySea1412/la-gpt-6.2-sol",
+   "author": "StarrySea1412",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/TardisBooo/antigravity-codex-orchestrator",
+   "author": "TardisBooo",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Thweki/operation-fracture",
+   "author": "Thweki",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Thweki/tidepost",
+   "author": "Thweki",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Thweki/undertow-fm",
+   "author": "Thweki",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Token173/Token173.github.io",
+   "author": "Token173",
+   "date": "2026-11-09",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Yari-tuber/gpt62-vs-opus55-tests",
+   "author": "Yari-tuber",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/ZHT1235456/Three-js-USV-by-GPT-6.2-Astra",
+   "author": "ZHT1235456",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/beril-dotcom/gpt6-2",
+   "author": "beril-dotcom",
+   "date": "2026-11-11",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/bransonnberger/gpt-6-2-astra-has-just",
+   "author": "bransonnberger",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/bransonnberger/model-listing-gpt-6-2-astra",
+   "author": "bransonnberger",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/catrouter-net/gpt-5.4",
+   "author": "catrouter-net",
+   "date": "2026-11-08",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/catrouter-net/gpt-5.5",
+   "author": "catrouter-net",
+   "date": "2026-11-08",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/catrouter-net/gpt-5.6-sol",
+   "author": "catrouter-net",
+   "date": "2026-11-08",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/catrouter-net/gpt-5.6-terra",
+   "author": "catrouter-net",
+   "date": "2026-11-08",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/catrouter-net/gpt-6-astra",
+   "author": "catrouter-net",
+   "date": "2026-11-08",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/catrouter-net/gpt-6-sol",
+   "author": "catrouter-net",
+   "date": "2026-11-08",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/catrouter-net/gpt-6.1-sol",
+   "author": "catrouter-net",
+   "date": "2026-11-08",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/catrouter-net/gpt-6.2-astra",
+   "author": "catrouter-net",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/catrouter-net/gpt-6.2-sol",
+   "author": "catrouter-net",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/chan-yuu/forest-combat-gpt-6-2-sol-ultra",
+   "author": "chan-yuu",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/chan-yuu/thornbound-gpt-6.2-astra-ultra",
+   "author": "chan-yuu",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/chillqoder/GPT-6.2-Sol",
+   "author": "chillqoder",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/chloemflowers/gpt-6-2-astra-has-just",
+   "author": "chloemflowers",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/chloemflowers/model-listing-gpt-6-2-astra",
+   "author": "chloemflowers",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/ckckck/gpt-6-2-astra-sol-white-bg",
+   "author": "ckckck",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/davidbasilefilho/gpt-6.2-astra-test",
+   "author": "davidbasilefilho",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/dbc-hbin/omp-openai-codex-500k-extension",
+   "author": "dbc-hbin",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/fmcpayvn/nov17-world-news-image",
+   "author": "fmcpayvn",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/fmcpayvn/nov18-world-news-image",
+   "author": "fmcpayvn",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/fornhere/gpt-6-2-astra-benchmark",
+   "author": "fornhere",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/inematds/gpt62-rende-mais",
+   "author": "inematds",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/jizhi0v0/gpt-6-2-coding-benchmarks",
+   "author": "jizhi0v0",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/lsy041015/model-routing-codex",
+   "author": "lsy041015",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/momentinyourhands-tech/-GPT-6.2-Astra",
+   "author": "momentinyourhands-tech",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/rajoraaryan296-create/gpt-6-2-astra-has-just",
+   "author": "rajoraaryan296-create",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/rajoraaryan296-create/model-listing-gpt-6-2-astra",
+   "author": "rajoraaryan296-create",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/sandbase-lab/awesome-gpt-6-2-sol",
+   "author": "sandbase-lab",
+   "date": "2026-11-12",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/taswar/GPT-6.2-Astra-vs-Sol-CSharp-Sample",
+   "author": "taswar",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/teobanica/008",
+   "author": "teobanica",
+   "date": "2026-11-15",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/thestringtheories/Santa-Game",
+   "author": "thestringtheories",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/unimpl/pelican-compare",
+   "author": "unimpl",
+   "date": "2026-09-26",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/xect202y-cmd/voyager-astra-3d",
+   "author": "xect202y-cmd",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/zqingdut/gpt6.2-preview",
+   "author": "zqingdut",
+   "date": "2026-11-08",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50382683",
+   "author": "I_am_tiberius",
+   "date": "2026-11-05",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50443928",
+   "author": "theanonymousone",
+   "date": "2026-11-10",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50535230",
+   "author": "jasondavies",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50535263",
+   "author": "bigwheels",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50535280",
+   "author": "dvaplima",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50535338",
+   "author": "christianqchung",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50535502",
+   "author": "Topfi",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50535557",
+   "author": "zb3",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50535588",
+   "author": "minimaxir",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50535642",
+   "author": "onlyrealcuzzo",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50535688",
+   "author": "theanonymousone",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50535742",
+   "author": "simonw",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50535764",
+   "author": "gpugreg",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50535765",
+   "author": "claiir",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50535783",
+   "author": "waximabbax",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50535825",
+   "author": "specked-citrus",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50535959",
+   "author": "astlouis44",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50536176",
+   "author": "waximabbax",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50536210",
+   "author": "PupperJuggly",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50536288",
+   "author": "seizethecheese",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50536410",
+   "author": "7777777phil",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50536438",
+   "author": "rzk",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50536590",
+   "author": "theanonymousone",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50536704",
+   "author": "scilro",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50536713",
+   "author": "rsaryev1997",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50536739",
+   "author": "zergrush",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50536753",
+   "author": "BrokenCogs",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50536944",
+   "author": "vtail",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50537117",
+   "author": "mlmonkey",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50537209",
+   "author": "privacyishuman",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50537217",
+   "author": "prmoustache",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50537363",
+   "author": "theanonymousone",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50537602",
+   "author": "thefourthchime",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50537605",
+   "author": "Imustaskforhelp",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50537787",
+   "author": "XCSme",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50539264",
+   "author": "chriddyp",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50539299",
+   "author": "acossta",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50539331",
+   "author": "rednb",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50539448",
+   "author": "Michelangelo11",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50539476",
+   "author": "Topfi",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50539688",
+   "author": "kardassnp",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50539802",
+   "author": "LebToki",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50547158",
+   "author": "arbayi",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50550694",
+   "author": "theanonymousone",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50550861",
+   "author": "ariwilson",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50551132",
+   "author": "throwaway384034",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50551381",
+   "author": "russell-dot-js",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50552543",
+   "author": "maplet",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50553069",
+   "author": "inshard",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50553240",
+   "author": "user43928",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50553592",
+   "author": "Topfi",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50553966",
+   "author": "mnhcorp",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50554219",
+   "author": "Tadpole9181",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50554222",
+   "author": "VasiliyRad",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50555690",
+   "author": "elxr",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50556084",
+   "author": "HJain13",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/OpenAI/comments/1xizikk/sources_identify_openais_reported_bel_as_gpt62/",
+   "author": "ryanmerket",
+   "date": "2026-10-29",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/OpenAI/comments/1xj5rhg/gpt_62_bel/",
+   "author": "Soggy_Perspective776",
+   "date": "2026-10-30",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/singularity/comments/1xkes05/take_with_a_grain_of_salt_but_could_gpt62_be/",
+   "author": "BrennusSokol",
+   "date": "2026-10-31",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/singularity/comments/1xl0rs3/openai_is_testing_gpt62_astra/",
+   "author": "ilkamoi",
+   "date": "2026-11-01",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/OpenAI/comments/1xl8yta/you_can_run_gpt62astra_straight_from_codex_cliin/",
+   "author": "VibeCodyH",
+   "date": "2026-11-01",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/OpenAI/comments/1xl90th/you_can_run_gpt62astra_straight_from_codex_cli_in/",
+   "author": "VibeCodyH",
+   "date": "2026-11-01",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/singularity/comments/1xmvgxx/fable_55_vs_gpt_62_astra_svg_of_a_ps5_controller/",
+   "author": "WaqarKhanHD",
+   "date": "2026-11-03",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/OpenAI/comments/1xn36d1/gpt_62_astra_gpt_62_sol/",
+   "author": "Soggy_Perspective776",
+   "date": "2026-11-03",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/singularity/comments/1xpo0j3/no_gpt62_no_fable_55_no_qwen_4/",
+   "author": "Bitter-College8786",
+   "date": "2026-11-06",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/OpenAI/comments/1xr6s3w/how_to_tell_if_your_account_has_gpt62_sol_61_sol/",
+   "author": "Distinct_Fox_6358",
+   "date": "2026-11-08",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/OpenAI/comments/1xr80fs/what_you_think_what_it_could_be/",
+   "author": "Soggy_Perspective776",
+   "date": "2026-11-08",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/OpenAI/comments/1xw38s1/wheres_gpt_62_astra_and_62_sol_remember_how_tibo/",
+   "author": "Independent-Wind4462",
+   "date": "2026-11-14",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/OpenAI/comments/1xyr27j/openai_launched_gpt62_astra_and_gpt62_sol/",
+   "author": "Electronic-Weekend66",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/singularity/comments/1xyr3ia/introducing_gpt62_astra_and_sol/",
+   "author": "reddit4jonas",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/OpenAI/comments/1xyr4bp/gpt62_astra_and_sol_are_coming/",
+   "author": "zyyyyl9144",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/OpenAI/comments/1xyr5bc/gpt_62_is_released/",
+   "author": "AMMFitness",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/OpenAI/comments/1xyr6a0/breaking_gpt62_astra_and_sol_have_launched/",
+   "author": "ryanmerket",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/singularity/comments/1xyrd1u/gpt62_astra_meets_the_high_threshold_for_ai_self/",
+   "author": "TheLivingstoneBIG286",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/OpenAI/comments/1xyreq4/gpt_62_astra_and_gpt_62_sol_available_for_paid/",
+   "author": "Independent-Wind4462",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/OpenAI/comments/1xyriln/finally_openai_launches_gpt_62_astra_and_62_sol/",
+   "author": "Soggy_Perspective776",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/OpenAI/comments/1xys875/gpt_62_astra_and_62_sol_released/",
+   "author": "gettipd",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/OpenAI/comments/1xysalg/gpt_62_astra_hits_62_on_aaii_compared_to_fables_65/",
+   "author": "Dense-Ad6315",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/singularity/comments/1xysl6w/early_access_users_reviews_to_gpt_62_astra_and_62/",
+   "author": "Independent-Wind4462",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/singularity/comments/1xyt8x1/wall_st_engine_on_x_microsoft_announces_6_new_ai/",
+   "author": "igpila",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/singularity/comments/1xytffp/king_of_benchmaxxing_gpt_62_astra_is_the_first/",
+   "author": "Neurogence",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/OpenAI/comments/1xytnbb/gpt62_sol_just_dropped_and_users_are_already/",
+   "author": "Optimum1997",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/OpenAI/comments/1xytt5v/gpt62_astra_built_the_same_3d_scene_for_162/",
+   "author": "GapNew4766",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/singularity/comments/1xyu0v8/gpt_62_astra_hits_174_on_epoch_eci_tying_fable_52/",
+   "author": "FateOfMuffins",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/OpenAI/comments/1xyutgx/gpt62_astra_sol_benchmarks_openai_nailed_the/",
+   "author": "Electronic-Weekend66",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/OpenAI/comments/1xyuzly/gpt62_astra_sol_benchmarks_openal_nailed_the/",
+   "author": "Electronic-Weekend66",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/singularity/comments/1xyv22e/gpt62_astra_sol_benchmarks_openal_nailed_the/",
+   "author": "Electronic-Weekend66",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/singularity/comments/1xywhh9/opus_55_level_for_a_fraction_of_the_price_right/",
+   "author": "Bitter-College8786",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/OpenAI/comments/1xywsm2/the_models_take_months_the_disappointment_takes/",
+   "author": "Dear_Lock_5280",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/OpenAI/comments/1xyxyii/on_my_llm_sophistry_benchmark_gpt62_astra_and_sol/",
+   "author": "gamedev-leper",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/OpenAI/comments/1xyy642/openai_launches_gpt62_astra_and_sol_cutting/",
+   "author": "ryanmerket",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/OpenAI/comments/1xyzqnt/gpt_62_vs_claude_fable_52_astra_sol_first/",
+   "author": "jaykrown",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/OpenAI/comments/1xz037w/gpt62_sol_results_on_a_standard_threejs_eval_16/",
+   "author": "k1rd",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/OpenAI/comments/1xz0kld/i_ran_draw_a_pelican_riding_a_bicycle_on_gpt62/",
+   "author": "nadermx",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/singularity/comments/1xz0mu3/every_model_can_draw_the_pelican_now_heres_gpt62/",
+   "author": "nadermx",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/OpenAI/comments/1xz4fm5/fable_52_prefers_gpt62_sol_over_opus_55_as_the/",
+   "author": "Exloh",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/OpenAI/comments/1xz5vfj/title_what_do_you_think_about_gpt62_astra_and/",
+   "author": "Most_Researcher_3010",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/OpenAI/comments/1xz6lkm/gpt62_astra_is_the_first_model_to_score_100_on/",
+   "author": "AP_in_Indy",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/OpenAI/comments/1xz6m6n/gpt62_astra_is_the_first_model_to_score_100_on/",
+   "author": "AP_in_Indy",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/OpenAI/comments/1xzavhc/cant_find_gpt62_in_your_chatgpt_model_picker/",
+   "author": "Ok_Negotiation_2587",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/OpenAI/comments/1xzd6ap/excperience_with_gpt_62_sol/",
+   "author": "ProfessionNew4505",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/OpenAI/comments/1xzhghp/gpt62_astra_is_openais_first_released_model_rated/",
+   "author": "javimbuilds",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/OpenAI/comments/1xzhrqf/gpt62_sol_vs_claude_opus_55_same_prompt_3d_jet/",
+   "author": "TripZealousideal9158",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/OpenAI/comments/1xzlivx/i_tested_gpt_62_astra_on_6_different_3d_builds/",
+   "author": "reddit0_r",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/singularity/comments/1xznrs4/gpt62_astra_just_produced_what_we_believe_is_the/",
+   "author": "likeastar20",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/OpenAI/comments/1xzoup6/my_personal_project_blender_bench_gpt_62_astra/",
+   "author": "Gruku",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/OpenAI/comments/1xzpq3e/how_did_gpt62_show_up_in_your_codex_or_work/",
+   "author": "Motor-Cat-6853",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/singularity/comments/1xzshsa/debate_benchmark_update_8_new_models_added/",
+   "author": "zero0_one1",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/OpenAI/comments/1xzv99h/followup_to_my_gpt62_pelican_grid_same_prompt_at/",
+   "author": "nadermx",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/OpenAI/comments/1y002ib/gpt_62_astra_en_effort_maximum_100_à_0_sur_la/",
+   "author": "rasdjango",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/OpenAI/comments/1y00vqy/gpt62_astra_did_what_might_be_the_first_lean/",
+   "author": "Antique_Atmosphere97",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/singularity/comments/1y01ozh/the_openai_vs_anthropic_plot_keeps_getting/",
+   "author": "No-Weekend-7073",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/OpenAI/comments/1y02nns/62_cant_get_things_done/",
+   "author": "bofors14",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/singularity/comments/1y02vyl/gpt62_astra_independently_found_a_new_way_to/",
+   "author": "141_1337",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/OpenAI/comments/1y06y2u/is_gpt62_sol_lobotomized_today/",
+   "author": "Icy-Revolution4717",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/OpenAI/status/2122750124543926515",
+   "author": "OpenAI",
+   "date": "Tue Nov 17 17:54:03 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/OpenAIDevs/status/2123188195202617408",
+   "author": "OpenAIDevs",
+   "date": "Wed Nov 18 22:54:47 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Professor_134/status/2123258307519688869",
+   "author": "Professor_134",
+   "date": "Thu Nov 19 03:33:23 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Rabia_69x/status/2123155069956952306",
+   "author": "Rabia_69x",
+   "date": "Wed Nov 18 20:43:09 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Super_Nius/status/2123073957800898969",
+   "author": "Super_Nius",
+   "date": "Wed Nov 18 15:20:51 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/nova_a_i/status/2123366073580093796",
+   "author": "nova_a_i",
+   "date": "Thu Nov 19 10:41:36 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/tobiadonadon_/status/2123126087269957998",
+   "author": "tobiadonadon_",
+   "date": "Wed Nov 18 18:47:59 +0000 2026",
+   "status": "accepted"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/kinderlayer/status/2123379979119444471",
+   "author": "kinderlayer",
+   "date": "Thu Nov 19 11:36:52 +0000 2026",
+   "status": "accepted"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Arina_tishina/status/2123066399543468501",
+   "author": "Arina_tishina",
+   "date": "Wed Nov 18 14:50:48 +0000 2026",
+   "status": "accepted"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/maxt3chno/status/2123366160993308952",
+   "author": "maxt3chno",
+   "date": "Thu Nov 19 10:41:57 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/argofowl/status/2123389829438406999",
+   "author": "argofowl",
+   "date": "Thu Nov 19 12:16:00 +0000 2026",
+   "status": "accepted"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/adnaannasir_/status/2123393167211061401",
+   "author": "adnaannasir_",
+   "date": "Thu Nov 19 12:29:16 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/merkyx9/status/2122775307853988230",
+   "author": "merkyx9",
+   "date": "Tue Nov 17 19:34:07 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Asehunyoyo/status/2123384153613959216",
+   "author": "Asehunyoyo",
+   "date": "Thu Nov 19 11:53:27 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/GeekCatX/status/2123339603923095701",
+   "author": "GeekCatX",
+   "date": "Thu Nov 19 08:56:25 +0000 2026",
+   "status": "accepted"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/EvalRobo/status/2123313617215074447",
+   "author": "EvalRobo",
+   "date": "Thu Nov 19 07:13:10 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/JamesMalsawm/status/2123393353261674814",
+   "author": "JamesMalsawm",
+   "date": "Thu Nov 19 12:30:00 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/MKulria/status/2122969022992171196",
+   "author": "MKulria",
+   "date": "Wed Nov 18 08:23:52 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/chenyilei2017/status/2123392738867740960",
+   "author": "chenyilei2017",
+   "date": "Thu Nov 19 12:27:34 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Rohit_115/status/2122944014530085173",
+   "author": "Rohit_115",
+   "date": "Wed Nov 18 06:44:30 +0000 2026",
+   "status": "accepted"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/kaitoclaude/status/2123306529025843258",
+   "author": "kaitoclaude",
+   "date": "Thu Nov 19 06:45:00 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/PawelHuryn/status/2123392542070694129",
+   "author": "PawelHuryn",
+   "date": "Thu Nov 19 12:26:47 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/nikhilsbuilds/status/2123392805292900827",
+   "author": "nikhilsbuilds",
+   "date": "Thu Nov 19 12:27:50 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/AIMind_Ai/status/2123393460572942630",
+   "author": "AIMind_Ai",
+   "date": "Thu Nov 19 12:30:26 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/xuxiaoxiao666/status/2123393603007398130",
+   "author": "xuxiaoxiao666",
+   "date": "Thu Nov 19 12:31:00 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/ai_algoit/status/2123033652024234188",
+   "author": "ai_algoit",
+   "date": "Wed Nov 18 12:40:41 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Ratel618/status/2123391973210148974",
+   "author": "Ratel618",
+   "date": "Thu Nov 19 12:24:31 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/suza_vfx/status/2123125957020291310",
+   "author": "suza_vfx",
+   "date": "Wed Nov 18 18:47:28 +0000 2026",
+   "status": "accepted"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/TheAIFieldTest/status/2123177791491645750",
+   "author": "TheAIFieldTest",
+   "date": "Wed Nov 18 22:13:26 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/GeekCatX/status/2123384210060964244",
+   "author": "GeekCatX",
+   "date": "Thu Nov 19 11:53:40 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/TheAionikAge/status/2123391972425511360",
+   "author": "TheAionikAge",
+   "date": "Thu Nov 19 12:24:31 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/jgy1472631/status/2123392007121109132",
+   "author": "jgy1472631",
+   "date": "Thu Nov 19 12:24:39 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/k4rtik/status/2123392137316475324",
+   "author": "k4rtik",
+   "date": "Thu Nov 19 12:25:10 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Abhishekcur/status/2123392264995287426",
+   "author": "Abhishekcur",
+   "date": "Thu Nov 19 12:25:41 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Rohit_115/status/2123393321775321229",
+   "author": "Rohit_115",
+   "date": "Thu Nov 19 12:29:53 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/merdo_io/status/2123393356768117187",
+   "author": "merdo_io",
+   "date": "Thu Nov 19 12:30:01 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/maussymm/status/2123393986568310786",
+   "author": "maussymm",
+   "date": "Thu Nov 19 12:32:31 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/baofuzailushang/status/2123394802372989391",
+   "author": "baofuzailushang",
+   "date": "Thu Nov 19 12:35:46 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/exceedsystem/status/2123395174156116012",
+   "author": "exceedsystem",
+   "date": "Thu Nov 19 12:37:14 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/AbhayDesai0001/status/2123287657459671262",
+   "author": "AbhayDesai0001",
+   "date": "Thu Nov 19 05:30:00 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/thesammykins/status/2123304979612258737",
+   "author": "thesammykins",
+   "date": "Thu Nov 19 06:38:50 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/mu_ro_shin/status/2123325551238844526",
+   "author": "mu_ro_shin",
+   "date": "Thu Nov 19 08:00:35 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/RelayonGames/status/2123348444391547320",
+   "author": "RelayonGames",
+   "date": "Thu Nov 19 09:31:33 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/iijima_no6/status/2123352636007006374",
+   "author": "iijima_no6",
+   "date": "Thu Nov 19 09:48:13 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/outputloop/status/2123365003021472224",
+   "author": "outputloop",
+   "date": "Thu Nov 19 10:37:21 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/royx247/status/2123369386702758189",
+   "author": "royx247",
+   "date": "Thu Nov 19 10:54:46 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/MikelEcheve/status/2123370705978818932",
+   "author": "MikelEcheve",
+   "date": "Thu Nov 19 11:00:01 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/corner_maru/status/2123383768643952700",
+   "author": "corner_maru",
+   "date": "Thu Nov 19 11:51:55 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/learnwithcheer/status/2123388054291312770",
+   "author": "learnwithcheer",
+   "date": "Thu Nov 19 12:08:57 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/ML3pW92h9Jcey/status/2123388211636707778",
+   "author": "ML3pW92h9Jcey",
+   "date": "Thu Nov 19 12:09:34 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/MdAyDevs/status/2123391079135297667",
+   "author": "MdAyDevs",
+   "date": "Thu Nov 19 12:20:58 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/_Windrix_/status/2123391345033367899",
+   "author": "_Windrix_",
+   "date": "Thu Nov 19 12:22:02 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/AI_Insta07/status/2123391935918579768",
+   "author": "AI_Insta07",
+   "date": "Thu Nov 19 12:24:22 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/fdenarde/status/2123392341926912130",
+   "author": "fdenarde",
+   "date": "Thu Nov 19 12:25:59 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Justin_lxy/status/2123392365587320958",
+   "author": "Justin_lxy",
+   "date": "Thu Nov 19 12:26:05 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/yuichisatoeco/status/2123392379298119723",
+   "author": "yuichisatoeco",
+   "date": "Thu Nov 19 12:26:08 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/_evillevi/status/2123392402157150395",
+   "author": "_evillevi",
+   "date": "Thu Nov 19 12:26:14 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/RodrigoHajime/status/2123392592553349446",
+   "author": "RodrigoHajime",
+   "date": "Thu Nov 19 12:26:59 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/axiatechie/status/2123392691123978353",
+   "author": "axiatechie",
+   "date": "Thu Nov 19 12:27:22 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Justin_lxy/status/2123392736971927697",
+   "author": "Justin_lxy",
+   "date": "Thu Nov 19 12:27:33 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/aviggiano/status/2123392770328936883",
+   "author": "aviggiano",
+   "date": "Thu Nov 19 12:27:41 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Justin_lxy/status/2123392793209106686",
+   "author": "Justin_lxy",
+   "date": "Thu Nov 19 12:27:47 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/xiaoyuhaoda/status/2123392916752089323",
+   "author": "xiaoyuhaoda",
+   "date": "Thu Nov 19 12:28:16 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/theotangyu/status/2123393006376202721",
+   "author": "theotangyu",
+   "date": "Thu Nov 19 12:28:38 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/supermoonmojo/status/2123393029180637652",
+   "author": "supermoonmojo",
+   "date": "Thu Nov 19 12:28:43 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/nicomar4556/status/2123393350556594493",
+   "author": "nicomar4556",
+   "date": "Thu Nov 19 12:30:00 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/HeyMohit_/status/2123393473701429604",
+   "author": "HeyMohit_",
+   "date": "Thu Nov 19 12:30:29 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/RealFedeURU/status/2123393509650567529",
+   "author": "RealFedeURU",
+   "date": "Thu Nov 19 12:30:38 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/jilongzhiqixia/status/2123393691742240916",
+   "author": "jilongzhiqixia",
+   "date": "Thu Nov 19 12:31:21 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/80PWWHnI6U17485/status/2123393849708196178",
+   "author": "80PWWHnI6U17485",
+   "date": "Thu Nov 19 12:31:59 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/positive_bed/status/2123394057049399725",
+   "author": "positive_bed",
+   "date": "Thu Nov 19 12:32:48 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/kyronis_talks/status/2123394135130575194",
+   "author": "kyronis_talks",
+   "date": "Thu Nov 19 12:33:07 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/tsdevstuff/status/2123394142458019873",
+   "author": "tsdevstuff",
+   "date": "Thu Nov 19 12:33:08 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/luqman_talks/status/2123394310276345985",
+   "author": "luqman_talks",
+   "date": "Thu Nov 19 12:33:48 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Grmauan/status/2123394722198945909",
+   "author": "Grmauan",
+   "date": "Thu Nov 19 12:35:27 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/ThreeLongbd/status/2123394756537712725",
+   "author": "ThreeLongbd",
+   "date": "Thu Nov 19 12:35:35 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/PaniaThong/status/2123394770789880181",
+   "author": "PaniaThong",
+   "date": "Thu Nov 19 12:35:38 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/wlzh/status/2123394845876351031",
+   "author": "wlzh",
+   "date": "Thu Nov 19 12:35:56 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Krain990512/status/2123394897227260356",
+   "author": "Krain990512",
+   "date": "Thu Nov 19 12:36:08 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/AybarsKaldirim/status/2123394920740225344",
+   "author": "AybarsKaldirim",
+   "date": "Thu Nov 19 12:36:14 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/RealFedeURU/status/2123394934975934793",
+   "author": "RealFedeURU",
+   "date": "Thu Nov 19 12:36:17 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/RealFedeURU/status/2123395040940552507",
+   "author": "RealFedeURU",
+   "date": "Thu Nov 19 12:36:43 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/AmazingAppsAI/status/2123395217009131612",
+   "author": "AmazingAppsAI",
+   "date": "Thu Nov 19 12:37:25 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Karthikvarmamkv/status/2123395334449635753",
+   "author": "Karthikvarmamkv",
+   "date": "Thu Nov 19 12:37:53 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/n_mltiksu/status/2123395369816224009",
+   "author": "n_mltiksu",
+   "date": "Thu Nov 19 12:38:01 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Punto_Turkiye/status/2123395418297942312",
+   "author": "Punto_Turkiye",
+   "date": "Thu Nov 19 12:38:13 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/sunsonking/status/2123395500280094739",
+   "author": "sunsonking",
+   "date": "Thu Nov 19 12:38:32 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/xulijian1994/status/2123395569712562570",
+   "author": "xulijian1994",
+   "date": "Thu Nov 19 12:38:49 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/hx0000001/status/2123395742085910806",
+   "author": "hx0000001",
+   "date": "Thu Nov 19 12:39:30 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/piazzzzzz/status/2123395773585105089",
+   "author": "piazzzzzz",
+   "date": "Thu Nov 19 12:39:37 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/gshota666/status/2123395867847573638",
+   "author": "gshota666",
+   "date": "Thu Nov 19 12:40:00 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/ai_algoit/status/2123396013419589787",
+   "author": "ai_algoit",
+   "date": "Thu Nov 19 12:40:35 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/AlphaByPablo/status/2123396069975277967",
+   "author": "AlphaByPablo",
+   "date": "Thu Nov 19 12:40:48 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "yt",
+   "sourceUrl": "https://www.youtube.com/watch?v=6Sz_8EhZWAc",
+   "author": "Every",
+   "date": null,
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "yt",
+   "sourceUrl": "https://www.youtube.com/watch?v=ADuJzumZClQ",
+   "author": "SaaS Master",
+   "date": null,
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "yt",
+   "sourceUrl": "https://www.youtube.com/watch?v=C1zYX5jwqq4",
+   "author": "OpenAI",
+   "date": null,
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "yt",
+   "sourceUrl": "https://www.youtube.com/watch?v=Doanyfaby4U",
+   "author": "Dubibubi",
+   "date": null,
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "yt",
+   "sourceUrl": "https://www.youtube.com/watch?v=HMA3dYdmSLo",
+   "author": "AI超元域",
+   "date": null,
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "yt",
+   "sourceUrl": "https://www.youtube.com/watch?v=JLG2wNGNwP0",
+   "author": "Joseph Martin",
+   "date": null,
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "yt",
+   "sourceUrl": "https://www.youtube.com/watch?v=JVHkb8PTMvc",
+   "author": "Matt Wolfe",
+   "date": null,
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "yt",
+   "sourceUrl": "https://www.youtube.com/watch?v=JePtqPwfD6M",
+   "author": "Nick Saraev",
+   "date": null,
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "yt",
+   "sourceUrl": "https://www.youtube.com/watch?v=R8DHFhp2Ppw",
+   "author": "AI Coding Daily",
+   "date": null,
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "yt",
+   "sourceUrl": "https://www.youtube.com/watch?v=_VXBCcECXJ4",
+   "author": "AI Revolution",
+   "date": null,
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "yt",
+   "sourceUrl": "https://www.youtube.com/watch?v=gCK2hv9De5U",
+   "author": "BetterWay",
+   "date": null,
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "yt",
+   "sourceUrl": "https://www.youtube.com/watch?v=hsgQjktXbrE",
+   "author": "코드팩토리",
+   "date": null,
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "yt",
+   "sourceUrl": "https://www.youtube.com/watch?v=hx1wLU9fldA",
+   "author": "TheAIGRID",
+   "date": null,
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "yt",
+   "sourceUrl": "https://www.youtube.com/watch?v=qnO5_QcGL9U",
+   "author": "CORS AI",
+   "date": null,
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "yt",
+   "sourceUrl": "https://www.youtube.com/watch?v=rYsIpPP6QY4",
+   "author": "AI Search",
+   "date": null,
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "yt",
+   "sourceUrl": "https://www.youtube.com/watch?v=t8k1ueW3rjI",
+   "author": "神烦老狗",
+   "date": null,
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "yt",
+   "sourceUrl": "https://www.youtube.com/watch?v=tKoDPOrLMX0",
+   "author": "OpenAI",
+   "date": null,
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "yt",
+   "sourceUrl": "https://www.youtube.com/watch?v=wgWtx1wW6Gk",
+   "author": "Universe of AI",
+   "date": null,
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "yt",
+   "sourceUrl": "https://www.youtube.com/watch?v=z5eVzc_Y34A",
+   "author": "Max Blade",
+   "date": null,
+   "status": "pending-editorial-review"
+  }
+ ]
+}

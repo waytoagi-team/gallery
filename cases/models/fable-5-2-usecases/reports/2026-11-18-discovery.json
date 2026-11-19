@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "topicId": "fable-5-2",
+  "date": "2026-11-18",
+  "startedAt": "2026-11-18T05:50:00+00:00",
+  "finishedAt": "2026-11-18T06:15:00+00:00",
+  "status": "retrieved-partial",
+  "coverage": "partial",
+  "channels": {
+    "atlas_collect_and_metrics": {
+      "topic": "fable-5-2",
+      "workers": 4,
+      "retainedPriorOn404": [
+        "fable52-sirbost-712653",
+        "fable52-gh-jiaaqiliu-xuanji-x1"
+      ]
+    },
+    "xapi_and_fxtwitter": {
+      "fxtwitterVerified": 60
+    },
+    "github_api": {
+      "reposAndIssuesChecked": 30,
+      "included": 25
+    },
+    "reddit_arctic_shift": {
+      "r_ClaudeCode": 38,
+      "r_ClaudeAI_1xw376f": 1,
+      "includedStandalone": 5
+    },
+    "hacker_news": {
+      "itemsEvaluated": 4,
+      "includedStandalone": 1
+    },
+    "bilibili_youtube": {
+      "biliChecked": 19,
+      "biliIncluded": 9,
+      "ytChecked": 21,
+      "ytIncluded": 11
+    },
+    "web_articles": {
+      "checked": 22,
+      "includedStandalone": 8
+    }
+  },
+  "limitations": [
+    "Partial public-web coverage; no exhaustive-internet claim.",
+    "thenewstack.io & datacamp.com returned HTTP 403 to scripted fetching and corynezin.bearblog.dev returned 404; unverified/inaccessible items were excluded.",
+    "Direct Reddit .json URLs returned HTTP 403; verified via Arctic Shift archive API (r/ClaudeCode 38 posts & Abyssal Garden 1xw376f).",
+    "Existing metrics refresh retained prior values for 1 deleted X post (fable52-sirbost-712653) and 1 unavailable GitHub repo (fable52-gh-jiaaqiliu-xuanji-x1) that returned 404.",
+    "Model identity, performance, cost, token volume and scientific claims remain author-reported.",
+    "Only source-linked images or extracted source video frames are used; no generic illustrations for sources without images."
+  ]
+}

@@ -1,0 +1,45 @@
+{
+ "refreshedAt": "2026-11-18T06:15:00+00:00",
+ "scope": {
+  "zh": "X 多关键词与引用链追踪、GitHub 仓与 Issue/PR 检索、HN/Reddit 存档检索、B 站/YouTube 实测视频及工程评测长文（部分覆盖）",
+  "en": "X multi-query/thread tracing, GitHub repos & issues/PRs, HN/Reddit Arctic Shift, Bilibili/YouTube videos & engineering teardowns (partial coverage)"
+ },
+ "status": "partial-coverage",
+ "lastFullRefreshAt": null,
+ "lastMultiSourceRefreshAt": "2026-11-18T06:15:00+00:00",
+ "previousCaseCount": 189,
+ "caseCount": 288,
+ "reviewedNewExtras": 99,
+ "newCasesByPlatform": {
+  "X": 40,
+  "GitHub": 25,
+  "Hacker News": 1,
+  "Reddit": 5,
+  "Bilibili": 9,
+  "YouTube": 11,
+  "Web": 8
+ },
+ "coverage": {
+  "atlasCollectSucceeded": true,
+  "fxtwitterVerified": 60,
+  "githubVerified": 30,
+  "bilibiliVerified": 19,
+  "youtubeVerified": 21,
+  "redditArchivePosts": 39,
+  "webPagesChecked": 22,
+  "partial": true
+ },
+ "limitations": [
+  "Partial public-web coverage; no exhaustive-internet claim.",
+  "thenewstack.io & datacamp.com returned HTTP 403 to scripted fetching and corynezin.bearblog.dev returned 404; unverified/inaccessible items were excluded.",
+  "Direct Reddit .json URLs returned HTTP 403; verified via Arctic Shift archive API (r/ClaudeCode 38 posts & Abyssal Garden 1xw376f).",
+  "Existing metrics refresh retained prior values for 1 deleted X post (fable52-sirbost-712653) and 1 unavailable GitHub repo (fable52-gh-jiaaqiliu-xuanji-x1) that returned 404.",
+  "Model identity, performance, cost, token volume and scientific claims remain author-reported.",
+  "Only source-linked images or extracted source video frames are used; no generic illustrations for sources without images."
+ ],
+ "posters": {
+  "before": 160,
+  "localVerified": 239,
+  "missing": 49
+ }
+}

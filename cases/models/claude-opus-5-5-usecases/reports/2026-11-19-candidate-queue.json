@@ -1,0 +1,5259 @@
+{
+ "checkedAt": "2026-11-19T12:56:50+00:00",
+ "statusCounts": {
+  "pending-editorial-review": 728,
+  "accepted": 22
+ },
+ "candidates": [
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/zhuyansen/awesome-claude-video-skills",
+   "author": "zhuyansen",
+   "date": "2026-09-27",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/TsinHzl/kiro2cc-proxy",
+   "author": "TsinHzl",
+   "date": "2026-05-15",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/zhuyansen/awesome-opus-5.5-video",
+   "author": "zhuyansen",
+   "date": "2026-09-27",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/treylom/prompt-engineering-skills",
+   "author": "treylom",
+   "date": "2025-12-28",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/viktorkav/uno-com-escada",
+   "author": "viktorkav",
+   "date": "2026-11-16",
+   "status": "accepted"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/delexw/motion-graphics-agent",
+   "author": "delexw",
+   "date": "2026-10-15",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Rylaa/fable5.2-opus5.5-orchestrator",
+   "author": "Rylaa",
+   "date": "2026-06-12",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/HiAPIAI/awesome-opus-5-5-video-styles",
+   "author": "HiAPIAI",
+   "date": "2026-09-29",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/leishifu666/lsf-website-design",
+   "author": "leishifu666",
+   "date": "2026-11-03",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/starsstreaming/CS146S-learning",
+   "author": "starsstreaming",
+   "date": "2026-09-28",
+   "status": "accepted"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Bemly/video",
+   "author": "Bemly",
+   "date": "2026-09-28",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/naichashu66/opus50-entropy",
+   "author": "naichashu66",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/beerbottle90/ArthurLegal",
+   "author": "beerbottle90",
+   "date": "2026-05-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation",
+   "author": "mariovirgili",
+   "date": "2026-09-29",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/sandbase-lab/awesome-opus-5.5",
+   "author": "sandbase-lab",
+   "date": "2026-10-21",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Kevin-730325/Opus5.5-Promo-skill",
+   "author": "Kevin-730325",
+   "date": "2026-10-27",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/ilien-dev/sharur",
+   "author": "ilien-dev",
+   "date": "2026-11-16",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/sandbase-lab/awesome-gemini4-argon",
+   "author": "sandbase-lab",
+   "date": "2026-10-14",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/tehoro/weather-explorer-web",
+   "author": "tehoro",
+   "date": "2026-10-25",
+   "status": "accepted"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/SansNope/MarathonRecomp-Android",
+   "author": "SansNope",
+   "date": "2026-10-26",
+   "status": "accepted"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/bascowave/reels-bascowave",
+   "author": "bascowave",
+   "date": "2026-11-10",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/jiaqing77cn/levogat-ai-api",
+   "author": "jiaqing77cn",
+   "date": "2026-06-30",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/FlamingDoritos/Metal-Max-4-Claude-translation",
+   "author": "FlamingDoritos",
+   "date": "2026-11-05",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/RaNDoM6913/claude-code-superkit",
+   "author": "RaNDoM6913",
+   "date": "2026-03-23",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/RepressedAlliance/Opus5.5-MeltDown",
+   "author": "RepressedAlliance",
+   "date": "2026-10-29",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/machug/spec-debate",
+   "author": "machug",
+   "date": "2026-03-26",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/pbexiga/solum-builder",
+   "author": "pbexiga",
+   "date": "2026-11-12",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/LITTLECAT2333/mao-zedong-skill",
+   "author": "LITTLECAT2333",
+   "date": "2026-11-03",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/RZ-Logic/Immi-OS",
+   "author": "RZ-Logic",
+   "date": "2026-02-26",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/alex071115a-cyber/pixel-story-mv",
+   "author": "alex071115a-cyber",
+   "date": "2026-10-29",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/buggerlogger/duckky-swarm",
+   "author": "buggerlogger",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/donpolloasd/OverdriveTuner",
+   "author": "donpolloasd",
+   "date": "2026-10-25",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/kirishimarisano-rgb/2d-ani-game-by-opus5.5",
+   "author": "kirishimarisano-rgb",
+   "date": "2026-09-25",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/nannnannan/galagent",
+   "author": "nannnannan",
+   "date": "2026-10-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/qvotvm/local-agent-bench",
+   "author": "qvotvm",
+   "date": "2026-11-13",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/2524034412-boop/DSH-QQ",
+   "author": "2524034412-boop",
+   "date": "2026-11-04",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Cryptopiy/Claude-Opus-5.5-Effort-Test-Racing-Games",
+   "author": "Cryptopiy",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/GhostChatDev/Ghost-Flap-BY-GHOSTCHATDEV",
+   "author": "GhostChatDev",
+   "date": "2026-11-15",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Olyvia075/claude-edit-design-opus-5.5",
+   "author": "Olyvia075",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/TROVIZEISBACK/Jarvis-ULTIMATE-2",
+   "author": "TROVIZEISBACK",
+   "date": "2026-11-11",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Zp-Peter/kimi-k31pro-opus55-benchmark-showcase",
+   "author": "Zp-Peter",
+   "date": "2026-10-24",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/almanalaysay93-gif/designme",
+   "author": "almanalaysay93-gif",
+   "date": "2026-10-08",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/anthropic-fable52/Claude-Fable-5.2-Free",
+   "author": "anthropic-fable52",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/anthropics-org/Claude-Opus-5.5-Free-Desktop",
+   "author": "anthropics-org",
+   "date": "2026-11-16",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/awesomekling/rt-demos-opus55",
+   "author": "awesomekling",
+   "date": "2026-11-13",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/az9713/fable-5.2-3d-animations",
+   "author": "az9713",
+   "date": "2026-11-13",
+   "status": "accepted"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/bitScribbles/Liquid-Clock",
+   "author": "bitScribbles",
+   "date": "2026-10-02",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/catchrescuercable/claude-opus-5-5-abliterated",
+   "author": "catchrescuercable",
+   "date": "2026-11-09",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/claude-duet-free/Claude-Duet-Free",
+   "author": "claude-duet-free",
+   "date": "2026-11-15",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/codepawl/3d-builds",
+   "author": "codepawl",
+   "date": "2026-11-14",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/harshinisre-hue/stylometry_research",
+   "author": "harshinisre-hue",
+   "date": "2026-10-22",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/huaxialucaicaizi/opus5.5-mobile-remotion-studio",
+   "author": "huaxialucaicaizi",
+   "date": "2026-10-28",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/huaxialucaicaizi/opus5.5-video-skills-",
+   "author": "huaxialucaicaizi",
+   "date": "2026-10-28",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/lanechenhku/dsh-claude-project-ui",
+   "author": "lanechenhku",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/lonlydwolf/animetro",
+   "author": "lonlydwolf",
+   "date": "2026-11-06",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/miyo0322/Grab-Claude",
+   "author": "miyo0322",
+   "date": "2026-10-27",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/mythos52/Claude-AI-Mythos-5.2-Free",
+   "author": "mythos52",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/nicoco0624/clipai",
+   "author": "nicoco0624",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/pain3107855787-create/psych-particle-film-opus5.5-Claude-Code-Skill-",
+   "author": "pain3107855787-create",
+   "date": "2026-10-27",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/ratulm/openevolve-codehints",
+   "author": "ratulm",
+   "date": "2026-11-13",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/sultansaharia2014-dot/Motion-designing-and-sound-effect-",
+   "author": "sultansaharia2014-dot",
+   "date": "2026-11-16",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/tarolys/chopper-dist",
+   "author": "tarolys",
+   "date": "2026-11-12",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/u9822914324-web/kalshi-paper-bot",
+   "author": "u9822914324-web",
+   "date": "2026-10-08",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/znbaboy/gboard-offline-voice",
+   "author": "znbaboy",
+   "date": "2026-11-10",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/13fragments/noveltybench-reading-instruction",
+   "author": "13fragments",
+   "date": "2026-11-15",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/1hamburger-CHN/Videowatch",
+   "author": "1hamburger-CHN",
+   "date": "2026-10-31",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/BittahBandit1/ReFare",
+   "author": "BittahBandit1",
+   "date": "2026-10-30",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/BlackBoxUwU/Investigacion-Interfaz-Claude-Opus-5.5",
+   "author": "BlackBoxUwU",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Carlosfrayx7/avaliador-prompts-ia",
+   "author": "Carlosfrayx7",
+   "date": "2026-11-16",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Cenrax/weight-space-programming-claude",
+   "author": "Cenrax",
+   "date": "2026-11-08",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/CisnerosCodes/astra-range",
+   "author": "CisnerosCodes",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/CrazyRock114/pelican",
+   "author": "CrazyRock114",
+   "date": "2026-11-10",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Cryptopiy/Claude-Fable-5.2-vs-Opus-5.5-Horror-Games",
+   "author": "Cryptopiy",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Cryptopiy/Claude-Opus-5.5-4-Projects",
+   "author": "Cryptopiy",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Cryptopiy/Claude-Opus-5.5-Atomic-Bombs",
+   "author": "Cryptopiy",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Cryptopiy/Claude-Opus-5.5-Backrooms",
+   "author": "Cryptopiy",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Cryptopiy/Claude-Opus-5.5-Guns-3D-Models",
+   "author": "Cryptopiy",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Cryptopiy/Claude-Opus-5.5-Megastructures",
+   "author": "Cryptopiy",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Cryptopiy/Claude-Opus-5.5-Muscle-Car-3D-Model-Crash-Sandbox",
+   "author": "Cryptopiy",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Cryptopiy/Claude-Opus-5.5-Open-World-Unity-Godot-Unreal",
+   "author": "Cryptopiy",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Cryptopiy/Claude-Opus-5.5-Thalassophobia",
+   "author": "Cryptopiy",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Cryptopiy/Claude-Opus-5.5-Voxel-Sandbox-Unity-Godot-Unreal",
+   "author": "Cryptopiy",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Cryptopiy/Vecta-Sonnet-5.5-vs-Opus-5.5-AI-Games",
+   "author": "Cryptopiy",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/DannyMac180/legible",
+   "author": "DannyMac180",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Deepusleepy/opus5-vs-sol",
+   "author": "Deepusleepy",
+   "date": "2026-07-28",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Denzil10/fable-vs-opus-chess",
+   "author": "Denzil10",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/DuckConcentrate/Opus-Clip-Desktop-2026",
+   "author": "DuckConcentrate",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Etyre/executive-assistant-agent",
+   "author": "Etyre",
+   "date": "2026-11-05",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Euloge-szn/opus-5-5-motion",
+   "author": "Euloge-szn",
+   "date": "2026-11-13",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/F-to-pay/PostmarketOS-begonia",
+   "author": "F-to-pay",
+   "date": "2026-11-14",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Furkiozknn/kapadokya-balonu",
+   "author": "Furkiozknn",
+   "date": "2026-10-27",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Furkiozknn/karagoz",
+   "author": "Furkiozknn",
+   "date": "2026-10-27",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Furkiozknn/kervan",
+   "author": "Furkiozknn",
+   "date": "2026-10-26",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Furkiozknn/topkapi-gecesi",
+   "author": "Furkiozknn",
+   "date": "2026-10-27",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/HossamSalemOnline/Opus-5.5",
+   "author": "HossamSalemOnline",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Hughray2018/Hughray2018.github.io",
+   "author": "Hughray2018",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Jim-Maar/epistemics-hackathon",
+   "author": "Jim-Maar",
+   "date": "2026-11-13",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Jim-Maar/epistemics-playground",
+   "author": "Jim-Maar",
+   "date": "2026-11-13",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Josafe/AgenticEnvirOllama",
+   "author": "Josafe",
+   "date": "2026-10-15",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Jotadev-bug/vaca3d-neuro",
+   "author": "Jotadev-bug",
+   "date": "2026-11-04",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/KyPython/ple-submission-apex",
+   "author": "KyPython",
+   "date": "2026-11-12",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/KyPython/ple-submission-opus55",
+   "author": "KyPython",
+   "date": "2026-11-12",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Lenitra/test-imgs-opus5.5",
+   "author": "Lenitra",
+   "date": "2026-10-26",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Liyucheng1997/122_lab-stable-diffusion",
+   "author": "Liyucheng1997",
+   "date": "2026-06-25",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/M4deM4n/odin-tui",
+   "author": "M4deM4n",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/MaitowEiEi/BusBuddy-Bangkok",
+   "author": "MaitowEiEi",
+   "date": "2026-10-30",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Maoku/Opus5OpticalIllusion",
+   "author": "Maoku",
+   "date": "2026-07-26",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/MatiasFP/auto-modelo",
+   "author": "MatiasFP",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Maynor996/gemini-4-neon-agent-opus-5",
+   "author": "Maynor996",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Maynor996/opus55-viz-gallery",
+   "author": "Maynor996",
+   "date": "2026-10-28",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Mic-Fundraiser/LeanBrain",
+   "author": "Mic-Fundraiser",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/MikeKovetsky/meroitic",
+   "author": "MikeKovetsky",
+   "date": "2026-11-09",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/MoonMere/detroit-become-human-kara-todd-house",
+   "author": "MoonMere",
+   "date": "2026-10-11",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/MoonMere/livenerf-across-versions",
+   "author": "MoonMere",
+   "date": "2026-11-11",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/MrBizYT/opus5.5",
+   "author": "MrBizYT",
+   "date": "2026-11-09",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/NorwinYu/qingyun-du",
+   "author": "NorwinYu",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/NostalgiaRealm/RedCat-Spookkasteel",
+   "author": "NostalgiaRealm",
+   "date": "2026-09-22",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Oliverer9/aircast-launch-film",
+   "author": "Oliverer9",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/OxnvatEntertainment/LBPPRandomizer",
+   "author": "OxnvatEntertainment",
+   "date": "2026-11-15",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Pengcheng-Wang/autosota-frontier-cowork-rsi",
+   "author": "Pengcheng-Wang",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/PingCHemIn/Grenka",
+   "author": "PingCHemIn",
+   "date": "2026-11-14",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Quaziimoto/Joltux",
+   "author": "Quaziimoto",
+   "date": "2026-11-09",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/RafaelBroseghini/stun",
+   "author": "RafaelBroseghini",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Raiduuur/edbox-skill",
+   "author": "Raiduuur",
+   "date": "2026-11-13",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/RobinaMirbahar/llm-3d-comedy-arena",
+   "author": "RobinaMirbahar",
+   "date": "2026-10-26",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Rohithpallapu/awesome-opus5-5-videos-main",
+   "author": "Rohithpallapu",
+   "date": "2026-10-31",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Siquriality/opus-5.5",
+   "author": "Siquriality",
+   "date": "2026-11-14",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Sputn1kaaaaaaaaaaaaa/iridium77",
+   "author": "Sputn1kaaaaaaaaaaaaa",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/SuggarCoder/liaositech-website",
+   "author": "SuggarCoder",
+   "date": "2026-11-10",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/TeddyArellano/video-editor-teddyarellano",
+   "author": "TeddyArellano",
+   "date": "2026-10-04",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/ThatZaliaSGuy/weatherglass",
+   "author": "ThatZaliaSGuy",
+   "date": "2026-11-16",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Title5656/Doraemon-Room",
+   "author": "Title5656",
+   "date": "2026-10-25",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Tomas111203/Interfaz-Opus-5.5",
+   "author": "Tomas111203",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/Yari-tuber/gpt62-vs-opus55-tests",
+   "author": "Yari-tuber",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/albentrang/e-commerce-regression-testing",
+   "author": "albentrang",
+   "date": "2026-11-08",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/alexccastilho/freeable-5.2-skill",
+   "author": "alexccastilho",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/alexcphillips/mobile-extraction-shooter",
+   "author": "alexcphillips",
+   "date": "2026-10-26",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/alvaro-serero/asrs-lora-classifier",
+   "author": "alvaro-serero",
+   "date": "2026-10-24",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/andrewubf/awesome-opus5-5-videos",
+   "author": "andrewubf",
+   "date": "2026-11-08",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/animationsviktor-art/fnaf-4-roblox-port",
+   "author": "animationsviktor-art",
+   "date": "2026-11-14",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/anttiluode/AlgoWorld1",
+   "author": "anttiluode",
+   "date": "2026-11-15",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/anttiluode/ApicalRuleReversalMachine",
+   "author": "anttiluode",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/anttiluode/MusicalDelayLabyrinth",
+   "author": "anttiluode",
+   "date": "2026-11-13",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/anttiluode/PerceptionLabNodes",
+   "author": "anttiluode",
+   "date": "2026-11-15",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/anttiluode/QualeX",
+   "author": "anttiluode",
+   "date": "2026-11-16",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/anttiluode/QualiaClaude",
+   "author": "anttiluode",
+   "date": "2026-11-16",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/anttiluode/WaveComputer",
+   "author": "anttiluode",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/arstate/ai-agent-skills-universal",
+   "author": "arstate",
+   "date": "2026-10-28",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/calebecamilo/rotacao-culturas",
+   "author": "calebecamilo",
+   "date": "2026-11-15",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/cha1nxnova/Meowbox",
+   "author": "cha1nxnova",
+   "date": "2026-11-11",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/cristian-frunze/civ6-benchmark",
+   "author": "cristian-frunze",
+   "date": "2026-11-06",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/danicraft2000/V-deos-Aleat-rios-tanto-3D-e-2D-Claude",
+   "author": "danicraft2000",
+   "date": "2026-11-15",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/drew879/raptor-race-fable",
+   "author": "drew879",
+   "date": "2026-11-16",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/elcronos/whiteout-onefile",
+   "author": "elcronos",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/elgambet/starship",
+   "author": "elgambet",
+   "date": "2026-11-15",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/eli-ovops/skill-awesome-opus5-5-videos",
+   "author": "eli-ovops",
+   "date": "2026-11-13",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/eriwinsto/ak-results-2026",
+   "author": "eriwinsto",
+   "date": "2026-11-05",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/erlezhu02/robotworld-results-public",
+   "author": "erlezhu02",
+   "date": "2026-11-13",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/gamingnews5/Claude-vs-ChatGPT",
+   "author": "gamingnews5",
+   "date": "2026-10-25",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/ganoninc/Stopwatch",
+   "author": "ganoninc",
+   "date": "2026-11-15",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/guseynzadeali86-rgb/BeeVisual-Opus5-",
+   "author": "guseynzadeali86-rgb",
+   "date": "2026-11-10",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/hteal-4-git/model-counter",
+   "author": "hteal-4-git",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/ikarmajames/opus-othello-engine",
+   "author": "ikarmajames",
+   "date": "2026-11-14",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/ilka301111-web/opus-5-5",
+   "author": "ilka301111-web",
+   "date": "2026-11-13",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/inematds/esforco-medido",
+   "author": "inematds",
+   "date": "2026-11-13",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/isaccanedo/awesome-opus5-5-videos",
+   "author": "isaccanedo",
+   "date": "2026-11-08",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/jaimegag/soccer-referee-eval",
+   "author": "jaimegag",
+   "date": "2026-11-16",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/jas2k/-Escape-Opus-5.5",
+   "author": "jas2k",
+   "date": "2026-11-16",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/jyotiinfotech2021/awesome-opus5-5-videos",
+   "author": "jyotiinfotech2021",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/kesha666-opt/opus5.5",
+   "author": "kesha666-opt",
+   "date": "2026-10-08",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/liangkang1436/opus5_5-shorts",
+   "author": "liangkang1436",
+   "date": "2026-10-30",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/limboinf/video-skill",
+   "author": "limboinf",
+   "date": "2026-10-10",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/linnoff88-dev/arckhe-claude-opus55",
+   "author": "linnoff88-dev",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/linnoff88-dev/arckhe-opus55",
+   "author": "linnoff88-dev",
+   "date": "2026-11-16",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/lufields/AI-x-Epistemics",
+   "author": "lufields",
+   "date": "2026-11-15",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/majhi4550/Sketch_3d_app",
+   "author": "majhi4550",
+   "date": "2026-11-01",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/mderidder9/shopsense",
+   "author": "mderidder9",
+   "date": "2026-11-16",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/mejl/2026-",
+   "author": "mejl",
+   "date": "2026-09-27",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/mem15381/awesome-opus5-5-videos",
+   "author": "mem15381",
+   "date": "2026-10-24",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/mercurious/voxel-gt-opus",
+   "author": "mercurious",
+   "date": "2026-11-08",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/mgrl39/algebra-parcial1",
+   "author": "mgrl39",
+   "date": "2026-10-24",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/mgrl39/mgrl39.github.io",
+   "author": "mgrl39",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/mikegestordetrafego-star/depth-1-https-github.com-yihui-dev-awesome-opus5-5-videos.git-cd-awesome-opus5-5-videos-ls-prompts",
+   "author": "mikegestordetrafego-star",
+   "date": "2026-10-26",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/mirzahusadzic/unified-model-router",
+   "author": "mirzahusadzic",
+   "date": "2026-10-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/mlt131220/AstralLandGame",
+   "author": "mlt131220",
+   "date": "2026-10-28",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/mmmax21/Hangzhou-3DMap",
+   "author": "mmmax21",
+   "date": "2026-11-11",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/mp3pintyo/helios-jh-opus55high",
+   "author": "mp3pintyo",
+   "date": "2026-11-10",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/mr-jones123/ulan-trend-detective",
+   "author": "mr-jones123",
+   "date": "2026-11-14",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/mvbrukayte-ai/opus5",
+   "author": "mvbrukayte-ai",
+   "date": "2026-11-02",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/mxssnx-creator/CTS-A-O",
+   "author": "mxssnx-creator",
+   "date": "2026-09-26",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/nafeoalam/ticket-to-pr-agent",
+   "author": "nafeoalam",
+   "date": "2026-11-14",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/nakamura196/seinan-nishikie-detection",
+   "author": "nakamura196",
+   "date": "2026-11-16",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/neilliu77/rss-feeds-Claude-Opus-5.5",
+   "author": "neilliu77",
+   "date": "2026-10-24",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/nicolas-19x/Web-ASTEME-PinPong",
+   "author": "nicolas-19x",
+   "date": "2026-11-16",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/nikhildehariya/cellrank-lineage-benchmark",
+   "author": "nikhildehariya",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/nubenetes/finops-agentic-ai-architectures",
+   "author": "nubenetes",
+   "date": "2026-11-15",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/ololo-dev/apex-lap-opus-5-5",
+   "author": "ololo-dev",
+   "date": "2026-11-16",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/pagustafsson/krakatoa",
+   "author": "pagustafsson",
+   "date": "2026-10-05",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/pewdredd/make-it-better-x100",
+   "author": "pewdredd",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/pollorijas/Pizarra_Virtual",
+   "author": "pollorijas",
+   "date": "2026-11-13",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/ralfonsoftware/ki-oneshot-comparison",
+   "author": "ralfonsoftware",
+   "date": "2026-11-15",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/raozy0269-lgtm/opus55-3d-office",
+   "author": "raozy0269-lgtm",
+   "date": "2026-10-24",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/revoo/Ironveil_Opus5.5Medium",
+   "author": "revoo",
+   "date": "2026-11-05",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/rickyhu20/opus-code-animation",
+   "author": "rickyhu20",
+   "date": "2026-11-07",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/rossinek/cold-boot",
+   "author": "rossinek",
+   "date": "2026-11-12",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/rrlan/pure-code-video",
+   "author": "rrlan",
+   "date": "2026-11-07",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/sainiheth/https-github.com-yihui-dev-awesome-opus5-5-videos",
+   "author": "sainiheth",
+   "date": "2026-10-26",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/samueldelagrange30-maker/opus5",
+   "author": "samueldelagrange30-maker",
+   "date": "2026-08-24",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/seanGSISG/fable-harness",
+   "author": "seanGSISG",
+   "date": "2026-11-13",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/sergiodevece/experimento-ai-engineering-sol6.1-vs-opus5.5",
+   "author": "sergiodevece",
+   "date": "2026-11-13",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/shmakovdima/webmcp-browser-benchmark",
+   "author": "shmakovdima",
+   "date": "2026-10-06",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/shrestha-droid/ple-harness",
+   "author": "shrestha-droid",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/smithpg/lifting-tracker-pwa",
+   "author": "smithpg",
+   "date": "2026-11-09",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/stefannyffenegger/dominion-sog3-remastered",
+   "author": "stefannyffenegger",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/sto1as-c/claude",
+   "author": "sto1as-c",
+   "date": "2026-10-29",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/suenot/mvw-parser-awesome-opus55",
+   "author": "suenot",
+   "date": "2026-10-30",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/suenot/mvw-parser-skillry-opus55",
+   "author": "suenot",
+   "date": "2026-10-30",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/suhanr/opus5.5-vidoe",
+   "author": "suhanr",
+   "date": "2026-10-24",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/taehwandev/runner-bench",
+   "author": "taehwandev",
+   "date": "2026-11-16",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/takenoko117/TABS_like_claudeOpus5.5",
+   "author": "takenoko117",
+   "date": "2026-10-24",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/tdem2025/YAME",
+   "author": "tdem2025",
+   "date": "2026-11-16",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/techkwon/gpt62-oneshot-bench",
+   "author": "techkwon",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/teobanica/007",
+   "author": "teobanica",
+   "date": "2026-11-14",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/tesseractpoet/Autos_In_Authenticity_Data",
+   "author": "tesseractpoet",
+   "date": "2026-11-16",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/thanycodes/streaks",
+   "author": "thanycodes",
+   "date": "2026-11-11",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/theBrutzler/CameraControl",
+   "author": "theBrutzler",
+   "date": "2026-11-10",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/tingqli/agent-harness",
+   "author": "tingqli",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/tlzkrh1029/nvt_signal_r-engineering",
+   "author": "tlzkrh1029",
+   "date": "2026-09-24",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/tong0619453646-dev/awesome-claude-opus-5.5-video-prompts",
+   "author": "tong0619453646-dev",
+   "date": "2026-11-09",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/vehladkid/Fable5.2-mode",
+   "author": "vehladkid",
+   "date": "2026-11-15",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/vehoelite/opus-tplink-mcp",
+   "author": "vehoelite",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/walendra1804-spec/walendra1804-spec.github.io",
+   "author": "walendra1804-spec",
+   "date": "2026-10-30",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/workingyuanyuan/lite-agy-subagent-delegation",
+   "author": "workingyuanyuan",
+   "date": "2026-11-08",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/xli498/ple-entry",
+   "author": "xli498",
+   "date": "2026-11-14",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/yasskin/gdpval-paired-eval",
+   "author": "yasskin",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/yniantongtian-oss/physics-circuit-simulation-resources",
+   "author": "yniantongtian-oss",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/yoshiman60/OpenSourcebudgetapp",
+   "author": "yoshiman60",
+   "date": "2026-11-13",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/zahra-hasan/sketchbook-studio",
+   "author": "zahra-hasan",
+   "date": "2026-11-11",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "github",
+   "sourceUrl": "https://github.com/zyrliuwei-sys/opus55video",
+   "author": "zyrliuwei-sys",
+   "date": "2026-09-30",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50212222",
+   "author": "hippogod",
+   "date": "2026-10-23",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50241967",
+   "author": "grumbel",
+   "date": "2026-10-26",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50254014",
+   "author": "sorlia7z",
+   "date": "2026-10-27",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50271411",
+   "author": "stared",
+   "date": "2026-10-28",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50274566",
+   "author": "akras14",
+   "date": "2026-10-28",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50281409",
+   "author": "ramoz",
+   "date": "2026-10-28",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50296857",
+   "author": "jrockway",
+   "date": "2026-10-29",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50300244",
+   "author": "Incipient",
+   "date": "2026-10-30",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50312822",
+   "author": "iLemming",
+   "date": "2026-10-31",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50321868",
+   "author": "Beached",
+   "date": "2026-11-01",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50322294",
+   "author": "kolinko",
+   "date": "2026-11-01",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50324477",
+   "author": "dada216",
+   "date": "2026-11-01",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50330830",
+   "author": "irisguy",
+   "date": "2026-11-01",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50333289",
+   "author": "runwithdata",
+   "date": "2026-11-02",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50339369",
+   "author": "Aperocky",
+   "date": "2026-11-02",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50351728",
+   "author": "entryleveljobsc",
+   "date": "2026-11-03",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50352114",
+   "author": "NitpickLawyer",
+   "date": "2026-11-03",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50368507",
+   "author": "segmondy",
+   "date": "2026-11-04",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50381279",
+   "author": "brabel",
+   "date": "2026-11-05",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50385795",
+   "author": "gastonmorixe",
+   "date": "2026-11-05",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50403873",
+   "author": "brabel",
+   "date": "2026-11-07",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50418490",
+   "author": "acheron9383",
+   "date": "2026-11-08",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50419019",
+   "author": "b--l",
+   "date": "2026-11-08",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50420515",
+   "author": "kasey_junk",
+   "date": "2026-11-09",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50421953",
+   "author": "aunty_helen",
+   "date": "2026-11-09",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50422633",
+   "author": "MrMetric",
+   "date": "2026-11-09",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50424510",
+   "author": "JohnHaugeland",
+   "date": "2026-11-09",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50424998",
+   "author": "Traster",
+   "date": "2026-11-09",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50425234",
+   "author": "Traster",
+   "date": "2026-11-09",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50429334",
+   "author": "nonethewiser",
+   "date": "2026-11-09",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50430404",
+   "author": "minimaxir",
+   "date": "2026-11-09",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50432936",
+   "author": "ianberdin",
+   "date": "2026-11-09",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50432968",
+   "author": "ianberdin",
+   "date": "2026-11-09",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50432975",
+   "author": "ianberdin",
+   "date": "2026-11-09",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50439658",
+   "author": "ffsm8",
+   "date": "2026-11-10",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50445348",
+   "author": "pseudosavant",
+   "date": "2026-11-10",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50446413",
+   "author": "BitLit",
+   "date": "2026-11-10",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50447601",
+   "author": "nl",
+   "date": "2026-11-10",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50450460",
+   "author": "b112",
+   "date": "2026-11-11",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50459365",
+   "author": "b112",
+   "date": "2026-11-11",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50491347",
+   "author": "geoffbp",
+   "date": "2026-11-13",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50494140",
+   "author": "springtimesun",
+   "date": "2026-11-14",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50495485",
+   "author": "b112",
+   "date": "2026-11-14",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50496006",
+   "author": "elvis10ten",
+   "date": "2026-11-14",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50497958",
+   "author": "valkrieco",
+   "date": "2026-11-14",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50503241",
+   "author": "gmays",
+   "date": "2026-11-15",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50512565",
+   "author": "x-complexity",
+   "date": "2026-11-16",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50532109",
+   "author": "cl42",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50535977",
+   "author": "firemelt",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50538902",
+   "author": "ttul",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50539230",
+   "author": "desmondl",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50539331",
+   "author": "rednb",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50539471",
+   "author": "polybdenum",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50540097",
+   "author": "kccqzy",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50540540",
+   "author": "Topfi",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50540665",
+   "author": "sscaryterry",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50541687",
+   "author": "JohnWeston",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50542494",
+   "author": "lexandstuff",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50542668",
+   "author": "eddiewithzato",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50543236",
+   "author": "logicchains",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50543442",
+   "author": "user43928",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50543484",
+   "author": "p_l",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50544409",
+   "author": "alkonaut",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50544678",
+   "author": "testtestmetest",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50544993",
+   "author": "joenot443",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50545037",
+   "author": "stbenjam",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50545052",
+   "author": "knollimar",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50545384",
+   "author": "5555watch",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50545812",
+   "author": "dada216",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50546241",
+   "author": "DonsDiscountGas",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50546796",
+   "author": "phpp",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50547607",
+   "author": "robwwilliams",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50547805",
+   "author": "robwwilliams",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50547870",
+   "author": "robwwilliams",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50548041",
+   "author": "Degorath",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50548271",
+   "author": "hetspookjee",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50548879",
+   "author": "hungryhobbit",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50549236",
+   "author": "DeathArrow",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50549241",
+   "author": "tyingq",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50549294",
+   "author": "fwee",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50549309",
+   "author": "seizethecheese",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50549559",
+   "author": "user43928",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50549772",
+   "author": "mceachen",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50550485",
+   "author": "kuboble",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50550861",
+   "author": "ariwilson",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50550913",
+   "author": "athrowaway3z",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50551271",
+   "author": "seizethecheese",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50551505",
+   "author": "fooblaster",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50551917",
+   "author": "origini",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50552082",
+   "author": "qwerpy",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50552320",
+   "author": "sadilek",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50552548",
+   "author": "onlyrealcuzzo",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50552612",
+   "author": "hn8726",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50552614",
+   "author": "agrippanux",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50552651",
+   "author": "nicoburns",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50552674",
+   "author": "artdigital",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50552711",
+   "author": "impulser_",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50552733",
+   "author": "baq",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50552756",
+   "author": "dannyw",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50552817",
+   "author": "xd1936",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50552821",
+   "author": "ehsankia",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50552850",
+   "author": "aenis",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50552963",
+   "author": "SuperV1234",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50552982",
+   "author": "TacticalCoder",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50553022",
+   "author": "aenis",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50553031",
+   "author": "WarmWash",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50553101",
+   "author": "seizethecheese",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50553113",
+   "author": "pjankiewicz",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50553168",
+   "author": "jwpapi",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50553231",
+   "author": "quixoticelixer-",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50553424",
+   "author": "weitendorf",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50553714",
+   "author": "melonpan7",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50554360",
+   "author": "cloverich",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50554374",
+   "author": "seizethecheese",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50554534",
+   "author": "e12e",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50554537",
+   "author": "chicagobuss",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50554729",
+   "author": "seizethecheese",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50554778",
+   "author": "rootusrootus",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50554951",
+   "author": "nojs",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50555014",
+   "author": "disillusioned",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50555028",
+   "author": "lacoolj",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50555113",
+   "author": "epsteingpt",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50555139",
+   "author": "sudohalt",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50555163",
+   "author": "theturtletalks",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50555205",
+   "author": "utopcell",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50555272",
+   "author": "p1necone",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50555636",
+   "author": "outside1234",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50556157",
+   "author": "layoric",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50556525",
+   "author": "nandanadileep29",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50556607",
+   "author": "socalgal2",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50556622",
+   "author": "trenchgun",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50556863",
+   "author": "ehsankia",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50556869",
+   "author": "ehsankia",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50556934",
+   "author": "javierluraschi",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50557528",
+   "author": "blfr",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50557684",
+   "author": "bob1029",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50557922",
+   "author": "vidarh",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50557992",
+   "author": "aenis",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50558461",
+   "author": "InsideOutSanta",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50558501",
+   "author": "wouldbecouldbe",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50558513",
+   "author": "irthomasthomas",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50558535",
+   "author": "Snibz",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50558553",
+   "author": "etrommer",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50559096",
+   "author": "DeathArrow",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "hn",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50559108",
+   "author": "chrisweekly",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xwrzpn/how_to_use_this_damn_tool_fable_52_opus_55/",
+   "author": "KalinVidinski",
+   "date": "2026-11-15",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xwvxf6/fable_52_vs_opus_55/",
+   "author": "IllustriousGrade7691",
+   "date": "2026-11-15",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xwx54m/do_programmars_have_any_future/",
+   "author": "HalfHumanHalfFork",
+   "date": "2026-11-15",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xwyqrd/first_timer_making_a_game_need_advice_on_qa/",
+   "author": "Buena_de_peepee",
+   "date": "2026-11-15",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xwyz3g/your_process_for_massive_or_complex_projects/",
+   "author": "VariationCalm1398",
+   "date": "2026-11-15",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xx00d9/combining_antigravity_claude_code/",
+   "author": "Spaceman776",
+   "date": "2026-11-15",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xx4f3i/imagine_opus_60_not_being_more_intelligent_but/",
+   "author": "iTz0007",
+   "date": "2026-11-15",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xx4hm5/opus_55_become_worse_and_needs_a_lot_of_token/",
+   "author": "aspirin9001",
+   "date": "2026-11-15",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xx7kdf/i_need_advise/",
+   "author": "DziungliuVelnes",
+   "date": "2026-11-15",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xx9yff/opus_55_restrictions/",
+   "author": "Chemical-Collar8895",
+   "date": "2026-11-15",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xxab5h/security_problem_on_opus/",
+   "author": "Chemical-Collar8895",
+   "date": "2026-11-15",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xxc8jt/is_there_a_way_to_hide_the_clawd_mascot_welcome/",
+   "author": "foolishbrat",
+   "date": "2026-11-16",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xxeq78/i_just_caught_the_fact_that_somehow_opus_55/",
+   "author": "LordLederhosen",
+   "date": "2026-11-16",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xxi29c/wtf_happened_to_opus_55/",
+   "author": "WhereIsWebb",
+   "date": "2026-11-16",
+   "status": "accepted"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xxlcaz/fable_52_or_opus_55_ex_high/",
+   "author": "r_no_one",
+   "date": "2026-11-16",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xxlece/fable_52_knowledge_cutoff_is_june_2026_same_as/",
+   "author": "simple_explorer1",
+   "date": "2026-11-16",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xxpfxk/value_im_getting_from_a_20_claude_plan/",
+   "author": "jastice",
+   "date": "2026-11-16",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xxsqu4/after_burning_tokens_with_fable_52_i_appreciate/",
+   "author": "BazzerBiller",
+   "date": "2026-11-16",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xxsuug/i_built_a_roman_gladiator_management_game_with/",
+   "author": "StarDrifterG",
+   "date": "2026-11-16",
+   "status": "accepted"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xxtb2r/definite_measurement_of_claude_max_quota_actually/",
+   "author": "hhspiny",
+   "date": "2026-11-16",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xxx1s3/test_radio_boxes_for_noise_analysis_and_reduction/",
+   "author": "codeedog",
+   "date": "2026-11-16",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xxyomz/i_made_a_claude_code_output_style_thats_more/",
+   "author": "ilien-dev",
+   "date": "2026-11-16",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xy1t1d/opus_55_has_genuinely_gotten_so_dumb_since_fable/",
+   "author": "zoopesh",
+   "date": "2026-11-16",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xy413d/anyone_else_feel_like_the_app_is_starting_to/",
+   "author": "Powerful_Ad_3745",
+   "date": "2026-11-16",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xy4zwk/how_to_check_whether_your_weekly_limit_shrank/",
+   "author": "WuM1ha1nho",
+   "date": "2026-11-16",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xy65aj/the_decline_of_opus_55_when_ai_stops_being_a_tool/",
+   "author": "Eliasbdm",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xy80px/just_learnt_how_i_can_get_more_with_opus_55/",
+   "author": "Funny-Future6224",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xy8ba7/the_usage_on_opus_55_xhigh_is_so_damn_low/",
+   "author": "LocoPwnify",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xybijc/cannot_access_fable_52_inside_xcode_claude_agent/",
+   "author": "jongalt75",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xyhkrt/opus_is_big_meh_not_good_yet/",
+   "author": "loa202",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xyk8vq/claude_fable_52_more_hype_than_breakthrough/",
+   "author": "Bubbly-Birthday-1790",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xyl06o/code_audit_fable_52_med_vs_opus_55_high_vs_codex/",
+   "author": "Dapper-Tradition-893",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xyl92t/cost_increase_since_today/",
+   "author": "SeventhChorder",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xylbxy/benchmarking_opus_55_vs_fable_52_as_reviewers/",
+   "author": "domo__knows",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xylf2m/benchmarking_fable_52_vs_opus_55/",
+   "author": "domo__knows",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xym2pj/what_has_happened_to_claude_code/",
+   "author": "Ralphisinthehouse",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xymlbp/fable_52_is_very_good/",
+   "author": "EarlyFox217",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xyn6u4/how_to_align_claude/",
+   "author": "Prestigious_Judge_57",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xyp4h6/mildly_interesting_oneshotprompting/",
+   "author": "rent-a-developer",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xyrvow/im_in_love_with_opus_55_their_usages/",
+   "author": "Puspendra007",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xysw2v/sol_62_and_astra_62_just_released/",
+   "author": "Standard_Exchange59",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xyt067/will_it_possible_gpt_62_sol_low_can_beat_opus_55/",
+   "author": "Alex-Stack",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xyutjq/improvingfixing_tw_attilas_slow_functions/",
+   "author": "ArshiaTN",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xyx9rf/usage_going_fast_this_week/",
+   "author": "Wild-Sheepherder3085",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xyxsmr/built_a_game_simulating_british_rail/",
+   "author": "IllustriousWedding94",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xyxtjh/is_there_a_huge_difference_between_medium_high/",
+   "author": "Legal_Suggestion4873",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xyycdz/i_committed_a_cardinal_sin_i_gave_claude_root_on/",
+   "author": "looneycheetah",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xyynvc/did_you_tried_building_shopify_apps_using_opus_55/",
+   "author": "IllustriousGrade7691",
+   "date": "2026-11-17",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xz2c51/claudes_old_voice_is_back_and_i_love_it/",
+   "author": "Lolcincylol",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xz5hxe/how_does_account_switching_work_on_mac_claude_code/",
+   "author": "Revolutionary_Set219",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xz6tkw/astra_62_vs_opus_55_task_retopology_a_3d_model/",
+   "author": "PantsuHero96",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xz7589/roast_my_designmock_up_workflow_because_my_output/",
+   "author": "_Zeion",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xz7rtr/i_built_a_free_quest_3_music_app_17_visual_worlds/",
+   "author": "probello",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xz8rkg/tested_a_claudemd_verification_section_plus_a/",
+   "author": "vinishkapoor",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xzasgr/claude_code_agent_working_well_after_hitting/",
+   "author": "Long_Command5253",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xzfn4w/claude_code_helped_me_create_an_ai_design_tool/",
+   "author": "JannVanDam",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xzhmhe/i_built_a_claude_code_plugin_with_two_claude_code/",
+   "author": "QuickShibMoon",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xzhmmp/showing_usage_tokens_estimation/",
+   "author": "Desperate_Cook_8880",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xzix1u/i_built_a_music_app_for_my_vinyl_dj_channels/",
+   "author": "WesternBird447",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xzksnb/fable_52_vs_opus_55_in_claude_code_same_oneline/",
+   "author": "cosmintrica",
+   "date": "2026-11-18",
+   "status": "accepted"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xzpbp6/do_anyone_feel_that_62_sol_is_good_but_not_as/",
+   "author": "IndependentCoast3974",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xzqhx0/update_opus_55_opened_50_more_businesses_as/",
+   "author": "LordKittyPanther",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xzr3j2/help_with_codingreview_setup/",
+   "author": "InsideOutside-1",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xzszb1/dont_get_too_invested_in_the_anthropic_ipo/",
+   "author": "warlordthe99th",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xzup08/i_asked_claude_code_opus_55_to_make_a_24_s_launch/",
+   "author": "Szymeo",
+   "date": "2026-11-18",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xzwzlv/made_x86_windows_emulator_which_runs_age_of/",
+   "author": "vgrichina",
+   "date": "2026-11-19",
+   "status": "accepted"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xzzgua/why_do_you_need_fable_52/",
+   "author": "ConferenceOld6778",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1y00m25/opus_55_inconsistency_between_sessions/",
+   "author": "I-amKira",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1y02rjk/opus_55_degradation/",
+   "author": "RingGroundbreaking99",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1y02tbx/anyone_finding_fable_52_brittle_when_dealing_with/",
+   "author": "angry_cactus",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "reddit",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1y05nk3/is_this_normal/",
+   "author": "AdNo6324",
+   "date": "2026-11-19",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/karpathy/status/2116957135661945283",
+   "author": "karpathy",
+   "date": "Sun Nov 01 18:14:46 +0000 2026",
+   "status": "accepted"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Polymarket/status/2122719957356253463",
+   "author": "Polymarket",
+   "date": "Tue Nov 17 15:54:10 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/xikhar/status/2117776295534997818",
+   "author": "xikhar",
+   "date": "Wed Nov 04 00:29:49 +0000 2026",
+   "status": "accepted"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Motion_Viz/status/2121714591873056806",
+   "author": "Motion_Viz",
+   "date": "Sat Nov 14 21:19:12 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/el1xx_td/status/2115504699868696613",
+   "author": "el1xx_td",
+   "date": "Wed Oct 28 18:03:19 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/chetaslua/status/2117169796290916732",
+   "author": "chetaslua",
+   "date": "Mon Nov 02 08:19:49 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/e1genqq/status/2116270712390316375",
+   "author": "e1genqq",
+   "date": "Fri Oct 30 20:47:10 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/thenickmoy/status/2122886989569819031",
+   "author": "thenickmoy",
+   "date": "Wed Nov 18 02:57:54 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/arafune/status/2118582485412131107",
+   "author": "arafune",
+   "date": "Fri Nov 06 05:53:20 +0000 2026",
+   "status": "accepted"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Y0urDumble/status/2119023461267833047",
+   "author": "Y0urDumble",
+   "date": "Sat Nov 07 11:05:37 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/TekonBurns/status/2116957832692347153",
+   "author": "TekonBurns",
+   "date": "Sun Nov 01 18:17:33 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/N01ennn/status/2115068439052030202",
+   "author": "N01ennn",
+   "date": "Tue Oct 27 13:09:46 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/elvar_official/status/2116192984299344372",
+   "author": "elvar_official",
+   "date": "Fri Oct 30 15:38:19 +0000 2026",
+   "status": "accepted"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Cointelegraph/status/2120290620249944172",
+   "author": "Cointelegraph",
+   "date": "Tue Nov 10 23:00:51 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/eng_khairallah1/status/2116501187763773907",
+   "author": "eng_khairallah1",
+   "date": "Sat Oct 31 12:03:00 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Nexoxh/status/2119823326080065850",
+   "author": "Nexoxh",
+   "date": "Mon Nov 09 16:04:00 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/angeldot_/status/2117231967905141038",
+   "author": "angeldot_",
+   "date": "Mon Nov 02 12:26:52 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/0xCodez/status/2114762819371680110",
+   "author": "0xCodez",
+   "date": "Mon Oct 26 16:55:21 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/HoodieFade_/status/2118010863038746652",
+   "author": "HoodieFade_",
+   "date": "Wed Nov 04 16:01:55 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/chetaslua/status/2119353034165891308",
+   "author": "chetaslua",
+   "date": "Sun Nov 08 08:55:13 +0000 2026",
+   "status": "accepted"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/shanemelaugh/status/2119192075505893695",
+   "author": "shanemelaugh",
+   "date": "Sat Nov 07 22:15:38 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/jiggywastaken/status/2119513679884689691",
+   "author": "jiggywastaken",
+   "date": "Sun Nov 08 19:33:34 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/theo/status/2119191237320384666",
+   "author": "theo",
+   "date": "Sat Nov 07 22:12:18 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/igus_ai/status/2118072394753376410",
+   "author": "igus_ai",
+   "date": "Wed Nov 04 20:06:25 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/fuji_ai_/status/2117957583957004361",
+   "author": "fuji_ai_",
+   "date": "Wed Nov 04 12:30:12 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/basit_designs/status/2117543338794782788",
+   "author": "basit_designs",
+   "date": "Tue Nov 03 09:04:08 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/AWuhrmann/status/2122706838005440651",
+   "author": "AWuhrmann",
+   "date": "Tue Nov 17 15:02:02 +0000 2026",
+   "status": "accepted"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/anxuanng/status/2116504653215248436",
+   "author": "anxuanng",
+   "date": "Sat Oct 31 12:16:46 +0000 2026",
+   "status": "accepted"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/e1genqq/status/2116740739929379038",
+   "author": "e1genqq",
+   "date": "Sun Nov 01 03:54:54 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/txbrraa/status/2116869766745092377",
+   "author": "txbrraa",
+   "date": "Sun Nov 01 12:27:36 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/LexnLin/status/2119558994352304202",
+   "author": "LexnLin",
+   "date": "Sun Nov 08 22:33:38 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/0xwhrrari/status/2105643919119696297",
+   "author": "0xwhrrari",
+   "date": "Thu Oct 01 13:00:05 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/gregisenberg/status/2116990224257491106",
+   "author": "gregisenberg",
+   "date": "Sun Nov 01 20:26:15 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/SimonHoiberg/status/2120132843669979347",
+   "author": "SimonHoiberg",
+   "date": "Tue Nov 10 12:33:54 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/sammcallister/status/2114455488884863071",
+   "author": "sammcallister",
+   "date": "Sun Oct 25 20:34:07 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/xikhar/status/2122682962647122403",
+   "author": "xikhar",
+   "date": "Tue Nov 17 13:27:10 +0000 2026",
+   "status": "accepted"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/DilumSanjaya/status/2114762155333689679",
+   "author": "DilumSanjaya",
+   "date": "Mon Oct 26 16:52:42 +0000 2026",
+   "status": "accepted"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/treyscalez/status/2119187113484722477",
+   "author": "treyscalez",
+   "date": "Sat Nov 07 21:55:55 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Kawa_GameDev/status/2121448974137856201",
+   "author": "Kawa_GameDev",
+   "date": "Sat Nov 14 03:43:44 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/MengTo/status/2119746949121495303",
+   "author": "MengTo",
+   "date": "Mon Nov 09 11:00:30 +0000 2026",
+   "status": "accepted"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/beamnxw/status/2119055403312967690",
+   "author": "beamnxw",
+   "date": "Sat Nov 07 13:12:32 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/RamSingh_369/status/2116759364388471285",
+   "author": "RamSingh_369",
+   "date": "Sun Nov 01 05:08:54 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Y0urDumble/status/2119793194435027220",
+   "author": "Y0urDumble",
+   "date": "Mon Nov 09 14:04:16 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/beamnxw/status/2107522996046905797",
+   "author": "beamnxw",
+   "date": "Tue Oct 06 17:26:52 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/davidbessis/status/2122298127785066847",
+   "author": "davidbessis",
+   "date": "Mon Nov 16 11:57:58 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/plusxbt/status/2122312123183235554",
+   "author": "plusxbt",
+   "date": "Mon Nov 16 12:53:35 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/MatthewBerman/status/2122563881986064773",
+   "author": "MatthewBerman",
+   "date": "Tue Nov 17 05:33:59 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Ssr360535694/status/2122934850407510386",
+   "author": "Ssr360535694",
+   "date": "Wed Nov 18 06:08:05 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/benyuls/status/2119100579855147181",
+   "author": "benyuls",
+   "date": "Sat Nov 07 16:12:03 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/theozguratillay/status/2117165062125215871",
+   "author": "theozguratillay",
+   "date": "Mon Nov 02 08:01:00 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/maxt3chno/status/2103960867327115462",
+   "author": "maxt3chno",
+   "date": "Sat Sep 26 21:32:15 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/kimmonismus/status/2115457559897546829",
+   "author": "kimmonismus",
+   "date": "Wed Oct 28 14:56:00 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/flxrnc/status/2117318336837017846",
+   "author": "flxrnc",
+   "date": "Mon Nov 02 18:10:04 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/LexnLin/status/2119880654858977333",
+   "author": "LexnLin",
+   "date": "Mon Nov 09 19:51:48 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/maxt3chno/status/2119135579673665804",
+   "author": "maxt3chno",
+   "date": "Sat Nov 07 18:31:08 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/noahmorris/status/2122344648220017101",
+   "author": "noahmorris",
+   "date": "Mon Nov 16 15:02:50 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/robiartec/status/2121273917361045877",
+   "author": "robiartec",
+   "date": "Fri Nov 13 16:08:07 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/bei351009016/status/2119278569314779339",
+   "author": "bei351009016",
+   "date": "Sun Nov 08 03:59:19 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/0xwhrrari/status/2117240315069276186",
+   "author": "0xwhrrari",
+   "date": "Mon Nov 02 13:00:02 +0000 2026",
+   "status": "accepted"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/MengTo/status/2119103146974957675",
+   "author": "MengTo",
+   "date": "Sat Nov 07 16:22:15 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/ANAg2bGOD/status/2122863788978557081",
+   "author": "ANAg2bGOD",
+   "date": "Wed Nov 18 01:25:42 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/rachiitgr/status/2116982774846419287",
+   "author": "rachiitgr",
+   "date": "Sun Nov 01 19:56:39 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/e1genqq/status/2120988126113931729",
+   "author": "e1genqq",
+   "date": "Thu Nov 12 21:12:29 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Y0urDumble/status/2120197632500887856",
+   "author": "Y0urDumble",
+   "date": "Tue Nov 10 16:51:21 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/LexnLin/status/2117230395406364857",
+   "author": "LexnLin",
+   "date": "Mon Nov 02 12:20:37 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/kirillk_web3/status/2116943103634624787",
+   "author": "kirillk_web3",
+   "date": "Sun Nov 01 17:19:01 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/RajAdonis/status/2120061617421664667",
+   "author": "RajAdonis",
+   "date": "Tue Nov 10 07:50:53 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/callumhyman24/status/2119698827728810127",
+   "author": "callumhyman24",
+   "date": "Mon Nov 09 07:49:17 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/seeconvm/status/2115056349235052776",
+   "author": "seeconvm",
+   "date": "Tue Oct 27 12:21:44 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/pcshipp/status/2121905679044923580",
+   "author": "pcshipp",
+   "date": "Sun Nov 15 09:58:31 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/JamesC_Alpha/status/2122072336698585543",
+   "author": "JamesC_Alpha",
+   "date": "Sun Nov 15 21:00:45 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/flxrnc/status/2121216542574567842",
+   "author": "flxrnc",
+   "date": "Fri Nov 13 12:20:08 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/AlexPi194641/status/2120248196584648758",
+   "author": "AlexPi194641",
+   "date": "Tue Nov 10 20:12:17 +0000 2026",
+   "status": "accepted"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/rehan_shei/status/2116062680121540611",
+   "author": "rehan_shei",
+   "date": "Fri Oct 30 07:00:32 +0000 2026",
+   "status": "accepted"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/vib3coded/status/2119542001775628299",
+   "author": "vib3coded",
+   "date": "Sun Nov 08 21:26:07 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/developedbyed/status/2119898145777983634",
+   "author": "developedbyed",
+   "date": "Mon Nov 09 21:01:18 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/anxuanng/status/2116773570663809364",
+   "author": "anxuanng",
+   "date": "Sun Nov 01 06:05:21 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/gregisenberg/status/2117250560202035509",
+   "author": "gregisenberg",
+   "date": "Mon Nov 02 13:40:44 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/SimonHoiberg/status/2114600840480866343",
+   "author": "SimonHoiberg",
+   "date": "Mon Oct 26 06:11:42 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/callumhyman24/status/2119948146474418588",
+   "author": "callumhyman24",
+   "date": "Tue Nov 10 00:19:59 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/seeconvm/status/2116502065950441554",
+   "author": "seeconvm",
+   "date": "Sat Oct 31 12:06:29 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/shikamarutsai/status/2117318031772647765",
+   "author": "shikamarutsai",
+   "date": "Mon Nov 02 18:08:51 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/eng_khairallah1/status/2117950857132282358",
+   "author": "eng_khairallah1",
+   "date": "Wed Nov 04 12:03:28 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Y0urDumble/status/2119456820758524021",
+   "author": "Y0urDumble",
+   "date": "Sun Nov 08 15:47:38 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/tivollem/status/2119327911521984639",
+   "author": "tivollem",
+   "date": "Sun Nov 08 07:15:23 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/0xKense1/status/2116999596299657492",
+   "author": "0xKense1",
+   "date": "Sun Nov 01 21:03:30 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/flxrnc/status/2116870398360830183",
+   "author": "flxrnc",
+   "date": "Sun Nov 01 12:30:07 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/ErnestoSOFTWARE/status/2118352769534894202",
+   "author": "ErnestoSOFTWARE",
+   "date": "Thu Nov 05 14:40:32 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/liambraus/status/2119106429185634369",
+   "author": "liambraus",
+   "date": "Sat Nov 07 16:35:18 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/beamnxw/status/2108616740846420354",
+   "author": "beamnxw",
+   "date": "Fri Oct 09 17:53:01 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/hurricodes/status/2119007894830285248",
+   "author": "hurricodes",
+   "date": "Sat Nov 07 10:03:46 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/argofowl/status/2119867622108066283",
+   "author": "argofowl",
+   "date": "Mon Nov 09 19:00:01 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/bnj/status/2118113244405739725",
+   "author": "bnj",
+   "date": "Wed Nov 04 22:48:44 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/eng_khairallah1/status/2118313226471694508",
+   "author": "eng_khairallah1",
+   "date": "Thu Nov 05 12:03:24 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/HeLi8866/status/2118944700996743538",
+   "author": "HeLi8866",
+   "date": "Sat Nov 07 05:52:39 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Aygramm_/status/2115166136212111369",
+   "author": "Aygramm_",
+   "date": "Tue Oct 27 19:37:59 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/0xnicc0/status/2117592218663784631",
+   "author": "0xnicc0",
+   "date": "Tue Nov 03 12:18:22 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/kevserctk/status/2120087191887970536",
+   "author": "kevserctk",
+   "date": "Tue Nov 10 09:32:30 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/eng_khairallah1/status/2104868464770863565",
+   "author": "eng_khairallah1",
+   "date": "Tue Sep 29 09:38:43 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/gelorria/status/2117966866081874348",
+   "author": "gelorria",
+   "date": "Wed Nov 04 13:07:05 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/trymirage/status/2118054387209925032",
+   "author": "trymirage",
+   "date": "Wed Nov 04 18:54:52 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/KleosOperator/status/2123088677404385568",
+   "author": "KleosOperator",
+   "date": "Wed Nov 18 16:19:20 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/laurgrowth/status/2123097748509794544",
+   "author": "laurgrowth",
+   "date": "Wed Nov 18 16:55:23 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/eng_khairallah1/status/2119038873825374278",
+   "author": "eng_khairallah1",
+   "date": "Sat Nov 07 12:06:52 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/kristerssulckis/status/2117947953897762899",
+   "author": "kristerssulckis",
+   "date": "Wed Nov 04 11:51:56 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/hakimieiqbal/status/2121242111538536900",
+   "author": "hakimieiqbal",
+   "date": "Fri Nov 13 14:01:44 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Lyelac_/status/2122319352288399616",
+   "author": "Lyelac_",
+   "date": "Mon Nov 16 13:22:19 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Sownjuinho/status/2122347049651720260",
+   "author": "Sownjuinho",
+   "date": "Mon Nov 16 15:12:22 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/beamnxw/status/2121964983319761118",
+   "author": "beamnxw",
+   "date": "Sun Nov 15 13:54:10 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/cyrilXBT/status/2116764682556145809",
+   "author": "cyrilXBT",
+   "date": "Sun Nov 01 05:30:02 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/chetanankola/status/2117536810184438037",
+   "author": "chetanankola",
+   "date": "Tue Nov 03 08:38:12 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/renproton/status/2117301447037731189",
+   "author": "renproton",
+   "date": "Mon Nov 02 17:02:57 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/AventusXcom/status/2121500275668377695",
+   "author": "AventusXcom",
+   "date": "Sat Nov 14 07:07:35 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/netgraphicss/status/2120860182901305465",
+   "author": "netgraphicss",
+   "date": "Thu Nov 12 12:44:05 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/maxt3chno/status/2121296570872107145",
+   "author": "maxt3chno",
+   "date": "Fri Nov 13 17:38:08 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/e1genqq/status/2122435244028542995",
+   "author": "e1genqq",
+   "date": "Mon Nov 16 21:02:49 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Kubai087/status/2117605750474428446",
+   "author": "Kubai087",
+   "date": "Tue Nov 03 13:12:08 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/knowledgefxg/status/2122684750192325055",
+   "author": "knowledgefxg",
+   "date": "Tue Nov 17 13:34:16 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Aygramm_/status/2116663090364465534",
+   "author": "Aygramm_",
+   "date": "Sat Oct 31 22:46:21 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/N01ennn/status/2110319993128706208",
+   "author": "N01ennn",
+   "date": "Wed Oct 14 10:41:08 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/DavidOndrej1/status/2122107570538082502",
+   "author": "DavidOndrej1",
+   "date": "Sun Nov 15 23:20:46 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/cyrilXBT/status/2120021709189501314",
+   "author": "cyrilXBT",
+   "date": "Tue Nov 10 05:12:18 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/beamnxw/status/2120940830521229768",
+   "author": "beamnxw",
+   "date": "Thu Nov 12 18:04:33 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/anxuanng/status/2116911893344383252",
+   "author": "anxuanng",
+   "date": "Sun Nov 01 15:15:00 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/0xKense1/status/2119916096098582566",
+   "author": "0xKense1",
+   "date": "Mon Nov 09 22:12:38 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/grgerwcwetwet/status/2121571212526817516",
+   "author": "grgerwcwetwet",
+   "date": "Sat Nov 14 11:49:28 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/notjazii/status/2116893197939224714",
+   "author": "notjazii",
+   "date": "Sun Nov 01 14:00:43 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/eng_khairallah1/status/2117595433287786621",
+   "author": "eng_khairallah1",
+   "date": "Tue Nov 03 12:31:08 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/rewind02/status/2117949982586069461",
+   "author": "rewind02",
+   "date": "Wed Nov 04 12:00:00 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Grirku/status/2119142625655800060",
+   "author": "Grirku",
+   "date": "Sat Nov 07 18:59:08 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/neviannn/status/2119538130470457833",
+   "author": "neviannn",
+   "date": "Sun Nov 08 21:10:44 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/LexnLin/status/2121634005745635683",
+   "author": "LexnLin",
+   "date": "Sat Nov 14 15:58:59 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/MengTo/status/2120746846402564163",
+   "author": "MengTo",
+   "date": "Thu Nov 12 05:13:44 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/imjustnewatai/status/2123174066970296344",
+   "author": "imjustnewatai",
+   "date": "Wed Nov 18 21:58:38 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/robiartec/status/2117056966153392316",
+   "author": "robiartec",
+   "date": "Mon Nov 02 00:51:28 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/0xnicc0/status/2116510560359743530",
+   "author": "0xnicc0",
+   "date": "Sat Oct 31 12:40:15 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/dyfwsammy/status/2119081781198553269",
+   "author": "dyfwsammy",
+   "date": "Sat Nov 07 14:57:21 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/cabbitar/status/2120451008211952084",
+   "author": "cabbitar",
+   "date": "Wed Nov 11 09:38:11 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Aygramm_/status/2118074468295700937",
+   "author": "Aygramm_",
+   "date": "Wed Nov 04 20:14:39 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/beamnxw/status/2117972857632227765",
+   "author": "beamnxw",
+   "date": "Wed Nov 04 13:30:53 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/exploraX_/status/2116620580644413525",
+   "author": "exploraX_",
+   "date": "Sat Oct 31 19:57:25 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/warraich_Ai2/status/2117798747824681005",
+   "author": "warraich_Ai2",
+   "date": "Wed Nov 04 01:59:02 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/aricccq/status/2121916952134463637",
+   "author": "aricccq",
+   "date": "Sun Nov 15 10:43:19 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/m4lkxx/status/2119124947821883511",
+   "author": "m4lkxx",
+   "date": "Sat Nov 07 17:48:53 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/csaba_kissi/status/2120855435230187993",
+   "author": "csaba_kissi",
+   "date": "Thu Nov 12 12:25:14 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/e1genqq/status/2122081757101223992",
+   "author": "e1genqq",
+   "date": "Sun Nov 15 21:38:11 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/ch3nweiii/status/2118366317871038771",
+   "author": "ch3nweiii",
+   "date": "Thu Nov 05 15:34:22 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/GitHub_Daily/status/2115994649861235132",
+   "author": "GitHub_Daily",
+   "date": "Fri Oct 30 02:30:12 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/m4lkxx/status/2116504147465757161",
+   "author": "m4lkxx",
+   "date": "Sat Oct 31 12:14:46 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Hamzaa_i/status/2121165425052402063",
+   "author": "Hamzaa_i",
+   "date": "Fri Nov 13 08:57:01 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/neviannn/status/2121569899457708189",
+   "author": "neviannn",
+   "date": "Sat Nov 14 11:44:15 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/hurricodes/status/2116523409165205964",
+   "author": "hurricodes",
+   "date": "Sat Oct 31 13:31:18 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/hayatomaruu/status/2121237261593239965",
+   "author": "hayatomaruu",
+   "date": "Fri Nov 13 13:42:28 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/mischavdburg/status/2116562855361237129",
+   "author": "mischavdburg",
+   "date": "Sat Oct 31 16:08:03 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/minheo93698092/status/2121484305545478387",
+   "author": "minheo93698092",
+   "date": "Sat Nov 14 06:04:08 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/holegots/status/2120808612612456561",
+   "author": "holegots",
+   "date": "Thu Nov 12 09:19:10 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/exploraX_/status/2122714974980116893",
+   "author": "exploraX_",
+   "date": "Tue Nov 17 15:34:22 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/imryven/status/2114112227447877797",
+   "author": "imryven",
+   "date": "Sat Oct 24 21:50:07 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/BrittaniNatali/status/2116206474959684042",
+   "author": "BrittaniNatali",
+   "date": "Fri Oct 30 16:31:55 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/0xclayo/status/2121631245037682817",
+   "author": "0xclayo",
+   "date": "Sat Nov 14 15:48:01 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/MaxHirsch13/status/2122751981064171798",
+   "author": "MaxHirsch13",
+   "date": "Tue Nov 17 18:01:25 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/RyanSael/status/2122324810223304734",
+   "author": "RyanSael",
+   "date": "Mon Nov 16 13:44:00 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/0xclayo/status/2111079749342675440",
+   "author": "0xclayo",
+   "date": "Fri Oct 16 13:00:08 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/JamesC_Alpha/status/2122661607369265589",
+   "author": "JamesC_Alpha",
+   "date": "Tue Nov 17 12:02:18 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/mkdir700/status/2122326443611103623",
+   "author": "mkdir700",
+   "date": "Mon Nov 16 13:50:29 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/renproton/status/2120927764601848210",
+   "author": "renproton",
+   "date": "Thu Nov 12 17:12:38 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/bozhou_ai/status/2122297231126761686",
+   "author": "bozhou_ai",
+   "date": "Mon Nov 16 11:54:24 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Yarad_ai/status/2122015648524202023",
+   "author": "Yarad_ai",
+   "date": "Sun Nov 15 17:15:30 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/csaba_kissi/status/2121665294875894082",
+   "author": "csaba_kissi",
+   "date": "Sat Nov 14 18:03:19 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/csaba_kissi/status/2120919476174827528",
+   "author": "csaba_kissi",
+   "date": "Thu Nov 12 16:39:42 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/renproton/status/2121313004562337938",
+   "author": "renproton",
+   "date": "Fri Nov 13 18:43:27 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/konstantinsaifo/status/2121097161589039470",
+   "author": "konstantinsaifo",
+   "date": "Fri Nov 13 04:25:46 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/tobiadonadon_/status/2121013212649038272",
+   "author": "tobiadonadon_",
+   "date": "Thu Nov 12 22:52:11 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/vercel/status/2123376276845269201",
+   "author": "vercel",
+   "date": "Thu Nov 19 11:22:09 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/neviannn/status/2119723995276689735",
+   "author": "neviannn",
+   "date": "Mon Nov 09 09:29:17 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/gippp69/status/2122654943362314331",
+   "author": "gippp69",
+   "date": "Tue Nov 17 11:35:50 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/UnTalNixon_exe/status/2122065751490068954",
+   "author": "UnTalNixon_exe",
+   "date": "Sun Nov 15 20:34:35 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/gclue_akira/status/2119395836140601791",
+   "author": "gclue_akira",
+   "date": "Sun Nov 08 11:45:18 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/0xArvan/status/2122187697464754392",
+   "author": "0xArvan",
+   "date": "Mon Nov 16 04:39:10 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Y0urDumble/status/2120882634196652385",
+   "author": "Y0urDumble",
+   "date": "Thu Nov 12 14:13:18 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/solenlive/status/2121362833375986080",
+   "author": "solenlive",
+   "date": "Fri Nov 13 22:01:27 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/renproton/status/2122042162133287141",
+   "author": "renproton",
+   "date": "Sun Nov 15 19:00:51 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/waylybaye/status/2123303865865158906",
+   "author": "waylybaye",
+   "date": "Thu Nov 19 06:34:25 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/0xclayo/status/2123016316353155192",
+   "author": "0xclayo",
+   "date": "Wed Nov 18 11:31:48 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/freemilk_ai/status/2121664053034807324",
+   "author": "freemilk_ai",
+   "date": "Sat Nov 14 17:58:23 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/karanC_12/status/2122156648475332686",
+   "author": "karanC_12",
+   "date": "Mon Nov 16 02:35:47 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/0xclayo/status/2122657306429014478",
+   "author": "0xclayo",
+   "date": "Tue Nov 17 11:45:13 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/theozguratillay/status/2123068722730672173",
+   "author": "theozguratillay",
+   "date": "Wed Nov 18 15:00:02 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Yumzlef/status/2122012376979644654",
+   "author": "Yumzlef",
+   "date": "Sun Nov 15 17:02:30 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/choopyplug1/status/2122435713597898755",
+   "author": "choopyplug1",
+   "date": "Mon Nov 16 21:04:41 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/cyrilXBT/status/2121464397830996359",
+   "author": "cyrilXBT",
+   "date": "Sat Nov 14 04:45:02 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/brad_frost/status/2123091499504038333",
+   "author": "brad_frost",
+   "date": "Wed Nov 18 16:30:33 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/petergyang/status/2121286290629107967",
+   "author": "petergyang",
+   "date": "Fri Nov 13 16:57:17 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/abir35627/status/2121916476273852848",
+   "author": "abir35627",
+   "date": "Sun Nov 15 10:41:25 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/NFT_Chen/status/2122197098812862715",
+   "author": "NFT_Chen",
+   "date": "Mon Nov 16 05:16:31 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/greghunkins/status/2122494740075512204",
+   "author": "greghunkins",
+   "date": "Tue Nov 17 00:59:14 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/replay_0x/status/2121360059909493184",
+   "author": "replay_0x",
+   "date": "Fri Nov 13 21:50:25 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/DevNotorious_/status/2120754545567416752",
+   "author": "DevNotorious_",
+   "date": "Thu Nov 12 05:44:20 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Grirku/status/2122794530365964336",
+   "author": "Grirku",
+   "date": "Tue Nov 17 20:50:30 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/ScarletKc/status/2121588103991488885",
+   "author": "ScarletKc",
+   "date": "Sat Nov 14 12:56:35 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/0xWhitemon/status/2119800574572925388",
+   "author": "0xWhitemon",
+   "date": "Mon Nov 09 14:33:35 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/plusxbt/status/2123356718818005018",
+   "author": "plusxbt",
+   "date": "Thu Nov 19 10:04:26 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/LingoTheVaas/status/2123369768237285555",
+   "author": "LingoTheVaas",
+   "date": "Thu Nov 19 10:56:17 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/runes_leo/status/2122209900151624069",
+   "author": "runes_leo",
+   "date": "Mon Nov 16 06:07:23 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/0xclayo/status/2122254909215007136",
+   "author": "0xclayo",
+   "date": "Mon Nov 16 09:06:14 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/replay_0x/status/2121579667412877816",
+   "author": "replay_0x",
+   "date": "Sat Nov 14 12:23:04 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Bagdex/status/2123356139077226527",
+   "author": "Bagdex",
+   "date": "Thu Nov 19 10:02:08 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/ayyoweb3/status/2121612365607407874",
+   "author": "ayyoweb3",
+   "date": "Sat Nov 14 14:33:00 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Stargridcompass/status/2121635969501688182",
+   "author": "Stargridcompass",
+   "date": "Sat Nov 14 16:06:47 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/0xWhitemon/status/2122347262428795143",
+   "author": "0xWhitemon",
+   "date": "Mon Nov 16 15:13:13 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/ItsCuthulhu/status/2123343082795999396",
+   "author": "ItsCuthulhu",
+   "date": "Thu Nov 19 09:10:15 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/BercusNA/status/2121296373702115796",
+   "author": "BercusNA",
+   "date": "Fri Nov 13 17:37:21 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/GHchangelog/status/2122434567940329551",
+   "author": "GHchangelog",
+   "date": "Mon Nov 16 21:00:08 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/cryptowluha/status/2121548954202493180",
+   "author": "cryptowluha",
+   "date": "Sat Nov 14 10:21:01 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/DevNotorious_/status/2123076353683579176",
+   "author": "DevNotorious_",
+   "date": "Wed Nov 18 15:30:22 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/PrismChemAI/status/2123363154625503694",
+   "author": "PrismChemAI",
+   "date": "Thu Nov 19 10:30:00 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/aresotik/status/2123388221623353662",
+   "author": "aresotik",
+   "date": "Thu Nov 19 12:09:37 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/angeisthere/status/2123167337360613505",
+   "author": "angeisthere",
+   "date": "Wed Nov 18 21:31:54 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/JamesMalsawm/status/2123378255176867846",
+   "author": "JamesMalsawm",
+   "date": "Thu Nov 19 11:30:01 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/TypingMindApp/status/2123370252482572447",
+   "author": "TypingMindApp",
+   "date": "Thu Nov 19 10:58:13 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Trundur/status/2120958183522836729",
+   "author": "Trundur",
+   "date": "Thu Nov 12 19:13:31 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/xluchuan/status/2123379656573563349",
+   "author": "xluchuan",
+   "date": "Thu Nov 19 11:35:35 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/konstantinsaifo/status/2123316594956775793",
+   "author": "konstantinsaifo",
+   "date": "Thu Nov 19 07:25:00 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/allanktumu/status/2123166235919536285",
+   "author": "allanktumu",
+   "date": "Wed Nov 18 21:27:31 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/laopai1990/status/2121792351492575479",
+   "author": "laopai1990",
+   "date": "Sun Nov 15 02:28:12 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/0xnoonez/status/2123017771113988177",
+   "author": "0xnoonez",
+   "date": "Wed Nov 18 11:37:35 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/kirisando/status/2123171878432874749",
+   "author": "kirisando",
+   "date": "Wed Nov 18 21:49:57 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/efferdco/status/2123310310891413637",
+   "author": "efferdco",
+   "date": "Thu Nov 19 07:00:01 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/gxjo_dev/status/2121102530981822598",
+   "author": "gxjo_dev",
+   "date": "Fri Nov 13 04:47:06 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/yusukelp/status/2121709761054085145",
+   "author": "yusukelp",
+   "date": "Sat Nov 14 21:00:01 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/allanktumu/status/2123272556660850730",
+   "author": "allanktumu",
+   "date": "Thu Nov 19 04:30:00 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/AlinaWan98/status/2123308887172354430",
+   "author": "AlinaWan98",
+   "date": "Thu Nov 19 06:54:22 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/zhuxufng154415/status/2123373808329625891",
+   "author": "zhuxufng154415",
+   "date": "Thu Nov 19 11:12:20 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Xingeai/status/2123017118190841944",
+   "author": "Xingeai",
+   "date": "Wed Nov 18 11:34:59 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Ansyn_07/status/2123300500921885128",
+   "author": "Ansyn_07",
+   "date": "Thu Nov 19 06:21:03 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Palak3312/status/2123368324600066168",
+   "author": "Palak3312",
+   "date": "Thu Nov 19 10:50:33 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/kamkmgamer/status/2123378977498653093",
+   "author": "kamkmgamer",
+   "date": "Thu Nov 19 11:32:53 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/AsumaCodes/status/2121213597082943850",
+   "author": "AsumaCodes",
+   "date": "Fri Nov 13 12:08:26 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/AbhiCodes15/status/2121691761651363895",
+   "author": "AbhiCodes15",
+   "date": "Sat Nov 14 19:48:29 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/hii_studio_jp/status/2123332018461131141",
+   "author": "hii_studio_jp",
+   "date": "Thu Nov 19 08:26:17 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/wellzhiai/status/2123389471915942368",
+   "author": "wellzhiai",
+   "date": "Thu Nov 19 12:14:35 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/srikanthvaluri/status/2123315204343930908",
+   "author": "srikanthvaluri",
+   "date": "Thu Nov 19 07:19:28 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/johnHarry1018/status/2123386676391379039",
+   "author": "johnHarry1018",
+   "date": "Thu Nov 19 12:03:28 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/ahmedscen/status/2123363707283788157",
+   "author": "ahmedscen",
+   "date": "Thu Nov 19 10:32:12 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/HeyTIBai/status/2123382843426639957",
+   "author": "HeyTIBai",
+   "date": "Thu Nov 19 11:48:15 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Dav338876/status/2123389670881149162",
+   "author": "Dav338876",
+   "date": "Thu Nov 19 12:15:22 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/uisabor/status/2123394478853513496",
+   "author": "uisabor",
+   "date": "Thu Nov 19 12:34:29 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/PrismChemAI/status/2123378255000457341",
+   "author": "PrismChemAI",
+   "date": "Thu Nov 19 11:30:01 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/sophie_launch/status/2123319194511122554",
+   "author": "sophie_launch",
+   "date": "Thu Nov 19 07:35:19 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/simon_budziak/status/2123356189954129974",
+   "author": "simon_budziak",
+   "date": "Thu Nov 19 10:02:20 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/TheAIAgentRev/status/2123372056825770283",
+   "author": "TheAIAgentRev",
+   "date": "Thu Nov 19 11:05:23 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/wanshichuang/status/2123379685526818919",
+   "author": "wanshichuang",
+   "date": "Thu Nov 19 11:35:42 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/DebangshuSingh/status/2123385643439161602",
+   "author": "DebangshuSingh",
+   "date": "Thu Nov 19 11:59:22 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/SingularityScav/status/2123390479559696649",
+   "author": "SingularityScav",
+   "date": "Thu Nov 19 12:18:35 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/daniel2xyz/status/2123325443919241672",
+   "author": "daniel2xyz",
+   "date": "Thu Nov 19 08:00:09 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/melvindvivas/status/2123356006889791822",
+   "author": "melvindvivas",
+   "date": "Thu Nov 19 10:01:36 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Phavorism/status/2123361829007266125",
+   "author": "Phavorism",
+   "date": "Thu Nov 19 10:24:44 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/_bassen_/status/2123391389283270841",
+   "author": "_bassen_",
+   "date": "Thu Nov 19 12:22:12 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/trokhimchuk003/status/2123391506769944650",
+   "author": "trokhimchuk003",
+   "date": "Thu Nov 19 12:22:40 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/hua7248/status/2123394326751543755",
+   "author": "hua7248",
+   "date": "Thu Nov 19 12:33:52 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/lgvpid/status/2123394516858396955",
+   "author": "lgvpid",
+   "date": "Thu Nov 19 12:34:38 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/mzhid0x/status/2123262726738956769",
+   "author": "mzhid0x",
+   "date": "Thu Nov 19 03:50:57 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/yuanbaopower/status/2123343905169068116",
+   "author": "yuanbaopower",
+   "date": "Thu Nov 19 09:13:31 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/ManasJoshi10000/status/2123350388258799706",
+   "author": "ManasJoshi10000",
+   "date": "Thu Nov 19 09:39:17 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/levochkacodes/status/2123355004795011369",
+   "author": "levochkacodes",
+   "date": "Thu Nov 19 09:57:37 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/NocodeTalks/status/2123356173193908509",
+   "author": "NocodeTalks",
+   "date": "Thu Nov 19 10:02:16 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/ahnafweb3/status/2123356381864665433",
+   "author": "ahnafweb3",
+   "date": "Thu Nov 19 10:03:06 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/ngothieuquang/status/2123367064333328866",
+   "author": "ngothieuquang",
+   "date": "Thu Nov 19 10:45:33 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/royx247/status/2123369386702758189",
+   "author": "royx247",
+   "date": "Thu Nov 19 10:54:46 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/htlee2014/status/2123375104684118205",
+   "author": "htlee2014",
+   "date": "Thu Nov 19 11:17:30 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/ayoub_el77927/status/2123383441190166953",
+   "author": "ayoub_el77927",
+   "date": "Thu Nov 19 11:50:37 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/msveill/status/2123389812379910328",
+   "author": "msveill",
+   "date": "Thu Nov 19 12:15:56 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/pintonotes/status/2123393200886792311",
+   "author": "pintonotes",
+   "date": "Thu Nov 19 12:29:24 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/rajhere_in/status/2123393430151746004",
+   "author": "rajhere_in",
+   "date": "Thu Nov 19 12:30:19 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/zalab8/status/2123393606539256221",
+   "author": "zalab8",
+   "date": "Thu Nov 19 12:31:01 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/atKensai/status/2123394794504466461",
+   "author": "atKensai",
+   "date": "Thu Nov 19 12:35:44 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/RealFedeURU/status/2123394934975934793",
+   "author": "RealFedeURU",
+   "date": "Thu Nov 19 12:36:17 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/Esky33junglist/status/2123394963098480640",
+   "author": "Esky33junglist",
+   "date": "Thu Nov 19 12:36:24 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/tatsuya0324/status/2123395095261323535",
+   "author": "tatsuya0324",
+   "date": "Thu Nov 19 12:36:56 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/NassirAI1/status/2123395338190950858",
+   "author": "NassirAI1",
+   "date": "Thu Nov 19 12:37:54 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/devloperhs/status/2123395621289910379",
+   "author": "devloperhs",
+   "date": "Thu Nov 19 12:39:01 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/FiscalDoGaules/status/2123395723815477689",
+   "author": "FiscalDoGaules",
+   "date": "Thu Nov 19 12:39:25 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "x",
+   "sourceUrl": "https://x.com/pawelk411/status/2123395846532424174",
+   "author": "pawelk411",
+   "date": "Thu Nov 19 12:39:55 +0000 2026",
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "yt",
+   "sourceUrl": "https://www.youtube.com/watch?v=1f13Bl1sYkw",
+   "author": "Claude and Anthropic",
+   "date": null,
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "yt",
+   "sourceUrl": "https://www.youtube.com/watch?v=51Eb4EtGqrI",
+   "author": "Academind",
+   "date": null,
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "yt",
+   "sourceUrl": "https://www.youtube.com/watch?v=PhCpq0Eagak",
+   "author": "Dubibubi",
+   "date": null,
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "yt",
+   "sourceUrl": "https://www.youtube.com/watch?v=R7HqeICmqSo",
+   "author": "Parker Prompts",
+   "date": null,
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "yt",
+   "sourceUrl": "https://www.youtube.com/watch?v=SA9kdAX2Zj0",
+   "author": "Two Minute Papers",
+   "date": null,
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "yt",
+   "sourceUrl": "https://www.youtube.com/watch?v=Um1q5qJURlw",
+   "author": "Universe of AI",
+   "date": null,
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "yt",
+   "sourceUrl": "https://www.youtube.com/watch?v=VrWRCXdcAOU",
+   "author": "Code With Yousaf",
+   "date": null,
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "yt",
+   "sourceUrl": "https://www.youtube.com/watch?v=bfU8R9m5KHw",
+   "author": "Jack Roberts",
+   "date": null,
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "yt",
+   "sourceUrl": "https://www.youtube.com/watch?v=ejjBbaq9RmY",
+   "author": "Theo - t3․gg",
+   "date": null,
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "yt",
+   "sourceUrl": "https://www.youtube.com/watch?v=gX0L0aFA2xg",
+   "author": "AI Search",
+   "date": null,
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "yt",
+   "sourceUrl": "https://www.youtube.com/watch?v=qDBXPboBJDA",
+   "author": "Anna Cramling",
+   "date": null,
+   "status": "pending-editorial-review"
+  },
+  {
+   "platform": "yt",
+   "sourceUrl": "https://www.youtube.com/watch?v=wjKOlntfka8",
+   "author": "Eric Tech",
+   "date": null,
+   "status": "pending-editorial-review"
+  }
+ ]
+}

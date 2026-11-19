@@ -1,0 +1,1709 @@
+{
+ "checkedAt": "2026-11-19T12:56:50+00:00",
+ "topicId": "fable-5-2",
+ "previousPublishedCount": 189,
+ "caseCount": 270,
+ "addedCount": 81,
+ "addedByPlatform": {
+  "X": 41,
+  "GitHub": 21,
+  "Hacker News": 1,
+  "Web": 3,
+  "Reddit": 6,
+  "Bilibili": 5,
+  "YouTube": 4
+ },
+ "addedCaseIds": [
+  "fable52-x-2121333521663017401",
+  "fable52-x-2122538394710687871",
+  "fable52-x-2122013410309153042",
+  "fable52-x-2121548293834740076",
+  "fable52-x-2121176151234330707",
+  "fable52-x-2122750634210529569",
+  "fable52-x-2121594536153718972",
+  "fable52-x-2122682962647122403",
+  "fable52-x-2121891917147562456",
+  "fable52-x-2121793239175119279",
+  "fable52-x-2122421921790767239",
+  "fable52-x-2122762395869450680",
+  "fable52-x-2122361634190696575",
+  "fable52-x-2121780322106999106",
+  "fable52-x-2121406571280478310",
+  "fable52-x-2121941875326373952",
+  "fable52-x-2121701020598415465",
+  "fable52-x-2122837291874070590",
+  "fable52-x-2122464141990588795",
+  "fable52-x-2122723067533398064",
+  "fable52-x-2122702891819377117",
+  "fable52-x-2120607619215970632",
+  "fable52-x-2121525925900947923",
+  "fable52-x-2122409515350155484",
+  "fable52-x-2122514075381010598",
+  "fable52-x-2122549584627188006",
+  "fable52-x-2122394153497842080",
+  "fable52-x-2121731559741096370",
+  "fable52-x-2122756006770065825",
+  "fable52-x-2121897192135053383",
+  "fable52-x-2122907243150807300",
+  "fable52-x-2122905335849718244",
+  "fable52-x-2121154550123958621",
+  "fable52-x-2122403889865453632",
+  "fable52-x-2122551786045059205",
+  "fable52-x-2122688041219133815",
+  "fable52-x-2122969346935017497",
+  "fable52-x-2122823164635881853",
+  "fable52-x-2122658200038322327",
+  "fable52-x-2123134336891318350",
+  "fable52-x-2120907123357851697",
+  "fable52-gh-noniv-abyssal-garden",
+  "fable52-gh-viktorkav-uno",
+  "fable52-gh-andrisgauracs-bevel-os",
+  "fable52-gh-devloops-unified-brain",
+  "fable52-gh-leonxlnx-castle",
+  "fable52-gh-stefanknol-last-return",
+  "fable52-gh-cagrikacmaz-captcha",
+  "fable52-gh-fablestar-bayhaven",
+  "fable52-gh-realcodebear-koi",
+  "fable52-gh-kompas-dirigent",
+  "fable52-gh-themizeguy-potatobench",
+  "fable52-gh-ololo-apex-lap",
+  "fable52-gh-zhgarylu-everyday",
+  "fable52-gh-az9713-3d-atlas",
+  "fable52-gh-gavilanbe-pantastic",
+  "fable52-gh-hu-fable-challenge",
+  "fable52-gh-jasiel-agua-mineral",
+  "fable52-gh-meridian-issue-1516",
+  "fable52-gh-cc-switch-issue-9608",
+  "fable52-github-masamunecode-tacet",
+  "fable52-github-kleinbuild-edtrawl-cla",
+  "fable52-hn-50504061",
+  "fable52-web-rest-and-vest",
+  "fable52-web-mecagent-cad",
+  "fable52-web-metergraph",
+  "fable52-reddit-1xxvbo6",
+  "fable52-reddit-1xyphos",
+  "fable52-reddit-1xy3487",
+  "fable52-reddit-1xsp90d",
+  "fable52-reddit-1xt1t87",
+  "fable52-reddit-1xzir6g",
+  "fable52-bili-BV1b9sk6YEuQ",
+  "fable52-bili-BV1WTs16aEyj",
+  "fable52-bili-BV1iLsr66Ep3",
+  "fable52-bili-BV154s16UEAJ",
+  "fable52-bili-BV1zusr6yE3b",
+  "fable52-yt-XQfbNtp67OE",
+  "fable52-yt-jk7rTk1Bh8I",
+  "fable52-yt-DTrBOY6rvf4",
+  "fable52-yt-SrD8B54VbaA"
+ ],
+ "selectionPolicy": "Bounded multi-platform discovery; original creator, explicit version and concrete task required. Same-work cross-posts are folded into resources. Author timing/cost/performance claims are not independently reproduced. Unselected candidates remain pending.",
+ "decisions": [
+  {
+   "id": "fable52-gh-noniv-abyssal-garden",
+   "sourceUrl": "https://github.com/Noniv/abyssal-garden",
+   "evidenceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1xw376f/",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-gh-viktorkav-uno",
+   "sourceUrl": "https://github.com/viktorkav/uno-com-escada",
+   "evidenceUrl": "https://github.com/viktorkav/uno-com-escada",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-gh-andrisgauracs-bevel-os",
+   "sourceUrl": "https://github.com/andrisgauracs/bevel-os",
+   "evidenceUrl": "https://github.com/andrisgauracs/bevel-os",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-gh-archive-reabla",
+   "sourceUrl": "https://github.com/Archive228/claude-fable-rea-bla",
+   "decision": "not-imported",
+   "reason": "Tool configuration or model support request without evidence that this model performed a concrete task; held for follow-up."
+  },
+  {
+   "id": "fable52-gh-devloops-unified-brain",
+   "sourceUrl": "https://github.com/DevLoops-ai/unified-brain",
+   "evidenceUrl": "https://github.com/DevLoops-ai/unified-brain",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-gh-francis-multibot",
+   "sourceUrl": "https://github.com/Francis1998/multi-bot-agentic",
+   "decision": "not-imported",
+   "reason": "Tool configuration or model support request without evidence that this model performed a concrete task; held for follow-up."
+  },
+  {
+   "id": "fable52-gh-leonxlnx-castle",
+   "sourceUrl": "https://github.com/Leonxlnx/castle-cinematic",
+   "evidenceUrl": "https://github.com/Leonxlnx/castle-cinematic",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-gh-stefanknol-last-return",
+   "sourceUrl": "https://github.com/StefanKnol/Last-Return",
+   "evidenceUrl": "https://github.com/StefanKnol/Last-Return",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-gh-cagrikacmaz-captcha",
+   "sourceUrl": "https://github.com/cagrikacmaz/fable-5-2-vs-gemini-4-carbon-captcha-wall",
+   "evidenceUrl": "https://github.com/cagrikacmaz/fable-5-2-vs-gemini-4-carbon-captcha-wall",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-gh-fablestar-bayhaven",
+   "sourceUrl": "https://github.com/fablestar/bayhaven",
+   "evidenceUrl": "https://github.com/fablestar/bayhaven",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-gh-realcodebear-koi",
+   "sourceUrl": "https://github.com/realcodebear/threejs-fable-5.2-all-effort-koi-pond",
+   "evidenceUrl": "https://github.com/realcodebear/threejs-fable-5.2-all-effort-koi-pond",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-gh-verissimodf-auditor",
+   "sourceUrl": "https://github.com/verissimodf/fable52-auditor",
+   "decision": "not-imported",
+   "reason": "Tool configuration or model support request without evidence that this model performed a concrete task; held for follow-up."
+  },
+  {
+   "id": "fable52-gh-czwu013-thames",
+   "sourceUrl": "https://github.com/Czwu013/London-thames-Fable-5.2-High-",
+   "decision": "not-imported",
+   "reason": "Version appears in repository name, but no explicit creator attribution found in the reviewed README."
+  },
+  {
+   "id": "fable52-gh-kompas-dirigent",
+   "sourceUrl": "https://github.com/Kompas/dirigent",
+   "evidenceUrl": "https://github.com/Kompas/dirigent",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-gh-themizeguy-potatobench",
+   "sourceUrl": "https://github.com/TheMizeGuy/fable-5.2-potatobench",
+   "evidenceUrl": "https://github.com/TheMizeGuy/fable-5.2-potatobench",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-gh-ololo-apex-lap",
+   "sourceUrl": "https://github.com/ololo-dev/apex-lap-fable-5-2",
+   "evidenceUrl": "https://github.com/ololo-dev/apex-lap-fable-5-2",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-gh-zhgarylu-everyday",
+   "sourceUrl": "https://github.com/zhgarylu/everyday-game",
+   "evidenceUrl": "https://github.com/zhgarylu/everyday-game",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-gh-az9713-3d-atlas",
+   "sourceUrl": "https://github.com/az9713/fable-5.2-3d-animations",
+   "evidenceUrl": "https://github.com/az9713/fable-5.2-3d-animations",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-gh-gavilanbe-pantastic",
+   "sourceUrl": "https://github.com/gavilanbe/pantastic",
+   "evidenceUrl": "https://github.com/gavilanbe/pantastic",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-gh-hu-fable-challenge",
+   "sourceUrl": "https://github.com/hu2148284557-debug/fable-challenge",
+   "evidenceUrl": "https://github.com/hu2148284557-debug/fable-challenge",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-gh-jasiel-agua-mineral",
+   "sourceUrl": "https://github.com/jasielrasec18-dev/site-agua-mineral-threejs",
+   "evidenceUrl": "https://github.com/jasielrasec18-dev/site-agua-mineral-threejs",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-gh-meridian-issue-1516",
+   "sourceUrl": "https://github.com/rynfar/meridian/issues/1516",
+   "evidenceUrl": "https://github.com/rynfar/meridian/issues/1516",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-gh-cc-switch-issue-9608",
+   "sourceUrl": "https://github.com/farion1231/cc-switch/issues/9608",
+   "evidenceUrl": "https://github.com/farion1231/cc-switch/issues/9608",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-gh-sub2api-issue-8630",
+   "sourceUrl": "https://github.com/Wei-Shaw/sub2api/issues/8630",
+   "decision": "not-imported",
+   "reason": "Tool configuration or model support request without evidence that this model performed a concrete task; held for follow-up."
+  },
+  {
+   "id": "fable52-gh-opensession-pr-560",
+   "sourceUrl": "https://github.com/tellahq/opensession/pull/560",
+   "decision": "not-imported",
+   "reason": "Tool configuration or model support request without evidence that this model performed a concrete task; held for follow-up."
+  },
+  {
+   "id": "fable52-reddit-1xysw2v",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xysw2v/sol_62_and_astra_62_just_released/",
+   "decision": "not-imported",
+   "reason": "General model comparison without enough task-specific evidence; not accepted as a new case."
+  },
+  {
+   "id": "fable52-reddit-1xxvbo6",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xxvbo6/fable_52_used_my_entire_5hour_quota_while_only/",
+   "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xxvbo6/fable_52_used_my_entire_5hour_quota_while_only/",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-reddit-1xxsqu4",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xxsqu4/after_burning_tokens_with_fable_52_i_appreciate/",
+   "decision": "not-imported",
+   "reason": "General model comparison without enough task-specific evidence; not accepted as a new case."
+  },
+  {
+   "id": "fable52-reddit-1xyphos",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xyphos/claude_told_me_about_a_hidden_automated_reminder/",
+   "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xyphos/claude_told_me_about_a_hidden_automated_reminder/",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-reddit-1xy3487",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xy3487/i_gave_claude_fable_52_a_lazy_lidar_scan_of_my/",
+   "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xy3487/i_gave_claude_fable_52_a_lazy_lidar_scan_of_my/",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-hn-50504061",
+   "sourceUrl": "https://news.ycombinator.com/item?id=50504061",
+   "evidenceUrl": "https://news.ycombinator.com/item?id=50504061",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-web-rest-and-vest",
+   "sourceUrl": "https://overcapacity-studios.itch.io/rest-and-vest",
+   "evidenceUrl": "https://overcapacity-studios.itch.io/rest-and-vest",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-web-orcarouter-review",
+   "sourceUrl": "https://www.orcarouter.ai/blog/claude-fable-5-2-review",
+   "decision": "not-imported",
+   "reason": "Secondary analysis or general recommendations; retained as discovery leads, not a distinct original use case."
+  },
+  {
+   "id": "fable52-web-mecagent-cad",
+   "sourceUrl": "https://mecagent.com/blog/claude-fable-5-2-for-cad",
+   "evidenceUrl": "https://mecagent.com/blog/claude-fable-5-2-for-cad",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-web-retellai-voice",
+   "sourceUrl": "https://www.retellai.com/blog/claude-fable-5-2-voice-agents",
+   "decision": "not-imported",
+   "reason": "Secondary analysis or general recommendations; retained as discovery leads, not a distinct original use case."
+  },
+  {
+   "id": "fable52-web-neuraltrust-security",
+   "sourceUrl": "https://neuraltrust.ai/blog/claude-fable-5-2",
+   "decision": "not-imported",
+   "reason": "Secondary analysis or general recommendations; retained as discovery leads, not a distinct original use case."
+  },
+  {
+   "id": "fable52-web-futurum-owe",
+   "sourceUrl": "https://futurumgroup.com/insights/owe-bench-exposes-ai-agents-long-horizon-ceiling/",
+   "decision": "not-imported",
+   "reason": "Secondary analysis or general recommendations; retained as discovery leads, not a distinct original use case."
+  },
+  {
+   "id": "fable52-web-zvi-bazooka",
+   "sourceUrl": "https://thezvi.substack.com/p/fable-52-is-the-new-bazooka",
+   "decision": "not-imported",
+   "reason": "Secondary analysis or general recommendations; retained as discovery leads, not a distinct original use case."
+  },
+  {
+   "id": "fable52-web-metergraph",
+   "sourceUrl": "https://www.metergraph.dev/blog/release-radar/2026-11/",
+   "evidenceUrl": "https://www.metergraph.dev/blog/release-radar/2026-11/",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-x-2121333521663017401",
+   "sourceUrl": "https://x.com/ravisparikh/status/2121333521663017401",
+   "evidenceUrl": "https://x.com/ravisparikh/status/2121333521663017401",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-x-2122538394710687871",
+   "sourceUrl": "https://x.com/aj_dev_smith/status/2122538394710687871",
+   "evidenceUrl": "https://x.com/aj_dev_smith/status/2122538394710687871",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-x-2122013410309153042",
+   "sourceUrl": "https://x.com/__morse/status/2122013410309153042",
+   "evidenceUrl": "https://x.com/__morse/status/2122013410309153042",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-x-2121548293834740076",
+   "sourceUrl": "https://x.com/mixie3D/status/2121548293834740076",
+   "evidenceUrl": "https://x.com/mixie3D/status/2121548293834740076",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-x-2121176151234330707",
+   "sourceUrl": "https://x.com/chetaslua/status/2121176151234330707",
+   "evidenceUrl": "https://x.com/chetaslua/status/2121176151234330707",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-x-2122106585136959664",
+   "sourceUrl": "https://x.com/viktoroddy/status/2122106585136959664",
+   "decision": "not-imported",
+   "reason": "General praise or resource roundup; concrete original project and model role are not sufficiently established."
+  },
+  {
+   "id": "fable52-x-2122750634210529569",
+   "sourceUrl": "https://x.com/ArtificialAnlys/status/2122750634210529569",
+   "evidenceUrl": "https://x.com/ArtificialAnlys/status/2122750634210529569",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-x-2121594536153718972",
+   "sourceUrl": "https://x.com/BlendiByl/status/2121594536153718972",
+   "evidenceUrl": "https://x.com/BlendiByl/status/2121594536153718972",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-x-2122682962647122403",
+   "sourceUrl": "https://x.com/xikhar/status/2122682962647122403",
+   "evidenceUrl": "https://x.com/xikhar/status/2122682962647122403",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-x-2121891917147562456",
+   "sourceUrl": "https://x.com/kapilansh_twt/status/2121891917147562456",
+   "evidenceUrl": "https://x.com/kapilansh_twt/status/2121891917147562456",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-x-2121793239175119279",
+   "sourceUrl": "https://x.com/aniketjart/status/2121793239175119279",
+   "evidenceUrl": "https://x.com/aniketjart/status/2121793239175119279",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-x-2122421921790767239",
+   "sourceUrl": "https://x.com/thegeomaster/status/2122421921790767239",
+   "evidenceUrl": "https://x.com/thegeomaster/status/2122421921790767239",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-x-2122762395869450680",
+   "sourceUrl": "https://x.com/EpochAIResearch/status/2122762395869450680",
+   "evidenceUrl": "https://x.com/EpochAIResearch/status/2122762395869450680",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-x-2122711903877358056",
+   "sourceUrl": "https://x.com/viktoroddy/status/2122711903877358056",
+   "decision": "not-imported",
+   "reason": "General praise or resource roundup; concrete original project and model role are not sufficiently established."
+  },
+  {
+   "id": "fable52-x-2122361634190696575",
+   "sourceUrl": "https://x.com/nickvernij/status/2122361634190696575",
+   "evidenceUrl": "https://x.com/nickvernij/status/2122361634190696575",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-x-2121780322106999106",
+   "sourceUrl": "https://x.com/kevin_t_ngo/status/2121780322106999106",
+   "evidenceUrl": "https://x.com/kevin_t_ngo/status/2121780322106999106",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-x-2122737418864664618",
+   "sourceUrl": "https://x.com/TuXinming/status/2122737418864664618",
+   "decision": "not-imported",
+   "reason": "Exact model version is not named in the original post text; chart-based attribution needs further source verification."
+  },
+  {
+   "id": "fable52-x-2121406571280478310",
+   "sourceUrl": "https://x.com/aj_dev_smith/status/2121406571280478310",
+   "evidenceUrl": "https://x.com/aj_dev_smith/status/2121406571280478310",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-x-2121941875326373952",
+   "sourceUrl": "https://x.com/janm_uiux/status/2121941875326373952",
+   "evidenceUrl": "https://x.com/janm_uiux/status/2121941875326373952",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-x-2121701020598415465",
+   "sourceUrl": "https://x.com/kevin_t_ngo/status/2121701020598415465",
+   "evidenceUrl": "https://x.com/kevin_t_ngo/status/2121701020598415465",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-x-2122837291874070590",
+   "sourceUrl": "https://x.com/ChrisGPT/status/2122837291874070590",
+   "evidenceUrl": "https://x.com/ChrisGPT/status/2122837291874070590",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-x-2122464141990588795",
+   "sourceUrl": "https://x.com/apekshik/status/2122464141990588795",
+   "evidenceUrl": "https://x.com/apekshik/status/2122464141990588795",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-x-2122723067533398064",
+   "sourceUrl": "https://x.com/parhelion318/status/2122723067533398064",
+   "evidenceUrl": "https://x.com/parhelion318/status/2122723067533398064",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-x-2122702891819377117",
+   "sourceUrl": "https://x.com/moritzkremb/status/2122702891819377117",
+   "evidenceUrl": "https://x.com/moritzkremb/status/2122702891819377117",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-x-2121204420717486244",
+   "sourceUrl": "https://x.com/Av1dlive/status/2121204420717486244",
+   "decision": "not-imported",
+   "reason": "General praise or resource roundup; concrete original project and model role are not sufficiently established."
+  },
+  {
+   "id": "fable52-x-2122755823806079145",
+   "sourceUrl": "https://x.com/mattshumer_/status/2122755823806079145",
+   "decision": "not-imported",
+   "reason": "General model comparison without enough task-specific evidence; not accepted as a new case."
+  },
+  {
+   "id": "fable52-x-2120607619215970632",
+   "sourceUrl": "https://x.com/ElevenCreative/status/2120607619215970632",
+   "evidenceUrl": "https://x.com/ElevenCreative/status/2120607619215970632",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-x-2121525925900947923",
+   "sourceUrl": "https://x.com/anvithbuilds/status/2121525925900947923",
+   "evidenceUrl": "https://x.com/anvithbuilds/status/2121525925900947923",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-x-2122409515350155484",
+   "sourceUrl": "https://x.com/YashBudhiya/status/2122409515350155484",
+   "evidenceUrl": "https://x.com/YashBudhiya/status/2122409515350155484",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-x-2122514075381010598",
+   "sourceUrl": "https://x.com/KanaWorks_AI/status/2122514075381010598",
+   "evidenceUrl": "https://x.com/KanaWorks_AI/status/2121221880673972463",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-x-2121581514622177348",
+   "sourceUrl": "https://x.com/0xnicc0/status/2121581514622177348",
+   "decision": "not-imported",
+   "reason": "General praise or resource roundup; concrete original project and model role are not sufficiently established."
+  },
+  {
+   "id": "fable52-x-2122549584627188006",
+   "sourceUrl": "https://x.com/rehan_shei/status/2122549584627188006",
+   "evidenceUrl": "https://x.com/rehan_shei/status/2122549584627188006",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-x-2122394153497842080",
+   "sourceUrl": "https://x.com/Karmedge/status/2122394153497842080",
+   "evidenceUrl": "https://x.com/Karmedge/status/2122394153497842080",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-x-2121731559741096370",
+   "sourceUrl": "https://x.com/chirovisuals/status/2121731559741096370",
+   "evidenceUrl": "https://x.com/chirovisuals/status/2121731559741096370",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-x-2122756006770065825",
+   "sourceUrl": "https://x.com/jsnnsa/status/2122756006770065825",
+   "evidenceUrl": "https://x.com/jsnnsa/status/2122756006770065825",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-x-2121897192135053383",
+   "sourceUrl": "https://x.com/tazmannner/status/2121897192135053383",
+   "evidenceUrl": "https://x.com/tazmannner/status/2121897192135053383",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-x-2122907243150807300",
+   "sourceUrl": "https://x.com/output09141/status/2122907243150807300",
+   "evidenceUrl": "https://x.com/output09141/status/2122907243150807300",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-x-2122905335849718244",
+   "sourceUrl": "https://x.com/meishengsimon/status/2122905335849718244",
+   "evidenceUrl": "https://x.com/meishengsimon/status/2122905335849718244",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-x-2121154550123958621",
+   "sourceUrl": "https://x.com/AndreiProvkin/status/2121154550123958621",
+   "evidenceUrl": "https://x.com/AndreiProvkin/status/2121154550123958621",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-x-2122403889865453632",
+   "sourceUrl": "https://x.com/AndreiProvkin/status/2122403889865453632",
+   "evidenceUrl": "https://x.com/AndreiProvkin/status/2122403889865453632",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-bili-BV1odsr6GEbj",
+   "sourceUrl": "https://www.bilibili.com/video/BV1odsr6GEbj/",
+   "decision": "not-imported",
+   "reason": "Release overview or third-party roundup/cross-post; follow original creators instead of adding a duplicate work."
+  },
+  {
+   "id": "fable52-bili-BV1b9sk6YEuQ",
+   "sourceUrl": "https://www.bilibili.com/video/BV1b9sk6YEuQ/",
+   "evidenceUrl": "https://www.bilibili.com/video/BV1b9sk6YEuQ/",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-bili-BV1WTs16aEyj",
+   "sourceUrl": "https://www.bilibili.com/video/BV1WTs16aEyj/",
+   "evidenceUrl": "https://www.bilibili.com/video/BV1WTs16aEyj/",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-bili-BV1iLsr66Ep3",
+   "sourceUrl": "https://www.bilibili.com/video/BV1iLsr66Ep3/",
+   "evidenceUrl": "https://www.bilibili.com/video/BV1iLsr66Ep3/",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-bili-BV16is26hE6V",
+   "sourceUrl": "https://www.bilibili.com/video/BV16is26hE6V/",
+   "decision": "not-imported",
+   "reason": "Release overview or third-party roundup/cross-post; follow original creators instead of adding a duplicate work."
+  },
+  {
+   "id": "fable52-bili-BV1XMs26SELQ",
+   "sourceUrl": "https://www.bilibili.com/video/BV1XMs26SELQ/",
+   "decision": "not-imported",
+   "reason": "Release overview or third-party roundup/cross-post; follow original creators instead of adding a duplicate work."
+  },
+  {
+   "id": "fable52-bili-BV1bzs166Eua",
+   "sourceUrl": "https://www.bilibili.com/video/BV1bzs166Eua/",
+   "decision": "not-imported",
+   "reason": "Release overview or third-party roundup/cross-post; follow original creators instead of adding a duplicate work."
+  },
+  {
+   "id": "fable52-bili-BV154s16UEAJ",
+   "sourceUrl": "https://www.bilibili.com/video/BV154s16UEAJ/",
+   "evidenceUrl": "https://www.bilibili.com/video/BV154s16UEAJ/",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-bili-BV1zusr6yE3b",
+   "sourceUrl": "https://www.bilibili.com/video/BV1zusr6yE3b/",
+   "evidenceUrl": "https://www.bilibili.com/video/BV1zusr6yE3b/",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-yt-vdYynH177h0",
+   "sourceUrl": "https://www.youtube.com/watch?v=vdYynH177h0",
+   "decision": "not-imported",
+   "reason": "Same Diode voice-assistant hardware project as published fable52-hardware; video added as a supplementary resource."
+  },
+  {
+   "id": "fable52-yt-6a1QSJlsYpU",
+   "sourceUrl": "https://www.youtube.com/watch?v=6a1QSJlsYpU",
+   "decision": "not-imported",
+   "reason": "Launch overview, mixed showcase, or general workflow guidance; specific first-hand task evidence remains pending."
+  },
+  {
+   "id": "fable52-yt-S7lpCyZSdJQ",
+   "sourceUrl": "https://www.youtube.com/watch?v=S7lpCyZSdJQ",
+   "decision": "not-imported",
+   "reason": "Launch overview, mixed showcase, or general workflow guidance; specific first-hand task evidence remains pending."
+  },
+  {
+   "id": "fable52-yt-5mA9Hab09Do",
+   "sourceUrl": "https://www.youtube.com/watch?v=5mA9Hab09Do",
+   "decision": "not-imported",
+   "reason": "Launch overview, mixed showcase, or general workflow guidance; specific first-hand task evidence remains pending."
+  },
+  {
+   "id": "fable52-yt-XQfbNtp67OE",
+   "sourceUrl": "https://www.youtube.com/watch?v=XQfbNtp67OE",
+   "evidenceUrl": "https://www.youtube.com/watch?v=XQfbNtp67OE",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-yt-jk7rTk1Bh8I",
+   "sourceUrl": "https://www.youtube.com/watch?v=jk7rTk1Bh8I",
+   "evidenceUrl": "https://www.youtube.com/watch?v=jk7rTk1Bh8I",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-yt-EFGvVCpW9zc",
+   "sourceUrl": "https://www.youtube.com/watch?v=EFGvVCpW9zc",
+   "decision": "not-imported",
+   "reason": "Launch overview, mixed showcase, or general workflow guidance; specific first-hand task evidence remains pending."
+  },
+  {
+   "id": "fable52-yt-wZYzXW3tQYQ",
+   "sourceUrl": "https://www.youtube.com/watch?v=wZYzXW3tQYQ",
+   "decision": "not-imported",
+   "reason": "Same creator and seven-scenario test already linked from fable52-bili-BV1gsWg6gEis; duplicate folded into existing resources."
+  },
+  {
+   "id": "fable52-yt-hYIymEMB9x4",
+   "sourceUrl": "https://www.youtube.com/watch?v=hYIymEMB9x4",
+   "decision": "not-imported",
+   "reason": "Launch overview, mixed showcase, or general workflow guidance; specific first-hand task evidence remains pending."
+  },
+  {
+   "id": "fable52-yt-DTrBOY6rvf4",
+   "sourceUrl": "https://www.youtube.com/watch?v=DTrBOY6rvf4",
+   "evidenceUrl": "https://www.youtube.com/watch?v=DTrBOY6rvf4",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-yt-SrD8B54VbaA",
+   "sourceUrl": "https://www.youtube.com/watch?v=SrD8B54VbaA",
+   "evidenceUrl": "https://www.youtube.com/watch?v=SrD8B54VbaA",
+   "decision": "accepted",
+   "reason": "Reviewed original creator evidence and model role; editorial claims attributed and duplicate works removed."
+  },
+  {
+   "id": "fable52-x-2122551786045059205",
+   "sourceUrl": "https://x.com/jakemor/status/2122551786045059205",
+   "author": "jakemor",
+   "date": "2026-11-17",
+   "evidenceUrl": "https://x.com/jakemor/status/2122551786045059205",
+   "evidenceSha256": "c3de354317bcc849d5903e4b73f72ec7b9e4aab3f38103e2d9da2405a0a77d3f",
+   "decision": "accepted",
+   "reason": "作者报告用 Fable 5.2 迭代键盘的预测、滑动输入、听写和表情搜索，并开放 TestFlight。作者明确测试期输入数据会共享，性能优势尚未独立验证。",
+   "posterStatus": "accepted"
+  },
+  {
+   "id": "fable52-x-2122688041219133815",
+   "sourceUrl": "https://x.com/jamesmbickerton/status/2122688041219133815",
+   "author": "jamesmbickerton",
+   "date": "2026-11-17",
+   "evidenceUrl": "https://x.com/jamesmbickerton/status/2122688041219133815",
+   "evidenceSha256": "3d929455e3481398bfc35d1aa2f86356223c8c4f799d6b9f0d621f2a9133bd35",
+   "decision": "accepted",
+   "reason": "作者让 Fable 5.2 将 OP-1 Field 的交互体验做成浏览器应用，并提供可访问的作品页，明确标注为非官方致敬。",
+   "posterStatus": "accepted"
+  },
+  {
+   "id": "fable52-x-2122969346935017497",
+   "sourceUrl": "https://x.com/kevin_t_ngo/status/2122969346935017497",
+   "author": "kevin_t_ngo",
+   "date": "2026-11-18",
+   "evidenceUrl": "https://x.com/kevin_t_ngo/status/2122969346935017497",
+   "evidenceSha256": "1cd5d48599202fb28ba09fee6586078c90adeb206de592f2d502dfb8660f0c1a",
+   "decision": "accepted",
+   "reason": "作者展示 Fable 5.2 制作的浏览器游戏原型，并说明概念图与音效分别来自 GPT Image 2.6 与 ElevenLabs SFX，经 fal 调用。",
+   "posterStatus": "accepted"
+  },
+  {
+   "id": "fable52-x-2122823164635881853",
+   "sourceUrl": "https://x.com/LexnLin/status/2122823164635881853",
+   "author": "LexnLin",
+   "date": "2026-11-17",
+   "evidenceUrl": "https://x.com/LexnLin/status/2122823164635881853",
+   "evidenceSha256": "3e536c1a91e7ae3bc0d55f2b034da9d6d7688376ea0722b382d0820e03394486",
+   "decision": "accepted",
+   "reason": "作者展示明确归属 Fable 5.2 的 Blender 机械月球动画。原帖提供视频，未公开完整制作记录。",
+   "posterStatus": "accepted"
+  },
+  {
+   "id": "fable52-x-2122658200038322327",
+   "sourceUrl": "https://x.com/hayashimon1/status/2122658200038322327",
+   "author": "hayashimon1",
+   "date": "2026-11-17",
+   "evidenceUrl": "https://x.com/hayashimon1/status/2122658200038322327",
+   "evidenceSha256": "d35957d7ed6967db67fb0edab93c459ff472158492bfececc02f9b0a48661cb0",
+   "decision": "accepted",
+   "reason": "作者用 Fable 5.2 将车站场景从 Blender 迁到 Unreal Engine 5.8，提供并排视频与自身设备的渲染耗时，并说明场景仍需性能优化。",
+   "posterStatus": "accepted"
+  },
+  {
+   "id": "fable52-x-2123134336891318350",
+   "sourceUrl": "https://x.com/mattshumer_/status/2123134336891318350",
+   "author": "mattshumer_",
+   "date": "2026-11-18",
+   "evidenceUrl": "https://x.com/mattshumer_/status/2123134336891318350",
+   "evidenceSha256": "0a90f22c16e953dcb97d7475f90f9800e4e083a74a6aea7008c1edfbed40ebe2",
+   "decision": "accepted",
+   "reason": "作者发布 Fable 5.2 制作的 GTA 风格纽约城市游戏体验链接，并明确仍在持续迭代，征集反馈。",
+   "posterStatus": "accepted"
+  },
+  {
+   "id": "fable52-x-2120907123357851697",
+   "sourceUrl": "https://x.com/scottstts/status/2120907123357851697",
+   "author": "scottstts",
+   "date": "2026-11-12",
+   "evidenceUrl": "https://x.com/scottstts/status/2120907123357851697",
+   "evidenceSha256": "d78f09aeb93e807b4fb34cb2eb29ea4988aae24a4b72fe82178d2424e3016a70",
+   "decision": "accepted",
+   "reason": "作者展示用 Fable 5.2 制作并在 Three.js 渲染的程序化住宅场景。",
+   "posterStatus": "accepted"
+  },
+  {
+   "id": "fable52-github-masamunecode-tacet",
+   "sourceUrl": "https://github.com/masamunecode/tacet",
+   "author": "masamunecode",
+   "date": "2026-11-13",
+   "evidenceUrl": "https://github.com/masamunecode/tacet/blob/main/README.md",
+   "evidenceSha256": "e5f500c4c6a1d632394ecc979b7139e68f677853279fde042233e959ccc516d3",
+   "decision": "accepted",
+   "reason": "作者用 Fable 5.2 编写聊天工作区与代理提示词，并以多模型、多次运行比较不必要发言。仓库公开测试条件与结果，分数仅适用于该任务集。",
+   "posterStatus": "accepted"
+  },
+  {
+   "id": "fable52-github-kleinbuild-edtrawl-cla",
+   "sourceUrl": "https://github.com/kleinbuild/edtrawl-cla",
+   "author": "kleinbuild",
+   "date": "2026-11-18",
+   "evidenceUrl": "https://github.com/kleinbuild/edtrawl-cla/blob/main/README.md",
+   "evidenceSha256": "1d29cb0bff262fc6f558ae40d7f12584d044e539802c5559791d160c994ffff9",
+   "decision": "accepted",
+   "reason": "作者说明此实验构建由 Fable 5.2 编排 Claude Code 代理完成，结合加州学校清单、岗位信息和通勤估计筛选新职位。结果依赖外部数据与估算。",
+   "posterStatus": "pending"
+  },
+  {
+   "id": "fable52-reddit-1xsp90d",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xsp90d/at_546_am_i_get_anurgent_message_on_my_phone_from/",
+   "author": "ricopan",
+   "date": "2026-11-10",
+   "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xsp90d/at_546_am_i_get_anurgent_message_on_my_phone_from/",
+   "evidenceSha256": "421cff401aa546de01b9328c6e4d20f94b33a7fb5501a0f412aae56a21bf9f98",
+   "decision": "accepted",
+   "reason": "用户报告 Opus 5.5 主代理、Fable 5.2 顾问组合在清理临时文件时误删仓库，并引述会话解释。保留为未独立复现的失败反馈，不将执行责任归给顾问模型。",
+   "posterStatus": "pending"
+  },
+  {
+   "id": "fable52-reddit-1xt1t87",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xt1t87/ascii_art_generator_with_fable_52_experiment/",
+   "author": "oxmannnn",
+   "date": "2026-11-10",
+   "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xt1t87/ascii_art_generator_with_fable_52_experiment/",
+   "evidenceSha256": "421cff401aa546de01b9328c6e4d20f94b33a7fb5501a0f412aae56a21bf9f98",
+   "decision": "accepted",
+   "reason": "作者用 Fable 5.2 迭代单文件 WebGL2/Web Audio 工具，把图像、视频或文字转为字符效果，支持三维旋转与导出，并公开源码。",
+   "posterStatus": "accepted"
+  },
+  {
+   "id": "fable52-reddit-1xzir6g",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1xzir6g/a_game_with_a_galaxy_of_150_million_star_systems/",
+   "author": "BigTutor6739",
+   "date": "2026-11-18",
+   "evidenceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1xzir6g/a_game_with_a_galaxy_of_150_million_star_systems/",
+   "evidenceSha256": "066ce7c7e9e6f09c359f5768b7bcf1472a6a56449195d502aa0bd8b5e0f56242",
+   "decision": "accepted",
+   "reason": "作者用 Fable 5.2 编写 WebGPU 太空探索游戏，自己决定设计与试听音乐，公开作品并说明主要在桌面 Chrome/Edge 测试。",
+   "posterStatus": "accepted"
+  }
+ ],
+ "coverage": [
+  {
+   "key": "fable-5-2-x-latest-0",
+   "checkedAt": "2026-11-19T12:40:35+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "7cf1e5d1b03248ebb9b9260c40d542b05333a5a6b771186f94d7bba1aa8fade3",
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%28%5C%22Fable+5.2%5C%22+OR+%5C%22Fable5.2%5C%22+OR+%5C%22fable-5-2%5C%22%29+since%3A2026-11-17+-filter%3Aretweets%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Latest%22%2C+%22includePromotedContent%22%3A+false%7D"
+  },
+  {
+   "key": "fable-5-2-x-top-0",
+   "checkedAt": "2026-11-19T12:40:35+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "bdc511d7937e7a87f52692472bea0b6347f7be50816bd222e5db4e9898b8e885",
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%28%5C%22Fable+5.2%5C%22+OR+%5C%22Fable5.2%5C%22+OR+%5C%22fable-5-2%5C%22%29+since%3A2026-11-17+-filter%3Aretweets%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Top%22%2C+%22includePromotedContent%22%3A+false%7D"
+  },
+  {
+   "key": "fable-5-2-x-latest-1",
+   "checkedAt": "2026-11-19T12:40:37+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "08b7cf1515555f79f7e01dbf2b2af59e09272c9069ee2eefcc10d00ecd2f11d9",
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%28%5C%22Fable+5.2%5C%22+OR+%5C%22Fable5.2%5C%22+OR+%5C%22fable-5-2%5C%22%29+since%3A2026-11-17+-filter%3Aretweets%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Latest%22%2C+%22includePromotedContent%22%3A+false%2C+%22cursor%22%3A+%22DAADDAABCgABHXfRYs1akOkKAAIdd8_gq1ZAAwAIAAIAAAACCAADAAAAAAgABAAAAAAKAAUdd9Fti0AnEAoABh130W2LP9jwCwAHAAAA8EVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFCUWRkOUI1aHhhZ3F4MTMwVFN5R3lEQkhYZlF5aFFXd05jZGQ5RGlvOXFoengxMzBRVTZXd0dLSFhmUlFuU1d3RTRkZDlCY0tsc3hBaDEzMEpNdVc2QXZIWGZRdHZOYllBd2RkOUN5YmRmUS9oMTN6L28yR29IMUhYZlJZczFha09rZGQ4LzFqWnNBWVIxMzBJNWdGeUdkSFhmUW9oUlhRQzRkZDlEc0xSZXc1aDEzME82TFdqRmJIWGZQOWttWFlHVWRkOC9ncTFaQUF4MTMwUkU4bXVCcgAA%22%7D"
+  },
+  {
+   "key": "fable-5-2-x-top-1",
+   "checkedAt": "2026-11-19T12:40:38+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "11a0091994247633e5ad0754ed15ced0546d700c814292e8ce339ddc727e66ef",
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%28%5C%22Fable+5.2%5C%22+OR+%5C%22Fable5.2%5C%22+OR+%5C%22fable-5-2%5C%22%29+since%3A2026-11-17+-filter%3Aretweets%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Top%22%2C+%22includePromotedContent%22%3A+false%2C+%22cursor%22%3A+%22DAACCgACHXfRbhKAJxAKAAMdd9FuEn_Y8AgABAAAAAILAAUAAADwRW1QQzZ3QUFBZlEvZ0dKTjB2R3AvQUFBQUJRZGRyZk9IMW9SbEIxMnhLc0kydEFtSFhZZHA0MmJ3UFlkZFFZYnNoc3g3QjEyRll6OUdzQ21IWFNzZGN5WG9EOGRkY0VyWVJwaFZSMTJlc2JnRnlGR0hYZkRHYmNiRVJvZGQ1NVNMNVpSaUIxMmpGVjRGdEJ4SFhWUWdubFdzQ2dkZHJYREYxdVFKQjEybjQ5REduQy9IWGFzZzFpYTRYQWRkODgzYzlkUWRSMTN5UFQ1bXVEa0hYYkdCenVhVU1VZGRyWDl0Wm9RM0IxMVl6cmZHbUhvCAAGAAAAAAgABwAAAAAMAAgKAAEddKx1zJegPwAAAA%22%7D"
+  },
+  {
+   "key": "fable-5-2-x-latest-2",
+   "checkedAt": "2026-11-19T12:40:40+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "21b654a3d0a75a9ca217f26d2f4aa80e2d6485bb977b42c6572f1077abd59ddb",
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%28%5C%22Fable+5.2%5C%22+OR+%5C%22Fable5.2%5C%22+OR+%5C%22fable-5-2%5C%22%29+since%3A2026-11-17+-filter%3Aretweets%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Latest%22%2C+%22includePromotedContent%22%3A+false%2C+%22cursor%22%3A+%22DAADDAABCgABHXfRYs1akOkKAAIdd88XlJsw-AAIAAIAAAACCAADAAAAAAgABAAAAAEKAAUdd9Fti0AnEAoABh130W2LP7HgCwAHAAAByEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFDZ2RkOCt1aTFvQmpCMTN6K0NyVmtBREhYZlF5aFFXd05jZGQ4OGQwNXNCTEIxMzBVSjBsc0JPSFhmUWt5NWJvQzhkZDlCY0tsc3hBaDEzejVFNjJwQWhIWGZRc20zWDBQNGRkODhYbEpzdytCMTN6L28yR29IMUhYZlBHaWZXY1NZZGQ4ODFxbFl3aEIxM3oyMlVsakZTSFhmUDREMWFrZkVkZDlDaUZGZEFMaDEzME82TFdqRmJIWGZRam1BWElaMGRkODh4UXBvUlNSMTN6N3hhMndBbEhYZlJOTEliSU1FZGQ5QjVoeGFncXgxM3o4aitGcUErSFhmUkJUcGJBWW9kZDlEaW85cWh6eDEzeng5MTJsSHZIWGZQNEZMYllhSWRkOUMyODF0Z0RCMTN6MDd5bWpIMkhYZlJZczFha09rZGQ4K294MXRBYkIxM3p5V1ZGNUZwSFhmUE5VdWJZY3NkZDg4M2M5ZFFkUjEzeitDQzFsREVIWGZQOVkyYkFHRWRkOURzTFJldzVoMTN6L1pKbDJCbEhYZlBTTktXd0hjZGQ5RVJQSnJnYXc9PQAA%22%7D"
+  },
+  {
+   "key": "fable-5-2-x-latest-3",
+   "checkedAt": "2026-11-19T12:40:42+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "1b11193eb92bd06bd5e71c160c43e2a44dd063224e2e6c6b9a959dbe205560bf",
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%28%5C%22Fable+5.2%5C%22+OR+%5C%22Fable5.2%5C%22+OR+%5C%22fable-5-2%5C%22%29+since%3A2026-11-17+-filter%3Aretweets%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Latest%22%2C+%22includePromotedContent%22%3A+false%2C+%22cursor%22%3A+%22DAADDAABCgABHXfRYs1akOkKAAIdd85QDdaRRgAIAAIAAAACCAADAAAAAAgABAAAAAIKAAUdd9Fti0AnEAoABh130W2LP4rQCwAHAAACnEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFEd2RkOCt1aTFvQmpCMTMwVUowbHNCT0hYZlBIZE9iQVN3ZGQ4NVFEZGFSUmgxMzBKTXVXNkF2SFhmUEY1U2JNUGdkZDgvNk5ocUI5UjEzejIyVWxqRlNIWGZQR2lmV2NTWWRkODhBMFp0Z2RSMTN6eldxVmpDRUhYZlFqbUFYSVowZGQ4OHhRcG9SU1IxM3ptODJteEQrSFhmUWVZY1dvS3NkZDlFMHNoc2d3UjEzenVKZUcwQjJIWGZPYm0yYU1FWWRkODhCL0phQnd4MTN6K0JTMjJHaUhYZk8xZ0FiMFZZZGQ4NWxuSnV3RFIxMzBXTE5XcERwSFhmUHFNZGJRR3dkZDg4MVM1dGh5eDEzeitDQzFsREVIWGZQTjNQWFVIVWRkODhsbFJlUmFSMTN6cHVKbHNEckhYZlF5aFFXd05jZGQ4L2dxMVpBQXgxM3p4TVNsOUhVSFhmUVhDcGJNUUlkZDlDeWJkZlEvaDEzejVFNjJwQWhIWGZPVUpUV2tWd2RkODdXRnBxQXBoMTN6K0E5V3BIeEhYZlFvaFJYUUM0ZGQ5RHVpMW94V3gxM3psQkhtcUVsSFhmUTRxUGFvYzhkZDgrOFd0c0FKUjEzMFFVNld3R0tIWGZQeVA0V29ENGRkODhBckZkZ2RoMTN6c0Q2MjlDckhYZlBIM1hhVWU4ZGQ5QzI4MXRnREIxM3owN3ltakgySFhmT2czcmJBSE1kZDg2d1o1b3g0UjEzenBrRTF4RURIWGZQRkhOV1lMMGRkOC8xalpzQVlSMTMwT3d0RjdEbUhYZlA5a21YWUdVZGQ4OUkwcGJBZHgxMzBSRThtdUJySFhmTzFkb2JZSms9AAA%22%7D"
+  },
+  {
+   "key": "fable-5-2-x-top-2",
+   "checkedAt": "2026-11-19T12:40:41+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "c777589c541693fee608ebb1de45c86c799d693cbcd81252d89b79bceb9a15b4",
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%28%5C%22Fable+5.2%5C%22+OR+%5C%22Fable5.2%5C%22+OR+%5C%22fable-5-2%5C%22%29+since%3A2026-11-17+-filter%3Aretweets%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Top%22%2C+%22includePromotedContent%22%3A+false%2C+%22cursor%22%3A+%22DAACCgACHXfRbhKAJxAKAAMdd9FuEn-x4AgABAAAAAILAAUAAAHoRW1QQzZ3QUFBZlEvZ0dKTjB2R3AvQUFBQUNzZGRzSnZ6MXB3ZkIxMmd3SWkxb0gwSFhlQ0xIdVhVV0FkZDgvZ3ExWkFBeDEzengzVG13RXNIWFpySVl5V1Fid2Rkc28xckJaQkVCMTJ4UVFrbXRES0hYVTF3dytic0JJZGRoMm5qWnZBOWgxMXdTdGhHbUZWSFhTc2RjeVhvRDhkZGhXTS9SckFwaDExVGI1cjJ6RFVIWFo2eHVBWElVWWRkb3hWZUJiUWNSMTN6d0RSbTJCMUhYYWZqME1hY0w4ZGRWQ0NlVmF3S0IxM3B6d3NsMEI5SFhmTE5zRWE0SmtkZExyMkNaY1JPQjEzMEtJVVYwQXVIWFV5WXZqYXNKY2RkOGowK1pyZzVCMTEwdU0zRjhFZ0hYVUVqa2thc0tZZGRyWDl0Wm9RM0IxMnQ4NGZXaEdVSFhhdG1GWWJZZE1kZHNTckNOclFKaDExQmh1eUd6SHNIWGJwVlczYjBkUWRkOE1adHhzUkdoMTNubEl2bGxHSUhYYTF3eGRia0NRZGRxeURXSnJoY0IxM2JXN1VXakVRSFhmUE4zUFhVSFVkZHNZSE81cFF4UjExWXpyZkdtSG9IWGV0aG9wYVlZUWRkVTkrTHhjeGJ3PT0IAAYAAAAACAAHAAAAAQwACAoAAR10uvYJlxE4AAAA%22%7D"
+  },
+  {
+   "key": "fable-5-2-x-top-3",
+   "checkedAt": "2026-11-19T12:40:44+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "611bcdc3b9dc49b86193f1b78d9a5b97fef0c2dfde89238dedf6428cbf0ce2fc",
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%28%5C%22Fable+5.2%5C%22+OR+%5C%22Fable5.2%5C%22+OR+%5C%22fable-5-2%5C%22%29+since%3A2026-11-17+-filter%3Aretweets%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Top%22%2C+%22includePromotedContent%22%3A+false%2C+%22cursor%22%3A+%22DAACCgACHXfRbhKAJxAKAAMdd9FuEn-K0AgABAAAAAILAAUAAAMIRW1QQzZ3QUFBZlEvZ0dKTjB2R3AvQUFBQUVZZGRzSnZ6MXB3ZkIxM2dpeDdsMUZnSFhmRitjM2JrUTRkZDh2Nmg5dFE1aDEzengzVG13RXNIWGJLTmF3V1FSQWRkc1pxTHhwZy9oMTJSOHB5RnVHbkhYWWRwNDJid1BZZGRLeDF6SmVnUHgxMkZZejlHc0NtSFhaNnh1QVhJVVlkZFUyK2E5c3cxQjEzendEUm0yQjFIWFZvYkVSYWdJMGRkOC9lMnBkQTJSMTFVSUo1VnJBb0hYZW5QQ3lYUUgwZGRYbVhRTmFSVmgxMXJia2ZtdURSSFhVRWpra2FzS1lkZFRKaStOcXdseDEyWTViUEdpSGpIWGEzemg5YUVaUWRkUisvTXBaeE5oMTFwNlpEbXJFcEhYZWVVaStXVVlnZGRyWERGMXVRSkIxMmxnN1RGM0FUSFhmUDRJTFdVTVFkZDhXL090b3dhaDEzeklwNkc5QWdIWGZQTjNQWFVIVWRkc1lITzVwUXhSMTNyWWFLV21HRUhYYURBaUxXZ2ZRZGQ4L2dxMVpBQXgxMmF5R01sa0c4SFhWcWpER2FvVDhkZHNVRUpKclF5aDExQSt0a1c1RXdIWFhCSzJFYVlWVWRkVFhERDV1d0VoMTJqRlY0RnRCeEhYZkprQ2NhUWJZZGQ4L2E3QmF3UHgxMm40OURHbkMvSFhiZFdhZmJ3Qm9kZExyMkNaY1JPQjEzeXpiQkd1Q1pIWGZRb2hSWFFDNGRkOGowK1pyZzVCMTEwdU0zRjhFZ0hYYTEvYldhRU53ZGRhSlA3MW94Z3gxMG5lWFRXaUZFSFhhdG1GWWJZZE1kZHRreElkdlJTUjEyeEtzSTJ0QW1IWGJwVlczYjBkUWRkUVlic2hzeDdCMTN5ZjZURzVHakhYZkRHYmNiRVJvZGQ1OEIyWm9RQWgxM2JXN1VXakVRSFhhc2cxaWE0WEFkZDgvMWpac0FZUjExeDlsNWwzRHhIWFZqT3Q4YVllZ2RkVTkrTHhjeGJ3PT0IAAYAAAAACAAHAAAAAgwACAoAAR10uvYJlxE4AAAA%22%7D"
+  },
+  {
+   "key": "fable-5-2-x-projects-0",
+   "checkedAt": "2026-11-19T12:40:44+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "3c83e8a37924f80e16de69f70abc8f70a40d68c0960b6a7a2230dac545c3fee0",
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%28%5C%22Fable+5.2%5C%22+OR+%5C%22Fable5.2%5C%22+OR+%5C%22fable-5-2%5C%22%29+since%3A2026-11-17+-filter%3Aretweets+%28github+OR+built+OR+made+OR+%5Cu4f5c%5Cu3063%5Cu305f+OR+%5Cu5236%5Cu4f5c+OR+app+OR+game%29%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Top%22%2C+%22includePromotedContent%22%3A+false%7D"
+  },
+  {
+   "key": "fable-5-2-bili-1",
+   "checkedAt": "2026-11-19T12:40:47+00:00",
+   "ok": false,
+   "error": "HTTPError",
+   "status": 412,
+   "url": "https://api.bilibili.com/x/web-interface/search/type?search_type=video&keyword=Fable+5.2&order=pubdate&page=1&page_size=50"
+  },
+  {
+   "key": "fable-5-2-youtube",
+   "checkedAt": "2026-11-19T12:40:47+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "79631e5a43eed66a08a124c9822715e6d6c0a0d8fb8be8ac8265b1fc9fba08c0",
+   "url": "https://www.youtube.com/results?search_query=%22Fable+5.2%22&sp=CAI%3D"
+  },
+  {
+   "key": "fable-5-2-gh-0-1",
+   "checkedAt": "2026-11-19T12:40:44+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "30",
+    "x-ratelimit-remaining": "27",
+    "x-ratelimit-reset": "1795092094"
+   },
+   "finalUrl": "https://api.github.com/search/repositories?q=%22Fable+5.2%22+pushed%3A%3E%3D2026-11-17+pushed%3A%3E%3D2026-10-23&sort=updated&per_page=100&page=1",
+   "bytes": 585584,
+   "sha256": "2ee865eb80f6f59da52d5978558f1d101a74778fba189be6cde05ee108261866",
+   "ok": true,
+   "returned": 100,
+   "totalReported": 366,
+   "searchIncomplete": false,
+   "pagination": "first-page-only",
+   "url": "https://api.github.com/search/repositories?q=%22Fable+5.2%22+pushed%3A%3E%3D2026-11-17+pushed%3A%3E%3D2026-10-23&sort=updated&per_page=100&page=1"
+  },
+  {
+   "key": "fable-5-2-x-projects-1",
+   "checkedAt": "2026-11-19T12:40:47+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "e76e935bafd9e2a6ba10ae94adb01b5600bda467cff2eca94890871983d0101a",
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%28%5C%22Fable+5.2%5C%22+OR+%5C%22Fable5.2%5C%22+OR+%5C%22fable-5-2%5C%22%29+since%3A2026-11-17+-filter%3Aretweets+%28github+OR+built+OR+made+OR+%5Cu4f5c%5Cu3063%5Cu305f+OR+%5Cu5236%5Cu4f5c+OR+app+OR+game%29%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Top%22%2C+%22includePromotedContent%22%3A+false%2C+%22cursor%22%3A+%22DAACCgACHXfRdrWAJxAKAAMdd9F2tX_Y8AgABAAAAAILAAUAAAD8RW1QQzZ3QUFBZlEvZ0dKTjB2R3AvQUFBQUJVZGRyZk9IMW9SbEIxMnhsMmcyM0Y2SFhicFZXM2IwZFFkZDJmRzJoc0I1aDEybzV5TlZ1Q2VIWGI1c0ZlWFVZVWRkNGZ0dFJzZ0hCMTN1RlJIbXVCSkhYWEZKNUhXZ2NVZGRYL2JhNW9nZkIxM2xUaXJGNEJESFhWTnZtdmJNTlFkZHd0TnY5Y0FzaDEyakZWNEZ0QnhIWGQzcWpqYllSSWRkcCtQUXhwd3Z4MTJsUVhIRmlHcEhYWlN3blZXSVc0ZGQ1RTJsdHV4ZngxM24wekxtZ0UrSFhWUGZpOFhNVzg9CAAGAAAAAAgABwAAAAAMAAgKAAEddU2-a9sw1AAAAA%22%7D"
+  },
+  {
+   "key": "fable-5-2-reddit-ClaudeAI-0",
+   "checkedAt": "2026-11-19T12:40:45+00:00",
+   "status": 200,
+   "finalUrl": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=ClaudeAI&query=Fable+5.2&after=2026-10-23&limit=100&sort=desc",
+   "bytes": 566502,
+   "sha256": "066ce7c7e9e6f09c359f5768b7bcf1472a6a56449195d502aa0bd8b5e0f56242",
+   "ok": true,
+   "pagination": "not-verified",
+   "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=ClaudeAI&query=Fable+5.2&after=2026-10-23&limit=100&sort=desc"
+  },
+  {
+   "key": "fable-5-2-x-projects-2",
+   "checkedAt": "2026-11-19T12:40:50+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "3cf0f9b3a060a8bbda11723cfc9ed0785df88c4dd16241ff56a883117fccf375",
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%28%5C%22Fable+5.2%5C%22+OR+%5C%22Fable5.2%5C%22+OR+%5C%22fable-5-2%5C%22%29+since%3A2026-11-17+-filter%3Aretweets+%28github+OR+built+OR+made+OR+%5Cu4f5c%5Cu3063%5Cu305f+OR+%5Cu5236%5Cu4f5c+OR+app+OR+game%29%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Top%22%2C+%22includePromotedContent%22%3A+false%2C+%22cursor%22%3A+%22DAACCgACHXfRdrWAJxAKAAMdd9F2tX-x4AgABAAAAAILAAUAAAHcRW1QQzZ3QUFBZlEvZ0dKTjB2R3AvQUFBQUNvZGRvU1hYcGVnQmgxMmVXb2pGMEJSSFhkbnh0b2JBZVlkZFZzSWxwYWgzUjEwckhYTWw2QS9IWGU0VkVlYTRFa2RkY1Vua2RhQnhSMTJoWVhtbG5DMEhYWjZ4dUFYSVVZZGRYL2JhNW9nZkIxMVRiNXIyekRVSFhhTVZYZ1cwSEVkZHZOSmRsc1JzUjEzZDZvNDIyRVNIWGFmajBNYWNMOGRkNDVRNGh2UVBoMTJVc0oxVmlGdUhYYmRXYWZid0JvZGRsM2lIdFp4QUIxM3NTOXgyaURCSFhlNmI5U1hFQTBkZHJublMxZWhJQjEweFAvSTE4R09IWGEzemg5YUVaUWRkSjNsMDFvaFJCMTJ4bDJnMjNGNkhYVkZaOEthc0ZrZGRRUlNpOVp4dFIxMitiQlhsMUdGSFhham5JMVc0SjRkZDRmdHRSc2dIQjEyNlZWdDI5SFVIWGVWT0tzWGdFTWRkdXNWb0Jad1poMTNDMDIvMXdDeUhYYVZCY2NXSWFrZGQ3aUFhVnB3NUIxM2tUYVcyN0YvSFhlMno1a2JJTHNkZDU5TXk1b0JQaDEzZTdJSGxzRW1IWFZQZmk4WE1XOD0IAAYAAAAACAAHAAAAAQwACAoAAR11Tb5r2zDUAAAA%22%7D"
+  },
+  {
+   "key": "fable-5-2-gh-0-2",
+   "checkedAt": "2026-11-19T12:40:49+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "30",
+    "x-ratelimit-remaining": "25",
+    "x-ratelimit-reset": "1795092094"
+   },
+   "finalUrl": "https://api.github.com/search/repositories?q=%22Fable+5.2%22+pushed%3A%3E%3D2026-11-17+pushed%3A%3E%3D2026-10-23&sort=updated&per_page=100&page=2",
+   "bytes": 575853,
+   "sha256": "948934f6b55a271b7e15cdc4872c0120bdb2fe24b9c643f1e3510d2d00758587",
+   "ok": true,
+   "returned": 100,
+   "totalReported": 366,
+   "searchIncomplete": false,
+   "pagination": "first-page-only",
+   "url": "https://api.github.com/search/repositories?q=%22Fable+5.2%22+pushed%3A%3E%3D2026-11-17+pushed%3A%3E%3D2026-10-23&sort=updated&per_page=100&page=2"
+  },
+  {
+   "key": "fable-5-2-x-projects-3",
+   "checkedAt": "2026-11-19T12:40:52+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "414241dff48fd1e7175bc2ddfa405f11df97153deb319e2aed45997156bdb088",
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%28%5C%22Fable+5.2%5C%22+OR+%5C%22Fable5.2%5C%22+OR+%5C%22fable-5-2%5C%22%29+since%3A2026-11-17+-filter%3Aretweets+%28github+OR+built+OR+made+OR+%5Cu4f5c%5Cu3063%5Cu305f+OR+%5Cu5236%5Cu4f5c+OR+app+OR+game%29%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Top%22%2C+%22includePromotedContent%22%3A+false%2C+%22cursor%22%3A+%22DAACCgACHXfRdrWAJxAKAAMdd9F2tX-K0AgABAAAAAILAAUAAAKwRW1QQzZ3QUFBZlEvZ0dKTjB2R3AvQUFBQUQ0ZGRadVhsRnVRZkIxMnRJNTJWdkN5SFhYRko1SFdnY1VkZDdoVVI1cmdTUjExV3dpV2xxSGRIWFNzZGN5WG9EOGRkVTIrYTlzdzFCMTN6L28yR29IMUhYWjZ4dUFYSVVZZGR4VWVJTnV4QngxM25BWExGMERMSFhlT1VPSWIwRDRkZDdFdmNkb2d3UjEyWGVJZTFuRUFIWGE1NTB0WG9TQWRkTVQveU5mQmpoMTJ0ODRmV2hHVUhYVGhyZTZiWWVNZGQ4dkl2cGFBdUIxMnhsMmcyM0Y2SFhWRlo4S2FzRmtkZDhMWFFwZEI5eDEwMFpxSWxqQ0ZIWGFqbkkxVzRKNGRkNGZ0dFJzZ0hCMTNzTHV4bHRCOUhYZW40OFBhNFE4ZGR1c1ZvQlp3WmgxMkNnblZtckFFSFhjTFRiL1hBTElkZFUyRzZkWVJkeDEzME1vVUZzRFhIWGRueHRvYkFlWWRkbmxxSXhkQVVSMTJoSmRlbDZBR0hYYUZoZWFXY0xRZGRYL2JhNW9nZkIxMm40OURHbkMvSFhhTVZYZ1cwSEVkZDNlcU9OdGhFaDEyODBsMld4R3hIWGNRY0VtV0lCRWRkazFmZ1JyUUdSMTJVc0oxVmlGdUhYYmRXYWZid0JvZGRXQkdpVmN3SFIxM3VtL1VseEFOSFhWOUtwZGE4S01kZEozbDAxb2hSQjEyNlZWdDI5SFVIWGI1c0ZlWFVZVWRkUVJTaTlaeHRSMTFoK08yMjNHR0hYYmpiampYY0U0ZGQ1VTRxeGVBUXgxMmxRWEhGaUdwSFhlNGdHbGFjT1FkZDVFMmx0dXhmeDEzdHMrWkd5QzdIWGVmVE11YUFUNGRkM3V5QjViQkpoMTFUMzR2RnpGdggABgAAAAAIAAcAAAACDAAICgABHXVNvmvbMNQAAAA%22%7D"
+  },
+  {
+   "key": "fable-5-2-hn-0",
+   "checkedAt": "2026-11-19T12:40:53+00:00",
+   "status": 200,
+   "finalUrl": "https://hn.algolia.com/api/v1/search_by_date?query=Fable+5.2&hitsPerPage=100&numericFilters=created_at_i%3E%3D1792713600",
+   "bytes": 193318,
+   "sha256": "97293a8599c90652e5664f972077d85b4266c17bbf796d974a4168dfeb39ca79",
+   "ok": true,
+   "returned": 100,
+   "totalReported": 338,
+   "pagesReported": 4,
+   "pagination": "first-page-only",
+   "url": "https://hn.algolia.com/api/v1/search_by_date?query=Fable+5.2&hitsPerPage=100&numericFilters=created_at_i%3E%3D1792713600"
+  },
+  {
+   "key": "fable-5-2-gh-1-1",
+   "checkedAt": "2026-11-19T12:40:55+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "30",
+    "x-ratelimit-remaining": "23",
+    "x-ratelimit-reset": "1795092094"
+   },
+   "finalUrl": "https://api.github.com/search/repositories?q=%22Fable5.2%22+pushed%3A%3E%3D2026-11-17+pushed%3A%3E%3D2026-10-23&sort=updated&per_page=100&page=1",
+   "bytes": 60468,
+   "sha256": "5fd352ec3f195d11ef4e94995ebb9d76b3a971515637b4464e654ff9979875bd",
+   "ok": true,
+   "returned": 11,
+   "totalReported": 11,
+   "searchIncomplete": false,
+   "pagination": "first-page-only",
+   "url": "https://api.github.com/search/repositories?q=%22Fable5.2%22+pushed%3A%3E%3D2026-11-17+pushed%3A%3E%3D2026-10-23&sort=updated&per_page=100&page=1"
+  },
+  {
+   "key": "fable-5-2-hn-1",
+   "checkedAt": "2026-11-19T12:41:00+00:00",
+   "status": 200,
+   "finalUrl": "https://hn.algolia.com/api/v1/search_by_date?query=Fable5.2&hitsPerPage=100&numericFilters=created_at_i%3E%3D1792713600",
+   "bytes": 5422,
+   "sha256": "46283717a93f241920b95ed7e667096656a2eacc34d2341d49608191c681e9af",
+   "ok": true,
+   "returned": 3,
+   "totalReported": 3,
+   "pagesReported": 1,
+   "pagination": "first-page-only",
+   "url": "https://hn.algolia.com/api/v1/search_by_date?query=Fable5.2&hitsPerPage=100&numericFilters=created_at_i%3E%3D1792713600"
+  },
+  {
+   "key": "fable-5-2-gh-2-1",
+   "checkedAt": "2026-11-19T12:41:01+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "30",
+    "x-ratelimit-remaining": "21",
+    "x-ratelimit-reset": "1795092094"
+   },
+   "finalUrl": "https://api.github.com/search/repositories?q=%22fable-5-2%22+pushed%3A%3E%3D2026-11-17+pushed%3A%3E%3D2026-10-23&sort=updated&per_page=100&page=1",
+   "bytes": 587657,
+   "sha256": "7470b229e97825490c43a4cca3186f2c11d58f4946c8b1d4bdba0f7e6259ae68",
+   "ok": true,
+   "returned": 100,
+   "totalReported": 369,
+   "searchIncomplete": false,
+   "pagination": "first-page-only",
+   "url": "https://api.github.com/search/repositories?q=%22fable-5-2%22+pushed%3A%3E%3D2026-11-17+pushed%3A%3E%3D2026-10-23&sort=updated&per_page=100&page=1"
+  },
+  {
+   "key": "fable-5-2-gh-2-2",
+   "checkedAt": "2026-11-19T12:41:05+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "30",
+    "x-ratelimit-remaining": "19",
+    "x-ratelimit-reset": "1795092094"
+   },
+   "finalUrl": "https://api.github.com/search/repositories?q=%22fable-5-2%22+pushed%3A%3E%3D2026-11-17+pushed%3A%3E%3D2026-10-23&sort=updated&per_page=100&page=2",
+   "bytes": 574695,
+   "sha256": "5db53f19de756040f0613cbcb2ac749649f59fd116cb92bec52b0951b8547e3d",
+   "ok": true,
+   "returned": 100,
+   "totalReported": 369,
+   "searchIncomplete": false,
+   "pagination": "first-page-only",
+   "url": "https://api.github.com/search/repositories?q=%22fable-5-2%22+pushed%3A%3E%3D2026-11-17+pushed%3A%3E%3D2026-10-23&sort=updated&per_page=100&page=2"
+  },
+  {
+   "key": "fable-5-2-hn-2",
+   "checkedAt": "2026-11-19T12:41:13+00:00",
+   "status": 200,
+   "finalUrl": "https://hn.algolia.com/api/v1/search_by_date?query=fable-5-2&hitsPerPage=100&numericFilters=created_at_i%3E%3D1792713600",
+   "bytes": 47560,
+   "sha256": "3e3eb4e70f287f97e20fcb15dc6c7aa5529212627fc08bc6fe077184e76828aa",
+   "ok": true,
+   "returned": 26,
+   "totalReported": 26,
+   "pagesReported": 1,
+   "pagination": "first-page-only",
+   "url": "https://hn.algolia.com/api/v1/search_by_date?query=fable-5-2&hitsPerPage=100&numericFilters=created_at_i%3E%3D1792713600"
+  },
+  {
+   "key": "fable-5-2-reddit-ClaudeAI-1",
+   "checkedAt": "2026-11-19T12:41:33+00:00",
+   "status": 200,
+   "finalUrl": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=ClaudeAI&query=Fable+5.2&after=2026-10-23&limit=100&sort=desc&before=1794775054",
+   "bytes": 503556,
+   "sha256": "83b50049fa0464deaf9ee14cff32d05a5312061cb80e0de8bc49ab639855e4b4",
+   "ok": true,
+   "pagination": "not-verified",
+   "retries": [
+    {
+     "checkedAt": "2026-11-19T12:40:51+00:00",
+     "status": 422,
+     "error": "HTTP Error 422: Unprocessable Entity"
+    },
+    {
+     "checkedAt": "2026-11-19T12:41:02+00:00",
+     "status": 422,
+     "error": "HTTP Error 422: Unprocessable Entity"
+    }
+   ],
+   "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=ClaudeAI&query=Fable+5.2&after=2026-10-23&limit=100&sort=desc&before=1794775054"
+  },
+  {
+   "key": "fable-5-2-reddit-ClaudeAI-2",
+   "checkedAt": "2026-11-19T12:42:23+00:00",
+   "ok": false,
+   "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>",
+   "retries": [
+    {
+     "checkedAt": "2026-11-19T12:41:39+00:00",
+     "status": 422,
+     "error": "HTTP Error 422: Unprocessable Entity"
+    },
+    {
+     "checkedAt": "2026-11-19T12:41:52+00:00",
+     "status": 429,
+     "error": "HTTP Error 429: Too Many Requests"
+    }
+   ],
+   "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=ClaudeAI&query=Fable+5.2&after=2026-10-23&limit=100&sort=desc&before=1794578514"
+  },
+  {
+   "key": "fable-5-2-reddit-ClaudeCode-0",
+   "checkedAt": "2026-11-19T12:42:44+00:00",
+   "status": 200,
+   "finalUrl": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=ClaudeCode&query=Fable+5.2&after=2026-10-23&limit=100&sort=desc",
+   "bytes": 537465,
+   "sha256": "882ed3b4d84167574278d1303825a79f88edb384cd175e87034a7b2412e15f84",
+   "ok": true,
+   "pagination": "not-verified",
+   "retries": [
+    {
+     "checkedAt": "2026-11-19T12:42:28+00:00",
+     "status": 422,
+     "error": "HTTP Error 422: Unprocessable Entity"
+    }
+   ],
+   "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=ClaudeCode&query=Fable+5.2&after=2026-10-23&limit=100&sort=desc"
+  },
+  {
+   "key": "fable-5-2-reddit-ClaudeCode-1",
+   "checkedAt": "2026-11-19T12:43:34+00:00",
+   "status": 200,
+   "finalUrl": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=ClaudeCode&query=Fable+5.2&after=2026-10-23&limit=100&sort=desc&before=1794563335",
+   "bytes": 437808,
+   "sha256": "421cff401aa546de01b9328c6e4d20f94b33a7fb5501a0f412aae56a21bf9f98",
+   "ok": true,
+   "pagination": "not-verified",
+   "retries": [
+    {
+     "checkedAt": "2026-11-19T12:42:51+00:00",
+     "status": 422,
+     "error": "HTTP Error 422: Unprocessable Entity"
+    },
+    {
+     "checkedAt": "2026-11-19T12:43:03+00:00",
+     "status": 422,
+     "error": "HTTP Error 422: Unprocessable Entity"
+    }
+   ],
+   "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=ClaudeCode&query=Fable+5.2&after=2026-10-23&limit=100&sort=desc&before=1794563335"
+  },
+  {
+   "key": "fable-5-2-reddit-ClaudeCode-2",
+   "checkedAt": "2026-11-19T12:44:21+00:00",
+   "ok": false,
+   "error": "HTTP Error 422: Unprocessable Entity",
+   "status": 422,
+   "retries": [
+    {
+     "checkedAt": "2026-11-19T12:43:39+00:00",
+     "status": 422,
+     "error": "HTTP Error 422: Unprocessable Entity"
+    },
+    {
+     "checkedAt": "2026-11-19T12:43:50+00:00",
+     "status": 422,
+     "error": "HTTP Error 422: Unprocessable Entity"
+    }
+   ],
+   "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=ClaudeCode&query=Fable+5.2&after=2026-10-23&limit=100&sort=desc&before=1794318145"
+  },
+  {
+   "key": "fable-5-2-reddit-claude-0",
+   "checkedAt": "2026-11-19T12:45:03+00:00",
+   "ok": false,
+   "error": "HTTP Error 422: Unprocessable Entity",
+   "status": 422,
+   "retries": [
+    {
+     "checkedAt": "2026-11-19T12:44:22+00:00",
+     "status": 422,
+     "error": "HTTP Error 422: Unprocessable Entity"
+    },
+    {
+     "checkedAt": "2026-11-19T12:44:32+00:00",
+     "status": 422,
+     "error": "HTTP Error 422: Unprocessable Entity"
+    }
+   ],
+   "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=claude&query=Fable+5.2&after=2026-10-23&limit=100&sort=desc"
+  },
+  {
+   "key": "fable-5-2-reddit-vibecoding-0",
+   "checkedAt": "2026-11-19T12:45:04+00:00",
+   "status": 200,
+   "finalUrl": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=vibecoding&query=Fable+5.2&after=2026-10-23&limit=100&sort=desc",
+   "bytes": 369392,
+   "sha256": "3fa13cea5a88c6c95cc7f7645173054ad12f14dcd3f266fc3dffb1d140791be7",
+   "ok": true,
+   "pagination": "not-verified",
+   "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=vibecoding&query=Fable+5.2&after=2026-10-23&limit=100&sort=desc"
+  },
+  {
+   "key": "fable-5-2-reddit-LocalLLaMA-0",
+   "checkedAt": "2026-11-19T12:45:55+00:00",
+   "ok": false,
+   "error": "HTTP Error 422: Unprocessable Entity",
+   "status": 422,
+   "retries": [
+    {
+     "checkedAt": "2026-11-19T12:45:10+00:00",
+     "status": 422,
+     "error": "HTTP Error 422: Unprocessable Entity"
+    },
+    {
+     "checkedAt": "2026-11-19T12:45:22+00:00",
+     "status": 422,
+     "error": "HTTP Error 422: Unprocessable Entity"
+    }
+   ],
+   "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=LocalLLaMA&query=Fable+5.2&after=2026-10-23&limit=100&sort=desc"
+  }
+ ],
+ "webSearches": [
+  {
+   "query": "\"Fable 5.2\" built November 2026",
+   "operationId": "01a1f3d0-f50b-729d-9fd1-83109e4d0c87",
+   "success": true,
+   "results": [
+    {
+     "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+     "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2"
+    },
+    {
+     "url": "https://lifearchitect.substack.com/p/the-memo-special-edition-claude-fable-24d",
+     "title": "Special edition - Claude Fable 5.2 and Claude Mythos 5.2 - 9/Nov/2026"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=owMtQh_3k4k",
+     "title": "Claude Fable 5.2 read a month of my failed attempts and got it right the first ..."
+    },
+    {
+     "url": "https://platform.claude.com/docs/en/models/fable-5-2/overview",
+     "title": "Claude Fable 5.2 - Claude Platform Docs"
+    },
+    {
+     "url": "https://x.com/claudeai/status/2119867114450268322",
+     "title": "\"Introducing Claude Fable 5.2 and Claude Mythos 5.2, designed to ..."
+    },
+    {
+     "url": "https://www.institutepm.com/knowledge-hub/claude-fable-5-2-for-product-managers",
+     "title": "Claude Fable 5.2 for Product Managers: Faster, Cheaper, and ..."
+    }
+   ],
+   "note": "Search used for discovery; accepted records were checked against original sources."
+  },
+  {
+   "query": "\"GPT-6.2\" (\"built\" OR \"made\" OR \"experiment\") November 2026",
+   "operationId": "01a1f3d4-8570-7318-8954-7a5255830f63",
+   "success": true,
+   "results": [
+    {
+     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+     "title": "Introducing GPT-6.2 Astra and Sol"
+    },
+    {
+     "url": "https://x.com/OpenAI/status/2122750124543926515",
+     "title": "OpenAI"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=mWMrJksUqCY",
+     "title": "GPT-6.2 Astra: 10 INSANE Things It Can Do"
+    },
+    {
+     "url": "https://believemy.com/en/r/gpt-6-2-astra-sol-openai",
+     "title": "GPT-6.2 Astra and Sol: which one to pick when you work alone?"
+    },
+    {
+     "url": "https://plotly.com/blog/gpt-6-2-astra-plotly-data-analytics-bench",
+     "title": "GPT-6.2 Astra Benchmark Results for Data Analysis"
+    },
+    {
+     "url": "https://aihubmix.com/blog/gpt-6-2-sol-vs-gpt-6-2-astra-which-coding-tasks-need-the-4x-flagship",
+     "title": "GPT-6.2 Sol vs GPT-6.2 Astra: which coding tasks need the 4x flagship?"
+    },
+    {
+     "url": "https://www.requesty.ai/blog/gpt-6-2-sol-astra-pricing-benchmarks",
+     "title": "GPT-6.2 Sol and Astra: pricing, benchmarks and reactions"
+    },
+    {
+     "url": "https://cellcog.ai/blog/gpt-6-2-sol/",
+     "title": "GPT-6.2 Sol Is Out at GPT-6.1 Sol's Price"
+    }
+   ],
+   "note": "Search used for discovery; accepted records were checked against original sources."
+  },
+  {
+   "query": "\"Opus 5.5\" \"built\" November 2026",
+   "operationId": "01a1f3d4-856b-7759-98bb-aac99cdbae1a",
+   "success": true,
+   "results": [
+    {
+     "url": "https://shattered.io/claude-opus-5-5-beats-gpt-5-6-sol-benchmark-2026/",
+     "title": "Claude Opus 5.5 Costs 40% Less to Run Than Opus 5 [2026]"
+    },
+    {
+     "url": "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-5-5",
+     "title": "Claude Opus 5.5 system prompts"
+    },
+    {
+     "url": "https://www.instagram.com/p/Ddn7FEeHd97/?hl=en",
+     "title": "Claude Opus 5.5 just launched, and Anthropic is calling it smarter, faster ..."
+    },
+    {
+     "url": "https://explainx.ai/blog/claude-opus-5-5-community-showcase-watermill-jupiter-water-2026",
+     "title": "Opus 5.5 Showcase: 3D Jupiter Site, Watermill, Water (2026)"
+    },
+    {
+     "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+     "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war"
+    },
+    {
+     "url": "https://www.reddit.com/r/TopologyAI/comments/1xl3e36/1_month_of_claude_opus_55_and_227_commits_heres/",
+     "title": "1 Month of Claude Opus 5.5 and 227 commits. Here's what I was able to ..."
+    },
+    {
+     "url": "https://emergent.sh/learn/claude-fable-5-2-vs-opus-5-5",
+     "title": "Claude Fable 5.2 vs Opus 5.5: Which Claude Model to Use?"
+    },
+    {
+     "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+     "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2"
+    }
+   ],
+   "note": "Search used for discovery; accepted records were checked against original sources."
+  },
+  {
+   "query": "\"GPT-6.2\" \"space elevator\" Mollick",
+   "operationId": "01a1f3d6-779a-71d8-a21a-0fb72eba1865",
+   "success": true,
+   "results": [
+    {
+     "url": "https://x.com/emollick/status/2122755693191287009",
+     "title": "Ethan Mollick on X: \"I've been using GPT-6.2 Astra prior to launch & I found ..."
+    },
+    {
+     "url": "https://x.com/emollick/status/2122755693191287009/video/1",
+     "title": "I've been using GPT-6.2 Astra prior to launch & I found it very uneven & weird ..."
+    },
+    {
+     "url": "https://www.linkedin.com/posts/emollick_ive-been-using-gpt-62-astra-prior-to-launch-activity-7528523027421155329-7-rZ",
+     "title": "I've been using GPT-6.2 Astra prior to launch & I found it very uneven & weird ..."
+    },
+    {
+     "url": "https://venturebeat.com/technology/essentially-unusable-openai-launches-gpt-6-2-astra-and-sol-to-negative-reception-from-ai-power-users",
+     "title": "'Essentially unusable': OpenAI launches GPT-6.2 Astra and Sol to ..."
+    }
+   ],
+   "note": "Search used for discovery; accepted records were checked against original sources."
+  }
+ ],
+ "languages": [
+  "English",
+  "Chinese",
+  "Japanese",
+  "Portuguese",
+  "multilingual version queries"
+ ],
+ "candidateCount": 977,
+ "candidateQueueFile": "reports/2026-11-19-candidate-queue.json",
+ "priorDraft": {
+  "staged": 99,
+  "retained": 69,
+  "excludedOrFolded": 30
+ },
+ "posters": [
+  {
+   "id": "fable52-x-2122551786045059205",
+   "topic": "fable-5-2",
+   "sourcePage": "https://x.com/jakemor/status/2122551786045059205",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2122551504347287552/img/2GX-3yrBPSX3IEhl.jpg",
+   "mediaKind": "video",
+   "sourceVideoUrl": "https://video.twimg.com/amplify_video/2122551504347287552/vid/avc1/1320x2868/lNaSRJXxBZdsvTqq.mp4?tag=29",
+   "status": 200,
+   "sourceImageSha256": "d10cd8e7d120a6123010ee0d7c1e43ae978df45afcc8e10d15e4b8863eb1151d",
+   "ok": true,
+   "width": 552,
+   "height": 1199,
+   "imageSha256": "d10cd8e7d120a6123010ee0d7c1e43ae978df45afcc8e10d15e4b8863eb1151d",
+   "method": "original-source-image-mirrored-verbatim",
+   "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+   "meanLuma": 21.1,
+   "stdLuma": 33.7
+  },
+  {
+   "id": "fable52-x-2122688041219133815",
+   "topic": "fable-5-2",
+   "sourcePage": "https://x.com/jamesmbickerton/status/2122688041219133815",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2122687895064498176/img/X8FgVFbTVcA-CyzA.jpg",
+   "mediaKind": "video",
+   "sourceVideoUrl": "https://video.twimg.com/amplify_video/2122687895064498176/vid/avc1/1584x904/ofPawXRZA2uUrpb5.mp4?tag=29",
+   "status": 200,
+   "sourceImageSha256": "f484d97b0536b2d1de67cd1297b84a096c8029cd4939ffaf30be05f1062b5365",
+   "ok": true,
+   "width": 1200,
+   "height": 685,
+   "imageSha256": "f484d97b0536b2d1de67cd1297b84a096c8029cd4939ffaf30be05f1062b5365",
+   "method": "original-source-image-mirrored-verbatim",
+   "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+   "meanLuma": 108.9,
+   "stdLuma": 93.2
+  },
+  {
+   "id": "fable52-x-2122969346935017497",
+   "topic": "fable-5-2",
+   "sourcePage": "https://x.com/kevin_t_ngo/status/2122969346935017497",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2122967328568827904/img/MMJhfmzUHB0dEaiW.jpg",
+   "mediaKind": "video",
+   "sourceVideoUrl": "https://video.twimg.com/amplify_video/2122967328568827904/vid/avc1/3840x2160/Iwj0k9Cm8zUcsxf5.mp4?tag=29",
+   "status": 200,
+   "sourceImageSha256": "c66b2375c3c84d0927fa2cdc7284f9fac2bce53ec7bc40d3c8ce84b773285f5c",
+   "ok": true,
+   "width": 1200,
+   "height": 675,
+   "imageSha256": "c66b2375c3c84d0927fa2cdc7284f9fac2bce53ec7bc40d3c8ce84b773285f5c",
+   "method": "original-source-image-mirrored-verbatim",
+   "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+   "meanLuma": 158.6,
+   "stdLuma": 44.1
+  },
+  {
+   "id": "fable52-x-2122823164635881853",
+   "topic": "fable-5-2",
+   "sourcePage": "https://x.com/LexnLin/status/2122823164635881853",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2122821966499311616/img/_DoB2mldEtMpLilH.jpg",
+   "mediaKind": "video",
+   "sourceVideoUrl": "https://video.twimg.com/amplify_video/2122821966499311616/vid/avc1/1920x1080/smDkdZ4qD-TB7W9B.mp4?tag=29",
+   "status": 200,
+   "sourceImageSha256": "9d61d73d73c29883f28c23cf842c09201b493e0a37a764d3b996af0dbe0e6df4",
+   "ok": true,
+   "width": 960,
+   "height": 540,
+   "imageSha256": "2a2f52f4323215189a9790d4350fe1aa4fde7ee06ea4dbe3e0a09c8069f883d5",
+   "method": "avfoundation-original-video-frame",
+   "relation": "Frame from the original creator video",
+   "meanLuma": 63.7,
+   "stdLuma": 48.4,
+   "sourceVideoSha256": "af5c532460d3f096e97a9cbbd90d117178721d194b433b28c92062c2a8c2f51c",
+   "frameSeconds": 6.0,
+   "requestedFrameSeconds": 6,
+   "prior": false
+  },
+  {
+   "id": "fable52-x-2122658200038322327",
+   "topic": "fable-5-2",
+   "sourcePage": "https://x.com/hayashimon1/status/2122658200038322327",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2122657639029231616/img/5XQMVzDMIsgJWLtV.jpg",
+   "mediaKind": "video",
+   "sourceVideoUrl": "https://video.twimg.com/amplify_video/2122657639029231616/vid/avc1/1280x720/VhTAhmEVkrA8KRQH.mp4?tag=29",
+   "status": 200,
+   "sourceImageSha256": "97f9e7deff48dc14d033fb851cb61834abe9f84f7b185f7cfd53179e1ee64949",
+   "ok": true,
+   "width": 1200,
+   "height": 675,
+   "imageSha256": "97f9e7deff48dc14d033fb851cb61834abe9f84f7b185f7cfd53179e1ee64949",
+   "method": "original-source-image-mirrored-verbatim",
+   "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+   "meanLuma": 76.0,
+   "stdLuma": 63.1
+  },
+  {
+   "id": "fable52-x-2123134336891318350",
+   "topic": "fable-5-2",
+   "sourcePage": "https://x.com/mattshumer_/status/2123134336891318350",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2123134230024642560/img/Ej0ZeY_PsUw1Gisy.jpg",
+   "mediaKind": "video",
+   "sourceVideoUrl": "https://video.twimg.com/amplify_video/2123134230024642560/vid/avc1/1920x1080/3gmh_IQGD0GA9DMk.mp4?tag=29",
+   "status": 200,
+   "sourceImageSha256": "19548042ae60adf065836632ee1a01aab1ceafce6bd39f00e7e64cd57df096b5",
+   "ok": true,
+   "width": 960,
+   "height": 540,
+   "imageSha256": "d7584b08042f37031e9039a4e1d142f240c86c7e156dbbb98a6e591301b257e9",
+   "method": "avfoundation-original-video-frame",
+   "relation": "Frame from the original creator video",
+   "meanLuma": 120.3,
+   "stdLuma": 61.7,
+   "sourceVideoSha256": "317bc3493f9557cd94c9f71811a485d87eb25b3bbfe6f5f658b702b87da5dd02",
+   "frameSeconds": 9.0,
+   "requestedFrameSeconds": 10,
+   "prior": false
+  },
+  {
+   "id": "fable52-x-2120907123357851697",
+   "topic": "fable-5-2",
+   "sourcePage": "https://x.com/scottstts/status/2120907123357851697",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120905300781694977/img/UOcrkagaoPFBIDJO.jpg",
+   "mediaKind": "video",
+   "sourceVideoUrl": "https://video.twimg.com/amplify_video/2120905300781694977/vid/avc1/3840x2160/id9V3ukBWga8hIl-.mp4?tag=29",
+   "status": 200,
+   "sourceImageSha256": "531ea77d36522101c115c7710653571f50795997bf011fed7b944d688ac919b3",
+   "ok": true,
+   "width": 1200,
+   "height": 675,
+   "imageSha256": "531ea77d36522101c115c7710653571f50795997bf011fed7b944d688ac919b3",
+   "method": "original-source-image-mirrored-verbatim",
+   "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+   "meanLuma": 127.4,
+   "stdLuma": 35.5
+  },
+  {
+   "id": "fable52-github-masamunecode-tacet",
+   "topic": "fable-5-2",
+   "sourcePage": "https://github.com/masamunecode/tacet",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "sourceImageUrl": "https://raw.githubusercontent.com/masamunecode/tacet/main/docs/scoreboard.png",
+   "mediaKind": "image",
+   "sourceVideoUrl": null,
+   "status": 200,
+   "sourceImageSha256": "b358cb81c525f2f0ee49a4ee397d3f82279e16a4e2561a3173aa5194aa418b11",
+   "ok": true,
+   "width": 1440,
+   "height": 900,
+   "imageSha256": "b358cb81c525f2f0ee49a4ee397d3f82279e16a4e2561a3173aa5194aa418b11",
+   "method": "original-source-image-mirrored-verbatim",
+   "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+   "meanLuma": 200.3,
+   "stdLuma": 84.2
+  },
+  {
+   "id": "fable52-github-kleinbuild-edtrawl-cla",
+   "topic": "fable-5-2",
+   "sourcePage": "https://github.com/kleinbuild/edtrawl-cla",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "ok": false,
+   "reason": "No verified task-related poster extracted; cover remains pending."
+  },
+  {
+   "id": "fable52-reddit-1xsp90d",
+   "topic": "fable-5-2",
+   "sourcePage": "https://www.reddit.com/r/ClaudeCode/comments/1xsp90d/at_546_am_i_get_anurgent_message_on_my_phone_from/",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "ok": false,
+   "reason": "No verified task-related poster extracted; cover remains pending."
+  },
+  {
+   "id": "fable52-reddit-1xt1t87",
+   "topic": "fable-5-2",
+   "sourcePage": "https://www.reddit.com/r/ClaudeCode/comments/1xt1t87/ascii_art_generator_with_fable_52_experiment/",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "sourceImageUrl": "https://external-preview.redd.it/c3k3cGY2ZDhidjBpMXT3qfCZaGHvKLZTHcRyWr2aZWODxLQ2HBXpaEaXcfeg.png?format=pjpg&auto=webp&s=c79f9d0f624e6f61aae3a65d21907e861b297eb5",
+   "mediaKind": "video",
+   "sourceVideoUrl": null,
+   "status": 200,
+   "sourceImageSha256": "816d2979b5a9400254603fa8f682103957339b682f3a6033dd2e85d8cd896b75",
+   "ok": true,
+   "width": 2560,
+   "height": 1440,
+   "imageSha256": "816d2979b5a9400254603fa8f682103957339b682f3a6033dd2e85d8cd896b75",
+   "method": "original-source-image-mirrored-verbatim",
+   "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+   "meanLuma": 24.9,
+   "stdLuma": 37.6
+  },
+  {
+   "id": "fable52-reddit-1xzir6g",
+   "topic": "fable-5-2",
+   "sourcePage": "https://www.reddit.com/r/ClaudeAI/comments/1xzir6g/a_game_with_a_galaxy_of_150_million_star_systems/",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "sourceImageUrl": "https://external-preview.redd.it/NnRhcHhvOGN6ZDJpMb3NYkk5ljZY4vwxwTpqZkYRqoSMPKtZvlF8gsWnilbb.png?auto=webp&s=32e6e1ea1b1b0806f9b24949ab06b1a28a8e71c6",
+   "mediaKind": "video",
+   "sourceVideoUrl": null,
+   "status": 200,
+   "sourceImageSha256": "77df2ea40852c7c3dfc2d004a389868f372878eff4ca39fd519c1baa3e0fb8ec",
+   "ok": true,
+   "width": 1920,
+   "height": 1080,
+   "imageSha256": "77df2ea40852c7c3dfc2d004a389868f372878eff4ca39fd519c1baa3e0fb8ec",
+   "method": "original-source-image-mirrored-verbatim",
+   "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+   "meanLuma": 67.0,
+   "stdLuma": 76.0
+  }
+ ],
+ "historicalEditorialChanges": [
+  {
+   "id": "fable52-hardware",
+   "fields": {
+    "resources": {
+     "before": null,
+     "after": [
+      {
+       "label": "语音助手原型官方演示",
+       "label_en": "Official voice-assistant prototype video",
+       "url": "https://www.youtube.com/watch?v=vdYynH177h0"
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "posterReview": {
+  "checkedAt": "2026-11-19T12:58:26+00:00",
+  "contactSheetsReviewed": true,
+  "sourceVideoFramesReviewed": true,
+  "limitations": "One Reddit source video could not be retrieved within the bounded retry; its blank cover was omitted. Missing extracted media stays pending."
+ }
+}

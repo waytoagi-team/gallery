@@ -1,0 +1,1226 @@
+{
+ "checkedAt": "2026-11-19T12:56:50+00:00",
+ "topicId": "opus-5-5",
+ "previousPublishedCount": 7483,
+ "caseCount": 7505,
+ "addedCount": 22,
+ "addedByPlatform": {
+  "X": 13,
+  "GitHub": 5,
+  "Reddit": 4
+ },
+ "addedCaseIds": [
+  "opus55-x-2116957135661945283",
+  "opus55-x-2117776295534997818",
+  "opus55-x-2118582485412131107",
+  "opus55-x-2116192984299344372",
+  "opus55-x-2119353034165891308",
+  "opus55-x-2122706838005440651",
+  "opus55-x-2116504653215248436",
+  "opus55-x-2122682962647122403",
+  "opus55-x-2114762155333689679",
+  "opus55-x-2119746949121495303",
+  "opus55-x-2117240315069276186",
+  "opus55-x-2120248196584648758",
+  "opus55-x-2116062680121540611",
+  "opus55-github-tehoro-weather-explorer-web",
+  "opus55-github-sansnope-marathonrecomp-android",
+  "opus55-github-starsstreaming-cs146s-learning",
+  "opus55-github-viktorkav-uno-com-escada",
+  "opus55-github-az9713-fable-5-2-3d-animations",
+  "opus55-reddit-1xxi29c",
+  "opus55-reddit-1xxsuug",
+  "opus55-reddit-1xzksnb",
+  "opus55-reddit-1xzwzlv"
+ ],
+ "selectionPolicy": "Bounded multi-platform discovery; original creator, explicit version and concrete task required. Same-work cross-posts are folded into resources. Author timing/cost/performance claims are not independently reproduced. Unselected candidates remain pending.",
+ "decisions": [
+  {
+   "id": "opus55-x-2116957135661945283",
+   "sourceUrl": "https://x.com/karpathy/status/2116957135661945283",
+   "author": "karpathy",
+   "date": "2026-11-01",
+   "evidenceUrl": "https://x.com/karpathy/status/2116957135661945283",
+   "evidenceSha256": "89e0809febbcfb74d0ad083b9ba1ed848653cee07e933b0b3c49265c98696205",
+   "decision": "accepted",
+   "reason": "作者用 Opus 5.5 分析多年 HN 评论，制作视频推荐站，并说明 API、域名和服务器准备由自己完成；筛选规模与耗时为作者记录。",
+   "posterStatus": "accepted"
+  },
+  {
+   "id": "opus55-x-2117776295534997818",
+   "sourceUrl": "https://x.com/xikhar/status/2117776295534997818",
+   "author": "xikhar",
+   "date": "2026-11-04",
+   "evidenceUrl": "https://x.com/xikhar/status/2117776295534997818",
+   "evidenceSha256": "d25fab3e414c7e4dfdbf9e0fff18746a0ca1c84d2bcd4e0541486f705ce7d734",
+   "decision": "accepted",
+   "reason": "作者展示用 Opus 5.5、Flux、GPT Image、Tripo、Blender 和 Three.js 制作的游戏，并发布工作流串；素材生成与代码实现由多种工具共同完成。",
+   "posterStatus": "accepted"
+  },
+  {
+   "id": "opus55-x-2118582485412131107",
+   "sourceUrl": "https://x.com/arafune/status/2118582485412131107",
+   "author": "arafune",
+   "date": "2026-11-06",
+   "evidenceUrl": "https://x.com/arafune/status/2118582485412131107",
+   "evidenceSha256": "af1e86a86c92ab7af70a4460aad78db2a25bb05336151f4adceb8cd5ca3ef2ba",
+   "decision": "accepted",
+   "reason": "作者用 Opus 5.5 操作 Blender，说明少量模型来自 Tripo、部分纹理由 ChatGPT 生成，声音使用 HunyuanVideo-Foley。",
+   "posterStatus": "accepted"
+  },
+  {
+   "id": "opus55-x-2116192984299344372",
+   "sourceUrl": "https://x.com/elvar_official/status/2116192984299344372",
+   "author": "elvar_official",
+   "date": "2026-10-30",
+   "evidenceUrl": "https://x.com/elvar_official/status/2116192984299344372",
+   "evidenceSha256": "68d3b8a31bda401be8164fc8074df6b7d6c114b20dccf1a5776ef6c262a2f1d0",
+   "decision": "accepted",
+   "reason": "作者用 Opus 5.5 编写 Three.js 零件与拆解动画，并通过渲染图对照参考图迭代；帖子展示零件分离与状态提示。",
+   "posterStatus": "accepted"
+  },
+  {
+   "id": "opus55-x-2119353034165891308",
+   "sourceUrl": "https://x.com/chetaslua/status/2119353034165891308",
+   "author": "chetaslua",
+   "date": "2026-11-08",
+   "evidenceUrl": "https://x.com/chetaslua/status/2119353034165891308",
+   "evidenceSha256": "cd6052da5f41fcf063706c993423c48ef1d26150ae368b17588e2cd303b8c6ce",
+   "decision": "accepted",
+   "reason": "作者展示明确归属 Opus 5.5 的主题切换界面动效。帖子提供视频，未公开完整实现与复测条件。",
+   "posterStatus": "accepted"
+  },
+  {
+   "id": "opus55-x-2122706838005440651",
+   "sourceUrl": "https://x.com/AWuhrmann/status/2122706838005440651",
+   "author": "AWuhrmann",
+   "date": "2026-11-17",
+   "evidenceUrl": "https://x.com/AWuhrmann/status/2122706838005440651",
+   "evidenceSha256": "88acbc04aaa0adaab0ab136d5021b05cd1a9bf7400a26958f2d39a2c20989e70",
+   "decision": "accepted",
+   "reason": "研究者报告给 Opus 5.5 一个 Hugging Face 账户与算力，持续七周制作并发布模型。下载与采用数量是团队公布的结果。",
+   "posterStatus": "accepted"
+  },
+  {
+   "id": "opus55-x-2116504653215248436",
+   "sourceUrl": "https://x.com/anxuanng/status/2116504653215248436",
+   "author": "anxuanng",
+   "date": "2026-10-31",
+   "evidenceUrl": "https://x.com/anxuanng/status/2116504653215248436",
+   "evidenceSha256": "df1cc8d27bbf755177c6c81b32cb9daaf26d0243f5da99002050f76414e0ce53",
+   "decision": "accepted",
+   "reason": "作者展示 Opus 5.5 使用 NVIDIA SimReady 模型搭建的仓库场景，并链接素材浏览器优化流程；场景使用外部模型资产。",
+   "posterStatus": "accepted"
+  },
+  {
+   "id": "opus55-x-2122682962647122403",
+   "sourceUrl": "https://x.com/xikhar/status/2122682962647122403",
+   "author": "xikhar",
+   "date": "2026-11-17",
+   "evidenceUrl": "https://x.com/xikhar/status/2122682962647122403",
+   "evidenceSha256": "d8a023a36729e7e5f354cd57d369332b9a4bd69c8247600c392ffa8e0da8c3c0",
+   "decision": "accepted",
+   "reason": "作者用 Fable 5.2 与 Opus 5.5 协作制作可在浏览器运行的 Three.js 折纸世界，并分享提示词和工作流。原帖未逐项拆分两个模型的职责。",
+   "posterStatus": "accepted"
+  },
+  {
+   "id": "opus55-x-2114762155333689679",
+   "sourceUrl": "https://x.com/DilumSanjaya/status/2114762155333689679",
+   "author": "DilumSanjaya",
+   "date": "2026-10-26",
+   "evidenceUrl": "https://x.com/DilumSanjaya/status/2114762155333689679",
+   "evidenceSha256": "b5ba950f5a74f200c50be78253d99226a9cace8d70c401aab716635954a7c513",
+   "decision": "accepted",
+   "reason": "作者用 Opus 5.5 制作 ESP32 交互学习页面，并给出公开体验链接；课程按电路逐步解释硬件功能。",
+   "posterStatus": "accepted"
+  },
+  {
+   "id": "opus55-x-2119746949121495303",
+   "sourceUrl": "https://x.com/MengTo/status/2119746949121495303",
+   "author": "MengTo",
+   "date": "2026-11-09",
+   "evidenceUrl": "https://x.com/MengTo/status/2119746949121495303",
+   "evidenceSha256": "becc94b0ce80b28e626fa6f550ae9acfbb208dbc1dbce728d9a570d15ff3ff45",
+   "decision": "accepted",
+   "reason": "作者用 Opus 5.5 在 Three.js 中重建公寓，展示可漫游空间、灯光切换与不同渲染风格，用于录制教程。",
+   "posterStatus": "accepted"
+  },
+  {
+   "id": "opus55-x-2117240315069276186",
+   "sourceUrl": "https://x.com/0xwhrrari/status/2117240315069276186",
+   "author": "0xwhrrari",
+   "date": "2026-11-02",
+   "evidenceUrl": "https://x.com/0xwhrrari/status/2117240315069276186",
+   "evidenceSha256": "049fc35e86be6c81028d39acd6757da1304e62959f33bde8eaa07b1c8a52640e",
+   "decision": "accepted",
+   "reason": "作者报告在四分多钟的自有素材上，用 Opus 5.5 编排镜头检测、去静音、稳像、调色与导出工具；具体效果为作者演示。",
+   "posterStatus": "accepted"
+  },
+  {
+   "id": "opus55-x-2120248196584648758",
+   "sourceUrl": "https://x.com/AlexPi194641/status/2120248196584648758",
+   "author": "AlexPi194641",
+   "date": "2026-11-10",
+   "evidenceUrl": "https://x.com/AlexPi194641/status/2120248196584648758",
+   "evidenceSha256": "0d2fbb7751ca0b175a6c2960125550452366b27649e86ca3b58e3a07b0833abf",
+   "decision": "accepted",
+   "reason": "作者用 Opus 5.5 驱动 Blender、Houdini 和 Nuke，报告经过数百条反馈指导形状、时序与风效，并明确作品仍在制作中。",
+   "posterStatus": "accepted"
+  },
+  {
+   "id": "opus55-x-2116062680121540611",
+   "sourceUrl": "https://x.com/rehan_shei/status/2116062680121540611",
+   "author": "rehan_shei",
+   "date": "2026-10-30",
+   "evidenceUrl": "https://x.com/rehan_shei/status/2116062680121540611",
+   "evidenceSha256": "b1d9934ddce42d4f3a78ffdd44b6b0c96865d4b2e1211de4935fb8b83ebe944a",
+   "decision": "accepted",
+   "reason": "作者公开 PixelFX 源码，说明 Opus 5.5 通过写代码、渲染、检查画面和修正的循环制作一组像素特效。",
+   "posterStatus": "accepted"
+  },
+  {
+   "id": "opus55-github-tehoro-weather-explorer-web",
+   "sourceUrl": "https://github.com/tehoro/weather-explorer-web",
+   "author": "tehoro",
+   "date": "2026-10-25",
+   "evidenceUrl": "https://github.com/tehoro/weather-explorer-web/blob/main/README.md",
+   "evidenceSha256": "dddfcab5a3171de5f70814628dc85f5158a7225c3c20c4864cccd3fdf2ac6ada",
+   "decision": "accepted",
+   "reason": "README 将原始代码与文档归属 Opus 5.5；当前后端精选天气亮点使用 GPT-6.1 Sol，后续维护也有 Codex，区分各模型职责。",
+   "posterStatus": "pending"
+  },
+  {
+   "id": "opus55-github-sansnope-marathonrecomp-android",
+   "sourceUrl": "https://github.com/SansNope/MarathonRecomp-Android",
+   "author": "SansNope",
+   "date": "2026-10-26",
+   "evidenceUrl": "https://github.com/SansNope/MarathonRecomp-Android/blob/main/README.md",
+   "evidenceSha256": "13810ce720a8155d5661284b6da4e423708d2db480bc601bf2d9ecf2b8042d07",
+   "decision": "accepted",
+   "reason": "作者明确说明在人工指导、真机测试与调试下使用 Opus 5.5 进行 Android 移植，并公开记录画面、冻结与音频等已知问题。",
+   "posterStatus": "pending"
+  },
+  {
+   "id": "opus55-github-starsstreaming-cs146s-learning",
+   "sourceUrl": "https://github.com/starsstreaming/CS146S-learning",
+   "author": "starsstreaming",
+   "date": "2026-09-28",
+   "evidenceUrl": "https://github.com/starsstreaming/CS146S-learning/blob/main/README.md",
+   "evidenceSha256": "ad4599c61d6a892ed105e348b683cf40b4f9b1ae6fec2d8b9d7b7b8e301ca186",
+   "decision": "accepted",
+   "reason": "作者在仓库说明中将学习指南归属 Opus 5.5，并公开中文笔记与 MCP、编程代理作业。笔记属于个人整理，课程要求仍以原课程为准。",
+   "posterStatus": "pending"
+  },
+  {
+   "id": "opus55-github-viktorkav-uno-com-escada",
+   "sourceUrl": "https://github.com/viktorkav/uno-com-escada",
+   "author": "viktorkav",
+   "date": "2026-11-16",
+   "evidenceUrl": "https://github.com/viktorkav/uno-com-escada/blob/main/README.md",
+   "evidenceSha256": "8bcfd13b0fd5cab73e0c6a2ba61968f65b63384411bb95e011f3a834da43debf",
+   "decision": "accepted",
+   "reason": "作者公开 Fable 5.2、Opus 5.5 与 GPT-6.2 Astra 三份单文件 WebGPU 赛车，附提示词、试玩和结果说明；后续菜单与声音改动另由 Fable 处理。",
+   "posterStatus": "accepted"
+  },
+  {
+   "id": "opus55-github-az9713-fable-5-2-3d-animations",
+   "sourceUrl": "https://github.com/az9713/fable-5.2-3d-animations",
+   "author": "az9713",
+   "date": "2026-11-13",
+   "evidenceUrl": "https://github.com/az9713/fable-5.2-3d-animations/blob/main/README.md",
+   "evidenceSha256": "88e110ddb892c65da3a39c641c62847eec357b2cb8f0ac21dcb71133b5475fc1",
+   "decision": "accepted",
+   "reason": "仓库按会话记录区分职责：Fable 5.2 设计规格与验收规则，Opus 5.5 编写展厅、播放器、风格代码、封面和测试。",
+   "posterStatus": "accepted"
+  },
+  {
+   "id": "opus55-reddit-1xxi29c",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xxi29c/wtf_happened_to_opus_55/",
+   "author": "WhereIsWebb",
+   "date": "2026-11-16",
+   "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xxi29c/wtf_happened_to_opus_55/",
+   "evidenceSha256": "edd99abba2516ce30c128d7c7a768134e79e226ef6c96bc3e6a3c30d2812f91c",
+   "decision": "accepted",
+   "reason": "用户记录重新生成水面着色器时反复出现质量或运行问题。没有可复现材料，不能据此认定后台模型被降级。",
+   "posterStatus": "pending"
+  },
+  {
+   "id": "opus55-reddit-1xxsuug",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xxsuug/i_built_a_roman_gladiator_management_game_with/",
+   "author": "StarDrifterG",
+   "date": "2026-11-16",
+   "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xxsuug/i_built_a_roman_gladiator_management_game_with/",
+   "evidenceSha256": "edd99abba2516ce30c128d7c7a768134e79e226ef6c96bc3e6a3c30d2812f91c",
+   "decision": "accepted",
+   "reason": "作者用 Opus 5.5 实现 React/PixiJS 前端、战斗模拟、角色 AI 与后端集成，自己负责游戏设计和反馈，并发布浏览器体验页。",
+   "posterStatus": "accepted"
+  },
+  {
+   "id": "opus55-reddit-1xzksnb",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xzksnb/fable_52_vs_opus_55_in_claude_code_same_oneline/",
+   "author": "cosmintrica",
+   "date": "2026-11-18",
+   "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xzksnb/fable_52_vs_opus_55_in_claude_code_same_oneline/",
+   "evidenceSha256": "edd99abba2516ce30c128d7c7a768134e79e226ef6c96bc3e6a3c30d2812f91c",
+   "decision": "accepted",
+   "reason": "作者对六个模型使用同一短片提示，发布同步对照播放器。计费为日志折算，运行并发条件不同；GPT-6.2 Astra 还使用了生图工具，未满足原始零素材约束。",
+   "posterStatus": "pending"
+  },
+  {
+   "id": "opus55-reddit-1xzwzlv",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xzwzlv/made_x86_windows_emulator_which_runs_age_of/",
+   "author": "vgrichina",
+   "date": "2026-11-19",
+   "evidenceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xzwzlv/made_x86_windows_emulator_which_runs_age_of/",
+   "evidenceSha256": "edd99abba2516ce30c128d7c7a768134e79e226ef6c96bc3e6a3c30d2812f91c",
+   "decision": "accepted",
+   "reason": "作者用 Opus 5.5 处理产品与架构工作，另用 Codex Sol 6.1 在远程机器测试游戏程序，公开浏览器体验与仓库。",
+   "posterStatus": "accepted"
+  }
+ ],
+ "coverage": [
+  {
+   "key": "opus-5-5-bili-1",
+   "checkedAt": "2026-11-19T12:40:34+00:00",
+   "ok": false,
+   "error": "HTTPError",
+   "status": 412,
+   "url": "https://api.bilibili.com/x/web-interface/search/type?search_type=video&keyword=Opus+5.5&order=pubdate&page=1&page_size=50"
+  },
+  {
+   "key": "opus-5-5-x-latest-0",
+   "checkedAt": "2026-11-19T12:40:34+00:00",
+   "ok": false,
+   "error": "HTTPError",
+   "status": 404,
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%28%5C%22Opus+5.5%5C%22+OR+%5C%22Opus5.5%5C%22+OR+%5C%22opus-5-5%5C%22%29+since%3A2026-10-23+-filter%3Aretweets%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Latest%22%2C+%22includePromotedContent%22%3A+false%7D"
+  },
+  {
+   "key": "opus-5-5-youtube",
+   "checkedAt": "2026-11-19T12:40:34+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "89371df206bda3c8cfa3f9cb173c6bc5f2132d2ba6292ccc2aeec19a54ce215d",
+   "url": "https://www.youtube.com/results?search_query=%22Opus+5.5%22&sp=CAI%3D"
+  },
+  {
+   "key": "opus-5-5-x-top-0",
+   "checkedAt": "2026-11-19T12:40:34+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "bd3c70ade3f1dc95216c48ad169bfb3bfc8ec92e372c22a6b3a39048df6a4246",
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%28%5C%22Opus+5.5%5C%22+OR+%5C%22Opus5.5%5C%22+OR+%5C%22opus-5-5%5C%22%29+since%3A2026-10-23+-filter%3Aretweets%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Top%22%2C+%22includePromotedContent%22%3A+false%7D"
+  },
+  {
+   "key": "opus-5-5-x-projects-0",
+   "checkedAt": "2026-11-19T12:40:34+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "56d51a9132000722613d165fbc418b3bcecf8aeed45ac22db0dfb4979f66dd25",
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%28%5C%22Opus+5.5%5C%22+OR+%5C%22Opus5.5%5C%22+OR+%5C%22opus-5-5%5C%22%29+since%3A2026-10-23+-filter%3Aretweets+%28github+OR+built+OR+made+OR+%5Cu4f5c%5Cu3063%5Cu305f+OR+%5Cu5236%5Cu4f5c+OR+app+OR+game%29%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Top%22%2C+%22includePromotedContent%22%3A+false%7D"
+  },
+  {
+   "key": "opus-5-5-gh-0-1",
+   "checkedAt": "2026-11-19T12:40:34+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "30",
+    "x-ratelimit-remaining": "29",
+    "x-ratelimit-reset": "1795092094"
+   },
+   "finalUrl": "https://api.github.com/search/repositories?q=%22Opus+5.5%22+pushed%3A%3E%3D2026-10-23+pushed%3A%3E%3D2026-10-23&sort=updated&per_page=100&page=1",
+   "bytes": 588732,
+   "sha256": "6d21b2178988629c22b1888099e9c5dd995ab1da18760b9891b6ecac4196a252",
+   "ok": true,
+   "returned": 100,
+   "totalReported": 643,
+   "searchIncomplete": false,
+   "pagination": "first-page-only",
+   "url": "https://api.github.com/search/repositories?q=%22Opus+5.5%22+pushed%3A%3E%3D2026-10-23+pushed%3A%3E%3D2026-10-23&sort=updated&per_page=100&page=1"
+  },
+  {
+   "key": "opus-5-5-x-projects-1",
+   "checkedAt": "2026-11-19T12:40:36+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "ceeb3bbf762a6afe16aac34e2a932f770f121a37d6ce0d821494288bd0e7e8f6",
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%28%5C%22Opus+5.5%5C%22+OR+%5C%22Opus5.5%5C%22+OR+%5C%22opus-5-5%5C%22%29+since%3A2026-10-23+-filter%3Aretweets+%28github+OR+built+OR+made+OR+%5Cu4f5c%5Cu3063%5Cu305f+OR+%5Cu5236%5Cu4f5c+OR+app+OR+game%29%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Top%22%2C+%22includePromotedContent%22%3A+false%2C+%22cursor%22%3A+%22DAACCgACHXfRbLxAJxAKAAMdd9FsvD_Y8AgABAAAAAILAAUAAAEIRW1QQzZ3QUFBZlEvZ0dKTjB2R3AvQUFBQUJZZFhvRUFISlp4VngxMmVXb2pGMEJSSFhjQWNVc1dVSjBkZDZ3Z2VOckJLUjEycnJIMFYyRW9IWGNCY2I0WFlJRWRkNGZ0dFJzZ0hCMTN1VFVGVzJFdEhYZUd6bzBhRUxVZGRZZXVFWll4RmgxM3R4aE5XaUhpSFcxYTlSUVhvZFFkZDVFOXkxcmh5QjEwWjV2N0YwQVRIWGVuN1puYWdGb2RjYW8zRmRyd0hCMTNzbFZibWhGTkhYZVhPSXlXd1lVZGNxNnhwQnZRRHgxak11ZEVsaEMzSFhlK2FGZWEwTDBkZDZ3ZlhWZHg5QT09CAAGAAAAAAgABwAAAAAMAAgKAAEdXoEAHJZxVwAAAA%22%7D"
+  },
+  {
+   "key": "opus-5-5-x-top-1",
+   "checkedAt": "2026-11-19T12:40:36+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "bcdfc529666bf69866f8c69774b3c50a25d8874357c4a9c3cd33714cf0569a98",
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%28%5C%22Opus+5.5%5C%22+OR+%5C%22Opus5.5%5C%22+OR+%5C%22opus-5-5%5C%22%29+since%3A2026-10-23+-filter%3Aretweets%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Top%22%2C+%22includePromotedContent%22%3A+false%2C+%22cursor%22%3A+%22DAACCgACHXfRbLYAJxAKAAMdd9Fstf_Y8AgABAAAAAILAAUAAAD8RW1QQzZ3QUFBZlEvZ0dKTjB2R3AvQUFBQUJVZGRXcU45OW9SRngxdXp4bDhHakI1SFhmTk4rVmFRTGtkZDlBSFBoYmhHQjEzeTZmTW1zRHFIWE1kakFpYU1jY2RkOHhrRlpvaENSMTFYcDlobTJDTEhYZXRLSkZYMEI4ZGQ5Q1d3dHVoRHgxMzBIZjlWckFBSFhmUUVCZGJZUnNkZDhIdURWYmhwUjEzQjVDYUZnQVlIWFBxNXg0YkFWOGRjT2FhSUpxUXlSMTJBbmd2bTRHWEhYZlA0OVFiQWNzZGROeWExdHFCaFIxM3VZM2Fsa0N6SFhmUWNYRWFzVWs9CAAGAAAAAAgABwAAAAAMAAgKAAEdbs8ZfBoweQAAAA%22%7D"
+  },
+  {
+   "key": "opus-5-5-x-projects-2",
+   "checkedAt": "2026-11-19T12:40:39+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "43ae6e67b6f51ad32ded7deac6d6ce1a605ad74d20ccdbbddf6dd7c4dc295727",
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%28%5C%22Opus+5.5%5C%22+OR+%5C%22Opus5.5%5C%22+OR+%5C%22opus-5-5%5C%22%29+since%3A2026-10-23+-filter%3Aretweets+%28github+OR+built+OR+made+OR+%5Cu4f5c%5Cu3063%5Cu305f+OR+%5Cu5236%5Cu4f5c+OR+app+OR+game%29%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Top%22%2C+%22includePromotedContent%22%3A+false%2C+%22cursor%22%3A+%22DAACCgACHXfRbLxAJxAKAAMdd9FsvD-x4AgABAAAAAILAAUAAAHcRW1QQzZ3QUFBZlEvZ0dKTjB2R3AvQUFBQUNvZFZ0WGVyRmN3cFIxM0FYRytGMkNCSFhhdXNmUlhZU2dkZG5scUl4ZEFVUjFrZUVtc0ZtSFZIWGZQRXhLWDBkUWRiSFNEY3RieE1CMTNCWk1MRnlEOUhXUGFVZ0ViTVRvZGRWNmZZWnRnaXgxMndpZFRXNkR3SFhleVZWdWFFVTBkY2FvM0ZkcndIQjEza1QzTFd1SElIVzFhOVJRWG9kUWRhWFJiRXhxdzdCMTNsemlNbHNHRkhYVktpS2xhTWI4ZFhqcE9vVllSOUIxM3JUQ0MyeEVkSFY2QkFCeVdjVmNkWnJlTHRscXhJeDEzQUhGTEZsQ2RIWGVzSUhqYXdTa2RkOHZJdnBhQXVCMTNoKzIxR3lBY0hYZWlDQ09YMEZRZGQ3azFCVnRoTFIxM3R4aE5XaUhpSFhXSHJoR1dNUllkZDRiT2pSb1F0UjFkdzh2VEd3QURIVy9rdHpZV3dZOGRYMVhFdEZzd05CMTNwKzJaMm9CYUhYZTdvclVYTVNzZGRHZWIreGRBRXgxcUw2enEybkJLSFhLdXNhUWIwQThkWXpMblJKWVF0eDEzdm1oWG10QzlIWGVzSDExWGNmUT0IAAYAAAAACAAHAAAAAQwACAoAAR1egQAclnFXAAAA%22%7D"
+  },
+  {
+   "key": "opus-5-5-x-top-2",
+   "checkedAt": "2026-11-19T12:40:40+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "136aa8fbd3ef563774bab33921a2289307f163c757e24af3eb854aae7ac2d980",
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%28%5C%22Opus+5.5%5C%22+OR+%5C%22Opus5.5%5C%22+OR+%5C%22opus-5-5%5C%22%29+since%3A2026-10-23+-filter%3Aretweets%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Top%22%2C+%22includePromotedContent%22%3A+false%2C+%22cursor%22%3A+%22DAACCgACHXfRbLYAJxAKAAMdd9Fstf-x4AgABAAAAAILAAUAAAIIRW1QQzZ3QUFBZlEvZ0dKTjB2R3AvQUFBQUM0ZGRVYzU4bHFBQmgxMWFvMzMyaEVYSFhTZHVIdldBWXdkZDgwMzVWcEF1UjEzelZOQUdxQktIWGZRQno0VzRSZ2RkOFg5VmhZaHFSMXhxMWc1V2lGQ0hYZk1aQldhSVFrZGQ5QjMvVmF3QUIxM3JTaVJWOUFmSFhmUWxzTGJvUThkZFY2ZlladGdpeDF6UFplTkZ2REdIWEtwWkFUYThKSWRjK3JuSGhzQlh4MTN4LzRXV3dFQ0hYZHBoYUxhWVY0ZGNPYWFJSnFReVIxM3hYSW9tcEJWSFhPR2Q0NFhRTmdkZDgvajFCc0J5eDEzdVkzYWxrQ3pIWFV4a3VtV3djNGRkOUJ4Y1JxeFNSMXV6eGw4R2pCNUhYZTBDcTJiVVgwZGQ4dW56SnJBNmgxMmVCZHNscEI0SFhNZGpBaWFNY2NkZDlFcEc1cmh1UjF3RXpUdjF1R2lIWGFud1R3YW9DMGRkOUJRdkZvd0hSMTNaOWI0RzRFSUhYTW1IV1JhOERnZGNHcndQbHJRa2gxMzBCQVhXMkViSFhlOVlLelhVSjBkZDhIdURWYmhwUjEzQjVDYUZnQVlIWFJubS9zWFFCTWRkVFY4VFpyUnRSMTJBbmd2bTRHWEhYVGNtdGJhZ1lVZGR2OWdpUlpnNmc9PQgABgAAAAAIAAcAAAABDAAICgABHXATNO_W4aIAAAA%22%7D"
+  },
+  {
+   "key": "opus-5-5-gh-0-2",
+   "checkedAt": "2026-11-19T12:40:38+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "30",
+    "x-ratelimit-remaining": "28",
+    "x-ratelimit-reset": "1795092094"
+   },
+   "finalUrl": "https://api.github.com/search/repositories?q=%22Opus+5.5%22+pushed%3A%3E%3D2026-10-23+pushed%3A%3E%3D2026-10-23&sort=updated&per_page=100&page=2",
+   "bytes": 578005,
+   "sha256": "9350f324bc55868125bad24142833f23fbccaf993069fa3f93147bcddae3ad56",
+   "ok": true,
+   "returned": 100,
+   "totalReported": 643,
+   "searchIncomplete": false,
+   "pagination": "first-page-only",
+   "url": "https://api.github.com/search/repositories?q=%22Opus+5.5%22+pushed%3A%3E%3D2026-10-23+pushed%3A%3E%3D2026-10-23&sort=updated&per_page=100&page=2"
+  },
+  {
+   "key": "opus-5-5-x-projects-3",
+   "checkedAt": "2026-11-19T12:40:42+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "01cf240963ee3ec82485621f95ead55b4d9ab068becdcf7a8e01153d2b3dbf33",
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%28%5C%22Opus+5.5%5C%22+OR+%5C%22Opus5.5%5C%22+OR+%5C%22opus-5-5%5C%22%29+since%3A2026-10-23+-filter%3Aretweets+%28github+OR+built+OR+made+OR+%5Cu4f5c%5Cu3063%5Cu305f+OR+%5Cu5236%5Cu4f5c+OR+app+OR+game%29%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Top%22%2C+%22includePromotedContent%22%3A+false%2C+%22cursor%22%3A+%22DAACCgACHXfRbLxAJxAKAAMdd9FsvD-K0AgABAAAAAILAAUAAAK8RW1QQzZ3QUFBZlEvZ0dKTjB2R3AvQUFBQUQ4ZGNDWU05WlpoblIxMnJySDBWMkVvSFhjQmNiNFhZSUVkZGUxZVlKdFFtUjFqMmxJQkd6RTZIWFZlbjJHYllJc2Rkc0luVTF1ZzhCMXBkRnNUR3JEc0hYZVJQY3RhNGNnZGNhbzNGZHJ3SEIxM3NsVmJtaEZOSFdpVUVlRGJNRUVkZFVxSXFWb3h2eDEzV0ROUUdsSGhIWGE1NTB0WG9TQWRZZW5UdWRzd3VSMWVnUUFjbG5GWEhXYTNpN1phc1NNZGQ4dkl2cGFBdUIxM0FIRkxGbENkSFhlc0lIamF3U2tkY0NwMkxOcWh4QjEzcldFWW1pRlpIWGVIN2JVYklCd2Rhd1N0MzVjaEZCMTNoczZOR2hDMUhXR3VhQ0xYWUg4ZFgxWEV0RnN3TkIxMXJtRFptd0F3SFdBc2ZPMFdrTjRkZEdlYit4ZEFFeDEzdTZLMUZ6RXJIV292ck9yYWNFb2RkNzVvVjVyUXZSMXlrRG0rMnJDVkhYZlBFeEtYMGRRZGJ4aHl1TmNCeUIxMmVXb2pGMEJSSFdSNFNhd1dZZFVkVnRYZXJGY3dwUjFzZElOeTF2RXdIWGNGa3dzWElQMGRkNHVPdlpxZ2VoMXRXdlVVRjZIVUhYZVhPSXlXd1lVZGNGdjkraFlRaVIxZU9rNmhWaEgwSFhldE1JTGJFUjBkZFdZRjZ4ZVJuUjFoRitxZkZpRVVIWGVEZWx5YllJVWRkVWpvZDFzQjR4MTN1VFVGVzJFdEhYV0hyaEdXTVJZZGQ3Y1lUVm9oNGgxM29nZ2psOUJVSFc5RGRwWFhvZEVkZDZmdG1kcUFXaDF2NUxjMkZzR1BIVjNEeTlNYkFBTWRjcTZ4cEJ2UUR4MWpNdWRFbGhDM0hYZXNIMTFYY2ZRPQgABgAAAAAIAAcAAAACDAAICgABHWAsfO0WkN4AAAA%22%7D"
+  },
+  {
+   "key": "opus-5-5-x-top-3",
+   "checkedAt": "2026-11-19T12:40:42+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "14a65784dbe30339147f0ed533d34d603a013eb05c22992a7abff2c11e191bba",
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%28%5C%22Opus+5.5%5C%22+OR+%5C%22Opus5.5%5C%22+OR+%5C%22opus-5-5%5C%22%29+since%3A2026-10-23+-filter%3Aretweets%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Top%22%2C+%22includePromotedContent%22%3A+false%2C+%22cursor%22%3A+%22DAACCgACHXfRbLYAJxAKAAMdd9Fstf-K0AgABAAAAAILAAUAAALoRW1QQzZ3QUFBZlEvZ0dKTjB2R3AvQUFBQUVNZGRKMjRlOVlCakIxM3VmNloydkNmSFhmUUJ6NFc0UmdkZHJ4NFhaYnh2UjF2cHFGaW1xRnVIWGZNWkJXYUlRa2RjYXRZT1ZvaFFoMXdSMk9MbTBGMUhYZkYvVllXSWFrZGRWNmZZWnRnaXgxelBaZU5GdkRHSFc3amhOV1dFV0VkY3Fsa0JOcndraDEydWVkTFY2RWdIWEtQeXZOYUFiQWRkN21OMnBaQXN4MXpobmVPRjBEWUhYZHBoYUxhWVY0ZGQ3UUtyWnRSZlIxdkJRYkdtN0FJSFhmTHA4eWF3T29kZFk5aE9OcEIraDEwRlRhQUd3SE5IWGRuMXZnYmdRZ2RkbmdYYkphUWVCMXl1K2pnbDVEZUhYQVROTy9XNGFJZGQ5QVFGMXRoR3gxM3dlNE5WdUdsSFhjSGtKb1dBQmdkZEdlYit4ZEFFeDExTlh4Tm10RzFIWFlDZUMrYmdaY2RkTnlhMXRxQmhSMTBGMldnbHRCRUhYVnFqZmZhRVJjZGRVYzU4bHFBQmgxdkdISzQxd0hJSFhmTk4rVmFRTGtkY1BTaFBGckJoeDEzelZOQUdxQktIVzlhUjMvYkljQWRkOHBXWGh2QlBoMTNyU2lSVjlBZkhYZlFsc0xib1E4ZGQ5QjMvVmF3QUIxM3gvNFdXd0VDSFhQcTV4NGJBVjhkY09hYUlKcVF5UjEzeFhJb21wQlZIWGZQNDlRYkFjc2RkVEdTNlpiQnpoMTMwSEZ4R3JGSkhYR080eWZia1dNZGJzOFpmQm93ZVIxd21FSHJGNEdnSFhNZGpBaWFNY2NkYnNySUZOb1IyUjEycDhFOEdxQXRIWGZRVUx4YU1CMGRkOUVwRzVyaHVSMXpKaDFrV3ZBNEhYQnE4RDVhMEpJZGQ3MWdyTmRRblIxMzBSRThtdUJySFhiL1lJa1dZT29kZFM5c3Q5WndXdz09CAAGAAAAAAgABwAAAAIMAAgKAAEdcBM079bhogAAAA%22%7D"
+  },
+  {
+   "key": "opus-5-5-hn-0",
+   "checkedAt": "2026-11-19T12:40:43+00:00",
+   "status": 200,
+   "finalUrl": "https://hn.algolia.com/api/v1/search_by_date?query=Opus+5.5&hitsPerPage=100&numericFilters=created_at_i%3E%3D1792713600",
+   "bytes": 179964,
+   "sha256": "054e4f695bfe0452ca1d3e46bf4bd03c2586189e940d769e7cee96ddd2b49ca4",
+   "ok": true,
+   "returned": 100,
+   "totalReported": 1368,
+   "pagesReported": 10,
+   "pagination": "first-page-only",
+   "url": "https://hn.algolia.com/api/v1/search_by_date?query=Opus+5.5&hitsPerPage=100&numericFilters=created_at_i%3E%3D1792713600"
+  },
+  {
+   "key": "opus-5-5-gh-1-1",
+   "checkedAt": "2026-11-19T12:40:45+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "30",
+    "x-ratelimit-remaining": "26",
+    "x-ratelimit-reset": "1795092094"
+   },
+   "finalUrl": "https://api.github.com/search/repositories?q=%22Opus5.5%22+pushed%3A%3E%3D2026-10-23+pushed%3A%3E%3D2026-10-23&sort=updated&per_page=100&page=1",
+   "bytes": 371649,
+   "sha256": "f5e006dc839bb7fd954729f698414b9428c84a5824f1539436a0986ea6e984a6",
+   "ok": true,
+   "returned": 64,
+   "totalReported": 64,
+   "searchIncomplete": false,
+   "pagination": "first-page-only",
+   "url": "https://api.github.com/search/repositories?q=%22Opus5.5%22+pushed%3A%3E%3D2026-10-23+pushed%3A%3E%3D2026-10-23&sort=updated&per_page=100&page=1"
+  },
+  {
+   "key": "opus-5-5-hn-1",
+   "checkedAt": "2026-11-19T12:40:49+00:00",
+   "status": 200,
+   "finalUrl": "https://hn.algolia.com/api/v1/search_by_date?query=Opus5.5&hitsPerPage=100&numericFilters=created_at_i%3E%3D1792713600",
+   "bytes": 60048,
+   "sha256": "fe7126136063766d1f141b251f9007de6a180f6452fdcf3cc86d5299c7247319",
+   "ok": true,
+   "returned": 24,
+   "totalReported": 24,
+   "pagesReported": 1,
+   "pagination": "first-page-only",
+   "url": "https://hn.algolia.com/api/v1/search_by_date?query=Opus5.5&hitsPerPage=100&numericFilters=created_at_i%3E%3D1792713600"
+  },
+  {
+   "key": "opus-5-5-gh-2-1",
+   "checkedAt": "2026-11-19T12:40:51+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "30",
+    "x-ratelimit-remaining": "24",
+    "x-ratelimit-reset": "1795092094"
+   },
+   "finalUrl": "https://api.github.com/search/repositories?q=%22opus-5-5%22+pushed%3A%3E%3D2026-10-23+pushed%3A%3E%3D2026-10-23&sort=updated&per_page=100&page=1",
+   "bytes": 594420,
+   "sha256": "338723401ad7a98ad7034b707d0dec5d8f0e75516fc2dd533d2b947f15ea2762",
+   "ok": true,
+   "returned": 100,
+   "totalReported": 664,
+   "searchIncomplete": false,
+   "pagination": "first-page-only",
+   "url": "https://api.github.com/search/repositories?q=%22opus-5-5%22+pushed%3A%3E%3D2026-10-23+pushed%3A%3E%3D2026-10-23&sort=updated&per_page=100&page=1"
+  },
+  {
+   "key": "opus-5-5-gh-2-2",
+   "checkedAt": "2026-11-19T12:40:55+00:00",
+   "status": 200,
+   "transport": "gh",
+   "rateLimit": {
+    "x-ratelimit-limit": "30",
+    "x-ratelimit-remaining": "22",
+    "x-ratelimit-reset": "1795092094"
+   },
+   "finalUrl": "https://api.github.com/search/repositories?q=%22opus-5-5%22+pushed%3A%3E%3D2026-10-23+pushed%3A%3E%3D2026-10-23&sort=updated&per_page=100&page=2",
+   "bytes": 578615,
+   "sha256": "4e14029a5db54da7af63f2277dad565ddaa983e0457d415c4338730162165254",
+   "ok": true,
+   "returned": 100,
+   "totalReported": 664,
+   "searchIncomplete": false,
+   "pagination": "first-page-only",
+   "url": "https://api.github.com/search/repositories?q=%22opus-5-5%22+pushed%3A%3E%3D2026-10-23+pushed%3A%3E%3D2026-10-23&sort=updated&per_page=100&page=2"
+  },
+  {
+   "key": "opus-5-5-hn-2",
+   "checkedAt": "2026-11-19T12:41:02+00:00",
+   "status": 200,
+   "finalUrl": "https://hn.algolia.com/api/v1/search_by_date?query=opus-5-5&hitsPerPage=100&numericFilters=created_at_i%3E%3D1792713600",
+   "bytes": 124776,
+   "sha256": "eb8f9988c0b830ed6a806e7ce1c1db9e5a86ff221de66d3dfcd5ad6f41ce357c",
+   "ok": true,
+   "returned": 55,
+   "totalReported": 55,
+   "pagesReported": 1,
+   "pagination": "first-page-only",
+   "url": "https://hn.algolia.com/api/v1/search_by_date?query=opus-5-5&hitsPerPage=100&numericFilters=created_at_i%3E%3D1792713600"
+  },
+  {
+   "key": "opus-5-5-x-week1-0",
+   "checkedAt": "2026-11-19T12:41:10+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "c924b857b3c80bb1dd50c3d5befecd6340e8e60a39d3ca02d9fa1907b75ea060",
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%5C%22Opus+5.5%5C%22+since%3A2026-10-24+until%3A2026-11-01+-filter%3Aretweets%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Top%22%2C+%22includePromotedContent%22%3A+false%7D"
+  },
+  {
+   "key": "opus-5-5-x-week1-1",
+   "checkedAt": "2026-11-19T12:41:14+00:00",
+   "ok": false,
+   "error": "HTTPError",
+   "status": 404,
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%5C%22Opus+5.5%5C%22+since%3A2026-10-24+until%3A2026-11-01+-filter%3Aretweets%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Top%22%2C+%22includePromotedContent%22%3A+false%2C+%22cursor%22%3A+%22DAACCgACHXfRkKRAJxAKAAMdd9GQpD_Y8AgABAAAAAILAAUAAADwRW1QQzZ3QUFBZlEvZ0dKTjB2R3AvQUFBQUJRZFhvRUFISlp4VngxZGhleExteUc4SFZ2SVVPeFgwQ1VkWGthVHExcUJ5aDFZRGhCMFczQmZIVjliSkJHYkFDb2RYMUtkMTFvaDB4MVlra0xDbXNBbkhWOVRhazliUUZJZFdqQ0xLQmNBNkIxYU80b0pWaEQ2SFZrbGxHamFRVzRkWDRxejhwZlFpUjFmVmNTMFd6QTBIVnFVWk8zYndBa2RYNzgwS1pkZ1ZSMWY1ZDI2V3NGK0hWOW0wNm9YUWN3ZFc1MXhTeHVnVFIxWkpQbk5HcUZQCAAGAAAAAAgABwAAAAAMAAgKAAEdWA4QdFtwXwAAAA%22%7D"
+  },
+  {
+   "key": "opus-5-5-reddit-ClaudeAI-0",
+   "checkedAt": "2026-11-19T12:41:16+00:00",
+   "ok": false,
+   "error": "HTTP Error 422: Unprocessable Entity",
+   "status": 422,
+   "retries": [
+    {
+     "checkedAt": "2026-11-19T12:40:34+00:00",
+     "status": 422,
+     "error": "HTTP Error 422: Unprocessable Entity"
+    },
+    {
+     "checkedAt": "2026-11-19T12:40:45+00:00",
+     "status": 422,
+     "error": "HTTP Error 422: Unprocessable Entity"
+    }
+   ],
+   "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=ClaudeAI&query=Opus+5.5&after=2026-10-23&limit=100&sort=desc"
+  },
+  {
+   "key": "opus-5-5-x-week2-0",
+   "checkedAt": "2026-11-19T12:41:14+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "bfc63e3f6531a58248fea2a32c3c242fbeb4514294135ef8c869ec95c803460b",
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%5C%22Opus+5.5%5C%22+since%3A2026-11-01+until%3A2026-11-09+-filter%3Aretweets%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Top%22%2C+%22includePromotedContent%22%3A+false%7D"
+  },
+  {
+   "key": "opus-5-5-x-week3-0",
+   "checkedAt": "2026-11-19T12:41:14+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "da34e264a96ef9d719ab304bebc788cae9178efd49288c01dc40857833de33b4",
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%5C%22Opus+5.5%5C%22+since%3A2026-11-09+until%3A2026-11-17+-filter%3Aretweets%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Top%22%2C+%22includePromotedContent%22%3A+false%7D"
+  },
+  {
+   "key": "opus-5-5-x-week3-1",
+   "checkedAt": "2026-11-19T12:41:17+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "6b980f929cb9412f4956e8232632c585934a6f1e7dfb741d8d55ce0b2d652e19",
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%5C%22Opus+5.5%5C%22+since%3A2026-11-09+until%3A2026-11-17+-filter%3Aretweets%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Top%22%2C+%22includePromotedContent%22%3A+false%2C+%22cursor%22%3A+%22DAACCgACHXfRlDLAJxAKAAMdd9GUMr_Y8AgABAAAAAILAAUAAADwRW1QQzZ3QUFBZlEvZ0dKTjB2R3AvQUFBQUJRZGNZN2pKOXVSWXgxeTV3T1MycUR1SFd4MGczTFc4VEFkY2F0WU9Wb2hRaDF2V2tkLzJ5SEFIWE1YanN1V2dkb2RhOVNESEZ0UmdoMXdSMk9MbTBGMUhYR01ZR0RYUUlFZGNCTTA3OWJob2gxdnBxRmltcUZ1SFd0a0ljTWJJSklkZEdnSlQ1c0FBeDFxcnRwcGxuQ1BIWFFESzV0YndCNGRiRG1XbjVhQTB4MXJJQlZ4bHVFNkhYQmIwQkhXd2RRZGNSVkNzaHRnWHgxd0VJY2kyNEZxCAAGAAAAAAgABwAAAAAMAAgKAAEdaq7aaZZwjwAAAA%22%7D"
+  },
+  {
+   "key": "opus-5-5-x-week2-1",
+   "checkedAt": "2026-11-19T12:41:17+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "ebab57a952b55b89a06c3727f472acf3f17f16096e8031dde3da01389791d354",
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%5C%22Opus+5.5%5C%22+since%3A2026-11-01+until%3A2026-11-09+-filter%3Aretweets%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Top%22%2C+%22includePromotedContent%22%3A+false%2C+%22cursor%22%3A+%22DAACCgACHXfRlIhAJxAKAAMdd9GUiD_Y8AgABAAAAAILAAUAAADwRW1QQzZ3QUFBZlEvZ0dKTjB2R3AvQUFBQUJRZFlqblBMNWRnOWgxakFJSjUyM0VWSFdFWDZwOFdJUlFkWU9TSlpkclJFeDFrZVJWTEdwSDJIV0lxY3JrYXdYVWRaY0tuK3R0Z3JCMWpCbktKVzVCRUhXUjJjVlRYY0ZNZFlQSHV4aHV4RVIxZ3lDYXZsM0VVSFdIeTJWUFhJQm9kYVRDaFlCc0F5eDFsOHZGSTJ3RXpIV1B1dlpYYmNDMGRZelhUdXh1Z2ZSMW9BUHFabTNGeUhXTXk1MFNXRUxjZFlRaWVFbGR4VngxaDZkTzUyekM1CAAGAAAAAAgABwAAAAAMAAgKAAEdYMgmr5dxFAAAAA%22%7D"
+  },
+  {
+   "key": "opus-5-5-x-week3-2",
+   "checkedAt": "2026-11-19T12:41:23+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "f17e4393033ae25c0e6d66f24310826f04d29109b58fa563f1695d4aa8b9af19",
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%5C%22Opus+5.5%5C%22+since%3A2026-11-09+until%3A2026-11-17+-filter%3Aretweets%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Top%22%2C+%22includePromotedContent%22%3A+false%2C+%22cursor%22%3A+%22DAACCgACHXfRlDLAJxAKAAMdd9GUMr-x4AgABAAAAAILAAUAAAHIRW1QQzZ3QUFBZlEvZ0dKTjB2R3AvQUFBQUNnZGNKVzhLNXRSd0Ixemp3UjZHdkQ3SFhMbkE1TGFvTzRkYnhoeXVOY0J5QjF4dzJxQUdqQTNIWEQwb1R4YXdZY2RhMGhlNnBweDZ4MXpBaHA0VzBEbEhXOWFSMy9iSWNBZGEyUWh3eHNna2gxc2RJTnkxdkV3SFcrbW9XS2FvVzRkY2F0WU9Wb2hRaDF3UjJPTG0wRjFIWE1YanN1V2dkb2RjMm82WmhzUVRoMXpQWmVORnZER0hYUm9DVStiQUFNZGRBTXJtMXZBSGgxcXJ0cHBsbkNQSFdzZ0ZYR1c0VG9kYTVHYmROc0JuQjF5ajhyeldnR3dIVzVvQlVaYTBFTWRjWTdqSjl1Ull4MXdtRUhyRjRHZ0hXekpGZGlYTUd3ZGNZeGdZTmRBZ1IxcjFJTWNXMUdDSFhLNzZPQ1hrTjRkY0JNMDc5YmhvaDF4MDhsUUc1QVpIV3RVT1ZjWGdEVWRjVlNWUDFhQW5SMXhWY2I0V3hEc0hXdzVscCtXZ05NZGNGdlFFZGJCMUIxd1VxUnIycUQvSFhBUWh5TGJnV29kY1JWQ3NodGdYdz09CAAGAAAAAAgABwAAAAEMAAgKAAEda0he6ppx6wAAAA%22%7D"
+  },
+  {
+   "key": "opus-5-5-x-week2-2",
+   "checkedAt": "2026-11-19T12:41:24+00:00",
+   "status": 200,
+   "ok": true,
+   "sha256": "12b068585b45c49929d95625039ca6b5e6d7f41c645860797172a26d3968eb76",
+   "url": "https://twitter.p.xapi.to/graphql/SearchTimeline?variables=%7B%22rawQuery%22%3A+%22%5C%22Opus+5.5%5C%22+since%3A2026-11-01+until%3A2026-11-09+-filter%3Aretweets%22%2C+%22count%22%3A+40%2C+%22querySource%22%3A+%22typed_query%22%2C+%22product%22%3A+%22Top%22%2C+%22includePromotedContent%22%3A+false%2C+%22cursor%22%3A+%22DAACCgACHXfRlIhAJxAKAAMdd9GUiD-x4AgABAAAAAILAAUAAAHIRW1QQzZ3QUFBZlEvZ0dKTjB2R3AvQUFBQUNnZFlLSFdVcHJ4R1IxbzRmYjNXZ0UvSFdJcWNya2F3WFVkWWJLMlpSc3hmQjFrZVJWTEdwSDJIV2hscVgzWGNBb2RZd1p5aVZ1UVJCMWx3cWY2MjJDc0hXUGFVZ0ViTVRvZFlQSHV4aHV4RVIxb3JwVUJWeUVNSFdvZ09JWmJVQXNkYVhSYkV4cXc3QjFoL0NxMVZ0RTFIV2hJbkdlV2dOY2RhQUQ2bVp0eGNoMWpOZE83RzZCOUhXUHV2WlhiY0MwZFlldEIyaFpSTGgxb09uUVBtNEhBSFdIcDA3bmJNTGtkWk9lZStkWUFtaDFoRitxZkZpRVVIV01BZ25uYmNSVWRZam5QTDVkZzloMWc1SWxsMnRFVEhXaU92L21YSUswZGFkSy94aGN3ZFIxbzNYT24xNkV0SFdSMmNWVFhjRk1kYUgybkVsZUF0UjFwTUtGZ0d3RExIV0h5MlZQWElCb2RZTWdtcjVkeEZCMWhybWdpMTJCL0hXQXNmTzBXa040ZFpLK29nZGZRSEIxbDh2Rkkyd0V6SFdNeTUwU1dFTGNkWVFpZUVsZHhWdz09CAAGAAAAAAgABwAAAAEMAAgKAAEdYMgmr5dxFAAAAA%22%7D"
+  },
+  {
+   "key": "opus-5-5-reddit-ClaudeCode-0",
+   "checkedAt": "2026-11-19T12:42:02+00:00",
+   "status": 200,
+   "finalUrl": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=ClaudeCode&query=Opus+5.5&after=2026-10-23&limit=100&sort=desc",
+   "bytes": 458091,
+   "sha256": "edd99abba2516ce30c128d7c7a768134e79e226ef6c96bc3e6a3c30d2812f91c",
+   "ok": true,
+   "pagination": "not-verified",
+   "retries": [
+    {
+     "checkedAt": "2026-11-19T12:41:16+00:00",
+     "status": 422,
+     "error": "HTTP Error 422: Unprocessable Entity"
+    },
+    {
+     "checkedAt": "2026-11-19T12:41:32+00:00",
+     "status": 422,
+     "error": "HTTP Error 422: Unprocessable Entity"
+    }
+   ],
+   "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=ClaudeCode&query=Opus+5.5&after=2026-10-23&limit=100&sort=desc"
+  },
+  {
+   "key": "opus-5-5-reddit-claude-0",
+   "checkedAt": "2026-11-19T12:42:52+00:00",
+   "ok": false,
+   "error": "HTTP Error 429: Too Many Requests",
+   "status": 429,
+   "retries": [
+    {
+     "checkedAt": "2026-11-19T12:42:08+00:00",
+     "status": 422,
+     "error": "HTTP Error 422: Unprocessable Entity"
+    },
+    {
+     "checkedAt": "2026-11-19T12:42:19+00:00",
+     "status": 422,
+     "error": "HTTP Error 422: Unprocessable Entity"
+    }
+   ],
+   "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=claude&query=Opus+5.5&after=2026-10-23&limit=100&sort=desc"
+  },
+  {
+   "key": "opus-5-5-reddit-vibecoding-0",
+   "checkedAt": "2026-11-19T12:43:54+00:00",
+   "ok": false,
+   "error": "HTTP Error 422: Unprocessable Entity",
+   "status": 422,
+   "retries": [
+    {
+     "checkedAt": "2026-11-19T12:42:53+00:00",
+     "status": 422,
+     "error": "HTTP Error 422: Unprocessable Entity"
+    },
+    {
+     "checkedAt": "2026-11-19T12:43:16+00:00",
+     "status": 422,
+     "error": "HTTP Error 422: Unprocessable Entity"
+    }
+   ],
+   "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=vibecoding&query=Opus+5.5&after=2026-10-23&limit=100&sort=desc"
+  },
+  {
+   "key": "opus-5-5-reddit-LocalLLaMA-0",
+   "checkedAt": "2026-11-19T12:44:40+00:00",
+   "ok": false,
+   "error": "HTTP Error 422: Unprocessable Entity",
+   "status": 422,
+   "retries": [
+    {
+     "checkedAt": "2026-11-19T12:43:55+00:00",
+     "status": 429,
+     "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+     "checkedAt": "2026-11-19T12:44:05+00:00",
+     "status": 422,
+     "error": "HTTP Error 422: Unprocessable Entity"
+    }
+   ],
+   "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=LocalLLaMA&query=Opus+5.5&after=2026-10-23&limit=100&sort=desc"
+  }
+ ],
+ "webSearches": [
+  {
+   "query": "\"Fable 5.2\" built November 2026",
+   "operationId": "01a1f3d0-f50b-729d-9fd1-83109e4d0c87",
+   "success": true,
+   "results": [
+    {
+     "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+     "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2"
+    },
+    {
+     "url": "https://lifearchitect.substack.com/p/the-memo-special-edition-claude-fable-24d",
+     "title": "Special edition - Claude Fable 5.2 and Claude Mythos 5.2 - 9/Nov/2026"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=owMtQh_3k4k",
+     "title": "Claude Fable 5.2 read a month of my failed attempts and got it right the first ..."
+    },
+    {
+     "url": "https://platform.claude.com/docs/en/models/fable-5-2/overview",
+     "title": "Claude Fable 5.2 - Claude Platform Docs"
+    },
+    {
+     "url": "https://x.com/claudeai/status/2119867114450268322",
+     "title": "\"Introducing Claude Fable 5.2 and Claude Mythos 5.2, designed to ..."
+    },
+    {
+     "url": "https://www.institutepm.com/knowledge-hub/claude-fable-5-2-for-product-managers",
+     "title": "Claude Fable 5.2 for Product Managers: Faster, Cheaper, and ..."
+    }
+   ],
+   "note": "Search used for discovery; accepted records were checked against original sources."
+  },
+  {
+   "query": "\"GPT-6.2\" (\"built\" OR \"made\" OR \"experiment\") November 2026",
+   "operationId": "01a1f3d4-8570-7318-8954-7a5255830f63",
+   "success": true,
+   "results": [
+    {
+     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+     "title": "Introducing GPT-6.2 Astra and Sol"
+    },
+    {
+     "url": "https://x.com/OpenAI/status/2122750124543926515",
+     "title": "OpenAI"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=mWMrJksUqCY",
+     "title": "GPT-6.2 Astra: 10 INSANE Things It Can Do"
+    },
+    {
+     "url": "https://believemy.com/en/r/gpt-6-2-astra-sol-openai",
+     "title": "GPT-6.2 Astra and Sol: which one to pick when you work alone?"
+    },
+    {
+     "url": "https://plotly.com/blog/gpt-6-2-astra-plotly-data-analytics-bench",
+     "title": "GPT-6.2 Astra Benchmark Results for Data Analysis"
+    },
+    {
+     "url": "https://aihubmix.com/blog/gpt-6-2-sol-vs-gpt-6-2-astra-which-coding-tasks-need-the-4x-flagship",
+     "title": "GPT-6.2 Sol vs GPT-6.2 Astra: which coding tasks need the 4x flagship?"
+    },
+    {
+     "url": "https://www.requesty.ai/blog/gpt-6-2-sol-astra-pricing-benchmarks",
+     "title": "GPT-6.2 Sol and Astra: pricing, benchmarks and reactions"
+    },
+    {
+     "url": "https://cellcog.ai/blog/gpt-6-2-sol/",
+     "title": "GPT-6.2 Sol Is Out at GPT-6.1 Sol's Price"
+    }
+   ],
+   "note": "Search used for discovery; accepted records were checked against original sources."
+  },
+  {
+   "query": "\"Opus 5.5\" \"built\" November 2026",
+   "operationId": "01a1f3d4-856b-7759-98bb-aac99cdbae1a",
+   "success": true,
+   "results": [
+    {
+     "url": "https://shattered.io/claude-opus-5-5-beats-gpt-5-6-sol-benchmark-2026/",
+     "title": "Claude Opus 5.5 Costs 40% Less to Run Than Opus 5 [2026]"
+    },
+    {
+     "url": "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-5-5",
+     "title": "Claude Opus 5.5 system prompts"
+    },
+    {
+     "url": "https://www.instagram.com/p/Ddn7FEeHd97/?hl=en",
+     "title": "Claude Opus 5.5 just launched, and Anthropic is calling it smarter, faster ..."
+    },
+    {
+     "url": "https://explainx.ai/blog/claude-opus-5-5-community-showcase-watermill-jupiter-water-2026",
+     "title": "Opus 5.5 Showcase: 3D Jupiter Site, Watermill, Water (2026)"
+    },
+    {
+     "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+     "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war"
+    },
+    {
+     "url": "https://www.reddit.com/r/TopologyAI/comments/1xl3e36/1_month_of_claude_opus_55_and_227_commits_heres/",
+     "title": "1 Month of Claude Opus 5.5 and 227 commits. Here's what I was able to ..."
+    },
+    {
+     "url": "https://emergent.sh/learn/claude-fable-5-2-vs-opus-5-5",
+     "title": "Claude Fable 5.2 vs Opus 5.5: Which Claude Model to Use?"
+    },
+    {
+     "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+     "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2"
+    }
+   ],
+   "note": "Search used for discovery; accepted records were checked against original sources."
+  },
+  {
+   "query": "\"GPT-6.2\" \"space elevator\" Mollick",
+   "operationId": "01a1f3d6-779a-71d8-a21a-0fb72eba1865",
+   "success": true,
+   "results": [
+    {
+     "url": "https://x.com/emollick/status/2122755693191287009",
+     "title": "Ethan Mollick on X: \"I've been using GPT-6.2 Astra prior to launch & I found ..."
+    },
+    {
+     "url": "https://x.com/emollick/status/2122755693191287009/video/1",
+     "title": "I've been using GPT-6.2 Astra prior to launch & I found it very uneven & weird ..."
+    },
+    {
+     "url": "https://www.linkedin.com/posts/emollick_ive-been-using-gpt-62-astra-prior-to-launch-activity-7528523027421155329-7-rZ",
+     "title": "I've been using GPT-6.2 Astra prior to launch & I found it very uneven & weird ..."
+    },
+    {
+     "url": "https://venturebeat.com/technology/essentially-unusable-openai-launches-gpt-6-2-astra-and-sol-to-negative-reception-from-ai-power-users",
+     "title": "'Essentially unusable': OpenAI launches GPT-6.2 Astra and Sol to ..."
+    }
+   ],
+   "note": "Search used for discovery; accepted records were checked against original sources."
+  }
+ ],
+ "languages": [
+  "English",
+  "Chinese",
+  "Japanese",
+  "Portuguese",
+  "multilingual version queries"
+ ],
+ "candidateCount": 750,
+ "candidateQueueFile": "reports/2026-11-19-candidate-queue.json",
+ "priorDraft": null,
+ "posters": [
+  {
+   "id": "opus55-x-2116957135661945283",
+   "topic": "opus-5-5",
+   "sourcePage": "https://x.com/karpathy/status/2116957135661945283",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "sourceImageUrl": "https://pbs.twimg.com/media/HWDnuuCaIAA__wa.jpg?name=orig",
+   "mediaKind": "image",
+   "sourceVideoUrl": null,
+   "status": 200,
+   "sourceImageSha256": "c58c3b6f8d9e1adc4ee30ab67cdea766fc3c1e0625900f3948e708c5c088d47f",
+   "ok": true,
+   "width": 2482,
+   "height": 1442,
+   "imageSha256": "c58c3b6f8d9e1adc4ee30ab67cdea766fc3c1e0625900f3948e708c5c088d47f",
+   "method": "original-source-image-mirrored-verbatim",
+   "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+   "meanLuma": 189.6,
+   "stdLuma": 91.4
+  },
+  {
+   "id": "opus55-x-2117776295534997818",
+   "topic": "opus-5-5",
+   "sourcePage": "https://x.com/xikhar/status/2117776295534997818",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2117773784031932416/img/nw0HGsqqaB-RV5Il.jpg",
+   "mediaKind": "video",
+   "sourceVideoUrl": "https://video.twimg.com/amplify_video/2117773784031932416/vid/avc1/1920x1080/E3RKqOCTkaGp4dpF.mp4?tag=29",
+   "status": 200,
+   "sourceImageSha256": "247eab773a3610ab2f199d6be25ca428d09efb47921588d66d2a81ffe7cc615d",
+   "ok": true,
+   "width": 1200,
+   "height": 675,
+   "imageSha256": "247eab773a3610ab2f199d6be25ca428d09efb47921588d66d2a81ffe7cc615d",
+   "method": "original-source-image-mirrored-verbatim",
+   "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+   "meanLuma": 104.5,
+   "stdLuma": 52.0
+  },
+  {
+   "id": "opus55-x-2118582485412131107",
+   "topic": "opus-5-5",
+   "sourcePage": "https://x.com/arafune/status/2118582485412131107",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2118581705036763136/img/YsItHCUsJ1DUurwr.jpg",
+   "mediaKind": "video",
+   "sourceVideoUrl": "https://video.twimg.com/amplify_video/2118581705036763136/vid/avc1/1280x720/K27oNPsR4WtKY0hU.mp4?tag=14",
+   "status": 200,
+   "sourceImageSha256": "e6f0d65606fc0f86b3ecb24f9cb036551a311923ee56662d4d22f7653e977763",
+   "ok": true,
+   "width": 1200,
+   "height": 675,
+   "imageSha256": "e6f0d65606fc0f86b3ecb24f9cb036551a311923ee56662d4d22f7653e977763",
+   "method": "original-source-image-mirrored-verbatim",
+   "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+   "meanLuma": 80.3,
+   "stdLuma": 36.6
+  },
+  {
+   "id": "opus55-x-2116192984299344372",
+   "topic": "opus-5-5",
+   "sourcePage": "https://x.com/elvar_official/status/2116192984299344372",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2116192770503135232/img/FB9Kfa2zN7NnvS5r.jpg",
+   "mediaKind": "video",
+   "sourceVideoUrl": "https://video.twimg.com/amplify_video/2116192770503135232/vid/avc1/1920x1080/RpIIUly2HbU7xv1N.mp4?tag=29",
+   "status": 200,
+   "sourceImageSha256": "ccdd589418d022466542a18d9190ff953bb606dd749928526b6cc9181ec9e105",
+   "ok": true,
+   "width": 1200,
+   "height": 675,
+   "imageSha256": "ccdd589418d022466542a18d9190ff953bb606dd749928526b6cc9181ec9e105",
+   "method": "original-source-image-mirrored-verbatim",
+   "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+   "meanLuma": 233.3,
+   "stdLuma": 39.5
+  },
+  {
+   "id": "opus55-x-2119353034165891308",
+   "topic": "opus-5-5",
+   "sourcePage": "https://x.com/chetaslua/status/2119353034165891308",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119352877936459776/img/ND8WS9BfOWj0JHjH.jpg",
+   "mediaKind": "video",
+   "sourceVideoUrl": "https://video.twimg.com/amplify_video/2119352877936459776/vid/avc1/3024x1898/bI-aySRm0fNw335G.mp4?tag=29",
+   "status": 200,
+   "sourceImageSha256": "fe409b9caaf23a48c40e50890f3eba938b4ab5024565e4d03b81a7fa1f61d416",
+   "ok": true,
+   "width": 1200,
+   "height": 753,
+   "imageSha256": "fe409b9caaf23a48c40e50890f3eba938b4ab5024565e4d03b81a7fa1f61d416",
+   "method": "original-source-image-mirrored-verbatim",
+   "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+   "meanLuma": 182.3,
+   "stdLuma": 32.3
+  },
+  {
+   "id": "opus55-x-2122706838005440651",
+   "topic": "opus-5-5",
+   "sourcePage": "https://x.com/AWuhrmann/status/2122706838005440651",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "sourceImageUrl": "https://pbs.twimg.com/media/HXVenmyacAAuPhY.png?name=orig",
+   "mediaKind": "image",
+   "sourceVideoUrl": null,
+   "status": 200,
+   "sourceImageSha256": "e78ba8e51158b01cba58a334adcc437b91127ebd0589d3d90a4238a6b224bc06",
+   "ok": true,
+   "width": 3200,
+   "height": 1800,
+   "imageSha256": "e78ba8e51158b01cba58a334adcc437b91127ebd0589d3d90a4238a6b224bc06",
+   "method": "original-source-image-mirrored-verbatim",
+   "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+   "meanLuma": 240.6,
+   "stdLuma": 44.9
+  },
+  {
+   "id": "opus55-x-2116504653215248436",
+   "topic": "opus-5-5",
+   "sourcePage": "https://x.com/anxuanng/status/2116504653215248436",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2116504473095073792/img/H0M5GfsC2wa9fkht.jpg",
+   "mediaKind": "video",
+   "sourceVideoUrl": "https://video.twimg.com/amplify_video/2116504473095073792/vid/avc1/1920x1080/SVvWH0NPJ1ZBN3ye.mp4?tag=29",
+   "status": 200,
+   "sourceImageSha256": "532a94b040d5b22dfec946b9260806be763ab525b8e5221bfe07797bde52e709",
+   "ok": true,
+   "width": 1200,
+   "height": 675,
+   "imageSha256": "532a94b040d5b22dfec946b9260806be763ab525b8e5221bfe07797bde52e709",
+   "method": "original-source-image-mirrored-verbatim",
+   "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+   "meanLuma": 82.7,
+   "stdLuma": 61.1
+  },
+  {
+   "id": "opus55-x-2122682962647122403",
+   "topic": "opus-5-5",
+   "sourcePage": "https://x.com/xikhar/status/2122682962647122403",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2122681462378139648/img/tOK8vGnGhVJhI0E7.jpg",
+   "mediaKind": "video",
+   "sourceVideoUrl": "https://video.twimg.com/amplify_video/2122681462378139648/vid/avc1/1920x1080/EJ_q3zCQQDr_wK6i.mp4?tag=29",
+   "status": 200,
+   "sourceImageSha256": "dfa451532dc01c47b8971fe4f6650a42bdc51068113a5697da8bd5c58ab2dfb4",
+   "ok": true,
+   "width": 960,
+   "height": 540,
+   "imageSha256": "44decc300a103207d3b15e2a327a49eba5c754a61d5071606a232b593a73685f",
+   "method": "avfoundation-original-video-frame",
+   "relation": "Frame from the original creator video",
+   "meanLuma": 81.3,
+   "stdLuma": 60.6,
+   "sourceVideoSha256": "7badafa234f0acea0c020b9f5e0bca76408741373afea49426523193585328b0",
+   "frameSeconds": 6.0,
+   "requestedFrameSeconds": 6,
+   "prior": false
+  },
+  {
+   "id": "opus55-x-2114762155333689679",
+   "topic": "opus-5-5",
+   "sourcePage": "https://x.com/DilumSanjaya/status/2114762155333689679",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2114760421488123921/img/NpTWibcni2bKtn6_.jpg",
+   "mediaKind": "video",
+   "sourceVideoUrl": "https://video.twimg.com/amplify_video/2114760421488123921/vid/avc1/3456x1990/azhAUUQ739g3C-bN.mp4?tag=29",
+   "status": 200,
+   "sourceImageSha256": "ef67bb8975b95f57c2e51c2d47334ca304927a65f1dd441dcb8707013b80d386",
+   "ok": true,
+   "width": 1200,
+   "height": 691,
+   "imageSha256": "ef67bb8975b95f57c2e51c2d47334ca304927a65f1dd441dcb8707013b80d386",
+   "method": "original-source-image-mirrored-verbatim",
+   "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+   "meanLuma": 218.0,
+   "stdLuma": 60.6
+  },
+  {
+   "id": "opus55-x-2119746949121495303",
+   "topic": "opus-5-5",
+   "sourcePage": "https://x.com/MengTo/status/2119746949121495303",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "sourceImageUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2119746887326863360/pu/img/NfnIBe27R6Z-VmVN.jpg",
+   "mediaKind": "video",
+   "sourceVideoUrl": "https://video.twimg.com/ext_tw_video/2119746887326863360/pu/vid/avc1/1280x720/1la8yvYtVQTccYHp.mp4?tag=12",
+   "status": 200,
+   "sourceImageSha256": "13b6d4715bbb69855a353d1623e763d2dc21ea7f735ccad2de335ce5518000a6",
+   "ok": true,
+   "width": 1200,
+   "height": 675,
+   "imageSha256": "13b6d4715bbb69855a353d1623e763d2dc21ea7f735ccad2de335ce5518000a6",
+   "method": "original-source-image-mirrored-verbatim",
+   "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+   "meanLuma": 74.7,
+   "stdLuma": 53.7
+  },
+  {
+   "id": "opus55-x-2117240315069276186",
+   "topic": "opus-5-5",
+   "sourcePage": "https://x.com/0xwhrrari/status/2117240315069276186",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2117218546799251456/img/x14k2bXWUdv_M3X0.jpg",
+   "mediaKind": "video",
+   "sourceVideoUrl": "https://video.twimg.com/amplify_video/2117218546799251456/vid/avc1/1080x1350/D5i2YQqLFx5kP5Qh.mp4?tag=29",
+   "status": 200,
+   "sourceImageSha256": "9a8bdb90986c730233b2e46d3eb945216c306de0fe9bd5fe1ca44df4467e5f0f",
+   "ok": true,
+   "width": 959,
+   "height": 1199,
+   "imageSha256": "9a8bdb90986c730233b2e46d3eb945216c306de0fe9bd5fe1ca44df4467e5f0f",
+   "method": "original-source-image-mirrored-verbatim",
+   "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+   "meanLuma": 85.0,
+   "stdLuma": 69.9
+  },
+  {
+   "id": "opus55-x-2120248196584648758",
+   "topic": "opus-5-5",
+   "sourcePage": "https://x.com/AlexPi194641/status/2120248196584648758",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120244164918972416/img/KgVL6LxkolOlkLnG.jpg",
+   "mediaKind": "video",
+   "sourceVideoUrl": "https://video.twimg.com/amplify_video/2120244164918972416/vid/avc1/1920x820/Hsk4gbM1Jq5Rg73u.mp4?tag=29",
+   "status": 200,
+   "sourceImageSha256": "db58633a322d893cfa6ec38b112043570ed546573d2cd3a63952311cb156cbe0",
+   "ok": true,
+   "width": 1200,
+   "height": 513,
+   "imageSha256": "db58633a322d893cfa6ec38b112043570ed546573d2cd3a63952311cb156cbe0",
+   "method": "original-source-image-mirrored-verbatim",
+   "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+   "meanLuma": 41.8,
+   "stdLuma": 36.6
+  },
+  {
+   "id": "opus55-x-2116062680121540611",
+   "topic": "opus-5-5",
+   "sourcePage": "https://x.com/rehan_shei/status/2116062680121540611",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2116062497082146816/img/9BAI2-AKf7uafcYG.jpg",
+   "mediaKind": "video",
+   "sourceVideoUrl": "https://video.twimg.com/amplify_video/2116062497082146816/vid/avc1/1920x1080/PAazJQS5-OOBF95y.mp4?tag=29",
+   "status": 200,
+   "sourceImageSha256": "7247a7bc552f370a6c873b98945e9e655152502d9e623323783e885a773358b7",
+   "ok": true,
+   "width": 960,
+   "height": 540,
+   "imageSha256": "6919b88fadf63e5503cfd8f8f4bf175ea00f56802b6c113a22e538d16247bbe7",
+   "method": "avfoundation-original-video-frame",
+   "relation": "Frame from the original creator video",
+   "meanLuma": 16.5,
+   "stdLuma": 47.9,
+   "sourceVideoSha256": "2459b5bc0110f205c7e38acc7088eccb3a8ee91b852aeac72ed84655f9f133aa",
+   "frameSeconds": 6.0,
+   "requestedFrameSeconds": 5,
+   "prior": false
+  },
+  {
+   "id": "opus55-github-tehoro-weather-explorer-web",
+   "topic": "opus-5-5",
+   "sourcePage": "https://github.com/tehoro/weather-explorer-web",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "ok": false,
+   "reason": "No verified task-related poster extracted; cover remains pending."
+  },
+  {
+   "id": "opus55-github-sansnope-marathonrecomp-android",
+   "topic": "opus-5-5",
+   "sourcePage": "https://github.com/SansNope/MarathonRecomp-Android",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "ok": false,
+   "reason": "No verified task-related poster extracted; cover remains pending."
+  },
+  {
+   "id": "opus55-github-starsstreaming-cs146s-learning",
+   "topic": "opus-5-5",
+   "sourcePage": "https://github.com/starsstreaming/CS146S-learning",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "ok": false,
+   "reason": "No verified task-related poster extracted; cover remains pending."
+  },
+  {
+   "id": "opus55-github-viktorkav-uno-com-escada",
+   "topic": "opus-5-5",
+   "sourcePage": "https://github.com/viktorkav/uno-com-escada",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "sourceImageUrl": "https://raw.githubusercontent.com/viktorkav/uno-com-escada/main/.github/screenshots/opus-tv.jpg",
+   "mediaKind": "image",
+   "sourceVideoUrl": null,
+   "status": 200,
+   "sourceImageSha256": "9d04ccca7a062d6c136551fbee591894a1a50f2ae3fc6d9768510157e052fc8a",
+   "ok": true,
+   "width": 1600,
+   "height": 900,
+   "imageSha256": "9d04ccca7a062d6c136551fbee591894a1a50f2ae3fc6d9768510157e052fc8a",
+   "method": "original-source-image-mirrored-verbatim",
+   "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+   "meanLuma": 70.4,
+   "stdLuma": 27.8
+  },
+  {
+   "id": "opus55-github-az9713-fable-5-2-3d-animations",
+   "topic": "opus-5-5",
+   "sourcePage": "https://github.com/az9713/fable-5.2-3d-animations",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "sourceImageUrl": "https://raw.githubusercontent.com/az9713/fable-5.2-3d-animations/main/atlas/posters/soft-clay.jpg",
+   "mediaKind": "image",
+   "sourceVideoUrl": null,
+   "status": 200,
+   "sourceImageSha256": "2d7b048ef2d2428b5e84a060aeb92ac715cc66781d1254c2e8e47517ab4df2f4",
+   "ok": true,
+   "width": 640,
+   "height": 360,
+   "imageSha256": "2d7b048ef2d2428b5e84a060aeb92ac715cc66781d1254c2e8e47517ab4df2f4",
+   "method": "original-source-image-mirrored-verbatim",
+   "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+   "meanLuma": 189.8,
+   "stdLuma": 35.9
+  },
+  {
+   "id": "opus55-reddit-1xxi29c",
+   "topic": "opus-5-5",
+   "sourcePage": "https://www.reddit.com/r/ClaudeCode/comments/1xxi29c/wtf_happened_to_opus_55/",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "ok": false,
+   "reason": "No verified task-related poster extracted; cover remains pending."
+  },
+  {
+   "id": "opus55-reddit-1xxsuug",
+   "topic": "opus-5-5",
+   "sourcePage": "https://www.reddit.com/r/ClaudeCode/comments/1xxsuug/i_built_a_roman_gladiator_management_game_with/",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "sourceImageUrl": "https://external-preview.redd.it/enlyMWluOGN4ejFpMQC7ZH5CLzyDzMX5ztFCtK1YmPhWdluXy33WNAks9RLx.png?auto=webp&s=bbf895cf3b4c100223279256104b6c11e2abb545",
+   "mediaKind": "video",
+   "sourceVideoUrl": null,
+   "status": 200,
+   "sourceImageSha256": "2deab7e5bcbc981dc9e9245d401b25822790a00a541797be80ba6cfcb0fa3f29",
+   "ok": true,
+   "width": 1080,
+   "height": 1920,
+   "imageSha256": "2deab7e5bcbc981dc9e9245d401b25822790a00a541797be80ba6cfcb0fa3f29",
+   "method": "original-source-image-mirrored-verbatim",
+   "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+   "meanLuma": 130.6,
+   "stdLuma": 46.0
+  },
+  {
+   "id": "opus55-reddit-1xzksnb",
+   "topic": "opus-5-5",
+   "sourcePage": "https://www.reddit.com/r/ClaudeCode/comments/1xzksnb/fable_52_vs_opus_55_in_claude_code_same_oneline/",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "sourceImageUrl": "https://external-preview.redd.it/cWpqaGhwcHRsZTJpMU2NWFYh8mjO4xGLQ9Pvs1G8gBIKNtjWUars1LO2zRa8.png?auto=webp&s=11af104056e3ef18ae830f43dd89e1c792420077",
+   "mediaKind": "video",
+   "sourceVideoUrl": null,
+   "status": 200,
+   "sourceImageSha256": "ee027ada1e1be5f9f0f729cb5460aec76f8481136f9e98ad7f37546b42b9e293",
+   "ok": false,
+   "width": 1920,
+   "height": 1080,
+   "imageSha256": "ee027ada1e1be5f9f0f729cb5460aec76f8481136f9e98ad7f37546b42b9e293",
+   "method": "original-source-image-mirrored-verbatim",
+   "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+   "meanLuma": 13.3,
+   "stdLuma": 33.7,
+   "frameError": "RuntimeError: video retrieval incomplete",
+   "prior": false,
+   "reason": "Original cover is a blank comparison player. Full video retrieval timed out; cover pending, original source and media kind retained."
+  },
+  {
+   "id": "opus55-reddit-1xzwzlv",
+   "topic": "opus-5-5",
+   "sourcePage": "https://www.reddit.com/r/ClaudeCode/comments/1xzwzlv/made_x86_windows_emulator_which_runs_age_of/",
+   "checkedAt": "2026-11-19T12:50:29+00:00",
+   "sourceImageUrl": "https://external-preview.redd.it/OXYzd2lnNmEzaDJpMbW-Z2dE9zeNSrtzKgqxSV4yaK2mGZ_oWWbNRFp3tqDE.png?auto=webp&s=be211a74687db1052b1a692504dcabc5e83488c0",
+   "mediaKind": "video",
+   "sourceVideoUrl": "https://v.redd.it/zfoofe2a3h2i1/CMAF_720.mp4?source=fallback",
+   "status": 200,
+   "sourceImageSha256": "76fec08610a281b02618a5496245d96edeaf487a3068315f1ccc7e65663a9323",
+   "ok": true,
+   "width": 960,
+   "height": 720,
+   "imageSha256": "0e21a825fd0e9235461d6a0c4ad857ba58562232aad0c64f0f96c315e1ad7b26",
+   "method": "avfoundation-original-video-frame",
+   "relation": "Frame from the original creator video",
+   "meanLuma": 52.3,
+   "stdLuma": 51.9,
+   "sourceVideoSha256": "ba6e9e1557d328ea1fd922ba801c88eed7b806ccab7cfa26b3cb4a2abc0a0a5f",
+   "frameSeconds": 8.0,
+   "requestedFrameSeconds": 8,
+   "prior": false
+  }
+ ],
+ "historicalEditorialChanges": [],
+ "posterReview": {
+  "checkedAt": "2026-11-19T12:58:26+00:00",
+  "contactSheetsReviewed": true,
+  "sourceVideoFramesReviewed": true,
+  "limitations": "One Reddit source video could not be retrieved within the bounded retry; its blank cover was omitted. Missing extracted media stays pending."
+ }
+}

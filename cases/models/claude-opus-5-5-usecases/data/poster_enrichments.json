@@ -12273,6 +12273,350 @@
     "imageSha256": "b3088286946a46fe44a77b68fe6180575629ccc12d00c287b31c9576baa04615",
     "rights": "External image link; copyright remains with the original owner. Reuse license not independently verified."
    }
+  },
+  {
+   "id": "opus55-x-2116957135661945283",
+   "sourceUrl": "https://x.com/karpathy/status/2116957135661945283",
+   "title_en": "HackerTube: videos recommended by Hacker News",
+   "poster": "assets/case-posters/opus55-x-2116957135661945283.jpg",
+   "mediaKind": "image",
+   "posterEvidence": {
+    "sourcePage": "https://x.com/karpathy/status/2116957135661945283",
+    "sourceImageUrl": "https://pbs.twimg.com/media/HWDnuuCaIAA__wa.jpg?name=orig",
+    "sourceImageSha256": "c58c3b6f8d9e1adc4ee30ab67cdea766fc3c1e0625900f3948e708c5c088d47f",
+    "width": 2482,
+    "height": 1442,
+    "imageSha256": "c58c3b6f8d9e1adc4ee30ab67cdea766fc3c1e0625900f3948e708c5c088d47f",
+    "method": "original-source-image-mirrored-verbatim",
+    "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+    "reviewStatus": "accepted",
+    "checkedAt": "2026-11-19T12:56:33+00:00"
+   }
+  },
+  {
+   "id": "opus55-x-2117776295534997818",
+   "sourceUrl": "https://x.com/xikhar/status/2117776295534997818",
+   "title_en": "A browser game built with a multi-tool workflow",
+   "poster": "assets/case-posters/opus55-x-2117776295534997818.jpg",
+   "mediaKind": "video",
+   "posterEvidence": {
+    "sourcePage": "https://x.com/xikhar/status/2117776295534997818",
+    "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2117773784031932416/img/nw0HGsqqaB-RV5Il.jpg",
+    "sourceVideoUrl": "https://video.twimg.com/amplify_video/2117773784031932416/vid/avc1/1920x1080/E3RKqOCTkaGp4dpF.mp4?tag=29",
+    "sourceImageSha256": "247eab773a3610ab2f199d6be25ca428d09efb47921588d66d2a81ffe7cc615d",
+    "width": 1200,
+    "height": 675,
+    "imageSha256": "247eab773a3610ab2f199d6be25ca428d09efb47921588d66d2a81ffe7cc615d",
+    "method": "original-source-image-mirrored-verbatim",
+    "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+    "reviewStatus": "accepted",
+    "checkedAt": "2026-11-19T12:56:33+00:00"
+   }
+  },
+  {
+   "id": "opus55-x-2118582485412131107",
+   "sourceUrl": "https://x.com/arafune/status/2118582485412131107",
+   "title_en": "A Blender scene with procedural materials",
+   "poster": "assets/case-posters/opus55-x-2118582485412131107.jpg",
+   "mediaKind": "video",
+   "posterEvidence": {
+    "sourcePage": "https://x.com/arafune/status/2118582485412131107",
+    "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2118581705036763136/img/YsItHCUsJ1DUurwr.jpg",
+    "sourceVideoUrl": "https://video.twimg.com/amplify_video/2118581705036763136/vid/avc1/1280x720/K27oNPsR4WtKY0hU.mp4?tag=14",
+    "sourceImageSha256": "e6f0d65606fc0f86b3ecb24f9cb036551a311923ee56662d4d22f7653e977763",
+    "width": 1200,
+    "height": 675,
+    "imageSha256": "e6f0d65606fc0f86b3ecb24f9cb036551a311923ee56662d4d22f7653e977763",
+    "method": "original-source-image-mirrored-verbatim",
+    "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+    "reviewStatus": "accepted",
+    "checkedAt": "2026-11-19T12:56:33+00:00"
+   }
+  },
+  {
+   "id": "opus55-x-2116192984299344372",
+   "sourceUrl": "https://x.com/elvar_official/status/2116192984299344372",
+   "title_en": "Mechanical teardown scenes from a reference image",
+   "poster": "assets/case-posters/opus55-x-2116192984299344372.jpg",
+   "mediaKind": "video",
+   "posterEvidence": {
+    "sourcePage": "https://x.com/elvar_official/status/2116192984299344372",
+    "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2116192770503135232/img/FB9Kfa2zN7NnvS5r.jpg",
+    "sourceVideoUrl": "https://video.twimg.com/amplify_video/2116192770503135232/vid/avc1/1920x1080/RpIIUly2HbU7xv1N.mp4?tag=29",
+    "sourceImageSha256": "ccdd589418d022466542a18d9190ff953bb606dd749928526b6cc9181ec9e105",
+    "width": 1200,
+    "height": 675,
+    "imageSha256": "ccdd589418d022466542a18d9190ff953bb606dd749928526b6cc9181ec9e105",
+    "method": "original-source-image-mirrored-verbatim",
+    "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+    "reviewStatus": "accepted",
+    "checkedAt": "2026-11-19T12:56:33+00:00"
+   }
+  },
+  {
+   "id": "opus55-x-2119353034165891308",
+   "sourceUrl": "https://x.com/chetaslua/status/2119353034165891308",
+   "title_en": "Animated light and dark theme toggles",
+   "poster": "assets/case-posters/opus55-x-2119353034165891308.jpg",
+   "mediaKind": "video",
+   "posterEvidence": {
+    "sourcePage": "https://x.com/chetaslua/status/2119353034165891308",
+    "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2119352877936459776/img/ND8WS9BfOWj0JHjH.jpg",
+    "sourceVideoUrl": "https://video.twimg.com/amplify_video/2119352877936459776/vid/avc1/3024x1898/bI-aySRm0fNw335G.mp4?tag=29",
+    "sourceImageSha256": "fe409b9caaf23a48c40e50890f3eba938b4ab5024565e4d03b81a7fa1f61d416",
+    "width": 1200,
+    "height": 753,
+    "imageSha256": "fe409b9caaf23a48c40e50890f3eba938b4ab5024565e4d03b81a7fa1f61d416",
+    "method": "original-source-image-mirrored-verbatim",
+    "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+    "reviewStatus": "accepted",
+    "checkedAt": "2026-11-19T12:56:33+00:00"
+   }
+  },
+  {
+   "id": "opus55-x-2122706838005440651",
+   "sourceUrl": "https://x.com/AWuhrmann/status/2122706838005440651",
+   "title_en": "Horizon Labs: an autonomous model-publishing experiment",
+   "poster": "assets/case-posters/opus55-x-2122706838005440651.png",
+   "mediaKind": "image",
+   "posterEvidence": {
+    "sourcePage": "https://x.com/AWuhrmann/status/2122706838005440651",
+    "sourceImageUrl": "https://pbs.twimg.com/media/HXVenmyacAAuPhY.png?name=orig",
+    "sourceImageSha256": "e78ba8e51158b01cba58a334adcc437b91127ebd0589d3d90a4238a6b224bc06",
+    "width": 3200,
+    "height": 1800,
+    "imageSha256": "e78ba8e51158b01cba58a334adcc437b91127ebd0589d3d90a4238a6b224bc06",
+    "method": "original-source-image-mirrored-verbatim",
+    "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+    "reviewStatus": "accepted",
+    "checkedAt": "2026-11-19T12:56:33+00:00"
+   }
+  },
+  {
+   "id": "opus55-x-2116504653215248436",
+   "sourceUrl": "https://x.com/anxuanng/status/2116504653215248436",
+   "title_en": "A warehouse built from NVIDIA SimReady assets",
+   "poster": "assets/case-posters/opus55-x-2116504653215248436.jpg",
+   "mediaKind": "video",
+   "posterEvidence": {
+    "sourcePage": "https://x.com/anxuanng/status/2116504653215248436",
+    "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2116504473095073792/img/H0M5GfsC2wa9fkht.jpg",
+    "sourceVideoUrl": "https://video.twimg.com/amplify_video/2116504473095073792/vid/avc1/1920x1080/SVvWH0NPJ1ZBN3ye.mp4?tag=29",
+    "sourceImageSha256": "532a94b040d5b22dfec946b9260806be763ab525b8e5221bfe07797bde52e709",
+    "width": 1200,
+    "height": 675,
+    "imageSha256": "532a94b040d5b22dfec946b9260806be763ab525b8e5221bfe07797bde52e709",
+    "method": "original-source-image-mirrored-verbatim",
+    "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+    "reviewStatus": "accepted",
+    "checkedAt": "2026-11-19T12:56:33+00:00"
+   }
+  },
+  {
+   "id": "opus55-x-2122682962647122403",
+   "sourceUrl": "https://x.com/xikhar/status/2122682962647122403",
+   "title_en": "Papertrails: a pop-up papercraft world",
+   "poster": "assets/case-posters/opus55-x-2122682962647122403.jpg",
+   "mediaKind": "video",
+   "posterEvidence": {
+    "sourcePage": "https://x.com/xikhar/status/2122682962647122403",
+    "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2122681462378139648/img/tOK8vGnGhVJhI0E7.jpg",
+    "sourceVideoUrl": "https://video.twimg.com/amplify_video/2122681462378139648/vid/avc1/1920x1080/EJ_q3zCQQDr_wK6i.mp4?tag=29",
+    "sourceImageSha256": "dfa451532dc01c47b8971fe4f6650a42bdc51068113a5697da8bd5c58ab2dfb4",
+    "width": 960,
+    "height": 540,
+    "imageSha256": "44decc300a103207d3b15e2a327a49eba5c754a61d5071606a232b593a73685f",
+    "method": "avfoundation-original-video-frame",
+    "relation": "Frame from the original creator video",
+    "sourceVideoSha256": "7badafa234f0acea0c020b9f5e0bca76408741373afea49426523193585328b0",
+    "frameSeconds": 6.0,
+    "requestedFrameSeconds": 6,
+    "reviewStatus": "accepted",
+    "checkedAt": "2026-11-19T12:56:33+00:00"
+   }
+  },
+  {
+   "id": "opus55-x-2114762155333689679",
+   "sourceUrl": "https://x.com/DilumSanjaya/status/2114762155333689679",
+   "title_en": "Learning ESP32 one circuit at a time",
+   "poster": "assets/case-posters/opus55-x-2114762155333689679.jpg",
+   "mediaKind": "video",
+   "posterEvidence": {
+    "sourcePage": "https://x.com/DilumSanjaya/status/2114762155333689679",
+    "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2114760421488123921/img/NpTWibcni2bKtn6_.jpg",
+    "sourceVideoUrl": "https://video.twimg.com/amplify_video/2114760421488123921/vid/avc1/3456x1990/azhAUUQ739g3C-bN.mp4?tag=29",
+    "sourceImageSha256": "ef67bb8975b95f57c2e51c2d47334ca304927a65f1dd441dcb8707013b80d386",
+    "width": 1200,
+    "height": 691,
+    "imageSha256": "ef67bb8975b95f57c2e51c2d47334ca304927a65f1dd441dcb8707013b80d386",
+    "method": "original-source-image-mirrored-verbatim",
+    "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+    "reviewStatus": "accepted",
+    "checkedAt": "2026-11-19T12:56:33+00:00"
+   }
+  },
+  {
+   "id": "opus55-x-2119746949121495303",
+   "sourceUrl": "https://x.com/MengTo/status/2119746949121495303",
+   "title_en": "Recreating an apartment for tutorial recordings",
+   "poster": "assets/case-posters/opus55-x-2119746949121495303.jpg",
+   "mediaKind": "video",
+   "posterEvidence": {
+    "sourcePage": "https://x.com/MengTo/status/2119746949121495303",
+    "sourceImageUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2119746887326863360/pu/img/NfnIBe27R6Z-VmVN.jpg",
+    "sourceVideoUrl": "https://video.twimg.com/ext_tw_video/2119746887326863360/pu/vid/avc1/1280x720/1la8yvYtVQTccYHp.mp4?tag=12",
+    "sourceImageSha256": "13b6d4715bbb69855a353d1623e763d2dc21ea7f735ccad2de335ce5518000a6",
+    "width": 1200,
+    "height": 675,
+    "imageSha256": "13b6d4715bbb69855a353d1623e763d2dc21ea7f735ccad2de335ce5518000a6",
+    "method": "original-source-image-mirrored-verbatim",
+    "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+    "reviewStatus": "accepted",
+    "checkedAt": "2026-11-19T12:56:33+00:00"
+   }
+  },
+  {
+   "id": "opus55-x-2117240315069276186",
+   "sourceUrl": "https://x.com/0xwhrrari/status/2117240315069276186",
+   "title_en": "Orchestrating video tools on personal footage",
+   "poster": "assets/case-posters/opus55-x-2117240315069276186.jpg",
+   "mediaKind": "video",
+   "posterEvidence": {
+    "sourcePage": "https://x.com/0xwhrrari/status/2117240315069276186",
+    "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2117218546799251456/img/x14k2bXWUdv_M3X0.jpg",
+    "sourceVideoUrl": "https://video.twimg.com/amplify_video/2117218546799251456/vid/avc1/1080x1350/D5i2YQqLFx5kP5Qh.mp4?tag=29",
+    "sourceImageSha256": "9a8bdb90986c730233b2e46d3eb945216c306de0fe9bd5fe1ca44df4467e5f0f",
+    "width": 959,
+    "height": 1199,
+    "imageSha256": "9a8bdb90986c730233b2e46d3eb945216c306de0fe9bd5fe1ca44df4467e5f0f",
+    "method": "original-source-image-mirrored-verbatim",
+    "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+    "reviewStatus": "accepted",
+    "checkedAt": "2026-11-19T12:56:33+00:00"
+   }
+  },
+  {
+   "id": "opus55-x-2120248196584648758",
+   "sourceUrl": "https://x.com/AlexPi194641/status/2120248196584648758",
+   "title_en": "Iterative direction of a VFX scene",
+   "poster": "assets/case-posters/opus55-x-2120248196584648758.jpg",
+   "mediaKind": "video",
+   "posterEvidence": {
+    "sourcePage": "https://x.com/AlexPi194641/status/2120248196584648758",
+    "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2120244164918972416/img/KgVL6LxkolOlkLnG.jpg",
+    "sourceVideoUrl": "https://video.twimg.com/amplify_video/2120244164918972416/vid/avc1/1920x820/Hsk4gbM1Jq5Rg73u.mp4?tag=29",
+    "sourceImageSha256": "db58633a322d893cfa6ec38b112043570ed546573d2cd3a63952311cb156cbe0",
+    "width": 1200,
+    "height": 513,
+    "imageSha256": "db58633a322d893cfa6ec38b112043570ed546573d2cd3a63952311cb156cbe0",
+    "method": "original-source-image-mirrored-verbatim",
+    "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+    "reviewStatus": "accepted",
+    "checkedAt": "2026-11-19T12:56:33+00:00"
+   }
+  },
+  {
+   "id": "opus55-x-2116062680121540611",
+   "sourceUrl": "https://x.com/rehan_shei/status/2116062680121540611",
+   "title_en": "PixelFX: generating and reviewing pixel effects",
+   "poster": "assets/case-posters/opus55-x-2116062680121540611.jpg",
+   "mediaKind": "video",
+   "posterEvidence": {
+    "sourcePage": "https://x.com/rehan_shei/status/2116062680121540611",
+    "sourceImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2116062497082146816/img/9BAI2-AKf7uafcYG.jpg",
+    "sourceVideoUrl": "https://video.twimg.com/amplify_video/2116062497082146816/vid/avc1/1920x1080/PAazJQS5-OOBF95y.mp4?tag=29",
+    "sourceImageSha256": "7247a7bc552f370a6c873b98945e9e655152502d9e623323783e885a773358b7",
+    "width": 960,
+    "height": 540,
+    "imageSha256": "6919b88fadf63e5503cfd8f8f4bf175ea00f56802b6c113a22e538d16247bbe7",
+    "method": "avfoundation-original-video-frame",
+    "relation": "Frame from the original creator video",
+    "sourceVideoSha256": "2459b5bc0110f205c7e38acc7088eccb3a8ee91b852aeac72ed84655f9f133aa",
+    "frameSeconds": 6.0,
+    "requestedFrameSeconds": 5,
+    "reviewStatus": "accepted",
+    "checkedAt": "2026-11-19T12:56:33+00:00"
+   }
+  },
+  {
+   "id": "opus55-github-viktorkav-uno-com-escada",
+   "sourceUrl": "https://github.com/viktorkav/uno-com-escada",
+   "title_en": "A same-prompt Fiat Uno browser racing test",
+   "poster": "assets/case-posters/opus55-github-viktorkav-uno-com-escada.jpg",
+   "mediaKind": "image",
+   "posterEvidence": {
+    "sourcePage": "https://github.com/viktorkav/uno-com-escada",
+    "sourceImageUrl": "https://raw.githubusercontent.com/viktorkav/uno-com-escada/main/.github/screenshots/opus-tv.jpg",
+    "sourceImageSha256": "9d04ccca7a062d6c136551fbee591894a1a50f2ae3fc6d9768510157e052fc8a",
+    "width": 1600,
+    "height": 900,
+    "imageSha256": "9d04ccca7a062d6c136551fbee591894a1a50f2ae3fc6d9768510157e052fc8a",
+    "method": "original-source-image-mirrored-verbatim",
+    "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+    "reviewStatus": "accepted",
+    "checkedAt": "2026-11-19T12:56:33+00:00"
+   }
+  },
+  {
+   "id": "opus55-github-az9713-fable-5-2-3d-animations",
+   "sourceUrl": "https://github.com/az9713/fable-5.2-3d-animations",
+   "title_en": "3D Style Atlas: implementing 100 animation styles",
+   "poster": "assets/case-posters/opus55-github-az9713-fable-5-2-3d-animations.jpg",
+   "mediaKind": "image",
+   "posterEvidence": {
+    "sourcePage": "https://github.com/az9713/fable-5.2-3d-animations",
+    "sourceImageUrl": "https://raw.githubusercontent.com/az9713/fable-5.2-3d-animations/main/atlas/posters/soft-clay.jpg",
+    "sourceImageSha256": "2d7b048ef2d2428b5e84a060aeb92ac715cc66781d1254c2e8e47517ab4df2f4",
+    "width": 640,
+    "height": 360,
+    "imageSha256": "2d7b048ef2d2428b5e84a060aeb92ac715cc66781d1254c2e8e47517ab4df2f4",
+    "method": "original-source-image-mirrored-verbatim",
+    "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+    "reviewStatus": "accepted",
+    "checkedAt": "2026-11-19T12:56:33+00:00"
+   }
+  },
+  {
+   "id": "opus55-reddit-1xxsuug",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xxsuug/i_built_a_roman_gladiator_management_game_with/",
+   "title_en": "City of Gladiators: a management game",
+   "poster": "assets/case-posters/opus55-reddit-1xxsuug.png",
+   "mediaKind": "video",
+   "posterEvidence": {
+    "sourcePage": "https://www.reddit.com/r/ClaudeCode/comments/1xxsuug/i_built_a_roman_gladiator_management_game_with/",
+    "sourceImageUrl": "https://external-preview.redd.it/enlyMWluOGN4ejFpMQC7ZH5CLzyDzMX5ztFCtK1YmPhWdluXy33WNAks9RLx.png?auto=webp&s=bbf895cf3b4c100223279256104b6c11e2abb545",
+    "sourceImageSha256": "2deab7e5bcbc981dc9e9245d401b25822790a00a541797be80ba6cfcb0fa3f29",
+    "width": 1080,
+    "height": 1920,
+    "imageSha256": "2deab7e5bcbc981dc9e9245d401b25822790a00a541797be80ba6cfcb0fa3f29",
+    "method": "original-source-image-mirrored-verbatim",
+    "relation": "Original post attachment, project screenshot, or primary benchmark figure",
+    "reviewStatus": "accepted",
+    "checkedAt": "2026-11-19T12:56:33+00:00"
+   }
+  },
+  {
+   "id": "opus55-reddit-1xzwzlv",
+   "sourceUrl": "https://www.reddit.com/r/ClaudeCode/comments/1xzwzlv/made_x86_windows_emulator_which_runs_age_of/",
+   "title_en": "Berry Wine: running Windows games in the browser",
+   "poster": "assets/case-posters/opus55-reddit-1xzwzlv.jpg",
+   "mediaKind": "video",
+   "posterEvidence": {
+    "sourcePage": "https://www.reddit.com/r/ClaudeCode/comments/1xzwzlv/made_x86_windows_emulator_which_runs_age_of/",
+    "sourceImageUrl": "https://external-preview.redd.it/OXYzd2lnNmEzaDJpMbW-Z2dE9zeNSrtzKgqxSV4yaK2mGZ_oWWbNRFp3tqDE.png?auto=webp&s=be211a74687db1052b1a692504dcabc5e83488c0",
+    "sourceVideoUrl": "https://v.redd.it/zfoofe2a3h2i1/CMAF_720.mp4?source=fallback",
+    "sourceImageSha256": "76fec08610a281b02618a5496245d96edeaf487a3068315f1ccc7e65663a9323",
+    "width": 960,
+    "height": 720,
+    "imageSha256": "0e21a825fd0e9235461d6a0c4ad857ba58562232aad0c64f0f96c315e1ad7b26",
+    "method": "avfoundation-original-video-frame",
+    "relation": "Frame from the original creator video",
+    "sourceVideoSha256": "ba6e9e1557d328ea1fd922ba801c88eed7b806ccab7cfa26b3cb4a2abc0a0a5f",
+    "frameSeconds": 8.0,
+    "requestedFrameSeconds": 8,
+    "reviewStatus": "accepted",
+    "checkedAt": "2026-11-19T12:56:33+00:00"
+   }
   }
  ]
 }

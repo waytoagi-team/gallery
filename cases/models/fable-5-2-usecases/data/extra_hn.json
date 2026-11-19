@@ -58,5 +58,28 @@
         "url": "https://gregorywieber.com/indy/"
       }
     ]
+  },
+  {
+    "id": "fable52-hn-50504061",
+    "title": "开发者报告 xhigh 长任务的额度消耗",
+    "title_en": "A developer reports quota use on xhigh",
+    "summary": "HN 作者分享 Fable 5.2 xhigh 运行一至两小时后耗尽周额度的经历，并讨论回退模型的体验。属于特定订阅与任务条件下的个人反馈。",
+    "summary_en": "An HN participant reports exhausting a weekly allowance after one to two hours on Fable 5.2 xhigh and discusses fallback behavior. This is an individual account under specific usage conditions.",
+    "category": "coding",
+    "platform": "Hacker News",
+    "sourceUrl": "https://news.ycombinator.com/item?id=50504061",
+    "author": "xlayn",
+    "date": "2026-11-15",
+    "evidenceType": "限制",
+    "checkedAt": "2026-11-19T12:46:52+00:00",
+    "evidenceUrl": "https://news.ycombinator.com/item?id=50504061",
+    "evidenceBasis": "已读取 Hacker News API 原帖全文、积分与评论数，作者明确实测对比 Fable 5.2 xhigh 与 5.1 额度表现。",
+    "modelAttribution": {
+      "topicId": "fable-5-2",
+      "basis": "explicit-source",
+      "role": "xhigh 档位额度消耗速度实测争议"
+    },
+    "comments": 8,
+    "metricsCheckedAt": "2026-11-18T06:15:00+00:00"
   }
 ]
