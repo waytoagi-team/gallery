@@ -10,11 +10,11 @@
  "lastMultiSourceRefreshAt": "2026-11-19T12:56:50+00:00",
  "previousReport": "data/refresh_history/2026-11-19-before-refresh.json",
  "previousCaseCount": 10,
- "caseCount": 25,
- "reviewedNewExtras": 15,
+ "caseCount": 24,
+ "reviewedNewExtras": 14,
  "newCasesByPlatform": {
   "X": 8,
-  "GitHub": 6,
+  "GitHub": 5,
   "Web": 1
  },
  "coverage": {
@@ -23,9 +23,9 @@
   "configuredSourcesSucceeded": 6,
   "configuredDiscoveryCandidates": 85,
   "supplementalCandidates": 321,
-  "reviewedAccepted": 15,
+  "reviewedAccepted": 14,
   "partial": true,
-  "backfilled": 3
+  "backfilled": 0
  },
  "metrics": {
   "refreshedAt": "2026-11-19T12:39:28+00:00",
@@ -56,8 +56,8 @@
   "note": "Counts cover the refresh input, including the unpublished Nov18 staging batch for Fable 5.2; excluded drafts were subsequently removed. New Nov19 records carry their own source-check timestamps."
  },
  "posters": {
-  "total": 22,
-  "local": 22,
+  "total": 21,
+  "local": 21,
   "missing": 3
  },
  "limitations": [
@@ -65,7 +65,8 @@
   "X 部分搜索分页返回 404；Bilibili 本轮补充搜索返回 412，未绕过访问限制。已复审 Nov18 的可核实视频证据。",
   "Reddit 存档部分请求在重试后仍返回 422/429 或网络错误，且可能返回时间窗外记录；保留原发布时间并标记补录。",
   "原作者公布的耗时、费用、质量和效果未独立复现；视频描述、附件与抽帧不等于完整观看全部视频。",
-  "历史指标读取失败或 GitHub 对象身份不匹配时保留旧值和原时间戳；无有效新结果不归零。"
+  "历史指标读取失败或 GitHub 对象身份不匹配时保留旧值和原时间戳；无有效新结果不归零。",
+  "一个模型归属早于正式发布日期的仓库留待核实；另一个项目的模型参与日期未确认，日期留空。"
  ],
  "fetchReceiptFile": "data/refresh_history/2026-11-19-fetches.json",
  "reviewFile": "reports/2026-11-19-review.json",

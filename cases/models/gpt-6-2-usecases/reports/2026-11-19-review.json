@@ -2,11 +2,11 @@
  "checkedAt": "2026-11-19T12:56:50+00:00",
  "topicId": "gpt-6-2",
  "previousPublishedCount": 10,
- "caseCount": 25,
- "addedCount": 15,
+ "caseCount": 24,
+ "addedCount": 14,
  "addedByPlatform": {
   "X": 8,
-  "GitHub": 6,
+  "GitHub": 5,
   "Web": 1
  },
  "addedCaseIds": [
@@ -22,7 +22,6 @@
   "gpt62-github-sam1983aing-ogive-watch-film",
   "gpt62-github-deathdadev-mossbound-giant",
   "gpt62-github-callas157-arch-install",
-  "gpt62-github-anking8704-ai-bridge-contest-ep9",
   "gpt62-github-zht1235456-three-js-hexacopter-by-gpt-6-2-astra",
   "gpt62-web-plotly-data-analytics"
  ],
@@ -120,7 +119,7 @@
    "id": "gpt62-github-viktorkav-uno-com-escada",
    "sourceUrl": "https://github.com/viktorkav/uno-com-escada",
    "author": "viktorkav",
-   "date": "2026-11-16",
+   "date": "2026-11-18",
    "evidenceUrl": "https://github.com/viktorkav/uno-com-escada/blob/main/README.md",
    "evidenceSha256": "8bcfd13b0fd5cab73e0c6a2ba61968f65b63384411bb95e011f3a834da43debf",
    "decision": "accepted",
@@ -153,7 +152,7 @@
    "id": "gpt62-github-callas157-arch-install",
    "sourceUrl": "https://github.com/Callas157/arch-install",
    "author": "Callas157",
-   "date": "2026-11-06",
+   "date": null,
    "evidenceUrl": "https://github.com/Callas157/arch-install/blob/main/README.md",
    "evidenceSha256": "0fcde6782435279ff38923ab6ad1ab4225a2e53acdd77241138241d4c698b76c",
    "decision": "accepted",
@@ -167,9 +166,9 @@
    "date": "2026-11-11",
    "evidenceUrl": "https://github.com/Anking8704/ai-bridge-contest-ep9/blob/main/README.md",
    "evidenceSha256": "f47abd84e925918ad61b544cad2958cbf4c8e8e827c8d69aa08047f43a5ecbdd",
-   "decision": "accepted",
-   "reason": "作者记录 GPT-6.2 Astra 极高推理生成的造桥方案、源码与截图，明确成绩来自本地官方引擎测试，而非线上官方赛事排名。",
-   "posterStatus": "accepted"
+   "decision": "pending-editorial-review",
+   "reason": "README commit is dated 2026-11-11, before the configured 2026-11-17 model release. Attribution timeline needs independent clarification; not imported.",
+   "posterStatus": "not-imported"
   },
   {
    "id": "gpt62-github-zht1235456-three-js-hexacopter-by-gpt-6-2-astra",
@@ -842,25 +841,6 @@
    "checkedAt": "2026-11-19T12:50:29+00:00",
    "ok": false,
    "reason": "No verified task-related poster extracted; cover remains pending."
-  },
-  {
-   "id": "gpt62-github-anking8704-ai-bridge-contest-ep9",
-   "topic": "gpt-6-2",
-   "sourcePage": "https://github.com/Anking8704/ai-bridge-contest-ep9",
-   "checkedAt": "2026-11-19T12:50:29+00:00",
-   "sourceImageUrl": "https://raw.githubusercontent.com/Anking8704/ai-bridge-contest-ep9/main/images/level6-ship.png",
-   "mediaKind": "image",
-   "sourceVideoUrl": null,
-   "status": 200,
-   "sourceImageSha256": "9edd79b78c949e7993de9172b41ed26dddd88c3a0489f42133092703c3d72ea9",
-   "ok": true,
-   "width": 1387,
-   "height": 762,
-   "imageSha256": "9edd79b78c949e7993de9172b41ed26dddd88c3a0489f42133092703c3d72ea9",
-   "method": "original-source-image-mirrored-verbatim",
-   "relation": "Original post attachment, project screenshot, or primary benchmark figure",
-   "meanLuma": 67.2,
-   "stdLuma": 56.6
   },
   {
    "id": "gpt62-github-zht1235456-three-js-hexacopter-by-gpt-6-2-astra",

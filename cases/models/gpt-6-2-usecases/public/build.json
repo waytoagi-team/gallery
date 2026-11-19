@@ -2,12 +2,11 @@
   "schemaVersion": 1,
   "topicId": "gpt-6-2",
   "publicPath": "/usecase-atlas/gpt6-2/",
-  "caseCount": 25,
+  "caseCount": 24,
   "files": {
     "assets/case-posters/ai-game-duel.webp": "21acb02adda788c634ae299fb8cb1cfbc67fd3d5dc42ec04703b4b93b5dda51a",
     "assets/case-posters/blackburn-flight.webp": "b08b71f5b675cdf182a0477d9cd76fdf8f45cbe7ef7dad63a8c763fef603d4c4",
     "assets/case-posters/flying-anglia.webp": "2252e86f20cf49b16cf1cde73e0f2615520aeb5c474b402422849bbb1dfe3fbb",
-    "assets/case-posters/gpt62-github-anking8704-ai-bridge-contest-ep9.jpg": "9edd79b78c949e7993de9172b41ed26dddd88c3a0489f42133092703c3d72ea9",
     "assets/case-posters/gpt62-github-deathdadev-mossbound-giant.jpg": "d3cf5b4943429bb30ae3048879cb5e1fd252ae68e1c49f075c68ce9e516b8f12",
     "assets/case-posters/gpt62-github-sam1983aing-ogive-watch-film.png": "ea35cccaac36d8a3abd60c7b9cba4fd910bed05b4864d9c7c2c8b4c1b48060f8",
     "assets/case-posters/gpt62-github-viktorkav-uno-com-escada.jpg": "75520056c18ae5cbe42b07e925cad82d764656165bbbf88b1bb2b4d337e14f72",
@@ -26,9 +25,9 @@
     "assets/case-posters/mechanical-bee.webp": "66f44eba2fc210dd346f1f53bc7f84f1a4d11daa29e54ed00a05bc5985f5ce9d",
     "assets/case-posters/wallpaper-for-gundam-unicorn-pilot-screen.webp": "833e1f788e475f7b1ab74df84e601cf4a4390c278466217bf64e95fe57337f19",
     "assets/case-posters/weight-space-programming-experiment.webp": "d016767f9681c9954d487bc3ec592f784a8e33fde8ace21d72ed1a6464e7a442",
-    "assets/og-image.png": "b87e4b7186e83586405d6e3f710e25398ee430b99dd1acfbf404c49b6bc3c922",
-    "data/all_cases.csv": "97f934577454140d34316b6c3cfcc6d440ea5b34cc5cea3e111de02f1070434f",
-    "data/all_cases.json": "14d7fd2f171f1ab618981c84aec519b73ca06637263e746b70befb5bc4e43696",
-    "index.html": "1146590233df080fb96b46177c699377263f83a35dc7b6e81f1320c6919bf7b6"
+    "assets/og-image.png": "81e1bd7dabe08960e7bca8bb90030eae6c79f3f4a1844da90cf3142333fbd72f",
+    "data/all_cases.csv": "a58187b6e80d73b7c157d6bdbf141930a6aacdecb5f96140f7f007fd1a330463",
+    "data/all_cases.json": "be1deddf1afecff4ade7ec6c88dfa62729190294c5fa187828ff9b9c3a3075aa",
+    "index.html": "444cb161a9a89a86a97cf275b56b47db953e1cae1fca89f734542931b69f2923"
   }
 }

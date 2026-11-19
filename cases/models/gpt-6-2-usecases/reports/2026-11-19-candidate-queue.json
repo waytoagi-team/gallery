@@ -1,8 +1,8 @@
 {
  "checkedAt": "2026-11-19T12:56:50+00:00",
  "statusCounts": {
-  "pending-editorial-review": 308,
-  "accepted": 13
+  "pending-editorial-review": 309,
+  "accepted": 12
  },
  "candidates": [
   {
@@ -220,7 +220,7 @@
    "sourceUrl": "https://github.com/Anking8704/ai-bridge-contest-ep9",
    "author": "Anking8704",
    "date": "2026-11-11",
-   "status": "accepted"
+   "status": "pending-editorial-review"
   },
   {
    "platform": "github",

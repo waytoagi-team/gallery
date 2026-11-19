@@ -58,10 +58,10 @@
     "en": "Computer Use"
    }
   },
-  "count": 25,
+  "count": 24,
   "added": {
    "x": 8,
-   "github": 15,
+   "github": 14,
    "web": 2
   },
   "asOf": "2026-11-19",
@@ -825,7 +825,7 @@
    "summary_en": "The creator publishes separate Fable 5.2, Opus 5.5 and GPT-6.2 Astra WebGPU racing builds with prompts and comparisons. Later menu and sound work is separately attributed to Fable.",
    "author": "viktorkav",
    "sourceUrl": "https://github.com/viktorkav/uno-com-escada",
-   "date": "2026-11-16",
+   "date": "2026-11-18",
    "likes": null,
    "bookmarks": null,
    "stars": 136,
@@ -834,13 +834,18 @@
    "poster": "assets/case-posters/gpt62-github-viktorkav-uno-com-escada.jpg",
    "checkedAt": "2026-11-19T12:49:49+00:00",
    "evidenceUrl": "https://github.com/viktorkav/uno-com-escada/blob/main/README.md",
-   "evidenceBasis": "作者公开 Fable 5.2、Opus 5.5 与 GPT-6.2 Astra 三份单文件 WebGPU 赛车，附提示词、试玩和结果说明；后续菜单与声音改动另由 Fable 处理。",
+   "evidenceBasis": "作者公开 Fable 5.2、Opus 5.5 与 GPT-6.2 Astra 三份单文件 WebGPU 赛车，附提示词、试玩和结果说明；后续菜单与声音改动另由 Fable 处理。 模型版本加入时间取 2026-11-18 的明确提交，而非仓库创建日。",
    "metricsCheckedAt": "2026-11-19T12:47:31+00:00",
    "resources": [
     {
      "label": "作者项目页",
      "label_en": "Creator project page",
      "url": "https://viktorkav.com.br/apoio/uno-com-escada/"
+    },
+    {
+     "label": "Astra 版本首次加入的提交",
+     "label_en": "Commit introducing the Astra version",
+     "url": "https://github.com/viktorkav/uno-com-escada/commit/8c4a7a802494"
     }
    ],
    "githubKind": "repository",
@@ -967,7 +972,7 @@
    "summary_en": "The owner credits GPT-6.2 Sol in Codex with assisting an Arch Linux and KDE Plasma setup project for Portuguese-language desktop and gaming use. No installation was performed in this review.",
    "author": "Callas157",
    "sourceUrl": "https://github.com/Callas157/arch-install",
-   "date": "2026-11-06",
+   "date": null,
    "likes": null,
    "bookmarks": null,
    "stars": 2,
@@ -976,56 +981,13 @@
    "poster": null,
    "checkedAt": "2026-11-19T12:49:49+00:00",
    "evidenceUrl": "https://github.com/Callas157/arch-install/blob/main/README.md",
-   "evidenceBasis": "仓库作者明确说明借助 Codex 中的 GPT-6.2 Sol 开发 Arch Linux 与 KDE Plasma 安装配置项目，面向葡语桌面与游戏场景；未在本轮执行安装。",
+   "evidenceBasis": "仓库作者明确说明借助 Codex 中的 GPT-6.2 Sol 开发 Arch Linux 与 KDE Plasma 安装配置项目，面向葡语桌面与游戏场景；未在本轮执行安装。 仓库创建时间早于此模型发布，不代表模型参与日期；具体参与日期未确认，留空。",
    "metricsCheckedAt": "2026-11-19T12:47:31+00:00",
    "githubKind": "repository",
    "modelAttribution": {
     "topicId": "gpt-6-2",
     "basis": "explicit-source",
     "role": "Callas OS: Arch Linux setup and configuration"
-   }
-  },
-  {
-   "id": "gpt62-github-anking8704-ai-bridge-contest-ep9",
-   "source": "github",
-   "platform": "GitHub",
-   "category": "science",
-   "evidenceType": "评测",
-   "evidenceType_en": "Evaluation",
-   "title": "造桥比赛：六关方案与本地验证",
-   "title_en": "Bridge-building solutions with local verification",
-   "summary": "作者记录 GPT-6.2 Astra 极高推理生成的造桥方案、源码与截图，明确成绩来自本地官方引擎测试，而非线上官方赛事排名。",
-   "summary_en": "The creator publishes GPT-6.2 Astra bridge solutions and screenshots, explicitly distinguishing local official-engine results from live competition rankings.",
-   "author": "Anking8704",
-   "sourceUrl": "https://github.com/Anking8704/ai-bridge-contest-ep9",
-   "date": "2026-11-11",
-   "likes": null,
-   "bookmarks": null,
-   "stars": 0,
-   "views": null,
-   "mediaKind": "image",
-   "poster": "assets/case-posters/gpt62-github-anking8704-ai-bridge-contest-ep9.jpg",
-   "checkedAt": "2026-11-19T12:49:49+00:00",
-   "evidenceUrl": "https://github.com/Anking8704/ai-bridge-contest-ep9/blob/main/README.md",
-   "evidenceBasis": "作者记录 GPT-6.2 Astra 极高推理生成的造桥方案、源码与截图，明确成绩来自本地官方引擎测试，而非线上官方赛事排名。",
-   "metricsCheckedAt": "2026-11-19T12:47:31+00:00",
-   "githubKind": "repository",
-   "modelAttribution": {
-    "topicId": "gpt-6-2",
-    "basis": "explicit-source",
-    "role": "Bridge-building solutions with local verification"
-   },
-   "posterEvidence": {
-    "sourcePage": "https://github.com/Anking8704/ai-bridge-contest-ep9",
-    "sourceImageUrl": "https://raw.githubusercontent.com/Anking8704/ai-bridge-contest-ep9/main/images/level6-ship.png",
-    "sourceImageSha256": "9edd79b78c949e7993de9172b41ed26dddd88c3a0489f42133092703c3d72ea9",
-    "width": 1387,
-    "height": 762,
-    "imageSha256": "9edd79b78c949e7993de9172b41ed26dddd88c3a0489f42133092703c3d72ea9",
-    "method": "original-source-image-mirrored-verbatim",
-    "relation": "Original post attachment, project screenshot, or primary benchmark figure",
-    "reviewStatus": "accepted",
-    "checkedAt": "2026-11-19T12:56:33+00:00"
    }
   },
   {
